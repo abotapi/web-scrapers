@@ -1,0 +1,120 @@
+[
+  {
+    "kind": "item",
+    "recordId": "id83947682",
+    "itemId": "id29512937",
+    "url": "https://www.flashfood.com/example/91849",
+    "title": "Example title",
+    "price": 1.22,
+    "originalPrice": 3,
+    "discountPercent": 38,
+    "currency": "CAD",
+    "quantityAvailable": 9,
+    "bestBefore": "2026-01-15T10:00:00Z",
+    "department": "Example department",
+    "legacyDepartment": "Example legacy department",
+    "imageUrl": "https://img.flashfood.com/example/58808.jpg",
+    "imageGallery": [
+      "https://img.flashfood.com/example/23380.jpg"
+    ],
+    "listedAt": "2026-01-15T10:00:00Z",
+    "isSnapEligible": false,
+    "storageTreatment": "NONE",
+    "raw": {
+      "bestBeforeDate": 3536025727,
+      "department": [
+        {
+          "locale": "en-US",
+          "name": "Example name"
+        },
+        {
+          "locale": "fr-CA",
+          "name": "Example name"
+        }
+      ],
+      "id": "id1207803",
+      "imageGallery": [
+        "https://img.flashfood.com/example/23380.jpg"
+      ],
+      "inTime": "2026-01-15T10:00:00Z",
+      "legacyDepartment": "Example legacy department",
+      "name": "Example name",
+      "originalPrice": "5",
+      "price": "7.1",
+      "quantityAvailable": 9,
+      "storeId": "id13380533",
+      "imageUrl": "https://img.flashfood.com/example/58808.jpg",
+      "isSnapEligible": false,
+      "storageTreatment": "NONE"
+    },
+    "storeId": "id13380533",
+    "storeName": "Example store name",
+    "banner": "Example banner",
+    "street": "Example street",
+    "city": "Windsor",
+    "stateCode": "ON",
+    "country": "Canada",
+    "countryCode": "CA",
+    "latitude": 37.67,
+    "longitude": -104.57
+  },
+  {
+    "kind": "item",
+    "recordId": "id4194805",
+    "itemId": "id93115192",
+    "url": "https://www.flashfood.com/example/66044",
+    "title": "Example title",
+    "price": 1.24,
+    "originalPrice": 8,
+    "discountPercent": 39,
+    "currency": "CAD",
+    "quantityAvailable": 6,
+    "bestBefore": "2026-01-15T10:00:00Z",
+    "department": "Example department",
+    "legacyDepartment": "Example legacy department",
+    "imageUrl": "https://img.flashfood.com/example/34809.jpg",
+    "imageGallery": [
+      "https://img.flashfood.com/example/58883.jpg"
+    ],
+    "listedAt": "2026-01-15T10:00:00Z",
+    "isSnapEligible": false,
+    "storageTreatment": "NONE",
+    "raw": {
+      "bestBeforeDate": 8234868419,
+      "department": [
+        {
+          "locale": "en-US",
+          "name": "Example name"
+        },
+        {
+          "locale": "fr-CA",
+          "name": "Example name"
+        }
+      ],
+      "id": "id11962065",
+      "imageGallery": [
+        "https://img.flashfood.com/example/58883.jpg"
+      ],
+      "inTime": "2026-01-15T10:00:00Z",
+      "legacyDepartment": "Example legacy department",
+      "name": "Example name",
+      "originalPrice": "7",
+      "price": "6.4",
+      "quantityAvailable": 6,
+      "storeId": "id44634995",
+      "imageUrl": "https://img.flashfood.com/example/34809.jpg",
+      "isSnapEligible": false,
+      "storageTreatment": "NONE"
+    },
+    "storeId": "id44634995",
+    "storeName": "Example store name",
+    "banner": "Example banner",
+    "street": "Example street",
+    "city": "Windsor",
+    "stateCode": "ON",
+    "country": "Canada",
+    "countryCode": "CA",
+    "latitude": 34.71,
+    "longitude": -60.58
+  }
+]

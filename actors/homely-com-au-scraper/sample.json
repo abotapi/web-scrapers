@@ -1,0 +1,92 @@
+[
+  {
+    "mode": "buy",
+    "id": 91834810,
+    "uri": "id28899741",
+    "url": "https://www.homely.com.au/example/56359",
+    "title": "Example title",
+    "statusType": "available",
+    "listingType": "sale",
+    "propertyType": "Apartment",
+    "tierType": "basic",
+    "isExclusiveList": false,
+    "isUnderOffer": false,
+    "daysOnMarket": "Example days on market",
+    "daysOnHomely": 3,
+    "isNew": true,
+    "price": {
+      "display": "Example display",
+      "short": null
+    },
+    "priceValue": 9972769,
+    "address": {
+      "streetAddress": "Example street address",
+      "longAddress": "Example long address"
+    },
+    "location": {
+      "address": "Example address",
+      "isHidden": false,
+      "latitude": -28.47,
+      "longitude": 113.45
+    },
+    "features": {
+      "bedrooms": 2,
+      "bathrooms": 1,
+      "cars": 8
+    },
+    "featureTags": [
+      "airConditioning",
+      "balcony"
+    ],
+    "agents": [
+      {
+        "id": 934810,
+        "name": "Example name",
+        "phone": "+1 555 0100",
+        "mobile": "+1 555 0100",
+        "email": null
+      },
+      {
+        "id": 8622459,
+        "name": "Example name",
+        "phone": "+1 555 0100",
+        "mobile": "+1 555 0100",
+        "email": null
+      }
+    ],
+    "office": {
+      "id": 34810,
+      "name": "Example name"
+    },
+    "images": [
+      "https://www.homely.com.au/example/23394.jpg",
+      "https://www.homely.com.au/example/65761.jpg"
+    ],
+    "videos": [],
+    "externalLinks": [],
+    "inspections": [
+      {
+        "startsOn": "2026-01-15T10:00:00Z",
+        "endsOn": null
+      },
+      {
+        "startsOn": "2026-01-15T10:00:00Z",
+        "endsOn": null
+      }
+    ],
+    "auction": null,
+    "landFeatures": null,
+    "slugs": {
+      "suburbUri": "Example suburb uri",
+      "suburbSlug": "id27798670"
+    },
+    "nextInspection": "Example next inspection",
+    "soldOn": null,
+    "soldPrice": "Example sold price",
+    "soldPriceValue": null,
+    "auctionOn": null,
+    "loanPriceEstimate": 1891813,
+    "sourceUrl": "https://www.homely.com.au/example/41416",
+    "scrapedAt": "2026-01-15T10:00:00Z"
+  }
+]

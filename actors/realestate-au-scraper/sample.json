@@ -1,0 +1,276 @@
+[
+  {
+    "propertyId": "216435701",
+    "url": "https://www.realestate.com.au/example/41457",
+    "listingType": "buy",
+    "propertyType": "apartment",
+    "status": {
+      "label": "Example label",
+      "type": "new_listing"
+    },
+    "address": {
+      "street": "Example street",
+      "suburb": "Example suburb",
+      "state": "NSW",
+      "postcode": "1565",
+      "full": "Example full"
+    },
+    "coordinates": {
+      "latitude": -27.42,
+      "longitude": 164.82
+    },
+    "price": {
+      "display": "Example display"
+    },
+    "features": {
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "parkingSpaces": 6,
+      "hasStudy": false,
+      "hasBalcony": false,
+      "hasPool": false,
+      "hasGarage": false
+    },
+    "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
+    "headline": "Example headline: mock text standing in for the real value. Same field and type, made-up content.",
+    "propertyFeatures": [
+      "Example property features",
+      "Example property features"
+    ],
+    "propertyFeaturesStructured": {
+      "outdoorFeatures": [
+        "Example outdoor features"
+      ],
+      "indoorFeatures": [
+        "Example indoor features"
+      ]
+    },
+    "media": {
+      "imageCount": 27,
+      "images": [
+        {
+          "url": "https://i3.au.reastatic.net/example/41457.jpg",
+          "isFloorplan": false
+        },
+        {
+          "url": "https://i3.au.reastatic.net/example/3976.jpg",
+          "isFloorplan": false
+        }
+      ],
+      "floorplanUrl": "https://i3.au.reastatic.net/example/5859.jpg"
+    },
+    "agent": {
+      "id": "7395939",
+      "name": "Example name",
+      "phone": "+1 555 0100",
+      "officePhone": "+1 555 0100",
+      "mobilePhone": "+1 555 0100",
+      "email": "user75@example.com",
+      "jobTitle": "Example job title",
+      "photoUrl": "https://i3.au.reastatic.net/example/91259.jpg",
+      "profileUrl": "https://www.realestate.com.au/example/23143",
+      "powerProfile": false
+    },
+    "agents": [
+      {
+        "id": "7395939",
+        "name": "Example name",
+        "phone": "+1 555 0100",
+        "officePhone": "+1 555 0100",
+        "mobilePhone": "+1 555 0100",
+        "email": "user75@example.com",
+        "jobTitle": "Example job title",
+        "photoUrl": "https://i3.au.reastatic.net/example/91259.jpg",
+        "profileUrl": "https://www.realestate.com.au/example/23143",
+        "powerProfile": false
+      }
+    ],
+    "agency": {
+      "name": "Example name",
+      "id": "UAMARE",
+      "phone": "+1 555 0100",
+      "email": "user75@example.com",
+      "website": "http://www.recollective.com.au/example/37340",
+      "address": "Example address",
+      "addressStructured": {
+        "streetAddress": "Example street address",
+        "postcode": "4158",
+        "suburb": "Example suburb",
+        "state": "NSW"
+      },
+      "logoUrl": "https://i3.au.reastatic.net/example/90042.jpg",
+      "profileUrl": "https://www.realestate.com.au/example/23143"
+    },
+    "inspectionTimes": [
+      {
+        "startTime": "2026-01-15T10:00:00Z",
+        "endTime": "",
+        "dateDisplay": "",
+        "isAuction": false
+      }
+    ],
+    "constructionStatus": "established",
+    "productDepth": "signature",
+    "featured": false,
+    "agencyListingId": "5p2959",
+    "channel": "buy",
+    "isBuy": true,
+    "isRent": false,
+    "isSold": false,
+    "isProject": false,
+    "tier": {
+      "signature": true,
+      "midtier": false,
+      "standard": false
+    },
+    "scrapedAt": "2026-01-15T10:00:00Z",
+    "auctionDate": "2026-01-15T10:00:00Z",
+    "auctionDateDisplay": "Example auction date display",
+    "badge": "Example badge",
+    "dateListed": "+1 555 0100",
+    "dateListedPrecision": "+1 555 0100"
+  },
+  {
+    "propertyId": "035445823",
+    "url": "https://www.realestate.com.au/example/85480",
+    "listingType": "buy",
+    "propertyType": "apartment",
+    "status": {
+      "label": "Example label",
+      "type": "new_listing"
+    },
+    "address": {
+      "street": "Example street",
+      "suburb": "Example suburb",
+      "state": "NSW",
+      "postcode": "0007",
+      "full": "Example full"
+    },
+    "coordinates": {
+      "latitude": -37.6,
+      "longitude": 192.03
+    },
+    "price": {
+      "display": "Example display"
+    },
+    "features": {
+      "bedrooms": 2,
+      "bathrooms": 4,
+      "parkingSpaces": 6,
+      "hasStudy": false,
+      "hasBalcony": true,
+      "hasPool": false,
+      "hasGarage": true
+    },
+    "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
+    "headline": "Example headline",
+    "propertyFeatures": [
+      "Example property features",
+      "Example property features"
+    ],
+    "propertyFeaturesStructured": {
+      "outdoorFeatures": [
+        "Example outdoor features",
+        "Example outdoor features"
+      ],
+      "indoorFeatures": [
+        "Example indoor features",
+        "Example indoor features"
+      ]
+    },
+    "media": {
+      "imageCount": 46,
+      "images": [
+        {
+          "url": "https://i3.au.reastatic.net/example/85480.jpg",
+          "isFloorplan": false
+        },
+        {
+          "url": "https://i3.au.reastatic.net/example/71329.jpg",
+          "isFloorplan": false
+        }
+      ],
+      "floorplanUrl": "https://i3.au.reastatic.net/example/20449.jpg"
+    },
+    "agent": {
+      "id": "0308659",
+      "name": "Example name",
+      "phone": "+1 555 0100",
+      "officePhone": "+1 555 0100",
+      "mobilePhone": "+1 555 0100",
+      "email": "user38@example.com",
+      "jobTitle": "Example job title",
+      "photoUrl": "https://i3.au.reastatic.net/example/51172.jpg",
+      "profileUrl": "https://www.realestate.com.au/example/21817",
+      "powerProfile": false
+    },
+    "agents": [
+      {
+        "id": "0308659",
+        "name": "Example name",
+        "phone": "+1 555 0100",
+        "officePhone": "+1 555 0100",
+        "mobilePhone": "+1 555 0100",
+        "email": "user38@example.com",
+        "jobTitle": "Example job title",
+        "photoUrl": "https://i3.au.reastatic.net/example/51172.jpg",
+        "profileUrl": "https://www.realestate.com.au/example/21817",
+        "powerProfile": false
+      },
+      {
+        "id": "7702103",
+        "name": "Example name",
+        "phone": "+1 555 0100",
+        "officePhone": "+1 555 0100",
+        "mobilePhone": "+1 555 0100",
+        "email": "user98@example.com",
+        "jobTitle": "Example job title",
+        "photoUrl": "https://i3.au.reastatic.net/example/10782.jpg",
+        "profileUrl": "https://www.realestate.com.au/example/97174",
+        "powerProfile": true
+      }
+    ],
+    "agency": {
+      "name": "Example name",
+      "id": "OGKTSL",
+      "phone": "+1 555 0100",
+      "email": "user38@example.com",
+      "website": "http://www.recoproperty.com.au/example/83168",
+      "address": "Example address",
+      "addressStructured": {
+        "streetAddress": "Example street address",
+        "postcode": "8302",
+        "suburb": "Example suburb",
+        "state": "NSW"
+      },
+      "logoUrl": "https://i3.au.reastatic.net/example/53979.jpg",
+      "profileUrl": "https://www.realestate.com.au/example/21817"
+    },
+    "inspectionTimes": [
+      {
+        "startTime": "2026-01-15T10:00:00Z",
+        "endTime": "2026-01-15T10:00:00Z",
+        "dateDisplay": "",
+        "isAuction": false
+      }
+    ],
+    "constructionStatus": "established",
+    "productDepth": "signature",
+    "featured": false,
+    "agencyListingId": "8p8583",
+    "channel": "buy",
+    "isBuy": true,
+    "isRent": false,
+    "isSold": false,
+    "isProject": false,
+    "tier": {
+      "signature": true,
+      "midtier": false,
+      "standard": false
+    },
+    "scrapedAt": "2026-01-15T10:00:00Z",
+    "badge": "Example badge",
+    "dateListed": "+1 555 0100",
+    "dateListedPrecision": "+1 555 0100"
+  }
+]

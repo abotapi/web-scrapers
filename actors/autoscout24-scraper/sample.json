@@ -1,0 +1,55 @@
+[
+  {
+    "listingId": "id72988782",
+    "url": "https://www.autoscout24.com/example/51185",
+    "title": "Example title",
+    "make": "Example make",
+    "model": "DBX",
+    "modelGroup": "DBX",
+    "variant": "",
+    "modelVersion": "Example model version",
+    "year": 9581,
+    "firstRegistration": "73/7321",
+    "bodyType": "",
+    "transmission": "Automatic",
+    "fuel": "Gasoline",
+    "engineDisplacement": "Example engine displacement",
+    "powerKw": 234,
+    "powerHp": 160,
+    "mileageKm": 80846,
+    "mileageDisplay": "Example mileage display",
+    "price": 697404,
+    "priceDisplay": "Example price display",
+    "currency": "EUR",
+    "isVatLabelLegallyRequired": false,
+    "isOfferNew": true,
+    "offerType": "U",
+    "vehicleType": "Car",
+    "isDeliverable": null,
+    "country": "DE",
+    "city": "Example city",
+    "zip": "50770",
+    "street": "Example street",
+    "sellerType": "Example seller type",
+    "sellerId": "13985",
+    "companyName": "Example company name",
+    "contactName": "Example contact name",
+    "phones": [
+      {
+        "phoneType": "+1 555 0100",
+        "formattedNumber": "+13 (6)830 - 9068465093",
+        "callTo": "+358468598219393"
+      },
+      {
+        "phoneType": "+1 555 0100",
+        "formattedNumber": "+78 (9)554 - 9145441",
+        "callTo": "+748607485303"
+      }
+    ],
+    "ratingsCount": 35,
+    "ratingsStars": 5.76,
+    "whatsappNumber": "",
+    "dealerLogoUrl": "https://prod.pictures.autoscout24.net/example/92938.jpg",
+    "dealerInfoPageUrl": "https://www.autoscout24.com/example/90138"
+  }
+]

@@ -1,0 +1,48 @@
+[
+  {
+    "name": "Example name",
+    "detailUrl": "https://yellow.co.nz/example/39116",
+    "phone": "+1 555 0100",
+    "address": "Example address",
+    "categories": [
+      "Plumbers"
+    ],
+    "rating": 1,
+    "reviewCount": 9,
+    "openStatus": "Example open status",
+    "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
+    "email": "user16@example.com",
+    "fullAddress": {
+      "street": "Example street",
+      "locality": "Example locality",
+      "region": "WKO",
+      "postalCode": "0908",
+      "country": "NZ"
+    },
+    "latitude": -40.42,
+    "longitude": 150.71,
+    "paymentAccepted": "cash",
+    "imageUrl": "https://i4.ypcdn.com/example/61110.jpg",
+    "logoUrl": "https://i2.ypcdn.com/example/70670.jpg",
+    "reviews": [
+      {
+        "author": "Example author",
+        "rating": 1,
+        "text": "Example text: mock text standing in for the real value. Same field and type, made-up content.",
+        "date": "2026-01-15"
+      },
+      {
+        "author": "Example author",
+        "rating": 5,
+        "text": "Example text",
+        "date": "2026-01-15"
+      }
+    ],
+    "yearEstablished": "2667",
+    "slogan": "Example slogan: mock text standing in for the real value. Same field and type, made-up content.",
+    "associations": "Example associations",
+    "generalInfo": "Example general info: mock text standing in for the real value. Same field and type, made-up content.",
+    "searchTerms": "Example search terms",
+    "searchLocation": "Example search location"
+  }
+]

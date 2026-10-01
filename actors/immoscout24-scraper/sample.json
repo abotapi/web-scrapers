@@ -1,0 +1,49 @@
+[
+  {
+    "id": "275210422",
+    "url": "https://www.immobilienscout24.de/example/32244",
+    "listingType": "buy",
+    "propertyType": "apartment",
+    "title": "Example title: mock text standing in for the real value. Same field and type, made-up content.",
+    "addressFull": "Example address full",
+    "street": "Example street",
+    "houseNumber": "73/40",
+    "postcode": "65455",
+    "city": "Berlin",
+    "quarter": "Example quarter",
+    "latitude": 48.79,
+    "longitude": 14.03,
+    "priceValue": 462276,
+    "priceCurrency": "EUR",
+    "priceDisplay": "Example price display",
+    "marketingType": "PURCHASE",
+    "rooms": 7,
+    "livingSpace": 133.18,
+    "constructionYear": null,
+    "balcony": true,
+    "builtInKitchen": false,
+    "garden": false,
+    "lift": false,
+    "guestToilet": false,
+    "cellar": false,
+    "barrierFree": false,
+    "hasCourtage": true,
+    "hasFloorplan": true,
+    "hasVideo": true,
+    "imageCount": 5,
+    "images": [
+      "https://pictures.immobilienscout24.de/example/14321.jpg",
+      "https://pictures.immobilienscout24.de/example/32701.jpg"
+    ],
+    "floorplanUrl": "https://pictures.immobilienscout24.de/example/1427.jpg",
+    "contactName": "Example contact name",
+    "contactPhone": "+1 555 0100",
+    "contactCompany": "Example contact company",
+    "projectName": "Example project name",
+    "projectUrl": "https://www.immobilienscout24.de/example/94332",
+    "tags": [
+      "Example tags"
+    ],
+    "isNew": false
+  }
+]

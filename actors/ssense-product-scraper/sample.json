@@ -1,0 +1,52 @@
+[
+  {
+    "recordId": "85183075",
+    "rowType": "product",
+    "productId": "81181093",
+    "url": "https://www.ssense.com/example/68156",
+    "title": "Example title",
+    "brand": "Example brand",
+    "brandId": "754",
+    "sku": "741129m594711",
+    "gender": "men",
+    "categoryIds": [
+      "7",
+      "882"
+    ],
+    "price": 685,
+    "regularPrice": 433,
+    "onSale": false,
+    "discountPercent": null,
+    "currency": "USD",
+    "inStock": true,
+    "imageUrl": "https://res.cloudinary.com/example/28857.jpg",
+    "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
+    "category": "low-top-sneakers",
+    "scrapedAt": "2026-01-15T10:00:00Z"
+  },
+  {
+    "recordId": "20111369",
+    "rowType": "product",
+    "productId": "85035102",
+    "url": "https://www.ssense.com/example/95943",
+    "title": "Example title",
+    "brand": "Example brand",
+    "brandId": "413",
+    "sku": "375976m051853",
+    "gender": "men",
+    "categoryIds": [
+      "6",
+      "944"
+    ],
+    "price": 2532,
+    "regularPrice": 3039,
+    "onSale": false,
+    "discountPercent": null,
+    "currency": "USD",
+    "inStock": true,
+    "imageUrl": "https://res.cloudinary.com/example/86213.jpg",
+    "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
+    "category": "low-top-sneakers",
+    "scrapedAt": "2026-01-15T10:00:00Z"
+  }
+]

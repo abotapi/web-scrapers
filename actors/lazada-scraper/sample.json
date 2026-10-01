@@ -1,0 +1,134 @@
+[
+  {
+    "type": "product",
+    "id": "43509993411",
+    "url": "https://www.lazada.sg/example/92738",
+    "productName": "Example product name: mock text standing in for the real value. Same field and type, made-up content.",
+    "productId": "74481724091",
+    "productUrl": "https://www.lazada.sg/example/55938",
+    "sourceUrl": "https://www.lazada.sg/example/37926",
+    "seedType": "query",
+    "seedValue": "laptop",
+    "country": "SG",
+    "currency": "SGD",
+    "currentPrice": 317,
+    "originalPrice": 996,
+    "discountText": "Example discount text",
+    "discountPct": 6,
+    "isOnSpecial": true,
+    "discountAmount": 81,
+    "promoLabel": "Example promo label",
+    "specialsCategory": "lazmall",
+    "ratingScore": 4.52,
+    "reviewCount": 328,
+    "itemSold": "Example item sold",
+    "inStock": true,
+    "isSponsored": false,
+    "freeShipping": true,
+    "sellerName": "Example seller name",
+    "sellerId": "4245442783",
+    "primaryImage": "https://sg-live-01.slatic.net/example/63179.jpg",
+    "raw": {
+      "serp": {
+        "itemId": "51046018130",
+        "skuId": "469348869839",
+        "productUrl": "https://www.lazada.sg/example/55938",
+        "productName": "Example product name: mock text standing in for the real value. Same field and type, made-up content.",
+        "currentPrice": 317,
+        "originalPrice": 996,
+        "discountText": "Example discount text",
+        "ratingScore": 4.52,
+        "reviewCount": 328,
+        "itemSold": "Example item sold",
+        "sellerName": "Example seller name",
+        "sellerId": "4245442783",
+        "brandName": "Example brand name",
+        "primaryImage": "https://sg-live-01.slatic.net/example/63179.jpg",
+        "isSponsored": false,
+        "freeShipping": true,
+        "inStock": true,
+        "raw": {
+          "name": "Example name: mock text standing in for the real value. Same field and type, made-up content.",
+          "nid": "55331128324",
+          "itemId": "51046018130",
+          "icons": [
+            {
+              "domClass": "48378",
+              "type": "img",
+              "group": "2",
+              "showType": "1",
+              "bizType": "Freeshipping"
+            },
+            {
+              "domClass": "99677",
+              "text": "Example text",
+              "type": "text",
+              "group": "6",
+              "showType": "8",
+              "bizType": "flashsale"
+            }
+          ],
+          "image": "https://sg-live-01.slatic.net/example/99447.jpg",
+          "isSmartImage": false,
+          "originalPriceShow": "",
+          "priceShow": "Example price show",
+          "discount": "Example discount",
+          "ratingScore": "9.352049193181221",
+          "review": "672",
+          "location": "Example location",
+          "thumbs": [
+            {
+              "image": "https://sg-live-01.slatic.net/example/99447.jpg",
+              "sku": "54034998435_sgamz",
+              "skuId": "233005806715",
+              "itemUrl": "Example item url",
+              "querystring": ""
+            },
+            {
+              "image": "https://sg-live-01.slatic.net/example/278.jpg",
+              "sku": "58437485368_sgamz",
+              "skuId": "617673098079",
+              "itemUrl": "Example item url",
+              "querystring": ""
+            }
+          ],
+          "sellerName": "Example seller name",
+          "sellerId": "4245442783",
+          "brandName": "Example brand name",
+          "brandId": "135153431",
+          "cheapest_sku": "51198053724_sgamz-438446167313",
+          "skuId": "469348869839",
+          "sku": "54034998435_sgamz",
+          "categories": [
+            85,
+            99
+          ],
+          "price": "092",
+          "restrictedAge": 0,
+          "inStock": true,
+          "originalPrice": "867",
+          "clickTrace": "Example click trace: mock text standing in for the real value. Same field and type, made-up content.",
+          "itemSoldCntShow": "Example item sold cnt show",
+          "longImageDisplayable": false,
+          "skus": [
+            {
+              "id": "53175827412_sgamz-889799657289"
+            }
+          ],
+          "promotionId": "",
+          "isSponsored": false,
+          "tItemType": "nt_product",
+          "skuType": "8",
+          "adFlag": "2",
+          "directSimilarUrl": "https://native.m.lazada.com/example/49693.jpg",
+          "gridTitleLine": "4",
+          "isFission": "1",
+          "isBadgeAutoScroll": false,
+          "showCart": false,
+          "showBackIcon": false
+        }
+      }
+    },
+    "fetchedAt": "2026-01-15T10:00:00Z"
+  }
+]

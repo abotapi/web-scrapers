@@ -1,0 +1,35 @@
+[
+  {
+    "productId": "6385496797517",
+    "ean": "0401229225624",
+    "title": "Example title",
+    "brand": "Physiolac",
+    "unitPrice": 22.99,
+    "unitPriceUnit": "kg",
+    "unitPriceDisplay": "Example unit price display",
+    "rating": 4.53,
+    "reviewCount": 1,
+    "canonicalUrl": "https://www.e.leclerc/example/4427",
+    "source": "listing",
+    "descriptionHtml": "Example description html: mock text standing in for the real value. Same field and type, made-up content.",
+    "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
+    "images": [
+      "https://media.e.leclerc/example/42018.jpg",
+      "https://media.e.leclerc/example/85356.jpg"
+    ],
+    "categoryPath": "Example category path",
+    "price": 14.71,
+    "currency": "EUR",
+    "availabilityStatus": "in-stock",
+    "inStock": true,
+    "stock": 433,
+    "warehouse": "LGD_PARA",
+    "onPromotion": false,
+    "reviews": [],
+    "storeSignCode": "7605",
+    "storeName": "Example store name",
+    "storePostalCode": "85011",
+    "searchMode": "search",
+    "scrapedAt": "2026-01-15T10:00:00Z"
+  }
+]

@@ -1,0 +1,23 @@
+[
+  {
+    "id": "id94096020",
+    "listType": "programs",
+    "name": "Example name",
+    "slug": "id56730840",
+    "profileUrl": "https://www.f6s.com/example/69220",
+    "aboutUrl": "https://www.f6s.com/example/39831",
+    "applyUrl": "https://www.f6s.com/example/19584",
+    "image": "https://www.f6s.com/example/19733.jpg",
+    "location": "Example location",
+    "tags": "Example tags",
+    "verified": false,
+    "deadline": "Example deadline",
+    "investmentRaw": "Example investment raw",
+    "investmentAmount": 3503,
+    "investmentCurrency": "USD",
+    "equityRaw": null,
+    "equityPercent": null,
+    "sourceUrl": "https://www.f6s.com/example/39667",
+    "scrapedAt": "2026-01-15T10:00:00Z"
+  }
+]

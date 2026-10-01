@@ -1,0 +1,51 @@
+[
+  {
+    "recordType": "property",
+    "id": 83003921,
+    "address": "Example address",
+    "city": "Example city",
+    "state": "FL",
+    "zip": "32579",
+    "county": "Example county",
+    "propertyType": "COMMERCIAL",
+    "bedrooms": null,
+    "bathrooms": null,
+    "buildingAreaSf": 473893,
+    "livingAreaSf": null,
+    "lotSizeSf": 9310840,
+    "yearBuilt": 7950,
+    "stories": null,
+    "units": null,
+    "estimatedValue": 77270062,
+    "estimatedEquity": 96675442,
+    "estimatedEquityPercentage": 623,
+    "lastSoldDate": "2026-01-15",
+    "lastSoldPrice": 24224668,
+    "daysOnMarket": null,
+    "mlsListPrice": null,
+    "mlsListDate": null,
+    "mlsStatus": null,
+    "imageUrl": null,
+    "imageUrls": null,
+    "photoCount": null,
+    "leadTypes": [
+      "ABSENTEE_OWNER",
+      "CASH_BUYER"
+    ],
+    "ownerNames": [
+      "Example owner names"
+    ],
+    "ownerTypes": [
+      "Example owner types"
+    ],
+    "ownerOccupied": false,
+    "ownershipYears": null,
+    "ownerMailingAddress": "Example owner mailing address",
+    "portfolioPropertiesOwned": 7,
+    "portfolioValue": 31150091,
+    "foreclosureActive": true,
+    "auctionDate": null,
+    "apn": "60-35-73-2614-792-31386",
+    "zoning": null
+  }
+]

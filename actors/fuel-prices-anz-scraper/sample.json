@@ -1,0 +1,138 @@
+[
+  {
+    "stationId": "id35869872",
+    "name": "Example name",
+    "brand": "REDDY",
+    "location": {
+      "lat": -29.09,
+      "lng": 155.76,
+      "address": "Example address",
+      "suburb": "Example suburb",
+      "state": "NSW",
+      "postcode": "4670"
+    },
+    "phone": "+1 555 0100",
+    "prices": {
+      "DIESEL": {
+        "price": 327.59,
+        "updatedAt": 7189868241045,
+        "reportedBy": "Example reported by",
+        "relevant": true
+      },
+      "E10": {
+        "price": 271.99,
+        "updatedAt": 7189868241045,
+        "reportedBy": "Example reported by",
+        "relevant": true
+      },
+      "U95": {
+        "price": 290.07,
+        "updatedAt": 7189868241045,
+        "reportedBy": "Example reported by",
+        "relevant": true
+      },
+      "U98": {
+        "price": 300.24,
+        "updatedAt": 7189868241045,
+        "reportedBy": "Example reported by",
+        "relevant": true
+      }
+    },
+    "tradingHours": [
+      [
+        "59:73",
+        "67:54"
+      ],
+      [
+        "01:68",
+        "81:58"
+      ]
+    ],
+    "isAdBlueAvailable": false,
+    "verified": false,
+    "icon": null,
+    "brandIcon": "reddy.png",
+    "searchContext": {
+      "searchLocation": {
+        "lat": -29.06,
+        "lng": 155.81,
+        "address": "Example address"
+      },
+      "boundingBox": {
+        "neLat": -34.42,
+        "neLng": 113.48,
+        "swLat": -39.25,
+        "swLng": 110.39
+      },
+      "radiusKm": 3
+    }
+  },
+  {
+    "stationId": "id47834358",
+    "name": "Example name",
+    "brand": "METRO",
+    "location": {
+      "lat": -25.71,
+      "lng": 158.79,
+      "address": "Example address",
+      "suburb": "Example suburb",
+      "state": "NSW",
+      "postcode": "9545"
+    },
+    "phone": "+1 555 0100",
+    "prices": {
+      "E10": {
+        "price": 205.23,
+        "updatedAt": 9467584543785,
+        "reportedBy": "Example reported by",
+        "relevant": true
+      },
+      "U98": {
+        "price": 229.59,
+        "updatedAt": 9467584543785,
+        "reportedBy": "Example reported by",
+        "relevant": true
+      },
+      "PremDSL": {
+        "price": 249.6,
+        "updatedAt": 9467584543785,
+        "reportedBy": "Example reported by",
+        "relevant": true
+      },
+      "U91": {
+        "price": 208.71,
+        "updatedAt": 9467584543785,
+        "reportedBy": "Example reported by",
+        "relevant": true
+      }
+    },
+    "tradingHours": [
+      [
+        "52:45",
+        "29:75"
+      ],
+      [
+        "72:91",
+        "26:07"
+      ]
+    ],
+    "isAdBlueAvailable": false,
+    "verified": false,
+    "icon": null,
+    "brandIcon": "metro.png",
+    "searchContext": {
+      "searchLocation": {
+        "lat": -25.68,
+        "lng": 158.83,
+        "address": "Example address"
+      },
+      "boundingBox": {
+        "neLat": -38.81,
+        "neLng": 111.97,
+        "swLat": -26.4,
+        "swLng": 193.57
+      },
+      "radiusKm": 3
+    }
+  }
+]

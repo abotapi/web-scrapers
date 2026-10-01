@@ -1,0 +1,130 @@
+[
+  {
+    "id": "4-c39bfgdvrx1jlj",
+    "name": "Example name",
+    "chainName": "Example chain name",
+    "branchName": "Example branch name",
+    "cuisine": [
+      "Example cuisine",
+      "Example cuisine"
+    ],
+    "address": "Example address",
+    "rating": 5.46,
+    "voteCount": 9328,
+    "priceTag": 4,
+    "isOpen": true,
+    "isIntegrated": true,
+    "businessType": "FOOD",
+    "estimatedDeliveryTime": 71,
+    "estimatedDeliveryTimeRange": "Example estimated delivery time range",
+    "distanceInKm": 4.9,
+    "hasPromo": true,
+    "promoLabels": [
+      "Example promo labels",
+      "Example promo labels"
+    ],
+    "deliveryOptions": "Example delivery options",
+    "deliveryFee": {
+      "currencyCode": "SGD",
+      "currencySymbol": "Example currency symbol",
+      "price": 918,
+      "priceDisplay": "Example price display",
+      "discountedPrice": 779,
+      "hasDiscountedPrice": true
+    },
+    "currency": {
+      "code": "SGD",
+      "symbol": "Example symbol",
+      "exponent": 7
+    },
+    "openHours": {
+      "sun": "Example sun",
+      "mon": "Example mon",
+      "tue": "Example tue",
+      "wed": "Example wed",
+      "thu": "Example thu",
+      "fri": "Example fri",
+      "sat": "Example sat",
+      "displayedHours": "27:56-28:56"
+    },
+    "photoHref": "https://huawei-food-cms.grab.com/example/79060.jpg",
+    "smallPhotoHref": "https://huawei-food-cms.grab.com/example/47171.jpg",
+    "iconHref": "https://huawei-food-cms.grab.com/example/41575.jpg",
+    "grabUrl": "https://food.grab.com/example/92488",
+    "announcements": [
+      "Example announcements: mock text standing in for the real value. Same field and type, made-up content.",
+      "Example announcements"
+    ],
+    "sourceQuery": "ramen",
+    "sourceUrl": null,
+    "region": "SG",
+    "scrapedAt": "2026-01-15T10:00:00Z",
+    "fullAddress": "Example full address",
+    "street": "Example street",
+    "suburb": "Example suburb",
+    "postcode": "954653",
+    "city": "Singapore",
+    "countryCode": "SG",
+    "orderValueLimit": 57630,
+    "menu": [
+      {
+        "name": "Example name",
+        "available": true,
+        "itemCount": 1,
+        "items": [
+          {
+            "id": "sgite00495657463713035234",
+            "name": "Example name",
+            "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
+            "available": true,
+            "price": 918,
+            "discountedPrice": 779,
+            "imageUrl": "https://huawei-food-cms.grab.com/example/15886.jpg",
+            "modifierGroupCount": 4,
+            "isOnSpecial": false
+          },
+          {
+            "id": "sgite46506474636290130921",
+            "name": "Example name",
+            "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
+            "available": true,
+            "price": 9411,
+            "discountedPrice": 1097,
+            "imageUrl": "https://huawei-food-cms.grab.com/example/88528.jpg",
+            "modifierGroupCount": 8,
+            "isOnSpecial": false
+          }
+        ]
+      },
+      {
+        "name": "Example name",
+        "available": true,
+        "itemCount": 8,
+        "items": [
+          {
+            "id": "sgite20994560906119413090",
+            "name": "Example name",
+            "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
+            "available": true,
+            "price": 9411,
+            "discountedPrice": 1097,
+            "imageUrl": "https://huawei-food-cms.grab.com/example/88528.jpg",
+            "isOnSpecial": false
+          },
+          {
+            "id": "sgite53532831635016552622",
+            "name": "Example name",
+            "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
+            "available": true,
+            "price": 8828,
+            "discountedPrice": 5736,
+            "imageUrl": "https://huawei-food-cms.grab.com/example/43642.jpg",
+            "isOnSpecial": false
+          }
+        ]
+      }
+    ],
+    "menuCategoryCount": 91,
+    "menuItemCount": 797
+  }
+]

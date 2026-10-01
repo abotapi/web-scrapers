@@ -1,0 +1,11 @@
+[
+  {
+    "url": "https://www.google.com/example/57276",
+    "markdown": "Example markdown: mock text standing in for the real value. Same field and type, made-up content.",
+    "metadata": {
+      "title": "Example title",
+      "description": "",
+      "author": ""
+    }
+  }
+]

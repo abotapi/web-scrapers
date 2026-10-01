@@ -1,0 +1,60 @@
+[
+  {
+    "itemId": "04950374600",
+    "title": "Example title",
+    "url": "https://www.vinted.de/example/48352",
+    "path": "Example path",
+    "brandTitle": "Nike",
+    "priceAmount": 3,
+    "currency": "EUR",
+    "size": "51",
+    "condition": "Gut",
+    "viewCount": null,
+    "favouriteCount": 81,
+    "promoted": false,
+    "photos": [
+      {
+        "id": 9,
+        "url": "https://images1.vinted.net/example/48352.jpg",
+        "width": 218,
+        "height": 916
+      }
+    ],
+    "image": "https://images1.vinted.net/example/60314.jpg",
+    "seller": {
+      "id": 616167783,
+      "username": "id33160266",
+      "business": false
+    },
+    "scrapedAt": "2026-01-15T10:00:00Z"
+  },
+  {
+    "itemId": "87633150673",
+    "title": "Example title",
+    "url": "https://www.vinted.de/example/43271",
+    "path": "Example path",
+    "brandTitle": "Nike",
+    "priceAmount": 18.62,
+    "currency": "EUR",
+    "size": "S",
+    "condition": "Example condition",
+    "viewCount": null,
+    "favouriteCount": 12,
+    "promoted": true,
+    "photos": [
+      {
+        "id": 9,
+        "url": "https://images1.vinted.net/example/43271.jpg",
+        "width": 643,
+        "height": 462
+      }
+    ],
+    "image": "https://images1.vinted.net/example/38031.jpg",
+    "seller": {
+      "id": 946962513,
+      "username": "Example username",
+      "business": false
+    },
+    "scrapedAt": "2026-01-15T10:00:00Z"
+  }
+]

@@ -1,0 +1,54 @@
+[
+  {
+    "kind": "story",
+    "id": "32052860",
+    "title": "Example title: mock text standing in for the real value. Same field and type, made-up content.",
+    "url": "https://pikabu.ru/example/13859",
+    "author": {
+      "id": "63590360",
+      "name": "singularitysp1t",
+      "url": "https://pikabu.ru/example/13859",
+      "avatar": "https://cs17.pikabu.ru/example/83699.jpg",
+      "subscribers": 6
+    },
+    "community": null,
+    "tags": [
+      "Example tags",
+      "Example tags"
+    ],
+    "tagUrls": [
+      "https://pikabu.ru/example/16974",
+      "https://pikabu.ru/example/68139"
+    ],
+    "rating": 0,
+    "pluses": null,
+    "minuses": null,
+    "commentsCount": 0,
+    "publishedAt": "2026-01-15T10:00:00Z",
+    "timestamp": 7956211956,
+    "seriesId": null,
+    "isLong": false,
+    "isPinned": false,
+    "blocks": [
+      {
+        "type": "text",
+        "text": "Example text: mock text standing in for the real value. Same field and type, made-up content.",
+        "links": []
+      },
+      {
+        "type": "text",
+        "text": "Example text",
+        "links": []
+      }
+    ],
+    "text": "Example text: mock text standing in for the real value. Same field and type, made-up content.",
+    "images": [],
+    "videos": [],
+    "media": {
+      "images": 0,
+      "videos": 0
+    },
+    "detailFetched": true,
+    "channel": null
+  }
+]

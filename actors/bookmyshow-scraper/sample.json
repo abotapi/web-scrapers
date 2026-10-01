@@ -1,0 +1,83 @@
+[
+  {
+    "kind": "movie",
+    "recordId": "Example record id",
+    "eventCode": "et41170466",
+    "title": "Example title",
+    "url": "https://in.bookmyshow.com/example/75192",
+    "posterUrl": "https://assets-in.bmscdn.com/example/29035.jpg",
+    "languages": [
+      "hindi"
+    ],
+    "genres": [
+      "drama",
+      "mystery"
+    ],
+    "category": null,
+    "regionCode": "MUMBAI",
+    "venueName": null,
+    "venueCode": null,
+    "listingSection": null,
+    "tags": [
+      "Example tags",
+      "Hindi"
+    ],
+    "synopsis": "Example synopsis: mock text standing in for the real value. Same field and type, made-up content.",
+    "duration": "pt7h73m",
+    "censor": "Example censor",
+    "releaseDate": "2026-01-15",
+    "formats": [
+      "Example formats",
+      "EPIQ"
+    ],
+    "cast": [
+      "Example cast",
+      "Example cast"
+    ],
+    "director": "Example director",
+    "priceDisplay": null,
+    "availability": null,
+    "dateText": null,
+    "timeText": null
+  },
+  {
+    "kind": "movie",
+    "recordId": "Example record id",
+    "eventCode": "et50594670",
+    "title": "Example title",
+    "url": "https://in.bookmyshow.com/example/12587",
+    "posterUrl": "https://assets-in.bmscdn.com/example/66880.jpg",
+    "languages": [
+      "hindi"
+    ],
+    "genres": [
+      "action",
+      "adventure"
+    ],
+    "category": null,
+    "regionCode": "MUMBAI",
+    "venueName": null,
+    "venueCode": null,
+    "listingSection": null,
+    "tags": [
+      "Example tags",
+      "Hindi"
+    ],
+    "synopsis": "Example synopsis: mock text standing in for the real value. Same field and type, made-up content.",
+    "duration": "pt4h24m",
+    "censor": "Example censor",
+    "releaseDate": "2026-01-15",
+    "formats": [
+      "Example formats"
+    ],
+    "cast": [
+      "Example cast",
+      "Example cast"
+    ],
+    "director": "Example director",
+    "priceDisplay": null,
+    "availability": null,
+    "dateText": null,
+    "timeText": null
+  }
+]

@@ -1,0 +1,101 @@
+[
+  {
+    "id": "6681895176",
+    "url": "https://www.domain.com.au/example/67430",
+    "listingType": "buy",
+    "displayAddress": "Example display address",
+    "street": "Example street",
+    "suburb": "Example suburb",
+    "state": "NSW",
+    "postcode": "6839",
+    "latitude": -32.51,
+    "longitude": 113.41,
+    "price": "Example price",
+    "priceGuide": "Example price guide",
+    "bedrooms": 9,
+    "bathrooms": 7,
+    "parkingSpaces": 1,
+    "landSize": null,
+    "landSizeUnit": null,
+    "buildingSize": 910,
+    "buildingSizeUnit": "Example building size unit",
+    "propertyType": "Example property type",
+    "headline": "Example headline: mock text standing in for the real value. Same field and type, made-up content.",
+    "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
+    "structuredFeatures": [],
+    "saleMethod": "eoi",
+    "isAuction": false,
+    "status": "LIVE",
+    "inspection": {
+      "byAppointmentOnly": false,
+      "inspections": [
+        {
+          "start": "2026-01-15T10:00:00Z",
+          "end": "2026-01-15T10:00:00Z",
+          "time": "Example time",
+          "dayOfWeek": "Example day of week"
+        },
+        {
+          "start": "2026-01-15T10:00:00Z",
+          "end": "2026-01-15T10:00:00Z",
+          "time": "Example time",
+          "dayOfWeek": "Example day of week"
+        }
+      ]
+    },
+    "firstListedDate": "2026-01-15T10:00:00Z",
+    "lastSoldDate": null,
+    "soldDate": null,
+    "agencyName": "Example agency name",
+    "agencyProfileUrl": "https://www.domain.com.au/example/71478",
+    "agencyId": "qwdlbmn9ojiwmzqw",
+    "agencyAddress": {
+      "street": null,
+      "streetNumber": null,
+      "suburb": "Example suburb",
+      "state": "NSW",
+      "postcode": "7115"
+    },
+    "agencyBrandColour": null,
+    "addressDisplayType": "Example address display type",
+    "agents": [
+      {
+        "name": "Example name",
+        "phone": "+1 555 0100",
+        "mobile": "+1 555 0100",
+        "email": "user41@example.com",
+        "photo": "https://rimh2.domainstatic.com.au/example/34419.jpg",
+        "id": "Example id",
+        "profileUrl": "https://www.domain.com.au/example/62774"
+      },
+      {
+        "name": "Example name",
+        "phone": "+1 555 0100",
+        "mobile": "+1 555 0100",
+        "email": "user18@example.com",
+        "photo": "https://rimh2.domainstatic.com.au/example/18712.jpg",
+        "id": "Example id",
+        "profileUrl": "https://www.domain.com.au/example/41365"
+      }
+    ],
+    "suburbInsights": null,
+    "schools": [],
+    "priceHistory": [
+      {
+        "event": "listed_for_sale",
+        "year": "NOW",
+        "price": "Example price",
+        "date": "Example date",
+        "agent": "Example agent",
+        "details": "Example details: mock text standing in for the real value. Same field and type, made-up content."
+      },
+      {
+        "event": "sold",
+        "year": 8933,
+        "price": "Example price",
+        "date": "Example date",
+        "details": "Example details"
+      }
+    ]
+  }
+]

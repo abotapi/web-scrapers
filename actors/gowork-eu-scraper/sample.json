@@ -1,0 +1,186 @@
+[
+  {
+    "source": "gowork_detail",
+    "listingId": "Example listing id",
+    "slug": "Example slug",
+    "url": "https://gowork.fr/example/50677",
+    "statusCode": 481,
+    "siteLocale": "+1 555 0100",
+    "scrapedAt": "2026-01-15T10:00:00Z",
+    "pageTitle": "Example page title",
+    "metaDescription": "Example meta description: mock text standing in for the real value. Same field and type, made-up content.",
+    "ogTitle": "Example og title",
+    "ogDescription": "Example og description: mock text standing in for the real value. Same field and type, made-up content.",
+    "ogImage": "https://gowork.fr/example/31174.jpg",
+    "ogUrl": "https://gowork.fr/example/88186",
+    "canonicalUrl": "https://gowork.fr/example/26765",
+    "h1": "Example h1",
+    "htmlLang": "fr-FR",
+    "reviewCountFromTitle": 20,
+    "jsonLd": [
+      {
+        "@context": "https://schema.org/example/91051",
+        "@graph": [
+          {
+            "@type": "Organization",
+            "@id": "https://gowork.fr/example/7996",
+            "name": "Example name",
+            "url": "https://gowork.fr/example/50677",
+            "logo": {
+              "@type": "ImageObject",
+              "@id": "https://gowork.fr/example/7996.jpg",
+              "url": "https://gowork.fr/example/50677.jpg"
+            },
+            "sameAs": [
+              "https://www.facebook.com/example/89758",
+              "https://www.linkedin.com/example/85028"
+            ]
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://gowork.fr/example/50521",
+            "url": "https://gowork.fr/example/22643",
+            "name": "Example name",
+            "description": "Example description",
+            "publisher": {
+              "@id": "https://gowork.fr/example/50521"
+            },
+            "inLanguage": "fr-FR",
+            "potentialAction": [
+              {
+                "@type": "SearchAction",
+                "target": {
+                  "@type": "EntryPoint",
+                  "urlTemplate": "https://gowork.fr/example/54770"
+                },
+                "query-input": "Example query-input"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "isUpstreamChallenge": false,
+    "parseMeta": {
+      "mode": "detail",
+      "detailPageUrl": "https://gowork.fr/example/74449",
+      "hasNuxtPayload": true,
+      "hasJsonLd": false
+    },
+    "companyId": "id6392555",
+    "org_name": "Example org_name",
+    "longName": "Example long name",
+    "altName": "Example alt name",
+    "status": 6,
+    "dataStatus": 0,
+    "flagsBits": [
+      41,
+      46
+    ],
+    "multiCity": false,
+    "companyEmail": "user6@example.com",
+    "companyPhone": "+1 555 0100",
+    "org_telephone": "+1 555 0100",
+    "companyWebsite": "http://www.carrefour.com/example/90797",
+    "companyWebsiteRaw": "http://www.carrefour.com/example/88894",
+    "companyWebpageTitle": "Example company webpage title",
+    "companyWebpageDescription": "Example company webpage description: mock text standing in for the real value. Same field and type, made-up content.",
+    "companyLinkedInUrl": null,
+    "companyInstagramUrl": "https://www.instagram.com/example/25193",
+    "companyFacebookUrl": "https://fr-fr.facebook.com/example/67373",
+    "companyTwitterUrl": "Example company twitter url",
+    "companyYouTubeUrl": "https://www.youtube.com/example/38263"
+  },
+  {
+    "source": "gowork_detail",
+    "listingId": "Example listing id",
+    "slug": "Example slug",
+    "url": "https://gowork.fr/example/68207",
+    "statusCode": 617,
+    "siteLocale": "+1 555 0100",
+    "scrapedAt": "2026-01-15T10:00:00Z",
+    "pageTitle": "Example page title: mock text standing in for the real value. Same field and type, made-up content.",
+    "metaDescription": "Example meta description: mock text standing in for the real value. Same field and type, made-up content.",
+    "ogTitle": "Example og title: mock text standing in for the real value. Same field and type, made-up content.",
+    "ogDescription": "Example og description: mock text standing in for the real value. Same field and type, made-up content.",
+    "ogImage": "https://gowork.fr/example/9046.jpg",
+    "ogUrl": "https://gowork.fr/example/11922",
+    "canonicalUrl": "https://gowork.fr/example/3666",
+    "h1": "Example h1",
+    "htmlLang": "fr-FR",
+    "reviewCountFromTitle": 43,
+    "jsonLd": [
+      {
+        "@context": "https://schema.org/example/76599",
+        "@graph": [
+          {
+            "@type": "Organization",
+            "@id": "https://gowork.fr/example/92513",
+            "name": "Example name",
+            "url": "https://gowork.fr/example/68207",
+            "logo": {
+              "@type": "ImageObject",
+              "@id": "https://gowork.fr/example/92513.jpg",
+              "url": "https://gowork.fr/example/68207.jpg"
+            },
+            "sameAs": [
+              "https://www.facebook.com/example/61760",
+              "https://www.linkedin.com/example/86123"
+            ]
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://gowork.fr/example/23270",
+            "url": "https://gowork.fr/example/18889",
+            "name": "Example name",
+            "description": "Example description",
+            "publisher": {
+              "@id": "https://gowork.fr/example/23270"
+            },
+            "inLanguage": "fr-FR",
+            "potentialAction": [
+              {
+                "@type": "SearchAction",
+                "target": {
+                  "@type": "EntryPoint",
+                  "urlTemplate": "https://gowork.fr/example/31166"
+                },
+                "query-input": "Example query-input"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "isUpstreamChallenge": false,
+    "parseMeta": {
+      "mode": "detail",
+      "detailPageUrl": "https://gowork.fr/example/33362",
+      "hasNuxtPayload": true,
+      "hasJsonLd": false
+    },
+    "companyId": "id99877158",
+    "org_name": "Example org_name",
+    "longName": null,
+    "altName": null,
+    "status": 7,
+    "dataStatus": 0,
+    "flagsBits": [
+      4,
+      62171
+    ],
+    "multiCity": false,
+    "companyEmail": null,
+    "org_telephone": null,
+    "companyWebsite": "https://www.carrefour.fr/example/80241",
+    "companyWebsiteRaw": "https://www.carrefour.fr/example/35608",
+    "companyWebpageTitle": null,
+    "companyWebpageDescription": null,
+    "companyLinkedInUrl": null,
+    "companyInstagramUrl": null,
+    "companyFacebookUrl": null,
+    "companyTwitterUrl": null,
+    "companyYouTubeUrl": null,
+    "companyTikTokUrl": null
+  }
+]

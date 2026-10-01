@@ -1,0 +1,59 @@
+[
+  {
+    "id": "127666067",
+    "slug": "id99746436",
+    "url": "https://www.depop.com/example/42284",
+    "status": "STATUS_ONSALE",
+    "isOnSale": true,
+    "brandId": "115",
+    "brandName": "Example brand name",
+    "countryCode": "US",
+    "hasVideo": false,
+    "likeCount": 4,
+    "isLiked": false,
+    "pictures": [
+      "https://media-photos.depop.com/example/86176.jpg",
+      "https://media-photos.depop.com/example/27968.jpg"
+    ],
+    "mainPicture": "https://media-photos.depop.com/example/29214.jpg",
+    "pictureCount": 6,
+    "sizes": [
+      {
+        "id": 2,
+        "name": "Example name",
+        "quantity": 9,
+        "status": "STATUS_ONSALE"
+      }
+    ],
+    "variantSetId": 43,
+    "variants": [
+      {
+        "variantId": 4,
+        "quantity": 9
+      }
+    ],
+    "sku": null,
+    "isBoosted": false,
+    "boostedAt": "2026-01-15T10:00:00Z",
+    "isSold": null,
+    "price": 38.49,
+    "totalPrice": 42.69,
+    "buyerFee": 0,
+    "tax": 0,
+    "taxType": "Example tax type",
+    "shippingCost": 2.29,
+    "shippingBoundary": "NATIONAL",
+    "shippingId": "USPS",
+    "nationalShippingCost": 1.91,
+    "nationalShippingType": "ManualShipping",
+    "priceType": "Product",
+    "currency": "USD",
+    "isReduced": false,
+    "discountPercentage": null,
+    "originalPriceBeforeDiscount": null,
+    "hasBuyerFee": false,
+    "hasTax": false,
+    "hasShippingPrice": false,
+    "description": "Example description: mock text standing in for the real value. Same field and type, made-up content."
+  }
+]

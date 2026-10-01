@@ -1,0 +1,158 @@
+[
+  {
+    "sku": "hpnf0654tu",
+    "name": "Example name",
+    "title": "Example title",
+    "brand": "HP",
+    "url": "https://www.officeworks.com.au/example/65580",
+    "seoPath": "Example seo path: mock text standing in for the real value. Same field and type, made-up content.",
+    "price": 405,
+    "currency": "AUD",
+    "gtin": "137618301623",
+    "manufacturerPartNumber": "Example manufacturer part number",
+    "productType": "STANDARD",
+    "colour": "Grey",
+    "multipackSize": null,
+    "unitsPerPack": 6,
+    "category": "Chromebooks",
+    "categoryPath": "Example category path",
+    "availableStates": [
+      "NT",
+      "WA"
+    ],
+    "isAvailableInStore": true,
+    "availableOnline": true,
+    "isClearance": false,
+    "isOnSpecial": false,
+    "isNew": false,
+    "promoLabel": null,
+    "wasPrice": null,
+    "savingsAmount": null,
+    "savingsPercent": null,
+    "rating": 5.11,
+    "reviewCount": 855,
+    "imageUrl": "https://s3-ap-southeast-2.amazonaws.com/example/71801.jpg",
+    "images": [
+      "https://s3-ap-southeast-2.amazonaws.com/example/44686.jpg",
+      "https://s3-ap-southeast-2.amazonaws.com/example/12637.jpg"
+    ],
+    "searchMode": "search",
+    "source": "Example source",
+    "variants": [
+      {
+        "sku": "hpnf0979tu",
+        "url": "https://www.officeworks.com.au/example/65580",
+        "attributes": {
+          "Variation": "Example variation"
+        },
+        "imageUrl": "https://s3-ap-southeast-2.amazonaws.com/example/71801.jpg"
+      },
+      {
+        "sku": "hpnf8842tu",
+        "url": "https://www.officeworks.com.au/example/59210",
+        "attributes": {
+          "Variation": "Example variation"
+        },
+        "imageUrl": "https://s3-ap-southeast-2.amazonaws.com/example/94262.jpg"
+      }
+    ],
+    "variantAxes": {
+      "Variation": [
+        "Example variation",
+        "Example variation"
+      ]
+    },
+    "variantCount": 2,
+    "categoryHierarchy": [
+      [
+        "Education",
+        "Example category hierarchy"
+      ],
+      [
+        "Technology",
+        "Laptops"
+      ]
+    ],
+    "itemsPerUnit": null,
+    "totalUnits": null,
+    "brandUrl": "https://www.officeworks.com.au/example/60347",
+    "edlpPrice": 340
+  },
+  {
+    "sku": "acd6tsa328",
+    "name": "Example name",
+    "title": "Example title",
+    "brand": "Acer",
+    "url": "https://www.officeworks.com.au/example/48397",
+    "seoPath": "Example seo path: mock text standing in for the real value. Same field and type, made-up content.",
+    "price": 335,
+    "currency": "AUD",
+    "gtin": "0863665178106",
+    "manufacturerPartNumber": "Example manufacturer part number",
+    "productType": "STANDARD",
+    "colour": "Silver",
+    "multipackSize": null,
+    "unitsPerPack": 6,
+    "category": "Example category",
+    "categoryPath": "Example category path",
+    "availableStates": [
+      "NSW",
+      "QLD"
+    ],
+    "isAvailableInStore": true,
+    "availableOnline": true,
+    "isClearance": false,
+    "isOnSpecial": false,
+    "isNew": false,
+    "promoLabel": null,
+    "wasPrice": null,
+    "savingsAmount": null,
+    "savingsPercent": null,
+    "rating": 3.17,
+    "reviewCount": 2,
+    "imageUrl": "https://s3-ap-southeast-2.amazonaws.com/example/39525.jpg",
+    "images": [
+      "https://s3-ap-southeast-2.amazonaws.com/example/40942.jpg",
+      "https://s3-ap-southeast-2.amazonaws.com/example/8475.jpg"
+    ],
+    "searchMode": "search",
+    "source": "Example source",
+    "variants": [
+      {
+        "sku": "acd6tsa328",
+        "url": "https://www.officeworks.com.au/example/48397",
+        "attributes": null,
+        "imageUrl": "https://s3-ap-southeast-2.amazonaws.com/example/39525.jpg"
+      },
+      {
+        "sku": "acd4zsa469",
+        "url": "https://www.officeworks.com.au/example/25698",
+        "attributes": {
+          "Variation": "Example variation"
+        },
+        "imageUrl": "https://s3-ap-southeast-2.amazonaws.com/example/98581.jpg"
+      }
+    ],
+    "variantAxes": {
+      "Variation": [
+        "Example variation",
+        "Example variation"
+      ]
+    },
+    "variantCount": 5,
+    "categoryHierarchy": [
+      [
+        "Technology",
+        "Laptops"
+      ],
+      [
+        "Education",
+        "Example category hierarchy"
+      ]
+    ],
+    "itemsPerUnit": null,
+    "totalUnits": null,
+    "brandUrl": "https://www.officeworks.com.au/example/67390",
+    "edlpPrice": 979
+  }
+]

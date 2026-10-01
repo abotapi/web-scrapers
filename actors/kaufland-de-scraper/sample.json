@@ -1,0 +1,22 @@
+[
+  {
+    "productId": "039316205",
+    "title": "Example title: mock text standing in for the real value. Same field and type, made-up content.",
+    "url": "https://www.kaufland.de/example/87546",
+    "image": "https://media.cdn.kaufland.de/example/42652.jpg",
+    "price": null,
+    "currency": null,
+    "originalPrice": null,
+    "discountAmount": null,
+    "discountPercent": null,
+    "isOnSpecial": false,
+    "unitPrice": {
+      "value": 16.77,
+      "unit": "Example unit"
+    },
+    "promoLabel": "Example promo label",
+    "seller": "Example seller",
+    "rating": 4.22,
+    "reviewCount": 91
+  }
+]

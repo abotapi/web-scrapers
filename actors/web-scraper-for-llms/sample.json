@@ -1,0 +1,28 @@
+[
+  {
+    "url": "https://example.com/example/95406",
+    "title": "Example title",
+    "description": null,
+    "markdown": "Example markdown: mock text standing in for the real value. Same field and type, made-up content.",
+    "html": null,
+    "metadata": {
+      "title": "Example title",
+      "description": null,
+      "author": null,
+      "language": "en",
+      "charset": null,
+      "favicon": "Example favicon",
+      "canonical": null,
+      "image": null,
+      "keywords": null,
+      "robots": null,
+      "themeColor": null,
+      "openGraph": null,
+      "twitter": null
+    },
+    "duration": 288,
+    "scrapedAt": "2026-01-15T10:00:00Z",
+    "success": true,
+    "error": null
+  }
+]

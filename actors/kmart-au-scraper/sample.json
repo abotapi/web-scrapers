@@ -1,0 +1,67 @@
+[
+  {
+    "kind": "product",
+    "id": "18781986",
+    "productId": "p_82618197",
+    "name": "Example name",
+    "title": "Example title",
+    "url": "https://www.kmart.com.au/example/13944",
+    "brand": "Anko",
+    "apn": 5209104726044,
+    "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
+    "descriptionText": "Example description text: mock text standing in for the real value. Same field and type, made-up content.",
+    "descriptionSummary": "Example description summary: mock text standing in for the real value. Same field and type, made-up content.",
+    "features": null,
+    "specifications": {
+      "Dimensions/Size": "Example dimensions/ size",
+      "Material": "Example material",
+      "Colour": "Example colour",
+      "Care instructions": "Example care instructions"
+    },
+    "careInstructions": [
+      "Example care instructions"
+    ],
+    "additionalInfo": [
+      "Example additional info: mock text standing in for the real value. Same field and type, made-up content."
+    ],
+    "warnings": null,
+    "manuals": null,
+    "detailSections": [
+      {
+        "heading": "Example heading",
+        "items": [
+          "Example items",
+          "Example items"
+        ]
+      },
+      {
+        "heading": "Example heading",
+        "items": [
+          "Example items: mock text standing in for the real value. Same field and type, made-up content."
+        ]
+      }
+    ],
+    "price": 2.5,
+    "listPrice": 2.45,
+    "promoPrice": 2.97,
+    "wasPrice": null,
+    "savingsAmount": null,
+    "savingsPercent": null,
+    "isOnSpecial": false,
+    "promoLabel": null,
+    "variantBadges": null,
+    "currency": "AUD",
+    "onSale": false,
+    "clearance": false,
+    "averageRating": 4.14,
+    "reviewCount": 237,
+    "colour": "Blue",
+    "secondaryColour": "Ocean",
+    "size": "Example size",
+    "seller": "Example seller",
+    "isMarketplace": false,
+    "merchDepartment": 95,
+    "merchClass": "TOWELS",
+    "primaryCategoryId": "id25845182"
+  }
+]

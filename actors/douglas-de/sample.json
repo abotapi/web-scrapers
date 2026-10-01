@@ -1,0 +1,66 @@
+[
+  {
+    "id": "9831906336",
+    "sku": "796295",
+    "title": "Example title",
+    "variantLabel": "",
+    "url": "https://www.douglas.de/example/85272",
+    "brand": {
+      "name": "Example name",
+      "code": null
+    },
+    "brandLine": "Libre",
+    "productFamily": "Example product family",
+    "productType": "PRODUCT",
+    "isMarketplace": false,
+    "breadcrumbs": [],
+    "price": {
+      "current": 77.96,
+      "original": 100.79,
+      "currency": "EUR",
+      "formattedCurrent": null,
+      "formattedOriginal": null,
+      "discountPercent": 6.68
+    },
+    "unitPrice": {
+      "amount": 9591,
+      "currency": "EUR",
+      "unit": "Example unit"
+    },
+    "isOnSpecial": true,
+    "wasPrice": 94.39,
+    "savingsAmount": 7.47,
+    "savingsPercent": 10.29,
+    "promoLabel": "Example promo label",
+    "availability": {
+      "code": "AVAILABLE",
+      "inStock": true
+    },
+    "variants": [],
+    "images": [
+      {
+        "url": "https://media.douglas.de/example/85272",
+        "alt": null
+      },
+      {
+        "url": "https://media.douglas.de/example/44796",
+        "alt": null
+      }
+    ],
+    "description": "",
+    "characteristics": [
+      "Example characteristics"
+    ],
+    "rating": 4.27,
+    "ratingStars": null,
+    "reviewCount": null,
+    "ean": "",
+    "ratingBreakdown": [],
+    "reviews": [],
+    "ingredients": "",
+    "howToUse": "",
+    "specifications": {},
+    "reviewSummary": "",
+    "scrapedAt": "2026-01-15T10:00:00Z"
+  }
+]

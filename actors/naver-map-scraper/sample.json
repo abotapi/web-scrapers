@@ -1,0 +1,50 @@
+[
+  {
+    "recordType": "place",
+    "id": "55007922",
+    "placeId": "39778229",
+    "name": "Example name",
+    "category": "Example category",
+    "businessCategory": "restaurant",
+    "categoryCodeList": [
+      "024988",
+      "939987"
+    ],
+    "searchKeyword": "Example search keyword",
+    "placeUrl": "https://map.naver.com/example/20976",
+    "latitude": 30.77,
+    "longitude": 94.01,
+    "distance": "Example distance",
+    "phone": "+1 555 0100",
+    "virtualPhone": null,
+    "address": "Example address",
+    "roadAddress": "Example road address",
+    "commonAddress": "Example common address",
+    "fullAddress": "Example full address",
+    "visitorReviewScore": 5.38,
+    "visitorReviewCount": 6673,
+    "totalReviewCount": null,
+    "blogCafeReviewCount": 5203,
+    "bookingReviewCount": 0,
+    "imageUrl": "https://ldb-phinf.pstatic.net/example/47520.jpg",
+    "imageCount": 1,
+    "imageUrls": [
+      "https://ldb-phinf.pstatic.net/example/7591.jpg",
+      "https://ldb-phinf.pstatic.net/example/66579.jpg"
+    ],
+    "options": null,
+    "businessHours": null,
+    "hasBooking": null,
+    "hasNaverPay": false,
+    "bookingUrl": null,
+    "talktalkUrl": null,
+    "routeUrl": null,
+    "markerId": "273181",
+    "newOpening": null,
+    "hasWheelchairEntrance": null,
+    "description": null,
+    "landmark": "Example landmark",
+    "homepage": null,
+    "conveniences": []
+  }
+]

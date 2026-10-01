@@ -1,0 +1,134 @@
+[
+  {
+    "productId": "0386469",
+    "sku": "4019018",
+    "ean": "8922886386626",
+    "name": "Example name: mock text standing in for the real value. Same field and type, made-up content.",
+    "brand": "LENOVO",
+    "categoryPath": [
+      "Example category path",
+      "Example category path"
+    ],
+    "category": "Example category",
+    "url": "https://www.mediamarkt.es/example/81437",
+    "rating": 5.74,
+    "reviewCount": 5,
+    "isMarketplace": false,
+    "price": 635,
+    "currency": "EUR",
+    "discountAmount": 693,
+    "discountPercent": 28,
+    "originalPrice": 938,
+    "isOnSpecial": true,
+    "strikePriceType": "XOP",
+    "shippingCost": 5.66,
+    "installment": {
+      "__typename": "Example __typename",
+      "duration": 46,
+      "finalRate": 64.48,
+      "interestEffective": 20.26,
+      "interestNominal": 18.57,
+      "interestTotal": 59.44,
+      "monthlyRate": 61.33,
+      "totalAmount": 710.82
+    },
+    "image": "https://assets.mmsrg.com/example/91927.jpg",
+    "images": [
+      "https://assets.mmsrg.com/example/421.jpg"
+    ],
+    "onlineAvailable": true,
+    "availabilityStatus": "AVAILABLE",
+    "reviews": {
+      "averageRating": 5.0,
+      "totalReviewCount": 5,
+      "items": [
+        {
+          "id": "0346020297",
+          "rating": 4,
+          "title": "excelente",
+          "text": "Example text: mock text standing in for the real value. Same field and type, made-up content.",
+          "date": "2026-01-15T10:00:00Z",
+          "isVerifiedPurchaser": true,
+          "reviewerName": "Example reviewer name",
+          "syndicationSource": null
+        },
+        {
+          "id": "8898983044",
+          "rating": 7,
+          "title": "Example title",
+          "text": "Example text: mock text standing in for the real value. Same field and type, made-up content.",
+          "date": "2026-01-15T10:00:00Z",
+          "isVerifiedPurchaser": true,
+          "reviewerName": "Example reviewer name",
+          "syndicationSource": null
+        }
+      ]
+    }
+  },
+  {
+    "productId": "3820576",
+    "sku": "2908122",
+    "ean": "1583362818527",
+    "name": "Example name: mock text standing in for the real value. Same field and type, made-up content.",
+    "brand": "GIGABYTE",
+    "categoryPath": [
+      "Example category path",
+      "Example category path"
+    ],
+    "category": "Example category",
+    "url": "https://www.mediamarkt.es/example/35532",
+    "rating": 4.82,
+    "reviewCount": 32,
+    "isMarketplace": false,
+    "price": 876,
+    "currency": "EUR",
+    "discountAmount": 786,
+    "discountPercent": 53,
+    "originalPrice": 1273,
+    "isOnSpecial": true,
+    "strikePriceType": "XOP",
+    "shippingCost": 5.73,
+    "installment": {
+      "__typename": "Example __typename",
+      "duration": 83,
+      "finalRate": 67.76,
+      "interestEffective": 22.14,
+      "interestNominal": 19.14,
+      "interestTotal": 111.22,
+      "monthlyRate": 68.48,
+      "totalAmount": 1291.67
+    },
+    "image": "https://assets.mmsrg.com/example/22578.jpg",
+    "images": [
+      "https://assets.mmsrg.com/example/38628.jpg"
+    ],
+    "onlineAvailable": true,
+    "availabilityStatus": "AVAILABLE",
+    "reviews": {
+      "averageRating": 4.82,
+      "totalReviewCount": 53,
+      "items": [
+        {
+          "id": "7629003416",
+          "rating": 1,
+          "title": "Example title",
+          "text": "Example text: mock text standing in for the real value. Same field and type, made-up content.",
+          "date": "2026-01-15T10:00:00Z",
+          "isVerifiedPurchaser": true,
+          "reviewerName": "Example reviewer name",
+          "syndicationSource": null
+        },
+        {
+          "id": "5331690755",
+          "rating": 4,
+          "title": "",
+          "text": "",
+          "date": "2026-01-15T10:00:00Z",
+          "isVerifiedPurchaser": true,
+          "reviewerName": "Example reviewer name",
+          "syndicationSource": null
+        }
+      ]
+    }
+  }
+]

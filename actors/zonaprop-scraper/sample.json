@@ -1,0 +1,53 @@
+[
+  {
+    "postingId": "18123731",
+    "postingCode": "Example posting code",
+    "alphanumericKey": "id20353075",
+    "url": "https://www.zonaprop.com.ar/example/56913",
+    "title": "Example title: mock text standing in for the real value. Same field and type, made-up content.",
+    "generatedTitle": "Example generated title",
+    "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
+    "propertyType": "Departamentos",
+    "propertyTypeId": "3",
+    "operationType": "Venta",
+    "status": "ONLINE",
+    "postingType": "PROPERTY",
+    "premier": true,
+    "reserved": false,
+    "isDuplicated": null,
+    "price": 101229,
+    "priceFormatted": "475.071",
+    "currency": "USD",
+    "priceUsd": 994180,
+    "priceArs": null,
+    "prices": [
+      {
+        "operationType": "Venta",
+        "operationTypeId": "5",
+        "amount": 559285,
+        "formattedAmount": "752.526",
+        "currency": "USD",
+        "currencyId": "0"
+      }
+    ],
+    "expenses": 0,
+    "expensesCurrency": "Example expenses currency",
+    "expensesFormatted": null,
+    "totalArea": 69,
+    "coveredArea": 52,
+    "rooms": 6,
+    "bedrooms": 8,
+    "bathrooms": 7,
+    "garages": null,
+    "age": null,
+    "areaUnit": "Example area unit",
+    "address": "Example address",
+    "addressVisibility": "Example address visibility",
+    "neighborhood": "Example neighborhood",
+    "city": "Example city",
+    "province": "Example province",
+    "country": "Argentina",
+    "locationId": "v0-c-1608180",
+    "locationName": "Example location name"
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "kind": "product",
+    "id": "h00768",
+    "title": "Example title: mock text standing in for the real value. Same field and type, made-up content.",
+    "url": "https://www.next.co.uk/example/88942",
+    "price": 44,
+    "currency": "GBP",
+    "wasPrice": null,
+    "priceMin": 79,
+    "priceMax": 67,
+    "sizes": [
+      "6",
+      "89"
+    ],
+    "outOfStockMarkers": 2,
+    "lowStock": false,
+    "images": [
+      "https://xcdn.next.co.uk/example/82438.jpg",
+      "https://xcdn.next.co.uk/example/50693.jpg"
+    ],
+    "composition": "Example composition",
+    "detailFetched": true,
+    "image": "https://xcdn.next.co.uk/example/26450.jpg"
+  },
+  {
+    "kind": "product",
+    "id": "h08715",
+    "title": "Example title",
+    "url": "https://www.next.co.uk/example/10726",
+    "price": 54,
+    "currency": "GBP",
+    "wasPrice": null,
+    "priceMin": 81,
+    "priceMax": 85,
+    "sizes": [
+      "0",
+      "76"
+    ],
+    "outOfStockMarkers": 5,
+    "lowStock": false,
+    "images": [
+      "https://xcdn.next.co.uk/example/51035.jpg",
+      "https://xcdn.next.co.uk/example/8625.jpg"
+    ],
+    "composition": "Example composition",
+    "detailFetched": true,
+    "image": "https://xcdn.next.co.uk/example/3075.jpg"
+  }
+]

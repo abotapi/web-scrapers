@@ -1,0 +1,31 @@
+[
+  {
+    "name": "Example name",
+    "productCode": "09640p8",
+    "url": "https://www.viator.com/example/51711",
+    "image": "https://dynamic-media.tacdn.com/example/92874.jpg",
+    "locationName": "Example location name",
+    "addressLocality": "Example address locality",
+    "addressCountryName": "Example address country name",
+    "offerPrice": 94,
+    "offerCurrency": "USD",
+    "availability": "Example availability",
+    "priceValidUntil": "2026-01-15",
+    "ratingValue": 8,
+    "exactRating": 5,
+    "bestRating": 8,
+    "worstRating": 1,
+    "reviewCount": 4017,
+    "position": 5,
+    "sourceUrl": "https://www.viator.com/example/26962",
+    "sourcePage": 3,
+    "sourceName": "Example source name",
+    "sourceDescription": "Example source description: mock text standing in for the real value. Same field and type, made-up content.",
+    "breadcrumbs": [
+      "Example breadcrumbs",
+      "Example breadcrumbs"
+    ],
+    "detailStatus": "not_requested",
+    "scrapedAt": "2026-01-15T10:00:00Z"
+  }
+]

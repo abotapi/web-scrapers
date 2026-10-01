@@ -1,0 +1,32 @@
+[
+  {
+    "market": "americas-us",
+    "source": {
+      "id": 793958,
+      "crawlUrl": "https://www.sephora.com/example/98299",
+      "canonicalUrl": "https://www.sephora.com/example/61124",
+      "retailer": "SEPHORA",
+      "currency": "USD",
+      "locale": "en-US"
+    },
+    "brand": "Example brand",
+    "title": "Example title: mock text standing in for the real value. Same field and type, made-up content.",
+    "isNewArrival": false,
+    "frontend": "us",
+    "priceText": null,
+    "thumbnail": "https://www.sephora.com/example/18404.jpg",
+    "rating": 3.96,
+    "reviewCount": 5565,
+    "highlights": [],
+    "categories": [],
+    "medias": [],
+    "variants": [],
+    "options": [],
+    "isOnSpecial": false,
+    "wasPrice": null,
+    "savingsAmount": null,
+    "savingsPercent": null,
+    "soldOut": null,
+    "scrapedAt": "2026-01-15T10:00:00Z"
+  }
+]

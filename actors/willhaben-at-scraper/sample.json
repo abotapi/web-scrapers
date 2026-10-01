@@ -1,0 +1,65 @@
+[
+  {
+    "id": "9309167077",
+    "uuid": "id59802884",
+    "url": "https://www.willhaben.at/example/99260",
+    "seoUrl": "Example seo url: mock text standing in for the real value. Same field and type, made-up content.",
+    "verticalId": 6,
+    "adTypeId": 60,
+    "productId": 52,
+    "advertStatus": "active",
+    "category": "Example category",
+    "title": "Example title",
+    "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
+    "price": 517,
+    "priceDisplay": "Example price display",
+    "country": "Example country",
+    "state": "Tirol",
+    "district": "Example district",
+    "postcode": "7223",
+    "locationName": "Example location name",
+    "address": null,
+    "latitude": 36.97,
+    "longitude": 13.54,
+    "publishedDate": "2026-01-15T10:00:00Z",
+    "changedDate": "2026-01-15T10:00:00Z",
+    "endDate": "2026-01-15T10:00:00Z",
+    "isPrivate": true,
+    "orgId": "73809432",
+    "advertiserLabel": null,
+    "images": [
+      "https://cache.willhaben.at/example/64095.jpg",
+      "https://cache.willhaben.at/example/4438.jpg"
+    ],
+    "imageCount": 74,
+    "mainImage": "https://cache.willhaben.at/example/77325.jpg",
+    "advertiserInfo": {
+      "label": null,
+      "iconSVG": null,
+      "iconPNG": null,
+      "iconType": "NONE"
+    },
+    "rawAttributes": [
+      {
+        "name": "Example name",
+        "values": [
+          "Example values"
+        ]
+      },
+      {
+        "name": "id17875657",
+        "values": [
+          "false"
+        ]
+      }
+    ],
+    "attr_LOCATION": "Example attr_ l o c a t i o n",
+    "attr_p2penabled": "false",
+    "attr_CHANGED": "6362726794529",
+    "attr_categorytreeattributeids": "Example attr_categorytreeattributeids",
+    "attr_CHANGED_String": "2026-01-15T10:00:00Z",
+    "attr_POSTCODE": "8677",
+    "attr_BODY_DYN": "Example attr_ b o d y_ d y n: mock text standing in for the real value. Same field and type, made-up content.",
+    "attr_STATE": "Tirol"
+  }
+]

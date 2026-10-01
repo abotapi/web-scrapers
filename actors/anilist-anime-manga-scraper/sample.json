@@ -1,0 +1,74 @@
+[
+  {
+    "id": 419947,
+    "idMal": 89778,
+    "url": "https://anilist.co/example/96452",
+    "titleRomaji": "Example title romaji",
+    "titleEnglish": "Example title english",
+    "titleNative": "Example title native",
+    "format": "TV",
+    "status": "FINISHED",
+    "episodes": 87,
+    "chapters": null,
+    "volumes": null,
+    "durationMin": 45,
+    "averageScore": 81,
+    "meanScore": 45,
+    "popularity": 550735,
+    "favourites": 90881,
+    "genres": [
+      "Adventure",
+      "Drama"
+    ],
+    "countryOfOrigin": "JP",
+    "isAdult": false,
+    "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
+    "season": "FALL",
+    "seasonYear": 2140,
+    "startDate": "2026-01-15",
+    "endDate": "2026-01-15",
+    "studios": [
+      "MADHOUSE"
+    ],
+    "nextAiringEpisode": null,
+    "nextAiringAt": null,
+    "coverImage": "https://s4.anilist.co/example/64725.jpg",
+    "bannerImage": "https://s4.anilist.co/example/84900.jpg"
+  },
+  {
+    "id": 307754,
+    "idMal": 62682,
+    "url": "https://anilist.co/example/39423",
+    "titleRomaji": "Example title romaji",
+    "titleEnglish": null,
+    "titleNative": "Example title native",
+    "format": "TV",
+    "status": "NOT_YET_RELEASED",
+    "episodes": null,
+    "chapters": null,
+    "volumes": null,
+    "durationMin": null,
+    "averageScore": null,
+    "meanScore": null,
+    "popularity": 99707,
+    "favourites": 346,
+    "genres": [
+      "Adventure",
+      "Drama"
+    ],
+    "countryOfOrigin": "JP",
+    "isAdult": false,
+    "description": "Example description",
+    "season": "FALL",
+    "seasonYear": 5564,
+    "startDate": "2026-01-15",
+    "endDate": null,
+    "studios": [
+      "MADHOUSE"
+    ],
+    "nextAiringEpisode": null,
+    "nextAiringAt": null,
+    "coverImage": "https://s4.anilist.co/example/71892.jpg",
+    "bannerImage": null
+  }
+]

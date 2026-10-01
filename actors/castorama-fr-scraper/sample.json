@@ -1,0 +1,150 @@
+[
+  {
+    "productId": "7827088942673",
+    "ean": "8294672343132",
+    "title": "Example title: mock text standing in for the real value. Same field and type, made-up content.",
+    "brand": "Nemura",
+    "price": 63.99,
+    "currency": "EUR",
+    "originalPrice": 179.19,
+    "discountAmount": 85,
+    "discountPercentage": 10,
+    "isOnSpecial": true,
+    "promotionLabel": "Example promotion label",
+    "sellerId": "6706",
+    "sellerName": "Example seller name",
+    "soldByCastorama": false,
+    "categoryPath": [
+      {
+        "name": "Example name",
+        "path": "Example path"
+      },
+      {
+        "name": "Example name",
+        "path": "Example path: mock text standing in for the real value. Same field and type, made-up content."
+      }
+    ],
+    "category": "Example category",
+    "categoryNames": [
+      "Example category names"
+    ],
+    "availability": {
+      "status": "Available",
+      "purchasable": true,
+      "homeDelivery": "Example home delivery",
+      "clickAndCollect": false,
+      "inStore": false
+    },
+    "images": [
+      "https://media.castorama.fr/example/10691.jpg",
+      "https://media.castorama.fr/example/21104.jpg"
+    ],
+    "url": "https://www.castorama.fr/example/76136",
+    "image": "https://media.castorama.fr/example/97615.jpg",
+    "specifications": [
+      {
+        "name": "Example name",
+        "value": "Example value"
+      },
+      {
+        "name": "Example name",
+        "value": "general"
+      }
+    ],
+    "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
+    "manufacturerRaw": {
+      "contactDetails": {
+        "gpsrManufacturerName": "Example gpsr manufacturer name",
+        "gpsrEuRepresentativeName": "",
+        "gpsrContactAddressLine1": "",
+        "gpsrContactAddressLine2": "",
+        "gpsrContactAddressCity": "",
+        "gpsrContactAddressCounty": "",
+        "gpsrContactAddressPostCode": "",
+        "gpsrContactAddressCountry": "",
+        "gpsrContactEmailAddress": "",
+        "gpsrContactFormUrl": ""
+      },
+      "contentUrls": [],
+      "safetyManuals": [],
+      "warnings": []
+    },
+    "offersRaw": [
+      {
+        "availableStartDate": null,
+        "availableEndDate": null,
+        "discountStartDate": "2026-01-15T10:00:00Z",
+        "discountEndDate": "2026-01-15T10:00:00Z",
+        "createdAt": "2026-01-15T10:00:00Z",
+        "updatedAt": "2026-01-15T10:00:00Z",
+        "id": 4589795,
+        "ean": "8294672343132",
+        "price": 63.99,
+        "discountPrice": 67.19,
+        "unitOfMeasurement": null,
+        "unitPrice": null,
+        "originPrice": 125.99,
+        "quantity": 82,
+        "description": "",
+        "stateCode": 70,
+        "sellerId": 9880,
+        "sellerName": "Example seller name",
+        "active": true,
+        "deleted": false,
+        "currencyIsoCode": "EUR",
+        "leadtimeToShip": 8,
+        "additionalShippingPrice": null,
+        "wasPrice": 103.59,
+        "wasWasPrice": null,
+        "wasUnitPrice": null,
+        "tenant": "CAFR",
+        "sortIndex": 0,
+        "deliveryOptions": [
+          {
+            "zone": "FR",
+            "method": "STD",
+            "minDeliveryDays": 1,
+            "maxDeliveryDays": 8,
+            "shippingPrice": 0
+          }
+        ],
+        "ecoContributions": [],
+        "gpsr": {
+          "gpsrManufacturerName": "Example gpsr manufacturer name",
+          "gpsrEuRepresentativeName": "",
+          "gpsrContactAddressLine1": "",
+          "gpsrContactAddressLine2": "",
+          "gpsrContactAddressCity": "",
+          "gpsrContactAddressCounty": "",
+          "gpsrContactAddressPostCode": "",
+          "gpsrContactAddressCountry": "",
+          "gpsrContactEmailAddress": "",
+          "gpsrContactFormUrl": "",
+          "gpsr2023FullyCompliant": true
+        },
+        "manualRoundel": null,
+        "promotions": []
+      }
+    ],
+    "searchMode": "search",
+    "scrapedAt": "2026-01-15T10:00:00Z",
+    "rating": 5.94,
+    "reviewCount": 5,
+    "reviews": [
+      {
+        "author": "Example author",
+        "title": "Example title",
+        "body": "Example body: mock text standing in for the real value. Same field and type, made-up content.",
+        "rating": 2,
+        "date": "2026-01-15T10:00:00Z"
+      },
+      {
+        "author": "Example author",
+        "title": "Example title",
+        "body": "Example body: mock text standing in for the real value. Same field and type, made-up content.",
+        "rating": 9,
+        "date": "2026-01-15T10:00:00Z"
+      }
+    ]
+  }
+]

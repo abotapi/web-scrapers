@@ -1,0 +1,104 @@
+[
+  {
+    "id": "768463593256289",
+    "slug": "id70021680",
+    "url": "https://sg.jobstreet.com/example/44313",
+    "region": "SG",
+    "name": "Example name",
+    "isClaimed": true,
+    "logoUrl": "https://image-service-cdn.seek.com.au/example/31983.jpg",
+    "coverImageUrl": "https://image-service-cdn.seek.com.au/example/97044.jpg",
+    "industry": "Example industry",
+    "totalJobs": 39,
+    "ratingOverall": 8,
+    "reviewCount": 709,
+    "salaryRating": 48,
+    "recommendedPercent": 71,
+    "ratingBreakdown": {
+      "companyRating1StarCount": 79,
+      "companyRating1StarPercentage": 9.42,
+      "companyRating2StarCount": 39,
+      "companyRating2StarPercentage": 5.11,
+      "companyRating3StarCount": 97,
+      "companyRating3StarPercentage": 11.68,
+      "companyRating4StarCount": 84,
+      "companyRating4StarPercentage": 22.01,
+      "companyRating5StarCount": 56,
+      "companyRating5StarPercentage": 38.89
+    },
+    "categoryRatings": [
+      {
+        "rating": 4.11,
+        "count": 829,
+        "description": "Example description"
+      },
+      {
+        "rating": 2.59,
+        "count": 792,
+        "description": "Example description"
+      }
+    ],
+    "topReviews": [
+      {
+        "reviewId": "209692024903456",
+        "companyId": "264288769308553",
+        "schemaVersion": "9.7.8",
+        "title": "Example title",
+        "pros": "Example pros: mock text standing in for the real value. Same field and type, made-up content.",
+        "cons": "Example cons",
+        "overallExperienceDetails": null,
+        "jobTitle": "Example job title",
+        "workLocation": "Example work location",
+        "employmentStatus": "Example employment status",
+        "salarySummary": "Example salary summary",
+        "recommended": false,
+        "recommendedLabel": "Example recommended label",
+        "ratings": [
+          {
+            "category": "Example category",
+            "rating": 4
+          },
+          {
+            "category": "Example category",
+            "rating": 7
+          }
+        ],
+        "overallRating": 3,
+        "createdAt": "Example created at",
+        "upvotes": 9,
+        "hasBeenFlagged": false
+      },
+      {
+        "reviewId": "023431428617248",
+        "companyId": "207381270855738",
+        "schemaVersion": "3.6.3",
+        "title": "Example title",
+        "pros": "Example pros",
+        "cons": "Example cons: mock text standing in for the real value. Same field and type, made-up content.",
+        "overallExperienceDetails": null,
+        "jobTitle": "Example job title",
+        "workLocation": "Example work location",
+        "employmentStatus": "Example employment status",
+        "salarySummary": "Example salary summary",
+        "recommended": false,
+        "recommendedLabel": "Example recommended label",
+        "ratings": [
+          {
+            "category": "Example category",
+            "rating": 7
+          },
+          {
+            "category": "Example category",
+            "rating": 8
+          }
+        ],
+        "overallRating": 9,
+        "createdAt": "Example created at",
+        "upvotes": 1,
+        "hasBeenFlagged": false
+      }
+    ],
+    "topReviewCount": 4,
+    "scrapedAt": "2026-01-15T10:00:00Z"
+  }
+]

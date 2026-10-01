@@ -1,0 +1,112 @@
+[
+  {
+    "recordId": "418463986374",
+    "jobId": "307302144281",
+    "kind": "job",
+    "title": "Example title",
+    "url": "https://www.naukri.com/example/48469",
+    "companyName": "Example company name",
+    "companyId": 6140,
+    "companyLogo": "https://img.naukimg.com/example/19345.jpg",
+    "skills": [
+      "API",
+      "Example skills"
+    ],
+    "experience": "Example experience",
+    "minimumExperience": 2,
+    "maximumExperience": 63,
+    "salary": "Example salary",
+    "location": "Example location",
+    "descriptionSnippet": "Example description snippet: mock text standing in for the real value. Same field and type, made-up content.",
+    "vacancy": 9,
+    "postedDaysAgoLabel": "Example posted days ago label",
+    "postedAt": "2026-01-15T10:00:00Z",
+    "currency": "INR",
+    "walkinJob": false,
+    "searchScope": "Example search scope",
+    "salaryDetail": {
+      "minimumSalary": 0,
+      "maximumSalary": 0,
+      "currency": "INR",
+      "hideSalary": true,
+      "minSalaryPerMonth": 0,
+      "maxSalaryPerMonth": 0
+    },
+    "companyRating": {
+      "aggregateRating": null,
+      "reviewsCount": null
+    },
+    "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
+    "locations": [
+      "Example locations",
+      "Example locations"
+    ],
+    "companyDetails": {
+      "name": "Example name"
+    },
+    "education": "Example education",
+    "employmentType": "Example employment type",
+    "jobType": "fulltime",
+    "industry": "Example industry",
+    "functionalArea": "Example functional area",
+    "jobRole": "Example job role",
+    "roleCategory": "Example role category",
+    "viewCount": 9660,
+    "applyCount": 8492
+  },
+  {
+    "recordId": "514035005424",
+    "jobId": "429396764355",
+    "kind": "job",
+    "title": "Example title",
+    "url": "https://www.naukri.com/example/61734",
+    "companyName": "Example company name",
+    "companyId": 977842793,
+    "companyLogo": "https://img.naukimg.com/example/75759.jpg",
+    "skills": [
+      "Example skills",
+      "AWS"
+    ],
+    "experience": "Example experience",
+    "minimumExperience": 2,
+    "maximumExperience": 4,
+    "salary": "Example salary",
+    "location": "Example location",
+    "descriptionSnippet": "Example description snippet: mock text standing in for the real value. Same field and type, made-up content.",
+    "vacancy": 35,
+    "postedDaysAgoLabel": "Example posted days ago label",
+    "postedAt": "2026-01-15T10:00:00Z",
+    "currency": "INR",
+    "walkinJob": false,
+    "searchScope": "Example search scope",
+    "salaryDetail": {
+      "minimumSalary": 0,
+      "maximumSalary": 0,
+      "currency": "INR",
+      "hideSalary": true,
+      "minSalaryPerMonth": 0,
+      "maxSalaryPerMonth": 0
+    },
+    "companyRating": {
+      "aggregateRating": null,
+      "reviewsCount": null
+    },
+    "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
+    "locations": [
+      "Example locations",
+      "Example locations"
+    ],
+    "companyDetails": {
+      "name": "Example name"
+    },
+    "education": "Example education: mock text standing in for the real value. Same field and type, made-up content.",
+    "employmentType": "Example employment type",
+    "jobType": "fulltime",
+    "industry": "Example industry",
+    "functionalArea": "Example functional area",
+    "jobRole": "Example job role",
+    "roleCategory": "Example role category",
+    "viewCount": 5151,
+    "applyCount": 825
+  }
+]

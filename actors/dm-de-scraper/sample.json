@@ -1,0 +1,126 @@
+[
+  {
+    "productId": "9052221",
+    "sku": "1591587",
+    "ean": "1527271332564",
+    "name": "Example name",
+    "brand": "Example brand",
+    "category": "Shampoo",
+    "url": "https://www.dm.de/example/54321",
+    "price": 3.24,
+    "currency": "EUR",
+    "priceExclVat": 3.65,
+    "originalPrice": null,
+    "discountAmount": null,
+    "discountPercent": null,
+    "isOnSpecial": false,
+    "promoLabel": null,
+    "unitPrice": 11.4,
+    "unitPriceBasis": "Example unit price basis",
+    "packSize": "Example pack size",
+    "rating": 3.88,
+    "reviewCount": 784,
+    "isPharmacy": false,
+    "image": "https://products.dm-static.com/example/25850.jpg",
+    "images": [
+      "https://products.dm-static.com/example/48122.jpg",
+      "https://products.dm-static.com/example/20754.jpg"
+    ],
+    "reviews": {
+      "averageRating": 6.02,
+      "totalReviewCount": 734,
+      "ratingDistribution": [
+        {
+          "rating": 7,
+          "count": 363
+        },
+        {
+          "rating": 2,
+          "count": 77
+        }
+      ],
+      "items": [
+        {
+          "rating": 7,
+          "title": "Example title",
+          "body": "Example body: mock text standing in for the real value. Same field and type, made-up content.",
+          "author": "id8534937",
+          "date": "2026-01-15T10:00:00Z",
+          "isRecommended": true,
+          "verifiedPurchaser": false
+        },
+        {
+          "rating": 2,
+          "title": "Example title",
+          "body": "Example body: mock text standing in for the real value. Same field and type, made-up content.",
+          "author": "Example author",
+          "date": "2026-01-15T10:00:00Z",
+          "isRecommended": true,
+          "verifiedPurchaser": false
+        }
+      ]
+    }
+  },
+  {
+    "productId": "4930656",
+    "sku": "2989080",
+    "ean": "5350585332245",
+    "name": "Example name",
+    "brand": "Example brand",
+    "category": "Shampoo",
+    "url": "https://www.dm.de/example/90221",
+    "price": 2.17,
+    "currency": "EUR",
+    "priceExclVat": 1.19,
+    "originalPrice": null,
+    "discountAmount": null,
+    "discountPercent": null,
+    "isOnSpecial": false,
+    "promoLabel": null,
+    "unitPrice": 6.82,
+    "unitPriceBasis": "Example unit price basis",
+    "packSize": "Example pack size",
+    "rating": 4.8,
+    "reviewCount": 192,
+    "isPharmacy": false,
+    "image": "https://products.dm-static.com/example/35311.jpg",
+    "images": [
+      "https://products.dm-static.com/example/97630.jpg",
+      "https://products.dm-static.com/example/29379.jpg"
+    ],
+    "reviews": {
+      "averageRating": 5.25,
+      "totalReviewCount": 801,
+      "ratingDistribution": [
+        {
+          "rating": 9,
+          "count": 101
+        },
+        {
+          "rating": 3,
+          "count": 70
+        }
+      ],
+      "items": [
+        {
+          "rating": 9,
+          "title": "Example title",
+          "body": "Example body: mock text standing in for the real value. Same field and type, made-up content.",
+          "author": "Example author",
+          "date": "2026-01-15T10:00:00Z",
+          "isRecommended": true,
+          "verifiedPurchaser": false
+        },
+        {
+          "rating": 3,
+          "title": "Example title",
+          "body": "Example body: mock text standing in for the real value. Same field and type, made-up content.",
+          "author": "Example author",
+          "date": "2026-01-15T10:00:00Z",
+          "isRecommended": null,
+          "verifiedPurchaser": false
+        }
+      ]
+    }
+  }
+]

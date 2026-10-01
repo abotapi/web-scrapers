@@ -1,0 +1,420 @@
+[
+  {
+    "recordType": "community",
+    "resultKind": "mpc",
+    "id": "id99876396",
+    "state": "Florida",
+    "stateCode": "FL",
+    "communityName": "Example community name",
+    "status": "ACTIVE",
+    "badge": "Example badge",
+    "brand": "LEN",
+    "overview": "Example overview: mock text standing in for the real value. Same field and type, made-up content.",
+    "url": "https://www.lennar.com/example/79342",
+    "imageUrl": "https://cdn.lennar.com/example/90829.jpg",
+    "city": "Miami",
+    "market": "MIA",
+    "priceLabel": "Example price label",
+    "priceFrom": "Example price from",
+    "basePrice": null,
+    "bedRange": "5",
+    "bathRange": "6 - 9",
+    "sqftRange": "Example sqft range",
+    "address": null,
+    "zipCode": null,
+    "latitude": 31.43,
+    "longitude": -95.64,
+    "googlePlaceId": "chijc2plezld0ygr5_uhlnw9keu",
+    "propertyTypes": null,
+    "divisionNumber": null,
+    "communityNumber": null,
+    "mpcId": 4492,
+    "mapBounds": null,
+    "subCommunityCount": 1,
+    "subCommunities": [
+      {
+        "basePrice": 192823,
+        "customPriceV2": "Example custom price v2",
+        "number": "21681",
+        "mapBounds": [
+          19.17,
+          -80.37
+        ],
+        "types": [
+          "Multi-Family"
+        ],
+        "address": "Example address",
+        "zipCode": "17251",
+        "dynamicDirections": false,
+        "divisionNumber": "DAHLEN",
+        "plans": [
+          {
+            "homesites": [],
+            "__typename": "Example __typename"
+          },
+          {
+            "homesites": [
+              {
+                "isHotw": false,
+                "status": "MOVE_IN_READY",
+                "__typename": "Example __typename"
+              }
+            ],
+            "__typename": "Example __typename"
+          }
+        ],
+        "__typename": "Example __typename"
+      },
+      {
+        "basePrice": 875194,
+        "customPriceV2": "Example custom price v2",
+        "number": "43515",
+        "mapBounds": [
+          25.55,
+          -90.01
+        ],
+        "types": [
+          "Multi-Family"
+        ],
+        "address": "Example address",
+        "zipCode": "35857",
+        "dynamicDirections": false,
+        "divisionNumber": "DAHLEN",
+        "plans": [
+          {
+            "homesites": [
+              {
+                "isHotw": false,
+                "status": "MOVE_IN_READY",
+                "__typename": "Example __typename"
+              }
+            ],
+            "__typename": "Example __typename"
+          },
+          {
+            "homesites": [
+              {
+                "isHotw": false,
+                "status": "MOVE_IN_READY",
+                "__typename": "Example __typename"
+              }
+            ],
+            "__typename": "Example __typename"
+          }
+        ],
+        "__typename": "Example __typename"
+      }
+    ],
+    "raw": {
+      "name": "Example name",
+      "heroImage": {
+        "alt": "Example alt",
+        "url": "https://cdn.lennar.com/example/79342.jpg",
+        "__typename": "Example __typename"
+      },
+      "status": "ACTIVE",
+      "city": {
+        "name": "Example name",
+        "market": {
+          "code": "MIA",
+          "state": {
+            "code": "FL",
+            "__typename": "Example __typename"
+          },
+          "__typename": "Example __typename"
+        },
+        "__typename": "Example __typename"
+      },
+      "overview": "Example overview: mock text standing in for the real value. Same field and type, made-up content.",
+      "url": "Example url",
+      "id": "id99876396",
+      "brandId": "LEN",
+      "customPrice": "Example custom price",
+      "customPriceV2": "Example custom price v2",
+      "searchPrice": "Example search price",
+      "badge": "Example badge",
+      "bedRange": "5",
+      "bathRange": "6 - 9",
+      "sqftRange": "Example sqft range",
+      "latitude": 31.43,
+      "longitude": -95.64,
+      "googlePlaceId": "chijc2plezld0ygr5_uhlnw9keu",
+      "__typename": "Example __typename",
+      "communities": [
+        {
+          "basePrice": 192823,
+          "customPriceV2": "Example custom price v2",
+          "number": "21681",
+          "mapBounds": [
+            19.17,
+            -80.37
+          ],
+          "types": [
+            "Multi-Family"
+          ],
+          "address": "Example address",
+          "zipCode": "17251",
+          "dynamicDirections": false,
+          "divisionNumber": "DAHLEN",
+          "plans": [
+            {
+              "homesites": [],
+              "__typename": "Example __typename"
+            },
+            {
+              "homesites": [
+                {
+                  "isHotw": false,
+                  "status": "MOVE_IN_READY",
+                  "__typename": "Example __typename"
+                }
+              ],
+              "__typename": "Example __typename"
+            }
+          ],
+          "__typename": "Example __typename"
+        },
+        {
+          "basePrice": 875194,
+          "customPriceV2": "Example custom price v2",
+          "number": "43515",
+          "mapBounds": [
+            25.55,
+            -90.01
+          ],
+          "types": [
+            "Multi-Family"
+          ],
+          "address": "Example address",
+          "zipCode": "35857",
+          "dynamicDirections": false,
+          "divisionNumber": "DAHLEN",
+          "plans": [
+            {
+              "homesites": [
+                {
+                  "isHotw": false,
+                  "status": "MOVE_IN_READY",
+                  "__typename": "Example __typename"
+                }
+              ],
+              "__typename": "Example __typename"
+            },
+            {
+              "homesites": [
+                {
+                  "isHotw": false,
+                  "status": "MOVE_IN_READY",
+                  "__typename": "Example __typename"
+                }
+              ],
+              "__typename": "Example __typename"
+            }
+          ],
+          "__typename": "Example __typename"
+        }
+      ],
+      "mapOutline": null,
+      "mpcid": 8761
+    }
+  },
+  {
+    "recordType": "community",
+    "resultKind": "mpc",
+    "id": "id66606371",
+    "state": "Florida",
+    "stateCode": "FL",
+    "communityName": "Example community name",
+    "status": "ACTIVE",
+    "badge": "Example badge",
+    "brand": "LEN",
+    "overview": "Example overview: mock text standing in for the real value. Same field and type, made-up content.",
+    "url": "https://www.lennar.com/example/9458",
+    "imageUrl": "https://cdn.lennar.com/example/54476.jpg",
+    "city": "Miami",
+    "market": "MIA",
+    "priceLabel": "Example price label",
+    "priceFrom": "Example price from",
+    "basePrice": null,
+    "bedRange": "9",
+    "bathRange": "2",
+    "sqftRange": "Example sqft range",
+    "address": null,
+    "zipCode": null,
+    "latitude": 21.15,
+    "longitude": -70.84,
+    "googlePlaceId": null,
+    "propertyTypes": null,
+    "divisionNumber": null,
+    "communityNumber": null,
+    "mpcId": 4268,
+    "mapBounds": null,
+    "subCommunityCount": 2,
+    "subCommunities": [
+      {
+        "basePrice": 793925,
+        "customPriceV2": "Example custom price v2",
+        "number": "13779",
+        "mapBounds": [
+          27.77,
+          -80.5
+        ],
+        "types": [
+          "Multi-Family"
+        ],
+        "address": "Example address",
+        "zipCode": "16030",
+        "dynamicDirections": false,
+        "divisionNumber": "DAHLEN",
+        "plans": [
+          {
+            "homesites": [
+              {
+                "isHotw": false,
+                "status": "MOVE_IN_READY",
+                "__typename": "Example __typename"
+              }
+            ],
+            "__typename": "Example __typename"
+          },
+          {
+            "homesites": [
+              {
+                "isHotw": false,
+                "status": "MOVE_IN_READY",
+                "__typename": "Example __typename"
+              }
+            ],
+            "__typename": "Example __typename"
+          }
+        ],
+        "__typename": "Example __typename"
+      },
+      {
+        "basePrice": 549161,
+        "customPriceV2": "Example custom price v2",
+        "number": "11965",
+        "mapBounds": [
+          25.47,
+          -61.99
+        ],
+        "types": [
+          "Example types"
+        ],
+        "address": "Example address",
+        "zipCode": "56948",
+        "dynamicDirections": false,
+        "divisionNumber": "DAHLEN",
+        "plans": [
+          {
+            "homesites": [],
+            "__typename": "Example __typename"
+          }
+        ],
+        "__typename": "Example __typename"
+      }
+    ],
+    "raw": {
+      "name": "Example name",
+      "heroImage": {
+        "alt": "Example alt",
+        "url": "https://cdn.lennar.com/example/9458.jpg",
+        "__typename": "Example __typename"
+      },
+      "status": "ACTIVE",
+      "city": {
+        "name": "Example name",
+        "market": {
+          "code": "MIA",
+          "state": {
+            "code": "FL",
+            "__typename": "Example __typename"
+          },
+          "__typename": "Example __typename"
+        },
+        "__typename": "Example __typename"
+      },
+      "overview": "Example overview: mock text standing in for the real value. Same field and type, made-up content.",
+      "url": "Example url",
+      "id": "id66606371",
+      "brandId": "LEN",
+      "customPrice": "Example custom price",
+      "customPriceV2": "Example custom price v2",
+      "searchPrice": "Example search price",
+      "badge": "Example badge",
+      "bedRange": "9",
+      "bathRange": "2",
+      "sqftRange": "Example sqft range",
+      "latitude": 21.15,
+      "longitude": -70.84,
+      "googlePlaceId": null,
+      "__typename": "Example __typename",
+      "communities": [
+        {
+          "basePrice": 793925,
+          "customPriceV2": "Example custom price v2",
+          "number": "13779",
+          "mapBounds": [
+            27.77,
+            -80.5
+          ],
+          "types": [
+            "Multi-Family"
+          ],
+          "address": "Example address",
+          "zipCode": "16030",
+          "dynamicDirections": false,
+          "divisionNumber": "DAHLEN",
+          "plans": [
+            {
+              "homesites": [
+                {
+                  "isHotw": false,
+                  "status": "MOVE_IN_READY",
+                  "__typename": "Example __typename"
+                }
+              ],
+              "__typename": "Example __typename"
+            },
+            {
+              "homesites": [
+                {
+                  "isHotw": false,
+                  "status": "MOVE_IN_READY",
+                  "__typename": "Example __typename"
+                }
+              ],
+              "__typename": "Example __typename"
+            }
+          ],
+          "__typename": "Example __typename"
+        },
+        {
+          "basePrice": 549161,
+          "customPriceV2": "Example custom price v2",
+          "number": "11965",
+          "mapBounds": [
+            25.47,
+            -61.99
+          ],
+          "types": [
+            "Example types"
+          ],
+          "address": "Example address",
+          "zipCode": "56948",
+          "dynamicDirections": false,
+          "divisionNumber": "DAHLEN",
+          "plans": [
+            {
+              "homesites": [],
+              "__typename": "Example __typename"
+            }
+          ],
+          "__typename": "Example __typename"
+        }
+      ],
+      "mapOutline": null,
+      "mpcid": 9506
+    }
+  }
+]

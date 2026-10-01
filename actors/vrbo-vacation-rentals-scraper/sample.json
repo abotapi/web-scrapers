@@ -1,0 +1,39 @@
+[
+  {
+    "mode": "search",
+    "vrboId": "527519605",
+    "listingUrl": "https://www.vrbo.com/example/9384",
+    "title": "Example title",
+    "propertyType": "Resort",
+    "sleeps": null,
+    "bedrooms": 2,
+    "bathrooms": null,
+    "pricePerNight": 547,
+    "priceFormatted": "Example price formatted",
+    "priceStrikeout": null,
+    "priceCurrency": "USD",
+    "rating": 11.09,
+    "ratingScale": 20,
+    "ratingLabel": "Example rating label",
+    "reviewCount": 23,
+    "latitude": null,
+    "longitude": null,
+    "image": "https://media.vrbo.com/example/48080.jpg",
+    "images": [
+      "https://media.vrbo.com/example/4108.jpg",
+      "https://media.vrbo.com/example/17990.jpg"
+    ],
+    "imagesCount": 38,
+    "badges": [],
+    "description": null,
+    "provider": "vrbo",
+    "searchLocation": "Example search location",
+    "checkIn": "2026-01-15",
+    "checkOut": "2026-01-15",
+    "adults": 8,
+    "scrapedAt": "2026-01-15T10:00:00Z",
+    "extra": {
+      "starRating": null
+    }
+  }
+]

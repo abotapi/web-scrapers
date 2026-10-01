@@ -1,0 +1,130 @@
+[
+  {
+    "rowType": "job",
+    "source": {
+      "searchUrl": "https://nvidia.wd5.myworkdayjobs.com/example/53111",
+      "site": "Example site",
+      "tenant": "nvidia",
+      "dc": "Example dc",
+      "host": "Example host",
+      "lang": "en-US"
+    },
+    "jobReqId": "jr6112308",
+    "postingInternalId": "id79255561",
+    "jobPostingId": "senior-software-qa-engineer_jr4321464",
+    "jobPostingSiteId": "Example job posting site id",
+    "questionnaireId": "id82441695",
+    "title": "Example title",
+    "jobUrl": "https://nvidia.wd5.myworkdayjobs.com/example/18922",
+    "externalPath": "Example external path",
+    "postedOn": "Example posted on",
+    "startDate": "2026-01-15",
+    "timeType": "Example time type",
+    "posted": true,
+    "canApply": true,
+    "includeResumeParsing": true,
+    "locationText": "Example location text",
+    "country": "IN",
+    "employerName": "Example employer name",
+    "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
+    "descriptionText": "Example description text: mock text standing in for the real value. Same field and type, made-up content.",
+    "salary": {
+      "rawText": null,
+      "min": null,
+      "max": null,
+      "currency": null,
+      "period": null
+    },
+    "applyUrl": "https://nvidia.wd5.myworkdayjobs.com/example/64093",
+    "applyType": "workday",
+    "externalUrl": "https://nvidia.wd5.myworkdayjobs.com/example/65719",
+    "location": {
+      "text": "Example text",
+      "additional": [],
+      "requisitionLocation": {
+        "descriptor": "Example descriptor",
+        "country": {
+          "descriptor": "Example descriptor",
+          "id": "id40330963",
+          "alpha2Code": "IN"
+        }
+      }
+    },
+    "employer": {
+      "name": "Example name",
+      "tenantSlug": "nvidia",
+      "careersUrl": "https://nvidia.wd5.myworkdayjobs.com/example/79775",
+      "url": "https://nvidia.wd5.myworkdayjobs.com/example/52524"
+    },
+    "hiringOrganization": {
+      "name": "Example name",
+      "url": ""
+    },
+    "similarJobs": [],
+    "scrapedAt": "2026-01-15T10:00:00Z"
+  },
+  {
+    "rowType": "job",
+    "source": {
+      "searchUrl": "https://nvidia.wd5.myworkdayjobs.com/example/61430",
+      "site": "Example site",
+      "tenant": "nvidia",
+      "dc": "Example dc",
+      "host": "Example host",
+      "lang": "en-US"
+    },
+    "jobReqId": "jr9082240",
+    "postingInternalId": "id52674981",
+    "jobPostingId": "manufacturing-development-engineer_jr9042813",
+    "jobPostingSiteId": "Example job posting site id",
+    "questionnaireId": null,
+    "title": "Example title",
+    "jobUrl": "https://nvidia.wd5.myworkdayjobs.com/example/80781",
+    "externalPath": "Example external path: mock text standing in for the real value. Same field and type, made-up content.",
+    "postedOn": "Example posted on",
+    "startDate": "2026-01-15",
+    "timeType": "Example time type",
+    "posted": true,
+    "canApply": true,
+    "includeResumeParsing": true,
+    "locationText": "Example location text",
+    "country": "VN",
+    "employerName": "Example employer name",
+    "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
+    "descriptionText": "Example description text: mock text standing in for the real value. Same field and type, made-up content.",
+    "salary": {
+      "rawText": null,
+      "min": null,
+      "max": null,
+      "currency": null,
+      "period": null
+    },
+    "applyUrl": "https://nvidia.wd5.myworkdayjobs.com/example/27233",
+    "applyType": "workday",
+    "externalUrl": "https://nvidia.wd5.myworkdayjobs.com/example/52606",
+    "location": {
+      "text": "Example text",
+      "additional": [],
+      "requisitionLocation": {
+        "descriptor": "Example descriptor",
+        "country": {
+          "descriptor": "Example descriptor",
+          "id": "id47554360",
+          "alpha2Code": "VN"
+        }
+      }
+    },
+    "employer": {
+      "name": "Example name",
+      "tenantSlug": "nvidia",
+      "careersUrl": "https://nvidia.wd5.myworkdayjobs.com/example/21931",
+      "url": "https://nvidia.wd5.myworkdayjobs.com/example/89476"
+    },
+    "hiringOrganization": {
+      "name": "Example name",
+      "url": ""
+    },
+    "similarJobs": [],
+    "scrapedAt": "2026-01-15T10:00:00Z"
+  }
+]

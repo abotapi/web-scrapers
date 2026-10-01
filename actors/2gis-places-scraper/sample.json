@@ -1,0 +1,88 @@
+[
+  {
+    "recordType": "place",
+    "id": "65232193538238391",
+    "fullId": "74442536522882171_zdul554365g37h7861ig4gggay2x0d84g9g2652412811c63wpqt56564j1a9g7g5j013j0j7hyhuv8c93696146202h2j4hhhg0h82020",
+    "name": "Example name",
+    "fullName": "Example full name",
+    "shortName": "Example short name",
+    "nameExtension": "Example name extension",
+    "url": "https://2gis.ru/example/51372",
+    "type": "branch",
+    "subtype": null,
+    "purpose": "Example purpose",
+    "description": null,
+    "rubrics": [
+      "Example rubrics",
+      "Example rubrics"
+    ],
+    "rubricIds": [
+      "681",
+      "150"
+    ],
+    "primaryRubric": "Example primary rubric",
+    "rating": 5.95,
+    "reviewCount": 348,
+    "ratingCount": 517,
+    "isReviewable": true,
+    "orgRating": 5.83,
+    "orgReviewCount": 91392,
+    "flampRating": null,
+    "flampReviewCount": null,
+    "address": "Example address",
+    "fullAddress": "Example full address",
+    "addressComment": null,
+    "postcode": "650494",
+    "buildingId": "8954654445785655",
+    "country": "Example country",
+    "region": "Example region",
+    "city": "Example city",
+    "district": "Example district",
+    "livingArea": null,
+    "street": "Example street",
+    "houseNumber": "Example house number",
+    "latitude": 40.69,
+    "longitude": 31.59,
+    "timezoneOffset": 943,
+    "nearestStations": [
+      {
+        "id": "2314374336863008",
+        "distanceMeters": 202
+      },
+      {
+        "id": "3608909688297739",
+        "distanceMeters": 4563
+      }
+    ],
+    "buildingName": null
+  },
+  {
+    "recordType": "review",
+    "reviewId": "259440972",
+    "placeId": "35332851994781102",
+    "placeName": "Example place name",
+    "rating": 5,
+    "text": "Example text: mock text standing in for the real value. Same field and type, made-up content.",
+    "dateCreated": "2026-01-15T10:00:00Z",
+    "dateEdited": null,
+    "reviewUrl": null,
+    "authorName": "Example author name",
+    "authorId": "725993263",
+    "authorPublicId": "id12134406",
+    "authorUrl": null,
+    "authorPhotoUrl": "",
+    "authorReviewsCount": 653,
+    "likesCount": 0,
+    "commentsCount": 0,
+    "isVerified": false,
+    "isHidden": false,
+    "hasOfficialAnswer": false,
+    "provider": "Example provider",
+    "source": null,
+    "photos": [],
+    "photoCount": 0,
+    "officialAnswerText": null,
+    "officialAnswerDate": null,
+    "officialAnswerOrg": null
+  }
+]

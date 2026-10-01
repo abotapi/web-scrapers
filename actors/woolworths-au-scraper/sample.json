@@ -1,0 +1,50 @@
+[
+  {
+    "stockcode": "62434",
+    "name": "Example name",
+    "displayName": "Example display name",
+    "title": "Example title",
+    "brand": "Example brand",
+    "url": "https://www.woolworths.com.au/example/8870",
+    "price": 5.12,
+    "isOnSpecial": false,
+    "isHalfPrice": false,
+    "isEdrSpecial": false,
+    "cupPrice": 2.04,
+    "cupMeasure": "Example cup measure",
+    "cupString": "Example cup string",
+    "packageSize": "Example package size",
+    "unit": "Each",
+    "currency": "AUD",
+    "barcode": "9368335032633",
+    "gtinFormat": 24,
+    "isAvailable": true,
+    "isInStock": true,
+    "isNew": false,
+    "isOnlineOnly": false,
+    "ageRestricted": false,
+    "isTobacco": false,
+    "departments": [
+      "Example departments"
+    ],
+    "departmentIds": [
+      "9_8e3f8e4"
+    ],
+    "departmentNames": [
+      "Example department names"
+    ],
+    "productLimit": 73,
+    "isMarketProduct": false,
+    "variety": "Example variety",
+    "sponsored": false,
+    "image": "https://cdn0.woolworths.media/example/77464.jpg",
+    "thumbnailImage": "https://cdn0.woolworths.media/example/76232.jpg",
+    "description": "Example description",
+    "promoLabel": "Example promo label",
+    "inStorePrice": 5.08,
+    "inStoreIsOnSpecial": false,
+    "inStoreCupPrice": 2.61,
+    "inStoreCupString": "Example in store cup string",
+    "richDescription": "Example rich description: mock text standing in for the real value. Same field and type, made-up content."
+  }
+]

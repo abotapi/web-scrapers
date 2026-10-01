@@ -1,0 +1,111 @@
+[
+  {
+    "id": "307559558",
+    "adId": "827424841",
+    "url": "https://www.mudah.my/example/23374",
+    "title": "Example title",
+    "price": 8193,
+    "priceLabel": "Example price label",
+    "priceAlias": 6479,
+    "currency": "MYR",
+    "category": {
+      "id": "6446",
+      "name": "Example name",
+      "level1Id": "6",
+      "level1Name": "Example level1 name"
+    },
+    "listingType": "sell",
+    "condition": {
+      "id": "9",
+      "name": "Example name"
+    },
+    "location": {
+      "regionId": "1",
+      "region": "Selangor",
+      "subareaId": "091",
+      "subarea": "Example subarea",
+      "raw": null
+    },
+    "seller": {
+      "userId": "5400501",
+      "name": "Example name",
+      "accountType": 3,
+      "companyAd": false,
+      "storeId": null,
+      "storeVerified": false,
+      "badges": null
+    },
+    "sellerVerified": false,
+    "images": {
+      "primaryUrl": "https://img.rnudah.com/example/9717.jpg",
+      "count": 3,
+      "mediaCount": 7
+    },
+    "timestamps": {
+      "listedAt": "2026-01-15T10:00:00Z",
+      "modifiedAt": "2026-01-15T10:00:00Z",
+      "origDate": "2026-01-15T10:00:00Z",
+      "expiresAt": "2026-01-15T10:00:00Z",
+      "listTs": 4827454923
+    },
+    "highlights": null,
+    "rank": {
+      "score": "34.480261",
+      "position": 2,
+      "qry": {},
+      "type": "esquery"
+    },
+    "bundle": null,
+    "reviews": [],
+    "scrapedAt": "2026-01-15T10:00:00Z",
+    "categoryId": "6142",
+    "categoryName": "Example category name",
+    "categoryLevel1Name": "Example category level1 name",
+    "regionId": "1",
+    "regionName": "Example region name",
+    "subarea": "Example subarea",
+    "sellerName": "Example seller name",
+    "raw": {
+      "ad_expiry": "2026-01-15T10:00:00Z",
+      "subarea_id": "451",
+      "image": "Example image",
+      "phone_model_id": "+1 555 0100",
+      "date": "2026-01-15T10:00:00Z",
+      "subject": "Example subject",
+      "image_count": 1,
+      "phone_brand_id": "+1 555 0100",
+      "index_at": "2026-01-15T10:00:00Z",
+      "store_verified": null,
+      "ad_id": 230203093,
+      "store": null,
+      "phone_warranty_id": "+1 555 0100",
+      "modified_at": "2026-01-15T10:00:00Z",
+      "category_name": "Example category_name",
+      "list_id": 186631055,
+      "media_count": 9,
+      "phone_warranty_provider_id": "+1 555 0100",
+      "category_id": "4980",
+      "subarea_name": "Example subarea_name",
+      "category_level_one_id": "0",
+      "type_id": "s",
+      "orig_list_time": null,
+      "company_ad": false,
+      "list_ts": 1831259092,
+      "user_id": 7815963,
+      "condition_name": "Example condition_name",
+      "region_name": "Example region_name",
+      "ad_seller_type": 4,
+      "category_level_one_name": "Example category_level_one_name",
+      "phone_warranty_name": "+1 555 0100",
+      "price_alias": 6495,
+      "orig_date": "2026-01-15T10:00:00Z",
+      "phone_brand_name": "+1 555 0100",
+      "condition_id": "2",
+      "phone_model_name": "+1 555 0100",
+      "name": "Example name",
+      "price": 8193,
+      "type_name": "Example type_name",
+      "region_id": "0"
+    }
+  }
+]

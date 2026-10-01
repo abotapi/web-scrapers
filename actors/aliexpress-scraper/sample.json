@@ -1,0 +1,239 @@
+[
+  {
+    "type": "product",
+    "id": "3448104048537791",
+    "url": "https://www.aliexpress.com/example/85372",
+    "productName": "Example product name: mock text standing in for the real value. Same field and type, made-up content.",
+    "productId": "7065753884805507",
+    "productUrl": "https://www.aliexpress.com/example/19356",
+    "sourceUrl": "https://www.aliexpress.com/example/51203",
+    "seedType": "query",
+    "seedValue": "airpods",
+    "shippingCountry": "US",
+    "currency": "USD",
+    "title": "Example title: mock text standing in for the real value. Same field and type, made-up content.",
+    "price": 21.22,
+    "originalPrice": 38.75,
+    "discountPercentage": 70,
+    "totalSold": "Example total sold",
+    "totalSoldCount": 1,
+    "imageUrl": "https://ae-pic-a1.aliexpress-media.com/example/19631.jpg",
+    "additionalImages": [
+      "https://ae-pic-a1.aliexpress-media.com/example/92203.jpg",
+      "https://ae-pic-a1.aliexpress-media.com/example/6818.jpg"
+    ],
+    "scrapedAt": "2026-01-15T10:00:00Z",
+    "productType": "natural",
+    "currentPrice": 24.67,
+    "discountPct": 15,
+    "itemSold": "Example item sold",
+    "itemSoldCount": 8,
+    "isSponsored": false,
+    "primaryImage": "https://ae-pic-a1.aliexpress-media.com/example/36153.jpg",
+    "imageGallery": [
+      "https://ae-pic-a1.aliexpress-media.com/example/37615.jpg",
+      "https://ae-pic-a1.aliexpress-media.com/example/81531.jpg"
+    ],
+    "categoryId": "76",
+    "raw": {
+      "serp": {
+        "itemId": "3952056096397242",
+        "productUrl": "https://www.aliexpress.com/example/19356",
+        "productName": "Example product name: mock text standing in for the real value. Same field and type, made-up content.",
+        "currentPrice": 24.67,
+        "originalPrice": 38.75,
+        "discountPct": 15,
+        "currency": "USD",
+        "itemSold": "Example item sold",
+        "itemSoldCount": 8,
+        "primaryImage": "https://ae-pic-a1.aliexpress-media.com/example/36153.jpg",
+        "imageGallery": [
+          "https://ae-pic-a1.aliexpress-media.com/example/37615.jpg",
+          "https://ae-pic-a1.aliexpress-media.com/example/81531.jpg"
+        ],
+        "isSponsored": false,
+        "productType": "natural",
+        "categoryId": "76",
+        "raw": {
+          "redirectedId": "9428064585935821",
+          "itemType": "productv5",
+          "productType": "natural",
+          "nativeCardType": "nt_srp_cell_g",
+          "itemCardType": "Example item card type",
+          "transitionaryExpFrame": false,
+          "productId": "7065753884805507",
+          "lunchTime": "2026-01-15T10:00:00Z",
+          "image": {
+            "imgUrl": "Example img url: mock text standing in for the real value. Same field and type, made-up content.",
+            "imgWidth": 494,
+            "imgHeight": 914,
+            "imgType": "1"
+          },
+          "title": {
+            "displayTitle": "Example display title: mock text standing in for the real value. Same field and type, made-up content."
+          },
+          "prices": {
+            "skuId": "32493572895648812",
+            "pricesStyle": "default",
+            "builderType": "skuCoupon",
+            "currencySymbol": "Example currency symbol",
+            "prefix": "Example prefix",
+            "originalPrice": {
+              "priceType": "original_price",
+              "currencyCode": "USD",
+              "minPrice": 37.37,
+              "formattedPrice": "Example formatted price",
+              "cent": 1408
+            },
+            "salePrice": {
+              "discount": 70,
+              "minPriceDiscount": 31,
+              "priceType": "sale_price",
+              "currencyCode": "USD",
+              "minPrice": 18.68,
+              "formattedPrice": "Example formatted price",
+              "cent": 1408
+            },
+            "taxRate": "8"
+          },
+          "trade": {
+            "tradeDesc": "Example trade desc"
+          },
+          "images": [
+            {
+              "imgUrl": "Example img url: mock text standing in for the real value. Same field and type, made-up content.",
+              "imgWidth": 494,
+              "imgHeight": 914,
+              "imgType": "1"
+            },
+            {
+              "imgUrl": "Example img url: mock text standing in for the real value. Same field and type, made-up content.",
+              "imgWidth": 351,
+              "imgHeight": 676,
+              "imgType": "1"
+            }
+          ],
+          "allPlatformInfo": {},
+          "seoWhite": "false",
+          "curPageLogisticsUid": "ir0w9ilwkvle",
+          "productDetailUrl": "Example product detail url: mock text standing in for the real value. Same field and type, made-up content."
+        }
+      }
+    },
+    "fetchedAt": "2026-01-15T10:00:00Z"
+  },
+  {
+    "type": "product",
+    "id": "3477010945700500",
+    "url": "https://www.aliexpress.com/example/13514",
+    "productName": "Example product name: mock text standing in for the real value. Same field and type, made-up content.",
+    "productId": "0383140806452190",
+    "productUrl": "https://www.aliexpress.com/example/73457",
+    "sourceUrl": "https://www.aliexpress.com/example/25940",
+    "seedType": "query",
+    "seedValue": "airpods",
+    "shippingCountry": "US",
+    "currency": "USD",
+    "title": "Example title: mock text standing in for the real value. Same field and type, made-up content.",
+    "price": 17.91,
+    "originalPrice": 52.85,
+    "discountPercentage": 70,
+    "imageUrl": "https://ae-pic-a1.aliexpress-media.com/example/25827.jpg",
+    "additionalImages": [
+      "https://ae-pic-a1.aliexpress-media.com/example/75415.jpg",
+      "https://ae-pic-a1.aliexpress-media.com/example/85613.jpg"
+    ],
+    "scrapedAt": "2026-01-15T10:00:00Z",
+    "productType": "natural",
+    "currentPrice": 22.61,
+    "discountPct": 44,
+    "isSponsored": false,
+    "primaryImage": "https://ae-pic-a1.aliexpress-media.com/example/16676.jpg",
+    "imageGallery": [
+      "https://ae-pic-a1.aliexpress-media.com/example/77012.jpg",
+      "https://ae-pic-a1.aliexpress-media.com/example/98921.jpg"
+    ],
+    "categoryId": "98",
+    "raw": {
+      "serp": {
+        "itemId": "7377113489352944",
+        "productUrl": "https://www.aliexpress.com/example/73457",
+        "productName": "Example product name: mock text standing in for the real value. Same field and type, made-up content.",
+        "currentPrice": 22.61,
+        "originalPrice": 52.85,
+        "discountPct": 44,
+        "currency": "USD",
+        "primaryImage": "https://ae-pic-a1.aliexpress-media.com/example/16676.jpg",
+        "imageGallery": [
+          "https://ae-pic-a1.aliexpress-media.com/example/77012.jpg",
+          "https://ae-pic-a1.aliexpress-media.com/example/98921.jpg"
+        ],
+        "isSponsored": false,
+        "productType": "natural",
+        "categoryId": "98",
+        "raw": {
+          "redirectedId": "7033253938285599",
+          "itemType": "productv2",
+          "productType": "natural",
+          "nativeCardType": "nt_srp_cell_g",
+          "itemCardType": "Example item card type",
+          "transitionaryExpFrame": false,
+          "productId": "0383140806452190",
+          "lunchTime": "2026-01-15T10:00:00Z",
+          "image": {
+            "imgUrl": "Example img url: mock text standing in for the real value. Same field and type, made-up content.",
+            "imgWidth": 991,
+            "imgHeight": 130,
+            "imgType": "4"
+          },
+          "title": {
+            "displayTitle": "Example display title: mock text standing in for the real value. Same field and type, made-up content."
+          },
+          "prices": {
+            "skuId": "73395618644917663",
+            "pricesStyle": "default",
+            "builderType": "skuCoupon",
+            "currencySymbol": "Example currency symbol",
+            "prefix": "Example prefix",
+            "originalPrice": {
+              "priceType": "original_price",
+              "currencyCode": "USD",
+              "minPrice": 42.1,
+              "formattedPrice": "Example formatted price",
+              "cent": 7273
+            },
+            "salePrice": {
+              "discount": 68,
+              "minPriceDiscount": 49,
+              "priceType": "sale_price",
+              "currencyCode": "USD",
+              "minPrice": 21.05,
+              "formattedPrice": "Example formatted price",
+              "cent": 7273
+            },
+            "taxRate": "4"
+          },
+          "images": [
+            {
+              "imgUrl": "Example img url: mock text standing in for the real value. Same field and type, made-up content.",
+              "imgWidth": 991,
+              "imgHeight": 130,
+              "imgType": "4"
+            },
+            {
+              "imgUrl": "Example img url: mock text standing in for the real value. Same field and type, made-up content.",
+              "imgWidth": 499,
+              "imgHeight": 826,
+              "imgType": "7"
+            }
+          ],
+          "allPlatformInfo": {},
+          "seoWhite": "false",
+          "curPageLogisticsUid": "erpkz4ontzvk",
+          "productDetailUrl": "Example product detail url: mock text standing in for the real value. Same field and type, made-up content."
+        }
+      }
+    },
+    "fetchedAt": "2026-01-15T10:00:00Z"
+  }
+]

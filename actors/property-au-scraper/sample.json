@@ -1,0 +1,272 @@
+[
+  {
+    "id": "94749268",
+    "address": "Example address",
+    "suburb": "SOUTHBANK",
+    "state": "VIC",
+    "postcode": "7173",
+    "latitude": -36.69,
+    "longitude": 162.35,
+    "listing_type": "buy",
+    "listing_status": "Example listing_status",
+    "property_type": "unit",
+    "price": "Example price",
+    "price_details": "Example price_details",
+    "features": {
+      "bedrooms": 6,
+      "bathrooms": 1,
+      "land_size": "Example land_size",
+      "floor_area": "Example floor_area",
+      "built_year": 4818,
+      "mobile_coverage": "+1 555 0100"
+    },
+    "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
+    "timeline": [
+      {
+        "event": "listed_for_sale",
+        "year": "NOW",
+        "price": "Example price",
+        "date": "Example date",
+        "agent": "Example agent",
+        "details": "Example details"
+      },
+      {
+        "event": "leased",
+        "year": 8416,
+        "date": "Example date",
+        "details": "Example details"
+      }
+    ],
+    "value_estimates": {
+      "sale": {
+        "value": 694696,
+        "display": "Example display",
+        "confidence": "HIGH",
+        "range_min": 876032,
+        "range_max": 309929
+      },
+      "rental": {
+        "value": 796,
+        "display": "Example display",
+        "confidence": "HIGH",
+        "range_min": 332,
+        "range_max": 329
+      }
+    },
+    "schools": {
+      "primary": [
+        {
+          "name": "Example name",
+          "is_zoned": true,
+          "grades": "prep-2",
+          "sector": "Example sector",
+          "students": 645,
+          "distance": "Example distance"
+        },
+        {
+          "name": "Example name",
+          "is_zoned": true,
+          "grades": "prep-37",
+          "sector": "Example sector",
+          "students": 540,
+          "distance": "Example distance"
+        }
+      ],
+      "secondary": [
+        {
+          "name": "Example name",
+          "is_zoned": true,
+          "grades": "8-9",
+          "sector": "Example sector",
+          "students": 645,
+          "distance": "Example distance"
+        },
+        {
+          "name": "Example name",
+          "is_zoned": true,
+          "grades": "prep-37",
+          "sector": "Example sector",
+          "students": 540,
+          "distance": "Example distance"
+        }
+      ]
+    },
+    "planning_overlays": {
+      "bushfire": false,
+      "flood": true,
+      "heritage": false
+    },
+    "land_description": "Example land_description: mock text standing in for the real value. Same field and type, made-up content.",
+    "council": "Example council",
+    "internet": {
+      "connection_type": "Example connection_type",
+      "description": "Example description: mock text standing in for the real value. Same field and type, made-up content."
+    },
+    "market_insights": {
+      "median_price": "Example median_price",
+      "price_growth_12mo": "Example price_growth_12mo",
+      "median_rent": "Example median_rent",
+      "rent_growth_12mo": "Example rent_growth_12mo"
+    },
+    "media": {
+      "image_count": 99,
+      "images": [
+        "https://i2.au.reastatic.net/example/54498.jpg",
+        "https://i2.au.reastatic.net/example/61367.jpg"
+      ],
+      "counts": {
+        "images": 38,
+        "floorplans": 8
+      }
+    },
+    "property_url": "https://www.property.com.au/example/25556",
+    "rea_url": "https://www.realestate.com.au/example/9214",
+    "breadcrumbs": [
+      {
+        "title": "Example title",
+        "url": "Example url"
+      },
+      {
+        "title": "VIC",
+        "url": "Example url"
+      }
+    ],
+    "status": "success",
+    "source_listing": "https://www.property.com.au/example/84170",
+    "source_listing_type": "buy",
+    "scraped_at": "2026-01-15T10:00:00Z"
+  },
+  {
+    "id": "81013099",
+    "address": "Example address",
+    "suburb": "SOUTHBANK",
+    "state": "VIC",
+    "postcode": "4617",
+    "latitude": -35.56,
+    "longitude": 165.26,
+    "listing_type": "buy",
+    "listing_status": "Example listing_status",
+    "property_type": "unit",
+    "price": "Example price",
+    "price_details": "Example price_details: mock text standing in for the real value. Same field and type, made-up content.",
+    "features": {
+      "bedrooms": 9,
+      "bathrooms": 8,
+      "floor_area": "Example floor_area",
+      "mobile_coverage": "+1 555 0100"
+    },
+    "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
+    "timeline": [
+      {
+        "event": "listed_for_sale",
+        "year": "NOW",
+        "price": "Example price",
+        "date": "Example date",
+        "agent": "Example agent",
+        "details": "Example details: mock text standing in for the real value. Same field and type, made-up content."
+      },
+      {
+        "event": "Example event",
+        "year": 9049,
+        "details": "Example details"
+      }
+    ],
+    "value_estimates": {
+      "sale": {
+        "value": 891932,
+        "display": "Example display",
+        "confidence": "HIGH",
+        "range_min": 933040,
+        "range_max": 115412
+      },
+      "rental": {
+        "value": 932,
+        "display": "Example display",
+        "confidence": "HIGH",
+        "range_min": 640,
+        "range_max": 212
+      }
+    },
+    "schools": {
+      "primary": [
+        {
+          "name": "Example name",
+          "is_zoned": true,
+          "grades": "prep-9",
+          "sector": "Example sector",
+          "students": 689,
+          "distance": "Example distance"
+        },
+        {
+          "name": "Example name",
+          "is_zoned": false,
+          "sector": "Example sector",
+          "students": "Example students",
+          "distance": "Example distance"
+        }
+      ],
+      "secondary": [
+        {
+          "name": "Example name",
+          "is_zoned": true,
+          "grades": "6-88",
+          "sector": "Example sector",
+          "students": 689,
+          "distance": "Example distance"
+        },
+        {
+          "name": "Example name",
+          "is_zoned": false,
+          "grades": "7-33",
+          "sector": "Example sector",
+          "students": 137,
+          "distance": "Example distance"
+        }
+      ]
+    },
+    "planning_overlays": {
+      "bushfire": false,
+      "flood": true,
+      "heritage": false
+    },
+    "land_description": "Example land_description: mock text standing in for the real value. Same field and type, made-up content.",
+    "council": "Example council",
+    "internet": {
+      "connection_type": "Example connection_type",
+      "description": "Example description: mock text standing in for the real value. Same field and type, made-up content."
+    },
+    "market_insights": {
+      "median_price": "Example median_price",
+      "price_growth_12mo": "Example price_growth_12mo",
+      "median_rent": "Example median_rent",
+      "rent_growth_12mo": "Example rent_growth_12mo"
+    },
+    "media": {
+      "image_count": 55,
+      "images": [
+        "https://i2.au.reastatic.net/example/51513.jpg",
+        "https://i2.au.reastatic.net/example/51806.jpg"
+      ],
+      "counts": {
+        "images": 43,
+        "floorplans": 1
+      }
+    },
+    "property_url": "https://www.property.com.au/example/31069",
+    "rea_url": "https://www.realestate.com.au/example/29256",
+    "breadcrumbs": [
+      {
+        "title": "Example title",
+        "url": "Example url"
+      },
+      {
+        "title": "VIC",
+        "url": "Example url"
+      }
+    ],
+    "status": "success",
+    "source_listing": "https://www.property.com.au/example/23663",
+    "source_listing_type": "buy",
+    "scraped_at": "2026-01-15T10:00:00Z"
+  }
+]

@@ -1,0 +1,102 @@
+[
+  {
+    "recordType": "event",
+    "bookmaker": "linebet",
+    "feed": "prematch",
+    "eventId": "305221966",
+    "num": 283853,
+    "sport": "Football",
+    "sportId": 8,
+    "league": "Example league",
+    "leagueId": 1714802,
+    "home": "Example home",
+    "away": "Example away",
+    "startTime": "2026-01-15T10:00:00Z",
+    "startTs": 4587064245,
+    "period": null,
+    "scoreHome": null,
+    "scoreAway": null,
+    "isLive": false,
+    "oddsHome": 2.19,
+    "oddsDraw": 3.68,
+    "oddsAway": 1.98,
+    "totals": [
+      {
+        "line": 1.44,
+        "over": 1.89,
+        "under": 2.53
+      },
+      {
+        "line": 6,
+        "over": 1.82,
+        "under": 2.03
+      }
+    ],
+    "markets": [
+      {
+        "group": 9,
+        "type": 7,
+        "line": null,
+        "odds": 2.67
+      },
+      {
+        "group": 1,
+        "type": 6,
+        "line": null,
+        "odds": 3.93
+      }
+    ],
+    "url": "https://linebet.com/example/39364",
+    "scrapedAt": "2026-01-15T10:00:00Z"
+  },
+  {
+    "recordType": "event",
+    "bookmaker": "linebet",
+    "feed": "prematch",
+    "eventId": "880280242",
+    "num": 317417,
+    "sport": "Football",
+    "sportId": 5,
+    "league": "Example league",
+    "leagueId": 3923243,
+    "home": "Example home",
+    "away": "Example away",
+    "startTime": "2026-01-15T10:00:00Z",
+    "startTs": 7874506959,
+    "period": null,
+    "scoreHome": null,
+    "scoreAway": null,
+    "isLive": false,
+    "oddsHome": 1.39,
+    "oddsDraw": 2.69,
+    "oddsAway": 7.44,
+    "totals": [
+      {
+        "line": 1.57,
+        "over": 1.53,
+        "under": 3.02
+      },
+      {
+        "line": 6,
+        "over": 1.76,
+        "under": 2.63
+      }
+    ],
+    "markets": [
+      {
+        "group": 2,
+        "type": 4,
+        "line": null,
+        "odds": 1.12
+      },
+      {
+        "group": 8,
+        "type": 6,
+        "line": null,
+        "odds": 4.3
+      }
+    ],
+    "url": "https://linebet.com/example/85993",
+    "scrapedAt": "2026-01-15T10:00:00Z"
+  }
+]

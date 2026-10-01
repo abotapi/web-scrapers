@@ -1,0 +1,195 @@
+[
+  {
+    "trackId": "id31027662",
+    "url": "https://www.udio.com/example/22752",
+    "title": "Example title",
+    "artist": "redorderlymoog747316",
+    "artistImageUrl": "https://lh3.googleusercontent.com/example/35319.jpg",
+    "creatorId": "id54484536",
+    "prompt": "Example prompt: mock text standing in for the real value. Same field and type, made-up content.",
+    "lyrics": "Example lyrics: mock text standing in for the real value. Same field and type, made-up content.",
+    "description": "",
+    "tags": [
+      "Example tags",
+      "warm"
+    ],
+    "userTags": [],
+    "attribution": null,
+    "likeCount": 0,
+    "playCount": 0,
+    "durationSeconds": 71.39,
+    "createdAt": "2026-01-15T10:00:00Z",
+    "publishedAt": "2026-01-15T10:00:00Z",
+    "audioUrl": "https://storage.googleapis.com/example/82241",
+    "videoUrl": null,
+    "artworkUrl": "https://imagedelivery.net/example/7846.jpg",
+    "styleId": null,
+    "styleSourceType": null,
+    "styleSourceTrackId": null,
+    "parentTrackId": "id59638992",
+    "generationId": "id24280653",
+    "generationStatus": "succeeded",
+    "isFinished": true,
+    "isPublishable": true,
+    "sourceMode": "search",
+    "collectionId": null,
+    "collectionName": null,
+    "positionInCollection": null,
+    "scrapedAt": "2026-01-15T10:00:00Z",
+    "raw": {
+      "id": "id9965537",
+      "user_id": "id89882734",
+      "artist": "redorderlymoog747316",
+      "artist_image": "https://lh3.googleusercontent.com/example/25081.jpg",
+      "title": "Example title",
+      "created_at": "2026-01-15T10:00:00Z",
+      "error_id": null,
+      "error_type": null,
+      "error_code": null,
+      "generation_id": "id1451355",
+      "image_path": "https://imagedelivery.net/example/62494.jpg",
+      "lyrics": "Example lyrics: mock text standing in for the real value. Same field and type, made-up content.",
+      "prompt": "Example prompt: mock text standing in for the real value. Same field and type, made-up content.",
+      "likes": 0,
+      "plays": 0,
+      "published_at": "2026-01-15T10:00:00Z",
+      "replaced_tags": {
+        "harmonious, uplifting, Christian music, spiritual, gospel": {
+          "tags": [
+            "gospel",
+            "Example tags"
+          ],
+          "type": "tags"
+        },
+        "gospel, christian rock, spiritual, happy, warm, christian, uplifting, male vocalist": {
+          "tags": [
+            "Example tags",
+            "warm"
+          ],
+          "type": "tags"
+        }
+      },
+      "song_path": "https://storage.googleapis.com/example/45411",
+      "tags": [
+        "Example tags",
+        "warm"
+      ],
+      "duration": 58.29,
+      "video_path": null,
+      "error_detail": null,
+      "parent_id": "id95378214",
+      "finished": true,
+      "liked": false,
+      "disliked": false,
+      "publishable": true,
+      "audio_conditioning_type": "continuation",
+      "attribution": "",
+      "description": "",
+      "user_tags": [],
+      "original_song_path": null,
+      "style_source_song_id": null,
+      "style_source_type": null,
+      "style_id": null,
+      "transformation_hash": null,
+      "generation_status": "succeeded",
+      "trim_start_ms": null,
+      "trim_end_ms": null
+    }
+  },
+  {
+    "trackId": "id88192459",
+    "url": "https://www.udio.com/example/22638",
+    "title": "Example title",
+    "artist": "navycatchydjembe920632",
+    "artistImageUrl": "https://lh3.googleusercontent.com/example/68688.jpg",
+    "creatorId": "id95387391",
+    "prompt": "Example prompt: mock text standing in for the real value. Same field and type, made-up content.",
+    "lyrics": "",
+    "description": "",
+    "tags": [
+      "mellow",
+      "mysterious"
+    ],
+    "userTags": [],
+    "attribution": null,
+    "likeCount": 0,
+    "playCount": 2,
+    "durationSeconds": 120.39,
+    "createdAt": "2026-01-15T10:00:00Z",
+    "publishedAt": "2026-01-15T10:00:00Z",
+    "audioUrl": "https://storage.googleapis.com/example/91635",
+    "videoUrl": null,
+    "artworkUrl": "https://imagedelivery.net/example/45080.jpg",
+    "styleId": null,
+    "styleSourceType": null,
+    "styleSourceTrackId": null,
+    "parentTrackId": null,
+    "generationId": "id52733622",
+    "generationStatus": "succeeded",
+    "isFinished": true,
+    "isPublishable": true,
+    "sourceMode": "search",
+    "collectionId": null,
+    "collectionName": null,
+    "positionInCollection": null,
+    "scrapedAt": "2026-01-15T10:00:00Z",
+    "raw": {
+      "id": "id6410462",
+      "user_id": "id85892758",
+      "artist": "navycatchydjembe920632",
+      "artist_image": "https://lh3.googleusercontent.com/example/25351.jpg",
+      "title": "Example title",
+      "created_at": "2026-01-15T10:00:00Z",
+      "error_id": null,
+      "error_type": null,
+      "error_code": null,
+      "generation_id": "id38415400",
+      "image_path": "https://imagedelivery.net/example/52546.jpg",
+      "lyrics": "",
+      "prompt": "Example prompt: mock text standing in for the real value. Same field and type, made-up content.",
+      "likes": 0,
+      "plays": 6,
+      "published_at": "2026-01-15T10:00:00Z",
+      "replaced_tags": {
+        "mellow, mysterious, cozy, nostalgic, lounge, jazz, instrumental, gentle, ambient jazz, atmospheric, slow tempo, relaxed, lo-fi, intimate, soft, smooth": {
+          "tags": [
+            "Example tags",
+            "jazz"
+          ],
+          "type": "tags"
+        },
+        "smooth jazz, jazz, jazz fusion, introspective, mellow, repetitive, melancholic, romantic, peaceful, melodic, atmospheric, soothing, instrumental, soft": {
+          "tags": [
+            "mellow",
+            "mysterious"
+          ],
+          "type": "tags"
+        }
+      },
+      "song_path": "https://storage.googleapis.com/example/6371",
+      "tags": [
+        "mellow",
+        "mysterious"
+      ],
+      "duration": 143.94,
+      "video_path": null,
+      "error_detail": null,
+      "finished": true,
+      "liked": false,
+      "disliked": false,
+      "publishable": true,
+      "audio_conditioning_type": null,
+      "attribution": "",
+      "description": "",
+      "user_tags": [],
+      "original_song_path": null,
+      "style_source_song_id": null,
+      "style_source_type": null,
+      "style_id": null,
+      "transformation_hash": null,
+      "generation_status": "succeeded",
+      "trim_start_ms": null,
+      "trim_end_ms": null
+    }
+  }
+]

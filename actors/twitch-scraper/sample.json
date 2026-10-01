@@ -1,0 +1,58 @@
+[
+  {
+    "recordType": "channel",
+    "id": "96780289",
+    "login": "shroud",
+    "displayName": "Example display name",
+    "url": "https://www.twitch.tv/example/83490",
+    "description": "Example description",
+    "createdAt": "2026-01-15T10:00:00Z",
+    "profileImageUrl": "https://static-cdn.jtvnw.net/example/15231.jpg",
+    "bannerImageUrl": "https://static-cdn.jtvnw.net/example/82372.jpg",
+    "primaryColorHex": "54adff",
+    "isPartner": true,
+    "isAffiliate": false,
+    "isStaff": false,
+    "isSiteAdmin": false,
+    "isGlobalMod": false,
+    "isExtensionsDeveloper": false,
+    "chanlets": null,
+    "followersCount": 97977722,
+    "isLive": true,
+    "broadcastTitle": "Example broadcast title",
+    "broadcastLanguage": "EN",
+    "broadcastGameName": "Example broadcast game name",
+    "broadcastGameSlug": "wardogs",
+    "lastBroadcastTitle": "Example last broadcast title",
+    "lastBroadcastStartedAt": "2026-01-15T10:00:00Z",
+    "socialMedias": [
+      {
+        "name": "Example name",
+        "title": "Example title",
+        "url": "https://discord.gg/example/83490"
+      },
+      {
+        "name": "Example name",
+        "title": "Example title",
+        "url": "https://twitter.com/example/21742"
+      }
+    ],
+    "scrapedAt": "2026-01-15T10:00:00Z",
+    "streamId": "486692293531",
+    "title": "Example title",
+    "viewersCount": 2749,
+    "streamStartedAt": "2026-01-15T10:00:00Z",
+    "streamLanguage": "EN",
+    "streamType": "live",
+    "gameName": "Example game name",
+    "gameSlug": "wardogs",
+    "gameId": "595672296",
+    "boxArtUrl": "https://static-cdn.jtvnw.net/example/8978",
+    "thumbnailUrl": "https://static-cdn.jtvnw.net/example/12214.jpg",
+    "tags": [
+      "English",
+      "DropsEnabled"
+    ],
+    "streamHlsUrl": "https://usher.ttvnw.net/example/2360"
+  }
+]

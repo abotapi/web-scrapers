@@ -1,0 +1,89 @@
+[
+  {
+    "wineId": 12276,
+    "vintageId": 6362751,
+    "vivino_url": "https://www.vivino.com/example/88430",
+    "name": "Example name",
+    "winery": "Example winery",
+    "vintage": 9642,
+    "wine_type": "Sparkling",
+    "region": "Champagne",
+    "country": "France",
+    "appellation": "Example appellation",
+    "grape_varieties": [
+      "Example grape_varieties",
+      "Example grape_varieties"
+    ],
+    "average_rating": 4.74,
+    "ratings_count": 25402,
+    "wine_average_rating": 3.4,
+    "wine_ratings_count": 834220,
+    "price": 496.64,
+    "currency": "EUR",
+    "merchant_url": "https://www.vinhosesabores.com.br/example/61353",
+    "discounted_from": 0,
+    "discount_percent": null,
+    "is_on_sale": false,
+    "discount_amount": null,
+    "bottle_volume_ml": 893,
+    "vfm_score": 0,
+    "vfm_category": 0,
+    "is_natural": false,
+    "image_url": "https://images.vivino.com/example/37073.jpg",
+    "label_image_url": "https://images.vivino.com/example/25403.jpg",
+    "food_pairings": [
+      "Example food_pairings",
+      "Example food_pairings"
+    ],
+    "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
+    "alcohol": null,
+    "winery_id": 768911,
+    "winery_seo_name": "Example winery_seo_name",
+    "region_id": 271,
+    "country_code": "fr",
+    "requested_vintage": null,
+    "matchScore": 2,
+    "lwin": null,
+    "lwin_canonical": null,
+    "taste_profile": {
+      "body": null,
+      "acidity": 4.72,
+      "tannins": null,
+      "sweetness": null,
+      "fizziness": 4.02,
+      "intensity": 3.04,
+      "flavor_notes": [
+        "brioche",
+        "toast"
+      ],
+      "flavor_groups": [
+        {
+          "group": "non_oak",
+          "keywords": [
+            {
+              "name": "Example name",
+              "count": 7650
+            },
+            {
+              "name": "Example name",
+              "count": 5719
+            }
+          ]
+        },
+        {
+          "group": "tree_fruit",
+          "keywords": [
+            {
+              "name": "Example name",
+              "count": 5719
+            },
+            {
+              "name": "Example name",
+              "count": 2580
+            }
+          ]
+        }
+      ]
+    }
+  }
+]

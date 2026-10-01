@@ -1,0 +1,55 @@
+[
+  {
+    "kind": "game",
+    "recordId": "id74874683",
+    "id": 964846605,
+    "universeId": 416154072,
+    "rootPlaceId": 4670583752,
+    "url": "https://www.roblox.com/example/48806",
+    "name": "Example name",
+    "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
+    "creatorId": 9341949,
+    "creatorName": "Example creator name",
+    "creatorType": "Group",
+    "creatorHasVerifiedBadge": true,
+    "genre": "Adventure",
+    "genreL1": "RPG",
+    "genreL2": "Example genre l2",
+    "price": null,
+    "playing": 842247,
+    "visits": 87982556918,
+    "maxPlayers": 86,
+    "favoritedCount": 29633019,
+    "upVotes": 57869107,
+    "downVotes": 7487145,
+    "likeRatio": 1.07,
+    "createdAt": "2026-01-15T10:00:00Z",
+    "updatedAt": "2026-01-15T10:00:00Z",
+    "copyingAllowed": false,
+    "createVipServersAllowed": false,
+    "universeAvatarType": "morphtor67",
+    "isContentRestricted": false,
+    "iconUrl": "https://tr.rbxcdn.com/example/61375.jpg",
+    "sampledServerCount": 709,
+    "sampledServerPlayers": 9011,
+    "avgServerFps": 70.51,
+    "avgServerPing": 353.23,
+    "mediaImageCount": 9,
+    "mediaVideoCount": 0,
+    "badges": [
+      {
+        "id": 8164846605,
+        "name": "Example name",
+        "awardedCount": 78499088,
+        "winRatePercentage": 0.01
+      },
+      {
+        "id": 4297301340,
+        "name": "Example name",
+        "awardedCount": 27779140,
+        "winRatePercentage": 0.01
+      }
+    ],
+    "scrapedAt": "2026-01-15T10:00:00Z"
+  }
+]

@@ -1,0 +1,134 @@
+[
+  {
+    "id": 25298926,
+    "title": "Example title",
+    "address": "Example address",
+    "listing_type": "sale",
+    "property_type": "CONDO",
+    "property_type_group": "N",
+    "price": 0,
+    "price_formatted": "Example price_formatted",
+    "price_per_sqm": "Example price_per_sqm",
+    "currency": "THB",
+    "bedrooms": 4,
+    "bathrooms": 1,
+    "tenure": "Example tenure",
+    "developer": "Example developer",
+    "is_developer_listing": true,
+    "agent_name": "Example agent_name: mock text standing in for the real value. Same field and type, made-up content.",
+    "agent_id": 430526837,
+    "agency_id": 24820,
+    "region": "Bangkok",
+    "region_code": "TH10",
+    "district": "Example district",
+    "district_code": "th4949",
+    "area": "Example area",
+    "area_code": "th284497",
+    "nearby_mrt": "Example nearby_mrt",
+    "nearby_station_id": "E7",
+    "badges": [
+      "Example badges",
+      "Condo"
+    ],
+    "posted_date": "Example posted_date",
+    "posted_unix": 6622274375,
+    "recency": "Example recency",
+    "images": [
+      "https://th1-cdn.pgimgs.com/example/51709.jpg",
+      "https://th1-cdn.pgimgs.com/example/62862.jpg"
+    ],
+    "image_count": 41,
+    "url": "https://www.ddproperty.com/example/9872",
+    "status": "ACT",
+    "latitude": 10.57,
+    "longitude": 110.64,
+    "nearby_mrts": [
+      {
+        "id": "E7",
+        "name": "Example name",
+        "latitude": 10.56,
+        "longitude": 110.64,
+        "distance_m": 300,
+        "distance_text": "Example distance_text",
+        "duration_text": "Example duration_text"
+      },
+      {
+        "id": "E6",
+        "name": "Example name",
+        "latitude": 13.86,
+        "longitude": 115.66,
+        "distance_m": 867,
+        "distance_text": "Example distance_text",
+        "duration_text": "Example duration_text"
+      }
+    ],
+    "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
+    "facilities": [
+      "Example facilities",
+      "Example facilities"
+    ],
+    "highlights": [
+      "Example highlights: mock text standing in for the real value. Same field and type, made-up content.",
+      "Example highlights"
+    ]
+  },
+  {
+    "id": 62963112,
+    "title": "Example title",
+    "address": "Example address: mock text standing in for the real value. Same field and type, made-up content.",
+    "listing_type": "sale",
+    "property_type": "BUNG",
+    "property_type_group": "B",
+    "price": 0,
+    "price_formatted": "Example price_formatted",
+    "price_per_sqm": "Example price_per_sqm",
+    "currency": "THB",
+    "bedrooms": 2,
+    "bathrooms": 4,
+    "tenure": "Example tenure",
+    "developer": "Example developer",
+    "is_developer_listing": true,
+    "agent_name": "Example agent_name",
+    "agent_id": 882651266,
+    "agency_id": 97098,
+    "region": "Phuket",
+    "region_code": "TH83",
+    "district": "Example district",
+    "district_code": "th5211",
+    "area": "Example area",
+    "area_code": "th062472",
+    "badges": [
+      "Example badges",
+      "Example badges"
+    ],
+    "posted_date": "Example posted_date",
+    "posted_unix": 1309768663,
+    "recency": "Example recency",
+    "images": [
+      "https://th1-cdn.pgimgs.com/example/61258.jpg",
+      "https://th1-cdn.pgimgs.com/example/3604.jpg"
+    ],
+    "image_count": 42,
+    "url": "https://www.ddproperty.com/example/42484",
+    "status": "ACT",
+    "latitude": 9.89,
+    "longitude": 118.93,
+    "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
+    "facilities": [
+      "Example facilities",
+      "Example facilities"
+    ],
+    "highlights": [
+      "Example highlights: mock text standing in for the real value. Same field and type, made-up content."
+    ],
+    "images_full": [
+      "https://th1-cdn.pgimgs.com/example/43466.jpg",
+      "https://th1-cdn.pgimgs.com/example/5918.jpg"
+    ],
+    "floor_plans": [
+      "https://th1-cdn.pgimgs.com/example/83099.jpg",
+      "https://th1-cdn.pgimgs.com/example/64433.jpg"
+    ],
+    "location_source": "detail_page"
+  }
+]

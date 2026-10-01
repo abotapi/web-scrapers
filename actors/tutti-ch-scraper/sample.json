@@ -1,0 +1,43 @@
+[
+  {
+    "listingId": "33394030",
+    "title": "",
+    "description": null,
+    "price": "75.-",
+    "priceValue": 78,
+    "currency": "CHF",
+    "categoryId": "bicycles",
+    "categoryLabel": null,
+    "parentCategoryId": null,
+    "parentCategoryLabel": null,
+    "locationName": "Example location name",
+    "postcode": "7228",
+    "canton": "AG",
+    "cantonName": "Example canton name",
+    "latitude": null,
+    "longitude": null,
+    "street": null,
+    "sellerName": "Example seller name",
+    "sellerType": "Example seller type",
+    "sellerAccountId": null,
+    "sellerLogoUrl": null,
+    "sellerLocation": null,
+    "sellerProfileUrl": null,
+    "sellerSubscriptionClass": null,
+    "sellerBadgeUrl": null,
+    "memberSince": null,
+    "phone": null,
+    "externalUrl": null,
+    "highlighted": false,
+    "formattedSource": null,
+    "imageUrl": "https://c.tutti.ch/example/17977.jpg",
+    "imageCount": 2,
+    "images": [
+      "https://c.tutti.ch/example/98835.jpg"
+    ],
+    "properties": [],
+    "timestamp": "2026-01-15T10:00:00Z",
+    "language": "de",
+    "url": null
+  }
+]

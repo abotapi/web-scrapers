@@ -1,0 +1,229 @@
+[
+  {
+    "id": "id87274198",
+    "name": "Example name",
+    "slug": "Example slug",
+    "detailsUrl": "https://www.productreview.com.au/example/29275",
+    "brand": {
+      "id": "id87274198",
+      "name": "Example name",
+      "slug": "Example slug",
+      "url": "https://www.nickscali.com.au/example/31042",
+      "isManaged": true
+    },
+    "contact": {
+      "email": null,
+      "website": "https://www.nickscali.com.au/example/52865",
+      "phone": null
+    },
+    "categories": [
+      {
+        "name": "Example name",
+        "level": 1,
+        "hook": "services",
+        "ancestors": []
+      },
+      {
+        "name": "Example name",
+        "level": 6,
+        "hook": "shops",
+        "ancestors": []
+      }
+    ],
+    "locations": [],
+    "statistics": {
+      "rating": 4.46,
+      "numberOfReviews": 85286,
+      "numberOfQuestions": 471,
+      "ratingDistribution": [
+        2965,
+        252
+      ]
+    },
+    "isDiscontinued": false,
+    "featuredReview": {
+      "id": "id87274198",
+      "title": null,
+      "body": "Example body: mock text standing in for the real value. Same field and type, made-up content.",
+      "rating": 4,
+      "submittedAt": "2026-01-15T10:00:00Z",
+      "authorName": "Example author name",
+      "authorLocation": "Example author location",
+      "hasVerifiedPurchase": false
+    },
+    "highlightedReviews": [],
+    "logoUrl": "https://cdn.productreview.com.au/example/365.jpg",
+    "pictureUrl": "https://cdn.productreview.com.au/example/63716",
+    "pictures": [
+      "https://cdn.productreview.com.au/example/40844"
+    ],
+    "createdAt": "2026-01-15T10:00:00Z",
+    "scrapedAt": "2026-01-15T10:00:00Z",
+    "reviews": [
+      {
+        "id": "id87274198",
+        "title": null,
+        "body": "Example body: mock text standing in for the real value. Same field and type, made-up content.",
+        "rating": 4,
+        "submittedAt": "2026-01-15T10:00:00Z",
+        "hasVerifiedPurchase": false,
+        "attachments": [],
+        "images": [],
+        "author": {
+          "id": "id87274198",
+          "displayName": "Example display name",
+          "locationName": null
+        },
+        "comments": [
+          {
+            "id": "id87274198",
+            "body": "Example body: mock text standing in for the real value. Same field and type, made-up content.",
+            "submittedAt": "2026-01-15T10:00:00Z",
+            "author": {
+              "displayName": "Example display name",
+              "isBrandManager": true
+            }
+          }
+        ]
+      },
+      {
+        "id": "id36078153",
+        "title": null,
+        "body": "Example body",
+        "rating": 3,
+        "submittedAt": "2026-01-15T10:00:00Z",
+        "hasVerifiedPurchase": false,
+        "attachments": [],
+        "images": [],
+        "author": {
+          "id": "id36078153",
+          "displayName": "Example display name",
+          "locationName": null
+        },
+        "comments": [
+          {
+            "id": "id36078153",
+            "body": "Example body: mock text standing in for the real value. Same field and type, made-up content.",
+            "submittedAt": "2026-01-15T10:00:00Z",
+            "author": {
+              "displayName": "Example display name",
+              "isBrandManager": true
+            }
+          }
+        ]
+      }
+    ],
+    "totalReviews": 97044,
+    "reviewPages": 938,
+    "pagesScraped": 2,
+    "address": null,
+    "businessHours": null,
+    "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
+    "faqs": [],
+    "specifications": {}
+  },
+  {
+    "id": "id24683951",
+    "name": "Example name",
+    "slug": "Example slug",
+    "detailsUrl": "https://www.productreview.com.au/example/93119",
+    "brand": {
+      "id": "id24683951",
+      "name": "Example name",
+      "slug": "Example slug",
+      "url": "https://www.loungelovers.com.au/example/46485",
+      "isManaged": true
+    },
+    "contact": {
+      "email": "user30@example.com",
+      "website": "https://www.loungelovers.com.au/example/91501",
+      "phone": null
+    },
+    "categories": [
+      {
+        "name": "Example name",
+        "level": 1,
+        "hook": "services",
+        "ancestors": []
+      },
+      {
+        "name": "Example name",
+        "level": 5,
+        "hook": "shops",
+        "ancestors": []
+      }
+    ],
+    "locations": [],
+    "statistics": {
+      "rating": 6.32,
+      "numberOfReviews": 13061,
+      "numberOfQuestions": 58,
+      "ratingDistribution": [
+        820,
+        64
+      ]
+    },
+    "isDiscontinued": false,
+    "featuredReview": {
+      "id": "id24683951",
+      "title": null,
+      "body": "Example body: mock text standing in for the real value. Same field and type, made-up content.",
+      "rating": 9,
+      "submittedAt": "2026-01-15T10:00:00Z",
+      "authorName": "Example author name",
+      "authorLocation": "Example author location",
+      "hasVerifiedPurchase": false
+    },
+    "highlightedReviews": [],
+    "logoUrl": "https://cdn.productreview.com.au/example/89366.jpg",
+    "pictureUrl": "https://cdn.productreview.com.au/example/69542",
+    "pictures": [
+      "https://cdn.productreview.com.au/example/96435",
+      "https://cdn.productreview.com.au/example/72940"
+    ],
+    "createdAt": "2026-01-15T10:00:00Z",
+    "scrapedAt": "2026-01-15T10:00:00Z",
+    "reviews": [
+      {
+        "id": "id24683951",
+        "title": null,
+        "body": "Example body: mock text standing in for the real value. Same field and type, made-up content.",
+        "rating": 9,
+        "submittedAt": "2026-01-15T10:00:00Z",
+        "hasVerifiedPurchase": false,
+        "attachments": [],
+        "images": [],
+        "author": {
+          "id": "id24683951",
+          "displayName": "Example display name",
+          "locationName": "Example location name"
+        },
+        "comments": []
+      },
+      {
+        "id": "id62995661",
+        "title": null,
+        "body": "Example body: mock text standing in for the real value. Same field and type, made-up content.",
+        "rating": 2,
+        "submittedAt": "2026-01-15T10:00:00Z",
+        "hasVerifiedPurchase": false,
+        "attachments": [],
+        "images": [],
+        "author": {
+          "id": "id62995661",
+          "displayName": "Example display name",
+          "locationName": "Example location name"
+        },
+        "comments": []
+      }
+    ],
+    "totalReviews": 68950,
+    "reviewPages": 753,
+    "pagesScraped": 6,
+    "address": null,
+    "businessHours": null,
+    "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
+    "faqs": [],
+    "specifications": {}
+  }
+]

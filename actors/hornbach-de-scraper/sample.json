@@ -1,0 +1,66 @@
+[
+  {
+    "productId": "42717618",
+    "sku": "06145752",
+    "concreteProductId": "87188426_st",
+    "name": "Example name: mock text standing in for the real value. Same field and type, made-up content.",
+    "url": "https://www.hornbach.de/example/92653",
+    "brand": "Einhell",
+    "brandLogoUrl": "https://media.hornbach.de/example/69863.jpg",
+    "price": 40.46,
+    "currency": "Example currency",
+    "priceUnit": "ST",
+    "originalPrice": 65.48,
+    "discountAmount": 58,
+    "discountPercent": 32.67,
+    "packPrice": null,
+    "packPriceUnit": null,
+    "badges": [],
+    "rating": 5.76,
+    "reviewCount": 73,
+    "variantCount": null,
+    "image": "https://media.hornbach.de/example/6697.jpg",
+    "thumbnailUrl": "https://media.hornbach.de/example/62269.jpg",
+    "onlineAvailable": true,
+    "onlineAvailabilityText": "Example online availability text",
+    "storePickupAvailable": true,
+    "storePickupAvailabilityText": "Example store pickup availability text",
+    "onlineMerchant": {
+      "name": "Example name",
+      "isMarketplaceMerchant": false
+    },
+    "storeMerchant": {
+      "name": "Example name",
+      "isMarketplaceMerchant": false
+    },
+    "searchTerm": "Example search term",
+    "reviews": {
+      "averageRating": 4.89,
+      "totalReviewCount": 34,
+      "ratingDistribution": [
+        {
+          "rating": 3,
+          "count": 59
+        },
+        {
+          "rating": 6,
+          "count": 4
+        }
+      ],
+      "items": [
+        {
+          "rating": 3,
+          "title": "Example title",
+          "body": "Example body: mock text standing in for the real value. Same field and type, made-up content.",
+          "author": "Example author",
+          "date": "2026-01-15T10:00:00Z",
+          "isRecommended": true,
+          "secondaryRatings": {
+            "Value": 5,
+            "Quality": 5
+          }
+        }
+      ]
+    }
+  }
+]

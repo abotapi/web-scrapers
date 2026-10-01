@@ -1,0 +1,57 @@
+[
+  {
+    "id": "32920",
+    "activityId": "12868",
+    "recordType": "activity",
+    "title": "Example title: mock text standing in for the real value. Same field and type, made-up content.",
+    "url": "https://www.klook.com/example/90319",
+    "price": 47.73,
+    "currency": "USD",
+    "marketPrice": null,
+    "rating": 6.14,
+    "reviewCount": 84335,
+    "location": "Example location",
+    "category": "Example category",
+    "imageUrls": [
+      "https://res.klook.com/example/13854.jpg",
+      "https://res.klook.com/example/67306.jpg"
+    ],
+    "promotions": [
+      "Example promotions"
+    ],
+    "booked": "Example booked",
+    "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
+    "country": "Japan",
+    "address": "Example address",
+    "detailStatus": "complete",
+    "operation": "activities",
+    "sourceMode": "search",
+    "changeType": "NEW"
+  },
+  {
+    "id": "09433",
+    "activityId": "49837",
+    "recordType": "activity",
+    "title": "Example title: mock text standing in for the real value. Same field and type, made-up content.",
+    "url": "https://www.klook.com/example/77549",
+    "price": 20.65,
+    "currency": "USD",
+    "marketPrice": null,
+    "rating": 5.26,
+    "reviewCount": 88412,
+    "location": "Example location",
+    "category": "Museums",
+    "imageUrls": [
+      "https://res.klook.com/example/10716.jpg"
+    ],
+    "promotions": [
+      "Example promotions",
+      "Example promotions"
+    ],
+    "booked": "Example booked",
+    "detailStatus": "unavailable",
+    "operation": "activities",
+    "sourceMode": "search",
+    "changeType": "NEW"
+  }
+]

@@ -1,0 +1,49 @@
+[
+  {
+    "id": "id26753278",
+    "listingKey": "zdrsjkvlnfff78ogkullqq",
+    "url": "https://www.ziprecruiter.com/example/88955",
+    "title": "Example title",
+    "company": "Example company",
+    "companyId": "Example company id",
+    "companyUrl": "https://www.ziprecruiter.com/example/72496",
+    "companyWebsite": null,
+    "companyLogo": "https://www.ziprecruiter.com/example/82651.jpg",
+    "location": "Example location",
+    "city": "Aurora",
+    "state": "Ohio",
+    "county": "Example county",
+    "postalCode": null,
+    "streetAddress": null,
+    "country": "Example country",
+    "latitude": null,
+    "longitude": null,
+    "locationType": "Example location type",
+    "remote": true,
+    "salary": "Example salary",
+    "salaryMin": 10733,
+    "salaryMax": 823268,
+    "salaryCurrency": "USD",
+    "salaryPeriod": "year",
+    "employmentTypes": [
+      "FULL_TIME"
+    ],
+    "employmentType": "FULL_TIME",
+    "industry": null,
+    "occupationalCategory": null,
+    "benefits": [
+      "MEDICAL",
+      "VISION"
+    ],
+    "benefitsText": null,
+    "snippet": "Example snippet: mock text standing in for the real value. Same field and type, made-up content.",
+    "descriptionHtml": null,
+    "descriptionText": null,
+    "emails": [],
+    "phoneNumbers": [],
+    "datePosted": "2026-01-15T10:00:00Z",
+    "postedAt": "2026-01-15T10:00:00Z",
+    "validThrough": null,
+    "isActive": true
+  }
+]

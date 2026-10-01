@@ -1,0 +1,27 @@
+[
+  {
+    "recordId": "934010217",
+    "rowType": "product",
+    "productId": "393460666",
+    "url": "https://www.asos.com/example/66710",
+    "title": "Example title",
+    "brand": "Example brand",
+    "brandId": null,
+    "colour": "CHOCOLATE",
+    "colourWayId": "535242058",
+    "price": 92,
+    "priceText": "Example price text",
+    "originalPrice": null,
+    "onSale": null,
+    "discountPercent": null,
+    "currency": "GBP",
+    "isNew": false,
+    "isSellingFast": true,
+    "isRestockingSoon": false,
+    "isPromotion": false,
+    "hasMultipleColours": false,
+    "imageUrl": "https://www.asos.com/example/92130.jpg",
+    "productCode": "582641912",
+    "scrapedAt": "2026-01-15T10:00:00Z"
+  }
+]

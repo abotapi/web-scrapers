@@ -1,0 +1,112 @@
+[
+  {
+    "product_id": "57858043",
+    "base_id": "81330111",
+    "barcode": "1728159458368",
+    "title": "Example title: mock text standing in for the real value. Same field and type, made-up content.",
+    "seo_name": "Example seo_name: mock text standing in for the real value. Same field and type, made-up content.",
+    "url": "https://www.a101.com.tr/example/92960",
+    "country": "TR",
+    "brand": "Philips",
+    "brand_id": "markalar57",
+    "brand_url": "https://www.a101.com.tr/example/88012",
+    "category": "Example category",
+    "category_path": "Example category_path: mock text standing in for the real value. Same field and type, made-up content.",
+    "categories": [
+      {
+        "id": "C02",
+        "name": "Example name"
+      },
+      {
+        "id": "C0203",
+        "name": "Example name"
+      }
+    ],
+    "currency": "TRY",
+    "current_price": 34628,
+    "original_price": 53452,
+    "discounted_price": 44110,
+    "current_price_text": "Example current_price_text",
+    "original_price_text": "Example original_price_text",
+    "discount_rate": null,
+    "discount_rate_text": null,
+    "is_on_special": false,
+    "savings_amount": null,
+    "savings_percent": null,
+    "promo_label": null,
+    "specials_category": null,
+    "price_range": "Example price_range",
+    "in_stock": true,
+    "is_enabled": true,
+    "min_quantity": 7,
+    "max_quantity": 5,
+    "daily_max_quantity": 3950,
+    "base_unit": "ADT",
+    "vat_rate": 97,
+    "return_days": 15,
+    "channels": [
+      "416783"
+    ],
+    "channel_names": [
+      "Example channel_names"
+    ],
+    "channel_scope": "ekstra",
+    "origin_country_id": "TR",
+    "origin_country": "Example origin_country"
+  },
+  {
+    "product_id": "71978235",
+    "base_id": "87318452",
+    "barcode": "7772439119520",
+    "title": "Example title",
+    "seo_name": "Example seo_name",
+    "url": "https://www.a101.com.tr/example/61470",
+    "country": "TR",
+    "brand": "Jacobs",
+    "brand_id": "markalar963",
+    "brand_url": "https://www.a101.com.tr/example/60552",
+    "category": "Kahve",
+    "category_path": "Example category_path",
+    "categories": [
+      {
+        "id": "C07",
+        "name": "Example name"
+      },
+      {
+        "id": "C0704",
+        "name": "Example name"
+      }
+    ],
+    "currency": "TRY",
+    "current_price": 137,
+    "original_price": 452,
+    "discounted_price": 862,
+    "current_price_text": "Example current_price_text",
+    "original_price_text": "Example original_price_text",
+    "discount_rate": null,
+    "discount_rate_text": null,
+    "is_on_special": false,
+    "savings_amount": null,
+    "savings_percent": null,
+    "promo_label": null,
+    "specials_category": null,
+    "price_range": "Example price_range",
+    "in_stock": true,
+    "is_enabled": true,
+    "min_quantity": 2,
+    "max_quantity": 57,
+    "daily_max_quantity": 9069,
+    "base_unit": "ADT",
+    "vat_rate": 8,
+    "return_days": 69,
+    "channels": [
+      "108008"
+    ],
+    "channel_names": [
+      "Example channel_names"
+    ],
+    "channel_scope": "ekstra",
+    "origin_country_id": "BG",
+    "origin_country": "Bulgaristan"
+  }
+]

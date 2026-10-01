@@ -1,0 +1,68 @@
+[
+  {
+    "id": "Example id: mock text standing in for the real value. Same field and type, made-up content.",
+    "url": "https://australia.businessesforsale.com/example/50752",
+    "title": "Example title: mock text standing in for the real value. Same field and type, made-up content.",
+    "listingClass": "business",
+    "labels": [
+      "Example labels",
+      "Example labels"
+    ],
+    "searchCountry": "global",
+    "locationText": "Example location text",
+    "locationDetail": "Example location detail: mock text standing in for the real value. Same field and type, made-up content.",
+    "country": "AU",
+    "region": "Example region",
+    "locality": null,
+    "askingPriceDisplay": "Example asking price display",
+    "askingPriceValue": 69802,
+    "priceCurrency": "AUD",
+    "businessFunction": "Example business function",
+    "revenueDisplay": "Example revenue display",
+    "revenueValue": 504531,
+    "cashFlowDisplay": "Example cash flow display",
+    "cashFlowValue": 953320,
+    "tenure": null,
+    "sizeSqFt": null,
+    "tradingHours": "Example trading hours",
+    "employees": "Example employees",
+    "yearsEstablished": "Example years established",
+    "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
+    "categories": [
+      {
+        "name": "Example name",
+        "url": "https://australia.businessesforsale.com/example/50752"
+      },
+      {
+        "name": "Example name",
+        "url": "https://australia.businessesforsale.com/example/54207"
+      }
+    ],
+    "financials": {
+      "Asking Price": "Example asking  price",
+      "Revenue": "Example revenue",
+      "Cash Flow": "Example cash  flow"
+    },
+    "details": {
+      "Asking Price": "Example asking  price",
+      "Turnover": "Example turnover",
+      "Net Profit": "Example net  profit",
+      "Location": "Example location: mock text standing in for the real value. Same field and type, made-up content.",
+      "Expansion Potential": "Example expansion  potential: mock text standing in for the real value. Same field and type, made-up content.",
+      "Trading hours": "Example trading hours",
+      "Employees": "Example employees",
+      "Years established": "Example years established"
+    },
+    "seller": {
+      "@type": "Organization",
+      "@id": "https://www.businessesforsale.com/example/76543"
+    },
+    "thumbnail": "https://www.businessesforsale.com/example/58278.jpg",
+    "imageCount": 7,
+    "images": [
+      "https://australia.businessesforsale.com/example/58826.jpg",
+      "https://australia.businessesforsale.com/example/31861.jpg"
+    ],
+    "scrapedAt": "2026-01-15T10:00:00Z"
+  }
+]

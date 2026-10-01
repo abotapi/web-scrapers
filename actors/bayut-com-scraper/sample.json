@@ -1,0 +1,57 @@
+[
+  {
+    "externalID": "38585026",
+    "id": 15275549,
+    "objectID": "97528240",
+    "ownerID": 8148913,
+    "userExternalID": "4448079",
+    "url": "https://www.bayut.com/example/26156",
+    "slug": "id53652381",
+    "purpose": "Example purpose",
+    "propertyType": "property",
+    "title": "Example title",
+    "titleArabic": null,
+    "titleL2": null,
+    "titleL3": null,
+    "price": 797252,
+    "currency": "AED",
+    "priceHidden": false,
+    "rentFrequency": null,
+    "rooms": 0,
+    "baths": 5,
+    "area": 34.34,
+    "areaUnit": "sqm",
+    "plotArea": null,
+    "furnishingStatus": "unfurnished",
+    "completionStatus": "Example completion status",
+    "isStudio": null,
+    "isDeveloper": null,
+    "country": "UAE",
+    "city": "Dubai",
+    "neighbourhood": "Example neighbourhood",
+    "building": "Example building",
+    "latitude": 19.53,
+    "longitude": 65.68,
+    "geoExact": null,
+    "locationPath": "Example location path: mock text standing in for the real value. Same field and type, made-up content.",
+    "locationDetails": [
+      {
+        "name": "Example name",
+        "type": null,
+        "externalID": "6000",
+        "slug": "Example slug"
+      },
+      {
+        "name": "Example name",
+        "type": null,
+        "externalID": "5527",
+        "slug": "Example slug"
+      }
+    ],
+    "locationPurposeTier": 1,
+    "isVerified": true,
+    "verificationStatus": "verified",
+    "verifiedAt": 2248207369,
+    "trucheckedAt": 6598850915
+  }
+]

@@ -1,0 +1,118 @@
+[
+  {
+    "kind": "product",
+    "id": "80593988",
+    "itemNo": "57688073",
+    "itemNoGlobal": "43608011",
+    "itemType": "ART",
+    "name": "Example name",
+    "typeName": "Example type name",
+    "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
+    "url": "https://www.ikea.com/example/1284",
+    "price": 13,
+    "currency": "USD",
+    "priceFormatted": "Example price formatted",
+    "priceDiscount": null,
+    "priceTag": null,
+    "onSale": false,
+    "isOnSpecial": false,
+    "wasPrice": null,
+    "wasPriceFormatted": null,
+    "savingsAmount": null,
+    "discountPercent": null,
+    "specialsLabel": null,
+    "isBreathTaking": false,
+    "priceValidFrom": null,
+    "priceValidTo": null,
+    "ratingValue": 5.84,
+    "ratingCount": 6081,
+    "color": "white",
+    "colors": [
+      {
+        "name": "Example name",
+        "id": "71559",
+        "hex": "ffffff"
+      }
+    ],
+    "measurementText": "Example measurement text",
+    "width": 27.41,
+    "depth": 10,
+    "height": 66.78,
+    "measurementUnit": "in",
+    "categoryPath": [
+      "Example category path",
+      "Example category path"
+    ],
+    "categoryClass": "Example category class",
+    "businessStructure": {
+      "homeFurnishingBusinessName": "Example home furnishing business name",
+      "homeFurnishingBusinessNo": "30",
+      "productAreaName": "Example product area name",
+      "productAreaNo": "6614",
+      "productRangeAreaName": "Example product range area name",
+      "productRangeAreaNo": "147"
+    },
+    "badge": "Example badge",
+    "badgeType": "TOP_SELLER",
+    "isBestseller": true,
+    "isNewArrival": false
+  },
+  {
+    "kind": "product",
+    "id": "95260881",
+    "itemNo": "41330096",
+    "itemNoGlobal": "14916146",
+    "itemType": "ART",
+    "name": "Example name",
+    "typeName": "Example type name",
+    "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
+    "url": "https://www.ikea.com/example/74352",
+    "price": 23.09,
+    "currency": "USD",
+    "priceFormatted": "Example price formatted",
+    "priceDiscount": null,
+    "priceTag": null,
+    "onSale": false,
+    "isOnSpecial": false,
+    "wasPrice": null,
+    "wasPriceFormatted": null,
+    "savingsAmount": null,
+    "discountPercent": null,
+    "specialsLabel": null,
+    "isBreathTaking": true,
+    "priceValidFrom": null,
+    "priceValidTo": null,
+    "ratingValue": 3.4,
+    "ratingCount": 411,
+    "color": "white",
+    "colors": [
+      {
+        "name": "Example name",
+        "id": "86055",
+        "hex": "ffffff"
+      }
+    ],
+    "measurementText": "Example measurement text",
+    "width": 22.18,
+    "depth": 11.36,
+    "height": 29,
+    "measurementUnit": "in",
+    "categoryPath": [
+      "Example category path",
+      "Example category path"
+    ],
+    "categoryClass": "Example category class",
+    "businessStructure": {
+      "homeFurnishingBusinessName": "Example home furnishing business name",
+      "homeFurnishingBusinessNo": "15",
+      "productAreaName": "Example product area name",
+      "productAreaNo": "8776",
+      "productRangeAreaName": "Example product range area name",
+      "productRangeAreaNo": "334"
+    },
+    "badge": null,
+    "badgeType": null,
+    "isBestseller": false,
+    "isNewArrival": false
+  }
+]

@@ -1,0 +1,845 @@
+[
+  {
+    "id": "dqw7w5wgxcq",
+    "title": "Example title: mock text standing in for the real value. Same field and type, made-up content.",
+    "formats": [
+      {
+        "format_id": "sb3",
+        "format_note": "storyboard",
+        "ext": "mhtml",
+        "protocol": "mhtml",
+        "acodec": "none",
+        "vcodec": "none",
+        "url": "https://i.ytimg.com/example/84399.jpg",
+        "width": 69,
+        "height": 94,
+        "fps": 0.44,
+        "rows": 21,
+        "columns": 92,
+        "fragments": [
+          {
+            "url": "https://i.ytimg.com/example/84399.jpg",
+            "duration": 131
+          }
+        ],
+        "audio_ext": "none",
+        "video_ext": "none",
+        "vbr": 0,
+        "abr": 0,
+        "tbr": null,
+        "resolution": "Example resolution",
+        "aspect_ratio": 1.71,
+        "filesize_approx": null,
+        "http_headers": {
+          "User-Agent": "Example user- agent: mock text standing in for the real value. Same field and type, made-up content.",
+          "Accept": "Example accept: mock text standing in for the real value. Same field and type, made-up content.",
+          "Accept-Language": "Example accept- language",
+          "Sec-Fetch-Mode": "navigate"
+        },
+        "format": "Example format"
+      },
+      {
+        "format_id": "sb2",
+        "format_note": "storyboard",
+        "ext": "mhtml",
+        "protocol": "mhtml",
+        "acodec": "none",
+        "vcodec": "none",
+        "url": "https://i.ytimg.com/example/66001.jpg",
+        "width": 24,
+        "height": 19,
+        "fps": 0.47,
+        "rows": 98,
+        "columns": 83,
+        "fragments": [
+          {
+            "url": "https://i.ytimg.com/example/66001.jpg",
+            "duration": 179.47
+          },
+          {
+            "url": "https://i.ytimg.com/example/76933.jpg",
+            "duration": 11.83
+          }
+        ],
+        "audio_ext": "none",
+        "video_ext": "none",
+        "vbr": 0,
+        "abr": 0,
+        "tbr": null,
+        "resolution": "Example resolution",
+        "aspect_ratio": 1.99,
+        "filesize_approx": null,
+        "http_headers": {
+          "User-Agent": "Example user- agent: mock text standing in for the real value. Same field and type, made-up content.",
+          "Accept": "Example accept: mock text standing in for the real value. Same field and type, made-up content.",
+          "Accept-Language": "Example accept- language",
+          "Sec-Fetch-Mode": "navigate"
+        },
+        "format": "Example format"
+      }
+    ],
+    "thumbnails": [
+      {
+        "url": "https://i.ytimg.com/example/84399.jpg",
+        "preference": -43,
+        "id": "6"
+      },
+      {
+        "url": "https://i.ytimg.com/example/66001.jpg",
+        "preference": -72,
+        "id": "0"
+      }
+    ],
+    "thumbnail": "https://i.ytimg.com/example/96733.jpg",
+    "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
+    "channel_id": "ucuaxfkgsw7l5xacfnd6jjow",
+    "channel_url": "https://www.youtube.com/example/88935",
+    "duration": 131,
+    "view_count": 8650860925,
+    "average_rating": null,
+    "age_limit": 0,
+    "webpage_url": "https://www.youtube.com/example/1196",
+    "categories": [
+      "Music"
+    ],
+    "tags": [
+      "Example tags",
+      "Example tags"
+    ],
+    "playable_in_embed": true,
+    "live_status": "not_live",
+    "media_type": "video",
+    "release_timestamp": null,
+    "_format_sort_fields": [
+      "quality",
+      "res"
+    ],
+    "automatic_captions": {
+      "en": [
+        {
+          "url": "https://manifest.googlevideo.com/example/84399",
+          "ext": "vtt",
+          "protocol": "id31404034",
+          "__yt_dlp_client": "visionos"
+        },
+        {
+          "ext": "Example ext",
+          "url": "https://www.youtube.com/example/66001",
+          "name": "Example name",
+          "impersonate": true,
+          "__yt_dlp_client": "visionos"
+        }
+      ],
+      "de-DE": [
+        {
+          "url": "https://manifest.googlevideo.com/example/84399",
+          "ext": "vtt",
+          "protocol": "id31404034",
+          "__yt_dlp_client": "visionos"
+        }
+      ],
+      "ja": [
+        {
+          "url": "https://manifest.googlevideo.com/example/84399",
+          "ext": "vtt",
+          "protocol": "id31404034",
+          "__yt_dlp_client": "visionos"
+        },
+        {
+          "ext": "Example ext",
+          "url": "https://www.youtube.com/example/66001",
+          "name": "Example name",
+          "impersonate": true,
+          "__yt_dlp_client": "visionos"
+        }
+      ],
+      "pt-BR": [
+        {
+          "url": "https://manifest.googlevideo.com/example/84399",
+          "ext": "vtt",
+          "protocol": "id31404034",
+          "__yt_dlp_client": "visionos"
+        }
+      ],
+      "es-419": [
+        {
+          "url": "https://manifest.googlevideo.com/example/84399",
+          "ext": "vtt",
+          "protocol": "id31404034",
+          "__yt_dlp_client": "visionos"
+        }
+      ],
+      "ab": [
+        {
+          "ext": "Example ext",
+          "url": "https://www.youtube.com/example/84399",
+          "name": "Example name",
+          "impersonate": true,
+          "__yt_dlp_client": "visionos"
+        },
+        {
+          "ext": "Example ext",
+          "url": "https://www.youtube.com/example/66001",
+          "name": "Example name",
+          "impersonate": true,
+          "__yt_dlp_client": "visionos"
+        }
+      ],
+      "aa": [
+        {
+          "ext": "Example ext",
+          "url": "https://www.youtube.com/example/84399",
+          "name": "Example name",
+          "impersonate": true,
+          "__yt_dlp_client": "visionos"
+        },
+        {
+          "ext": "Example ext",
+          "url": "https://www.youtube.com/example/66001",
+          "name": "Example name",
+          "impersonate": true,
+          "__yt_dlp_client": "visionos"
+        }
+      ],
+      "af": [
+        {
+          "ext": "Example ext",
+          "url": "https://www.youtube.com/example/84399",
+          "name": "Example name",
+          "impersonate": true,
+          "__yt_dlp_client": "visionos"
+        },
+        {
+          "ext": "Example ext",
+          "url": "https://www.youtube.com/example/66001",
+          "name": "Example name",
+          "impersonate": true,
+          "__yt_dlp_client": "visionos"
+        }
+      ],
+      "ak": [
+        {
+          "ext": "Example ext",
+          "url": "https://www.youtube.com/example/84399",
+          "name": "Example name",
+          "impersonate": true,
+          "__yt_dlp_client": "visionos"
+        },
+        {
+          "ext": "Example ext",
+          "url": "https://www.youtube.com/example/66001",
+          "name": "Example name",
+          "impersonate": true,
+          "__yt_dlp_client": "visionos"
+        }
+      ],
+      "sq": [
+        {
+          "ext": "Example ext",
+          "url": "https://www.youtube.com/example/84399",
+          "name": "Example name",
+          "impersonate": true,
+          "__yt_dlp_client": "visionos"
+        },
+        {
+          "ext": "Example ext",
+          "url": "https://www.youtube.com/example/66001",
+          "name": "Example name",
+          "impersonate": true,
+          "__yt_dlp_client": "visionos"
+        }
+      ],
+      "am": [
+        {
+          "ext": "Example ext",
+          "url": "https://www.youtube.com/example/84399",
+          "name": "Example name",
+          "impersonate": true,
+          "__yt_dlp_client": "visionos"
+        },
+        {
+          "ext": "Example ext",
+          "url": "https://www.youtube.com/example/66001",
+          "name": "Example name",
+          "impersonate": true,
+          "__yt_dlp_client": "visionos"
+        }
+      ],
+      "ar": [
+        {
+          "ext": "Example ext",
+          "url": "https://www.youtube.com/example/84399",
+          "name": "Example name",
+          "impersonate": true,
+          "__yt_dlp_client": "visionos"
+        },
+        {
+          "ext": "Example ext",
+          "url": "https://www.youtube.com/example/66001",
+          "name": "Example name",
+          "impersonate": true,
+          "__yt_dlp_client": "visionos"
+        }
+      ],
+      "hy": [
+        {
+          "ext": "Example ext",
+          "url": "https://www.youtube.com/example/84399",
+          "name": "Example name",
+          "impersonate": true,
+          "__yt_dlp_client": "visionos"
+        },
+        {
+          "ext": "Example ext",
+          "url": "https://www.youtube.com/example/66001",
+          "name": "Example name",
+          "impersonate": true,
+          "__yt_dlp_client": "visionos"
+        }
+      ],
+      "as": [
+        {
+          "ext": "Example ext",
+          "url": "https://www.youtube.com/example/84399",
+          "name": "Example name",
+          "impersonate": true,
+          "__yt_dlp_client": "visionos"
+        },
+        {
+          "ext": "Example ext",
+          "url": "https://www.youtube.com/example/66001",
+          "name": "Example name",
+          "impersonate": true,
+          "__yt_dlp_client": "visionos"
+        }
+      ],
+      "ay": [
+        {
+          "ext": "Example ext",
+          "url": "https://www.youtube.com/example/84399",
+          "name": "Example name",
+          "impersonate": true,
+          "__yt_dlp_client": "visionos"
+        },
+        {
+          "ext": "Example ext",
+          "url": "https://www.youtube.com/example/66001",
+          "name": "Example name",
+          "impersonate": true,
+          "__yt_dlp_client": "visionos"
+        }
+      ],
+      "az": [
+        {
+          "ext": "Example ext",
+          "url": "https://www.youtube.com/example/84399",
+          "name": "Example name",
+          "impersonate": true,
+          "__yt_dlp_client": "visionos"
+        },
+        {
+          "ext": "Example ext",
+          "url": "https://www.youtube.com/example/66001",
+          "name": "Example name",
+          "impersonate": true,
+          "__yt_dlp_client": "visionos"
+        }
+      ],
+      "bn": [
+        {
+          "ext": "Example ext",
+          "url": "https://www.youtube.com/example/84399",
+          "name": "Example name",
+          "impersonate": true,
+          "__yt_dlp_client": "visionos"
+        },
+        {
+          "ext": "Example ext",
+          "url": "https://www.youtube.com/example/66001",
+          "name": "Example name",
+          "impersonate": true,
+          "__yt_dlp_client": "visionos"
+        }
+      ],
+      "ba": [
+        {
+          "ext": "Example ext",
+          "url": "https://www.youtube.com/example/84399",
+          "name": "Example name",
+          "impersonate": true,
+          "__yt_dlp_client": "visionos"
+        },
+        {
+          "ext": "Example ext",
+          "url": "https://www.youtube.com/example/66001",
+          "name": "Example name",
+          "impersonate": true,
+          "__yt_dlp_client": "visionos"
+        }
+      ],
+      "eu": [
+        {
+          "ext": "Example ext",
+          "url": "https://www.youtube.com/example/84399",
+          "name": "Example name",
+          "impersonate": true,
+          "__yt_dlp_client": "visionos"
+        },
+        {
+          "ext": "Example ext",
+          "url": "https://www.youtube.com/example/66001",
+          "name": "Example name",
+          "impersonate": true,
+          "__yt_dlp_client": "visionos"
+        }
+      ],
+      "be": [
+        {
+          "ext": "Example ext",
+          "url": "https://www.youtube.com/example/84399",
+          "name": "Example name",
+          "impersonate": true,
+          "__yt_dlp_client": "visionos"
+        },
+        {
+          "ext": "Example ext",
+          "url": "https://www.youtube.com/example/66001",
+          "name": "Example name",
+          "impersonate": true,
+          "__yt_dlp_client": "visionos"
+        }
+      ],
+      "bho": [
+        {
+          "ext": "Example ext",
+          "url": "https://www.youtube.com/example/84399",
+          "name": "Example name",
+          "impersonate": true,
+          "__yt_dlp_client": "visionos"
+        },
+        {
+          "ext": "Example ext",
+          "url": "https://www.youtube.com/example/66001",
+          "name": "Example name",
+          "impersonate": true,
+          "__yt_dlp_client": "visionos"
+        }
+      ],
+      "bs": [
+        {
+          "ext": "Example ext",
+          "url": "https://www.youtube.com/example/84399",
+          "name": "Example name",
+          "impersonate": true,
+          "__yt_dlp_client": "visionos"
+        },
+        {
+          "ext": "Example ext",
+          "url": "https://www.youtube.com/example/66001",
+          "name": "Example name",
+          "impersonate": true,
+          "__yt_dlp_client": "visionos"
+        }
+      ],
+      "br": [
+        {
+          "ext": "Example ext",
+          "url": "https://www.youtube.com/example/84399",
+          "name": "Example name",
+          "impersonate": true,
+          "__yt_dlp_client": "visionos"
+        },
+        {
+          "ext": "Example ext",
+          "url": "https://www.youtube.com/example/66001",
+          "name": "Example name",
+          "impersonate": true,
+          "__yt_dlp_client": "visionos"
+        }
+      ],
+      "bg": [
+        {
+          "ext": "Example ext",
+          "url": "https://www.youtube.com/example/84399",
+          "name": "Example name",
+          "impersonate": true,
+          "__yt_dlp_client": "visionos"
+        },
+        {
+          "ext": "Example ext",
+          "url": "https://www.youtube.com/example/66001",
+          "name": "Example name",
+          "impersonate": true,
+          "__yt_dlp_client": "visionos"
+        }
+      ],
+      "my": [
+        {
+          "ext": "Example ext",
+          "url": "https://www.youtube.com/example/84399",
+          "name": "Example name",
+          "impersonate": true,
+          "__yt_dlp_client": "visionos"
+        },
+        {
+          "ext": "Example ext",
+          "url": "https://www.youtube.com/example/66001",
+          "name": "Example name",
+          "impersonate": true,
+          "__yt_dlp_client": "visionos"
+        }
+      ],
+      "ca": [
+        {
+          "ext": "Example ext",
+          "url": "https://www.youtube.com/example/84399",
+          "name": "Example name",
+          "impersonate": true,
+          "__yt_dlp_client": "visionos"
+        },
+        {
+          "ext": "Example ext",
+          "url": "https://www.youtube.com/example/66001",
+          "name": "Example name",
+          "impersonate": true,
+          "__yt_dlp_client": "visionos"
+        }
+      ],
+      "ceb": [
+        {
+          "ext": "Example ext",
+          "url": "https://www.youtube.com/example/84399",
+          "name": "Example name",
+          "impersonate": true,
+          "__yt_dlp_client": "visionos"
+        },
+        {
+          "ext": "Example ext",
+          "url": "https://www.youtube.com/example/66001",
+          "name": "Example name",
+          "impersonate": true,
+          "__yt_dlp_client": "visionos"
+        }
+      ],
+      "zh-Hans": [
+        {
+          "ext": "Example ext",
+          "url": "https://www.youtube.com/example/84399",
+          "name": "Example name",
+          "impersonate": true,
+          "__yt_dlp_client": "visionos"
+        },
+        {
+          "ext": "Example ext",
+          "url": "https://www.youtube.com/example/66001",
+          "name": "Example name",
+          "impersonate": true,
+          "__yt_dlp_client": "visionos"
+        }
+      ],
+      "zh-Hant": [
+        {
+          "ext": "Example ext",
+          "url": "https://www.youtube.com/example/84399",
+          "name": "Example name",
+          "impersonate": true,
+          "__yt_dlp_client": "visionos"
+        },
+        {
+          "ext": "Example ext",
+          "url": "https://www.youtube.com/example/66001",
+          "name": "Example name",
+          "impersonate": true,
+          "__yt_dlp_client": "visionos"
+        }
+      ],
+      "co": [
+        {
+          "ext": "Example ext",
+          "url": "https://www.youtube.com/example/84399",
+          "name": "Example name",
+          "impersonate": true,
+          "__yt_dlp_client": "visionos"
+        },
+        {
+          "ext": "Example ext",
+          "url": "https://www.youtube.com/example/66001",
+          "name": "Example name",
+          "impersonate": true,
+          "__yt_dlp_client": "visionos"
+        }
+      ],
+      "hr": [
+        {
+          "ext": "Example ext",
+          "url": "https://www.youtube.com/example/84399",
+          "name": "Example name",
+          "impersonate": true,
+          "__yt_dlp_client": "visionos"
+        },
+        {
+          "ext": "Example ext",
+          "url": "https://www.youtube.com/example/66001",
+          "name": "Example name",
+          "impersonate": true,
+          "__yt_dlp_client": "visionos"
+        }
+      ],
+      "cs": [
+        {
+          "ext": "Example ext",
+          "url": "https://www.youtube.com/example/84399",
+          "name": "Example name",
+          "impersonate": true,
+          "__yt_dlp_client": "visionos"
+        },
+        {
+          "ext": "Example ext",
+          "url": "https://www.youtube.com/example/66001",
+          "name": "Example name",
+          "impersonate": true,
+          "__yt_dlp_client": "visionos"
+        }
+      ],
+      "da": [
+        {
+          "ext": "Example ext",
+          "url": "https://www.youtube.com/example/84399",
+          "name": "Example name",
+          "impersonate": true,
+          "__yt_dlp_client": "visionos"
+        },
+        {
+          "ext": "Example ext",
+          "url": "https://www.youtube.com/example/66001",
+          "name": "Example name",
+          "impersonate": true,
+          "__yt_dlp_client": "visionos"
+        }
+      ],
+      "dv": [
+        {
+          "ext": "Example ext",
+          "url": "https://www.youtube.com/example/84399",
+          "name": "Example name",
+          "impersonate": true,
+          "__yt_dlp_client": "visionos"
+        },
+        {
+          "ext": "Example ext",
+          "url": "https://www.youtube.com/example/66001",
+          "name": "Example name",
+          "impersonate": true,
+          "__yt_dlp_client": "visionos"
+        }
+      ],
+      "nl": [
+        {
+          "ext": "Example ext",
+          "url": "https://www.youtube.com/example/84399",
+          "name": "Example name",
+          "impersonate": true,
+          "__yt_dlp_client": "visionos"
+        },
+        {
+          "ext": "Example ext",
+          "url": "https://www.youtube.com/example/66001",
+          "name": "Example name",
+          "impersonate": true,
+          "__yt_dlp_client": "visionos"
+        }
+      ],
+      "dz": [
+        {
+          "ext": "Example ext",
+          "url": "https://www.youtube.com/example/84399",
+          "name": "Example name",
+          "impersonate": true,
+          "__yt_dlp_client": "visionos"
+        },
+        {
+          "ext": "Example ext",
+          "url": "https://www.youtube.com/example/66001",
+          "name": "Example name",
+          "impersonate": true,
+          "__yt_dlp_client": "visionos"
+        }
+      ],
+      "en-orig": [
+        {
+          "ext": "Example ext",
+          "url": "https://www.youtube.com/example/84399",
+          "name": "Example name",
+          "impersonate": true,
+          "__yt_dlp_client": "visionos"
+        },
+        {
+          "ext": "Example ext",
+          "url": "https://www.youtube.com/example/66001",
+          "name": "Example name",
+          "impersonate": true,
+          "__yt_dlp_client": "visionos"
+        }
+      ],
+      "eo": [
+        {
+          "ext": "Example ext",
+          "url": "https://www.youtube.com/example/84399",
+          "name": "Example name",
+          "impersonate": true,
+          "__yt_dlp_client": "visionos"
+        },
+        {
+          "ext": "Example ext",
+          "url": "https://www.youtube.com/example/66001",
+          "name": "Example name",
+          "impersonate": true,
+          "__yt_dlp_client": "visionos"
+        }
+      ],
+      "et": [
+        {
+          "ext": "Example ext",
+          "url": "https://www.youtube.com/example/84399",
+          "name": "Example name",
+          "impersonate": true,
+          "__yt_dlp_client": "visionos"
+        },
+        {
+          "ext": "Example ext",
+          "url": "https://www.youtube.com/example/66001",
+          "name": "Example name",
+          "impersonate": true,
+          "__yt_dlp_client": "visionos"
+        }
+      ],
+      "ee": [
+        {
+          "ext": "Example ext",
+          "url": "https://www.youtube.com/example/84399",
+          "name": "Example name",
+          "impersonate": true,
+          "__yt_dlp_client": "visionos"
+        },
+        {
+          "ext": "Example ext",
+          "url": "https://www.youtube.com/example/66001",
+          "name": "Example name",
+          "impersonate": true,
+          "__yt_dlp_client": "visionos"
+        }
+      ]
+    },
+    "subtitles": {
+      "en": [
+        {
+          "ext": "Example ext",
+          "url": "https://www.youtube.com/example/84399",
+          "name": "Example name",
+          "impersonate": true,
+          "__yt_dlp_client": "visionos"
+        },
+        {
+          "ext": "Example ext",
+          "url": "https://www.youtube.com/example/66001",
+          "name": "Example name",
+          "impersonate": true,
+          "__yt_dlp_client": "visionos"
+        }
+      ],
+      "de-DE": [
+        {
+          "ext": "Example ext",
+          "url": "https://www.youtube.com/example/84399",
+          "name": "Example name",
+          "impersonate": true,
+          "__yt_dlp_client": "visionos"
+        },
+        {
+          "ext": "Example ext",
+          "url": "https://www.youtube.com/example/66001",
+          "name": "Example name",
+          "impersonate": true,
+          "__yt_dlp_client": "visionos"
+        }
+      ],
+      "ja": [
+        {
+          "ext": "Example ext",
+          "url": "https://www.youtube.com/example/84399",
+          "name": "Example name",
+          "impersonate": true,
+          "__yt_dlp_client": "visionos"
+        },
+        {
+          "ext": "Example ext",
+          "url": "https://www.youtube.com/example/66001",
+          "name": "Example name",
+          "impersonate": true,
+          "__yt_dlp_client": "visionos"
+        }
+      ],
+      "pt-BR": [
+        {
+          "ext": "Example ext",
+          "url": "https://www.youtube.com/example/84399",
+          "name": "Example name",
+          "impersonate": true,
+          "__yt_dlp_client": "visionos"
+        },
+        {
+          "ext": "Example ext",
+          "url": "https://www.youtube.com/example/66001",
+          "name": "Example name",
+          "impersonate": true,
+          "__yt_dlp_client": "visionos"
+        }
+      ],
+      "es-419": [
+        {
+          "ext": "Example ext",
+          "url": "https://www.youtube.com/example/84399",
+          "name": "Example name",
+          "impersonate": true,
+          "__yt_dlp_client": "visionos"
+        },
+        {
+          "ext": "Example ext",
+          "url": "https://www.youtube.com/example/66001",
+          "name": "Example name",
+          "impersonate": true,
+          "__yt_dlp_client": "visionos"
+        }
+      ]
+    },
+    "comment_count": 3895620,
+    "chapters": null,
+    "heatmap": [
+      {
+        "start_time": 0,
+        "end_time": 1.5,
+        "value": 3
+      },
+      {
+        "start_time": 1.8,
+        "end_time": 3.21,
+        "value": 0.34
+      }
+    ],
+    "like_count": 45040268,
+    "channel": "Example channel",
+    "channel_follower_count": 4830744,
+    "creators": null,
+    "channel_is_verified": true,
+    "uploader": "Example uploader",
+    "uploader_id": "Example uploader_id",
+    "uploader_url": "https://www.youtube.com/example/12379",
+    "upload_date": "55308705",
+    "timestamp": 6167345150,
+    "availability": "public",
+    "original_url": "https://www.youtube.com/example/86943",
+    "webpage_url_basename": "Example webpage_url_basename",
+    "webpage_url_domain": "youtube.com",
+    "extractor": "youtube"
+  }
+]

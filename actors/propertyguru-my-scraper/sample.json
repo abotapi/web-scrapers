@@ -1,0 +1,112 @@
+[
+  {
+    "id": 83384098,
+    "title": "Example title",
+    "address": "Example address",
+    "listing_type": "sale",
+    "property_type": "Landed",
+    "property_type_group": "B",
+    "price": 2387374,
+    "price_formatted": "Example price_formatted",
+    "currency": "MYR",
+    "price_psf": "Example price_psf",
+    "bedrooms": 31,
+    "bathrooms": 50,
+    "floor_area": 11776,
+    "tenure": "Example tenure",
+    "developer": "Example developer",
+    "is_developer_listing": false,
+    "agent_name": "Example agent_name",
+    "agent_id": 11737528,
+    "agent_license": "72315",
+    "state": "Selangor",
+    "region": "Selangor",
+    "city": "Example city",
+    "nearby_mrt": "Example nearby_mrt",
+    "badges": [
+      "Example badges",
+      "Example badges"
+    ],
+    "posted_date": "2026-01-15T10:00:00Z",
+    "posted_unix": 2767167919,
+    "recency": "Example recency",
+    "images": [
+      "https://my1-cdn.pgimgs.com/example/90593.jpg",
+      "https://my1-cdn.pgimgs.com/example/6221.jpg"
+    ],
+    "image_count": 30,
+    "url": "https://www.propertyguru.com.my/example/33017",
+    "status": "ACT",
+    "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
+    "headline": "Example headline: mock text standing in for the real value. Same field and type, made-up content.",
+    "latitude": 2.49,
+    "longitude": 106.71,
+    "postal_code": "63369",
+    "project_name": "Example project_name",
+    "project_id": "id68584657",
+    "project_legacy_id": 70204,
+    "project_status_code": "Example project_status_code"
+  },
+  {
+    "id": 293896177,
+    "title": "Example title",
+    "address": "Example address",
+    "listing_type": "sale",
+    "property_type": "Landed",
+    "property_type_group": "T",
+    "price": 0,
+    "price_formatted": "Example price_formatted",
+    "currency": "MYR",
+    "bedrooms": 3,
+    "bathrooms": 8,
+    "tenure": "Example tenure",
+    "developer": "Example developer",
+    "is_developer_listing": true,
+    "agent_name": "Example agent_name",
+    "agent_id": 86877222,
+    "state": "Example state",
+    "region": "Example region",
+    "city": "Seremban",
+    "badges": [
+      "Freehold",
+      "Example badges"
+    ],
+    "posted_date": "Example posted_date",
+    "posted_unix": 1252560868,
+    "recency": "Example recency",
+    "images": [
+      "https://my1-cdn.pgimgs.com/example/32853.jpg",
+      "https://my1-cdn.pgimgs.com/example/54812.jpg"
+    ],
+    "image_count": 3,
+    "url": "https://www.propertyguru.com.my/example/89596",
+    "status": "ACT",
+    "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
+    "headline": "Example headline",
+    "latitude": 3.06,
+    "longitude": 98.83,
+    "nearby_schools": [
+      {
+        "id": "03829",
+        "name": "Example name"
+      },
+      {
+        "id": "82190",
+        "name": "Example name"
+      }
+    ],
+    "facilities": [
+      "Example facilities"
+    ],
+    "highlights": [
+      "Example highlights: mock text standing in for the real value. Same field and type, made-up content.",
+      "Example highlights: mock text standing in for the real value. Same field and type, made-up content."
+    ],
+    "images_full": [
+      "https://my1-cdn.pgimgs.com/example/8582.jpg",
+      "https://my1-cdn.pgimgs.com/example/54977.jpg"
+    ],
+    "location_source": "detail_page",
+    "project_name": "Example project_name"
+  }
+]

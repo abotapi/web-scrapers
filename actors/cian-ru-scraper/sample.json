@@ -1,0 +1,44 @@
+[
+  {
+    "id": 513742778,
+    "url": "https://www.cian.ru/example/93194",
+    "sourceUrl": "https://www.cian.ru/example/70281",
+    "title": "Example title",
+    "jkName": "Example jk name",
+    "price": "Example price",
+    "priceValue": 399669908,
+    "pricePerMeter": 9711086,
+    "currency": "rur",
+    "address": "Example address: mock text standing in for the real value. Same field and type, made-up content.",
+    "district": "Example district",
+    "metro": "Example metro",
+    "metroTime": 34,
+    "roomsCount": 3,
+    "totalArea": 175.94,
+    "livingArea": 0,
+    "kitchenArea": 0,
+    "floorNumber": 1,
+    "floorsCount": 4,
+    "buildYear": null,
+    "materialType": "monolith",
+    "dealType": "sale",
+    "category": "Example category",
+    "offerType": "flat",
+    "isFromDeveloper": true,
+    "isPremium": false,
+    "phoneNumbers": [
+      "+1 555 0100"
+    ],
+    "latitude": 68.57,
+    "longitude": 30.47,
+    "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
+    "formattedFullInfo": "Example formatted full info",
+    "imageUrls": [
+      "https://images.cdn-cian.ru/example/36112.jpg",
+      "https://images.cdn-cian.ru/example/32575.jpg"
+    ],
+    "creationDate": "2026-01-15T10:00:00Z",
+    "addedLabel": "Example added label",
+    "scrapedAt": "2026-01-15T10:00:00Z"
+  }
+]

@@ -1,0 +1,135 @@
+[
+  {
+    "goodsCode": "429644402",
+    "title": "Example title",
+    "linkUrl": "https://mg.gmarket.co.kr/example/50444",
+    "imageUrl": "https://gdimg.gmarket.co.kr/example/72099.jpg",
+    "additionalImages": [
+      "https://gdimg.gmarket.co.kr/example/76496.jpg",
+      "https://gdimg.gmarket.co.kr/example/99077.jpg"
+    ],
+    "sellPriceKrw": 54731,
+    "originalPriceKrw": "35,505",
+    "salePriceKrw": "85,394",
+    "currencyPrice": "Example currency price",
+    "discountRate": "9",
+    "wasPriceKrw": null,
+    "currentPriceKrw": 29650,
+    "savingsAmountKrw": null,
+    "discountRatePercent": null,
+    "isOnSpecial": false,
+    "isBigSmilePromo": false,
+    "bigSmileImageUrl": null,
+    "isSponsored": false,
+    "isFreeShipping": false,
+    "deliveryInfo": "Example delivery info",
+    "deliveryFee": "9",
+    "sellerCustNo": "828799955",
+    "miniShopHandle": "Example mini shop handle",
+    "miniShopUrl": "https://mg.gmarket.co.kr/example/92342",
+    "categoryCodeL": "256009365",
+    "categoryCodeM": "840014249",
+    "categoryCodeS": "002516987",
+    "overseaDeliveryAvailable": true,
+    "isBigSmile": false,
+    "isAdult": false,
+    "translation": {
+      "english": true,
+      "chinese": true,
+      "japanese": true
+    },
+    "raw": {
+      "IsAdult": false,
+      "GoodsCode": "686844503",
+      "OriginalPrice": "28,953",
+      "SalePrice": "40,322",
+      "AdCouponPrice": "92155",
+      "CurrencyPrice": "Example currency price",
+      "SellPrice": 26168,
+      "DiscountPrice": 0,
+      "IsFreeFee": false,
+      "GoodsName": "Example goods name",
+      "DiscountRate": "8",
+      "Delivery": {
+        "DeliveryInfo": "Example delivery info",
+        "DeliveryCode": "Example delivery code",
+        "DeliveryFee": "4",
+        "DeliveryText": "",
+        "DeliveryType": null,
+        "ShowDeliveryInfo": false
+      },
+      "ImageURL": "https://gdimg.gmarket.co.kr/example/71406.jpg",
+      "LargeImageList": [
+        "https://gdimg.gmarket.co.kr/example/29897.jpg",
+        "https://gdimg.gmarket.co.kr/example/52422.jpg"
+      ],
+      "LinkURL": "http://mg.gmarket.co.kr/example/99214",
+      "MoreImageCnt": 5,
+      "MoreImageList": [
+        {
+          "BigImageUrl": "https://gdimg.gmarket.co.kr/example/15055.jpg",
+          "ImageUrl": "https://gdimg.gmarket.co.kr/example/45636.jpg"
+        },
+        {
+          "BigImageUrl": "https://gdimg.gmarket.co.kr/example/6011.jpg",
+          "ImageUrl": "https://gdimg.gmarket.co.kr/example/86222.jpg"
+        }
+      ],
+      "IsPlusAD": false,
+      "Seller": {
+        "SellCustNo": "023248773"
+      },
+      "IsFavoriteSeller": false,
+      "IsPurchasedSeller": false,
+      "SubdivYN": false,
+      "MiniShop": {
+        "Url": "letogms"
+      },
+      "LCode": "365652090",
+      "MCode": "164495603",
+      "SCode": "129224817",
+      "IsFocus": false,
+      "AnotherTypeStart": false,
+      "AnotherTypeEnd": false,
+      "ListingItemGroup": 0,
+      "OverseaTransYN": true,
+      "Global": {
+        "EngDetailDescYN": false,
+        "ZhDetailDescYN": false,
+        "JaDetailDescYN": false,
+        "EngOrderOptYN": true,
+        "ZhOrderOptYN": true,
+        "JaorderOptYN": true,
+        "EngGlobalExposeYN": true,
+        "ZhGlobalExposeYN": true,
+        "JaGlobalExposeYN": false
+      },
+      "IsBigSmileItem": false,
+      "BigSmileImageUrl": ""
+    },
+    "scrapedAt": "2026-01-15T10:00:00Z",
+    "descriptionText": null,
+    "brand": "Example brand",
+    "sellerInfo": {
+      "CompanyName": "Example company name",
+      "ManagerName": "Example manager name",
+      "HelpDeskStartDate": "60",
+      "HelpDeskEndDate": "63",
+      "HelpDeskTelNo": "+1 555 0100",
+      "CompanyNo": "404-23-93098",
+      "EcomerceNo": "Example ecomerce no",
+      "CSGrade": null,
+      "SellerGrade": "Example seller grade",
+      "NickName": "Example nick name",
+      "EncodedCustNo": "Example encoded cust no",
+      "QnaItemCount": 0,
+      "DealerSatisGrade": "AA",
+      "CustType": "EC",
+      "IsShopVip": false
+    },
+    "sellerCompanyName": "Example seller company name",
+    "sellerManagerName": "Example seller manager name",
+    "sellerPhone": "+1 555 0100",
+    "sellerBusinessNumber": "137-88-20340"
+  }
+]

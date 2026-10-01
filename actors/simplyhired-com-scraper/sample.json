@@ -1,0 +1,60 @@
+[
+  {
+    "id": "dzl2amcvurqk0achzvkkom_jz-fubxu2qkxjf0cgxhucphgbof8vbg",
+    "url": "https://www.simplyhired.com/example/1985",
+    "title": "Example title",
+    "displayTitle": "Example display title",
+    "normalizedTitle": "engineer",
+    "company": "Example company",
+    "companyRating": 2.97,
+    "companyPageUrl": null,
+    "employerLogoUrl": null,
+    "employerHomepage": null,
+    "location": "Example location",
+    "formattedLocation": "Remote",
+    "city": "Remote",
+    "state": null,
+    "latitude": 95,
+    "longitude": -74,
+    "country": "us",
+    "jobTypes": [
+      "Full-time"
+    ],
+    "workSettings": [],
+    "remoteAttributes": [
+      "Example remote attributes"
+    ],
+    "salary": "Example salary",
+    "salaryMin": 71682,
+    "salaryMax": 345333,
+    "salaryCurrency": "USD",
+    "salaryPeriod": "year",
+    "compensation": null,
+    "snippet": "Example snippet: mock text standing in for the real value. Same field and type, made-up content.",
+    "descriptionHtml": "Example description html: mock text standing in for the real value. Same field and type, made-up content.",
+    "descriptionText": "Example description text: mock text standing in for the real value. Same field and type, made-up content.",
+    "requirements": [
+      "Example requirements",
+      "Example requirements"
+    ],
+    "qualifications": [
+      "Example qualifications",
+      "Example qualifications"
+    ],
+    "benefits": [
+      "Example benefits",
+      "Example benefits"
+    ],
+    "skillsAll": [
+      "Example skills all",
+      "Example skills all"
+    ],
+    "datePosted": "2026-01-15T10:00:00Z",
+    "datePostedEpochMs": 1969106758960,
+    "dateOnIndeed": 1298711750719,
+    "applyUrl": "https://www.simplyhired.com/example/53111",
+    "mobileApplyUrl": "https://www.simplyhired.com/example/25721",
+    "indeedApply": true,
+    "sponsored": true
+  }
+]

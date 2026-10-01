@@ -1,0 +1,96 @@
+[
+  {
+    "listingId": "94134390",
+    "title": "Example title",
+    "subtitle": "Example subtitle",
+    "address": "Example address",
+    "propertyType": "resale",
+    "price_display": "Example price_display",
+    "price_values": [
+      9752214
+    ],
+    "currency": "INR",
+    "area_value": 2946,
+    "area_unit": "sq.ft",
+    "latitude": 19.18,
+    "longitude": 76.46,
+    "features": [
+      "Example features",
+      "Example features"
+    ],
+    "bhk_configs": [
+      {
+        "price_display": "Example price_display",
+        "label": "Example label"
+      }
+    ],
+    "amenities": [
+      "Example amenities"
+    ],
+    "sellers": [
+      "Example sellers"
+    ],
+    "seller_firms": [
+      "Example seller_firms"
+    ],
+    "highlights": [
+      "Example highlights",
+      "Example highlights"
+    ],
+    "emi": "Example emi",
+    "images": [
+      "https://is1-3.housingcdn.com/example/41460.jpg",
+      "https://is1-2.housingcdn.com/example/39750.jpg"
+    ],
+    "image_count": 23,
+    "url": "https://housing.com/example/95874",
+    "scraped_at": "2026-01-15T10:00:00Z"
+  },
+  {
+    "listingId": "05608436",
+    "title": "Example title",
+    "subtitle": "Example subtitle",
+    "address": "Example address",
+    "propertyType": "resale",
+    "price_display": "Example price_display",
+    "price_values": [
+      7790082
+    ],
+    "currency": "INR",
+    "area_value": 621,
+    "area_unit": "sq.ft",
+    "latitude": 16.51,
+    "longitude": 82.31,
+    "features": [
+      "Example features",
+      "Example features"
+    ],
+    "bhk_configs": [
+      {
+        "price_display": "Example price_display",
+        "label": "Example label"
+      }
+    ],
+    "amenities": [
+      "Example amenities"
+    ],
+    "sellers": [
+      "Example sellers"
+    ],
+    "seller_firms": [
+      "Example seller_firms"
+    ],
+    "highlights": [
+      "Example highlights",
+      "Example highlights"
+    ],
+    "emi": "Example emi",
+    "images": [
+      "https://is1-3.housingcdn.com/example/94128.jpg",
+      "https://is1-3.housingcdn.com/example/26228.jpg"
+    ],
+    "image_count": 6,
+    "url": "https://housing.com/example/20661",
+    "scraped_at": "2026-01-15T10:00:00Z"
+  }
+]

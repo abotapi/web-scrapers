@@ -1,0 +1,120 @@
+[
+  {
+    "productId": "0566433",
+    "supermodelId": "379219",
+    "sku": "id96287451",
+    "name": "Example name",
+    "brand": "ASICS",
+    "url": "https://www.decathlon.es/example/26444",
+    "image": "https://contents.mediadecathlon.com/example/58193.jpg",
+    "images": [
+      "https://contents.mediadecathlon.com/example/47894.jpg"
+    ],
+    "price": 62.99,
+    "currency": "EUR",
+    "originalPrice": 72.74,
+    "discountPercent": 10,
+    "isOnSpecial": true,
+    "saleEndsAt": "2026-01-15T10:00:00Z",
+    "availableSizes": [
+      "08",
+      "11,9"
+    ],
+    "onlineAvailable": true,
+    "seller": {
+      "name": "Example name",
+      "type": "FIRST_PARTY"
+    },
+    "sports": [
+      "Example sports"
+    ],
+    "nature": "Example nature",
+    "rating": 4.29,
+    "reviewCount": 1114,
+    "reviews": {
+      "averageRating": 5.81,
+      "totalReviewCount": 4359,
+      "recommendedCount": 9818,
+      "items": [
+        {
+          "rating": 3,
+          "title": "Example title",
+          "body": "Example body: mock text standing in for the real value. Same field and type, made-up content.",
+          "author": "Example author",
+          "date": "2026-01-15T10:00:00Z",
+          "recommended": false,
+          "verifiedBuyer": false
+        },
+        {
+          "rating": 1,
+          "title": "Example title",
+          "body": "Example body",
+          "author": "Example author",
+          "date": "2026-01-15T10:00:00Z",
+          "recommended": true,
+          "verifiedBuyer": true
+        }
+      ]
+    },
+    "scrapedAt": "2026-01-15T10:00:00Z"
+  },
+  {
+    "productId": "3773708",
+    "supermodelId": "052013",
+    "sku": "id66011571",
+    "name": "Example name: mock text standing in for the real value. Same field and type, made-up content.",
+    "brand": "ASICS",
+    "url": "https://www.decathlon.es/example/31452",
+    "image": "https://contents.mediadecathlon.com/example/66953.jpg",
+    "images": [
+      "https://contents.mediadecathlon.com/example/2601.jpg"
+    ],
+    "price": 75.59,
+    "currency": "EUR",
+    "originalPrice": 87.99,
+    "discountPercent": 80,
+    "isOnSpecial": true,
+    "saleEndsAt": "2026-01-15T10:00:00Z",
+    "availableSizes": [
+      "43",
+      "59,1"
+    ],
+    "onlineAvailable": true,
+    "seller": {
+      "name": "Example name",
+      "type": "FIRST_PARTY"
+    },
+    "sports": [
+      "Trail"
+    ],
+    "nature": "Example nature",
+    "rating": 4.29,
+    "reviewCount": 801,
+    "reviews": {
+      "averageRating": 4.7,
+      "totalReviewCount": 500,
+      "recommendedCount": 446,
+      "items": [
+        {
+          "rating": 3,
+          "title": "Example title",
+          "body": "Example body",
+          "author": "Example author",
+          "date": "2026-01-15T10:00:00Z",
+          "recommended": true,
+          "verifiedBuyer": true
+        },
+        {
+          "rating": 9,
+          "title": "Example title",
+          "body": "Example body: mock text standing in for the real value. Same field and type, made-up content.",
+          "author": "Example author",
+          "date": "2026-01-15T10:00:00Z",
+          "recommended": false,
+          "verifiedBuyer": true
+        }
+      ]
+    },
+    "scrapedAt": "2026-01-15T10:00:00Z"
+  }
+]

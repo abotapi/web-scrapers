@@ -1,0 +1,57 @@
+[
+  {
+    "id": "id54517178",
+    "productId": "id28139814",
+    "offerId": 5829947063,
+    "name": "Example name: mock text standing in for the real value. Same field and type, made-up content.",
+    "brand": null,
+    "url": "https://www.cdiscount.com/example/47306",
+    "categoryPath": "17/7977/088908/96932831",
+    "condition": "NEW",
+    "price": 69.69,
+    "currency": "EUR",
+    "priceWithoutVAT": 76.5,
+    "originalPrice": 130.89,
+    "discountPercent": 50,
+    "discountAmount": 13,
+    "promoLabel": null,
+    "isAvailable": true,
+    "sponsored": false,
+    "freeShipping": "Example free shipping",
+    "media": [
+      "https://www.cdiscount.com/example/2550",
+      "https://www.cdiscount.com/example/95266"
+    ],
+    "previewImage": "https://www.cdiscount.com/example/75993.jpg",
+    "rating": null,
+    "reviewCount": null,
+    "characteristics": {
+      "Résolution du capteur": "Example résolution du capteur",
+      "Capacité de la batterie": "1746mah",
+      "Capacité de la mémoire interne": "Example capacité de la mémoire interne",
+      "Qté de coeur de processeur": "0"
+    },
+    "sellerId": 218661,
+    "sellerName": "Example seller name",
+    "sellerRating": 3.99,
+    "sellerRatingsCount": 59,
+    "sellerSalesCount": 1069,
+    "sellerCountry": "Example seller country",
+    "sellerRaw": {
+      "expeditionCountry": "ESTONIE",
+      "name": "Example name",
+      "salesCount": 1193,
+      "sellerId": 218661,
+      "sellerPoolId": 5,
+      "sellerRating": {
+        "sellerId": 0,
+        "sellerRating": 3.99,
+        "totalReviewCount": 15
+      },
+      "sellerSource": "Example seller source"
+    },
+    "hasDetail": false,
+    "sourceMode": "search",
+    "searchWord": "telephone"
+  }
+]

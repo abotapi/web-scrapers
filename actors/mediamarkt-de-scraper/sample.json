@@ -1,0 +1,134 @@
+[
+  {
+    "productId": "2641044",
+    "sku": "3897698",
+    "ean": "7165883298879",
+    "name": "Example name: mock text standing in for the real value. Same field and type, made-up content.",
+    "brand": "SAMSUNG",
+    "categoryPath": [
+      "Example category path",
+      "Example category path"
+    ],
+    "category": "Example category",
+    "url": "https://www.mediamarkt.de/example/33732",
+    "rating": 5.07,
+    "reviewCount": 38,
+    "isMarketplace": false,
+    "price": 637,
+    "currency": "EUR",
+    "discountAmount": 325,
+    "discountPercent": 72,
+    "originalPrice": 6865,
+    "isOnSpecial": true,
+    "strikePriceType": "RRP",
+    "shippingCost": 0,
+    "installment": {
+      "__typename": "Example __typename",
+      "duration": 62,
+      "finalRate": null,
+      "interestEffective": 9.27,
+      "interestNominal": 13.2,
+      "interestTotal": 101.32,
+      "monthlyRate": 28.9,
+      "totalAmount": 874.86
+    },
+    "image": "https://assets.mmsrg.com/example/96984.jpg",
+    "images": [
+      "https://assets.mmsrg.com/example/62822.jpg"
+    ],
+    "onlineAvailable": true,
+    "availabilityStatus": "AVAILABLE",
+    "reviews": {
+      "averageRating": 3.87,
+      "totalReviewCount": 63,
+      "items": [
+        {
+          "id": "3579356868",
+          "rating": 3,
+          "title": "Example title",
+          "text": "Example text: mock text standing in for the real value. Same field and type, made-up content.",
+          "date": "2026-01-15T10:00:00Z",
+          "isVerifiedPurchaser": false,
+          "reviewerName": "Example reviewer name",
+          "syndicationSource": "Example syndication source"
+        },
+        {
+          "id": "6256768565",
+          "rating": 1,
+          "title": "Example title",
+          "text": "Example text: mock text standing in for the real value. Same field and type, made-up content.",
+          "date": "2026-01-15T10:00:00Z",
+          "isVerifiedPurchaser": false,
+          "reviewerName": "id46869493",
+          "syndicationSource": null
+        }
+      ]
+    }
+  },
+  {
+    "productId": "8403528",
+    "sku": "9998382",
+    "ean": "3228474912263",
+    "name": "Example name: mock text standing in for the real value. Same field and type, made-up content.",
+    "brand": "LENOVO",
+    "categoryPath": [
+      "Example category path",
+      "Example category path"
+    ],
+    "category": "Example category",
+    "url": "https://www.mediamarkt.de/example/45082",
+    "rating": 3.99,
+    "reviewCount": 75,
+    "isMarketplace": false,
+    "price": 831,
+    "currency": "EUR",
+    "discountAmount": 516,
+    "discountPercent": 96,
+    "originalPrice": 474,
+    "isOnSpecial": true,
+    "strikePriceType": "RRP",
+    "shippingCost": 0,
+    "installment": {
+      "__typename": "Example __typename",
+      "duration": 33,
+      "finalRate": null,
+      "interestEffective": 12.86,
+      "interestNominal": 8.94,
+      "interestTotal": 35.2,
+      "monthlyRate": 35.46,
+      "totalAmount": 448.95
+    },
+    "image": "https://assets.mmsrg.com/example/63218.jpg",
+    "images": [
+      "https://assets.mmsrg.com/example/75029.jpg"
+    ],
+    "onlineAvailable": true,
+    "availabilityStatus": "AVAILABLE",
+    "reviews": {
+      "averageRating": 3.76,
+      "totalReviewCount": 19,
+      "items": [
+        {
+          "id": "4713763060",
+          "rating": 7,
+          "title": "Example title",
+          "text": "Example text: mock text standing in for the real value. Same field and type, made-up content.",
+          "date": "2026-01-15T10:00:00Z",
+          "isVerifiedPurchaser": true,
+          "reviewerName": "Example reviewer name",
+          "syndicationSource": null
+        },
+        {
+          "id": "5180054574",
+          "rating": 2,
+          "title": "Example title",
+          "text": "Example text: mock text standing in for the real value. Same field and type, made-up content.",
+          "date": "2026-01-15T10:00:00Z",
+          "isVerifiedPurchaser": true,
+          "reviewerName": "Example reviewer name",
+          "syndicationSource": null
+        }
+      ]
+    }
+  }
+]

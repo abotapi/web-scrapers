@@ -1,0 +1,39 @@
+[
+  {
+    "recordId": "Example record id",
+    "kind": "artist",
+    "id": "715",
+    "url": "https://play.anghami.com/example/55802",
+    "coverArt": "https://artwork.anghcdn.co/example/92627",
+    "name": "Example name",
+    "verified": true,
+    "isPodcaster": false,
+    "artist_plays": 892005235,
+    "artist_followers": 18008195,
+    "scrapedAt": "2026-01-15T10:00:00Z"
+  },
+  {
+    "recordId": "Example record id",
+    "kind": "song",
+    "id": "1604285629",
+    "url": "https://play.anghami.com/example/10358",
+    "coverArt": "https://artwork.anghcdn.co/example/66196",
+    "title": "Example title",
+    "artist": "Example artist",
+    "artistId": "49728177",
+    "album": "Example album",
+    "albumId": "8690331354",
+    "genre": "Example genre",
+    "isPodcast": false,
+    "isAudiobook": false,
+    "lyrics": true,
+    "keywords": [
+      "Example keywords",
+      "Example keywords"
+    ],
+    "durationSec": 747,
+    "explicit": false,
+    "year": 4088,
+    "scrapedAt": "2026-01-15T10:00:00Z"
+  }
+]

@@ -1,0 +1,80 @@
+[
+  {
+    "listingId": "202847734",
+    "name": "Example name",
+    "address": "Example address",
+    "phone": "+1 555 0100",
+    "email": "Example email",
+    "website": "https://hittheswitch.com.au/example/22665",
+    "scrapedFromPage": 9,
+    "primaryCategoryName": "Example primary category name",
+    "categoryText": "Example category text",
+    "detailsPageUrl": "https://www.yellowpages.com.au/example/89027",
+    "logoUrl": "https://i3.ypcdn.com/example/3893.jpg",
+    "openingHoursToday": "Example opening hours today: mock text standing in for the real value. Same field and type, made-up content.",
+    "openingHoursDetails": {
+      "Mon - Fri": "Example mon -  fri",
+      "Sat - Sun": "Example sat -  sun"
+    },
+    "openingHoursStructured": [],
+    "rating": "5.3",
+    "reviewCount": 20,
+    "longDescription": "Example long description: mock text standing in for the real value. Same field and type, made-up content.",
+    "slogan": "Example slogan: mock text standing in for the real value. Same field and type, made-up content.",
+    "isAd": true,
+    "hasPhotos": true,
+    "features": "Example features",
+    "yearsInBusiness": "Example years in business",
+    "yearsWithYellowPages": "Example years with yellow pages",
+    "servingArea": "",
+    "listingType": "sub",
+    "claimedStatus": "unclaimed",
+    "addressDetails": {},
+    "latitude": -35.18,
+    "longitude": 139.17
+  },
+  {
+    "listingId": "492130227",
+    "name": "Example name",
+    "address": "Example address",
+    "phone": "+1 555 0100",
+    "email": "Example email",
+    "website": "Example website",
+    "scrapedFromPage": 4,
+    "primaryCategoryName": "Example primary category name",
+    "categoryText": "Example category text",
+    "detailsPageUrl": "https://www.yellowpages.com.au/example/26022",
+    "logoUrl": "https://i3.ypcdn.com/example/95415.jpg",
+    "openingHoursToday": "Example opening hours today: mock text standing in for the real value. Same field and type, made-up content.",
+    "openingHoursDetails": {
+      "Mon - Fri": "Example mon -  fri",
+      "Sat": "Example sat",
+      "Sun": "Example sun"
+    },
+    "openingHoursStructured": [
+      "Example opening hours structured",
+      "Example opening hours structured"
+    ],
+    "rating": "Example rating",
+    "reviewCount": 0,
+    "longDescription": "Example long description: mock text standing in for the real value. Same field and type, made-up content.",
+    "slogan": "Example slogan",
+    "isAd": false,
+    "hasPhotos": false,
+    "features": "phone",
+    "yearsInBusiness": "Example years in business",
+    "yearsWithYellowPages": "Example years with yellow pages",
+    "servingArea": "",
+    "listingType": "free",
+    "claimedStatus": "unclaimed",
+    "addressDetails": {
+      "streetAddress": "Example street address",
+      "locality": "Example locality",
+      "region": "VIC",
+      "postalCode": "0454",
+      "country": "AU"
+    },
+    "latitude": -46.9,
+    "longitude": 156.57
+  }
+]

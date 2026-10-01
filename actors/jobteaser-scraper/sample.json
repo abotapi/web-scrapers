@@ -1,0 +1,223 @@
+[
+  {
+    "id": "id60539830",
+    "title": "Example title: mock text standing in for the real value. Same field and type, made-up content.",
+    "url": "https://www.jobteaser.com/example/83164",
+    "company": {
+      "id": "id60539830",
+      "name": "Example name",
+      "legal_name": "Example legal_name",
+      "legal_id": "550385614",
+      "profile_url": "https://www.jobteaser.com/example/6908",
+      "logo_url": "https://d1guu6n8gz71j.cloudfront.net/example/75717.jpg",
+      "cover_image_url": null,
+      "short_description": "Example short_description"
+    },
+    "company_profile": {
+      "summary": "Example summary",
+      "type_label": "Example type_label",
+      "size_label": "Example size_label",
+      "industry_label": "Example industry_label"
+    },
+    "company_taxonomy": {
+      "business_type_code": "large",
+      "business_type_label": "Example business_type_label",
+      "main_sector_code": "agribusiness",
+      "sector_codes": [
+        "retail",
+        "consumer_goods"
+      ],
+      "industry_ids": [
+        "id72177607",
+        "id5515384"
+      ],
+      "space_visibility": "Example space_visibility"
+    },
+    "primary_location": {
+      "address": "Example address",
+      "city": "Example city",
+      "region": "Example region",
+      "sub_region": "Hauts-de-Seine",
+      "country": "France",
+      "place_id": "chiju7hgiix75kcr1biiksf8lqe",
+      "latitude": 43.45,
+      "longitude": 2.89,
+      "label": "Example label"
+    },
+    "locations": [
+      {
+        "address": "Example address",
+        "city": "Example city",
+        "region": "Example region",
+        "sub_region": "Hauts-de-Seine",
+        "country": "France",
+        "place_id": "chiju7hgiix75kcr1biiksf8lqe",
+        "latitude": 43.45,
+        "longitude": 2.89
+      }
+    ],
+    "google_locations": [
+      {
+        "address": "Example address",
+        "city": "Example city",
+        "region": "Example region",
+        "sub_region": "Hauts-de-Seine",
+        "country": "France",
+        "place_id": "chiju7hgiix75kcr1biiksf8lqe",
+        "latitude": 43.45,
+        "longitude": 2.89
+      }
+    ],
+    "location_count": 5,
+    "has_multiple_locations": false,
+    "contract": {
+      "label": "Example label",
+      "code": "internship",
+      "duration_min_months": 7,
+      "duration_max_months": 4
+    },
+    "classification": {
+      "category_name": "Example category_name",
+      "category_id": "id53542241",
+      "department": "Example department",
+      "language_code": "fr",
+      "work_experience_code": "young_graduate",
+      "employment_types": [
+        "INTERN"
+      ]
+    },
+    "requirements": {
+      "study_level": "Example study_level",
+      "study_level_code": "Example study_level_code",
+      "study_level_codes": [
+        "Example study_level_codes"
+      ],
+      "education_requirement": "Example education_requirement",
+      "applicant_location_requirements": "Example applicant_location_requirements"
+    },
+    "work_arrangement": {
+      "job_location_type": "TELECOMMUTE",
+      "remote_policy": "Example remote_policy",
+      "remote_policy_code": null,
+      "remote_policy_type": "not_specified"
+    },
+    "compensation": {
+      "display_text": "Example display_text",
+      "salary_text": "78",
+      "salary_currency": "Example salary_currency",
+      "min": null,
+      "max": null,
+      "currency": null,
+      "frequency": null,
+      "status": "unspecified"
+    },
+    "application": {
+      "direct_apply": false,
+      "type": "Example type",
+      "channel_code": "Example channel_code",
+      "message_type": "Example message_type",
+      "internal_type": "Example internal_type",
+      "external_url": "https://www.ccep.jobs/example/88869",
+      "external_id": "627074",
+      "easy_apply": null
+    },
+    "application_flags": {
+      "is_internal": false,
+      "internal_apply_authorized": null,
+      "flow_enabled": null,
+      "ai_validation_allowed": null,
+      "screening_questions_enabled": null,
+      "cv_only_enabled": null
+    },
+    "dates": {
+      "published_at": "2026-01-15T10:00:00Z",
+      "activated_at": "2026-01-15T10:00:00Z",
+      "first_activated_at": "2026-01-15T10:00:00Z",
+      "expected_archive_at": "2026-01-15T10:00:00Z",
+      "application_deadline": "Example application_deadline",
+      "valid_through": "2026-01-15T10:00:00Z",
+      "start_date": "Example start_date",
+      "start_period": "7",
+      "immediate_start": true
+    },
+    "status": {
+      "is_active": true,
+      "career_center_status": "Example career_center_status",
+      "genai_status": "Example genai_status",
+      "premium": true,
+      "private_offer": false,
+      "exclusive": false
+    },
+    "search_metadata": {
+      "career_center_name": "Example career_center_name",
+      "search_index": "Example search_index",
+      "result_position": 0,
+      "publication_type": "sponsored_credit",
+      "publication_score": 892
+    },
+    "listing_flags": {
+      "created_by_student_or_alumni": false,
+      "is_seen": false,
+      "is_liked": false,
+      "can_be_liked": false,
+      "posted_by_partner_company": false,
+      "is_career_center": false,
+      "contract_description": "Example contract_description"
+    },
+    "content": {
+      "description_text": "Example description_text: mock text standing in for the real value. Same field and type, made-up content.",
+      "description_html": "Example description_html: mock text standing in for the real value. Same field and type, made-up content.",
+      "description_rich_text": [
+        {
+          "content": "Example content: mock text standing in for the real value. Same field and type, made-up content.",
+          "type": "text"
+        },
+        {
+          "tagName": "Example tag name",
+          "type": "tag"
+        }
+      ],
+      "employer_overview": "Example employer_overview"
+    },
+    "media": [
+      {
+        "type": "video",
+        "url": "https://img.youtube.com/example/83164.jpg",
+        "name": "Example name",
+        "description": null,
+        "thumbnail_url": "https://img.youtube.com/example/73425.jpg"
+      },
+      {
+        "type": "image",
+        "url": "https://d1guu6n8gz71j.cloudfront.net/example/8781",
+        "name": "Example name",
+        "description": null,
+        "thumbnail_url": null
+      }
+    ],
+    "platform_metadata": {
+      "creation_source": "webspidermount",
+      "school_id": "20571031-8261-2223-1868-921545213883",
+      "sequence_number": 97,
+      "paid_with": "credits",
+      "partner_school_ids": [
+        "id54923398",
+        "id57669097"
+      ],
+      "legacy_partner_school_ids": [
+        "id576551",
+        "id39013140"
+      ]
+    },
+    "source_context": {
+      "domain": "jobteaser.com",
+      "seed_type": "search",
+      "seed_value": "Example seed_value",
+      "search_url": "https://www.jobteaser.com/example/68890",
+      "page_index": 5,
+      "result_position": 0,
+      "total_results": 1799,
+      "scraped_at": "2026-01-15T10:00:00Z"
+    }
+  }
+]

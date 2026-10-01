@@ -1,0 +1,132 @@
+[
+  {
+    "adId": "8308220520",
+    "url": "https://www.kleinanzeigen.de/example/78779",
+    "title": "Example title",
+    "descriptionShort": "Example description short: mock text standing in for the real value. Same field and type, made-up content.",
+    "descriptionFull": "Example description full: mock text standing in for the real value. Same field and type, made-up content.",
+    "price": "Example price",
+    "priceAmount": 1770,
+    "priceType": "NEGOTIABLE",
+    "currency": "EUR",
+    "locationText": "Example location text",
+    "postalCode": "63535",
+    "regionName": "Example region name",
+    "cityName": "Example city name",
+    "latitude": null,
+    "longitude": null,
+    "categoryId": "840",
+    "categoryName": "Example category name",
+    "categoryPath": "Example category path",
+    "postedDate": "2026-01-15",
+    "postedDateText": null,
+    "viewCount": null,
+    "imageCount": 9,
+    "thumbnailUrl": "https://img.kleinanzeigen.de/example/83710.jpg",
+    "imageUrls": [
+      "https://img.kleinanzeigen.de/example/15612.jpg",
+      "https://img.kleinanzeigen.de/example/38363.jpg"
+    ],
+    "attributes": {
+      "Art": "Example art",
+      "Typ": "Example typ",
+      "Zustand": "Example zustand"
+    },
+    "attributesRaw": [
+      {
+        "name": "Example name",
+        "value": "Example value"
+      },
+      {
+        "name": "Example name",
+        "value": "Example value"
+      }
+    ],
+    "isPro": false,
+    "isShop": false,
+    "isTopAd": false,
+    "isSold": false,
+    "adType": "OFFERED",
+    "tags": [],
+    "sellerId": "287787748",
+    "sellerName": "Example seller name",
+    "sellerType": "Example seller type",
+    "sellerUrl": "https://www.kleinanzeigen.de/example/61532",
+    "sellerActiveSince": "2026-01-15",
+    "sellerOtherAdsCount": null,
+    "imprint": null,
+    "searchUrl": "https://www.kleinanzeigen.de/example/19298"
+  },
+  {
+    "adId": "6517375429",
+    "url": "https://www.kleinanzeigen.de/example/77586",
+    "title": "Example title: mock text standing in for the real value. Same field and type, made-up content.",
+    "descriptionShort": "Example description short: mock text standing in for the real value. Same field and type, made-up content.",
+    "descriptionFull": "Example description full: mock text standing in for the real value. Same field and type, made-up content.",
+    "price": "Example price",
+    "priceAmount": 2028,
+    "priceType": "FIXED",
+    "currency": "EUR",
+    "locationText": "Example location text",
+    "postalCode": "06515",
+    "regionName": "Example region name",
+    "cityName": "Example city name",
+    "latitude": null,
+    "longitude": null,
+    "categoryId": "031",
+    "categoryName": "Example category name",
+    "categoryPath": "Example category path",
+    "postedDate": "2026-01-15",
+    "postedDateText": null,
+    "viewCount": null,
+    "imageCount": 97,
+    "thumbnailUrl": "https://img.kleinanzeigen.de/example/24494.jpg",
+    "imageUrls": [
+      "https://img.kleinanzeigen.de/example/59343.jpg",
+      "https://img.kleinanzeigen.de/example/61630.jpg"
+    ],
+    "attributes": {
+      "Art": "Example art",
+      "Typ": "Example typ",
+      "Zustand": "Example zustand"
+    },
+    "attributesRaw": [
+      {
+        "name": "Example name",
+        "value": "Example value"
+      },
+      {
+        "name": "Example name",
+        "value": "Example value"
+      }
+    ],
+    "isPro": true,
+    "isShop": true,
+    "isTopAd": false,
+    "isSold": false,
+    "adType": "OFFERED",
+    "tags": [
+      "PRO"
+    ],
+    "sellerId": null,
+    "sellerName": "Example seller name",
+    "sellerType": "Example seller type",
+    "sellerUrl": null,
+    "sellerActiveSince": "2026-01-15",
+    "sellerOtherAdsCount": null,
+    "imprint": {
+      "raw": "user32@example.com",
+      "lines": [
+        "Example lines",
+        "Example lines"
+      ],
+      "email": "user2@example.com",
+      "phone": null,
+      "vatId": null,
+      "registerNumber": null,
+      "registerCourt": "Example register court",
+      "managingDirector": null
+    },
+    "searchUrl": "https://www.kleinanzeigen.de/example/7858"
+  }
+]

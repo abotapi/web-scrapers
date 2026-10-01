@@ -1,0 +1,38 @@
+[
+  {
+    "id": "482279486",
+    "url": "https://suchen.mobile.de/example/55878",
+    "title": "Example title",
+    "shortTitle": "Example short title",
+    "make": "Volkswagen",
+    "model": "Golf",
+    "category": null,
+    "price": 65435,
+    "priceFormatted": "Example price formatted",
+    "currency": "EUR",
+    "firstRegistration": "86/6486",
+    "mileageKm": 553396,
+    "powerKw": 826,
+    "powerHp": 110,
+    "fuel": "PETROL",
+    "transmission": null,
+    "city": null,
+    "zip": null,
+    "country": null,
+    "numImages": 1,
+    "previewImage": "https://img.classistatic.de/example/16916.jpg",
+    "images": [
+      "https://img.classistatic.de/example/74094.jpg"
+    ],
+    "sponsored": false,
+    "sellerName": null,
+    "sellerCity": null,
+    "sellerCountry": null,
+    "rating": 4.62,
+    "reviewCount": 902,
+    "description": null,
+    "features": [],
+    "attributes": {},
+    "relativeUrl": "Example relative url: mock text standing in for the real value. Same field and type, made-up content."
+  }
+]

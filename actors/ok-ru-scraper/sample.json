@@ -1,0 +1,26 @@
+[
+  {
+    "kind": "profile",
+    "id": "152560253334",
+    "name": "Example name",
+    "firstName": null,
+    "lastName": null,
+    "url": "https://ok.ru/example/92966",
+    "gender": "male",
+    "birthday": "2026-01-15",
+    "location": "Example location",
+    "avatar": "https://i.okcdn.ru/example/47394.jpg"
+  },
+  {
+    "kind": "profile",
+    "id": "960777344838",
+    "name": "Example name",
+    "firstName": null,
+    "lastName": null,
+    "url": "https://ok.ru/example/91678",
+    "gender": "male",
+    "birthday": "2026-01-15",
+    "location": "Example location",
+    "avatar": "https://i.okcdn.ru/example/36858.jpg"
+  }
+]

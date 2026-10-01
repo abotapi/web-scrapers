@@ -1,0 +1,22 @@
+[
+  {
+    "recordId": "8346143076",
+    "url": "https://www.hotstar.com/example/61346",
+    "kind": "episode",
+    "title": "Example title",
+    "showTitle": "Example show title",
+    "showId": "0836",
+    "contentId": "2426351056",
+    "scrapedAt": "2026-01-15T10:00:00Z"
+  },
+  {
+    "recordId": "1567668330",
+    "url": "https://www.hotstar.com/example/42823",
+    "kind": "episode",
+    "title": "Example title",
+    "showTitle": "Example show title",
+    "showId": "8959059326",
+    "contentId": "0606752633",
+    "scrapedAt": "2026-01-15T10:00:00Z"
+  }
+]

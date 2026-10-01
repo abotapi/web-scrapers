@@ -1,0 +1,62 @@
+[
+  {
+    "id": "l3i1xln52hfi8q5wyxpq",
+    "title": "Example title",
+    "price": "Example price",
+    "price_numeric": 572083,
+    "currency": "GBP",
+    "bedrooms": 2,
+    "bathrooms": 5,
+    "property_type": "Semi-Detached",
+    "tags": [
+      "Example tags",
+      "Example tags"
+    ],
+    "images": [
+      "https://jitty-cdn.com/example/21091.jpg",
+      "https://jitty-cdn.com/example/33715.jpg"
+    ],
+    "image_count": 89,
+    "url": "https://jitty.com/example/66643",
+    "address": "Example address",
+    "latitude": 45.39,
+    "longitude": -0.44,
+    "location_source": "detail_page",
+    "living_spaces": 8,
+    "estate_agent": "Example estate_agent",
+    "features": [
+      "Example features",
+      "Example features"
+    ]
+  },
+  {
+    "id": "sda5hangkpo0vvlunner",
+    "title": "Example title",
+    "price": "Example price",
+    "price_numeric": 584164,
+    "currency": "GBP",
+    "bedrooms": 6,
+    "bathrooms": 8,
+    "property_type": "Terraced",
+    "tags": [
+      "Example tags",
+      "Fireplace"
+    ],
+    "images": [
+      "https://jitty-cdn.com/example/19213.jpg",
+      "https://jitty-cdn.com/example/29077.jpg"
+    ],
+    "image_count": 22,
+    "url": "https://jitty.com/example/61158",
+    "address": "Example address",
+    "latitude": 53.46,
+    "longitude": -0.08,
+    "location_source": "detail_page",
+    "living_spaces": 8,
+    "estate_agent": "Example estate_agent",
+    "features": [
+      "Example features",
+      "Example features"
+    ]
+  }
+]

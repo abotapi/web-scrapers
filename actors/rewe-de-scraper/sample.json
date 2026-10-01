@@ -1,0 +1,33 @@
+[
+  {
+    "productId": "466272",
+    "name": "Example name",
+    "brand": "Weihenstephan",
+    "tags": [],
+    "url": "https://www.rewe.de/example/42709",
+    "hasVariants": false,
+    "freeShipping": false,
+    "categoryId": "650",
+    "category": "H-Milch",
+    "categoryPath": [
+      "Example category path",
+      "Milch"
+    ],
+    "image": "https://img.rewe-static.de/example/32466.jpg",
+    "images": [
+      "https://img.rewe-static.de/example/23325.jpg"
+    ],
+    "price": 1.43,
+    "currency": "EUR",
+    "originalPrice": null,
+    "discountAmount": null,
+    "discountPercent": null,
+    "isOnSpecial": false,
+    "pricePerUnit": null,
+    "grammage": "Example grammage",
+    "available": true,
+    "offerValidTo": null,
+    "merchant": "REWE",
+    "gtin": "1027411977815"
+  }
+]

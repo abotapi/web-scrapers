@@ -1,0 +1,178 @@
+[
+  {
+    "type": "marketmap",
+    "id": "id75658651",
+    "url": "https://dealroom.co/example/59241",
+    "record_id": "id83932443",
+    "company_name": "Example company_name",
+    "company_website": "https://dealroom.co/example/51824",
+    "scrape_metadata": {
+      "source_page_url": "https://dealroom.co/example/53704",
+      "seed_identifier": "AI",
+      "seed_input_type": "marketmaps",
+      "seed_input_value": "https://dealroom.co/example/77675",
+      "results_page_index": 2,
+      "result_index": 6,
+      "extraction_method": "public_feed",
+      "scraped_time": 4429519685
+    },
+    "company_identity": {
+      "about": "Example about: mock text standing in for the real value. Same field and type, made-up content.",
+      "about_ai_generated": null,
+      "can_edit": null,
+      "uuid": null,
+      "images": {},
+      "is_ai_data": null,
+      "is_editorial": null,
+      "name": "Example name",
+      "path": null,
+      "tagline": "Example tagline: mock text standing in for the real value. Same field and type, made-up content.",
+      "type": "company",
+      "website_url": "https://dealroom.co/example/59754",
+      "listing_page": "https://dealroom.co/example/34129"
+    },
+    "market_and_product_profile": {
+      "client_focus": [],
+      "corporate_industries": [],
+      "country_experience": [],
+      "delivery_method": null,
+      "entity_sub_types": [],
+      "industries": [],
+      "industry_experience": [],
+      "innovations_count": null,
+      "lists_ids": [
+        "id98329992"
+      ],
+      "lists": {
+        "items": [
+          {
+            "title": "Example title",
+            "id": "id75658651",
+            "type": "marketmap",
+            "is_public": true
+          }
+        ],
+        "total": 9
+      },
+      "sdgs": [],
+      "service_industries": [],
+      "sub_industries": [],
+      "tags": [
+        {
+          "name": "Example name"
+        },
+        {
+          "name": "Example name"
+        }
+      ],
+      "tech_stack": [],
+      "technologies": []
+    },
+    "growth_and_traction": {
+      "employees_chart": [],
+      "employees_latest": null,
+      "employee_12_months_growth_percentile": null,
+      "employee_12_months_growth_unique": null,
+      "similarweb_12_months_growth_percentile": null,
+      "similarweb_12_months_growth_unique": null,
+      "employees": null,
+      "job_offers_total": null,
+      "similarweb_chart": [],
+      "similarweb_hidden": null,
+      "team_total": null,
+      "traffic": {
+        "visitors": null,
+        "sources": [],
+        "top_countries": []
+      }
+    },
+    "funding_and_financials": {
+      "current_and_prev_year_fundings_num": null,
+      "exits_higher_800m": null,
+      "fundings_investor": [],
+      "income_streams": [],
+      "investments_higher_800m": null,
+      "investments_num": null,
+      "investments": [],
+      "investor_exits_funding_enhanced": null,
+      "investor_exits_num": null,
+      "investor_total_rank": null,
+      "investor_total": null,
+      "kpi_summary": null,
+      "latest_valuation_enhanced": null,
+      "revenues": [],
+      "share_ticker_symbol": null,
+      "total_funding_enhanced": {
+        "amount": null,
+        "currency": null
+      }
+    },
+    "investors_and_ownership": {
+      "affiliated_funds": [],
+      "investors": {
+        "items": [],
+        "total": 0
+      },
+      "legal_entities": [],
+      "lp_investments": [],
+      "lp_investors": [],
+      "ownerships": [],
+      "patents_count": null,
+      "rounds_experience": [],
+      "founders": []
+    },
+    "locations_and_operations": {
+      "closing_month": null,
+      "closing_year": null,
+      "company_status": null,
+      "growth_stage": null,
+      "growth_stage_manual": null,
+      "hq_locations": [],
+      "is_government": null,
+      "is_non_profit": null,
+      "is_from_traderegister": null,
+      "launch_month": null,
+      "launch_year": null
+    },
+    "web_and_social_presence": {
+      "appstore_app_id": null,
+      "career_page_url": null,
+      "facebook_url": null,
+      "linkedin_url": null,
+      "playmarket_app_id": null,
+      "twitter_url": null,
+      "instagram_handle": null
+    },
+    "news_and_signals": {
+      "news_available": false,
+      "sentiment_available": false,
+      "signal_type": null,
+      "signal_time": null
+    },
+    "source_record": {
+      "id": "id75658651",
+      "title": "Example title",
+      "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
+      "url": "https://dealroom.co/example/59241",
+      "source": "dealroom",
+      "sourceUrl": "https://app.dealroom.co/example/68682",
+      "dealroomListUrl": "https://app.dealroom.co/example/25509",
+      "tags": [
+        "AI",
+        "Global"
+      ],
+      "keywords": [
+        "nested",
+        "Example keywords"
+      ],
+      "nested": true,
+      "companyCount": 3674,
+      "segmentCount": 59,
+      "source_url": "https://app.dealroom.co/example/44289",
+      "company_count": 5181,
+      "segment_count": 95,
+      "dealroom_list_url": "https://app.dealroom.co/example/42466"
+    },
+    "scrapedAt": "2026-01-15T10:00:00Z"
+  }
+]

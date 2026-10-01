@@ -1,0 +1,110 @@
+[
+  {
+    "rowType": "product",
+    "id": "Example id",
+    "sourceUrl": "https://www.producthunt.com/example/88792",
+    "canonicalUrl": "https://www.producthunt.com/example/42886",
+    "slug": "lovable",
+    "name": "Example name",
+    "tagline": "Example tagline",
+    "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
+    "logoUrl": "https://ph-files.imgix.net/example/40412.jpg",
+    "websiteUrl": "https://lovable.dev/example/62170",
+    "linkedinUrl": "https://www.linkedin.com/example/25475",
+    "twitterUrl": "https://twitter.com/example/98082",
+    "votesCount": null,
+    "commentsCount": null,
+    "followersCount": 58536,
+    "reviewsCount": 778,
+    "postsCount": 83,
+    "media": [
+      {
+        "type": "image",
+        "url": "https://ph-files.imgix.net/example/29798.jpg",
+        "alt": "Example alt",
+        "width": 80,
+        "height": 75
+      },
+      {
+        "type": "image",
+        "url": "https://ph-static.imgix.net/example/64293.jpg",
+        "alt": "Example alt",
+        "width": null,
+        "height": null
+      }
+    ],
+    "mediaCount": 39,
+    "categories": [
+      {
+        "name": "Example name",
+        "path": "Example path",
+        "slug": "Example slug"
+      },
+      {
+        "name": "Example name",
+        "path": "Example path",
+        "slug": "Example slug"
+      }
+    ],
+    "reviews": [
+      {
+        "rowType": "review",
+        "id": "Example id: mock text standing in for the real value. Same field and type, made-up content.",
+        "productSlug": "lovable",
+        "productUrl": "https://www.producthunt.com/example/5088",
+        "reviewId": "https://www.producthunt.com/example/5514",
+        "reviewUrl": "https://www.producthunt.com/example/46419",
+        "rating": 5,
+        "ratingMax": 1,
+        "reviewText": "Example review text: mock text standing in for the real value. Same field and type, made-up content.",
+        "positiveNotes": [
+          "Example positive notes: mock text standing in for the real value. Same field and type, made-up content.",
+          "Example positive notes"
+        ],
+        "negativeNotes": [
+          "Example negative notes: mock text standing in for the real value. Same field and type, made-up content.",
+          "expensive"
+        ],
+        "reviewDate": "2026-01-15T10:00:00Z",
+        "dateModified": "2026-01-15T10:00:00Z",
+        "authorName": "Example author name",
+        "authorUrl": "https://www.producthunt.com/example/85409",
+        "authorImage": "https://ph-avatars.imgix.net/example/82222.jpg",
+        "scrapedAt": "2026-01-15T10:00:00Z"
+      },
+      {
+        "rowType": "review",
+        "id": "Example id: mock text standing in for the real value. Same field and type, made-up content.",
+        "productSlug": "lovable",
+        "productUrl": "https://www.producthunt.com/example/39877",
+        "reviewId": "https://www.producthunt.com/example/56714",
+        "reviewUrl": "https://www.producthunt.com/example/46066",
+        "rating": 6,
+        "ratingMax": 6,
+        "reviewText": "Example review text: mock text standing in for the real value. Same field and type, made-up content.",
+        "positiveNotes": [
+          "Example positive notes: mock text standing in for the real value. Same field and type, made-up content."
+        ],
+        "negativeNotes": [
+          "Example negative notes: mock text standing in for the real value. Same field and type, made-up content."
+        ],
+        "reviewDate": "2026-01-15T10:00:00Z",
+        "dateModified": "2026-01-15T10:00:00Z",
+        "authorName": "Example author name",
+        "authorUrl": "https://www.producthunt.com/example/49170",
+        "authorImage": "https://ph-avatars.imgix.net/example/31455.jpg",
+        "scrapedAt": "2026-01-15T10:00:00Z"
+      }
+    ],
+    "reviewsExtracted": 2,
+    "averageRating": 4.92,
+    "searchContext": {
+      "sourceType": "search",
+      "discoveryUrl": "https://www.producthunt.com/example/96863",
+      "resultPosition": 1,
+      "keyword": "ai"
+    },
+    "scrapedAt": "2026-01-15T10:00:00Z",
+    "harvestedEmails": []
+  }
+]

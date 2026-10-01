@@ -1,0 +1,19 @@
+[
+  {
+    "filename": "Example filename",
+    "success": true,
+    "error": null,
+    "format": "pdf",
+    "size_bytes": 91258,
+    "conversion_time_ms": 395,
+    "markdown": "Example markdown: mock text standing in for the real value. Same field and type, made-up content.",
+    "metadata": {
+      "converted_at": "2026-01-15T10:00:00Z",
+      "file_size_bytes": 18485,
+      "content_type": "Example content_type",
+      "last_modified": "Example last_modified",
+      "format": "PDF",
+      "format_description": "Example format_description"
+    }
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "id": "688548296",
+    "url": "https://www.truelocal.com.au/example/93787",
+    "name": "Example name",
+    "description": null,
+    "categories": [],
+    "primaryCategory": null,
+    "categoryCodes": [],
+    "categoryId": "8838549",
+    "phone": null,
+    "secondaryPhone": null,
+    "email": null,
+    "website": null,
+    "image": null,
+    "street": null,
+    "suburb": null,
+    "state": null,
+    "postcode": null,
+    "country": null,
+    "fullAddress": null,
+    "latitude": null,
+    "longitude": null,
+    "openingHours": null,
+    "holidayHours": null,
+    "permanentlyClosed": false,
+    "ratingValue": null,
+    "reviewCount": null,
+    "reviewsReturned": 0,
+    "reviews": [],
+    "scrapedAt": "2026-01-15T10:00:00Z"
+  }
+]

@@ -1,0 +1,42 @@
+[
+  {
+    "url": "https://letterboxd.com/example/86703",
+    "slug": "id26269224",
+    "title": "Example title",
+    "image": "https://a.ltrbxd.com/example/14310.jpg",
+    "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
+    "genre": [
+      "Example genre",
+      "Adventure"
+    ],
+    "directors": [
+      "Example directors"
+    ],
+    "averageRating": 4.82,
+    "ratingsCount": 6256045,
+    "datePublished": null,
+    "releaseYear": 6596,
+    "tagline": "Example tagline",
+    "scrapedAt": "2026-01-15T10:00:00Z"
+  },
+  {
+    "url": "https://letterboxd.com/example/57102",
+    "slug": "dune",
+    "title": "Example title",
+    "image": "https://a.ltrbxd.com/example/2264.jpg",
+    "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
+    "genre": [
+      "Adventure",
+      "Example genre"
+    ],
+    "directors": [
+      "Example directors"
+    ],
+    "averageRating": 2.91,
+    "ratingsCount": 753781,
+    "datePublished": null,
+    "releaseYear": 8037,
+    "tagline": "Example tagline",
+    "scrapedAt": "2026-01-15T10:00:00Z"
+  }
+]

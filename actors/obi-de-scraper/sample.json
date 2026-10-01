@@ -1,0 +1,111 @@
+[
+  {
+    "productId": "6911557942208",
+    "sku": "9160278089491",
+    "name": "Example name",
+    "brand": "Einhell",
+    "category": "Example category",
+    "url": "https://www.obi.de/example/12202",
+    "price": 108.35,
+    "currency": "EUR",
+    "originalPrice": null,
+    "originalPriceType": null,
+    "discountAmount": null,
+    "discountPercent": null,
+    "isOnSpecial": false,
+    "unitPrice": null,
+    "unitPriceUnit": null,
+    "rating": 4.14,
+    "reviewCount": 14,
+    "onlineAvailable": true,
+    "onlineAvailabilityStatus": "BESTELLBAR",
+    "storeAvailabilityStatus": "Example store availability status",
+    "image": "https://bilder.obi.de/example/3770.jpg",
+    "images": [
+      "https://bilder.obi.de/example/31679.jpg",
+      "https://bilder.obi.de/example/82418.jpg"
+    ],
+    "reviews": {
+      "averageRating": 4.62,
+      "totalReviewCount": 42,
+      "ratingDistribution": [
+        {
+          "rating": 8,
+          "count": 58
+        },
+        {
+          "rating": 2,
+          "count": 9
+        }
+      ],
+      "items": [
+        {
+          "rating": 8,
+          "title": "Example title",
+          "body": "Example body: mock text standing in for the real value. Same field and type, made-up content.",
+          "author": "Example author",
+          "date": "2026-01-15T10:00:00Z",
+          "isRecommended": true,
+          "verifiedPurchaser": true
+        },
+        {
+          "rating": 2,
+          "title": "Example title",
+          "body": "Example body: mock text standing in for the real value. Same field and type, made-up content.",
+          "author": "Example author",
+          "date": "2026-01-15T10:00:00Z",
+          "isRecommended": null,
+          "verifiedPurchaser": true
+        }
+      ]
+    }
+  },
+  {
+    "productId": "4531598908152",
+    "sku": "6158963179263",
+    "name": "Example name",
+    "brand": "Livington",
+    "category": "Example category",
+    "url": "https://www.obi.de/example/67160",
+    "price": 16.19,
+    "currency": "EUR",
+    "originalPrice": null,
+    "originalPriceType": null,
+    "discountAmount": null,
+    "discountPercent": null,
+    "isOnSpecial": false,
+    "unitPrice": null,
+    "unitPriceUnit": null,
+    "rating": 1,
+    "reviewCount": 2,
+    "onlineAvailable": false,
+    "onlineAvailabilityStatus": "NICHT_BESTELLBAR",
+    "storeAvailabilityStatus": "Example store availability status",
+    "image": "https://bilder.obi.de/example/10763.jpg",
+    "images": [
+      "https://bilder.obi.de/example/90343.jpg",
+      "https://bilder.obi.de/example/63895.jpg"
+    ],
+    "reviews": {
+      "averageRating": 4,
+      "totalReviewCount": 5,
+      "ratingDistribution": [
+        {
+          "rating": 1,
+          "count": 7
+        }
+      ],
+      "items": [
+        {
+          "rating": 1,
+          "title": "Example title",
+          "body": "Example body: mock text standing in for the real value. Same field and type, made-up content.",
+          "author": "Example author",
+          "date": "2026-01-15T10:00:00Z",
+          "isRecommended": true,
+          "verifiedPurchaser": true
+        }
+      ]
+    }
+  }
+]

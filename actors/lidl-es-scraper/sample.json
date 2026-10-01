@@ -1,0 +1,146 @@
+[
+  {
+    "productId": "270356382",
+    "title": "Example title",
+    "brand": "Example brand",
+    "categoryPath": [
+      "Example category path",
+      "Example category path"
+    ],
+    "category": "Example category",
+    "productUrl": "https://www.lidl.es/example/55735",
+    "price": 15.79,
+    "currency": "EUR",
+    "wasPrice": null,
+    "discountAmount": null,
+    "discountPercent": null,
+    "isOnSpecial": false,
+    "promoLabel": null,
+    "packageFormat": null,
+    "hasVat": true,
+    "unitPrice": null,
+    "unitOfMeasure": null,
+    "onlineAvailable": true,
+    "inStoreOnly": false,
+    "stockAvailability": {
+      "availabilityIndicator": 6,
+      "badgeInfo": {
+        "badges": [
+          {
+            "text": "Example text",
+            "type": "AVAILABLE_ONLINE"
+          }
+        ]
+      },
+      "badgeInfoV2": [
+        {
+          "badges": [
+            {
+              "text": "Example text",
+              "type": "AVAILABLE_ONLINE"
+            }
+          ]
+        }
+      ],
+      "onlineAvailable": true,
+      "minOrderableQuantity": 8,
+      "backInStockNotification": true,
+      "backInStockNotificationSoldOut": true
+    },
+    "images": [
+      "https://www.lidl.es/example/84077.jpg",
+      "https://www.lidl.es/example/78201.jpg"
+    ],
+    "internalArticleNumbers": [
+      "477097"
+    ],
+    "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
+    "badges": [
+      "Example badges"
+    ],
+    "averageRating": 4.94,
+    "reviewCount": 2840,
+    "recommendedYes": 4289,
+    "recommendedNo": 400,
+    "reviews": {
+      "averageRating": null,
+      "totalReviewCount": 0,
+      "recommendedYes": null,
+      "recommendedNo": null,
+      "starHistogram": null,
+      "items": []
+    }
+  },
+  {
+    "productId": "537716153",
+    "title": "Example title: mock text standing in for the real value. Same field and type, made-up content.",
+    "brand": "Example brand",
+    "categoryPath": [
+      "Example category path",
+      "Example category path"
+    ],
+    "category": "Example category",
+    "productUrl": "https://www.lidl.es/example/77029",
+    "price": 24.49,
+    "currency": "EUR",
+    "wasPrice": null,
+    "discountAmount": null,
+    "discountPercent": null,
+    "isOnSpecial": false,
+    "promoLabel": null,
+    "packageFormat": null,
+    "hasVat": true,
+    "unitPrice": null,
+    "unitOfMeasure": null,
+    "onlineAvailable": true,
+    "inStoreOnly": false,
+    "stockAvailability": {
+      "availabilityIndicator": 6,
+      "badgeInfo": {
+        "badges": [
+          {
+            "text": "Example text",
+            "type": "AVAILABLE_ONLINE"
+          }
+        ]
+      },
+      "badgeInfoV2": [
+        {
+          "badges": [
+            {
+              "text": "Example text",
+              "type": "AVAILABLE_ONLINE"
+            }
+          ]
+        }
+      ],
+      "onlineAvailable": true,
+      "minOrderableQuantity": 4,
+      "backInStockNotification": true,
+      "backInStockNotificationSoldOut": true
+    },
+    "images": [
+      "https://www.lidl.es/example/67273.jpg",
+      "https://www.lidl.es/example/68220.jpg"
+    ],
+    "internalArticleNumbers": [
+      "357701"
+    ],
+    "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
+    "badges": [
+      "Example badges"
+    ],
+    "averageRating": 4.56,
+    "reviewCount": 428,
+    "recommendedYes": 410,
+    "recommendedNo": 18,
+    "reviews": {
+      "averageRating": null,
+      "totalReviewCount": 0,
+      "recommendedYes": null,
+      "recommendedNo": null,
+      "starHistogram": null,
+      "items": []
+    }
+  }
+]

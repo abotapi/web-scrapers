@@ -1,0 +1,109 @@
+[
+  {
+    "kind": "listing",
+    "recordId": "01038590",
+    "listingId": "14828078",
+    "url": "https://www.padmapper.com/example/97490",
+    "title": "A4",
+    "description": null,
+    "currency": "USD",
+    "rentMin": 428,
+    "rentMax": 2726,
+    "previousRent": null,
+    "bedrooms": 0,
+    "bedroomsMax": 5,
+    "bathrooms": 4,
+    "bathroomsMax": 3,
+    "squareFeetMin": null,
+    "squareFeetMax": null,
+    "dateAvailable": null,
+    "address": "Example address",
+    "city": "Austin",
+    "state": "TX",
+    "zipcode": "17398",
+    "citySlug": "austin-tx",
+    "neighborhood": "Example neighborhood",
+    "latitude": 28.46,
+    "longitude": -68.4,
+    "propertyType": "apartment",
+    "listingType": 5,
+    "leaseType": 7,
+    "sourceFeed": "realpage",
+    "providerUrl": null,
+    "phone": "+1 555 0100",
+    "petCodes": [
+      1,
+      2
+    ],
+    "petAmenities": [
+      "Example pet amenities",
+      "Example pet amenities"
+    ],
+    "buildingAmenities": [
+      "Example building amenities",
+      "Example building amenities"
+    ],
+    "imageUrl": "https://img.zumpercdn.com/example/85981.jpg",
+    "imageUrls": [
+      "https://img.zumpercdn.com/example/57996.jpg",
+      "https://img.zumpercdn.com/example/70876.jpg"
+    ],
+    "isFeatured": false,
+    "listedOn": "2026-01-15T10:00:00Z",
+    "createdAt": "2026-01-15T10:00:00Z",
+    "updatedAt": "2026-01-15T10:00:00Z"
+  },
+  {
+    "kind": "listing",
+    "recordId": "73531959",
+    "listingId": "21149120",
+    "url": "https://www.padmapper.com/example/60748",
+    "title": "Example title",
+    "description": null,
+    "currency": "USD",
+    "rentMin": 8843,
+    "rentMax": 3249,
+    "previousRent": null,
+    "bedrooms": 0,
+    "bedroomsMax": 7,
+    "bathrooms": 9,
+    "bathroomsMax": 5,
+    "squareFeetMin": null,
+    "squareFeetMax": null,
+    "dateAvailable": null,
+    "address": "Example address",
+    "city": "Austin",
+    "state": "TX",
+    "zipcode": "76530",
+    "citySlug": "austin-tx",
+    "neighborhood": "MLK",
+    "latitude": 33.01,
+    "longitude": -101.61,
+    "propertyType": "apartment",
+    "listingType": 2,
+    "leaseType": 8,
+    "sourceFeed": "resman",
+    "providerUrl": null,
+    "phone": "+1 555 0100",
+    "petCodes": [
+      2,
+      1
+    ],
+    "petAmenities": [
+      "Example pet amenities"
+    ],
+    "buildingAmenities": [
+      "Example building amenities",
+      "Example building amenities"
+    ],
+    "imageUrl": "https://img.zumpercdn.com/example/9576.jpg",
+    "imageUrls": [
+      "https://img.zumpercdn.com/example/67015.jpg",
+      "https://img.zumpercdn.com/example/29300.jpg"
+    ],
+    "isFeatured": false,
+    "listedOn": "2026-01-15T10:00:00Z",
+    "createdAt": "2026-01-15T10:00:00Z",
+    "updatedAt": "2026-01-15T10:00:00Z"
+  }
+]

@@ -1,0 +1,136 @@
+[
+  {
+    "id": "6177187735",
+    "url": "https://www.zapimoveis.com.br/example/94919",
+    "title": "Example title",
+    "price": 345659,
+    "currency": "BRL",
+    "business": "SALE",
+    "listing_type": "USED",
+    "property_type": "UNIT",
+    "unit_types": [
+      "HOME"
+    ],
+    "bedrooms": 9,
+    "bathrooms": 7,
+    "suites": 7,
+    "parking_spaces": 7,
+    "usable_area": 621,
+    "total_area": 408,
+    "city": "Example city",
+    "state_code": "SP",
+    "neighborhood": "Example neighborhood",
+    "street": "Example street",
+    "zip_code": "20249227",
+    "latitude": null,
+    "longitude": null,
+    "monthly_condo_fee": 0,
+    "iptu": null,
+    "seller_name": "Example seller_name",
+    "seller_tier": "Example seller_tier",
+    "seller_license_number": "61346-j-sp",
+    "seller_legacy_zap_id": 7376303,
+    "phones": [
+      "+1 555 0100",
+      "+1 555 0100"
+    ],
+    "whatsapp": "+1 555 0100",
+    "lqs": null,
+    "created_at": "2026-01-15T10:00:00Z",
+    "updated_at": null,
+    "identity": {
+      "id": "6177187735",
+      "external_id": "ph92320",
+      "source_id": "id95609212",
+      "provider_id": null,
+      "fingerprint": null,
+      "image_source_id": null,
+      "legacy_id": null
+    },
+    "source_context": {
+      "url": "https://www.zapimoveis.com.br/example/94919",
+      "source_url": "https://www.zapimoveis.com.br/example/48494",
+      "page_index": 1,
+      "seed": {
+        "id": "Example id",
+        "type": "location",
+        "value": "Example value"
+      }
+    },
+    "timestamps": {
+      "published_at": "2026-01-15T10:00:00Z",
+      "created_at": "2026-01-15T10:00:00Z",
+      "updated_at": null,
+      "delivered_at": null
+    },
+    "content": {
+      "title": "Example title",
+      "description": null,
+      "ai_searchable_amenities": null
+    },
+    "pricing": {
+      "amount": 509733,
+      "currency": "BRL",
+      "offers": [
+        {
+          "business_type": "SALE",
+          "amount": 509733,
+          "currency": "BRL",
+          "monthly_condo_fee": 0,
+          "iptu": null,
+          "iptu_period": null,
+          "yearly_iptu": 874,
+          "rental_period": null,
+          "rental_warranties": [],
+          "monthly_rental_total_price": null
+        }
+      ]
+    },
+    "availability": {
+      "status": "ACTIVE",
+      "show_price": true,
+      "accept_exchange": null,
+      "resale": null,
+      "transacted": null,
+      "non_activation_reason": null
+    },
+    "location": {
+      "label": "Example label",
+      "street": "Example street",
+      "street_number": null,
+      "neighborhood": "Example neighborhood",
+      "city": "Example city",
+      "state_code": "SP",
+      "state": "Example state",
+      "zone": "Example zone",
+      "zip_code": "20249227",
+      "country": "BR",
+      "full_address": null,
+      "ibge_city_id": null,
+      "coordinates": {
+        "latitude": null,
+        "longitude": null,
+        "source": "GOOGLE"
+      },
+      "geocoding": {
+        "address_type": "Example address_type",
+        "precision": "ROOFTOP",
+        "confidence": "VALID_STREET",
+        "source": "CORREIOS"
+      },
+      "h3": [],
+      "pois_list": [],
+      "valuable_zones": [
+        {
+          "city": "Example city",
+          "zone": "Example zone",
+          "name": "Example name",
+          "id": "",
+          "state": "Example state",
+          "category": "DISTRICT"
+        }
+      ],
+      "near_by": {}
+    }
+  }
+]

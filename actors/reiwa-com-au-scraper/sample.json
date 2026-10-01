@@ -1,0 +1,62 @@
+[
+  {
+    "id": "4201549",
+    "type": "for-sale",
+    "title": "Example title",
+    "address": "Example address",
+    "suburb": "Example suburb",
+    "url": "https://reiwa.com.au/example/14545",
+    "sourceUrl": "https://reiwa.com.au/example/5901",
+    "price": "Example price",
+    "bedrooms": 3,
+    "bathrooms": 6,
+    "parkingSpaces": 2,
+    "propertyType": "House",
+    "agencyName": "Example agency name",
+    "agencyUrl": "https://reiwa.com.au/example/93769",
+    "agentNames": [
+      "Example agent names"
+    ],
+    "agentUrls": [],
+    "phoneNumbers": [
+      "+1 555 0100"
+    ],
+    "dateText": "Example date text",
+    "imageUrls": [
+      "https://imagecdn.reiwa.com.au/example/11964.jpg",
+      "https://imagecdn.reiwa.com.au/example/32746.jpg"
+    ],
+    "scrapedAt": "2026-01-15T10:00:00Z"
+  },
+  {
+    "id": "2854165",
+    "type": "for-sale",
+    "title": "Example title",
+    "address": "Example address",
+    "suburb": "Example suburb",
+    "url": "https://reiwa.com.au/example/24659",
+    "sourceUrl": "https://reiwa.com.au/example/14715",
+    "price": "Example price",
+    "priceValue": 302717,
+    "bedrooms": 5,
+    "bathrooms": 1,
+    "parkingSpaces": 0,
+    "propertyType": "House",
+    "agencyName": "Example agency name",
+    "agencyUrl": "https://reiwa.com.au/example/76144",
+    "agentNames": [
+      "Example agent names"
+    ],
+    "agentUrls": [
+      "https://reiwa.com.au/example/41311"
+    ],
+    "phoneNumbers": [
+      "+1 555 0100"
+    ],
+    "dateText": "Example date text",
+    "imageUrls": [
+      "https://imagecdn.reiwa.com.au/example/5153.jpg"
+    ],
+    "scrapedAt": "2026-01-15T10:00:00Z"
+  }
+]

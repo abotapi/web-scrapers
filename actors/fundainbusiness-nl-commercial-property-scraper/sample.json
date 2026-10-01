@@ -1,0 +1,127 @@
+[
+  {
+    "record_type": "property_listing",
+    "record_id": "70050503",
+    "source_context": {
+      "source_domain": "Example source_domain",
+      "source_url": "https://www.fundainbusiness.nl/example/96186",
+      "seed_url": "https://www.fundainbusiness.nl/example/6849",
+      "enrichment_status": "enriched",
+      "enrichment_source": "Example enrichment_source",
+      "page_number": 3,
+      "position": 2,
+      "scraped_at": "2026-01-15T10:00:00Z",
+      "language": "nl",
+      "country": "NL",
+      "external_ids": {
+        "listing_id": "16464490",
+        "global_id": "5050550"
+      },
+      "search": {
+        "property_type": "all",
+        "deal_type": "both",
+        "location": "Example location"
+      }
+    },
+    "entity": {
+      "title": "Example title",
+      "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
+      "url": "https://www.fundainbusiness.nl/example/73857",
+      "category": "Kantoor",
+      "status": "Beschikbaar"
+    },
+    "listing": {
+      "listing_id": "16464490",
+      "listing_type": "Example listing_type",
+      "deal_type": "both",
+      "source_category": "Kantoor",
+      "source_listing_type": "regular",
+      "is_featured": false,
+      "labels": [],
+      "available_from": "Example available_from"
+    },
+    "pricing": {
+      "price": 654,
+      "currency": "EUR",
+      "price_text": "Example price_text",
+      "service_costs": "Example service_costs"
+    },
+    "location": {
+      "address": "Example address",
+      "street_address": "Example street_address",
+      "city": "Amsterdam",
+      "region": "Noord-Holland",
+      "country": "Netherlands",
+      "latitude": 46.63,
+      "longitude": 4.86,
+      "map_marker_title": "Example map_marker_title"
+    },
+    "property": {
+      "property_id": "0187249",
+      "property_type": "all",
+      "usage_types": [
+        "Kantoor"
+      ],
+      "floor_area": 575,
+      "energy_label": "Example energy_label",
+      "construction_year": "3443",
+      "construction_type": "Example construction_type",
+      "features": {
+        "Overdracht": {
+          "Huurprijs": "Example huurprijs",
+          "Servicekosten": "Example servicekosten",
+          "Aangeboden sinds": "",
+          "Status": "Beschikbaar",
+          "Aanvaarding": "Example aanvaarding"
+        },
+        "Bouw": {
+          "Hoofdfunctie": "Example hoofdfunctie",
+          "Soort bouw": "Example soort bouw",
+          "Bouwjaar": "5435"
+        },
+        "Oppervlakten": {
+          "Oppervlakte": "Example oppervlakte"
+        },
+        "Indeling": {
+          "Aantal bouwlagen": "Example aantal bouwlagen",
+          "Voorzieningen": "Example voorzieningen"
+        },
+        "Energie": {
+          "Energielabel": "Example energielabel"
+        },
+        "Omgeving": {
+          "Ligging": "Example ligging",
+          "Bereikbaarheid": "Example bereikbaarheid: mock text standing in for the real value. Same field and type, made-up content."
+        }
+      }
+    },
+    "media": {
+      "main_image_url": "https://cloud.funda.nl/example/45317.jpg",
+      "image_urls": [
+        "https://cloud.funda.nl/example/58038.jpg",
+        "https://cloud.funda.nl/example/24232.jpg"
+      ],
+      "image_count": 7
+    },
+    "relationships": {
+      "agency": {
+        "name": "Example name",
+        "url": "https://www.fundainbusiness.nl/example/73857",
+        "phone": "+1 555 0100",
+        "broker_id": "08520"
+      }
+    },
+    "availability": {
+      "status": "Beschikbaar",
+      "available_from": "Example available_from"
+    },
+    "attributes": {
+      "kenmerken_summary": {
+        "Oppervlakte": "Example oppervlakte"
+      },
+      "source_specific": {
+        "listing_type": "regular"
+      }
+    }
+  }
+]

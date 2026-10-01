@@ -1,0 +1,82 @@
+[
+  {
+    "id": "id72413698",
+    "propertyId": "7442485",
+    "unitId": "2",
+    "url": "https://www.furnishedfinder.com/example/97082",
+    "name": "Example name",
+    "propertyType": "Apartment",
+    "propertyTypeClass": "entire_unit",
+    "bedroomCount": 9,
+    "bathroomCount": 8,
+    "bathroomType": null,
+    "totalSleeps": 9,
+    "laundryType": "IN_UNIT",
+    "priceFormatted": "Example price formatted",
+    "priceValue": 1998,
+    "priceCurrency": "USD",
+    "latitude": 33.04,
+    "longitude": -99.24,
+    "city": "Houston",
+    "state": "Texas",
+    "encodedLocationName": "Example encoded location name",
+    "isAvailableNow": true,
+    "availableOnDate": "Example available on date",
+    "minimumStayInDays": 72,
+    "amenities": [
+      "Example amenities",
+      "Example amenities"
+    ],
+    "photos": [
+      "https://www.furnishedfinder.com/example/66929.jpg",
+      "https://www.furnishedfinder.com/example/92096.jpg"
+    ],
+    "photoCount": 31,
+    "searchLocation": "Example search location",
+    "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
+    "neighborhoodDescription": "Example neighborhood description: mock text standing in for the real value. Same field and type, made-up content.",
+    "spaceDescription": "",
+    "squareFootage": 309,
+    "avgRating": 0,
+    "totalReviewCount": 0,
+    "reviews": null,
+    "utilitiesIncluded": true,
+    "minimumStayDays": 41,
+    "houseRules": [
+      {
+        "name": "Example name",
+        "description": "Example description"
+      },
+      {
+        "name": "Example name",
+        "description": "Example description"
+      }
+    ],
+    "fees": [
+      {
+        "type": "Example type",
+        "amount": "Example amount"
+      }
+    ],
+    "detailAmenities": [
+      {
+        "name": "Example name",
+        "value": {
+          "count": "2"
+        }
+      },
+      {
+        "name": "Example name",
+        "value": {
+          "count": "9"
+        }
+      }
+    ],
+    "bedroomsDetail": [
+      {
+        "title": "Example title",
+        "type": "Queen"
+      }
+    ]
+  }
+]

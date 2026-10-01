@@ -1,0 +1,110 @@
+[
+  {
+    "advertId": "840709957203115",
+    "url": "https://www.autotrader.co.uk/example/14184",
+    "channel": "cars",
+    "title": "Example title",
+    "subTitle": "Example sub title",
+    "attentionGrabber": "Example attention grabber",
+    "make": "BMW",
+    "model": "Example model",
+    "vehicleCategory": "car",
+    "year": 7623,
+    "condition": "used",
+    "mileage": 85633,
+    "price": 3166,
+    "priceFormatted": "Example price formatted",
+    "priceIndicator": "NOANALYSIS",
+    "priceIndicatorLabel": null,
+    "rrp": null,
+    "discount": null,
+    "hasFinance": false,
+    "monthlyPrice": null,
+    "financeProvider": null,
+    "financeInitialPayment": null,
+    "financeTermMonths": null,
+    "sellerType": "Example seller type",
+    "dealerId": "49332986",
+    "dealerName": "Example dealer name",
+    "dealerReviewRating": 4.23,
+    "dealerReviewCount": 18,
+    "dealerLink": "https://www.autotrader.co.uk/example/52823",
+    "isManufacturerApproved": false,
+    "isFranchiseApproved": false,
+    "preReg": false,
+    "hasDigitalRetailing": true,
+    "vehicleLocation": "Example vehicle location",
+    "distanceMiles": 8,
+    "latitude": 65.45,
+    "longitude": -0.34,
+    "images": [
+      "https://m.atcdn.co.uk/example/56937.jpg",
+      "https://m.atcdn.co.uk/example/49173.jpg"
+    ],
+    "numberOfImages": 10,
+    "badges": [
+      {
+        "type": "MILEAGE",
+        "text": "Example text"
+      },
+      {
+        "type": "REGISTERED_YEAR",
+        "text": "Example text"
+      }
+    ]
+  },
+  {
+    "advertId": "992007129474897",
+    "url": "https://www.autotrader.co.uk/example/81559",
+    "channel": "cars",
+    "title": "Example title",
+    "subTitle": "Example sub title",
+    "attentionGrabber": null,
+    "make": "BMW",
+    "model": "Example model",
+    "vehicleCategory": "car",
+    "year": 5380,
+    "condition": "used",
+    "mileage": 25312,
+    "price": 6321,
+    "priceFormatted": "Example price formatted",
+    "priceIndicator": "NOANALYSIS",
+    "priceIndicatorLabel": null,
+    "rrp": null,
+    "discount": null,
+    "hasFinance": true,
+    "monthlyPrice": null,
+    "financeProvider": null,
+    "financeInitialPayment": null,
+    "financeTermMonths": null,
+    "sellerType": "Example seller type",
+    "dealerId": null,
+    "dealerName": null,
+    "dealerReviewRating": null,
+    "dealerReviewCount": null,
+    "dealerLink": null,
+    "isManufacturerApproved": false,
+    "isFranchiseApproved": false,
+    "preReg": false,
+    "hasDigitalRetailing": false,
+    "vehicleLocation": "Example vehicle location",
+    "distanceMiles": 3,
+    "latitude": null,
+    "longitude": null,
+    "images": [
+      "https://m.atcdn.co.uk/example/82151.jpg",
+      "https://m.atcdn.co.uk/example/3819.jpg"
+    ],
+    "numberOfImages": 21,
+    "badges": [
+      {
+        "type": "MILEAGE",
+        "text": "Example text"
+      },
+      {
+        "type": "REGISTERED_YEAR",
+        "text": "Example text"
+      }
+    ]
+  }
+]

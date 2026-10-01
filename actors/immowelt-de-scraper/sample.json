@@ -1,0 +1,61 @@
+[
+  {
+    "id": "365q43gy5jl8",
+    "legacyId": "id34108388",
+    "url": "https://www.immowelt.de/example/31010",
+    "listingType": "Buy",
+    "origin": "strict",
+    "propertyType": "APARTMENT",
+    "title": "Example title",
+    "priceValue": 634704,
+    "priceCurrency": "EUR",
+    "priceDisplay": "Example price display",
+    "pricePerSqm": "Example price per sqm",
+    "rooms": 4,
+    "livingSpace": 11,
+    "plotArea": null,
+    "floor": null,
+    "constructionYear": null,
+    "energyClass": "Example energy class",
+    "energyValue": null,
+    "country": "DEU",
+    "city": "Example city",
+    "district": "Example district",
+    "postcode": "21627",
+    "street": null,
+    "latitude": 45.63,
+    "longitude": 13.17,
+    "addressPublished": false,
+    "agentName": "Example agent name",
+    "agentCompany": "Example agent company",
+    "agentType": "Example agent type",
+    "agentPhones": [
+      "+1 555 0100",
+      "+1 555 0100"
+    ],
+    "agentWebsite": "http://www.immobilienkonzept-amberg.de/example/6120",
+    "agentProfileUrl": "https://www.immowelt.de/example/50505",
+    "agentRating": null,
+    "agentReviews": null,
+    "agentAddress": "Example agent address",
+    "imageCount": 42,
+    "images": [
+      "https://mms.immowelt.de/example/9588.jpg",
+      "https://mms.immowelt.de/example/98335.jpg"
+    ],
+    "imagesAnnotated": [
+      {
+        "url": "https://mms.immowelt.de/example/31010",
+        "description": "Example description",
+        "classification": "LIVING_ROOM"
+      },
+      {
+        "url": "https://mms.immowelt.de/example/99497",
+        "description": "Example description",
+        "classification": "LIVING_ROOM"
+      }
+    ],
+    "hasFloorplan": false,
+    "has3DTour": false
+  }
+]

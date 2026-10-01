@@ -1,0 +1,370 @@
+[
+  {
+    "kind": "event",
+    "recordId": "Example record id",
+    "eventId": 66850181,
+    "url": "https://seatgeek.com/example/63360",
+    "title": "Example title",
+    "shortTitle": "Example short title",
+    "eventType": "concert",
+    "startDateTimeUtc": "2026-01-15T10:00:00Z",
+    "startDateTimeLocal": "2026-01-15T10:00:00Z",
+    "dateTbd": false,
+    "timeTbd": false,
+    "status": "normal",
+    "announcedAt": "2026-01-15T10:00:00Z",
+    "venueId": 66758,
+    "venueName": "Example venue name",
+    "venueCity": "Example venue city",
+    "venueState": "CA",
+    "venueCountry": "US",
+    "venueAddress": "Example venue address",
+    "venuePostalCode": "95260",
+    "venueTimezone": "Example venue timezone",
+    "venueCapacity": 0,
+    "venueLatitude": 33.39,
+    "venueLongitude": -85.52,
+    "venueUrl": "https://seatgeek.com/example/66067",
+    "headliner": "Example headliner",
+    "performers": [
+      {
+        "performerId": 7011107,
+        "name": "Example name",
+        "type": "band",
+        "primary": true
+      }
+    ],
+    "performerIds": [
+      7498645
+    ],
+    "taxonomies": [
+      "concert"
+    ],
+    "lowestPrice": 841,
+    "highestPrice": 681,
+    "averagePrice": 872,
+    "medianPrice": 451,
+    "goodDealLowestPrice": null,
+    "listingCount": 5,
+    "ticketCount": 2,
+    "popularity": 0.46,
+    "score": 0.35,
+    "raw": {
+      "access_method": null,
+      "announce_date": "2026-01-15T10:00:00Z",
+      "announcements": {},
+      "conditional": false,
+      "contingent": false,
+      "created_at": "2026-01-15T10:00:00Z",
+      "date_tbd": false,
+      "datetime_local": "2026-01-15T10:00:00Z",
+      "datetime_tbd": false,
+      "datetime_utc": "2026-01-15T10:00:00Z",
+      "tbd_datetime_range_start_utc": null,
+      "tbd_datetime_range_end_utc": null,
+      "description": "",
+      "onsale": null,
+      "display_config": {
+        "checkout_seat_numbers_required": false,
+        "event_page_all_in_pricing_default": true,
+        "global_all_in_pricing_default": true,
+        "itemization_required": false,
+        "listing_detail_all_in_pricing_default": true,
+        "order_fee_required_in_aip": true,
+        "primary_sale_taxes_required_in_aip": false,
+        "secondary_sale_taxes_required_in_aip": false,
+        "secondary_marketplace_banner_required": false,
+        "above_face_value_banner_required": false,
+        "secondary_marketplace_banner_emphasis_required": false
+      },
+      "enddatetime_utc": "2026-01-15T10:00:00Z",
+      "sales_end_datetime_utc": "2026-01-15T10:00:00Z",
+      "expected_experience_end": "2026-01-15T10:00:00Z",
+      "event_promotion": null,
+      "game_number": 0,
+      "home_game_number": 0,
+      "id": 35348267,
+      "integrated": null,
+      "is_open": false,
+      "is_visible": true,
+      "is_visible_override": "UNSET",
+      "last_valid_datetime_local": "2026-01-15T10:00:00Z",
+      "last_valid_datetime_utc": "2026-01-15T10:00:00Z",
+      "links": [
+        {
+          "id": "3863137",
+          "url": "",
+          "provider": "vividseats",
+          "primary": false,
+          "display_name": "",
+          "logos": {},
+          "sales": [],
+          "link_type": "ID"
+        }
+      ],
+      "main_event_id": null,
+      "mobile_entry_enabled": false,
+      "performers": [
+        {
+          "type": "band",
+          "name": "Example name",
+          "image": "https://seatgeekimages.com/example/9560.jpg",
+          "id": 8348267,
+          "images": {
+            "huge": "https://seatgeekimages.com/example/31450.jpg",
+            "banner": "https://seatgeekimages.com/example/19783.jpg"
+          },
+          "divisions": null,
+          "links": [],
+          "has_upcoming_events": true,
+          "primary": true,
+          "stats": {
+            "event_count": 55
+          },
+          "taxonomies": [
+            {
+              "id": 8348267,
+              "name": "Example name",
+              "parent_id": null,
+              "seo_event_type": "concert",
+              "rank": 0
+            }
+          ],
+          "image_attribution": "Example image_attribution",
+          "url": "https://seatgeek.com/example/63360",
+          "score": 0.4,
+          "slug": "Example slug",
+          "home_venue_id": null,
+          "short_name": "Example short_name",
+          "num_upcoming_events": 30,
+          "colors": null,
+          "image_license": "Example image_license",
+          "popularity": 884,
+          "hidden": false,
+          "location": null,
+          "passes": [
+            {
+              "pass_type": "PARKING",
+              "name": "Example name",
+              "url": "https://seatgeek.com/example/63360",
+              "relative_url": "Example relative_url",
+              "stats": {
+                "event_count": 55
+              },
+              "images": {
+                "huge": "https://seatgeekimages.com/example/31450.jpg"
+              },
+              "image": "https://uploads-seatgeek.global.ssl.fastly.net/example/9560.jpg",
+              "image_attribution": "Example image_attribution",
+              "image_license": "Example image_license",
+              "image_rights_message": ""
+            }
+          ],
+          "tracks": [],
+          "performer_header_style_type": "PERFORMER_IMAGE",
+          "relative_url": "Example relative_url",
+          "image_rights_message": "",
+          "is_event": false,
+          "ada_dominant_image_color": "Example ada_dominant_image_color"
+        }
+      ],
+      "performer_order": [
+        {
+          "id": 8348267,
+          "ordinal": 0
+        }
+      ],
+      "playoffs": null,
+      "popularity": 0.46,
+      "relative_url": "Example relative_url: mock text standing in for the real value. Same field and type, made-up content.",
+      "schedule_status": "Example schedule_status",
+      "score": 0.35,
+      "season_stage": null,
+      "short_title": "Example short_title"
+    }
+  },
+  {
+    "kind": "event",
+    "recordId": "Example record id",
+    "eventId": 85793928,
+    "url": "https://seatgeek.com/example/4788",
+    "title": "Example title",
+    "shortTitle": "Example short title",
+    "eventType": "concert",
+    "startDateTimeUtc": "2026-01-15T10:00:00Z",
+    "startDateTimeLocal": "2026-01-15T10:00:00Z",
+    "dateTbd": false,
+    "timeTbd": false,
+    "status": "normal",
+    "announcedAt": "2026-01-15T10:00:00Z",
+    "venueId": 100288,
+    "venueName": "Example venue name",
+    "venueCity": "Denver",
+    "venueState": "CO",
+    "venueCountry": "US",
+    "venueAddress": "Example venue address",
+    "venuePostalCode": "14376",
+    "venueTimezone": "Example venue timezone",
+    "venueCapacity": 0,
+    "venueLatitude": 37.36,
+    "venueLongitude": -103.94,
+    "venueUrl": "https://seatgeek.com/example/88749",
+    "headliner": "Example headliner",
+    "performers": [
+      {
+        "performerId": 2598519,
+        "name": "Example name",
+        "type": "band",
+        "primary": true
+      }
+    ],
+    "performerIds": [
+      9503376
+    ],
+    "taxonomies": [
+      "concert"
+    ],
+    "lowestPrice": 411,
+    "highestPrice": 673,
+    "averagePrice": 796,
+    "medianPrice": 125,
+    "goodDealLowestPrice": null,
+    "listingCount": 2,
+    "ticketCount": 9,
+    "popularity": 0.73,
+    "score": 0.3,
+    "raw": {
+      "access_method": null,
+      "announce_date": "2026-01-15T10:00:00Z",
+      "announcements": {},
+      "conditional": false,
+      "contingent": false,
+      "created_at": "2026-01-15T10:00:00Z",
+      "date_tbd": false,
+      "datetime_local": "2026-01-15T10:00:00Z",
+      "datetime_tbd": false,
+      "datetime_utc": "2026-01-15T10:00:00Z",
+      "tbd_datetime_range_start_utc": null,
+      "tbd_datetime_range_end_utc": null,
+      "description": "",
+      "onsale": null,
+      "display_config": {
+        "checkout_seat_numbers_required": false,
+        "event_page_all_in_pricing_default": true,
+        "global_all_in_pricing_default": true,
+        "itemization_required": true,
+        "listing_detail_all_in_pricing_default": true,
+        "order_fee_required_in_aip": true,
+        "primary_sale_taxes_required_in_aip": false,
+        "secondary_sale_taxes_required_in_aip": false,
+        "secondary_marketplace_banner_required": false,
+        "above_face_value_banner_required": false,
+        "secondary_marketplace_banner_emphasis_required": false
+      },
+      "enddatetime_utc": "2026-01-15T10:00:00Z",
+      "sales_end_datetime_utc": "2026-01-15T10:00:00Z",
+      "expected_experience_end": "2026-01-15T10:00:00Z",
+      "event_promotion": null,
+      "game_number": 0,
+      "home_game_number": 0,
+      "id": 42605348,
+      "integrated": null,
+      "is_open": false,
+      "is_visible": true,
+      "is_visible_override": "UNSET",
+      "last_valid_datetime_local": "2026-01-15T10:00:00Z",
+      "last_valid_datetime_utc": "2026-01-15T10:00:00Z",
+      "links": [
+        {
+          "id": "2070290",
+          "url": "",
+          "provider": "vividseats",
+          "primary": false,
+          "display_name": "",
+          "logos": {},
+          "sales": [],
+          "link_type": "ID"
+        }
+      ],
+      "main_event_id": null,
+      "mobile_entry_enabled": false,
+      "performers": [
+        {
+          "type": "band",
+          "name": "Example name",
+          "image": "https://seatgeekimages.com/example/28249.jpg",
+          "id": 6605348,
+          "images": {
+            "huge": "https://seatgeekimages.com/example/32548.jpg",
+            "banner": "https://seatgeekimages.com/example/33511.jpg"
+          },
+          "divisions": null,
+          "links": [],
+          "has_upcoming_events": true,
+          "primary": true,
+          "stats": {
+            "event_count": 15
+          },
+          "taxonomies": [
+            {
+              "id": 6605348,
+              "name": "Example name",
+              "parent_id": null,
+              "seo_event_type": "concert",
+              "rank": 0
+            }
+          ],
+          "image_attribution": "Example image_attribution",
+          "url": "https://seatgeek.com/example/4788",
+          "score": 0.4,
+          "slug": "Example slug",
+          "home_venue_id": null,
+          "short_name": "Example short_name",
+          "num_upcoming_events": 39,
+          "colors": null,
+          "image_license": "Example image_license",
+          "popularity": 390,
+          "hidden": false,
+          "location": null,
+          "passes": [
+            {
+              "pass_type": "PARKING",
+              "name": "Example name",
+              "url": "https://seatgeek.com/example/4788",
+              "relative_url": "Example relative_url",
+              "stats": {
+                "event_count": 15
+              },
+              "images": {
+                "huge": "https://seatgeekimages.com/example/32548.jpg"
+              },
+              "image": "https://uploads-seatgeek.global.ssl.fastly.net/example/28249.jpg",
+              "image_attribution": "Example image_attribution",
+              "image_license": "Example image_license",
+              "image_rights_message": ""
+            }
+          ],
+          "tracks": [],
+          "performer_header_style_type": "PERFORMER_IMAGE",
+          "relative_url": "Example relative_url",
+          "image_rights_message": "",
+          "is_event": false,
+          "ada_dominant_image_color": "Example ada_dominant_image_color"
+        }
+      ],
+      "performer_order": [
+        {
+          "id": 6605348,
+          "ordinal": 0
+        }
+      ],
+      "playoffs": null,
+      "popularity": 0.73,
+      "relative_url": "Example relative_url: mock text standing in for the real value. Same field and type, made-up content.",
+      "schedule_status": "Example schedule_status",
+      "score": 0.3,
+      "season_stage": null,
+      "short_title": "Example short_title"
+    }
+  }
+]

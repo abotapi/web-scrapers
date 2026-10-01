@@ -1,0 +1,40 @@
+[
+  {
+    "kind": "product",
+    "productId": "121434",
+    "url": "https://www.gopuff.com/example/67127",
+    "title": "Example title",
+    "price": 5.26,
+    "currency": "USD",
+    "availability": "in_stock",
+    "quantityAvailable": 6,
+    "locationId": "7",
+    "categoryId": "txERmYDy",
+    "sizeLabel": "Example size label",
+    "hasPromotion": false,
+    "pricePerUnitUsd": 2.57,
+    "unit": "oz",
+    "snapEligible": true,
+    "imageUrl": "https://images.gopuff.com/example/80296.jpg",
+    "priceChannel": "default"
+  },
+  {
+    "kind": "product",
+    "productId": "012444",
+    "url": "https://www.gopuff.com/example/21406",
+    "title": "Example title",
+    "price": 1.95,
+    "currency": "USD",
+    "availability": "in_stock",
+    "quantityAvailable": 5,
+    "locationId": "0",
+    "categoryId": "txERmYDy",
+    "sizeLabel": "Example size label",
+    "hasPromotion": false,
+    "pricePerUnitUsd": 0.92,
+    "unit": "oz",
+    "snapEligible": true,
+    "imageUrl": "https://images.gopuff.com/example/13453.jpg",
+    "priceChannel": "default"
+  }
+]

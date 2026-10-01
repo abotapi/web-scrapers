@@ -1,0 +1,88 @@
+[
+  {
+    "type": "listing",
+    "sourceSite": "Example source site",
+    "itemId": "id6270601",
+    "id": "id26334413",
+    "title": "Example title",
+    "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
+    "categorySpecificDescription": "Example category specific description: mock text standing in for the real value. Same field and type, made-up content.",
+    "thinContent": false,
+    "price": 13995,
+    "priceCents": 9907527,
+    "priceType": "MIN_BID",
+    "city": "Oostham",
+    "countryName": "Example country name",
+    "countryAbbreviation": "BE",
+    "latitude": 44.46,
+    "longitude": 5.06,
+    "distanceMeters": -4257,
+    "location": "Example location",
+    "date": "Example date",
+    "imageUrl": "Example image url: mock text standing in for the real value. Same field and type, made-up content.",
+    "imageUrls": [
+      "Example image urls: mock text standing in for the real value. Same field and type, made-up content."
+    ],
+    "pictures": [
+      {
+        "id": 0,
+        "mediaId": "",
+        "url": "https://images.2dehands.com/example/85709.jpg",
+        "extraSmallUrl": "https://images.2dehands.com/example/51308.jpg",
+        "mediumUrl": "https://images.2dehands.com/example/8593.jpg",
+        "largeUrl": "https://images.2dehands.com/example/89013.jpg",
+        "extraExtraLargeUrl": "https://images.2dehands.com/example/54991.jpg",
+        "aspectRatio": {
+          "width": 5,
+          "height": 9
+        }
+      }
+    ],
+    "sellerId": 35628998,
+    "sellerName": "auto73",
+    "sellerVerified": false,
+    "sellerWebsiteUrl": false,
+    "sellerInformation": {
+      "sellerId": 35628998,
+      "sellerName": "auto73",
+      "showSoiUrl": true,
+      "showWebsiteUrl": false,
+      "isVerified": false
+    },
+    "categoryId": 15,
+    "priorityProduct": "DAGTOPPER",
+    "videoOnVip": false,
+    "urgencyFeatureActive": false,
+    "napAvailable": false,
+    "reserved": false,
+    "extendedAttributes": [
+      {
+        "key": "transmission",
+        "value": "Example value",
+        "values": [
+          "Example values"
+        ]
+      },
+      {
+        "key": "options",
+        "value": "Example value",
+        "values": [
+          "Example values",
+          "Example values"
+        ]
+      }
+    ],
+    "traits": [
+      "dag_topper_3days",
+      "PACKAGE_FREE"
+    ],
+    "verticals": [
+      "cars",
+      "automotive"
+    ],
+    "vipUrl": "Example vip url: mock text standing in for the real value. Same field and type, made-up content.",
+    "url": "https://www.2dehands.be/example/85709",
+    "seedValue": "bmw",
+    "pageOffset": 0
+  }
+]

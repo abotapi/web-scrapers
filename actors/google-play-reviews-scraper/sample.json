@@ -1,0 +1,40 @@
+[
+  {
+    "reviewId": "id85783336",
+    "appId": "Example app id",
+    "appName": null,
+    "country": "us",
+    "language": "en",
+    "rating": 2,
+    "body": "Example body: mock text standing in for the real value. Same field and type, made-up content.",
+    "author": "Example author",
+    "authorId": "262252294953231482772",
+    "authorImage": "https://play-lh.googleusercontent.com/example/22354.jpg",
+    "thumbsUp": 4,
+    "appVersion": "600.3.9.02.66",
+    "reviewDate": "2026-01-15T10:00:00Z",
+    "reviewTimestamp": 8232963278,
+    "reviewUrl": "https://play.google.com/example/51037",
+    "developerReply": null,
+    "developerReplyDate": null
+  },
+  {
+    "reviewId": "id51869140",
+    "appId": "Example app id",
+    "appName": null,
+    "country": "us",
+    "language": "en",
+    "rating": 3,
+    "body": "Example body: mock text standing in for the real value. Same field and type, made-up content.",
+    "author": "Example author",
+    "authorId": "502960998157685232397",
+    "authorImage": "https://play-lh.googleusercontent.com/example/57713.jpg",
+    "thumbsUp": 0,
+    "appVersion": "097.5.5.23.89",
+    "reviewDate": "2026-01-15T10:00:00Z",
+    "reviewTimestamp": 8086419871,
+    "reviewUrl": "https://play.google.com/example/35149",
+    "developerReply": null,
+    "developerReplyDate": null
+  }
+]

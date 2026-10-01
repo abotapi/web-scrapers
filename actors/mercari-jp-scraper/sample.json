@@ -1,0 +1,48 @@
+[
+  {
+    "id": "id17393939",
+    "itemType": "marketplace",
+    "url": "https://jp.mercari.com/example/96938",
+    "name": "Example name",
+    "price": 4105,
+    "currency": "JPY",
+    "status": "on_sale",
+    "itemCondition": "Example item condition",
+    "itemConditionId": "4",
+    "categoryId": "359",
+    "shippingMethodId": "39",
+    "shippingPayer": "seller",
+    "shippingPayerId": "5",
+    "thumbnail": "https://static.mercdn.net/example/16979.jpg",
+    "thumbnails": [
+      "https://static.mercdn.net/example/96380.jpg"
+    ],
+    "photos": [
+      "https://static.mercdn.net/example/72570.jpg"
+    ],
+    "isLiked": false,
+    "isNoPrice": false,
+    "createdAtTs": 5034018626,
+    "updatedAtTs": 5879713265,
+    "createdAt": "2026-01-15T10:00:00Z",
+    "updatedAt": "2026-01-15T10:00:00Z",
+    "sellerId": "606981319",
+    "shopName": null,
+    "itemBrandId": null,
+    "itemBrandName": null,
+    "description": null,
+    "metaTitle": null,
+    "metaSubtitle": null,
+    "numLikes": null,
+    "numComments": null,
+    "comments": null,
+    "hashtags": null,
+    "registeredPricesCount": null,
+    "itemConditionSubname": null,
+    "itemBrandSubName": null,
+    "categoryName": null,
+    "categoryParentId": null,
+    "categoryParentName": null,
+    "categoryRootId": null
+  }
+]

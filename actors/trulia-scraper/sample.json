@@ -1,0 +1,191 @@
+[
+  {
+    "id": "25422854",
+    "typedHomeId": "38850532_zpid",
+    "legacyId": "6380584283",
+    "compositeId": "4101770905-3909730987",
+    "url": "https://www.trulia.com/example/27123",
+    "urlPath": "Example url path",
+    "listingType": "FOR_SALE",
+    "unifiedListingType": "RESALE",
+    "propertyType": "MULTI_FAMILY",
+    "price": 3710758,
+    "formattedPrice": "Example formatted price",
+    "currencyCode": "USD",
+    "priceTypeDescription": null,
+    "streetAddress": "Example street address",
+    "city": "Example city",
+    "state": "NY",
+    "zipCode": "50619",
+    "neighborhood": "Example neighborhood",
+    "formattedLocation": "Example formatted location",
+    "latitude": 32.99,
+    "longitude": -56.13,
+    "bedrooms": 4,
+    "bedroomsFormatted": "Example bedrooms formatted",
+    "bathrooms": 9,
+    "bathroomsFormatted": "Example bathrooms formatted",
+    "floorSpace": "Example floor space",
+    "lotSize": null,
+    "currentStatus": {
+      "isRecentlySold": false,
+      "isRecentlyRented": false,
+      "isActiveForRent": false,
+      "isActiveForSale": true,
+      "isOffMarket": false,
+      "isForeclosure": false
+    },
+    "tags": [
+      "NEW",
+      "Example tags"
+    ],
+    "priceChange": null,
+    "description": {
+      "value": "Example value: mock text standing in for the real value. Same field and type, made-up content.",
+      "__typename": "Example __typename"
+    },
+    "listingAgentName": "Example listing agent name",
+    "brokerName": "Example broker name",
+    "listingSummary": [
+      "Example listing summary"
+    ],
+    "dateListed": "+1 555 0100",
+    "providerListingId": null,
+    "heroImage": "https://www.trulia.com/example/7195.jpg",
+    "photos": [
+      "https://www.trulia.com/example/90934.jpg",
+      "https://www.trulia.com/example/21701.jpg"
+    ],
+    "tracking": {
+      "listingID": "9031141049",
+      "maloneID": "2928180617",
+      "zPID": "36869203",
+      "listingState": "NY",
+      "listingCity": "Example listing city",
+      "listingNeighborhood": "Example listing neighborhood",
+      "listingZip": "26144",
+      "listingPrice": "0576804",
+      "listingStatus": "Example listing status",
+      "listingType": "resale",
+      "propertyType": "multi-family",
+      "locationLat": "16.357896",
+      "locationLon": "-94.63770",
+      "rulesApplicable": "4",
+      "isthreeDTourAvaliable": "1",
+      "ssid": "Example ssid",
+      "isAuction": "Example is auction",
+      "item": "Example item: mock text standing in for the real value. Same field and type, made-up content.",
+      "language": "en"
+    },
+    "provider": {
+      "summary": [
+        "Example summary"
+      ],
+      "extraShortSummary": null,
+      "listingSource": {
+        "logoUrl": "https://photos.zillowstatic.com/example/30036.jpg"
+      },
+      "listingAgent": {
+        "name": "Example name"
+      },
+      "broker": {
+        "name": "Example name"
+      },
+      "builder": null
+    }
+  },
+  {
+    "id": "72987006",
+    "typedHomeId": "47142811_zpid",
+    "legacyId": "1667830213",
+    "compositeId": "0229582986-6260650674",
+    "url": "https://www.trulia.com/example/29410",
+    "urlPath": "Example url path",
+    "listingType": "FOR_SALE",
+    "unifiedListingType": "RESALE",
+    "propertyType": "Example property type",
+    "price": 157080,
+    "formattedPrice": "Example formatted price",
+    "currencyCode": "USD",
+    "priceTypeDescription": null,
+    "streetAddress": "Example street address",
+    "city": "Example city",
+    "state": "NY",
+    "zipCode": "91829",
+    "neighborhood": "Example neighborhood",
+    "formattedLocation": "Example formatted location",
+    "latitude": 32.51,
+    "longitude": -56.37,
+    "bedrooms": 5,
+    "bedroomsFormatted": "Example bedrooms formatted",
+    "bathrooms": 3.92,
+    "bathroomsFormatted": "Example bathrooms formatted",
+    "floorSpace": "Example floor space",
+    "lotSize": null,
+    "currentStatus": {
+      "isRecentlySold": false,
+      "isRecentlyRented": false,
+      "isActiveForRent": false,
+      "isActiveForSale": true,
+      "isOffMarket": false,
+      "isForeclosure": false
+    },
+    "tags": [
+      "Example tags"
+    ],
+    "priceChange": null,
+    "description": {
+      "value": "Example value: mock text standing in for the real value. Same field and type, made-up content.",
+      "__typename": "Example __typename"
+    },
+    "listingAgentName": "Example listing agent name",
+    "brokerName": "Example broker name",
+    "listingSummary": [
+      "Example listing summary"
+    ],
+    "dateListed": "+1 555 0100",
+    "providerListingId": null,
+    "heroImage": "https://www.trulia.com/example/11261.jpg",
+    "photos": [
+      "https://www.trulia.com/example/14060.jpg",
+      "https://www.trulia.com/example/60526.jpg"
+    ],
+    "tracking": {
+      "listingID": "2166981455",
+      "maloneID": "8418679429",
+      "zPID": "44547911",
+      "listingState": "NY",
+      "listingCity": "Example listing city",
+      "listingNeighborhood": "Example listing neighborhood",
+      "listingZip": "45375",
+      "listingPrice": "586107",
+      "listingStatus": "Example listing status",
+      "listingType": "resale",
+      "propertyType": "Example property type",
+      "locationLat": "34.61517",
+      "locationLon": "-50.91082",
+      "rulesApplicable": "2",
+      "isthreeDTourAvaliable": "1",
+      "ssid": "Example ssid",
+      "isAuction": "Example is auction",
+      "item": "Example item: mock text standing in for the real value. Same field and type, made-up content.",
+      "language": "en"
+    },
+    "provider": {
+      "summary": [
+        "Example summary"
+      ],
+      "extraShortSummary": null,
+      "listingSource": {
+        "logoUrl": "https://photos.zillowstatic.com/example/88949.jpg"
+      },
+      "listingAgent": {
+        "name": "Example name"
+      },
+      "broker": {
+        "name": "Example name"
+      },
+      "builder": null
+    }
+  }
+]

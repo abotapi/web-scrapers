@@ -1,0 +1,51 @@
+[
+  {
+    "productId": "9637363",
+    "name": "Example name",
+    "title": "Example title",
+    "brand": "Coles",
+    "description": "Example description",
+    "size": "Example size",
+    "url": "https://www.coles.com.au/example/38824",
+    "price": 5.54,
+    "isOnSpecial": false,
+    "comparablePrice": "Example comparable price",
+    "unitPrice": 1.4,
+    "unitOfMeasure": "L",
+    "unitMeasure": "Example unit measure",
+    "isWeighted": false,
+    "currency": "AUD",
+    "isAvailable": true,
+    "availabilityType": "InStoreAndOnline",
+    "availableQuantity": 1839,
+    "retailLimit": 85,
+    "promotionalLimit": 67,
+    "ageRestricted": false,
+    "deliveryRestrictions": [
+      "Example delivery restrictions",
+      "OVN"
+    ],
+    "freshnessGuarantee": "Example freshness guarantee",
+    "aisle": "Example aisle",
+    "category": "Milk",
+    "subCategory": "Example sub category",
+    "departments": [
+      "Example departments"
+    ],
+    "departmentIds": [
+      "0392"
+    ],
+    "isOnlineOnly": false,
+    "department": "DAIRY",
+    "productClass": "Example product class",
+    "image": "https://cdn.productimages.coles.com.au/example/92593.jpg",
+    "variantCount": 59,
+    "sponsored": false,
+    "featured": false,
+    "longDescription": "Example long description: mock text standing in for the real value. Same field and type, made-up content.",
+    "gtin": "7710043668314",
+    "countryOfOrigin": "Australian",
+    "countryOfOriginStatement": "Example country of origin statement",
+    "lastUpdated": "2026-01-15T10:00:00Z"
+  }
+]

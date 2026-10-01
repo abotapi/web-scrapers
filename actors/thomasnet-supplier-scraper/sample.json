@@ -1,0 +1,363 @@
+[
+  {
+    "__typename": null,
+    "additionalInformation": null,
+    "address": {
+      "address1": "Example address1",
+      "address2": null,
+      "address3": null,
+      "city": "Example city",
+      "state": "NJ",
+      "stateName": "Example state name",
+      "zip": "21744",
+      "zip4": null,
+      "country": "USA",
+      "county": null,
+      "latitude": 44.94,
+      "longitude": -89.07
+    },
+    "ads": null,
+    "affiliatedMemberOf": null,
+    "affiliationCompanyLabel": null,
+    "affiliationContactUrl": null,
+    "affiliationFeaturedMembers": null,
+    "annualSales": "Example annual sales",
+    "brands": [
+      {
+        "name": "Example name"
+      },
+      {
+        "name": "Example name"
+      }
+    ],
+    "catalogType": "PRODUCT",
+    "certificationTotals": [
+      {
+        "type": "QUALITY",
+        "count": 1
+      },
+      {
+        "type": "DIVERSITY",
+        "count": 5
+      }
+    ],
+    "certifications": [
+      {
+        "id": 552661,
+        "code": "609",
+        "title": "Example title",
+        "type": "QUALITY",
+        "tier": "DOWNLOAD",
+        "group": "Example group",
+        "scope": "Example scope: mock text standing in for the real value. Same field and type, made-up content.",
+        "imageUrl": "https://cdn.thomasnet.com/example/29167.jpg",
+        "thumbnailUrl": "https://cdn.thomasnet.com/example/48972.jpg",
+        "url": "https://plastomatic.com/example/82092",
+        "date": "72/76/8583",
+        "isActive": false
+      },
+      {
+        "id": 419353,
+        "code": "26",
+        "title": "Example title",
+        "type": "DIVERSITY",
+        "tier": "THIRD_PARTY",
+        "group": "Example group",
+        "scope": null,
+        "imageUrl": "https://cdn.thomasnet.com/example/78550.jpg",
+        "thumbnailUrl": "https://cdn.thomasnet.com/example/65063.jpg",
+        "url": "http://web.sba.gov/example/28315",
+        "date": null,
+        "isActive": true
+      }
+    ],
+    "companyAd": null,
+    "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
+    "descriptionByCompany": null,
+    "families": [
+      {
+        "id": "540532",
+        "name": "Example name"
+      },
+      {
+        "id": "337830",
+        "name": "Example name"
+      }
+    ],
+    "heading": {
+      "headingId": "18624450",
+      "name": "Example name",
+      "naturalName": "Example natural name",
+      "familyName": "Example family name",
+      "familyId": "863047",
+      "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
+      "url": "https://plastomatic.com/example/82092"
+    },
+    "headingBrands": null,
+    "headings": null,
+    "isAdvertiser": true,
+    "isAffiliationPage": false,
+    "isClaimed": true,
+    "isMultiLocation": false,
+    "locationTypes": [
+      {
+        "id": 961,
+        "name": "Example name"
+      }
+    ],
+    "locations": null,
+    "logoTitle": "Example logo title",
+    "logoUrl": "https://cdn.thomasnet.com/example/99962.jpg",
+    "mainLocationName": null,
+    "mainLocationTgramsId": null,
+    "name": "Example name",
+    "news": [
+      {
+        "id": "93014025",
+        "headline": "Example headline: mock text standing in for the real value. Same field and type, made-up content.",
+        "summary": "Example summary: mock text standing in for the real value. Same field and type, made-up content.",
+        "pubDate": "Example pub date",
+        "image": "https://cfnewsads.thomasnet.com/example/60529.jpg",
+        "type": "FULL_STORY"
+      },
+      {
+        "id": "068475",
+        "headline": "Example headline",
+        "summary": "user37@example.com",
+        "pubDate": "Example pub date",
+        "image": "https://cfnewsads.thomasnet.com/example/99887.jpg",
+        "type": "FULL_STORY"
+      }
+    ],
+    "numberEmployees": "90-99",
+    "otherActivities": [
+      "Example other activities"
+    ],
+    "otherHeadings": null,
+    "personnel": null,
+    "premiums": null,
+    "primaryPhone": "+1 555 0100",
+    "products": [
+      {
+        "id": "3302.3048",
+        "name": "Example name",
+        "description": null,
+        "url": "http://plastomatic.thomasnet-navigator.com/example/82092",
+        "imageUrl": "https://cdn.thomasnet.com/example/29167.jpg",
+        "isCad": false,
+        "itemCount": null,
+        "itemId": null,
+        "type": "CATEGORY",
+        "products": [
+          {
+            "id": "8526.9996",
+            "name": "Example name: mock text standing in for the real value. Same field and type, made-up content.",
+            "itemId": null,
+            "itemCount": 306,
+            "type": "PRODUCT"
+          },
+          {
+            "id": "5349.6933",
+            "name": "Example name: mock text standing in for the real value. Same field and type, made-up content.",
+            "itemId": null,
+            "itemCount": 551,
+            "type": "PRODUCT"
+          }
+        ]
+      },
+      {
+        "id": "3822.5144",
+        "name": "Example name",
+        "description": null,
+        "url": "http://plastomatic.thomasnet-navigator.com/example/28315",
+        "imageUrl": "https://cdn.thomasnet.com/example/78550.jpg",
+        "isCad": false,
+        "itemCount": null,
+        "itemId": null,
+        "type": "CATEGORY",
+        "products": [
+          {
+            "id": "6602.4343",
+            "name": "Example name",
+            "itemId": null,
+            "itemCount": 2,
+            "type": "PRODUCT"
+          },
+          {
+            "id": "7603.4474",
+            "name": "Example name",
+            "itemId": null,
+            "itemCount": 46,
+            "type": "PRODUCT"
+          }
+        ]
+      }
+    ],
+    "social": null
+  },
+  {
+    "__typename": null,
+    "additionalInformation": null,
+    "address": {
+      "address1": "Example address1",
+      "address2": null,
+      "address3": null,
+      "city": "Stafford",
+      "state": "TX",
+      "stateName": "Example state name",
+      "zip": "71375",
+      "zip4": null,
+      "country": "USA",
+      "county": null,
+      "latitude": 30.22,
+      "longitude": -111.81
+    },
+    "ads": null,
+    "affiliatedMemberOf": null,
+    "affiliationCompanyLabel": null,
+    "affiliationContactUrl": null,
+    "affiliationFeaturedMembers": null,
+    "annualSales": "Example annual sales",
+    "brands": [
+      {
+        "name": "Example name"
+      }
+    ],
+    "catalogType": "PRODUCT",
+    "certificationTotals": [
+      {
+        "type": "QUALITY",
+        "count": 2
+      }
+    ],
+    "certifications": [
+      {
+        "id": 517982,
+        "code": "1",
+        "title": "Example title",
+        "type": "QUALITY",
+        "tier": "SUPPLIER_WEBSITE",
+        "group": "Example group",
+        "scope": null,
+        "imageUrl": "https://cdn.thomasnet.com/example/28494.jpg",
+        "thumbnailUrl": "https://cdn.thomasnet.com/example/43708.jpg",
+        "url": "https://kitzus-kca.com/example/94310",
+        "date": null,
+        "isActive": true
+      }
+    ],
+    "companyAd": null,
+    "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
+    "descriptionByCompany": null,
+    "families": [
+      {
+        "id": "449304",
+        "name": "Example name"
+      },
+      {
+        "id": "637958",
+        "name": "Example name"
+      }
+    ],
+    "heading": {
+      "headingId": "49205722",
+      "name": "Example name",
+      "naturalName": "Example natural name",
+      "familyName": "Example family name",
+      "familyId": "188063",
+      "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
+      "url": "https://kitzus-kca.com/example/94310"
+    },
+    "headingBrands": null,
+    "headings": null,
+    "isAdvertiser": true,
+    "isAffiliationPage": false,
+    "isClaimed": true,
+    "isMultiLocation": false,
+    "locationTypes": [
+      {
+        "id": 482,
+        "name": "Example name"
+      }
+    ],
+    "locations": null,
+    "logoTitle": "Example logo title",
+    "logoUrl": "https://cdn.thomasnet.com/example/25202.jpg",
+    "mainLocationName": null,
+    "mainLocationTgramsId": null,
+    "name": "Example name",
+    "news": null,
+    "numberEmployees": "39-91",
+    "otherActivities": [
+      "Example other activities"
+    ],
+    "otherHeadings": null,
+    "personnel": [
+      {
+        "name": "Example name",
+        "title": "Example title"
+      }
+    ],
+    "premiums": [
+      "Example premiums"
+    ],
+    "primaryPhone": "+1 555 0100",
+    "products": [
+      {
+        "id": "50233.5059",
+        "name": "Example name",
+        "description": null,
+        "url": "http://bim.kitzus-kca.com/example/94310",
+        "imageUrl": "https://cdn.thomasnet.com/example/28494.jpg",
+        "isCad": false,
+        "itemCount": null,
+        "itemId": null,
+        "type": "CATEGORY",
+        "products": [
+          {
+            "id": "36470.7068",
+            "name": "Example name",
+            "itemId": null,
+            "itemCount": null,
+            "type": "CATEGORY"
+          },
+          {
+            "id": "55120.6536",
+            "name": "Example name",
+            "itemId": null,
+            "itemCount": null,
+            "type": "CATEGORY"
+          }
+        ]
+      },
+      {
+        "id": "54093.8871",
+        "name": "Example name",
+        "description": null,
+        "url": "http://bim.kitzus-kca.com/example/10858",
+        "imageUrl": "https://cdn.thomasnet.com/example/51124.jpg",
+        "isCad": false,
+        "itemCount": null,
+        "itemId": null,
+        "type": "CATEGORY",
+        "products": [
+          {
+            "id": "96559.1273",
+            "name": "Example name",
+            "itemId": null,
+            "itemCount": 654,
+            "type": "PRODUCT"
+          },
+          {
+            "id": "23997.5676",
+            "name": "Example name",
+            "itemId": null,
+            "itemCount": 367,
+            "type": "PRODUCT"
+          }
+        ]
+      }
+    ],
+    "social": null
+  }
+]

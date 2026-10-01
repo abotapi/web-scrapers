@@ -1,0 +1,116 @@
+[
+  {
+    "articleId": "2346339330",
+    "gtin": null,
+    "ean": "4038423517921",
+    "mpn": "5050631",
+    "barcodes": [
+      {
+        "barcode": "7995651021097",
+        "isPrimary": false,
+        "type": "EAN"
+      }
+    ],
+    "name": "Example name: mock text standing in for the real value. Same field and type, made-up content.",
+    "title": "Example title: mock text standing in for the real value. Same field and type, made-up content.",
+    "brand": "Mazam",
+    "sellerType": "Example seller type",
+    "sellerName": "Example seller name",
+    "productChannel": "IMP",
+    "isMarketplace": true,
+    "condition": "New",
+    "listingStatus": "LISTEDONLINEONLY",
+    "url": "https://www.bigw.com.au/example/88077",
+    "price": 77,
+    "wasPrice": 36.71,
+    "rrp": null,
+    "saving": 11.44,
+    "savingsPercent": 96,
+    "isOnSpecial": true,
+    "unitPrice": null,
+    "currency": "AUD",
+    "priceLabel": "Example price label",
+    "priceLabelType": "Example price label type",
+    "clearance": false,
+    "onlineOnlyPromotion": false,
+    "promotions": [],
+    "paymentOptions": {
+      "afterpay": true,
+      "zip": true,
+      "layby": false
+    },
+    "rating": null,
+    "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
+    "imageUrl": "https://www.bigw.com.au/example/73660.jpg",
+    "images": [
+      "https://www.bigw.com.au/example/6053.jpg",
+      "https://www.bigw.com.au/example/36342.jpg"
+    ],
+    "category": "Example category",
+    "categories": [
+      "Example categories",
+      "Example categories"
+    ],
+    "categoryPath": "Example category path",
+    "variants": null,
+    "colours": null,
+    "sizes": null,
+    "specifications": {
+      "BrandName": "Example brand name"
+    }
+  },
+  {
+    "articleId": "3122967331",
+    "gtin": null,
+    "ean": "",
+    "mpn": "01268379",
+    "barcodes": null,
+    "name": "Example name: mock text standing in for the real value. Same field and type, made-up content.",
+    "title": "Example title: mock text standing in for the real value. Same field and type, made-up content.",
+    "brand": "Alpha",
+    "sellerType": "Example seller type",
+    "sellerName": "Example seller name",
+    "productChannel": "IMP",
+    "isMarketplace": true,
+    "condition": "New",
+    "listingStatus": "LISTEDONLINEONLY",
+    "url": "https://www.bigw.com.au/example/80328",
+    "price": 95.74,
+    "wasPrice": null,
+    "rrp": null,
+    "saving": null,
+    "savingsPercent": null,
+    "isOnSpecial": false,
+    "unitPrice": null,
+    "currency": "AUD",
+    "priceLabel": null,
+    "priceLabelType": null,
+    "clearance": false,
+    "onlineOnlyPromotion": false,
+    "promotions": [],
+    "paymentOptions": {
+      "afterpay": true,
+      "zip": true,
+      "layby": false
+    },
+    "rating": null,
+    "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
+    "imageUrl": "https://www.bigw.com.au/example/74980.jpg",
+    "images": [
+      "https://www.bigw.com.au/example/92654.jpg",
+      "https://www.bigw.com.au/example/27949.jpg"
+    ],
+    "category": "Example category",
+    "categories": [
+      "Example categories",
+      "Example categories"
+    ],
+    "categoryPath": "Example category path: mock text standing in for the real value. Same field and type, made-up content.",
+    "variants": null,
+    "colours": null,
+    "sizes": null,
+    "specifications": {
+      "BrandName": "Example brand name"
+    }
+  }
+]

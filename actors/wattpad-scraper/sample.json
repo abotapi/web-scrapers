@@ -1,0 +1,134 @@
+[
+  {
+    "storyId": "50177813",
+    "title": "Example title",
+    "url": "https://www.wattpad.com/example/42785",
+    "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
+    "coverUrl": "https://img.wattpad.com/example/96782.jpg",
+    "author": "Example author",
+    "authorUrl": "https://www.wattpad.com/example/48154",
+    "createdAt": "2026-01-15T10:00:00Z",
+    "modifiedAt": "2026-01-15T10:00:00Z",
+    "isCompleted": true,
+    "isMature": false,
+    "rating": 7,
+    "language": "English",
+    "categories": [
+      "Werewolf"
+    ],
+    "tags": [
+      "alpha",
+      "committee"
+    ],
+    "numParts": 75,
+    "readCount": 49014531,
+    "voteCount": 2783080,
+    "commentCount": 272667,
+    "wordCount": 241640,
+    "copyright": 7,
+    "firstPartId": "71689910",
+    "chapters": [
+      {
+        "chapterId": "45650544",
+        "title": "Example title",
+        "url": "https://www.wattpad.com/example/42785",
+        "wordCount": 7640,
+        "rating": null,
+        "isDraft": false,
+        "createdAt": "2026-01-15T10:00:00Z",
+        "modifiedAt": "2026-01-15T10:00:00Z",
+        "readCount": 4014531,
+        "voteCount": 83080,
+        "commentCount": 92667,
+        "photoUrl": null,
+        "videoId": "2wqxmj2anjw"
+      },
+      {
+        "chapterId": "66382926",
+        "title": "Example title",
+        "url": "https://www.wattpad.com/example/75838",
+        "wordCount": 1722,
+        "rating": null,
+        "isDraft": false,
+        "createdAt": "2026-01-15T10:00:00Z",
+        "modifiedAt": "2026-01-15T10:00:00Z",
+        "readCount": 7227284,
+        "voteCount": 86439,
+        "commentCount": 57690,
+        "photoUrl": null,
+        "videoId": "0wqxmj2anjw"
+      }
+    ],
+    "chaptersReturned": 63,
+    "scanComplete": false,
+    "scrapedAt": "2026-01-15T10:00:00Z",
+    "sourceUrl": "https://www.wattpad.com/example/45056",
+    "enrichmentSkipped": false
+  },
+  {
+    "storyId": "405431539",
+    "title": "Example title",
+    "url": "https://www.wattpad.com/example/12945",
+    "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
+    "coverUrl": "https://img.wattpad.com/example/94036.jpg",
+    "author": "Example author",
+    "authorUrl": "https://www.wattpad.com/example/40627",
+    "createdAt": "2026-01-15T10:00:00Z",
+    "modifiedAt": "2026-01-15T10:00:00Z",
+    "isCompleted": true,
+    "isMature": false,
+    "rating": 3,
+    "language": "English",
+    "categories": [
+      "Werewolf"
+    ],
+    "tags": [
+      "fantasy",
+      "lycans"
+    ],
+    "numParts": 12,
+    "readCount": 7803685,
+    "voteCount": 274275,
+    "commentCount": 81028,
+    "wordCount": 962095,
+    "copyright": 6,
+    "firstPartId": "102755115",
+    "chapters": [
+      {
+        "chapterId": "386540883",
+        "title": "Example title",
+        "url": "https://www.wattpad.com/example/12945",
+        "wordCount": 895,
+        "rating": null,
+        "isDraft": false,
+        "createdAt": "2026-01-15T10:00:00Z",
+        "modifiedAt": "2026-01-15T10:00:00Z",
+        "readCount": 603685,
+        "voteCount": 4275,
+        "commentCount": 928,
+        "photoUrl": null,
+        "videoId": null
+      },
+      {
+        "chapterId": "497406234",
+        "title": "Example title",
+        "url": "https://www.wattpad.com/example/61105",
+        "wordCount": 9468,
+        "rating": null,
+        "isDraft": false,
+        "createdAt": "2026-01-15T10:00:00Z",
+        "modifiedAt": "2026-01-15T10:00:00Z",
+        "readCount": 627297,
+        "voteCount": 7277,
+        "commentCount": 348,
+        "photoUrl": null,
+        "videoId": "3-1ihoxkiv2"
+      }
+    ],
+    "chaptersReturned": 64,
+    "scanComplete": false,
+    "scrapedAt": "2026-01-15T10:00:00Z",
+    "sourceUrl": "https://www.wattpad.com/example/11448",
+    "enrichmentSkipped": false
+  }
+]

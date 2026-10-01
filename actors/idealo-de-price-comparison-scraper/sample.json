@@ -1,0 +1,87 @@
+[
+  {
+    "id": "8031421",
+    "url": "https://www.idealo.de/example/1850",
+    "title": "Example title",
+    "brand": "Casio",
+    "category": null,
+    "gtin": null,
+    "lowPrice": 12.74,
+    "highPrice": 31,
+    "currency": "EUR",
+    "priceFormatted": "Example price formatted",
+    "offerCount": 49,
+    "rating": 3.31,
+    "reviewCount": 3641,
+    "reviewBreakdown": {
+      "1": 95,
+      "2": 59,
+      "3": 30,
+      "4": 309,
+      "5": 428
+    },
+    "previewImage": "https://cdn.idealo.com/example/58945.jpg",
+    "images": [
+      "https://cdn.idealo.com/example/43591.jpg",
+      "https://cdn.idealo.com/example/25729.jpg"
+    ],
+    "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
+    "specs": {
+      "Produkttypen": "Example produkttypen",
+      "Serie": "Example serie",
+      "wasserdicht": "Example wasserdicht",
+      "Gehäuse": "Example gehäuse",
+      "Gehäusegröße": "Example gehäusegröße",
+      "Gehäusehöhe": "Example gehäusehöhe",
+      "Funktionen": "Example funktionen",
+      "Ganggenauigkeit": "Example ganggenauigkeit",
+      "weitere Funktionen": "Example weitere  funktionen",
+      "Uhrwerk": "Example uhrwerk",
+      "Stromversorgung": "Example stromversorgung",
+      "Batterie-Typ": "cr2853",
+      "Anzeige-Eigenschaft": "Example anzeige- eigenschaft",
+      "Anzeigetypen": "Example anzeigetypen",
+      "Anzeige": "digital"
+    },
+    "offers": [
+      {
+        "merchant": "Example merchant",
+        "price": 13.76,
+        "priceFormatted": "Example price formatted",
+        "shipping": "Example shipping",
+        "total": 19.12,
+        "totalFormatted": "Example total formatted",
+        "pros": [],
+        "cons": [],
+        "url": "https://www.idealo.de/example/1850"
+      },
+      {
+        "merchant": "Example merchant",
+        "price": 24.31,
+        "priceFormatted": "Example price formatted",
+        "shipping": "Example shipping",
+        "total": 20.38,
+        "totalFormatted": "Example total formatted",
+        "pros": [],
+        "cons": [],
+        "url": "https://www.idealo.de/example/51329"
+      }
+    ],
+    "reviews": [
+      {
+        "author": "Example author",
+        "date": "56.02.58",
+        "title": null,
+        "text": "Example text: mock text standing in for the real value. Same field and type, made-up content.",
+        "rating": 2
+      },
+      {
+        "author": "Example author",
+        "date": "11.59.38",
+        "title": null,
+        "text": "Example text: mock text standing in for the real value. Same field and type, made-up content.",
+        "rating": 5
+      }
+    ]
+  }
+]

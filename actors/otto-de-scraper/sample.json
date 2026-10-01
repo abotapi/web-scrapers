@@ -1,0 +1,68 @@
+[
+  {
+    "productId": "4247590897",
+    "variationId": "5224893643",
+    "articleNumber": "19704967",
+    "name": "Example name: mock text standing in for the real value. Same field and type, made-up content.",
+    "brand": "Example brand",
+    "url": "https://www.otto.de/example/92532",
+    "image": "https://i.otto.de/example/68309.jpg",
+    "images": [
+      "https://i.otto.de/example/38997.jpg",
+      "https://i.otto.de/example/27128.jpg"
+    ],
+    "price": 1190.39,
+    "currency": "EUR",
+    "originalPrice": 6347,
+    "discountPercent": 54,
+    "isOnSpecial": true,
+    "promoLabel": "Example promo label",
+    "availability": "AVAILABLE",
+    "availabilityText": "Example availability text",
+    "rating": 4.54,
+    "reviewCount": 4,
+    "variants": [
+      {
+        "variationId": "3313893288",
+        "color": "stone",
+        "hexCode": "20099d",
+        "selected": false
+      },
+      {
+        "variationId": "5775826384",
+        "color": "taupe",
+        "hexCode": "7e7a0e",
+        "selected": false
+      }
+    ],
+    "category": null,
+    "seller": null,
+    "ean": null,
+    "gtin": null,
+    "sku": null,
+    "description": null,
+    "specs": null,
+    "breadcrumb": null,
+    "returnPolicy": null,
+    "reviews": {
+      "averageRating": 3.24,
+      "reviewCount": 4,
+      "items": [
+        {
+          "reviewId": "id19181106",
+          "rating": 5,
+          "verifiedPurchase": null,
+          "author": null,
+          "location": null,
+          "date": null,
+          "title": null,
+          "body": null,
+          "helpfulVotes": null,
+          "helpfulVotesTotal": null,
+          "variantPurchased": null,
+          "seller": null
+        }
+      ]
+    }
+  }
+]

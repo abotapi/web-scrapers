@@ -1,0 +1,88 @@
+[
+  {
+    "productId": "6519025",
+    "ean": null,
+    "url": "https://www.darty.com/example/55081",
+    "image": "https://image.darty.com/example/65639.jpg",
+    "name": "Example name",
+    "brand": "Proline",
+    "category": "Example category",
+    "price": 71.99,
+    "currency": "EUR",
+    "originalPrice": null,
+    "discountAmount": null,
+    "discountPercent": null,
+    "isOnSpecial": false,
+    "promoLabel": null,
+    "rating": 4.37,
+    "reviewCount": 99,
+    "inStock": true,
+    "condition": "new",
+    "seller": "Example seller",
+    "reviews": {
+      "averageRating": 3.19,
+      "totalReviewCount": 80,
+      "recommendPercent": 82,
+      "criteria": [
+        {
+          "name": "Example name",
+          "score": 3.63
+        },
+        {
+          "name": "Example name",
+          "score": 3.59
+        }
+      ],
+      "items": [
+        {
+          "rating": 1,
+          "title": null,
+          "body": "Example body: mock text standing in for the real value. Same field and type, made-up content.",
+          "author": "Example author",
+          "level": "Example level",
+          "postedDate": "78/26/9712",
+          "purchaseDate": "44/90/5381",
+          "purchaseStore": "Example purchase store"
+        },
+        {
+          "rating": 8,
+          "title": "Example title",
+          "body": "Example body",
+          "author": "Example author",
+          "level": "Example level",
+          "postedDate": "23/20/5835",
+          "purchaseDate": "11/81/7231",
+          "purchaseStore": null
+        }
+      ]
+    }
+  },
+  {
+    "productId": "6376603",
+    "ean": null,
+    "url": "https://www.darty.com/example/16574",
+    "image": "https://image.darty.com/example/64211.jpg",
+    "name": "Example name",
+    "brand": "Samsung",
+    "category": "Example category",
+    "price": 504.59,
+    "currency": "EUR",
+    "originalPrice": 440.99,
+    "discountAmount": 91,
+    "discountPercent": 2,
+    "isOnSpecial": true,
+    "promoLabel": "Example promo label",
+    "rating": 9,
+    "reviewCount": 4,
+    "inStock": true,
+    "condition": "new",
+    "seller": "Example seller",
+    "reviews": {
+      "averageRating": null,
+      "totalReviewCount": 0,
+      "recommendPercent": null,
+      "criteria": [],
+      "items": []
+    }
+  }
+]

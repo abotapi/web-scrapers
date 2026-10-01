@@ -1,0 +1,100 @@
+[
+  {
+    "productId": 4731326,
+    "slug": "id68685369",
+    "url": "https://www.goat.com/example/25515",
+    "name": "Example name",
+    "nickname": "Example nickname",
+    "brand": "Example brand",
+    "sku": "Example sku",
+    "colorway": "Example colorway",
+    "color": "Black",
+    "designer": "Example designer",
+    "silhouette": "Example silhouette",
+    "midsole": "Example midsole",
+    "upperMaterial": null,
+    "productCategory": "shoes",
+    "productType": "sneakers",
+    "activities": [
+      "lifestyle"
+    ],
+    "gender": "men",
+    "genders": [
+      "men"
+    ],
+    "sizeUnit": "us",
+    "sizeBrand": "air_jordan",
+    "sizeRange": [
+      5,
+      4.02
+    ],
+    "releaseDate": "2026-01-15T10:00:00Z",
+    "releaseYear": 4484,
+    "releaseMonth": 7,
+    "season": "6727",
+    "retailPrice": 431,
+    "lowestAsk": 159,
+    "instantShipLowestAsk": 952,
+    "lowestAskSource": "search_match",
+    "isUnderRetail": true,
+    "hasStock": true,
+    "status": "active",
+    "isRaffleProduct": false,
+    "isFashionProduct": false,
+    "minimumOffer": 21,
+    "maximumOffer": 6336,
+    "story": "Example story: mock text standing in for the real value. Same field and type, made-up content.",
+    "storyHtml": "Example story html: mock text standing in for the real value. Same field and type, made-up content.",
+    "imageUrl": "https://image.goat.com/example/14594.jpg",
+    "gridImageUrl": "https://image.goat.com/example/92093.jpg"
+  },
+  {
+    "productId": 3134063,
+    "slug": "id70607005",
+    "url": "https://www.goat.com/example/48460",
+    "name": "Example name: mock text standing in for the real value. Same field and type, made-up content.",
+    "nickname": "Example nickname",
+    "brand": "Example brand",
+    "sku": "Example sku",
+    "colorway": "Example colorway",
+    "color": "Pink",
+    "designer": "Example designer",
+    "silhouette": "Example silhouette",
+    "midsole": "Example midsole",
+    "upperMaterial": null,
+    "productCategory": "shoes",
+    "productType": "sneakers",
+    "activities": [
+      "lifestyle"
+    ],
+    "gender": "men",
+    "genders": [
+      "men"
+    ],
+    "sizeUnit": "us",
+    "sizeBrand": "air_jordan",
+    "sizeRange": [
+      8,
+      4.27
+    ],
+    "releaseDate": "2026-01-15T10:00:00Z",
+    "releaseYear": 4302,
+    "releaseMonth": 1,
+    "season": "0577",
+    "retailPrice": 490,
+    "lowestAsk": 243,
+    "instantShipLowestAsk": 311,
+    "lowestAskSource": "search_match",
+    "isUnderRetail": false,
+    "hasStock": true,
+    "status": "active",
+    "isRaffleProduct": false,
+    "isFashionProduct": false,
+    "minimumOffer": 18,
+    "maximumOffer": 5463,
+    "story": "Example story: mock text standing in for the real value. Same field and type, made-up content.",
+    "storyHtml": "Example story html: mock text standing in for the real value. Same field and type, made-up content.",
+    "imageUrl": "https://image.goat.com/example/72930.jpg",
+    "gridImageUrl": "https://image.goat.com/example/76042.jpg"
+  }
+]

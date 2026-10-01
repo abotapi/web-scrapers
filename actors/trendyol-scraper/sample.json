@@ -1,0 +1,73 @@
+[
+  {
+    "kind": "product",
+    "contentId": 638961128,
+    "id": 658319825,
+    "groupId": 802589059,
+    "url": "https://www.trendyol.com/example/52714",
+    "name": "Example name",
+    "brand": "Apple",
+    "brandId": 3325,
+    "category": {
+      "id": 5825,
+      "name": "Example name"
+    },
+    "price": {
+      "current": 86524,
+      "original": 74223,
+      "recommendedRetail": null,
+      "discountPercent": 0,
+      "currency": "TRY"
+    },
+    "rating": {
+      "score": 4.04,
+      "totalRatings": 2575,
+      "totalComments": 702,
+      "breakdown": null
+    },
+    "seller": {
+      "id": 425,
+      "name": "Example name"
+    },
+    "image": "https://cdn.dsmcdn.com/example/21479.jpg",
+    "images": [
+      "https://cdn.dsmcdn.com/example/6287.jpg",
+      "https://cdn.dsmcdn.com/example/10566.jpg"
+    ],
+    "stock": null,
+    "inStock": true,
+    "boutiqueId": 736495,
+    "campaignId": 421555,
+    "listingId": "id41061362",
+    "itemNumber": 5685868933,
+    "variantValue": "Example variant value",
+    "variantId": "Example variant id",
+    "freeCargo": false,
+    "fastDelivery": true,
+    "officialSeller": true,
+    "sameDayShipping": false,
+    "rushDelivery": true,
+    "hasCoupon": false,
+    "hasCodePromo": false,
+    "hasFlashSale": false,
+    "isInfluencerPreferred": false,
+    "hasReviewPhoto": true,
+    "dealBadge": null,
+    "stripBadge": null,
+    "promotions": [],
+    "stamps": {},
+    "badges": [],
+    "socialProof": [
+      {
+        "key": "Example key",
+        "value": "Example value"
+      },
+      {
+        "key": "Example key",
+        "value": "610+"
+      }
+    ],
+    "reviews": null,
+    "qna": null
+  }
+]

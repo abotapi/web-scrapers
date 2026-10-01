@@ -1,0 +1,81 @@
+[
+  {
+    "productId": "158785",
+    "ean": "3306055965600",
+    "sku": "3352425666489",
+    "name": "Example name",
+    "brand": "NIVEA",
+    "url": "https://www.rossmann.de/example/30416",
+    "price": 2.27,
+    "currency": "EUR",
+    "originalPrice": null,
+    "originalPriceCurrency": null,
+    "discountAmount": null,
+    "discountPercent": null,
+    "promotionLabel": null,
+    "isOnSpecial": false,
+    "badges": [
+      "Neu",
+      "Example badges"
+    ],
+    "disruptors": [
+      {
+        "type": "NEW",
+        "text": "Example text"
+      },
+      {
+        "type": "ADVERTISING",
+        "text": "Example text"
+      }
+    ],
+    "unitPrice": 9.55,
+    "unitPriceCurrency": "EUR",
+    "unitPriceUnit": "L",
+    "unitPriceBasisSize": 4,
+    "packagingAmount": 252,
+    "packagingUnit": "ml",
+    "rating": 4.81,
+    "reviewCount": 621,
+    "isRateable": true,
+    "image": "https://www.rossmann.de/example/18638.jpg",
+    "imageAlt": "Example image alt",
+    "stockLevelStatus": "IN_STOCK",
+    "salesChannel": "BOTH",
+    "hasPriceHidden": false,
+    "minOrderAmount": 7,
+    "maxOrderAmount": 8366090338,
+    "orderIncrement": 9,
+    "variants": [],
+    "legalNotes": [
+      {
+        "type": "WARNING_NOTES",
+        "name": "Example name",
+        "popupText": "Example popup text: mock text standing in for the real value. Same field and type, made-up content."
+      }
+    ],
+    "reviews": {
+      "averageRating": 4.85,
+      "totalReviewCount": 905,
+      "ratingDistribution": [
+        {
+          "rating": 2,
+          "count": 94
+        },
+        {
+          "rating": 8,
+          "count": 66
+        }
+      ],
+      "items": [
+        {
+          "rating": 2,
+          "title": "Example title",
+          "body": "Example body: mock text standing in for the real value. Same field and type, made-up content.",
+          "author": "Example author",
+          "date": "2026-01-15T10:00:00Z",
+          "isRecommended": null
+        }
+      ]
+    }
+  }
+]

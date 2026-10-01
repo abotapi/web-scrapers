@@ -1,0 +1,52 @@
+[
+  {
+    "id": "id10570263",
+    "type": "Example type",
+    "name": "Example name",
+    "sku": "hq6710",
+    "slug": "id23763237",
+    "colorway": "Example colorway",
+    "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
+    "availability": "Example availability",
+    "priceAmount": 45,
+    "lastSoldPrice": 227,
+    "priceCurrency": "EUR",
+    "imageUrl": "https://d18c7ngui3z54j.cloudfront.net/example/43001.jpg",
+    "url": "https://klekt.com/example/99354",
+    "brand": "Yeezy",
+    "seller": "Example seller",
+    "images": [
+      "https://d18c7ngui3z54j.cloudfront.net/example/91929.jpg",
+      "https://d18c7ngui3z54j.cloudfront.net/example/62789.jpg"
+    ],
+    "model": "872",
+    "lowestListingPrice": 803,
+    "lowestListingSize": "Example lowest listing size",
+    "detailScraped": true
+  },
+  {
+    "id": "id19545734",
+    "type": "Example type",
+    "name": "Example name",
+    "sku": "hq4121",
+    "slug": "id58396920",
+    "colorway": "BLACK",
+    "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
+    "availability": "Example availability",
+    "priceAmount": 211,
+    "lastSoldPrice": 199,
+    "priceCurrency": "EUR",
+    "imageUrl": "https://d18c7ngui3z54j.cloudfront.net/example/91305.jpg",
+    "url": "https://klekt.com/example/51757",
+    "brand": "Yeezy",
+    "seller": "Example seller",
+    "images": [
+      "https://d18c7ngui3z54j.cloudfront.net/example/57647.jpg",
+      "https://d18c7ngui3z54j.cloudfront.net/example/83449.jpg"
+    ],
+    "model": "022",
+    "lowestListingPrice": 101.97,
+    "lowestListingSize": "Example lowest listing size",
+    "detailScraped": true
+  }
+]

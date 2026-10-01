@@ -1,0 +1,66 @@
+[
+  {
+    "profileUrl": "https://www.bbb.org/example/51053",
+    "businessId": "3431-4389848058",
+    "bbbId": "7955",
+    "bbbOfficeName": "Example bbb office name",
+    "name": "Example name",
+    "alternateNames": [
+      "Example alternate names"
+    ],
+    "bbbRating": "Example bbb rating",
+    "ratingReasons": null,
+    "isAccredited": true,
+    "accreditedDate": "2026-01-15",
+    "bbbFileOpenedDate": "2026-01-15",
+    "phone": "+1 555 0100",
+    "additionalPhones": null,
+    "faxNumbers": null,
+    "email": "user13@example.com",
+    "additionalEmails": [
+      "user13@example.com",
+      "user91@example.com"
+    ],
+    "website": "https://www.tingosplumbing.com/example/45970",
+    "ownerName": "Example owner name",
+    "ownerTitle": "Example owner title",
+    "streetAddress": "Example street address",
+    "addressLine2": null,
+    "city": "Example city",
+    "stateCode": "CA",
+    "zipCode": "74920-8494",
+    "formattedAddress": "Example formatted address",
+    "countryCode": "US",
+    "latitude": 32.68,
+    "longitude": -130.13,
+    "serviceAreas": [
+      "Example service areas"
+    ],
+    "yearsInBusiness": 2,
+    "businessStartDate": "2026-01-15",
+    "incorporatedDate": "2026-01-15",
+    "businessType": "Corporation",
+    "entityType": "Corporation",
+    "numberOfEmployees": null,
+    "isOutOfBusiness": false,
+    "description": "Example description",
+    "paymentMethods": null,
+    "licenses": [
+      {
+        "licenseNumber": "7938367",
+        "expirationDate": null,
+        "notes": null,
+        "agencyName": "Example agency name",
+        "agencyPhone": "+1 555 0100"
+      },
+      {
+        "licenseNumber": "6109763",
+        "expirationDate": "2026-01-15",
+        "notes": null,
+        "agencyName": "Example agency name",
+        "agencyPhone": "+1 555 0100"
+      }
+    ],
+    "primaryCategory": "Example primary category"
+  }
+]

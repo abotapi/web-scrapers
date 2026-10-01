@@ -1,0 +1,279 @@
+[
+  {
+    "id": 12652,
+    "mediaType": "anime",
+    "url": "https://myanimelist.net/example/94659",
+    "title": "Example title",
+    "type": "TV",
+    "episodes": 11,
+    "score": 7.87,
+    "synopsisSnippet": "Example synopsis snippet: mock text standing in for the real value. Same field and type, made-up content.",
+    "titleJapanese": "Example title japanese",
+    "titleEnglish": "Example title english",
+    "synonyms": [
+      "Example synonyms"
+    ],
+    "status": "Example status",
+    "aired": "Example aired",
+    "premiered": "Example premiered",
+    "broadcast": "Example broadcast",
+    "source": "Manga",
+    "duration": "Example duration",
+    "rating": "Example rating",
+    "ranked": 47,
+    "popularity": 895,
+    "members": 795011,
+    "favorites": 8895,
+    "genres": [
+      "Adventure",
+      "Drama"
+    ],
+    "themes": [],
+    "demographics": [
+      "Example demographics"
+    ],
+    "producers": [
+      "Example producers",
+      "Example producers"
+    ],
+    "licensors": [
+      "Example licensors"
+    ],
+    "studios": [
+      "Example studios"
+    ],
+    "authors": [],
+    "serialization": [],
+    "synopsis": "Example synopsis: mock text standing in for the real value. Same field and type, made-up content.",
+    "imageUrl": "https://cdn.myanimelist.net/example/42854.jpg",
+    "scoredBy": 212558,
+    "reviewCount": 542,
+    "reviewBreakdown": {
+      "recommended": 180,
+      "mixedFeelings": 90,
+      "notRecommended": 50
+    },
+    "relatedEntries": [
+      {
+        "id": 12652,
+        "mediaType": "anime",
+        "title": "Example title",
+        "url": "https://myanimelist.net/example/94659",
+        "relation": "Example relation"
+      },
+      {
+        "id": 53284,
+        "mediaType": "anime",
+        "title": "Example title",
+        "url": "https://myanimelist.net/example/49229",
+        "relation": "Example relation"
+      }
+    ],
+    "characters": [
+      {
+        "id": 642652,
+        "name": "Example name",
+        "url": "https://myanimelist.net/example/94659",
+        "role": "Example role",
+        "imageUrl": "https://cdn.myanimelist.net/example/42854.jpg",
+        "voiceActors": [
+          {
+            "id": 12652,
+            "name": "Example name",
+            "url": "https://myanimelist.net/example/94659",
+            "language": "Japanese"
+          }
+        ]
+      },
+      {
+        "id": 323284,
+        "name": "Example name",
+        "url": "https://myanimelist.net/example/49229",
+        "role": "Example role",
+        "imageUrl": "https://cdn.myanimelist.net/example/16804.jpg",
+        "voiceActors": [
+          {
+            "id": 53284,
+            "name": "Example name",
+            "url": "https://myanimelist.net/example/49229",
+            "language": "Japanese"
+          }
+        ]
+      }
+    ],
+    "staff": [
+      {
+        "id": 12652,
+        "name": "Example name",
+        "url": "https://myanimelist.net/example/94659",
+        "role": "Example role",
+        "imageUrl": "https://cdn.myanimelist.net/example/42854.jpg"
+      },
+      {
+        "id": 53284,
+        "name": "Example name",
+        "url": "https://myanimelist.net/example/49229",
+        "role": "Example role",
+        "imageUrl": "https://cdn.myanimelist.net/example/16804.jpg"
+      }
+    ],
+    "reviews": [
+      {
+        "author": "Example author",
+        "text": "Example text: mock text standing in for the real value. Same field and type, made-up content.",
+        "url": "https://myanimelist.net/example/94659",
+        "date": "Example date",
+        "recommendation": "Example recommendation",
+        "rating": 9
+      },
+      {
+        "author": "Example author",
+        "text": "Example text: mock text standing in for the real value. Same field and type, made-up content.",
+        "url": "https://myanimelist.net/example/49229",
+        "date": "Example date",
+        "recommendation": "Example recommendation",
+        "rating": 9
+      }
+    ],
+    "openingThemes": []
+  },
+  {
+    "id": 58848,
+    "mediaType": "anime",
+    "url": "https://myanimelist.net/example/83544",
+    "title": "Example title",
+    "type": "TV",
+    "episodes": 40,
+    "score": 11.01,
+    "synopsisSnippet": "Example synopsis snippet: mock text standing in for the real value. Same field and type, made-up content.",
+    "titleJapanese": "Example title japanese",
+    "titleEnglish": "Example title english",
+    "synonyms": [
+      "Example synonyms",
+      "Example synonyms"
+    ],
+    "status": "Example status",
+    "aired": "Example aired",
+    "premiered": "Example premiered",
+    "broadcast": "Example broadcast",
+    "source": "Manga",
+    "duration": "Example duration",
+    "rating": "Example rating",
+    "ranked": 7,
+    "popularity": 80,
+    "members": 4884649,
+    "favorites": 16406,
+    "genres": [
+      "Adventure",
+      "Example genres"
+    ],
+    "themes": [],
+    "demographics": [
+      "Example demographics"
+    ],
+    "producers": [
+      "Example producers",
+      "Example producers"
+    ],
+    "licensors": [
+      "Example licensors"
+    ],
+    "studios": [
+      "Example studios"
+    ],
+    "authors": [],
+    "serialization": [],
+    "synopsis": "Example synopsis: mock text standing in for the real value. Same field and type, made-up content.",
+    "imageUrl": "https://cdn.myanimelist.net/example/22751.jpg",
+    "scoredBy": 899589,
+    "reviewCount": 7788,
+    "reviewBreakdown": {
+      "recommended": 812,
+      "mixedFeelings": 802,
+      "notRecommended": 226
+    },
+    "relatedEntries": [
+      {
+        "id": 58848,
+        "mediaType": "anime",
+        "title": "Example title",
+        "url": "https://myanimelist.net/example/83544",
+        "relation": "Example relation"
+      },
+      {
+        "id": 404479,
+        "mediaType": "manga",
+        "title": "Example title",
+        "url": "https://myanimelist.net/example/44222",
+        "relation": "Example relation"
+      }
+    ],
+    "characters": [
+      {
+        "id": 328848,
+        "name": "Example name",
+        "url": "https://myanimelist.net/example/83544",
+        "role": "Example role",
+        "imageUrl": "https://cdn.myanimelist.net/example/22751.jpg",
+        "voiceActors": [
+          {
+            "id": 58848,
+            "name": "Example name",
+            "url": "https://myanimelist.net/example/83544",
+            "language": "Japanese"
+          }
+        ]
+      },
+      {
+        "id": 404479,
+        "name": "Example name",
+        "url": "https://myanimelist.net/example/44222",
+        "role": "Example role",
+        "imageUrl": "https://cdn.myanimelist.net/example/69409.jpg",
+        "voiceActors": [
+          {
+            "id": 44479,
+            "name": "Example name",
+            "url": "https://myanimelist.net/example/44222",
+            "language": "Japanese"
+          }
+        ]
+      }
+    ],
+    "staff": [
+      {
+        "id": 58848,
+        "name": "Example name",
+        "url": "https://myanimelist.net/example/83544",
+        "role": "Example role",
+        "imageUrl": "https://cdn.myanimelist.net/example/22751.jpg"
+      },
+      {
+        "id": 44479,
+        "name": "Example name",
+        "url": "https://myanimelist.net/example/44222",
+        "role": "Example role",
+        "imageUrl": "https://cdn.myanimelist.net/example/69409.jpg"
+      }
+    ],
+    "reviews": [
+      {
+        "author": "Example author",
+        "text": "Example text: mock text standing in for the real value. Same field and type, made-up content.",
+        "url": "https://myanimelist.net/example/83544",
+        "date": "Example date",
+        "recommendation": "Example recommendation",
+        "rating": 63
+      },
+      {
+        "author": "Example author",
+        "text": "Example text: mock text standing in for the real value. Same field and type, made-up content.",
+        "url": "https://myanimelist.net/example/44222",
+        "date": "Example date",
+        "recommendation": "Example recommendation",
+        "rating": 7
+      }
+    ],
+    "openingThemes": []
+  }
+]

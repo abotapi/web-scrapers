@@ -1,0 +1,30 @@
+[
+  {
+    "ip": "6.2.9.8",
+    "country": "Example country",
+    "countryCode": "US",
+    "subdivision": null,
+    "city": null,
+    "postalCode": null,
+    "latitude": 46.06,
+    "longitude": -125.21,
+    "timezone": "Example timezone",
+    "accuracyRadius": 7999,
+    "success": true,
+    "error": null
+  },
+  {
+    "ip": "4.8.1.9",
+    "country": null,
+    "countryCode": null,
+    "subdivision": null,
+    "city": null,
+    "postalCode": null,
+    "latitude": null,
+    "longitude": null,
+    "timezone": null,
+    "accuracyRadius": null,
+    "success": false,
+    "error": "Example error: mock text standing in for the real value. Same field and type, made-up content."
+  }
+]

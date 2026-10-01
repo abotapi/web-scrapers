@@ -1,0 +1,122 @@
+[
+  {
+    "code": "971634",
+    "name": "Example name: mock text standing in for the real value. Same field and type, made-up content.",
+    "title": "Example title: mock text standing in for the real value. Same field and type, made-up content.",
+    "englishName": "Example english name: mock text standing in for the real value. Same field and type, made-up content.",
+    "url": "https://www.costco.com.au/example/13336",
+    "brand": "mbeat",
+    "price": 73.79,
+    "priceFormatted": "Example price formatted",
+    "currency": "AUD",
+    "priceMin": null,
+    "priceMax": null,
+    "priceRange": null,
+    "priceHidden": false,
+    "membershipRequired": false,
+    "averageRating": 6.14,
+    "numberOfReviews": 76,
+    "summary": null,
+    "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
+    "ingredients": null,
+    "warranty": null,
+    "returns": "Example returns: mock text standing in for the real value. Same field and type, made-up content.",
+    "categories": [
+      "Example categories",
+      "MBEAT"
+    ],
+    "breadcrumbs": [
+      "Example breadcrumbs",
+      "Example breadcrumbs"
+    ],
+    "specs": [
+      {
+        "name": "Example name",
+        "value": "mbeat"
+      },
+      {
+        "name": "Example name",
+        "value": "Example value"
+      }
+    ],
+    "productType": "ProductModel",
+    "promotions": [],
+    "images": [
+      "https://www.costco.com.au/example/16913.jpg",
+      "https://www.costco.com.au/example/28986.jpg"
+    ],
+    "stockStatus": "inStock",
+    "stockLevel": 46,
+    "isProductAvailable": false,
+    "purchasable": true,
+    "availableForPickup": false,
+    "warehouseFulfilled": false,
+    "departmentNumber": "",
+    "maxOrderQuantity": 489,
+    "minOrderQuantity": 7,
+    "requiresAgeVerification": false,
+    "hasVariants": false,
+    "searchMode": "search",
+    "wasPrice": null
+  },
+  {
+    "code": "615127",
+    "name": "Example name",
+    "title": "Example title",
+    "englishName": "Example english name",
+    "url": "https://www.costco.com.au/example/42265",
+    "brand": "SWISSWIN",
+    "price": 83.29,
+    "priceFormatted": "Example price formatted",
+    "currency": "AUD",
+    "priceMin": null,
+    "priceMax": null,
+    "priceRange": null,
+    "priceHidden": false,
+    "membershipRequired": false,
+    "averageRating": 3.68,
+    "numberOfReviews": 13,
+    "summary": null,
+    "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
+    "ingredients": null,
+    "warranty": null,
+    "returns": "Example returns: mock text standing in for the real value. Same field and type, made-up content.",
+    "categories": [
+      "Small-Pack-Items",
+      "Example categories"
+    ],
+    "breadcrumbs": [
+      "Example breadcrumbs",
+      "Example breadcrumbs"
+    ],
+    "specs": [
+      {
+        "name": "Example name",
+        "value": "Example value"
+      },
+      {
+        "name": "Example name",
+        "value": "SWISSWIN"
+      }
+    ],
+    "productType": "ProductModel",
+    "promotions": [],
+    "images": [
+      "https://www.costco.com.au/example/41168.jpg",
+      "https://www.costco.com.au/example/57589.jpg"
+    ],
+    "stockStatus": "inStock",
+    "stockLevel": 6,
+    "isProductAvailable": false,
+    "purchasable": true,
+    "availableForPickup": false,
+    "warehouseFulfilled": false,
+    "departmentNumber": "",
+    "maxOrderQuantity": 994,
+    "minOrderQuantity": 5,
+    "requiresAgeVerification": false,
+    "hasVariants": false,
+    "searchMode": "search",
+    "wasPrice": null
+  }
+]

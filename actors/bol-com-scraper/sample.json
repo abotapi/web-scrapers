@@ -1,0 +1,64 @@
+[
+  {
+    "productId": "1264678261727157",
+    "product_id": "5416475857185929",
+    "id": "6868447399919126",
+    "title": "Example title: mock text standing in for the real value. Same field and type, made-up content.",
+    "url": "https://www.bol.com/example/1503",
+    "sourceUrl": "https://www.bol.com/example/69845",
+    "type": "Product",
+    "mode": "search",
+    "brand": "Acer",
+    "category": "Example category",
+    "categories": [
+      "Example categories",
+      "Laptops"
+    ],
+    "categoryHierarchy": [
+      [
+        "Computer",
+        "Laptops"
+      ],
+      [
+        "Computer",
+        "Laptops"
+      ]
+    ],
+    "price": 633,
+    "list_price": 6209,
+    "currency": "EUR",
+    "price_currency": "EUR",
+    "discount_percentage": null,
+    "priceRange": {
+      "min": 545,
+      "max": 773
+    },
+    "buyBoxPriceRange": {
+      "min": 545,
+      "max": 773
+    },
+    "alternative_prices": [
+      640
+    ],
+    "isOnSpecial": true,
+    "originalPrice": 7901,
+    "savingsAmount": 258,
+    "savingsPercent": null,
+    "promoLabel": "Example promo label",
+    "specialsCategory": null,
+    "condition": "new",
+    "availability": "Example availability",
+    "in_stock": true,
+    "delivery": "Example delivery",
+    "delivery_text": "Example delivery_text",
+    "has_refurbished": false,
+    "has_select_deal": true,
+    "ean": null,
+    "ean13": null,
+    "gtin13": null,
+    "isbn13": null,
+    "image": null,
+    "images": null,
+    "rating": 3.1
+  }
+]

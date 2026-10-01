@@ -1,0 +1,176 @@
+[
+  {
+    "productId": "32468913",
+    "name": "Example name",
+    "brand": "Mango",
+    "section": "Example section",
+    "collection": "oi1858",
+    "model": "NADIA",
+    "category": "Example category",
+    "families": [
+      {
+        "id": "48",
+        "label": "Example label",
+        "labelEn": "Example label en"
+      }
+    ],
+    "url": "https://shop.mango.com/example/60151",
+    "defaultColorId": "36",
+    "colors": [
+      {
+        "id": "08",
+        "label": "Example label",
+        "rgb": "22,652,283",
+        "sizes": [
+          {
+            "id": "48",
+            "label": "XXS",
+            "plusSize": false
+          },
+          {
+            "id": "83",
+            "label": "XS",
+            "plusSize": false
+          }
+        ],
+        "images": [
+          {
+            "code": "Example code",
+            "url": "https://media.mango.com/example/60151.jpg",
+            "alt": "Example alt: mock text standing in for the real value. Same field and type, made-up content."
+          },
+          {
+            "code": "O1",
+            "url": "https://media.mango.com/example/7020.jpg",
+            "alt": "Example alt: mock text standing in for the real value. Same field and type, made-up content."
+          }
+        ],
+        "price": 45.35,
+        "currency": "EUR",
+        "originalPrice": 59.99,
+        "discountAmount": 43,
+        "discountPercent": 59,
+        "isOnSpecial": true,
+        "promoLabel": "Example promo label"
+      }
+    ],
+    "reviews": {
+      "averageRating": null,
+      "totalReviewCount": 0,
+      "items": []
+    },
+    "price": 45.35,
+    "currency": "EUR",
+    "originalPrice": 59.99,
+    "discountAmount": 43,
+    "discountPercent": 59,
+    "isOnSpecial": true,
+    "promoLabel": "Example promo label",
+    "image": "https://media.mango.com/example/2553.jpg"
+  },
+  {
+    "productId": "73464089",
+    "name": "Example name",
+    "brand": "Mango",
+    "section": "Example section",
+    "collection": "pv3305",
+    "model": "BETY2",
+    "category": "Example category",
+    "families": [
+      {
+        "id": "43",
+        "label": "Example label",
+        "labelEn": "Example label en"
+      }
+    ],
+    "url": "https://shop.mango.com/example/53960",
+    "defaultColorId": "86",
+    "colors": [
+      {
+        "id": "80",
+        "label": "Example label",
+        "rgb": "46,54,40",
+        "sizes": [
+          {
+            "id": "23",
+            "label": "XS",
+            "plusSize": false
+          },
+          {
+            "id": "39",
+            "label": "Example label",
+            "plusSize": false
+          }
+        ],
+        "images": [
+          {
+            "code": "O1",
+            "url": "https://media.mango.com/example/53960.jpg",
+            "alt": "Example alt: mock text standing in for the real value. Same field and type, made-up content."
+          },
+          {
+            "code": "Example code",
+            "url": "https://media.mango.com/example/43990.jpg",
+            "alt": "Example alt: mock text standing in for the real value. Same field and type, made-up content."
+          }
+        ],
+        "price": 21.31,
+        "currency": "EUR",
+        "originalPrice": 59.49,
+        "discountAmount": 58,
+        "discountPercent": 82,
+        "isOnSpecial": true,
+        "promoLabel": "REBAJAS"
+      },
+      {
+        "id": "97",
+        "label": "Example label",
+        "rgb": "325,1,79",
+        "sizes": [
+          {
+            "id": "77",
+            "label": "XXS",
+            "plusSize": false
+          },
+          {
+            "id": "57",
+            "label": "XS",
+            "plusSize": false
+          }
+        ],
+        "images": [
+          {
+            "code": "Example code",
+            "url": "https://media.mango.com/example/43990.jpg",
+            "alt": "Example alt"
+          },
+          {
+            "code": "O1",
+            "url": "https://media.mango.com/example/92184.jpg",
+            "alt": "Example alt: mock text standing in for the real value. Same field and type, made-up content."
+          }
+        ],
+        "price": 31.45,
+        "currency": "EUR",
+        "originalPrice": 37.99,
+        "discountAmount": 23,
+        "discountPercent": 51,
+        "isOnSpecial": true,
+        "promoLabel": "REBAJAS"
+      }
+    ],
+    "reviews": {
+      "averageRating": null,
+      "totalReviewCount": 0,
+      "items": []
+    },
+    "price": 21.31,
+    "currency": "EUR",
+    "originalPrice": 59.49,
+    "discountAmount": 58,
+    "discountPercent": 82,
+    "isOnSpecial": true,
+    "promoLabel": "REBAJAS",
+    "image": "https://media.mango.com/example/804.jpg"
+  }
+]

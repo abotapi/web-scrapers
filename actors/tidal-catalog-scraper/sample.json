@@ -1,0 +1,242 @@
+[
+  {
+    "id": "Example id",
+    "entityId": "4002721",
+    "recordType": "track",
+    "title": "Example title",
+    "url": "https://tidal.com/example/98555",
+    "countryCode": "US",
+    "artists": [
+      {
+        "id": 4421,
+        "name": "Example name",
+        "handle": null,
+        "type": "MAIN",
+        "picture": "id69536412"
+      }
+    ],
+    "album": {
+      "id": 1264421,
+      "title": "Example title",
+      "cover": "id16234705",
+      "vibrantColor": "Example vibrant color",
+      "videoCover": null,
+      "releaseDate": "2026-01-15"
+    },
+    "duration": 103,
+    "releaseDate": null,
+    "explicit": false,
+    "popularity": 12,
+    "numberOfTracks": null,
+    "audioQuality": "LOSSLESS",
+    "audioModes": [
+      "STEREO"
+    ],
+    "isrc": "gbduw9917044",
+    "upc": null,
+    "copyright": "Example copyright",
+    "description": null,
+    "imageUrl": null,
+    "creator": null,
+    "mixes": {
+      "TRACK_MIX": "id57884104"
+    },
+    "mixType": null,
+    "trackNumber": 9,
+    "volumeNumber": 8,
+    "sourceUrl": null,
+    "query": "Example query",
+    "sourceSection": null,
+    "tracks": [],
+    "tracksTotal": null,
+    "tracksComplete": null,
+    "raw": {
+      "id": 1264421,
+      "title": "Example title",
+      "duration": 103,
+      "replayGain": -5.6,
+      "peak": 0.73,
+      "allowStreaming": true,
+      "streamReady": true,
+      "payToStream": false,
+      "adSupportedStreamReady": true,
+      "djReady": true,
+      "stemReady": false,
+      "streamStartDate": "2026-01-15T10:00:00Z",
+      "premiumStreamingOnly": false,
+      "trackNumber": 9,
+      "volumeNumber": 8,
+      "version": null,
+      "popularity": 12,
+      "copyright": "Example copyright",
+      "bpm": 498,
+      "key": "Example key",
+      "keyScale": "MAJOR",
+      "url": "http://www.tidal.com/example/98555",
+      "isrc": "gbduw9917044",
+      "editable": false,
+      "explicit": false,
+      "audioQuality": "LOSSLESS",
+      "audioModes": [
+        "STEREO"
+      ],
+      "mediaMetadata": {
+        "tags": [
+          "LOSSLESS"
+        ]
+      },
+      "upload": false,
+      "accessType": null,
+      "spotlighted": false,
+      "ai": false,
+      "artists": [
+        {
+          "id": 4421,
+          "name": "Example name",
+          "handle": null,
+          "type": "MAIN",
+          "picture": "id69536412"
+        }
+      ],
+      "album": {
+        "id": 1264421,
+        "title": "Example title",
+        "cover": "id16234705",
+        "vibrantColor": "Example vibrant color",
+        "videoCover": null,
+        "releaseDate": "2026-01-15"
+      },
+      "mixes": {
+        "TRACK_MIX": "id57884104"
+      }
+    },
+    "scrapedAt": "2026-01-15T10:00:00Z"
+  },
+  {
+    "id": "Example id",
+    "entityId": "72998171",
+    "recordType": "track",
+    "title": "Example title",
+    "url": "https://tidal.com/example/94860",
+    "countryCode": "US",
+    "artists": [
+      {
+        "id": 8858,
+        "name": "Example name",
+        "handle": null,
+        "type": "MAIN",
+        "picture": "id86764917"
+      },
+      {
+        "id": 1725113,
+        "name": "Example name",
+        "handle": null,
+        "type": "MAIN",
+        "picture": "id56157189"
+      }
+    ],
+    "album": {
+      "id": 32075858,
+      "title": "Example title",
+      "cover": "id50245462",
+      "vibrantColor": "Example vibrant color",
+      "videoCover": null,
+      "releaseDate": "2026-01-15"
+    },
+    "duration": 360,
+    "releaseDate": null,
+    "explicit": false,
+    "popularity": 46,
+    "numberOfTracks": null,
+    "audioQuality": "LOSSLESS",
+    "audioModes": [
+      "STEREO"
+    ],
+    "isrc": "usqx32015537",
+    "upc": null,
+    "copyright": "Example copyright: mock text standing in for the real value. Same field and type, made-up content.",
+    "description": null,
+    "imageUrl": null,
+    "creator": null,
+    "mixes": {
+      "TRACK_MIX": "id22372720"
+    },
+    "mixType": null,
+    "trackNumber": 3,
+    "volumeNumber": 5,
+    "sourceUrl": null,
+    "query": "Example query",
+    "sourceSection": null,
+    "tracks": [],
+    "tracksTotal": null,
+    "tracksComplete": null,
+    "raw": {
+      "id": 32075858,
+      "title": "Example title",
+      "duration": 360,
+      "replayGain": -6.34,
+      "peak": 1.08,
+      "allowStreaming": true,
+      "streamReady": true,
+      "payToStream": false,
+      "adSupportedStreamReady": true,
+      "djReady": true,
+      "stemReady": false,
+      "streamStartDate": "2026-01-15T10:00:00Z",
+      "premiumStreamingOnly": false,
+      "trackNumber": 3,
+      "volumeNumber": 5,
+      "version": "Example version",
+      "popularity": 46,
+      "copyright": "Example copyright: mock text standing in for the real value. Same field and type, made-up content.",
+      "bpm": 685,
+      "key": "Example key",
+      "keyScale": "MINOR",
+      "url": "http://www.tidal.com/example/94860",
+      "isrc": "usqx32015537",
+      "editable": false,
+      "explicit": false,
+      "audioQuality": "LOSSLESS",
+      "audioModes": [
+        "STEREO"
+      ],
+      "mediaMetadata": {
+        "tags": [
+          "LOSSLESS"
+        ]
+      },
+      "upload": false,
+      "accessType": null,
+      "spotlighted": false,
+      "ai": false,
+      "artists": [
+        {
+          "id": 8858,
+          "name": "Example name",
+          "handle": null,
+          "type": "MAIN",
+          "picture": "id86764917"
+        },
+        {
+          "id": 1725113,
+          "name": "Example name",
+          "handle": null,
+          "type": "MAIN",
+          "picture": "id56157189"
+        }
+      ],
+      "album": {
+        "id": 32075858,
+        "title": "Example title",
+        "cover": "id50245462",
+        "vibrantColor": "Example vibrant color",
+        "videoCover": null,
+        "releaseDate": "2026-01-15"
+      },
+      "mixes": {
+        "TRACK_MIX": "id22372720"
+      }
+    },
+    "scrapedAt": "2026-01-15T10:00:00Z"
+  }
+]

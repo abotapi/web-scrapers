@@ -1,0 +1,79 @@
+[
+  {
+    "id": "78631185",
+    "name": "Example name",
+    "url": "https://www.zomato.com/example/58440",
+    "cuisines": [
+      "Example cuisines",
+      "Example cuisines"
+    ],
+    "cuisineString": "Example cuisine string",
+    "locality": {
+      "name": "Example name",
+      "address": "Example address",
+      "localityUrl": "Example locality url"
+    },
+    "costForTwoText": "Example cost for two text",
+    "costText": "Example cost text",
+    "rating": {
+      "aggregate": 5.28,
+      "text": "4.3",
+      "subtitle": "Example subtitle",
+      "votes": 4181,
+      "color": "2ba375"
+    },
+    "ratingsByVertical": {
+      "DINING": {
+        "rating": null,
+        "reviewCount": 0,
+        "subtitle": "DINING"
+      },
+      "DELIVERY": {
+        "rating": 4.31,
+        "reviewCount": 1758,
+        "subtitle": "DELIVERY"
+      }
+    },
+    "timing": {
+      "text": null,
+      "isOpenNow": null,
+      "description": [
+        {
+          "timing": "Example timing",
+          "days": "Example days"
+        }
+      ]
+    },
+    "thumbnail": "https://b.zmtcdn.com/example/78564.jpg",
+    "deliveryTime": "Example delivery time",
+    "hasOnlineOrdering": true,
+    "isServiceable": true,
+    "hasGold": null,
+    "distance": "Example distance",
+    "isPromoted": true,
+    "promoOffer": "",
+    "hasPromo": true,
+    "source": "search",
+    "detailScraped": true,
+    "statusText": "Example status text",
+    "isDeliveryOnly": true,
+    "isPermanentlyClosed": false,
+    "isTemporarilyClosed": false,
+    "isOpeningSoon": 0,
+    "address": "Example address",
+    "city": "Example city",
+    "cityId": 5,
+    "country": "India",
+    "zipcode": "",
+    "latitude": 25.2,
+    "longitude": 54.82,
+    "mapImageUrl": "https://maps.zomato.com/example/64868.jpg",
+    "isDarkKitchen": false,
+    "phones": [
+      "+1 555 0100"
+    ],
+    "chainName": "Example chain name",
+    "chainUrl": "https://www.zomato.com/example/26370",
+    "establishments": null
+  }
+]

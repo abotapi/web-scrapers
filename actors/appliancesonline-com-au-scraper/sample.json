@@ -1,0 +1,456 @@
+[
+  {
+    "productId": "126954",
+    "sku": "wgg04882au",
+    "title": "Example title",
+    "url": "https://www.appliancesonline.com.au/example/57927",
+    "brand": null,
+    "manufacturer": {
+      "name": "Example name",
+      "url": "Example url",
+      "thumbnail": "Example thumbnail",
+      "recyclingMember": true
+    },
+    "price": 5916,
+    "rrp": 1920,
+    "savings": 791,
+    "onSale": true,
+    "altPriceMsg": null,
+    "inStock": null,
+    "stockStatus": null,
+    "stockByWarehouse": null,
+    "available": true,
+    "featured": false,
+    "featuredLabel": null,
+    "ribbonType": null,
+    "popularity": null,
+    "badges": [
+      "Example badges",
+      "Example badges"
+    ],
+    "isGreenProduct": true,
+    "carePlans": [
+      {
+        "name": "Example name",
+        "price": 516,
+        "productId": 872380
+      },
+      {
+        "name": "Example name",
+        "price": 396,
+        "productId": 237482
+      }
+    ],
+    "associatedFreeProducts": null,
+    "efficiencyLabels": null,
+    "image": "https://www.appliancesonline.com.au/example/14028.jpg",
+    "images": [
+      "https://www.appliancesonline.com.au/example/5354.jpg",
+      "https://www.appliancesonline.com.au/example/88861.jpg"
+    ],
+    "media": [],
+    "dimensions": null,
+    "specs": {
+      "key Specifications": [
+        {
+          "name": "Example name",
+          "value": "Example value",
+          "url": "https://www.appliancesonline.com.au/example/57927"
+        },
+        {
+          "name": "Example name",
+          "value": "Example value",
+          "url": null
+        }
+      ],
+      "warranty": [
+        {
+          "name": "Example name",
+          "value": "Example value",
+          "url": null
+        },
+        {
+          "name": "Example name",
+          "value": "Example value",
+          "url": null
+        }
+      ],
+      "door": [
+        {
+          "name": "Example name",
+          "value": "Example value",
+          "url": null
+        }
+      ],
+      "smart Features": [
+        {
+          "name": "Example name",
+          "value": "7 ",
+          "url": null
+        }
+      ],
+      "additional Dimensions": [
+        {
+          "name": "Example name",
+          "value": "Example value",
+          "url": null
+        },
+        {
+          "name": "Example name",
+          "value": "Example value",
+          "url": null
+        }
+      ],
+      "programs": [
+        {
+          "name": "Example name",
+          "value": "Example value",
+          "url": null
+        },
+        {
+          "name": "Example name",
+          "value": "Example value: mock text standing in for the real value. Same field and type, made-up content.",
+          "url": null
+        }
+      ],
+      "energy Efficiency": [
+        {
+          "name": "Example name",
+          "value": "0 ",
+          "url": null
+        },
+        {
+          "name": "Example name",
+          "value": "357 ",
+          "url": null
+        }
+      ],
+      "water Efficiency": [
+        {
+          "name": "Example name",
+          "value": "Example value",
+          "url": null
+        },
+        {
+          "name": "Example name",
+          "value": "1.8 ",
+          "url": null
+        }
+      ],
+      "other Features": [
+        {
+          "name": "Example name",
+          "value": "Example value",
+          "url": null
+        },
+        {
+          "name": "Example name",
+          "value": "9 ",
+          "url": null
+        }
+      ],
+      "electrical Connection": [
+        {
+          "name": "Example name",
+          "value": "Example value",
+          "url": null
+        },
+        {
+          "name": "Example name",
+          "value": "Example value",
+          "url": null
+        }
+      ],
+      "country of Origin": [
+        {
+          "name": "Example name",
+          "value": "Example value",
+          "url": null
+        }
+      ],
+      "notes": [
+        {
+          "name": "Example name",
+          "value": "Example value: mock text standing in for the real value. Same field and type, made-up content.",
+          "url": null
+        }
+      ],
+      "Other": [
+        {
+          "name": "Example name",
+          "value": "0584155169444 "
+        },
+        {
+          "name": "Example name",
+          "value": "9 "
+        }
+      ]
+    },
+    "keySpecs": null,
+    "attr": null,
+    "warrantyNote": null,
+    "modelNumber": null,
+    "manufacturerNumber": null,
+    "origin": null,
+    "energyCalculatorEnabled": true,
+    "features": [
+      {
+        "title": "Example title",
+        "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
+        "imageUrl": "https://www.appliancesonline.com.au/example/58903.jpg"
+      },
+      {
+        "title": "Example title",
+        "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
+        "imageUrl": "https://www.appliancesonline.com.au/example/74752.jpg"
+      }
+    ],
+    "manuals": [
+      {
+        "title": "Example title",
+        "type": null,
+        "url": "https://www.appliancesonline.com.au/example/57927"
+      },
+      {
+        "title": "Example title",
+        "type": null,
+        "url": "https://www.appliancesonline.com.au/example/59463"
+      }
+    ],
+    "delivery": null,
+    "questions": null
+  },
+  {
+    "productId": "981118",
+    "sku": "wgh10604au",
+    "title": "Example title",
+    "url": "https://www.appliancesonline.com.au/example/43769",
+    "brand": null,
+    "manufacturer": {
+      "name": "Example name",
+      "url": "Example url",
+      "thumbnail": "Example thumbnail",
+      "recyclingMember": true
+    },
+    "price": 2162,
+    "rrp": 1327,
+    "savings": 887,
+    "onSale": true,
+    "altPriceMsg": null,
+    "inStock": null,
+    "stockStatus": null,
+    "stockByWarehouse": null,
+    "available": true,
+    "featured": false,
+    "featuredLabel": null,
+    "ribbonType": null,
+    "popularity": null,
+    "badges": [
+      "Example badges",
+      "Example badges"
+    ],
+    "isGreenProduct": false,
+    "carePlans": [
+      {
+        "name": "Example name",
+        "price": 362,
+        "productId": 245291
+      },
+      {
+        "name": "Example name",
+        "price": 515,
+        "productId": 709483
+      }
+    ],
+    "associatedFreeProducts": null,
+    "efficiencyLabels": null,
+    "image": "https://www.appliancesonline.com.au/example/62405.jpg",
+    "images": [
+      "https://www.appliancesonline.com.au/example/6771.jpg",
+      "https://www.appliancesonline.com.au/example/10340.jpg"
+    ],
+    "media": [],
+    "dimensions": null,
+    "specs": {
+      "key Specifications": [
+        {
+          "name": "Example name",
+          "value": "Example value",
+          "url": "https://www.appliancesonline.com.au/example/43769"
+        },
+        {
+          "name": "Example name",
+          "value": "Example value",
+          "url": null
+        }
+      ],
+      "warranty": [
+        {
+          "name": "Example name",
+          "value": "Example value",
+          "url": null
+        },
+        {
+          "name": "Example name",
+          "value": "Example value",
+          "url": null
+        }
+      ],
+      "door": [
+        {
+          "name": "Example name",
+          "value": "Example value",
+          "url": null
+        },
+        {
+          "name": "Example name",
+          "value": "Example value",
+          "url": null
+        }
+      ],
+      "smart Features": [
+        {
+          "name": "Example name",
+          "value": "6 ",
+          "url": null
+        },
+        {
+          "name": "Example name",
+          "value": "3 ",
+          "url": null
+        }
+      ],
+      "additional Dimensions": [
+        {
+          "name": "Example name",
+          "value": "Example value",
+          "url": null
+        }
+      ],
+      "programs": [
+        {
+          "name": "Example name",
+          "value": "Example value",
+          "url": null
+        },
+        {
+          "name": "Example name",
+          "value": "Example value: mock text standing in for the real value. Same field and type, made-up content.",
+          "url": null
+        }
+      ],
+      "energy Efficiency": [
+        {
+          "name": "Example name",
+          "value": "5.0 ",
+          "url": null
+        },
+        {
+          "name": "Example name",
+          "value": "674 ",
+          "url": null
+        }
+      ],
+      "water Efficiency": [
+        {
+          "name": "Example name",
+          "value": "Example value",
+          "url": null
+        },
+        {
+          "name": "Example name",
+          "value": "1 ",
+          "url": null
+        }
+      ],
+      "other Features": [
+        {
+          "name": "Example name",
+          "value": "6 ",
+          "url": null
+        },
+        {
+          "name": "Example name",
+          "value": "Example value: mock text standing in for the real value. Same field and type, made-up content.",
+          "url": null
+        }
+      ],
+      "safety Features": [
+        {
+          "name": "Example name",
+          "value": "6 ",
+          "url": null
+        }
+      ],
+      "electrical Connection": [
+        {
+          "name": "Example name",
+          "value": "Example value",
+          "url": null
+        },
+        {
+          "name": "Example name",
+          "value": "Example value",
+          "url": null
+        }
+      ],
+      "country of Origin": [
+        {
+          "name": "Example name",
+          "value": "Example value",
+          "url": null
+        }
+      ],
+      "noise Level": [
+        {
+          "name": "Example name",
+          "value": "Example value",
+          "url": null
+        },
+        {
+          "name": "Example name",
+          "value": "Example value",
+          "url": null
+        }
+      ],
+      "Other": [
+        {
+          "name": "Example name",
+          "value": "8215388377696 "
+        },
+        {
+          "name": "Example name",
+          "value": "Example value"
+        }
+      ]
+    },
+    "keySpecs": null,
+    "attr": null,
+    "warrantyNote": null,
+    "modelNumber": null,
+    "manufacturerNumber": null,
+    "origin": null,
+    "energyCalculatorEnabled": true,
+    "features": [
+      {
+        "title": "Example title",
+        "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
+        "imageUrl": "https://www.appliancesonline.com.au/example/31647.jpg"
+      },
+      {
+        "title": "Example title",
+        "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
+        "imageUrl": "https://www.appliancesonline.com.au/example/1120.jpg"
+      }
+    ],
+    "manuals": [
+      {
+        "title": "Example title",
+        "type": null,
+        "url": "https://www.appliancesonline.com.au/example/43769"
+      }
+    ],
+    "delivery": null,
+    "questions": null
+  }
+]

@@ -1,0 +1,67 @@
+[
+  {
+    "asin": "b65b2yp1ky",
+    "title": "Example title: mock text standing in for the real value. Same field and type, made-up content.",
+    "url": "https://www.amazon.com.au/example/76344",
+    "brand": "Amazon",
+    "price": 74,
+    "listPrice": 58,
+    "currency": "AUD",
+    "rating": 4.97,
+    "reviewsCount": 2722,
+    "ratingDistribution": {
+      "1": 8,
+      "2": 8,
+      "3": 7,
+      "4": 14,
+      "5": 45
+    },
+    "availability": "Example availability",
+    "inStock": true,
+    "features": [
+      "Example features: mock text standing in for the real value. Same field and type, made-up content.",
+      "Example features: mock text standing in for the real value. Same field and type, made-up content."
+    ],
+    "description": null,
+    "categories": null,
+    "specs": null,
+    "bestSellersRank": null,
+    "answeredQuestions": null,
+    "deliveryDate": "Example delivery date",
+    "variants": [
+      {
+        "asin": "b65b2yp1ky",
+        "attributes": [
+          "Example attributes",
+          "Example attributes"
+        ],
+        "url": "https://www.amazon.com.au/example/76344"
+      },
+      {
+        "asin": "b63b0tgjst",
+        "attributes": [
+          "Example attributes",
+          "Example attributes"
+        ],
+        "url": "https://www.amazon.com.au/example/95777"
+      }
+    ],
+    "variantDimensions": [
+      "size_name",
+      "Example variant dimensions"
+    ],
+    "seller": null,
+    "shipsFrom": null,
+    "images": [
+      "https://m.media-amazon.com/example/65423.jpg",
+      "https://m.media-amazon.com/example/93658.jpg"
+    ],
+    "thumbnailImage": "https://m.media-amazon.com/example/523.jpg",
+    "sponsored": false,
+    "promoLabel": "Example promo label",
+    "searchMode": "search",
+    "savings": 65,
+    "savingsPercent": 27,
+    "isOnSpecial": true
+  }
+]

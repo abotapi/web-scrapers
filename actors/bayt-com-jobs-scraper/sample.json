@@ -1,0 +1,43 @@
+[
+  {
+    "jobId": "4074504",
+    "url": "https://www.bayt.com/example/85502",
+    "title": "Example title",
+    "company": null,
+    "companyUrl": null,
+    "city": null,
+    "country": null,
+    "countrySlug": "uae",
+    "logo": "https://secure.b8cdn.com/example/42604.jpg",
+    "salary": "Example salary",
+    "careerLevel": "Example career level",
+    "experience": null,
+    "workStyle": null,
+    "postedDate": "Example posted date",
+    "postedTimestamp": 4786114556,
+    "isExternal": false,
+    "isAggregated": false,
+    "easyApply": false,
+    "aiSummary": "Example ai summary: mock text standing in for the real value. Same field and type, made-up content.",
+    "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
+    "descriptionHtml": "Example description html: mock text standing in for the real value. Same field and type, made-up content.",
+    "employmentType": "FULL_TIME",
+    "datePosted": "2026-01-15",
+    "validThrough": "2026-01-15T10:00:00Z",
+    "vacancies": 7,
+    "companySize": "Example company size",
+    "companyIndustry": null,
+    "jobCountryCode": "AE",
+    "directApply": false,
+    "residenceLocation": null,
+    "nationality": null,
+    "gender": null,
+    "age": null,
+    "degree": null,
+    "major": null,
+    "preferredCandidate": {
+      "careerLevel": "Example career level"
+    },
+    "scrapedAt": "2026-01-15T10:00:00Z"
+  }
+]

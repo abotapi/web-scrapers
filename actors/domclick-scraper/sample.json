@@ -1,0 +1,58 @@
+[
+  {
+    "id": "0079383321",
+    "url": "https://domclick.ru/example/67312",
+    "offerType": "flat",
+    "dealType": "sale",
+    "status": 3,
+    "isSold": false,
+    "price": 64999188,
+    "squarePrice": 147254,
+    "monthlyPayment": 660126,
+    "currency": "RUB",
+    "area": 49,
+    "rooms": 1,
+    "roomsOffered": 0,
+    "floor": 8,
+    "totalFloors": 74,
+    "buildYear": 2393,
+    "isApartment": true,
+    "address": "Example address",
+    "latitude": 61.84,
+    "longitude": 29.71,
+    "nearestSubway": "Example nearest subway",
+    "subwayWalkMinutes": 27,
+    "subways": [
+      {
+        "name": "Example name",
+        "lineColors": [
+          "Example line colors"
+        ],
+        "walkMinutes": 94,
+        "distanceKind": 1,
+        "isUnderConstruction": false,
+        "readyInYear": null
+      }
+    ],
+    "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
+    "photoCount": 80,
+    "photos": [
+      "https://img.dmclk.ru/example/30092.jpg",
+      "https://img.dmclk.ru/example/77914.jpg"
+    ],
+    "hasVideo": false,
+    "complexId": 682447,
+    "complexName": "Example complex name",
+    "complexSlug": "id79037736",
+    "buildingReleased": true,
+    "buildingEndYear": 4871,
+    "buildingEndQuarter": 4,
+    "sellerName": "Example seller name",
+    "sellerCasId": null,
+    "sellerExperience": null,
+    "sellerPhotoUrl": null,
+    "isAgent": false,
+    "isAgency": false,
+    "isSbolVerified": true
+  }
+]

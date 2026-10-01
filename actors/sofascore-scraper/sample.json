@@ -1,0 +1,647 @@
+[
+  {
+    "type": "team",
+    "id": 5685,
+    "sport": "football",
+    "name": "Example name",
+    "fullName": "Example full name",
+    "shortName": "Example short name",
+    "nameCode": "Example name code",
+    "gender": "M",
+    "national": false,
+    "ranking": null,
+    "country": "Spain",
+    "tournament": "Example tournament",
+    "tournamentId": 4,
+    "managerName": "Example manager name",
+    "venue": "Example venue",
+    "venueCity": "Madrid",
+    "venueCapacity": 31124,
+    "teamColors": {
+      "primary": "Example primary",
+      "secondary": "Example secondary",
+      "text": "Example text"
+    },
+    "foundationDate": -2297737690,
+    "logo": "https://img.sofascore.com/example/13720.jpg",
+    "url": "https://www.sofascore.com/example/53055",
+    "raw": {
+      "name": "Example name",
+      "slug": "Example slug",
+      "shortName": "Example short name",
+      "gender": "M",
+      "sport": {
+        "name": "Example name",
+        "slug": "football",
+        "id": 6
+      },
+      "category": {
+        "name": "Example name",
+        "slug": "spain",
+        "sport": {
+          "name": "Example name",
+          "slug": "football",
+          "id": 6
+        },
+        "priority": 6,
+        "country": {
+          "alpha2": "ES",
+          "alpha3": "ESP",
+          "name": "Example name",
+          "slug": "spain"
+        },
+        "id": 15,
+        "flag": "spain",
+        "alpha2": "ES",
+        "fieldTranslations": {
+          "nameTranslation": {
+            "hi": "Example hi",
+            "ar": "Example ar",
+            "bn": "Example bn",
+            "ru": "Example ru"
+          },
+          "shortNameTranslation": {}
+        },
+        "transferPeriod": [
+          {
+            "activeFrom": "06-08 93:05",
+            "activeTo": "25-36 92:60"
+          },
+          {
+            "activeFrom": "46-27 00:22",
+            "activeTo": "65-42 30:37"
+          }
+        ]
+      },
+      "tournament": {
+        "name": "Example name",
+        "slug": "laliga",
+        "category": {
+          "name": "Example name",
+          "slug": "spain",
+          "sport": {
+            "name": "Example name",
+            "slug": "football",
+            "id": 6
+          },
+          "priority": 6,
+          "country": {
+            "alpha2": "ES",
+            "alpha3": "ESP",
+            "name": "Example name",
+            "slug": "spain"
+          },
+          "id": 15,
+          "flag": "spain",
+          "alpha2": "ES",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "hi": "Example hi",
+              "ar": "Example ar",
+              "bn": "Example bn",
+              "ru": "Example ru"
+            },
+            "shortNameTranslation": {}
+          },
+          "transferPeriod": [
+            {
+              "activeFrom": "06-08 93:05",
+              "activeTo": "25-36 92:60"
+            },
+            {
+              "activeFrom": "46-27 00:22",
+              "activeTo": "65-42 30:37"
+            }
+          ]
+        },
+        "uniqueTournament": {
+          "name": "Example name",
+          "slug": "laliga",
+          "primaryColorHex": "Example primary color hex",
+          "secondaryColorHex": "Example secondary color hex",
+          "category": {
+            "name": "Example name",
+            "slug": "spain",
+            "sport": {
+              "name": "Example name",
+              "slug": "football",
+              "id": 6
+            },
+            "priority": 6,
+            "country": {
+              "alpha2": "ES",
+              "alpha3": "ESP",
+              "name": "Example name",
+              "slug": "spain"
+            },
+            "id": 15,
+            "flag": "spain",
+            "alpha2": "ES",
+            "fieldTranslations": {
+              "nameTranslation": {
+                "hi": "Example hi",
+                "ar": "Example ar",
+                "bn": "Example bn",
+                "ru": "Example ru"
+              },
+              "shortNameTranslation": {}
+            },
+            "transferPeriod": [
+              {
+                "activeFrom": "06-08 93:05",
+                "activeTo": "25-36 92:60"
+              },
+              {
+                "activeFrom": "46-27 00:22",
+                "activeTo": "65-42 30:37"
+              }
+            ]
+          },
+          "userCount": 900868,
+          "hasPerformanceGraphFeature": true,
+          "liveActivityEnabled": true,
+          "country": {},
+          "id": 6,
+          "displayInverseHomeAwayTeams": false,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "Example ar",
+              "hi": "Example hi",
+              "bn": "Example bn",
+              "ru": "Example ru"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "priority": 501,
+        "isLive": false,
+        "id": 15,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "hi": "Example hi",
+            "ar": "Example ar",
+            "bn": "Example bn",
+            "ru": "Example ru"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "primaryUniqueTournament": {
+        "name": "Example name",
+        "slug": "laliga",
+        "primaryColorHex": "Example primary color hex",
+        "secondaryColorHex": "Example secondary color hex",
+        "category": {
+          "name": "Example name",
+          "slug": "spain",
+          "sport": {
+            "name": "Example name",
+            "slug": "football",
+            "id": 6
+          },
+          "priority": 6,
+          "country": {
+            "alpha2": "ES",
+            "alpha3": "ESP",
+            "name": "Example name",
+            "slug": "spain"
+          },
+          "id": 15,
+          "flag": "spain",
+          "alpha2": "ES",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "hi": "Example hi",
+              "ar": "Example ar",
+              "bn": "Example bn",
+              "ru": "Example ru"
+            },
+            "shortNameTranslation": {}
+          },
+          "transferPeriod": [
+            {
+              "activeFrom": "06-08 93:05",
+              "activeTo": "25-36 92:60"
+            },
+            {
+              "activeFrom": "46-27 00:22",
+              "activeTo": "65-42 30:37"
+            }
+          ]
+        },
+        "userCount": 900868,
+        "hasPerformanceGraphFeature": true,
+        "liveActivityEnabled": true,
+        "country": {},
+        "id": 6,
+        "displayInverseHomeAwayTeams": false,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "Example ar",
+            "hi": "Example hi",
+            "bn": "Example bn",
+            "ru": "Example ru"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "userCount": 3600868,
+      "manager": {
+        "name": "Example name",
+        "slug": "Example slug",
+        "shortName": "Example short name",
+        "country": {
+          "alpha2": "PT",
+          "alpha3": "PRT",
+          "name": "Example name",
+          "slug": "portugal"
+        },
+        "id": 59685,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "Example ar",
+            "ru": "Example ru"
+          },
+          "shortNameTranslation": {
+            "ar": "Example ar",
+            "ru": "Example ru"
+          }
+        }
+      },
+      "venue": {
+        "city": {
+          "name": "Example name",
+          "country": {
+            "alpha2": "ES",
+            "alpha3": "ESP",
+            "name": "Example name",
+            "slug": "spain"
+          },
+          "id": 59685
+        },
+        "venueCoordinates": {
+          "latitude": 46.12,
+          "longitude": -3.02
+        },
+        "hidden": false,
+        "slug": "Example slug",
+        "name": "Example name",
+        "capacity": 16891,
+        "country": {
+          "alpha2": "ES",
+          "alpha3": "ESP",
+          "name": "Example name",
+          "slug": "spain"
+        },
+        "id": 285,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "Example ar",
+            "hi": "Example hi",
+            "bn": "Example bn",
+            "ru": "Example ru"
+          },
+          "shortNameTranslation": {}
+        },
+        "stadium": {
+          "name": "Example name",
+          "capacity": 16891
+        }
+      },
+      "nameCode": "Example name code",
+      "class": 5,
+      "disabled": false,
+      "national": false,
+      "type": 0,
+      "country": {
+        "alpha2": "ES",
+        "alpha3": "ESP",
+        "name": "Example name",
+        "slug": "spain"
+      },
+      "id": 5685,
+      "fullName": "Example full name",
+      "teamColors": {
+        "primary": "Example primary",
+        "secondary": "Example secondary",
+        "text": "Example text"
+      },
+      "foundationDateTimestamp": -6666899317,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "Example ar",
+          "bn": "Example bn",
+          "hi": "Example hi",
+          "ru": "Example ru"
+        },
+        "shortNameTranslation": {}
+      },
+      "timeActive": []
+    },
+    "pregameForm": {
+      "avgRating": "2.87",
+      "position": 1,
+      "value": "86",
+      "form": [
+        "Example form",
+        "Example form"
+      ]
+    }
+  },
+  {
+    "type": "player",
+    "id": 380090,
+    "sport": "football",
+    "name": "Example name",
+    "shortName": "Example short name",
+    "team": "Example team",
+    "teamId": 8602,
+    "position": "Example position",
+    "jerseyNumber": "26",
+    "shirtNumber": 71,
+    "height": 218,
+    "preferredFoot": "Example preferred foot",
+    "country": "France",
+    "nationality": "Example nationality",
+    "dateOfBirth": 200468668,
+    "contractUntil": 8411064930,
+    "marketValue": 345908825,
+    "marketValueCurrency": "EUR",
+    "photo": "https://img.sofascore.com/example/17058.jpg",
+    "url": "https://www.sofascore.com/example/99154",
+    "raw": {
+      "name": "Example name",
+      "slug": "Example slug",
+      "shortName": "Example short name",
+      "team": {
+        "name": "Example name",
+        "slug": "Example slug",
+        "shortName": "Example short name",
+        "gender": "M",
+        "sport": {
+          "name": "Example name",
+          "slug": "football",
+          "id": 2
+        },
+        "tournament": {
+          "name": "Example name",
+          "slug": "laliga",
+          "category": {
+            "name": "Example name",
+            "slug": "spain",
+            "sport": {
+              "name": "Example name",
+              "slug": "football",
+              "id": 2
+            },
+            "priority": 1,
+            "country": {
+              "alpha2": "ES",
+              "alpha3": "ESP",
+              "name": "Example name",
+              "slug": "spain"
+            },
+            "id": 20,
+            "flag": "spain",
+            "alpha2": "ES",
+            "fieldTranslations": {
+              "nameTranslation": {
+                "hi": "Example hi",
+                "ar": "Example ar",
+                "bn": "Example bn",
+                "ru": "Example ru"
+              },
+              "shortNameTranslation": {}
+            }
+          },
+          "uniqueTournament": {
+            "name": "Example name",
+            "slug": "laliga",
+            "primaryColorHex": "Example primary color hex",
+            "secondaryColorHex": "Example secondary color hex",
+            "category": {
+              "name": "Example name",
+              "slug": "spain",
+              "sport": {
+                "name": "Example name",
+                "slug": "football",
+                "id": 2
+              },
+              "priority": 1,
+              "country": {
+                "alpha2": "ES",
+                "alpha3": "ESP",
+                "name": "Example name",
+                "slug": "spain"
+              },
+              "id": 20,
+              "flag": "spain",
+              "alpha2": "ES",
+              "fieldTranslations": {
+                "nameTranslation": {
+                  "hi": "Example hi",
+                  "ar": "Example ar",
+                  "bn": "Example bn",
+                  "ru": "Example ru"
+                },
+                "shortNameTranslation": {}
+              }
+            },
+            "userCount": 371099,
+            "liveActivityEnabled": true,
+            "country": {},
+            "id": 2,
+            "displayInverseHomeAwayTeams": false,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "Example ar",
+                "hi": "Example hi",
+                "bn": "Example bn",
+                "ru": "Example ru"
+              },
+              "shortNameTranslation": {}
+            }
+          },
+          "priority": 253,
+          "isLive": false,
+          "id": 20,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "hi": "Example hi",
+              "ar": "Example ar",
+              "bn": "Example bn",
+              "ru": "Example ru"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "primaryUniqueTournament": {
+          "name": "Example name",
+          "slug": "laliga",
+          "primaryColorHex": "Example primary color hex",
+          "secondaryColorHex": "Example secondary color hex",
+          "category": {
+            "name": "Example name",
+            "slug": "spain",
+            "sport": {
+              "name": "Example name",
+              "slug": "football",
+              "id": 2
+            },
+            "priority": 1,
+            "country": {
+              "alpha2": "ES",
+              "alpha3": "ESP",
+              "name": "Example name",
+              "slug": "spain"
+            },
+            "id": 20,
+            "flag": "spain",
+            "alpha2": "ES",
+            "fieldTranslations": {
+              "nameTranslation": {
+                "hi": "Example hi",
+                "ar": "Example ar",
+                "bn": "Example bn",
+                "ru": "Example ru"
+              },
+              "shortNameTranslation": {}
+            }
+          },
+          "userCount": 371099,
+          "liveActivityEnabled": true,
+          "country": {},
+          "id": 2,
+          "displayInverseHomeAwayTeams": false,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "Example ar",
+              "hi": "Example hi",
+              "bn": "Example bn",
+              "ru": "Example ru"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "userCount": 6671099,
+        "nameCode": "Example name code",
+        "disabled": false,
+        "national": false,
+        "type": 0,
+        "country": {
+          "alpha2": "ES",
+          "alpha3": "ESP",
+          "name": "Example name",
+          "slug": "spain"
+        },
+        "id": 2090,
+        "teamColors": {
+          "primary": "Example primary",
+          "secondary": "Example secondary",
+          "text": "Example text"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "Example ar",
+            "bn": "Example bn",
+            "hi": "Example hi",
+            "ru": "Example ru"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "position": "Example position",
+      "positionsDetailed": [
+        "ST"
+      ],
+      "jerseyNumber": "26",
+      "height": 218,
+      "dateOfBirth": "2026-01-15T10:00:00Z",
+      "preferredFoot": "Example preferred foot",
+      "userCount": 6671099,
+      "deceased": false,
+      "gender": "M",
+      "injury": {
+        "reason": "Example reason",
+        "status": "out",
+        "expectedReturn": 95,
+        "id": 20090,
+        "startDateTimestamp": 6955905248,
+        "updateDateTimestamp": 2523125490,
+        "endDateTimestamp": 2665061247
+      },
+      "sofascoreId": "Example sofascore id",
+      "country": {
+        "alpha2": "FR",
+        "alpha3": "FRA",
+        "name": "Example name",
+        "slug": "france"
+      },
+      "id": 380090,
+      "underage": false,
+      "shirtNumber": 71,
+      "dateOfBirthTimestamp": 550886855,
+      "contractUntilTimestamp": 1420789634,
+      "proposedMarketValue": 856267178,
+      "proposedMarketValueRaw": {
+        "value": 623076402,
+        "currency": "EUR"
+      },
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "Example ar",
+          "bn": "Example bn",
+          "hi": "Example hi",
+          "ru": "Example ru"
+        },
+        "shortNameTranslation": {
+          "ar": "Example ar",
+          "bn": "Example bn",
+          "hi": "Example hi",
+          "ru": "Example ru"
+        }
+      }
+    },
+    "statistics": {
+      "statistics": [
+        {
+          "team": {
+            "name": "Example name",
+            "slug": "france",
+            "shortName": "Example short name",
+            "gender": "M",
+            "sport": {
+              "name": "Example name",
+              "slug": "football",
+              "id": 2
+            },
+            "userCount": 6671099,
+            "nameCode": "Example name code",
+            "ranking": 2,
+            "disabled": false,
+            "national": true,
+            "type": 0,
+            "id": 2090,
+            "teamColors": {
+              "primary": "Example primary",
+              "secondary": "Example secondary",
+              "text": "Example text"
+            },
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "Example ar",
+                "bn": "Example bn",
+                "hi": "Example hi",
+                "ru": "Example ru"
+              },
+              "shortNameTranslation": {}
+            }
+          },
+          "appearances": 690,
+          "goals": 19,
+          "debutTimestamp": 2466627940
+        }
+      ]
+    }
+  }
+]

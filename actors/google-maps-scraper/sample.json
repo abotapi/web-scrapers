@@ -1,0 +1,95 @@
+[
+  {
+    "placeId": "chijt_hatrrbwokrefghs5pnzwq",
+    "title": "Example title",
+    "url": "https://www.google.com/example/42345",
+    "scrapedAt": "2026-01-15T10:00:00Z",
+    "categoryName": "Example category name",
+    "address": "Example address",
+    "street": "Example street",
+    "phone": "+1 555 0100",
+    "totalScore": 4.61,
+    "reviewsCount": 7737,
+    "priceLevel": "Example price level",
+    "plusCode": "Example plus code",
+    "imageUrls": [
+      "https://lh3.googleusercontent.com/example/70219.jpg",
+      "https://lh3.googleusercontent.com/example/33911.jpg"
+    ],
+    "openingHours": [
+      {
+        "day": "Example day",
+        "hours": "Example hours"
+      },
+      {
+        "day": "Example day",
+        "hours": "Example hours"
+      }
+    ],
+    "orderLinks": [
+      {
+        "platform": "Example platform: mock text standing in for the real value. Same field and type, made-up content.",
+        "url": "Example url: mock text standing in for the real value. Same field and type, made-up content."
+      }
+    ],
+    "searchString": "restaurants",
+    "rank": 8,
+    "isAdvertisement": false,
+    "reviews": [
+      {
+        "rating": 9,
+        "reviewerName": "Example reviewer name",
+        "text": "Example text: mock text standing in for the real value. Same field and type, made-up content.",
+        "publishedAtDate": "2026-01-15T10:00:00Z",
+        "isLocalGuide": false,
+        "reviewId": "ci8dqulrqunvzenodhljrjlvt3tobvlvvxdubgwxy8vwegqwtjzsalz7wmxks2fyyxab"
+      }
+    ]
+  },
+  {
+    "placeId": "Example place id",
+    "title": "Example title",
+    "url": "https://www.google.com/example/14370",
+    "scrapedAt": "2026-01-15T10:00:00Z",
+    "categoryName": "Example category name",
+    "address": "Example address",
+    "street": "Example street",
+    "phone": "+1 555 0100",
+    "totalScore": 4.09,
+    "reviewsCount": 9233,
+    "plusCode": "Example plus code",
+    "imageUrls": [
+      "https://lh3.googleusercontent.com/example/88529.jpg",
+      "https://lh3.googleusercontent.com/example/19356.jpg"
+    ],
+    "openingHours": [
+      {
+        "day": "Example day",
+        "hours": "Example hours"
+      },
+      {
+        "day": "Example day",
+        "hours": "Example hours"
+      }
+    ],
+    "orderLinks": [
+      {
+        "platform": "Example platform: mock text standing in for the real value. Same field and type, made-up content.",
+        "url": "Example url: mock text standing in for the real value. Same field and type, made-up content."
+      }
+    ],
+    "searchString": "restaurants",
+    "rank": 8,
+    "isAdvertisement": false,
+    "reviews": [
+      {
+        "rating": 1,
+        "reviewerName": "Example reviewer name",
+        "text": "Example text: mock text standing in for the real value. Same field and type, made-up content.",
+        "publishedAtDate": "2026-01-15T10:00:00Z",
+        "isLocalGuide": false,
+        "reviewId": "ci4dqulrqunvzenodhljrjlvt0tscfnxsljlams1wvdov4fvnvdarjlxunprm2vyyxab"
+      }
+    ]
+  }
+]

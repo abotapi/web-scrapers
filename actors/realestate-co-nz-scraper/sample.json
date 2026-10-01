@@ -1,0 +1,138 @@
+[
+  {
+    "id": "41885190",
+    "listingUrl": "https://www.realestate.co.nz/example/96179",
+    "listingNo": "4706314",
+    "address": {
+      "full": "Example full",
+      "displayAddress": "Example display address",
+      "streetNumber": "2",
+      "streetName": "Example street name",
+      "suburb": "Example suburb",
+      "district": "Example district",
+      "region": "Auckland",
+      "postcode": "9182",
+      "country": "Example country",
+      "countryCode": "NZ"
+    },
+    "price": {
+      "display": "Example display",
+      "currency": "NZD",
+      "priceType": "auction",
+      "priceCode": 3
+    },
+    "features": {
+      "bedrooms": 9,
+      "bathrooms": 5,
+      "totalBathrooms": 5,
+      "ensuiteBathrooms": 0,
+      "garages": 1,
+      "carparks": 0,
+      "livingAreas": 0,
+      "landSizeInSqm": 887,
+      "landSize": {
+        "value": 820,
+        "unit": "sqm"
+      },
+      "floorAreaInSqm": 0,
+      "storeys": 0,
+      "hasPool": false
+    },
+    "propertyType": "house",
+    "sourcePropertyType": "House",
+    "listingType": "buy",
+    "listingCategoryCode": "res_sale",
+    "status": "active",
+    "heading": "Example heading",
+    "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
+    "images": [
+      {
+        "url": "https://images.realestate.co.nz/example/86841.jpg",
+        "thumbnailUrl": "https://images.realestate.co.nz/example/74275.jpg",
+        "id": 558225059,
+        "order": 5
+      },
+      {
+        "url": "https://images.realestate.co.nz/example/16535.jpg",
+        "thumbnailUrl": "https://images.realestate.co.nz/example/69418.jpg",
+        "id": 848587077,
+        "order": 6
+      }
+    ],
+    "floorPlans": [
+      {
+        "url": "https://mediaserver.realestate.co.nz/example/86841",
+        "type": "floorplan"
+      }
+    ],
+    "agents": [
+      {
+        "id": "411072",
+        "firstName": "Example first name",
+        "lastName": "Example last name",
+        "name": "Example name",
+        "phone": "+1 555 0100",
+        "email": "user38@example.com",
+        "slug": "Example slug",
+        "listingCount": 5,
+        "imageUrl": "https://images.realestate.co.nz/example/50872.jpg"
+      }
+    ],
+    "office": {
+      "id": "117",
+      "name": "Example name: mock text standing in for the real value. Same field and type, made-up content.",
+      "colloquialName": "Example colloquial name",
+      "phone": "+1 555 0100",
+      "email": "user38@example.com",
+      "websiteUrl": "https://www.bayleys.co.nz/example/2816",
+      "slug": "id71773729",
+      "brandColour": "Example brand colour",
+      "imageUrl": "https://images.realestate.co.nz/example/50872.jpg"
+    },
+    "location": {
+      "lat": -30.76,
+      "lon": 134.48
+    },
+    "openHomes": [
+      {
+        "startTime": "2026-01-15T10:00:00Z",
+        "endTime": "2026-01-15T10:00:00Z"
+      },
+      {
+        "startTime": "2026-01-15T10:00:00Z",
+        "endTime": "2026-01-15T10:00:00Z"
+      }
+    ],
+    "schools": [
+      {
+        "name": "Example name",
+        "slug": "id71773729",
+        "inZone": true,
+        "hasZone": true,
+        "distance": "Example distance"
+      },
+      {
+        "name": "Example name",
+        "slug": "Example slug",
+        "inZone": true,
+        "hasZone": true,
+        "distance": "Example distance"
+      }
+    ],
+    "auctionDate": "2026-01-15T10:00:00Z",
+    "auctionLocation": "Example auction location",
+    "publishedDate": "2026-01-15T10:00:00Z",
+    "createdDate": "2026-01-15T10:00:00Z",
+    "isFeatured": false,
+    "isShowcased": false,
+    "isNewConstruction": false,
+    "isMortgageeSale": false,
+    "isCoastalWaterfront": false,
+    "maxTenants": 0,
+    "heroImageUrl": "https://images.realestate.co.nz/example/28018.jpg",
+    "source": {
+      "portal": "Example portal",
+      "scrapedAt": "2026-01-15T10:00:00Z"
+    }
+  }
+]

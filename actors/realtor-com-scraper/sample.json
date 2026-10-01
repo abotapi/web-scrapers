@@ -1,0 +1,57 @@
+[
+  {
+    "propertyId": "3194201785",
+    "listingId": "1290755868",
+    "url": "https://www.realtor.com/example/90310",
+    "listingType": "for_sale",
+    "status": "for_sale",
+    "address": {
+      "street": "Example street",
+      "city": "Portland",
+      "state": "Oregon",
+      "stateCode": "OR",
+      "postalCode": "31547",
+      "county": "Example county",
+      "full": "Example full"
+    },
+    "coordinates": {
+      "latitude": 33.21,
+      "longitude": -127.68
+    },
+    "price": {
+      "value": 309602,
+      "display": "Example display"
+    },
+    "features": {
+      "propertyType": "single_family",
+      "bedrooms": 2,
+      "bathrooms": 3.1,
+      "sqft": 3839,
+      "lotSqft": 53251,
+      "yearBuilt": 1339,
+      "garage": 6
+    },
+    "streetViewUrl": "https://maps.googleapis.com/example/3398",
+    "countyFips": "20752",
+    "agents": [
+      {
+        "name": "Example name",
+        "type": "seller",
+        "office": "Example office",
+        "phone": "+1 555 0100"
+      }
+    ],
+    "brokerage": "Example brokerage",
+    "mlsId": "512315557",
+    "mlsName": "Example mls name",
+    "mlsType": "mls",
+    "mlsSourceId": "PROR",
+    "photos": [
+      "http://ap.rdcpix.com/example/18615.jpg",
+      "http://ap.rdcpix.com/example/20492.jpg"
+    ],
+    "photoCount": 63,
+    "listDate": "2026-01-15T10:00:00Z",
+    "scrapedAt": "2026-01-15T10:00:00Z"
+  }
+]

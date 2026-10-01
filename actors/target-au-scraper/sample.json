@@ -1,0 +1,110 @@
+[
+  {
+    "kind": "product",
+    "id": "w0007737835",
+    "name": "Example name",
+    "title": "Example title",
+    "url": "https://www.target.com.au/example/93153",
+    "baseUrl": "https://www.target.com.au/example/26850",
+    "brand": "Example brand",
+    "price": 47,
+    "wasPrice": null,
+    "onePassPrice": null,
+    "currency": "AUD",
+    "onSale": false,
+    "isOnSpecial": false,
+    "savingsAmount": null,
+    "savingsPercent": null,
+    "promoLabel": null,
+    "onlineOnlyPrice": false,
+    "clearance": false,
+    "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
+    "features": [
+      "Example features",
+      "Example features"
+    ],
+    "careInstructions": [
+      "Example care instructions",
+      "Example care instructions"
+    ],
+    "category": "Example category",
+    "breadcrumbs": [
+      "Example breadcrumbs",
+      "Example breadcrumbs"
+    ],
+    "topLevelCategory": "Women",
+    "merchDepartmentCode": 370,
+    "productType": "normal",
+    "availability": "NORMAL",
+    "groupIds": [
+      "w82633",
+      "w8336899"
+    ],
+    "colour": "Example colour",
+    "colourVariantCode": 25039325,
+    "sizeVariantCode": 33682801,
+    "inStock": true,
+    "availableOnlineQty": 0,
+    "availableStoreQty": 435,
+    "bulkyProduct": false,
+    "targetExclusive": false,
+    "onlineExclusive": false,
+    "newArrival": false,
+    "onePassExclusive": false,
+    "advFreeDeliveryEligible": true
+  },
+  {
+    "kind": "product",
+    "id": "w9138078888",
+    "name": "Example name",
+    "title": "Example title",
+    "url": "https://www.target.com.au/example/25374",
+    "baseUrl": "https://www.target.com.au/example/97960",
+    "brand": "Example brand",
+    "price": 1,
+    "wasPrice": null,
+    "onePassPrice": null,
+    "currency": "AUD",
+    "onSale": false,
+    "isOnSpecial": false,
+    "savingsAmount": null,
+    "savingsPercent": null,
+    "promoLabel": null,
+    "onlineOnlyPrice": false,
+    "clearance": false,
+    "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
+    "features": [
+      "Example features",
+      "Example features"
+    ],
+    "careInstructions": [
+      "Example care instructions",
+      "Example care instructions"
+    ],
+    "category": "Example category",
+    "breadcrumbs": [
+      "Example breadcrumbs",
+      "Example breadcrumbs"
+    ],
+    "topLevelCategory": "Men",
+    "merchDepartmentCode": 463,
+    "productType": "normal",
+    "availability": "NORMAL",
+    "groupIds": [
+      "w2620215",
+      "w9840684"
+    ],
+    "colour": "Example colour",
+    "colourVariantCode": 94252524,
+    "sizeVariantCode": 81935429,
+    "inStock": true,
+    "availableOnlineQty": 487,
+    "availableStoreQty": 594,
+    "bulkyProduct": false,
+    "targetExclusive": false,
+    "onlineExclusive": false,
+    "newArrival": true,
+    "onePassExclusive": false,
+    "advFreeDeliveryEligible": true
+  }
+]

@@ -1,0 +1,119 @@
+[
+  {
+    "source": "yandex_maps",
+    "id": "884280957701",
+    "title": "Example title",
+    "scrapedAt": "2026-01-15T10:00:00Z",
+    "searchString": "restaurants",
+    "rank": 6,
+    "url": "https://yandex.com/example/89731",
+    "address": "Example address",
+    "addressParts": {
+      "country": "Example country",
+      "locality": "Example locality",
+      "street": "Example street",
+      "house": "330"
+    },
+    "country": "Example country",
+    "categories": [
+      "Restaurant",
+      "Example categories"
+    ],
+    "phone": "+1 555 0100",
+    "phones": [
+      "+1 555 0100"
+    ],
+    "totalScore": 3.85,
+    "reviewsCount": 4,
+    "photosCount": 1,
+    "photoUrls": [
+      "https://avatars.mds.yandex.net/example/77263.jpg",
+      "https://avatars.mds.yandex.net/example/80214.jpg"
+    ],
+    "seoname": "Example seoname",
+    "reviews": [
+      {
+        "authorName": "Example author name",
+        "authorLevel": "Example author level",
+        "rating": 6,
+        "text": "Example text: mock text standing in for the real value. Same field and type, made-up content.",
+        "date": "2026-01-15T10:00:00Z"
+      },
+      {
+        "authorName": "Example author name",
+        "authorLevel": "Example author level",
+        "rating": 8,
+        "text": "Example text: mock text standing in for the real value. Same field and type, made-up content.",
+        "date": "2026-01-15T10:00:00Z"
+      }
+    ],
+    "location": {
+      "lat": 30.94,
+      "lng": -54.03
+    },
+    "workingTime": {
+      "text": "Example text: mock text standing in for the real value. Same field and type, made-up content.",
+      "openNow": true,
+      "openNowText": "Example open now text"
+    }
+  },
+  {
+    "source": "yandex_maps",
+    "id": "629489052743",
+    "title": "Example title",
+    "scrapedAt": "2026-01-15T10:00:00Z",
+    "searchString": "restaurants",
+    "rank": 5,
+    "url": "https://yandex.com/example/68292",
+    "address": "Example address",
+    "addressParts": {
+      "country": "Example country",
+      "locality": "Example locality",
+      "street": "Example street",
+      "house": "85"
+    },
+    "country": "Example country",
+    "categories": [
+      "Example categories",
+      "restaurant"
+    ],
+    "phone": "+1 555 0100",
+    "phones": [
+      "+1 555 0100",
+      "+1 555 0100"
+    ],
+    "totalScore": 4.63,
+    "reviewsCount": 3,
+    "photosCount": 36,
+    "photoUrls": [
+      "https://avatars.mds.yandex.net/example/48163.jpg",
+      "https://avatars.mds.yandex.net/example/9639.jpg"
+    ],
+    "seoname": "Example seoname",
+    "reviews": [
+      {
+        "authorName": "Example author name",
+        "authorLevel": "Example author level",
+        "rating": 8,
+        "text": "Example text: mock text standing in for the real value. Same field and type, made-up content.",
+        "date": "2026-01-15T10:00:00Z"
+      },
+      {
+        "authorName": "Example author name",
+        "authorLevel": "Example author level",
+        "rating": 9,
+        "text": "Example text: mock text standing in for the real value. Same field and type, made-up content.",
+        "date": "2026-01-15T10:00:00Z"
+      }
+    ],
+    "location": {
+      "lat": 40.7,
+      "lng": -85.83
+    },
+    "workingTime": {
+      "text": "Example text: mock text standing in for the real value. Same field and type, made-up content.",
+      "openNow": true,
+      "openNowText": "Example open now text"
+    }
+  }
+]

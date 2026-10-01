@@ -1,0 +1,164 @@
+[
+  {
+    "id": "58033799",
+    "url": "https://dubai.dubizzle.com/example/618",
+    "title": "Example title",
+    "price": 5692374,
+    "currency": "AED",
+    "section": "Example section",
+    "categorySlug": "apartment",
+    "bedrooms": 9,
+    "bathrooms": 6,
+    "area": 604,
+    "areaUnit": "sqft",
+    "city": "Dubai",
+    "neighborhood": [
+      "Example neighborhood",
+      "Example neighborhood"
+    ],
+    "latitude": 30.77,
+    "longitude": 57.99,
+    "isVerified": true,
+    "agentName": "Example agent name",
+    "agencyName": null,
+    "phoneNumber": null,
+    "whatsapp": null,
+    "addedOn": 5259380254,
+    "furnished": false,
+    "completionStatus": "off_plan",
+    "hasDldHistory": false,
+    "propertyReference": "Example property reference",
+    "shortUrl": "https://dubizzle.com/example/97587",
+    "photosCount": 68,
+    "isPremium": true,
+    "raw": {
+      "highlighted_ad": false,
+      "furnished": false,
+      "photos": [
+        {
+          "main": "https://dbz-images.dubizzle.com/example/45215.jpg",
+          "thumb": "https://dbz-images.dubizzle.com/example/28534.jpg",
+          "thumb_retina": "https://dbz-images.dubizzle.com/example/40456.jpg"
+        },
+        {
+          "main": "https://dbz-images.dubizzle.com/example/12821.jpg",
+          "thumb": "https://dbz-images.dubizzle.com/example/37073.jpg",
+          "thumb_retina": "https://dbz-images.dubizzle.com/example/95750.jpg"
+        }
+      ],
+      "handover_date": "Example handover_date",
+      "promoted": false,
+      "building": {
+        "id": 52846,
+        "name": {
+          "en": "Example en",
+          "ar": "Example ar"
+        }
+      },
+      "sale_type": {
+        "en": "Example en",
+        "ar": "Example ar",
+        "filter": "NW"
+      },
+      "can_chat": false,
+      "featured_listing": false,
+      "_geoloc": {
+        "lat": 67.93,
+        "lng": 18.76
+      },
+      "bedrooms": 9,
+      "is_developer_listing": false,
+      "has_tour_url": false,
+      "category_id": 64,
+      "property_reference": "Example property_reference",
+      "is_verified_user": false,
+      "photos_count": 88,
+      "agent": {
+        "id": 52846,
+        "slug": "id8723921",
+        "logo": "https://dbz-images.dubizzle.com/example/83438.jpg",
+        "name": {
+          "en": "Example en",
+          "ar": "Example ar"
+        }
+      },
+      "tour_url": "",
+      "city": {
+        "id": 7,
+        "name": {
+          "en": "Example en",
+          "ar": "Example ar"
+        }
+      },
+      "video_url": "",
+      "area_prime_slot_id": null,
+      "id": 31822846,
+      "has_dld_history": false,
+      "absolute_url": {
+        "en": "https://dubai.dubizzle.com/example/99858",
+        "ar": "https://dubai.dubizzle.com/example/63465"
+      },
+      "price": 5692374,
+      "has_video_url": false,
+      "is_verified": true,
+      "completion_status": "off_plan",
+      "bathrooms": 6,
+      "short_url": "https://dubizzle.com/example/28122",
+      "uuid": "id37663489",
+      "chat_enabled": false,
+      "property_info": [
+        {
+          "label": {
+            "en": "Example en",
+            "ar": "Example ar"
+          },
+          "value": {
+            "en": "Example en",
+            "ar": "Example ar"
+          },
+          "id": "property_type"
+        },
+        {
+          "label": {
+            "en": "Example en",
+            "ar": "Example ar"
+          },
+          "value": {
+            "en": "Example en",
+            "ar": "Example ar"
+          },
+          "id": "purpose"
+        }
+      ],
+      "is_price_hidden": false,
+      "has_sms_number": true,
+      "name": {
+        "en": "Example en",
+        "ar": "Example ar: mock text standing in for the real value. Same field and type, made-up content."
+      },
+      "amount_paid": null,
+      "agent_profile": {
+        "id": 322846,
+        "slug": "id8723921",
+        "name": {
+          "en": "Example en",
+          "ar": "Example ar"
+        },
+        "profile_pic": "https://dbz-images.dubizzle.com/example/87404.jpg",
+        "profile_completed": true,
+        "is_emirati_agent": false
+      },
+      "sale_type_2": {
+        "en": "Example en",
+        "ar": "Example ar",
+        "filter": [
+          "NW"
+        ],
+        "badge": "NW"
+      }
+    },
+    "recordType": "listing",
+    "detailMissing": false,
+    "scrapedAt": "2026-01-15T10:00:00Z"
+  }
+]

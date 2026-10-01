@@ -1,0 +1,69 @@
+[
+  {
+    "listingId": "9263200277",
+    "title": "Example title: mock text standing in for the real value. Same field and type, made-up content.",
+    "url": "https://www.etsy.com/example/43631",
+    "shopId": "30936051",
+    "shopName": "Example shop name",
+    "shopUrl": "https://www.etsy.com/example/11341",
+    "categoryPath": [
+      "Jewelry",
+      "Necklaces"
+    ],
+    "price": 150.54,
+    "currency": "USD",
+    "originalPrice": 642,
+    "discountPercentage": 20,
+    "onSale": true,
+    "availability": "in_stock",
+    "quantityAvailable": 3,
+    "images": [
+      "https://i.etsystatic.com/example/33521.jpg",
+      "https://i.etsystatic.com/example/25172.jpg"
+    ],
+    "videoUrl": "https://v.etsystatic.com/example/63651",
+    "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
+    "materials": [
+      "Example materials",
+      "Example materials"
+    ],
+    "shippingOrigin": {
+      "@type": "DefinedRegion",
+      "addressCountry": "Example address country"
+    },
+    "rating": 9,
+    "reviewCount": 826,
+    "ratingBreakdown": {
+      "itemQuality": 3.92,
+      "shipping": 9,
+      "customerService": 3.77,
+      "buyersRecommend": 41
+    },
+    "reviews": [
+      {
+        "reviewId": "7101787012",
+        "author": "Example author",
+        "rating": 9,
+        "date": "Example date",
+        "body": "Example body: mock text standing in for the real value. Same field and type, made-up content.",
+        "photos": [],
+        "helpfulCount": null,
+        "variantContext": null
+      },
+      {
+        "reviewId": "6760461677",
+        "author": "id61859098",
+        "rating": 2,
+        "date": "Example date",
+        "body": "Example body: mock text standing in for the real value. Same field and type, made-up content.",
+        "photos": [
+          "https://i.etsystatic.com/example/55043.jpg"
+        ],
+        "helpfulCount": null,
+        "variantContext": null
+      }
+    ],
+    "variations": [],
+    "searchMode": "search"
+  }
+]

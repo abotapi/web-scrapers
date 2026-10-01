@@ -1,0 +1,55 @@
+[
+  {
+    "productId": "58541807",
+    "name": "Example name",
+    "brand": "Zara",
+    "reference": "33922731-i7169",
+    "section": "WOMAN",
+    "family": "VESTIDO",
+    "subfamily": "Example subfamily",
+    "kind": "Wear",
+    "description": "",
+    "url": "https://www.zara.com/example/208",
+    "currency": "EUR",
+    "defaultColorId": "002",
+    "colors": [
+      {
+        "id": "887",
+        "name": "Example name",
+        "hexColor": "Example hex color",
+        "discernProductId": 700558918,
+        "availability": "in_stock",
+        "images": [
+          {
+            "url": "https://static.zara.net/example/208",
+            "width": 9969,
+            "height": 1221,
+            "kind": "other"
+          },
+          {
+            "url": "https://static.zara.net/example/21326",
+            "width": 8756,
+            "height": 8311,
+            "kind": "other"
+          }
+        ],
+        "sizes": [],
+        "currency": "EUR",
+        "price": 47.94,
+        "oldPrice": null,
+        "originalPrice": null,
+        "discountPercent": null,
+        "isOnSale": false
+      }
+    ],
+    "compositions": null,
+    "reviews": [],
+    "price": 47.94,
+    "oldPrice": null,
+    "originalPrice": null,
+    "discountPercent": null,
+    "isOnSale": false,
+    "availability": "in_stock",
+    "image": "https://static.zara.net/example/53903.jpg"
+  }
+]

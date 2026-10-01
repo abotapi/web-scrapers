@@ -1,0 +1,276 @@
+[
+  {
+    "stationId": "73454",
+    "name": "3-eleven",
+    "url": "https://www.gasbuddy.com/example/14242",
+    "brand": "9-eleven",
+    "brandId": "24",
+    "brandLogoUrl": "https://images.gasbuddy.io/example/94870.jpg",
+    "allBrands": [
+      "5-eleven",
+      "4-eleven"
+    ],
+    "addressLine1": "Example address line1",
+    "addressLine2": null,
+    "city": "Austin",
+    "state": "TX",
+    "postalCode": "73410",
+    "country": "US",
+    "latitude": 34.82,
+    "longitude": -71.35,
+    "phone": "+1 555 0100",
+    "distance": null,
+    "distanceMiles": null,
+    "openStatus": "open",
+    "openingHours": "89/5",
+    "nextOpenAt": null,
+    "nextCloseAt": null,
+    "amenities": [
+      "Example amenities",
+      "Example amenities"
+    ],
+    "amenityIds": [
+      "c_store",
+      "pay_at_pump"
+    ],
+    "fuels": [
+      "regular_gas",
+      "midgrade_gas"
+    ],
+    "prices": [
+      {
+        "fuelType": "regular",
+        "fuelProduct": "regular_gas",
+        "label": "Example label",
+        "cashPrice": null,
+        "cashPostedAt": null,
+        "cashReportedBy": null,
+        "creditPrice": 2.93,
+        "creditPostedAt": "2026-01-15T10:00:00Z",
+        "creditReportedBy": "Example credit reported by",
+        "formattedPrice": "Example formatted price",
+        "memberDiscount": 0
+      },
+      {
+        "fuelType": "midgrade",
+        "fuelProduct": "midgrade_gas",
+        "label": "Example label",
+        "cashPrice": null,
+        "cashPostedAt": null,
+        "cashReportedBy": null,
+        "creditPrice": 5.37,
+        "creditPostedAt": "2026-01-15T10:00:00Z",
+        "creditReportedBy": "Example credit reported by",
+        "formattedPrice": "Example formatted price",
+        "memberDiscount": 0
+      }
+    ],
+    "lowestPrice": 3.01,
+    "lowestPriceFuelType": "regular",
+    "lastPriceReportedAt": "2026-01-15T10:00:00Z",
+    "lastPriceReportedBy": "Example last price reported by",
+    "priceUnit": "Example price unit",
+    "currency": "USD",
+    "starRating": 4.64,
+    "ratingsCount": 75,
+    "reviewCount": null,
+    "reviews": [],
+    "topSpotters": [
+      {
+        "name": "id82145777",
+        "reportCount": 4,
+        "streakDays": 63
+      },
+      {
+        "name": "id35466725",
+        "reportCount": 7,
+        "streakDays": 0
+      }
+    ],
+    "priceTrend": [
+      {
+        "areaName": "Example area name",
+        "country": "US",
+        "todayAverage": 3.87,
+        "todayLow": 4.47,
+        "direction": "rising"
+      },
+      {
+        "areaName": "Example area name",
+        "country": "US",
+        "todayAverage": 3.79,
+        "todayLow": 2.19,
+        "direction": "flat"
+      }
+    ],
+    "offers": [
+      {
+        "offerId": "h277024-08-05-65-8-4-5-7-7-heki9wmbpr4rbekxcfnnurv",
+        "highlight": "Example highlight",
+        "types": [
+          "gasbuddy"
+        ],
+        "appliesTo": [
+          "banner",
+          "strike"
+        ],
+        "discounts": [
+          {
+            "grades": [
+              "regular_gas"
+            ],
+            "highlight": "Example highlight",
+            "memberDiscount": "6.18",
+            "receiptDiscount": null
+          },
+          {
+            "grades": [
+              "midgrade_gas"
+            ],
+            "highlight": "Example highlight",
+            "memberDiscount": "8.35",
+            "receiptDiscount": null
+          }
+        ]
+      }
+    ],
+    "cardPaymentAvailable": true
+  },
+  {
+    "stationId": "48712",
+    "name": "9-eleven",
+    "url": "https://www.gasbuddy.com/example/2340",
+    "brand": "8-eleven",
+    "brandId": "39",
+    "brandLogoUrl": "https://images.gasbuddy.io/example/94027.jpg",
+    "allBrands": [
+      "1-eleven",
+      "7-eleven"
+    ],
+    "addressLine1": "Example address line1",
+    "addressLine2": null,
+    "city": "Austin",
+    "state": "TX",
+    "postalCode": "35129",
+    "country": "US",
+    "latitude": 34.52,
+    "longitude": -72.33,
+    "phone": "+1 555 0100",
+    "distance": null,
+    "distanceMiles": null,
+    "openStatus": "open",
+    "openingHours": "45/8",
+    "nextOpenAt": null,
+    "nextCloseAt": null,
+    "amenities": [
+      "Example amenities",
+      "Example amenities"
+    ],
+    "amenityIds": [
+      "c_store",
+      "air"
+    ],
+    "fuels": [
+      "regular_gas",
+      "midgrade_gas"
+    ],
+    "prices": [
+      {
+        "fuelType": "regular",
+        "fuelProduct": "regular_gas",
+        "label": "Example label",
+        "cashPrice": null,
+        "cashPostedAt": null,
+        "cashReportedBy": null,
+        "creditPrice": 3.16,
+        "creditPostedAt": "2026-01-15T10:00:00Z",
+        "creditReportedBy": "Example credit reported by",
+        "formattedPrice": "Example formatted price",
+        "memberDiscount": 0
+      },
+      {
+        "fuelType": "midgrade",
+        "fuelProduct": "midgrade_gas",
+        "label": "Example label",
+        "cashPrice": null,
+        "cashPostedAt": null,
+        "cashReportedBy": null,
+        "creditPrice": 2.95,
+        "creditPostedAt": "2026-01-15T10:00:00Z",
+        "creditReportedBy": "Example credit reported by",
+        "formattedPrice": "Example formatted price",
+        "memberDiscount": 0
+      }
+    ],
+    "lowestPrice": 3.46,
+    "lowestPriceFuelType": "regular",
+    "lastPriceReportedAt": "2026-01-15T10:00:00Z",
+    "lastPriceReportedBy": "Example last price reported by",
+    "priceUnit": "Example price unit",
+    "currency": "USD",
+    "starRating": 4.37,
+    "ratingsCount": 88,
+    "reviewCount": null,
+    "reviews": [],
+    "topSpotters": [
+      {
+        "name": "id47512090",
+        "reportCount": 4,
+        "streakDays": 79
+      },
+      {
+        "name": "Example name",
+        "reportCount": 3,
+        "streakDays": 0
+      }
+    ],
+    "priceTrend": [
+      {
+        "areaName": "Example area name",
+        "country": "US",
+        "todayAverage": 4.24,
+        "todayLow": 3.21,
+        "direction": "rising"
+      },
+      {
+        "areaName": "Example area name",
+        "country": "US",
+        "todayAverage": 3.21,
+        "todayLow": 3.71,
+        "direction": "flat"
+      }
+    ],
+    "offers": [
+      {
+        "offerId": "h990443-38-33-54-5-1-9-6-4-hkhiv4ajllde2as2guvpvv",
+        "highlight": "Example highlight",
+        "types": [
+          "gasbuddy"
+        ],
+        "appliesTo": [
+          "banner",
+          "strike"
+        ],
+        "discounts": [
+          {
+            "grades": [
+              "regular_gas"
+            ],
+            "highlight": "Example highlight",
+            "memberDiscount": "9.55",
+            "receiptDiscount": null
+          },
+          {
+            "grades": [
+              "midgrade_gas"
+            ],
+            "highlight": "Example highlight",
+            "memberDiscount": "7.48",
+            "receiptDiscount": null
+          }
+        ]
+      }
+    ],
+    "cardPaymentAvailable": null
+  }
+]

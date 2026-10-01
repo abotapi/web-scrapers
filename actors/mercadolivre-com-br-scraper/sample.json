@@ -1,0 +1,34 @@
+[
+  {
+    "itemId": "mlb0014796812",
+    "catalogProductId": "mlb27455850",
+    "title": "Example title: mock text standing in for the real value. Same field and type, made-up content.",
+    "url": "https://www.mercadolivre.com.br/example/11307",
+    "categoryId": "mlb6880",
+    "domainId": "MLB-NOTEBOOKS",
+    "sellerName": "Example seller name",
+    "officialStore": true,
+    "price": 6309,
+    "originalPrice": 7621,
+    "discountPercent": 27,
+    "currency": "BRL",
+    "installments": {
+      "quantity": 53,
+      "amount": 377.39,
+      "totalAmount": 6955,
+      "interestFree": true,
+      "currency": "BRL"
+    },
+    "freeShipping": true,
+    "fulfillment": true,
+    "shippingText": "Example shipping text: mock text standing in for the real value. Same field and type, made-up content.",
+    "soldQuantity": 4946,
+    "rating": 3.68,
+    "images": [
+      "https://http2.mlstatic.com/example/33672.jpg"
+    ],
+    "scrapedAt": "2026-01-15T10:00:00Z",
+    "image": "https://http2.mlstatic.com/example/61600.jpg",
+    "installmentsText": "Example installments text"
+  }
+]

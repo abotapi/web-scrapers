@@ -1,0 +1,61 @@
+[
+  {
+    "kind": "posting",
+    "recordId": "7549089653",
+    "postingId": "1109243304",
+    "postingUuid": "fbagx3jscaz2rrcggommah",
+    "title": "Example title: mock text standing in for the real value. Same field and type, made-up content.",
+    "url": "https://www.craigslist.org/example/44066",
+    "price": 181,
+    "priceString": "Example price string",
+    "currency": "USD",
+    "categoryId": 85,
+    "categoryAbbr": "bik",
+    "categoryName": "Example category name",
+    "postedDate": "2026-01-15T10:00:00Z",
+    "cityHost": "sfbay",
+    "cityName": "Example city name",
+    "areaId": 1,
+    "subareaAbbr": "scz",
+    "locationDescription": "Example location description",
+    "neighborhood": "Example neighborhood",
+    "latitude": 36.7,
+    "longitude": -141.58,
+    "detailLoaded": false,
+    "seoSlug": "Example seo slug",
+    "imageUrls": [
+      "https://images.craigslist.org/example/22005.jpg",
+      "https://images.craigslist.org/example/69486.jpg"
+    ],
+    "imageCount": 7
+  },
+  {
+    "kind": "posting",
+    "recordId": "5882563850",
+    "postingId": "8941818103",
+    "postingUuid": "5uwdcve9gc6g58lrs0wqva",
+    "title": "Example title",
+    "url": "https://www.craigslist.org/example/18667",
+    "price": 699,
+    "priceString": "Example price string",
+    "currency": "USD",
+    "categoryId": 77,
+    "categoryAbbr": "bik",
+    "categoryName": "Example category name",
+    "postedDate": "2026-01-15T10:00:00Z",
+    "cityHost": "sfbay",
+    "cityName": "Example city name",
+    "areaId": 3,
+    "subareaAbbr": "nby",
+    "locationDescription": "sebastopol",
+    "neighborhood": "sebastopol",
+    "latitude": 44.94,
+    "longitude": -100.82,
+    "detailLoaded": false,
+    "seoSlug": "Example seo slug",
+    "imageUrls": [
+      "https://images.craigslist.org/example/13034.jpg"
+    ],
+    "imageCount": 5
+  }
+]

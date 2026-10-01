@@ -1,0 +1,52 @@
+[
+  {
+    "id": 77460,
+    "slug": "akkari",
+    "objectID": "08959",
+    "name": "Example name",
+    "url": "https://www.ycombinator.com/example/80857",
+    "oneLiner": "Example one liner",
+    "longDescription": "Example long description: mock text standing in for the real value. Same field and type, made-up content.",
+    "website": "https://akkari.io/example/15645",
+    "batch": "X26",
+    "batchName": "Example batch name",
+    "status": "Active",
+    "stage": "Early",
+    "industry": "B2B",
+    "subindustry": "B2B",
+    "industries": [
+      "B2B"
+    ],
+    "tags": [],
+    "regions": [
+      "Example regions",
+      "Example regions"
+    ],
+    "allLocations": "Example all locations",
+    "teamSize": 9,
+    "yearFounded": 5189,
+    "launchedAt": 7984074948,
+    "isHiring": false,
+    "topCompany": false,
+    "nonprofit": false,
+    "hasAppVideo": false,
+    "hasDemoDayVideo": false,
+    "hasQuestionAnswers": false,
+    "formerNames": [
+      "Example former names",
+      "Example former names"
+    ],
+    "logoUrl": "https://bookface-images.s3.us-west-2.amazonaws.com/example/40257.jpg",
+    "smallLogoUrl": "https://bookface-images.s3.amazonaws.com/example/88298.jpg",
+    "location": "Example location",
+    "city": "Example city",
+    "cityTag": "Example city tag",
+    "country": "US",
+    "linkedinUrl": null,
+    "twitterUrl": null,
+    "facebookUrl": null,
+    "crunchbaseUrl": null,
+    "githubUrl": null,
+    "demoDayVideoUrl": null
+  }
+]

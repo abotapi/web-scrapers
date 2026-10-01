@@ -1,0 +1,52 @@
+[
+  {
+    "productId": "37336084",
+    "sku": "alur0720687554wh",
+    "name": "Example name: mock text standing in for the real value. Same field and type, made-up content.",
+    "brand": "Alurin",
+    "category": "Example category",
+    "url": "https://www.pccomponentes.com/example/58970",
+    "price": 473.99,
+    "currency": "EUR",
+    "originalPrice": null,
+    "discountAmount": null,
+    "discountPercent": null,
+    "isOnSpecial": false,
+    "image": "https://thumb.pccomponentes.com/example/34671.jpg",
+    "rating": 3.54,
+    "reviewCount": 181,
+    "onlineAvailable": true,
+    "freeShipping": true,
+    "reviews": {
+      "averageRating": null,
+      "ratingCount": 0,
+      "totalReviewCount": 0,
+      "items": []
+    }
+  },
+  {
+    "productId": "06531655",
+    "sku": "alu-bar-r48017-341-333-99340-wh",
+    "name": "Example name: mock text standing in for the real value. Same field and type, made-up content.",
+    "brand": "Alurin",
+    "category": "Example category",
+    "url": "https://www.pccomponentes.com/example/39660",
+    "price": 752,
+    "currency": "EUR",
+    "originalPrice": null,
+    "discountAmount": null,
+    "discountPercent": null,
+    "isOnSpecial": false,
+    "image": "https://thumb.pccomponentes.com/example/62886.jpg",
+    "rating": 5.15,
+    "reviewCount": 332,
+    "onlineAvailable": true,
+    "freeShipping": true,
+    "reviews": {
+      "averageRating": null,
+      "ratingCount": 0,
+      "totalReviewCount": 0,
+      "items": []
+    }
+  }
+]

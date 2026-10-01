@@ -1,0 +1,68 @@
+[
+  {
+    "businessId": "3593501",
+    "name": "Example name",
+    "title": "Example title",
+    "key": "Example key",
+    "phone": "+1 555 0100",
+    "mobile": "+1 555 0100",
+    "serviceArea": "CLAYTON",
+    "highlights": [],
+    "hasLicense": true,
+    "hasValidAbn": true,
+    "starRating": {
+      "rating": -3,
+      "totalHired": 4,
+      "totalRatings": 0
+    },
+    "totalRecommendations": 0,
+    "brandColor": "Example brand color",
+    "theme": "standard",
+    "thumbnailUrl": "https://mediacache.homeimprovementpages.com.au/example/53135.jpg",
+    "galleryImages": [],
+    "profilePageUrl": "https://hipages.com.au/example/33255",
+    "profilePagePath": "Example profile page path",
+    "listingType": "local",
+    "position": 0,
+    "distance": 0,
+    "searchContext": {
+      "mode": "search",
+      "category": "excavation",
+      "state": "vic",
+      "suburb": "clayton"
+    }
+  },
+  {
+    "businessId": "5465974",
+    "name": "Example name",
+    "title": "Example title",
+    "key": "Example key",
+    "phone": "+1 555 0100",
+    "mobile": "+1 555 0100",
+    "serviceArea": "CLAYTON",
+    "highlights": [],
+    "hasLicense": false,
+    "hasValidAbn": true,
+    "starRating": {
+      "rating": -3,
+      "totalHired": 0,
+      "totalRatings": 0
+    },
+    "totalRecommendations": 0,
+    "brandColor": "Example brand color",
+    "theme": "standard",
+    "thumbnailUrl": "https://mediacache.homeimprovementpages.com.au/example/37287.jpg",
+    "galleryImages": [],
+    "profilePageUrl": "https://hipages.com.au/example/50142",
+    "profilePagePath": "Example profile page path",
+    "listingType": "local",
+    "position": 7,
+    "distance": 0,
+    "searchContext": {
+      "mode": "search",
+      "category": "excavation",
+      "state": "vic",
+      "suburb": "clayton"
+    }
+  }
+]

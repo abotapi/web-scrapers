@@ -1,0 +1,71 @@
+[
+  {
+    "id": 5236965,
+    "listNumber": 1047072,
+    "title": "Example title: mock text standing in for the real value. Same field and type, made-up content.",
+    "url": "https://www.bizquest.com/example/41757",
+    "description": "Example description",
+    "image": "https://images.bizquest.com/example/26716.jpg",
+    "images": [
+      "https://images.bizquest.com/example/96136.jpg"
+    ],
+    "askingPrice": 28989407,
+    "cashFlow": null,
+    "ebitda": null,
+    "leaseRateDuration": 32,
+    "leaseRatePerSquareFoot": null,
+    "realEstateIncludedInAskingPrice": false,
+    "financingTypeId": 0,
+    "initialFee": null,
+    "initialCapital": null,
+    "location": "Example location",
+    "region": "FL",
+    "stateName": "Example state name",
+    "regionId": 53,
+    "locationCrumbs": [
+      {
+        "title": "Example title",
+        "titleShort": "Example title short",
+        "link": "Example link",
+        "linkCount": 0
+      },
+      {
+        "title": "Example title",
+        "titleShort": "FL",
+        "link": "Example link",
+        "linkCount": 0
+      }
+    ],
+    "category": "Example category",
+    "categoryId": 981,
+    "listingTypeId": 42,
+    "isFranchise": false,
+    "categoryDetails": null,
+    "brokerName": "Example broker name",
+    "brokerCompany": "Example broker company",
+    "brokerPhone": "+1 555 0100",
+    "tpnPhone": "+1 555 0100",
+    "tpnPhoneExt": "",
+    "brokerPhoto": "https://images.bizquest.com/example/16997.jpg",
+    "brokerProfileUrl": "Example broker profile url",
+    "brokerCertifications": null,
+    "contactInfo": {
+      "contactInfoPersonId": 835645,
+      "contactFullName": "Example contact full name",
+      "contactPhoneNumber": {
+        "telephone": "+1 555 0100",
+        "phoneCountryCode": null,
+        "tpnPhone": "+1 555 0100",
+        "tpnPhoneExt": ""
+      },
+      "contactPhoto": "https://images.bizquest.com/example/21529.jpg",
+      "brokerCompany": "Example broker company",
+      "brokerProfileUrl": "Example broker profile url"
+    },
+    "hotProperty": false,
+    "recentlyAdded": true,
+    "recentlyUpdated": false,
+    "listingPriceReduced": false,
+    "adLevelId": 3
+  }
+]

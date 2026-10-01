@@ -1,0 +1,10 @@
+[
+  {
+    "position": 8,
+    "title": "Example title",
+    "link": "https://en.wikipedia.org/example/94713",
+    "snippet": "Example snippet: mock text standing in for the real value. Same field and type, made-up content.",
+    "domain": "en.wikipedia.org",
+    "query": "Example query"
+  }
+]

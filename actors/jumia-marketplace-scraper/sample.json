@@ -1,0 +1,80 @@
+[
+  {
+    "recordType": "product",
+    "id": "xi391mp515nctnafamz",
+    "sku": "xi907mp772nctnafamz",
+    "name": "Example name",
+    "displayName": "Example display name: mock text standing in for the real value. Same field and type, made-up content.",
+    "brand": "XIAOMI",
+    "categories": [
+      "Example categories",
+      "Example categories"
+    ],
+    "url": "https://www.jumia.com.ng/example/38893",
+    "imageUrl": "https://ng.jumia.is/example/43873.jpg",
+    "currency": "NGN",
+    "price": 203565.34,
+    "priceDisplay": "Example price display",
+    "oldPrice": 657615,
+    "discountPercent": 7,
+    "ratingAverage": 4.06,
+    "ratingCount": 428,
+    "officialStore": true,
+    "badges": [
+      "Example badges",
+      "JBF"
+    ],
+    "sellerId": 410376,
+    "shopExpress": true,
+    "sponsored": false,
+    "buyable": true,
+    "market": "NG",
+    "marketHost": "www.jumia.com.ng",
+    "lastModified": 1796689817,
+    "gtin": null,
+    "sourceType": "search",
+    "sourceId": "phone",
+    "sourceUrl": null,
+    "position": 5,
+    "scrapedAt": "2026-01-15T10:00:00Z"
+  },
+  {
+    "recordType": "product",
+    "id": "sa115mp6z0lpdnafamz",
+    "sku": "sa190mp6z5lpdnafamz",
+    "name": "Example name",
+    "displayName": "Example display name",
+    "brand": "Samsung",
+    "categories": [
+      "Example categories",
+      "Example categories"
+    ],
+    "url": "https://www.jumia.com.ng/example/37687",
+    "imageUrl": "https://ng.jumia.is/example/53900.jpg",
+    "currency": "NGN",
+    "price": 785762,
+    "priceDisplay": "Example price display",
+    "oldPrice": 792230,
+    "discountPercent": 62,
+    "ratingAverage": 3.44,
+    "ratingCount": 180,
+    "officialStore": true,
+    "badges": [
+      "Example badges",
+      "JBF"
+    ],
+    "sellerId": 824040,
+    "shopExpress": true,
+    "sponsored": false,
+    "buyable": true,
+    "market": "NG",
+    "marketHost": "www.jumia.com.ng",
+    "lastModified": 8129133791,
+    "gtin": null,
+    "sourceType": "search",
+    "sourceId": "phone",
+    "sourceUrl": null,
+    "position": 5,
+    "scrapedAt": "2026-01-15T10:00:00Z"
+  }
+]

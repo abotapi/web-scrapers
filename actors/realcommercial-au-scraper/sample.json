@@ -1,0 +1,163 @@
+[
+  {
+    "propertyId": "960973667",
+    "url": "https://www.realcommercial.com.au/example/13642",
+    "listingType": "for-sale",
+    "propertyTypes": [
+      "Example property types"
+    ],
+    "tenureType": "vacant",
+    "title": "Example title",
+    "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
+    "descriptionMetadata": {
+      "phoneNumbers": [
+        {
+          "dial": "+27934533176",
+          "text": "1230 488 207",
+          "startIndex": 1660,
+          "endIndex": 9918,
+          "agencyId": "KDZGMA",
+          "agentId": "8404601",
+          "masked": "4690 351 ..."
+        },
+        {
+          "dial": "+40480574228",
+          "text": "0109 716 082",
+          "startIndex": 8779,
+          "endIndex": 5162,
+          "agencyId": "KDZGMA",
+          "agentId": "7157905",
+          "masked": "7977 265 ..."
+        }
+      ]
+    },
+    "status": "New",
+    "daysActive": 6,
+    "hasTour": false,
+    "product": "enhanced",
+    "address": {
+      "street": "Example street",
+      "suburb": "Example suburb",
+      "state": "VIC",
+      "postcode": "8507",
+      "full": "Example full"
+    },
+    "price": {
+      "display": "Example display",
+      "forSale": {
+        "isPriceHidden": true
+      }
+    },
+    "attributes": {
+      "listingAttributes": [
+        {
+          "id": "Example id",
+          "label": "Example label",
+          "value": "Example value"
+        },
+        {
+          "id": "Example id",
+          "label": "Example label",
+          "value": "Example value"
+        }
+      ]
+    },
+    "media": {
+      "imageCount": 95,
+      "images": [
+        {
+          "url": "https://i1.au.reastatic.net/example/13642.jpg",
+          "alt": "Example alt"
+        },
+        {
+          "url": "https://i1.au.reastatic.net/example/35715.jpg",
+          "alt": "Example alt"
+        }
+      ]
+    },
+    "agents": [
+      {
+        "id": "4193039",
+        "name": "Example name",
+        "photoUrl": "https://i1.au.reastatic.net/example/25208.jpg",
+        "phone": {
+          "display": "9300 260 521",
+          "dial": "+27934533176"
+        },
+        "enquiryUri": "https://api.realcommercial.com.au/example/76642"
+      },
+      {
+        "id": "7588989",
+        "name": "Example name",
+        "photoUrl": "https://i1.au.reastatic.net/example/2060.jpg",
+        "phone": {
+          "display": "8932222467",
+          "dial": "+59012592063"
+        },
+        "enquiryUri": "https://api.realcommercial.com.au/example/43779"
+      }
+    ],
+    "agency": {
+      "id": "KDZGMA",
+      "name": "Example name",
+      "logoUrl": "https://i1.au.reastatic.net/example/36817.jpg",
+      "brandingColor": "Example branding color",
+      "phone": {
+        "display": "65 7814 6944",
+        "dial": "+53216767676"
+      },
+      "address": "Example address"
+    },
+    "nearbyPlaces": [
+      {
+        "name": "Example name",
+        "items": [
+          {
+            "id": "Example id",
+            "title": "Example title",
+            "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
+            "icon": {
+              "name": "Example name",
+              "backgroundColourToken": "backgroundPink",
+              "fillColourToken": "textPink"
+            }
+          },
+          {
+            "id": "Example id",
+            "title": "Example title",
+            "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
+            "icon": {
+              "name": "Example name",
+              "backgroundColourToken": "backgroundBlue",
+              "fillColourToken": "textBlue"
+            }
+          }
+        ]
+      }
+    ],
+    "lastUpdatedAt": "2026-01-15T10:00:00Z",
+    "canonicalPath": "Example canonical path: mock text standing in for the real value. Same field and type, made-up content.",
+    "highQualityListing": false,
+    "propertyTypeObjects": [
+      {
+        "id": "Example id",
+        "url": "Example url",
+        "oldUrl": "Example old url",
+        "agencyUrl": "Example agency url",
+        "marketing": "Example marketing",
+        "displayText": "Example display text",
+        "longDisplayText": "Example long display text",
+        "sentenceDisplayText": "Example sentence display text",
+        "pdpTitle": "Example pdp title",
+        "iconName": "Example icon name"
+      }
+    ],
+    "tenureTypeDisplay": "Example tenure type display",
+    "map": {
+      "precision": "street"
+    },
+    "latitude": -48.71,
+    "longitude": 156.56,
+    "scrapedAt": "2026-01-15T10:00:00Z"
+  }
+]

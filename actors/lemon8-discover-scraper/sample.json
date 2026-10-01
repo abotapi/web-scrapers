@@ -1,0 +1,91 @@
+[
+  {
+    "id": "5299771653373290717",
+    "author": {
+      "name": "Example name",
+      "followerCount": null,
+      "profileUrl": "https://www.lemon8-app.com/example/70477",
+      "profileImageUrl": "https://p16-lemon8-cross-sign.tiktokcdn-us.com/example/49981.jpg"
+    },
+    "title": "Example title",
+    "content": "Example content: mock text standing in for the real value. Same field and type, made-up content.",
+    "postUrl": "https://www.lemon8-app.com/example/3386",
+    "statistics": {
+      "savedCount": "8",
+      "likesCount": "8540",
+      "commentsCount": "2"
+    },
+    "images": [
+      {
+        "src": "https://p16-lemon8-cross-sign.tiktokcdn-us.com/example/68716",
+        "alt": ""
+      },
+      {
+        "src": "https://p16-lemon8-cross-sign.tiktokcdn-us.com/example/59104",
+        "alt": ""
+      }
+    ],
+    "comments": [],
+    "isVideo": false,
+    "videoData": null,
+    "searchQuery": "fashion",
+    "details": {
+      "title": "Example title",
+      "fullContent": "Example full content: mock text standing in for the real value. Same field and type, made-up content.",
+      "hashtags": [
+        "Example hashtags",
+        "Example hashtags"
+      ],
+      "editTime": "28/3",
+      "statistics": {
+        "savedCount": "4305",
+        "likesCount": "6223",
+        "commentsCount": "492"
+      },
+      "galleryImages": [
+        {
+          "src": "https://p16-lemon8-sign-sg.tiktokcdn.com/example/68716.jpg",
+          "alt": ""
+        },
+        {
+          "src": "https://p16-lemon8-sign-sg.tiktokcdn.com/example/59104.jpg",
+          "alt": ""
+        }
+      ],
+      "searchQuery": null,
+      "relatedTopics": [],
+      "isVideo": false,
+      "videoData": null
+    },
+    "allComments": [
+      {
+        "author": "id24601509",
+        "authorTag": null,
+        "content": "Example content",
+        "time": "9/57",
+        "likes": "2",
+        "replies": [
+          {
+            "author": "id24601509",
+            "content": "Example content",
+            "time": "6/6",
+            "tag": null
+          }
+        ]
+      },
+      {
+        "author": "id25246195",
+        "authorTag": null,
+        "content": "Example content",
+        "time": "8/77",
+        "likes": "8",
+        "replies": null
+      }
+    ],
+    "commentStats": {
+      "totalComments": 67,
+      "totalReplies": 23,
+      "previewCommentCount": 0
+    }
+  }
+]

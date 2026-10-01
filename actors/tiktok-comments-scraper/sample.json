@@ -1,0 +1,42 @@
+[
+  {
+    "recordType": "comment",
+    "sourceMode": "comments",
+    "commentId": "9085389204105048684",
+    "videoId": "9101682465875420497",
+    "videoUrl": "https://www.tiktok.com/example/47788",
+    "isReply": false,
+    "replyToCommentId": null,
+    "text": "Example text",
+    "authorUsername": "id74102292",
+    "authorNickname": "Example author nickname",
+    "authorUid": "7204934642719526623",
+    "authorAvatarUrl": "https://p16-common-sign.tiktokcdn.com/example/94594.jpg",
+    "authorRegion": "Example author region",
+    "diggCount": 9,
+    "replyCommentTotal": null,
+    "createTime": 7218014509,
+    "createTimeIso": "2026-01-15T10:00:00Z",
+    "scrapedAt": "2026-01-15T10:00:00Z"
+  },
+  {
+    "recordType": "comment",
+    "sourceMode": "comments",
+    "commentId": "7015941108604207021",
+    "videoId": "5892897132958800431",
+    "videoUrl": "https://www.tiktok.com/example/6655",
+    "isReply": false,
+    "replyToCommentId": null,
+    "text": "Example text",
+    "authorUsername": "id31277247",
+    "authorNickname": "Example author nickname",
+    "authorUid": "0650662993585480563",
+    "authorAvatarUrl": "https://p16-common-sign.tiktokcdn.com/example/28467.jpg",
+    "authorRegion": "Example author region",
+    "diggCount": 0,
+    "replyCommentTotal": null,
+    "createTime": 2808806853,
+    "createTimeIso": "2026-01-15T10:00:00Z",
+    "scrapedAt": "2026-01-15T10:00:00Z"
+  }
+]

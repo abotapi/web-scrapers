@@ -1,0 +1,17 @@
+[
+  {
+    "productId": "vc8aecomm-859712",
+    "name": "Example name",
+    "brand": "Example brand",
+    "ean": "7353227462817",
+    "price": 0.71,
+    "currency": "EUR",
+    "measureUnit": "l",
+    "categoryId": "id17448172",
+    "image": "https://static.carrefour.es/example/39617.jpg",
+    "url": "https://www.carrefour.es/example/87740",
+    "source": "search",
+    "searchMode": "search",
+    "scrapedAt": "2026-01-15T10:00:00Z"
+  }
+]

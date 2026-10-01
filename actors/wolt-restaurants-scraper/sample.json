@@ -1,0 +1,121 @@
+[
+  {
+    "venueId": "id74248090",
+    "slug": "Example slug",
+    "name": "Example name",
+    "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
+    "shortDescription": "Example short description",
+    "brandSlug": "elias-dner",
+    "brandName": "Example brand name",
+    "brandLogoImage": "https://imageproxy.wolt.com/example/27619.jpg",
+    "brandLogoBlurhash": "Example brand logo blurhash",
+    "coverImage": "https://imageproxy.wolt.com/example/78833.jpg",
+    "coverBlurhash": "Example cover blurhash",
+    "address": "Example address",
+    "city": "Helsinki",
+    "cityId": "id27731367",
+    "citySlug": "helsinki",
+    "countryCode": "FIN",
+    "postCode": "55043",
+    "latitude": 44.53,
+    "longitude": 24.19,
+    "timezone": "Example timezone",
+    "currency": "EUR",
+    "phone": "+1 555 0100",
+    "website": "https://eliasdonerkebab.fi/example/35823",
+    "woltUrl": "https://wolt.com/example/20923",
+    "productLine": "restaurant",
+    "secondaryProductLine": "none",
+    "deliveryMethods": [
+      "takeaway",
+      "homedelivery"
+    ],
+    "deliveryBasePrice": 991,
+    "deliveryBasePriceFormatted": "Example delivery base price formatted",
+    "serviceFeeMin": 596,
+    "serviceFeeMax": 241,
+    "serviceFeePercentage": 63,
+    "orderMinimum": 4053,
+    "orderMinimumFormatted": "Example order minimum formatted",
+    "deliveryGeoRange": {
+      "bbox": null,
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            28.27,
+            77.08
+          ],
+          [
+            31.77,
+            46.38
+          ]
+        ]
+      ]
+    },
+    "isPickupFriendly": false,
+    "ageVerificationMethod": "age_verification",
+    "groupOrderEnabled": true,
+    "isWoltPlus": true,
+    "ncdAllowed": true
+  },
+  {
+    "venueId": "id75803481",
+    "slug": "Example slug",
+    "name": "Example name",
+    "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
+    "shortDescription": "Example short description",
+    "brandSlug": "taco-bell",
+    "brandName": "Example brand name",
+    "brandLogoImage": "https://imageproxy.wolt.com/example/63920.jpg",
+    "brandLogoBlurhash": "Example brand logo blurhash",
+    "coverImage": "https://imageproxy.wolt.com/example/77749.jpg",
+    "coverBlurhash": "Example cover blurhash",
+    "address": "Example address",
+    "city": "Helsinki",
+    "cityId": "id98845603",
+    "citySlug": "helsinki",
+    "countryCode": "FIN",
+    "postCode": "31425",
+    "latitude": 52.35,
+    "longitude": 22.95,
+    "timezone": "Example timezone",
+    "currency": "EUR",
+    "phone": "+1 555 0100",
+    "website": "https://www.tacobell.fi/example/34929",
+    "woltUrl": "https://wolt.com/example/85361",
+    "productLine": "restaurant",
+    "secondaryProductLine": "none",
+    "deliveryMethods": [
+      "homedelivery"
+    ],
+    "deliveryBasePrice": 808,
+    "deliveryBasePriceFormatted": "Example delivery base price formatted",
+    "serviceFeeMin": 482,
+    "serviceFeeMax": 346,
+    "serviceFeePercentage": 71,
+    "orderMinimum": 8031,
+    "orderMinimumFormatted": "Example order minimum formatted",
+    "deliveryGeoRange": {
+      "bbox": null,
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            19.09,
+            48.77
+          ],
+          [
+            20.1,
+            74.68
+          ]
+        ]
+      ]
+    },
+    "isPickupFriendly": false,
+    "ageVerificationMethod": "age_verification",
+    "groupOrderEnabled": true,
+    "isWoltPlus": true,
+    "ncdAllowed": true
+  }
+]

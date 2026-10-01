@@ -1,0 +1,104 @@
+[
+  {
+    "id": "576227692",
+    "idInt": 243088811,
+    "url": "https://www.finn.no/example/46582",
+    "title": "Example title",
+    "subtitle": null,
+    "employer": "Example employer",
+    "employerUrl": null,
+    "employerHomepage": null,
+    "employerLogo": "https://images.finncdn.no/example/50712.jpg",
+    "streetAddress": "Example street address",
+    "postalCode": "3741",
+    "city": "Oslo",
+    "addressCountry": "Example address country",
+    "locationDisplay": "Example location display",
+    "locationLink": "https://www.finn.no/example/48975",
+    "latitude": 64.71,
+    "longitude": 11.99,
+    "datePosted": "2026-01-15",
+    "datePostedEpochMs": 6246549367984,
+    "relativePosted": "Example relative posted",
+    "applicationDeadline": "2026-01-15",
+    "applicationDeadlineEpochMs": 9294779171131,
+    "applicationDeadlineRaw": null,
+    "lastModified": "2026-01-15T10:00:00Z",
+    "lastModifiedEpochMs": 4320715755815,
+    "employmentForm": null,
+    "employmentType": [
+      "FULL_TIME"
+    ],
+    "employmentTypeRequested": "fulltime",
+    "sector": null,
+    "industries": [
+      "IT"
+    ],
+    "jobFunction": "Example job function",
+    "internalJobTitle": null,
+    "workingLanguages": [],
+    "contactPersons": [],
+    "keywords": [],
+    "applyUrl": null,
+    "descriptionHtml": "Example description html: mock text standing in for the real value. Same field and type, made-up content.",
+    "descriptionText": "Example description text: mock text standing in for the real value. Same field and type, made-up content.",
+    "breadcrumb": [
+      "FINN",
+      "Example breadcrumb"
+    ],
+    "sponsored": false
+  },
+  {
+    "id": "191412060",
+    "idInt": 433152116,
+    "url": "https://www.finn.no/example/87040",
+    "title": "Example title",
+    "subtitle": null,
+    "employer": "Example employer",
+    "employerUrl": "http://www.frognerbekken.barnehage.no/example/80084",
+    "employerHomepage": null,
+    "employerLogo": "https://images.finncdn.no/example/62035.jpg",
+    "streetAddress": "Example street address",
+    "postalCode": "7310",
+    "city": "Oslo",
+    "addressCountry": "Example address country",
+    "locationDisplay": "Example location display",
+    "locationLink": "https://www.finn.no/example/48821",
+    "latitude": 62.35,
+    "longitude": 9.58,
+    "datePosted": "2026-01-15",
+    "datePostedEpochMs": 3207830495204,
+    "relativePosted": "Example relative posted",
+    "applicationDeadline": "2026-01-15",
+    "applicationDeadlineEpochMs": 7193860069449,
+    "applicationDeadlineRaw": null,
+    "lastModified": "2026-01-15T10:00:00Z",
+    "lastModifiedEpochMs": 6152857317240,
+    "employmentForm": null,
+    "employmentType": [
+      "FULL_TIME"
+    ],
+    "employmentTypeRequested": "fulltime",
+    "sector": null,
+    "industries": [
+      "IT",
+      "Example industries"
+    ],
+    "jobFunction": "Example job function",
+    "internalJobTitle": null,
+    "workingLanguages": [],
+    "contactPersons": [],
+    "keywords": [
+      "GIS",
+      "Example keywords"
+    ],
+    "applyUrl": null,
+    "descriptionHtml": "Example description html: mock text standing in for the real value. Same field and type, made-up content.",
+    "descriptionText": "Example description text: mock text standing in for the real value. Same field and type, made-up content.",
+    "breadcrumb": [
+      "FINN",
+      "Example breadcrumb"
+    ],
+    "sponsored": false
+  }
+]

@@ -1,0 +1,69 @@
+[
+  {
+    "kind": "event",
+    "recordId": "23715543",
+    "eventId": "39893670",
+    "url": "https://www.songkick.com/example/93798",
+    "title": "Example title",
+    "startDate": "2026-01-15T10:00:00Z",
+    "endDate": "2026-01-15",
+    "eventStatus": "scheduled",
+    "eventType": "concert",
+    "headliner": "Example headliner",
+    "performers": [
+      {
+        "name": "Example name",
+        "url": "https://www.songkick.com/example/93798",
+        "genres": [
+          "metal",
+          "rock"
+        ]
+      },
+      {
+        "name": "Example name",
+        "url": "https://www.songkick.com/example/20169",
+        "genres": [
+          "metal",
+          "rock"
+        ]
+      }
+    ],
+    "artistName": "Example artist name",
+    "artistUrl": "https://www.songkick.com/example/55438",
+    "artistGenres": [
+      "metal",
+      "rock"
+    ],
+    "venueName": "Example venue name",
+    "venueStreet": "Example venue street",
+    "venueCity": "Greenville",
+    "venueRegion": "SC",
+    "venuePostalCode": "79317",
+    "venueCountry": "US",
+    "venueLatitude": 26.13,
+    "venueLongitude": -60.95,
+    "description": "Example description",
+    "imageUrl": "https://images.sk-static.com/example/40228.jpg",
+    "ticketAvailability": "in_stock",
+    "ticketVendors": [
+      {
+        "vendor": "Example vendor",
+        "saleStatus": "Example sale status"
+      }
+    ],
+    "ticketUrl": "https://www.songkick.com/example/70880",
+    "tourName": null,
+    "doorsTime": "17:92",
+    "venueCapacity": null,
+    "venueUrl": null,
+    "metroAreaName": null,
+    "metroAreaUrl": null,
+    "locationText": "Example location text",
+    "supportActs": "Example support acts",
+    "organizerName": "Example organizer name",
+    "organizerUrl": "https://www.songkick.com/example/57409",
+    "eventAttendanceMode": "offline",
+    "ticketPriceMin": null,
+    "ticketPriceMax": null
+  }
+]

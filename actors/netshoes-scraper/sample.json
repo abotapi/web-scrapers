@@ -1,0 +1,126 @@
+[
+  {
+    "sku": "fba-69ls-660",
+    "variantSku": null,
+    "productCode": "fba-94ls",
+    "title": "Example title",
+    "brand": "Adidas",
+    "brandSlug": null,
+    "department": "Example department",
+    "productType": "Example product type",
+    "genders": [],
+    "categoryPath": [
+      "Running",
+      "Example category path"
+    ],
+    "breadcrumb": [],
+    "url": "https://www.netshoes.com.br/example/70008",
+    "currency": "BRL",
+    "price": 1211.99,
+    "originalPrice": 1391.99,
+    "priceBeforePaymentDiscount": 1223.99,
+    "paymentMethod": null,
+    "paymentMethodPrice": null,
+    "discountAmount": null,
+    "discountPercent": null,
+    "onSale": false,
+    "installments": null,
+    "installmentPlans": [],
+    "sellerName": null,
+    "soldByStore": null,
+    "inStock": true,
+    "sizes": [],
+    "sizesInStock": null,
+    "variants": null,
+    "color": null,
+    "colorVariants": [],
+    "freeShipping": null,
+    "fastFulfilment": false,
+    "additionalDeliveryDays": null,
+    "preSale": null,
+    "badges": [],
+    "featuredImage": "https://static.netshoes.com.br/example/86384.jpg",
+    "images": [
+      "https://static.netshoes.com.br/example/312.jpg"
+    ],
+    "videos": [],
+    "rating": 1
+  },
+  {
+    "sku": "fb9-6380-172",
+    "variantSku": null,
+    "productCode": "fb1-6111",
+    "title": "Example title",
+    "brand": "Adidas",
+    "brandSlug": null,
+    "department": "Example department",
+    "productType": "Example product type",
+    "genders": [],
+    "categoryPath": [
+      "Casual",
+      "Example category path"
+    ],
+    "breadcrumb": [],
+    "url": "https://www.netshoes.com.br/example/10711",
+    "currency": "BRL",
+    "price": 160.99,
+    "originalPrice": 374.49,
+    "priceBeforePaymentDiscount": 243.79,
+    "paymentMethod": null,
+    "paymentMethodPrice": null,
+    "discountAmount": 939,
+    "discountPercent": 69,
+    "onSale": true,
+    "installments": {
+      "count": 6,
+      "amountEach": null,
+      "total": null,
+      "interestFree": null
+    },
+    "installmentPlans": [],
+    "sellerName": null,
+    "soldByStore": null,
+    "inStock": true,
+    "sizes": [
+      "96",
+      "55"
+    ],
+    "sizesInStock": null,
+    "variants": null,
+    "color": null,
+    "colorVariants": [
+      {
+        "sku": "fb9-5649-468",
+        "colorName": null,
+        "url": "https://www.netshoes.com.br/example/10711",
+        "image": "https://static.netshoes.com.br/example/15735.jpg",
+        "available": null,
+        "price": null,
+        "originalPrice": null
+      },
+      {
+        "sku": "fb4-9920-450",
+        "colorName": null,
+        "url": "https://www.netshoes.com.br/example/86301",
+        "image": "https://static.netshoes.com.br/example/2466.jpg",
+        "available": null,
+        "price": null,
+        "originalPrice": null
+      }
+    ],
+    "freeShipping": null,
+    "fastFulfilment": true,
+    "additionalDeliveryDays": null,
+    "preSale": null,
+    "badges": [
+      "NetsGO"
+    ],
+    "featuredImage": "https://static.netshoes.com.br/example/24057.jpg",
+    "images": [
+      "https://static.netshoes.com.br/example/63557.jpg",
+      "https://static.netshoes.com.br/example/42233.jpg"
+    ],
+    "videos": [],
+    "rating": 6.08
+  }
+]

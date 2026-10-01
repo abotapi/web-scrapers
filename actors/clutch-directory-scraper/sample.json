@@ -1,0 +1,94 @@
+[
+  {
+    "id": "80360",
+    "kind": "company",
+    "type": "company",
+    "slug": "Example slug",
+    "name": "Example name",
+    "title": "Example title",
+    "url": "https://clutch.co/example/61266",
+    "clutchUrl": "https://clutch.co/example/17253",
+    "profileUrl": "https://clutch.co/example/36028",
+    "profileLink": "https://clutch.co/example/4517",
+    "logo": "https://img.shgstatic.com/example/14944.jpg",
+    "logoUrl": "https://img.shgstatic.com/example/24369.jpg",
+    "website": "https://imaginovation.net/example/8043",
+    "websiteUrl": "https://imaginovation.net/example/96469",
+    "tagline": null,
+    "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
+    "summary": "Example summary: mock text standing in for the real value. Same field and type, made-up content.",
+    "quote": null,
+    "rating": 6.22,
+    "reviewCount": 58,
+    "numberOfProjects": null,
+    "minProjectSize": "Example min project size",
+    "hourlyRate": "Example hourly rate",
+    "employeeCount": "38 - 29",
+    "employeesCount": "63 - 41",
+    "priceRange": "Example price range",
+    "location": "Example location",
+    "services": [
+      "Example services",
+      "Example services"
+    ],
+    "tags": [
+      "Example tags",
+      "Example tags"
+    ],
+    "verified": true,
+    "isVerified": true,
+    "isSponsor": true,
+    "position": 7,
+    "company": {
+      "id": "80360",
+      "title": "Example title",
+      "url": "https://clutch.co/example/61266"
+    },
+    "branding": {
+      "logotype": "https://img.shgstatic.com/example/52678.jpg",
+      "verified": true
+    },
+    "contact": {
+      "phone": "+1 555 0100",
+      "location": "Example location",
+      "company_page_url": "https://clutch.co/example/45521",
+      "address": {
+        "street": "Example street",
+        "city": "Example city",
+        "region": "NC",
+        "postal_code": "14469",
+        "country": "US",
+        "phone": "+1 555 0100"
+      }
+    },
+    "ratings": {
+      "rating": 6.22,
+      "reviews_count": 84,
+      "reviews_text": "Example reviews_text",
+      "rating_details": {
+        "best_rating": 4,
+        "worst_rating": 0.47
+      },
+      "rating_metrics": {
+        "Quality": 6.05,
+        "Schedule": 3.36,
+        "Cost": 5.18,
+        "Willing to Refer": 3.63
+      }
+    },
+    "pricing": {
+      "hourly_rate": "Example hourly_rate",
+      "minimum_project_size": "Example minimum_project_size",
+      "price_range": "Example price_range"
+    },
+    "staffing": {
+      "employees": "89 - 83"
+    },
+    "services_cluster": {
+      "services_provided": [
+        "Example services_provided",
+        "Example services_provided"
+      ]
+    }
+  }
+]

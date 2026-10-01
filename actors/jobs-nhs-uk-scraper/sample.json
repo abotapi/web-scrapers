@@ -1,0 +1,60 @@
+[
+  {
+    "id": "c8644-91-9957",
+    "url": "https://www.jobs.nhs.uk/example/79900",
+    "title": "Example title",
+    "referenceNumber": "785-ls-camhs-158",
+    "employer": "Example employer",
+    "employerWebsite": "https://www.westlondon.nhs.uk/example/79734",
+    "employerLogoDataUri": "Example employer logo data uri: mock text standing in for the real value. Same field and type, made-up content.",
+    "location": "Example location",
+    "postcode": "Example postcode",
+    "addressLine1": "Example address line1",
+    "addressLine2": "Example address line2",
+    "addressTown": "Example address town",
+    "addressCounty": null,
+    "addressLines": [
+      "Example address lines",
+      "Example address lines"
+    ],
+    "salary": "Example salary",
+    "salaryQualifier": "Example salary qualifier",
+    "salaryMin": 64058,
+    "salaryMax": 514402,
+    "salaryPeriod": "Example salary period",
+    "payScheme": "Example pay scheme",
+    "grade": "Example grade",
+    "contractType": "Example contract type",
+    "contractDuration": "Example contract duration",
+    "workingPattern": "Example working pattern",
+    "datePosted": "Example date posted",
+    "datePostedIso": "2026-01-15",
+    "closingDate": "Example closing date",
+    "closingDateIso": "2026-01-15",
+    "interviewDate": null,
+    "applyUrl": "https://www.jobs.nhs.uk/example/89021",
+    "contactName": "Example contact name",
+    "contactJobTitle": "Example contact job title",
+    "contactEmail": "user60@example.com",
+    "contactPhone": null,
+    "contactDetails": {
+      "jobTitle": "Example job title",
+      "name": "Example name",
+      "email": "user83@example.com",
+      "phone": null
+    },
+    "employerDetails": {
+      "name": "Example name",
+      "website": "https://www.westlondon.nhs.uk/example/77336",
+      "address": [
+        "Example address",
+        "Example address"
+      ],
+      "postcode": "Example postcode"
+    },
+    "jobOverviewHtml": "Example job overview html: mock text standing in for the real value. Same field and type, made-up content.",
+    "jobOverviewText": "Example job overview text: mock text standing in for the real value. Same field and type, made-up content.",
+    "mainDutiesHtml": "",
+    "mainDutiesText": null
+  }
+]

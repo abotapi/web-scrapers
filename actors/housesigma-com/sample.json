@@ -1,0 +1,318 @@
+[
+  {
+    "idListing": "z0bx03nplpo5dar6",
+    "mlNum": "c39644401",
+    "url": "https://housesigma.com/example/97815",
+    "status": "Example status",
+    "saleOrLease": "Example sale or lease",
+    "propertyType": "Example property type",
+    "address": "Example address",
+    "addressFull": "Example address full",
+    "aptNumber": "865",
+    "community": "Example community",
+    "municipality": "Example municipality",
+    "province": "Example province",
+    "bedrooms": 3,
+    "bedroomsPlus": 0,
+    "bathrooms": 2,
+    "parking": {
+      "total": 3,
+      "garage_type": "Underground",
+      "garage": 7,
+      "parking_type": null,
+      "parking": 0,
+      "text": "Example text"
+    },
+    "priceListed": 891133,
+    "priceListedText": "366,667",
+    "priceAbbr": "Example price abbr",
+    "priceSold": "Example price sold",
+    "latitude": 40.16,
+    "longitude": -69.91,
+    "sizeSqft": null,
+    "sizeText": "Example size text",
+    "lotFront": null,
+    "lotDepth": null,
+    "lotUnit": null,
+    "dateListed": "+1 555 0100",
+    "dateUpdated": "2026-01-15",
+    "daysOnMarket": 0,
+    "dataSource": "PROPTX",
+    "photo": "https://cache-e13.housesigma.com/example/63556.jpg",
+    "listStatus": {
+      "public": 3,
+      "live": 9,
+      "sold": 0,
+      "s_r": "Example s_r",
+      "text": "Example text",
+      "text_full": "Example text_full",
+      "status": "A",
+      "feature": null,
+      "precon": null,
+      "agent_available": true,
+      "premium": 0,
+      "archive": 0,
+      "is_public_compliant": false
+    },
+    "photos": [
+      "https://cache-e13.housesigma.com/example/20906.jpg",
+      "https://cache-e14.housesigma.com/example/27951.jpg"
+    ],
+    "virtualTour": "https://vimeo.com/example/45422",
+    "keyFacts": {
+      "Tax": "Example tax",
+      "Property Type": "Example property  type",
+      "Maintenance": "Example maintenance",
+      "Included Utility": "Example included  utility",
+      "Building Age": "1-69",
+      "Size": "Example size",
+      "Locker": "Example locker",
+      "Exposure": "Example exposure",
+      "Parking": "Example parking",
+      "Listing #": "c46447816",
+      "Data Source": "PROPTX",
+      "Days on Site": "Example days on  site",
+      "Added to HouseSigma": "2026-01-15",
+      "Updated on": "2026-01-15",
+      "Description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
+      "Summary": "Example summary: mock text standing in for the real value. Same field and type, made-up content."
+    },
+    "propertyDetail": {
+      "Property": [
+        {
+          "name": "Example name",
+          "value": "Example value",
+          "public": 3
+        },
+        {
+          "name": "Example name",
+          "value": "Example value",
+          "public": 6
+        }
+      ],
+      "Building": [
+        {
+          "name": "Example name",
+          "value": "Example value",
+          "public": 3
+        },
+        {
+          "name": "Example name",
+          "value": "3-73",
+          "public": 6
+        }
+      ],
+      "Inside": [
+        {
+          "name": "Example name",
+          "value": "5",
+          "public": 3
+        },
+        {
+          "name": "Example name",
+          "value": "0",
+          "public": 6
+        }
+      ],
+      "Utilities": [
+        {
+          "name": "Example name",
+          "value": "Example value",
+          "public": 3
+        },
+        {
+          "name": "Example name",
+          "value": "Example value",
+          "public": 6
+        }
+      ],
+      "Parking": [
+        {
+          "name": "Example name",
+          "value": "Example value",
+          "public": 3
+        },
+        {
+          "name": "Example name",
+          "value": "5",
+          "public": 6
+        }
+      ],
+      "Highlights": [
+        {
+          "name": "Example name",
+          "value": "Example value: mock text standing in for the real value. Same field and type, made-up content.",
+          "public": 3
+        },
+        {
+          "name": "Example name",
+          "value": "Example value",
+          "public": 6
+        }
+      ],
+      "Land": [
+        {
+          "name": "Example name",
+          "value": "Example value",
+          "public": 3
+        }
+      ]
+    },
+    "rooms": [
+      {
+        "type": "Example type",
+        "level": "Example level",
+        "dimensions": "Example dimensions",
+        "length": null,
+        "width": null,
+        "description": "Example description"
+      },
+      {
+        "type": "Example type",
+        "level": "Example level",
+        "dimensions": "Example dimensions",
+        "length": null,
+        "width": null,
+        "description": "Example description"
+      }
+    ],
+    "schools": [
+      {
+        "distance": 5729,
+        "programs": [
+          "Example programs",
+          "2-59"
+        ],
+        "id_school": 2197,
+        "display_score": 3,
+        "id": 5737,
+        "name": "Example name",
+        "board": "Example board",
+        "address": "Example address",
+        "phone": "+1 555 0100",
+        "eqao_json": null,
+        "city": "Toronto",
+        "region": "Ontario",
+        "web": "http://schoolweb.tdsb.on.ca/example/72754",
+        "geo_latitude": 47.59,
+        "geo_longitude": -65.12,
+        "school_type": "Secondary",
+        "board_type": "Public",
+        "score": 10.54,
+        "score_year": 1425,
+        "score_average": null,
+        "rank": 436,
+        "rank_total": 862,
+        "rank_year": 9459,
+        "province_abbr": "ON",
+        "score_json": null,
+        "geo_json": null,
+        "geo_json_v2": null,
+        "rank_year_label": "2471-87",
+        "score_year_label": "7080-74",
+        "score_json_v2": [
+          {
+            "year": 6575,
+            "rank_name": "Example rank_name",
+            "rank_value": "718/552",
+            "score_name": "Example score_name",
+            "score_value": "9.83"
+          },
+          {
+            "year": 4564,
+            "rank_name": "Example rank_name",
+            "rank_value": "62/947",
+            "score_name": "Example score_name",
+            "score_value": "3.83"
+          }
+        ]
+      },
+      {
+        "distance": 428,
+        "programs": [
+          "Example programs",
+          "Example programs"
+        ],
+        "id_school": 4604,
+        "display_score": 2,
+        "id": 9915,
+        "name": "Example name",
+        "board": "Example board",
+        "address": "Example address",
+        "phone": "+1 555 0100",
+        "eqao_json": null,
+        "city": "Toronto",
+        "region": "Ontario",
+        "web": "https://schoolweb.tdsb.on.ca/example/76028",
+        "geo_latitude": 55.88,
+        "geo_longitude": -88.18,
+        "school_type": "Elementary",
+        "board_type": "Public",
+        "score": 7.3,
+        "score_year": 6837,
+        "score_average": null,
+        "rank": 545,
+        "rank_total": 3845,
+        "rank_year": 5372,
+        "province_abbr": "ON",
+        "score_json": null,
+        "geo_json": null,
+        "geo_json_v2": null,
+        "rank_year_label": "3719-37",
+        "score_year_label": "7557-90",
+        "score_json_v2": [
+          {
+            "year": 4564,
+            "rank_name": "Example rank_name",
+            "rank_value": "238/3882",
+            "score_name": "Example score_name",
+            "score_value": "9.88"
+          },
+          {
+            "year": 6430,
+            "rank_name": "Example rank_name",
+            "rank_value": "377/6255",
+            "score_name": "Example score_name",
+            "score_value": "7.78"
+          }
+        ]
+      }
+    ],
+    "priceHistory": [
+      {
+        "id_listing": "z8bx14nplpo4dar4",
+        "ml_num": "c40615438",
+        "seo_suffix": "495-st-helens-avenue-644-toronto-c71487343",
+        "price": "Example price",
+        "price_note": null,
+        "price_sold": null,
+        "date_start": null,
+        "date_end": null,
+        "data_source": "PROPTX",
+        "status": "Example status",
+        "s_r": "Example s_r",
+        "public": 3,
+        "button": 0,
+        "show_contact_agent": false,
+        "blur_price": false
+      },
+      {
+        "id_listing": "akv63dx8nxw9mnxb",
+        "ml_num": "Example ml_num",
+        "seo_suffix": "759-st-helens-avenue-193-toronto-w54943951",
+        "price": "Example price",
+        "price_note": null,
+        "price_sold": "Example price_sold",
+        "date_start": null,
+        "date_end": null,
+        "data_source": "PROPTX",
+        "status": "Terminated",
+        "s_r": "Example s_r",
+        "public": 0,
+        "button": 8,
+        "show_contact_agent": false,
+        "blur_price": false
+      }
+    ]
+  }
+]

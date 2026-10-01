@@ -1,0 +1,63 @@
+[
+  {
+    "scrapedAt": "2026-01-15T10:00:00Z",
+    "propertyId": "93445125",
+    "mlsNumber": "e00758032",
+    "url": "https://www.realtor.ca/example/2424",
+    "listingType": "buy",
+    "propertyType": "house",
+    "buildingType": "House",
+    "ownershipType": "Example ownership type",
+    "dateListed": "+1 555 0100",
+    "timeOnRealtor": "Example time on realtor",
+    "address": {
+      "full": "Example full",
+      "street": "Example street",
+      "city": "Toronto",
+      "province": "Example province",
+      "postalCode": "m9c2z9"
+    },
+    "coordinates": {
+      "latitude": 54.75,
+      "longitude": -61.72
+    },
+    "price": {
+      "display": "Example display",
+      "value": 681736
+    },
+    "features": {
+      "bedrooms": 6,
+      "bathrooms": 9,
+      "parkingSpaces": 3,
+      "parkingType": "Example parking type",
+      "landSize": "Example land size",
+      "buildingSize": "Example building size",
+      "stories": 3
+    },
+    "propertyFeatures": [
+      "Example property features",
+      "Example property features"
+    ],
+    "tags": [
+      "Example tags"
+    ],
+    "media": {
+      "imageCount": 1,
+      "images": [
+        "https://cdn.realtor.ca/example/84809.jpg"
+      ]
+    },
+    "agents": [
+      {
+        "name": "Example name",
+        "phone": "+1 555 0100",
+        "position": "Example position",
+        "profileUrl": "https://www.realtor.ca/example/94295",
+        "organization": "Example organization",
+        "organizationLogo": "https://cdn.realtor.ca/example/63960.jpg",
+        "organizationDesignation": "Example organization designation",
+        "organizationPhone": "+1 555 0100"
+      }
+    ]
+  }
+]

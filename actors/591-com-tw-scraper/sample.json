@@ -1,0 +1,120 @@
+[
+  {
+    "id": 25300487,
+    "section": "rent",
+    "listingType": "rent",
+    "url": "https://rent.591.com.tw/example/99392",
+    "title": "Example title",
+    "price": 86416,
+    "priceText": "73,173",
+    "priceUnit": "Example price unit",
+    "unitPrice": null,
+    "kind": 4,
+    "kindName": "Example kind name",
+    "room": null,
+    "layout": "9",
+    "area": 4,
+    "areaText": "Example area text",
+    "floor": "Example floor",
+    "fitment": "Example fitment",
+    "address": "Example address",
+    "communityName": "Example community name",
+    "communityId": 8668,
+    "regionId": 9,
+    "regionName": "Example region name",
+    "tags": [
+      "Example tags",
+      "Example tags"
+    ],
+    "nearbyTransit": [
+      {
+        "type": "bus",
+        "name": "Example name",
+        "distance": 58
+      },
+      {
+        "type": "subway",
+        "name": "Example name",
+        "distance": 211
+      }
+    ],
+    "photos": [
+      "https://img2.591.com.tw/example/56048.jpg",
+      "https://img2.591.com.tw/example/16881.jpg"
+    ],
+    "coverPhoto": "https://img2.591.com.tw/example/64981.jpg",
+    "photoCount": 6,
+    "isVideo": false,
+    "browseCount": 281,
+    "contactRole": "Example contact role",
+    "refreshedAt": "Example refreshed at",
+    "descriptionHtml": "Example description html: mock text standing in for the real value. Same field and type, made-up content.",
+    "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
+    "deposit": "Example deposit",
+    "shape": "Example shape",
+    "sectionId": 3,
+    "sectionName": "Example section name",
+    "latitude": 26.05,
+    "longitude": 130.03,
+    "leaseMinTerm": null
+  },
+  {
+    "id": 29649426,
+    "section": "rent",
+    "listingType": "rent",
+    "url": "https://rent.591.com.tw/example/53496",
+    "title": "Example title",
+    "price": 485387,
+    "priceText": "628,414",
+    "priceUnit": "Example price unit",
+    "unitPrice": null,
+    "kind": 6,
+    "kindName": "Example kind name",
+    "room": "Example room",
+    "layout": "6",
+    "area": 77,
+    "areaText": "Example area text",
+    "floor": "Example floor",
+    "fitment": "Example fitment",
+    "address": "Example address",
+    "communityName": "Example community name",
+    "communityId": 0,
+    "regionId": 3,
+    "regionName": "Example region name",
+    "tags": [
+      "Example tags",
+      "Example tags"
+    ],
+    "nearbyTransit": [
+      {
+        "type": "subway",
+        "name": "Example name",
+        "distance": 762
+      },
+      {
+        "type": "subway",
+        "name": "Example name",
+        "distance": 324
+      }
+    ],
+    "photos": [
+      "https://img1.591.com.tw/example/97716.jpg",
+      "https://img2.591.com.tw/example/19070.jpg"
+    ],
+    "coverPhoto": "https://img1.591.com.tw/example/60637.jpg",
+    "photoCount": 20,
+    "isVideo": false,
+    "browseCount": 84,
+    "contactRole": "Example contact role",
+    "refreshedAt": "Example refreshed at",
+    "descriptionHtml": "user82@example.com",
+    "description": "user32@example.com",
+    "deposit": "Example deposit",
+    "shape": "Example shape",
+    "sectionId": 8,
+    "sectionName": "Example section name",
+    "latitude": 19.04,
+    "longitude": 89.95,
+    "leaseMinTerm": null
+  }
+]

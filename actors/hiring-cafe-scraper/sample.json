@@ -1,0 +1,169 @@
+[
+  {
+    "id": "id15516072",
+    "board_token": "Example board_token",
+    "source": "hirebridge",
+    "source_and_board_token": "Example source_and_board_token",
+    "apply_url": "https://recruit.hirebridge.com/example/60602",
+    "objectID": "id36395824",
+    "requisition_id": "id50241345",
+    "job_url": "https://hiringcafe.com/example/86267",
+    "is_expired": false,
+    "job_information": {
+      "title": "Example title",
+      "job_title_raw": "Example job_title_raw",
+      "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
+      "viewedByUsers": [
+        "ihi2w3tzzztiquz6az698gtqi1g3",
+        "xrmx1o4xhldst1vojlrto0cxyvc0"
+      ],
+      "appliedFromUsers": [
+        "xbbblbsg5ea6akdegf8la9rwvby0",
+        "nfnqiro639pspxowumpsa2dkukk9"
+      ],
+      "savedFromUsers": [
+        "ydgzxxgekkvyo9j05elb3xbk2fz8",
+        "ttryyfqo3gttiozikqobe6povbl4"
+      ],
+      "hiddenFromUsers": [
+        "dps9zz2akjg5u9wqvx1isermjya6"
+      ],
+      "num_views": 537,
+      "num_applies": 48,
+      "num_saves": 4
+    },
+    "v5_processed_job_data": {
+      "core_job_title": "Example core_job_title",
+      "requirements_summary": "Example requirements_summary: mock text standing in for the real value. Same field and type, made-up content.",
+      "technical_tools": [
+        "Example technical_tools",
+        "Example technical_tools"
+      ],
+      "licenses_or_certifications": [],
+      "associates_degree_requirement": "Example associates_degree_requirement",
+      "associates_degree_fields_of_study": [],
+      "bachelors_degree_requirement": "Example bachelors_degree_requirement",
+      "bachelors_degree_fields_of_study": [],
+      "masters_degree_requirement": "Example masters_degree_requirement",
+      "masters_degree_fields_of_study": [],
+      "doctorate_degree_requirement": "Example doctorate_degree_requirement",
+      "doctorate_degree_fields_of_study": [],
+      "licenses_or_certifications_not_mentioned": true,
+      "min_industry_and_role_yoe": null,
+      "401k_matching": false,
+      "is_min_industry_and_role_yoe_not_mentioned": null,
+      "min_management_and_leadership_yoe": null,
+      "is_min_management_and_leadership_yoe_not_mentioned": true,
+      "job_category": "Example job_category",
+      "role_activities": [
+        "Example role_activities",
+        "Example role_activities"
+      ],
+      "commitment": [
+        "Example commitment"
+      ],
+      "role_type": "Example role_type",
+      "seniority_level": "Example seniority_level",
+      "workplace_countries": [
+        "US"
+      ],
+      "boundless_workplace_states": [],
+      "boundless_workplace_countries": [],
+      "boundless_workplace_continents": [],
+      "workplace_continents": [
+        "Example workplace_continents"
+      ],
+      "workplace_states": [
+        "Example workplace_states"
+      ],
+      "workplace_cities": [
+        "Example workplace_cities"
+      ],
+      "workplace_counties": [
+        "Example workplace_counties"
+      ],
+      "workplace_type": "Onsite",
+      "workplace_physical_environment": "Example workplace_physical_environment",
+      "oral_communication_level": "Medium",
+      "physical_labor_intensity": "Example physical_labor_intensity",
+      "physical_position": "Example physical_position",
+      "computer_usage": "Example computer_usage",
+      "cognitive_demand": "Example cognitive_demand",
+      "air_travel_requirement": "Example air_travel_requirement",
+      "land_travel_requirement": "Example land_travel_requirement"
+    },
+    "v5_processed_company_data": {
+      "latest_funding_investors": null,
+      "homepage_uri": "Example homepage_uri",
+      "parent_company": null,
+      "latest_funding_year": null,
+      "latest_funding_type": null,
+      "stock_exchange": null,
+      "stock_symbol": null,
+      "nb_employees": 47,
+      "year_founded": 5364,
+      "hq_country": "US",
+      "enriched_at": "2026-01-15T10:00:00Z",
+      "activities": [
+        "Example activities",
+        "Example activities"
+      ],
+      "industries": [
+        "Example industries",
+        "Example industries"
+      ],
+      "latest_funding_amount": null,
+      "name": "Example name",
+      "tagline": "Example tagline: mock text standing in for the real value. Same field and type, made-up content.",
+      "organization_type": "Private",
+      "subsidiaries": [],
+      "status": "VALID_COMPANY"
+    },
+    "_geoloc": [
+      {
+        "lat": 40.13,
+        "lon": -70.39
+      }
+    ],
+    "job_title": "Example job_title",
+    "employment_types": [
+      "Example employment_types"
+    ],
+    "role_type": "Example role_type",
+    "job_category": "Example job_category",
+    "seniority": "Example seniority",
+    "workplace_type": "Onsite",
+    "location": "Example location",
+    "employer_type": "Example employer_type",
+    "salary_currency": "USD",
+    "posted_at": "2026-01-15T10:00:00Z",
+    "company_name": "Example company_name",
+    "company_tagline": "Example company_tagline: mock text standing in for the real value. Same field and type, made-up content.",
+    "company_industry": "Example company_industry",
+    "technical_tools": [
+      "Example technical_tools",
+      "Example technical_tools"
+    ],
+    "languages": [
+      "English"
+    ],
+    "security_clearance": "Example security_clearance",
+    "physical_requirements": {
+      "labor_intensity": "Example labor_intensity",
+      "position": "Example position",
+      "environment": "Example environment",
+      "computer_usage": "Example computer_usage",
+      "oral_communication": "Example oral_communication",
+      "cognitive_demand": "Example cognitive_demand",
+      "air_travel": "Example air_travel",
+      "land_travel": "Example land_travel"
+    },
+    "company_employees": 87,
+    "company_founded": 3979,
+    "company_hq_country": "US",
+    "views_on_site": 446,
+    "applies_on_site": 74,
+    "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
+    "description_text": "Example description_text: mock text standing in for the real value. Same field and type, made-up content."
+  }
+]

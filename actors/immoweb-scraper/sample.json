@@ -1,0 +1,36 @@
+[
+  {
+    "id": 76388293,
+    "url": "https://www.immoweb.be/example/96963",
+    "title": "Example title",
+    "transactionType": "FOR_SALE",
+    "propertyType": "HOUSE",
+    "propertySubtype": "HOUSE",
+    "price": 703317,
+    "displayPrice": "Example display price",
+    "price_per_sqm": 6579,
+    "bedrooms": 8,
+    "livingArea": 110,
+    "landArea": 2172,
+    "street": "Example street",
+    "number": "24",
+    "postalCode": "9097",
+    "locality": "Example locality",
+    "district": "Example district",
+    "province": "Example province",
+    "region": "Flanders",
+    "regionCode": "FLANDERS",
+    "country": "Belgium",
+    "latitude": 36.46,
+    "longitude": 5.65,
+    "images": [
+      "https://media-resize.immowebstatic.be/example/87566.jpg",
+      "https://media-resize.immowebstatic.be/example/66745.jpg"
+    ],
+    "imageCount": 9,
+    "salePrice": 769135,
+    "lastModified": "2026-01-15T10:00:00Z",
+    "listingFlag": "new",
+    "customerName": "Example customer name"
+  }
+]

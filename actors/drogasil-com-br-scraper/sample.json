@@ -1,0 +1,111 @@
+[
+  {
+    "productId": "10575",
+    "sku": "31613",
+    "name": "Example name: mock text standing in for the real value. Same field and type, made-up content.",
+    "brand": "Example brand",
+    "url": "https://www.drogasil.com.br/example/65646",
+    "image": "https://product-data.raiadrogasil.io/example/72669.jpg",
+    "images": [
+      "https://product-data.raiadrogasil.io/example/42623.jpg"
+    ],
+    "currency": "BRL",
+    "price": 3.42,
+    "packSize": "Example pack size",
+    "prescriptionRequired": false,
+    "isGenericMedicine": false,
+    "isKit": false,
+    "requiresRefrigeration": false,
+    "soldBy": "drogasil",
+    "categories": [
+      "Medicamentos",
+      "Example categories"
+    ],
+    "categoryPath": "Example category path",
+    "productGroup": "Example product group",
+    "pharmaceuticalForm": null,
+    "drugClassificationCode": 7,
+    "badges": [],
+    "variantCount": 7,
+    "variantAttributes": [
+      {
+        "attribute": "Example attribute",
+        "value": "Example value"
+      },
+      {
+        "attribute": "Example attribute",
+        "value": "Example value"
+      }
+    ],
+    "isSponsored": false,
+    "ean": "5051709898123",
+    "originalPrice": 7.26,
+    "discountPercent": 35.72,
+    "onSale": true,
+    "multiBuyUnitPrice": null,
+    "multiBuyMinQuantity": null,
+    "pixPrice": null,
+    "pixDiscountPercent": null,
+    "installments": [],
+    "stockQuantity": 2,
+    "inStock": true,
+    "breadcrumb": [
+      "Example breadcrumb",
+      "Example breadcrumb"
+    ],
+    "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
+    "shortDescription": "Example short description: mock text standing in for the real value. Same field and type, made-up content.",
+    "longDescription": null,
+    "usageInstructions": "Example usage instructions"
+  },
+  {
+    "productId": "964077",
+    "sku": "435512",
+    "name": "Example name",
+    "brand": "Example brand",
+    "url": "https://www.drogasil.com.br/example/57365",
+    "image": "https://product-data.raiadrogasil.io/example/8095.jpg",
+    "images": [
+      "https://product-data.raiadrogasil.io/example/33691.jpg"
+    ],
+    "currency": "BRL",
+    "price": 10.38,
+    "packSize": "Example pack size",
+    "prescriptionRequired": false,
+    "isGenericMedicine": false,
+    "isKit": false,
+    "requiresRefrigeration": false,
+    "soldBy": "drogasil",
+    "categories": [
+      "Medicamentos",
+      "Example categories"
+    ],
+    "categoryPath": "Example category path",
+    "productGroup": "Example product group",
+    "pharmaceuticalForm": null,
+    "drugClassificationCode": 3,
+    "badges": [],
+    "variantCount": 0,
+    "variantAttributes": [],
+    "isSponsored": false,
+    "ean": "3136734973162",
+    "originalPrice": 15.98,
+    "discountPercent": 27.34,
+    "onSale": true,
+    "multiBuyUnitPrice": null,
+    "multiBuyMinQuantity": null,
+    "pixPrice": null,
+    "pixDiscountPercent": null,
+    "installments": [],
+    "stockQuantity": 7,
+    "inStock": true,
+    "breadcrumb": [
+      "Example breadcrumb",
+      "Example breadcrumb"
+    ],
+    "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
+    "shortDescription": "Example short description: mock text standing in for the real value. Same field and type, made-up content.",
+    "longDescription": null,
+    "usageInstructions": "Example usage instructions"
+  }
+]

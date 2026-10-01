@@ -1,0 +1,63 @@
+[
+  {
+    "id_annonce": "4663107",
+    "teacherName": "Example teacher name",
+    "title": "Example title: mock text standing in for the real value. Same field and type, made-up content.",
+    "url": "https://www.superprof.com/example/69807",
+    "landing_url": "https://www.superprof.com/example/62976",
+    "type": "rayon",
+    "price": 37,
+    "price_1H": 61,
+    "prices": {
+      "hourly": 75,
+      "firstHour": 62,
+      "currency_hint": null
+    },
+    "teacherCity": "Baldwinsville",
+    "city": "Baldwinsville",
+    "country": null,
+    "teacherPhoto": "https://c.superprof.com/example/68465.jpg",
+    "lat": null,
+    "lng": null,
+    "subjects": [
+      "Example subjects",
+      "Example subjects"
+    ],
+    "subjects_raw": [
+      "Example subjects_raw",
+      "Example subjects_raw"
+    ],
+    "badge": "Ambassador",
+    "is_ambassador": true,
+    "is_available": true,
+    "search_url": "https://www.superprof.com/example/76818",
+    "sex": "male",
+    "is_superprof": true,
+    "is_star": true,
+    "is_verified_member": true,
+    "stat_count_reviews": 804,
+    "stat_count_favorite": null,
+    "stat_count_total_links": null,
+    "stat_stars": 2,
+    "response_rate": null,
+    "response_time_sec": 20114,
+    "offer_lesson_first_is_free": true,
+    "offer_lesson_first_lesson_duration": "Example offer_lesson_first_lesson_duration",
+    "stat_count_recommendations": 78,
+    "status": "Ambassador",
+    "price_5H": 665,
+    "price_10H": 536,
+    "price_webcam": 91,
+    "price_with_travel": null,
+    "offers": [
+      {
+        "type": "id29054264",
+        "price": 307
+      },
+      {
+        "type": "id26404181",
+        "price": 707
+      }
+    ]
+  }
+]

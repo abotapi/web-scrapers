@@ -1,0 +1,102 @@
+[
+  {
+    "vacancyId": "973432869",
+    "url": "https://hh.ru/example/94842",
+    "name": "Example name",
+    "publicationDate": "2026-01-15T10:00:00Z",
+    "creationDate": "2026-01-15T10:00:00Z",
+    "lastChangeTime": "2026-01-15T10:00:00Z",
+    "isAdv": false,
+    "searchUrl": "https://hh.ru/example/24790",
+    "searchSessionId": "id10441228",
+    "company": {
+      "id": 470,
+      "name": "Example name",
+      "visibleName": "Example visible name",
+      "isAccreditedIT": false,
+      "isTrusted": true,
+      "category": "COMPANY",
+      "state": "APPROVED",
+      "siteUrl": "http://www.sogaz.ru/example/71246",
+      "logoUrl": "https://hh.ru/example/69494.jpg",
+      "logos": [
+        {
+          "type": "ORIGINAL",
+          "url": "https://hh.ru/example/94842.jpg"
+        },
+        {
+          "type": "employerPage",
+          "url": "https://hh.ru/example/52918.jpg"
+        }
+      ],
+      "badges": []
+    },
+    "salaryFrom": null,
+    "salaryTo": null,
+    "salaryCurrency": null,
+    "salaryGross": null,
+    "salaryMode": null,
+    "salaryFrequency": null,
+    "compensation": {
+      "from": null,
+      "to": null,
+      "currencyCode": null,
+      "gross": null,
+      "mode": null,
+      "frequency": null
+    },
+    "area": {
+      "id": 2,
+      "name": "Example name",
+      "path": ".599.302.6."
+    },
+    "address": {
+      "city": "Example city",
+      "street": "Example street",
+      "building": "89",
+      "displayName": "Example display name",
+      "lat": 57.42,
+      "lng": 44.05,
+      "metroStations": [
+        {
+          "id": 20,
+          "name": "Example name",
+          "lineColor": "Example line color"
+        },
+        {
+          "id": 851,
+          "name": "Example name",
+          "lineColor": "Example line color"
+        }
+      ],
+      "district": "Example district"
+    },
+    "workExperience": "between6and6",
+    "employment": "FULL",
+    "employmentForm": "FULL",
+    "workSchedule": "Example work schedule",
+    "workScheduleByDays": [
+      "FIVE_ON_TWO_OFF"
+    ],
+    "workingHours": [
+      "hours_0"
+    ],
+    "workFormats": [
+      "ON_SITE"
+    ],
+    "workingDays": [],
+    "workingTimeIntervals": [],
+    "workingTimeModes": [],
+    "flyInFlyOutDurations": [],
+    "nightShifts": false,
+    "internship": false,
+    "acceptHandicapped": null,
+    "acceptTemporary": false,
+    "acceptIncompleteResumes": true,
+    "acceptLaborContract": true,
+    "ageRestriction": null,
+    "responseLetterRequired": false,
+    "showContact": false,
+    "inboxPossibility": true
+  }
+]

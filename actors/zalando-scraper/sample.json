@@ -1,0 +1,205 @@
+[
+  {
+    "sku": "an490c6bd-q99",
+    "name": "Example name",
+    "brand": "Example brand",
+    "url": "https://www.zalando.co.uk/example/60791",
+    "targetGroup": "WOMEN",
+    "category": "DRESS",
+    "supplierName": "Example supplier name",
+    "shortDescription": null,
+    "condition": null,
+    "price": 28.21,
+    "originalPrice": 33.99,
+    "promotionalPrice": null,
+    "discountPercentage": null,
+    "currency": "GBP",
+    "onSale": false,
+    "dealFlag": null,
+    "flags": [],
+    "sizes": [
+      "XS",
+      "S"
+    ],
+    "sizeSkus": [
+      {
+        "size": "XS",
+        "sku": "an746c5bd-q0581xs240"
+      },
+      {
+        "size": "S",
+        "sku": "an516c3bd-q82099s021"
+      }
+    ],
+    "image": "https://img01.ztat.net/example/71618.jpg",
+    "images": [
+      "https://img01.ztat.net/example/32976.jpg",
+      "https://video01.ztat.net/example/83109.jpg"
+    ],
+    "rating": null,
+    "available": true,
+    "variantCount": 0,
+    "inWishlist": false,
+    "benefits": [],
+    "priceTrackingKey": "Example price tracking key: mock text standing in for the real value. Same field and type, made-up content.",
+    "domain": "co.uk",
+    "search_query": "dress",
+    "sourceUrl": "https://www.zalando.co.uk/example/8792",
+    "productsFound": 28234,
+    "mode": "listing",
+    "item": {
+      "id": "Example id",
+      "sku": "an490c6bd-q99",
+      "name": "Example name",
+      "navigationTargetGroup": "WOMEN",
+      "silhouette": "DRESS",
+      "supplierName": "Example supplier name",
+      "shortDescription": null,
+      "brandRestriction": {
+        "themeOverride": null
+      },
+      "gallery": [
+        {
+          "gallerySmall": {
+            "__typename": "Example __typename",
+            "uri": "https://img01.ztat.net/example/51919.jpg",
+            "alternativeText": "Example alternative text: mock text standing in for the real value. Same field and type, made-up content."
+          },
+          "galleryMedium": {
+            "__typename": "Example __typename",
+            "uri": "https://img01.ztat.net/example/51919.jpg",
+            "alternativeText": "Example alternative text: mock text standing in for the real value. Same field and type, made-up content."
+          },
+          "galleryLarge": {
+            "__typename": "Example __typename",
+            "uri": "https://img01.ztat.net/example/51919.jpg",
+            "alternativeText": "Example alternative text: mock text standing in for the real value. Same field and type, made-up content."
+          },
+          "galleryExtraLarge": {
+            "__typename": "Example __typename",
+            "uri": "https://img01.ztat.net/example/51919.jpg",
+            "alternativeText": "Example alternative text: mock text standing in for the real value. Same field and type, made-up content."
+          }
+        },
+        {
+          "gallerySmall": {
+            "__typename": "Example __typename",
+            "uri": "https://video01.ztat.net/example/44324"
+          },
+          "galleryMedium": {
+            "__typename": "Example __typename",
+            "uri": "https://video01.ztat.net/example/44324"
+          },
+          "galleryLarge": {
+            "__typename": "Example __typename",
+            "uri": "https://video01.ztat.net/example/44324"
+          },
+          "galleryExtraLarge": {
+            "__typename": "Example __typename",
+            "uri": "https://video01.ztat.net/example/44324"
+          }
+        }
+      ],
+      "presentation": [
+        {
+          "__typename": "Example __typename"
+        },
+        {
+          "__typename": "Example __typename",
+          "preferredImageKind": null
+        }
+      ],
+      "brand": {
+        "name": "Example name"
+      },
+      "condition": null,
+      "displayPrice": {
+        "trackingCurrentAmount": 29.57,
+        "trackingDiscountAmount": null,
+        "promotional": null,
+        "original": {
+          "amount": 6414,
+          "currency": "GBP"
+        },
+        "displayMode": null
+      },
+      "simples": [
+        {
+          "size": "XS",
+          "sku": "an746c5bd-q0581xs240"
+        },
+        {
+          "size": "S",
+          "sku": "an516c3bd-q82099s021"
+        }
+      ],
+      "defaultMediaInfo": {
+        "alternativeText": "Example alternative text: mock text standing in for the real value. Same field and type, made-up content."
+      },
+      "smallDefaultMedia": {
+        "uri": "https://img01.ztat.net/example/51919.jpg"
+      },
+      "mediumDefaultMedia": {
+        "uri": "https://img01.ztat.net/example/51919.jpg"
+      },
+      "largeDefaultMedia": {
+        "uri": "https://img01.ztat.net/example/51919.jpg"
+      },
+      "extraLargeDefaultMedia": {
+        "uri": "https://img01.ztat.net/example/51919.jpg"
+      },
+      "packshotImageInfo": {
+        "alternativeText": "Example alternative text: mock text standing in for the real value. Same field and type, made-up content."
+      },
+      "smallPackshotImage": {
+        "uri": "https://img01.ztat.net/example/51919.jpg"
+      },
+      "mediumPackshotImage": {
+        "uri": "https://img01.ztat.net/example/51919.jpg"
+      },
+      "largePackshotImage": {
+        "uri": "https://img01.ztat.net/example/51919.jpg"
+      },
+      "extraLargePackshotImage": {
+        "uri": "https://img01.ztat.net/example/51919.jpg"
+      },
+      "hoverMediaInfo": {
+        "alternativeText": "Example alternative text: mock text standing in for the real value. Same field and type, made-up content."
+      },
+      "smallHoverMedia": {
+        "uri": "https://img01.ztat.net/example/51919.jpg"
+      },
+      "mediumHoverMedia": {
+        "uri": "https://img01.ztat.net/example/51919.jpg"
+      },
+      "largeHoverMedia": {
+        "uri": "https://img01.ztat.net/example/51919.jpg"
+      },
+      "extraLargeHoverMedia": {
+        "uri": "https://img01.ztat.net/example/51919.jpg"
+      },
+      "experienceWatermarkLarge": null,
+      "experienceWatermarkMedium": null,
+      "experienceWatermarkSmall": null,
+      "productFlags": [],
+      "uri": "https://www.zalando.co.uk/example/51919",
+      "inWishlist": false,
+      "benefits": [],
+      "deliveryHighlights": null,
+      "reason": null,
+      "familyRating": {
+        "ratingAndReviews": {
+          "rating": null
+        }
+      },
+      "visibility": null
+    },
+    "title": "Example title",
+    "wasPrice": null,
+    "savingsAmount": null,
+    "savingsPercent": null,
+    "isOnSpecial": false,
+    "promoLabel": null,
+    "specialsCategory": null
+  }
+]

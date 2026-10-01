@@ -1,0 +1,52 @@
+[
+  {
+    "recordType": "property_listing",
+    "listingId": "id88931421",
+    "url": "https://www.hipflat.co.th/example/44539",
+    "title": "Example title",
+    "dealType": "buy",
+    "propertyType": "Example property type",
+    "priceText": "Example price text",
+    "price": 7840171,
+    "currency": "THB",
+    "address": "Example address",
+    "bedrooms": 5,
+    "bathrooms": 8,
+    "areaText": "Example area text",
+    "area": 43,
+    "areaUnit": "Example area unit",
+    "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
+    "images": [
+      "https://img.hipcdn.com/example/61090.jpg",
+      "https://img.hipcdn.com/example/79360.jpg"
+    ],
+    "mainImage": "https://img.hipcdn.com/example/70717.jpg",
+    "imageCount": 5,
+    "isPremium": true,
+    "sourceUrl": "https://www.hipflat.co.th/example/54951",
+    "scrapedAt": "2026-01-15T10:00:00Z",
+    "record_type": "property_listing",
+    "record_id": "id71279688",
+    "id": "id91779640",
+    "listing_id": "id37676538",
+    "propertyUrl": "https://www.hipflat.co.th/example/61354",
+    "source_url": "https://www.hipflat.co.th/example/45112",
+    "loaded_url": "https://www.hipflat.co.th/example/38837",
+    "canonical_url": "https://www.hipflat.co.th/example/35924",
+    "name": "Example name",
+    "deal_type": "buy",
+    "property_type": "Example property_type",
+    "property_types": [
+      "Example property_types"
+    ],
+    "price_text": "Example price_text",
+    "price_min": 8829291,
+    "price_max": 1643236,
+    "floor_area": 64,
+    "image_urls": [
+      "https://img.hipcdn.com/example/55875.jpg",
+      "https://img.hipcdn.com/example/25257.jpg"
+    ],
+    "video_urls": []
+  }
+]

@@ -1,0 +1,128 @@
+[
+  {
+    "id": "036799185",
+    "name": "Example name",
+    "brand": "CHANEL",
+    "url": "https://www.myer.com.au/example/44883",
+    "seoToken": "Example seo token",
+    "price": 657,
+    "priceTo": 645,
+    "listPrice": 553,
+    "wasPrice": null,
+    "savedAmount": null,
+    "savingsPercent": null,
+    "promoLabel": null,
+    "promoLabels": null,
+    "isOnSale": null,
+    "currency": "AUD",
+    "isAvailable": true,
+    "isBuyable": true,
+    "supplierColour": null,
+    "hasMoreColours": false,
+    "colourVariants": [
+      {
+        "id": "306790169",
+        "colour": null
+      },
+      {
+        "id": "295526227",
+        "colour": null
+      }
+    ],
+    "mfPartNumber": "4108631",
+    "productExclusive": null,
+    "merchCategory": "Example merch category",
+    "category": "Example category",
+    "categories": [
+      "beauty",
+      "all-fragrance"
+    ],
+    "imageUrl": "https://myer-media.com.au/example/86518.jpg",
+    "images": [
+      "https://myer-media.com.au/example/23420.jpg",
+      "https://myer-media.com.au/example/47453.jpg"
+    ],
+    "searchMode": "search",
+    "source": "myer.com.au",
+    "internalId": 40299688,
+    "title": "Example title",
+    "brandUrl": "Example brand url",
+    "shortDescription": null,
+    "longDescription": "Example long description: mock text standing in for the real value. Same field and type, made-up content.",
+    "metaDescription": "Example meta description: mock text standing in for the real value. Same field and type, made-up content.",
+    "isClearance": null,
+    "afterPayEligible": true,
+    "hummEligible": true,
+    "categoryUri": "Example category uri",
+    "specifications": {
+      "Brand": "CHANEL",
+      "Dangerous Goods": "Example dangerous  goods",
+      "Fragrance Note": "Example fragrance  note",
+      "Collection Name": "Example collection  name"
+    }
+  },
+  {
+    "id": "id82057230",
+    "name": "Example name",
+    "brand": "CHANEL",
+    "url": "https://www.myer.com.au/example/16582",
+    "seoToken": "Example seo token",
+    "price": 726,
+    "priceTo": 713,
+    "listPrice": 397,
+    "wasPrice": null,
+    "savedAmount": null,
+    "savingsPercent": null,
+    "promoLabel": null,
+    "promoLabels": null,
+    "isOnSale": null,
+    "currency": "AUD",
+    "isAvailable": true,
+    "isBuyable": true,
+    "supplierColour": null,
+    "hasMoreColours": false,
+    "colourVariants": [
+      {
+        "id": "403498480",
+        "colour": null
+      },
+      {
+        "id": "489451574",
+        "colour": null
+      }
+    ],
+    "mfPartNumber": "080016b",
+    "productExclusive": null,
+    "merchCategory": "Example merch category",
+    "category": "mens-fragrances",
+    "categories": [
+      "beauty",
+      "all-fragrance"
+    ],
+    "imageUrl": "https://myer-media.com.au/example/77195.jpg",
+    "images": [
+      "https://myer-media.com.au/example/53906.jpg",
+      "https://myer-media.com.au/example/57300.jpg"
+    ],
+    "searchMode": "search",
+    "source": "myer.com.au",
+    "internalId": 4237700,
+    "title": "Example title",
+    "brandUrl": "Example brand url",
+    "shortDescription": null,
+    "longDescription": "Example long description: mock text standing in for the real value. Same field and type, made-up content.",
+    "metaDescription": "Example meta description: mock text standing in for the real value. Same field and type, made-up content.",
+    "isClearance": null,
+    "afterPayEligible": true,
+    "hummEligible": true,
+    "categoryUri": "Example category uri",
+    "specifications": {
+      "Collection Name": "Example collection  name",
+      "Brand": "CHANEL",
+      "Dangerous Goods": "Example dangerous  goods",
+      "Fragrance Note": "Example fragrance  note",
+      "Ingredients Disclaimer": "Example ingredients  disclaimer: mock text standing in for the real value. Same field and type, made-up content.",
+      "Formulation": "Example formulation"
+    }
+  }
+]

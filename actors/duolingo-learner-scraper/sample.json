@@ -1,0 +1,81 @@
+[
+  {
+    "kind": "profile",
+    "recordId": "1398983930",
+    "username": "Example username",
+    "name": "Example name",
+    "userId": 3681903175,
+    "profileUrl": "https://www.duolingo.com/example/16939",
+    "bio": null,
+    "picture": "Example picture: mock text standing in for the real value. Same field and type, made-up content.",
+    "joinedAt": 3510102803,
+    "streak": 0,
+    "streakData": {
+      "currentStreak": null,
+      "longestStreak": null
+    },
+    "totalXp": 3349,
+    "learningLanguage": "it",
+    "fromLanguage": "ro",
+    "currentCourseId": "DUOLINGO_IT_RO",
+    "hasPlus": true,
+    "profileCountry": null,
+    "location": null,
+    "hasRecentActivity15": false,
+    "betaStatus": "INELIGIBLE",
+    "motivation": "none",
+    "roles": [
+      "users"
+    ],
+    "globalAmbassadorStatus": null,
+    "emailVerified": false,
+    "courses": [
+      {
+        "id": "DUOLINGO_IT_RO",
+        "title": "Example title",
+        "learningLanguage": "it",
+        "fromLanguage": "ro",
+        "xp": 7307,
+        "crowns": 4806,
+        "authorId": "Example author id",
+        "healthEnabled": true,
+        "placementTestAvailable": false
+      },
+      {
+        "id": "Example id",
+        "title": "Example title",
+        "learningLanguage": "zh",
+        "fromLanguage": "ro",
+        "xp": 69,
+        "crowns": 5694,
+        "authorId": "Example author id",
+        "healthEnabled": true,
+        "placementTestAvailable": false
+      }
+    ],
+    "coursesCount": 3,
+    "achievements": [],
+    "achievementsCount": 0,
+    "achievementsDetail": [
+      {
+        "name": "Example name",
+        "tier": 8,
+        "count": 8,
+        "rewards": {},
+        "tierCounts": [
+          8,
+          6
+        ]
+      },
+      {
+        "name": "Example name",
+        "tier": 4,
+        "count": 6,
+        "rewards": {},
+        "tierCounts": [
+          6
+        ]
+      }
+    ]
+  }
+]

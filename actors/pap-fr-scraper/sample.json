@@ -1,0 +1,50 @@
+[
+  {
+    "id": "917103210",
+    "url": "https://www.pap.fr/example/8178",
+    "listingType": "Buy",
+    "propertyType": "Apartment",
+    "title": "Example title",
+    "priceValue": 556583,
+    "priceCurrency": "EUR",
+    "priceDisplay": "Example price display",
+    "rooms": 9,
+    "livingSpace": 79,
+    "bedrooms": 7,
+    "floor": 8,
+    "hoaChargesYearly": null,
+    "propertyTaxYearly": null,
+    "heatingType": null,
+    "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
+    "streetAddress": "Example street address",
+    "city": "Paris",
+    "postcode": null,
+    "arrondissement": "Example arrondissement",
+    "department": "Example department",
+    "region": null,
+    "latitude": null,
+    "longitude": null,
+    "energyClass": "Example energy class",
+    "ghgClass": null,
+    "isActive": false,
+    "reference": "Example reference",
+    "sellerPhone": "+1 555 0100",
+    "seller": {
+      "@type": "Person",
+      "name": "Example name"
+    },
+    "refusesCommercialSolicitation": true,
+    "imageCount": 1,
+    "images": [
+      "https://cdn.pap.fr/example/80192.jpg",
+      "https://cdn.pap.fr/example/22835.jpg"
+    ],
+    "additionalProperties": {
+      "Surface": "95.37",
+      "Nombre de pièces": "6",
+      "Type de bien": "Appartement",
+      "Ascenseur": "Example ascenseur"
+    },
+    "scrapedAt": "2026-01-15T10:00:00Z"
+  }
+]

@@ -1,0 +1,43 @@
+[
+  {
+    "type": "job",
+    "source": "jobs.cz",
+    "jobId": "3322798082",
+    "jobUrl": "https://www.jobs.cz/example/13407",
+    "title": "Example title: mock text standing in for the real value. Same field and type, made-up content.",
+    "companyName": "Example company name",
+    "companyLogo": "https://my.teamio.com/example/16230.jpg",
+    "location": "Example location",
+    "country": "Example country",
+    "arrangementTags": [
+      "Example arrangement tags"
+    ],
+    "arrangement": "remote",
+    "remote": true,
+    "status": "Example status",
+    "teaser": null,
+    "detailSource": null,
+    "scrapedAt": "2026-01-15T10:00:00Z"
+  },
+  {
+    "type": "job",
+    "source": "jobs.cz",
+    "jobId": "7661088260",
+    "jobUrl": "https://www.jobs.cz/example/2781",
+    "title": "Example title",
+    "companyName": "Example company name",
+    "companyLogo": null,
+    "location": "Example location",
+    "country": "Example country",
+    "arrangementTags": [
+      "Example arrangement tags",
+      "Example arrangement tags"
+    ],
+    "arrangement": "remote",
+    "remote": true,
+    "status": "Example status",
+    "teaser": null,
+    "detailSource": null,
+    "scrapedAt": "2026-01-15T10:00:00Z"
+  }
+]

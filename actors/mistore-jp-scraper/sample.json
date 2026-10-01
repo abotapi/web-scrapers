@@ -1,0 +1,257 @@
+[
+  {
+    "searchMode": "search",
+    "scrapedAt": "2026-01-15T10:00:00Z",
+    "productId": "959405876523959938148881",
+    "title": "Example title",
+    "brand": "Example brand",
+    "url": "https://www.mistore.jp/example/75112",
+    "image": "https://isetan.scene7.com/example/74418.jpg",
+    "price": 7773,
+    "priceMin": 8108,
+    "priceMax": 3766,
+    "currency": "JPY",
+    "onSale": false,
+    "inStock": true,
+    "colorCodes": [
+      "76038600484952451209",
+      "33469829589485258724"
+    ],
+    "badgeCodes": [
+      "0620979",
+      "9357499"
+    ],
+    "saleStartsAt": "2026-01-15T10:00:00Z",
+    "saleEndsAt": null,
+    "cardholderOnly": false,
+    "digitalProduct": null,
+    "brandCode": "618097",
+    "brandUrl": "https://www.mistore.jp/example/77284",
+    "sku": "3967123451131305112766164627",
+    "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
+    "originalPrice": null,
+    "discountPercent": null,
+    "availability": "Example availability",
+    "stockNote": null,
+    "images": [
+      "https://isetan.scene7.com/example/54068.jpg",
+      "https://isetan.scene7.com/example/88046.jpg"
+    ],
+    "thumbnails": [
+      "https://isetan.scene7.com/example/31008.jpg",
+      "https://isetan.scene7.com/example/7761.jpg"
+    ],
+    "videos": [],
+    "variants": [
+      {
+        "variantId": "416061352632108608894188",
+        "color": "Example color",
+        "colorCode": "78",
+        "size": "Example size",
+        "sizeCode": "30",
+        "barcode": "8359392789351",
+        "price": 7773,
+        "originalPrice": null,
+        "discountPercent": null,
+        "currency": "JPY",
+        "stock": 4,
+        "inStock": true,
+        "onSale": false,
+        "image": "https://isetan.scene7.com/example/74418.jpg",
+        "saleStartsAt": "2026-01-15T10:00:00Z",
+        "saleEndsAt": null
+      },
+      {
+        "variantId": "111081054382447239488343",
+        "color": "Example color",
+        "colorCode": "61",
+        "size": "Example size",
+        "sizeCode": "05",
+        "barcode": "9513851942343",
+        "price": 8695,
+        "originalPrice": null,
+        "discountPercent": null,
+        "currency": "JPY",
+        "stock": 8,
+        "inStock": true,
+        "onSale": false,
+        "image": "https://isetan.scene7.com/example/40647.jpg",
+        "saleStartsAt": "2026-01-15T10:00:00Z",
+        "saleEndsAt": null
+      }
+    ],
+    "specifications": [
+      {
+        "name": "Example name",
+        "value": "Example value"
+      },
+      {
+        "name": "Example name",
+        "value": "Example value: mock text standing in for the real value. Same field and type, made-up content."
+      }
+    ],
+    "allergens": [],
+    "giftOptions": [
+      {
+        "name": "Example name",
+        "available": true,
+        "note": "Example note"
+      },
+      {
+        "name": "Example name",
+        "available": true,
+        "note": "Example note"
+      }
+    ],
+    "paymentMethods": [
+      "Example payment methods",
+      "Example payment methods"
+    ],
+    "badges": [
+      "Example badges",
+      "Example badges"
+    ],
+    "notices": [],
+    "breadcrumbs": [
+      {
+        "name": "Example name",
+        "url": "https://www.mistore.jp/example/75112"
+      },
+      {
+        "name": "Example name",
+        "url": "https://www.mistore.jp/example/98248"
+      }
+    ],
+    "categoryPath": [
+      "Example category path",
+      "Example category path"
+    ],
+    "topCategory": "Example top category"
+  },
+  {
+    "searchMode": "search",
+    "scrapedAt": "2026-01-15T10:00:00Z",
+    "productId": "321715937279231565891525",
+    "title": "Example title",
+    "brand": "Example brand",
+    "url": "https://www.mistore.jp/example/79599",
+    "image": "https://isetan.scene7.com/example/97848.jpg",
+    "price": 53652,
+    "priceMin": 69752,
+    "priceMax": 73509,
+    "currency": "JPY",
+    "onSale": true,
+    "inStock": true,
+    "colorCodes": [
+      "55087229253694365561",
+      "06968404789236558087"
+    ],
+    "badgeCodes": [],
+    "saleStartsAt": "2026-01-15T10:00:00Z",
+    "saleEndsAt": null,
+    "cardholderOnly": false,
+    "digitalProduct": null,
+    "brandCode": "424055",
+    "brandUrl": "https://www.mistore.jp/example/24414",
+    "sku": null,
+    "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
+    "originalPrice": null,
+    "discountPercent": null,
+    "availability": null,
+    "stockNote": null,
+    "images": [
+      "https://isetan.scene7.com/example/38590.jpg",
+      "https://isetan.scene7.com/example/41203.jpg"
+    ],
+    "thumbnails": [
+      "https://isetan.scene7.com/example/13601.jpg",
+      "https://isetan.scene7.com/example/1976.jpg"
+    ],
+    "videos": [],
+    "variants": [
+      {
+        "variantId": "329921684946269076205637",
+        "color": "Example color",
+        "colorCode": "36",
+        "size": "F",
+        "sizeCode": "717",
+        "barcode": "7018184184558",
+        "price": 53652,
+        "originalPrice": null,
+        "discountPercent": null,
+        "currency": "JPY",
+        "stock": 9,
+        "inStock": true,
+        "onSale": true,
+        "image": "https://isetan.scene7.com/example/97848.jpg",
+        "saleStartsAt": "2026-01-15T10:00:00Z",
+        "saleEndsAt": null
+      },
+      {
+        "variantId": "043441820086180364118680",
+        "color": "Example color",
+        "colorCode": "72",
+        "size": "F",
+        "sizeCode": "353",
+        "barcode": "9371522233331",
+        "price": 57234,
+        "originalPrice": null,
+        "discountPercent": null,
+        "currency": "JPY",
+        "stock": 0,
+        "inStock": false,
+        "onSale": true,
+        "image": "https://isetan.scene7.com/example/10971.jpg",
+        "saleStartsAt": "2026-01-15T10:00:00Z",
+        "saleEndsAt": null
+      }
+    ],
+    "specifications": [
+      {
+        "name": "Example name",
+        "value": "Example value"
+      },
+      {
+        "name": "Example name",
+        "value": "Example value"
+      }
+    ],
+    "allergens": [],
+    "giftOptions": [
+      {
+        "name": "Example name",
+        "available": true,
+        "note": "Example note"
+      },
+      {
+        "name": "Example name",
+        "available": true,
+        "note": "Example note"
+      }
+    ],
+    "paymentMethods": [
+      "Example payment methods",
+      "Example payment methods"
+    ],
+    "badges": [],
+    "notices": [
+      "Example notices",
+      "Example notices"
+    ],
+    "breadcrumbs": [
+      {
+        "name": "Example name",
+        "url": "https://www.mistore.jp/example/79599"
+      },
+      {
+        "name": "Example name",
+        "url": "https://www.mistore.jp/example/74733"
+      }
+    ],
+    "categoryPath": [
+      "Example category path",
+      "Example category path"
+    ],
+    "topCategory": "Example top category"
+  }
+]

@@ -1,0 +1,28 @@
+[
+  {
+    "recordType": "listing",
+    "listingId": "056909-605",
+    "url": "https://www.hepsiemlak.com/example/84506",
+    "title": "Example title",
+    "price": 4028640,
+    "currency": "TRY",
+    "grossSqm": 11,
+    "rooms": 4,
+    "bedrooms": 1,
+    "propertyTypes": [
+      "Apartment",
+      "Residence"
+    ],
+    "imageUrl": "https://hecdn01.hemlak.com/example/2457.jpg",
+    "city": "Istanbul",
+    "country": "TR",
+    "descriptionSnippet": "Example description snippet: mock text standing in for the real value. Same field and type, made-up content.",
+    "sellerName": "Example seller name",
+    "sellerOfficeUrl": "https://www.hepsiemlak.com/example/40887",
+    "position": 3,
+    "sourceType": "search",
+    "sourceId": "istanbul",
+    "sourceUrl": null,
+    "scrapedAt": "2026-01-15T10:00:00Z"
+  }
+]

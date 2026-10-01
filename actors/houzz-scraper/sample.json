@@ -1,0 +1,81 @@
+[
+  {
+    "id": "00393",
+    "userId": 94760,
+    "professionalId": 2753,
+    "proId": 8907,
+    "displayName": "Example display name",
+    "userName": "Example user name",
+    "proType": 3,
+    "proCategory": null,
+    "proTypeDisplayName": "Example pro type display name",
+    "proSkuId": 49,
+    "isInactivePro": false,
+    "country": "US",
+    "state": "TX",
+    "city": "Grapevine",
+    "zip": "57512",
+    "address": "Example address",
+    "address1": null,
+    "address2": null,
+    "formattedAddress": "Example formatted address: mock text standing in for the real value. Same field and type, made-up content.",
+    "locationLabel": "Example location label",
+    "latitude": 33.26,
+    "longitude": -81.55,
+    "formattedPhone": "+1 555 0100",
+    "fax": null,
+    "email": null,
+    "domain": null,
+    "website": null,
+    "houzzLink": "https://www.houzz.com/example/19765",
+    "numReviews": 179,
+    "reviewRating": 3,
+    "aspectCommunication": null,
+    "aspectOnTime": null,
+    "aspectQuality": null,
+    "aspectValue": null,
+    "featuredReview": {
+      "id": null,
+      "rating": null,
+      "text": "Example text: mock text standing in for the real value. Same field and type, made-up content.",
+      "author": "Example author",
+      "authorUserId": null,
+      "date": null,
+      "projectType": null,
+      "raw": {
+        "textOffset": null,
+        "text": "Example text: mock text standing in for the real value. Same field and type, made-up content.",
+        "textLength": null,
+        "rawReview": {
+          "id": null,
+          "rating": null,
+          "user": {
+            "userName": "id2273159",
+            "displayName": "Example display name"
+          }
+        }
+      }
+    },
+    "featuredReviewText": "Example featured review text: mock text standing in for the real value. Same field and type, made-up content.",
+    "mostRecentReview": {
+      "id": null,
+      "rating": null,
+      "text": "Example text: mock text standing in for the real value. Same field and type, made-up content.",
+      "author": "id7992393",
+      "authorUserId": null,
+      "date": null,
+      "projectType": null,
+      "raw": {
+        "id": null,
+        "body": "Example body: mock text standing in for the real value. Same field and type, made-up content.",
+        "user": {
+          "userName": "id2273159",
+          "displayName": "id24631083"
+        }
+      }
+    },
+    "mostRecentReviewText": "Example most recent review text: mock text standing in for the real value. Same field and type, made-up content.",
+    "isProVerified": false,
+    "hasVerifiedKyc": false
+  }
+]

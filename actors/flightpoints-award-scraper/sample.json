@@ -1,0 +1,57 @@
+[
+  {
+    "id": "Example id",
+    "source": "flightpoints",
+    "origin": "JFK",
+    "destination": "LHR",
+    "departureDate": "2026-01-15",
+    "program": "AA",
+    "programName": "Example program name",
+    "airline": "Example airline",
+    "alliance": "oneworld",
+    "durationMinutes": null,
+    "numStops": 0,
+    "cabins": {
+      "economy": {
+        "miles": 23509,
+        "taxes": 4.59,
+        "seats": 6,
+        "stops": 0,
+        "airlines": [
+          "AA",
+          "BA"
+        ]
+      },
+      "premium": {
+        "miles": 23509,
+        "taxes": 4.59,
+        "seats": 6,
+        "stops": 0,
+        "airlines": [
+          "AA"
+        ]
+      },
+      "business": {
+        "miles": 23509,
+        "taxes": 352,
+        "seats": 6,
+        "stops": 0,
+        "airlines": [
+          "AA",
+          "BA"
+        ]
+      },
+      "first": {
+        "miles": 473509,
+        "taxes": 4.59,
+        "seats": 6,
+        "stops": 0,
+        "airlines": [
+          "AA"
+        ]
+      }
+    },
+    "lastSeen": "2026-01-15T10:00:00Z",
+    "scrapedAt": "2026-01-15T10:00:00Z"
+  }
+]

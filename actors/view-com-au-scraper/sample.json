@@ -1,0 +1,99 @@
+[
+  {
+    "id": 50582427,
+    "listingUrl": "https://www.view.com.au/example/23088",
+    "address": {
+      "full": "Example full",
+      "streetNumber": "749",
+      "streetName": "Example street name",
+      "unitNumber": "3222",
+      "suburb": "MELBOURNE",
+      "state": "VIC",
+      "postcode": "0759",
+      "city": "Melbourne",
+      "country": "Australia",
+      "countryCode": "AU"
+    },
+    "price": {
+      "display": "Example display",
+      "currency": "AUD",
+      "priceType": "range",
+      "isRange": true,
+      "min": 708705,
+      "max": 143180,
+      "value": 566296
+    },
+    "features": {
+      "bedrooms": 9,
+      "bathrooms": 6,
+      "carSpaces": 4
+    },
+    "propertyType": "apartment",
+    "sourcePropertyType": "Example source property type",
+    "listingType": "buy",
+    "saleMethod": "Example sale method",
+    "status": "Example status",
+    "rank": "Example rank",
+    "images": [
+      {
+        "sequence": 7,
+        "url": "https://view.com.au/example/19779.jpg"
+      },
+      {
+        "sequence": 8,
+        "url": "https://view.com.au/example/89931.jpg"
+      }
+    ],
+    "agents": [
+      {
+        "id": 182427,
+        "firstName": "Example first name",
+        "lastName": "Example last name",
+        "mobile": "+1 555 0100",
+        "profileLink": "https://www.view.com.au/example/23218",
+        "numberOfSoldListings": 92,
+        "averageSoldPrice": 583447.27
+      }
+    ],
+    "agency": {
+      "id": 92427,
+      "name": "Example name",
+      "slug": "Example slug",
+      "address": "Example address",
+      "profileLink": "https://www.view.com.au/example/23218",
+      "logoUrl": "https://www.view.com.au/example/46321.jpg",
+      "brandColour": "id27067115"
+    },
+    "location": {
+      "lat": -27.98,
+      "lon": 184.09
+    },
+    "inspections": [
+      {
+        "id": 50582427,
+        "startAt": "2026-01-15T10:00:00Z",
+        "endAt": "2026-01-15T10:00:00Z"
+      }
+    ],
+    "createdAt": "2026-01-15T10:00:00Z",
+    "updatedAt": "2026-01-15T10:00:00Z",
+    "onMarketAt": "2026-01-15T10:00:00Z",
+    "lgaName": "Example lga name",
+    "region": "Melbourne",
+    "gnafId": "gavic671168033",
+    "listingSource": "VIEW",
+    "isNewConstruction": false,
+    "isHomeAndLand": false,
+    "isStreetHidden": false,
+    "propertyTypes": [
+      "Example property types"
+    ],
+    "updatedText": "Example updated text",
+    "heroImageUrl": "https://view.com.au/example/90816.jpg",
+    "imageUrlSlug": "id44361070",
+    "source": {
+      "portal": "Example portal",
+      "scrapedAt": "2026-01-15T10:00:00Z"
+    }
+  }
+]

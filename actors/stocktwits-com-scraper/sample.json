@@ -1,0 +1,76 @@
+[
+  {
+    "kind": "message",
+    "recordId": "Example record id",
+    "messageId": 425385035,
+    "url": "https://stocktwits.com/example/43725",
+    "body": "Example body: mock text standing in for the real value. Same field and type, made-up content.",
+    "createdAt": "2026-01-15T10:00:00Z",
+    "sentiment": "Example sentiment",
+    "likes": 0,
+    "repliesCount": 0,
+    "reshares": 0,
+    "cashtags": [
+      "AAPL",
+      "DKNG"
+    ],
+    "symbols": [
+      {
+        "symbol": "AAPL",
+        "title": "Example title",
+        "exchange": "NASDAQ"
+      },
+      {
+        "symbol": "EBAY",
+        "title": "Example title",
+        "exchange": "NASDAQ"
+      }
+    ],
+    "mentionedUsers": [],
+    "authorUsername": "Example author username",
+    "authorName": "Example author name",
+    "authorFollowers": 377,
+    "authorIdentity": "Example author identity",
+    "authorOfficial": false,
+    "sourceLabel": {
+      "id": 2761,
+      "title": "Example title",
+      "url": "https://stocktwits.com/example/43725"
+    },
+    "symbolContext": "AAPL"
+  },
+  {
+    "kind": "message",
+    "recordId": "Example record id",
+    "messageId": 812909359,
+    "url": "https://stocktwits.com/example/86662",
+    "body": "Example body",
+    "createdAt": "2026-01-15T10:00:00Z",
+    "sentiment": "Example sentiment",
+    "likes": 0,
+    "repliesCount": 0,
+    "reshares": 0,
+    "cashtags": [
+      "AAPL"
+    ],
+    "symbols": [
+      {
+        "symbol": "AAPL",
+        "title": "Example title",
+        "exchange": "NASDAQ"
+      }
+    ],
+    "mentionedUsers": [],
+    "authorUsername": "Example author username",
+    "authorName": "Example author name",
+    "authorFollowers": 320,
+    "authorIdentity": "Example author identity",
+    "authorOfficial": false,
+    "sourceLabel": {
+      "id": 5405,
+      "title": "Example title",
+      "url": "https://stocktwits.com/example/86662"
+    },
+    "symbolContext": "AAPL"
+  }
+]

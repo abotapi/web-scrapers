@@ -1,0 +1,70 @@
+[
+  {
+    "type": "listing",
+    "id": "id48964162",
+    "listingId": "id98085080",
+    "propertyId": "id78033595",
+    "url": "https://homes.co.nz/example/88940",
+    "canonicalUrl": "https://homes.co.nz/example/39518",
+    "listingDetailUrl": "https://homes.co.nz/example/93232",
+    "title": "Example title",
+    "headline": "Example headline",
+    "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
+    "price": "Example price",
+    "displayPrice": "Example display price",
+    "currency": "NZD",
+    "publishedAt": "2026-01-15T10:00:00Z",
+    "createdAt": "2026-01-15T10:00:00Z",
+    "updatedAt": "2026-01-15T10:00:00Z",
+    "featuredAt": "2026-01-15T10:00:00Z",
+    "seedId": "9642",
+    "seedType": "location",
+    "seedValue": "Example seed value",
+    "pageIndex": 2,
+    "status": 5,
+    "urlSlug": "Example url slug",
+    "address": "Example address",
+    "addressParts": {
+      "full": "Example full",
+      "suburb": "Example suburb",
+      "city": "WELLINGTON"
+    },
+    "bedrooms": 6,
+    "bathrooms": 1,
+    "carSpaces": 7,
+    "floorArea": 367,
+    "landArea": 0,
+    "latitude": -32.21,
+    "longitude": 122.35,
+    "imageUrl": "https://s3-ap-southeast-2.amazonaws.com/example/25457.jpg",
+    "coverImageUrl": "https://s3-ap-southeast-2.amazonaws.com/example/75500.jpg",
+    "imageUrls": [
+      "https://s3-ap-southeast-2.amazonaws.com/example/47842.jpg",
+      "https://s3-ap-southeast-2.amazonaws.com/example/53112.jpg"
+    ],
+    "canUseImages": true,
+    "images": [
+      {
+        "url": "https://s3-ap-southeast-2.amazonaws.com/example/88940.jpg",
+        "classifications": [
+          "living_room"
+        ],
+        "quality": "",
+        "caption": "",
+        "inspiring": null
+      },
+      {
+        "url": "https://s3-ap-southeast-2.amazonaws.com/example/28032.jpg",
+        "classifications": [
+          "kitchen"
+        ],
+        "quality": "",
+        "caption": "",
+        "inspiring": null
+      }
+    ],
+    "media": [],
+    "mediaCount": 0,
+    "openHomes": []
+  }
+]

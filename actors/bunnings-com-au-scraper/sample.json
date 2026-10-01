@@ -1,0 +1,55 @@
+[
+  {
+    "code": "5137790",
+    "itemNumber": "7569356",
+    "name": "Example name: mock text standing in for the real value. Same field and type, made-up content.",
+    "title": "Example title: mock text standing in for the real value. Same field and type, made-up content.",
+    "brand": "Example brand",
+    "brandIconUrl": "https://media.bunnings.com.au/example/868",
+    "brandUrl": "https://www.bunnings.com.au/example/74131",
+    "url": "https://www.bunnings.com.au/example/56817",
+    "price": 15,
+    "currency": "AUD",
+    "unitOfPrice": "EA",
+    "rating": 3.86,
+    "ratingCount": 26,
+    "imageUrl": "https://media.bunnings.com.au/example/71438.jpg",
+    "thumbnailUrl": "https://media.bunnings.com.au/example/62709.jpg",
+    "categories": [
+      "Example categories"
+    ],
+    "superCategories": [
+      "tools--tools--l6",
+      "Example super categories"
+    ],
+    "keySellingPoints": [
+      "Example key selling points",
+      "Example key selling points"
+    ],
+    "isActive": "true",
+    "bestSeller": "Example best seller",
+    "newArrival": "false",
+    "forHire": "false",
+    "trustedSeller": "Example trusted seller",
+    "ageRestricted": "false",
+    "variantCount": 0,
+    "colorCount": 0,
+    "sizeCount": 4,
+    "size": 0,
+    "fsc": "false",
+    "productRanges": [
+      "Example product ranges",
+      "Example product ranges"
+    ],
+    "offerTypes": [],
+    "isRedemptionOffer": null,
+    "promotion": null,
+    "hasPromotion": false,
+    "wasPrice": null,
+    "savingsAmount": null,
+    "savingsPercent": null,
+    "isOnSpecial": false,
+    "searchMode": "search",
+    "source": "bunnings.com.au"
+  }
+]

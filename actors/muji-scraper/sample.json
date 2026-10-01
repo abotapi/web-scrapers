@@ -1,0 +1,208 @@
+[
+  {
+    "productId": "9841456971555",
+    "productGid": "Example product gid",
+    "handle": "Example handle",
+    "title": "Example title",
+    "url": "https://www.muji.us/example/8544",
+    "country": "us",
+    "countryName": "Example country name",
+    "currency": "USD",
+    "brand": "MUJI",
+    "category": "Example category",
+    "productCategory": null,
+    "department": null,
+    "breadcrumb": [
+      "Example breadcrumb",
+      "Example breadcrumb"
+    ],
+    "collections": [
+      {
+        "handle": "Example handle",
+        "title": "Example title"
+      },
+      {
+        "handle": "Example handle",
+        "title": "Example title"
+      }
+    ],
+    "tags": [
+      "Example tags",
+      "Example tags"
+    ],
+    "price": 15,
+    "priceMax": 60,
+    "originalPrice": null,
+    "discountAmount": null,
+    "discountPercent": null,
+    "onSale": false,
+    "availableForSale": true,
+    "inStock": true,
+    "variantCount": 2,
+    "inStockVariantCount": 5,
+    "sizes": [],
+    "colors": [],
+    "options": [
+      {
+        "name": "Example name",
+        "values": [
+          "Example values"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "variantId": "46012441941383",
+        "sku": "6920699756248",
+        "title": "Example title",
+        "price": 15,
+        "originalPrice": null,
+        "currency": "USD",
+        "available": true,
+        "backorder": false,
+        "requiresShipping": true,
+        "weight": 9,
+        "weightUnit": "POUNDS",
+        "options": {
+          "Title": "Example title"
+        },
+        "image": "https://cdn.shopify.com/example/96588.jpg"
+      }
+    ],
+    "sku": "6920699756248",
+    "featuredImage": "https://cdn.shopify.com/example/32578.jpg",
+    "images": [
+      "https://cdn.shopify.com/example/97474.jpg",
+      "https://cdn.shopify.com/example/32404.jpg"
+    ],
+    "thumbnails": [
+      "https://cdn.shopify.com/example/1373.jpg",
+      "https://cdn.shopify.com/example/48869.jpg"
+    ],
+    "videos": [
+      {
+        "url": "https://youtu.be/example/8544",
+        "mimeType": null,
+        "width": null,
+        "height": null,
+        "previewImage": null
+      },
+      {
+        "url": "https://youtu.be/example/25362",
+        "mimeType": null,
+        "width": null,
+        "height": null,
+        "previewImage": null
+      }
+    ],
+    "requiresShipping": true,
+    "shippingWeight": 8,
+    "shippingWeightUnit": "POUNDS",
+    "rating": 5.76,
+    "reviewCount": 547,
+    "ratingBreakdown": null
+  },
+  {
+    "productId": "0185480834988",
+    "productGid": "Example product gid",
+    "handle": "id83105322",
+    "title": "Example title",
+    "url": "https://www.muji.us/example/67368",
+    "country": "us",
+    "countryName": "Example country name",
+    "currency": "USD",
+    "brand": "MUJI",
+    "category": "Example category",
+    "productCategory": null,
+    "department": null,
+    "breadcrumb": [
+      "Example breadcrumb",
+      "Example breadcrumb"
+    ],
+    "collections": [
+      {
+        "handle": "Example handle",
+        "title": "Example title"
+      },
+      {
+        "handle": "Example handle",
+        "title": "Example title"
+      }
+    ],
+    "tags": [
+      "Example tags",
+      "Example tags"
+    ],
+    "price": 868,
+    "priceMax": 150,
+    "originalPrice": null,
+    "discountAmount": null,
+    "discountPercent": null,
+    "onSale": false,
+    "availableForSale": true,
+    "inStock": true,
+    "variantCount": 6,
+    "inStockVariantCount": 3,
+    "sizes": [],
+    "colors": [],
+    "options": [
+      {
+        "name": "Example name",
+        "values": [
+          "Example values"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "variantId": "01416320564789",
+        "sku": "5965818510450",
+        "title": "Example title",
+        "price": 868,
+        "originalPrice": null,
+        "currency": "USD",
+        "available": true,
+        "backorder": false,
+        "requiresShipping": true,
+        "weight": 0.84,
+        "weightUnit": "KILOGRAMS",
+        "options": {
+          "Title": "Example title"
+        },
+        "image": "https://cdn.shopify.com/example/87524.jpg"
+      }
+    ],
+    "sku": "5965818510450",
+    "featuredImage": "https://cdn.shopify.com/example/81462.jpg",
+    "images": [
+      "https://cdn.shopify.com/example/9686.jpg",
+      "https://cdn.shopify.com/example/85969.jpg"
+    ],
+    "thumbnails": [
+      "https://cdn.shopify.com/example/96889.jpg",
+      "https://cdn.shopify.com/example/73075.jpg"
+    ],
+    "videos": [
+      {
+        "url": "https://youtu.be/example/67368",
+        "mimeType": null,
+        "width": null,
+        "height": null,
+        "previewImage": null
+      },
+      {
+        "url": "https://youtu.be/example/59005",
+        "mimeType": null,
+        "width": null,
+        "height": null,
+        "previewImage": null
+      }
+    ],
+    "requiresShipping": true,
+    "shippingWeight": 0.84,
+    "shippingWeightUnit": "KILOGRAMS",
+    "rating": 4.99,
+    "reviewCount": 386,
+    "ratingBreakdown": null
+  }
+]

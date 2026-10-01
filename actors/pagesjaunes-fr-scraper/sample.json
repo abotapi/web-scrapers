@@ -1,0 +1,48 @@
+[
+  {
+    "clientId": "54382886",
+    "name": "Example name",
+    "detailUrl": "https://www.pagesjaunes.fr/example/86621",
+    "activities": [
+      "plombiers"
+    ],
+    "address": "Example address",
+    "phone": "+1 555 0100",
+    "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
+    "paymentAccepted": "Example payment accepted",
+    "businessType": "Example business type: mock text standing in for the real value. Same field and type, made-up content.",
+    "fullAddress": {
+      "street": "Example street",
+      "locality": "Example locality",
+      "postalCode": "20665",
+      "country": "FR"
+    },
+    "rating": 1,
+    "reviewCount": 4,
+    "imageUrl": "https://www.pagesjaunes.fr/example/97384.jpg",
+    "reviews": [
+      {
+        "author": "Example author",
+        "rating": 1,
+        "text": "Example text: mock text standing in for the real value. Same field and type, made-up content.",
+        "date": "2026-01-15"
+      }
+    ],
+    "breadcrumb": [
+      "Example breadcrumb",
+      "Example breadcrumb"
+    ],
+    "services": [
+      "Example services",
+      "Example services"
+    ],
+    "website": "https://www.francebatimentexpert.fr/example/96652",
+    "facebook": "https://www.facebook.com/example/82986",
+    "photos": [
+      "https://www.pagesjaunes.fr/example/82501.jpg",
+      "https://www.pagesjaunes.fr/example/6767.jpg"
+    ],
+    "searchTerms": "plombier",
+    "searchLocation": "Example search location"
+  }
+]

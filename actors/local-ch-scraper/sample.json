@@ -1,0 +1,50 @@
+[
+  {
+    "id": "fcfdtkghok5htnczvqhqga",
+    "name": "Example name",
+    "subtitle": "Example subtitle",
+    "language": "de",
+    "entryType": "BUSINESS",
+    "schemaOrgType": "LocalBusiness",
+    "isPremium": true,
+    "favorited": false,
+    "professionalTitle": null,
+    "address": "Example address",
+    "street": "Example street",
+    "zipCode": "6338",
+    "city": "Example city",
+    "canton": "",
+    "country": "CH",
+    "latitude": 53.54,
+    "longitude": 10.74,
+    "phone": "+1 555 0100",
+    "phoneAlt": null,
+    "mobile": null,
+    "fax": null,
+    "email": "user15@example.com",
+    "emailAlt": null,
+    "website": "https://www.bar-rossi.ch/example/56312",
+    "whatsapp": null,
+    "facebook": "https://www.facebook.com/example/64446",
+    "instagram": "https://www.instagram.com/example/95196",
+    "linkedin": null,
+    "twitter": null,
+    "tiktok": null,
+    "pinterest": null,
+    "youtube": null,
+    "xing": null,
+    "foursquare": null,
+    "mainCategory": "Bar",
+    "mainCategorySlug": "bar",
+    "categories": [
+      "Bar",
+      "Restaurant"
+    ],
+    "categorySlugs": [
+      "bar",
+      "restaurant"
+    ],
+    "rating": 0,
+    "ratingCount": 0
+  }
+]

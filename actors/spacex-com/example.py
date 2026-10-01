@@ -1,0 +1,27 @@
+"""SpaceX Launches Scraper: minimal example. Docs: https://apify.com/abotapi/spacex-com
+
+pip install "apify-client>=3"
+APIFY_TOKEN=<your token> python example.py
+"""
+import json
+import os
+
+from apify_client import ApifyClient
+
+client = ApifyClient(os.environ["APIFY_TOKEN"])
+
+run = client.actor("abotapi/spacex-com").call(
+    run_input={
+        "mode": "search",
+        "statusFilter": "all",
+        "sortBy": "date-desc",
+        "maxListings": 10,
+        "proxy": {"useApifyProxy": True},
+    },
+    logger=None,  # don't stream the run log to your console
+)
+
+items = list(client.dataset(run.default_dataset_id).iterate_items())
+print(f"{len(items)} items")
+for item in items[:3]:
+    print(json.dumps(item, ensure_ascii=False)[:300])

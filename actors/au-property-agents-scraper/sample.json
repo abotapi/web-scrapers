@@ -1,0 +1,103 @@
+[
+  {
+    "recordType": "agent",
+    "agentId": "45651",
+    "name": "Example name",
+    "firstName": "Example first name",
+    "jobTitle": "Example job title",
+    "yearsExperience": 52,
+    "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
+    "url": "https://www.realestate.com.au/example/68184",
+    "source": "Example source",
+    "rating": {
+      "average": 5,
+      "totalReviews": 527
+    },
+    "reviewSummary": "Example review summary: mock text standing in for the real value. Same field and type, made-up content.",
+    "salesSummary": {
+      "medianLeasedPrice": null,
+      "medianSoldDaysOnSite": 30,
+      "medianSoldPrice": 9582403,
+      "sumLeasedProperties": 0,
+      "sumSoldProperties": 13,
+      "sumSoldPropertiesPrimaryLister": 30,
+      "sumSoldPropertiesSecondaryLister": 0
+    },
+    "agencyId": "MZLZZU",
+    "agency": {
+      "id": "MZLZZU",
+      "name": "Example name",
+      "profileUrl": "https://www.realestate.com.au/example/37914",
+      "logoUrl": "https://i1.au.reastatic.net/example/11179.jpg",
+      "primaryColor": "Example primary color"
+    },
+    "social": {
+      "facebook": "https://www.facebook.com/example/49638",
+      "linkedin": "https://www.linkedin.com/example/55804"
+    },
+    "profileImageUrl": "https://i1.au.reastatic.net/example/13207.jpg",
+    "coverPhotoUrl": "https://i1.au.reastatic.net/example/14579.jpg",
+    "scrapedAt": "2026-01-15T10:00:00Z",
+    "startYearInIndustry": 8958,
+    "mostActiveLocation": {
+      "suburb": "Example suburb",
+      "state": "NSW",
+      "postcode": "8059"
+    },
+    "phone": {
+      "mobile": "+1 555 0100"
+    },
+    "stats": {
+      "medianSoldPrice": {
+        "townhouse": null,
+        "apartment": 8132463,
+        "house": 8453674,
+        "overall": 5247405
+      },
+      "medianDaysAdvertised": {
+        "townhouse": null,
+        "apartment": 63,
+        "house": 64,
+        "overall": 45
+      },
+      "propertiesSold": {
+        "apartment": 63,
+        "townhouse": 0,
+        "asLeadAgent": 33,
+        "asSecondaryAgent": 0,
+        "house": 1,
+        "overall": 45
+      }
+    },
+    "communityInvolvement": "Example community involvement: mock text standing in for the real value. Same field and type, made-up content.",
+    "compliments": [
+      {
+        "count": 125,
+        "tag": "Professional"
+      },
+      {
+        "count": 141,
+        "tag": "Example tag"
+      }
+    ],
+    "video": {
+      "id": "2_vpb7wtdps",
+      "provider": "youtube",
+      "title": "Example title"
+    },
+    "reviews": [
+      {
+        "rating": 2,
+        "text": "Example text: mock text standing in for the real value. Same field and type, made-up content.",
+        "reply": null,
+        "reviewerRole": "Example reviewer role",
+        "publishDate": "2026-01-15",
+        "listing": {
+          "propertyType": "Apartment",
+          "suburb": "Example suburb",
+          "state": "NSW"
+        }
+      }
+    ]
+  }
+]

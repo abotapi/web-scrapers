@@ -1,0 +1,67 @@
+[
+  {
+    "id": "33999713",
+    "url": "https://www.otodom.pl/example/22262",
+    "title": "Example title",
+    "transaction": "sprzedaz",
+    "estate": "mieszkanie",
+    "priceTotal": 862342,
+    "priceCurrency": "PLN",
+    "pricePerSquareMeter": 18249.51,
+    "rentPrice": 728,
+    "rentAdditional": 439,
+    "deposit": null,
+    "areaInSquareMeters": 40.9,
+    "rooms": 9,
+    "floor": "FIFTH",
+    "buildingFloors": 7,
+    "buildYear": 5386,
+    "marketType": "secondary",
+    "ownership": "Example ownership",
+    "buildingType": "block",
+    "buildingMaterial": "concrete_plate",
+    "heating": "urban",
+    "windowsType": "plastic",
+    "city": "Warszawa",
+    "province": "mazowieckie",
+    "district": "Example district",
+    "street": null,
+    "postalCode": null,
+    "latitude": 40.75,
+    "longitude": 14.64,
+    "agencyName": null,
+    "advertiserType": "private",
+    "contactName": "Example contact name",
+    "phone": "+1 555 0100",
+    "contactDetails": {
+      "name": "Example name",
+      "type": "private",
+      "phones": [
+        "+1 555 0100"
+      ],
+      "imageUrl": null,
+      "hasPhoneNumber": true
+    },
+    "agency": null,
+    "owner": {
+      "id": 57757880,
+      "type": "private",
+      "phones": [],
+      "name": "Example name",
+      "imageUrl": null,
+      "address": null,
+      "contacts": [
+        {
+          "name": "Example name",
+          "phone": "+1 555 0100",
+          "imageURLSmall": null,
+          "hasPhoneNumber": true
+        }
+      ]
+    },
+    "referenceId": "",
+    "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
+    "features": [],
+    "isPromoted": false
+  }
+]
