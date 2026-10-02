@@ -77,14 +77,14 @@ Full details on the [scraper page](https://apify.com/abotapi/werk-nl-scraper?utm
 | `distanceKm` | null |
 | `contractType` | string |
 | `contractTypeCode` | integer |
-| `contractStartDate` | string |
+| `contractStartDate` | null |
 | `contractEndDate` | null |
 | `minHours` | integer |
 | `maxHours` | integer |
 | `workingHoursCode` | integer |
 | `studyLevel` | string |
 | `salaryTypeCode` | integer |
-| `salaryIndication` | string |
+| `salaryIndication` | null |
 | `termsOfEmployment` | null |
 | `functionName` | string |
 | `functionCode` | string |

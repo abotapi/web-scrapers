@@ -52,24 +52,24 @@ Full details on the [scraper page](https://apify.com/abotapi/dzen-ru-scraper?utm
 | `dzenType` | string |
 | `title` | string |
 | `url` | string |
-| `publicationDate` | null |
+| `publicationDate` | string |
 | `textPreview` | string |
 | `textContent` | string |
 | `images` | list |
 | `authorName` | string |
-| `authorUrl` | null |
+| `authorUrl` | string |
 | `subscribers` | null |
 | `likes` | integer |
 | `commentsCount` | integer |
-| `views` | null |
+| `views` | integer |
 | `videoUrl` | null |
 | `coverImage` | null |
 | `verified` | boolean |
 | `detailFetched` | boolean |
-| `isPremium` | null |
-| `timeToReadSeconds` | null |
-| `shareUrl` | null |
-| `commentsLink` | null |
+| `isPremium` | boolean |
+| `timeToReadSeconds` | integer |
+| `shareUrl` | string |
+| `commentsLink` | string |
 | `comments` | list |
 
 ---

@@ -1,8 +1,8 @@
 [
   {
-    "id": "58033799",
+    "id": "19709993",
     "url": "https://dubai.dubizzle.com/example/618",
-    "title": "Example title",
+    "title": "Example title: mock text standing in for the real value. Same field and type, made-up content.",
     "price": 5692374,
     "currency": "AED",
     "section": "Example section",
@@ -16,7 +16,7 @@
       "Example neighborhood",
       "Example neighborhood"
     ],
-    "latitude": 30.77,
+    "latitude": 30.69,
     "longitude": 57.99,
     "isVerified": true,
     "agentName": "Example agent name",
@@ -24,7 +24,7 @@
     "phoneNumber": null,
     "whatsapp": null,
     "addedOn": 5259380254,
-    "furnished": false,
+    "furnished": true,
     "completionStatus": "off_plan",
     "hasDldHistory": false,
     "propertyReference": "Example property reference",
@@ -32,111 +32,35 @@
     "photosCount": 68,
     "isPremium": true,
     "raw": {
-      "highlighted_ad": false,
-      "furnished": false,
-      "photos": [
-        {
-          "main": "https://dbz-images.dubizzle.com/example/45215.jpg",
-          "thumb": "https://dbz-images.dubizzle.com/example/28534.jpg",
-          "thumb_retina": "https://dbz-images.dubizzle.com/example/40456.jpg"
-        },
-        {
-          "main": "https://dbz-images.dubizzle.com/example/12821.jpg",
-          "thumb": "https://dbz-images.dubizzle.com/example/37073.jpg",
-          "thumb_retina": "https://dbz-images.dubizzle.com/example/95750.jpg"
-        }
-      ],
-      "handover_date": "Example handover_date",
-      "promoted": false,
-      "building": {
-        "id": 52846,
-        "name": {
-          "en": "Example en",
-          "ar": "Example ar"
-        }
-      },
-      "sale_type": {
-        "en": "Example en",
-        "ar": "Example ar",
-        "filter": "NW"
-      },
-      "can_chat": false,
-      "featured_listing": false,
-      "_geoloc": {
-        "lat": 67.93,
-        "lng": 18.76
-      },
-      "bedrooms": 9,
-      "is_developer_listing": false,
-      "has_tour_url": false,
-      "category_id": 64,
-      "property_reference": "Example property_reference",
-      "is_verified_user": false,
-      "photos_count": 88,
-      "agent": {
-        "id": 52846,
-        "slug": "id8723921",
-        "logo": "https://dbz-images.dubizzle.com/example/83438.jpg",
-        "name": {
-          "en": "Example en",
-          "ar": "Example ar"
-        }
-      },
-      "tour_url": "",
-      "city": {
-        "id": 7,
-        "name": {
-          "en": "Example en",
-          "ar": "Example ar"
-        }
-      },
-      "video_url": "",
-      "area_prime_slot_id": null,
-      "id": 31822846,
-      "has_dld_history": false,
-      "absolute_url": {
-        "en": "https://dubai.dubizzle.com/example/99858",
-        "ar": "https://dubai.dubizzle.com/example/63465"
-      },
-      "price": 5692374,
-      "has_video_url": false,
-      "is_verified": true,
-      "completion_status": "off_plan",
+      "payment_plan": "97/73",
+      "original_price": null,
       "bathrooms": 6,
-      "short_url": "https://dubizzle.com/example/28122",
-      "uuid": "id37663489",
-      "chat_enabled": false,
-      "property_info": [
-        {
-          "label": {
-            "en": "Example en",
-            "ar": "Example ar"
-          },
-          "value": {
-            "en": "Example en",
-            "ar": "Example ar"
-          },
-          "id": "property_type"
+      "size": 936,
+      "categories": {
+        "ids": [
+          26,
+          6045
+        ],
+        "name": {
+          "en": [
+            "Example en",
+            "Example en"
+          ],
+          "ar": [
+            "Example ar",
+            "Example ar"
+          ]
         },
-        {
-          "label": {
-            "en": "Example en",
-            "ar": "Example ar"
-          },
-          "value": {
-            "en": "Example en",
-            "ar": "Example ar"
-          },
-          "id": "purpose"
-        }
-      ],
-      "is_price_hidden": false,
-      "has_sms_number": true,
-      "name": {
-        "en": "Example en",
-        "ar": "Example ar: mock text standing in for the real value. Same field and type, made-up content."
+        "slug": [
+          "apartment",
+          "residential"
+        ],
+        "slug_paths": [
+          "Example slug_paths",
+          "Example slug_paths"
+        ]
       },
-      "amount_paid": null,
+      "plot_area": null,
       "agent_profile": {
         "id": 322846,
         "slug": "id8723921",
@@ -148,6 +72,9 @@
         "profile_completed": true,
         "is_emirati_agent": false
       },
+      "short_url": "https://dubizzle.com/example/28122",
+      "has_video_url": false,
+      "can_chat": false,
       "sale_type_2": {
         "en": "Example en",
         "ar": "Example ar",
@@ -155,7 +82,74 @@
           "NW"
         ],
         "badge": "NW"
-      }
+      },
+      "name": {
+        "en": "Example en: mock text standing in for the real value. Same field and type, made-up content.",
+        "ar": "Example ar: mock text standing in for the real value. Same field and type, made-up content."
+      },
+      "photos_count": 88,
+      "listed_by": {
+        "value": "AG",
+        "en": "Example en",
+        "ar": "Example ar"
+      },
+      "video_url": "",
+      "id": 31822846,
+      "price": 5692374,
+      "external_id": 54690708,
+      "is_verified": true,
+      "absolute_url": {
+        "en": "https://dubai.dubizzle.com/example/99858",
+        "ar": "https://dubai.dubizzle.com/example/63465"
+      },
+      "highlighted_ad": false,
+      "amount_paid": null,
+      "featured_listing": false,
+      "category_id": 64,
+      "uuid": "id37663489",
+      "tour_360": null,
+      "neighborhoods": {
+        "ids": [
+          88226,
+          51045
+        ],
+        "name": {
+          "en": [
+            "Example en",
+            "Example en"
+          ],
+          "ar": [
+            "Example ar",
+            "Example ar"
+          ]
+        }
+      },
+      "bedrooms": 9,
+      "chat_enabled": false,
+      "building": {
+        "id": 52846,
+        "name": {
+          "en": "Example en",
+          "ar": "Example ar"
+        }
+      },
+      "_geoloc": {
+        "lat": 67.93,
+        "lng": 18.71
+      },
+      "has_whatsapp_number": true,
+      "price_drop": null,
+      "sale_type": {
+        "en": "Example en",
+        "ar": "Example ar",
+        "filter": "NW"
+      },
+      "tour_url": "",
+      "completion_status": "off_plan",
+      "added": 2579717607,
+      "property_reference": "Example property_reference",
+      "has_tour_url": false,
+      "handover_date": "Example handover_date"
     },
     "recordType": "listing",
     "detailMissing": false,

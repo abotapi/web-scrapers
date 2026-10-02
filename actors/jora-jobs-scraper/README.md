@@ -56,9 +56,9 @@ Full details on the [scraper page](https://apify.com/abotapi/jora-jobs-scraper?u
 | `countryCode` | string |
 | `url` | string |
 | `sourceUrl` | string |
-| `salary` | string |
-| `salaryMin` | integer |
-| `salaryMax` | integer |
+| `salary` | null |
+| `salaryMin` | null |
+| `salaryMax` | null |
 | `workType` | string |
 | `workArrangement` | null |
 | `postedAtText` | string |

@@ -52,12 +52,12 @@ Full details on the [scraper page](https://apify.com/abotapi/poshmark-scraper?ut
 | `listingId` | string |
 | `url` | string |
 | `title` | string |
-| `brand` | string |
-| `brandPath` | string |
+| `brand` | null |
+| `brandPath` | null |
 | `size` | string |
 | `sizeDisplay` | string |
-| `condition` | string |
-| `conditionLabel` | string |
+| `condition` | null |
+| `conditionLabel` | null |
 | `price` | integer |
 | `originalPrice` | integer |
 | `currency` | string |
@@ -72,7 +72,7 @@ Full details on the [scraper page](https://apify.com/abotapi/poshmark-scraper?ut
 | `category` | string |
 | `subcategory` | string |
 | `colors` | list |
-| `styleTags` | list |
+| `styleTags` | null |
 | `description` | string |
 | `likeCount` | integer |
 | `commentCount` | integer |

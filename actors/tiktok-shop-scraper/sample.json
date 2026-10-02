@@ -1,0 +1,154 @@
+[
+  {
+    "productId": "5948708403800051076",
+    "title": "Example title: mock text standing in for the real value. Same field and type, made-up content.",
+    "url": "https://shop.tiktok.com/example/88621",
+    "categoryPath": [
+      "Example category path"
+    ],
+    "price": 56,
+    "currency": "USD",
+    "originalPrice": null,
+    "discountPercent": null,
+    "soldCount": 848,
+    "rating": 6.05,
+    "reviewCount": 37,
+    "ratingHistogram": {
+      "1": 8,
+      "2": 0,
+      "3": 5,
+      "4": 9,
+      "5": 81
+    },
+    "images": [
+      "https://p16-oec-general-useast5.ttcdn-us.com/example/22144.jpg",
+      "https://p16-oec-general-useast5.ttcdn-us.com/example/91982.jpg"
+    ],
+    "shopName": "Example shop name",
+    "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
+    "variations": [
+      {
+        "name": "Example name",
+        "options": [
+          "Example options",
+          "Example options"
+        ]
+      },
+      {
+        "name": "Example name",
+        "options": [
+          "Example options",
+          "Example options"
+        ]
+      }
+    ],
+    "reviews": [
+      {
+        "reviewId": "8760016830868202195",
+        "reviewAuthor": "Example review author",
+        "reviewRating": 4,
+        "reviewDate": "2026-01-15",
+        "reviewBody": "Example review body: mock text standing in for the real value. Same field and type, made-up content.",
+        "reviewPhotos": [
+          "https://p16-oec-general-useast5.ttcdn-us.com/example/12890.jpg",
+          "https://p16-oec-general-useast5.ttcdn-us.com/example/5047.jpg"
+        ],
+        "reviewHelpfulCount": null,
+        "verifiedPurchase": true
+      },
+      {
+        "reviewId": "9814060778736461532",
+        "reviewAuthor": "Example review author",
+        "reviewRating": 5,
+        "reviewDate": "2026-01-15",
+        "reviewBody": "Example review body: mock text standing in for the real value. Same field and type, made-up content.",
+        "reviewPhotos": [
+          "https://p16-oec-general-useast5.ttcdn-us.com/example/5047.jpg"
+        ],
+        "reviewHelpfulCount": null,
+        "verifiedPurchase": true
+      }
+    ],
+    "searchMode": "browse",
+    "shopId": "5550082676340710865",
+    "sellerRating": 4.99,
+    "sellerProductCount": 6,
+    "sellerFollowers": 468,
+    "scrapedAt": "2026-01-15T10:00:00Z"
+  },
+  {
+    "productId": "0965189158105279765",
+    "title": "Example title: mock text standing in for the real value. Same field and type, made-up content.",
+    "url": "https://shop.tiktok.com/example/27704",
+    "categoryPath": [
+      "Example category path"
+    ],
+    "price": 11.33,
+    "currency": "USD",
+    "originalPrice": 14.69,
+    "discountPercent": 68,
+    "soldCount": 480,
+    "rating": 5.4,
+    "reviewCount": 759,
+    "ratingHistogram": {
+      "1": 6,
+      "2": 0,
+      "3": 3,
+      "4": 86,
+      "5": 52
+    },
+    "images": [
+      "https://p16-oec-general-useast5.ttcdn-us.com/example/38896.jpg",
+      "https://p16-oec-general-useast5.ttcdn-us.com/example/18772.jpg"
+    ],
+    "shopName": "Example shop name",
+    "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
+    "variations": [
+      {
+        "name": "Example name",
+        "options": [
+          "Example options",
+          "Example options"
+        ]
+      },
+      {
+        "name": "Example name",
+        "options": [
+          "Example options",
+          "Example options"
+        ]
+      }
+    ],
+    "reviews": [
+      {
+        "reviewId": "4176839843211339939",
+        "reviewAuthor": "Example review author",
+        "reviewRating": 5,
+        "reviewDate": "2026-01-15",
+        "reviewBody": "Example review body: mock text standing in for the real value. Same field and type, made-up content.",
+        "reviewPhotos": [
+          "https://p16-oec-general-useast5.ttcdn-us.com/example/59952.jpg"
+        ],
+        "reviewHelpfulCount": null,
+        "verifiedPurchase": true
+      },
+      {
+        "reviewId": "9623200542934744021",
+        "reviewAuthor": "Example review author",
+        "reviewRating": 5,
+        "reviewDate": "2026-01-15",
+        "reviewBody": "Example review body: mock text standing in for the real value. Same field and type, made-up content.",
+        "reviewPhotos": [
+          "https://p16-oec-general-useast5.ttcdn-us.com/example/14031.jpg"
+        ],
+        "reviewHelpfulCount": null,
+        "verifiedPurchase": true
+      }
+    ],
+    "searchMode": "browse",
+    "shopId": "6607508436602937424",
+    "sellerRating": 5.93,
+    "sellerProductCount": 25,
+    "scrapedAt": "2026-01-15T10:00:00Z"
+  }
+]

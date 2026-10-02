@@ -64,56 +64,5 @@
       "source_url": "https://betalist.com/example/98926",
       "scraped_time": "2026-01-15T10:00:00Z"
     }
-  },
-  {
-    "type": "startup",
-    "record_type": "startup",
-    "id": 3312,
-    "startup_id": 7588,
-    "url": "https://betalist.com/example/92777",
-    "slug": "journnl",
-    "title": "Example title",
-    "name": "Example name",
-    "one_liner": "Example one_liner",
-    "short_description": "Example short_description",
-    "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
-    "visit_url": "https://betalist.com/example/64431",
-    "website_url": "http://journnl.com/example/36611",
-    "website_domain": "journnl.com",
-    "boosted": false,
-    "featured_at": "2026-01-15",
-    "featured_date_label": "Example featured_date_label",
-    "topics": [],
-    "topic_names": [],
-    "image_urls": [
-      "https://resize.imagekit.co/example/99574.jpg"
-    ],
-    "primary_image_url": "https://resize.imagekit.co/example/56341.jpg",
-    "logo_url": "https://resize.imagekit.co/example/94550.jpg",
-    "regions": [],
-    "similar_startups": [
-      {
-        "slug": "Example slug",
-        "name": "Example name",
-        "url": "https://betalist.com/example/92777",
-        "tagline": "Example tagline",
-        "boosted": false
-      },
-      {
-        "slug": "Example slug",
-        "name": "Example name",
-        "url": "https://betalist.com/example/73542",
-        "tagline": "Example tagline",
-        "boosted": false
-      }
-    ],
-    "contacts": null,
-    "contacts_lookup_url": "http://journnl.com/example/51307",
-    "source": {
-      "betalist_url": "https://betalist.com/example/20998",
-      "seed_value": "https://betalist.com/example/36904",
-      "source_url": "https://betalist.com/example/96534",
-      "scraped_time": "2026-01-15T10:00:00Z"
-    }
   }
 ]

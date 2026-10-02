@@ -10,12 +10,12 @@
     "thinContent": false,
     "price": 13995,
     "priceCents": 9907527,
-    "priceType": "MIN_BID",
-    "city": "Oostham",
+    "priceType": "FIXED",
+    "city": "Example city",
     "countryName": "Example country name",
     "countryAbbreviation": "BE",
-    "latitude": 44.46,
-    "longitude": 5.06,
+    "latitude": 44.12,
+    "longitude": 4.32,
     "distanceMeters": -4257,
     "location": "Example location",
     "date": "Example date",
@@ -39,12 +39,12 @@
       }
     ],
     "sellerId": 35628998,
-    "sellerName": "auto73",
+    "sellerName": "sami1281",
     "sellerVerified": false,
     "sellerWebsiteUrl": false,
     "sellerInformation": {
       "sellerId": 35628998,
-      "sellerName": "auto73",
+      "sellerName": "sami1281",
       "showSoiUrl": true,
       "showWebsiteUrl": false,
       "isVerified": false
@@ -64,17 +64,16 @@
         ]
       },
       {
-        "key": "options",
+        "key": "color",
         "value": "Example value",
         "values": [
-          "Example values",
           "Example values"
         ]
       }
     ],
     "traits": [
       "dag_topper_3days",
-      "PACKAGE_FREE"
+      "PACKAGE_PREMIUM"
     ],
     "verticals": [
       "cars",

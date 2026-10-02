@@ -63,7 +63,7 @@ Full details on the [scraper page](https://apify.com/abotapi/fnac-com-scraper?ut
 | `discountAmount` | null |
 | `discountPercent` | null |
 | `isOnSpecial` | boolean |
-| `promoLabel` | null |
+| `promoLabel` | string |
 | `unitPrice` | null |
 | `image` | string |
 | `rating` | null |

@@ -58,12 +58,12 @@ Full details on the [scraper page](https://apify.com/abotapi/viator-com-scraper?
 | `locationName` | string |
 | `addressLocality` | string |
 | `addressCountryName` | string |
-| `offerPrice` | integer |
+| `offerPrice` | float |
 | `offerCurrency` | string |
 | `availability` | string |
 | `priceValidUntil` | string |
-| `ratingValue` | integer |
-| `exactRating` | integer |
+| `ratingValue` | float |
+| `exactRating` | float |
 | `bestRating` | integer |
 | `worstRating` | integer |
 | `reviewCount` | integer |

@@ -65,7 +65,7 @@ Full details on the [scraper page](https://apify.com/abotapi/auchan-fr-scraper?u
 | `deliveryPromise` | string |
 | `deliveryChannel` | string |
 | `stock` | integer |
-| `averageRating` | float |
+| `averageRating` | null |
 | `reviewCount` | integer |
 | `images` | list |
 | `categoryPath` | null |

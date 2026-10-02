@@ -14,7 +14,7 @@
     "averageRating": 1,
     "reviewsCount": 250,
     "tasksCount": 694,
-    "elite": true,
+    "elite": false,
     "bio": "Example bio: mock text standing in for the real value. Same field and type, made-up content.",
     "imageUrl": "https://res.cloudinary.com/example/31328.jpg",
     "source": "profile",
@@ -55,64 +55,6 @@
       }
     ],
     "totalReviewCount": 624,
-    "ratingDistribution": null
-  },
-  {
-    "kind": "tasker",
-    "recordId": "71139218",
-    "taskId": 25456047,
-    "displayName": "Example display name",
-    "citySlug": "portland",
-    "serviceSlug": "Example service slug",
-    "cityName": "Example city name",
-    "metroId": 2613,
-    "serviceName": "Example service name",
-    "v3CategoryId": 42,
-    "v3TaskTemplateId": 1395,
-    "averageRating": 4,
-    "reviewsCount": 369,
-    "tasksCount": 751,
-    "elite": true,
-    "bio": "Example bio: mock text standing in for the real value. Same field and type, made-up content.",
-    "imageUrl": "https://res.cloudinary.com/example/21218.jpg",
-    "source": "profile",
-    "slug": "id19204795",
-    "url": "https://www.taskrabbit.com/example/56130",
-    "metroName": "Example metro name",
-    "hoursWorked": 3004.29,
-    "positiveRating": "Example positive rating",
-    "onDuty": true,
-    "taskCountProfile": 9423,
-    "rabbitSinceYear": 8266,
-    "vehicleType": "car",
-    "phoneNumberMasked": "+1 555 0100",
-    "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
-    "avatarUrl": "https://res.cloudinary.com/example/29798.jpg",
-    "categories": [
-      {
-        "categoryId": 1,
-        "categoryName": "Example category name",
-        "focused": true,
-        "hourlyRate": 91,
-        "hourlyRateDisplay": "Example hourly rate display",
-        "hourlyRateCurrency": "USD",
-        "posterRateDisplay": "Example poster rate display",
-        "serviceFeePercent": 90,
-        "inDemand": false
-      },
-      {
-        "categoryId": 804,
-        "categoryName": "Example category name",
-        "focused": true,
-        "hourlyRate": 13,
-        "hourlyRateDisplay": "Example hourly rate display",
-        "hourlyRateCurrency": "USD",
-        "posterRateDisplay": "Example poster rate display",
-        "serviceFeePercent": 16,
-        "inDemand": false
-      }
-    ],
-    "totalReviewCount": 927,
     "ratingDistribution": null
   }
 ]

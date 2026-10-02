@@ -75,8 +75,6 @@ Full details on the [scraper page](https://apify.com/abotapi/ddproperty-scraper?
 | `district_code` | string |
 | `area` | string |
 | `area_code` | string |
-| `nearby_mrt` | string |
-| `nearby_station_id` | string |
 | `badges` | list |
 | `posted_date` | string |
 | `posted_unix` | integer |
@@ -87,10 +85,12 @@ Full details on the [scraper page](https://apify.com/abotapi/ddproperty-scraper?
 | `status` | string |
 | `latitude` | float |
 | `longitude` | float |
-| `nearby_mrts` | list |
 | `description` | string |
 | `facilities` | list |
 | `highlights` | list |
+| `images_full` | list |
+| `floor_plans` | list |
+| `location_source` | string |
 
 ---
 

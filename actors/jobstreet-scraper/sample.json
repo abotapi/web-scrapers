@@ -1,6 +1,6 @@
 [
   {
-    "id": "81510381",
+    "id": "21140228",
     "url": "https://my.jobstreet.com/example/9512",
     "jobLink": "https://my.jobstreet.com/example/29476",
     "applyLink": "https://my.jobstreet.com/example/4091",
@@ -11,7 +11,7 @@
     "contentText": "Example content text: mock text standing in for the real value. Same field and type, made-up content.",
     "contentSections": [
       "Example content sections",
-      "Example content sections: mock text standing in for the real value. Same field and type, made-up content."
+      "Example content sections"
     ],
     "bulletPoints": [],
     "companyName": "Example company name",
@@ -19,7 +19,7 @@
     "companyUrl": null,
     "companyNameSlug": null,
     "companyOverview": null,
-    "advertiserId": "09118726",
+    "advertiserId": "66753424",
     "advertiserName": "Example advertiser name",
     "locationLabel": "Example location label",
     "locationSeoHierarchy": [
@@ -29,9 +29,9 @@
     "countryCode": "MY",
     "classifications": [
       {
-        "id": "9355",
+        "id": "4130",
         "label": "Example label",
-        "subId": "3459",
+        "subId": "7659",
         "subLabel": "Example sub label"
       }
     ],
@@ -44,7 +44,7 @@
     ],
     "workArrangements": [
       {
-        "id": "7",
+        "id": "1",
         "label": {
           "text": "Example text"
         }
@@ -53,8 +53,8 @@
     "workArrangementLabels": [
       "Example work arrangement labels"
     ],
-    "salaryLabel": null,
-    "salary": null,
+    "salaryLabel": "Example salary label",
+    "salary": "Example salary",
     "salaryCurrency": null,
     "phoneNumber": null,
     "phoneNumbers": [],
@@ -64,13 +64,8 @@
     "listingDate": "2026-01-15T10:00:00Z",
     "listingDateDisplay": "Example listing date display",
     "expiresAt": "2026-01-15T10:00:00Z",
-    "isVerified": false,
+    "isVerified": true,
     "roleId": "Example role id",
-    "tags": [
-      {
-        "type": "EARLY_APPLICANT",
-        "label": "Example label"
-      }
-    ]
+    "tags": []
   }
 ]

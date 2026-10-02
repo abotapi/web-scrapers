@@ -27,6 +27,8 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~domain-com-au-scraper/run
 | `mode` * | string | Start here pick your search mode |
 | `locations` | array | Suburbs / locations (search mode) |
 | `sortBy` | string | Sort order |
+| `inspectionsOnly` | boolean | Open for inspection only (search mode) |
+| `auctionsOnly` | boolean | Auctions only (search mode) |
 | `urls` | array | Domain.com.au URLs (url mode) |
 | `listingType` | string | Listing type |
 | `propertyTypes` | array | Property types |
@@ -36,8 +38,6 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~domain-com-au-scraper/run
 | `minPrice` | integer | Min price (AUD) |
 | `maxPrice` | integer | Max price (AUD) |
 | `excludeUnderOffer` | boolean | Exclude under offer / under contract |
-| `inspectionsOnly` | boolean | Open for inspection only (search mode) |
-| `auctionsOnly` | boolean | Auctions only (search mode) |
 | `fetchPropertyHistory` | boolean | Fetch property price history |
 | `includePropertyInsights` | boolean | Include extra property insights (valua |
 | `includeExtendedListing` | boolean | Include extended listing attributes (i |
@@ -78,7 +78,7 @@ Full details on the [scraper page](https://apify.com/abotapi/domain-com-au-scrap
 | `headline` | string |
 | `description` | string |
 | `structuredFeatures` | list |
-| `saleMethod` | string |
+| `saleMethod` | null |
 | `isAuction` | boolean |
 | `status` | string |
 | `inspection` | object |

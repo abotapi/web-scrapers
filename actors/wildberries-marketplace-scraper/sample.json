@@ -15,14 +15,14 @@
     "discountPercent": 61,
     "hasDiscount": true,
     "currency": "RUB",
-    "rating": 8,
-    "reviewRating": 6,
-    "feedbacksCount": 3,
+    "rating": 0,
+    "reviewRating": 0,
+    "feedbacksCount": 0,
     "stock": 18,
-    "volume": 3,
-    "weight": 0.42,
+    "volume": 84,
+    "weight": 0.34,
     "warehouseIds": [
-      514705
+      76114705
     ],
     "deliveryDaysMin": 28,
     "deliveryDaysMax": 982,
@@ -31,130 +31,24 @@
     ],
     "imageUrl": "https://basket-10.wbbasket.ru/example/73729.jpg",
     "imageUrlsCount": 5,
-    "supplierId": 441786921,
+    "supplierId": 9786921,
     "supplierName": "Example supplier name",
-    "supplierRating": 3.81,
+    "supplierRating": 3.97,
     "description": null,
     "characteristics": null,
-    "feedbacks": [
-      {
-        "id": "pcy65c9q9o2sx1kbu2gu",
-        "createdDate": "2026-01-15T10:00:00Z",
-        "updatedDate": "2026-01-15T10:00:00Z",
-        "rating": 8,
-        "text": "Example text: mock text standing in for the real value. Same field and type, made-up content.",
-        "pros": "",
-        "cons": "",
-        "size": "9",
-        "userName": "Example user name",
-        "answerText": "Example answer text: mock text standing in for the real value. Same field and type, made-up content.",
-        "photosCount": 0
-      },
-      {
-        "id": "33wvlscfsjq5j7ff9sdy",
-        "createdDate": "2026-01-15T10:00:00Z",
-        "updatedDate": "2026-01-15T10:00:00Z",
-        "rating": 3,
-        "text": "Example text: mock text standing in for the real value. Same field and type, made-up content.",
-        "pros": "",
-        "cons": "",
-        "size": "",
-        "userName": "Example user name",
-        "answerText": "Example answer text: mock text standing in for the real value. Same field and type, made-up content.",
-        "photosCount": 9
-      }
-    ],
+    "feedbacks": [],
     "feedbackSummary": {
-      "valuation": "8.5",
-      "valuationSum": 49,
+      "valuation": null,
+      "valuationSum": 0,
       "distribution": {
         "1": 0,
         "2": 0,
         "3": 0,
-        "4": 4,
-        "5": 6
+        "4": 0,
+        "5": 0
       },
-      "withText": 2,
-      "withPhoto": 8
-    }
-  },
-  {
-    "kind": "product",
-    "recordId": "Example record id",
-    "nmId": 5030904337,
-    "rootId": 4443414187,
-    "url": "https://www.wildberries.ru/example/21426",
-    "name": "Example name",
-    "brand": "Apple",
-    "brandId": 9845,
-    "subjectId": 491,
-    "price": 96252,
-    "priceRetail": 96075,
-    "priceLogistics": 0,
-    "discountPercent": 96,
-    "hasDiscount": true,
-    "currency": "RUB",
-    "rating": 0,
-    "reviewRating": 0,
-    "feedbacksCount": 0,
-    "stock": 95,
-    "volume": 3,
-    "weight": 0.51,
-    "warehouseIds": [
-      536559
-    ],
-    "deliveryDaysMin": 36,
-    "deliveryDaysMax": 272,
-    "colors": [
-      "Example colors"
-    ],
-    "imageUrl": "https://basket-10.wbbasket.ru/example/99972.jpg",
-    "imageUrlsCount": 51,
-    "supplierId": 439234423,
-    "supplierName": "Example supplier name",
-    "supplierRating": 3.38,
-    "description": null,
-    "characteristics": null,
-    "feedbacks": [
-      {
-        "id": "pcy78c9q6o7sx0kbu0gu",
-        "createdDate": "2026-01-15T10:00:00Z",
-        "updatedDate": "2026-01-15T10:00:00Z",
-        "rating": 4,
-        "text": "Example text: mock text standing in for the real value. Same field and type, made-up content.",
-        "pros": "",
-        "cons": "",
-        "size": "1",
-        "userName": "Example user name",
-        "answerText": "Example answer text: mock text standing in for the real value. Same field and type, made-up content.",
-        "photosCount": 0
-      },
-      {
-        "id": "35wvlscfsjq4j9ff4sdy",
-        "createdDate": "2026-01-15T10:00:00Z",
-        "updatedDate": "2026-01-15T10:00:00Z",
-        "rating": 9,
-        "text": "Example text: mock text standing in for the real value. Same field and type, made-up content.",
-        "pros": "",
-        "cons": "",
-        "size": "",
-        "userName": "Example user name",
-        "answerText": "Example answer text: mock text standing in for the real value. Same field and type, made-up content.",
-        "photosCount": 7
-      }
-    ],
-    "feedbackSummary": {
-      "valuation": "8.3",
-      "valuationSum": 62,
-      "distribution": {
-        "1": 0,
-        "2": 0,
-        "3": 0,
-        "4": 9,
-        "5": 6
-      },
-      "withText": 3,
-      "withPhoto": 9
+      "withText": 0,
+      "withPhoto": 0
     }
   }
 ]

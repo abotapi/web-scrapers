@@ -77,7 +77,6 @@ Full details on the [scraper page](https://apify.com/abotapi/propertyguru-my-scr
 | `state` | string |
 | `region` | string |
 | `city` | string |
-| `nearby_mrt` | string |
 | `badges` | list |
 | `posted_date` | string |
 | `posted_unix` | integer |
@@ -95,6 +94,7 @@ Full details on the [scraper page](https://apify.com/abotapi/propertyguru-my-scr
 | `project_id` | string |
 | `project_legacy_id` | integer |
 | `project_status_code` | string |
+| `total_units` | integer |
 
 ---
 

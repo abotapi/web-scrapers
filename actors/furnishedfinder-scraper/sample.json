@@ -1,7 +1,7 @@
 [
   {
     "id": "id72413698",
-    "propertyId": "7442485",
+    "propertyId": "2855879",
     "unitId": "2",
     "url": "https://www.furnishedfinder.com/example/97082",
     "name": "Example name",
@@ -15,8 +15,8 @@
     "priceFormatted": "Example price formatted",
     "priceValue": 1998,
     "priceCurrency": "USD",
-    "latitude": 33.04,
-    "longitude": -99.24,
+    "latitude": 33.19,
+    "longitude": -99.37,
     "city": "Houston",
     "state": "Texas",
     "encodedLocationName": "Example encoded location name",

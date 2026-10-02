@@ -62,8 +62,8 @@ Full details on the [scraper page](https://apify.com/abotapi/gumtree-au-scraper?
 | `suburb` | null |
 | `state` | null |
 | `mapAddress` | null |
-| `price` | integer |
-| `priceText` | string |
+| `price` | null |
+| `priceText` | null |
 | `priceType` | string |
 | `currency` | string |
 | `minimumOfferPrice` | null |

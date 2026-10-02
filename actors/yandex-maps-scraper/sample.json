@@ -38,13 +38,6 @@
         "rating": 6,
         "text": "Example text: mock text standing in for the real value. Same field and type, made-up content.",
         "date": "2026-01-15T10:00:00Z"
-      },
-      {
-        "authorName": "Example author name",
-        "authorLevel": "Example author level",
-        "rating": 8,
-        "text": "Example text: mock text standing in for the real value. Same field and type, made-up content.",
-        "date": "2026-01-15T10:00:00Z"
       }
     ],
     "location": {
@@ -95,13 +88,6 @@
         "authorName": "Example author name",
         "authorLevel": "Example author level",
         "rating": 8,
-        "text": "Example text: mock text standing in for the real value. Same field and type, made-up content.",
-        "date": "2026-01-15T10:00:00Z"
-      },
-      {
-        "authorName": "Example author name",
-        "authorLevel": "Example author level",
-        "rating": 9,
         "text": "Example text: mock text standing in for the real value. Same field and type, made-up content.",
         "date": "2026-01-15T10:00:00Z"
       }

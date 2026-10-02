@@ -1,17 +1,17 @@
 [
   {
-    "id": "41885190",
+    "id": "96325398",
     "listingUrl": "https://www.realestate.co.nz/example/96179",
-    "listingNo": "4706314",
+    "listingNo": "ell16004",
     "address": {
       "full": "Example full",
       "displayAddress": "Example display address",
-      "streetNumber": "2",
+      "streetNumber": "Example street number",
       "streetName": "Example street name",
       "suburb": "Example suburb",
       "district": "Example district",
       "region": "Auckland",
-      "postcode": "9182",
+      "postcode": "0322",
       "country": "Example country",
       "countryCode": "NZ"
     },
@@ -25,16 +25,11 @@
       "bedrooms": 9,
       "bathrooms": 5,
       "totalBathrooms": 5,
-      "ensuiteBathrooms": 0,
-      "garages": 1,
-      "carparks": 0,
+      "ensuiteBathrooms": 5,
+      "garages": 0,
+      "carparks": 2,
       "livingAreas": 0,
-      "landSizeInSqm": 887,
-      "landSize": {
-        "value": 820,
-        "unit": "sqm"
-      },
-      "floorAreaInSqm": 0,
+      "floorAreaInSqm": 185,
       "storeys": 0,
       "hasPool": false
     },
@@ -59,15 +54,9 @@
         "order": 6
       }
     ],
-    "floorPlans": [
-      {
-        "url": "https://mediaserver.realestate.co.nz/example/86841",
-        "type": "floorplan"
-      }
-    ],
     "agents": [
       {
-        "id": "411072",
+        "id": "901175",
         "firstName": "Example first name",
         "lastName": "Example last name",
         "name": "Example name",
@@ -76,22 +65,33 @@
         "slug": "Example slug",
         "listingCount": 5,
         "imageUrl": "https://images.realestate.co.nz/example/50872.jpg"
+      },
+      {
+        "id": "232720",
+        "firstName": "Example first name",
+        "lastName": "Example last name",
+        "name": "Example name",
+        "phone": "+1 555 0100",
+        "email": "user23@example.com",
+        "slug": "Example slug",
+        "listingCount": 4,
+        "imageUrl": "https://images.realestate.co.nz/example/12824.jpg"
       }
     ],
     "office": {
-      "id": "117",
-      "name": "Example name: mock text standing in for the real value. Same field and type, made-up content.",
+      "id": "185410",
+      "name": "Example name",
       "colloquialName": "Example colloquial name",
       "phone": "+1 555 0100",
       "email": "user38@example.com",
-      "websiteUrl": "https://www.bayleys.co.nz/example/2816",
+      "websiteUrl": "https://rwellerslie.co.nz/example/2816",
       "slug": "id71773729",
       "brandColour": "Example brand colour",
       "imageUrl": "https://images.realestate.co.nz/example/50872.jpg"
     },
     "location": {
-      "lat": -30.76,
-      "lon": 134.48
+      "lat": -30.96,
+      "lon": 134.62
     },
     "openHomes": [
       {
@@ -106,7 +106,7 @@
     "schools": [
       {
         "name": "Example name",
-        "slug": "id71773729",
+        "slug": "Example slug",
         "inZone": true,
         "hasZone": true,
         "distance": "Example distance"

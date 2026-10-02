@@ -1,7 +1,7 @@
 [
   {
     "type": "profile",
-    "id": 58449,
+    "id": 1048449,
     "url": "https://lawyers.justia.com/example/59552",
     "profileUrl": "https://lawyers.justia.com/example/36866",
     "slug": "Example slug",
@@ -18,7 +18,7 @@
     "jobTitles": [
       "Example job titles"
     ],
-    "yearsOfExperience": 42,
+    "yearsOfExperience": 6,
     "headerFacts": [],
     "primaryPhone": "+1 555 0100",
     "emailContactUrl": "https://lawyers.justia.com/example/20217",
@@ -37,55 +37,6 @@
     "additionalPracticeAreas": [
       "Example additional practice areas"
     ],
-    "videoConferencing": null,
-    "fees": null,
-    "contingentFees": false,
-    "jurisdictions": null,
-    "languages": null,
-    "experience": null,
-    "education": null,
-    "awards": null,
-    "associations": null,
-    "speakingEngagements": null,
-    "certifications": null,
-    "publications": null
-  },
-  {
-    "type": "profile",
-    "id": 5696079,
-    "url": "https://lawyers.justia.com/example/38942",
-    "profileUrl": "https://lawyers.justia.com/example/57556",
-    "slug": "Example slug",
-    "name": "Example name: mock text standing in for the real value. Same field and type, made-up content.",
-    "telephones": [
-      "+1 555 0100"
-    ],
-    "freeConsultation": false,
-    "topRated": false,
-    "profileImage": "https://justatic.com/example/51492.jpg",
-    "servingLocationText": null,
-    "scrapedAt": "2026-01-15T10:00:00Z",
-    "jobTitle": "Example job title",
-    "jobTitles": [
-      "Example job titles"
-    ],
-    "yearsOfExperience": 15,
-    "headerFacts": [],
-    "primaryPhone": "+1 555 0100",
-    "emailContactUrl": "https://lawyers.justia.com/example/50311",
-    "vcardUrl": null,
-    "badges": [
-      "Example badges",
-      "Example badges"
-    ],
-    "claimedProfile": true,
-    "offersVideoConferencing": true,
-    "connectPro": false,
-    "liiPlatinum": false,
-    "hasSocialMedia": true,
-    "biography": "Example biography: mock text standing in for the real value. Same field and type, made-up content.",
-    "practiceAreas": null,
-    "additionalPracticeAreas": null,
     "videoConferencing": null,
     "fees": null,
     "contingentFees": false,

@@ -81,6 +81,8 @@ Full details on the [scraper page](https://apify.com/abotapi/property24-scraper?
 | `mainImage` | string |
 | `source` | string |
 | `scrapedAt` | string |
+| `hasExactLocation` | boolean |
+| `streetAddress` | string |
 | `provinceName` | string |
 | `provinceId` | string |
 | `cityName` | string |
@@ -100,8 +102,6 @@ Full details on the [scraper page](https://apify.com/abotapi/property24-scraper?
 | `propertyType` | string |
 | `listingDate` | string |
 | `details` | list |
-| `keyFeatures` | list |
-| `photos` | list |
 
 ---
 

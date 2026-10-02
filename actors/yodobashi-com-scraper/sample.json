@@ -35,42 +35,5 @@
     "ratingBreakdown": null,
     "familyReviewCount": null,
     "unratedReviewCount": null
-  },
-  {
-    "sku": "348567093080986960",
-    "url": "https://www.yodobashi.com/example/13573",
-    "title": "Example title: mock text standing in for the real value. Same field and type, made-up content.",
-    "brand": "Example brand",
-    "makerName": "insta892",
-    "makerId": "7162930222",
-    "currency": "JPY",
-    "price": 102584,
-    "goldPoints": 3108,
-    "goldPointRatePercent": 4,
-    "availability": "Example availability",
-    "inStock": false,
-    "deliveryMessage": "Example delivery message",
-    "deliveryBadge": "Example delivery badge",
-    "rating": 7,
-    "reviewCount": 2,
-    "storeStockCount": 78,
-    "categoryBreadcrumb": [
-      "Example category breadcrumb",
-      "Example category breadcrumb"
-    ],
-    "categoryUrl": "https://www.yodobashi.com/example/63098",
-    "releaseDate": "0937/69/36",
-    "thumbnail": "https://image.yodobashi.com/example/86004.jpg",
-    "images": [
-      "https://image.yodobashi.com/example/29445.jpg"
-    ],
-    "sponsored": false,
-    "isDiscontinued": false,
-    "scrapedAt": "2026-01-15T10:00:00Z",
-    "reviews": [],
-    "reviewsReturned": 0,
-    "ratingBreakdown": null,
-    "familyReviewCount": null,
-    "unratedReviewCount": null
   }
 ]

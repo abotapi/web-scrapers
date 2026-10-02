@@ -1,27 +1,27 @@
 [
   {
-    "sku": "8819605509",
+    "sku": "6028090956",
     "url": "https://www.ozon.ru/example/90507",
-    "title": "Example title: mock text standing in for the real value. Same field and type, made-up content.",
+    "title": "Example title",
     "brand": "Apple",
     "price": 36346,
     "originalPrice": 77646,
     "discountPercent": 87,
     "currency": "RUB",
-    "rating": 2,
-    "reviewCount": 8767,
-    "questionCount": 2414,
+    "rating": 5.98,
+    "reviewCount": 667,
+    "questionCount": 74,
     "availability": "Example availability",
     "coverImage": "https://ir.ozone.ru/example/30364.jpg",
     "images": [
       "https://ir.ozone.ru/example/88137.jpg",
       "https://ir.ozone.ru/example/57577.jpg"
     ],
-    "description": null,
+    "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
     "specs": [
       {
         "name": "Example name",
-        "value": "8654415295"
+        "value": "3107034508"
       },
       {
         "name": "Example name",
@@ -33,17 +33,36 @@
       "Example hashtags"
     ],
     "ratingBreakdown": null,
-    "variants": [],
+    "variants": [
+      {
+        "sku": "6028090956",
+        "title": "Example title",
+        "price": 36346,
+        "aspectName": "Example aspect name",
+        "value": "Example value",
+        "availability": "Example availability",
+        "link": "https://www.ozon.ru/example/95958"
+      },
+      {
+        "sku": "0282421512",
+        "title": "Example title",
+        "price": 73448,
+        "aspectName": "Example aspect name",
+        "value": "Example value",
+        "availability": "Example availability",
+        "link": "https://www.ozon.ru/example/85295"
+      }
+    ],
     "categoryPath": "Example category path",
     "sellerName": "Example seller name",
-    "sellerId": "8493320",
+    "sellerId": "6640804",
     "seller": {
-      "sellerId": "8493320",
+      "sellerId": "6640804",
       "name": "Example name",
       "link": "https://www.ozon.ru/example/95958",
       "legalName": null,
       "registryNumber": null,
-      "rating": 2,
+      "rating": 5.98,
       "ordersCount": "Example orders count",
       "isPremium": true,
       "price": null,
@@ -54,11 +73,11 @@
       "productLink": null,
       "productSku": null
     },
-    "otherSellersCount": 3,
+    "otherSellersCount": 48,
     "otherSellersMinPrice": 97563,
     "buyboxSellers": [
       {
-        "sellerId": "9208644",
+        "sellerId": "4470717",
         "name": "Example name",
         "link": "https://www.ozon.ru/example/95958",
         "legalName": null,
@@ -72,10 +91,10 @@
         "authorizedSeller": "Example authorized seller",
         "coverImage": "https://ir.ozone.ru/example/30364.jpg",
         "productLink": "https://www.ozon.ru/example/74682",
-        "productSku": "8563301614"
+        "productSku": "2881586433"
       },
       {
-        "sellerId": "4523952",
+        "sellerId": "6315065",
         "name": "Example name",
         "link": "https://www.ozon.ru/example/85295",
         "legalName": null,
@@ -89,7 +108,7 @@
         "authorizedSeller": "Example authorized seller",
         "coverImage": "https://ir.ozone.ru/example/77078.jpg",
         "productLink": "https://www.ozon.ru/example/51109",
-        "productSku": "3977614397"
+        "productSku": "8652181326"
       }
     ],
     "reviews": [],

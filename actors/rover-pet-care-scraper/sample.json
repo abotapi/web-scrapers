@@ -25,7 +25,7 @@
     "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
     "engagementLabel": "Example engagement label",
     "availabilityUpdatedText": "Example availability updated text",
-    "availabilityUpdatedDaysAgo": 0,
+    "availabilityUpdatedDaysAgo": 7,
     "badgeTitle": "Example badge title",
     "badgeSlug": "Example badge slug",
     "cancellationPolicy": "Example cancellation policy",
@@ -43,54 +43,6 @@
     "photoUpdateRatePercent": 382,
     "imagesCount": 62,
     "verificationBadges": [
-      "Example verification badges"
-    ]
-  },
-  {
-    "kind": "sitter",
-    "recordId": "dn4vp0eq",
-    "shortName": "Example short name",
-    "headline": "Example headline",
-    "url": "https://www.rover.com/example/11324",
-    "imageUrl": "https://www.rover.com/example/64383.jpg",
-    "serviceType": "Example service type",
-    "currencyCode": "USD",
-    "pricePerUnit": 66,
-    "priceUnit": "night",
-    "neighborhood": "Example neighborhood",
-    "city": "Example city",
-    "state": "CA",
-    "zip": "96158",
-    "latitude": 47.23,
-    "longitude": -150.59,
-    "distanceMi": 0.46,
-    "ratingsAverage": 6.22,
-    "ratingsCount": 874,
-    "testimonialsCount": 0,
-    "yearsOfExperience": 78,
-    "yearsOfExperienceText": "Example years of experience text",
-    "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
-    "engagementLabel": "Example engagement label",
-    "availabilityUpdatedText": "Example availability updated text",
-    "availabilityUpdatedDaysAgo": 0,
-    "badgeTitle": "Example badge title",
-    "badgeSlug": "Example badge slug",
-    "cancellationPolicy": "Example cancellation policy",
-    "repeatClients": 14,
-    "browsableServiceSlugs": [
-      "Example browsable service slugs",
-      "Example browsable service slugs"
-    ],
-    "firstName": "Example first name",
-    "fullDescription": "Example full description: mock text standing in for the real value. Same field and type, made-up content.",
-    "memberSince": "2026-01-15",
-    "responseRatePercent": 989,
-    "responseRateText": "Example response rate text",
-    "responseTimeText": "Example response time text",
-    "photoUpdateRatePercent": 734,
-    "imagesCount": 585,
-    "verificationBadges": [
-      "Example verification badges",
       "Example verification badges"
     ]
   }

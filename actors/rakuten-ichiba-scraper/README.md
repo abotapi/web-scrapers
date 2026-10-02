@@ -59,8 +59,8 @@ Full details on the [scraper page](https://apify.com/abotapi/rakuten-ichiba-scra
 | `url` | string |
 | `variantId` | string |
 | `name` | string |
-| `subtitle` | string |
-| `brand` | string |
+| `subtitle` | null |
+| `brand` | null |
 | `productUrl` | null |
 | `shopId` | string |
 | `shopName` | string |
@@ -72,13 +72,13 @@ Full details on the [scraper page](https://apify.com/abotapi/rakuten-ichiba-scra
 | `shopIs39` | boolean |
 | `price` | integer |
 | `currency` | string |
-| `priceMin` | null |
-| `priceMax` | null |
+| `priceMin` | integer |
+| `priceMax` | integer |
 | `hasPriceRange` | boolean |
 | `unitPriceDisplay` | string |
 | `unitCount` | integer |
 | `unitLabel` | string |
-| `subscriptionPrice` | integer |
+| `subscriptionPrice` | null |
 | `originalPrice` | null |
 | `originalPriceLabel` | null |
 | `discountPercent` | null |

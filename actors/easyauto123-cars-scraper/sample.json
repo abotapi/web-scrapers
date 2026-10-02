@@ -3,28 +3,28 @@
     "listingId": "id72412637",
     "url": "https://easyauto123.com.au/example/16729",
     "title": "Example title",
-    "make": "KIA",
-    "model": "SPORTAGE",
+    "make": "MAZDA",
+    "model": "CX-30",
     "variant": "Example variant",
     "year": 2342,
     "price": 42324,
     "priceType": "DAP",
-    "state": "VIC",
+    "state": "QLD",
     "location": "Example location",
-    "region": "Melbourne",
-    "siteCode": "EB",
-    "odometer": 22735,
-    "vin": "knapr114sh4524644",
-    "fuelType": "Diesel",
+    "region": "Brisbane",
+    "siteCode": "EH",
+    "odometer": 742735,
+    "vin": "jm2dm0w2a66745493",
+    "fuelType": "Petrol",
     "transmission": "Automatic",
     "driveType": "Example drive type",
     "engineCapacity": "9",
-    "colour": "White",
+    "colour": "Blue",
     "vehicleTypes": [
       "Wagon",
       "SUV"
     ],
-    "fuelConsumption": "8.5",
+    "fuelConsumption": "0.5",
     "carType": "Example car type",
     "banner": "Example banner",
     "status": "IN-STOCK",
@@ -42,8 +42,8 @@
         "taxIncluded": true,
         "calculationInfo": "Example calculation info",
         "displayText": "Example display text",
-        "dollarValue": 20991.98,
-        "taxValue": 1733.28
+        "dollarValue": 20854.42,
+        "taxValue": 1721.93
       },
       {
         "component": "SD",
@@ -51,24 +51,24 @@
         "taxIncluded": null,
         "calculationInfo": "Example calculation info",
         "displayText": "Example display text",
-        "dollarValue": 831.1,
-        "taxValue": null
+        "dollarValue": 372,
+        "taxValue": 6
       }
     ],
     "storeName": "Example store name",
     "storeEmail": "user72@example.com",
     "storePhone": "+1 555 0100",
     "storeAddress": "Example store address",
-    "storeRating": 3.38,
+    "storeRating": 3.3,
     "storeRaw": {
       "salesPersonEmail": "user51@example.com",
-      "siteCode": "EB",
-      "region": "Melbourne",
+      "siteCode": "EH",
+      "region": "Brisbane",
       "friendlyName": "Example friendly name",
       "addressComponents": [
         {
-          "longName": "85",
-          "shortName": "22",
+          "longName": "296",
+          "shortName": "922",
           "types": [
             "street_number"
           ]
@@ -89,24 +89,24 @@
             "close": {
               "date": "2026-01-15",
               "day": 5,
-              "time": "4530"
+              "time": "8194"
             },
             "open": {
               "date": "2026-01-15",
               "day": 5,
-              "time": "8346"
+              "time": "9307"
             }
           },
           {
             "close": {
               "date": "2026-01-15",
               "day": 5,
-              "time": "3306"
+              "time": "3300"
             },
             "open": {
               "date": "2026-01-15",
               "day": 5,
-              "time": "5719"
+              "time": "1166"
             }
           }
         ],
@@ -120,8 +120,8 @@
       "formattedPhoneNumber": "+1 555 0100",
       "geometry": {
         "location": {
-          "lat": -45.39,
-          "lng": 168.03
+          "lat": -32.89,
+          "lng": 177.57
         }
       },
       "internationalPhoneNumber": "+1 555 0100",
@@ -133,194 +133,32 @@
           "Example weekday text"
         ]
       },
-      "placeId": "chijjxbkpudg9morogsz5ztkzqw",
-      "rating": 4.46,
+      "placeId": "chijebmbhe9ykwsrgnenxus6nae",
+      "rating": 4.36,
       "url": "https://maps.google.com/example/16729",
       "userRatingsTotal": 3919,
       "website": "https://easyauto123.com.au/example/80374",
       "distanceBySiteCode": {
-        "EN": 598.19,
-        "EB": 0,
-        "EK": 856.9,
-        "EC": 2135.56,
-        "EH": 1514.09,
-        "EM": 834.24,
-        "EV": 710.83,
-        "EO": 744.94,
-        "EJ": 9661,
-        "ER": 588.98,
-        "EL": 2717.86,
-        "EQ": 2870.16,
-        "EE": 1126.99,
-        "ED": 307.76,
-        "EY": 897.63
+        "EN": 449.43,
+        "EB": 1389.07,
+        "EK": 891.62,
+        "EC": 2848.84,
+        "EH": 0,
+        "EM": 2077.73,
+        "EV": 768.76,
+        "EO": 2228.52,
+        "EJ": 3294.87,
+        "ER": 431.5,
+        "EL": 3615.87,
+        "EQ": 3838.82,
+        "EE": 6.81,
+        "ED": 1286.75,
+        "EY": 659.51
       }
     },
     "detailFetched": true,
     "productCategory": "USED",
     "availableSince": "Example available since: mock text standing in for the real value. Same field and type, made-up content.",
     "ancapRating": "0"
-  },
-  {
-    "listingId": "id82003301",
-    "url": "https://easyauto123.com.au/example/93562",
-    "title": "Example title",
-    "make": "FORD",
-    "model": "EVEREST",
-    "variant": "Example variant",
-    "year": 3606,
-    "price": 97864,
-    "priceType": "DAP",
-    "state": "VIC",
-    "location": "Example location",
-    "region": "Melbourne",
-    "siteCode": "EB",
-    "odometer": 48444,
-    "vin": "mnarxxmawrrr28096",
-    "fuelType": "Diesel",
-    "transmission": "Automatic",
-    "driveType": "Example drive type",
-    "engineCapacity": "5",
-    "colour": "White",
-    "vehicleTypes": [
-      "Wagon",
-      "SUV"
-    ],
-    "fuelConsumption": "6.4",
-    "carType": "Example car type",
-    "banner": "Example banner",
-    "status": "IN-STOCK",
-    "updatedAt": "2026-01-15T10:00:00Z",
-    "primaryImage": "https://steagprdinventoryaue01.blob.core.windows.net/example/15967.jpg",
-    "imageUrls": [
-      "https://steagprdinventoryaue01.blob.core.windows.net/example/28082.jpg",
-      "https://steagprdinventoryaue01.blob.core.windows.net/example/96614.jpg"
-    ],
-    "imageCount": 49,
-    "contractPrice": [
-      {
-        "component": "LIST_PRICE",
-        "category": "Price",
-        "taxIncluded": true,
-        "calculationInfo": "Example calculation info",
-        "displayText": "Example display text",
-        "dollarValue": 29529.99,
-        "taxValue": 2490.48
-      },
-      {
-        "component": "SD",
-        "category": "Tax",
-        "taxIncluded": null,
-        "calculationInfo": "Example calculation info",
-        "displayText": "Example display text",
-        "dollarValue": 1076.54,
-        "taxValue": null
-      }
-    ],
-    "storeName": "Example store name",
-    "storeEmail": "user29@example.com",
-    "storePhone": "+1 555 0100",
-    "storeAddress": "Example store address",
-    "storeRating": 5.17,
-    "storeRaw": {
-      "salesPersonEmail": "user49@example.com",
-      "siteCode": "EB",
-      "region": "Melbourne",
-      "friendlyName": "Example friendly name",
-      "addressComponents": [
-        {
-          "longName": "42",
-          "shortName": "15",
-          "types": [
-            "street_number"
-          ]
-        },
-        {
-          "longName": "Example long name",
-          "shortName": "Example short name",
-          "types": [
-            "route"
-          ]
-        }
-      ],
-      "businessStatus": "OPERATIONAL",
-      "currentOpeningHours": {
-        "openNow": true,
-        "periods": [
-          {
-            "close": {
-              "date": "2026-01-15",
-              "day": 9,
-              "time": "2909"
-            },
-            "open": {
-              "date": "2026-01-15",
-              "day": 9,
-              "time": "7687"
-            }
-          },
-          {
-            "close": {
-              "date": "2026-01-15",
-              "day": 7,
-              "time": "1200"
-            },
-            "open": {
-              "date": "2026-01-15",
-              "day": 7,
-              "time": "3473"
-            }
-          }
-        ],
-        "weekdayText": [
-          "Example weekday text",
-          "Example weekday text"
-        ],
-        "specialDays": null
-      },
-      "formattedAddress": "Example formatted address",
-      "formattedPhoneNumber": "+1 555 0100",
-      "geometry": {
-        "location": {
-          "lat": -32.53,
-          "lng": 107.19
-        }
-      },
-      "internationalPhoneNumber": "+1 555 0100",
-      "name": "Example name",
-      "openingHours": {
-        "openNow": true,
-        "weekdayText": [
-          "Example weekday text",
-          "Example weekday text"
-        ]
-      },
-      "placeId": "chijjxbkpudg0morogsz9ztkzqw",
-      "rating": 3.6,
-      "url": "https://maps.google.com/example/93562",
-      "userRatingsTotal": 9965,
-      "website": "https://easyauto123.com.au/example/50963",
-      "distanceBySiteCode": {
-        "EN": 913.9,
-        "EB": 0,
-        "EK": 708.18,
-        "EC": 2865.43,
-        "EH": 1000.13,
-        "EM": 504.43,
-        "EV": 857.17,
-        "EO": 708.9,
-        "EJ": 7485,
-        "ER": 763.19,
-        "EL": 3451.68,
-        "EQ": 3438.78,
-        "EE": 1057.42,
-        "ED": 307.76,
-        "EY": 739.71
-      }
-    },
-    "detailFetched": true,
-    "productCategory": "USED",
-    "availableSince": "Example available since: mock text standing in for the real value. Same field and type, made-up content.",
-    "ancapRating": "9"
   }
 ]

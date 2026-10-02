@@ -103,7 +103,7 @@ Full details on the [scraper page](https://apify.com/abotapi/reed-co-uk-scraper?
 | `rawListData` | object |
 | `jobTypeName` | string |
 | `taxonomyLevel1` | string |
-| `taxonomyLevel2` | null |
+| `taxonomyLevel2` | string |
 | `isFeatured` | boolean |
 | `isPromoted` | boolean |
 

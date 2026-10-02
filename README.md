@@ -2,9 +2,9 @@
 
 # Web Scrapers
 
-<strong>366 ready-to-run web scrapers, each with a Python example, a cURL call and sample output.</strong>
+<strong>368 ready-to-run web scrapers, each with a Python example, a cURL call and sample output.</strong>
 
-![Scrapers](https://img.shields.io/badge/scrapers-366-blue?style=flat-square) ![Examples](https://img.shields.io/badge/examples-MIT-lightgrey?style=flat-square)
+![Scrapers](https://img.shields.io/badge/scrapers-368-blue?style=flat-square) ![Examples](https://img.shields.io/badge/examples-MIT-lightgrey?style=flat-square)
 
 </div>
 
@@ -22,7 +22,7 @@ python actors/coupang-scraper/example.py
 
 ## Scrapers by category
 
-[Real Estate](#real-estate) (76) · [Jobs](#jobs) (42) · [Travel](#travel) (12) · [Social Media](#social-media) (19) · [Video](#video) (1) · [News & Sports](#news--sports) (2) · [AI & LLM](#ai--llm) (4) · [SEO & Search](#seo--search) (3) · [Leads & Directories](#leads--directories) (19) · [E-commerce](#e-commerce) (97) · [More](#more) (91)
+[Real Estate](#real-estate) (76) · [Jobs](#jobs) (42) · [Travel](#travel) (12) · [Social Media](#social-media) (19) · [Video](#video) (1) · [News & Sports](#news--sports) (2) · [AI & LLM](#ai--llm) (4) · [SEO & Search](#seo--search) (3) · [Leads & Directories](#leads--directories) (19) · [E-commerce](#e-commerce) (97) · [More](#more) (93)
 
 ### Real Estate
 
@@ -35,11 +35,11 @@ python actors/coupang-scraper/example.py
 | [Bayut.com Scraper](actors/bayut-com-scraper) | Scrape Bayut.com property listings with prices, beds, baths, area, GPS, agent and agency details, phone, WhatsApp,… |
 | [Commercial Property AU Scraper](actors/realcommercial-au-scraper) | Scrape Australian commercial property listings with full detail data. Extract descriptions, highlights, property… |
 | [PropertyGuru SG Scraper](actors/propertyguru-sg-scraper) | Scrape PropertyGuru.com.sg sale and rental listings with 30+ structured fields, including price, PSF, floor area,… |
-| [Housing.com Scraper](actors/housing-com-scraper) | Scrape residential property listings from Housing.com across 750+ cities. Extract structured data for properties… |
+| [2GIS Scraper](actors/2gis-places-scraper) | Extract business and place data from 2GIS.com at scale. Get names, addresses, phones, emails, websites, social… |
 | [Cian RU Scraper](actors/cian-ru-scraper) | Collect property listings from Cian.ru by search filters or direct URLs. Returns structured rows with listing URL,… |
 | [Domain.com.au Scraper](actors/domain-com-au-scraper) | Extract enriched Domain.com.au property listings across buy, rent, and sold, with AI-enhanced content and deep… |
+| [Housing.com Scraper](actors/housing-com-scraper) | Scrape residential property listings from Housing.com across 750+ cities. Extract structured data for properties… |
 | [Trade Me NZ Scraper](actors/trademe-co-nz-scraper) | Scrape trademe.co.nz across all five sections: Marketplace goods and auctions, Property, Motors, Jobs and Services.… |
-| [2GIS Scraper](actors/2gis-places-scraper) | Extract business and place data from 2GIS.com at scale. Get names, addresses, phones, emails, websites, social… |
 | [StreetEasy Scraper](actors/streeteasy-scraper) | Scrape StreetEasy sales, rentals and in-contract listings across NYC and Jersey City. Search with filters or URLs… |
 | [Real Estate AU Agents Scraper](actors/au-property-agents-scraper) | Scrape Australian real estate agent and agency profiles by suburb or profile URLs. Returns names, roles, agencies,… |
 | [DDproperty Thailand Scraper](actors/ddproperty-scraper) | Scrape DDproperty.com Thailand listings at scale. Extract prices, property features, images, agent contacts, GPS… |
@@ -57,19 +57,18 @@ python actors/coupang-scraper/example.py
 | [Zap Imóveis Scraper](actors/zapimoveis-scraper) | Scrape Zap Imóveis sale, rental and new-development listings by city, filters or URL. Extract 80+ fields including… |
 | [Auction.com Scraper](actors/auction-com-scraper) | Extract foreclosure, REO, short-sale, and auction listings from Auction.com in minutes. Search by location and… |
 | [CommercialGuru SG Property Listings & Agent Contacts Scraper](actors/commercialguru-sg-scraper) | Scrape commercialguru.com.sg Singapore listings at scale. Extract prices, PSF, floor area, tenure, property type,… |
+| [Funda in Business Scraper](actors/fundainbusiness-nl-commercial-property-scraper) | Scrape Funda in Business commercial listings: offices, retail, industrial, catering and more. Full detail pages,… |
 | [Hipflat Scraper](actors/hipflat-scraper) | Scrape hipflat.co.th property listings and new-project data across Thailand: price, price per m², beds, baths, area,… |
 | [ImmobilienScout24.de Scraper](actors/immoscout24-scraper) | $0.9💰/1K for Gold discount. Extract property listings from immobilienscout24.de, Germany's #1 real estate platform… |
 | [Otodom.pl Scraper](actors/otodom-pl-scraper) | Scrape Otodom.pl properties for sale and rent, including apartments, houses, plots, commercial spaces, garages,… |
 | [Subito.it Scraper](actors/subito-it-scraper) | Scrape Subito.it listings across cars, real estate, marketplace, jobs, and more. Search by keyword and filters or… |
 | [591.com.tw Scraper](actors/591-com-tw-scraper) | Extract property listings from 591房屋交易網 591.com.tw, Taiwan’s largest real estate marketplace. Search by city or use… |
-| [Funda in Business Scraper](actors/fundainbusiness-nl-commercial-property-scraper) | Scrape Funda in Business commercial listings: offices, retail, industrial, catering and more. Full detail pages,… |
 | [Google Maps Scraper](actors/google-maps-scraper) | Extract business data from Google Maps at scale. Get names, addresses, phone numbers, websites, ratings, reviews,… |
 | [Immoweb.be Scraper](actors/immoweb-scraper) | Extract property listings from immoweb.be. Get price, location, coordinates, images, and 27 structured fields per… |
 | [Immowelt.de Scraper](actors/immowelt-de-scraper) | Scrape detailed property listings from Immowelt.de into clean structured data. Extract prices, GPS coordinates,… |
 | [Lennar Homes Scraper](actors/lennar-scraper) | Scrape Lennar new-home communities, move-in-ready homes and floor plans. Extract prices, monthly payment breakdowns,… |
 | [Mudah.my Cars Scraper](actors/mudah-my-scraper) | Scrape Mudah.my listings across every category: cars, motorcycles, property, mobiles, electronics, home, hobbies,… |
 | [Property Finder UAE Scraper](actors/propertyfinder-ae-scraper) | Scrape PropertyFinder.ae listings at scale. Extract prices, property details, images, amenities, coordinates, agent… |
-| [Tutti.ch Scraper](actors/tutti-ch-scraper) | Scrape listings from tutti.ch across all 23 categories, including vehicles, property, electronics, furniture,… |
 | [Apartments.com Scraper](actors/apartments-com-scraper) | Scrape Apartments.com rentals by city, ZIP, neighborhood, address or URL. Extract rent, floorplans, available units,… |
 | [BizQuest Scraper](actors/bizquest-scraper) | Extract business-for-sale, franchise, and asset listings from BizQuest. Search by category, US state, asking price,… |
 | [BusinessesForSale.com Scraper](actors/businessesforsale-com-scraper) | Extract businesses and franchises listed for sale on BusinessesForSale.com. Search by keywords, country, price,… |
@@ -88,6 +87,7 @@ python actors/coupang-scraper/example.py
 | [Redfin Scraper](actors/redfin-scraper) | Scrape redfin.com home listings: price, beds, baths, sqft, lot, year built, coordinates, address, MLS, status, days… |
 | [Rent.com Scraper](actors/rent-com-scraper) | Extract rental listings from rent.com. Get comprehensive data including monthly rent ranges, full address with GPS,… |
 | [Rightmove Scraper](actors/rightmove-scraper) | Fast, reliable Rightmove.co.uk scraper for sale, rent, and sold-price listings. Search by location or direct URL and… |
+| [Tutti.ch Scraper](actors/tutti-ch-scraper) | Scrape listings from tutti.ch across all 23 categories, including vehicles, property, electronics, furniture,… |
 | [Willhaben.at Scraper](actors/willhaben-at-scraper) | Scrape Willhaben.at listings into clean JSON with 40+ structured fields, including prices, GPS coordinates, photos,… |
 | [Fotocasa.es Scraper](actors/fotocasa-es-scraper) | Scrape Spain property listings from fotocasa.es. Get price, surface, rooms, baths, address, GPS, agency, phone,… |
 | [Idealista Scraper](actors/idealista-scraper) | Scrape Idealista properties across Spain, Italy, and Portugal. Extract 35+ fields including prices, sizes, rooms,… |
@@ -109,8 +109,8 @@ python actors/coupang-scraper/example.py
 
 | Scraper | What it does |
 | --- | --- |
-| [HH.ru Jobs Scraper](actors/hh-ru-jobs-scraper) | Scrape HH.ru job listings with 50+ structured fields. Search by filters or URLs and extract salary, experience,… |
 | [SEEK Jobs Scraper](actors/seek-scraper) | Scrape SEEK.com.au and SEEK.co.nz jobs by keyword, location, or filters. Extract full descriptions, companies,… |
+| [HH.ru Jobs Scraper](actors/hh-ru-jobs-scraper) | Scrape HH.ru job listings with 50+ structured fields. Search by filters or URLs and extract salary, experience,… |
 | [Bayt.com Scraper](actors/bayt-com-jobs-scraper) | Scrape Bayt.com job listings by keyword, country, or URL. Extract structured data including job title, company,… |
 | [JobStreet Scraper](actors/jobstreet-scraper) | Scrape JobStreet listings across Malaysia, Singapore, Indonesia, and the Philippines. Extract titles, companies,… |
 | [Hiring.Cafe Jobs Scraper](actors/hiring-cafe-scraper) | Unlock powerful Hiring.Cafe job data extraction. Use advanced filters or URLs to get 100+ fields per job, including… |
@@ -123,6 +123,7 @@ python actors/coupang-scraper/example.py
 | [Wellfound Jobs Scraper](actors/wellfound-jobs-scraper) | Scrape startup jobs from Wellfound.com by keyword, location, role, or remote status. Extract job details,… |
 | [Caterer.com Scraper](actors/caterer-com-scraper) | Scrape UK hospitality jobs from Caterer.com, including chef, hotel, restaurant, bar, and events roles. Search by… |
 | [Comparably Scraper](actors/comparably-scraper) | Extract rich company data from comparably.com using company names or profile URLs. Get ratings, culture scores, CEO… |
+| [Dice.com Scraper](actors/dice-com-scraper) | Scrape tech job listings from Dice.com by keyword, filters, or URL. Extract job titles, companies, recruiter types,… |
 | [EdJoin.org Scraper](actors/edjoin-scraper) | Scrape EdJoin.org K-12 and higher-ed jobs by keyword, location, filters or URL. Extract districts, locations,… |
 | [France Travail Scraper](actors/francetravail-fr-scraper) | Scrape job offers from France Travail with titles, companies, locations, salaries, contracts, descriptions, skills,… |
 | [HiJobs.net Scraper](actors/hijobs-net-jobs-scraper) | Scrape hijobs.net job listings via the official mobile API: title, employer, salary range, location, hours, sector,… |
@@ -141,7 +142,6 @@ python actors/coupang-scraper/example.py
 | [ZipRecruiter Scraper](actors/ziprecruiter-com-scraper) | Scrape ZipRecruiter jobs with titles, companies, salaries, locations, benefits, apply URLs and full descriptions.… |
 | [BetaList Scraper](actors/betalist-com-scraper) | Scrape BetaList.com startup profiles with founder and contact enrichment. Extract startup names, taglines,… |
 | [Cwjobs UK Scraper](actors/cwjobs-scraper) | Scrape tech and IT jobs from CWJobs.co.uk into clean, structured data. Search by keyword, location, salary, work… |
-| [Dice.com Scraper](actors/dice-com-scraper) | Scrape tech job listings from Dice.com by keyword, filters, or URL. Extract job titles, companies, recruiter types,… |
 | [FINN.no Jobs Scraper](actors/finn-no-jobs-scraper) | Scrape active FINN.no job listings by search filters or URL. Extract 30+ fields including full descriptions,… |
 | [Jobsite UK Scraper](actors/jobsite-co-uk-scraper) | Collect UK job listings from Jobsite.co.uk at scale. Search by keyword, location, filters, or paste search URLs.… |
 | [Jora Jobs Scraper](actors/jora-jobs-scraper) | Scrape Jora.com job listings across supported countries by keyword, filters, or URL. Extract full job descriptions,… |
@@ -161,10 +161,10 @@ python actors/coupang-scraper/example.py
 | [Autotrader US Scraper](actors/autotrader-com-scraper) | Scrape US car listings from Autotrader by make, model, ZIP, price, year, body style, filters, or listing URLs.… |
 | [Flightpoints & Roame Award Flight Scraper](actors/flightpoints-award-scraper) | Multi-source award flight availability from Flightpoints.com + Roame.travel. Search any route and date for miles,… |
 | [Viator Scraper](actors/viator-com-scraper) | Collect Viator.com tour and activity results from destinations, categories, search pages, or pasted URLs. Returns… |
-| [Concert Archives Scraper](actors/concert-archives-scraper) | Scrape Concert Archives concert and tour history: past and upcoming dates, venues, cities, line-ups, tours, genres,… |
 | [Naver Map Scraper](actors/naver-map-scraper) | Scrape Naver Map places by keyword or URL: names, categories, ratings, phones, addresses, GPS, menus, opening hours,… |
 | [Vrbo Scraper](actors/vrbo-vacation-rentals-scraper) | Extract vacation rental data from Vrbo.com by location, region, coordinates, property URL, or property ID. Returns… |
 | [Booking.com Hotels Scraper](actors/booking-com-scraper) | Scrape booking.com hotels, apartments, villas and hostels. Search any destination with the site's own filters (type,… |
+| [Concert Archives Scraper](actors/concert-archives-scraper) | Scrape Concert Archives concert and tour history: past and upcoming dates, venues, cities, line-ups, tours, genres,… |
 | [EasyAuto123 Scraper](actors/easyauto123-cars-scraper) | Scrape EasyAuto123 vehicle listings into clean structured data. Extract prices, VINs, odometer readings, make,… |
 | [Pollstar Scraper](actors/pollstar-concert-tour-scraper) | Scrape Pollstar upcoming concerts and tour dates: play date, venue with full address and coordinates, artist… |
 | [AutoTrader UK Scraper](actors/autotrader) | Pull structured vehicle listings from autotrader.co.uk at scale. Search by filters or use AutoTrader URLs. Returns… |
@@ -220,7 +220,7 @@ python actors/coupang-scraper/example.py
 | Scraper | What it does |
 | --- | --- |
 | [Yellow Pages AU Scraper](actors/yellow-pages-au-scraper) | Scrape business listings from Yellow Pages Australia by type and location. Get names, contacts, websites, ratings,… |
-| [Dealroom Startup & Market Map Scraper](actors/dealroom-co-scraper) | Scrape Dealroom.net market maps, company lookup results, live signals, and newly founded startup records. Supports… |
+| [Dealroom.net Scraper](actors/dealroom-co-scraper) | Scrape Dealroom.net market maps, company lookup results, live signals, and newly founded startup records. Supports… |
 | [Ip Location Check Scraper](actors/ip-location-check) | Look up geographic locations for IP addresses. Supports batch lookups with country, city, subdivision, coordinates,… |
 
 ### Leads & Directories
@@ -233,13 +233,13 @@ python actors/coupang-scraper/example.py
 | [Herold.at Scraper](actors/herold-at-scraper) | Scrape Herold.at business listings across Austria into clean JSON. Extract names, addresses, GPS, phone numbers,… |
 | [Ycombinator Scraper](actors/ycombinator-com-scraper) | Pull every ycombinator.com company across every batch, with founders, social URLs, application Q&A, demo-day video,… |
 | [Craigslist Scraper](actors/craigslist-classifieds-scraper) | Scrape Craigslist postings in any of 700+ cities worldwide: price, title, posting text, attributes, photos,… |
+| [Local.ch Scraper](actors/local-ch-scraper) | Pull structured company data from local.ch, including name, address, GPS, phone, email, website, hours, ratings,… |
 | [Yellow Pages NZ Scraper](actors/yellow-nz-scraper) | Scrapes business listings from Yellow.co.nz (New Zealand Yellow Pages). Extract comprehensive business information,… |
 | [Childcare AU Scraper](actors/careforkids-com-au-scraper) | Scrape Australia’s largest childcare directory careforkids.com.au with long day care, preschool, family day care,… |
 | [Flippa Scraper](actors/flippa-com-scraper) | Scrape Flippa listings with full enrichment, including revenue, profit, valuation multiples, traffic, business age,… |
 | [GoWork FR & DE Company Reviews and Profile Scraper](actors/gowork-eu-scraper) | Extract company profiles from GoWork France and Germany, including contact details, review threads with replies,… |
 | [HiPages Scraper](actors/hipages-business-scraper) | Scrape business listings from HiPages Australia by category, location, or URL. Extract business names, contact… |
 | [Justia Lawyer Profiles Scraper](actors/justia-lawyer-scraper) | Scrape attorney profiles from the Justia Lawyer Directory. Extract names, contacts, office locations, practice… |
-| [Local.ch Scraper](actors/local-ch-scraper) | Pull structured company data from local.ch, including name, address, GPS, phone, email, website, hours, ratings,… |
 | [Product Hunt Scraper](actors/product-hunt-launches-scraper) | Extract producthunt.com data including products, launches, keyword search results, maker profiles, reviews,… |
 | [TrueLocal AU Directory Listings & Reviews Scraper](actors/truelocal-com-au-scraper) | Scrape TrueLocal.com.au business listings by keyword, location, or URL. Extract names, addresses, GPS coordinates,… |
 | [2dehands & 2ememain Scraper](actors/2dehands-2ememain-scraper) | Scrape classifieds from 2dehands.be and 2ememain.be by keyword, filters, or URLs. Returns title, price, location,… |
@@ -260,27 +260,28 @@ python actors/coupang-scraper/example.py
 | [Tokopedia Scraper](actors/tokopedia-scraper) | Extract product data from Tokopedia, Indonesia’s largest marketplace. Search by keyword with sorting and filters, or… |
 | [Trendyol Scraper](actors/trendyol-scraper) | Scrape Trendyol products, prices, ratings, badges, sellers, full reviews and Q&A. Search by keyword with filters,… |
 | [Depop Scraper](actors/depop-scraper) | Scrape Depop search results, listings, shops, and reviews to JSON, CSV, or Excel. Extract titles, prices, shipping,… |
-| [Cars.com Scraper](actors/cars-com-scraper) | Scrape cars.com listings by make, ZIP and radius. 90+ fields per car: price, MSRP, monthly payment, mileage, VIN,… |
-| [Cdiscount Scraper](actors/cdiscount-scraper) | Scrape product data from Cdiscount.com by keyword, category, or URL. Apply filters and sorting, then enrich results… |
 | [DoorDash Scraper](actors/doordash-scraper) | Extract structured doordash.com data at scale. Search by keyword or paste store URLs to get store details, ratings,… |
+| [Cdiscount Scraper](actors/cdiscount-scraper) | Scrape product data from Cdiscount.com by keyword, category, or URL. Apply filters and sorting, then enrich results… |
 | [Lazada Scraper](actors/lazada-scraper) | Scrape Lazada products and reviews across SEA markets, including Malaysia, Singapore, Indonesia, Philippines,… |
 | [Mercari Japan Scraper](actors/mercari-jp-scraper) | Scrape Mercari Japan listings, sellers and reviews at scale. Extract names, prices, conditions, photos, shipping… |
 | [Wine-Searcher Scraper](actors/wine-searcher-scraper) | Look up wines on wine-searcher.com by name, URL, or LWIN code. Returns 30+ fields, including critic scores, prices,… |
+| [Cars.com Scraper](actors/cars-com-scraper) | Scrape cars.com listings by make, ZIP and radius. 90+ fields per car: price, MSRP, monthly payment, mileage, VIN,… |
 | [ALDI AU Scraper](actors/aldi-com-au-scraper) | Scrape ALDI Australia (aldi.com.au) products: name, brand, price, was-price, savings, unit price, size, category,… |
-| [Naver Shopping Scraper](actors/naver-brand-store-scraper) | Scrape Naver Shopping products by Korean or English keyword, or by URL. Returns 190+ fields per product, including… |
 | [Carrefour Spain Scraper](actors/carrefour-es-scraper) | Scrape Carrefour Spain (carrefour.es) products. Search by keyword, browse a category, or paste product/category… |
+| [Naver Shopping Scraper](actors/naver-brand-store-scraper) | Scrape Naver Shopping products by Korean or English keyword, or by URL. Returns 190+ fields per product, including… |
 | [Gumtree AU Scraper](actors/gumtree-au-scraper) | Scrape gumtree.com.au classifieds across every vertical: for-sale goods, motors, real estate, jobs and services. Get… |
 | [KREAM Korea Scraper](actors/kream-scraper) | Scrape KREAM (kream.co.kr) sneaker and fashion resale data by keyword search, filters, sorts, or product URLs.… |
 | [E.Leclerc Scraper](actors/leclerc-fr-scraper) | Scrape E.Leclerc France (e.leclerc) grocery and retail products. Search by keyword or category, or paste product and… |
+| [Mango Scraper](actors/mango-com-scraper) | Scrape Mango (shop.mango.com) fashion products: current price plus strike-through Rebajas (sale) discount, full… |
 | [OTTO.de Scraper](actors/otto-de-scraper) | Scrape OTTO.de products by search or URL. Extract prices, discounts, variants, availability, brand, seller,… |
 | [Darty Scraper](actors/darty-com-scraper) | Scrape Darty (darty.com) products: current price plus strike-through reference price and discount, brand, category… |
+| [IKEA Products & Reviews Scraper](actors/ikea-scraper) | Scrape IKEA products across 50+ markets. Extract names, prices, currencies, ratings, full reviews, colours,… |
 | [Instacart Scraper](actors/instacart-grocery-price-scraper) | Scrape Instacart grocery catalogs with per-store prices. Run keywords across several stores at once to compare what… |
 | [Kmart Scraper](actors/kmart-au-scraper) | Scrape products and customer reviews from Kmart.com.au. Search by keyword or use product/category URLs with sorting… |
-| [Mango Scraper](actors/mango-com-scraper) | Scrape Mango (shop.mango.com) fashion products: current price plus strike-through Rebajas (sale) discount, full… |
 | [REWE.de Scraper](actors/rewe-de-scraper) | Scrape REWE Germany (rewe.de) grocery products: current price, was-price and discount when genuinely on offer,… |
 | [UNIQLO Scraper](actors/uniqlo-com-scraper) | Scrape UNIQLO products across 21 country storefronts in local currency. Price with pre discount original price, per… |
-| [Wolt.com Scraper](actors/wolt-restaurants-scraper) | Scrape Wolt restaurants and full menus at the city scale. Extract 60+ fields, including name, address, GPS, hours,… |
 | [Zalando Scraper](actors/zalando-scraper) | Scrape Zalando products: name, brand, current and original price, discount, sizes, images, deal flags and rating,… |
+| [Zara Scraper](actors/zara-com-scraper) | Scrape Zara (zara.com) products: current price plus strike-through Rebajas (sale) discount, full colour variant… |
 | [Boulanger.com Scraper](actors/boulanger-com-scraper) | Scrape Boulanger (boulanger.com) electronics and home-appliance products: current price plus strike-through… |
 | [Bunnings Scraper](actors/bunnings-com-au-scraper) | Scrape bunnings.com.au products with full specifications, price, brand, stock, image gallery, warranty, customer… |
 | [Carsales.com.au Scraper](actors/carsales-au-scraper) | Scrape structured vehicle listings from Carsales.com.au from $1 per 1K results. Built to bypass the 20-page /… |
@@ -289,16 +290,17 @@ python actors/coupang-scraper/example.py
 | [Dienmayxanh Scraper](actors/dienmayxanh-scraper) | Scrape dienmayxanh.com home appliances and electronics with full specifications, current & original price, discount,… |
 | [dm.de Scraper](actors/dm-de-scraper) | Scrape dm-drogerie markt (dm.de) products: current + strike-through Ausverkauf price with discount, per-unit pricing… |
 | [Douglas Germany Scraper](actors/douglas-de) | Scrape Douglas.de beauty and fragrance products by keyword, category, brand, or URL. Extract brands, current and… |
-| [IKEA Products & Reviews Scraper](actors/ikea-scraper) | Scrape IKEA products across 50+ markets. Extract names, prices, currencies, ratings, full reviews, colours,… |
+| [Etsy Scraper](actors/etsy-marketplace-scraper) | Scrape Etsy listings by keyword, category, or URL. Extract titles, shops, prices, discounts, availability, images,… |
 | [Kaufland.de Scraper](actors/kaufland-de-scraper) | Scrape Kaufland.de, Germany's hypermarket and online marketplace: keyword/category/brand search or paste links.… |
 | [LeroyMerlin.es Scraper](actors/leroymerlin-es-scraper) | Scrape Leroy Merlin Spain (leroymerlin.es) DIY and home-improvement products: price, strike-through original price… |
 | [Officeworks Scraper](actors/officeworks-scraper) | Scrape Officeworks products by keyword, category, or URL. Extract names, brands, prices, GST, stock by state,… |
+| [Sephora Scraper](actors/sephora-product-scraper) | Scrape Sephora products across 21+ storefronts (US, AU, NZ, SG, MY, ID, TH, PH, MX, DE, RO, SE, GR, DK) with a… |
 | [SHEIN Scraper](actors/shein-product-scraper) | Scrape SHEIN product listings by keyword or from any category, sale or search link. Returns product ID, SKU, title,… |
 | [StockX Scraper](actors/stockx-market-data-scraper) | Scrape StockX market data by keyword, category or URL. Every row carries lowest ask, highest bid, last sale, bid ask… |
 | [Thalia.de Scraper](actors/thalia-de-scraper) | Scrape Thalia.de books, eBooks, audiobooks, toys and stationery. Search by keyword or category, browse Schnäppchen… |
 | [The RealReal Scraper](actors/therealreal-scraper) | Scrape luxury consignment listings from therealreal.com. Browse by designer, category or keyword and get designer,… |
 | [Vivino Wine Scraper](actors/vivino-wine-data-scraper) | Scrape Vivino.com for wine ratings, prices, taste profiles, food pairings, grapes, and reviews. Search by wine names… |
-| [Zara Scraper](actors/zara-com-scraper) | Scrape Zara (zara.com) products: current price plus strike-through Rebajas (sale) discount, full colour variant… |
+| [Wolt.com Scraper](actors/wolt-restaurants-scraper) | Scrape Wolt restaurants and full menus at the city scale. Extract 60+ fields, including name, address, GPS, hours,… |
 | [Zomato Scraper](actors/zomato-scraper) | Scrape restaurants and reviews from zomato.com. Get names, cuisines, ratings and votes, cost for two, address and… |
 | [24S Scraper](actors/24s-com-scraper) | Scrape 24S luxury fashion by category, filters, or URL. Extract brand, name, price, discounts, size stock, colors,… |
 | [Auchan France Scraper](actors/auchan-fr-scraper) | Scrape Auchan.fr products: grocery, drinks, household and general merchandise. Real price scoped to your… |
@@ -308,7 +310,6 @@ python actors/coupang-scraper/example.py
 | [Discogs Scraper](actors/discogs-scraper) | Scrape the Discogs catalogue by keyword, filter or link: releases, masters, artists and labels with tracklists,… |
 | [druni.es Scraper](actors/druni-es-scraper) | Scrape Druni beauty, cosmetics and perfume products. Search by keyword, category, Ofertas Flash deals or paste… |
 | [El Corte Inglés Scraper](actors/elcorteingles-es-scraper) | Scrape El Corte Inglés elcorteingles.es products across fashion, electronics, home, beauty, jewellery, toys and… |
-| [Etsy Scraper](actors/etsy-marketplace-scraper) | Scrape Etsy listings by keyword, category, or URL. Extract titles, shops, prices, discounts, availability, images,… |
 | [Fnac Scraper](actors/fnac-com-scraper) | Scrape Fnac (fnac.com) products: current price plus strike-through discount, colour/model variant matrix, brand,… |
 | [FoodHero Scraper](actors/foodhero-surplus-grocery-scraper) | Scrape FoodHero surplus grocery deals across Canada by area, store or offer ID. Extract products, brands, regular… |
 | [HORNBACH Products Scraper](actors/hornbach-de-scraper) | Scrape HORNBACH (hornbach.de) DIY, building & garden products: current + strike-through price with discount,… |
@@ -324,7 +325,6 @@ python actors/coupang-scraper/example.py
 | [OfferUp Scraper](actors/offerup-scraper) | Scrape OfferUp listings by keyword, location and radius. Returns 40+ fields per item: price, condition, GPS, full… |
 | [ResQ Club Scraper](actors/resq-club-surplus-food-scraper) | Scrape ResQ Club surplus food offers in Finland, Sweden and Estonia: name, price, current price, discount, portions… |
 | [Reverb Music Gear and Sold Price Guide Scraper](actors/reverb-scraper) | Scrape reverb.com music gear: guitars, amps, synths, pedals, drums and pro audio. Search live listings by brand,… |
-| [Sephora Scraper](actors/sephora-product-scraper) | Scrape Sephora products across 21+ storefronts (US, AU, NZ, SG, MY, ID, TH, PH, MX, DE, RO, SE, GR, DK) with a… |
 | [Target AU Scraper](actors/target-au-scraper) | Scrape products and customer reviews from Target.com.au. Search by keyword or use product/category URLs with sorting… |
 | [Thegioididong Scraper](actors/thegioididong-scraper) | Scrape thegioididong.com products with full specifications, current & original price, discount, brand, category,… |
 | [The Warehouse NZ Scraper](actors/thewarehouse-co-nz-scraper) | Scrape The Warehouse New Zealand search results, category pages, and direct product URLs. Extract prices,… |
@@ -356,21 +356,20 @@ python actors/coupang-scraper/example.py
 | [Mercado Livre Brazil Scraper](actors/mercadolivre-com-br-scraper) | Scrape Mercado Livre Brazil by keyword or URL. Filter by category, brand, price, condition, shipping, official… |
 | [Turo Scraper](actors/turo-scraper) | Collect Turo vehicles by location and trip dates or listing URLs. Get make, model, year, ratings, photos, dated… |
 | [TikTok Comments Scraper](actors/tiktok-comments-scraper) | Scrape comments from TikTok videos using one or more video URLs or IDs. Extract comment text, author, likes, reply… |
+| [Allegro Scraper](actors/allegro-pl-scraper) | Scrape Allegro by keyword or URL. Extract offers, prices, delivery, seller details, and product reviews. Includes… |
 | [eBay Scraper](actors/ebay-com-scraper) | Scrape eBay by keyword, category, seller or pasted link across 16 country storefronts. Returns id, title, condition,… |
 | [Jumia Marketplace Scraper](actors/jumia-marketplace-scraper) | Scrape Jumia, Africa's largest marketplace: products with local prices, discounts, ratings, official-store badges… |
 | [Songkick Scraper](actors/songkick-concert-calendar-scraper) | Scrape Songkick concert and event calendars: upcoming and past dates, venues, cities, artists, ticket availability… |
-| [Too Good To Go Scraper](actors/toogoodtogo-surprise-bag-scraper) | Scrape Too Good To Go (TGTG) stores and surprise bags by location or item: price, value, savings, quantity, pickup… |
 | [Untappd Beer Scraper](actors/untappd-scraper) | Scrape Untappd beers, breweries, venues and check-ins by keyword, brewery, Top Rated chart or pasted link. Returns… |
-| [Allegro Scraper](actors/allegro-pl-scraper) | Scrape Allegro by keyword or URL. Extract offers, prices, delivery, seller details, and product reviews. Includes… |
 | [CrazyGames Scraper](actors/crazygames-scraper) | Scrape CrazyGames games with ratings, upvotes and downvotes, total plays and likes, developer, category and tags,… |
-| [Hipcamp Scraper](actors/hipcamp-camping-glamping-scraper) | Scrape Hipcamp campgrounds, RV parks, glamping and unique stays by US or AU region or listing link: price per night,… |
+| [Dzen.ru Scraper](actors/dzen-ru-scraper) | Scrape Dzen.ru (ex Yandex.Zen): articles, videos and channels. Full article text with likes and comment counts,… |
+| [Hepsiemlak Scraper](actors/hepsiemlak-com-scraper) | Scrape hepsiemlak.com sale and rental listings by city or district, or paste listing links. Every row carries price,… |
 | [Klook Scraper](actors/klook-activities-scraper) | Scrape Klook activities, tours, attractions and travel experiences from search pages or activity URLs. Extract… |
 | [Marks & Spencer Scraper](actors/marksandspencer-scraper) | Collect marksandspencer.com (M&S) products and individual reviews from keyword searches, categories or product… |
-| [Naver Land Scraper](actors/naver-land-listings) | Scrape structured property listings from Naver Land map URLs. Extract listing titles, prices, areas, addresses, GPS… |
 | [OpenTable Reviews Scraper](actors/opentable-reviews-scraper) | Scrape full OpenTable.com restaurant reviews by keyword, area, or restaurant profile URLs. Collect every available… |
 | [Rakuten Scraper](actors/rakuten-ichiba-scraper) | Scrape Rakuten Ichiba (rakuten.co.jp): name, JPY price, reference price and discount, Rakuten points, shipping,… |
 | [Sportsbook Odds Scraper (1xBet, Melbet, Linebet, Paripulse)](actors/sportsbook-odds-scraper) | Collect live and prematch betting odds from 1xBet, Melbet, Linebet and Paripulse. Give it the brands and feeds you… |
-| [Trustpilot Scraper](actors/trustpilot-reviews-scraper) | Scrape Trustpilot business profiles and reviews on any country domain: TrustScore, the exact 1-5 star distribution… |
+| [Too Good To Go Scraper](actors/toogoodtogo-surprise-bag-scraper) | Scrape Too Good To Go (TGTG) stores and surprise bags by location or item: price, value, savings, quantity, pickup… |
 | [Wildberries Scraper](actors/wildberries-marketplace-scraper) | Scrape Wildberries marketplace: product search with prices (wallet vs retail), discounts, stock, ratings and seller… |
 | [Zigbang Scraper](actors/zigbang-property-scraper) | Scrape Zigbang property listings across Seoul and South Korea, including one-room, villa and officetel rentals and… |
 | [ZOZOTOWN Scraper](actors/zozotown-scraper) | Scrape ZOZOTOWN (zozo.jp), Japan's largest fashion marketplace: name, brand, JPY price with was-price and discount,… |
@@ -386,14 +385,13 @@ python actors/coupang-scraper/example.py
 | [Dan Murphy’s Scraper](actors/danmurphys-scraper) | Scrape Dan Murphy’s products by category, keyword, or specials. Extract 45+ fields, including regular, sale and… |
 | [Deezer Scraper](actors/deezer-com-scraper) | Scrape Deezer by keyword or URL. Extract tracks, albums, artists, playlists, lyrics, radios, charts and public… |
 | [Duolingo Scraper](actors/duolingo-learner-scraper) | Scrape public Duolingo data without login. Extract learner profiles with streaks, XP and achievements, weekly league… |
-| [Dzen.ru Scraper](actors/dzen-ru-scraper) | Scrape Dzen.ru (ex Yandex.Zen): articles, videos and channels. Full article text with likes and comment counts,… |
 | [Eventim Scraper](actors/eventim-de-event-scraper) | Scrape CTS Eventim Germany and EU event catalogue: concerts, festivals, comedy, sports, dates, venues, prices and… |
 | [Falabella Scraper](actors/falabella-marketplace-scraper) | Scrape Falabella, Latin America's leading retail marketplace: products with local prices, discounts, ratings and… |
 | [Fever Scraper](actors/fever-com-scraper) | Scrape Fever events by city, category, keyword or URL. Extract from-prices, venues, dates and ratings, with optional… |
 | [Digitec Galaxus Scraper](actors/galaxus-marketplace-scraper) | Scrape Digitec Galaxus, Switzerland's largest online retailer: products with local prices, discounts, ratings, stock… |
 | [Globo Esporte Scraper](actors/globo-ge) | Scrape public sports content from ge.globo.com, including news, videos, matches and feed records. Extract clean,… |
 | [Grailed Scraper](actors/grailed-marketplace-scraper) | Scrape Grailed by keyword, category, designer, condition, size or URL. Extract prices and price history,… |
-| [Hepsiemlak Scraper](actors/hepsiemlak-com-scraper) | Scrape hepsiemlak.com sale and rental listings by city or district, or paste listing links. Every row carries price,… |
+| [Hipcamp Scraper](actors/hipcamp-camping-glamping-scraper) | Scrape Hipcamp campgrounds, RV parks, glamping and unique stays by US or AU region or listing link: price per night,… |
 | [Homes.com Scraper](actors/homes-com-scraper) | Scrape US property records from Homes.com. Pick a city, state or ZIP and a channel (for sale, for rent, recently… |
 | [KKday Scraper](actors/kkday-com-scraper) | Scrape KKday travel activities by keyword, city or URL. Every row carries prices, discount, ratings, booking counts,… |
 | [KLEKT Sneaker & Apparel Resale Scraper](actors/klekt-com-scraper) | Scrape sneaker and streetwear listings from KLEKT (klekt.com). Browse the catalog with filters and extract product… |
@@ -420,8 +418,11 @@ python actors/coupang-scraper/example.py
 | [TaskRabbit Scraper](actors/taskrabbit-tasker-scraper) | Scrape TaskRabbit taskers by US city and service. Extract hourly rates, ratings, reviews, completed tasks, elite… |
 | [Ticketmaster Scraper](actors/ticketmaster-event-discovery) | Discover and scrape Ticketmaster events across the US, UK, Australia and Canada. Search by keyword, artist or venue,… |
 | [TIDAL Scraper](actors/tidal-catalog-scraper) | Scrape TIDAL tracks, albums, artists, playlists and public mixes by search phrase or URL. Extract structured… |
+| [TikTok Shop Scraper](actors/tiktok-shop-scraper) | Scrape TikTok Shop listings by keyword search, category, or direct product links. Returns title, price, discount,… |
 | [Traveloka Hotel Scraper](actors/traveloka-com-scraper) | Scrape Traveloka hotels across Singapore, Malaysia, Indonesia, Thailand, Vietnam and the Philippines: nightly… |
 | [Trip.com Hotels Scraper](actors/trip-com-scraper) | Pull structured hotel listings from trip.com with prices, room types, amenities, policies, nearby places, and full… |
+| [Trustpilot Scraper](actors/trustpilot-reviews-scraper) | Scrape Trustpilot business profiles and reviews on any country domain: TrustScore, the exact 1-5 star distribution… |
+| [Viagogo Scraper](actors/viagogo-events-scraper) | Scrape Viagogo events by artist, production, venue, city, category, or URL. Extract event names, dates, venues,… |
 | [Vinted Multi-Country Scraper](actors/vinted-marketplace-scraper) | Scrape Vinted across 27 country marketplaces: keyword search with brand, price and condition filters, item and… |
 | [Walgreens Products & Reviews Scraper](actors/walgreens-com) | Scrape Walgreens products by keyword, category or product URL. Extract prices, promotions, availability,… |
 | [Walmart Scraper](actors/walmart-scraper) | Scrape Walmart.com by keyword, URL, or item ID. Extract prices, was-prices, sellers, marketplace offers, stock,… |
@@ -430,6 +431,7 @@ python actors/coupang-scraper/example.py
 | [Yandex Maps Scraper](actors/yandex-maps-scraper) | Scrape businesses and places from Yandex Maps by search term or URL for research, leads and market analysis. Парсер… |
 | [Yandex SERP Scraper](actors/yandex-serp-scraper) | Scrape Yandex web, image and video results with URLs, snippets and organic rankings for SEO and competitor research.… |
 | [Yanolja Scraper](actors/yanolja-com-scraper) | Scrape Yanolja (NOL), Korea's largest accommodations marketplace, by region or URL. Every row carries name, address,… |
+| [YesStyle Scraper](actors/yesstyle-com-scraper) | Scrape YesStyle products by keyword or URL. Extract prices, discounts, ratings, stock, images, categories, variants… |
 | [Yodobashi Scraper](actors/yodobashi-com-scraper) | Scrape yodobashi.com electronics and appliances: JPY price, list price and discount, reward points, stock and… |
 | [Zillow Scraper](actors/zillow-scraper) | Scrape zillow.com properties for sale, for rent and recently sold across the US: price, beds, baths, area, address,… |
 | [Zoopla Scraper](actors/zoopla-co-uk-scraper) | Scrape UK property from Zoopla: for sale, to rent and Land Registry sold prices. Search by place with filters or… |
@@ -441,9 +443,9 @@ python actors/coupang-scraper/example.py
 | [Gopuff Scraper](actors/gopuff-prices-assortment-scraper) | Scrape Gopuff, the US quick-commerce delivery store, by location or product: prices, promotions, stock and… |
 | [JioHotstar Scraper](actors/hotstar-com-scraper) | Scrape the JioHotstar catalog by content type or URL. Extract shows, movies, episodes, sports, clips and live… |
 | [Letterboxd Scraper](actors/letterboxd-film-reviews-scraper) | Scrape Letterboxd films and reviews by search phrase, popular or genre lists, or film URL. Extract ratings,… |
+| [Naver Land Scraper](actors/naver-land-listings) | Scrape structured property listings from Naver Land map URLs. Extract listing titles, prices, areas, addresses, GPS… |
 | [Propwire Scraper](actors/propwire-property-leads-scraper) | Scrape Propwire.com: 157M+ US MLS & off-market properties with owner names, mailing addresses, equity, foreclosure… |
 | [TuneIn Scraper](actors/tunein-radio-podcast-scraper) | Scrape TuneIn by keyword, category, genre, location or URL. Extract stations and podcasts with artwork, genre,… |
-| [Viagogo Scraper](actors/viagogo-events-scraper) | Scrape Viagogo events by artist, production, venue, city, category, or URL. Extract event names, dates, venues,… |
 
 ---
 

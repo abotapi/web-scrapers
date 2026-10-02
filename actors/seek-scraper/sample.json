@@ -1,6 +1,6 @@
 [
   {
-    "id": "56248946",
+    "id": "52483153",
     "url": "https://www.seek.com.au/example/2155",
     "jobLink": "https://www.seek.com.au/example/10066",
     "applyLink": "https://www.seek.com.au/example/90096",
@@ -11,32 +11,32 @@
     "content": "Example content: mock text standing in for the real value. Same field and type, made-up content.",
     "contentText": "Example content text: mock text standing in for the real value. Same field and type, made-up content.",
     "contentSections": [
-      "Example content sections",
-      "Example content sections"
+      "Example content sections: mock text standing in for the real value. Same field and type, made-up content.",
+      "Example content sections: mock text standing in for the real value. Same field and type, made-up content."
     ],
     "bulletPoints": [
       "Example bullet points",
       "Example bullet points: mock text standing in for the real value. Same field and type, made-up content."
     ],
     "companyName": "Example company name",
-    "companyId": null,
-    "companyUrl": null,
-    "companyNameSlug": null,
-    "companyProfileId": 2417384,
-    "companyOverview": null,
-    "companyIndustry": null,
+    "companyId": "573631",
+    "companyUrl": "https://au.seek.com/example/89226",
+    "companyNameSlug": "id2464305",
+    "companyProfileId": 77384,
+    "companyOverview": "Example company overview: mock text standing in for the real value. Same field and type, made-up content.",
+    "companyIndustry": "Example company industry",
     "companySize": null,
-    "companyWebsite": null,
+    "companyWebsite": "http://www.sashvets.com/example/29772",
     "companySpecialities": [],
-    "companyPrimaryLocation": null,
+    "companyPrimaryLocation": "Example company primary location",
     "companyLogo": "https://image-service-cdn.seek.com.au/example/68877.jpg",
-    "companyCoverImage": "https://image-service-cdn.seek.com.au/example/34700.jpg",
+    "companyCoverImage": null,
     "companyRating": null,
     "companyReviewCount": null,
     "companySalaryRating": null,
     "companyPerks": [],
     "companyAwards": [],
-    "advertiserId": "05521973",
+    "advertiserId": "35105926",
     "advertiserName": "Example advertiser name",
     "locationLabel": "Example location label",
     "locationSeoHierarchy": [
@@ -46,17 +46,17 @@
     "countryCode": "AU",
     "classifications": [
       {
-        "id": "4429",
+        "id": "4908",
         "label": "Example label",
-        "subId": "2293",
+        "subId": "9209",
         "subLabel": "Example sub label"
       }
     ],
     "classificationInfo": {
       "classification": "Example classification",
       "subClassification": "Example sub classification",
-      "classificationId": "1412",
-      "subClassificationId": "1055"
+      "classificationId": "6110",
+      "subClassificationId": "5829"
     },
     "workTypes": [
       "Example work types"
@@ -64,70 +64,13 @@
     "workTypeIds": [
       "926"
     ],
-    "workArrangements": []
-  },
-  {
-    "id": "18080032",
-    "url": "https://www.seek.com.au/example/71978",
-    "jobLink": "https://www.seek.com.au/example/57906",
-    "applyLink": "https://www.seek.com.au/example/46848",
-    "title": "Example title",
-    "teaser": "Example teaser: mock text standing in for the real value. Same field and type, made-up content.",
-    "jobHook": "Example job hook: mock text standing in for the real value. Same field and type, made-up content.",
-    "abstract": "Example abstract: mock text standing in for the real value. Same field and type, made-up content.",
-    "content": "Example content: mock text standing in for the real value. Same field and type, made-up content.",
-    "contentText": "Example content text: mock text standing in for the real value. Same field and type, made-up content.",
-    "contentSections": [
-      "Example content sections: mock text standing in for the real value. Same field and type, made-up content.",
-      "Example content sections: mock text standing in for the real value. Same field and type, made-up content."
-    ],
-    "bulletPoints": [],
-    "companyName": "Example company name",
-    "companyId": "5273264",
-    "companyUrl": "https://au.seek.com/example/87637",
-    "companyNameSlug": "id28763970",
-    "companyProfileId": 245840,
-    "companyOverview": null,
-    "companyIndustry": "Example company industry",
-    "companySize": null,
-    "companyWebsite": null,
-    "companySpecialities": [],
-    "companyPrimaryLocation": null,
-    "companyLogo": "https://image-service-cdn.seek.com.au/example/96792.jpg",
-    "companyCoverImage": "https://image-service-cdn.seek.com.au/example/85152.jpg",
-    "companyRating": null,
-    "companyReviewCount": null,
-    "companySalaryRating": null,
-    "companyPerks": [],
-    "companyAwards": [],
-    "advertiserId": "00405802",
-    "advertiserName": "Example advertiser name",
-    "locationLabel": "Example location label",
-    "locationSeoHierarchy": [
-      "Example location seo hierarchy",
-      "Example location seo hierarchy"
-    ],
-    "countryCode": "AU",
-    "classifications": [
+    "workArrangements": [
       {
-        "id": "3035",
-        "label": "Example label",
-        "subId": "0959",
-        "subLabel": "Example sub label"
+        "id": "6",
+        "label": {
+          "text": "Example text"
+        }
       }
-    ],
-    "classificationInfo": {
-      "classification": "Example classification",
-      "subClassification": "Example sub classification",
-      "classificationId": "7266",
-      "subClassificationId": "2123"
-    },
-    "workTypes": [
-      "Example work types"
-    ],
-    "workTypeIds": [
-      "125"
-    ],
-    "workArrangements": []
+    ]
   }
 ]

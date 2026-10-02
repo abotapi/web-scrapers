@@ -79,7 +79,7 @@ Full details on the [scraper page](https://apify.com/abotapi/uniqlo-com-scraper?
 | `isDualPrice` | boolean |
 | `priceGroup` | string |
 | `promotionText` | null |
-| `rating` | float |
+| `rating` | integer |
 | `reviewCount` | integer |
 | `ratingBreakdown` | null |
 | `fitRating` | null |

@@ -79,18 +79,18 @@ Full details on the [scraper page](https://apify.com/abotapi/gowork-eu-scraper?u
 | `dataStatus` | integer |
 | `flagsBits` | list |
 | `multiCity` | boolean |
-| `companyEmail` | string |
+| `companyEmail` | null |
 | `companyPhone` | string |
 | `org_telephone` | string |
 | `companyWebsite` | string |
 | `companyWebsiteRaw` | string |
-| `companyWebpageTitle` | string |
-| `companyWebpageDescription` | string |
+| `companyWebpageTitle` | null |
+| `companyWebpageDescription` | null |
 | `companyLinkedInUrl` | null |
-| `companyInstagramUrl` | string |
+| `companyInstagramUrl` | null |
 | `companyFacebookUrl` | string |
-| `companyTwitterUrl` | string |
-| `companyYouTubeUrl` | string |
+| `companyTwitterUrl` | null |
+| `companyYouTubeUrl` | null |
 
 ---
 

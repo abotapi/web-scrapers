@@ -33,19 +33,19 @@
     }
   },
   {
-    "businessId": "5465974",
+    "businessId": "6672664",
     "name": "Example name",
     "title": "Example title",
-    "key": "Example key",
+    "key": "anconcreting",
     "phone": "+1 555 0100",
     "mobile": "+1 555 0100",
-    "serviceArea": "CLAYTON",
+    "serviceArea": "Example service area",
     "highlights": [],
     "hasLicense": false,
     "hasValidAbn": true,
     "starRating": {
       "rating": -3,
-      "totalHired": 0,
+      "totalHired": 8,
       "totalRatings": 0
     },
     "totalRecommendations": 0,

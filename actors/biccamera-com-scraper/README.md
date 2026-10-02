@@ -61,7 +61,7 @@ Full details on the [scraper page](https://apify.com/abotapi/biccamera-com-scrap
 | `pointAmount` | integer |
 | `pointRate` | integer |
 | `effectivePrice` | integer |
-| `rating` | integer |
+| `rating` | float |
 | `reviewCount` | integer |
 | `thumbnail` | string |
 | `images` | list |

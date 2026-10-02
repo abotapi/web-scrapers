@@ -4,9 +4,9 @@
     "listingUrl": "https://www.view.com.au/example/23088",
     "address": {
       "full": "Example full",
-      "streetNumber": "749",
+      "streetNumber": "602",
       "streetName": "Example street name",
-      "unitNumber": "3222",
+      "unitNumber": "Example unit number",
       "suburb": "MELBOURNE",
       "state": "VIC",
       "postcode": "0759",
@@ -16,17 +16,14 @@
     },
     "price": {
       "display": "Example display",
+      "value": 566296,
       "currency": "AUD",
-      "priceType": "range",
-      "isRange": true,
-      "min": 708705,
-      "max": 143180,
-      "value": 566296
+      "priceType": "fixed"
     },
     "features": {
       "bedrooms": 9,
       "bathrooms": 6,
-      "carSpaces": 4
+      "carSpaces": 0
     },
     "propertyType": "apartment",
     "sourcePropertyType": "Example source property type",
@@ -49,14 +46,27 @@
         "id": 182427,
         "firstName": "Example first name",
         "lastName": "Example last name",
+        "phone": "+1 555 0100",
         "mobile": "+1 555 0100",
         "profileLink": "https://www.view.com.au/example/23218",
-        "numberOfSoldListings": 92,
-        "averageSoldPrice": 583447.27
+        "photoUrl": "https://www.view.com.au/example/49630.jpg",
+        "numberOfSoldListings": 2,
+        "averageSoldPrice": 554359
+      },
+      {
+        "id": 328444,
+        "firstName": "Example first name",
+        "lastName": "Example last name",
+        "phone": "+1 555 0100",
+        "mobile": "+1 555 0100",
+        "profileLink": "https://www.view.com.au/example/70645",
+        "photoUrl": "https://www.view.com.au/example/38098.jpg",
+        "numberOfSoldListings": 4,
+        "averageSoldPrice": 450212
       }
     ],
     "agency": {
-      "id": 92427,
+      "id": 2427,
       "name": "Example name",
       "slug": "Example slug",
       "address": "Example address",
@@ -66,21 +76,15 @@
     },
     "location": {
       "lat": -27.98,
-      "lon": 184.09
+      "lon": 184.11
     },
-    "inspections": [
-      {
-        "id": 50582427,
-        "startAt": "2026-01-15T10:00:00Z",
-        "endAt": "2026-01-15T10:00:00Z"
-      }
-    ],
+    "inspections": [],
     "createdAt": "2026-01-15T10:00:00Z",
     "updatedAt": "2026-01-15T10:00:00Z",
     "onMarketAt": "2026-01-15T10:00:00Z",
     "lgaName": "Example lga name",
     "region": "Melbourne",
-    "gnafId": "gavic671168033",
+    "gnafId": "gavic130582603",
     "listingSource": "VIEW",
     "isNewConstruction": false,
     "isHomeAndLand": false,

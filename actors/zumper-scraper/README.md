@@ -77,7 +77,7 @@ Full details on the [scraper page](https://apify.com/abotapi/zumper-scraper?utm_
 | `maxSquareFeet` | integer |
 | `floorplanCount` | integer |
 | `dateAvailable` | null |
-| `minLeaseDays` | null |
+| `minLeaseDays` | integer |
 | `maxLeaseDays` | null |
 | `listedOn` | string |
 | `modifiedOn` | string |

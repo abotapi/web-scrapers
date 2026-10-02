@@ -61,9 +61,9 @@ Full details on the [scraper page](https://apify.com/abotapi/f6s-directory-scrap
 | `tags` | string |
 | `verified` | boolean |
 | `deadline` | string |
-| `investmentRaw` | string |
-| `investmentAmount` | integer |
-| `investmentCurrency` | string |
+| `investmentRaw` | null |
+| `investmentAmount` | null |
+| `investmentCurrency` | null |
 | `equityRaw` | null |
 | `equityPercent` | null |
 | `sourceUrl` | string |

@@ -49,71 +49,12 @@
       {
         "url": "https://images.alltrails.com/example/95994.jpg",
         "thumbUrl": "https://images.alltrails.com/example/23523.jpg",
-        "title": "",
+        "title": null,
         "description": null,
         "likes": 0,
         "lat": 38.48,
         "lng": -124.33,
-        "credit": "Example credit"
-      }
-    ]
-  },
-  {
-    "recordType": "trail",
-    "id": "72450537",
-    "name": "Example name",
-    "url": "https://www.alltrails.com/example/52855",
-    "slug": "Example slug",
-    "difficulty": "hard",
-    "difficultyGrade": 6,
-    "rating": 6.14,
-    "ratingCount": 91196,
-    "reviewTextCount": 6027,
-    "lengthMeters": 10998.23,
-    "lengthMiles": 5.03,
-    "elevationGainMeters": 769.82,
-    "durationMinutes": 200,
-    "routeType": "Example route type",
-    "activities": [
-      "camping",
-      "hiking"
-    ],
-    "features": [
-      "forest",
-      "views"
-    ],
-    "areaName": "Example area name",
-    "areaSlug": "Example area slug",
-    "cityName": "Example city name",
-    "stateName": "Example state name",
-    "countryName": "Example country name",
-    "lat": 31.33,
-    "lng": -141.13,
-    "imageUrl": "https://images.alltrails.com/example/27149.jpg",
-    "sourceType": "grid",
-    "sourceUrl": "https://www.alltrails.com/example/31269",
-    "position": 3,
-    "scrapedAt": "2026-01-15T10:00:00Z",
-    "photos": [
-      {
-        "url": "https://images.alltrails.com/example/52855.jpg",
-        "thumbUrl": "https://images.alltrails.com/example/23764.jpg",
-        "title": "",
-        "description": null,
-        "likes": 0,
-        "lat": 31.33,
-        "lng": -141.13,
-        "credit": "id80547948"
-      },
-      {
-        "url": "https://images.alltrails.com/example/27601.jpg",
-        "thumbUrl": "https://images.alltrails.com/example/88125.jpg",
-        "title": null,
-        "description": null,
-        "likes": 0,
-        "lat": 35.86,
-        "lng": -142.33,
-        "credit": "Example credit"
+        "credit": "id27209408"
       }
     ]
   }

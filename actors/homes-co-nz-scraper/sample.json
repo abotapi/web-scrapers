@@ -32,10 +32,10 @@
     "bedrooms": 6,
     "bathrooms": 1,
     "carSpaces": 7,
-    "floorArea": 367,
+    "floorArea": 97,
     "landArea": 0,
     "latitude": -32.21,
-    "longitude": 122.35,
+    "longitude": 122.34,
     "imageUrl": "https://s3-ap-southeast-2.amazonaws.com/example/25457.jpg",
     "coverImageUrl": "https://s3-ap-southeast-2.amazonaws.com/example/75500.jpg",
     "imageUrls": [
@@ -47,7 +47,7 @@
       {
         "url": "https://s3-ap-southeast-2.amazonaws.com/example/88940.jpg",
         "classifications": [
-          "living_room"
+          "outdoor_building"
         ],
         "quality": "",
         "caption": "",
@@ -56,7 +56,7 @@
       {
         "url": "https://s3-ap-southeast-2.amazonaws.com/example/28032.jpg",
         "classifications": [
-          "kitchen"
+          "living_room"
         ],
         "quality": "",
         "caption": "",
@@ -65,6 +65,12 @@
     ],
     "media": [],
     "mediaCount": 0,
-    "openHomes": []
+    "openHomes": [
+      {
+        "date": "2026-01-15",
+        "start_time": "96:69",
+        "end_time": "85:42"
+      }
+    ]
   }
 ]

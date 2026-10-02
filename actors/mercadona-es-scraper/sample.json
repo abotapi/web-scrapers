@@ -29,36 +29,5 @@
     "maxQuantityPerOrder": 845,
     "isNewArrival": false,
     "reviews": []
-  },
-  {
-    "productId": "1988",
-    "slug": "id43099648",
-    "name": "Example name",
-    "packaging": "Example packaging",
-    "categoryPath": [
-      "Example category path",
-      "Example category path"
-    ],
-    "category": "Example category",
-    "url": "https://tienda.mercadona.es/example/6163",
-    "image": "https://prod-mercadona.imgix.net/example/90202.jpg",
-    "price": 3.92,
-    "currency": "EUR",
-    "previousPrice": 3.23,
-    "discountAmount": 0.12,
-    "discountPercent": 1.95,
-    "isOnSpecial": true,
-    "unitPrice": 2.7,
-    "unitPriceFormat": "L",
-    "packageSize": 5,
-    "packageSizeFormat": "l",
-    "isPack": false,
-    "hasUnitSelector": true,
-    "onlineAvailable": true,
-    "isWater": false,
-    "requiresAgeCheck": false,
-    "maxQuantityPerOrder": 502,
-    "isNewArrival": false,
-    "reviews": []
   }
 ]

@@ -1,7 +1,7 @@
 [
   {
-    "propertyId": "3194201785",
-    "listingId": "1290755868",
+    "propertyId": "1003911622",
+    "listingId": "8276014513",
     "url": "https://www.realtor.com/example/90310",
     "listingType": "for_sale",
     "status": "for_sale",
@@ -10,39 +10,48 @@
       "city": "Portland",
       "state": "Oregon",
       "stateCode": "OR",
-      "postalCode": "31547",
+      "postalCode": "25008",
       "county": "Example county",
       "full": "Example full"
     },
     "coordinates": {
-      "latitude": 33.21,
-      "longitude": -127.68
+      "latitude": 33.29,
+      "longitude": -127.74
     },
     "price": {
       "value": 309602,
       "display": "Example display"
     },
+    "priceReducedAmount": 36583,
+    "soldPrice": 519737,
+    "soldDate": "2026-01-15",
     "features": {
       "propertyType": "single_family",
       "bedrooms": 2,
-      "bathrooms": 3.1,
+      "bathrooms": 4.34,
       "sqft": 3839,
       "lotSqft": 53251,
       "yearBuilt": 1339,
       "garage": 6
     },
+    "flags": {
+      "isPriceReduced": true,
+      "isForeclosure": true
+    },
+    "hasMatterport": true,
     "streetViewUrl": "https://maps.googleapis.com/example/3398",
-    "countyFips": "20752",
+    "countyFips": "81666",
     "agents": [
       {
         "name": "Example name",
+        "email": "user47@example.com",
         "type": "seller",
         "office": "Example office",
         "phone": "+1 555 0100"
       }
     ],
     "brokerage": "Example brokerage",
-    "mlsId": "512315557",
+    "mlsId": "385556210",
     "mlsName": "Example mls name",
     "mlsType": "mls",
     "mlsSourceId": "PROR",

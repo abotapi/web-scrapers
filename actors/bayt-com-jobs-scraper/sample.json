@@ -1,6 +1,6 @@
 [
   {
-    "jobId": "4074504",
+    "jobId": "7905007",
     "url": "https://www.bayt.com/example/85502",
     "title": "Example title",
     "company": null,
@@ -15,9 +15,9 @@
     "workStyle": null,
     "postedDate": "Example posted date",
     "postedTimestamp": 4786114556,
-    "isExternal": false,
+    "isExternal": true,
     "isAggregated": false,
-    "easyApply": false,
+    "easyApply": true,
     "aiSummary": "Example ai summary: mock text standing in for the real value. Same field and type, made-up content.",
     "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
     "descriptionHtml": "Example description html: mock text standing in for the real value. Same field and type, made-up content.",
@@ -28,14 +28,17 @@
     "companySize": "Example company size",
     "companyIndustry": null,
     "jobCountryCode": "AE",
-    "directApply": false,
-    "residenceLocation": null,
+    "directApply": true,
+    "residenceLocation": "Example residence location",
     "nationality": null,
     "gender": null,
     "age": null,
-    "degree": null,
+    "degree": "Example degree",
     "major": null,
     "preferredCandidate": {
+      "yearsOfExperience": "Example years of experience",
+      "residenceLocation": "Example residence location",
+      "degree": "Example degree",
       "careerLevel": "Example career level"
     },
     "scrapedAt": "2026-01-15T10:00:00Z"

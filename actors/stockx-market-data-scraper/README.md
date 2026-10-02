@@ -100,7 +100,7 @@ Full details on the [scraper page](https://apify.com/abotapi/stockx-market-data-
 | `averagePriceLast90Days` | integer |
 | `salesLast12Months` | integer |
 | `averagePriceLast12Months` | integer |
-| `priceVolatility` | integer |
+| `priceVolatility` | float |
 | `pricePremium` | float |
 | `standardAskCount` | integer |
 | `standardLowestAsk` | integer |

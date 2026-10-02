@@ -73,7 +73,7 @@ Full details on the [scraper page](https://apify.com/abotapi/carsales-au-scraper
 | `transmission` | string |
 | `engine` | string |
 | `fuelType` | string |
-| `cylinders` | integer |
+| `cylinders` | null |
 | `engineCapacity` | string |
 | `odometer` | integer |
 | `odometerDisplay` | string |

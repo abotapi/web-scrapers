@@ -65,7 +65,7 @@
     "name": "Example name",
     "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
     "shortDescription": "Example short description",
-    "brandSlug": "taco-bell",
+    "brandSlug": "mcdonalds",
     "brandName": "Example brand name",
     "brandLogoImage": "https://imageproxy.wolt.com/example/63920.jpg",
     "brandLogoBlurhash": "Example brand logo blurhash",
@@ -78,11 +78,11 @@
     "countryCode": "FIN",
     "postCode": "31425",
     "latitude": 52.35,
-    "longitude": 22.95,
+    "longitude": 22.94,
     "timezone": "Example timezone",
     "currency": "EUR",
     "phone": "+1 555 0100",
-    "website": "https://www.tacobell.fi/example/34929",
+    "website": "http://mcdonalds.fi/example/34929",
     "woltUrl": "https://wolt.com/example/85361",
     "productLine": "restaurant",
     "secondaryProductLine": "none",
@@ -103,7 +103,7 @@
         [
           [
             19.09,
-            48.77
+            48.78
           ],
           [
             20.1,

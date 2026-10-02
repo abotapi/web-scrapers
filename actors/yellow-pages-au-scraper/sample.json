@@ -10,15 +10,15 @@
     "primaryCategoryName": "Example primary category name",
     "categoryText": "Example category text",
     "detailsPageUrl": "https://www.yellowpages.com.au/example/89027",
-    "logoUrl": "https://i3.ypcdn.com/example/3893.jpg",
+    "logoUrl": "https://i4.ypcdn.com/example/3893.jpg",
     "openingHoursToday": "Example opening hours today: mock text standing in for the real value. Same field and type, made-up content.",
     "openingHoursDetails": {
       "Mon - Fri": "Example mon -  fri",
       "Sat - Sun": "Example sat -  sun"
     },
     "openingHoursStructured": [],
-    "rating": "5.3",
-    "reviewCount": 20,
+    "rating": "Example rating",
+    "reviewCount": 0,
     "longDescription": "Example long description: mock text standing in for the real value. Same field and type, made-up content.",
     "slogan": "Example slogan: mock text standing in for the real value. Same field and type, made-up content.",
     "isAd": true,

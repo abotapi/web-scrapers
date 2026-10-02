@@ -65,12 +65,10 @@ Full details on the [scraper page](https://apify.com/abotapi/pbtech-co-nz-scrape
 | `specialsCategory` | null |
 | `source` | string |
 | `sku` | string |
-| `mpn` | string |
-| `gtin` | string |
 | `brand` | string |
 | `description` | string |
 | `images` | list |
-| `rating` | float |
+| `rating` | integer |
 | `basePrice` | integer |
 | `availability` | string |
 | `condition` | string |

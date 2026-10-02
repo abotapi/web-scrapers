@@ -64,12 +64,12 @@ Full details on the [scraper page](https://apify.com/abotapi/suno-music-scraper?
 | `commentCount` | integer |
 | `flagCount` | integer |
 | `durationSeconds` | float |
-| `styleTags` | null |
+| `styleTags` | string |
 | `displayTags` | list |
 | `lyrics` | string |
 | `modelName` | string |
-| `modelVersion` | string |
-| `isInstrumental` | boolean |
+| `modelVersion` | null |
+| `isInstrumental` | null |
 | `isRemix` | boolean |
 | `canRemix` | boolean |
 | `hasStems` | boolean |

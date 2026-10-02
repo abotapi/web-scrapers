@@ -56,7 +56,7 @@ Full details on the [scraper page](https://apify.com/abotapi/obi-de-scraper?utm_
 | `brand` | string |
 | `category` | string |
 | `url` | string |
-| `price` | float |
+| `price` | integer |
 | `currency` | string |
 | `originalPrice` | null |
 | `originalPriceType` | null |
@@ -65,8 +65,8 @@ Full details on the [scraper page](https://apify.com/abotapi/obi-de-scraper?utm_
 | `isOnSpecial` | boolean |
 | `unitPrice` | null |
 | `unitPriceUnit` | null |
-| `rating` | float |
-| `reviewCount` | integer |
+| `rating` | null |
+| `reviewCount` | null |
 | `onlineAvailable` | boolean |
 | `onlineAvailabilityStatus` | string |
 | `storeAvailabilityStatus` | string |

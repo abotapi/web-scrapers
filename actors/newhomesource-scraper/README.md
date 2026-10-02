@@ -52,7 +52,7 @@ Full details on the [scraper page](https://apify.com/abotapi/newhomesource-scrap
 | --- | --- |
 | `homeId` | integer |
 | `planId` | integer |
-| `specId` | integer |
+| `specId` | null |
 | `listingId` | integer |
 | `listingNumber` | string |
 | `floorPlan` | string |

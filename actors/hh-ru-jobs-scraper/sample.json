@@ -1,6 +1,6 @@
 [
   {
-    "vacancyId": "973432869",
+    "vacancyId": "378202280",
     "url": "https://hh.ru/example/94842",
     "name": "Example name",
     "publicationDate": "2026-01-15T10:00:00Z",
@@ -10,14 +10,14 @@
     "searchUrl": "https://hh.ru/example/24790",
     "searchSessionId": "id10441228",
     "company": {
-      "id": 470,
+      "id": 4970,
       "name": "Example name",
       "visibleName": "Example visible name",
-      "isAccreditedIT": false,
+      "isAccreditedIT": true,
       "isTrusted": true,
       "category": "COMPANY",
       "state": "APPROVED",
-      "siteUrl": "http://www.sogaz.ru/example/71246",
+      "siteUrl": "https://hh.ru/example/71246",
       "logoUrl": "https://hh.ru/example/69494.jpg",
       "logos": [
         {
@@ -53,10 +53,10 @@
     "address": {
       "city": "Example city",
       "street": "Example street",
-      "building": "89",
+      "building": "72",
       "displayName": "Example display name",
-      "lat": 57.42,
-      "lng": 44.05,
+      "lat": 57.45,
+      "lng": 43.97,
       "metroStations": [
         {
           "id": 20,
@@ -64,17 +64,17 @@
           "lineColor": "Example line color"
         },
         {
-          "id": 851,
+          "id": 41,
           "name": "Example name",
           "lineColor": "Example line color"
         }
       ],
       "district": "Example district"
     },
-    "workExperience": "between6and6",
+    "workExperience": "between0and9",
     "employment": "FULL",
     "employmentForm": "FULL",
-    "workSchedule": "Example work schedule",
+    "workSchedule": "remote",
     "workScheduleByDays": [
       "FIVE_ON_TWO_OFF"
     ],
@@ -82,7 +82,8 @@
       "hours_0"
     ],
     "workFormats": [
-      "ON_SITE"
+      "ON_SITE",
+      "REMOTE"
     ],
     "workingDays": [],
     "workingTimeIntervals": [],
@@ -92,7 +93,7 @@
     "internship": false,
     "acceptHandicapped": null,
     "acceptTemporary": false,
-    "acceptIncompleteResumes": true,
+    "acceptIncompleteResumes": false,
     "acceptLaborContract": true,
     "ageRestriction": null,
     "responseLetterRequired": false,

@@ -1,12 +1,12 @@
 [
   {
-    "id": "334982461",
+    "id": "015519222",
     "url": "https://www.idealista.com/example/18053",
     "market": "ES",
     "operation": "sale",
     "title": "Example title",
-    "propertyType": "penthouse",
-    "price": 332611,
+    "propertyType": "flat",
+    "price": 9332611,
     "priceText": "Example price text",
     "previousPrice": 8900275,
     "priceDropped": true,
@@ -23,7 +23,7 @@
     "hasVideo": true,
     "has3DTour": true,
     "hasFloorPlan": true,
-    "hasHomeStaging": false,
+    "hasHomeStaging": true,
     "source": "Example source",
     "scrapedAt": "2026-01-15T10:00:00Z",
     "address": "Example address",
@@ -32,16 +32,16 @@
     "pricePerM2": 8704,
     "energyConsumptionRating": "Example energy consumption rating",
     "energyEmissionsRating": "Example energy emissions rating",
-    "reference": "vm4238479",
+    "reference": "vm4653284",
     "lastUpdatedText": "Example last updated text",
     "features": [
       "Example features",
       "Example features"
     ],
-    "hasTerrace": true,
+    "hasStorage": true,
     "hasAC": true,
     "condition": "Example condition",
     "orientation": "Example orientation",
-    "heating": "Example heating"
+    "constructionYear": 6292
   }
 ]

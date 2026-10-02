@@ -85,14 +85,14 @@ Full details on the [scraper page](https://apify.com/abotapi/airbnb-stays-review
 | `priceTotal` | integer |
 | `priceOriginalTotal` | null |
 | `pricePerNight` | float |
-| `pricePerNightListed` | integer |
-| `priceCurrency` | string |
+| `pricePerNightListed` | float |
+| `priceCurrency` | null |
 | `priceCurrencyRequested` | string |
 | `priceQualifier` | string |
 | `nights` | integer |
-| `bedrooms` | null |
-| `beds` | null |
-| `bathrooms` | null |
+| `bedrooms` | integer |
+| `beds` | integer |
+| `bathrooms` | integer |
 | `cardHighlights` | list |
 
 ---

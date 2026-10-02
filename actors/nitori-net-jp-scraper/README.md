@@ -62,8 +62,8 @@ Full details on the [scraper page](https://apify.com/abotapi/nitori-net-jp-scrap
 | `price` | integer |
 | `priceFormatted` | string |
 | `currency` | string |
-| `priceMin` | null |
-| `priceMax` | null |
+| `priceMin` | integer |
+| `priceMax` | integer |
 | `onSale` | boolean |
 | `isOutlet` | boolean |
 | `taxExempt` | boolean |
@@ -86,11 +86,11 @@ Full details on the [scraper page](https://apify.com/abotapi/nitori-net-jp-scrap
 | `categoryName` | string |
 | `categoryUrl` | string |
 | `description` | string |
-| `shortDescription` | null |
-| `catchCopy` | null |
+| `shortDescription` | string |
+| `catchCopy` | string |
 | `specifications` | object |
 | `dimensions` | string |
-| `packingSize` | null |
+| `packingSize` | string |
 | `weight` | string |
 | `material` | string |
 

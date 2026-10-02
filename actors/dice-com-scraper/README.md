@@ -73,7 +73,7 @@ Full details on the [scraper page](https://apify.com/abotapi/dice-com-scraper?ut
 | `salary` | string |
 | `salaryMin` | integer |
 | `salaryMax` | integer |
-| `salaryCurrency` | null |
+| `salaryCurrency` | string |
 | `salaryPeriod` | null |
 | `employmentType` | string |
 | `employerType` | string |

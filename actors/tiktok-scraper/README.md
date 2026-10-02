@@ -57,7 +57,7 @@ Full details on the [scraper page](https://apify.com/abotapi/tiktok-scraper?utm_
 | `verified` | boolean |
 | `privateAccount` | boolean |
 | `region` | null |
-| `bioLink` | null |
+| `bioLink` | string |
 | `url` | string |
 | `scrapedAt` | string |
 

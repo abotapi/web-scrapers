@@ -17,56 +17,55 @@ python example.py
 ```bash
 curl -s -X POST "https://api.apify.com/v2/acts/abotapi~propertyfinder-ae-scraper/run-sync-get-dataset-items?token=$APIFY_TOKEN" \
   -H 'Content-Type: application/json' \
-  -d '{"mode": "search", "scrapeType": "listings", "category": "buy", "locations": ["dubai"], "propertyTypes": ["properties"], "sort": "nd", "listedWithin": "any", "virtualViewing": "any", "rentPeriod": "yearly", "directorySort": "featured", "transactionsPeriod": "1m", "transactionsSort": "newest", "maxReviewsPerArea": 10, "furnishing": "any", "completionStatus": "any", "maxListings": 10, "maxPages": 1, "proxy": {"useApifyProxy": true, "apifyProxyGroups": ["RESIDENTIAL"], "apifyProxyCountry": "AE"}}'
+  -d '{"mode": "search", "locations": ["dubai"], "category": "buy", "propertyTypes": ["properties"], "sort": "nd", "listedWithin": "any", "virtualViewing": "any", "rentPeriod": "yearly", "furnishing": "any", "completionStatus": "any", "directorySort": "featured", "transactionsPeriod": "1m", "transactionsSort": "newest", "maxReviewsPerArea": 10, "maxListings": 10, "maxPages": 1, "proxy": {"useApifyProxy": true, "apifyProxyGroups": ["RESIDENTIAL"], "apifyProxyCountry": "AE"}}'
 ```
 
 ## Inputs
 
 | Input | Type | What it is |
 | --- | --- | --- |
-| `mode` * | string | 1. How will you supply the input |
-| `scrapeType` | string | 2. What do you want to scrape |
-| `category` | string | Category (listings, agents, brokers, t |
-| `locations` | array | Locations (all types) |
-| `propertyTypes` | array | Property types (listings, transactions |
+| `mode` * | string | What do you want to scrape |
+| `locations` | array | Locations |
+| `category` | string | Category |
+| `propertyTypes` | array | Property types |
 | `sort` | string | Sort listings by |
-| `keywords` | string | Keywords (listings) |
-| `listedWithin` | string | Listed within (listings) |
-| `virtualViewing` | string | Virtual viewing (listings) |
-| `propertyCondition` | array | Property condition (listings) |
-| `mortgageCashbackOnly` | boolean | Mortgage cashback only (listings for s |
-| `rentPeriod` | string | Rent period (listings for rent) |
-| `minCheques` | integer | Min number of cheques (listings for re |
-| `maxCheques` | integer | Max number of cheques (listings for re |
-| `searchText` | string | Name search (agents, brokers) |
-| `directorySort` | string | Sort agents & brokers by |
-| `agentLanguages` | array | Languages spoken (agents) |
-| `agentNationality` | string | Nationality (agents) |
-| `transactionsPeriod` | string | Period (transactions) |
-| `transactionsFrom` | string | From date (transactions) |
-| `transactionsTo` | string | To date (transactions) |
-| `transactionsSort` | string | Sort transactions by |
-| `maxReviewsPerArea` | integer | Max reviews per area (area insights) |
-| `urls` | array | Search page URLs (URL mode, listings) |
-| `minPrice` | integer | Min price, AED (listings, transactions |
-| `maxPrice` | integer | Max price, AED (listings, transactions |
-| `minBedrooms` | integer | Min bedrooms (listings, transactions) |
-| `maxBedrooms` | integer | Max bedrooms (listings, transactions) |
-| `minBathrooms` | integer | Min bathrooms (listings) |
-| `maxBathrooms` | integer | Max bathrooms (listings) |
-| `minAreaSqft` | integer | Min size, sqft (listings, transactions |
-| `maxAreaSqft` | integer | Max size, sqft (listings, transactions |
-| `minPricePerSqft` | integer | Min price per sqft, AED (listings) |
-| `maxPricePerSqft` | integer | Max price per sqft, AED (listings) |
-| `furnishing` | string | Furnishing (listings) |
-| `completionStatus` | string | Completion status (listings) |
-| `amenities` | array | Amenities (listings) |
-| `dealBadges` | array | Deal badges (listings) |
+| `keywords` | string | Keywords |
+| `listedWithin` | string | Listed within |
+| `virtualViewing` | string | Virtual viewing |
+| `propertyCondition` | array | Property condition |
+| `mortgageCashbackOnly` | boolean | Mortgage cashback only (for sale) |
+| `rentPeriod` | string | Rent period (for rent) |
+| `minCheques` | integer | Min number of cheques (for rent) |
+| `maxCheques` | integer | Max number of cheques (for rent) |
+| `urls` | array | Search page URLs |
+| `minPrice` | integer | Min price (AED) |
+| `maxPrice` | integer | Max price (AED) |
+| `minBedrooms` | integer | Min bedrooms |
+| `maxBedrooms` | integer | Max bedrooms |
+| `minBathrooms` | integer | Min bathrooms |
+| `maxBathrooms` | integer | Max bathrooms |
+| `minAreaSqft` | integer | Min size (sqft) |
+| `maxAreaSqft` | integer | Max size (sqft) |
+| `minPricePerSqft` | integer | Min price per sqft (AED) |
+| `maxPricePerSqft` | integer | Max price per sqft (AED) |
+| `furnishing` | string | Furnishing |
+| `completionStatus` | string | Completion status |
+| `amenities` | array | Amenities |
+| `dealBadges` | array | Deal badges |
 | `verifiedOnly` | boolean | Verified listings only |
 | `superAgentOnly` | boolean | SuperAgent listings only |
-| `maxListings` | integer | Max results (all types) |
-| `maxPages` | integer | Max pages per search (listings, agents |
-| `includeDetails` | boolean | Add listing details (listings, extra c |
+| `searchText` | string | Name search |
+| `directorySort` | string | Sort by |
+| `agentLanguages` | array | Languages spoken (agents only) |
+| `agentNationality` | string | Nationality (agents only) |
+| `transactionsPeriod` | string | Period |
+| `transactionsFrom` | string | From date |
+| `transactionsTo` | string | To date |
+| `transactionsSort` | string | Sort transactions by |
+| `maxReviewsPerArea` | integer | Max reviews per area |
+| `maxListings` | integer | Max results |
+| `maxPages` | integer | Max pages per search |
+| `includeDetails` | boolean | Add listing details (listing modes, ex |
 | `proxy` | object | Proxy |
 
 `*` required

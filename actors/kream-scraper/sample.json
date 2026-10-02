@@ -25,10 +25,10 @@
     "marketPrice": 635836,
     "lastSalePrice": 724548,
     "totalSales": 884229,
-    "changeValue": 0,
-    "changePercentage": 0,
+    "changeValue": 9320,
+    "changePercentage": 1.12,
     "premium": -57818,
-    "premiumPercentage": -27.68,
+    "premiumPercentage": -27.18,
     "hasImmediateDelivery": true,
     "wishCount": 630570,
     "reviewCount": 66335,
@@ -51,61 +51,6 @@
         "key": "545",
         "name": "487",
         "displayName": "035"
-      }
-    ]
-  },
-  {
-    "productId": 71,
-    "url": "https://kream.co.kr/example/23176",
-    "productName": "Example product name",
-    "productNameKo": "Example product name ko",
-    "brand": "Nike",
-    "brandId": 1,
-    "category": "sneakers",
-    "categoryName": "Example category name",
-    "styleCode": "Example style code",
-    "colorway": "Example colorway",
-    "gender": "men",
-    "releaseDate": null,
-    "retailPrice": 875419,
-    "retailPriceFormatted": "Example retail price formatted",
-    "currency": "KRW",
-    "imageUrl": "https://kream-phinf.pstatic.net/example/3794.jpg",
-    "imageUrls": [
-      "https://kream-phinf.pstatic.net/example/55809.jpg",
-      "https://kream-phinf.pstatic.net/example/87805.jpg"
-    ],
-    "lowestAsk": 875700,
-    "highestBid": 777619,
-    "marketPrice": 887426,
-    "lastSalePrice": 404656,
-    "totalSales": 259417,
-    "changeValue": -54523,
-    "changePercentage": -6.24,
-    "premium": -85975,
-    "premiumPercentage": -28.82,
-    "hasImmediateDelivery": true,
-    "wishCount": 734525,
-    "reviewCount": 51496,
-    "haveCount": 0,
-    "isActive": true,
-    "isTradable": true,
-    "sizes": [
-      "327",
-      "835"
-    ],
-    "sizeOptions": [
-      {
-        "id": 4109077,
-        "key": "706",
-        "name": "293",
-        "displayName": "726"
-      },
-      {
-        "id": 9094479,
-        "key": "254",
-        "name": "199",
-        "displayName": "889"
       }
     ]
   }

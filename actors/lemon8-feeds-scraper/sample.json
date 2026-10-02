@@ -1,18 +1,18 @@
 [
   {
-    "id": "7071764993169457793",
+    "id": "5012680143726718825",
     "author": {
       "name": "Example name",
       "followerCount": null,
       "profileUrl": "https://www.lemon8-app.com/example/84310",
       "profileImageUrl": "https://p16-lemon8-cross-sign.tiktokcdn.com/example/13206.jpg"
     },
-    "title": "Example title: mock text standing in for the real value. Same field and type, made-up content.",
-    "content": "",
+    "title": "Example title",
+    "content": "Example content",
     "postUrl": "https://www.lemon8-app.com/example/322",
     "statistics": {
       "savedCount": "1",
-      "likesCount": "5",
+      "likesCount": "17",
       "commentsCount": "2"
     },
     "images": [
@@ -27,76 +27,18 @@
     "category": "Example category",
     "categoryId": 0,
     "details": {
-      "title": "Example title: mock text standing in for the real value. Same field and type, made-up content.",
-      "fullContent": "",
+      "title": "Example title",
+      "fullContent": "Example full content",
       "hashtags": [],
-      "editTime": "0/57",
+      "editTime": "9/66",
       "statistics": {
         "savedCount": "1",
-        "likesCount": "5",
-        "commentsCount": "2"
+        "likesCount": "17",
+        "commentsCount": "7"
       },
       "galleryImages": [
         {
           "src": "https://p16-lemon8-sign-sg.tiktokcdn.com/example/13577.jpg",
-          "alt": ""
-        }
-      ],
-      "searchQuery": null,
-      "relatedTopics": [],
-      "isVideo": false,
-      "videoData": null
-    },
-    "allComments": [],
-    "commentStats": {
-      "totalComments": 0,
-      "totalReplies": 0,
-      "previewCommentCount": 0
-    }
-  },
-  {
-    "id": "5746915307097331823",
-    "author": {
-      "name": "Example name",
-      "followerCount": null,
-      "profileUrl": "https://www.lemon8-app.com/example/76019",
-      "profileImageUrl": "https://p16-lemon8-sign-sg.tiktokcdn.com/example/93007.jpg"
-    },
-    "title": "Example title",
-    "content": "Example content: mock text standing in for the real value. Same field and type, made-up content.",
-    "postUrl": "https://www.lemon8-app.com/example/18411",
-    "statistics": {
-      "savedCount": "3",
-      "likesCount": "14",
-      "commentsCount": "2"
-    },
-    "images": [
-      {
-        "src": "https://p16-lemon8-cross-sign.tiktokcdn.com/example/20876",
-        "alt": ""
-      }
-    ],
-    "previewComments": [],
-    "isVideo": false,
-    "searchQuery": null,
-    "category": "Example category",
-    "categoryId": 0,
-    "details": {
-      "title": "Example title",
-      "fullContent": "Example full content: mock text standing in for the real value. Same field and type, made-up content.",
-      "hashtags": [
-        "Example hashtags",
-        "Example hashtags"
-      ],
-      "editTime": "6/14",
-      "statistics": {
-        "savedCount": "05",
-        "likesCount": "14",
-        "commentsCount": "3"
-      },
-      "galleryImages": [
-        {
-          "src": "https://p16-lemon8-sign-sg.tiktokcdn.com/example/20876.jpg",
           "alt": ""
         }
       ],
@@ -110,7 +52,7 @@
         "author": "Example author",
         "authorTag": null,
         "content": "Example content",
-        "time": "8/73",
+        "time": "6/37",
         "likes": "7",
         "replies": null
       },
@@ -118,14 +60,21 @@
         "author": "Example author",
         "authorTag": null,
         "content": "Example content",
-        "time": "4/06",
-        "likes": "2",
-        "replies": null
+        "time": "0/63",
+        "likes": "1",
+        "replies": [
+          {
+            "author": "Example author",
+            "content": "Example content",
+            "time": "0/63",
+            "tag": null
+          }
+        ]
       }
     ],
     "commentStats": {
       "totalComments": 8,
-      "totalReplies": 0,
+      "totalReplies": 2,
       "previewCommentCount": 0
     }
   }

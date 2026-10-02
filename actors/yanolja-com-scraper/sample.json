@@ -27,9 +27,9 @@
     "priceRange": "Example price range",
     "lowestPriceKrw": 66634,
     "overnightPriceKrw": 13752,
-    "dayUsePriceKrw": null,
+    "dayUsePriceKrw": 60785,
     "overnightSoldOut": false,
-    "dayUseSoldOut": true,
+    "dayUseSoldOut": false,
     "checkInDate": "Example check in date",
     "checkOutDate": "Example check out date",
     "checkInTime": null,
@@ -48,57 +48,6 @@
     "roomPhotoUrls": [
       "https://yaimg.yanolja.com/example/88843.jpg",
       "https://yaimg.yanolja.com/example/11597.jpg"
-    ]
-  },
-  {
-    "recordId": "0859398688",
-    "stayId": "4450830207",
-    "rowType": "stay",
-    "url": "https://nol.yanolja.com/example/17120",
-    "name": "Example name",
-    "listingImageUrl": "https://yaimg.yanolja.com/example/82036.jpg",
-    "collectionSlug": "Example collection slug",
-    "collectionTitle": "Example collection title",
-    "subtitle": null,
-    "stayGroup": "Example stay group",
-    "hotelStar": null,
-    "badges": [],
-    "locationDescription": null,
-    "address": "Example address",
-    "latitude": 38.63,
-    "longitude": 115.61,
-    "cityName": "Example city name",
-    "cityDetail": "Example city detail",
-    "sellerPhone": "+1 555 0100",
-    "ratingValue": 4.09,
-    "reviewCount": 4489,
-    "replyCount": 785,
-    "ratingFromFd": 5.64,
-    "ratingCountFromFd": 9481,
-    "priceRange": "Example price range",
-    "lowestPriceKrw": null,
-    "overnightPriceKrw": null,
-    "dayUsePriceKrw": null,
-    "overnightSoldOut": true,
-    "dayUseSoldOut": true,
-    "checkInDate": "Example check in date",
-    "checkOutDate": "Example check out date",
-    "checkInTime": null,
-    "checkOutTime": null,
-    "description": null,
-    "descriptionText": null,
-    "facilities": [
-      "Example facilities",
-      "Example facilities"
-    ],
-    "mainImageUrl": "https://yaimg.yanolja.com/example/1727.jpg",
-    "photoUrls": [
-      "https://yaimg.yanolja.com/example/28035.jpg",
-      "https://yaimg.yanolja.com/example/41315.jpg"
-    ],
-    "roomPhotoUrls": [
-      "https://yaimg.yanolja.com/example/37159.jpg",
-      "https://yaimg.yanolja.com/example/97171.jpg"
     ]
   }
 ]

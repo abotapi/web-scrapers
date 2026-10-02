@@ -63,7 +63,7 @@ Full details on the [scraper page](https://apify.com/abotapi/wellfound-jobs-scra
 | `locations` | list |
 | `acceptedRemoteLocations` | list |
 | `remote` | boolean |
-| `remoteKind` | null |
+| `remoteKind` | string |
 | `yearsExperienceMin` | null |
 | `yearsExperienceMax` | null |
 | `postedAtUnix` | integer |

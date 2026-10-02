@@ -36,6 +36,7 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~etsy-marketplace-scraper/
 | `maxPrice` | integer | Maximum price (USD) |
 | `shipToCountry` | string | Ships to (country code, optional) |
 | `fetchDetails` | boolean | Fetch listing details |
+| `includeReviews` | boolean | Include item reviews |
 | `maxItems` | integer | Max listings |
 | `maxPages` | integer | Max pages per keyword / link |
 | `proxy` | object | Proxy configuration |
@@ -59,19 +60,19 @@ Full details on the [scraper page](https://apify.com/abotapi/etsy-marketplace-sc
 | `categoryPath` | list |
 | `price` | float |
 | `currency` | string |
-| `originalPrice` | integer |
-| `discountPercentage` | integer |
+| `originalPrice` | float |
+| `discountPercentage` | null |
 | `onSale` | boolean |
-| `availability` | string |
-| `quantityAvailable` | integer |
+| `availability` | null |
+| `quantityAvailable` | null |
 | `images` | list |
 | `videoUrl` | string |
-| `description` | string |
+| `description` | null |
 | `materials` | list |
-| `shippingOrigin` | object |
-| `rating` | integer |
-| `reviewCount` | integer |
-| `ratingBreakdown` | object |
+| `shippingOrigin` | null |
+| `rating` | null |
+| `reviewCount` | null |
+| `ratingBreakdown` | null |
 | `reviews` | list |
 | `variations` | list |
 | `searchMode` | string |

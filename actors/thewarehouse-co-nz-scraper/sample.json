@@ -1,8 +1,8 @@
 [
   {
     "url": "https://www.thewarehouse.co.nz/example/3629",
-    "productId": "r0074941",
-    "sku": "r6452781",
+    "productId": "r4075024",
+    "sku": "r8422661",
     "gtin": null,
     "mpn": "ta6222-sa",
     "title": "Example title",
@@ -18,11 +18,10 @@
     "condition": null,
     "image": "https://www.thewarehouse.co.nz/example/47559.jpg",
     "images": [
-      "https://www.thewarehouse.co.nz/example/22250.jpg",
-      "https://www.thewarehouse.co.nz/example/6269.jpg"
+      "https://www.thewarehouse.co.nz/example/22250.jpg"
     ],
     "imageCount": 2,
-    "ratingValue": 3.48,
+    "ratingValue": 1.77,
     "ratingCount": null,
     "reviewCount": null,
     "categoryPath": [
@@ -44,15 +43,14 @@
       "@id": "https://www.thewarehouse.co.nz/example/85286",
       "name": "Example name",
       "description": "Example description",
-      "sku": "r6452781",
+      "sku": "r8422661",
       "brand": {
         "@type": "Brand",
         "name": "Example name"
       },
       "mpn": "ta6222-sa",
       "image": [
-        "https://www.thewarehouse.co.nz/example/47559.jpg",
-        "https://www.thewarehouse.co.nz/example/91138.jpg"
+        "https://www.thewarehouse.co.nz/example/47559.jpg"
       ],
       "offers": {
         "@type": "Offer",
@@ -62,7 +60,7 @@
         "price": "28.97"
       },
       "gtin13": [
-        "8816922556276"
+        "7129091937743"
       ]
     },
     "isOnSpecial": false,
@@ -71,81 +69,6 @@
     "features": [
       "Example features",
       "Example features"
-    ],
-    "scrapedAt": "2026-01-15T10:00:00Z"
-  },
-  {
-    "url": "https://www.thewarehouse.co.nz/example/85330",
-    "productId": "r1272911",
-    "sku": "r5111769",
-    "gtin": null,
-    "mpn": "67571bgq8-s998",
-    "title": "Example title",
-    "brand": "Zuru",
-    "description": "Example description",
-    "category": null,
-    "breadcrumbs": [],
-    "price": 6.34,
-    "priceMax": 13.04,
-    "priceText": "Example price text",
-    "currency": "NZD",
-    "availability": "Example availability",
-    "condition": null,
-    "image": "https://www.thewarehouse.co.nz/example/18826.jpg",
-    "images": [
-      "https://www.thewarehouse.co.nz/example/75055.jpg",
-      "https://www.thewarehouse.co.nz/example/16937.jpg"
-    ],
-    "imageCount": 5,
-    "ratingValue": 6,
-    "ratingCount": null,
-    "reviewCount": null,
-    "categoryPath": [
-      "toysbaby",
-      "toysbaby-toys"
-    ],
-    "marketplaceProduct": false,
-    "sellerName": null,
-    "reviews": null,
-    "attributes": {
-      "Standard items": "Example standard items",
-      "Oversized items": "Example oversized items",
-      "Third Party items": "Example third  party items",
-      "bvseo-msg": "Example bvseo-msg"
-    },
-    "rawProduct": {
-      "@context": "http://schema.org/example/33358",
-      "@type": "Product",
-      "@id": "https://www.thewarehouse.co.nz/example/39370",
-      "name": "Example name",
-      "description": "Example description",
-      "sku": "r5111769",
-      "brand": {
-        "@type": "Brand",
-        "name": "Example name"
-      },
-      "mpn": "67571bgq8-s998",
-      "image": [
-        "https://www.thewarehouse.co.nz/example/18826.jpg",
-        "https://www.thewarehouse.co.nz/example/13438.jpg"
-      ],
-      "offers": {
-        "@type": "Offer",
-        "url": "https://www.thewarehouse.co.nz/example/85330",
-        "availability": "http://schema.org/example/80410",
-        "priceCurrency": "NZD",
-        "price": "6.94"
-      },
-      "gtin12": [
-        "191409228961"
-      ]
-    },
-    "isOnSpecial": true,
-    "offerEndsAt": "2026-01-15",
-    "specialsCategory": null,
-    "features": [
-      "Example features: mock text standing in for the real value. Same field and type, made-up content.",
-      "Example features: mock text standing in for the real value. Same field and type, made-up content."
     ],
     "scrapedAt": "2026-01-15T10:00:00Z"
   }

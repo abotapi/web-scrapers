@@ -1,8 +1,8 @@
 [
   {
-    "id": "Example id: mock text standing in for the real value. Same field and type, made-up content.",
-    "url": "https://australia.businessesforsale.com/example/50752",
-    "title": "Example title: mock text standing in for the real value. Same field and type, made-up content.",
+    "id": "Example id",
+    "url": "https://uae.businessesforsale.com/example/50752",
+    "title": "Example title",
     "listingClass": "business",
     "labels": [
       "Example labels",
@@ -10,32 +10,32 @@
     ],
     "searchCountry": "global",
     "locationText": "Example location text",
-    "locationDetail": "Example location detail: mock text standing in for the real value. Same field and type, made-up content.",
-    "country": "AU",
-    "region": "Example region",
+    "locationDetail": null,
+    "country": "AE",
+    "region": "Dubai",
     "locality": null,
     "askingPriceDisplay": "Example asking price display",
-    "askingPriceValue": 69802,
-    "priceCurrency": "AUD",
+    "askingPriceValue": 879802,
+    "priceCurrency": "AED",
     "businessFunction": "Example business function",
     "revenueDisplay": "Example revenue display",
-    "revenueValue": 504531,
+    "revenueValue": 8604531,
     "cashFlowDisplay": "Example cash flow display",
-    "cashFlowValue": 953320,
-    "tenure": null,
+    "cashFlowValue": 53320,
+    "tenure": "Example tenure",
     "sizeSqFt": null,
-    "tradingHours": "Example trading hours",
-    "employees": "Example employees",
-    "yearsEstablished": "Example years established",
+    "tradingHours": null,
+    "employees": null,
+    "yearsEstablished": null,
     "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
     "categories": [
       {
         "name": "Example name",
-        "url": "https://australia.businessesforsale.com/example/50752"
+        "url": "https://uae.businessesforsale.com/example/50752"
       },
       {
         "name": "Example name",
-        "url": "https://australia.businessesforsale.com/example/54207"
+        "url": "https://uae.businessesforsale.com/example/54207"
       }
     ],
     "financials": {
@@ -45,13 +45,9 @@
     },
     "details": {
       "Asking Price": "Example asking  price",
-      "Turnover": "Example turnover",
-      "Net Profit": "Example net  profit",
-      "Location": "Example location: mock text standing in for the real value. Same field and type, made-up content.",
-      "Expansion Potential": "Example expansion  potential: mock text standing in for the real value. Same field and type, made-up content.",
-      "Trading hours": "Example trading hours",
-      "Employees": "Example employees",
-      "Years established": "Example years established"
+      "Sales Revenue": "Example sales  revenue",
+      "Cash Flow": "Example cash  flow",
+      "Real Estate": "Lease"
     },
     "seller": {
       "@type": "Organization",
@@ -60,8 +56,7 @@
     "thumbnail": "https://www.businessesforsale.com/example/58278.jpg",
     "imageCount": 7,
     "images": [
-      "https://australia.businessesforsale.com/example/58826.jpg",
-      "https://australia.businessesforsale.com/example/31861.jpg"
+      "https://www.businessesforsale.com/example/58826.jpg"
     ],
     "scrapedAt": "2026-01-15T10:00:00Z"
   }

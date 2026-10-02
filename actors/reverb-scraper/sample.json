@@ -44,51 +44,5 @@
     "inventory": 9,
     "hasInventory": true,
     "offersEnabled": false
-  },
-  {
-    "recordType": "listing",
-    "listingId": "68668772",
-    "sku": null,
-    "slug": "id23509999",
-    "url": "https://reverb.com/example/29249",
-    "comparisonShoppingPageId": "25942",
-    "priceGuideId": null,
-    "title": "Example title: mock text standing in for the real value. Same field and type, made-up content.",
-    "make": "Fender",
-    "brandSlug": "fender",
-    "model": "Example model: mock text standing in for the real value. Same field and type, made-up content.",
-    "year": "4780",
-    "finish": "Example finish",
-    "categories": [
-      "Example categories"
-    ],
-    "categoryUuids": [
-      "id56851191"
-    ],
-    "rootCategory": "electric-guitars",
-    "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
-    "descriptionHtml": "Example description html: mock text standing in for the real value. Same field and type, made-up content.",
-    "upc": null,
-    "handmade": false,
-    "originCountryCode": "MX",
-    "videos": [],
-    "condition": "Excellent",
-    "conditionSlug": "excellent",
-    "conditionUuid": "id68751401",
-    "price": 235,
-    "priceCents": 67781,
-    "currency": "USD",
-    "priceDisplay": "Example price display",
-    "taxIncluded": false,
-    "buyerPrice": 366,
-    "buyerPriceCurrency": "USD",
-    "listingCurrency": "USD",
-    "originalPrice": 725,
-    "priceDropPercent": 59,
-    "state": "live",
-    "isLive": true,
-    "inventory": 8,
-    "hasInventory": false,
-    "offersEnabled": true
   }
 ]

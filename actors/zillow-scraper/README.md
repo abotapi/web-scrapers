@@ -79,6 +79,8 @@ Full details on the [scraper page](https://apify.com/abotapi/zillow-scraper?utm_
 | `formattedPrice` | string |
 | `currency` | string |
 | `taxAssessedValue` | integer |
+| `priceChange` | integer |
+| `priceChangeDate` | string |
 | `streetAddress` | string |
 | `city` | string |
 | `state` | string |

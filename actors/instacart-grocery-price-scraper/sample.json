@@ -29,32 +29,5 @@
     "sourceUrl": "https://www.instacart.com/example/67562",
     "recordId": "Example record id",
     "scrapedAt": "2026-01-15T10:00:00Z"
-  },
-  {
-    "itemId": "id82063141",
-    "productId": "52548",
-    "name": "Example name",
-    "brand": "Example brand",
-    "size": "Example size",
-    "priceString": "Example price string",
-    "price": 7.91,
-    "pricingUnit": "Example pricing unit",
-    "onSale": false,
-    "available": true,
-    "stockLevel": "inStock",
-    "image": "https://d2lnr5mha7bycj.cloudfront.net/example/11925.jpg",
-    "dietaryAttributes": "Example dietary attributes",
-    "retailerName": "Example retailer name",
-    "retailerSlug": "safeway",
-    "retailerId": "7",
-    "shopId": "94546",
-    "storeLocationId": "75",
-    "serviceType": "delivery",
-    "storeAddress": "Example store address",
-    "productUrl": "https://www.instacart.com/example/20308",
-    "searchQuery": "Example search query",
-    "sourceUrl": "https://www.instacart.com/example/3823",
-    "recordId": "Example record id",
-    "scrapedAt": "2026-01-15T10:00:00Z"
   }
 ]

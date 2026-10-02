@@ -5,19 +5,18 @@
     "property_id": 5202409,
     "name": "Example name",
     "title": "Example title",
-    "urlSlug": "1783-w-n-loop-blvd",
+    "urlSlug": "Example url slug",
     "url": "https://www.crexi.com/example/43996",
     "property_url": "https://www.crexi.com/example/95076",
     "detailPageUrl": "https://www.crexi.com/example/89729",
-    "askingPrice": 638657,
-    "price": 830015,
+    "askingPrice": 6938657,
+    "price": 4430015,
     "types": [
-      "Retail",
-      "Office"
+      "Example types"
     ],
     "property_type": "Example property_type",
-    "status": "Auction",
-    "description": "Example description",
+    "status": "Active",
+    "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
     "thumbnailUrl": "https://crexi.com/example/36788.jpg",
     "imageUrl": "https://crexi.com/example/72495.jpg",
     "image_url": "https://crexi.com/example/42816.jpg",
@@ -40,7 +39,7 @@
     "fullAddress": "Example full address",
     "propertyAddress": "Example property address",
     "address": "Example address",
-    "city": "Austin",
+    "city": "Abilene",
     "county": "Example county",
     "state": "TX"
   }

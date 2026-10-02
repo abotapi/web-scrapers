@@ -33,8 +33,8 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~hiring-cafe-scraper/run-s
 | `postedWithinDays` | integer | Posted within (days) |
 | `salaryTransparentOnly` | boolean | Salary transparent only |
 | `maxItems` | integer | Maximum jobs |
-| `proxy` | object | Proxy configuration |
 | `fetchDetails` | boolean | Fetch full job descriptions |
+| `proxy` | object | Proxy configuration |
 
 `*` required
 
@@ -70,19 +70,22 @@ Full details on the [scraper page](https://apify.com/abotapi/hiring-cafe-scraper
 | `salary_currency` | string |
 | `posted_at` | string |
 | `company_name` | string |
+| `company_website` | string |
 | `company_tagline` | string |
 | `company_industry` | string |
+| `salary_transparent` | boolean |
+| `salary_min` | integer |
+| `salary_max` | integer |
+| `salary_frequency` | string |
+| `education_required` | list |
 | `technical_tools` | list |
 | `languages` | list |
 | `security_clearance` | string |
+| `benefits` | list |
 | `physical_requirements` | object |
 | `company_employees` | integer |
 | `company_founded` | integer |
 | `company_hq_country` | string |
-| `views_on_site` | integer |
-| `applies_on_site` | integer |
-| `description` | string |
-| `description_text` | string |
 
 ---
 

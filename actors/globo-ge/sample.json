@@ -1,26 +1,14 @@
 [
   {
-    "id": "39337385",
-    "url": "https://globoplay.globo.com/example/11801",
+    "id": "71413337",
+    "url": "https://ge.globo.com/example/11801",
     "title": "Example title",
     "summary": "Example summary",
     "publishedAt": "2026-01-15T10:00:00Z",
     "modifiedAt": "2026-01-15T10:00:00Z",
     "species": "Example species",
     "recordType": "video",
-    "thumbnailUrl": "http://s02.video.glbimg.com/example/72762.jpg",
-    "durationSeconds": 523
-  },
-  {
-    "id": "93977944",
-    "url": "https://ge.globo.com/example/67312",
-    "title": "Example title",
-    "summary": "Example summary: mock text standing in for the real value. Same field and type, made-up content.",
-    "publishedAt": "2026-01-15T10:00:00Z",
-    "modifiedAt": "2026-01-15T10:00:00Z",
-    "species": "Example species",
-    "recordType": "video",
-    "thumbnailUrl": "http://s01.video.glbimg.com/example/94390.jpg",
-    "durationSeconds": 52
+    "thumbnailUrl": "http://s01.video.glbimg.com/example/72762.jpg",
+    "durationSeconds": 1
   }
 ]

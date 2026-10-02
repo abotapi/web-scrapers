@@ -60,7 +60,7 @@ Full details on the [scraper page](https://apify.com/abotapi/houzz-scraper?utm_s
 | `proCategory` | null |
 | `proTypeDisplayName` | string |
 | `proSkuId` | integer |
-| `isInactivePro` | boolean |
+| `isInactivePro` | null |
 | `country` | string |
 | `state` | string |
 | `city` | string |

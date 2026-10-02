@@ -58,13 +58,13 @@ Full details on the [scraper page](https://apify.com/abotapi/zalando-scraper?utm
 | `supplierName` | string |
 | `shortDescription` | null |
 | `condition` | null |
-| `price` | float |
+| `price` | integer |
 | `originalPrice` | float |
-| `promotionalPrice` | null |
-| `discountPercentage` | null |
+| `promotionalPrice` | integer |
+| `discountPercentage` | integer |
 | `currency` | string |
 | `onSale` | boolean |
-| `dealFlag` | null |
+| `dealFlag` | string |
 | `flags` | list |
 | `sizes` | list |
 | `sizeSkus` | list |
@@ -83,11 +83,11 @@ Full details on the [scraper page](https://apify.com/abotapi/zalando-scraper?utm
 | `mode` | string |
 | `item` | object |
 | `title` | string |
-| `wasPrice` | null |
-| `savingsAmount` | null |
-| `savingsPercent` | null |
+| `wasPrice` | float |
+| `savingsAmount` | float |
+| `savingsPercent` | integer |
 | `isOnSpecial` | boolean |
-| `promoLabel` | null |
+| `promoLabel` | string |
 | `specialsCategory` | null |
 
 ---

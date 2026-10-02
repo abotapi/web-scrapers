@@ -1,27 +1,26 @@
 [
   {
-    "listingId": "8265025494",
+    "listingId": "2003940769",
     "vertical": "marketplace",
-    "title": "Example title: mock text standing in for the real value. Same field and type, made-up content.",
+    "title": "Example title",
     "url": "https://www.trademe.co.nz/example/32807",
-    "category": "4736-1117-3526-9060-",
+    "category": "0740-6632-7583-1464-",
     "priceDisplay": "Example price display",
     "startPrice": 0,
-    "buyNowPrice": 585,
+    "buyNowPrice": 357.74,
     "hasBuyNow": true,
     "region": "Auckland",
     "suburb": "Example suburb",
     "district": null,
     "photoUrls": [
-      "https://trademe.tmcdn.co.nz/example/86257.jpg",
-      "https://trademe.tmcdn.co.nz/example/40301.jpg"
+      "https://trademe.tmcdn.co.nz/example/86257.jpg"
     ],
     "listedDate": "2026-01-15T10:00:00Z",
     "closesDate": "2026-01-15T10:00:00Z",
     "isFeatured": null,
     "sponsored": null,
     "sellerType": "Example seller type",
-    "memberId": "6176400",
+    "memberId": "06423",
     "scrapedAt": "2026-01-15T10:00:00Z"
   }
 ]

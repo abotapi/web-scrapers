@@ -86,7 +86,7 @@ Full details on the [scraper page](https://apify.com/abotapi/tunein-radio-podcas
 | `isPlayable` | boolean |
 | `streamType` | null |
 | `nowPlaying` | null |
-| `nowPlayingImage` | string |
+| `nowPlayingImage` | null |
 | `currentSong` | null |
 | `currentArtist` | null |
 | `currentAlbum` | null |

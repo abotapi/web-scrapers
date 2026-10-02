@@ -73,7 +73,7 @@ Full details on the [scraper page](https://apify.com/abotapi/spacex-com?utm_sour
 | `ongoingMissionImageMobile` | null |
 | `videoDesktop` | null |
 | `videoMobile` | null |
-| `override` | object |
+| `override` | null |
 | `missionId` | string |
 | `url` | string |
 | `launchDateTime` | string |

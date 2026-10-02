@@ -46,7 +46,7 @@ Full details on the [scraper page](https://apify.com/abotapi/shopee-collection-p
 | `ratingDistribution` | list |
 | `images` | list |
 | `variants` | list |
-| `videos` | list |
+| `videos` | null |
 | `shop` | object |
 | `categoryIds` | list |
 | `brand` | null |

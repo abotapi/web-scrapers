@@ -1,68 +1,59 @@
 [
   {
-    "listingId": "9263200277",
+    "listingId": "3494102209",
     "title": "Example title: mock text standing in for the real value. Same field and type, made-up content.",
     "url": "https://www.etsy.com/example/43631",
-    "shopId": "30936051",
+    "shopId": "70476309",
     "shopName": "Example shop name",
     "shopUrl": "https://www.etsy.com/example/11341",
-    "categoryPath": [
-      "Jewelry",
-      "Necklaces"
-    ],
-    "price": 150.54,
+    "categoryPath": [],
+    "price": 16344.23,
     "currency": "USD",
-    "originalPrice": 642,
-    "discountPercentage": 20,
+    "originalPrice": 13918.2,
+    "discountPercentage": null,
     "onSale": true,
-    "availability": "in_stock",
-    "quantityAvailable": 3,
+    "availability": null,
+    "quantityAvailable": null,
     "images": [
-      "https://i.etsystatic.com/example/33521.jpg",
-      "https://i.etsystatic.com/example/25172.jpg"
+      "https://i.etsystatic.com/example/33521.jpg"
     ],
     "videoUrl": "https://v.etsystatic.com/example/63651",
-    "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
-    "materials": [
-      "Example materials",
-      "Example materials"
+    "description": null,
+    "materials": [],
+    "shippingOrigin": null,
+    "rating": null,
+    "reviewCount": null,
+    "ratingBreakdown": null,
+    "reviews": [],
+    "variations": [],
+    "searchMode": "search"
+  },
+  {
+    "listingId": "7742070772",
+    "title": "Example title: mock text standing in for the real value. Same field and type, made-up content.",
+    "url": "https://www.etsy.com/example/48766",
+    "shopId": "44149170",
+    "shopName": "Example shop name",
+    "shopUrl": "https://www.etsy.com/example/7749",
+    "categoryPath": [],
+    "price": 143.78,
+    "currency": "USD",
+    "originalPrice": 295,
+    "discountPercentage": null,
+    "onSale": true,
+    "availability": null,
+    "quantityAvailable": null,
+    "images": [
+      "https://i.etsystatic.com/example/29110.jpg"
     ],
-    "shippingOrigin": {
-      "@type": "DefinedRegion",
-      "addressCountry": "Example address country"
-    },
-    "rating": 9,
-    "reviewCount": 826,
-    "ratingBreakdown": {
-      "itemQuality": 3.92,
-      "shipping": 9,
-      "customerService": 3.77,
-      "buyersRecommend": 41
-    },
-    "reviews": [
-      {
-        "reviewId": "7101787012",
-        "author": "Example author",
-        "rating": 9,
-        "date": "Example date",
-        "body": "Example body: mock text standing in for the real value. Same field and type, made-up content.",
-        "photos": [],
-        "helpfulCount": null,
-        "variantContext": null
-      },
-      {
-        "reviewId": "6760461677",
-        "author": "id61859098",
-        "rating": 2,
-        "date": "Example date",
-        "body": "Example body: mock text standing in for the real value. Same field and type, made-up content.",
-        "photos": [
-          "https://i.etsystatic.com/example/55043.jpg"
-        ],
-        "helpfulCount": null,
-        "variantContext": null
-      }
-    ],
+    "videoUrl": "https://v.etsystatic.com/example/34693",
+    "description": null,
+    "materials": [],
+    "shippingOrigin": null,
+    "rating": null,
+    "reviewCount": null,
+    "ratingBreakdown": null,
+    "reviews": [],
     "variations": [],
     "searchMode": "search"
   }

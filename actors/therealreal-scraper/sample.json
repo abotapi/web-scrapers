@@ -1,93 +1,29 @@
 [
   {
-    "itemId": "87532579",
-    "sku": "cel884588",
-    "variantId": "590038041",
+    "itemId": "08658592",
+    "sku": "her846225",
+    "variantId": "518280357",
     "name": "Example name",
     "url": "https://www.therealreal.com/example/56356",
     "designer": "Example designer",
-    "designerId": "993",
+    "designerId": "764",
     "artist": null,
     "itemClass": [
       "Example item class",
       "Example item class"
     ],
-    "category": "Example category",
-    "condition": "Good",
+    "category": "Clutches",
+    "condition": "Pristine",
     "conditionNote": null,
-    "color": "Brown",
+    "color": "Black",
     "gender": "Women",
     "primaryMaterial": "Example primary material",
     "attributes": {
       "Color": [
-        "Brown"
+        "Black"
       ],
       "Condition": [
-        "Good"
-      ],
-      "Gender": [
-        "Women"
-      ],
-      "Handbag Style": [
-        "Example handbag  style"
-      ],
-      "Primary Material": [
-        "Example primary  material"
-      ]
-    },
-    "retailPrice": 2648,
-    "listPrice": 3681,
-    "originalPrice": 8752,
-    "currency": "USD",
-    "discountPct": 0,
-    "vsRetailPct": 41,
-    "isOnSale": false,
-    "availability": "AVAILABLE",
-    "isSold": false,
-    "quantity": "0",
-    "obsessionCount": 19,
-    "isEditorsPick": true,
-    "badge": "Example badge",
-    "images": [
-      "https://product-images.therealreal.com/example/6328.jpg",
-      "https://product-images.therealreal.com/example/94094.jpg"
-    ],
-    "imageCount": 7,
-    "sourceUrl": "https://www.therealreal.com/example/53544",
-    "detailFetched": false,
-    "measurements": null,
-    "materials": null,
-    "description": null,
-    "authenticationNote": null,
-    "sustainability": null,
-    "returnPolicy": null,
-    "disclaimers": null
-  },
-  {
-    "itemId": "67888198",
-    "sku": "low737735",
-    "variantId": "053827514",
-    "name": "Example name",
-    "url": "https://www.therealreal.com/example/36605",
-    "designer": "Example designer",
-    "designerId": "261",
-    "artist": null,
-    "itemClass": [
-      "Example item class",
-      "Example item class"
-    ],
-    "category": "Example category",
-    "condition": "Example condition",
-    "conditionNote": null,
-    "color": "Red",
-    "gender": "Women",
-    "primaryMaterial": "Example primary material",
-    "attributes": {
-      "Color": [
-        "Red"
-      ],
-      "Condition": [
-        "Example condition"
+        "Pristine"
       ],
       "Gender": [
         "Women"
@@ -97,24 +33,24 @@
       ]
     },
     "retailPrice": null,
-    "listPrice": 3144,
-    "originalPrice": 4479,
+    "listPrice": 21681,
+    "originalPrice": 53752,
     "currency": "USD",
     "discountPct": 0,
     "vsRetailPct": null,
     "isOnSale": false,
     "availability": "AVAILABLE",
     "isSold": false,
-    "quantity": "6",
-    "obsessionCount": 206,
-    "isEditorsPick": true,
-    "badge": "Example badge",
+    "quantity": "0",
+    "obsessionCount": 19,
+    "isEditorsPick": null,
+    "badge": null,
     "images": [
-      "https://product-images.therealreal.com/example/83149.jpg",
-      "https://product-images.therealreal.com/example/99897.jpg"
+      "https://product-images.therealreal.com/example/6328.jpg",
+      "https://product-images.therealreal.com/example/94094.jpg"
     ],
-    "imageCount": 1,
-    "sourceUrl": "https://www.therealreal.com/example/71580",
+    "imageCount": 7,
+    "sourceUrl": "https://www.therealreal.com/example/53544",
     "detailFetched": false,
     "measurements": null,
     "materials": null,

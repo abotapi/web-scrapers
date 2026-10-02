@@ -50,8 +50,8 @@ Full details on the [scraper page](https://apify.com/abotapi/flashfood-grocery-d
 | `url` | string |
 | `title` | string |
 | `price` | float |
-| `originalPrice` | integer |
-| `discountPercent` | integer |
+| `originalPrice` | float |
+| `discountPercent` | float |
 | `currency` | string |
 | `quantityAvailable` | integer |
 | `bestBefore` | string |

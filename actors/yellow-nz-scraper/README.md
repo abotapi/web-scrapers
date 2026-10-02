@@ -47,14 +47,15 @@ Full details on the [scraper page](https://apify.com/abotapi/yellow-nz-scraper?u
 | `phone` | string |
 | `address` | string |
 | `categories` | list |
-| `rating` | integer |
-| `reviewCount` | integer |
 | `openStatus` | string |
 | `description` | string |
 | `email` | string |
 | `fullAddress` | object |
 | `latitude` | float |
 | `longitude` | float |
+| `rating` | integer |
+| `reviewCount` | integer |
+| `openingHours` | list |
 | `paymentAccepted` | string |
 | `imageUrl` | string |
 | `logoUrl` | string |

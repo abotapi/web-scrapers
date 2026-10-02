@@ -56,8 +56,8 @@ Full details on the [scraper page](https://apify.com/abotapi/batdongsan-com-vn-s
 | `area` | integer |
 | `bedrooms` | integer |
 | `bathrooms` | integer |
-| `direction` | string |
-| `balconyDirection` | string |
+| `direction` | null |
+| `balconyDirection` | null |
 | `furniture` | string |
 | `locationText` | string |
 | `city` | string |

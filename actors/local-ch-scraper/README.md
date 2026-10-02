@@ -84,7 +84,7 @@ Full details on the [scraper page](https://apify.com/abotapi/local-ch-scraper?ut
 | `website` | string |
 | `whatsapp` | null |
 | `facebook` | string |
-| `instagram` | string |
+| `instagram` | null |
 | `linkedin` | null |
 | `twitter` | null |
 | `tiktok` | null |
@@ -96,7 +96,7 @@ Full details on the [scraper page](https://apify.com/abotapi/local-ch-scraper?ut
 | `mainCategorySlug` | string |
 | `categories` | list |
 | `categorySlugs` | list |
-| `rating` | integer |
+| `rating` | float |
 | `ratingCount` | integer |
 
 ---

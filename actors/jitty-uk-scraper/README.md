@@ -76,8 +76,11 @@ Full details on the [scraper page](https://apify.com/abotapi/jitty-uk-scraper?ut
 | `longitude` | float |
 | `location_source` | string |
 | `living_spaces` | integer |
+| `epc_current_score` | integer |
+| `epc_current_rating` | string |
+| `epc_potential_score` | integer |
+| `epc_potential_rating` | string |
 | `estate_agent` | string |
-| `features` | list |
 
 ---
 

@@ -6,66 +6,28 @@
     "locationName": "Example location name",
     "region": "Example region",
     "address": null,
-    "price": 829,
+    "price": 370.39,
     "priceMinor": 40306,
     "currency": "SGD",
     "starRating": 6,
-    "guestRating": 10.08,
+    "guestRating": 9.72,
     "guestRatingMax": 61,
     "guestRatingLabel": "Example guest rating label",
-    "numReviews": 47639,
-    "latitude": 1.61,
-    "longitude": 90.36,
+    "numReviews": 2639,
+    "latitude": 1.6,
+    "longitude": 90.34,
     "facilities": [
       "Example facilities",
-      "Example facilities"
+      "CARPARK"
     ],
     "facilityCodes": [
       "WIFI_PUBLIC_AREA",
-      "BAR"
+      "CARPARK"
     ],
     "imageUrl": "https://img.cnt.traveloka.com/example/59508.jpg",
     "imageUrls": [
       "https://img.cnt.traveloka.com/example/17326.jpg",
       "https://img.cnt.traveloka.com/example/47681.jpg"
-    ],
-    "market": "en-sg",
-    "checkInDate": "2026-01-15",
-    "checkOutDate": "2026-01-15",
-    "changeType": "NEW",
-    "changedFields": [],
-    "firstSeenAt": "2026-01-15T10:00:00Z",
-    "lastSeenAt": "2026-01-15T10:00:00Z"
-  },
-  {
-    "hotelId": "+1 555 0100",
-    "name": "Example name",
-    "url": "https://www.traveloka.com/example/15359",
-    "locationName": "Example location name",
-    "region": "Example region",
-    "address": null,
-    "price": 405.02,
-    "priceMinor": 76009,
-    "currency": "SGD",
-    "starRating": 1,
-    "guestRating": 10.0,
-    "guestRatingMax": 29,
-    "guestRatingLabel": "Example guest rating label",
-    "numReviews": 8786,
-    "latitude": 1.63,
-    "longitude": 129.79,
-    "facilities": [
-      "Example facilities",
-      "Example facilities"
-    ],
-    "facilityCodes": [
-      "WIFI_PUBLIC_AREA",
-      "BAR"
-    ],
-    "imageUrl": "https://img.cnt.traveloka.com/example/6104.jpg",
-    "imageUrls": [
-      "https://img.cnt.traveloka.com/example/88275.jpg",
-      "https://img.cnt.traveloka.com/example/95609.jpg"
     ],
     "market": "en-sg",
     "checkInDate": "2026-01-15",

@@ -72,11 +72,11 @@ Full details on the [scraper page](https://apify.com/abotapi/bayt-com-jobs-scrap
 | `companyIndustry` | null |
 | `jobCountryCode` | string |
 | `directApply` | boolean |
-| `residenceLocation` | null |
+| `residenceLocation` | string |
 | `nationality` | null |
 | `gender` | null |
 | `age` | null |
-| `degree` | null |
+| `degree` | string |
 | `major` | null |
 | `preferredCandidate` | object |
 | `scrapedAt` | string |

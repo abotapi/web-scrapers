@@ -86,7 +86,7 @@ Full details on the [scraper page](https://apify.com/abotapi/tutti-ch-scraper?ut
 | `properties` | list |
 | `timestamp` | string |
 | `language` | string |
-| `url` | null |
+| `url` | string |
 
 ---
 

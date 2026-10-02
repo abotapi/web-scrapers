@@ -19,26 +19,5 @@
     "discountPercent": 0,
     "title": "Example title",
     "isOnSpecial": false
-  },
-  {
-    "productId": 526388,
-    "sku": "oled62c5psa",
-    "uid": null,
-    "name": "Example name",
-    "brand": null,
-    "url": "https://www.harveynorman.com.au/example/3080",
-    "imageUrl": null,
-    "rating": 4.56,
-    "reviewCount": 726,
-    "promotion": null,
-    "searchMode": "search",
-    "source": "Example source",
-    "price": 7872,
-    "currency": "AUD",
-    "wasPrice": 7699,
-    "discountAmount": 9677,
-    "discountPercent": 19.46,
-    "title": "Example title",
-    "isOnSpecial": true
   }
 ]

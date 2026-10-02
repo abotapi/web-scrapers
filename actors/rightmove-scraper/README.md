@@ -62,7 +62,7 @@ Full details on the [scraper page](https://apify.com/abotapi/rightmove-scraper?u
 | `propertySubType` | string |
 | `propertyTypeFullDescription` | string |
 | `bedrooms` | integer |
-| `bathrooms` | integer |
+| `bathrooms` | null |
 | `displayAddress` | string |
 | `summary` | string |
 | `price` | integer |
@@ -85,7 +85,7 @@ Full details on the [scraper page](https://apify.com/abotapi/rightmove-scraper?u
 | `displaySize` | string |
 | `distance` | null |
 | `formattedDistance` | string |
-| `tenure` | string |
+| `tenure` | null |
 | `numberOfImages` | integer |
 | `numberOfFloorplans` | integer |
 | `numberOfVirtualTours` | integer |

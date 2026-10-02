@@ -67,85 +67,11 @@
     "isOriginal": false,
     "hasIap": false,
     "gameThumbLabels": [
-      "Example game thumb labels",
       "Example game thumb labels"
     ],
     "mobileFriendly": true,
     "iosFriendly": true,
     "androidFriendly": true,
     "iosAppFriendly": true
-  },
-  {
-    "id": "93604",
-    "name": "Example name",
-    "slug": "Example slug",
-    "url": "https://www.crazygames.com/example/29714",
-    "rating": 4,
-    "upvotes": 266041,
-    "downvotes": 88485,
-    "ratingCount": 601079,
-    "totalLikes": 644650,
-    "totalPlays": 755190002,
-    "developer": "Example developer",
-    "developerId": "xvjug2ulnmzylcttkawyksbpyj49",
-    "category": "Example category",
-    "categorySlug": "io",
-    "tags": [
-      {
-        "name": "Example name",
-        "slug": "mobile",
-        "gamesCount": 1853
-      },
-      {
-        "name": "Example name",
-        "slug": "Example slug",
-        "gamesCount": 5006
-      }
-    ],
-    "hierarchy": [
-      {
-        "name": "Example name",
-        "slug": "io",
-        "isCategory": true
-      },
-      {
-        "name": "Example name",
-        "slug": "battle",
-        "isCategory": false
-      }
-    ],
-    "collection": "battle",
-    "descriptionFirst": "Example description first: mock text standing in for the real value. Same field and type, made-up content.",
-    "descriptionRest": "Example description rest: mock text standing in for the real value. Same field and type, made-up content.",
-    "metaDescription": "Example meta description: mock text standing in for the real value. Same field and type, made-up content.",
-    "controls": "Example controls: mock text standing in for the real value. Same field and type, made-up content.",
-    "faq": [
-      {
-        "question": "Example question",
-        "answer": "Example answer"
-      },
-      {
-        "question": "Example question",
-        "answer": "Example answer: mock text standing in for the real value. Same field and type, made-up content."
-      }
-    ],
-    "addedOn": "2026-01-15",
-    "basicLaunchOn": "2026-01-15",
-    "releaseYear": 8768,
-    "lastFileUpdatedOn": "2026-01-15",
-    "lastSignificantUpdatedOn": "2026-01-15",
-    "loaderType": "html5",
-    "loaderTypeLabel": "HTML5",
-    "technology": "iframe",
-    "orientation": "LANDSCAPE",
-    "status": "PUBLISHED",
-    "isKids": false,
-    "isOriginal": false,
-    "hasIap": true,
-    "gameThumbLabels": [],
-    "mobileFriendly": true,
-    "iosFriendly": true,
-    "androidFriendly": true,
-    "iosAppFriendly": false
   }
 ]

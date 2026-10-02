@@ -15,22 +15,22 @@
     "isMarketplace": false,
     "breadcrumbs": [],
     "price": {
-      "current": 77.96,
+      "current": 80.31,
       "original": 100.79,
       "currency": "EUR",
       "formattedCurrent": null,
       "formattedOriginal": null,
-      "discountPercent": 6.68
+      "discountPercent": 4.39
     },
     "unitPrice": {
-      "amount": 9591,
+      "amount": 1227.31,
       "currency": "EUR",
       "unit": "Example unit"
     },
     "isOnSpecial": true,
     "wasPrice": 94.39,
-    "savingsAmount": 7.47,
-    "savingsPercent": 10.29,
+    "savingsAmount": 4.91,
+    "savingsPercent": 6.73,
     "promoLabel": "Example promo label",
     "availability": {
       "code": "AVAILABLE",

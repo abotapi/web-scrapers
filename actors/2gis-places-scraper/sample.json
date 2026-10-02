@@ -2,7 +2,7 @@
   {
     "recordType": "place",
     "id": "65232193538238391",
-    "fullId": "74442536522882171_zdul554365g37h7861ig4gggay2x0d84g9g2652412811c63wpqt56564j1a9g7g5j013j0j7hyhuv8c93696146202h2j4hhhg0h82020",
+    "fullId": "81743342513582105_epql6r7107g89h1433ig1gggxjrdzh30g2g5866380706c17wpqt34132j0a4g5g0j905j9jed4wuv5c7c312733021h3j0hhhg8h838b2",
     "name": "Example name",
     "fullName": "Example full name",
     "shortName": "Example short name",
@@ -57,32 +57,60 @@
     "buildingName": null
   },
   {
-    "recordType": "review",
-    "reviewId": "259440972",
-    "placeId": "35332851994781102",
-    "placeName": "Example place name",
-    "rating": 5,
-    "text": "Example text: mock text standing in for the real value. Same field and type, made-up content.",
-    "dateCreated": "2026-01-15T10:00:00Z",
-    "dateEdited": null,
-    "reviewUrl": null,
-    "authorName": "Example author name",
-    "authorId": "725993263",
-    "authorPublicId": "id12134406",
-    "authorUrl": null,
-    "authorPhotoUrl": "",
-    "authorReviewsCount": 653,
-    "likesCount": 0,
-    "commentsCount": 0,
-    "isVerified": false,
-    "isHidden": false,
-    "hasOfficialAnswer": false,
-    "provider": "Example provider",
-    "source": null,
-    "photos": [],
-    "photoCount": 0,
-    "officialAnswerText": null,
-    "officialAnswerDate": null,
-    "officialAnswerOrg": null
+    "recordType": "place",
+    "id": "06513012060084972",
+    "fullId": "44379390460186629_epql9r7972g82h6119ig4gggxjrdzh94g9g6585098045c00wpqt77222j0a8g2g0j356j4jed4wuv7c2c476350713h5j6hhhg1h214b5",
+    "name": "Example name",
+    "fullName": "Example full name",
+    "shortName": "Example short name",
+    "nameExtension": "Example name extension",
+    "url": "https://2gis.ru/example/53361",
+    "type": "branch",
+    "subtype": null,
+    "purpose": null,
+    "description": null,
+    "rubrics": [
+      "Example rubrics",
+      "Example rubrics"
+    ],
+    "rubricIds": [
+      "412",
+      "809"
+    ],
+    "primaryRubric": "Example primary rubric",
+    "rating": 5.24,
+    "reviewCount": 74,
+    "ratingCount": 12,
+    "isReviewable": true,
+    "orgRating": 3.95,
+    "orgReviewCount": 50,
+    "flampRating": null,
+    "flampReviewCount": null,
+    "address": "Example address",
+    "fullAddress": "Example full address",
+    "addressComment": "Example address comment",
+    "postcode": "836383",
+    "buildingId": "6134931079552694",
+    "country": "Example country",
+    "region": "Example region",
+    "city": "Example city",
+    "district": "Example district",
+    "livingArea": null,
+    "street": "Example street",
+    "houseNumber": "57/57",
+    "latitude": 57.52,
+    "longitude": 37.36,
+    "timezoneOffset": 515,
+    "nearestStations": [
+      {
+        "id": "9701100329673914",
+        "distanceMeters": 368
+      },
+      {
+        "id": "3830151975952943",
+        "distanceMeters": 9913
+      }
+    ],
+    "buildingName": null
   }
 ]

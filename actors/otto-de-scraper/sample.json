@@ -1,8 +1,8 @@
 [
   {
-    "productId": "4247590897",
-    "variationId": "5224893643",
-    "articleNumber": "19704967",
+    "productId": "6775715360",
+    "variationId": "6843560092",
+    "articleNumber": "55071244",
     "name": "Example name: mock text standing in for the real value. Same field and type, made-up content.",
     "brand": "Example brand",
     "url": "https://www.otto.de/example/92532",
@@ -11,7 +11,7 @@
       "https://i.otto.de/example/38997.jpg",
       "https://i.otto.de/example/27128.jpg"
     ],
-    "price": 1190.39,
+    "price": 1279.99,
     "currency": "EUR",
     "originalPrice": 6347,
     "discountPercent": 54,
@@ -19,19 +19,19 @@
     "promoLabel": "Example promo label",
     "availability": "AVAILABLE",
     "availabilityText": "Example availability text",
-    "rating": 4.54,
-    "reviewCount": 4,
+    "rating": 5,
+    "reviewCount": 49,
     "variants": [
       {
-        "variationId": "3313893288",
-        "color": "stone",
-        "hexCode": "20099d",
-        "selected": false
+        "variationId": "6843560092",
+        "color": "beige",
+        "hexCode": "b6aea4",
+        "selected": true
       },
       {
-        "variationId": "5775826384",
-        "color": "taupe",
-        "hexCode": "7e7a0e",
+        "variationId": "0914771673",
+        "color": "grau",
+        "hexCode": "15470a",
         "selected": false
       }
     ],
@@ -45,22 +45,22 @@
     "breadcrumb": null,
     "returnPolicy": null,
     "reviews": {
-      "averageRating": 3.24,
-      "reviewCount": 4,
+      "averageRating": 9,
+      "reviewCount": 49,
       "items": [
         {
           "reviewId": "id19181106",
           "rating": 5,
-          "verifiedPurchase": null,
-          "author": null,
-          "location": null,
-          "date": null,
-          "title": null,
-          "body": null,
-          "helpfulVotes": null,
-          "helpfulVotesTotal": null,
-          "variantPurchased": null,
-          "seller": null
+          "verifiedPurchase": true,
+          "author": "Example author",
+          "location": "Example location",
+          "date": "62.41.8381",
+          "title": "Example title",
+          "body": "Example body: mock text standing in for the real value. Same field and type, made-up content.",
+          "helpfulVotes": 84,
+          "helpfulVotesTotal": 90,
+          "variantPurchased": "Example variant purchased: mock text standing in for the real value. Same field and type, made-up content.",
+          "seller": "Example seller"
         }
       ]
     }

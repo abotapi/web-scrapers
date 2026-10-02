@@ -1,12 +1,12 @@
 [
   {
     "recordType": "listing",
-    "listingId": "056909-605",
+    "listingId": "502363-144",
     "url": "https://www.hepsiemlak.com/example/84506",
-    "title": "Example title",
+    "title": "Example title: mock text standing in for the real value. Same field and type, made-up content.",
     "price": 4028640,
     "currency": "TRY",
-    "grossSqm": 11,
+    "grossSqm": 551,
     "rooms": 4,
     "bedrooms": 1,
     "propertyTypes": [

@@ -73,10 +73,10 @@ Full details on the [scraper page](https://apify.com/abotapi/netshoes-scraper?ut
 | `priceBeforePaymentDiscount` | float |
 | `paymentMethod` | null |
 | `paymentMethodPrice` | null |
-| `discountAmount` | null |
-| `discountPercent` | null |
+| `discountAmount` | float |
+| `discountPercent` | integer |
 | `onSale` | boolean |
-| `installments` | null |
+| `installments` | object |
 | `installmentPlans` | list |
 | `sellerName` | null |
 | `soldByStore` | null |
@@ -94,7 +94,7 @@ Full details on the [scraper page](https://apify.com/abotapi/netshoes-scraper?ut
 | `featuredImage` | string |
 | `images` | list |
 | `videos` | list |
-| `rating` | integer |
+| `rating` | float |
 
 ---
 

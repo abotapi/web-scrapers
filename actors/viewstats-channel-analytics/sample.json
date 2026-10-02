@@ -54,18 +54,18 @@
     "growth": {
       "weekly": {
         "views": 240353843,
-        "viewsDelta": 881707180,
+        "viewsDelta": 8707180,
         "subscribers": 2715371,
-        "subscribersDelta": 6726785,
+        "subscribersDelta": 0,
         "estimatedRevenueLowUsd": 352539,
         "estimatedRevenueHighUsd": 4591385,
-        "estimatedRevenueDelta": 389811
+        "estimatedRevenueDelta": -389811
       },
       "monthly": {
         "views": 3840353843,
-        "viewsDelta": -8081707180,
+        "viewsDelta": -881707180,
         "subscribers": 2715371,
-        "subscribersDelta": -6726785,
+        "subscribersDelta": 0,
         "estimatedRevenueLowUsd": 1252539,
         "estimatedRevenueHighUsd": 4591385,
         "estimatedRevenueDelta": 389811
@@ -77,7 +77,7 @@
         "subscribersDelta": -96726785,
         "estimatedRevenueLowUsd": 1252539,
         "estimatedRevenueHighUsd": 58591385,
-        "estimatedRevenueDelta": 389811
+        "estimatedRevenueDelta": 6689811
       },
       "yearly": {
         "views": 39840353843,
@@ -152,12 +152,12 @@
       "description": "",
       "viewCount": 36752661,
       "likeCount": 163328,
-      "commentCount": 3096,
+      "commentCount": 21096,
       "uploadDate": "2026-01-15T10:00:00Z",
       "duration": 87,
       "shorts": false,
       "viewsPerHour": 794094,
-      "outlierScore": 0.29
+      "outlierScore": 0.56
     },
     "scrapedAt": "2026-01-15T10:00:00Z"
   }

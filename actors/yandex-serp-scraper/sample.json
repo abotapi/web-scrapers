@@ -4,8 +4,8 @@
     "page": 4,
     "position": 8,
     "title": "Example title",
-    "url": "https://nymag.com/example/81063",
-    "domain": "nymag.com",
+    "url": "https://djd1xqjx2kdnv.cloudfront.net/example/81063",
+    "domain": "cloudfront.net",
     "breadcrumb": "Example breadcrumb",
     "snippet": "Example snippet: mock text standing in for the real value. Same field and type, made-up content."
   },
@@ -14,8 +14,8 @@
     "page": 8,
     "position": 1,
     "title": "Example title",
-    "url": "https://www.bbcgoodfood.com/example/99441",
-    "domain": "bbcgoodfood.com",
+    "url": "https://nymag.com/example/99441",
+    "domain": "nymag.com",
     "breadcrumb": "Example breadcrumb",
     "snippet": "Example snippet: mock text standing in for the real value. Same field and type, made-up content."
   }

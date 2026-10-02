@@ -1,0 +1,65 @@
+[
+  {
+    "productId": "6478913578",
+    "url": "https://www.yesstyle.com/example/51930",
+    "brand": "NINELESS",
+    "name": "Example name",
+    "price": 1.23,
+    "currency": "USD",
+    "priceDisplay": "Example price display",
+    "originalPrice": 3.53,
+    "discountPercent": 30,
+    "rating": 4.1,
+    "imageUrl": "https://d1flfk77wl2xk4.cloudfront.net/example/14164.jpg",
+    "badges": [
+      "Example badges"
+    ],
+    "originCountry": "KR",
+    "brandId": 715778,
+    "originalPriceDisplay": "Example original price display",
+    "priceUsd": 0.95,
+    "discountAmountUsd": 2.4,
+    "reviewCount": 5048,
+    "itemStatus": "Example item status",
+    "isNew": false,
+    "hasVideos": false,
+    "variant": "Example variant",
+    "variantProductIds": [
+      "0045784180",
+      "6348583367"
+    ],
+    "variantCount": 3,
+    "bestsellerRank": 3,
+    "promotions": [
+      "Example promotions"
+    ],
+    "sourceUrl": "https://www.yesstyle.com/example/20280",
+    "sourceQuery": "Example source query",
+    "searchRank": 5,
+    "productDescription": "Example product description: mock text standing in for the real value. Same field and type, made-up content.",
+    "availability": "Example availability",
+    "condition": "NewCondition",
+    "categories": [
+      "Home",
+      "Beauty"
+    ],
+    "categoryUrls": [
+      "https://www.yesstyle.com/example/17208",
+      "https://www.yesstyle.com/example/6021"
+    ],
+    "images": [
+      "https://d1flfk77wl2xk4.cloudfront.net/example/92005.jpg",
+      "https://d1flfk77wl2xk4.cloudfront.net/example/55601.jpg"
+    ],
+    "imageCount": 9,
+    "selectedOption": "Example selected option",
+    "coverImageUrl": "https://d1flfk77wl2xk4.cloudfront.net/example/62015.jpg",
+    "productDetails": "Example product details: mock text standing in for the real value. Same field and type, made-up content.",
+    "productDetailSections": {
+      "Size": "Example size",
+      "Benefits": "Example benefits: mock text standing in for the real value. Same field and type, made-up content.",
+      "Types available": "Example types available: mock text standing in for the real value. Same field and type, made-up content.",
+      "How to use": "Example how to use: mock text standing in for the real value. Same field and type, made-up content."
+    }
+  }
+]

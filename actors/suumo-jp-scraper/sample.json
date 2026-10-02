@@ -1,7 +1,7 @@
 [
   {
-    "id": "530104266399",
-    "buildingId": "022011177303",
+    "id": "047409734947",
+    "buildingId": "443951720185",
     "buildingName": "Example building name",
     "buildingType": "Example building type",
     "address": "Example address",
@@ -15,44 +15,16 @@
     "floor": "Example floor",
     "rentYen": 478019,
     "rentDisplay": "Example rent display",
-    "mgmtFeeYen": 72841,
+    "mgmtFeeYen": 9841,
     "depositYen": 843098,
     "keyMoneyYen": 191040,
     "layout": "Example layout",
-    "areaSqm": 49.43,
+    "areaSqm": 26.86,
     "url": "https://suumo.jp/example/65782",
     "sourceType": "search",
     "sourceId": "00944",
     "sourceUrl": null,
     "position": 4,
-    "scrapedAt": "2026-01-15T10:00:00Z"
-  },
-  {
-    "id": "142514924754",
-    "buildingId": "025424869162",
-    "buildingName": "Example building name",
-    "buildingType": "Example building type",
-    "address": "Example address",
-    "stations": [
-      "Example stations",
-      "Example stations"
-    ],
-    "buildingAge": "Example building age",
-    "buildingFloors": "Example building floors",
-    "imageUrl": "https://img01.suumo.com/example/997.jpg",
-    "floor": "Example floor",
-    "rentYen": 177751,
-    "rentDisplay": "Example rent display",
-    "mgmtFeeYen": 36445,
-    "depositYen": null,
-    "keyMoneyYen": 271488,
-    "layout": "Example layout",
-    "areaSqm": 18.71,
-    "url": "https://suumo.jp/example/24122",
-    "sourceType": "search",
-    "sourceId": "91365",
-    "sourceUrl": null,
-    "position": 3,
     "scrapedAt": "2026-01-15T10:00:00Z"
   }
 ]

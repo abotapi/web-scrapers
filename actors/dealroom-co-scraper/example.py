@@ -1,4 +1,4 @@
-"""Dealroom Startup & Market Map Scraper: minimal example. Docs: https://apify.com/abotapi/dealroom-co-scraper
+"""Dealroom.net Scraper: minimal example. Docs: https://apify.com/abotapi/dealroom-co-scraper
 
 pip install "apify-client>=3"
 APIFY_TOKEN=<your token> python example.py

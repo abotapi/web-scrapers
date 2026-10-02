@@ -84,11 +84,11 @@ Full details on the [scraper page](https://apify.com/abotapi/idealista-scraper?u
 | `reference` | string |
 | `lastUpdatedText` | string |
 | `features` | list |
-| `hasTerrace` | boolean |
+| `hasStorage` | boolean |
 | `hasAC` | boolean |
 | `condition` | string |
 | `orientation` | string |
-| `heating` | string |
+| `constructionYear` | integer |
 
 ---
 

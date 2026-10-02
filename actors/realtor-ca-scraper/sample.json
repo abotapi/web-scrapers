@@ -1,8 +1,8 @@
 [
   {
     "scrapedAt": "2026-01-15T10:00:00Z",
-    "propertyId": "93445125",
-    "mlsNumber": "e00758032",
+    "propertyId": "24973059",
+    "mlsNumber": "w49121313",
     "url": "https://www.realtor.ca/example/2424",
     "listingType": "buy",
     "propertyType": "house",
@@ -15,11 +15,11 @@
       "street": "Example street",
       "city": "Toronto",
       "province": "Example province",
-      "postalCode": "m9c2z9"
+      "postalCode": "m8n4e0"
     },
     "coordinates": {
-      "latitude": 54.75,
-      "longitude": -61.72
+      "latitude": 54.71,
+      "longitude": -62.03
     },
     "price": {
       "display": "Example display",
@@ -55,6 +55,16 @@
         "profileUrl": "https://www.realtor.ca/example/94295",
         "organization": "Example organization",
         "organizationLogo": "https://cdn.realtor.ca/example/63960.jpg",
+        "organizationDesignation": "Example organization designation",
+        "organizationPhone": "+1 555 0100"
+      },
+      {
+        "name": "Example name",
+        "phone": "+1 555 0100",
+        "position": "Example position",
+        "profileUrl": "https://www.realtor.ca/example/58336",
+        "organization": "Example organization",
+        "organizationLogo": "https://cdn.realtor.ca/example/88728.jpg",
         "organizationDesignation": "Example organization designation",
         "organizationPhone": "+1 555 0100"
       }

@@ -10,7 +10,7 @@
     "proCategory": null,
     "proTypeDisplayName": "Example pro type display name",
     "proSkuId": 49,
-    "isInactivePro": false,
+    "isInactivePro": null,
     "country": "US",
     "state": "TX",
     "city": "Grapevine",
@@ -35,7 +35,7 @@
     "aspectQuality": null,
     "aspectValue": null,
     "featuredReview": {
-      "id": null,
+      "id": 7445156,
       "rating": null,
       "text": "Example text: mock text standing in for the real value. Same field and type, made-up content.",
       "author": "Example author",
@@ -43,22 +43,19 @@
       "date": null,
       "projectType": null,
       "raw": {
-        "textOffset": null,
         "text": "Example text: mock text standing in for the real value. Same field and type, made-up content.",
-        "textLength": null,
         "rawReview": {
-          "id": null,
-          "rating": null,
           "user": {
             "userName": "id2273159",
             "displayName": "Example display name"
-          }
+          },
+          "id": 7445156
         }
       }
     },
     "featuredReviewText": "Example featured review text: mock text standing in for the real value. Same field and type, made-up content.",
     "mostRecentReview": {
-      "id": null,
+      "id": 7445156,
       "rating": null,
       "text": "Example text: mock text standing in for the real value. Same field and type, made-up content.",
       "author": "id7992393",
@@ -66,12 +63,12 @@
       "date": null,
       "projectType": null,
       "raw": {
-        "id": null,
         "body": "Example body: mock text standing in for the real value. Same field and type, made-up content.",
         "user": {
           "userName": "id2273159",
           "displayName": "id24631083"
-        }
+        },
+        "id": 7445156
       }
     },
     "mostRecentReviewText": "Example most recent review text: mock text standing in for the real value. Same field and type, made-up content.",

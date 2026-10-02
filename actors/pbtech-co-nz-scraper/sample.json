@@ -1,6 +1,6 @@
 [
   {
-    "code": "nbklen576778",
+    "code": "nbkacn5840i",
     "name": "Example name: mock text standing in for the real value. Same field and type, made-up content.",
     "url": "https://www.pbtech.co.nz/example/22132",
     "price": 9451,
@@ -15,8 +15,7 @@
       "Screen Resolution": "Example screen  resolution",
       "Refresh Rate": "Example refresh  rate",
       "GPU Model": "Example g p u  model",
-      "Operating System": "Example operating  system",
-      "MPN": "06s90272nz"
+      "Operating System": "Example operating  system"
     },
     "promotion": "Example promotion",
     "imageUrl": null,
@@ -24,16 +23,14 @@
     "searchMode": "search",
     "specialsCategory": null,
     "source": "pbtech.co.nz",
-    "sku": "nbklen981905",
-    "mpn": "43s99365nz",
-    "gtin": "235741684230",
-    "brand": "Lenovo",
+    "sku": "nbkacn1643i",
+    "brand": "Acer",
     "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
     "images": [
       "https://www.pbtech.co.nz/example/27369.jpg",
       "https://www.pbtech.co.nz/example/3491.jpg"
     ],
-    "rating": 4.61,
+    "rating": 5,
     "basePrice": 9745,
     "availability": "Example availability",
     "condition": "New",
@@ -58,65 +55,9 @@
     "ratingBreakdown": {
       "1": 0,
       "2": 0,
-      "3": 8,
+      "3": 0,
       "4": 0,
       "5": 4
     }
-  },
-  {
-    "code": "nbkasu986603",
-    "name": "Example name: mock text standing in for the real value. Same field and type, made-up content.",
-    "url": "https://www.pbtech.co.nz/example/89518",
-    "price": 2442.54,
-    "originalPrice": null,
-    "currency": "NZD",
-    "reviewCount": null,
-    "specifications": {
-      "CPU Family": "Example c p u  family",
-      "Memory Size": "Example memory  size",
-      "SSD Capacity": "Example s s d  capacity",
-      "Screen Size": "Example screen  size",
-      "Screen Resolution": "Example screen  resolution",
-      "Refresh Rate": "Example refresh  rate",
-      "GPU Model": "Example g p u  model",
-      "Operating System": "Example operating  system",
-      "MPN": "fa409nuq-rl106w"
-    },
-    "promotion": "Example promotion",
-    "imageUrl": null,
-    "discountPercent": null,
-    "searchMode": "search",
-    "specialsCategory": null,
-    "source": "pbtech.co.nz",
-    "sku": "nbkasu084685",
-    "mpn": "fa069nuq-rl903w",
-    "gtin": "518406675700",
-    "brand": "ASUS",
-    "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
-    "images": [
-      "https://www.pbtech.co.nz/example/97900.jpg",
-      "https://www.pbtech.co.nz/example/64266.jpg"
-    ],
-    "basePrice": 3084.01,
-    "availability": "Example availability",
-    "condition": "New",
-    "priceValidUntil": "2026-01-15",
-    "seller": "Example seller",
-    "categories": [
-      "Example categories",
-      "Laptops"
-    ],
-    "specificationsText": "Example specifications text: mock text standing in for the real value. Same field and type, made-up content.",
-    "storeStock": [
-      {
-        "branch": "Example branch",
-        "stock": 0
-      },
-      {
-        "branch": "Example branch",
-        "stock": 0
-      }
-    ],
-    "totalStoreStock": 96
   }
 ]

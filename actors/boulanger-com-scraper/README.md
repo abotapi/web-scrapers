@@ -61,9 +61,9 @@ Full details on the [scraper page](https://apify.com/abotapi/boulanger-com-scrap
 | `price` | integer |
 | `currency` | string |
 | `priceExclTax` | float |
-| `originalPrice` | null |
-| `discountAmount` | null |
-| `discountPercent` | null |
+| `originalPrice` | float |
+| `discountAmount` | float |
+| `discountPercent` | integer |
 | `isOnSpecial` | boolean |
 | `promoLabel` | null |
 | `unitPrice` | null |

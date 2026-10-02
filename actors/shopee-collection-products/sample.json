@@ -1,20 +1,20 @@
 [
   {
     "id": "Example id",
-    "itemId": "08601212049",
-    "shopId": "6485315690",
-    "name": "Example name",
-    "translatedName": "Example translated name",
+    "itemId": "60660654905",
+    "shopId": "1235496635",
+    "name": "Example name: mock text standing in for the real value. Same field and type, made-up content.",
+    "translatedName": "Example translated name: mock text standing in for the real value. Same field and type, made-up content.",
     "url": "https://shopeekh.com/example/44372",
-    "price": 7051,
+    "price": 25051,
     "originalPrice": null,
-    "discountPercent": 0,
+    "discountPercent": 62,
     "currency": "KHR",
-    "rating": 4.67,
-    "ratingCount": 51597,
+    "rating": 4.71,
+    "ratingCount": 27,
     "ratingDistribution": [
-      52802,
-      85
+      62,
+      0
     ],
     "images": [
       "https://down-kh.img.susercontent.com/example/33654.jpg",
@@ -27,44 +27,12 @@
           "Example options",
           "Example options"
         ],
-        "images": [
-          "id9333654",
-          "id42923170"
-        ],
+        "images": null,
         "properties": null,
         "type": 0
       }
     ],
-    "videos": [
-      {
-        "video_id": "Example video_id: mock text standing in for the real value. Same field and type, made-up content.",
-        "thumb_url": "id67143737",
-        "duration": 60,
-        "version": 6,
-        "vid": "id63479414",
-        "formats": [
-          {
-            "format": 7425930,
-            "defn": "V720P",
-            "profile": "MP4",
-            "path": "Example path: mock text standing in for the real value. Same field and type, made-up content.",
-            "url": "https://down-ws-kh.vod.susercontent.com/example/44372",
-            "width": 432,
-            "height": 9151
-          }
-        ],
-        "default_format": {
-          "format": 7425930,
-          "defn": "V540P",
-          "profile": "MP4",
-          "path": null,
-          "url": "https://mms.vod.susercontent.com/example/44372",
-          "width": 432,
-          "height": 151
-        },
-        "mms_data": "Example mms_data: mock text standing in for the real value. Same field and type, made-up content."
-      }
-    ],
+    "videos": null,
     "shop": {
       "shop_name": "Example shop_name",
       "shop_icon": null,
@@ -76,7 +44,7 @@
     ],
     "brand": null,
     "inStock": true,
-    "likes": 44,
+    "likes": 8,
     "isVerifiedSeller": false,
     "collectionId": "83941399",
     "collectionName": null,
@@ -93,11 +61,11 @@
       "item_card_display_price": {
         "item_id": 87787181608,
         "model_id": 727846309111,
-        "promotion_type": 0,
-        "promotion_id": 0,
-        "price": 676195051,
-        "strikethrough_price": null,
-        "discount": 0,
+        "promotion_type": 305,
+        "promotion_id": 268638093584494,
+        "price": 2476195051,
+        "strikethrough_price": 9027905465,
+        "discount": 64,
         "discount_text": null,
         "hidden_price_display_text": null,
         "recommended_shop_voucher_promotion_id": null,
@@ -106,7 +74,7 @@
         "recommended_platform_voucher_info": null,
         "original_price": null,
         "pix_discount_info": null,
-        "applied_product_promo_price": 724745197
+        "applied_product_promo_price": 2524745197
       },
       "item_card_display_sold_count": null,
       "is_sold_out": false,
@@ -117,7 +85,7 @@
       ],
       "catid": 567927,
       "shopee_verified": false,
-      "liked_count": 80,
+      "liked_count": 8,
       "item_type": 0,
       "reference_item_id": null,
       "shop_data": {
@@ -137,46 +105,17 @@
       },
       "overlay_images": null,
       "item_rating": {
-        "rating_star": 6.3,
+        "rating_star": 6.34,
         "rating_count": [
-          73648,
-          51
+          28,
+          0
         ],
         "rcount_with_context": null,
         "rcount_with_image": null
       },
       "global_brand": null,
       "platform_voucher": null,
-      "video_info_list": [
-        {
-          "video_id": "Example video_id: mock text standing in for the real value. Same field and type, made-up content.",
-          "thumb_url": "id67143737",
-          "duration": 60,
-          "version": 6,
-          "vid": "id63479414",
-          "formats": [
-            {
-              "format": 7425930,
-              "defn": "V720P",
-              "profile": "MP4",
-              "path": "Example path: mock text standing in for the real value. Same field and type, made-up content.",
-              "url": "https://down-ws-kh.vod.susercontent.com/example/44372",
-              "width": 432,
-              "height": 9151
-            }
-          ],
-          "default_format": {
-            "format": 7425930,
-            "defn": "V540P",
-            "profile": "MP4",
-            "path": null,
-            "url": "https://mms.vod.susercontent.com/example/44372",
-            "width": 432,
-            "height": 151
-          },
-          "mms_data": "Example mms_data: mock text standing in for the real value. Same field and type, made-up content."
-        }
-      ],
+      "video_info_list": null,
       "tier_variations": [
         {
           "name": "Example name",
@@ -184,10 +123,7 @@
             "Example options",
             "Example options"
           ],
-          "images": [
-            "id9333654",
-            "id42923170"
-          ],
+          "images": null,
           "properties": null,
           "type": 0
         }
@@ -200,7 +136,7 @@
       "real_sku_info_list": null
     },
     "displayAssets": {
-      "name": "Example name",
+      "name": "Example name: mock text standing in for the real value. Same field and type, made-up content.",
       "image": "id36394450",
       "images": [
         "id9333654",
@@ -216,311 +152,22 @@
         "enable_age_gate_label": false
       },
       "icon_in_image": {
-        "icon_type": 1,
+        "icon_type": null,
         "ads_text": "Example ads_text"
       },
-      "image_overlay": null,
+      "image_overlay": {
+        "featured_promo_overlay": null,
+        "legacy_overlay": {
+          "name": "Example name",
+          "image_overlay": {
+            "hash": "id34996847",
+            "width": 432,
+            "height": 151
+          }
+        }
+      },
       "seller_flag": null,
       "promotion_label_list": null,
-      "icon_in_price": null,
-      "discount_tag": null,
-      "voucher_applied_icon": null,
-      "rating": null,
-      "sold_count": null,
-      "estimated_delivery_time": null,
-      "free_badge": null,
-      "find_similar": null,
-      "long_image": null,
-      "long_images": null,
-      "top_product_badge": null,
-      "item_card_specs": null,
-      "display_price": {
-        "price": 676195051,
-        "strikethrough_price": null,
-        "hidden_price_display_text": null,
-        "display_price_type": 0,
-        "installment_price": null,
-        "display_price_asset": null,
-        "strikethrough_installment_price": null
-      },
-      "cta_button": null,
-      "card_header": null,
-      "name_tr": "Example name_tr",
-      "shop_location_tr": null,
-      "brand_info": null,
-      "in_title_image_flags": null,
-      "model_info": null,
-      "deals_label": null,
-      "promotion_stock_progress_bar_asset": null,
-      "final_price_icon": null
-    }
-  },
-  {
-    "id": "Example id",
-    "itemId": "27600096379",
-    "shopId": "8340350030",
-    "name": "Example name: mock text standing in for the real value. Same field and type, made-up content.",
-    "translatedName": "Example translated name: mock text standing in for the real value. Same field and type, made-up content.",
-    "url": "https://shopeekh.com/example/13680",
-    "price": 44128,
-    "originalPrice": null,
-    "discountPercent": 82,
-    "currency": "KHR",
-    "rating": 4.98,
-    "ratingCount": 1929,
-    "ratingDistribution": [
-      5788,
-      8
-    ],
-    "images": [
-      "https://down-kh.img.susercontent.com/example/14159.jpg",
-      "https://down-kh.img.susercontent.com/example/4191.jpg"
-    ],
-    "variants": [
-      {
-        "name": "Example name",
-        "options": [
-          "Example options",
-          "Example options"
-        ],
-        "images": [
-          "id46014159",
-          "id94904191"
-        ],
-        "properties": null,
-        "type": 0
-      },
-      {
-        "name": "Example name",
-        "options": [
-          "Example options",
-          "Example options"
-        ],
-        "images": null,
-        "properties": null,
-        "type": 0
-      }
-    ],
-    "videos": [
-      {
-        "video_id": "Example video_id: mock text standing in for the real value. Same field and type, made-up content.",
-        "thumb_url": "id80839300",
-        "duration": 63,
-        "version": 5,
-        "vid": "id923955",
-        "formats": [
-          {
-            "format": 5567500,
-            "defn": "V540P",
-            "profile": "MP4",
-            "path": "Example path: mock text standing in for the real value. Same field and type, made-up content.",
-            "url": "https://down-ws-kh.vod.susercontent.com/example/13680",
-            "width": 993,
-            "height": 247
-          }
-        ],
-        "default_format": {
-          "format": 5567500,
-          "defn": "V540P",
-          "profile": "MP4",
-          "path": null,
-          "url": "https://mms.vod.susercontent.com/example/13680",
-          "width": 993,
-          "height": 247
-        },
-        "mms_data": "Example mms_data: mock text standing in for the real value. Same field and type, made-up content."
-      }
-    ],
-    "shop": {
-      "shop_name": "Example shop_name",
-      "shop_icon": null,
-      "shop_location": "Example shop_location"
-    },
-    "categoryIds": [
-      756284,
-      356862
-    ],
-    "brand": null,
-    "inStock": true,
-    "likes": 31,
-    "isVerifiedSeller": false,
-    "collectionId": "92549572",
-    "collectionName": null,
-    "market": "kh",
-    "sourceUrl": "https://shopeekh.com/example/31565",
-    "scrapedAt": "2026-01-15T10:00:00Z",
-    "productData": {
-      "itemid": 88848220304,
-      "shopid": 4234048566,
-      "is_adult": false,
-      "need_kyc": false,
-      "adult_age_threshold": null,
-      "is_sexual": false,
-      "item_card_display_price": {
-        "item_id": 81886383590,
-        "model_id": 607469153954,
-        "promotion_type": 725,
-        "promotion_id": 347646810757441,
-        "price": 3389894128,
-        "strikethrough_price": 2661134902,
-        "discount": 75,
-        "discount_text": null,
-        "hidden_price_display_text": null,
-        "recommended_shop_voucher_promotion_id": null,
-        "recommended_platform_voucher_promotion_id": null,
-        "recommended_shop_voucher_info": null,
-        "recommended_platform_voucher_info": null,
-        "original_price": null,
-        "pix_discount_info": null,
-        "applied_product_promo_price": 8226019648
-      },
-      "item_card_display_sold_count": null,
-      "is_sold_out": false,
-      "is_preview": false,
-      "label_ids": [
-        121718547118575,
-        884984154
-      ],
-      "catid": 533290,
-      "shopee_verified": false,
-      "liked_count": 66,
-      "item_type": 0,
-      "reference_item_id": null,
-      "shop_data": {
-        "shop_name": "Example shop_name",
-        "shop_icon": null,
-        "shop_location": "Example shop_location"
-      },
-      "status": 1,
-      "ctime": 2288836971,
-      "flag": 96594,
-      "item_status": "normal",
-      "global_cat": {
-        "catid": [
-          533290,
-          737981
-        ]
-      },
-      "overlay_images": null,
-      "item_rating": {
-        "rating_star": 3.94,
-        "rating_count": [
-          9791,
-          3
-        ],
-        "rcount_with_context": null,
-        "rcount_with_image": null
-      },
-      "global_brand": null,
-      "platform_voucher": null,
-      "video_info_list": [
-        {
-          "video_id": "Example video_id: mock text standing in for the real value. Same field and type, made-up content.",
-          "thumb_url": "id80839300",
-          "duration": 63,
-          "version": 5,
-          "vid": "id923955",
-          "formats": [
-            {
-              "format": 5567500,
-              "defn": "V540P",
-              "profile": "MP4",
-              "path": "Example path: mock text standing in for the real value. Same field and type, made-up content.",
-              "url": "https://down-ws-kh.vod.susercontent.com/example/13680",
-              "width": 993,
-              "height": 247
-            }
-          ],
-          "default_format": {
-            "format": 5567500,
-            "defn": "V540P",
-            "profile": "MP4",
-            "path": null,
-            "url": "https://mms.vod.susercontent.com/example/13680",
-            "width": 993,
-            "height": 247
-          },
-          "mms_data": "Example mms_data: mock text standing in for the real value. Same field and type, made-up content."
-        }
-      ],
-      "tier_variations": [
-        {
-          "name": "Example name",
-          "options": [
-            "Example options",
-            "Example options"
-          ],
-          "images": [
-            "id46014159",
-            "id94904191"
-          ],
-          "properties": null,
-          "type": 0
-        },
-        {
-          "name": "Example name",
-          "options": [
-            "Example options",
-            "Example options"
-          ],
-          "images": null,
-          "properties": null,
-          "type": 0
-        }
-      ],
-      "can_use_bundle_deal": false,
-      "price_stock": null,
-      "transparent_background_image": null,
-      "historical_lowest_price": null,
-      "virtual_sku_info": null,
-      "real_sku_info_list": null
-    },
-    "displayAssets": {
-      "name": "Example name: mock text standing in for the real value. Same field and type, made-up content.",
-      "image": "id95716182",
-      "images": [
-        "id46014159",
-        "id94904191"
-      ],
-      "shop_location": null,
-      "highlight_videos": null,
-      "item_card_mask": {
-        "mask_type": null,
-        "mask_text": null,
-        "pre_kyc_text": "Example pre_kyc_text",
-        "post_kyc_text": "Example post_kyc_text",
-        "enable_age_gate_label": false
-      },
-      "icon_in_image": {
-        "icon_type": 1,
-        "ads_text": "Example ads_text"
-      },
-      "image_overlay": null,
-      "seller_flag": null,
-      "promotion_label_list": [
-        {
-          "type": "EXCLUSIVE_PRICE",
-          "style": "outline",
-          "specs": {
-            "text_color": "Example text_color",
-            "border_color": "Example border_color",
-            "background_color": null,
-            "primary_color": null,
-            "secondary_color": null,
-            "image": null,
-            "gradient_colors": null,
-            "left_image": null
-          },
-          "data": {
-            "text": "Example text",
-            "text_left": null,
-            "text_right": null,
-            "progress_percent": null,
-            "texts": null,
-            "countdown_timestamp": null
-          }
-        }
-      ],
       "icon_in_price": null,
       "discount_tag": {
         "discount_text": "Example discount_text",
@@ -538,7 +185,7 @@
       "top_product_badge": null,
       "item_card_specs": null,
       "display_price": {
-        "price": 3389894128,
+        "price": 2476195051,
         "strikethrough_price": null,
         "hidden_price_display_text": null,
         "display_price_type": 0,

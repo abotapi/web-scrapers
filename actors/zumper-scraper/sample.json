@@ -1,6 +1,6 @@
 [
   {
-    "id": "80129213",
+    "id": "55235715",
     "url": "https://www.zumper.com/example/1675",
     "padmapperUrl": "https://www.zumper.com/example/85680",
     "title": "Example title",
@@ -11,12 +11,12 @@
     "formattedAddress": null,
     "city": "Example city",
     "state": "CA",
-    "zipcode": "98185",
+    "zipcode": "62051",
     "neighborhood": "SOMA",
-    "latitude": 33.62,
+    "latitude": 33.63,
     "longitude": -104.04,
     "minPrice": 5640,
-    "maxPrice": 2787,
+    "maxPrice": 20787,
     "previousPrice": null,
     "currency": "USD",
     "minBedrooms": 0,
@@ -25,60 +25,9 @@
     "maxBathrooms": 7,
     "minSquareFeet": 800,
     "maxSquareFeet": 1117,
-    "floorplanCount": 4,
+    "floorplanCount": 31,
     "dateAvailable": null,
-    "minLeaseDays": null,
-    "maxLeaseDays": null,
-    "listedOn": "2026-01-15T10:00:00Z",
-    "modifiedOn": "2026-01-15T10:00:00Z",
-    "yearBuilt": null,
-    "yearRemodeled": null,
-    "floors": null,
-    "unitAmenities": [
-      "Balcony",
-      "Refrigerator"
-    ],
-    "buildingAmenities": [
-      "Example building amenities",
-      "Example building amenities"
-    ],
-    "amenityGroups": null,
-    "petPolicy": [
-      6,
-      9
-    ],
-    "parking": null,
-    "deposits": null
-  },
-  {
-    "id": "58790322",
-    "url": "https://www.zumper.com/example/73539",
-    "padmapperUrl": "https://www.zumper.com/example/62239",
-    "title": "Example title",
-    "buildingName": "Example building name",
-    "propertyCategory": "apartments",
-    "isBuilding": true,
-    "address": "Example address",
-    "formattedAddress": null,
-    "city": "Example city",
-    "state": "CA",
-    "zipcode": "60051",
-    "neighborhood": "Example neighborhood",
-    "latitude": 41.17,
-    "longitude": -112.61,
-    "minPrice": 4106,
-    "maxPrice": 3371,
-    "previousPrice": null,
-    "currency": "USD",
-    "minBedrooms": 6,
-    "maxBedrooms": 8,
-    "minBathrooms": 3,
-    "maxBathrooms": 5,
-    "minSquareFeet": 959,
-    "maxSquareFeet": 2280,
-    "floorplanCount": 6,
-    "dateAvailable": null,
-    "minLeaseDays": null,
+    "minLeaseDays": 49,
     "maxLeaseDays": null,
     "listedOn": "2026-01-15T10:00:00Z",
     "modifiedOn": "2026-01-15T10:00:00Z",
@@ -87,7 +36,7 @@
     "floors": null,
     "unitAmenities": [
       "Example unit amenities",
-      "Dishwasher"
+      "Example unit amenities"
     ],
     "buildingAmenities": [
       "Example building amenities",
@@ -95,7 +44,7 @@
     ],
     "amenityGroups": null,
     "petPolicy": [
-      7,
+      6,
       9
     ],
     "parking": null,

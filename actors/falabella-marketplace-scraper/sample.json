@@ -1,8 +1,8 @@
 [
   {
     "recordType": "product",
-    "id": "02062328",
-    "skuId": "40940915",
+    "id": "68116917",
+    "skuId": "59798311",
     "name": "Example name",
     "brand": "APPLE",
     "url": "https://www.falabella.com/example/13428",
@@ -44,53 +44,6 @@
     "sourceId": "iphone",
     "sourceUrl": null,
     "position": 4,
-    "scrapedAt": "2026-01-15T10:00:00Z"
-  },
-  {
-    "recordType": "product",
-    "id": "61632077",
-    "skuId": "44569254",
-    "name": "Example name",
-    "brand": "APPLE",
-    "url": "https://www.falabella.com/example/32686",
-    "imageUrl": "https://media.falabella.com/example/61628.jpg",
-    "currency": "CLP",
-    "price": 1437325,
-    "priceDisplay": "Example price display",
-    "oldPrice": null,
-    "discountPercent": null,
-    "ratingAverage": 8,
-    "ratingCount": 1,
-    "sellerId": "Example seller id",
-    "sellerName": "Example seller name",
-    "officialSeller": false,
-    "sponsored": false,
-    "bestSeller": false,
-    "installments": [
-      {
-        "installments": 38,
-        "paymentMethods": [
-          "CMR_CREDIT_CARD",
-          "Example payment methods"
-        ],
-        "userSegment": []
-      },
-      {
-        "installments": 26,
-        "paymentMethods": [
-          "CMR_CREDIT_CARD",
-          "Example payment methods"
-        ],
-        "userSegment": []
-      }
-    ],
-    "shippingOptions": [],
-    "market": "CL",
-    "marketHost": "Example market host",
-    "sourceType": "search",
-    "sourceId": "iphone",
-    "sourceUrl": null,
-    "position": 3,
     "scrapedAt": "2026-01-15T10:00:00Z"
   }
 ]

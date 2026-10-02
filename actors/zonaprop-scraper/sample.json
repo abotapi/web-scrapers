@@ -1,12 +1,12 @@
 [
   {
-    "postingId": "18123731",
-    "postingCode": "Example posting code",
+    "postingId": "88141868",
+    "postingCode": "vap60008446",
     "alphanumericKey": "id20353075",
     "url": "https://www.zonaprop.com.ar/example/56913",
-    "title": "Example title: mock text standing in for the real value. Same field and type, made-up content.",
+    "title": "Example title",
     "generatedTitle": "Example generated title",
-    "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
+    "description": "user16@example.com",
     "propertyType": "Departamentos",
     "propertyTypeId": "3",
     "operationType": "Venta",
@@ -16,7 +16,7 @@
     "reserved": false,
     "isDuplicated": null,
     "price": 101229,
-    "priceFormatted": "475.071",
+    "priceFormatted": "075.607",
     "currency": "USD",
     "priceUsd": 994180,
     "priceArs": null,
@@ -25,18 +25,18 @@
         "operationType": "Venta",
         "operationTypeId": "5",
         "amount": 559285,
-        "formattedAmount": "752.526",
+        "formattedAmount": "734.332",
         "currency": "USD",
         "currencyId": "0"
       }
     ],
-    "expenses": 0,
+    "expenses": 708771,
     "expensesCurrency": "Example expenses currency",
-    "expensesFormatted": null,
+    "expensesFormatted": "450.892",
     "totalArea": 69,
     "coveredArea": 52,
     "rooms": 6,
-    "bedrooms": 8,
+    "bedrooms": null,
     "bathrooms": 7,
     "garages": null,
     "age": null,
@@ -47,7 +47,7 @@
     "city": "Example city",
     "province": "Example province",
     "country": "Argentina",
-    "locationId": "v0-c-1608180",
+    "locationId": "v7-c-6622411",
     "locationName": "Example location name"
   }
 ]

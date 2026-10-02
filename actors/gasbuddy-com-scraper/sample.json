@@ -1,14 +1,13 @@
 [
   {
-    "stationId": "73454",
-    "name": "3-eleven",
+    "stationId": "18872",
+    "name": "Example name",
     "url": "https://www.gasbuddy.com/example/14242",
-    "brand": "9-eleven",
-    "brandId": "24",
+    "brand": "CITGO",
+    "brandId": "99",
     "brandLogoUrl": "https://images.gasbuddy.io/example/94870.jpg",
     "allBrands": [
-      "5-eleven",
-      "4-eleven"
+      "CITGO"
     ],
     "addressLine1": "Example address line1",
     "addressLine2": null,
@@ -16,13 +15,13 @@
     "state": "TX",
     "postalCode": "73410",
     "country": "US",
-    "latitude": 34.82,
+    "latitude": 34.81,
     "longitude": -71.35,
     "phone": "+1 555 0100",
     "distance": null,
     "distanceMiles": null,
     "openStatus": "open",
-    "openingHours": "89/5",
+    "openingHours": null,
     "nextOpenAt": null,
     "nextCloseAt": null,
     "amenities": [
@@ -45,7 +44,7 @@
         "cashPrice": null,
         "cashPostedAt": null,
         "cashReportedBy": null,
-        "creditPrice": 2.93,
+        "creditPrice": 3.11,
         "creditPostedAt": "2026-01-15T10:00:00Z",
         "creditReportedBy": "Example credit reported by",
         "formattedPrice": "Example formatted price",
@@ -58,31 +57,31 @@
         "cashPrice": null,
         "cashPostedAt": null,
         "cashReportedBy": null,
-        "creditPrice": 5.37,
-        "creditPostedAt": "2026-01-15T10:00:00Z",
-        "creditReportedBy": "Example credit reported by",
-        "formattedPrice": "Example formatted price",
+        "creditPrice": null,
+        "creditPostedAt": null,
+        "creditReportedBy": null,
+        "formattedPrice": null,
         "memberDiscount": 0
       }
     ],
-    "lowestPrice": 3.01,
+    "lowestPrice": 3.19,
     "lowestPriceFuelType": "regular",
     "lastPriceReportedAt": "2026-01-15T10:00:00Z",
     "lastPriceReportedBy": "Example last price reported by",
     "priceUnit": "Example price unit",
     "currency": "USD",
-    "starRating": 4.64,
+    "starRating": 4.05,
     "ratingsCount": 75,
     "reviewCount": null,
     "reviews": [],
     "topSpotters": [
       {
-        "name": "id82145777",
-        "reportCount": 4,
-        "streakDays": 63
+        "name": "Example name",
+        "reportCount": 40,
+        "streakDays": 693
       },
       {
-        "name": "id35466725",
+        "name": "Example name",
         "reportCount": 7,
         "streakDays": 0
       }
@@ -91,53 +90,46 @@
       {
         "areaName": "Example area name",
         "country": "US",
-        "todayAverage": 3.87,
-        "todayLow": 4.47,
-        "direction": "rising"
+        "todayAverage": 4.03,
+        "todayLow": 4.34,
+        "direction": "flat"
       },
       {
         "areaName": "Example area name",
         "country": "US",
-        "todayAverage": 3.79,
-        "todayLow": 2.19,
+        "todayAverage": 3.86,
+        "todayLow": 2.41,
         "direction": "flat"
       }
     ],
     "offers": [
       {
-        "offerId": "h277024-08-05-65-8-4-5-7-7-heki9wmbpr4rbekxcfnnurv",
+        "offerId": "h107738-1-8-8-3-6-4-8-1-h3bm65gqwfba2seeukvfbdo",
         "highlight": "Example highlight",
         "types": [
           "gasbuddy"
         ],
         "appliesTo": [
-          "banner",
-          "strike"
+          "strike",
+          "sort"
         ],
         "discounts": [
           {
             "grades": [
-              "regular_gas"
-            ],
-            "highlight": "Example highlight",
-            "memberDiscount": "6.18",
-            "receiptDiscount": null
-          },
-          {
-            "grades": [
+              "regular_gas",
               "midgrade_gas"
             ],
             "highlight": "Example highlight",
-            "memberDiscount": "8.35",
+            "memberDiscount": "9.88",
             "receiptDiscount": null
           }
         ]
       }
     ],
-    "cardPaymentAvailable": true
+    "cardPaymentAvailable": null
   },
   {
-    "stationId": "48712",
+    "stationId": "11321",
     "name": "9-eleven",
     "url": "https://www.gasbuddy.com/example/2340",
     "brand": "8-eleven",
@@ -168,7 +160,7 @@
     ],
     "amenityIds": [
       "c_store",
-      "air"
+      "pay_at_pump"
     ],
     "fuels": [
       "regular_gas",
@@ -182,7 +174,7 @@
         "cashPrice": null,
         "cashPostedAt": null,
         "cashReportedBy": null,
-        "creditPrice": 3.16,
+        "creditPrice": 3.35,
         "creditPostedAt": "2026-01-15T10:00:00Z",
         "creditReportedBy": "Example credit reported by",
         "formattedPrice": "Example formatted price",
@@ -195,20 +187,20 @@
         "cashPrice": null,
         "cashPostedAt": null,
         "cashReportedBy": null,
-        "creditPrice": 2.95,
+        "creditPrice": 3.12,
         "creditPostedAt": "2026-01-15T10:00:00Z",
         "creditReportedBy": "Example credit reported by",
         "formattedPrice": "Example formatted price",
         "memberDiscount": 0
       }
     ],
-    "lowestPrice": 3.46,
+    "lowestPrice": 3.67,
     "lowestPriceFuelType": "regular",
     "lastPriceReportedAt": "2026-01-15T10:00:00Z",
     "lastPriceReportedBy": "Example last price reported by",
     "priceUnit": "Example price unit",
     "currency": "USD",
-    "starRating": 4.37,
+    "starRating": 4.6,
     "ratingsCount": 88,
     "reviewCount": null,
     "reviews": [],
@@ -219,7 +211,7 @@
         "streakDays": 79
       },
       {
-        "name": "Example name",
+        "name": "id14987772",
         "reportCount": 3,
         "streakDays": 0
       }
@@ -228,21 +220,21 @@
       {
         "areaName": "Example area name",
         "country": "US",
-        "todayAverage": 4.24,
-        "todayLow": 3.21,
-        "direction": "rising"
+        "todayAverage": 4.42,
+        "todayLow": 3.12,
+        "direction": "flat"
       },
       {
         "areaName": "Example area name",
         "country": "US",
-        "todayAverage": 3.21,
-        "todayLow": 3.71,
+        "todayAverage": 3.27,
+        "todayLow": 4.07,
         "direction": "flat"
       }
     ],
     "offers": [
       {
-        "offerId": "h990443-38-33-54-5-1-9-6-4-hkhiv4ajllde2as2guvpvv",
+        "offerId": "h801627-00-74-26-6-8-2-1-6-hf0u1jwminbc6m2xjdrek8s",
         "highlight": "Example highlight",
         "types": [
           "gasbuddy"
@@ -271,6 +263,6 @@
         ]
       }
     ],
-    "cardPaymentAvailable": null
+    "cardPaymentAvailable": true
   }
 ]

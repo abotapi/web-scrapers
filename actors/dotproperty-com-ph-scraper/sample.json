@@ -4,16 +4,17 @@
     "listing_id": "id84295587",
     "url": "https://www.dotproperty.com.ph/example/79200",
     "source": "dotproperty",
-    "price": 69919083,
+    "price": 339919083,
     "usable_area_sqm": 612,
     "agent_name": "Example agent_name",
     "agent_verified": true,
-    "latitude": 11.65,
-    "longitude": 128.28,
+    "latitude": 11.63,
+    "longitude": 128.29,
     "agent_phone": "+1 555 0100",
     "title": "Example title: mock text standing in for the real value. Same field and type, made-up content.",
     "land_area_sqm": 108,
     "facilities": [
+      "Example facilities",
       "Example facilities"
     ],
     "images": [
@@ -22,43 +23,10 @@
     ],
     "image_count": 7,
     "og_image": "https://pix.dotproperty.co.th/example/94830.jpg",
-    "description": "user95@example.com",
-    "listing_id_text": "ds07-189950",
-    "agent_listing_count": 994,
-    "agent_url": "https://www.dotproperty.com.ph/example/22347",
-    "breadcrumbs": [
-      "Example breadcrumbs",
-      "Example breadcrumbs"
-    ],
-    "currency": "PHP",
-    "location_source": "detail_page"
-  },
-  {
-    "id": "id40975710",
-    "listing_id": "id422818",
-    "url": "https://www.dotproperty.com.ph/example/22957",
-    "source": "dotproperty",
-    "price": 5478258,
-    "usable_area_sqm": 540,
-    "agent_name": "Example agent_name",
-    "agent_verified": true,
-    "latitude": 13.18,
-    "longitude": 131.9,
-    "agent_phone": "+1 555 0100",
-    "title": "Example title: mock text standing in for the real value. Same field and type, made-up content.",
-    "land_area_sqm": 338,
-    "facilities": [
-      "Example facilities",
-      "Example facilities"
-    ],
-    "images": [
-      "https://pix.dotproperty.co.th/example/73036.jpg"
-    ],
-    "image_count": 6,
-    "og_image": "https://pix.dotproperty.co.th/example/62876.jpg",
     "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
-    "listing_id_text": "Example listing_id_text",
-    "agent_url": "https://www.dotproperty.com.ph/example/30551",
+    "listing_id_text": "id68322531",
+    "agent_listing_count": 94,
+    "agent_url": "https://www.dotproperty.com.ph/example/22347",
     "breadcrumbs": [
       "Example breadcrumbs",
       "Example breadcrumbs"

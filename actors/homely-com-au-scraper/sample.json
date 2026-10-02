@@ -4,10 +4,10 @@
     "id": 91834810,
     "uri": "id28899741",
     "url": "https://www.homely.com.au/example/56359",
-    "title": "Example title",
+    "title": "Example title: mock text standing in for the real value. Same field and type, made-up content.",
     "statusType": "available",
     "listingType": "sale",
-    "propertyType": "Apartment",
+    "propertyType": "Unit",
     "tierType": "basic",
     "isExclusiveList": false,
     "isUnderOffer": false,
@@ -34,22 +34,19 @@
       "bathrooms": 1,
       "cars": 8
     },
-    "featureTags": [
-      "airConditioning",
-      "balcony"
-    ],
+    "featureTags": [],
     "agents": [
       {
-        "id": 934810,
+        "id": 1834810,
         "name": "Example name",
-        "phone": "+1 555 0100",
+        "phone": null,
         "mobile": "+1 555 0100",
         "email": null
       },
       {
-        "id": 8622459,
+        "id": null,
         "name": "Example name",
-        "phone": "+1 555 0100",
+        "phone": null,
         "mobile": "+1 555 0100",
         "email": null
       }
@@ -74,7 +71,9 @@
         "endsOn": null
       }
     ],
-    "auction": null,
+    "auction": {
+      "auctionOn": "2026-01-15T10:00:00Z"
+    },
     "landFeatures": null,
     "slugs": {
       "suburbUri": "Example suburb uri",
@@ -84,7 +83,7 @@
     "soldOn": null,
     "soldPrice": "Example sold price",
     "soldPriceValue": null,
-    "auctionOn": null,
+    "auctionOn": "2026-01-15T10:00:00Z",
     "loanPriceEstimate": 1891813,
     "sourceUrl": "https://www.homely.com.au/example/41416",
     "scrapedAt": "2026-01-15T10:00:00Z"

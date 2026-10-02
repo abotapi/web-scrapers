@@ -67,6 +67,7 @@ Full details on the [scraper page](https://apify.com/abotapi/realcommercial-au-s
 | `media` | object |
 | `agents` | list |
 | `agency` | object |
+| `websites` | list |
 | `nearbyPlaces` | list |
 | `lastUpdatedAt` | string |
 | `canonicalPath` | string |

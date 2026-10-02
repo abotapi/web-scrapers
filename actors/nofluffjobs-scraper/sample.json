@@ -1,7 +1,7 @@
 [
   {
     "id": "Example id",
-    "reference": "lqhdoz6z",
+    "reference": "lnok2ce9",
     "title": "Example title",
     "url": "https://nofluffjobs.com/example/49711",
     "region": "pl",
@@ -24,24 +24,24 @@
     "locations": [
       {
         "city": "Example city",
-        "street": "",
-        "postalCode": "",
+        "street": "Example street",
+        "postalCode": "72-376",
         "countryCode": "POL",
         "country": "Poland",
         "province": null,
         "latitude": 41.55,
-        "longitude": 18.95,
+        "longitude": 18.97,
         "url": "id3849711"
       }
     ],
-    "salaryFrom": 38124,
-    "salaryTo": 92226,
+    "salaryFrom": 2124,
+    "salaryTo": 2226,
     "salaryCurrency": "PLN",
     "salaryType": "b2b",
     "salaryDisclosed": "VISIBLE",
     "salary": {
-      "from": 84624,
-      "to": 80699,
+      "from": 3624,
+      "to": 8699,
       "type": "b2b",
       "currency": "PLN",
       "period": "Example period",
@@ -54,100 +54,9 @@
     "onlineInterviewAvailable": false,
     "highlighted": false,
     "topInSearch": false,
-    "companySize": "176 - 585",
+    "companySize": "88 - 58",
     "companyVideo": "",
-    "companyProfileUrl": "https://mindboxgroup.com/example/11419",
-    "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
-    "position": "",
-    "dailyTasks": [
-      "Example daily tasks: mock text standing in for the real value. Same field and type, made-up content.",
-      "Example daily tasks"
-    ],
-    "requirementsMust": [
-      {
-        "name": "Example name",
-        "type": "main"
-      },
-      {
-        "name": "Example name",
-        "type": "main"
-      }
-    ],
-    "requirementsNice": [
-      {
-        "name": "Example name",
-        "type": "main"
-      },
-      {
-        "name": "Example name",
-        "type": "main"
-      }
-    ],
-    "requirementLanguages": [
-      "en"
-    ],
-    "requirementsDescription": "Example requirements description: mock text standing in for the real value. Same field and type, made-up content.",
-    "benefits": [],
-    "officePerks": []
-  },
-  {
-    "id": "Example id",
-    "reference": "j5y2xnal",
-    "title": "Example title",
-    "url": "https://nofluffjobs.com/example/11807",
-    "region": "pl",
-    "regions": [
-      "pl"
-    ],
-    "companyName": "Example company name",
-    "companyLogo": "Example company logo",
-    "category": "backend",
-    "seniority": [
-      "Example seniority"
-    ],
-    "technology": "Example technology",
-    "remote": false,
-    "fullyRemote": false,
-    "remotePercent": 4,
-    "cities": [
-      "Example cities"
-    ],
-    "locations": [
-      {
-        "city": "Example city",
-        "street": "",
-        "postalCode": "",
-        "countryCode": "POL",
-        "country": "Poland",
-        "province": null,
-        "latitude": 50.06,
-        "longitude": 23.93,
-        "url": "Example url"
-      }
-    ],
-    "salaryFrom": 25973,
-    "salaryTo": 71741,
-    "salaryCurrency": "PLN",
-    "salaryType": "b2b",
-    "salaryDisclosed": "VISIBLE",
-    "salary": {
-      "from": 69019,
-      "to": 41965,
-      "type": "b2b",
-      "currency": "PLN",
-      "period": "Example period",
-      "disclosedAt": "VISIBLE",
-      "flexibleUpperBound": false
-    },
-    "posted": 9023613313153,
-    "renewed": 8677188393297,
-    "lastActivity": 7265163323376,
-    "onlineInterviewAvailable": false,
-    "highlighted": false,
-    "topInSearch": false,
-    "companySize": "362 - 326",
-    "companyVideo": "",
-    "companyProfileUrl": "https://mindboxgroup.com/example/87161",
+    "companyProfileUrl": "https://nofluffjobs.com/example/11419",
     "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
     "position": "",
     "dailyTasks": [

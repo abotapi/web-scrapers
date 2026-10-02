@@ -1,6 +1,6 @@
 [
   {
-    "id": "fcfdtkghok5htnczvqhqga",
+    "id": "rps06jlymk2zudlczlm7ma",
     "name": "Example name",
     "subtitle": "Example subtitle",
     "language": "de",
@@ -13,20 +13,20 @@
     "street": "Example street",
     "zipCode": "6338",
     "city": "Example city",
-    "canton": "",
+    "canton": "ZH",
     "country": "CH",
     "latitude": 53.54,
-    "longitude": 10.74,
+    "longitude": 10.75,
     "phone": "+1 555 0100",
     "phoneAlt": null,
     "mobile": null,
     "fax": null,
     "email": "user15@example.com",
     "emailAlt": null,
-    "website": "https://www.bar-rossi.ch/example/56312",
+    "website": "http://www.restaurant-milano.ch/example/56312",
     "whatsapp": null,
     "facebook": "https://www.facebook.com/example/64446",
-    "instagram": "https://www.instagram.com/example/95196",
+    "instagram": null,
     "linkedin": null,
     "twitter": null,
     "tiktok": null,
@@ -34,17 +34,17 @@
     "youtube": null,
     "xing": null,
     "foursquare": null,
-    "mainCategory": "Bar",
-    "mainCategorySlug": "bar",
+    "mainCategory": "Restaurant",
+    "mainCategorySlug": "restaurant",
     "categories": [
-      "Bar",
-      "Restaurant"
+      "Restaurant",
+      "Example categories"
     ],
     "categorySlugs": [
-      "bar",
-      "restaurant"
+      "restaurant",
+      "Example category slugs"
     ],
-    "rating": 0,
-    "ratingCount": 0
+    "rating": 5.29,
+    "ratingCount": 73546
   }
 ]

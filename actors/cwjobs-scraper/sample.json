@@ -40,52 +40,5 @@
     "companyEmployees": null,
     "companyFounded": null,
     "companyIndustries": null
-  },
-  {
-    "rowType": "job",
-    "listingUrl": "https://www.cwjobs.co.uk/example/73203",
-    "jobId": "663981573",
-    "externalId": "id50691656",
-    "jobUrl": "https://www.cwjobs.co.uk/example/78031",
-    "title": "Example title",
-    "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
-    "snippet": null,
-    "workType": "",
-    "employmentType": "REMOTE_WORKING",
-    "industry": "Example industry",
-    "datePosted": "2026-01-15T10:00:00Z",
-    "validThrough": "2026-01-15T10:00:00Z",
-    "postedAgo": "Example posted ago",
-    "isPremium": true,
-    "isTopJob": false,
-    "isFreeListing": false,
-    "directApply": true,
-    "applyType": "internal",
-    "jobLocationType": "TELECOMMUTE",
-    "applicantLocationRequirements": {
-      "@type": "Country",
-      "name": "Example name"
-    },
-    "salaryText": "Example salary text",
-    "salaryMin": 47370,
-    "salaryMax": 498267,
-    "salaryCurrency": "GBP",
-    "salaryPeriod": "annum",
-    "locationText": "Example location text",
-    "locationLocality": "Example location locality",
-    "locationRegion": "Example location region",
-    "locationPostalCode": "Example location postal code",
-    "locationCountry": "GB",
-    "latitude": 45.02,
-    "longitude": -0.34,
-    "employerName": "Example employer name",
-    "employerId": 9079581,
-    "employerLogoUrl": "https://tjgliveassets.s3.eu-west-1.amazonaws.com/example/86528.jpg",
-    "employerProfileUrl": "https://www.totaljobs.com/example/49710",
-    "companyEmployees": "58-982",
-    "companyFounded": 4904,
-    "companyIndustries": [
-      "Example company industries"
-    ]
   }
 ]

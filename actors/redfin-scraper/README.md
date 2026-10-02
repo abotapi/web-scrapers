@@ -72,7 +72,7 @@ Full details on the [scraper page](https://apify.com/abotapi/redfin-scraper?utm_
 | `hoaDues` | null |
 | `isHoaFrequencyKnown` | boolean |
 | `beds` | integer |
-| `baths` | integer |
+| `baths` | float |
 | `bathFull` | integer |
 | `bathPartial` | integer |
 | `sqFt` | integer |

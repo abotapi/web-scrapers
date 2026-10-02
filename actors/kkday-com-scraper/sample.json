@@ -3,9 +3,9 @@
     "id": "454027",
     "name": "Example name",
     "url": "https://www.kkday.com/example/61733",
-    "minPrice": 33.43,
-    "maxPrice": 82.44,
-    "officialPrice": 31.04,
+    "minPrice": 33.31,
+    "maxPrice": 82.14,
+    "officialPrice": 30.93,
     "currency": "USD",
     "discountPercent": null,
     "ratingStar": 5,
@@ -28,43 +28,6 @@
     "imageUrls": [
       "https://image.kkday.com/example/33621.jpg",
       "https://image.kkday.com/example/56205.jpg"
-    ],
-    "detailStatus": "complete",
-    "scrapedAt": "2026-01-15T10:00:00Z",
-    "changeType": "NEW",
-    "changedFields": [],
-    "firstSeenAt": "2026-01-15T10:00:00Z",
-    "lastSeenAt": "2026-01-15T10:00:00Z"
-  },
-  {
-    "id": "930566",
-    "name": "Example name",
-    "url": "https://www.kkday.com/example/94985",
-    "minPrice": 4.47,
-    "maxPrice": 25.74,
-    "officialPrice": 9.41,
-    "currency": "USD",
-    "discountPercent": 49,
-    "ratingStar": 5.28,
-    "ratingCount": 9296,
-    "bookedCount": "Example booked count",
-    "destinations": [
-      "Example destinations"
-    ],
-    "displayTags": [
-      "Example display tags",
-      "Example display tags"
-    ],
-    "imageUrl": "https://image.kkday.com/example/48901.jpg",
-    "supplierName": null,
-    "introduction": "Example introduction: mock text standing in for the real value. Same field and type, made-up content.",
-    "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
-    "address": "Example address",
-    "latitude": 33.77,
-    "longitude": 157.62,
-    "imageUrls": [
-      "https://image.kkday.com/example/96545.jpg",
-      "https://image.kkday.com/example/84578.jpg"
     ],
     "detailStatus": "complete",
     "scrapedAt": "2026-01-15T10:00:00Z",

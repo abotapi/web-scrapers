@@ -46,53 +46,5 @@
     "postedAtText": "Example posted at text",
     "postedAgeDays": 25,
     "expiresAt": null
-  },
-  {
-    "rowType": "job",
-    "jobId": "id72377110",
-    "jobSlug": "Example job slug: mock text standing in for the real value. Same field and type, made-up content.",
-    "rawTitle": "Example raw title: mock text standing in for the real value. Same field and type, made-up content.",
-    "title": "Example title: mock text standing in for the real value. Same field and type, made-up content.",
-    "companyName": "Example company name",
-    "url": "https://weworkremotely.com/example/53140",
-    "canonicalUrl": "https://weworkremotely.com/example/17409",
-    "listingDomain": "Example listing domain",
-    "applyUrl": "https://weworkremotely.com/example/63460",
-    "applicationUrl": "https://weworkremotely.com/example/69474",
-    "externalApplyUrl": null,
-    "applyUrlIsExternal": false,
-    "applyUrlDomain": "Example apply url domain",
-    "companyWebsiteUrl": null,
-    "companyWebsiteDomain": null,
-    "companyLogoUrl": null,
-    "headquarters": null,
-    "locationText": "Example location text",
-    "region": "Example region",
-    "regionSlug": "Example region slug",
-    "country": null,
-    "state": null,
-    "isRemote": true,
-    "isWorldwide": true,
-    "jobType": null,
-    "employmentType": null,
-    "category": "Example category",
-    "categorySlug": "Example category slug",
-    "skills": [],
-    "skillsRaw": null,
-    "skillsSource": null,
-    "skillsCount": 0,
-    "technologies": [
-      "Example technologies",
-      "AWS"
-    ],
-    "tags": [
-      "Example tags",
-      "python"
-    ],
-    "seniorityLevel": "Senior",
-    "postedAt": "2026-01-15T10:00:00Z",
-    "postedAtText": "Example posted at text",
-    "postedAgeDays": 37,
-    "expiresAt": null
   }
 ]

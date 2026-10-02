@@ -91,7 +91,7 @@ Full details on the [scraper page](https://apify.com/abotapi/whatnot-scraper?utm
 | `sellerIsPremierShop` | null |
 | `sellerFollowerCount` | integer |
 | `sellerSoldCount` | integer |
-| `sellerRating` | float |
+| `sellerRating` | integer |
 | `sellerReviewCount` | integer |
 | `sellerProfileImageUrl` | string |
 

@@ -1,9 +1,9 @@
 [
   {
-    "offerId": "51406935146",
-    "title": "Example title: mock text standing in for the real value. Same field and type, made-up content.",
+    "offerId": "79228245128",
+    "title": "Example title",
     "url": "https://allegro.pl/example/98541",
-    "price": 34,
+    "price": 9034,
     "currency": "PLN",
     "originalPrice": null,
     "deliveryInfo": "Example delivery info",
@@ -11,14 +11,14 @@
     "bestPriceGuarantee": true,
     "sellerName": "Example seller name",
     "sellerBusiness": true,
-    "sellerFeedbackPercent": 109.45,
+    "sellerFeedbackPercent": 107.58,
     "superSeller": true,
-    "category": "37057",
+    "category": "998114",
     "parameters": {
-      "Typ": "Example typ",
-      "Grubość szkła": "Example grubość szkła",
-      "Przeznaczenie": "Example przeznaczenie",
-      "Zestaw do aplikacji": "tak"
+      "Kolor": "niebieski",
+      "Przekątna ekranu": "Example przekątna ekranu",
+      "Wbudowana pamięć": "Example wbudowana pamięć",
+      "Pamięć RAM": "Example pamięć  r a m"
     },
     "image": "https://a.allegroimg.com/example/38664.jpg",
     "sourceUrl": "https://allegro.pl/example/90366",

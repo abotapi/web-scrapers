@@ -48,8 +48,8 @@ Full details on the [scraper page](https://apify.com/abotapi/hipcamp-camping-gla
 | `maskedId` | string |
 | `url` | string |
 | `title` | string |
-| `pricePerNight` | integer |
-| `totalPricePerNight` | integer |
+| `pricePerNight` | float |
+| `totalPricePerNight` | float |
 | `currency` | string |
 | `recommendsPercentage` | integer |
 | `recommendsCount` | integer |

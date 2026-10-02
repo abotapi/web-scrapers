@@ -34,41 +34,5 @@
     "sourceUrl": null,
     "scrapedAt": "2026-01-15T10:00:00Z",
     "recordId": "id92875503"
-  },
-  {
-    "entityType": "beer",
-    "beerId": 9430150,
-    "name": "Example name",
-    "slug": "Example slug",
-    "url": "https://untappd.com/example/85556",
-    "style": "Example style",
-    "styleId": 443,
-    "parentStyleId": 96,
-    "abv": 7.57,
-    "ibu": 86,
-    "rating": 4.26,
-    "ratingCount": 731494,
-    "popularity": 910420,
-    "inProduction": true,
-    "isHomebrew": false,
-    "hasCommunityAward": false,
-    "thcMg": null,
-    "cbdMg": null,
-    "labelImage": "https://assets.untappd.com/example/97937.jpg",
-    "labelImageHd": "https://assets.untappd.com/example/53709.jpg",
-    "breweryId": 5031,
-    "breweryName": "Example brewery name",
-    "breweryUrl": "https://untappd.com/example/3380",
-    "breweryLabelImage": "https://assets.untappd.com/example/91409.jpg",
-    "breweryLatitude": 29.8,
-    "breweryLongitude": -91.35,
-    "alsoKnownAs": [
-      "Example also known as",
-      "Example also known as"
-    ],
-    "chartRank": null,
-    "sourceUrl": null,
-    "scrapedAt": "2026-01-15T10:00:00Z",
-    "recordId": "id36367618"
   }
 ]

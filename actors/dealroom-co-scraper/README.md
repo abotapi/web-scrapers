@@ -1,8 +1,8 @@
-# Dealroom Startup & Market Map Scraper
+# Dealroom.net Scraper
 
 Scrape Dealroom.net market maps, company lookup results, live signals, and newly founded startup records. Supports Dealroom URLs, company names, market-map ids, sorting, capped runs, rich normalized company fields, and optional MCP connector export.
 
-**[Open Dealroom Startup & Market Map Scraper on Apify](https://apify.com/abotapi/dealroom-co-scraper?utm_source=github&utm_medium=web-scrapers&utm_campaign=monorepo)** to run it without code and export JSON, CSV or Excel.
+**[Open Dealroom.net Scraper on Apify](https://apify.com/abotapi/dealroom-co-scraper?utm_source=github&utm_medium=web-scrapers&utm_campaign=monorepo)** to run it without code and export JSON, CSV or Excel.
 
 ## Run it from code
 

@@ -23,15 +23,15 @@
       "fiveStar": 69066
     },
     "ratingDistributionPercent": {
-      "oneStar": 1.77,
+      "oneStar": 1.76,
       "twoStar": 0.73,
       "threeStar": 1.28,
-      "fourStar": 4.07,
-      "fiveStar": 89.1
+      "fourStar": 4.06,
+      "fiveStar": 89.11
     },
     "ratingDistributionTotal": 16554,
     "negativeReviewShare": 2.51,
-    "positiveReviewShare": 110.94,
+    "positiveReviewShare": 110.95,
     "reviewLanguages": [
       {
         "isoCode": "ar",
@@ -56,75 +56,10 @@
     "verifiedByGoogle": false,
     "verifiedPaymentMethod": true,
     "verifiedUserIdentity": false,
-    "replyPercentage": 80.33,
-    "averageDaysToReply": 0.84,
+    "replyPercentage": 80.64,
+    "averageDaysToReply": 0.83,
     "negativeReviewsWithRepliesCount": 336,
     "totalNegativeReviewsCount": 531,
-    "lastReplyToNegativeReview": "Example last reply to negative review",
-    "primaryCategoryId": "book_store",
-    "primaryCategoryName": "Example primary category name"
-  },
-  {
-    "kind": "review",
-    "recordId": "Example record id",
-    "businessId": "id45725647",
-    "identifyingName": "Example identifying name",
-    "displayName": "Example display name",
-    "profileUrl": "https://www.trustpilot.com/example/83408",
-    "websiteUrl": "https://bookshop.org/example/39837",
-    "websiteTitle": "Example website title",
-    "logoUrl": "https://s3-eu-west-1.amazonaws.com/example/95065.jpg",
-    "trustScore": 5.86,
-    "stars": 1,
-    "numberOfReviews": 59573,
-    "numberOfReviewsLast12Months": 32539,
-    "reviewsMatchingFilters": 74342,
-    "reviewsInSelectedLanguages": 32234,
-    "ratingDistribution": {
-      "oneStar": 937,
-      "twoStar": 507,
-      "threeStar": 818,
-      "fourStar": 3186,
-      "fiveStar": 58744
-    },
-    "ratingDistributionPercent": {
-      "oneStar": 1.84,
-      "twoStar": 0.77,
-      "threeStar": 1.8,
-      "fourStar": 3.52,
-      "fiveStar": 87.24
-    },
-    "ratingDistributionTotal": 71332,
-    "negativeReviewShare": 1.54,
-    "positiveReviewShare": 81.03,
-    "reviewLanguages": [
-      {
-        "isoCode": "ar",
-        "displayName": "Example display name",
-        "reviewCount": 5
-      },
-      {
-        "isoCode": "cy",
-        "displayName": "Example display name",
-        "reviewCount": 7
-      }
-    ],
-    "hasMultipleLanguages": true,
-    "isClaimed": true,
-    "isClosed": false,
-    "isTemporarilyClosed": false,
-    "isCollectingReviews": true,
-    "hasCollectedIncentivisedReviews": false,
-    "isUsingPaidFeatures": true,
-    "isUsingAIResponses": true,
-    "claimedDate": "2026-01-15T10:00:00Z",
-    "verifiedByGoogle": false,
-    "verifiedPaymentMethod": true,
-    "verifiedUserIdentity": false,
-    "replyPercentage": 92.22,
-    "averageDaysToReply": 0.84,
-    "negativeReviewsWithRepliesCount": 719,
-    "totalNegativeReviewsCount": 692,
     "lastReplyToNegativeReview": "Example last reply to negative review",
     "primaryCategoryId": "book_store",
     "primaryCategoryName": "Example primary category name"

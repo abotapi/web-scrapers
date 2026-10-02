@@ -86,7 +86,7 @@ Full details on the [scraper page](https://apify.com/abotapi/zomato-scraper?utm_
 | `isDarkKitchen` | boolean |
 | `phones` | list |
 | `chainName` | string |
-| `chainUrl` | string |
+| `chainUrl` | null |
 | `establishments` | null |
 
 ---

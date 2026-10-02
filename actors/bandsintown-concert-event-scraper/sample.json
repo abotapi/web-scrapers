@@ -18,8 +18,8 @@
     "offers": [
       {
         "status": "available",
-        "type": "Tickets",
-        "url": "https://www.bandsintown.com/example/84237"
+        "url": "https://www.bandsintown.com/example/84237",
+        "type": "Tickets"
       }
     ],
     "soldOut": false,
@@ -46,71 +46,12 @@
     "artistLocation": null,
     "artistLinks": [
       {
-        "type": "twitter",
-        "url": "https://x.com/example/84237"
+        "type": "itunes",
+        "url": "https://music.apple.com/example/84237"
       },
       {
-        "type": "itunes",
-        "url": "https://music.apple.com/example/74498"
-      }
-    ],
-    "artistUpcomingEvents": null,
-    "artistPastEvents": null,
-    "venueId": null
-  },
-  {
-    "kind": "event",
-    "eventId": "701193497",
-    "url": "https://www.bandsintown.com/example/43655",
-    "title": "Example title",
-    "datetime": "2026-01-15T10:00:00Z",
-    "startsAt": "2026-01-15T10:00:00Z",
-    "endsAt": null,
-    "timezone": null,
-    "datetimeDisplayRule": "datetime",
-    "onSaleDatetime": "2026-01-15T10:00:00Z",
-    "festivalStartDate": null,
-    "festivalEndDate": null,
-    "lineup": [
-      "Example lineup"
-    ],
-    "offers": [
-      {
-        "type": "Tickets",
-        "status": "available",
-        "url": "https://www.bandsintown.com/example/43655"
-      }
-    ],
-    "soldOut": false,
-    "free": false,
-    "presale": null,
-    "bandsintownPlus": false,
-    "showMultiTicket": false,
-    "imageUrl": "https://photos.bandsintown.com/example/39969.jpg",
-    "thumbUrl": "https://photos.bandsintown.com/example/70365.jpg",
-    "description": null,
-    "rsvpCount": null,
-    "genre": null,
-    "artistId": "666309",
-    "artistName": "Example artist name",
-    "artistUrl": "https://www.bandsintown.com/example/67524",
-    "artistMbid": "id30185696",
-    "artistImageUrl": "https://photos.bandsintown.com/example/91411.jpg",
-    "artistThumbUrl": "https://photos.bandsintown.com/example/19876.jpg",
-    "artistFacebookPageUrl": "http://www.facebook.com/example/95070",
-    "artistTrackerCount": 9801225,
-    "artistUpcomingEventCount": 69,
-    "artistGenre": null,
-    "artistBio": null,
-    "artistLocation": null,
-    "artistLinks": [
-      {
         "type": "twitter",
-        "url": "https://x.com/example/43655"
-      },
-      {
-        "type": "itunes",
-        "url": "https://music.apple.com/example/80822"
+        "url": "https://x.com/example/74498"
       }
     ],
     "artistUpcomingEvents": null,

@@ -45,8 +45,8 @@ Full details on the [scraper page](https://apify.com/abotapi/naver-land-listings
 | `complexNo` | string |
 | `title` | string |
 | `propertyType` | string |
-| `tradeType` | null |
-| `price` | null |
+| `tradeType` | string |
+| `price` | string |
 | `area` | string |
 | `floor` | null |
 | `direction` | null |

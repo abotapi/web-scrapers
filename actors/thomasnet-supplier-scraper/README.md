@@ -49,7 +49,7 @@ Full details on the [scraper page](https://apify.com/abotapi/thomasnet-supplier-
 | Field | Type |
 | --- | --- |
 | `__typename` | null |
-| `additionalInformation` | null |
+| `additionalInformation` | list |
 | `address` | object |
 | `ads` | null |
 | `affiliatedMemberOf` | null |
@@ -63,7 +63,7 @@ Full details on the [scraper page](https://apify.com/abotapi/thomasnet-supplier-
 | `certifications` | list |
 | `companyAd` | null |
 | `description` | string |
-| `descriptionByCompany` | null |
+| `descriptionByCompany` | string |
 | `families` | list |
 | `heading` | object |
 | `headingBrands` | null |
@@ -76,14 +76,14 @@ Full details on the [scraper page](https://apify.com/abotapi/thomasnet-supplier-
 | `locations` | null |
 | `logoTitle` | string |
 | `logoUrl` | string |
-| `mainLocationName` | null |
-| `mainLocationTgramsId` | null |
+| `mainLocationName` | string |
+| `mainLocationTgramsId` | string |
 | `name` | string |
 | `news` | list |
 | `numberEmployees` | string |
 | `otherActivities` | list |
 | `otherHeadings` | null |
-| `personnel` | null |
+| `personnel` | list |
 | `premiums` | null |
 | `primaryPhone` | string |
 | `products` | list |

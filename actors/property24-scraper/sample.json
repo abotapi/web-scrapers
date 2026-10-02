@@ -1,7 +1,7 @@
 [
   {
-    "id": "420708790",
-    "listingNumber": "393612102",
+    "id": "939944061",
+    "listingNumber": "249636263",
     "url": "https://www.property24.com/example/59929",
     "listingType": "Example listing type",
     "title": "Example title",
@@ -19,18 +19,20 @@
     "mainImage": "https://images.prop24.com/example/67548.jpg",
     "source": "property24.com",
     "scrapedAt": "2026-01-15T10:00:00Z",
+    "hasExactLocation": false,
+    "streetAddress": "Example street address",
     "provinceName": "Example province name",
     "provinceId": "7",
     "cityName": "Example city name",
     "cityId": "870",
-    "suburbId": "8961",
+    "suburbId": "3304",
     "descriptionHeader": "Example description header: mock text standing in for the real value. Same field and type, made-up content.",
     "priceOnApplication": false,
     "agentName": "Example agent name",
     "agentProfileUrl": "https://www.property24.com/example/41659",
-    "agentId": "920915",
+    "agentId": "753841",
     "agencyName": "Example agency name",
-    "agencyId": "51499",
+    "agencyId": "48623",
     "agencyLogoUrl": "https://images.prop24.com/example/12818.jpg",
     "contacts": [
       {
@@ -44,24 +46,26 @@
     ],
     "isPrivateListing": false,
     "propertyOverview": {
-      "Listing Number": "492869891",
+      "Listing Number": "186746104",
       "Type of Property": "House",
+      "Street Address": "Example street  address",
       "Listing Date": "Example listing  date",
       "Erf Size": "Example erf  size",
       "Floor Size": "Example floor  size",
-      "Rates and Taxes": "Example rates and  taxes",
       "Pets Allowed": "Example pets  allowed",
-      "Bedrooms": "0",
+      "Coverage": "Example coverage",
+      "Zoning": "Example zoning",
+      "Bedrooms": "3",
       "Bathrooms": "3",
-      "Domestic Rooms": "9",
-      "Reception Rooms": "6",
-      "Lounge": "9",
-      "Dining Room": "2",
+      "Kitchens": "8",
+      "Domestic Rooms": "3",
       "Garage": "5",
-      "Parking": "Example parking",
-      "Garden": "Example garden",
-      "Pool": "Example pool",
-      "Flatlet": "Example flatlet"
+      "Parking": "0",
+      "Outbuildings": "0",
+      "Outbuilding 1": "Example outbuilding 1",
+      "Outbuilding 2": "Example outbuilding 2",
+      "Security": "Example security",
+      "Internet Access": "Example internet  access"
     },
     "propertyType": "House",
     "listingDate": "Example listing date",
@@ -69,43 +73,25 @@
       {
         "category": "Example category",
         "categoryItems": {
-          "Listing Number": "492869891",
+          "Listing Number": "186746104",
           "Type of Property": "House",
+          "Street Address": "Example street  address",
           "Listing Date": "Example listing  date",
           "Erf Size": "Example erf  size",
           "Floor Size": "Example floor  size",
-          "Rates and Taxes": "Example rates and  taxes",
-          "Pets Allowed": "Example pets  allowed"
+          "Pets Allowed": "Example pets  allowed",
+          "Coverage": "Example coverage",
+          "Zoning": "Example zoning"
         }
       },
       {
         "category": "Rooms",
         "categoryItems": {
           "Bedrooms": "2",
-          "Bathrooms": "7",
-          "Domestic Rooms": "7",
-          "Reception Rooms": "3",
-          "Lounge": "3",
-          "Dining Room": "8"
+          "Bathrooms": "3",
+          "Kitchens": "9",
+          "Domestic Rooms": "4"
         }
-      }
-    ],
-    "keyFeatures": [
-      "Example key features",
-      "Example key features"
-    ],
-    "photos": [
-      {
-        "imageIdentifier": "769819671",
-        "thumbnailUrl": "https://images.prop24.com/example/31605.jpg",
-        "imageUrl": "https://images.prop24.com/example/53773.jpg",
-        "largeImageUrl": "https://images.prop24.com/example/13405.jpg"
-      },
-      {
-        "imageIdentifier": "465409784",
-        "thumbnailUrl": "https://images.prop24.com/example/89989.jpg",
-        "imageUrl": "https://images.prop24.com/example/49194.jpg",
-        "largeImageUrl": "https://images.prop24.com/example/33170.jpg"
       }
     ]
   }

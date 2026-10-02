@@ -1,6 +1,6 @@
 [
   {
-    "id": "5569661064",
+    "id": "4099310462",
     "nodeId": "id63713463",
     "url": "https://www.daangn.com/example/92124",
     "title": "Example title",
@@ -28,80 +28,18 @@
     "regionSlug": null,
     "searchQuery": "Example search query",
     "region": {
-      "id": "1774",
+      "id": "218",
       "name": "Example name",
       "countryCode": "KR"
     },
     "category": {
-      "id": "82",
+      "id": "5",
       "name": "Example name"
     },
     "user": {
       "nickname": "Example nickname",
-      "score": 40.51,
-      "reviewCount": 65,
-      "locationName": null
-    },
-    "tradingLocation": {
-      "name": "Example name",
-      "isUserInput": null,
-      "latitude": null,
-      "longitude": null
-    },
-    "sellerName": "Example seller name",
-    "condition": "used",
-    "chatRoomsCount": 3,
-    "watchesCount": 3,
-    "readsCount": 878,
-    "favoriteCount": 5,
-    "chatCount": 9,
-    "viewCount": 115,
-    "sellerScore": 47.1,
-    "sellerReviewCount": 84,
-    "sellerProfileUrl": "https://www.daangn.com/example/44329",
-    "sellerProfileImage": "https://assetstorage.krrt.io/example/6596.jpg"
-  },
-  {
-    "id": "3360072393",
-    "nodeId": "id3067767",
-    "url": "https://www.daangn.com/example/17684",
-    "title": "Example title",
-    "content": "Example content: mock text standing in for the real value. Same field and type, made-up content.",
-    "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
-    "status": "Ongoing",
-    "listingType": "Example listing type",
-    "price": 874602,
-    "priceText": "Example price text",
-    "isFree": false,
-    "currency": "KRW",
-    "countryCode": "KR",
-    "createdAt": "2026-01-15T10:00:00Z",
-    "postedAt": "2026-01-15T10:00:00Z",
-    "publishedAt": "2026-01-15T10:00:00Z",
-    "boostedAt": "2026-01-15T10:00:00Z",
-    "thumbnail": "https://img.kr.gcp-karroter.net/example/71927.jpg",
-    "imageUrl": "https://img.kr.gcp-karroter.net/example/47714.jpg",
-    "images": [
-      "https://img.kr.gcp-karroter.net/example/98513.jpg",
-      "https://img.kr.gcp-karroter.net/example/16911.jpg"
-    ],
-    "locationName": null,
-    "location": "Example location",
-    "regionSlug": null,
-    "searchQuery": "Example search query",
-    "region": {
-      "id": "3396",
-      "name": "Example name",
-      "countryCode": "KR"
-    },
-    "category": {
-      "id": "8",
-      "name": "Example name"
-    },
-    "user": {
-      "nickname": "Example nickname",
-      "score": 35.86,
-      "reviewCount": 604,
+      "score": 83.59,
+      "reviewCount": 605,
       "locationName": null
     },
     "tradingLocation": {
@@ -114,13 +52,13 @@
     "condition": "used",
     "chatRoomsCount": 0,
     "watchesCount": 0,
-    "readsCount": 8,
+    "readsCount": 5,
     "favoriteCount": 0,
     "chatCount": 0,
-    "viewCount": 4,
-    "sellerScore": 40.84,
-    "sellerReviewCount": 985,
-    "sellerProfileUrl": "https://www.daangn.com/example/8954",
-    "sellerProfileImage": "https://img.kr.gcp-karroter.net/example/50946.jpg"
+    "viewCount": 7,
+    "sellerScore": 97.2,
+    "sellerReviewCount": 264,
+    "sellerProfileUrl": "https://www.daangn.com/example/44329",
+    "sellerProfileImage": "https://assetstorage.krrt.io/example/6596.jpg"
   }
 ]

@@ -1,19 +1,19 @@
 [
   {
-    "id": "19759691",
+    "id": "50745434",
     "url": "https://www.onthemarket.com/example/97228",
     "channel": "FOR-SALE",
     "propertyTitle": "Example property title",
-    "humanisedPropertyType": "Apartment",
-    "displayAddress": "Example display address: mock text standing in for the real value. Same field and type, made-up content.",
+    "humanisedPropertyType": "Flat",
+    "displayAddress": "Example display address",
     "bedrooms": 7,
     "bathrooms": 4,
     "displayPrice": "Example display price",
     "shortPrice": "Example short price",
     "price": 823376,
     "priceQualifier": "Example price qualifier",
-    "latitude": 59.26,
-    "longitude": 0.19,
+    "latitude": 59.3,
+    "longitude": 0.01,
     "mainLabel": "Example main label",
     "daysSinceAddedReduced": "Example days since added reduced",
     "reduced": null,
@@ -33,61 +33,13 @@
     "agentName": "Example agent name",
     "agentLogo": "https://media.onthemarket.com/example/68305.jpg",
     "rawAgent": {
-      "development-features": [
-        "Example development-features",
-        "Example development-features"
-      ],
-      "telephone": "+1 555 0100",
-      "name": "Example name",
-      "details-url": "Example details-url: mock text standing in for the real value. Same field and type, made-up content.",
-      "rank": 9,
-      "contact-url": "Example contact-url",
       "id": 69776,
       "logo-url": "https://media.onthemarket.com/example/94967.jpg",
-      "enhanced?": false
-    },
-    "detailScraped": false
-  },
-  {
-    "id": "07315207",
-    "url": "https://www.onthemarket.com/example/38271",
-    "channel": "FOR-SALE",
-    "propertyTitle": "Example property title",
-    "humanisedPropertyType": "Flat",
-    "displayAddress": "Example display address",
-    "bedrooms": 2,
-    "bathrooms": 6,
-    "displayPrice": "Example display price",
-    "shortPrice": "Example short price",
-    "price": 8542591,
-    "priceQualifier": null,
-    "latitude": 43.26,
-    "longitude": -0.02,
-    "mainLabel": "Example main label",
-    "daysSinceAddedReduced": "Example days since added reduced",
-    "reduced": null,
-    "spotlight": null,
-    "matterportVirtualTour": null,
-    "features": [
-      "Example features",
-      "Example features"
-    ],
-    "images": [
-      "https://media.onthemarket.com/example/12230.jpg"
-    ],
-    "coverImage": "https://media.onthemarket.com/example/68156.jpg",
-    "dataLabelId": "recent",
-    "agentId": 29321,
-    "agentName": "Example agent name",
-    "agentLogo": "https://media.onthemarket.com/example/78131.jpg",
-    "rawAgent": {
-      "id": 68537,
-      "logo-url": "https://media.onthemarket.com/example/46431.jpg",
       "name": "Example name",
       "telephone": "+1 555 0100",
       "contact-url": "Example contact-url",
       "details-url": "Example details-url",
-      "rank": 4,
+      "rank": 9,
       "enhanced?": false
     },
     "detailScraped": false

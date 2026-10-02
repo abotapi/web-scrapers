@@ -47,54 +47,5 @@
     "shipToStoreInd": "5",
     "oddEnabled": true,
     "tier1CategoryId": "416996"
-  },
-  {
-    "articleId": "939902331260576323",
-    "hairToolType": "",
-    "size": [],
-    "toothPasteAttribute": "Example tooth paste attribute",
-    "storeInv": "instock",
-    "fulfillerType": "SFS",
-    "webExclusive": "9",
-    "wic": "085764",
-    "skuInvAvailMap": {
-      "400618794": "3058"
-    },
-    "prodId": "073360959",
-    "skuId": "411691140",
-    "imageUrl": "https://pics.walgreens.com/example/80861.jpg",
-    "upc": "9759794119",
-    "couponCode": "Example coupon code",
-    "productURL": "Example product u r l: mock text standing in for the real value. Same field and type, made-up content.",
-    "reviewCount": "6598",
-    "productSize": "Example product size",
-    "newItem": "Example new item",
-    "couponAvailable": true,
-    "autoReorder": "1",
-    "unitPrice": "3.49",
-    "unitPriceSize": "oz",
-    "copyMessage": "SITEWIDENOT",
-    "loyaltyEligible": "2",
-    "reviewURL": "Example review u r l",
-    "ingredientName": "Example ingredient name",
-    "inactiveIngredients": "Example inactive ingredients: mock text standing in for the real value. Same field and type, made-up content.",
-    "pln": "23748429212",
-    "imageUrl220": "Example image url220",
-    "imageUrl450": "Example image url450",
-    "productName": "Example product name",
-    "imageUrl50": "Example image url50",
-    "productType": "Toothpaste",
-    "couponId": "id35775379",
-    "isAgeRestricted": false,
-    "excludeLocalDelivery": false,
-    "sameDayPurchaseLimit": 1,
-    "storeUPC": "45960602494",
-    "temperatureCode": [
-      {
-        "key": "Example key",
-        "value": "Example value"
-      }
-    ],
-    "gtin": "41779457572"
   }
 ]

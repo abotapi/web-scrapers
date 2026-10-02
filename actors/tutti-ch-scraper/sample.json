@@ -1,23 +1,23 @@
 [
   {
-    "listingId": "33394030",
+    "listingId": "47619109",
     "title": "",
     "description": null,
-    "price": "75.-",
-    "priceValue": 78,
+    "price": "587.-",
+    "priceValue": 258,
     "currency": "CHF",
     "categoryId": "bicycles",
     "categoryLabel": null,
     "parentCategoryId": null,
     "parentCategoryLabel": null,
     "locationName": "Example location name",
-    "postcode": "7228",
-    "canton": "AG",
+    "postcode": "6771",
+    "canton": "ZH",
     "cantonName": "Example canton name",
     "latitude": null,
     "longitude": null,
     "street": null,
-    "sellerName": "Example seller name",
+    "sellerName": "id81146276",
     "sellerType": "Example seller type",
     "sellerAccountId": null,
     "sellerLogoUrl": null,
@@ -38,6 +38,6 @@
     "properties": [],
     "timestamp": "2026-01-15T10:00:00Z",
     "language": "de",
-    "url": null
+    "url": "https://www.tutti.ch/example/55422"
   }
 ]

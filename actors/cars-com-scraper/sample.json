@@ -2,7 +2,7 @@
   {
     "id": "id66990276",
     "listingId": "id27849714",
-    "vin": "3saygdefxpf271420",
+    "vin": "3yjygdee5mf784661",
     "url": "https://www.cars.com/example/27305",
     "listingUrl": "https://www.cars.com/example/22165",
     "searchUrl": "https://www.cars.com/example/59552",
@@ -17,7 +17,7 @@
     "drivetrain": "Example drivetrain",
     "fuelType": "Electric",
     "fuel_type": "Electric",
-    "exterior_color": "silver",
+    "exterior_color": "white",
     "interior_color": null,
     "transmission": null,
     "mpg_city": null,
@@ -36,7 +36,7 @@
     "shippingNote": null,
     "isShippable": false,
     "deliveryType": null,
-    "financingType": "unavailable",
+    "financingType": "pre-qual",
     "dealer": {
       "name": null,
       "location": null

@@ -66,7 +66,7 @@ Full details on the [scraper page](https://apify.com/abotapi/otto-de-scraper?utm
 | `promoLabel` | string |
 | `availability` | string |
 | `availabilityText` | string |
-| `rating` | float |
+| `rating` | integer |
 | `reviewCount` | integer |
 | `variants` | list |
 | `category` | null |

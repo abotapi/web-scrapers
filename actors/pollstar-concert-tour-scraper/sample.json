@@ -1,50 +1,50 @@
 [
   {
     "kind": "event",
-    "recordId": "4016457",
-    "eventId": "7724189",
+    "recordId": "7967287",
+    "eventId": "1243504",
     "url": "https://www.pollstar.com/example/55319",
-    "title": "Example title",
+    "title": "Example title: mock text standing in for the real value. Same field and type, made-up content.",
     "playDate": "2026-01-15T10:00:00Z",
     "playTime": null,
     "isFestival": false,
     "hasBoxOfficeReport": false,
     "announcedHoursAgo": 8283,
     "note": null,
-    "venueId": "773552240",
+    "venueId": "374661436",
     "venueName": "Example venue name",
     "venueUrl": "https://www.pollstar.com/example/58148",
     "venueTypes": [
       "Example venue types"
     ],
-    "venueMarket": null,
+    "venueMarket": "Example venue market",
     "venueStreet": "Example venue street",
     "venueCity": "Example venue city",
     "venueState": "NV",
     "venueStateName": "Example venue state name",
-    "venuePostalCode": "76090",
+    "venuePostalCode": "78277",
     "venueCountry": "Example venue country",
-    "venueLatitude": 33.93,
+    "venueLatitude": 34.0,
     "venueLongitude": -105.96,
     "venuePhone": null,
     "venueEmail": null,
-    "venueWebsite": "Example venue website",
+    "venueWebsite": null,
     "headlineArtist": "Example headline artist",
-    "headlineArtistId": "082944",
+    "headlineArtistId": "039561",
     "headlineArtistUrl": "https://www.pollstar.com/example/91374",
     "headlineArtistType": "Example headline artist type",
     "genres": [
-      "Theatrical"
+      "Example genres"
     ],
     "supportActs": [],
     "artists": [
       {
-        "artistId": "130802",
+        "artistId": "441535",
         "name": "Example name",
         "url": "https://www.pollstar.com/example/55319",
         "isHeadline": true,
         "genres": [
-          "Theatrical"
+          "Example genres"
         ],
         "artistType": "Example artist type",
         "sequence": 5
@@ -52,8 +52,8 @@
     ],
     "tickets": [
       {
-        "vendor": "AXS",
-        "url": "https://www.axs.com/example/55319",
+        "vendor": "Example vendor",
+        "url": "https://ticketmaster.evyy.net/example/55319",
         "doorTime": "Example door time"
       },
       {
@@ -62,85 +62,12 @@
         "doorTime": "Example door time"
       }
     ],
-    "ticketUrl": "https://www.axs.com/example/86715",
+    "ticketUrl": "https://ticketmaster.evyy.net/example/86715",
     "ticketVendors": [
-      "AXS",
       "Example ticket vendors"
     ],
     "scopeKind": "city",
     "scopeId": "44190",
-    "scopeName": "Example scope name"
-  },
-  {
-    "kind": "event",
-    "recordId": "1152202",
-    "eventId": "8410729",
-    "url": "https://www.pollstar.com/example/87083",
-    "title": "Example title",
-    "playDate": "2026-01-15T10:00:00Z",
-    "playTime": null,
-    "isFestival": false,
-    "hasBoxOfficeReport": false,
-    "announcedHoursAgo": 2708,
-    "note": null,
-    "venueId": "704267",
-    "venueName": "Example venue name",
-    "venueUrl": "https://www.pollstar.com/example/84483",
-    "venueTypes": [
-      "Casino"
-    ],
-    "venueMarket": "Example venue market",
-    "venueStreet": "Example venue street",
-    "venueCity": "Example venue city",
-    "venueState": "NV",
-    "venueStateName": "Example venue state name",
-    "venuePostalCode": "56291",
-    "venueCountry": "Example venue country",
-    "venueLatitude": 33.23,
-    "venueLongitude": -132.45,
-    "venuePhone": "+1 555 0100",
-    "venueEmail": null,
-    "venueWebsite": "https://www.caesars.com/example/38961",
-    "headlineArtist": "Example headline artist",
-    "headlineArtistId": "503815",
-    "headlineArtistUrl": "https://www.pollstar.com/example/55437",
-    "headlineArtistType": "Band",
-    "genres": [
-      "Example genres"
-    ],
-    "supportActs": [],
-    "artists": [
-      {
-        "artistId": "289617",
-        "name": "Example name",
-        "url": "https://www.pollstar.com/example/87083",
-        "isHeadline": true,
-        "genres": [
-          "Example genres"
-        ],
-        "artistType": "Band",
-        "sequence": 2
-      }
-    ],
-    "tickets": [
-      {
-        "vendor": "Example vendor",
-        "url": "https://ticketmaster.evyy.net/example/87083",
-        "doorTime": "Example door time"
-      },
-      {
-        "vendor": "AXS",
-        "url": "https://www.axs.com/example/61696",
-        "doorTime": "Example door time"
-      }
-    ],
-    "ticketUrl": "https://ticketmaster.evyy.net/example/67011",
-    "ticketVendors": [
-      "AXS",
-      "Example ticket vendors"
-    ],
-    "scopeKind": "city",
-    "scopeId": "84834",
     "scopeName": "Example scope name"
   }
 ]

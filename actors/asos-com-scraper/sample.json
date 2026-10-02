@@ -1,14 +1,14 @@
 [
   {
-    "recordId": "934010217",
+    "recordId": "978457175",
     "rowType": "product",
-    "productId": "393460666",
+    "productId": "291182525",
     "url": "https://www.asos.com/example/66710",
-    "title": "Example title",
+    "title": "Example title: mock text standing in for the real value. Same field and type, made-up content.",
     "brand": "Example brand",
     "brandId": null,
-    "colour": "CHOCOLATE",
-    "colourWayId": "535242058",
+    "colour": "Plum",
+    "colourWayId": "290325603",
     "price": 92,
     "priceText": "Example price text",
     "originalPrice": null,
@@ -21,7 +21,7 @@
     "isPromotion": false,
     "hasMultipleColours": false,
     "imageUrl": "https://www.asos.com/example/92130.jpg",
-    "productCode": "582641912",
+    "productCode": "694072701",
     "scrapedAt": "2026-01-15T10:00:00Z"
   }
 ]

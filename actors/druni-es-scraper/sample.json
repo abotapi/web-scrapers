@@ -29,49 +29,6 @@
           "body": null,
           "author": "Example author",
           "date": "2026-01-15"
-        },
-        {
-          "rating": 7,
-          "body": null,
-          "author": "Example author",
-          "date": "2026-01-15"
-        }
-      ]
-    }
-  },
-  {
-    "productId": "542836",
-    "sku": "1113340",
-    "name": "Example name",
-    "brand": "ARMANI",
-    "category": "Example category",
-    "url": "https://www.druni.es/example/26277",
-    "price": 52.42,
-    "currency": "EUR",
-    "originalPrice": 53,
-    "discountAmount": 31.33,
-    "discountPercent": 39.04,
-    "isOnSpecial": true,
-    "promoLabel": null,
-    "packSizes": null,
-    "onlineAvailable": true,
-    "image": "https://www.druni.es/example/43426.jpg",
-    "features": [],
-    "reviews": {
-      "averageRating": 5.45,
-      "totalReviewCount": 56,
-      "items": [
-        {
-          "rating": 7,
-          "body": "Example body",
-          "author": "Example author",
-          "date": "2026-01-15"
-        },
-        {
-          "rating": 9,
-          "body": null,
-          "author": "Example author",
-          "date": "2026-01-15"
         }
       ]
     }

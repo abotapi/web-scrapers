@@ -68,8 +68,8 @@ Full details on the [scraper page](https://apify.com/abotapi/s1jobs-com-scraper?
 | `vacancyId` | string |
 | `vacancy_id` | string |
 | `vacancyUuid` | string |
-| `jobReference` | null |
-| `talentPoolId` | integer |
+| `jobReference` | string |
+| `talentPoolId` | null |
 | `companyUrn` | string |
 | `url` | string |
 | `jobUrl` | string |

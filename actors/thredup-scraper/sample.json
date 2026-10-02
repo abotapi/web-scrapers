@@ -1,7 +1,7 @@
 [
   {
     "id": 925622528,
-    "itemNumber": 1338448268,
+    "itemNumber": 438448268,
     "sku": null,
     "url": "https://www.thredup.com/example/4729",
     "title": "Example title",
@@ -9,70 +9,9 @@
     "brand": "Nike",
     "brandId": 148,
     "brandStyleName": null,
-    "price": 38.39,
-    "originalPrice": 35.99,
+    "price": 29.75,
+    "originalPrice": 27.67,
     "msrp": 911,
-    "clearance": false,
-    "newWithTags": false,
-    "condition": "excellent",
-    "sizeDisplay": "Example size display",
-    "department": "women",
-    "merchandisingDepartment": "women",
-    "category": "Example category",
-    "categoryTags": [
-      "activewear"
-    ],
-    "departmentTags": [
-      "juniors",
-      "women"
-    ],
-    "styleTags": [
-      "tops"
-    ],
-    "colorNames": [
-      "Example color names"
-    ],
-    "materials": [
-      "Example materials",
-      "Example materials"
-    ],
-    "availability": "Example availability",
-    "state": "listed",
-    "accessLevels": [
-      "any"
-    ],
-    "favoriteCount": 28,
-    "isP2P": true,
-    "clusterId": null,
-    "clusterItemCount": null,
-    "warehouseId": 52,
-    "supplierId": 21804697,
-    "photoIds": [
-      "0045163864",
-      "8446223547"
-    ],
-    "imageUrls": [
-      "https://tup-images.thredup.com/example/70147.jpg",
-      "https://tup-images.thredup.com/example/96842.jpg"
-    ],
-    "imageUrl": "https://tup-images.thredup.com/example/91634.jpg",
-    "fullDescription": null,
-    "measurements": null,
-    "detailRaw": null
-  },
-  {
-    "id": 155099752,
-    "itemNumber": 990320485,
-    "sku": null,
-    "url": "https://www.thredup.com/example/70514",
-    "title": "Example title",
-    "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
-    "brand": "Nike",
-    "brandId": 511,
-    "brandStyleName": null,
-    "price": 26.65,
-    "originalPrice": 29.2,
-    "msrp": 764,
     "clearance": false,
     "newWithTags": false,
     "condition": "very_good",
@@ -102,21 +41,21 @@
     "accessLevels": [
       "any"
     ],
-    "favoriteCount": 7,
+    "favoriteCount": 1,
     "isP2P": false,
     "clusterId": null,
     "clusterItemCount": null,
-    "warehouseId": 99,
-    "supplierId": 55599327,
+    "warehouseId": 52,
+    "supplierId": 21804697,
     "photoIds": [
-      "394942231",
-      "392280671"
+      "696862053",
+      "632410639"
     ],
     "imageUrls": [
-      "https://tup-images.thredup.com/example/11076.jpg",
-      "https://tup-images.thredup.com/example/32729.jpg"
+      "https://tup-images.thredup.com/example/70147.jpg",
+      "https://tup-images.thredup.com/example/96842.jpg"
     ],
-    "imageUrl": "https://tup-images.thredup.com/example/18166.jpg",
+    "imageUrl": "https://tup-images.thredup.com/example/91634.jpg",
     "fullDescription": null,
     "measurements": null,
     "detailRaw": null

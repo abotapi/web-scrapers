@@ -18,8 +18,7 @@
         "seats": 6,
         "stops": 0,
         "airlines": [
-          "AA",
-          "BA"
+          "AA"
         ]
       },
       "premium": {

@@ -66,10 +66,10 @@ Full details on the [scraper page](https://apify.com/abotapi/trulia-scraper?utm_
 | `formattedLocation` | string |
 | `latitude` | float |
 | `longitude` | float |
-| `bedrooms` | integer |
+| `bedrooms` | null |
 | `bedroomsFormatted` | string |
-| `bathrooms` | integer |
-| `bathroomsFormatted` | string |
+| `bathrooms` | null |
+| `bathroomsFormatted` | null |
 | `floorSpace` | string |
 | `lotSize` | null |
 | `currentStatus` | object |

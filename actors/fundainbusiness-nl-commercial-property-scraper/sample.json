@@ -1,7 +1,7 @@
 [
   {
     "record_type": "property_listing",
-    "record_id": "70050503",
+    "record_id": "74956921",
     "source_context": {
       "source_domain": "Example source_domain",
       "source_url": "https://www.fundainbusiness.nl/example/96186",
@@ -14,8 +14,8 @@
       "language": "nl",
       "country": "NL",
       "external_ids": {
-        "listing_id": "16464490",
-        "global_id": "5050550"
+        "listing_id": "74135679",
+        "global_id": "3806061"
       },
       "search": {
         "property_type": "all",
@@ -27,24 +27,26 @@
       "title": "Example title",
       "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
       "url": "https://www.fundainbusiness.nl/example/73857",
-      "category": "Kantoor",
+      "category": "Winkel",
       "status": "Beschikbaar"
     },
     "listing": {
-      "listing_id": "16464490",
+      "listing_id": "74135679",
       "listing_type": "Example listing_type",
-      "deal_type": "both",
-      "source_category": "Kantoor",
-      "source_listing_type": "regular",
+      "deal_type": "buy",
+      "source_category": "Winkel",
+      "source_listing_type": "promo",
       "is_featured": false,
-      "labels": [],
+      "labels": [
+        "Example labels"
+      ],
       "available_from": "Example available_from"
     },
     "pricing": {
-      "price": 654,
+      "price": 293154,
       "currency": "EUR",
       "price_text": "Example price_text",
-      "service_costs": "Example service_costs"
+      "service_costs": null
     },
     "location": {
       "address": "Example address",
@@ -52,24 +54,24 @@
       "city": "Amsterdam",
       "region": "Noord-Holland",
       "country": "Netherlands",
-      "latitude": 46.63,
-      "longitude": 4.86,
+      "latitude": 46.6,
+      "longitude": 4.83,
       "map_marker_title": "Example map_marker_title"
     },
     "property": {
-      "property_id": "0187249",
+      "property_id": "0007676",
       "property_type": "all",
       "usage_types": [
-        "Kantoor"
+        "Winkel"
       ],
-      "floor_area": 575,
+      "floor_area": 35,
       "energy_label": "Example energy_label",
-      "construction_year": "3443",
+      "construction_year": "5281",
       "construction_type": "Example construction_type",
       "features": {
         "Overdracht": {
+          "Vraagprijs": "Example vraagprijs",
           "Huurprijs": "Example huurprijs",
-          "Servicekosten": "Example servicekosten",
           "Aangeboden sinds": "",
           "Status": "Beschikbaar",
           "Aanvaarding": "Example aanvaarding"
@@ -77,21 +79,24 @@
         "Bouw": {
           "Hoofdfunctie": "Example hoofdfunctie",
           "Soort bouw": "Example soort bouw",
-          "Bouwjaar": "5435"
+          "Bouwjaar": "4952"
         },
         "Oppervlakten": {
-          "Oppervlakte": "Example oppervlakte"
+          "Oppervlakte": "Example oppervlakte",
+          "Verkoopvloeroppervlakte": "Example verkoopvloeroppervlakte",
+          "Breedte gevel": "Example breedte gevel",
+          "Perceel": "Example perceel"
         },
         "Indeling": {
-          "Aantal bouwlagen": "Example aantal bouwlagen",
-          "Voorzieningen": "Example voorzieningen"
+          "Aantal bouwlagen": "Example aantal bouwlagen"
         },
         "Energie": {
           "Energielabel": "Example energielabel"
         },
         "Omgeving": {
           "Ligging": "Example ligging",
-          "Bereikbaarheid": "Example bereikbaarheid: mock text standing in for the real value. Same field and type, made-up content."
+          "Bijdrage winkeliersvereniging": "Example bijdrage winkeliersvereniging",
+          "Welstandsklasse": "A1"
         }
       }
     },
@@ -108,7 +113,7 @@
         "name": "Example name",
         "url": "https://www.fundainbusiness.nl/example/73857",
         "phone": "+1 555 0100",
-        "broker_id": "08520"
+        "broker_id": "39943"
       }
     },
     "availability": {
@@ -117,10 +122,11 @@
     },
     "attributes": {
       "kenmerken_summary": {
+        "verkoopvloeroppervlakte": "Example verkoopvloeroppervlakte",
         "Oppervlakte": "Example oppervlakte"
       },
       "source_specific": {
-        "listing_type": "regular"
+        "listing_type": "promo"
       }
     }
   }

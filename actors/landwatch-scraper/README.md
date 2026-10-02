@@ -66,8 +66,8 @@ Full details on the [scraper page](https://apify.com/abotapi/landwatch-scraper?u
 | `priceChangeDate` | null |
 | `priceChangePercentage` | float |
 | `shortPriceChangeAmount` | string |
-| `acres` | integer |
-| `acreage` | integer |
+| `acres` | float |
+| `acreage` | float |
 | `acresDisplay` | string |
 | `beds` | integer |
 | `bedsDisplay` | string |

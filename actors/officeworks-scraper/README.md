@@ -72,11 +72,11 @@ Full details on the [scraper page](https://apify.com/abotapi/officeworks-scraper
 | `isClearance` | boolean |
 | `isOnSpecial` | boolean |
 | `isNew` | boolean |
-| `promoLabel` | null |
+| `promoLabel` | string |
 | `wasPrice` | null |
 | `savingsAmount` | null |
 | `savingsPercent` | null |
-| `rating` | float |
+| `rating` | integer |
 | `reviewCount` | integer |
 | `imageUrl` | string |
 | `images` | list |

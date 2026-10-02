@@ -56,7 +56,7 @@ Full details on the [scraper page](https://apify.com/abotapi/pccomponentes-com-s
 | `brand` | string |
 | `category` | string |
 | `url` | string |
-| `price` | float |
+| `price` | integer |
 | `currency` | string |
 | `originalPrice` | null |
 | `discountAmount` | null |

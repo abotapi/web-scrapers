@@ -1,6 +1,6 @@
 [
   {
-    "listingId": "40948514",
+    "listingId": "02896624",
     "listingType": "sale",
     "channel": "for-sale",
     "url": "https://www.zoopla.co.uk/example/59283",
@@ -8,67 +8,6 @@
     "address": "Example address",
     "summaryDescription": "Example summary description: mock text standing in for the real value. Same field and type, made-up content.",
     "price": 168653,
-    "priceLabel": "Example price label",
-    "priceQualifier": "Example price qualifier",
-    "currency": "GBP",
-    "rentFrequencyLabel": null,
-    "priceDrop": {
-      "firstPriceDate": "Example first price date",
-      "lastPriceChangeDate": "Example last price change date",
-      "percentageChangeLabel": "7.8"
-    },
-    "bedrooms": 9,
-    "bathrooms": 3,
-    "receptionRooms": 5,
-    "propertyType": "flat",
-    "sizeSqft": 6390,
-    "sizeSource": "structured_data",
-    "publishedOn": "Example published on",
-    "publishedOnLabel": "Example published on label",
-    "availableFrom": null,
-    "statusFlag": null,
-    "underOffer": null,
-    "isPremium": true,
-    "featuredType": "weekly_featured",
-    "displayType": "premium_plus",
-    "tags": [
-      "Example tags",
-      "Example tags"
-    ],
-    "highlights": [
-      {
-        "description": null,
-        "label": "Example label"
-      },
-      {
-        "description": null,
-        "label": "Example label"
-      }
-    ],
-    "buyerIncentives": [],
-    "latitude": null,
-    "longitude": null,
-    "imageUrl": "https://lid.zoocdn.com/example/35723.jpg",
-    "imageCaption": "Example image caption",
-    "images": [
-      "https://lid.zoocdn.com/example/97334.jpg",
-      "https://lid.zoocdn.com/example/68945.jpg"
-    ],
-    "imageCount": 6,
-    "floorPlanCount": 4,
-    "videoCount": 0,
-    "branchName": "Example branch name",
-    "branchId": 16473
-  },
-  {
-    "listingId": "42631946",
-    "listingType": "sale",
-    "channel": "for-sale",
-    "url": "https://www.zoopla.co.uk/example/17645",
-    "title": "Example title",
-    "address": "Example address",
-    "summaryDescription": "Example summary description: mock text standing in for the real value. Same field and type, made-up content.",
-    "price": 335930,
     "priceLabel": "Example price label",
     "priceQualifier": null,
     "currency": "GBP",
@@ -78,38 +17,37 @@
       "lastPriceChangeDate": "Example last price change date",
       "percentageChangeLabel": null
     },
-    "bedrooms": 3,
-    "bathrooms": 2,
-    "receptionRooms": 4,
+    "bedrooms": 9,
+    "bathrooms": 3,
+    "receptionRooms": 5,
     "propertyType": "flat",
-    "sizeSqft": null,
-    "sizeSource": null,
+    "sizeSqft": 990,
+    "sizeSource": "comparables_epc",
     "publishedOn": "Example published on",
     "publishedOnLabel": "Example published on label",
-    "availableFrom": "Example available from",
-    "statusFlag": null,
+    "availableFrom": null,
+    "statusFlag": "Example status flag",
     "underOffer": null,
     "isPremium": false,
-    "featuredType": "featured",
+    "featuredType": "weekly_featured",
     "displayType": "standard",
     "tags": [
-      "Example tags",
       "Example tags"
     ],
     "highlights": [],
     "buyerIncentives": [],
     "latitude": null,
     "longitude": null,
-    "imageUrl": "https://lid.zoocdn.com/example/58520.jpg",
-    "imageCaption": null,
+    "imageUrl": "https://lid.zoocdn.com/example/35723.jpg",
+    "imageCaption": "Example image caption",
     "images": [
-      "https://lid.zoocdn.com/example/65645.jpg",
-      "https://lid.zoocdn.com/example/95922.jpg"
+      "https://lid.zoocdn.com/example/97334.jpg",
+      "https://lid.zoocdn.com/example/68945.jpg"
     ],
-    "imageCount": 50,
-    "floorPlanCount": 7,
+    "imageCount": 87,
+    "floorPlanCount": 4,
     "videoCount": 0,
     "branchName": "Example branch name",
-    "branchId": 842206
+    "branchId": 7473
   }
 ]

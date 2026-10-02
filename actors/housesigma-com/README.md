@@ -66,7 +66,7 @@ Full details on the [scraper page](https://apify.com/abotapi/housesigma-com?utm_
 | `propertyType` | string |
 | `address` | string |
 | `addressFull` | string |
-| `aptNumber` | string |
+| `aptNumber` | null |
 | `community` | string |
 | `municipality` | string |
 | `province` | string |
@@ -82,9 +82,9 @@ Full details on the [scraper page](https://apify.com/abotapi/housesigma-com?utm_
 | `longitude` | float |
 | `sizeSqft` | null |
 | `sizeText` | string |
-| `lotFront` | null |
-| `lotDepth` | null |
-| `lotUnit` | null |
+| `lotFront` | integer |
+| `lotDepth` | integer |
+| `lotUnit` | string |
 | `dateListed` | string |
 | `dateUpdated` | string |
 | `daysOnMarket` | integer |

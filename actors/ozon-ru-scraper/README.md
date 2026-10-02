@@ -58,13 +58,13 @@ Full details on the [scraper page](https://apify.com/abotapi/ozon-ru-scraper?utm
 | `originalPrice` | integer |
 | `discountPercent` | integer |
 | `currency` | string |
-| `rating` | integer |
+| `rating` | float |
 | `reviewCount` | integer |
 | `questionCount` | integer |
 | `availability` | string |
 | `coverImage` | string |
 | `images` | list |
-| `description` | null |
+| `description` | string |
 | `specs` | list |
 | `hashtags` | list |
 | `ratingBreakdown` | null |

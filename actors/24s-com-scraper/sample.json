@@ -1,12 +1,12 @@
 [
   {
-    "id": "imas7p9fbrw",
-    "shortSku": "imas7p0fbrw",
-    "model": "imas3p8f",
+    "id": "miu66z8tbei",
+    "shortSku": "miu76z9tbei",
+    "model": "miu68z3t",
     "name": "Example name",
     "title": "Example title",
     "brand": "Example brand",
-    "color": "Brown",
+    "color": "Beige",
     "price": 448,
     "discountPrice": null,
     "currentPrice": 885,
@@ -27,18 +27,18 @@
     "sizes": [
       {
         "label": "Example label",
-        "sku": "imas7p1fbrw4102960",
+        "sku": "miu87z1tbeii05a183",
         "inStock": true
       },
       {
         "label": "Example label",
-        "sku": "imas9p5fbrwna6aa04",
+        "sku": "miu38z7tbeija96a40",
         "inStock": true
       }
     ],
     "skus": [
-      "imas2p4fbrwt7aaa31",
-      "imas2p9fbrwv4a6699"
+      "miu27z7tbeie0a7a50",
+      "miu36z6tbeija11a27"
     ],
     "otherColors": [],
     "images": [
@@ -48,63 +48,6 @@
     "imagesCount": 3,
     "productSlug": "Example product slug",
     "url": "https://www.24s.com/example/15658",
-    "locale": "en-gb"
-  },
-  {
-    "id": "celjjqwube8",
-    "shortSku": "celjjqwube9",
-    "model": "CELJJQWU",
-    "name": "Example name",
-    "title": "Example title",
-    "brand": "CELINE",
-    "color": "Beige",
-    "price": 690,
-    "discountPrice": null,
-    "currentPrice": 220,
-    "discountPercentage": null,
-    "currency": "EUR",
-    "onSale": false,
-    "isOnSpecial": false,
-    "wasPrice": null,
-    "savingsAmount": null,
-    "discountPercent": null,
-    "promoEventName": null,
-    "discountStartDate": null,
-    "discountEndDate": null,
-    "inStock": true,
-    "stockLevel": 3,
-    "replenishment": false,
-    "exclusive": false,
-    "sizes": [
-      {
-        "label": "Example label",
-        "sku": "celjjqwube6i48a259",
-        "inStock": true
-      },
-      {
-        "label": "Example label",
-        "sku": "celjjqwube9uza9a47",
-        "inStock": true
-      }
-    ],
-    "skus": [
-      "celjjqwube9y25a385",
-      "celjjqwube1uza4a35"
-    ],
-    "otherColors": [
-      {
-        "label": "Example label",
-        "shortSku": "CELJJQWUBRW",
-        "image": "https://www.24s.com/example/64125.jpg"
-      }
-    ],
-    "images": [
-      "https://www.24s.com/example/94064.jpg",
-      "https://www.24s.com/example/5948.jpg"
-    ],
-    "imagesCount": 8,
-    "productSlug": "Example product slug",
-    "url": "https://www.24s.com/example/9338",
     "locale": "en-gb"
   }
 ]

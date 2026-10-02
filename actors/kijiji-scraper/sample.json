@@ -1,8 +1,8 @@
 [
   {
-    "id": "6284262813",
+    "id": "8759360150",
     "listingType": "StandardListing",
-    "title": "Example title: mock text standing in for the real value. Same field and type, made-up content.",
+    "title": "Example title",
     "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
     "url": "https://www.kijiji.ca/example/21350",
     "categoryId": 279,
@@ -22,17 +22,17 @@
     "locationName": "Example location name",
     "address": "Example address",
     "nearestIntersection": null,
-    "latitude": 48.01,
-    "longitude": -68.28,
-    "posterId": "5840318753",
+    "latitude": 48.16,
+    "longitude": -68.24,
+    "posterId": "5646073402",
     "posterRating": null,
     "posterVerified": false,
     "sellerType": "Example seller type",
     "posterInfo": {
       "__typename": "Example __typename",
-      "posterId": "5840318753",
+      "posterId": "5646073402",
       "sellerType": "Example seller type",
-      "websiteUrl": "https://www.sell-smart.ca/example/27270",
+      "websiteUrl": null,
       "phoneNumber": "+1 555 0100",
       "verified": false
     },
@@ -50,32 +50,29 @@
       "isPromotionProvTopAd": null,
       "isPromotionTopAd": true
     },
-    "attr_phonecarrier": "+1 555 0100",
-    "attr_payment": "cashless",
-    "attr_phonebrand": "+1 555 0100",
-    "attr_fulfillment": [
-      "delivery",
-      "shipping"
-    ],
     "attr_forsaleby": "delr",
+    "attr_phonecarrier": "+1 555 0100",
+    "attr_phonebrand": "+1 555 0100",
     "attr_srpLogoUrl": "https://media.kijiji.ca/example/68429.jpg",
     "attributesRaw": [
       {
         "__typename": "listingattributev9",
         "canonicalName": "Example canonical name",
         "canonicalValues": [
-          "unlck"
+          "delr"
         ]
       },
       {
         "__typename": "listingattributev8",
         "canonicalName": "Example canonical name",
         "canonicalValues": [
-          "cashless"
+          "unlck"
         ]
       }
     ],
-    "views": 555,
-    "status": "ACTIVE"
+    "views": 4155,
+    "status": "ACTIVE",
+    "listingTypeOffer": "OFFER",
+    "endDate": "2026-01-15T10:00:00Z"
   }
 ]

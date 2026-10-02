@@ -1,15 +1,15 @@
 [
   {
-    "itemId": "47844128",
-    "title": "Example title: mock text standing in for the real value. Same field and type, made-up content.",
+    "itemId": "90682519",
+    "title": "Example title",
     "brand": "Example brand",
     "url": "https://www.biccamera.com/example/50116",
-    "price": 7766,
+    "price": 97766,
     "currency": "JPY",
-    "pointAmount": 481,
+    "pointAmount": 5881,
     "pointRate": 80,
-    "effectivePrice": 8533,
-    "rating": 1,
+    "effectivePrice": 53533,
+    "rating": 4.77,
     "reviewCount": 60,
     "thumbnail": "https://image.biccamera.com/example/63917.jpg",
     "images": [
@@ -22,54 +22,13 @@
     "inStock": true,
     "usedPrice": null,
     "usedOfferCount": null,
-    "isSponsored": true,
+    "isSponsored": false,
     "rank": 9,
     "variant": null,
     "source": "listing",
     "reviews": {
-      "averageRating": 4,
+      "averageRating": 4.37,
       "totalReviewCount": 22,
-      "ratingDistribution": {
-        "1": 0,
-        "2": 0,
-        "3": 0,
-        "4": 0,
-        "5": 0
-      },
-      "items": []
-    },
-    "scrapedAt": "2026-01-15T10:00:00Z"
-  },
-  {
-    "itemId": "32245827",
-    "title": "Example title: mock text standing in for the real value. Same field and type, made-up content.",
-    "brand": "Example brand",
-    "url": "https://www.biccamera.com/example/2029",
-    "price": 8615,
-    "currency": "JPY",
-    "pointAmount": 424,
-    "pointRate": 13,
-    "effectivePrice": 5232,
-    "rating": 5.62,
-    "reviewCount": 9,
-    "thumbnail": "https://image.biccamera.com/example/98872.jpg",
-    "images": [
-      "https://image.biccamera.com/example/97966.jpg"
-    ],
-    "deliveryText": "Example delivery text",
-    "arrivalDate": "Example arrival date",
-    "freeShipping": true,
-    "availabilityText": null,
-    "inStock": true,
-    "usedPrice": null,
-    "usedOfferCount": null,
-    "isSponsored": true,
-    "rank": 5,
-    "variant": null,
-    "source": "listing",
-    "reviews": {
-      "averageRating": 4.05,
-      "totalReviewCount": 8,
       "ratingDistribution": {
         "1": 0,
         "2": 0,

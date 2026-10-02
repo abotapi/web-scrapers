@@ -8,12 +8,12 @@
       "id": "id87274198",
       "name": "Example name",
       "slug": "Example slug",
-      "url": "https://www.nickscali.com.au/example/31042",
+      "url": "https://www.loungelovers.com.au/example/31042",
       "isManaged": true
     },
     "contact": {
-      "email": null,
-      "website": "https://www.nickscali.com.au/example/52865",
+      "email": "user82@example.com",
+      "website": "https://www.loungelovers.com.au/example/52865",
       "phone": null
     },
     "categories": [
@@ -32,12 +32,12 @@
     ],
     "locations": [],
     "statistics": {
-      "rating": 4.46,
+      "rating": 4.75,
       "numberOfReviews": 85286,
-      "numberOfQuestions": 471,
+      "numberOfQuestions": 21,
       "ratingDistribution": [
-        2965,
-        252
+        265,
+        72
       ]
     },
     "isDiscontinued": false,
@@ -48,14 +48,15 @@
       "rating": 4,
       "submittedAt": "2026-01-15T10:00:00Z",
       "authorName": "Example author name",
-      "authorLocation": "Example author location",
+      "authorLocation": null,
       "hasVerifiedPurchase": false
     },
     "highlightedReviews": [],
     "logoUrl": "https://cdn.productreview.com.au/example/365.jpg",
     "pictureUrl": "https://cdn.productreview.com.au/example/63716",
     "pictures": [
-      "https://cdn.productreview.com.au/example/40844"
+      "https://cdn.productreview.com.au/example/40844",
+      "https://cdn.productreview.com.au/example/10683"
     ],
     "createdAt": "2026-01-15T10:00:00Z",
     "scrapedAt": "2026-01-15T10:00:00Z",
@@ -74,22 +75,12 @@
           "displayName": "Example display name",
           "locationName": null
         },
-        "comments": [
-          {
-            "id": "id87274198",
-            "body": "Example body: mock text standing in for the real value. Same field and type, made-up content.",
-            "submittedAt": "2026-01-15T10:00:00Z",
-            "author": {
-              "displayName": "Example display name",
-              "isBrandManager": true
-            }
-          }
-        ]
+        "comments": []
       },
       {
         "id": "id36078153",
         "title": null,
-        "body": "Example body",
+        "body": "Example body: mock text standing in for the real value. Same field and type, made-up content.",
         "rating": 3,
         "submittedAt": "2026-01-15T10:00:00Z",
         "hasVerifiedPurchase": false,
@@ -98,7 +89,7 @@
         "author": {
           "id": "id36078153",
           "displayName": "Example display name",
-          "locationName": null
+          "locationName": "Example location name"
         },
         "comments": [
           {
@@ -131,12 +122,12 @@
       "id": "id24683951",
       "name": "Example name",
       "slug": "Example slug",
-      "url": "https://www.loungelovers.com.au/example/46485",
+      "url": "https://www.resinc.com.au/example/46485",
       "isManaged": true
     },
     "contact": {
       "email": "user30@example.com",
-      "website": "https://www.loungelovers.com.au/example/91501",
+      "website": "https://www.resinc.com.au/example/91501",
       "phone": null
     },
     "categories": [
@@ -149,18 +140,18 @@
       {
         "name": "Example name",
         "level": 5,
-        "hook": "shops",
+        "hook": "Example hook",
         "ancestors": []
       }
     ],
     "locations": [],
     "statistics": {
-      "rating": 6.32,
-      "numberOfReviews": 13061,
-      "numberOfQuestions": 58,
+      "rating": 9,
+      "numberOfReviews": 4061,
+      "numberOfQuestions": 0,
       "ratingDistribution": [
-        820,
-        64
+        1,
+        1
       ]
     },
     "isDiscontinued": false,
@@ -171,15 +162,14 @@
       "rating": 9,
       "submittedAt": "2026-01-15T10:00:00Z",
       "authorName": "Example author name",
-      "authorLocation": "Example author location",
+      "authorLocation": null,
       "hasVerifiedPurchase": false
     },
     "highlightedReviews": [],
     "logoUrl": "https://cdn.productreview.com.au/example/89366.jpg",
     "pictureUrl": "https://cdn.productreview.com.au/example/69542",
     "pictures": [
-      "https://cdn.productreview.com.au/example/96435",
-      "https://cdn.productreview.com.au/example/72940"
+      "https://cdn.productreview.com.au/example/96435"
     ],
     "createdAt": "2026-01-15T10:00:00Z",
     "scrapedAt": "2026-01-15T10:00:00Z",
@@ -212,17 +202,40 @@
         "author": {
           "id": "id62995661",
           "displayName": "Example display name",
-          "locationName": "Example location name"
+          "locationName": null
         },
         "comments": []
       }
     ],
-    "totalReviews": 68950,
+    "totalReviews": 5950,
     "reviewPages": 753,
     "pagesScraped": 6,
     "address": null,
-    "businessHours": null,
-    "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
+    "businessHours": [
+      {
+        "to": {
+          "time": "7736",
+          "dayOfWeek": "monday"
+        },
+        "from": {
+          "time": "4350",
+          "dayOfWeek": "monday"
+        },
+        "specialConditions": null
+      },
+      {
+        "to": {
+          "time": "2314",
+          "dayOfWeek": "tuesday"
+        },
+        "from": {
+          "time": "6351",
+          "dayOfWeek": "tuesday"
+        },
+        "specialConditions": null
+      }
+    ],
+    "description": null,
     "faqs": [],
     "specifications": {}
   }

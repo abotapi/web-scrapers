@@ -9,7 +9,7 @@
     "logoUrl": "https://image-service-cdn.seek.com.au/example/31983.jpg",
     "coverImageUrl": "https://image-service-cdn.seek.com.au/example/97044.jpg",
     "industry": "Example industry",
-    "totalJobs": 39,
+    "totalJobs": 579,
     "ratingOverall": 8,
     "reviewCount": 709,
     "salaryRating": 48,
@@ -66,35 +66,6 @@
         "overallRating": 3,
         "createdAt": "Example created at",
         "upvotes": 9,
-        "hasBeenFlagged": false
-      },
-      {
-        "reviewId": "023431428617248",
-        "companyId": "207381270855738",
-        "schemaVersion": "3.6.3",
-        "title": "Example title",
-        "pros": "Example pros",
-        "cons": "Example cons: mock text standing in for the real value. Same field and type, made-up content.",
-        "overallExperienceDetails": null,
-        "jobTitle": "Example job title",
-        "workLocation": "Example work location",
-        "employmentStatus": "Example employment status",
-        "salarySummary": "Example salary summary",
-        "recommended": false,
-        "recommendedLabel": "Example recommended label",
-        "ratings": [
-          {
-            "category": "Example category",
-            "rating": 7
-          },
-          {
-            "category": "Example category",
-            "rating": 8
-          }
-        ],
-        "overallRating": 9,
-        "createdAt": "Example created at",
-        "upvotes": 1,
         "hasBeenFlagged": false
       }
     ],

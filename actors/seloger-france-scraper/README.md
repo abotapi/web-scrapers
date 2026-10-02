@@ -57,7 +57,6 @@ Full details on the [scraper page](https://apify.com/abotapi/seloger-france-scra
 | `description` | string |
 | `price` | string |
 | `price_numeric` | integer |
-| `price_per_m2` | string |
 | `currency` | string |
 | `distribution_type` | string |
 | `property_type` | string |
@@ -75,11 +74,11 @@ Full details on the [scraper page](https://apify.com/abotapi/seloger-france-scra
 | `agent_name` | string |
 | `agent_phone` | string |
 | `agent_address` | string |
+| `is_exclusive` | boolean |
 | `has_3d_visit` | boolean |
 | `is_new` | boolean |
 | `publisher_type` | string |
 | `images` | list |
-| `floorplans` | list |
 | `image_count` | integer |
 | `url` | string |
 | `portal` | string |

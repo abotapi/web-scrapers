@@ -65,35 +65,6 @@
         "createdAt": "Example created at",
         "upvotes": 5,
         "hasBeenFlagged": false
-      },
-      {
-        "reviewId": "3530988",
-        "companyId": "186180",
-        "schemaVersion": "7.0.2",
-        "title": "Example title: mock text standing in for the real value. Same field and type, made-up content.",
-        "pros": "Example pros: mock text standing in for the real value. Same field and type, made-up content.",
-        "cons": "Example cons: mock text standing in for the real value. Same field and type, made-up content.",
-        "overallExperienceDetails": null,
-        "jobTitle": "Example job title",
-        "workLocation": null,
-        "employmentStatus": "Example employment status",
-        "salarySummary": "Example salary summary",
-        "recommended": false,
-        "recommendedLabel": "Example recommended label",
-        "ratings": [
-          {
-            "category": "Example category",
-            "rating": 4
-          },
-          {
-            "category": "Example category",
-            "rating": 2
-          }
-        ],
-        "overallRating": 6,
-        "createdAt": "Example created at",
-        "upvotes": 1,
-        "hasBeenFlagged": false
       }
     ],
     "topReviewCount": 8,

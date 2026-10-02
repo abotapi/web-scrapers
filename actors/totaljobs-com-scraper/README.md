@@ -55,7 +55,7 @@ Full details on the [scraper page](https://apify.com/abotapi/totaljobs-com-scrap
 | `sourceSearchUrl` | string |
 | `scrapedAt` | string |
 | `jobId` | integer |
-| `harmonisedId` | null |
+| `harmonisedId` | string |
 | `jobUrl` | string |
 | `applyUrl` | string |
 | `sourceSite` | string |
@@ -85,7 +85,7 @@ Full details on the [scraper page](https://apify.com/abotapi/totaljobs-com-scrap
 | `applyType` | null |
 | `jobLocationType` | null |
 | `applicantLocationRequirements` | null |
-| `externalId` | null |
+| `externalId` | string |
 | `contractType` | null |
 | `workType` | null |
 | `company` | null |

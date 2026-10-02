@@ -9,14 +9,23 @@
     "supplierName": "Example supplier name",
     "shortDescription": null,
     "condition": null,
-    "price": 28.21,
+    "price": 23,
     "originalPrice": 33.99,
-    "promotionalPrice": null,
-    "discountPercentage": null,
+    "promotionalPrice": 73,
+    "discountPercentage": 7,
     "currency": "GBP",
-    "onSale": false,
-    "dealFlag": null,
-    "flags": [],
+    "onSale": true,
+    "dealFlag": "Example deal flag",
+    "flags": [
+      {
+        "kind": "CAMPAIGN",
+        "label": "Example label"
+      },
+      {
+        "kind": "DEAL",
+        "label": "Example label"
+      }
+    ],
     "sizes": [
       "XS",
       "S"
@@ -110,13 +119,16 @@
         }
       ],
       "brand": {
+        "id": "Example id",
         "name": "Example name"
       },
       "condition": null,
       "displayPrice": {
-        "trackingCurrentAmount": 29.57,
-        "trackingDiscountAmount": null,
-        "promotional": null,
+        "trackingCurrentAmount": 87,
+        "trackingDiscountAmount": 3.26,
+        "promotional": {
+          "amount": 6414
+        },
         "original": {
           "amount": 6414,
           "currency": "GBP"
@@ -181,7 +193,16 @@
       "experienceWatermarkLarge": null,
       "experienceWatermarkMedium": null,
       "experienceWatermarkSmall": null,
-      "productFlags": [],
+      "productFlags": [
+        {
+          "kind": "CAMPAIGN",
+          "formatted": "Example formatted"
+        },
+        {
+          "kind": "DEAL",
+          "formatted": "Example formatted"
+        }
+      ],
       "uri": "https://www.zalando.co.uk/example/51919",
       "inWishlist": false,
       "benefits": [],
@@ -195,11 +216,11 @@
       "visibility": null
     },
     "title": "Example title",
-    "wasPrice": null,
-    "savingsAmount": null,
-    "savingsPercent": null,
-    "isOnSpecial": false,
-    "promoLabel": null,
+    "wasPrice": 40.45,
+    "savingsAmount": 3.26,
+    "savingsPercent": 8,
+    "isOnSpecial": true,
+    "promoLabel": "Example promo label",
     "specialsCategory": null
   }
 ]

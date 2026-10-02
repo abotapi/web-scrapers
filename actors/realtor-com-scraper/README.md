@@ -58,7 +58,12 @@ Full details on the [scraper page](https://apify.com/abotapi/realtor-com-scraper
 | `address` | object |
 | `coordinates` | object |
 | `price` | object |
+| `priceReducedAmount` | integer |
+| `soldPrice` | integer |
+| `soldDate` | string |
 | `features` | object |
+| `flags` | object |
+| `hasMatterport` | boolean |
 | `streetViewUrl` | string |
 | `countyFips` | string |
 | `agents` | list |

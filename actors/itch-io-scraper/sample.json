@@ -3,18 +3,18 @@
     "recordType": "game",
     "gameId": 9375316,
     "title": "Example title",
-    "url": "https://punkcake.itch.io/example/81213",
+    "url": "https://zieelane.itch.io/example/81213",
     "slug": "Example slug",
     "developerName": "Example developer name",
-    "developerUrl": "https://punkcake.itch.io/example/72055",
-    "developerSlug": "punkcake",
+    "developerUrl": "https://zieelane.itch.io/example/72055",
+    "developerSlug": "zieelane",
     "developerId": 9078461,
-    "shortText": "Example short text: mock text standing in for the real value. Same field and type, made-up content.",
+    "shortText": "Example short text",
     "coverImageUrl": "https://img.itch.zone/example/83966.jpg",
-    "genre": "Puzzle",
+    "genre": "Example genre",
     "platforms": [
       "Windows",
-      "Linux"
+      "macOS"
     ],
     "rating": null,
     "ratingCount": null,
@@ -25,32 +25,5 @@
     "isOnSale": false,
     "salePercent": null,
     "recordId": "id54832223"
-  },
-  {
-    "recordType": "game",
-    "gameId": 1523425,
-    "title": "Example title",
-    "url": "https://notsospecialgames.itch.io/example/12071",
-    "slug": "Example slug",
-    "developerName": "Example developer name",
-    "developerUrl": "https://notsospecialgames.itch.io/example/3365",
-    "developerSlug": "Example developer slug",
-    "developerId": 8366691,
-    "shortText": "Example short text",
-    "coverImageUrl": "https://img.itch.zone/example/68730.jpg",
-    "genre": "Adventure",
-    "platforms": [
-      "Windows",
-      "Linux"
-    ],
-    "rating": null,
-    "ratingCount": null,
-    "scrapedAt": "2026-01-15T10:00:00Z",
-    "sourceUrl": "https://itch.io/example/91167",
-    "priceUsd": 0,
-    "priceLabel": "Example price label",
-    "isOnSale": true,
-    "salePercent": 406,
-    "recordId": "id3925523"
   }
 ]

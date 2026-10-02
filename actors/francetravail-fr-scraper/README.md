@@ -75,11 +75,11 @@ Full details on the [scraper page](https://apify.com/abotapi/francetravail-fr-sc
 | `publishedAt` | string |
 | `validThrough` | string |
 | `description` | string |
-| `salary` | null |
-| `salaryCurrency` | null |
-| `salaryMin` | null |
-| `salaryMax` | null |
-| `salaryUnit` | null |
+| `salary` | integer |
+| `salaryCurrency` | string |
+| `salaryMin` | integer |
+| `salaryMax` | integer |
+| `salaryUnit` | string |
 | `salaryText` | null |
 | `employmentType` | null |
 | `workHours` | string |

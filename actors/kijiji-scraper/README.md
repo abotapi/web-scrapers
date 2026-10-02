@@ -77,15 +77,15 @@ Full details on the [scraper page](https://apify.com/abotapi/kijiji-scraper?utm_
 | `isPriceDrop` | boolean |
 | `hasVirtualTour` | null |
 | `flags` | object |
-| `attr_phonecarrier` | string |
-| `attr_payment` | string |
-| `attr_phonebrand` | string |
-| `attr_fulfillment` | list |
 | `attr_forsaleby` | string |
+| `attr_phonecarrier` | string |
+| `attr_phonebrand` | string |
 | `attr_srpLogoUrl` | string |
 | `attributesRaw` | list |
 | `views` | integer |
 | `status` | string |
+| `listingTypeOffer` | string |
+| `endDate` | string |
 
 ---
 

@@ -51,7 +51,7 @@ Full details on the [scraper page](https://apify.com/abotapi/resq-club-surplus-f
 | `offerId` | integer |
 | `url` | string |
 | `offerName` | string |
-| `offerDescription` | null |
+| `offerDescription` | string |
 | `price` | float |
 | `currentPrice` | float |
 | `priceMinorUnits` | integer |
@@ -70,7 +70,7 @@ Full details on the [scraper page](https://apify.com/abotapi/resq-club-surplus-f
 | `venueId` | integer |
 | `venueUrl` | string |
 | `venueName` | string |
-| `venueDescription` | string |
+| `venueDescription` | null |
 | `address` | string |
 | `country` | string |
 | `countryName` | string |

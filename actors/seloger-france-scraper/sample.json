@@ -1,23 +1,22 @@
 [
   {
-    "id": "38wb14ikw5zw",
-    "legacy_id": "628575490",
+    "id": "564gzvjdnpt0",
+    "legacy_id": "022195118",
     "title": "Example title",
-    "headline": "Example headline: mock text standing in for the real value. Same field and type, made-up content.",
+    "headline": "Example headline",
     "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
     "price": "Example price",
-    "price_numeric": 6451672,
-    "price_per_m2": "Example price_per_m2",
+    "price_numeric": 151672,
     "currency": "EUR",
     "distribution_type": "BUY",
     "property_type": "APARTMENT",
     "property_type_label": "Appartement",
     "rooms": 9,
     "bedrooms": 7,
-    "area_m2": 481,
+    "area_m2": 31,
     "floor": "Example floor",
     "city": "Example city",
-    "zipcode": "82817",
+    "zipcode": "71937",
     "district": "Example district",
     "country": "FRA",
     "transport": [
@@ -28,24 +27,22 @@
     "agent_name": "Example agent_name",
     "agent_phone": "+1 555 0100",
     "agent_address": "Example agent_address",
+    "is_exclusive": true,
     "has_3d_visit": true,
     "is_new": true,
     "publisher_type": "AGENCY",
     "images": [
-      "https://mms.seloger.com/example/97918.jpg",
-      "https://mms.seloger.com/example/44130.jpg"
-    ],
-    "floorplans": [
-      "https://mms.seloger.com/example/94827"
+      "https://cdnihddipa.cloudimg.io/example/97918.jpg",
+      "https://cdnihddipa.cloudimg.io/example/44130.jpg"
     ],
     "image_count": 44,
-    "url": "https://www.bellesdemeures.com/example/82834",
-    "portal": "Example portal",
+    "url": "https://www.seloger.com/example/82834",
+    "portal": "seloger",
     "created_at": "2026-01-15T10:00:00Z",
     "updated_at": "2026-01-15T10:00:00Z",
     "source": "seloger.com",
-    "latitude": 42.49,
-    "longitude": 2.09,
+    "latitude": 42.53,
+    "longitude": 2.14,
     "coord_precision": "cluster"
   }
 ]

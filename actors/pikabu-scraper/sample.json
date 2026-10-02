@@ -1,17 +1,21 @@
 [
   {
     "kind": "story",
-    "id": "32052860",
-    "title": "Example title: mock text standing in for the real value. Same field and type, made-up content.",
+    "id": "62407856",
+    "title": "Example title",
     "url": "https://pikabu.ru/example/13859",
     "author": {
-      "id": "63590360",
-      "name": "singularitysp1t",
+      "id": "1567818",
+      "name": "Example name",
       "url": "https://pikabu.ru/example/13859",
-      "avatar": "https://cs17.pikabu.ru/example/83699.jpg",
-      "subscribers": 6
+      "avatar": "https://cs16.pikabu.ru/example/83699.jpg",
+      "subscribers": 708
     },
-    "community": null,
+    "community": {
+      "name": "Example name",
+      "slug": "Example slug",
+      "url": "https://pikabu.ru/example/13859"
+    },
     "tags": [
       "Example tags",
       "Example tags"
@@ -20,12 +24,68 @@
       "https://pikabu.ru/example/16974",
       "https://pikabu.ru/example/68139"
     ],
-    "rating": 0,
+    "rating": 1,
     "pluses": null,
     "minuses": null,
     "commentsCount": 0,
     "publishedAt": "2026-01-15T10:00:00Z",
     "timestamp": 7956211956,
+    "seriesId": null,
+    "isLong": true,
+    "isPinned": false,
+    "blocks": [
+      {
+        "type": "image",
+        "url": "https://cs17.pikabu.ru/example/13859",
+        "previewUrl": "https://cs17.pikabu.ru/example/72131",
+        "alt": "Example alt",
+        "width": 918,
+        "height": 936,
+        "caption": null
+      },
+      {
+        "type": "text",
+        "text": "Example text",
+        "links": []
+      }
+    ],
+    "text": "Example text: mock text standing in for the real value. Same field and type, made-up content.",
+    "images": [
+      "https://cs17.pikabu.ru/example/63959.jpg"
+    ],
+    "videos": [],
+    "media": {
+      "images": 9,
+      "videos": 0
+    }
+  },
+  {
+    "kind": "story",
+    "id": "29703484",
+    "title": "Example title",
+    "url": "https://pikabu.ru/example/85081",
+    "author": {
+      "id": "26511322",
+      "name": "Example name",
+      "url": "https://pikabu.ru/example/85081",
+      "avatar": null,
+      "subscribers": 0
+    },
+    "community": null,
+    "tags": [
+      "Example tags",
+      "Example tags"
+    ],
+    "tagUrls": [
+      "https://pikabu.ru/example/68608",
+      "https://pikabu.ru/example/42693"
+    ],
+    "rating": -5,
+    "pluses": null,
+    "minuses": null,
+    "commentsCount": 8,
+    "publishedAt": "2026-01-15T10:00:00Z",
+    "timestamp": 5289612024,
     "seriesId": null,
     "isLong": false,
     "isPinned": false,
@@ -37,7 +97,7 @@
       },
       {
         "type": "text",
-        "text": "Example text",
+        "text": "Example text: mock text standing in for the real value. Same field and type, made-up content.",
         "links": []
       }
     ],
@@ -47,8 +107,6 @@
     "media": {
       "images": 0,
       "videos": 0
-    },
-    "detailFetched": true,
-    "channel": null
+    }
   }
 ]

@@ -1,88 +1,50 @@
 [
   {
-    "productId": "6519025",
+    "productId": "3251232",
     "ean": null,
     "url": "https://www.darty.com/example/55081",
     "image": "https://image.darty.com/example/65639.jpg",
     "name": "Example name",
-    "brand": "Proline",
+    "brand": "Tcl",
     "category": "Example category",
-    "price": 71.99,
+    "price": 201.59,
     "currency": "EUR",
-    "originalPrice": null,
-    "discountAmount": null,
-    "discountPercent": null,
-    "isOnSpecial": false,
-    "promoLabel": null,
-    "rating": 4.37,
-    "reviewCount": 99,
+    "originalPrice": 155,
+    "discountAmount": 71.77,
+    "discountPercent": 40,
+    "isOnSpecial": true,
+    "promoLabel": "Example promo label",
+    "rating": 1,
+    "reviewCount": 9,
     "inStock": true,
     "condition": "new",
     "seller": "Example seller",
     "reviews": {
-      "averageRating": 3.19,
-      "totalReviewCount": 80,
-      "recommendPercent": 82,
+      "averageRating": 2,
+      "totalReviewCount": 8,
+      "recommendPercent": 262,
       "criteria": [
         {
           "name": "Example name",
-          "score": 3.63
+          "score": 7
         },
         {
           "name": "Example name",
-          "score": 3.59
+          "score": 3
         }
       ],
       "items": [
         {
           "rating": 1,
-          "title": null,
-          "body": "Example body: mock text standing in for the real value. Same field and type, made-up content.",
-          "author": "Example author",
-          "level": "Example level",
-          "postedDate": "78/26/9712",
-          "purchaseDate": "44/90/5381",
-          "purchaseStore": "Example purchase store"
-        },
-        {
-          "rating": 8,
           "title": "Example title",
           "body": "Example body",
           "author": "Example author",
           "level": "Example level",
-          "postedDate": "23/20/5835",
-          "purchaseDate": "11/81/7231",
+          "postedDate": "02/73/0852",
+          "purchaseDate": "30/75/5565",
           "purchaseStore": null
         }
       ]
-    }
-  },
-  {
-    "productId": "6376603",
-    "ean": null,
-    "url": "https://www.darty.com/example/16574",
-    "image": "https://image.darty.com/example/64211.jpg",
-    "name": "Example name",
-    "brand": "Samsung",
-    "category": "Example category",
-    "price": 504.59,
-    "currency": "EUR",
-    "originalPrice": 440.99,
-    "discountAmount": 91,
-    "discountPercent": 2,
-    "isOnSpecial": true,
-    "promoLabel": "Example promo label",
-    "rating": 9,
-    "reviewCount": 4,
-    "inStock": true,
-    "condition": "new",
-    "seller": "Example seller",
-    "reviews": {
-      "averageRating": null,
-      "totalReviewCount": 0,
-      "recommendPercent": null,
-      "criteria": [],
-      "items": []
     }
   }
 ]

@@ -81,7 +81,7 @@ Full details on the [scraper page](https://apify.com/abotapi/trademe-co-nz-scrap
 | `category` | string |
 | `priceDisplay` | string |
 | `startPrice` | integer |
-| `buyNowPrice` | integer |
+| `buyNowPrice` | float |
 | `hasBuyNow` | boolean |
 | `region` | string |
 | `suburb` | string |

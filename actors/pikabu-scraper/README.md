@@ -51,7 +51,7 @@ Full details on the [scraper page](https://apify.com/abotapi/pikabu-scraper?utm_
 | `title` | string |
 | `url` | string |
 | `author` | object |
-| `community` | null |
+| `community` | object |
 | `tags` | list |
 | `tagUrls` | list |
 | `rating` | integer |
@@ -68,8 +68,6 @@ Full details on the [scraper page](https://apify.com/abotapi/pikabu-scraper?utm_
 | `images` | list |
 | `videos` | list |
 | `media` | object |
-| `detailFetched` | boolean |
-| `channel` | null |
 
 ---
 

@@ -22,7 +22,7 @@
     "broadcastTitle": "Example broadcast title",
     "broadcastLanguage": "EN",
     "broadcastGameName": "Example broadcast game name",
-    "broadcastGameSlug": "wardogs",
+    "broadcastGameSlug": "id36100773",
     "lastBroadcastTitle": "Example last broadcast title",
     "lastBroadcastStartedAt": "2026-01-15T10:00:00Z",
     "socialMedias": [
@@ -38,15 +38,15 @@
       }
     ],
     "scrapedAt": "2026-01-15T10:00:00Z",
-    "streamId": "486692293531",
+    "streamId": "873482021328",
     "title": "Example title",
     "viewersCount": 2749,
     "streamStartedAt": "2026-01-15T10:00:00Z",
     "streamLanguage": "EN",
     "streamType": "live",
     "gameName": "Example game name",
-    "gameSlug": "wardogs",
-    "gameId": "595672296",
+    "gameSlug": "id75912090",
+    "gameId": "416460043",
     "boxArtUrl": "https://static-cdn.jtvnw.net/example/8978",
     "thumbnailUrl": "https://static-cdn.jtvnw.net/example/12214.jpg",
     "tags": [

@@ -60,12 +60,12 @@ Full details on the [scraper page](https://apify.com/abotapi/darty-com-scraper?u
 | `category` | string |
 | `price` | float |
 | `currency` | string |
-| `originalPrice` | null |
-| `discountAmount` | null |
-| `discountPercent` | null |
+| `originalPrice` | integer |
+| `discountAmount` | float |
+| `discountPercent` | integer |
 | `isOnSpecial` | boolean |
-| `promoLabel` | null |
-| `rating` | float |
+| `promoLabel` | string |
+| `rating` | integer |
 | `reviewCount` | integer |
 | `inStock` | boolean |
 | `condition` | string |

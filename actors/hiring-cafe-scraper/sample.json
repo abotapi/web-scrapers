@@ -1,10 +1,10 @@
 [
   {
     "id": "id15516072",
-    "board_token": "Example board_token",
-    "source": "hirebridge",
-    "source_and_board_token": "Example source_and_board_token",
-    "apply_url": "https://recruit.hirebridge.com/example/60602",
+    "board_token": "id79681913",
+    "source": "workday",
+    "source_and_board_token": "id13379246",
+    "apply_url": "https://renishaw.wd3.myworkdayjobs.com/example/60602",
     "objectID": "id36395824",
     "requisition_id": "id50241345",
     "job_url": "https://hiringcafe.com/example/86267",
@@ -14,23 +14,204 @@
       "job_title_raw": "Example job_title_raw",
       "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
       "viewedByUsers": [
-        "ihi2w3tzzztiquz6az698gtqi1g3",
-        "xrmx1o4xhldst1vojlrto0cxyvc0"
+        "ojjxetrig7cg3rzprpjnjtcgcsc1",
+        "xrz49vyfp7hlzgrah0pnl6toh033"
+      ],
+      "num_views": 87,
+      "hiddenFromUsers": [
+        "ojjxetrig2cg6rzprpjnjtcgcsc3"
       ],
       "appliedFromUsers": [
-        "xbbblbsg5ea6akdegf8la9rwvby0",
-        "nfnqiro639pspxowumpsa2dkukk9"
+        "xrz85vyfp1hlzgrah7pnl1toh857",
+        "scplhz1aywwr8nq1zhlm2kwhmhx8"
       ],
-      "savedFromUsers": [
-        "ydgzxxgekkvyo9j05elb3xbk2fz8",
-        "ttryyfqo3gttiozikqobe6povbl4"
+      "num_applies": 3
+    },
+    "v5_processed_job_data": {
+      "core_job_title": "Example core_job_title",
+      "requirements_summary": "Example requirements_summary: mock text standing in for the real value. Same field and type, made-up content.",
+      "technical_tools": [
+        "Example technical_tools",
+        "Example technical_tools"
       ],
+      "licenses_or_certifications": [],
+      "associates_degree_requirement": "Example associates_degree_requirement",
+      "associates_degree_fields_of_study": [],
+      "bachelors_degree_requirement": "Example bachelors_degree_requirement",
+      "bachelors_degree_fields_of_study": [
+        "engineering",
+        "mathematics"
+      ],
+      "masters_degree_requirement": "Example masters_degree_requirement",
+      "masters_degree_fields_of_study": [],
+      "doctorate_degree_requirement": "Example doctorate_degree_requirement",
+      "doctorate_degree_fields_of_study": [],
+      "licenses_or_certifications_not_mentioned": true,
+      "min_industry_and_role_yoe": null,
+      "401k_matching": true,
+      "is_min_industry_and_role_yoe_not_mentioned": null,
+      "min_management_and_leadership_yoe": null,
+      "is_min_management_and_leadership_yoe_not_mentioned": true,
+      "job_category": "Example job_category",
+      "role_activities": [
+        "Example role_activities",
+        "Example role_activities"
+      ],
+      "commitment": [
+        "Example commitment"
+      ],
+      "role_type": "Example role_type",
+      "seniority_level": "Example seniority_level",
+      "workplace_countries": [
+        "GB"
+      ],
+      "boundless_workplace_states": [],
+      "boundless_workplace_countries": [],
+      "boundless_workplace_continents": [],
+      "workplace_continents": [
+        "Example workplace_continents"
+      ],
+      "workplace_states": [
+        "Example workplace_states"
+      ],
+      "workplace_cities": [
+        "Example workplace_cities",
+        "Example workplace_cities"
+      ],
+      "workplace_counties": [
+        "Example workplace_counties",
+        "Example workplace_counties"
+      ],
+      "workplace_type": "Hybrid",
+      "workplace_physical_environment": "Example workplace_physical_environment",
+      "oral_communication_level": "Medium",
+      "physical_labor_intensity": "Example physical_labor_intensity",
+      "physical_position": "Example physical_position",
+      "computer_usage": "Example computer_usage",
+      "cognitive_demand": "Example cognitive_demand",
+      "air_travel_requirement": "Example air_travel_requirement",
+      "land_travel_requirement": "Example land_travel_requirement"
+    },
+    "v5_processed_company_data": {
+      "enriched_at": "2026-01-15T10:00:00Z",
+      "status": "VALID_COMPANY",
+      "name": "Example name",
+      "homepage_uri": "Example homepage_uri",
+      "hq_country": "GB",
+      "parent_company": null,
+      "subsidiaries": [
+        "Example subsidiaries",
+        "Example subsidiaries"
+      ],
+      "industries": [
+        "Example industries",
+        "Example industries"
+      ],
+      "activities": [
+        "Example activities",
+        "Example activities"
+      ],
+      "nb_employees": 5897,
+      "year_founded": 5364,
+      "tagline": "Example tagline: mock text standing in for the real value. Same field and type, made-up content.",
+      "organization_type": "Public",
+      "latest_funding_investors": null,
+      "latest_funding_type": "IPO",
+      "latest_funding_year": null,
+      "latest_funding_amount": null,
+      "stock_exchange": "Example stock_exchange",
+      "stock_symbol": "RSW",
+      "org_entity_id": "id27961776",
+      "external_id": "k9wrqxj",
+      "board_classification": "direct_employer",
+      "org_classification": "direct_employer"
+    },
+    "_geoloc": [
+      {
+        "lat": 53.19,
+        "lon": -2.14
+      },
+      {
+        "lat": 59.24,
+        "lon": -2.38
+      }
+    ],
+    "job_title": "Example job_title",
+    "employment_types": [
+      "Example employment_types"
+    ],
+    "role_type": "Example role_type",
+    "job_category": "Example job_category",
+    "seniority": "Example seniority",
+    "workplace_type": "Hybrid",
+    "location": "Example location",
+    "employer_type": "Example employer_type",
+    "salary_currency": "GBP",
+    "posted_at": "2026-01-15T10:00:00Z",
+    "company_name": "Example company_name",
+    "company_website": "Example company_website",
+    "company_tagline": "Example company_tagline: mock text standing in for the real value. Same field and type, made-up content.",
+    "company_industry": "Example company_industry",
+    "salary_transparent": true,
+    "salary_min": 32444,
+    "salary_max": 41447,
+    "salary_frequency": "yearly",
+    "education_required": [
+      "bachelors",
+      "Example education_required"
+    ],
+    "technical_tools": [
+      "Example technical_tools",
+      "Example technical_tools"
+    ],
+    "languages": [
+      "English"
+    ],
+    "security_clearance": "Example security_clearance",
+    "benefits": [
+      "id99459600",
+      "Example benefits"
+    ],
+    "physical_requirements": {
+      "labor_intensity": "Example labor_intensity",
+      "position": "Example position",
+      "environment": "Example environment",
+      "computer_usage": "Example computer_usage",
+      "oral_communication": "Example oral_communication",
+      "cognitive_demand": "Example cognitive_demand",
+      "air_travel": "Example air_travel",
+      "land_travel": "Example land_travel"
+    },
+    "company_employees": 5397,
+    "company_founded": 3979,
+    "company_hq_country": "GB"
+  },
+  {
+    "id": "id78394847",
+    "board_token": "id82744306",
+    "source": "workday",
+    "source_and_board_token": "id97703566",
+    "apply_url": "https://renishaw.wd3.myworkdayjobs.com/example/30836",
+    "objectID": "id96159871",
+    "requisition_id": "id40712308",
+    "job_url": "https://hiringcafe.com/example/62585",
+    "is_expired": false,
+    "job_information": {
+      "title": "Example title",
+      "job_title_raw": "Example job_title_raw",
+      "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
+      "viewedByUsers": [
+        "f2ztkjr7clxn7cvya7lpqwhwxom1",
+        "scplhz7aywwr7nq3zhlm7kwhmhx4"
+      ],
+      "num_views": 9,
+      "appliedFromUsers": [
+        "scplhz3aywwr5nq6zhlm7kwhmhx8"
+      ],
+      "num_applies": 5,
       "hiddenFromUsers": [
-        "dps9zz2akjg5u9wqvx1isermjya6"
-      ],
-      "num_views": 537,
-      "num_applies": 48,
-      "num_saves": 4
+        "ojjxetrig8cg3rzprpjnjtcgcsc2"
+      ]
     },
     "v5_processed_job_data": {
       "core_job_title": "Example core_job_title",
@@ -50,7 +231,7 @@
       "doctorate_degree_fields_of_study": [],
       "licenses_or_certifications_not_mentioned": true,
       "min_industry_and_role_yoe": null,
-      "401k_matching": false,
+      "401k_matching": true,
       "is_min_industry_and_role_yoe_not_mentioned": null,
       "min_management_and_leadership_yoe": null,
       "is_min_management_and_leadership_yoe_not_mentioned": true,
@@ -65,7 +246,7 @@
       "role_type": "Example role_type",
       "seniority_level": "Example seniority_level",
       "workplace_countries": [
-        "US"
+        "GB"
       ],
       "boundless_workplace_states": [],
       "boundless_workplace_countries": [],
@@ -77,12 +258,14 @@
         "Example workplace_states"
       ],
       "workplace_cities": [
+        "Example workplace_cities",
         "Example workplace_cities"
       ],
       "workplace_counties": [
+        "Example workplace_counties",
         "Example workplace_counties"
       ],
-      "workplace_type": "Onsite",
+      "workplace_type": "Hybrid",
       "workplace_physical_environment": "Example workplace_physical_environment",
       "oral_communication_level": "Medium",
       "physical_labor_intensity": "Example physical_labor_intensity",
@@ -93,36 +276,47 @@
       "land_travel_requirement": "Example land_travel_requirement"
     },
     "v5_processed_company_data": {
-      "latest_funding_investors": null,
-      "homepage_uri": "Example homepage_uri",
-      "parent_company": null,
-      "latest_funding_year": null,
-      "latest_funding_type": null,
-      "stock_exchange": null,
-      "stock_symbol": null,
-      "nb_employees": 47,
-      "year_founded": 5364,
-      "hq_country": "US",
       "enriched_at": "2026-01-15T10:00:00Z",
-      "activities": [
-        "Example activities",
-        "Example activities"
+      "status": "VALID_COMPANY",
+      "name": "Example name",
+      "homepage_uri": "Example homepage_uri",
+      "hq_country": "GB",
+      "parent_company": null,
+      "subsidiaries": [
+        "Example subsidiaries",
+        "Example subsidiaries"
       ],
       "industries": [
         "Example industries",
         "Example industries"
       ],
-      "latest_funding_amount": null,
-      "name": "Example name",
+      "activities": [
+        "Example activities",
+        "Example activities"
+      ],
+      "nb_employees": 5972,
+      "year_founded": 2642,
       "tagline": "Example tagline: mock text standing in for the real value. Same field and type, made-up content.",
-      "organization_type": "Private",
-      "subsidiaries": [],
-      "status": "VALID_COMPANY"
+      "organization_type": "Public",
+      "latest_funding_investors": null,
+      "latest_funding_type": "IPO",
+      "latest_funding_year": null,
+      "latest_funding_amount": null,
+      "stock_exchange": "Example stock_exchange",
+      "stock_symbol": "RSW",
+      "org_entity_id": "id8555166",
+      "external_id": "k7wrqxj",
+      "board_classification": "direct_employer",
+      "org_classification": "direct_employer"
     },
     "_geoloc": [
       {
-        "lat": 40.13,
-        "lon": -70.39
+        "lat": 43.38,
+        "lon": -2.19
+      },
+      {
+        "lat": 50.7,
+        "lon": -1.92
       }
     ],
     "job_title": "Example job_title",
@@ -132,14 +326,19 @@
     "role_type": "Example role_type",
     "job_category": "Example job_category",
     "seniority": "Example seniority",
-    "workplace_type": "Onsite",
+    "workplace_type": "Hybrid",
     "location": "Example location",
     "employer_type": "Example employer_type",
-    "salary_currency": "USD",
+    "salary_currency": "GBP",
     "posted_at": "2026-01-15T10:00:00Z",
     "company_name": "Example company_name",
+    "company_website": "Example company_website",
     "company_tagline": "Example company_tagline: mock text standing in for the real value. Same field and type, made-up content.",
     "company_industry": "Example company_industry",
+    "salary_transparent": true,
+    "salary_min": 59866,
+    "salary_max": 53679,
+    "salary_frequency": "yearly",
     "technical_tools": [
       "Example technical_tools",
       "Example technical_tools"
@@ -148,6 +347,10 @@
       "English"
     ],
     "security_clearance": "Example security_clearance",
+    "benefits": [
+      "id77144604",
+      "Example benefits"
+    ],
     "physical_requirements": {
       "labor_intensity": "Example labor_intensity",
       "position": "Example position",
@@ -158,12 +361,11 @@
       "air_travel": "Example air_travel",
       "land_travel": "Example land_travel"
     },
-    "company_employees": 87,
-    "company_founded": 3979,
-    "company_hq_country": "US",
-    "views_on_site": 446,
-    "applies_on_site": 74,
-    "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
-    "description_text": "Example description_text: mock text standing in for the real value. Same field and type, made-up content."
+    "company_employees": 8870,
+    "company_founded": 8110,
+    "company_hq_country": "GB",
+    "company_funding": {
+      "latest_funding_type": "IPO"
+    }
   }
 ]

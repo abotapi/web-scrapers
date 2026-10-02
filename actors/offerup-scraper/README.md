@@ -52,7 +52,7 @@ Full details on the [scraper page](https://apify.com/abotapi/offerup-scraper?utm
 | `listingId` | string |
 | `url` | string |
 | `title` | string |
-| `price` | integer |
+| `price` | float |
 | `priceText` | string |
 | `isFirmPrice` | null |
 | `conditionText` | null |

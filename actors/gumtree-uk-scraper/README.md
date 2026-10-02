@@ -81,7 +81,7 @@ Full details on the [scraper page](https://apify.com/abotapi/gumtree-uk-scraper?
 | `description` | string |
 | `latitude` | integer |
 | `longitude` | integer |
-| `postcode` | null |
+| `postcode` | string |
 | `area` | string |
 | `subArea` | string |
 | `address` | string |

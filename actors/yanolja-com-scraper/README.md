@@ -73,7 +73,7 @@ Full details on the [scraper page](https://apify.com/abotapi/yanolja-com-scraper
 | `priceRange` | string |
 | `lowestPriceKrw` | integer |
 | `overnightPriceKrw` | integer |
-| `dayUsePriceKrw` | null |
+| `dayUsePriceKrw` | integer |
 | `overnightSoldOut` | boolean |
 | `dayUseSoldOut` | boolean |
 | `checkInDate` | string |

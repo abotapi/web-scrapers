@@ -69,7 +69,7 @@ Full details on the [scraper page](https://apify.com/abotapi/trip-com-scraper?ut
 | `images` | list |
 | `image` | string |
 | `badges` | list |
-| `medal` | string |
+| `medal` | null |
 | `propertyTag` | string |
 | `detailUrl` | string |
 | `amenities` | list |

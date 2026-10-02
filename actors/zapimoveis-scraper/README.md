@@ -72,8 +72,8 @@ Full details on the [scraper page](https://apify.com/abotapi/zapimoveis-scraper?
 | `neighborhood` | string |
 | `street` | string |
 | `zip_code` | string |
-| `latitude` | null |
-| `longitude` | null |
+| `latitude` | float |
+| `longitude` | float |
 | `monthly_condo_fee` | integer |
 | `iptu` | null |
 | `seller_name` | string |

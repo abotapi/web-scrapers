@@ -76,8 +76,8 @@ Full details on the [scraper page](https://apify.com/abotapi/jobstreet-scraper?u
 | `workTypes` | list |
 | `workArrangements` | list |
 | `workArrangementLabels` | list |
-| `salaryLabel` | null |
-| `salary` | null |
+| `salaryLabel` | string |
+| `salary` | string |
 | `salaryCurrency` | null |
 | `phoneNumber` | null |
 | `phoneNumbers` | list |

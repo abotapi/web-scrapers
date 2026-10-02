@@ -1,31 +1,30 @@
 [
   {
-    "id": 83384098,
+    "id": 983384098,
     "title": "Example title",
     "address": "Example address",
     "listing_type": "sale",
     "property_type": "Landed",
-    "property_type_group": "B",
+    "property_type_group": "S",
     "price": 2387374,
     "price_formatted": "Example price_formatted",
     "currency": "MYR",
     "price_psf": "Example price_psf",
-    "bedrooms": 31,
-    "bathrooms": 50,
-    "floor_area": 11776,
+    "bedrooms": 4,
+    "bathrooms": 5,
+    "floor_area": 2776,
     "tenure": "Example tenure",
     "developer": "Example developer",
     "is_developer_listing": false,
     "agent_name": "Example agent_name",
     "agent_id": 11737528,
-    "agent_license": "72315",
-    "state": "Selangor",
-    "region": "Selangor",
-    "city": "Example city",
-    "nearby_mrt": "Example nearby_mrt",
+    "agent_license": "ren91948",
+    "state": "Penang",
+    "region": "Penang",
+    "city": "Gelugor",
     "badges": [
       "Example badges",
-      "Example badges"
+      "Freehold"
     ],
     "posted_date": "2026-01-15T10:00:00Z",
     "posted_unix": 2767167919,
@@ -39,13 +38,14 @@
     "status": "ACT",
     "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
     "headline": "Example headline: mock text standing in for the real value. Same field and type, made-up content.",
-    "latitude": 2.49,
-    "longitude": 106.71,
-    "postal_code": "63369",
+    "latitude": 4.29,
+    "longitude": 105.31,
+    "postal_code": "12750",
     "project_name": "Example project_name",
     "project_id": "id68584657",
     "project_legacy_id": 70204,
-    "project_status_code": "Example project_status_code"
+    "project_status_code": "Example project_status_code",
+    "total_units": 53
   },
   {
     "id": 293896177,
@@ -57,6 +57,7 @@
     "price": 0,
     "price_formatted": "Example price_formatted",
     "currency": "MYR",
+    "price_psf": "Example price_psf",
     "bedrooms": 3,
     "bathrooms": 8,
     "tenure": "Example tenure",
@@ -64,9 +65,9 @@
     "is_developer_listing": true,
     "agent_name": "Example agent_name",
     "agent_id": 86877222,
-    "state": "Example state",
-    "region": "Example region",
-    "city": "Seremban",
+    "state": "Selangor",
+    "region": "Selangor",
+    "city": "Example city",
     "badges": [
       "Freehold",
       "Example badges"
@@ -83,15 +84,15 @@
     "status": "ACT",
     "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
     "headline": "Example headline",
-    "latitude": 3.06,
-    "longitude": 98.83,
+    "latitude": 3.56,
+    "longitude": 98.46,
     "nearby_schools": [
       {
-        "id": "03829",
+        "id": "52301",
         "name": "Example name"
       },
       {
-        "id": "82190",
+        "id": "8545",
         "name": "Example name"
       }
     ],
@@ -99,8 +100,7 @@
       "Example facilities"
     ],
     "highlights": [
-      "Example highlights: mock text standing in for the real value. Same field and type, made-up content.",
-      "Example highlights: mock text standing in for the real value. Same field and type, made-up content."
+      "Example highlights"
     ],
     "images_full": [
       "https://my1-cdn.pgimgs.com/example/8582.jpg",

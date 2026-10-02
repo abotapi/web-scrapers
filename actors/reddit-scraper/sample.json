@@ -1,14 +1,14 @@
 [
   {
     "id": "id50004913",
-    "title": "Example title: mock text standing in for the real value. Same field and type, made-up content.",
+    "title": "Example title",
     "author": "Example author",
     "subreddit": "Example subreddit",
     "created_utc": "2026-01-15T10:00:00Z",
     "permalink": "https://reddit.com/example/14097",
     "url": "https://www.reddit.com/example/89067",
-    "score": 10,
-    "upvote_ratio": 0.87,
+    "score": 0,
+    "upvote_ratio": 0.3,
     "num_comments": 6,
     "num_crossposts": 0,
     "selftext": "Example selftext: mock text standing in for the real value. Same field and type, made-up content.",
@@ -19,9 +19,7 @@
     "total_awards": 0,
     "has_media": false,
     "media_urls": {
-      "images": [
-        "https://external-preview.redd.it/example/76489.jpg"
-      ],
+      "images": [],
       "videos": [],
       "galleries": []
     },

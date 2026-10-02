@@ -27,38 +27,5 @@
     "lat": 38.24,
     "lng": 142.25,
     "thumbnailUrl": "https://ic.zigbang.com/example/14684.jpg"
-  },
-  {
-    "itemId": 45570875,
-    "url": "https://www.zigbang.com/example/91363",
-    "serviceType": "Example service type",
-    "title": "Example title",
-    "salesType": "Example sales type",
-    "deposit": 5549,
-    "rent": 625,
-    "manageCost": "986956",
-    "sizeM2": 65.34,
-    "supplyAreaM2": 62.7,
-    "exclusiveAreaM2": 17.16,
-    "roomType": "53",
-    "roomTypeTitle": null,
-    "floor": "59",
-    "buildingFloor": "39",
-    "registeredAt": "2026-01-15T10:00:00Z",
-    "isNew": false,
-    "status": true,
-    "tags": [
-      "Example tags"
-    ],
-    "badges": [
-      "Example badges"
-    ],
-    "address": "Example address",
-    "city": "Example city",
-    "district": "Example district",
-    "neighborhood": "Example neighborhood",
-    "lat": 37.49,
-    "lng": 146.09,
-    "thumbnailUrl": "https://ic.zigbang.com/example/55441.jpg"
   }
 ]
