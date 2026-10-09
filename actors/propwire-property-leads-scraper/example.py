@@ -13,7 +13,7 @@ client = ApifyClient(os.environ["APIFY_TOKEN"])
 run = client.actor("abotapi/propwire-property-leads-scraper").call(
     run_input={
         "addressMatchMode": "first",
-        "startUrls": ["https://propwire.com/realestate/4055-Britt-Rd/51608674/property-details"],
+        "startUrls": ["https://propwire.com/realestate/4055-Britt-Rd-Mount-Dora-FL/51608674/property-details", "https://propwire.com/search?filters=%7B%22locations%22%3A%20%5B%7B%22state%22%3A%20%22FL%22%7D%5D%7D"],
         "searchStates": ["FL"],
         "maxItems": 10,
         "maxPages": 1,

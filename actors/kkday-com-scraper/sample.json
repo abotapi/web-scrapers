@@ -1,18 +1,18 @@
 [
   {
-    "id": "454027",
+    "id": "016978",
     "name": "Example name",
     "url": "https://www.kkday.com/example/61733",
-    "minPrice": 33.31,
-    "maxPrice": 82.14,
-    "officialPrice": 30.93,
+    "minPrice": 14.34,
+    "maxPrice": 26.88,
+    "officialPrice": 13.31,
     "currency": "USD",
     "discountPercent": null,
-    "ratingStar": 5,
-    "ratingCount": 4,
-    "bookedCount": "",
+    "ratingStar": 5.17,
+    "ratingCount": 24466,
+    "bookedCount": "Example booked count",
     "destinations": [
-      "selfoss"
+      "Example destinations"
     ],
     "displayTags": [
       "Example display tags",
@@ -20,11 +20,11 @@
     ],
     "imageUrl": "https://image.kkday.com/example/20306.jpg",
     "supplierName": null,
-    "introduction": "Example introduction",
-    "description": "Example description",
+    "introduction": "Example introduction: mock text standing in for the real value. Same field and type, made-up content.",
+    "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
     "address": "Example address",
-    "latitude": 65.43,
-    "longitude": -27.21,
+    "latitude": 36.37,
+    "longitude": 173.23,
     "imageUrls": [
       "https://image.kkday.com/example/33621.jpg",
       "https://image.kkday.com/example/56205.jpg"

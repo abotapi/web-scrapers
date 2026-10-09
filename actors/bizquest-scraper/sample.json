@@ -9,11 +9,11 @@
     "images": [
       "https://images.bizquest.com/example/96136.jpg"
     ],
-    "askingPrice": 99407,
+    "askingPrice": 189407,
     "cashFlow": null,
     "ebitda": null,
     "leaseRateDuration": 32,
-    "leaseRatePerSquareFoot": null,
+    "leaseRatePerSquareFoot": 95023,
     "realEstateIncludedInAskingPrice": false,
     "financingTypeId": 0,
     "initialFee": null,
@@ -47,10 +47,10 @@
     "tpnPhone": "+1 555 0100",
     "tpnPhoneExt": "",
     "brokerPhoto": "https://images.bizquest.com/example/16997.jpg",
-    "brokerProfileUrl": "Example broker profile url",
+    "brokerProfileUrl": "Example broker profile url: mock text standing in for the real value. Same field and type, made-up content.",
     "brokerCertifications": null,
     "contactInfo": {
-      "contactInfoPersonId": 835645,
+      "contactInfoPersonId": 9835645,
       "contactFullName": "Example contact full name",
       "contactPhoneNumber": {
         "telephone": "+1 555 0100",
@@ -60,7 +60,7 @@
       },
       "contactPhoto": "https://images.bizquest.com/example/21529.jpg",
       "brokerCompany": "Example broker company",
-      "brokerProfileUrl": "Example broker profile url"
+      "brokerProfileUrl": "Example broker profile url: mock text standing in for the real value. Same field and type, made-up content."
     },
     "hotProperty": false,
     "recentlyAdded": true,

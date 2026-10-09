@@ -17,7 +17,7 @@ python example.py
 ```bash
 curl -s -X POST "https://api.apify.com/v2/acts/abotapi~bbb-org-scraper/run-sync-get-dataset-items?token=$APIFY_TOKEN" \
   -H 'Content-Type: application/json' \
-  -d '{"mode": "search", "searchTerms": ["plumber"], "location": "Los Angeles, CA", "country": "USA", "sort": "Relevance", "maxItems": 10, "proxy": {"useApifyProxy": true}}'
+  -d '{"mode": "search", "searchTerms": ["plumber"], "location": "Los Angeles, CA", "country": "USA", "sort": "Relevance", "maxItems": 10, "proxy": {"useApifyProxy": true, "apifyProxyGroups": ["RESIDENTIAL"]}, "maxReviewsPerBusiness": 10}'
 ```
 
 ## Inputs
@@ -27,10 +27,16 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~bbb-org-scraper/run-sync-
 | `mode` * | string | Mode |
 | `searchTerms` | array | Business terms |
 | `location` | string | Location |
+| `locations` | array | More locations |
 | `country` | string | Country |
 | `sort` | string | Sort order |
 | `distance` | integer | Search radius (miles) |
 | `accreditedOnly` | boolean | Accredited businesses only |
+| `minRating` | string | Minimum BBB rating |
+| `category` | string | Category filter |
+| `stateFilter` | string | State / province filter |
+| `requestQuoteOnly` | boolean | Only businesses that take quote reques |
+| `servesMyAreaOnly` | boolean | Only businesses serving the location |
 | `startUrls` | array | BBB URLs |
 | `maxItems` | integer | Max businesses |
 | `maxPagesPerQuery` | integer | Max pages per search / URL |
@@ -39,6 +45,8 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~bbb-org-scraper/run-sync-
 | `scrapeComplaints` | boolean | Scrape complaints |
 | `maxReviewPages` | integer | Max review pages per business |
 | `maxComplaintPages` | integer | Max complaint pages per business |
+| `maxReviewsPerBusiness` | integer | Max reviews per business |
+| `maxComplaintsPerBusiness` | integer | Max complaints per business |
 
 `*` required
 
@@ -58,6 +66,7 @@ Full details on the [scraper page](https://apify.com/abotapi/bbb-org-scraper?utm
 | `alternateNames` | list |
 | `bbbRating` | string |
 | `ratingReasons` | null |
+| `ratingNotRatedReason` | null |
 | `isAccredited` | boolean |
 | `accreditedDate` | string |
 | `bbbFileOpenedDate` | string |
@@ -65,7 +74,7 @@ Full details on the [scraper page](https://apify.com/abotapi/bbb-org-scraper?utm
 | `additionalPhones` | null |
 | `faxNumbers` | null |
 | `email` | string |
-| `additionalEmails` | list |
+| `additionalEmails` | null |
 | `website` | string |
 | `ownerName` | string |
 | `ownerTitle` | string |
@@ -89,7 +98,6 @@ Full details on the [scraper page](https://apify.com/abotapi/bbb-org-scraper?utm
 | `description` | string |
 | `paymentMethods` | null |
 | `licenses` | list |
-| `primaryCategory` | string |
 
 ---
 

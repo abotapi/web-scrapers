@@ -1,6 +1,6 @@
 # TikTok Shop Scraper
 
-Scrape TikTok Shop listings by keyword search, category, or direct product links. Returns title, price, discount, sold count, rating, review count, images, shop name and variations, plus with details enabled: description, rating breakdown and item-level reviews. Supports incremental monitoring.
+Scrape TikTok Shop by keyword, category or product URL. Extract prices, discounts, sales, ratings, images, shops, variants and reviews. Optional details include descriptions and rating breakdowns. Supports incremental monitoring.
 
 **[Open TikTok Shop Scraper on Apify](https://apify.com/abotapi/tiktok-shop-scraper?utm_source=github&utm_medium=web-scrapers&utm_campaign=monorepo)** to run it without code and export JSON, CSV or Excel.
 
@@ -49,7 +49,7 @@ Full details on the [scraper page](https://apify.com/abotapi/tiktok-shop-scraper
 | `title` | string |
 | `url` | string |
 | `categoryPath` | list |
-| `price` | integer |
+| `price` | float |
 | `currency` | string |
 | `originalPrice` | null |
 | `discountPercent` | null |

@@ -1,8 +1,8 @@
 [
   {
     "scrapedAt": "2026-01-15T10:00:00Z",
-    "propertyId": "24973059",
-    "mlsNumber": "w49121313",
+    "propertyId": "87295941",
+    "mlsNumber": "w66732529",
     "url": "https://www.realtor.ca/example/2424",
     "listingType": "buy",
     "propertyType": "house",
@@ -15,11 +15,11 @@
       "street": "Example street",
       "city": "Toronto",
       "province": "Example province",
-      "postalCode": "m8n4e0"
+      "postalCode": "m2w0c0"
     },
     "coordinates": {
-      "latitude": 54.71,
-      "longitude": -62.03
+      "latitude": 54.51,
+      "longitude": -62.04
     },
     "price": {
       "display": "Example display",

@@ -72,13 +72,13 @@ Full details on the [scraper page](https://apify.com/abotapi/redfin-scraper?utm_
 | `hoaDues` | null |
 | `isHoaFrequencyKnown` | boolean |
 | `beds` | integer |
-| `baths` | float |
+| `baths` | integer |
 | `bathFull` | integer |
-| `bathPartial` | integer |
+| `bathPartial` | null |
 | `sqFt` | integer |
 | `sqft` | integer |
 | `lotSize` | integer |
-| `stories` | integer |
+| `stories` | float |
 | `yearBuilt` | integer |
 | `streetLine` | string |
 | `address` | string |

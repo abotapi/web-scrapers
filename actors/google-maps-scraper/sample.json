@@ -1,6 +1,6 @@
 [
   {
-    "placeId": "chijh0tl4lrywokrzzrdicl7jxy",
+    "placeId": "Example place id",
     "title": "Example title",
     "url": "https://www.google.com/example/42345",
     "scrapedAt": "2026-01-15T10:00:00Z",
@@ -9,16 +9,51 @@
     "street": "Example street",
     "city": "Example city",
     "state": "NY",
-    "postalCode": "75931",
+    "postalCode": "37237",
     "countryCode": "US",
     "phone": "+1 555 0100",
-    "website": "https://www.bubbagump.com/example/16368",
-    "totalScore": 4.21,
-    "reviewsCount": 88737,
+    "website": "https://shaverhall.com/example/16368",
+    "totalScore": 4.02,
+    "reviewsCount": 537,
     "plusCode": "Example plus code",
     "imageUrls": [
       "https://lh3.googleusercontent.com/example/70219.jpg",
       "https://lh3.googleusercontent.com/example/33911.jpg"
+    ],
+    "searchString": "restaurants",
+    "rank": 8,
+    "isAdvertisement": true,
+    "reviews": [
+      {
+        "rating": 9,
+        "reviewerName": "Example reviewer name",
+        "text": "Example text: mock text standing in for the real value. Same field and type, made-up content.",
+        "publishedAtDate": "2026-01-15T10:00:00Z",
+        "isLocalGuide": false,
+        "reviewId": "ci6dqulrqunvzenodhljrjlvt63swvduwmpaekpnum4su2rrrlvur0v8u0tou6dxyxab"
+      }
+    ]
+  },
+  {
+    "placeId": "chijk4l4akxzwokr_kpabwut9rk",
+    "title": "Example title",
+    "url": "https://www.google.com/example/14370",
+    "scrapedAt": "2026-01-15T10:00:00Z",
+    "categoryName": "Example category name",
+    "address": "Example address: mock text standing in for the real value. Same field and type, made-up content.",
+    "street": "Example street",
+    "city": "Example city",
+    "state": "NY",
+    "postalCode": "06673",
+    "countryCode": "US",
+    "phone": "+1 555 0100",
+    "website": "https://www.thebazaar.com/example/27988",
+    "totalScore": 4.09,
+    "reviewsCount": 233,
+    "plusCode": "Example plus code",
+    "imageUrls": [
+      "https://lh3.googleusercontent.com/example/88529.jpg",
+      "https://lh3.googleusercontent.com/example/19356.jpg"
     ],
     "openingHours": [
       {
@@ -35,48 +70,13 @@
     "isAdvertisement": true,
     "reviews": [
       {
-        "rating": 9,
-        "reviewerName": "Example reviewer name",
-        "text": "Example text: mock text standing in for the real value. Same field and type, made-up content.",
-        "publishedAtDate": "2026-01-15T10:00:00Z",
-        "isLocalGuide": false,
-        "responseFromOwnerText": "Example response from owner text: mock text standing in for the real value. Same field and type, made-up content.",
-        "reviewId": "ci3dqulrqunvzenodhljrjlvt6tvmlluqkvimmxozvvka6v8aznvwfp1ykrkefyzyxab"
-      }
-    ]
-  },
-  {
-    "placeId": "Example place id",
-    "title": "Example title",
-    "url": "https://www.google.com/example/14370",
-    "scrapedAt": "2026-01-15T10:00:00Z",
-    "categoryName": "Example category name",
-    "address": "Example address",
-    "street": "Example street",
-    "city": "Example city",
-    "state": "NY",
-    "postalCode": "67537",
-    "countryCode": "US",
-    "phone": "+1 555 0100",
-    "website": "https://shaverhall.com/example/27988",
-    "totalScore": 3.65,
-    "reviewsCount": 233,
-    "plusCode": "Example plus code",
-    "imageUrls": [
-      "https://lh3.googleusercontent.com/example/88529.jpg",
-      "https://lh3.googleusercontent.com/example/19356.jpg"
-    ],
-    "searchString": "restaurants",
-    "rank": 8,
-    "isAdvertisement": true,
-    "reviews": [
-      {
         "rating": 1,
         "reviewerName": "Example reviewer name",
         "text": "Example text: mock text standing in for the real value. Same field and type, made-up content.",
         "publishedAtDate": "2026-01-15T10:00:00Z",
         "isLocalGuide": false,
-        "reviewId": "ci9dqulrqunvzenodhljrjlvt60swvduwmpaekpnum4su3rrrlvur9v7u2tou4dxyxab"
+        "responseFromOwnerText": "Example response from owner text: mock text standing in for the real value. Same field and type, made-up content.",
+        "reviewId": "ci4dqulrqunvzenodhljrjlvt44zm6nivnburvjtujfzdgrywxpaemhfvg6vnvzuyxab"
       }
     ]
   }

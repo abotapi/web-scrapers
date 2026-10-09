@@ -1,24 +1,24 @@
 [
   {
-    "id": "467298209",
+    "id": "542062690",
     "url": "https://www.pap.fr/example/8178",
     "listingType": "Buy",
     "propertyType": "Apartment",
-    "title": "Example title: mock text standing in for the real value. Same field and type, made-up content.",
-    "priceValue": 1456583,
+    "title": "Example title",
+    "priceValue": 556583,
     "priceCurrency": "EUR",
     "priceDisplay": "Example price display",
     "rooms": 9,
-    "livingSpace": 66.68,
+    "livingSpace": 79,
     "bedrooms": 7,
-    "floor": 8,
+    "floor": null,
     "hoaChargesYearly": null,
     "propertyTaxYearly": null,
-    "heatingType": "Example heating type: mock text standing in for the real value. Same field and type, made-up content.",
+    "heatingType": null,
     "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
     "streetAddress": "Example street address",
     "city": "Example city",
-    "postcode": "81279",
+    "postcode": "97431",
     "arrondissement": "Example arrondissement",
     "department": "Example department",
     "region": "Example region",
@@ -40,10 +40,9 @@
       "https://cdn.pap.fr/example/22835.jpg"
     ],
     "additionalProperties": {
-      "Surface": "73.52",
-      "Nombre de pièces": "2",
-      "Type de bien": "Appartement",
-      "Ascenseur": "Example ascenseur"
+      "Surface": "19.95",
+      "Nombre de pièces": "6",
+      "Type de bien": "Appartement"
     },
     "scrapedAt": "2026-01-15T10:00:00Z"
   }

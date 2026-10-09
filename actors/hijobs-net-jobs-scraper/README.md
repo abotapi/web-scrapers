@@ -69,7 +69,7 @@ Full details on the [scraper page](https://apify.com/abotapi/hijobs-net-jobs-scr
 | `recruiterType` | string |
 | `recruiterSlug` | string |
 | `companyLogo` | string |
-| `companyWebsite` | null |
+| `companyWebsite` | string |
 | `contactName` | string |
 | `employer` | object |
 | `location` | string |
@@ -84,7 +84,7 @@ Full details on the [scraper page](https://apify.com/abotapi/hijobs-net-jobs-scr
 | `salaryMax` | float |
 | `categories` | list |
 | `sector` | string |
-| `specialism` | string |
+| `specialism` | null |
 | `employmentTypes` | list |
 | `contractType` | string |
 | `hours` | string |

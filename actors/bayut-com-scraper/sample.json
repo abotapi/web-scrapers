@@ -1,10 +1,10 @@
 [
   {
-    "externalID": "14854699",
+    "externalID": "76475571",
     "id": 15275549,
-    "objectID": "24143302",
-    "ownerID": 948913,
-    "userExternalID": "347613",
+    "objectID": "60944541",
+    "ownerID": 8148913,
+    "userExternalID": "8164837",
     "url": "https://www.bayut.com/example/26156",
     "slug": "id53652381",
     "purpose": "Example purpose",
@@ -19,7 +19,7 @@
     "rentFrequency": null,
     "rooms": 5,
     "baths": 5,
-    "area": 137.96,
+    "area": 78.26,
     "areaUnit": "sqm",
     "plotArea": null,
     "furnishingStatus": "unfurnished",
@@ -30,8 +30,8 @@
     "city": "Dubai",
     "neighbourhood": "Example neighbourhood",
     "building": "Example building",
-    "latitude": 19.72,
-    "longitude": 65.76,
+    "latitude": 19.55,
+    "longitude": 65.74,
     "geoExact": null,
     "locationPath": "Example location path",
     "locationDetails": [
@@ -52,6 +52,6 @@
     "isVerified": true,
     "verificationStatus": "verified",
     "verifiedAt": 2248207369,
-    "trucheckedAt": 6598850915
+    "trucheckedAt": null
   }
 ]

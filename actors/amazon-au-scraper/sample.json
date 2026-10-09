@@ -1,11 +1,11 @@
 [
   {
-    "asin": "b20b7vhbh7",
+    "asin": "b65b2yp1ky",
     "title": "Example title: mock text standing in for the real value. Same field and type, made-up content.",
     "url": "https://www.amazon.com.au/example/76344",
     "brand": "Amazon",
-    "price": 74,
-    "listPrice": 58,
+    "price": 884,
+    "listPrice": null,
     "currency": "AUD",
     "rating": 4.97,
     "reviewsCount": 2722,
@@ -58,10 +58,8 @@
     ],
     "thumbnailImage": "https://m.media-amazon.com/example/523.jpg",
     "sponsored": false,
-    "promoLabel": "Example promo label",
+    "promoLabel": null,
     "searchMode": "search",
-    "savings": 65,
-    "savingsPercent": 27,
-    "isOnSpecial": true
+    "isOnSpecial": false
   }
 ]

@@ -57,6 +57,7 @@ Full details on the [scraper page](https://apify.com/abotapi/reiwa-com-au-scrape
 | `url` | string |
 | `sourceUrl` | string |
 | `price` | string |
+| `priceValue` | integer |
 | `bedrooms` | integer |
 | `bathrooms` | integer |
 | `parkingSpaces` | integer |

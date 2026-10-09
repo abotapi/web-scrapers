@@ -54,38 +54,7 @@ Full details on the [scraper page](https://apify.com/abotapi/yanolja-com-scraper
 | `listingImageUrl` | string |
 | `collectionSlug` | string |
 | `collectionTitle` | string |
-| `subtitle` | null |
-| `stayGroup` | string |
-| `hotelStar` | null |
-| `badges` | list |
-| `locationDescription` | string |
-| `address` | string |
-| `latitude` | float |
-| `longitude` | float |
-| `cityName` | string |
-| `cityDetail` | string |
-| `sellerPhone` | string |
-| `ratingValue` | float |
-| `reviewCount` | integer |
-| `replyCount` | integer |
-| `ratingFromFd` | float |
-| `ratingCountFromFd` | integer |
-| `priceRange` | string |
-| `lowestPriceKrw` | integer |
-| `overnightPriceKrw` | integer |
-| `dayUsePriceKrw` | integer |
-| `overnightSoldOut` | boolean |
-| `dayUseSoldOut` | boolean |
-| `checkInDate` | string |
-| `checkOutDate` | string |
-| `checkInTime` | null |
-| `checkOutTime` | null |
-| `description` | null |
-| `descriptionText` | null |
-| `facilities` | list |
-| `mainImageUrl` | string |
-| `photoUrls` | list |
-| `roomPhotoUrls` | list |
+| `scrapedAt` | string |
 
 ---
 

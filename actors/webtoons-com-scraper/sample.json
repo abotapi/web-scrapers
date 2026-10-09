@@ -23,30 +23,5 @@
     "latestEpisode": null,
     "imageUrl": "https://webtoon-phinf.pstatic.net/example/80207.jpg",
     "referer": "https://www.webtoons.com/example/70580"
-  },
-  {
-    "kind": "webtoon",
-    "recordId": "id86905003",
-    "titleNo": 86068,
-    "title": "Example title",
-    "url": "https://www.webtoons.com/example/62797",
-    "language": "en",
-    "genre": "DRAMA",
-    "webtoonType": "originals",
-    "sourcePage": "genre",
-    "badge": null,
-    "likeCountRaw": "548,548",
-    "likeCount": 354572,
-    "author": "Example author",
-    "scheduleText": null,
-    "pageSchedule": null,
-    "rank": null,
-    "authors": null,
-    "summary": null,
-    "viewCount": null,
-    "subscribeCount": null,
-    "latestEpisode": null,
-    "imageUrl": "https://webtoon-phinf.pstatic.net/example/45768.jpg",
-    "referer": "https://www.webtoons.com/example/94729"
   }
 ]

@@ -1,22 +1,32 @@
 [
   {
+    "kind": "review",
+    "recordId": "Example record id",
+    "filmSlug": "id4962483",
+    "filmTitle": "Example film title",
+    "releaseYear": null,
     "url": "https://letterboxd.com/example/86703",
-    "slug": "id26269224",
-    "title": "Example title",
-    "image": "https://a.ltrbxd.com/example/14310.jpg",
-    "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
-    "genre": [
-      "Example genre",
-      "Adventure"
-    ],
-    "directors": [
-      "Example directors"
-    ],
-    "averageRating": 4.82,
-    "ratingsCount": 6256045,
-    "datePublished": null,
-    "releaseYear": 6596,
-    "tagline": "Example tagline",
+    "author": "Example author",
+    "rating": 3.99,
+    "reviewDate": "2026-01-15",
+    "text": "Example text",
+    "likes": null,
+    "containsSpoilers": false,
+    "scrapedAt": "2026-01-15T10:00:00Z"
+  },
+  {
+    "kind": "review",
+    "recordId": "Example record id",
+    "filmSlug": "id2386992",
+    "filmTitle": "Example film title",
+    "releaseYear": null,
+    "url": "https://letterboxd.com/example/57102",
+    "author": "Example author",
+    "rating": 3.24,
+    "reviewDate": "2026-01-15",
+    "text": "Example text: mock text standing in for the real value. Same field and type, made-up content.",
+    "likes": null,
+    "containsSpoilers": false,
     "scrapedAt": "2026-01-15T10:00:00Z"
   }
 ]

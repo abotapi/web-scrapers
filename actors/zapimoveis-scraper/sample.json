@@ -1,9 +1,9 @@
 [
   {
-    "id": "1292873294",
+    "id": "6196844342",
     "url": "https://www.zapimoveis.com.br/example/94919",
     "title": "Example title",
-    "price": 6645659,
+    "price": 345659,
     "currency": "BRL",
     "business": "SALE",
     "listing_type": "USED",
@@ -13,25 +13,24 @@
     ],
     "bedrooms": 9,
     "bathrooms": 7,
-    "suites": 7,
+    "suites": null,
     "parking_spaces": 7,
     "usable_area": 81,
-    "total_area": 48,
+    "total_area": null,
     "city": "Example city",
     "state_code": "SP",
     "neighborhood": "Example neighborhood",
     "street": "Example street",
-    "zip_code": "06716655",
-    "latitude": -18.65,
-    "longitude": -33.13,
-    "monthly_condo_fee": 2,
+    "zip_code": "93186922",
+    "latitude": -18.57,
+    "longitude": -33.03,
+    "monthly_condo_fee": 182,
     "iptu": null,
     "seller_name": "Example seller_name",
-    "seller_tier": "Example seller_tier",
-    "seller_license_number": "01628-j-sp",
+    "seller_tier": null,
+    "seller_license_number": "037195",
     "seller_legacy_zap_id": 0,
     "phones": [
-      "+1 555 0100",
       "+1 555 0100"
     ],
     "whatsapp": "+1 555 0100",
@@ -39,8 +38,8 @@
     "created_at": "2026-01-15T10:00:00Z",
     "updated_at": null,
     "identity": {
-      "id": "1292873294",
-      "external_id": "bv1192",
+      "id": "6196844342",
+      "external_id": "AP01",
       "source_id": "id95609212",
       "provider_id": null,
       "fingerprint": null,
@@ -55,7 +54,14 @@
         "id": "Example id",
         "type": "location",
         "value": "Example value"
-      }
+      },
+      "search_business": "SALE",
+      "search_listing_type": "USED",
+      "search_city": "Example search_city",
+      "search_state": "SP",
+      "search_neighborhood": null,
+      "search_property_types": [],
+      "detail_enriched": false
     },
     "timestamps": {
       "published_at": "2026-01-15T10:00:00Z",
@@ -66,20 +72,21 @@
     "content": {
       "title": "Example title",
       "description": null,
-      "ai_searchable_amenities": null
+      "ai_searchable_amenities": null,
+      "description_text": null
     },
     "pricing": {
-      "amount": 3209733,
+      "amount": 509733,
       "currency": "BRL",
       "offers": [
         {
           "business_type": "SALE",
-          "amount": 3209733,
+          "amount": 509733,
           "currency": "BRL",
-          "monthly_condo_fee": 2,
+          "monthly_condo_fee": 182,
           "iptu": null,
           "iptu_period": null,
-          "yearly_iptu": 1,
+          "yearly_iptu": 5374,
           "rental_period": null,
           "rental_warranties": [],
           "monthly_rental_total_price": null
@@ -97,24 +104,24 @@
     "location": {
       "label": "Example label",
       "street": "Example street",
-      "street_number": "327",
+      "street_number": "6641",
       "neighborhood": "Example neighborhood",
       "city": "Example city",
       "state_code": "SP",
       "state": "Example state",
       "zone": "Example zone",
-      "zip_code": "06716655",
+      "zip_code": "93186922",
       "country": "BR",
       "full_address": null,
       "ibge_city_id": null,
       "coordinates": {
-        "latitude": -18.65,
-        "longitude": -33.13,
+        "latitude": -18.57,
+        "longitude": -33.03,
         "source": "GOOGLE"
       },
       "geocoding": {
         "address_type": "Example address_type",
-        "precision": "Example precision",
+        "precision": "ROOFTOP",
         "confidence": "VALID_STREET",
         "source": "CORREIOS"
       },

@@ -7,7 +7,7 @@
     "title": "Example title: mock text standing in for the real value. Same field and type, made-up content.",
     "statusType": "available",
     "listingType": "sale",
-    "propertyType": "Unit",
+    "propertyType": "Apartment",
     "tierType": "basic",
     "isExclusiveList": false,
     "isUnderOffer": false,
@@ -18,7 +18,7 @@
       "display": "Example display",
       "short": null
     },
-    "priceValue": 9972769,
+    "priceValue": 49,
     "address": {
       "streetAddress": "Example street address",
       "longAddress": "Example long address"
@@ -37,16 +37,9 @@
     "featureTags": [],
     "agents": [
       {
-        "id": 1834810,
+        "id": 934810,
         "name": "Example name",
-        "phone": null,
-        "mobile": "+1 555 0100",
-        "email": null
-      },
-      {
-        "id": null,
-        "name": "Example name",
-        "phone": null,
+        "phone": "+1 555 0100",
         "mobile": "+1 555 0100",
         "email": null
       }
@@ -71,9 +64,7 @@
         "endsOn": null
       }
     ],
-    "auction": {
-      "auctionOn": "2026-01-15T10:00:00Z"
-    },
+    "auction": null,
     "landFeatures": null,
     "slugs": {
       "suburbUri": "Example suburb uri",
@@ -83,7 +74,7 @@
     "soldOn": null,
     "soldPrice": "Example sold price",
     "soldPriceValue": null,
-    "auctionOn": "2026-01-15T10:00:00Z",
+    "auctionOn": null,
     "loanPriceEstimate": 1891813,
     "sourceUrl": "https://www.homely.com.au/example/41416",
     "scrapedAt": "2026-01-15T10:00:00Z"

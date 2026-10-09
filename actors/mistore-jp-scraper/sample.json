@@ -2,7 +2,7 @@
   {
     "searchMode": "search",
     "scrapedAt": "2026-01-15T10:00:00Z",
-    "productId": "959405876523959938148881",
+    "productId": "755574545343433216433811",
     "title": "Example title",
     "brand": "Example brand",
     "url": "https://www.mistore.jp/example/75112",
@@ -11,27 +11,26 @@
     "priceMin": 8108,
     "priceMax": 3766,
     "currency": "JPY",
-    "onSale": false,
+    "onSale": true,
     "inStock": true,
     "colorCodes": [
-      "76038600484952451209",
-      "33469829589485258724"
+      "30422304213228708128",
+      "10168991031054653985"
     ],
     "badgeCodes": [
-      "0620979",
-      "9357499"
+      "8175127"
     ],
     "saleStartsAt": "2026-01-15T10:00:00Z",
     "saleEndsAt": null,
     "cardholderOnly": false,
     "digitalProduct": null,
-    "brandCode": "618097",
+    "brandCode": "272754",
     "brandUrl": "https://www.mistore.jp/example/77284",
-    "sku": "3967123451131305112766164627",
+    "sku": null,
     "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
     "originalPrice": null,
     "discountPercent": null,
-    "availability": "Example availability",
+    "availability": null,
     "stockNote": null,
     "images": [
       "https://isetan.scene7.com/example/54068.jpg",
@@ -44,37 +43,37 @@
     "videos": [],
     "variants": [
       {
-        "variantId": "416061352632108608894188",
+        "variantId": "472495236073660820178375",
         "color": "Example color",
-        "colorCode": "78",
-        "size": "Example size",
-        "sizeCode": "30",
-        "barcode": "8359392789351",
+        "colorCode": "23",
+        "size": "F",
+        "sizeCode": "625",
+        "barcode": "9866777606286",
         "price": 7773,
         "originalPrice": null,
         "discountPercent": null,
         "currency": "JPY",
-        "stock": 4,
-        "inStock": true,
-        "onSale": false,
+        "stock": 0,
+        "inStock": false,
+        "onSale": true,
         "image": "https://isetan.scene7.com/example/74418.jpg",
         "saleStartsAt": "2026-01-15T10:00:00Z",
         "saleEndsAt": null
       },
       {
-        "variantId": "111081054382447239488343",
+        "variantId": "977841810638698281469995",
         "color": "Example color",
-        "colorCode": "61",
-        "size": "Example size",
-        "sizeCode": "05",
-        "barcode": "9513851942343",
+        "colorCode": "57",
+        "size": "F",
+        "sizeCode": "161",
+        "barcode": "5554616910439",
         "price": 8695,
         "originalPrice": null,
         "discountPercent": null,
         "currency": "JPY",
         "stock": 8,
         "inStock": true,
-        "onSale": false,
+        "onSale": true,
         "image": "https://isetan.scene7.com/example/40647.jpg",
         "saleStartsAt": "2026-01-15T10:00:00Z",
         "saleEndsAt": null
@@ -87,7 +86,7 @@
       },
       {
         "name": "Example name",
-        "value": "Example value: mock text standing in for the real value. Same field and type, made-up content."
+        "value": "Example value"
       }
     ],
     "allergens": [],
@@ -107,11 +106,11 @@
       "Example payment methods",
       "Example payment methods"
     ],
-    "badges": [
-      "Example badges",
-      "Example badges"
+    "badges": [],
+    "notices": [
+      "Example notices: mock text standing in for the real value. Same field and type, made-up content.",
+      "Example notices"
     ],
-    "notices": [],
     "breadcrumbs": [
       {
         "name": "Example name",

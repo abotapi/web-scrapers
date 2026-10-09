@@ -1,0 +1,26 @@
+[
+  {
+    "kind": "device",
+    "slug": "id39698664",
+    "name": "Example name",
+    "url": "https://swappa.com/example/11636",
+    "minPrice": 152,
+    "currency": "USD",
+    "imageUrl": "https://static.swappa.com/example/19562.jpg",
+    "platform": "apple",
+    "searchTerm": "Example search term",
+    "scrapedAt": "2026-01-15T10:00:00Z"
+  },
+  {
+    "kind": "device",
+    "slug": "id49987823",
+    "name": "Example name",
+    "url": "https://swappa.com/example/72162",
+    "minPrice": 396,
+    "currency": "USD",
+    "imageUrl": "https://static.swappa.com/example/74087.jpg",
+    "platform": "apple",
+    "searchTerm": "Example search term",
+    "scrapedAt": "2026-01-15T10:00:00Z"
+  }
+]

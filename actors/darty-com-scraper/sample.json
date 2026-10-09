@@ -1,47 +1,75 @@
 [
   {
-    "productId": "3251232",
+    "productId": "9437838",
     "ean": null,
     "url": "https://www.darty.com/example/55081",
     "image": "https://image.darty.com/example/65639.jpg",
     "name": "Example name",
-    "brand": "Tcl",
+    "brand": "Proline",
     "category": "Example category",
-    "price": 201.59,
+    "price": 57.59,
     "currency": "EUR",
-    "originalPrice": 155,
-    "discountAmount": 71.77,
-    "discountPercent": 40,
-    "isOnSpecial": true,
+    "originalPrice": null,
+    "discountAmount": null,
+    "discountPercent": null,
+    "isOnSpecial": false,
     "promoLabel": "Example promo label",
-    "rating": 1,
-    "reviewCount": 9,
+    "rating": null,
+    "reviewCount": 0,
     "inStock": true,
     "condition": "new",
     "seller": "Example seller",
     "reviews": {
-      "averageRating": 2,
-      "totalReviewCount": 8,
-      "recommendPercent": 262,
+      "averageRating": null,
+      "totalReviewCount": 0,
+      "recommendPercent": null,
+      "criteria": [],
+      "items": []
+    }
+  },
+  {
+    "productId": "0071559",
+    "ean": null,
+    "url": "https://www.darty.com/example/16574",
+    "image": "https://image.darty.com/example/64211.jpg",
+    "name": "Example name",
+    "brand": "Tcl",
+    "category": "Example category",
+    "price": 597,
+    "currency": "EUR",
+    "originalPrice": 760,
+    "discountAmount": 91,
+    "discountPercent": 29,
+    "isOnSpecial": true,
+    "promoLabel": "Example promo label",
+    "rating": 9,
+    "reviewCount": 4,
+    "inStock": true,
+    "condition": "new",
+    "seller": "Example seller",
+    "reviews": {
+      "averageRating": 7,
+      "totalReviewCount": 6,
+      "recommendPercent": 834,
       "criteria": [
         {
           "name": "Example name",
-          "score": 7
+          "score": 9
         },
         {
           "name": "Example name",
-          "score": 3
+          "score": 4
         }
       ],
       "items": [
         {
-          "rating": 1,
+          "rating": 9,
           "title": "Example title",
           "body": "Example body",
           "author": "Example author",
           "level": "Example level",
-          "postedDate": "02/73/0852",
-          "purchaseDate": "30/75/5565",
+          "postedDate": "76/09/3817",
+          "purchaseDate": "68/36/8576",
           "purchaseStore": null
         }
       ]

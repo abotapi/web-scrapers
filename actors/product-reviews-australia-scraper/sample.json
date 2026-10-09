@@ -48,8 +48,8 @@
       "rating": 4,
       "submittedAt": "2026-01-15T10:00:00Z",
       "authorName": "Example author name",
-      "authorLocation": null,
-      "hasVerifiedPurchase": false
+      "authorLocation": "Example author location",
+      "hasVerifiedPurchase": true
     },
     "highlightedReviews": [],
     "logoUrl": "https://cdn.productreview.com.au/example/365.jpg",
@@ -75,7 +75,17 @@
           "displayName": "Example display name",
           "locationName": null
         },
-        "comments": []
+        "comments": [
+          {
+            "id": "id87274198",
+            "body": "Example body: mock text standing in for the real value. Same field and type, made-up content.",
+            "submittedAt": "2026-01-15T10:00:00Z",
+            "author": {
+              "displayName": "Example display name",
+              "isBrandManager": true
+            }
+          }
+        ]
       },
       {
         "id": "id36078153",
@@ -89,7 +99,7 @@
         "author": {
           "id": "id36078153",
           "displayName": "Example display name",
-          "locationName": "Example location name"
+          "locationName": null
         },
         "comments": [
           {
@@ -122,12 +132,12 @@
       "id": "id24683951",
       "name": "Example name",
       "slug": "Example slug",
-      "url": "https://www.resinc.com.au/example/46485",
+      "url": "https://www.koalaliving.com.au/example/46485",
       "isManaged": true
     },
     "contact": {
       "email": "user30@example.com",
-      "website": "https://www.resinc.com.au/example/91501",
+      "website": "https://www.koalaliving.com.au/example/91501",
       "phone": null
     },
     "categories": [
@@ -140,18 +150,18 @@
       {
         "name": "Example name",
         "level": 5,
-        "hook": "Example hook",
+        "hook": "shops",
         "ancestors": []
       }
     ],
     "locations": [],
     "statistics": {
-      "rating": 9,
-      "numberOfReviews": 4061,
-      "numberOfQuestions": 0,
+      "rating": 6.19,
+      "numberOfReviews": 13061,
+      "numberOfQuestions": 58,
       "ratingDistribution": [
-        1,
-        1
+        820,
+        64
       ]
     },
     "isDiscontinued": false,
@@ -186,7 +196,7 @@
         "author": {
           "id": "id24683951",
           "displayName": "Example display name",
-          "locationName": "Example location name"
+          "locationName": null
         },
         "comments": []
       },
@@ -207,34 +217,11 @@
         "comments": []
       }
     ],
-    "totalReviews": 5950,
+    "totalReviews": 68950,
     "reviewPages": 753,
     "pagesScraped": 6,
     "address": null,
-    "businessHours": [
-      {
-        "to": {
-          "time": "7736",
-          "dayOfWeek": "monday"
-        },
-        "from": {
-          "time": "4350",
-          "dayOfWeek": "monday"
-        },
-        "specialConditions": null
-      },
-      {
-        "to": {
-          "time": "2314",
-          "dayOfWeek": "tuesday"
-        },
-        "from": {
-          "time": "6351",
-          "dayOfWeek": "tuesday"
-        },
-        "specialConditions": null
-      }
-    ],
+    "businessHours": null,
     "description": null,
     "faqs": [],
     "specifications": {}

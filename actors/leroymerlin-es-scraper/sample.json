@@ -16,34 +16,14 @@
     "sellerName": "Example seller name",
     "sellerType": "Example seller type",
     "offerType": "NEW",
-    "rating": 5.21,
+    "rating": null,
     "totalOfferCount": 6,
     "sellersComposition": "6p_only",
     "sponsored": true,
-    "ean": "1891648782910",
-    "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
-    "image": "https://media.adeo.com/example/34517.jpg",
-    "numberOfImages": 1,
-    "numberOfReviews": 435,
-    "categoryPath": [
-      "Home",
-      "Productos"
-    ],
-    "category": "Example category",
-    "stock": 4,
-    "stockStatus": "ONSITE",
-    "deliveryTime": "Example delivery time",
     "reviews": {
-      "averageRating": 5.72,
-      "totalReviewCount": 684,
-      "items": [
-        {
-          "rating": 5,
-          "body": "Example body: mock text standing in for the real value. Same field and type, made-up content.",
-          "author": "Example author",
-          "date": "2026-01-15"
-        }
-      ]
+      "averageRating": null,
+      "totalReviewCount": 0,
+      "items": []
     },
     "searchMode": "search"
   }

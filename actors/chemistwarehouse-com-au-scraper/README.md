@@ -29,7 +29,7 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~chemistwarehouse-com-au-s
 | `brand` | string | Brand |
 | `category` | string | Category |
 | `specialsCategory` | string | Specials / offers |
-| `productUrls` | array | Product URLs |
+| `productUrls` | array | URLs (product, brand, category, specia |
 | `minPrice` | integer | Minimum price (AUD) |
 | `maxPrice` | integer | Maximum price (AUD) |
 | `inStockOnly` | boolean | In-stock only |

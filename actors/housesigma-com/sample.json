@@ -1,44 +1,44 @@
 [
   {
-    "idListing": "eqp5yowqvovyd5ze",
-    "mlNum": "c04833244",
+    "idListing": "wjkr7p3eal81xelp",
+    "mlNum": "c25474270",
     "url": "https://housesigma.com/example/97815",
     "status": "Example status",
     "saleOrLease": "Example sale or lease",
-    "propertyType": "Detached",
+    "propertyType": "Example property type",
     "address": "Example address",
     "addressFull": "Example address full",
-    "aptNumber": null,
-    "community": "Example community",
+    "aptNumber": "8580",
+    "community": "Annex",
     "municipality": "Example municipality",
     "province": "Example province",
     "bedrooms": 3,
-    "bedroomsPlus": 5,
+    "bedroomsPlus": 0,
     "bathrooms": 2,
     "parking": {
-      "total": 0,
-      "garage_type": "None",
-      "garage": 0,
-      "parking_type": "Example parking_type",
+      "total": 3,
+      "garage_type": "Underground",
+      "garage": 7,
+      "parking_type": "Undergroun",
       "parking": 7,
       "text": "Example text"
     },
     "priceListed": 1791133,
-    "priceListedText": "0,085,002",
+    "priceListedText": "5,058,281",
     "priceAbbr": "Example price abbr",
     "priceSold": "Example price sold",
-    "latitude": 40.21,
+    "latitude": 40.18,
     "longitude": -69.86,
     "sizeSqft": null,
     "sizeText": "Example size text",
-    "lotFront": 75,
-    "lotDepth": 818,
-    "lotUnit": "feet",
+    "lotFront": null,
+    "lotDepth": null,
+    "lotUnit": null,
     "dateListed": "+1 555 0100",
     "dateUpdated": "2026-01-15",
     "daysOnMarket": 0,
     "dataSource": "PROPTX",
-    "photo": "https://cache-e14.housesigma.com/example/63556.jpg",
+    "photo": "https://cache-e11.housesigma.com/example/63556.jpg",
     "listStatus": {
       "public": 3,
       "live": 9,
@@ -55,19 +55,21 @@
       "is_public_compliant": false
     },
     "photos": [
-      "https://cache-e14.housesigma.com/example/20906.jpg",
-      "https://cache-e15.housesigma.com/example/27951.jpg"
+      "https://cache-e11.housesigma.com/example/20906.jpg",
+      "https://cache-e12.housesigma.com/example/27951.jpg"
     ],
-    "virtualTour": "https://youtu.be/example/45422",
+    "virtualTour": "https://www.winsold.com/example/45422",
     "keyFacts": {
       "Tax": "Example tax",
       "Property Type": "Example property  type",
-      "Building Age": "Example building  age",
+      "Maintenance": "Example maintenance",
+      "Included Utility": "Example included  utility",
+      "Building Age": "49-64",
       "Size": "Example size",
-      "Lot Size": "Example lot  size",
+      "Locker": "Example locker",
+      "Exposure": "Example exposure",
       "Parking": "Example parking",
-      "Basement": "Example basement",
-      "Listing #": "c04266986",
+      "Listing #": "c81051171",
       "Data Source": "PROPTX",
       "Days on Site": "Example days on  site",
       "Added to HouseSigma": "2026-01-15",
@@ -84,7 +86,7 @@
         },
         {
           "name": "Example name",
-          "value": "4-storey",
+          "value": "Example value",
           "public": 6
         }
       ],
@@ -96,19 +98,19 @@
         },
         {
           "name": "Example name",
-          "value": "Example value",
+          "value": "81-73",
           "public": 6
         }
       ],
       "Inside": [
         {
           "name": "Example name",
-          "value": "1",
+          "value": "4",
           "public": 3
         },
         {
           "name": "Example name",
-          "value": "9",
+          "value": "0",
           "public": 6
         }
       ],
@@ -132,8 +134,15 @@
         },
         {
           "name": "Example name",
-          "value": "8",
+          "value": "Example value",
           "public": 6
+        }
+      ],
+      "Highlights": [
+        {
+          "name": "Example name",
+          "value": "Example value",
+          "public": 3
         }
       ],
       "Land": [
@@ -141,17 +150,12 @@
           "name": "Example name",
           "value": "Example value",
           "public": 3
-        },
-        {
-          "name": "Example name",
-          "value": "67.26",
-          "public": 6
         }
       ]
     },
     "rooms": [
       {
-        "type": "Example type",
+        "type": "Foyer",
         "level": "Example level",
         "dimensions": "Example dimensions",
         "length": null,
@@ -159,7 +163,7 @@
         "description": "Example description"
       },
       {
-        "type": "Kitchen",
+        "type": "Example type",
         "level": "Example level",
         "dimensions": "Example dimensions",
         "length": null,
@@ -172,7 +176,7 @@
         "distance": 329,
         "programs": [
           "Example programs",
-          "2-59"
+          "1-4"
         ],
         "id_school": 2197,
         "display_score": 3,
@@ -185,15 +189,15 @@
         "city": "Toronto",
         "region": "Ontario",
         "web": "https://schoolweb.tdsb.on.ca/example/72754",
-        "geo_latitude": 47.64,
+        "geo_latitude": 47.6,
         "geo_longitude": -65.1,
-        "school_type": "Secondary",
+        "school_type": "Elementary",
         "board_type": "Public",
-        "score": 9.88,
+        "score": 8.21,
         "score_year": 1425,
         "score_average": null,
         "rank": 436,
-        "rank_total": 862,
+        "rank_total": 5362,
         "rank_year": 9459,
         "province_abbr": "ON",
         "score_json": null,
@@ -205,21 +209,21 @@
           {
             "year": 6575,
             "rank_name": "Example rank_name",
-            "rank_value": "724/162",
+            "rank_value": "710/4978",
             "score_name": "Example score_name",
-            "score_value": "4.38"
+            "score_value": "0.77"
           },
           {
             "year": 4564,
             "rank_name": "Example rank_name",
-            "rank_value": "42/130",
+            "rank_value": "0565/7916",
             "score_name": "Example score_name",
-            "score_value": "2.51"
+            "score_value": "0.40"
           }
         ]
       },
       {
-        "distance": 428,
+        "distance": 2228,
         "programs": [
           "Example programs",
           "Example programs"
@@ -235,14 +239,14 @@
         "city": "Toronto",
         "region": "Ontario",
         "web": "https://www.tcdsb.org/example/76028",
-        "geo_latitude": 55.95,
-        "geo_longitude": -88.13,
+        "geo_latitude": 55.89,
+        "geo_longitude": -88.11,
         "school_type": "Elementary",
         "board_type": "Catholic",
-        "score": 5.96,
+        "score": 4.27,
         "score_year": 6837,
         "score_average": null,
-        "rank": 545,
+        "rank": 7745,
         "rank_total": 3845,
         "rank_year": 5372,
         "province_abbr": "ON",
@@ -255,25 +259,25 @@
           {
             "year": 4564,
             "rank_name": "Example rank_name",
-            "rank_value": "683/9191",
+            "rank_value": "9993/6710",
             "score_name": "Example score_name",
-            "score_value": "0.5"
+            "score_value": "9.10"
           },
           {
             "year": 6430,
             "rank_name": "Example rank_name",
-            "rank_value": "2692/1101",
+            "rank_value": "5238/4625",
             "score_name": "Example score_name",
-            "score_value": "6.90"
+            "score_value": "8.65"
           }
         ]
       }
     ],
     "priceHistory": [
       {
-        "id_listing": "eqp2yowqvovyd7ze",
-        "ml_num": "c91609476",
-        "seo_suffix": "65-taunton-road-toronto-c78623973",
+        "id_listing": "wjkr2p2eal92xelp",
+        "ml_num": "c19052430",
+        "seo_suffix": "80-mcmurrich-street-2755-toronto-c75730186",
         "price": "Example price",
         "price_note": null,
         "price_sold": null,
@@ -288,16 +292,16 @@
         "blur_price": false
       },
       {
-        "id_listing": "aqmd9z6p6x95j8bo",
+        "id_listing": "n5a8x3j2j8r8vgxv",
         "ml_num": "Example ml_num",
-        "seo_suffix": "92-taunton-road-toronto-c81895585",
+        "seo_suffix": "46-mcmurrich-st-7406-toronto-m5r0m7-c7106070",
         "price": "Example price",
         "price_note": null,
         "price_sold": "Example price_sold",
         "date_start": null,
         "date_end": null,
-        "data_source": "PROPTX",
-        "status": "Terminated",
+        "data_source": "TREB",
+        "status": "Sold",
         "s_r": "Example s_r",
         "public": 0,
         "button": 8,

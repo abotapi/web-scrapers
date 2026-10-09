@@ -1,19 +1,19 @@
 [
   {
-    "itemId": "08658592",
-    "sku": "her846225",
-    "variantId": "518280357",
+    "itemId": "48304376",
+    "sku": "cha5663160",
+    "variantId": "797709402",
     "name": "Example name",
     "url": "https://www.therealreal.com/example/56356",
     "designer": "Example designer",
-    "designerId": "764",
+    "designerId": "650",
     "artist": null,
     "itemClass": [
       "Example item class",
       "Example item class"
     ],
-    "category": "Clutches",
-    "condition": "Pristine",
+    "category": "Example category",
+    "condition": "Example condition",
     "conditionNote": null,
     "color": "Black",
     "gender": "Women",
@@ -23,18 +23,22 @@
         "Black"
       ],
       "Condition": [
-        "Pristine"
+        "Example condition"
       ],
       "Gender": [
         "Women"
+      ],
+      "Handbag Style": [
+        "Example handbag  style",
+        "Example handbag  style"
       ],
       "Primary Material": [
         "Example primary  material"
       ]
     },
     "retailPrice": null,
-    "listPrice": 21681,
-    "originalPrice": 53752,
+    "listPrice": 3681,
+    "originalPrice": 8752,
     "currency": "USD",
     "discountPct": 0,
     "vsRetailPct": null,
@@ -44,7 +48,7 @@
     "quantity": "0",
     "obsessionCount": 19,
     "isEditorsPick": null,
-    "badge": null,
+    "badge": "Example badge",
     "images": [
       "https://product-images.therealreal.com/example/6328.jpg",
       "https://product-images.therealreal.com/example/94094.jpg"

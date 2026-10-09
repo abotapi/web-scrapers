@@ -6,7 +6,7 @@
     "name": "Example name",
     "brand": "NIVEA",
     "url": "https://www.rossmann.de/example/30416",
-    "price": 2.27,
+    "price": 2.5,
     "currency": "EUR",
     "originalPrice": null,
     "originalPriceCurrency": null,
@@ -15,20 +15,15 @@
     "promotionLabel": null,
     "isOnSpecial": false,
     "badges": [
-      "Neu",
-      "Example badges"
+      "Neu"
     ],
     "disruptors": [
       {
         "type": "NEW",
         "text": "Example text"
-      },
-      {
-        "type": "ADVERTISING",
-        "text": "Example text"
       }
     ],
-    "unitPrice": 9.55,
+    "unitPrice": 10.51,
     "unitPriceCurrency": "EUR",
     "unitPriceUnit": "L",
     "unitPriceBasisSize": 4,

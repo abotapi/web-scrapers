@@ -7,8 +7,8 @@
     "model": "Example model",
     "year": 6998,
     "vehicleType": "SUV",
-    "rating": null,
-    "completedTrips": 0,
+    "rating": 3,
+    "completedTrips": 7,
     "hostId": 1554431,
     "city": "Example city",
     "state": "CA",
@@ -41,12 +41,12 @@
       }
     ],
     "averageDailyPrice": {
-      "amount": 61.2,
+      "amount": 54.83,
       "currency": "USD"
     },
-    "tripTotal": 343.81,
+    "tripTotal": 310.17,
     "currency": "USD",
-    "quotedDailyPrice": 87.95,
+    "quotedDailyPrice": 79.35,
     "quote": {
       "discountSavingsText": null,
       "includedLineItems": [
@@ -58,7 +58,7 @@
             "value": "Example value"
           },
           "price": {
-            "amount": 369.15,
+            "amount": 332.8,
             "currencyCode": "USD"
           },
           "title": "Example title",
@@ -73,7 +73,7 @@
             "value": "Example value"
           },
           "price": {
-            "amount": -27.07,
+            "amount": -24.25,
             "currencyCode": "USD"
           },
           "title": "Example title",
@@ -93,19 +93,19 @@
       ],
       "priceDisplayType": "TOTAL",
       "totalTripPrice": {
-        "amount": 333.15,
+        "amount": 300.55,
         "currencyCode": "USD"
       },
       "totalTripPriceBeforeDiscount": {
-        "amount": 369.15,
+        "amount": 332.8,
         "currencyCode": "USD"
       },
       "vehicleDailyPrice": {
-        "amount": 123.05,
+        "amount": 110.94,
         "currencyCode": "USD"
       },
       "vehicleDailyPriceAfterDiscount": {
-        "amount": 111.05,
+        "amount": 100.19,
         "currencyCode": "USD"
       },
       "pricingDisplay": {
@@ -160,11 +160,16 @@
     "searchVehicle": {
       "availability": null,
       "avgDailyPrice": {
-        "amount": 61.2,
+        "amount": 54.83,
         "currency": "USD"
       },
-      "badges": [],
-      "completedTrips": 0,
+      "badges": [
+        {
+          "label": "Example label",
+          "type": "GREAT_DEAL"
+        }
+      ],
+      "completedTrips": 7,
       "estimatedQuote": null,
       "hostId": 1554431,
       "id": 5002630,
@@ -205,7 +210,7 @@
       },
       "make": "Audi",
       "model": "Example model",
-      "rating": null,
+      "rating": 3,
       "seoCategory": "SUV",
       "tags": [],
       "type": "SUV",
@@ -273,9 +278,9 @@
       "dateRangeRate": {
         "appliedDiscountUnit": "DAILY",
         "days": 8,
-        "defaultAverageDailyPrice": 50,
+        "defaultAverageDailyPrice": 63.06,
         "defaultAverageDailyPriceWithCurrency": {
-          "amount": 95,
+          "amount": 71.66,
           "currencyCode": "USD"
         },
         "interval": {
@@ -290,7 +295,7 @@
             "localTime": "15:10"
           }
         },
-        "rentalPrice": 158.3,
+        "rentalPrice": 141.81,
         "rentalPriceBeforeDiscount": 171,
         "rentalPriceBeforeDiscountWithCurrency": {
           "amount": 275,
@@ -298,7 +303,7 @@
         },
         "rentalPriceDiscountPercentage": 30,
         "rentalPriceWithCurrency": {
-          "amount": 204.0,
+          "amount": 182.75,
           "currencyCode": "USD"
         }
       },
@@ -441,8 +446,8 @@
       "minimumAgeInYearsToRent": 11,
       "numberOfFaqs": 0,
       "numberOfFavorites": 38,
-      "numberOfRentals": 0,
-      "numberOfReviews": 0,
+      "numberOfRentals": 7,
+      "numberOfReviews": 4,
       "owner": {
         "allStarHost": false,
         "firstName": "Example first name",
@@ -470,15 +475,15 @@
       "rate": {
         "airportDeliveryFee": null,
         "airportDeliveryLocationsAndFees": [],
-        "averageDailyPrice": 43.52,
+        "averageDailyPrice": 38.98,
         "averageDailyPriceWithCurrency": {
-          "amount": 68.0,
+          "amount": 60.91,
           "currencyCode": "USD"
         },
         "customDeliveryDistance": null,
         "customDeliveryDistanceWithUnit": null,
         "customDeliveryFee": null,
-        "daily": 42.98,
+        "daily": 38.5,
         "dailyDistance": {
           "scalar": 279,
           "unit": "MI",
@@ -486,7 +491,7 @@
         },
         "dailyMileage": 996,
         "excessFeePerDistance": {
-          "amount": 0.34,
+          "amount": 0.3,
           "currencyCode": "USD"
         },
         "homeLocationFee": "Example home location fee",
@@ -522,14 +527,14 @@
               "label": "Example label"
             }
           ],
-          "ratingsCount": 0
+          "ratingsCount": 9
         },
-        "ownerOverall": null,
-        "ratingToHundredth": null,
+        "ownerOverall": 2,
+        "ratingToHundredth": 7,
         "vehicleId": 5113764
       },
       "tieredOwnerProtectionEnabled": true,
-      "tripCount": 0,
+      "tripCount": 1,
       "turoGo": false,
       "turoGoExplanation": null,
       "vehicle": {
@@ -716,16 +721,16 @@
         "year": 6998
       },
       "numberOfRatingsFromCarOwners": 6,
-      "numberOfRatingsFromRenters": 0,
+      "numberOfRatingsFromRenters": 7,
       "numberOfRentalsFromCarOwners": 3,
-      "numberOfRentalsFromRenters": 0,
+      "numberOfRentalsFromRenters": 6,
       "ratingsFromCarOwners": {
         "overall": 7,
         "overallRatingToHundredth": 2
       },
       "ratingsFromRenters": {
-        "overall": null,
-        "overallRatingToHundredth": null
+        "overall": 7,
+        "overallRatingToHundredth": 2
       },
       "responseRate": 191,
       "responseTime": {

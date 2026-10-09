@@ -63,7 +63,7 @@ Full details on the [scraper page](https://apify.com/abotapi/vrbo-vacation-renta
 | `vrboId` | string |
 | `listingUrl` | string |
 | `title` | string |
-| `propertyType` | null |
+| `propertyType` | string |
 | `sleeps` | null |
 | `bedrooms` | integer |
 | `bathrooms` | null |
@@ -71,7 +71,7 @@ Full details on the [scraper page](https://apify.com/abotapi/vrbo-vacation-renta
 | `priceFormatted` | string |
 | `priceStrikeout` | string |
 | `priceCurrency` | string |
-| `rating` | integer |
+| `rating` | float |
 | `ratingScale` | integer |
 | `ratingLabel` | string |
 | `reviewCount` | integer |

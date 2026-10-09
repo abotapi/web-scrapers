@@ -1,6 +1,6 @@
 [
   {
-    "jobId": "3742595",
+    "jobId": "7210665",
     "jobUrl": "https://wellfound.com/example/21417",
     "jobSlug": "Example job slug",
     "jobTitle": "Example job title",
@@ -18,8 +18,8 @@
       "Example locations"
     ],
     "acceptedRemoteLocations": [],
-    "remote": true,
-    "remoteKind": "ONSITE",
+    "remote": false,
+    "remoteKind": null,
     "yearsExperienceMin": null,
     "yearsExperienceMax": null,
     "postedAtUnix": 8919354020,

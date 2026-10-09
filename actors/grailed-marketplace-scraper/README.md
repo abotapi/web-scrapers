@@ -83,7 +83,7 @@ Full details on the [scraper page](https://apify.com/abotapi/grailed-marketplace
 | `makeOffer` | boolean |
 | `photoCount` | integer |
 | `coverPhoto` | string |
-| `shippingUs` | integer |
+| `shippingUs` | float |
 | `followerCount` | integer |
 | `sellerId` | integer |
 | `sellerUsername` | string |

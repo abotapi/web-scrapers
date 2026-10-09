@@ -7,13 +7,13 @@
     "dealType": "buy",
     "propertyType": "Example property type",
     "priceText": "Example price text",
-    "price": 7840171,
+    "price": 88840171,
     "currency": "THB",
     "address": "Example address",
     "bedrooms": 5,
     "bathrooms": 8,
     "areaText": "Example area text",
-    "area": 43,
+    "area": 223,
     "areaUnit": "Example area unit",
     "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
     "images": [
@@ -40,9 +40,9 @@
       "Example property_types"
     ],
     "price_text": "Example price_text",
-    "price_min": 8829291,
-    "price_max": 1643236,
-    "floor_area": 64,
+    "price_min": 17829291,
+    "price_max": 19643236,
+    "floor_area": 424,
     "image_urls": [
       "https://img.hipcdn.com/example/55875.jpg",
       "https://img.hipcdn.com/example/25257.jpg"

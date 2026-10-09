@@ -59,11 +59,11 @@ Full details on the [scraper page](https://apify.com/abotapi/asos-com-scraper?ut
 | `brandId` | null |
 | `colour` | string |
 | `colourWayId` | string |
-| `price` | integer |
+| `price` | float |
 | `priceText` | string |
-| `originalPrice` | null |
-| `onSale` | null |
-| `discountPercent` | null |
+| `originalPrice` | float |
+| `onSale` | boolean |
+| `discountPercent` | integer |
 | `currency` | string |
 | `isNew` | boolean |
 | `isSellingFast` | boolean |

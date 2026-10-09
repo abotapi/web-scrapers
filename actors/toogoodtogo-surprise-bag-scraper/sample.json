@@ -9,6 +9,8 @@
     "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
     "itemType": "MAGIC_BAG",
     "category": "Example category",
+    "categoryIconUrl": "https://images.toogoodtogo.com/example/16359.jpg",
+    "subCategory": "Example sub category",
     "price": 4.61,
     "currency": "EUR",
     "value": 57,
@@ -25,22 +27,20 @@
     "favorite": false,
     "ratingAverage": null,
     "ratingCount": null,
+    "ratingMonthCount": null,
+    "ratingCollectionExperience": null,
+    "ratingFoodQuality": null,
+    "ratingContentsVariety": null,
+    "ratingFoodQuantity": null,
+    "positiveRatingReasons": [],
     "dietTags": [],
     "itemTags": [
       "Example item tags"
     ],
     "packagingOption": "BAG_ALLOWED",
     "canUserSupplyPackaging": false,
-    "imageUrl": "https://images.toogoodtogo.com/example/95263.jpg",
-    "inSalesWindow": false,
-    "distanceKm": 0.22,
-    "storeId": "197207379453515344",
-    "storeName": "Example store name",
-    "branch": "",
-    "cuisines": [],
-    "street": "Example street",
-    "city": "",
-    "postalCode": "",
-    "country": "Germany"
+    "foodHandlingInstructions": null,
+    "collectionInfo": null,
+    "imageUrl": "https://images.toogoodtogo.com/example/95263.jpg"
   }
 ]

@@ -97,7 +97,7 @@
         "text": "Example text",
         "author": "Example author",
         "date": "2026-01-15",
-        "postedAgo": "Example posted ago",
+        "postedAgo": null,
         "department": null
       }
     ]
@@ -200,7 +200,7 @@
         "text": "Example text",
         "author": "Example author",
         "date": "2026-01-15",
-        "postedAgo": "Example posted ago",
+        "postedAgo": null,
         "department": null
       }
     ]

@@ -1,10 +1,10 @@
 [
   {
     "type": "product",
-    "id": "36998052677",
+    "id": "21295395157",
     "url": "https://www.lazada.sg/example/92738",
-    "productName": "Example product name: mock text standing in for the real value. Same field and type, made-up content.",
-    "productId": "84521079090",
+    "productName": "Example product name",
+    "productId": "71317217864",
     "productUrl": "https://www.lazada.sg/example/55938",
     "sourceUrl": "https://www.lazada.sg/example/37926",
     "seedType": "query",
@@ -18,39 +18,39 @@
     "isOnSpecial": true,
     "discountAmount": 261,
     "promoLabel": "Example promo label",
-    "specialsCategory": "campaign",
-    "ratingScore": 1,
-    "reviewCount": 4,
+    "specialsCategory": "lazmall",
+    "ratingScore": 4.48,
+    "reviewCount": 58,
     "itemSold": "Example item sold",
     "inStock": true,
     "isSponsored": false,
     "freeShipping": true,
     "sellerName": "Example seller name",
-    "sellerId": "3153626016",
+    "sellerId": "4245442783",
     "primaryImage": "https://sg-live-01.slatic.net/example/63179.jpg",
     "raw": {
       "serp": {
-        "itemId": "14219699277",
-        "skuId": "151283389541",
+        "itemId": "22275054851",
+        "skuId": "863850642777",
         "productUrl": "https://www.lazada.sg/example/55938",
-        "productName": "Example product name: mock text standing in for the real value. Same field and type, made-up content.",
+        "productName": "Example product name",
         "currentPrice": 5717,
         "originalPrice": 2796,
         "discountText": "Example discount text",
-        "ratingScore": 1,
-        "reviewCount": 4,
+        "ratingScore": 4.48,
+        "reviewCount": 58,
         "itemSold": "Example item sold",
         "sellerName": "Example seller name",
-        "sellerId": "3153626016",
+        "sellerId": "4245442783",
         "brandName": "Example brand name",
         "primaryImage": "https://sg-live-01.slatic.net/example/63179.jpg",
         "isSponsored": false,
         "freeShipping": true,
         "inStock": true,
         "raw": {
-          "name": "Example name: mock text standing in for the real value. Same field and type, made-up content.",
-          "nid": "89324904935",
-          "itemId": "14219699277",
+          "name": "Example name",
+          "nid": "82880703303",
+          "itemId": "22275054851",
           "icons": [
             {
               "domClass": "48378",
@@ -60,11 +60,12 @@
               "bizType": "Freeshipping"
             },
             {
-              "domClass": "140771",
-              "type": "img",
-              "group": "4",
+              "domClass": "99677",
+              "text": "Example text",
+              "type": "text",
+              "group": "6",
               "showType": "8",
-              "bizType": "campaign"
+              "bizType": "flashsale"
             }
           ],
           "image": "https://sg-live-01.slatic.net/example/99447.jpg",
@@ -72,31 +73,69 @@
           "originalPriceShow": "",
           "priceShow": "Example price show",
           "discount": "Example discount",
-          "ratingScore": "3.6",
-          "review": "8",
+          "ratingScore": "9.468080311622050",
+          "review": "42",
           "location": "Example location",
-          "thumbs": [],
+          "thumbs": [
+            {
+              "image": "https://sg-live-01.slatic.net/example/99447.jpg",
+              "sku": "49909277520_sgamz",
+              "skuId": "295827918826",
+              "itemUrl": "Example item url",
+              "querystring": ""
+            },
+            {
+              "image": "https://sg-live-01.slatic.net/example/278.jpg",
+              "sku": "47895802717_sgamz",
+              "skuId": "980565147456",
+              "itemUrl": "Example item url",
+              "querystring": ""
+            }
+          ],
           "sellerName": "Example seller name",
-          "sellerId": "3153626016",
+          "sellerId": "4245442783",
           "brandName": "Example brand name",
-          "brandId": "538328096",
-          "cheapest_sku": "10676105620_sgamz-465873241205",
-          "skuId": "151283389541",
-          "sku": "65927400846_sgamz",
+          "brandId": "135153431",
+          "cheapest_sku": "43123099548_sgamz-474123767483",
+          "skuId": "863850642777",
+          "sku": "49909277520_sgamz",
           "categories": [
             85,
             99
           ],
-          "price": "2149",
+          "price": "3501",
           "restrictedAge": 0,
           "inStock": true,
-          "originalPrice": "4105",
+          "originalPrice": "6168",
           "clickTrace": "Example click trace: mock text standing in for the real value. Same field and type, made-up content.",
           "itemSoldCntShow": "Example item sold cnt show",
+          "recommendTips": {
+            "icon": {
+              "imgUrl": "https://img.lazcdn.com/example/5391.jpg",
+              "width": 66,
+              "height": 69
+            },
+            "recommendId": 8,
+            "clickIcon": {
+              "imgUrl": "https://img.lazcdn.com/example/5391.jpg",
+              "width": 3,
+              "height": 6
+            },
+            "clickUrl": "https://pages.lazada.sg/example/31408",
+            "showType": "1",
+            "traceInfo": "Example trace info: mock text standing in for the real value. Same field and type, made-up content.",
+            "bgColor": "Example bg color",
+            "recommendText": "Example recommend text",
+            "recommendTextColor": "Example recommend text color",
+            "recommendTextFont": "Example recommend text font",
+            "wfMarginLeft": "1",
+            "wfMarginRight": "6",
+            "wfMarginBottom": "4"
+          },
           "longImageDisplayable": false,
           "skus": [
             {
-              "id": "37391383327_sgamz-952615923067"
+              "id": "85939251473_sgamz-658330743864"
             }
           ],
           "promotionId": "",
@@ -108,8 +147,7 @@
           "gridTitleLine": "4",
           "isFission": "1",
           "isBadgeAutoScroll": false,
-          "showCart": false,
-          "showBackIcon": false
+          "showCart": false
         }
       }
     },

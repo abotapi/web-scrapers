@@ -1,10 +1,10 @@
 [
   {
     "type": "product",
-    "id": "1436048815142597",
+    "id": "7017532200359230",
     "url": "https://www.aliexpress.com/example/85372",
     "productName": "Example product name: mock text standing in for the real value. Same field and type, made-up content.",
-    "productId": "6891450183062945",
+    "productId": "1978861987724560",
     "productUrl": "https://www.aliexpress.com/example/19356",
     "sourceUrl": "https://www.aliexpress.com/example/51203",
     "seedType": "query",
@@ -12,7 +12,11 @@
     "shippingCountry": "US",
     "currency": "USD",
     "title": "Example title: mock text standing in for the real value. Same field and type, made-up content.",
-    "price": 24.52,
+    "price": 23.38,
+    "originalPrice": 38.81,
+    "discountPercentage": 70,
+    "totalSold": "Example total sold",
+    "totalSoldCount": 1,
     "imageUrl": "https://ae-pic-a1.aliexpress-media.com/example/19631.jpg",
     "additionalImages": [
       "https://ae-pic-a1.aliexpress-media.com/example/92203.jpg",
@@ -20,7 +24,10 @@
     ],
     "scrapedAt": "2026-01-15T10:00:00Z",
     "productType": "natural",
-    "currentPrice": 28.52,
+    "currentPrice": 27.19,
+    "discountPct": 15,
+    "itemSold": "Example item sold",
+    "itemSoldCount": 8,
     "isSponsored": false,
     "primaryImage": "https://ae-pic-a1.aliexpress-media.com/example/36153.jpg",
     "imageGallery": [
@@ -30,11 +37,15 @@
     "categoryId": "76",
     "raw": {
       "serp": {
-        "itemId": "0761438452657529",
+        "itemId": "3674224565181036",
         "productUrl": "https://www.aliexpress.com/example/19356",
         "productName": "Example product name: mock text standing in for the real value. Same field and type, made-up content.",
-        "currentPrice": 28.52,
+        "currentPrice": 27.19,
+        "originalPrice": 38.81,
+        "discountPct": 15,
         "currency": "USD",
+        "itemSold": "Example item sold",
+        "itemSoldCount": 8,
         "primaryImage": "https://ae-pic-a1.aliexpress-media.com/example/36153.jpg",
         "imageGallery": [
           "https://ae-pic-a1.aliexpress-media.com/example/37615.jpg",
@@ -44,13 +55,13 @@
         "productType": "natural",
         "categoryId": "76",
         "raw": {
-          "redirectedId": "9139934773719894",
+          "redirectedId": "6463469126389932",
           "itemType": "productv5",
           "productType": "natural",
           "nativeCardType": "nt_srp_cell_g",
           "itemCardType": "Example item card type",
           "transitionaryExpFrame": false,
-          "productId": "6891450183062945",
+          "productId": "1978861987724560",
           "lunchTime": "2026-01-15T10:00:00Z",
           "image": {
             "imgUrl": "Example img url: mock text standing in for the real value. Same field and type, made-up content.",
@@ -62,19 +73,31 @@
             "displayTitle": "Example display title: mock text standing in for the real value. Same field and type, made-up content."
           },
           "prices": {
-            "skuId": "70652547490795334",
+            "skuId": "48069707777505775",
             "pricesStyle": "default",
             "builderType": "skuCoupon",
             "currencySymbol": "Example currency symbol",
             "prefix": "Example prefix",
+            "originalPrice": {
+              "priceType": "original_price",
+              "currencyCode": "USD",
+              "minPrice": 37.42,
+              "formattedPrice": "Example formatted price",
+              "cent": 1408
+            },
             "salePrice": {
+              "discount": 70,
+              "minPriceDiscount": 31,
               "priceType": "sale_price",
               "currencyCode": "USD",
-              "minPrice": 21.59,
+              "minPrice": 20.58,
               "formattedPrice": "Example formatted price",
               "cent": 1408
             },
             "taxRate": "8"
+          },
+          "trade": {
+            "tradeDesc": "Example trade desc"
           },
           "images": [
             {
@@ -90,8 +113,9 @@
               "imgType": "1"
             }
           ],
+          "allPlatformInfo": {},
           "seoWhite": "true",
-          "curPageLogisticsUid": "1viforsvvcym",
+          "curPageLogisticsUid": "x9wdkonspuj5",
           "productDetailUrl": "Example product detail url: mock text standing in for the real value. Same field and type, made-up content."
         }
       }

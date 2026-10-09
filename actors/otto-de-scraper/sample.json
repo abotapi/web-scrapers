@@ -1,8 +1,8 @@
 [
   {
-    "productId": "6775715360",
-    "variationId": "6843560092",
-    "articleNumber": "55071244",
+    "productId": "383218342",
+    "variationId": "1115212642",
+    "articleNumber": "01455103",
     "name": "Example name: mock text standing in for the real value. Same field and type, made-up content.",
     "brand": "Example brand",
     "url": "https://www.otto.de/example/92532",
@@ -11,27 +11,27 @@
       "https://i.otto.de/example/38997.jpg",
       "https://i.otto.de/example/27128.jpg"
     ],
-    "price": 1279.99,
+    "price": 703.99,
     "currency": "EUR",
-    "originalPrice": 6347,
+    "originalPrice": 947,
     "discountPercent": 54,
     "isOnSpecial": true,
     "promoLabel": "Example promo label",
     "availability": "AVAILABLE",
     "availabilityText": "Example availability text",
-    "rating": 5,
-    "reviewCount": 49,
+    "rating": 4.54,
+    "reviewCount": 409,
     "variants": [
       {
-        "variationId": "6843560092",
+        "variationId": "7459785622",
         "color": "beige",
-        "hexCode": "b6aea4",
-        "selected": true
+        "hexCode": "cdc1bc",
+        "selected": false
       },
       {
-        "variationId": "0914771673",
-        "color": "grau",
-        "hexCode": "15470a",
+        "variationId": "7606569673",
+        "color": "olive",
+        "hexCode": "313c76",
         "selected": false
       }
     ],
@@ -45,24 +45,89 @@
     "breadcrumb": null,
     "returnPolicy": null,
     "reviews": {
-      "averageRating": 9,
-      "reviewCount": 49,
+      "averageRating": 3.24,
+      "reviewCount": 409,
       "items": [
         {
           "reviewId": "id19181106",
           "rating": 5,
-          "verifiedPurchase": true,
-          "author": "Example author",
-          "location": "Example location",
-          "date": "62.41.8381",
-          "title": "Example title",
-          "body": "Example body: mock text standing in for the real value. Same field and type, made-up content.",
-          "helpfulVotes": 84,
-          "helpfulVotesTotal": 90,
-          "variantPurchased": "Example variant purchased: mock text standing in for the real value. Same field and type, made-up content.",
-          "seller": "Example seller"
+          "verifiedPurchase": null,
+          "author": null,
+          "location": null,
+          "date": null,
+          "title": null,
+          "body": null,
+          "helpfulVotes": null,
+          "helpfulVotesTotal": null,
+          "variantPurchased": null,
+          "seller": null
+        },
+        {
+          "reviewId": "id86966892",
+          "rating": 2,
+          "verifiedPurchase": null,
+          "author": null,
+          "location": null,
+          "date": null,
+          "title": null,
+          "body": null,
+          "helpfulVotes": null,
+          "helpfulVotesTotal": null,
+          "variantPurchased": null,
+          "seller": null
         }
       ]
+    }
+  },
+  {
+    "productId": "7540529819",
+    "variationId": "5266268430",
+    "articleNumber": "07004392",
+    "name": "Example name: mock text standing in for the real value. Same field and type, made-up content.",
+    "brand": "Example brand",
+    "url": "https://www.otto.de/example/97175",
+    "image": "https://i.otto.de/example/18147.jpg",
+    "images": [
+      "https://i.otto.de/example/58123.jpg",
+      "https://i.otto.de/example/86454.jpg"
+    ],
+    "price": 655.99,
+    "currency": "EUR",
+    "originalPrice": 1831,
+    "discountPercent": 95,
+    "isOnSpecial": true,
+    "promoLabel": "Example promo label",
+    "availability": "AVAILABLE",
+    "availabilityText": "Example availability text",
+    "rating": null,
+    "reviewCount": 0,
+    "variants": [
+      {
+        "variationId": "7114051902",
+        "color": "beige",
+        "hexCode": "d5d2ca",
+        "selected": false
+      },
+      {
+        "variationId": "1159141652",
+        "color": "Example color",
+        "hexCode": "446b8f",
+        "selected": false
+      }
+    ],
+    "category": null,
+    "seller": null,
+    "ean": null,
+    "gtin": null,
+    "sku": null,
+    "description": null,
+    "specs": null,
+    "breadcrumb": null,
+    "returnPolicy": null,
+    "reviews": {
+      "averageRating": null,
+      "reviewCount": 0,
+      "items": []
     }
   }
 ]

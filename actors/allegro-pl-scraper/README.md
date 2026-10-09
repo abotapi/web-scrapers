@@ -17,7 +17,7 @@ python example.py
 ```bash
 curl -s -X POST "https://api.apify.com/v2/acts/abotapi~allegro-pl-scraper/run-sync-get-dataset-items?token=$APIFY_TOKEN" \
   -H 'Content-Type: application/json' \
-  -d '{"mode": "search", "queries": ["iphone"], "maxItems": 10, "maxPages": 1, "proxy": {"useApifyProxy": true, "apifyProxyGroups": ["RESIDENTIAL"], "apifyProxyCountry": "PL"}}'
+  -d '{"mode": "search", "queries": ["iphone"], "maxReviews": 10, "maxItems": 10, "maxPages": 1, "proxy": {"useApifyProxy": true, "apifyProxyGroups": ["RESIDENTIAL"], "apifyProxyCountry": "PL"}}'
 ```
 
 ## Inputs
@@ -26,9 +26,11 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~allegro-pl-scraper/run-sy
 | --- | --- | --- |
 | `mode` | string | Input mode |
 | `queries` | array | Search phrases |
+| `barcodes` | array | Barcodes (EAN / GTIN / UPC) |
 | `startUrls` | array | Start URLs |
 | `keywords` | array | Keywords |
 | `fetchDetails` | boolean | Fetch full offer details |
+| `maxReviews` | integer | Max reviews per offer |
 | `maxItems` | integer | Max items |
 | `maxPages` | integer | Max pages per source |
 | `proxy` | object | Proxy configuration |
@@ -45,13 +47,18 @@ Full details on the [scraper page](https://apify.com/abotapi/allegro-pl-scraper?
 | --- | --- |
 | `offerId` | string |
 | `title` | string |
+| `brand` | null |
 | `url` | string |
-| `price` | integer |
+| `price` | float |
 | `currency` | string |
 | `originalPrice` | null |
 | `deliveryInfo` | string |
+| `freeDelivery` | boolean |
+| `freeReturn` | boolean |
+| `lowestDeliveryPrice` | float |
 | `sponsored` | boolean |
 | `bestPriceGuarantee` | boolean |
+| `smart` | boolean |
 | `sellerName` | string |
 | `sellerBusiness` | boolean |
 | `sellerFeedbackPercent` | float |
@@ -59,6 +66,12 @@ Full details on the [scraper page](https://apify.com/abotapi/allegro-pl-scraper?
 | `category` | string |
 | `parameters` | object |
 | `image` | string |
+| `images` | list |
+| `ratingValue` | float |
+| `ratingCount` | integer |
+| `offerCount` | integer |
+| `hasVariants` | boolean |
+| `recentBuyersLabel` | string |
 | `sourceUrl` | string |
 | `sourceLabel` | string |
 

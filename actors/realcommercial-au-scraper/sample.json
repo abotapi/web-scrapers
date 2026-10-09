@@ -1,69 +1,34 @@
 [
   {
-    "propertyId": "220772911",
+    "propertyId": "065627725",
     "url": "https://www.realcommercial.com.au/example/13642",
     "listingType": "for-sale",
     "propertyTypes": [
       "Example property types"
     ],
     "tenureType": "vacant",
-    "title": "Example title: mock text standing in for the real value. Same field and type, made-up content.",
-    "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
-    "descriptionMetadata": {
-      "phoneNumbers": [
-        {
-          "dial": "+76572272117",
-          "text": "7922549449",
-          "startIndex": 1660,
-          "endIndex": 9918,
-          "agencyId": "UQGUBL",
-          "agentId": "7557898",
-          "masked": "1662433..."
-        },
-        {
-          "dial": "+54540751150",
-          "text": "6800363518",
-          "startIndex": 8779,
-          "endIndex": 5162,
-          "agencyId": "UQGUBL",
-          "agentId": "5682469",
-          "masked": "3081898..."
-        }
-      ]
-    },
+    "title": "Example title",
     "status": "New",
     "daysActive": 6,
     "hasTour": false,
-    "product": "enhanced",
+    "product": "eliteplus",
     "address": {
       "street": "Example street",
       "suburb": "Example suburb",
       "state": "VIC",
-      "postcode": "1911",
+      "postcode": "5096",
       "full": "Example full"
     },
     "price": {
-      "display": "Example display",
-      "forSale": {
-        "isPriceHidden": true
-      }
+      "display": "Example display"
     },
     "attributes": {
-      "listingAttributes": [
-        {
-          "id": "Example id",
-          "label": "Example label",
-          "value": "Example value"
-        },
-        {
-          "id": "Example id",
-          "label": "Example label",
-          "value": "Example value"
-        }
-      ]
+      "area": "Example area",
+      "areaValue": 3404,
+      "areaUnit": "Example area unit"
     },
     "media": {
-      "imageCount": 95,
+      "imageCount": 5,
       "images": [
         {
           "url": "https://i1.au.reastatic.net/example/13642.jpg",
@@ -77,93 +42,25 @@
     },
     "agents": [
       {
-        "id": "5019477",
+        "id": "4560137",
         "name": "Example name",
-        "photoUrl": "https://i1.au.reastatic.net/example/25208.jpg",
-        "phone": {
-          "display": "4410985065",
-          "dial": "+76572272117"
-        },
-        "enquiryUri": "https://api.realcommercial.com.au/example/76642"
+        "photoUrl": "https://i1.au.reastatic.net/example/25208.jpg"
       },
       {
-        "id": "4204817",
+        "id": "20410",
         "name": "Example name",
-        "photoUrl": "https://i1.au.reastatic.net/example/2060.jpg",
-        "phone": {
-          "display": "9787769053",
-          "dial": "+54540751150"
-        },
-        "enquiryUri": "https://api.realcommercial.com.au/example/43779"
+        "photoUrl": "https://i1.au.reastatic.net/example/2060.jpg"
       }
     ],
     "agency": {
-      "id": "UQGUBL",
+      "id": "RPBTRA",
       "name": "Example name",
       "logoUrl": "https://i1.au.reastatic.net/example/36817.jpg",
-      "brandingColor": "Example branding color",
-      "phone": {
-        "display": "2796487085",
-        "dial": "+80316039126"
-      },
-      "address": "Example address"
+      "brandingColor": "Example branding color"
     },
-    "websites": [
-      {
-        "label": "Example label",
-        "url": "https://harcourts.net/example/13642"
-      }
-    ],
-    "nearbyPlaces": [
-      {
-        "name": "Example name",
-        "items": [
-          {
-            "id": "Example id",
-            "title": "Example title",
-            "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
-            "icon": {
-              "name": "Example name",
-              "backgroundColourToken": "backgroundPink",
-              "fillColourToken": "textPink"
-            }
-          },
-          {
-            "id": "Example id",
-            "title": "Example title",
-            "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
-            "icon": {
-              "name": "Example name",
-              "backgroundColourToken": "backgroundBlue",
-              "fillColourToken": "textBlue"
-            }
-          }
-        ]
-      }
-    ],
-    "lastUpdatedAt": "2026-01-15T10:00:00Z",
-    "canonicalPath": "Example canonical path: mock text standing in for the real value. Same field and type, made-up content.",
-    "highQualityListing": false,
-    "propertyTypeObjects": [
-      {
-        "id": "retail",
-        "url": "retail",
-        "oldUrl": "retail",
-        "agencyUrl": "retail",
-        "marketing": "retail",
-        "displayText": "Example display text",
-        "longDisplayText": "Example long display text",
-        "sentenceDisplayText": "Example sentence display text",
-        "pdpTitle": "Example pdp title",
-        "iconName": "Example icon name"
-      }
-    ],
     "tenureTypeDisplay": "Example tenure type display",
-    "map": {
-      "precision": "street"
-    },
-    "latitude": -49.14,
-    "longitude": 156.96,
+    "latitude": -49.23,
+    "longitude": 157.61,
     "scrapedAt": "2026-01-15T10:00:00Z"
   }
 ]

@@ -74,7 +74,7 @@ Full details on the [scraper page](https://apify.com/abotapi/doordash-scraper?ut
 | `coverImageUrl` | string |
 | `coverSquareImageUrl` | string |
 | `businessHeaderImageUrl` | string |
-| `photoCountText` | null |
+| `photoCountText` | string |
 | `businessId` | string |
 | `businessName` | string |
 | `businessLink` | string |

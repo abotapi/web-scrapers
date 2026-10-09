@@ -60,12 +60,12 @@ Full details on the [scraper page](https://apify.com/abotapi/udio-com-scraper?ut
 | `createdAt` | string |
 | `publishedAt` | string |
 | `audioUrl` | string |
-| `videoUrl` | null |
+| `videoUrl` | string |
 | `artworkUrl` | string |
 | `styleId` | null |
 | `styleSourceType` | null |
 | `styleSourceTrackId` | null |
-| `parentTrackId` | string |
+| `parentTrackId` | null |
 | `generationId` | string |
 | `generationStatus` | string |
 | `isFinished` | boolean |

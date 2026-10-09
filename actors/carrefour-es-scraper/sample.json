@@ -1,17 +1,170 @@
 [
   {
-    "productId": "vc8aecomm-859712",
+    "productId": "846293623",
     "name": "Example name",
-    "brand": "Example brand",
-    "ean": "7353227462817",
-    "price": 0.71,
+    "brand": "CARREFOUR",
+    "sku": "6342368472",
+    "price": 0.63,
     "currency": "EUR",
-    "measureUnit": "l",
-    "categoryId": "id17448172",
+    "unitPrice": 1.08,
+    "unitPriceMeasure": "l",
+    "onPromotion": false,
+    "stock": 8979,
+    "inStock": true,
+    "sellPackUnit": 9,
     "image": "https://static.carrefour.es/example/39617.jpg",
     "url": "https://www.carrefour.es/example/87740",
-    "source": "search",
-    "searchMode": "search",
+    "source": "category",
+    "ean": "2805781774755",
+    "measureUnit": "l",
+    "images": [
+      "https://static.carrefour.es/example/27365.jpg"
+    ],
+    "ingredients": "Example ingredients",
+    "allergens": [
+      "Example allergens"
+    ],
+    "nutrition": {
+      "main_nutritional_values": [
+        {
+          "listaInfo": [
+            {
+              "nombre": "Example nombre",
+              "valor": "Example valor"
+            }
+          ],
+          "nombre": "Example nombre",
+          "valor": "Example valor"
+        },
+        {
+          "listaInfo": [
+            {
+              "nombre": "Example nombre",
+              "valor": "Example valor"
+            }
+          ],
+          "nombre": "Example nombre",
+          "valor": "Example valor"
+        }
+      ]
+    },
+    "offer": {
+      "app_price": "Example app_price",
+      "price": "Example price",
+      "price_per_unit": "Example price_per_unit",
+      "units_in_stock": 5210
+    },
+    "moreInfo": [
+      {
+        "listaInfo": [
+          {
+            "nombre": "Example nombre",
+            "valor": "Example valor: mock text standing in for the real value. Same field and type, made-up content."
+          },
+          {
+            "nombre": "Example nombre",
+            "valor": "Example valor"
+          }
+        ],
+        "nombre": "Example nombre"
+      },
+      {
+        "listaInfo": [
+          {
+            "nombre": "Example nombre",
+            "valor": "Example valor"
+          }
+        ],
+        "nombre": "Example nombre"
+      }
+    ],
+    "hasReviews": true,
+    "reviews": [],
+    "searchMode": "category",
+    "scrapedAt": "2026-01-15T10:00:00Z"
+  },
+  {
+    "productId": "838178894",
+    "name": "Example name",
+    "brand": "CARREFOUR",
+    "sku": "4885732006",
+    "price": 0.72,
+    "currency": "EUR",
+    "unitPrice": 0.94,
+    "unitPriceMeasure": "l",
+    "onPromotion": false,
+    "stock": 6173,
+    "inStock": true,
+    "sellPackUnit": 8,
+    "image": "https://static.carrefour.es/example/20072.jpg",
+    "url": "https://www.carrefour.es/example/53163",
+    "source": "category",
+    "ean": "7350421911395",
+    "measureUnit": "l",
+    "images": [
+      "https://static.carrefour.es/example/46746.jpg"
+    ],
+    "ingredients": "Example ingredients",
+    "allergens": [
+      "Example allergens"
+    ],
+    "nutrition": {
+      "main_nutritional_values": [
+        {
+          "listaInfo": [
+            {
+              "nombre": "Example nombre",
+              "valor": "Example valor"
+            }
+          ],
+          "nombre": "Example nombre",
+          "valor": "Example valor"
+        },
+        {
+          "listaInfo": [
+            {
+              "nombre": "Example nombre",
+              "valor": "Example valor"
+            }
+          ],
+          "nombre": "Example nombre",
+          "valor": "Example valor"
+        }
+      ]
+    },
+    "offer": {
+      "app_price": "Example app_price",
+      "price": "Example price",
+      "price_per_unit": "Example price_per_unit",
+      "units_in_stock": 2797
+    },
+    "moreInfo": [
+      {
+        "listaInfo": [
+          {
+            "nombre": "Example nombre",
+            "valor": "Example valor: mock text standing in for the real value. Same field and type, made-up content."
+          },
+          {
+            "nombre": "Example nombre",
+            "valor": "Example valor"
+          }
+        ],
+        "nombre": "Example nombre"
+      },
+      {
+        "listaInfo": [
+          {
+            "nombre": "Example nombre",
+            "valor": "Example valor"
+          }
+        ],
+        "nombre": "Example nombre"
+      }
+    ],
+    "hasReviews": true,
+    "reviews": [],
+    "searchMode": "category",
     "scrapedAt": "2026-01-15T10:00:00Z"
   }
 ]

@@ -1,6 +1,6 @@
 [
   {
-    "id": "52483153",
+    "id": "68446544",
     "url": "https://www.seek.com.au/example/2155",
     "jobLink": "https://www.seek.com.au/example/10066",
     "applyLink": "https://www.seek.com.au/example/90096",
@@ -11,32 +11,35 @@
     "content": "Example content: mock text standing in for the real value. Same field and type, made-up content.",
     "contentText": "Example content text: mock text standing in for the real value. Same field and type, made-up content.",
     "contentSections": [
-      "Example content sections: mock text standing in for the real value. Same field and type, made-up content.",
+      "Example content sections",
       "Example content sections: mock text standing in for the real value. Same field and type, made-up content."
     ],
     "bulletPoints": [
       "Example bullet points",
-      "Example bullet points: mock text standing in for the real value. Same field and type, made-up content."
+      "Example bullet points"
     ],
     "companyName": "Example company name",
-    "companyId": "573631",
+    "companyId": "160767914172512",
     "companyUrl": "https://au.seek.com/example/89226",
     "companyNameSlug": "id2464305",
-    "companyProfileId": 77384,
+    "companyProfileId": 2417384,
     "companyOverview": "Example company overview: mock text standing in for the real value. Same field and type, made-up content.",
     "companyIndustry": "Example company industry",
-    "companySize": null,
-    "companyWebsite": "http://www.sashvets.com/example/29772",
-    "companySpecialities": [],
+    "companySize": "Example company size",
+    "companyWebsite": "http://www.choyces.org.au/example/29772",
+    "companySpecialities": [
+      "Example company specialities",
+      "Example company specialities"
+    ],
     "companyPrimaryLocation": "Example company primary location",
     "companyLogo": "https://image-service-cdn.seek.com.au/example/68877.jpg",
-    "companyCoverImage": null,
+    "companyCoverImage": "https://image-service-cdn.seek.com.au/example/34700.jpg",
     "companyRating": null,
     "companyReviewCount": null,
     "companySalaryRating": null,
     "companyPerks": [],
     "companyAwards": [],
-    "advertiserId": "35105926",
+    "advertiserId": "78251540",
     "advertiserName": "Example advertiser name",
     "locationLabel": "Example location label",
     "locationSeoHierarchy": [
@@ -46,17 +49,17 @@
     "countryCode": "AU",
     "classifications": [
       {
-        "id": "4908",
+        "id": "7116",
         "label": "Example label",
-        "subId": "9209",
+        "subId": "2147",
         "subLabel": "Example sub label"
       }
     ],
     "classificationInfo": {
       "classification": "Example classification",
       "subClassification": "Example sub classification",
-      "classificationId": "6110",
-      "subClassificationId": "5829"
+      "classificationId": "2889",
+      "subClassificationId": "7134"
     },
     "workTypes": [
       "Example work types"

@@ -6,19 +6,19 @@
     "brand": "Casio",
     "category": null,
     "gtin": null,
-    "lowPrice": 11.94,
+    "lowPrice": 75,
     "highPrice": 31,
     "currency": "EUR",
     "priceFormatted": "Example price formatted",
     "offerCount": 49,
-    "rating": 3.31,
+    "rating": 3.38,
     "reviewCount": 3641,
     "reviewBreakdown": {
-      "1": 95,
+      "1": 275,
       "2": 59,
-      "3": 30,
+      "3": 750,
       "4": 309,
-      "5": 428
+      "5": 2228
     },
     "previewImage": "https://cdn.idealo.com/example/58945.jpg",
     "images": [
@@ -46,10 +46,10 @@
     "offers": [
       {
         "merchant": "Example merchant",
-        "price": 12.9,
+        "price": 51,
         "priceFormatted": "Example price formatted",
         "shipping": "Example shipping",
-        "total": 18.16,
+        "total": 18.26,
         "totalFormatted": "Example total formatted",
         "pros": [],
         "cons": [],
@@ -57,10 +57,10 @@
       },
       {
         "merchant": "Example merchant",
-        "price": 20.47,
+        "price": 98,
         "priceFormatted": "Example price formatted",
         "shipping": "Example shipping",
-        "total": 17.83,
+        "total": 55,
         "totalFormatted": "Example total formatted",
         "pros": [],
         "cons": [],

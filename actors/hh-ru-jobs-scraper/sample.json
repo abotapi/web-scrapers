@@ -1,6 +1,6 @@
 [
   {
-    "vacancyId": "378202280",
+    "vacancyId": "626023927",
     "url": "https://hh.ru/example/94842",
     "name": "Example name",
     "publicationDate": "2026-01-15T10:00:00Z",
@@ -53,10 +53,10 @@
     "address": {
       "city": "Example city",
       "street": "Example street",
-      "building": "72",
+      "building": null,
       "displayName": "Example display name",
       "lat": 57.45,
-      "lng": 43.97,
+      "lng": 43.98,
       "metroStations": [
         {
           "id": 20,
@@ -64,14 +64,14 @@
           "lineColor": "Example line color"
         },
         {
-          "id": 41,
+          "id": 851,
           "name": "Example name",
           "lineColor": "Example line color"
         }
       ],
       "district": "Example district"
     },
-    "workExperience": "between0and9",
+    "workExperience": "between6and6",
     "employment": "FULL",
     "employmentForm": "FULL",
     "workSchedule": "remote",
@@ -82,8 +82,8 @@
       "hours_0"
     ],
     "workFormats": [
-      "ON_SITE",
-      "REMOTE"
+      "REMOTE",
+      "HYBRID"
     ],
     "workingDays": [],
     "workingTimeIntervals": [],
@@ -94,7 +94,7 @@
     "acceptHandicapped": null,
     "acceptTemporary": false,
     "acceptIncompleteResumes": false,
-    "acceptLaborContract": true,
+    "acceptLaborContract": false,
     "ageRestriction": null,
     "responseLetterRequired": false,
     "showContact": false,

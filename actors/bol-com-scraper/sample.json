@@ -1,8 +1,8 @@
 [
   {
-    "productId": "6003644468249663",
-    "product_id": "0921708287184841",
-    "id": "5004677752065285",
+    "productId": "8525129406245558",
+    "product_id": "6355029535972589",
+    "id": "8452549916077398",
     "title": "Example title: mock text standing in for the real value. Same field and type, made-up content.",
     "url": "https://www.bol.com/example/1503",
     "sourceUrl": "https://www.bol.com/example/69845",
@@ -24,21 +24,21 @@
         "Laptops"
       ]
     ],
-    "price": 479.06,
+    "price": 490.31,
     "list_price": null,
     "currency": "EUR",
     "price_currency": "EUR",
     "discount_percentage": null,
     "priceRange": {
-      "min": 370.01,
-      "max": 323.27
+      "min": 378.7,
+      "max": 330.86
     },
     "buyBoxPriceRange": {
-      "min": 370.01,
-      "max": 323.27
+      "min": 378.7,
+      "max": 330.86
     },
     "alternative_prices": [
-      272.64
+      279.04
     ],
     "isOnSpecial": true,
     "originalPrice": null,
@@ -59,6 +59,6 @@
     "isbn13": null,
     "image": null,
     "images": null,
-    "rating": 9
+    "rating": 2.66
   }
 ]

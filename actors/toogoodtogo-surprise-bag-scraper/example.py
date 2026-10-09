@@ -15,6 +15,7 @@ run = client.actor("abotapi/toogoodtogo-surprise-bag-scraper").call(
         "mode": "search",
         "locations": ["Berlin"],
         "itemInputs": ["123456789"],
+        "maxReviews": 10,
         "maxItems": 10,
         "maxPages": 1,
         "proxyConfiguration": {"useApifyProxy": True},

@@ -77,8 +77,8 @@ Full details on the [scraper page](https://apify.com/abotapi/americanas-com-br-s
 | `price` | integer |
 | `listPrice` | integer |
 | `originalPrice` | integer |
-| `discountAmount` | integer |
-| `discountPercent` | float |
+| `discountAmount` | null |
+| `discountPercent` | null |
 | `onSale` | boolean |
 | `pixPrice` | float |
 | `pixDiscountAmount` | float |

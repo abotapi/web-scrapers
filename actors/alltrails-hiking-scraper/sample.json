@@ -49,11 +49,11 @@
       {
         "url": "https://images.alltrails.com/example/95994.jpg",
         "thumbUrl": "https://images.alltrails.com/example/23523.jpg",
-        "title": null,
+        "title": "",
         "description": null,
         "likes": 0,
-        "lat": 38.48,
-        "lng": -124.33,
+        "lat": 0,
+        "lng": 0,
         "credit": "id27209408"
       }
     ]

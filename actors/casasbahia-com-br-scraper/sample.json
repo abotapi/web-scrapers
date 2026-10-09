@@ -18,7 +18,7 @@
     "price": 4179,
     "originalPrice": 1445.21,
     "discountPercent": 82,
-    "discountAmount": 580.74,
+    "discountAmount": 576.62,
     "listPrice": 3248,
     "currency": "BRL",
     "onSale": true,
@@ -29,7 +29,7 @@
     "hasBoletoDiscount": false,
     "installmentText": "Example installment text",
     "installmentCount": 5,
-    "installmentValue": 225.57,
+    "installmentValue": 226.27,
     "installmentInterestFree": true,
     "installmentOptions": [
       {
@@ -44,7 +44,7 @@
       {
         "type": "Bandeira",
         "count": 8,
-        "installmentValue": 676.72,
+        "installmentValue": 678.82,
         "monthlyInterest": 0,
         "totalPrice": 2083,
         "interestFree": true,
@@ -70,6 +70,80 @@
     "images": [
       "https://imgs.casasbahia.com.br/example/71618.jpg",
       "https://imgs.casasbahia.com.br/example/57288.jpg"
+    ],
+    "videos": []
+  },
+  {
+    "productId": "7483767043",
+    "productGroupId": "10760329",
+    "title": "Example title",
+    "brand": "Consul",
+    "brandId": "238",
+    "url": "https://www.casasbahia.com.br/example/16890",
+    "categoryName": "Example category name",
+    "categoryPath": [
+      "Example category path",
+      "Refrigeradores"
+    ],
+    "categoryIds": [
+      "52",
+      "04"
+    ],
+    "price": 1891.99,
+    "originalPrice": 4042.49,
+    "discountPercent": 14,
+    "discountAmount": 3790,
+    "listPrice": 2507.99,
+    "currency": "BRL",
+    "onSale": true,
+    "cashPrice": null,
+    "cashPriceLabel": null,
+    "cashDiscountPercent": null,
+    "hasPixDiscount": false,
+    "hasBoletoDiscount": false,
+    "installmentText": "Example installment text",
+    "installmentCount": 7,
+    "installmentValue": 436.33,
+    "installmentInterestFree": true,
+    "installmentOptions": [
+      {
+        "type": "Bandeira",
+        "count": 7,
+        "installmentValue": 2617.99,
+        "monthlyInterest": 0,
+        "totalPrice": 2749.99,
+        "interestFree": true,
+        "label": "Example label"
+      },
+      {
+        "type": "Bandeira",
+        "count": 7,
+        "installmentValue": 8726,
+        "monthlyInterest": 0,
+        "totalPrice": 2573.99,
+        "interestFree": true,
+        "label": "Example label"
+      }
+    ],
+    "inStock": true,
+    "availability": {
+      "national": true,
+      "regional": false,
+      "commercial": true
+    },
+    "pickupInStore": false,
+    "deliveryEstimate": null,
+    "shippingCost": null,
+    "sellerId": "15266",
+    "sellerName": "Example seller name",
+    "sellerCount": 4,
+    "offerCount": 3,
+    "minOfferPrice": 1847.99,
+    "maxOfferPrice": 1979.99,
+    "image": "https://imgs.casasbahia.com.br/example/7027.jpg",
+    "images": [
+      "https://imgs.casasbahia.com.br/example/82622.jpg",
+      "https://imgs.casasbahia.com.br/example/28712.jpg"
     ],
     "videos": []
   }

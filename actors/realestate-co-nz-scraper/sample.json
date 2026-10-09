@@ -1,35 +1,36 @@
 [
   {
-    "id": "96325398",
+    "id": "07562120",
     "listingUrl": "https://www.realestate.co.nz/example/96179",
-    "listingNo": "ell16004",
+    "listingNo": "l87331468",
     "address": {
       "full": "Example full",
       "displayAddress": "Example display address",
-      "streetNumber": "Example street number",
+      "streetNumber": "90",
       "streetName": "Example street name",
+      "unitNumber": "6",
       "suburb": "Example suburb",
       "district": "Example district",
       "region": "Auckland",
-      "postcode": "0322",
+      "postcode": "0421",
       "country": "Example country",
       "countryCode": "NZ"
     },
     "price": {
       "display": "Example display",
       "currency": "NZD",
-      "priceType": "auction",
+      "priceType": "negotiable",
       "priceCode": 3
     },
     "features": {
       "bedrooms": 9,
       "bathrooms": 5,
       "totalBathrooms": 5,
-      "ensuiteBathrooms": 5,
-      "garages": 0,
-      "carparks": 2,
+      "ensuiteBathrooms": 0,
+      "garages": 1,
+      "carparks": 0,
       "livingAreas": 0,
-      "floorAreaInSqm": 185,
+      "floorAreaInSqm": 0,
       "storeys": 0,
       "hasPool": false
     },
@@ -54,9 +55,15 @@
         "order": 6
       }
     ],
+    "floorPlans": [
+      {
+        "url": "https://mediaserver.realestate.co.nz/example/86841",
+        "type": "floorplan"
+      }
+    ],
     "agents": [
       {
-        "id": "901175",
+        "id": "0439996",
         "firstName": "Example first name",
         "lastName": "Example last name",
         "name": "Example name",
@@ -65,44 +72,22 @@
         "slug": "Example slug",
         "listingCount": 5,
         "imageUrl": "https://images.realestate.co.nz/example/50872.jpg"
-      },
-      {
-        "id": "232720",
-        "firstName": "Example first name",
-        "lastName": "Example last name",
-        "name": "Example name",
-        "phone": "+1 555 0100",
-        "email": "user23@example.com",
-        "slug": "Example slug",
-        "listingCount": 4,
-        "imageUrl": "https://images.realestate.co.nz/example/12824.jpg"
       }
     ],
     "office": {
-      "id": "185410",
-      "name": "Example name",
+      "id": "7226493",
+      "name": "Example name: mock text standing in for the real value. Same field and type, made-up content.",
       "colloquialName": "Example colloquial name",
       "phone": "+1 555 0100",
       "email": "user38@example.com",
-      "websiteUrl": "https://rwellerslie.co.nz/example/2816",
       "slug": "id71773729",
       "brandColour": "Example brand colour",
       "imageUrl": "https://images.realestate.co.nz/example/50872.jpg"
     },
     "location": {
-      "lat": -30.96,
-      "lon": 134.62
+      "lat": -31.06,
+      "lon": 134.65
     },
-    "openHomes": [
-      {
-        "startTime": "2026-01-15T10:00:00Z",
-        "endTime": "2026-01-15T10:00:00Z"
-      },
-      {
-        "startTime": "2026-01-15T10:00:00Z",
-        "endTime": "2026-01-15T10:00:00Z"
-      }
-    ],
     "schools": [
       {
         "name": "Example name",
@@ -119,8 +104,6 @@
         "distance": "Example distance"
       }
     ],
-    "auctionDate": "2026-01-15T10:00:00Z",
-    "auctionLocation": "Example auction location",
     "publishedDate": "2026-01-15T10:00:00Z",
     "createdDate": "2026-01-15T10:00:00Z",
     "isFeatured": false,

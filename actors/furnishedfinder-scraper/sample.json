@@ -1,24 +1,24 @@
 [
   {
     "id": "id72413698",
-    "propertyId": "2855879",
+    "propertyId": "6181215",
     "unitId": "2",
     "url": "https://www.furnishedfinder.com/example/97082",
     "name": "Example name",
-    "propertyType": "Apartment",
+    "propertyType": "House",
     "propertyTypeClass": "entire_unit",
     "bedroomCount": 9,
-    "bathroomCount": 8,
+    "bathroomCount": 2.97,
     "bathroomType": null,
     "totalSleeps": 9,
     "laundryType": "IN_UNIT",
     "priceFormatted": "Example price formatted",
     "priceValue": 1998,
     "priceCurrency": "USD",
-    "latitude": 33.19,
-    "longitude": -99.37,
+    "latitude": 33.1,
+    "longitude": -99.1,
     "city": "Houston",
-    "state": "Texas",
+    "state": "TX",
     "encodedLocationName": "Example encoded location name",
     "isAvailableNow": true,
     "availableOnDate": "Example available on date",
@@ -34,9 +34,9 @@
     "photoCount": 31,
     "searchLocation": "Example search location",
     "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
-    "neighborhoodDescription": "Example neighborhood description: mock text standing in for the real value. Same field and type, made-up content.",
-    "spaceDescription": "",
-    "squareFootage": 309,
+    "neighborhoodDescription": "",
+    "spaceDescription": "Example space description: mock text standing in for the real value. Same field and type, made-up content.",
+    "squareFootage": 3009,
     "avgRating": 0,
     "totalReviewCount": 0,
     "reviews": null,
@@ -53,6 +53,10 @@
       }
     ],
     "fees": [
+      {
+        "type": "Example type",
+        "amount": "Example amount"
+      },
       {
         "type": "Example type",
         "amount": "Example amount"
@@ -75,7 +79,11 @@
     "bedroomsDetail": [
       {
         "title": "Example title",
-        "type": "Queen"
+        "type": "Example type"
+      },
+      {
+        "title": "Example title",
+        "type": "Example type"
       }
     ]
   }

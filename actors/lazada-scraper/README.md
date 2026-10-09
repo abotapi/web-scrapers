@@ -72,7 +72,7 @@ Full details on the [scraper page](https://apify.com/abotapi/lazada-scraper?utm_
 | `discountAmount` | integer |
 | `promoLabel` | string |
 | `specialsCategory` | string |
-| `ratingScore` | integer |
+| `ratingScore` | float |
 | `reviewCount` | integer |
 | `itemSold` | string |
 | `inStock` | boolean |

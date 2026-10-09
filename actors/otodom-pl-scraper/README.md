@@ -59,7 +59,7 @@ Full details on the [scraper page](https://apify.com/abotapi/otodom-pl-scraper?u
 | `estate` | string |
 | `priceTotal` | integer |
 | `priceCurrency` | string |
-| `pricePerSquareMeter` | integer |
+| `pricePerSquareMeter` | float |
 | `rentPrice` | integer |
 | `rentAdditional` | integer |
 | `deposit` | null |
@@ -74,8 +74,8 @@ Full details on the [scraper page](https://apify.com/abotapi/otodom-pl-scraper?u
 | `buildingMaterial` | null |
 | `heating` | string |
 | `windowsType` | string |
-| `city` | string |
-| `province` | string |
+| `city` | null |
+| `province` | null |
 | `district` | string |
 | `street` | string |
 | `postalCode` | null |

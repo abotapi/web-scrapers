@@ -57,7 +57,7 @@ Full details on the [scraper page](https://apify.com/abotapi/lemon8-discover-scr
 | `images` | list |
 | `comments` | list |
 | `isVideo` | boolean |
-| `videoData` | null |
+| `videoData` | object |
 | `searchQuery` | string |
 | `details` | object |
 | `allComments` | list |

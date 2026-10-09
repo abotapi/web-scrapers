@@ -18,10 +18,6 @@
     "dealFlag": "Example deal flag",
     "flags": [
       {
-        "kind": "CAMPAIGN",
-        "label": "Example label"
-      },
-      {
         "kind": "DEAL",
         "label": "Example label"
       }
@@ -194,10 +190,6 @@
       "experienceWatermarkMedium": null,
       "experienceWatermarkSmall": null,
       "productFlags": [
-        {
-          "kind": "CAMPAIGN",
-          "formatted": "Example formatted"
-        },
         {
           "kind": "DEAL",
           "formatted": "Example formatted"

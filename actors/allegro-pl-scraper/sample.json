@@ -1,26 +1,39 @@
 [
   {
-    "offerId": "79228245128",
+    "offerId": "66805953377",
     "title": "Example title",
+    "brand": null,
     "url": "https://allegro.pl/example/98541",
-    "price": 9034,
+    "price": 35.84,
     "currency": "PLN",
     "originalPrice": null,
     "deliveryInfo": "Example delivery info",
+    "freeDelivery": false,
+    "freeReturn": false,
+    "lowestDeliveryPrice": 8.07,
     "sponsored": true,
     "bestPriceGuarantee": true,
+    "smart": true,
     "sellerName": "Example seller name",
     "sellerBusiness": true,
-    "sellerFeedbackPercent": 107.58,
+    "sellerFeedbackPercent": 108.79,
     "superSeller": true,
-    "category": "998114",
+    "category": "46078",
     "parameters": {
-      "Kolor": "niebieski",
-      "Przekątna ekranu": "Example przekątna ekranu",
-      "Wbudowana pamięć": "Example wbudowana pamięć",
-      "Pamięć RAM": "Example pamięć  r a m"
+      "Kolor": "Example kolor",
+      "Liczba urządzeń ładowanych jednocześnie": "8",
+      "Długość przewodu": "Example długość przewodu"
     },
     "image": "https://a.allegroimg.com/example/38664.jpg",
+    "images": [
+      "https://a.allegroimg.com/example/31780.jpg",
+      "https://a.allegroimg.com/example/603.jpg"
+    ],
+    "ratingValue": 3.69,
+    "ratingCount": 550,
+    "offerCount": 9,
+    "hasVariants": false,
+    "recentBuyersLabel": "Example recent buyers label",
     "sourceUrl": "https://allegro.pl/example/90366",
     "sourceLabel": "Example source label"
   }

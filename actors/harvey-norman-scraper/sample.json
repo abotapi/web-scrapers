@@ -9,15 +9,15 @@
     "imageUrl": null,
     "rating": 4.26,
     "reviewCount": 375,
-    "promotion": null,
+    "promotion": "Example promotion",
     "searchMode": "search",
     "source": "Example source",
     "price": 1102,
     "currency": "AUD",
-    "wasPrice": null,
-    "discountAmount": 0,
-    "discountPercent": 0,
+    "wasPrice": 5099,
+    "discountAmount": 3122,
+    "discountPercent": 24.28,
     "title": "Example title",
-    "isOnSpecial": false
+    "isOnSpecial": true
   }
 ]

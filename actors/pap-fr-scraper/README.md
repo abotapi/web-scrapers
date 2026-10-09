@@ -55,12 +55,12 @@ Full details on the [scraper page](https://apify.com/abotapi/pap-fr-scraper?utm_
 | `priceCurrency` | string |
 | `priceDisplay` | string |
 | `rooms` | integer |
-| `livingSpace` | float |
+| `livingSpace` | integer |
 | `bedrooms` | integer |
-| `floor` | integer |
+| `floor` | null |
 | `hoaChargesYearly` | null |
 | `propertyTaxYearly` | null |
-| `heatingType` | string |
+| `heatingType` | null |
 | `description` | string |
 | `streetAddress` | string |
 | `city` | string |

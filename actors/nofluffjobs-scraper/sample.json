@@ -1,7 +1,7 @@
 [
   {
-    "id": "Example id",
-    "reference": "lnok2ce9",
+    "id": "senior-software-engineer-cloudferro-warszawa-41",
+    "reference": "m8mc6jxs",
     "title": "Example title",
     "url": "https://nofluffjobs.com/example/49711",
     "region": "pl",
@@ -9,39 +9,51 @@
       "pl"
     ],
     "companyName": "Example company name",
-    "companyLogo": "Example company logo",
-    "category": "devops",
+    "companyLogo": "Example company logo: mock text standing in for the real value. Same field and type, made-up content.",
+    "category": "backend",
     "seniority": [
       "Example seniority"
     ],
     "technology": "Example technology",
     "remote": false,
     "fullyRemote": false,
-    "remotePercent": 2,
+    "remotePercent": 0,
     "cities": [
+      "Example cities",
       "Example cities"
     ],
     "locations": [
       {
-        "city": "Example city",
+        "city": "Warszawa",
         "street": "Example street",
-        "postalCode": "72-376",
+        "postalCode": "37-762",
         "countryCode": "POL",
         "country": "Poland",
         "province": null,
-        "latitude": 41.55,
-        "longitude": 18.97,
+        "latitude": 43.35,
+        "longitude": 19.99,
         "url": "id3849711"
+      },
+      {
+        "city": "Example city",
+        "street": "",
+        "postalCode": "",
+        "countryCode": "POL",
+        "country": "Poland",
+        "province": null,
+        "latitude": 43.44,
+        "longitude": 20.45,
+        "url": "id82956092"
       }
     ],
-    "salaryFrom": 2124,
-    "salaryTo": 2226,
+    "salaryFrom": 38124,
+    "salaryTo": 92226,
     "salaryCurrency": "PLN",
     "salaryType": "b2b",
     "salaryDisclosed": "VISIBLE",
     "salary": {
-      "from": 3624,
-      "to": 8699,
+      "from": 84624,
+      "to": 80699,
       "type": "b2b",
       "currency": "PLN",
       "period": "Example period",
@@ -54,13 +66,13 @@
     "onlineInterviewAvailable": false,
     "highlighted": false,
     "topInSearch": false,
-    "companySize": "88 - 58",
+    "companySize": "176 - 585",
     "companyVideo": "",
     "companyProfileUrl": "https://nofluffjobs.com/example/11419",
     "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
     "position": "",
     "dailyTasks": [
-      "Example daily tasks: mock text standing in for the real value. Same field and type, made-up content.",
+      "Example daily tasks",
       "Example daily tasks: mock text standing in for the real value. Same field and type, made-up content."
     ],
     "requirementsMust": [
@@ -73,7 +85,16 @@
         "type": "main"
       }
     ],
-    "requirementsNice": [],
+    "requirementsNice": [
+      {
+        "name": "Example name",
+        "type": "main"
+      },
+      {
+        "name": "Example name",
+        "type": "main"
+      }
+    ],
     "requirementLanguages": [
       "en"
     ],

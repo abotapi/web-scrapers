@@ -64,7 +64,7 @@ Full details on the [scraper page](https://apify.com/abotapi/we-work-remotely-jo
 | `applyUrlDomain` | string |
 | `companyWebsiteUrl` | string |
 | `companyWebsiteDomain` | string |
-| `companyLogoUrl` | null |
+| `companyLogoUrl` | string |
 | `headquarters` | string |
 | `locationText` | string |
 | `region` | string |
@@ -83,7 +83,7 @@ Full details on the [scraper page](https://apify.com/abotapi/we-work-remotely-jo
 | `skillsCount` | integer |
 | `technologies` | list |
 | `tags` | list |
-| `seniorityLevel` | string |
+| `seniorityLevel` | null |
 | `postedAt` | string |
 | `postedAtText` | string |
 | `postedAgeDays` | integer |

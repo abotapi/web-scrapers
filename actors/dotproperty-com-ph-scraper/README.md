@@ -62,14 +62,11 @@ Full details on the [scraper page](https://apify.com/abotapi/dotproperty-com-ph-
 | `longitude` | float |
 | `agent_phone` | string |
 | `title` | string |
-| `land_area_sqm` | integer |
-| `facilities` | list |
 | `images` | list |
 | `image_count` | integer |
 | `og_image` | string |
 | `description` | string |
 | `listing_id_text` | string |
-| `agent_listing_count` | integer |
 | `agent_url` | string |
 | `breadcrumbs` | list |
 | `currency` | string |

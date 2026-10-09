@@ -99,7 +99,7 @@ Full details on the [scraper page](https://apify.com/abotapi/easyauto123-cars-sc
 | `detailFetched` | boolean |
 | `productCategory` | string |
 | `availableSince` | string |
-| `ancapRating` | string |
+| `co2Emission` | string |
 
 ---
 

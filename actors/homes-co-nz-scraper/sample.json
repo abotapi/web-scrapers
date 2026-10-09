@@ -56,7 +56,7 @@
       {
         "url": "https://s3-ap-southeast-2.amazonaws.com/example/28032.jpg",
         "classifications": [
-          "living_room"
+          "outdoor_building"
         ],
         "quality": "",
         "caption": "",
@@ -68,8 +68,13 @@
     "openHomes": [
       {
         "date": "2026-01-15",
-        "start_time": "96:69",
-        "end_time": "85:42"
+        "start_time": "95:27",
+        "end_time": "11:26"
+      },
+      {
+        "date": "2026-01-15",
+        "start_time": "52:09",
+        "end_time": "13:65"
       }
     ]
   }

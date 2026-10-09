@@ -1,27 +1,27 @@
 [
   {
-    "id": "657117357",
+    "id": "751001535",
     "idInt": 243088811,
     "url": "https://www.finn.no/example/46582",
     "title": "Example title",
-    "subtitle": "Example subtitle",
+    "subtitle": "Example subtitle: mock text standing in for the real value. Same field and type, made-up content.",
     "employer": "Example employer",
-    "employerUrl": "https://www.capgemini.com/example/27778",
+    "employerUrl": null,
     "employerHomepage": null,
     "employerLogo": "https://images.finncdn.no/example/50712.jpg",
     "streetAddress": "Example street address",
-    "postalCode": "3245",
-    "city": "Trondheim",
+    "postalCode": "1495",
+    "city": "Asker",
     "addressCountry": "Example address country",
     "locationDisplay": "Example location display",
     "locationLink": "https://www.finn.no/example/48975",
-    "latitude": 68.51,
-    "longitude": 11.72,
+    "latitude": 64.61,
+    "longitude": 11.68,
     "datePosted": "2026-01-15",
     "datePostedEpochMs": 6246549367984,
     "relativePosted": "Example relative posted",
-    "applicationDeadline": null,
-    "applicationDeadlineEpochMs": null,
+    "applicationDeadline": "2026-01-15",
+    "applicationDeadlineEpochMs": 9294779171131,
     "applicationDeadlineRaw": null,
     "lastModified": "2026-01-15T10:00:00Z",
     "lastModifiedEpochMs": 4320715755815,
@@ -32,7 +32,8 @@
     "employmentTypeRequested": "fulltime",
     "sector": null,
     "industries": [
-      "IT"
+      "IT",
+      "Example industries"
     ],
     "jobFunction": "Example job function",
     "internalJobTitle": null,
@@ -40,7 +41,7 @@
     "contactPersons": [],
     "keywords": [
       "Example keywords",
-      "Example keywords"
+      "systemdesign"
     ],
     "applyUrl": null,
     "descriptionHtml": "Example description html: mock text standing in for the real value. Same field and type, made-up content.",

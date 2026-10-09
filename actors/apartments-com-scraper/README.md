@@ -47,10 +47,46 @@ Full details on the [scraper page](https://apify.com/abotapi/apartments-com-scra
 
 | Field | Type |
 | --- | --- |
-| `error` | boolean |
-| `code` | string |
-| `message` | string |
-| `scrapedAt` | string |
+| `id` | string |
+| `url` | string |
+| `name` | string |
+| `address` | string |
+| `street` | string |
+| `city` | string |
+| `state` | string |
+| `zip` | string |
+| `rentMin` | integer |
+| `rentMax` | integer |
+| `bedsLabel` | string |
+| `phone` | string |
+| `amenitiesSummary` | string |
+| `photo` | string |
+| `description` | string |
+| `latitude` | float |
+| `longitude` | float |
+| `currency` | string |
+| `bedsRange` | string |
+| `bathsRange` | string |
+| `sqftRange` | string |
+| `yearBuilt` | integer |
+| `unitsInBuilding` | integer |
+| `stories` | integer |
+| `leaseOptions` | null |
+| `neighborhood` | string |
+| `managementCompany` | string |
+| `rentSpecial` | string |
+| `verified` | boolean |
+| `petsAllowed` | boolean |
+| `rating` | float |
+| `reviewCount` | integer |
+| `amenities` | list |
+| `floorplans` | list |
+| `units` | list |
+| `fees` | list |
+| `parking` | list |
+| `transit` | list |
+| `schools` | list |
+| `walkScore` | object |
 
 ---
 

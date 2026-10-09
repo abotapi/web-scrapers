@@ -96,7 +96,7 @@ Full details on the [scraper page](https://apify.com/abotapi/bol-com-scraper?utm
 | `isbn13` | null |
 | `image` | null |
 | `images` | null |
-| `rating` | integer |
+| `rating` | float |
 
 ---
 

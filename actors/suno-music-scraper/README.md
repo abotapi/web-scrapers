@@ -68,8 +68,8 @@ Full details on the [scraper page](https://apify.com/abotapi/suno-music-scraper?
 | `displayTags` | list |
 | `lyrics` | string |
 | `modelName` | string |
-| `modelVersion` | null |
-| `isInstrumental` | null |
+| `modelVersion` | string |
+| `isInstrumental` | boolean |
 | `isRemix` | boolean |
 | `canRemix` | boolean |
 | `hasStems` | boolean |

@@ -62,10 +62,10 @@ Full details on the [scraper page](https://apify.com/abotapi/jobstreet-scraper?u
 | `contentSections` | list |
 | `bulletPoints` | list |
 | `companyName` | string |
-| `companyId` | null |
-| `companyUrl` | null |
-| `companyNameSlug` | null |
-| `companyOverview` | null |
+| `companyId` | string |
+| `companyUrl` | string |
+| `companyNameSlug` | string |
+| `companyOverview` | string |
 | `advertiserId` | string |
 | `advertiserName` | string |
 | `locationLabel` | string |
@@ -76,8 +76,8 @@ Full details on the [scraper page](https://apify.com/abotapi/jobstreet-scraper?u
 | `workTypes` | list |
 | `workArrangements` | list |
 | `workArrangementLabels` | list |
-| `salaryLabel` | string |
-| `salary` | string |
+| `salaryLabel` | null |
+| `salary` | null |
 | `salaryCurrency` | null |
 | `phoneNumber` | null |
 | `phoneNumbers` | list |

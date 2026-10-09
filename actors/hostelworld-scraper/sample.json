@@ -1,0 +1,64 @@
+[
+  {
+    "type": "property",
+    "propertyId": 925,
+    "propertyName": "Example property name",
+    "propertyUrl": "https://www.hostelworld.com/example/21082",
+    "propertyType": "HOSTEL",
+    "address": null,
+    "city": "Berlin",
+    "country": "Germany",
+    "continent": null,
+    "avgRating": 6.72,
+    "numberReviews": "7272",
+    "cityCenterDistanceKm": null,
+    "latitude": "55.1475423",
+    "longitude": "87.7096767",
+    "hasAvailability": null,
+    "isNew": null,
+    "intro": null,
+    "sharedMinPrice": null,
+    "privateMinPrice": null,
+    "currency": "EUR",
+    "sustainability": null,
+    "badges": [],
+    "imageUrls": [
+      "https://a.hwstatic.com/example/24385.jpg",
+      "https://a.hwstatic.com/example/62492.jpg"
+    ],
+    "totalImagesCount": 16,
+    "sourceMode": "propertyId",
+    "sourceQuery": null,
+    "sourceUrl": null,
+    "scrapedAt": "2026-01-15T10:00:00Z",
+    "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
+    "hostelworldSays": null,
+    "addressFull": "Example address full",
+    "directions": "Example directions: mock text standing in for the real value. Same field and type, made-up content.",
+    "checkInFrom": 0,
+    "checkInUntil": 25,
+    "latestCheckOut": "70:61",
+    "depositPercentage": 42,
+    "freeCancellation": {
+      "isAvailable": true,
+      "daysInAdvance": 75
+    },
+    "cancellationPolicy": {
+      "depositOnly": {
+        "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
+        "numberOfDays": "97"
+      },
+      "nonRefundable": {
+        "description": "Example description: mock text standing in for the real value. Same field and type, made-up content."
+      },
+      "freeCancellation": {
+        "description": "Example description: mock text standing in for the real value. Same field and type, made-up content."
+      }
+    },
+    "cancellationPoliciesRaw": null,
+    "paymentMethods": [
+      "Example payment methods",
+      "JCB"
+    ]
+  }
+]

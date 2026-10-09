@@ -64,7 +64,7 @@ Full details on the [scraper page](https://apify.com/abotapi/zozotown-scraper?ut
 | `goodsDetailId` | integer |
 | `name` | string |
 | `url` | string |
-| `category` | null |
+| `category` | string |
 | `brandId` | integer |
 | `brand` | string |
 | `brandNameJp` | string |
@@ -73,8 +73,8 @@ Full details on the [scraper page](https://apify.com/abotapi/zozotown-scraper?ut
 | `shopNameJp` | null |
 | `shopSlug` | string |
 | `price` | integer |
-| `originalPrice` | integer |
-| `discountPercent` | integer |
+| `originalPrice` | null |
+| `discountPercent` | null |
 | `currency` | string |
 | `isOnSale` | boolean |
 | `isTimeSale` | boolean |

@@ -18,7 +18,8 @@ run = client.actor("abotapi/bbb-org-scraper").call(
         "country": "USA",
         "sort": "Relevance",
         "maxItems": 10,
-        "proxy": {"useApifyProxy": True},
+        "proxy": {"useApifyProxy": True, "apifyProxyGroups": ["RESIDENTIAL"]},
+        "maxReviewsPerBusiness": 10,
     },
     logger=None,  # don't stream the run log to your console
 )

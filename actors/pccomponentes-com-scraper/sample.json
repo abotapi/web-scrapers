@@ -1,31 +1,31 @@
 [
   {
-    "productId": "41925464",
-    "sku": "alu-bar-r75418-627-793-99810-wh",
+    "productId": "76728086",
+    "sku": "alurz3323178930wh",
     "name": "Example name: mock text standing in for the real value. Same field and type, made-up content.",
     "brand": "Alurin",
     "category": "Example category",
     "url": "https://www.pccomponentes.com/example/58970",
-    "price": 529,
+    "price": 387.09,
     "currency": "EUR",
     "originalPrice": null,
     "discountAmount": null,
     "discountPercent": null,
     "isOnSpecial": false,
     "image": "https://thumb.pccomponentes.com/example/34671.jpg",
-    "rating": 3.41,
+    "rating": 3.47,
     "reviewCount": 181,
     "onlineAvailable": true,
     "freeShipping": true,
     "reviews": {
-      "averageRating": 4.56,
+      "averageRating": 4.64,
       "ratingCount": 667,
-      "totalReviewCount": 655,
+      "totalReviewCount": 25,
       "items": [
         {
           "rating": 8,
           "body": "Example body: mock text standing in for the real value. Same field and type, made-up content.",
-          "author": "Example author",
+          "author": "bea0762",
           "date": "2026-01-15T10:00:00Z"
         }
       ]

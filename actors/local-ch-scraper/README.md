@@ -84,7 +84,7 @@ Full details on the [scraper page](https://apify.com/abotapi/local-ch-scraper?ut
 | `website` | string |
 | `whatsapp` | null |
 | `facebook` | string |
-| `instagram` | null |
+| `instagram` | string |
 | `linkedin` | null |
 | `twitter` | null |
 | `tiktok` | null |

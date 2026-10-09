@@ -17,8 +17,8 @@
     "category": "Deals",
     "categoryPath": "deals",
     "availableStates": [
-      "TAS",
-      "QLD"
+      "NSW",
+      "VIC"
     ],
     "isAvailableInStore": true,
     "availableOnline": true,
@@ -29,8 +29,8 @@
     "wasPrice": null,
     "savingsAmount": null,
     "savingsPercent": null,
-    "rating": 0,
-    "reviewCount": 0,
+    "rating": 1,
+    "reviewCount": 9,
     "imageUrl": "https://s3-ap-southeast-2.amazonaws.com/example/71801.jpg",
     "images": [
       "https://s3-ap-southeast-2.amazonaws.com/example/44686.jpg",

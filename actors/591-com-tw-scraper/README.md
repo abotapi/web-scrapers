@@ -60,7 +60,7 @@ Full details on the [scraper page](https://apify.com/abotapi/591-com-tw-scraper?
 | `unitPrice` | null |
 | `kind` | integer |
 | `kindName` | string |
-| `room` | null |
+| `room` | string |
 | `layout` | string |
 | `area` | integer |
 | `areaText` | string |

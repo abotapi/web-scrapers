@@ -1,6 +1,6 @@
 [
   {
-    "jobId": "945971015",
+    "jobId": "179522572",
     "jobUrl": "https://www.irishjobs.ie/example/43121",
     "title": "Example title",
     "description": null,
@@ -35,7 +35,7 @@
     "scrapedAt": "2026-01-15T10:00:00Z"
   },
   {
-    "jobId": "493622502",
+    "jobId": "897671702",
     "jobUrl": "https://www.irishjobs.ie/example/73118",
     "title": "Example title",
     "description": null,
@@ -51,10 +51,10 @@
     "locationLat": null,
     "locationLng": null,
     "salaryRaw": "Example salary raw",
-    "salaryMin": null,
-    "salaryMax": null,
+    "salaryMin": 30,
+    "salaryMax": 35,
     "salaryCurrency": "EUR",
-    "salaryPeriod": null,
+    "salaryPeriod": "hour",
     "employmentType": null,
     "skills": [],
     "datePosted": "2026-01-15T10:00:00Z",

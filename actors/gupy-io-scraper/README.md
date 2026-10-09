@@ -66,8 +66,8 @@ Full details on the [scraper page](https://apify.com/abotapi/gupy-io-scraper?utm
 | `city` | string |
 | `state` | null |
 | `stateCode` | null |
-| `country` | string |
-| `countryCode` | string |
+| `country` | null |
+| `countryCode` | null |
 | `jobType` | string |
 | `workplaceType` | string |
 | `isRemoteWork` | boolean |
@@ -89,7 +89,7 @@ Full details on the [scraper page](https://apify.com/abotapi/gupy-io-scraper?utm
 | `jobSteps` | null |
 | `jobRatingCriterias` | null |
 | `companyId` | integer |
-| `companySubdomain` | string |
+| `companySubdomain` | null |
 | `companyTimezone` | string |
 
 ---

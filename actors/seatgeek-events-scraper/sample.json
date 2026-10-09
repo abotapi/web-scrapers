@@ -40,15 +40,15 @@
     "taxonomies": [
       "concert"
     ],
-    "lowestPrice": 841,
-    "highestPrice": 681,
-    "averagePrice": 872,
-    "medianPrice": 451,
+    "lowestPrice": null,
+    "highestPrice": null,
+    "averagePrice": null,
+    "medianPrice": 0,
     "goodDealLowestPrice": null,
-    "listingCount": 5,
-    "ticketCount": 2,
-    "popularity": 0.48,
-    "score": 0.38,
+    "listingCount": 0,
+    "ticketCount": 0,
+    "popularity": 0.5,
+    "score": 0.37,
     "raw": {
       "access_method": null,
       "announce_date": "2026-01-15T10:00:00Z",
@@ -175,10 +175,10 @@
         }
       ],
       "playoffs": null,
-      "popularity": 0.48,
+      "popularity": 0.5,
       "relative_url": "Example relative_url: mock text standing in for the real value. Same field and type, made-up content.",
       "schedule_status": "Example schedule_status",
-      "score": 0.38,
+      "score": 0.37,
       "season_stage": null,
       "short_title": "Example short_title"
     }

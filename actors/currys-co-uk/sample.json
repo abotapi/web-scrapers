@@ -1,0 +1,59 @@
+[
+  {
+    "id": "23140797",
+    "sku": "255793",
+    "url": "https://www.currys.co.uk/example/51610",
+    "title": "Example title",
+    "brand": "LOGIK",
+    "price": 255.99,
+    "wasPrice": null,
+    "discount": null,
+    "discountPercent": null,
+    "currency": "GBP",
+    "availabilityStatus": "InStock",
+    "categories": [
+      "Example categories",
+      "Televisions"
+    ],
+    "ean": "4017826968516",
+    "rating": 5.61,
+    "reviewCount": 46,
+    "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
+    "images": [
+      "https://media.currys.biz/example/93410.jpg",
+      "https://media.currys.biz/example/34238.jpg"
+    ],
+    "priceValidUntil": "2026-01-15",
+    "carePlans": [
+      {
+        "id": "87757",
+        "name": "Example name",
+        "price": 5,
+        "currency": "GBP"
+      },
+      {
+        "id": "13450",
+        "name": "Example name",
+        "price": 85,
+        "currency": "GBP"
+      }
+    ],
+    "financeOptions": [
+      {
+        "frequency": "monthly",
+        "amount": 6.48,
+        "apr": 30.8,
+        "installments": 75,
+        "currency": "GBP"
+      },
+      {
+        "frequency": "Example frequency",
+        "amount": 255.99,
+        "apr": 0,
+        "installments": 1,
+        "currency": "GBP"
+      }
+    ],
+    "scrapedAt": "2026-01-15T10:00:00Z"
+  }
+]

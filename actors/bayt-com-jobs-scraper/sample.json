@@ -1,6 +1,6 @@
 [
   {
-    "jobId": "7905007",
+    "jobId": "0102368",
     "url": "https://www.bayt.com/example/85502",
     "title": "Example title",
     "company": null,
@@ -9,8 +9,8 @@
     "country": null,
     "countrySlug": "uae",
     "logo": "https://secure.b8cdn.com/example/42604.jpg",
-    "salary": "Example salary",
-    "careerLevel": "Example career level",
+    "salary": null,
+    "careerLevel": "Management",
     "experience": null,
     "workStyle": null,
     "postedDate": "Example posted date",
@@ -29,17 +29,15 @@
     "companyIndustry": null,
     "jobCountryCode": "AE",
     "directApply": true,
-    "residenceLocation": "Example residence location",
-    "nationality": null,
+    "residenceLocation": null,
+    "nationality": "Example nationality",
     "gender": null,
     "age": null,
-    "degree": "Example degree",
+    "degree": null,
     "major": null,
     "preferredCandidate": {
-      "yearsOfExperience": "Example years of experience",
-      "residenceLocation": "Example residence location",
-      "degree": "Example degree",
-      "careerLevel": "Example career level"
+      "nationality": "Example nationality",
+      "careerLevel": "Management"
     },
     "scrapedAt": "2026-01-15T10:00:00Z"
   }

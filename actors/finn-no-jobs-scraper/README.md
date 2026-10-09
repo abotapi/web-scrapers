@@ -57,7 +57,7 @@ Full details on the [scraper page](https://apify.com/abotapi/finn-no-jobs-scrape
 | `title` | string |
 | `subtitle` | string |
 | `employer` | string |
-| `employerUrl` | string |
+| `employerUrl` | null |
 | `employerHomepage` | null |
 | `employerLogo` | string |
 | `streetAddress` | string |
@@ -71,8 +71,8 @@ Full details on the [scraper page](https://apify.com/abotapi/finn-no-jobs-scrape
 | `datePosted` | string |
 | `datePostedEpochMs` | integer |
 | `relativePosted` | string |
-| `applicationDeadline` | null |
-| `applicationDeadlineEpochMs` | null |
+| `applicationDeadline` | string |
+| `applicationDeadlineEpochMs` | integer |
 | `applicationDeadlineRaw` | null |
 | `lastModified` | string |
 | `lastModifiedEpochMs` | integer |

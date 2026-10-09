@@ -21,7 +21,7 @@ run = client.actor("abotapi/depop-scraper").call(
         "country": "us",
         "maxPages": 1,
         "maxListings": 10,
-        "proxy": {"useApifyProxy": True, "apifyProxyGroups": ["RESIDENTIAL"]},
+        "proxy": {"useApifyProxy": True},
     },
     logger=None,  # don't stream the run log to your console
 )

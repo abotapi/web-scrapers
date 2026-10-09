@@ -37,7 +37,7 @@
     "freeDelivery": true,
     "deliveryFeeType": "FREE",
     "deliveryBaseFee": 0,
-    "arrivalGuarantee": false,
+    "arrivalGuarantee": true,
     "todayDelivery": false,
     "brandSlug": "marschoco",
     "rank": 1,
@@ -141,7 +141,7 @@
       "productDeliveryInfo": {
         "deliveryFeeType": "FREE",
         "baseFee": 0,
-        "deliveryAttributeType": "NORMAL",
+        "deliveryAttributeType": "SELLER_GUARANTEE",
         "deliveryBundleGroup": {
           "id": 277752
         },
@@ -162,9 +162,12 @@
       "freeDelivery": true,
       "todayDelivery": false,
       "regularSubscription": false,
-      "arrivalGuarantee": false,
+      "arrivalGuarantee": true,
       "subscriptionBenefitContent": [],
-      "rmids": [],
+      "rmids": [
+        "Example rmids",
+        "Example rmids"
+      ],
       "rentalOneTimeFee": false
     }
   }

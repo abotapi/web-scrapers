@@ -10,6 +10,7 @@
     ],
     "bbbRating": "Example bbb rating",
     "ratingReasons": null,
+    "ratingNotRatedReason": null,
     "isAccredited": true,
     "accreditedDate": "2026-01-15",
     "bbbFileOpenedDate": "2026-01-15",
@@ -17,10 +18,7 @@
     "additionalPhones": null,
     "faxNumbers": null,
     "email": "user13@example.com",
-    "additionalEmails": [
-      "user13@example.com",
-      "user91@example.com"
-    ],
+    "additionalEmails": null,
     "website": "https://www.tingosplumbing.com/example/45970",
     "ownerName": "Example owner name",
     "ownerTitle": "Example owner title",
@@ -55,12 +53,11 @@
       },
       {
         "licenseNumber": "6109763",
-        "expirationDate": null,
+        "expirationDate": "2026-01-15",
         "notes": null,
         "agencyName": "Example agency name",
         "agencyPhone": "+1 555 0100"
       }
-    ],
-    "primaryCategory": "Example primary category"
+    ]
   }
 ]

@@ -53,18 +53,9 @@ Full details on the [scraper page](https://apify.com/abotapi/gumtree-au-scraper?
 | `url` | string |
 | `title` | string |
 | `description` | string |
-| `detailFetched` | boolean |
-| `detailStatus` | null |
-| `fullDescription` | null |
-| `latitude` | null |
-| `longitude` | null |
-| `postcode` | null |
-| `suburb` | null |
-| `state` | null |
-| `mapAddress` | null |
 | `price` | null |
 | `priceText` | null |
-| `priceType` | string |
+| `priceType` | null |
 | `currency` | string |
 | `minimumOfferPrice` | null |
 | `previousPriceString` | null |
@@ -83,12 +74,21 @@ Full details on the [scraper page](https://apify.com/abotapi/gumtree-au-scraper?
 | `isPostedByCarDealer` | boolean |
 | `isAuctionAd` | boolean |
 | `adType` | string |
-| `categoryId` | null |
+| `categoryId` | string |
 | `categoryName` | null |
 | `vertical` | string |
 | `location` | string |
 | `locationArea` | string |
 | `locationState` | string |
+| `age` | null |
+| `sellerName` | string |
+| `images` | list |
+| `imageCount` | integer |
+| `hasVideo` | boolean |
+| `videos` | list |
+| `attributes` | object |
+| `carVin` | null |
+| `carRecordReportUrl` | null |
 
 ---
 

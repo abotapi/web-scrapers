@@ -10,7 +10,7 @@
     "proCategory": null,
     "proTypeDisplayName": "Example pro type display name",
     "proSkuId": 49,
-    "isInactivePro": null,
+    "isInactivePro": false,
     "country": "US",
     "state": "TX",
     "city": "Grapevine",

@@ -68,6 +68,8 @@ Full details on the [scraper page](https://apify.com/abotapi/pikabu-scraper?utm_
 | `images` | list |
 | `videos` | list |
 | `media` | object |
+| `detailFetched` | boolean |
+| `channel` | object |
 
 ---
 

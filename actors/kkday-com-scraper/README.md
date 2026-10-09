@@ -52,7 +52,7 @@ Full details on the [scraper page](https://apify.com/abotapi/kkday-com-scraper?u
 | `officialPrice` | float |
 | `currency` | string |
 | `discountPercent` | null |
-| `ratingStar` | integer |
+| `ratingStar` | float |
 | `ratingCount` | integer |
 | `bookedCount` | string |
 | `destinations` | list |

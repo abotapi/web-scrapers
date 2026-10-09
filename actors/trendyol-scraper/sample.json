@@ -13,20 +13,20 @@
       "name": "Example name"
     },
     "price": {
-      "current": 86524,
-      "original": 74223,
+      "current": 101037.09,
+      "original": 99962.23,
       "recommendedRetail": null,
-      "discountPercent": 1.52,
+      "discountPercent": 0,
       "currency": "TRY"
     },
     "rating": {
-      "score": 4.04,
-      "totalRatings": 2575,
+      "score": 3.89,
+      "totalRatings": 775,
       "totalComments": 702,
       "breakdown": null
     },
     "seller": {
-      "id": 419825,
+      "id": 425,
       "name": "Example name"
     },
     "image": "https://cdn.dsmcdn.com/example/21479.jpg",
@@ -36,13 +36,13 @@
     ],
     "stock": null,
     "inStock": true,
-    "boutiqueId": 25,
-    "campaignId": 85,
+    "boutiqueId": 736495,
+    "campaignId": 421555,
     "listingId": "id41061362",
     "itemNumber": 5685868933,
     "variantValue": "Example variant value",
     "variantId": "Example variant id",
-    "freeCargo": true,
+    "freeCargo": false,
     "fastDelivery": true,
     "officialSeller": true,
     "sameDayShipping": false,
@@ -56,22 +56,11 @@
     "stripBadge": null,
     "promotions": [],
     "stamps": {},
-    "badges": [
-      {
-        "type": "FREE_CARGO",
-        "title": "Example title",
-        "icon": "https://cdn.dsmcdn.com/example/20256.jpg",
-        "color": "Example color"
-      }
-    ],
+    "badges": [],
     "socialProof": [
       {
         "key": "Example key",
         "value": "Example value"
-      },
-      {
-        "key": "Example key",
-        "value": "610+"
       }
     ],
     "reviews": null,

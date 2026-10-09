@@ -54,12 +54,12 @@
     "growth": {
       "weekly": {
         "views": 240353843,
-        "viewsDelta": 8707180,
+        "viewsDelta": 881707180,
         "subscribers": 2715371,
         "subscribersDelta": 0,
         "estimatedRevenueLowUsd": 352539,
         "estimatedRevenueHighUsd": 4591385,
-        "estimatedRevenueDelta": -389811
+        "estimatedRevenueDelta": 389811
       },
       "monthly": {
         "views": 3840353843,
@@ -111,7 +111,7 @@
       },
       "monthly": {
         "videos": 4,
-        "shorts": 0,
+        "shorts": 2,
         "longs": 6,
         "views": 3840353843,
         "longViews": 183249355,
@@ -143,21 +143,21 @@
       }
     },
     "featuredVideo": {
-      "id": "cejxqm3eij9",
+      "id": "pln5jmbadrg",
       "channelId": "ucx2oq0dkcsbyne1h4uqquva",
       "channelName": "Example channel name",
       "channelAvatarUrl": "https://yt3.ggpht.com/example/5755.jpg",
       "channelHandle": "Example channel handle",
       "title": "Example title",
-      "description": "",
-      "viewCount": 36752661,
-      "likeCount": 163328,
-      "commentCount": 21096,
+      "description": "user22@example.com",
+      "viewCount": 756752661,
+      "likeCount": 7363328,
+      "commentCount": 111096,
       "uploadDate": "2026-01-15T10:00:00Z",
-      "duration": 87,
+      "duration": 8727,
       "shorts": false,
-      "viewsPerHour": 794094,
-      "outlierScore": 0.56
+      "viewsPerHour": 5294094,
+      "outlierScore": 3.09
     },
     "scrapedAt": "2026-01-15T10:00:00Z"
   }

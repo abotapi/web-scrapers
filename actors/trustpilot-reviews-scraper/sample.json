@@ -23,8 +23,8 @@
       "fiveStar": 69066
     },
     "ratingDistributionPercent": {
-      "oneStar": 1.76,
-      "twoStar": 0.73,
+      "oneStar": 1.77,
+      "twoStar": 0.74,
       "threeStar": 1.28,
       "fourStar": 4.06,
       "fiveStar": 89.11
@@ -56,8 +56,8 @@
     "verifiedByGoogle": false,
     "verifiedPaymentMethod": true,
     "verifiedUserIdentity": false,
-    "replyPercentage": 80.64,
-    "averageDaysToReply": 0.83,
+    "replyPercentage": 80.46,
+    "averageDaysToReply": 0.84,
     "negativeReviewsWithRepliesCount": 336,
     "totalNegativeReviewsCount": 531,
     "lastReplyToNegativeReview": "Example last reply to negative review",

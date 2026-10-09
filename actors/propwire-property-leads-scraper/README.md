@@ -17,7 +17,7 @@ python example.py
 ```bash
 curl -s -X POST "https://api.apify.com/v2/acts/abotapi~propwire-property-leads-scraper/run-sync-get-dataset-items?token=$APIFY_TOKEN" \
   -H 'Content-Type: application/json' \
-  -d '{"addressMatchMode": "first", "startUrls": ["https://propwire.com/realestate/4055-Britt-Rd/51608674/property-details"], "searchStates": ["FL"], "maxItems": 10, "maxPages": 1, "proxyConfiguration": {"useApifyProxy": true, "apifyProxyGroups": ["RESIDENTIAL"], "apifyProxyCountry": "US"}}'
+  -d '{"addressMatchMode": "first", "startUrls": ["https://propwire.com/realestate/4055-Britt-Rd-Mount-Dora-FL/51608674/property-details", "https://propwire.com/search?filters=%7B%22locations%22%3A%20%5B%7B%22state%22%3A%20%22FL%22%7D%5D%7D"], "searchStates": ["FL"], "maxItems": 10, "maxPages": 1, "proxyConfiguration": {"useApifyProxy": true, "apifyProxyGroups": ["RESIDENTIAL"], "apifyProxyCountry": "US"}}'
 ```
 
 ## Inputs
@@ -55,44 +55,44 @@ Full details on the [scraper page](https://apify.com/abotapi/propwire-property-l
 | --- | --- |
 | `recordType` | string |
 | `id` | integer |
-| `address` | string |
-| `city` | string |
-| `state` | string |
-| `zip` | string |
-| `county` | string |
-| `propertyType` | string |
-| `bedrooms` | null |
-| `bathrooms` | null |
-| `buildingAreaSf` | integer |
-| `livingAreaSf` | null |
-| `lotSizeSf` | integer |
-| `yearBuilt` | integer |
-| `stories` | null |
-| `units` | null |
-| `estimatedValue` | integer |
-| `estimatedEquity` | integer |
-| `estimatedEquityPercentage` | integer |
-| `lastSoldDate` | string |
-| `lastSoldPrice` | integer |
-| `daysOnMarket` | null |
-| `mlsListPrice` | null |
-| `mlsListDate` | null |
-| `mlsStatus` | null |
-| `imageUrl` | null |
-| `imageUrls` | null |
-| `photoCount` | null |
-| `leadTypes` | list |
-| `ownerNames` | list |
-| `ownerTypes` | list |
-| `ownerOccupied` | boolean |
-| `ownershipYears` | null |
-| `ownerMailingAddress` | string |
-| `portfolioPropertiesOwned` | integer |
-| `portfolioValue` | integer |
-| `foreclosureActive` | boolean |
-| `auctionDate` | null |
-| `apn` | string |
-| `zoning` | null |
+| `active` | boolean |
+| `borrower_name` | string |
+| `case_number` | string |
+| `default_amount` | integer |
+| `foreclosure_id` | integer |
+| `foreclosure_type` | string |
+| `lender_name` | string |
+| `judgment_amount` | integer |
+| `notice_type` | string |
+| `notice_type_code` | string |
+| `opening_bid` | integer |
+| `original_loan_amount` | integer |
+| `recording_date` | string |
+| `trustee_address` | string |
+| `trustee_name` | string |
+| `trustee_phone` | string |
+| `assessment_year` | integer |
+| `assessed_total_value` | integer |
+| `assessed_improvement_value` | integer |
+| `assessed_land_value` | integer |
+| `assessed_improvement_percentage` | integer |
+| `previous_assessed_total_value` | integer |
+| `market_total_value` | integer |
+| `market_land_value` | integer |
+| `market_improvement_value` | integer |
+| `market_improvement_percentage` | integer |
+| `tax_billed_amount` | string |
+| `tax_year` | integer |
+| `apn_unformatted` | string |
+| `area_lot_depth` | integer |
+| `area_lot_width` | integer |
+| `census_block` | integer |
+| `census_block_group` | integer |
+| `census_tract` | integer |
+| `land_use` | string |
+| `legal_description` | string |
+| `lot_number` | string |
+| `lot_size_sf` | integer |
 
 ---
 

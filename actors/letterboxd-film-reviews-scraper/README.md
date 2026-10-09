@@ -31,6 +31,8 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~letterboxd-film-reviews-s
 | `maxItems` | integer | Max items |
 | `maxPages` | integer | Max pages per source |
 | `fetchReviews` | boolean | Fetch reader reviews |
+| `reviewsOnly` | boolean | Output reviews only |
+| `fetchDetails` | boolean | Fetch film detail pages (search mode) |
 | `maxReviewsPerFilm` | integer | Max reviews per film |
 | `proxy` | object | Proxy configuration |
 
@@ -44,18 +46,18 @@ Full details on the [scraper page](https://apify.com/abotapi/letterboxd-film-rev
 
 | Field | Type |
 | --- | --- |
+| `kind` | string |
+| `recordId` | string |
+| `filmSlug` | string |
+| `filmTitle` | string |
+| `releaseYear` | null |
 | `url` | string |
-| `slug` | string |
-| `title` | string |
-| `image` | string |
-| `description` | string |
-| `genre` | list |
-| `directors` | list |
-| `averageRating` | float |
-| `ratingsCount` | integer |
-| `datePublished` | null |
-| `releaseYear` | integer |
-| `tagline` | string |
+| `author` | string |
+| `rating` | float |
+| `reviewDate` | string |
+| `text` | string |
+| `likes` | null |
+| `containsSpoilers` | boolean |
 | `scrapedAt` | string |
 
 ---

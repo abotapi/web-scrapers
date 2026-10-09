@@ -54,7 +54,7 @@ Full details on the [scraper page](https://apify.com/abotapi/turo-scraper?utm_so
 | `model` | string |
 | `year` | integer |
 | `vehicleType` | string |
-| `rating` | null |
+| `rating` | integer |
 | `completedTrips` | integer |
 | `hostId` | integer |
 | `city` | string |

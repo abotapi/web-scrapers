@@ -7,7 +7,7 @@
       "id": "id60539830",
       "name": "Example name",
       "legal_name": "Example legal_name",
-      "legal_id": "550385614",
+      "legal_id": "685826783",
       "profile_url": "https://www.jobteaser.com/example/6908",
       "logo_url": "https://d1guu6n8gz71j.cloudfront.net/example/75717.jpg",
       "cover_image_url": null,
@@ -22,10 +22,10 @@
     "company_taxonomy": {
       "business_type_code": "large",
       "business_type_label": "Example business_type_label",
-      "main_sector_code": "agribusiness",
+      "main_sector_code": "Example main_sector_code",
       "sector_codes": [
-        "retail",
-        "consumer_goods"
+        "Example sector_codes",
+        "other_category"
       ],
       "industry_ids": [
         "id72177607",
@@ -36,36 +36,36 @@
     "primary_location": {
       "address": "Example address",
       "city": "Example city",
-      "region": "Example region",
+      "region": "Ile-de-France",
       "sub_region": "Hauts-de-Seine",
       "country": "France",
-      "place_id": "chiju7hgiix75kcr1biiksf8lqe",
-      "latitude": 43.45,
-      "longitude": 2.89,
+      "place_id": "Example place_id: mock text standing in for the real value. Same field and type, made-up content.",
+      "latitude": 43.46,
+      "longitude": 2.88,
       "label": "Example label"
     },
     "locations": [
       {
         "address": "Example address",
         "city": "Example city",
-        "region": "Example region",
+        "region": "Ile-de-France",
         "sub_region": "Hauts-de-Seine",
         "country": "France",
-        "place_id": "chiju7hgiix75kcr1biiksf8lqe",
-        "latitude": 43.45,
-        "longitude": 2.89
+        "place_id": "Example place_id: mock text standing in for the real value. Same field and type, made-up content.",
+        "latitude": 43.46,
+        "longitude": 2.88
       }
     ],
     "google_locations": [
       {
         "address": "Example address",
         "city": "Example city",
-        "region": "Example region",
+        "region": "Ile-de-France",
         "sub_region": "Hauts-de-Seine",
         "country": "France",
-        "place_id": "chiju7hgiix75kcr1biiksf8lqe",
-        "latitude": 43.45,
-        "longitude": 2.89
+        "place_id": "Example place_id: mock text standing in for the real value. Same field and type, made-up content.",
+        "latitude": 43.46,
+        "longitude": 2.88
       }
     ],
     "location_count": 5,
@@ -90,6 +90,7 @@
       "study_level": "Example study_level",
       "study_level_code": "Example study_level_code",
       "study_level_codes": [
+        "Example study_level_codes",
         "Example study_level_codes"
       ],
       "education_requirement": "Example education_requirement",
@@ -98,31 +99,31 @@
     "work_arrangement": {
       "job_location_type": "TELECOMMUTE",
       "remote_policy": "Example remote_policy",
-      "remote_policy_code": null,
-      "remote_policy_type": "not_specified"
+      "remote_policy_code": "Example remote_policy_code",
+      "remote_policy_type": "partially_remote"
     },
     "compensation": {
       "display_text": "Example display_text",
-      "salary_text": "78",
-      "salary_currency": "Example salary_currency",
+      "salary_text": null,
+      "salary_currency": null,
       "min": null,
-      "max": null,
-      "currency": null,
-      "frequency": null,
-      "status": "unspecified"
+      "max": 7346,
+      "currency": "EUR",
+      "frequency": "Example frequency",
+      "status": "has_wage"
     },
     "application": {
-      "direct_apply": false,
+      "direct_apply": true,
       "type": "Example type",
       "channel_code": "Example channel_code",
       "message_type": "Example message_type",
-      "internal_type": "Example internal_type",
-      "external_url": "https://www.ccep.jobs/example/88869",
-      "external_id": "627074",
+      "internal_type": "cv_only",
+      "external_url": null,
+      "external_id": null,
       "easy_apply": null
     },
     "application_flags": {
-      "is_internal": false,
+      "is_internal": true,
       "internal_apply_authorized": null,
       "flow_enabled": null,
       "ai_validation_allowed": null,
@@ -136,8 +137,8 @@
       "expected_archive_at": "2026-01-15T10:00:00Z",
       "application_deadline": "Example application_deadline",
       "valid_through": "2026-01-15T10:00:00Z",
-      "start_date": "Example start_date",
-      "start_period": "7",
+      "start_date": null,
+      "start_period": "id78429168",
       "immediate_start": true
     },
     "status": {
@@ -169,11 +170,33 @@
       "description_html": "Example description_html: mock text standing in for the real value. Same field and type, made-up content.",
       "description_rich_text": [
         {
-          "content": "Example content: mock text standing in for the real value. Same field and type, made-up content.",
-          "type": "text"
+          "tagName": "Example tag name",
+          "children": [
+            {
+              "content": "Example content",
+              "type": "text"
+            }
+          ],
+          "type": "tag"
         },
         {
           "tagName": "Example tag name",
+          "children": [
+            {
+              "tagName": "Example tag name",
+              "children": [
+                {
+                  "content": "Example content",
+                  "type": "text"
+                }
+              ],
+              "type": "tag"
+            },
+            {
+              "content": "Example content",
+              "type": "text"
+            }
+          ],
           "type": "tag"
         }
       ],
@@ -196,18 +219,12 @@
       }
     ],
     "platform_metadata": {
-      "creation_source": "webspidermount",
+      "creation_source": "Example creation_source",
       "school_id": "20571031-8261-2223-1868-921545213883",
-      "sequence_number": 97,
+      "sequence_number": 7,
       "paid_with": "credits",
-      "partner_school_ids": [
-        "id54923398",
-        "id57669097"
-      ],
-      "legacy_partner_school_ids": [
-        "id576551",
-        "id39013140"
-      ]
+      "partner_school_ids": [],
+      "legacy_partner_school_ids": []
     },
     "source_context": {
       "domain": "jobteaser.com",

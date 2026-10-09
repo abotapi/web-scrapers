@@ -17,7 +17,7 @@ python example.py
 ```bash
 curl -s -X POST "https://api.apify.com/v2/acts/abotapi~toogoodtogo-surprise-bag-scraper/run-sync-get-dataset-items?token=$APIFY_TOKEN" \
   -H 'Content-Type: application/json' \
-  -d '{"mode": "search", "locations": ["Berlin"], "itemInputs": ["123456789"], "maxItems": 10, "maxPages": 1, "proxyConfiguration": {"useApifyProxy": true}}'
+  -d '{"mode": "search", "locations": ["Berlin"], "itemInputs": ["123456789"], "maxReviews": 10, "maxItems": 10, "maxPages": 1, "proxyConfiguration": {"useApifyProxy": true}}'
 ```
 
 ## Inputs
@@ -41,6 +41,9 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~toogoodtogo-surprise-bag-
 | `loginPin` | string | Login PIN (two-phase login, optional) |
 | `allowAutoSignup` | boolean | Prepare access automatically |
 | `fetchDetails` | boolean | Detail enrichment |
+| `fetchReviews` | boolean | Include reviews |
+| `maxReviews` | integer | Max reviews per item |
+| `reviewsOnly` | boolean | Output reviews only |
 | `maxItems` | integer | Max items |
 | `maxPages` | integer | Max pages per location |
 | `proxyConfiguration` | object | Proxy configuration |
@@ -64,6 +67,8 @@ Full details on the [scraper page](https://apify.com/abotapi/toogoodtogo-surpris
 | `description` | string |
 | `itemType` | string |
 | `category` | string |
+| `categoryIconUrl` | string |
+| `subCategory` | string |
 | `price` | float |
 | `currency` | string |
 | `value` | integer |
@@ -80,21 +85,19 @@ Full details on the [scraper page](https://apify.com/abotapi/toogoodtogo-surpris
 | `favorite` | boolean |
 | `ratingAverage` | null |
 | `ratingCount` | null |
+| `ratingMonthCount` | null |
+| `ratingCollectionExperience` | null |
+| `ratingFoodQuality` | null |
+| `ratingContentsVariety` | null |
+| `ratingFoodQuantity` | null |
+| `positiveRatingReasons` | list |
 | `dietTags` | list |
 | `itemTags` | list |
 | `packagingOption` | string |
 | `canUserSupplyPackaging` | boolean |
+| `foodHandlingInstructions` | null |
+| `collectionInfo` | null |
 | `imageUrl` | string |
-| `inSalesWindow` | boolean |
-| `distanceKm` | float |
-| `storeId` | string |
-| `storeName` | string |
-| `branch` | string |
-| `cuisines` | list |
-| `street` | string |
-| `city` | string |
-| `postalCode` | string |
-| `country` | string |
 
 ---
 

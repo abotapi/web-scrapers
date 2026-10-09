@@ -1,6 +1,6 @@
 [
   {
-    "id": 659334246,
+    "id": 29334246,
     "title": "Example title",
     "address": "Example address",
     "short_address": "Example short_address",
@@ -18,23 +18,23 @@
     "tenure": "Example tenure",
     "developer": "Example developer",
     "is_developer_listing": false,
-    "is_verified_listing": true,
+    "is_verified_listing": false,
     "is_official_listing": true,
     "agent_name": "Example agent_name",
     "agent_id": 227607,
-    "agent_license": "r995227e",
+    "agent_license": "r375353e",
     "is_agent_verified": false,
     "agency_name": "Example agency_name",
     "account_type_code": "NORMAL",
     "district": "Example district",
-    "district_code": "D20",
+    "district_code": "D09",
     "region": "Example region",
     "nearby_mrt": "Example nearby_mrt",
     "badges": [
       "Example badges",
       "Condominium"
     ],
-    "posted_date": "2026-01-15T10:00:00Z",
+    "posted_date": "Example posted_date",
     "posted_unix": 1730349121,
     "recency": "Example recency",
     "images": [
@@ -43,9 +43,7 @@
     ],
     "image_count": 43,
     "url": "https://www.propertyguru.com.sg/example/80054",
-    "status": "ACT",
-    "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
-    "headline": "Example headline: mock text standing in for the real value. Same field and type, made-up content."
+    "status": "ACT"
   },
   {
     "id": 767887816,
@@ -59,10 +57,10 @@
     "price_formatted": "Example price_formatted",
     "currency": "SGD",
     "price_psf": "Example price_psf",
-    "price_label": "Example price_label",
+    "price_label": null,
     "bedrooms": 7,
     "bathrooms": 7,
-    "floor_area": 4753,
+    "floor_area": 253,
     "tenure": "Example tenure",
     "developer": "Example developer",
     "is_developer_listing": false,
@@ -70,19 +68,19 @@
     "is_official_listing": true,
     "agent_name": "Example agent_name",
     "agent_id": 887563,
-    "agent_license": "r472149h",
+    "agent_license": "r492998f",
     "is_agent_verified": false,
     "agency_name": "Example agency_name",
     "account_type_code": "NORMAL",
     "district": "Example district",
-    "district_code": "D19",
+    "district_code": "D09",
     "region": "Example region",
     "nearby_mrt": "Example nearby_mrt",
     "badges": [
       "Example badges",
       "Condominium"
     ],
-    "posted_date": "2026-01-15T10:00:00Z",
+    "posted_date": "Example posted_date",
     "posted_unix": 1291983697,
     "recency": "Example recency",
     "images": [
@@ -91,8 +89,6 @@
     ],
     "image_count": 44,
     "url": "https://www.propertyguru.com.sg/example/72118",
-    "status": "ACT",
-    "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
-    "headline": "Example headline: mock text standing in for the real value. Same field and type, made-up content."
+    "status": "ACT"
   }
 ]

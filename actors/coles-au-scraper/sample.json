@@ -22,8 +22,8 @@
     "promotionalLimit": 67,
     "ageRestricted": false,
     "deliveryRestrictions": [
-      "OVN",
-      "Example delivery restrictions"
+      "Example delivery restrictions",
+      "OVN"
     ],
     "freshnessGuarantee": "Example freshness guarantee",
     "aisle": "Example aisle",

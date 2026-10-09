@@ -94,7 +94,7 @@ Full details on the [scraper page](https://apify.com/abotapi/bayut-com-scraper?u
 | `isVerified` | boolean |
 | `verificationStatus` | string |
 | `verifiedAt` | integer |
-| `trucheckedAt` | integer |
+| `trucheckedAt` | null |
 
 ---
 

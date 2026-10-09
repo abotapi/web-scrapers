@@ -13,8 +13,9 @@ client = ApifyClient(os.environ["APIFY_TOKEN"])
 run = client.actor("abotapi/trip-com-scraper").call(
     run_input={
         "mode": "search",
-        "locations": ["228|Tokyo"],
+        "locations": ["Tokyo"],
         "currency": "USD",
+        "maxReviews": 10,
         "maxPages": 1,
         "maxListings": 10,
         "proxy": {"useApifyProxy": True},

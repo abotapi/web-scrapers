@@ -56,12 +56,12 @@ Full details on the [scraper page](https://apify.com/abotapi/kogan-com-scraper?u
 | `brand` | string |
 | `sku` | string |
 | `gtin` | string |
-| `price` | float |
+| `price` | integer |
 | `priceMax` | null |
-| `originalPrice` | float |
-| `originalPriceLabel` | string |
-| `discountAmount` | integer |
-| `discountPercent` | float |
+| `originalPrice` | null |
+| `originalPriceLabel` | null |
+| `discountAmount` | null |
+| `discountPercent` | null |
 | `isOnSpecial` | boolean |
 | `specialsCategory` | null |
 | `currency` | string |

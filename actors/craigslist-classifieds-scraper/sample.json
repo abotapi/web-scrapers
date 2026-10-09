@@ -1,32 +1,32 @@
 [
   {
     "kind": "posting",
-    "recordId": "9088753590",
-    "postingId": "6617640432",
-    "postingUuid": "507jw9rpsxf9lepyramkwa",
+    "recordId": "7266694149",
+    "postingId": "2395382622",
+    "postingUuid": "stu8zyexpykgme3cgdiyax",
     "title": "Example title",
     "url": "https://www.craigslist.org/example/44066",
     "price": 181,
     "priceString": "Example price string",
     "currency": "USD",
-    "categoryId": 85,
-    "categoryAbbr": "bik",
+    "categoryId": 355,
+    "categoryAbbr": "bop",
     "categoryName": "Example category name",
     "postedDate": "2026-01-15T10:00:00Z",
     "cityHost": "sfbay",
     "cityName": "Example city name",
     "areaId": 1,
-    "subareaAbbr": "pen",
+    "subareaAbbr": "sfc",
     "locationDescription": "Example location description",
     "neighborhood": "Example neighborhood",
-    "latitude": 37.06,
-    "longitude": -141.73,
+    "latitude": 37.37,
+    "longitude": -142.0,
     "detailLoaded": false,
     "seoSlug": "id27526594",
     "imageUrls": [
       "https://images.craigslist.org/example/22005.jpg",
       "https://images.craigslist.org/example/69486.jpg"
     ],
-    "imageCount": 52
+    "imageCount": 7
   }
 ]

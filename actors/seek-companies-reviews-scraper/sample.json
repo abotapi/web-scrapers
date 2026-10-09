@@ -7,6 +7,7 @@
     "name": "Example name",
     "isClaimed": false,
     "logoUrl": "https://image-service-cdn.seek.com.au/example/58885.jpg",
+    "coverImageUrl": "",
     "totalJobs": 9,
     "ratingOverall": 2.26,
     "reviewCount": 70,

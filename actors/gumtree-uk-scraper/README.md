@@ -1,8 +1,8 @@
-# Gumtree UK Scraper
+# Gumtree.com Scraper
 
-Scrape gumtree.com classifieds across motors, property, jobs, services, pets and goods for sale. Extract titles, descriptions, prices, photos, locations, listing attributes, seller ratings, star distributions and reviews. Supports keyword, category, location and URL modes.
+Scrape Gumtree.com classifieds across motors, property, jobs, services, pets and goods for sale. Extract titles, descriptions, prices, photos, locations, listing attributes, seller ratings, star distributions and reviews. Supports keyword, category, location and URL modes.
 
-**[Open Gumtree UK Scraper on Apify](https://apify.com/abotapi/gumtree-uk-scraper?utm_source=github&utm_medium=web-scrapers&utm_campaign=monorepo)** to run it without code and export JSON, CSV or Excel.
+**[Open Gumtree.com Scraper on Apify](https://apify.com/abotapi/gumtree-uk-scraper?utm_source=github&utm_medium=web-scrapers&utm_campaign=monorepo)** to run it without code and export JSON, CSV or Excel.
 
 ## Run it from code
 
@@ -81,7 +81,7 @@ Full details on the [scraper page](https://apify.com/abotapi/gumtree-uk-scraper?
 | `description` | string |
 | `latitude` | integer |
 | `longitude` | integer |
-| `postcode` | string |
+| `postcode` | null |
 | `area` | string |
 | `subArea` | string |
 | `address` | string |

@@ -1,14 +1,14 @@
 [
   {
-    "productId": "8703304",
-    "skuId": "6304936",
+    "productId": "7466548",
+    "skuId": "1174609",
     "name": "Example name: mock text standing in for the real value. Same field and type, made-up content.",
     "slug": "id55257751",
     "url": "https://www.americanas.com.br/example/5826",
     "brand": "Dell",
     "brandId": "721",
-    "ean": "8065089210900",
-    "referenceId": "064684479",
+    "ean": "8999460133473",
+    "referenceId": "942166057",
     "categories": [
       "Example categories",
       "Example categories"
@@ -38,14 +38,14 @@
     "price": 4046,
     "listPrice": 2591,
     "originalPrice": 9956,
-    "discountAmount": 4120,
-    "discountPercent": 13.03,
-    "onSale": true,
-    "pixPrice": 5793.84,
-    "pixDiscountAmount": 297.44,
+    "discountAmount": null,
+    "discountPercent": null,
+    "onSale": false,
+    "pixPrice": 8111.84,
+    "pixDiscountAmount": 416.44,
     "pixDiscountPercent": 3,
     "maxInterestFreeInstallments": 7,
-    "interestFreeInstallmentValue": 524.89,
+    "interestFreeInstallmentValue": 734.89,
     "maxInstallments": 19,
     "installmentPlans": [
       {
@@ -61,7 +61,7 @@
         "paymentMethod": "Example payment method",
         "paymentGroup": "Example payment group",
         "count": 9,
-        "installmentValue": 1974.6,
+        "installmentValue": 2764.6,
         "interestRate": 0,
         "total": 2462,
         "label": "Example label"
@@ -73,8 +73,8 @@
     "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
     "shortDescription": "Example short description: mock text standing in for the real value. Same field and type, made-up content.",
     "specifications": {
-      "googleshopping-labels": "Example googleshopping-labels",
-      "facebook-labels": "Example facebook-labels",
+      "googleshopping-labels": "Example googleshopping-labels: mock text standing in for the real value. Same field and type, made-up content.",
+      "facebook-labels": "Example facebook-labels: mock text standing in for the real value. Same field and type, made-up content.",
       "Garantia (meses)": "96"
     },
     "specificationGroups": [
@@ -84,13 +84,13 @@
           {
             "name": "Example name",
             "values": [
-              "Example values"
+              "Example values: mock text standing in for the real value. Same field and type, made-up content."
             ]
           },
           {
             "name": "Example name",
             "values": [
-              "Example values"
+              "Example values: mock text standing in for the real value. Same field and type, made-up content."
             ]
           }
         ]

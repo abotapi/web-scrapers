@@ -1,13 +1,13 @@
 [
   {
-    "listingId": "02896624",
+    "listingId": "39443331",
     "listingType": "sale",
     "channel": "for-sale",
     "url": "https://www.zoopla.co.uk/example/59283",
     "title": "Example title",
     "address": "Example address",
     "summaryDescription": "Example summary description: mock text standing in for the real value. Same field and type, made-up content.",
-    "price": 168653,
+    "price": 4668653,
     "priceLabel": "Example price label",
     "priceQualifier": null,
     "currency": "GBP",
@@ -15,39 +15,46 @@
     "priceDrop": {
       "firstPriceDate": "Example first price date",
       "lastPriceChangeDate": "Example last price change date",
-      "percentageChangeLabel": null
+      "percentageChangeLabel": "9.0"
     },
     "bedrooms": 9,
     "bathrooms": 3,
     "receptionRooms": 5,
-    "propertyType": "flat",
-    "sizeSqft": 990,
+    "propertyType": "detached",
+    "sizeSqft": 6390,
     "sizeSource": "comparables_epc",
     "publishedOn": "Example published on",
     "publishedOnLabel": "Example published on label",
     "availableFrom": null,
-    "statusFlag": "Example status flag",
+    "statusFlag": null,
     "underOffer": null,
-    "isPremium": false,
+    "isPremium": true,
     "featuredType": "weekly_featured",
-    "displayType": "standard",
-    "tags": [
-      "Example tags"
+    "displayType": "premium_plus",
+    "tags": [],
+    "highlights": [
+      {
+        "description": null,
+        "label": "Example label"
+      },
+      {
+        "description": null,
+        "label": "Example label"
+      }
     ],
-    "highlights": [],
     "buyerIncentives": [],
     "latitude": null,
     "longitude": null,
     "imageUrl": "https://lid.zoocdn.com/example/35723.jpg",
-    "imageCaption": "Example image caption",
+    "imageCaption": null,
     "images": [
       "https://lid.zoocdn.com/example/97334.jpg",
       "https://lid.zoocdn.com/example/68945.jpg"
     ],
     "imageCount": 87,
     "floorPlanCount": 4,
-    "videoCount": 0,
+    "videoCount": 4,
     "branchName": "Example branch name",
-    "branchId": 7473
+    "branchId": 736473
   }
 ]

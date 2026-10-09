@@ -1,14 +1,14 @@
 [
   {
-    "id": "71413337",
+    "id": "15669861",
     "url": "https://ge.globo.com/example/11801",
     "title": "Example title",
-    "summary": "Example summary",
+    "summary": "Example summary: mock text standing in for the real value. Same field and type, made-up content.",
     "publishedAt": "2026-01-15T10:00:00Z",
     "modifiedAt": "2026-01-15T10:00:00Z",
     "species": "Example species",
     "recordType": "video",
     "thumbnailUrl": "http://s01.video.glbimg.com/example/72762.jpg",
-    "durationSeconds": 1
+    "durationSeconds": 73
   }
 ]

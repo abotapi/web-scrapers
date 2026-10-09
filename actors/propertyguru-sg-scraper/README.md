@@ -29,13 +29,15 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~propertyguru-sg-scraper/r
 | `listing_type` | string | Listing Type (Search mode) |
 | `property_type` | string | Property Type |
 | `search` | string | Location Search |
-| `district` | string | District Code |
+| `district` | string | District |
 | `min_price` | integer | Min Price (SGD) |
 | `max_price` | integer | Max Price (SGD) |
 | `bedrooms` | integer | Bedrooms |
 | `sort` | string | Sort By |
 | `sort_order` | string | Sort Order |
 | `enable_detail_pages` | boolean | Fetch Detail Pages |
+| `fetch_reviews` | boolean | Fetch Reviews |
+| `max_reviews_per_listing` | integer | Max Reviews Per Listing |
 | `max_properties` | integer | Max Properties |
 | `max_pages` | integer | Max Pages |
 | `proxy` | object | Proxy configuration |
@@ -93,8 +95,6 @@ Full details on the [scraper page](https://apify.com/abotapi/propertyguru-sg-scr
 | `image_count` | integer |
 | `url` | string |
 | `status` | string |
-| `description` | string |
-| `headline` | string |
 
 ---
 

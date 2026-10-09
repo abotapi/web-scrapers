@@ -10,12 +10,12 @@
     "thinContent": false,
     "price": 13995,
     "priceCents": 9907527,
-    "priceType": "FIXED",
-    "city": "Example city",
+    "priceType": "MIN_BID",
+    "city": "Gerpinnes",
     "countryName": "Example country name",
     "countryAbbreviation": "BE",
-    "latitude": 44.12,
-    "longitude": 4.32,
+    "latitude": 43.8,
+    "longitude": 4.44,
     "distanceMeters": -4257,
     "location": "Example location",
     "date": "Example date",
@@ -33,18 +33,18 @@
         "largeUrl": "https://images.2dehands.com/example/89013.jpg",
         "extraExtraLargeUrl": "https://images.2dehands.com/example/54991.jpg",
         "aspectRatio": {
-          "width": 5,
+          "width": 23,
           "height": 9
         }
       }
     ],
     "sellerId": 35628998,
-    "sellerName": "sami1281",
+    "sellerName": "Example seller name",
     "sellerVerified": false,
     "sellerWebsiteUrl": false,
     "sellerInformation": {
       "sellerId": 35628998,
-      "sellerName": "sami1281",
+      "sellerName": "Example seller name",
       "showSoiUrl": true,
       "showWebsiteUrl": false,
       "isVerified": false
@@ -57,14 +57,14 @@
     "reserved": false,
     "extendedAttributes": [
       {
-        "key": "transmission",
+        "key": "upholstery",
         "value": "Example value",
         "values": [
           "Example values"
         ]
       },
       {
-        "key": "color",
+        "key": "fuel",
         "value": "Example value",
         "values": [
           "Example values"
@@ -73,7 +73,7 @@
     ],
     "traits": [
       "dag_topper_3days",
-      "PACKAGE_PREMIUM"
+      "PACKAGE_FREE"
     ],
     "verticals": [
       "cars",

@@ -1,4 +1,4 @@
-"""KREAM Korea Scraper: minimal example. Docs: https://apify.com/abotapi/kream-scraper
+"""KREAM Scraper: minimal example. Docs: https://apify.com/abotapi/kream-scraper
 
 pip install "apify-client>=3"
 APIFY_TOKEN=<your token> python example.py

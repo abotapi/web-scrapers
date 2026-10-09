@@ -17,7 +17,7 @@ python example.py
 ```bash
 curl -s -X POST "https://api.apify.com/v2/acts/abotapi~trip-com-scraper/run-sync-get-dataset-items?token=$APIFY_TOKEN" \
   -H 'Content-Type: application/json' \
-  -d '{"mode": "search", "locations": ["228|Tokyo"], "currency": "USD", "maxPages": 1, "maxListings": 10, "proxy": {"useApifyProxy": true}}'
+  -d '{"mode": "search", "locations": ["Tokyo"], "currency": "USD", "maxReviews": 10, "maxPages": 1, "maxListings": 10, "proxy": {"useApifyProxy": true}}'
 ```
 
 ## Inputs
@@ -36,6 +36,7 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~trip-com-scraper/run-sync
 | `minReviewScore` | integer | Minimum guest review score |
 | `urls` | array | Trip.com URLs |
 | `fetchDetails` | boolean | Fetch hotel detail pages (rooms, polic |
+| `maxReviews` | integer | Max reviews per hotel |
 | `maxPages` | integer | Max pages per destination |
 | `maxListings` | integer | Max listings (total) |
 | `proxy` | object | Proxy configuration |
@@ -63,8 +64,8 @@ Full details on the [scraper page](https://apify.com/abotapi/trip-com-scraper?ut
 | `priceCurrent` | integer |
 | `priceOriginal` | integer |
 | `priceTotalWithTaxes` | integer |
-| `discountPercent` | integer |
-| `discountLabel` | string |
+| `discountPercent` | null |
+| `discountLabel` | null |
 | `currency` | string |
 | `images` | list |
 | `image` | string |

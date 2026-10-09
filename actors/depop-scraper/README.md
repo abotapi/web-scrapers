@@ -17,7 +17,7 @@ python example.py
 ```bash
 curl -s -X POST "https://api.apify.com/v2/acts/abotapi~depop-scraper/run-sync-get-dataset-items?token=$APIFY_TOKEN" \
   -H 'Content-Type: application/json' \
-  -d '{"mode": "search", "queries": ["nike vintage"], "sortBy": "relevance", "gender": "any", "sellers": ["mishmoshmart"], "reviewRole": "seller", "country": "us", "maxPages": 1, "maxListings": 10, "proxy": {"useApifyProxy": true, "apifyProxyGroups": ["RESIDENTIAL"]}}'
+  -d '{"mode": "search", "queries": ["nike vintage"], "sortBy": "relevance", "gender": "any", "sellers": ["mishmoshmart"], "reviewRole": "seller", "country": "us", "maxPages": 1, "maxListings": 10, "proxy": {"useApifyProxy": true}}'
 ```
 
 ## Inputs

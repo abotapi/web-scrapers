@@ -1,6 +1,6 @@
 [
   {
-    "id": "5299771653373290717",
+    "id": "7327826599232541887",
     "author": {
       "name": "Example name",
       "followerCount": null,
@@ -8,83 +8,97 @@
       "profileImageUrl": "https://p16-lemon8-cross-sign.tiktokcdn-us.com/example/49981.jpg"
     },
     "title": "Example title",
-    "content": "Example content: mock text standing in for the real value. Same field and type, made-up content.",
+    "content": "Example content",
     "postUrl": "https://www.lemon8-app.com/example/3386",
     "statistics": {
       "savedCount": "8",
-      "likesCount": "8540",
+      "likesCount": "87774",
       "commentsCount": "2"
     },
     "images": [
       {
         "src": "https://p16-lemon8-cross-sign.tiktokcdn-us.com/example/68716",
         "alt": ""
-      },
-      {
-        "src": "https://p16-lemon8-cross-sign.tiktokcdn-us.com/example/59104",
-        "alt": ""
       }
     ],
     "comments": [],
-    "isVideo": false,
-    "videoData": null,
+    "isVideo": true,
+    "videoData": {
+      "posterUrl": "https://p16-lemon8-cross-sign.tiktokcdn-us.com/example/41792",
+      "videoUrl": "",
+      "videoType": "Example video type"
+    },
     "searchQuery": "fashion",
     "details": {
       "title": "Example title",
-      "fullContent": "Example full content: mock text standing in for the real value. Same field and type, made-up content.",
+      "fullContent": "Example full content",
       "hashtags": [
         "Example hashtags",
         "Example hashtags"
       ],
-      "editTime": "28/3",
+      "editTime": "5/58",
       "statistics": {
-        "savedCount": "4305",
-        "likesCount": "6223",
-        "commentsCount": "492"
+        "savedCount": "0891",
+        "likesCount": "87774",
+        "commentsCount": "012"
       },
-      "galleryImages": [
-        {
-          "src": "https://p16-lemon8-sign-sg.tiktokcdn.com/example/68716.jpg",
-          "alt": ""
-        },
-        {
-          "src": "https://p16-lemon8-sign-sg.tiktokcdn.com/example/59104.jpg",
-          "alt": ""
-        }
-      ],
+      "galleryImages": [],
       "searchQuery": null,
-      "relatedTopics": [],
-      "isVideo": false,
-      "videoData": null
+      "relatedTopics": [
+        "Example related topics",
+        "Example related topics"
+      ],
+      "isVideo": true,
+      "videoData": {
+        "posterUrl": "https://p16-lemon8-cross-sign.tiktokcdn-us.com/example/41792.jpg",
+        "videoUrl": "https://v16-lemon8.tiktokcdn-us.com/example/84851",
+        "videoType": "Example video type",
+        "width": "276",
+        "height": "568",
+        "muted": true
+      }
     },
     "allComments": [
       {
-        "author": "id24601509",
+        "author": "Example author",
         "authorTag": null,
         "content": "Example content",
-        "time": "9/57",
-        "likes": "2",
+        "time": "7/84",
+        "likes": "575",
         "replies": [
           {
-            "author": "id24601509",
+            "author": "Example author",
             "content": "Example content",
-            "time": "6/6",
+            "time": "5/39",
+            "tag": null
+          },
+          {
+            "author": "Example author",
+            "content": "Example content",
+            "time": "76/34",
             "tag": null
           }
         ]
       },
       {
-        "author": "id25246195",
+        "author": "kaylasellars8155",
         "authorTag": null,
-        "content": "Example content",
-        "time": "8/77",
-        "likes": "8",
-        "replies": null
+        "content": "Example content: mock text standing in for the real value. Same field and type, made-up content.",
+        "time": "8/0",
+        "likes": "824",
+        "replies": [
+          {
+            "author": "jadec_902",
+            "content": "Example content",
+            "time": "6/28",
+            "tag": null
+          }
+        ]
       }
     ],
     "commentStats": {
-      "totalComments": 67,
-      "totalReplies": 23,
+      "totalComments": 4,
+      "totalReplies": 5,
       "previewCommentCount": 0
     }
   }

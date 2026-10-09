@@ -82,14 +82,14 @@ Full details on the [scraper page](https://apify.com/abotapi/rent-com-scraper?ut
 | `phoneText` | string |
 | `phoneSem` | string |
 | `phoneSemText` | string |
-| `specialOffer` | null |
-| `specialOfferCategory` | null |
+| `specialOffer` | string |
+| `specialOfferCategory` | string |
 | `deals` | list |
 | `categoryBadges` | list |
 | `amenitiesHighlighted` | list |
 | `amenitiesAll` | list |
-| `petsCats` | boolean |
-| `petsDogs` | boolean |
+| `petsCats` | null |
+| `petsDogs` | null |
 
 ---
 

@@ -50,9 +50,9 @@ Full details on the [scraper page](https://apify.com/abotapi/shein-product-scrap
 | `category` | string |
 | `categoryId` | string |
 | `price` | float |
-| `originalPrice` | float |
-| `discountPercent` | integer |
-| `discountAmount` | float |
+| `originalPrice` | null |
+| `discountPercent` | null |
+| `discountAmount` | null |
 | `isOnSale` | boolean |
 | `currency` | string |
 | `priceUsd` | float |

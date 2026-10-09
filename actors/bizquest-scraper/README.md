@@ -58,7 +58,7 @@ Full details on the [scraper page](https://apify.com/abotapi/bizquest-scraper?ut
 | `cashFlow` | null |
 | `ebitda` | null |
 | `leaseRateDuration` | integer |
-| `leaseRatePerSquareFoot` | null |
+| `leaseRatePerSquareFoot` | integer |
 | `realEstateIncludedInAskingPrice` | boolean |
 | `financingTypeId` | integer |
 | `initialFee` | null |

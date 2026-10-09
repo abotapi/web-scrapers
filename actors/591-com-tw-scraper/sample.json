@@ -6,20 +6,20 @@
     "url": "https://rent.591.com.tw/example/99392",
     "title": "Example title",
     "price": 86416,
-    "priceText": "82,823",
+    "priceText": "25,599",
     "priceUnit": "Example price unit",
     "unitPrice": null,
     "kind": 4,
     "kindName": "Example kind name",
-    "room": null,
-    "layout": "9",
+    "room": "Example room",
+    "layout": "8",
     "area": 31,
     "areaText": "Example area text",
     "floor": "Example floor",
     "fitment": "Example fitment",
     "address": "Example address",
     "communityName": "Example community name",
-    "communityId": 89668,
+    "communityId": 0,
     "regionId": 9,
     "regionName": "Example region name",
     "tags": [
@@ -39,10 +39,10 @@
       }
     ],
     "photos": [
-      "https://img2.591.com.tw/example/56048.jpg",
-      "https://img1.591.com.tw/example/16881.jpg"
+      "https://img1.591.com.tw/example/56048.jpg",
+      "https://img2.591.com.tw/example/16881.jpg"
     ],
-    "coverPhoto": "https://img2.591.com.tw/example/64981.jpg",
+    "coverPhoto": "https://img1.591.com.tw/example/64981.jpg",
     "photoCount": 15,
     "isVideo": false,
     "browseCount": 11,
@@ -54,8 +54,8 @@
     "shape": "Example shape",
     "sectionId": 3,
     "sectionName": "Example section name",
-    "latitude": 26.06,
-    "longitude": 130.04,
+    "latitude": 26.05,
+    "longitude": 130.05,
     "leaseMinTerm": null
   }
 ]

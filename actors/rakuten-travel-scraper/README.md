@@ -55,7 +55,7 @@ Full details on the [scraper page](https://apify.com/abotapi/rakuten-travel-scra
 | `rowType` | string |
 | `url` | string |
 | `name` | string |
-| `ratingValue` | float |
+| `ratingValue` | integer |
 | `reviewCount` | integer |
 | `minPriceYen` | integer |
 | `minPriceTaxIncludedYen` | integer |

@@ -73,11 +73,11 @@ Full details on the [scraper page](https://apify.com/abotapi/mistore-jp-scraper?
 | `digitalProduct` | null |
 | `brandCode` | string |
 | `brandUrl` | string |
-| `sku` | string |
+| `sku` | null |
 | `description` | string |
 | `originalPrice` | null |
 | `discountPercent` | null |
-| `availability` | string |
+| `availability` | null |
 | `stockNote` | null |
 | `images` | list |
 | `thumbnails` | list |

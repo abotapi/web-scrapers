@@ -17,7 +17,7 @@ python example.py
 ```bash
 curl -s -X POST "https://api.apify.com/v2/acts/abotapi~zapimoveis-scraper/run-sync-get-dataset-items?token=$APIFY_TOKEN" \
   -H 'Content-Type: application/json' \
-  -d '{"mode": "search", "locations": ["Sao Paulo, SP"], "businessType": "SALE", "listingType": "USED", "propertyType": "ANY", "sortBy": "relevance", "maxPages": 1, "maxListings": 10, "proxy": {"useApifyProxy": true, "apifyProxyGroups": ["RESIDENTIAL"], "apifyProxyCountry": "BR"}}'
+  -d '{"mode": "search", "locations": ["Sao Paulo, SP"], "businessType": "SALE", "listingType": "USED", "propertyType": "ANY", "sortBy": "relevance", "usageType": "ANY", "constructionStatus": "ANY", "maxPages": 1, "maxListings": 10, "proxy": {"useApifyProxy": true, "apifyProxyGroups": ["RESIDENTIAL"], "apifyProxyCountry": "BR"}}'
 ```
 
 ## Inputs
@@ -37,9 +37,22 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~zapimoveis-scraper/run-sy
 | `minUsableArea` | integer | Min Usable Area (m²) |
 | `maxUsableArea` | integer | Max Usable Area (m²) |
 | `sortBy` | string | Sort By |
+| `propertyTypes` | array | Property Types (multi-select) |
+| `usageType` | string | Usage |
+| `amenities` | array | Amenities / Property Features |
+| `minCondoFee` | integer | Min Condo Fee (BRL / month) |
+| `maxCondoFee` | integer | Max Condo Fee (BRL / month) |
+| `nearTransit` | boolean | Near Metro / Train |
+| `belowMarketPrice` | boolean | Below Market Price |
+| `rentWithoutGuarantor` | boolean | Rent Without Guarantor (sem fiador) |
+| `hasVirtualTour` | boolean | Has Virtual Tour |
+| `constructionStatus` | string | Construction Stage (new developments o |
 | `urls` | array | Listing URLs |
 | `maxPages` | integer | Max Pages Per Search |
 | `maxListings` | integer | Max Listings |
+| `fetchDetails` | boolean | Fetch Full Listing Details |
+| `fetchSellerRatings` | boolean | Fetch Seller Ratings |
+| `maximizeCoverage` | boolean | Maximize Coverage (past 1,200 results) |
 | `proxy` | object | Proxy Configuration |
 
 `*` required
@@ -63,10 +76,10 @@ Full details on the [scraper page](https://apify.com/abotapi/zapimoveis-scraper?
 | `unit_types` | list |
 | `bedrooms` | integer |
 | `bathrooms` | integer |
-| `suites` | integer |
+| `suites` | null |
 | `parking_spaces` | integer |
 | `usable_area` | integer |
-| `total_area` | integer |
+| `total_area` | null |
 | `city` | string |
 | `state_code` | string |
 | `neighborhood` | string |
@@ -77,7 +90,7 @@ Full details on the [scraper page](https://apify.com/abotapi/zapimoveis-scraper?
 | `monthly_condo_fee` | integer |
 | `iptu` | null |
 | `seller_name` | string |
-| `seller_tier` | string |
+| `seller_tier` | null |
 | `seller_license_number` | string |
 | `seller_legacy_zap_id` | integer |
 | `phones` | list |

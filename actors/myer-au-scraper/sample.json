@@ -1,7 +1,7 @@
 [
   {
     "id": "036799185",
-    "name": "Example name",
+    "name": "Example name: mock text standing in for the real value. Same field and type, made-up content.",
     "brand": "CHANEL",
     "url": "https://www.myer.com.au/example/44883",
     "seoToken": "Example seo token",
@@ -21,7 +21,11 @@
     "hasMoreColours": false,
     "colourVariants": [
       {
-        "id": "035089277",
+        "id": "306790169",
+        "colour": null
+      },
+      {
+        "id": "295526227",
         "colour": null
       }
     ],
@@ -41,7 +45,7 @@
     "searchMode": "search",
     "source": "myer.com.au",
     "internalId": 40299688,
-    "title": "Example title",
+    "title": "Example title: mock text standing in for the real value. Same field and type, made-up content.",
     "brandUrl": "Example brand url",
     "shortDescription": null,
     "longDescription": "Example long description: mock text standing in for the real value. Same field and type, made-up content.",
@@ -51,8 +55,8 @@
     "hummEligible": true,
     "categoryUri": "Example category uri",
     "specifications": {
-      "Dangerous Goods": "Example dangerous  goods",
       "Brand": "CHANEL",
+      "Dangerous Goods": "Example dangerous  goods",
       "Fragrance Note": "Example fragrance  note",
       "Collection Name": "Example collection  name"
     }

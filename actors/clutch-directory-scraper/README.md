@@ -17,7 +17,7 @@ python example.py
 ```bash
 curl -s -X POST "https://api.apify.com/v2/acts/abotapi~clutch-directory-scraper/run-sync-get-dataset-items?token=$APIFY_TOKEN" \
   -H 'Content-Type: application/json' \
-  -d '{"mode": "search", "directory": "web-developers", "sortBy": "default", "maxPages": 1, "maxListings": 10, "proxy": {"useApifyProxy": true}}'
+  -d '{"mode": "search", "directory": "web-developers", "sortBy": "default", "maxReviews": 10, "maxPages": 1, "maxListings": 10, "proxy": {"useApifyProxy": true}}'
 ```
 
 ## Inputs
@@ -34,6 +34,7 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~clutch-directory-scraper/
 | `minRating` | integer | Min rating |
 | `minReviews` | integer | Min reviews |
 | `fetchDetails` | boolean | Fetch full profile details (richer rec |
+| `maxReviews` | integer | Max reviews per company |
 | `maxPages` | integer | Max pages per list |
 | `maxListings` | integer | Max records |
 | `proxy` | object | Proxy |
@@ -58,8 +59,8 @@ Full details on the [scraper page](https://apify.com/abotapi/clutch-directory-sc
 | `clutchUrl` | string |
 | `profileUrl` | string |
 | `profileLink` | string |
-| `logo` | string |
-| `logoUrl` | string |
+| `logo` | null |
+| `logoUrl` | null |
 | `website` | string |
 | `websiteUrl` | string |
 | `tagline` | null |
@@ -69,18 +70,18 @@ Full details on the [scraper page](https://apify.com/abotapi/clutch-directory-sc
 | `rating` | float |
 | `reviewCount` | integer |
 | `numberOfProjects` | null |
-| `minProjectSize` | string |
-| `hourlyRate` | string |
-| `employeeCount` | string |
-| `employeesCount` | string |
-| `priceRange` | string |
-| `location` | string |
+| `minProjectSize` | null |
+| `hourlyRate` | null |
+| `employeeCount` | null |
+| `employeesCount` | null |
+| `priceRange` | null |
+| `location` | null |
 | `services` | list |
 | `tags` | list |
 | `verified` | boolean |
 | `isVerified` | boolean |
 | `isSponsor` | boolean |
-| `position` | integer |
+| `position` | null |
 | `company` | object |
 | `branding` | object |
 | `contact` | object |

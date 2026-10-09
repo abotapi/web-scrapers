@@ -1,43 +1,43 @@
 [
   {
-    "productId": "7387088",
+    "productId": "6944644",
     "sku": null,
     "ean": null,
     "name": "Example name",
-    "brand": "ECOVACS",
+    "brand": "DREAME",
     "category": "aspirateur_robot",
     "breadcrumbPath": [
       "Example breadcrumb path",
       "aspirateur"
     ],
     "url": "https://www.boulanger.com/example/13968",
-    "price": 216,
+    "price": 453.59,
     "currency": "EUR",
-    "priceExclTax": 239.2,
-    "originalPrice": 466.44,
-    "discountAmount": 87.71,
+    "priceExclTax": 287.99,
+    "originalPrice": 576.97,
+    "discountAmount": 117.17,
     "discountPercent": 63,
     "isOnSpecial": true,
     "promoLabel": null,
     "unitPrice": null,
     "image": "https://boulanger.scene7.com/example/98343.jpg",
-    "rating": 4.48,
-    "reviewCount": 6,
+    "rating": 4.64,
+    "reviewCount": 429,
     "onlineAvailable": true,
     "storePickupAvailable": null,
     "condition": "neuf",
     "sellerName": "Example seller name",
     "isBundle": false,
     "reviews": {
-      "averageRating": 5.12,
-      "ratingCount": 1,
-      "totalReviewCount": 7,
+      "averageRating": 5.23,
+      "ratingCount": 451,
+      "totalReviewCount": 673,
       "ratingBreakdown": {
         "1": 0,
         "2": 0,
-        "3": 6,
+        "3": 0,
         "4": 0,
-        "5": 0
+        "5": 8
       },
       "items": [
         {

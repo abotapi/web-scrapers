@@ -18,6 +18,8 @@ run = client.actor("abotapi/zapimoveis-scraper").call(
         "listingType": "USED",
         "propertyType": "ANY",
         "sortBy": "relevance",
+        "usageType": "ANY",
+        "constructionStatus": "ANY",
         "maxPages": 1,
         "maxListings": 10,
         "proxy": {"useApifyProxy": True, "apifyProxyGroups": ["RESIDENTIAL"], "apifyProxyCountry": "BR"},

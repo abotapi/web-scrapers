@@ -1,8 +1,8 @@
-# IKEA Products & Reviews Scraper
+# IKEA Scraper
 
 Scrape IKEA products across 50+ markets. Extract names, prices, currencies, ratings, full reviews, colours, dimensions, images, categories, variants, badges and store availability. Supports search, category, item-number and URL inputs with filters and sorting.
 
-**[Open IKEA Products & Reviews Scraper on Apify](https://apify.com/abotapi/ikea-scraper?utm_source=github&utm_medium=web-scrapers&utm_campaign=monorepo)** to run it without code and export JSON, CSV or Excel.
+**[Open IKEA Scraper on Apify](https://apify.com/abotapi/ikea-scraper?utm_source=github&utm_medium=web-scrapers&utm_campaign=monorepo)** to run it without code and export JSON, CSV or Excel.
 
 ## Run it from code
 
@@ -28,16 +28,16 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~ikea-scraper/run-sync-get
 | `market` | string | Market and language |
 | `searchTerms` | array | Search terms |
 | `sortBy` | string | Sort by |
-| `categories` | array | Category links or ids |
 | `productIds` | array | Item numbers |
 | `urls` | array | URLs |
+| `categories` | array | Category links or ids (legacy) |
 | `minPrice` | integer | Min price |
 | `maxPrice` | integer | Max price |
 | `minRating` | integer | Min rating |
 | `inStockOnly` | boolean | In stock only |
 | `containsKeyword` | string | Contains keyword |
 | `specialsCategory` | string | Specials |
-| `fetchDetails` | boolean | Fetch full details and reviews |
+| `fetchDetails` | boolean | Fetch full description & reviews |
 | `maxReviews` | integer | Max reviews per product |
 | `includeAvailability` | boolean | Include store availability |
 | `maxItems` | integer | Max products |

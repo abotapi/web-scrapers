@@ -59,7 +59,7 @@ Full details on the [scraper page](https://apify.com/abotapi/google-play-reviews
 | `authorId` | string |
 | `authorImage` | string |
 | `thumbsUp` | integer |
-| `appVersion` | string |
+| `appVersion` | null |
 | `reviewDate` | string |
 | `reviewTimestamp` | integer |
 | `reviewUrl` | string |

@@ -1,21 +1,21 @@
 [
   {
-    "id": "xow_uaxvypstkm8vjk8gmwsojs0ohs92pnzuzcv1b6wyeih8lddgpa",
+    "id": "ubuvpikjefumlhw3d1wtejz-3iyhlqgbjb7ltzn5gspvjxdg7atzhq",
     "url": "https://www.simplyhired.com/example/1985",
     "title": "Example title",
     "displayTitle": "Example display title",
     "normalizedTitle": "Example normalized title",
-    "company": "Example company",
-    "companyRating": 4.18,
+    "company": "CISTECH",
+    "companyRating": null,
     "companyPageUrl": null,
-    "employerLogoUrl": "https://d2q79iu7y748jz.cloudfront.net/example/77690.jpg",
+    "employerLogoUrl": null,
     "employerHomepage": null,
     "location": "Example location",
-    "formattedLocation": "Example formatted location",
-    "city": "Philadelphia",
-    "state": "PA",
-    "latitude": 37.95,
-    "longitude": -78.17,
+    "formattedLocation": "Remote",
+    "city": "Remote",
+    "state": null,
+    "latitude": 95,
+    "longitude": -74,
     "country": "us",
     "jobTypes": [
       "Full-time"
@@ -24,18 +24,18 @@
     "remoteAttributes": [
       "Example remote attributes"
     ],
-    "salary": "Example salary",
-    "salaryMin": 161682,
-    "salaryMax": 345333,
-    "salaryCurrency": "USD",
-    "salaryPeriod": "year",
+    "salary": null,
+    "salaryMin": null,
+    "salaryMax": null,
+    "salaryCurrency": null,
+    "salaryPeriod": null,
     "compensation": null,
     "snippet": "Example snippet: mock text standing in for the real value. Same field and type, made-up content.",
-    "descriptionHtml": "user83@example.com",
-    "descriptionText": "user38@example.com",
+    "descriptionHtml": "Example description html: mock text standing in for the real value. Same field and type, made-up content.",
+    "descriptionText": "Example description text: mock text standing in for the real value. Same field and type, made-up content.",
     "requirements": [
       "Example requirements",
-      "HIPAA"
+      "Example requirements"
     ],
     "qualifications": [
       "Example qualifications",
@@ -47,7 +47,7 @@
     ],
     "skillsAll": [
       "Example skills all",
-      "HIPAA"
+      "Example skills all"
     ],
     "datePosted": "2026-01-15T10:00:00Z",
     "datePostedEpochMs": 1969106758960,

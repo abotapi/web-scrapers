@@ -1,16 +1,16 @@
 [
   {
     "id": "Example id",
-    "itemId": "60660654905",
-    "shopId": "1235496635",
-    "name": "Example name: mock text standing in for the real value. Same field and type, made-up content.",
-    "translatedName": "Example translated name: mock text standing in for the real value. Same field and type, made-up content.",
+    "itemId": "06587109187",
+    "shopId": "8874314322",
+    "name": "Example name",
+    "translatedName": "Example translated name",
     "url": "https://shopeekh.com/example/44372",
     "price": 25051,
     "originalPrice": null,
     "discountPercent": 62,
     "currency": "KHR",
-    "rating": 4.71,
+    "rating": 4.68,
     "ratingCount": 27,
     "ratingDistribution": [
       62,
@@ -21,6 +21,16 @@
       "https://down-kh.img.susercontent.com/example/23170.jpg"
     ],
     "variants": [
+      {
+        "name": "Example name",
+        "options": [
+          "Example options",
+          "Example options"
+        ],
+        "images": null,
+        "properties": null,
+        "type": 0
+      },
       {
         "name": "Example name",
         "options": [
@@ -44,7 +54,7 @@
     ],
     "brand": null,
     "inStock": true,
-    "likes": 8,
+    "likes": 44,
     "isVerifiedSeller": false,
     "collectionId": "83941399",
     "collectionName": null,
@@ -81,11 +91,11 @@
       "is_preview": false,
       "label_ids": [
         124356759045055,
-        205307561
+        7307561
       ],
       "catid": 567927,
       "shopee_verified": false,
-      "liked_count": 8,
+      "liked_count": 80,
       "item_type": 0,
       "reference_item_id": null,
       "shop_data": {
@@ -105,7 +115,7 @@
       },
       "overlay_images": null,
       "item_rating": {
-        "rating_star": 6.34,
+        "rating_star": 6.31,
         "rating_count": [
           28,
           0
@@ -126,17 +136,27 @@
           "images": null,
           "properties": null,
           "type": 0
+        },
+        {
+          "name": "Example name",
+          "options": [
+            "Example options",
+            "Example options"
+          ],
+          "images": null,
+          "properties": null,
+          "type": 0
         }
       ],
       "can_use_bundle_deal": false,
       "price_stock": null,
-      "transparent_background_image": "id37209854",
+      "transparent_background_image": null,
       "historical_lowest_price": null,
       "virtual_sku_info": null,
       "real_sku_info_list": null
     },
     "displayAssets": {
-      "name": "Example name: mock text standing in for the real value. Same field and type, made-up content.",
+      "name": "Example name",
       "image": "id36394450",
       "images": [
         "id9333654",
@@ -195,7 +215,7 @@
       },
       "cta_button": null,
       "card_header": null,
-      "name_tr": "Example name_tr: mock text standing in for the real value. Same field and type, made-up content.",
+      "name_tr": "Example name_tr",
       "shop_location_tr": null,
       "brand_info": null,
       "in_title_image_flags": null,

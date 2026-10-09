@@ -40,6 +40,7 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~kmart-au-scraper/run-sync
 | `maxItems` | integer | Max products |
 | `maxPages` | integer | Max pages per search |
 | `proxy` | object | Proxy |
+| `baselineDatasetId` | string | Start from an existing dataset (option |
 
 `*` required
 
@@ -62,16 +63,16 @@ Full details on the [scraper page](https://apify.com/abotapi/kmart-au-scraper?ut
 | `description` | string |
 | `descriptionText` | string |
 | `descriptionSummary` | string |
-| `features` | null |
+| `features` | list |
 | `specifications` | object |
 | `careInstructions` | list |
 | `additionalInfo` | list |
 | `warnings` | null |
 | `manuals` | null |
 | `detailSections` | list |
-| `price` | float |
-| `listPrice` | float |
-| `promoPrice` | float |
+| `price` | integer |
+| `listPrice` | integer |
+| `promoPrice` | integer |
 | `wasPrice` | null |
 | `savingsAmount` | null |
 | `savingsPercent` | null |

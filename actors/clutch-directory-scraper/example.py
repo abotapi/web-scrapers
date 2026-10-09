@@ -15,6 +15,7 @@ run = client.actor("abotapi/clutch-directory-scraper").call(
         "mode": "search",
         "directory": "web-developers",
         "sortBy": "default",
+        "maxReviews": 10,
         "maxPages": 1,
         "maxListings": 10,
         "proxy": {"useApifyProxy": True},

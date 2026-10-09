@@ -1,8 +1,8 @@
 [
   {
     "kind": "product",
-    "id": "18781986",
-    "productId": "p_82618197",
+    "id": "032918",
+    "productId": "p_s212399",
     "name": "Example name",
     "title": "Example title",
     "url": "https://www.kmart.com.au/example/13944",
@@ -11,14 +11,16 @@
     "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
     "descriptionText": "Example description text: mock text standing in for the real value. Same field and type, made-up content.",
     "descriptionSummary": "Example description summary: mock text standing in for the real value. Same field and type, made-up content.",
-    "features": null,
+    "features": [
+      "Example features",
+      "Example features"
+    ],
     "specifications": {
-      "Dimensions/Size": "Example dimensions/ size",
       "Material": "Example material",
-      "Colour": "Example colour",
-      "Care instructions": "Example care instructions"
+      "Fit and Model Size": "Example fit and  model  size: mock text standing in for the real value. Same field and type, made-up content."
     },
     "careInstructions": [
+      "Example care instructions",
       "Example care instructions"
     ],
     "additionalInfo": [
@@ -37,13 +39,14 @@
       {
         "heading": "Example heading",
         "items": [
-          "Example items: mock text standing in for the real value. Same field and type, made-up content."
+          "Example items",
+          "Example items"
         ]
       }
     ],
-    "price": 2.5,
-    "listPrice": 2.45,
-    "promoPrice": 2.97,
+    "price": 40,
+    "listPrice": 68,
+    "promoPrice": 89,
     "wasPrice": null,
     "savingsAmount": null,
     "savingsPercent": null,
@@ -53,15 +56,83 @@
     "currency": "AUD",
     "onSale": false,
     "clearance": false,
-    "averageRating": 4.14,
-    "reviewCount": 237,
+    "averageRating": 4.32,
+    "reviewCount": 3,
     "colour": "Blue",
-    "secondaryColour": "Ocean",
-    "size": "Example size",
+    "secondaryColour": "Example secondary colour",
+    "size": "84",
     "seller": "Example seller",
     "isMarketplace": false,
-    "merchDepartment": 95,
-    "merchClass": "TOWELS",
+    "merchDepartment": 5,
+    "merchClass": "Example merch class",
     "primaryCategoryId": "id25845182"
+  },
+  {
+    "kind": "product",
+    "id": "785302",
+    "productId": "p_s857708",
+    "name": "Example name",
+    "title": "Example title",
+    "url": "https://www.kmart.com.au/example/43923",
+    "brand": "Anko",
+    "apn": 5923486490519,
+    "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
+    "descriptionText": "Example description text: mock text standing in for the real value. Same field and type, made-up content.",
+    "descriptionSummary": "Example description summary: mock text standing in for the real value. Same field and type, made-up content.",
+    "features": [
+      "Example features",
+      "Example features"
+    ],
+    "specifications": {
+      "Material": "Example material",
+      "Fit and Model Size": "Example fit and  model  size"
+    },
+    "careInstructions": [
+      "Example care instructions",
+      "Example care instructions"
+    ],
+    "additionalInfo": null,
+    "warnings": null,
+    "manuals": null,
+    "detailSections": [
+      {
+        "heading": "Example heading",
+        "items": [
+          "Example items",
+          "Example items"
+        ]
+      },
+      {
+        "heading": "Example heading",
+        "items": [
+          "Example items",
+          "Example items"
+        ]
+      }
+    ],
+    "price": 22,
+    "listPrice": 81,
+    "promoPrice": null,
+    "wasPrice": null,
+    "savingsAmount": null,
+    "savingsPercent": null,
+    "isOnSpecial": true,
+    "promoLabel": "Example promo label",
+    "variantBadges": [
+      "Clearance"
+    ],
+    "currency": "AUD",
+    "onSale": false,
+    "clearance": true,
+    "averageRating": 2.89,
+    "reviewCount": 7,
+    "colour": "White",
+    "secondaryColour": "White",
+    "size": "33",
+    "seller": "Example seller",
+    "isMarketplace": false,
+    "merchDepartment": 9,
+    "merchClass": "Example merch class",
+    "primaryCategoryId": "id50955139"
   }
 ]

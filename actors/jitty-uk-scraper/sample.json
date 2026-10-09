@@ -1,6 +1,6 @@
 [
   {
-    "id": "ngrzsdaarn1ugnpdc3dh",
+    "id": "l92agnbwkmggp4plsd1z",
     "title": "Example title",
     "price": "Example price",
     "price_numeric": 572083,
@@ -9,7 +9,8 @@
     "bathrooms": 5,
     "property_type": "Flat",
     "tags": [
-      "Example tags"
+      "Example tags",
+      "Balcony"
     ],
     "images": [
       "https://jitty-cdn.com/example/21091.jpg",
@@ -19,39 +20,37 @@
     "url": "https://jitty.com/example/66643",
     "address": "Example address",
     "latitude": 45.21,
-    "longitude": -0.19,
+    "longitude": -0.1,
     "location_source": "detail_page",
-    "living_spaces": 8,
-    "epc_current_score": 68,
-    "epc_current_rating": "Example epc_current_rating",
-    "epc_potential_score": 18,
-    "epc_potential_rating": "Example epc_potential_rating",
-    "estate_agent": "Example estate_agent"
+    "estate_agent": "Example estate_agent",
+    "features": [
+      "Example features",
+      "Example features"
+    ]
   },
   {
-    "id": "erkk2n5mtbqbrrbhvx3c",
+    "id": "ppr37oleavumfom3cqxu",
     "title": "Example title",
     "price": "Example price",
     "price_numeric": 584164,
     "currency": "GBP",
     "bedrooms": 6,
     "bathrooms": 8,
-    "property_type": "Flat",
+    "property_type": "Detached",
     "tags": [
-      "Example tags",
+      "Balcony",
       "Example tags"
     ],
     "images": [
       "https://jitty-cdn.com/example/19213.jpg",
       "https://jitty-cdn.com/example/29077.jpg"
     ],
-    "image_count": 4,
+    "image_count": 22,
     "url": "https://jitty.com/example/61158",
     "address": "Example address",
-    "latitude": 53.41,
-    "longitude": -0.12,
+    "latitude": 53.61,
+    "longitude": -0.25,
     "location_source": "detail_page",
-    "living_spaces": 8,
     "estate_agent": "Example estate_agent",
     "features": [
       "Example features",

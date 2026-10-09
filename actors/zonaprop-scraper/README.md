@@ -83,10 +83,10 @@ Full details on the [scraper page](https://apify.com/abotapi/zonaprop-scraper?ut
 | `totalArea` | integer |
 | `coveredArea` | integer |
 | `rooms` | integer |
-| `bedrooms` | null |
+| `bedrooms` | integer |
 | `bathrooms` | integer |
 | `garages` | null |
-| `age` | null |
+| `age` | integer |
 | `areaUnit` | string |
 | `address` | string |
 | `addressVisibility` | string |

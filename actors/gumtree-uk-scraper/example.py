@@ -1,4 +1,4 @@
-"""Gumtree UK Scraper: minimal example. Docs: https://apify.com/abotapi/gumtree-uk-scraper
+"""Gumtree.com Scraper: minimal example. Docs: https://apify.com/abotapi/gumtree-uk-scraper
 
 pip install "apify-client>=3"
 APIFY_TOKEN=<your token> python example.py

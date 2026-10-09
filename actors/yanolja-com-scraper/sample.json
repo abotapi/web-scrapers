@@ -1,53 +1,13 @@
 [
   {
-    "recordId": "27137348",
-    "stayId": "88947758",
+    "recordId": "5805095",
+    "stayId": "0229019",
     "rowType": "stay",
     "url": "https://nol.yanolja.com/example/43009",
     "name": "Example name",
     "listingImageUrl": "https://yaimg.yanolja.com/example/80761.jpg",
     "collectionSlug": "Example collection slug",
     "collectionTitle": "Example collection title",
-    "subtitle": null,
-    "stayGroup": "Example stay group",
-    "hotelStar": null,
-    "badges": [],
-    "locationDescription": "Example location description",
-    "address": "Example address",
-    "latitude": 44.23,
-    "longitude": 139.62,
-    "cityName": "Example city name",
-    "cityDetail": "Example city detail",
-    "sellerPhone": "+1 555 0100",
-    "ratingValue": 4.27,
-    "reviewCount": 9006,
-    "replyCount": 73,
-    "ratingFromFd": 3.44,
-    "ratingCountFromFd": 5913,
-    "priceRange": "Example price range",
-    "lowestPriceKrw": 66634,
-    "overnightPriceKrw": 13752,
-    "dayUsePriceKrw": 60785,
-    "overnightSoldOut": false,
-    "dayUseSoldOut": false,
-    "checkInDate": "Example check in date",
-    "checkOutDate": "Example check out date",
-    "checkInTime": null,
-    "checkOutTime": null,
-    "description": null,
-    "descriptionText": null,
-    "facilities": [
-      "Example facilities",
-      "Example facilities"
-    ],
-    "mainImageUrl": "https://yaimg.yanolja.com/example/10254.jpg",
-    "photoUrls": [
-      "https://yaimg.yanolja.com/example/89970.jpg",
-      "https://yaimg.yanolja.com/example/45377.jpg"
-    ],
-    "roomPhotoUrls": [
-      "https://yaimg.yanolja.com/example/88843.jpg",
-      "https://yaimg.yanolja.com/example/11597.jpg"
-    ]
+    "scrapedAt": "2026-01-15T10:00:00Z"
   }
 ]

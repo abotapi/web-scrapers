@@ -1,0 +1,17 @@
+[
+  {
+    "type": "news",
+    "id": "id5825056",
+    "name": "Example name",
+    "title": "Example title",
+    "lead": null,
+    "source": "SI",
+    "sourceIconUrl": "https://images.fotmob.com/example/79465.jpg",
+    "imageUrl": "https://images2.minutemediacdn.com/example/14602.jpg",
+    "publishedAt": "2026-01-15T10:00:00Z",
+    "language": "en",
+    "url": "https://www.fotmob.com/example/31778",
+    "matchUrl": "https://www.fotmob.com/example/25954",
+    "scrapedAt": "2026-01-15T10:00:00Z"
+  }
+]

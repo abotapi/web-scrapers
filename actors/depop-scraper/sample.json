@@ -1,6 +1,6 @@
 [
   {
-    "id": "706974935",
+    "id": "443570213",
     "slug": "id99746436",
     "url": "https://www.depop.com/example/42284",
     "status": "STATUS_ONSALE",
@@ -9,7 +9,7 @@
     "brandName": "Example brand name",
     "countryCode": "US",
     "hasVideo": false,
-    "likeCount": 58,
+    "likeCount": 0,
     "isLiked": false,
     "pictures": [
       "https://media-photos.depop.com/example/86176.jpg",
@@ -41,7 +41,7 @@
     "buyerFee": 0,
     "tax": 0,
     "taxType": "Example tax type",
-    "shippingCost": 4.59,
+    "shippingCost": 2.29,
     "shippingBoundary": "NATIONAL",
     "shippingId": "USPS",
     "nationalShippingCost": null,

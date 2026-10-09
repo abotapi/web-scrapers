@@ -59,7 +59,7 @@ Full details on the [scraper page](https://apify.com/abotapi/jumia-marketplace-s
 | `url` | string |
 | `imageUrl` | string |
 | `currency` | string |
-| `price` | float |
+| `price` | integer |
 | `priceDisplay` | string |
 | `oldPrice` | integer |
 | `discountPercent` | integer |

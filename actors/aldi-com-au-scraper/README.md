@@ -28,14 +28,19 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~aldi-com-au-scraper/run-s
 | `searchTerms` | array | Search terms |
 | `categories` | array | Categories |
 | `specialsCategory` | string | Specials / offers range |
+| `specialBuysDates` | array | Special Buys on-sale dates |
 | `excludeCategories` | array | Exclude departments |
 | `brands` | array | Brands |
 | `themes` | array | Themes |
 | `sortBy` | string | Sort by |
+| `onSaleOnly` | boolean | On promotion only |
+| `minPrice` | number | Minimum price (AUD) |
+| `maxPrice` | number | Maximum price (AUD) |
 | `urls` | array | URLs |
 | `fetchDetails` | boolean | Fetch product details |
 | `maxItems` | integer | Max products |
 | `maxPages` | integer | Max pages per term/category |
+| `includeCategoryTree` | boolean | Save ALDI's category tree |
 | `proxy` | object | Proxy configuration |
 
 `*` required

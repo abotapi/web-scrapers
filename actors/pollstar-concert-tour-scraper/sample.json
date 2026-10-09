@@ -1,15 +1,15 @@
 [
   {
     "kind": "event",
-    "recordId": "7967287",
-    "eventId": "1243504",
+    "recordId": "6421883",
+    "eventId": "4330317",
     "url": "https://www.pollstar.com/example/55319",
     "title": "Example title: mock text standing in for the real value. Same field and type, made-up content.",
     "playDate": "2026-01-15T10:00:00Z",
     "playTime": null,
     "isFestival": false,
     "hasBoxOfficeReport": false,
-    "announcedHoursAgo": 8283,
+    "announcedHoursAgo": 89283,
     "note": null,
     "venueId": "374661436",
     "venueName": "Example venue name",

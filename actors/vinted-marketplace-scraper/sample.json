@@ -1,13 +1,13 @@
 [
   {
-    "itemId": "81800109397",
+    "itemId": "53662440124",
     "title": "Example title",
     "url": "https://www.vinted.de/example/48352",
     "path": "Example path",
     "brandTitle": "Nike",
     "priceAmount": 12,
     "currency": "EUR",
-    "size": "25",
+    "size": "41",
     "condition": "Example condition",
     "viewCount": null,
     "favouriteCount": 9,
@@ -22,7 +22,7 @@
     ],
     "image": "https://images1.vinted.net/example/60314.jpg",
     "seller": {
-      "id": 7816167783,
+      "id": 616167783,
       "username": "id33160266",
       "business": false
     },

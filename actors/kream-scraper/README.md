@@ -1,8 +1,8 @@
-# KREAM Korea Scraper
+# KREAM Scraper
 
 Scrape KREAM (kream.co.kr) sneaker and fashion resale data by keyword search, filters, sorts, or product URLs. Extract 34+ fields, including lowest ask, highest bid, market price, premium, retail price, style code, sizes, and optional price history.
 
-**[Open KREAM Korea Scraper on Apify](https://apify.com/abotapi/kream-scraper?utm_source=github&utm_medium=web-scrapers&utm_campaign=monorepo)** to run it without code and export JSON, CSV or Excel.
+**[Open KREAM Scraper on Apify](https://apify.com/abotapi/kream-scraper?utm_source=github&utm_medium=web-scrapers&utm_campaign=monorepo)** to run it without code and export JSON, CSV or Excel.
 
 ## Run it from code
 

@@ -37,14 +37,14 @@
     "productType": "normal",
     "availability": "NORMAL",
     "groupIds": [
-      "w785297",
-      "w082491"
+      "w893120",
+      "w8336899"
     ],
-    "colour": "Flax",
+    "colour": "Example colour",
     "colourVariantCode": 25039325,
     "sizeVariantCode": 33682801,
     "inStock": true,
-    "availableOnlineQty": 0,
+    "availableOnlineQty": 14,
     "availableStoreQty": 75,
     "bulkyProduct": false,
     "targetExclusive": false,

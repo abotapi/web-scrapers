@@ -54,10 +54,10 @@ Full details on the [scraper page](https://apify.com/abotapi/bigw-marketplace-sc
 | Field | Type |
 | --- | --- |
 | `articleId` | string |
-| `gtin` | string |
-| `ean` | string |
+| `gtin` | null |
+| `ean` | null |
 | `mpn` | string |
-| `barcodes` | list |
+| `barcodes` | null |
 | `name` | string |
 | `title` | string |
 | `brand` | string |
@@ -69,15 +69,15 @@ Full details on the [scraper page](https://apify.com/abotapi/bigw-marketplace-sc
 | `listingStatus` | string |
 | `url` | string |
 | `price` | float |
-| `wasPrice` | float |
+| `wasPrice` | null |
 | `rrp` | null |
-| `saving` | float |
-| `savingsPercent` | integer |
+| `saving` | null |
+| `savingsPercent` | null |
 | `isOnSpecial` | boolean |
 | `unitPrice` | null |
 | `currency` | string |
-| `priceLabel` | string |
-| `priceLabelType` | string |
+| `priceLabel` | null |
+| `priceLabelType` | null |
 | `clearance` | boolean |
 | `onlineOnlyPromotion` | boolean |
 | `promotions` | list |
@@ -86,12 +86,12 @@ Full details on the [scraper page](https://apify.com/abotapi/bigw-marketplace-sc
 | `description` | string |
 | `imageUrl` | string |
 | `images` | list |
-| `category` | string |
+| `category` | null |
 | `categories` | list |
-| `categoryPath` | string |
-| `variants` | null |
+| `categoryPath` | null |
+| `variants` | list |
 | `colours` | null |
-| `sizes` | null |
+| `sizes` | list |
 | `specifications` | object |
 
 ---

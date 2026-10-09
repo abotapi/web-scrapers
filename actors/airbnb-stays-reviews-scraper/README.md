@@ -86,7 +86,7 @@ Full details on the [scraper page](https://apify.com/abotapi/airbnb-stays-review
 | `priceOriginalTotal` | null |
 | `pricePerNight` | float |
 | `pricePerNightListed` | float |
-| `priceCurrency` | null |
+| `priceCurrency` | string |
 | `priceCurrencyRequested` | string |
 | `priceQualifier` | string |
 | `nights` | integer |

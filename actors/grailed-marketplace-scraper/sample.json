@@ -1,8 +1,8 @@
 [
   {
-    "recordId": "84738188",
+    "recordId": "243283620",
     "rowType": "product",
-    "listingId": "73578720",
+    "listingId": "314842126",
     "url": "https://www.grailed.com/example/62560",
     "title": "Example title",
     "createdAt": "2026-01-15T10:00:00Z",
@@ -20,7 +20,7 @@
     "sold": false,
     "soldAt": null,
     "soldPrice": 0,
-    "size": "l",
+    "size": "s",
     "condition": "is_gently_used",
     "conditionLabel": "Example condition label",
     "category": "outerwear",
@@ -28,23 +28,23 @@
     "department": "menswear",
     "color": "black",
     "location": "Example location",
-    "strata": "basic",
+    "strata": "grailed",
     "styles": [
-      "basics"
+      "luxury"
     ],
     "badges": [],
     "buyNow": true,
     "makeOffer": true,
     "photoCount": 7,
     "coverPhoto": "https://media-assets.grailed.com/example/12037.jpg",
-    "shippingUs": 509,
-    "followerCount": 2,
-    "sellerId": 16673479,
+    "shippingUs": 28.55,
+    "followerCount": 20,
+    "sellerId": 7673479,
     "sellerUsername": "Example seller username",
     "sellerUrl": "https://www.grailed.com/example/36439",
     "sellerRating": 3,
     "sellerRatingCount": 4,
-    "sellerSales": 6,
+    "sellerSales": 24,
     "sellerTrusted": false,
     "scrapedAt": "2026-01-15T10:00:00Z"
   }

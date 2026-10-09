@@ -57,7 +57,7 @@ Full details on the [scraper page](https://apify.com/abotapi/cdiscount-scraper?u
 | `currency` | string |
 | `priceWithoutVAT` | float |
 | `originalPrice` | float |
-| `discountPercent` | float |
+| `discountPercent` | integer |
 | `discountAmount` | integer |
 | `promoLabel` | null |
 | `isAvailable` | boolean |

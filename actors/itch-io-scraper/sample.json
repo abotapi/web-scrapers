@@ -3,18 +3,18 @@
     "recordType": "game",
     "gameId": 9375316,
     "title": "Example title",
-    "url": "https://zieelane.itch.io/example/81213",
+    "url": "https://pepsica.itch.io/example/81213",
     "slug": "Example slug",
     "developerName": "Example developer name",
-    "developerUrl": "https://zieelane.itch.io/example/72055",
-    "developerSlug": "zieelane",
-    "developerId": 9078461,
+    "developerUrl": "https://pepsica.itch.io/example/72055",
+    "developerSlug": "pepsica",
+    "developerId": 81078461,
     "shortText": "Example short text",
     "coverImageUrl": "https://img.itch.zone/example/83966.jpg",
     "genre": "Example genre",
     "platforms": [
       "Windows",
-      "macOS"
+      "Linux"
     ],
     "rating": null,
     "ratingCount": null,

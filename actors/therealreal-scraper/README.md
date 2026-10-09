@@ -82,7 +82,7 @@ Full details on the [scraper page](https://apify.com/abotapi/therealreal-scraper
 | `quantity` | string |
 | `obsessionCount` | integer |
 | `isEditorsPick` | null |
-| `badge` | null |
+| `badge` | string |
 | `images` | list |
 | `imageCount` | integer |
 | `sourceUrl` | string |

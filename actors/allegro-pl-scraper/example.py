@@ -14,6 +14,7 @@ run = client.actor("abotapi/allegro-pl-scraper").call(
     run_input={
         "mode": "search",
         "queries": ["iphone"],
+        "maxReviews": 10,
         "maxItems": 10,
         "maxPages": 1,
         "proxy": {"useApifyProxy": True, "apifyProxyGroups": ["RESIDENTIAL"], "apifyProxyCountry": "PL"},

@@ -76,7 +76,7 @@ Full details on the [scraper page](https://apify.com/abotapi/rumah123-indonesia-
 | `bedrooms` | integer |
 | `bathrooms` | integer |
 | `carports` | integer |
-| `garages` | null |
+| `garages` | integer |
 | `floors` | integer |
 | `landSize` | integer |
 | `buildingSize` | integer |

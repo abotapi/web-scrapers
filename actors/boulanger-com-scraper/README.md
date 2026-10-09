@@ -58,7 +58,7 @@ Full details on the [scraper page](https://apify.com/abotapi/boulanger-com-scrap
 | `category` | string |
 | `breadcrumbPath` | list |
 | `url` | string |
-| `price` | integer |
+| `price` | float |
 | `currency` | string |
 | `priceExclTax` | float |
 | `originalPrice` | float |

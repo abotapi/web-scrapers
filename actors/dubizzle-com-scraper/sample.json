@@ -73,7 +73,7 @@
         "is_emirati_agent": false
       },
       "short_url": "https://dubizzle.com/example/28122",
-      "has_video_url": false,
+      "has_video_url": true,
       "can_chat": false,
       "sale_type_2": {
         "en": "Example en",
@@ -93,7 +93,7 @@
         "en": "Example en",
         "ar": "Example ar"
       },
-      "video_url": "",
+      "video_url": "https://www.youtube.com/example/13198",
       "id": 31822846,
       "price": 5692374,
       "external_id": 54690708,

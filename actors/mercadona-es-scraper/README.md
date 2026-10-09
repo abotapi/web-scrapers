@@ -59,9 +59,9 @@ Full details on the [scraper page](https://apify.com/abotapi/mercadona-es-scrape
 | `image` | string |
 | `price` | float |
 | `currency` | string |
-| `previousPrice` | float |
-| `discountAmount` | float |
-| `discountPercent` | float |
+| `previousPrice` | null |
+| `discountAmount` | null |
+| `discountPercent` | null |
 | `isOnSpecial` | boolean |
 | `unitPrice` | float |
 | `unitPriceFormat` | string |

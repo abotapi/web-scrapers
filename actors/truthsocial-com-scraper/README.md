@@ -71,9 +71,9 @@ Full details on the [scraper page](https://apify.com/abotapi/truthsocial-com-scr
 | `tags` | list |
 | `mentions` | list |
 | `poll` | null |
-| `card` | null |
-| `cardUrl` | null |
-| `cardTitle` | null |
+| `card` | object |
+| `cardUrl` | string |
+| `cardTitle` | string |
 | `authorId` | string |
 | `authorUsername` | string |
 | `authorAcct` | string |

@@ -55,13 +55,13 @@ Full details on the [scraper page](https://apify.com/abotapi/ozon-ru-scraper?utm
 | `title` | string |
 | `brand` | string |
 | `price` | integer |
-| `originalPrice` | integer |
-| `discountPercent` | integer |
+| `originalPrice` | null |
+| `discountPercent` | null |
 | `currency` | string |
-| `rating` | float |
+| `rating` | integer |
 | `reviewCount` | integer |
 | `questionCount` | integer |
-| `availability` | string |
+| `availability` | null |
 | `coverImage` | string |
 | `images` | list |
 | `description` | string |

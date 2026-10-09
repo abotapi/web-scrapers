@@ -1,7 +1,7 @@
 [
   {
     "kind": "product",
-    "id": "y21532",
+    "id": "v55331",
     "title": "Example title",
     "url": "https://www.next.co.uk/example/88942",
     "price": 44,
@@ -9,14 +9,17 @@
     "wasPrice": null,
     "priceMin": 79,
     "priceMax": 67,
-    "sizes": [],
+    "sizes": [
+      "6",
+      "89"
+    ],
     "outOfStockMarkers": 2,
     "lowStock": false,
     "images": [
       "https://xcdn.next.co.uk/example/82438.jpg",
       "https://xcdn.next.co.uk/example/50693.jpg"
     ],
-    "composition": "Example composition",
+    "composition": "Example composition: mock text standing in for the real value. Same field and type, made-up content.",
     "detailFetched": true,
     "image": "https://xcdn.next.co.uk/example/26450.jpg"
   }

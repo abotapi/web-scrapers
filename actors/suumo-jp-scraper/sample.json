@@ -1,7 +1,7 @@
 [
   {
-    "id": "047409734947",
-    "buildingId": "443951720185",
+    "id": "534599839803",
+    "buildingId": "261259958690",
     "buildingName": "Example building name",
     "buildingType": "Example building type",
     "address": "Example address",
@@ -15,11 +15,11 @@
     "floor": "Example floor",
     "rentYen": 478019,
     "rentDisplay": "Example rent display",
-    "mgmtFeeYen": 9841,
+    "mgmtFeeYen": 72841,
     "depositYen": 843098,
     "keyMoneyYen": 191040,
     "layout": "Example layout",
-    "areaSqm": 26.86,
+    "areaSqm": 26.71,
     "url": "https://suumo.jp/example/65782",
     "sourceType": "search",
     "sourceId": "00944",

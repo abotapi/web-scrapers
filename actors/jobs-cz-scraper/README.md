@@ -54,7 +54,7 @@ Full details on the [scraper page](https://apify.com/abotapi/jobs-cz-scraper?utm
 | `jobUrl` | string |
 | `title` | string |
 | `companyName` | string |
-| `companyLogo` | null |
+| `companyLogo` | string |
 | `location` | string |
 | `country` | string |
 | `arrangementTags` | list |

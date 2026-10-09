@@ -61,7 +61,7 @@ Full details on the [scraper page](https://apify.com/abotapi/businessesforsale-c
 | `labels` | list |
 | `searchCountry` | string |
 | `locationText` | string |
-| `locationDetail` | null |
+| `locationDetail` | string |
 | `country` | string |
 | `region` | string |
 | `locality` | null |
@@ -73,11 +73,11 @@ Full details on the [scraper page](https://apify.com/abotapi/businessesforsale-c
 | `revenueValue` | integer |
 | `cashFlowDisplay` | string |
 | `cashFlowValue` | integer |
-| `tenure` | string |
+| `tenure` | null |
 | `sizeSqFt` | null |
-| `tradingHours` | null |
-| `employees` | null |
-| `yearsEstablished` | null |
+| `tradingHours` | string |
+| `employees` | string |
+| `yearsEstablished` | string |
 | `description` | string |
 | `categories` | list |
 | `financials` | object |

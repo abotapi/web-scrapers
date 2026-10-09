@@ -4,7 +4,7 @@
     "placeName": "Example place name",
     "hotelId": "+1 555 0100",
     "hotelUrl": "https://www.expedia.com/example/80789",
-    "hotelOverallRating": 7.74,
+    "hotelOverallRating": 8.46,
     "hotelRatingLabel": "+1 555 0100",
     "hotelTotalReviews": 7547,
     "provider": "expedia",
@@ -15,10 +15,10 @@
       "description": null,
       "priceFrom": 617,
       "priceFormatted": "Example price formatted",
-      "priceStrikeout": null,
+      "priceStrikeout": "Example price strikeout",
       "currency": "USD",
       "images": [
-        "https://a.travel-assets.com/example/26919.jpg",
+        "https://images.trvl-media.com/example/26919.jpg",
         "https://images.trvl-media.com/example/46265.jpg"
       ],
       "checkIn": "2026-01-15",

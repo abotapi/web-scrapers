@@ -61,11 +61,11 @@ Full details on the [scraper page](https://apify.com/abotapi/mango-com-scraper?u
 | `reviews` | object |
 | `price` | float |
 | `currency` | string |
-| `originalPrice` | float |
-| `discountAmount` | integer |
-| `discountPercent` | integer |
+| `originalPrice` | null |
+| `discountAmount` | null |
+| `discountPercent` | null |
 | `isOnSpecial` | boolean |
-| `promoLabel` | string |
+| `promoLabel` | null |
 | `image` | string |
 
 ---

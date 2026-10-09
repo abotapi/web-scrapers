@@ -55,6 +55,7 @@ Full details on the [scraper page](https://apify.com/abotapi/yandex-maps-scraper
 | `address` | string |
 | `addressParts` | object |
 | `country` | string |
+| `categoryName` | string |
 | `categories` | list |
 | `phone` | string |
 | `phones` | list |

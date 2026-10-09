@@ -54,7 +54,7 @@ Full details on the [scraper page](https://apify.com/abotapi/amazon-au-scraper?u
 | `url` | string |
 | `brand` | string |
 | `price` | integer |
-| `listPrice` | integer |
+| `listPrice` | null |
 | `currency` | string |
 | `rating` | float |
 | `reviewsCount` | integer |
@@ -75,10 +75,8 @@ Full details on the [scraper page](https://apify.com/abotapi/amazon-au-scraper?u
 | `images` | list |
 | `thumbnailImage` | string |
 | `sponsored` | boolean |
-| `promoLabel` | string |
+| `promoLabel` | null |
 | `searchMode` | string |
-| `savings` | integer |
-| `savingsPercent` | integer |
 | `isOnSpecial` | boolean |
 
 ---

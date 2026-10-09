@@ -33,7 +33,7 @@
         "percentage": 1
       }
     ],
-    "latestPositiveComment": "",
+    "latestPositiveComment": "Example latest positive comment",
     "aiReviewHighlights": [
       {
         "text": "Example text",
@@ -80,6 +80,6 @@
     "newlyRenovated": false,
     "priceAmount": 649,
     "priceCurrency": "USD",
-    "priceUsd": 217.32
+    "priceUsd": 239.84
   }
 ]

@@ -1,9 +1,9 @@
 [
   {
-    "id": "564gzvjdnpt0",
-    "legacy_id": "022195118",
+    "id": "7799rfx1e64s",
+    "legacy_id": "147330870",
     "title": "Example title",
-    "headline": "Example headline",
+    "headline": "Example headline: mock text standing in for the real value. Same field and type, made-up content.",
     "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
     "price": "Example price",
     "price_numeric": 151672,
@@ -12,11 +12,10 @@
     "property_type": "APARTMENT",
     "property_type_label": "Appartement",
     "rooms": 9,
-    "bedrooms": 7,
-    "area_m2": 31,
+    "area_m2": 16.83,
     "floor": "Example floor",
     "city": "Example city",
-    "zipcode": "71937",
+    "zipcode": "26009",
     "district": "Example district",
     "country": "FRA",
     "transport": [
@@ -35,14 +34,18 @@
       "https://cdnihddipa.cloudimg.io/example/97918.jpg",
       "https://cdnihddipa.cloudimg.io/example/44130.jpg"
     ],
-    "image_count": 44,
+    "floorplans": [
+      "https://cdnihddipa.cloudimg.io/example/94827.jpg",
+      "https://cdnihddipa.cloudimg.io/example/25805.jpg"
+    ],
+    "image_count": 8,
     "url": "https://www.seloger.com/example/82834",
     "portal": "seloger",
     "created_at": "2026-01-15T10:00:00Z",
     "updated_at": "2026-01-15T10:00:00Z",
     "source": "seloger.com",
-    "latitude": 42.53,
-    "longitude": 2.14,
+    "latitude": 42.54,
+    "longitude": 2.16,
     "coord_precision": "cluster"
   }
 ]

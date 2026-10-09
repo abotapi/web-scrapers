@@ -70,12 +70,12 @@ Full details on the [scraper page](https://apify.com/abotapi/seek-scraper?utm_so
 | `companyProfileId` | integer |
 | `companyOverview` | string |
 | `companyIndustry` | string |
-| `companySize` | null |
+| `companySize` | string |
 | `companyWebsite` | string |
 | `companySpecialities` | list |
 | `companyPrimaryLocation` | string |
 | `companyLogo` | string |
-| `companyCoverImage` | null |
+| `companyCoverImage` | string |
 | `companyRating` | null |
 | `companyReviewCount` | null |
 | `companySalaryRating` | null |
