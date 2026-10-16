@@ -57,7 +57,7 @@ Full details on the [scraper page](https://apify.com/abotapi/finn-no-jobs-scrape
 | `title` | string |
 | `subtitle` | string |
 | `employer` | string |
-| `employerUrl` | null |
+| `employerUrl` | string |
 | `employerHomepage` | null |
 | `employerLogo` | string |
 | `streetAddress` | string |

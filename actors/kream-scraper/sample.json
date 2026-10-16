@@ -1,6 +1,6 @@
 [
   {
-    "productId": 55869,
+    "productId": 69,
     "url": "https://kream.co.kr/example/12025",
     "productName": "Example product name",
     "productNameKo": "Example product name ko",
@@ -25,10 +25,10 @@
     "marketPrice": 635836,
     "lastSalePrice": 724548,
     "totalSales": 884229,
-    "changeValue": -9320,
-    "changePercentage": -9.24,
+    "changeValue": -45320,
+    "changePercentage": -10.54,
     "premium": -57818,
-    "premiumPercentage": -23.15,
+    "premiumPercentage": -19.63,
     "hasImmediateDelivery": true,
     "wishCount": 630570,
     "reviewCount": 66335,
@@ -36,21 +36,21 @@
     "isActive": true,
     "isTradable": true,
     "sizes": [
-      "623",
-      "736"
+      "948",
+      "881"
     ],
     "sizeOptions": [
       {
         "id": 4431849,
-        "key": "949",
-        "name": "625",
-        "displayName": "370"
+        "key": "568",
+        "name": "917",
+        "displayName": "887"
       },
       {
         "id": 5479503,
-        "key": "545",
-        "name": "487",
-        "displayName": "035"
+        "key": "674",
+        "name": "505",
+        "displayName": "018"
       }
     ]
   }

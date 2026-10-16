@@ -36,6 +36,7 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~kaufland-de-scraper/run-s
 | `fetchDetails` | boolean | Fetch full product detail |
 | `fetchReviews` | boolean | Fetch reviews |
 | `maxReviewsPerProduct` | integer | Max reviews per product |
+| `keywordReviews` | string | Review keyword filter |
 | `maxPages` | integer | Max pages per search |
 | `maxItems` | integer | Max products total |
 | `proxy` | object | Proxy configuration |

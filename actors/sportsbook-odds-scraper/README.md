@@ -61,7 +61,7 @@ Full details on the [scraper page](https://apify.com/abotapi/sportsbook-odds-scr
 | `scoreAway` | null |
 | `isLive` | boolean |
 | `oddsHome` | float |
-| `oddsDraw` | float |
+| `oddsDraw` | integer |
 | `oddsAway` | float |
 | `totals` | list |
 | `markets` | list |

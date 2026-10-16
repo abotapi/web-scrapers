@@ -52,8 +52,8 @@ Full details on the [scraper page](https://apify.com/abotapi/resq-club-surplus-f
 | `url` | string |
 | `offerName` | string |
 | `offerDescription` | string |
-| `price` | float |
-| `currentPrice` | float |
+| `price` | integer |
+| `currentPrice` | integer |
 | `priceMinorUnits` | integer |
 | `currentPriceMinorUnits` | integer |
 | `currency` | string |

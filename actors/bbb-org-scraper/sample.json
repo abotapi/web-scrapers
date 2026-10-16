@@ -22,6 +22,17 @@
     "website": "https://www.tingosplumbing.com/example/45970",
     "ownerName": "Example owner name",
     "ownerTitle": "Example owner title",
+    "contacts": [
+      {
+        "name": "Example name",
+        "title": "Example title",
+        "isPrincipal": true,
+        "isManagement": true
+      }
+    ],
+    "additionalWebsites": [
+      "https://www.yelp.com/example/67882"
+    ],
     "streetAddress": "Example street address",
     "addressLine2": null,
     "city": "Example city",
@@ -34,30 +45,13 @@
     "serviceAreas": [
       "Example service areas"
     ],
+    "serviceAreaDescription": null,
     "yearsInBusiness": 2,
     "businessStartDate": "2026-01-15",
     "incorporatedDate": "2026-01-15",
     "businessType": "Corporation",
     "entityType": "Corporation",
     "numberOfEmployees": null,
-    "isOutOfBusiness": false,
-    "description": "Example description",
-    "paymentMethods": null,
-    "licenses": [
-      {
-        "licenseNumber": "7938367",
-        "expirationDate": null,
-        "notes": null,
-        "agencyName": "Example agency name",
-        "agencyPhone": "+1 555 0100"
-      },
-      {
-        "licenseNumber": "6109763",
-        "expirationDate": "2026-01-15",
-        "notes": null,
-        "agencyName": "Example agency name",
-        "agencyPhone": "+1 555 0100"
-      }
-    ]
+    "isOutOfBusiness": false
   }
 ]

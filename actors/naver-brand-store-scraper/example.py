@@ -16,6 +16,9 @@ run = client.actor("abotapi/naver-brand-store-scraper").call(
         "brandStores": ["marschoco"],
         "sort": "popular",
         "maxItems": 10,
+        "maxReviewsPerProduct": 10,
+        "reviewSort": "RANKING",
+        "reviewType": "ALL",
         "proxy": {"useApifyProxy": True, "apifyProxyGroups": ["RESIDENTIAL"], "apifyProxyCountry": "KR"},
     },
     logger=None,  # don't stream the run log to your console

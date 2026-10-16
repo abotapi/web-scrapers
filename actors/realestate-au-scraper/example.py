@@ -20,6 +20,7 @@ run = client.actor("abotapi/realestate-au-scraper").call(
         "maxListings": 10,
         "maxPages": 1,
         "proxyConfiguration": {"useApifyProxy": True, "apifyProxyGroups": ["RESIDENTIAL"], "apifyProxyCountry": "AU"},
+        "maxItems": 10,
     },
     logger=None,  # don't stream the run log to your console
 )

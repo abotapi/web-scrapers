@@ -1,4 +1,4 @@
-"""Yandex SERP Scraper: minimal example. Docs: https://apify.com/abotapi/yandex-serp-scraper
+"""Yandex Search Scraper: minimal example. Docs: https://apify.com/abotapi/yandex-serp-scraper
 
 pip install "apify-client>=3"
 APIFY_TOKEN=<your token> python example.py

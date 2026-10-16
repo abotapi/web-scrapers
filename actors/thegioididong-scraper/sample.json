@@ -1,17 +1,17 @@
 [
   {
-    "code": "541356",
-    "productCode": "2156159640589",
-    "name": "Example name: mock text standing in for the real value. Same field and type, made-up content.",
+    "code": "599744",
+    "productCode": "1847018356719",
+    "name": "Example name",
     "url": "https://www.thegioididong.com/example/8691",
-    "brand": "Example brand",
+    "brand": "Mipow",
     "category": "Example category",
     "color": "Example color",
-    "price": 99634,
+    "price": 729634,
     "originalPrice": 709660,
     "discount": "Example discount",
     "discountPercent": 74,
-    "savings": 16855,
+    "savings": 556855,
     "isOnSpecial": true,
     "promoGift": null,
     "installmentOffer": null,
@@ -20,22 +20,22 @@
     "label": null,
     "searchMode": "search",
     "source": "Example source",
-    "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
+    "description": "Example description",
     "rating": 6,
-    "reviewCount": 7060,
+    "reviewCount": 40,
     "ratingBreakdown": {
       "bestRating": 3,
       "worstRating": 6
     },
-    "sku": "736535",
+    "sku": "320382",
     "categoryPath": [
-      "Example category path",
+      "Example category path: mock text standing in for the real value. Same field and type, made-up content.",
       "Example category path"
     ],
-    "productId": "98",
+    "productId": "3142",
     "images": [
-      "https://cdnv2.tgdd.vn/example/58599.jpg",
-      "https://cdnv2.tgdd.vn/example/14818.jpg"
+      "https://cdn.tgdd.vn/example/58599.jpg",
+      "https://cdn.tgdd.vn/example/14818.jpg"
     ]
   }
 ]

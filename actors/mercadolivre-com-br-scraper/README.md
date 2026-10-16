@@ -38,12 +38,14 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~mercadolivre-com-br-scrap
 | `bestSellersOnly` | boolean | Top-rated sellers only |
 | `minDiscountPercent` | integer | Minimum discount (%) |
 | `interestFreeInstallments` | boolean | Interest-free instalments only |
+| `includeSponsored` | boolean | Include sponsored results |
 | `sortBy` | string | Sort by |
 | `fetchDetails` | boolean | Fetch full details |
 | `fetchReviews` | boolean | Fetch buyer opinions |
 | `maxReviewsPerProduct` | integer | Max opinions per product |
 | `maxItems` | integer | Max products |
 | `maxPages` | integer | Max result pages per search |
+| `ofertasFilter` | string | Ofertas filter (no effect) |
 | `proxy` | object | Proxy configuration |
 
 `*` required
@@ -57,6 +59,14 @@ Full details on the [scraper page](https://apify.com/abotapi/mercadolivre-com-br
 | Field | Type |
 | --- | --- |
 | `itemId` | string |
+| `userProductId` | string |
+| `variationId` | string |
+| `verticalId` | string |
+| `sponsored` | boolean |
+| `resultType` | string |
+| `highlight` | string |
+| `promotions` | list |
+| `pricePerQuantity` | boolean |
 | `catalogProductId` | string |
 | `title` | string |
 | `url` | string |
@@ -64,7 +74,7 @@ Full details on the [scraper page](https://apify.com/abotapi/mercadolivre-com-br
 | `domainId` | string |
 | `sellerName` | string |
 | `officialStore` | boolean |
-| `price` | integer |
+| `price` | float |
 | `originalPrice` | integer |
 | `discountPercent` | integer |
 | `currency` | string |
@@ -75,9 +85,19 @@ Full details on the [scraper page](https://apify.com/abotapi/mercadolivre-com-br
 | `soldQuantity` | integer |
 | `rating` | float |
 | `images` | list |
+| `searchPosition` | integer |
+| `totalResults` | integer |
+| `searchKeyword` | string |
 | `scrapedAt` | string |
-| `image` | string |
-| `installmentsText` | string |
+| `brand` | string |
+| `model` | string |
+| `condition` | string |
+| `breadcrumb` | list |
+| `description` | string |
+| `attributes` | list |
+| `variants` | list |
+| `availableQuantity` | integer |
+| `stockStatus` | string |
 
 ---
 

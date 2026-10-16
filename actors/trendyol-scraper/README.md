@@ -17,7 +17,7 @@ python example.py
 ```bash
 curl -s -X POST "https://api.apify.com/v2/acts/abotapi~trendyol-scraper/run-sync-get-dataset-items?token=$APIFY_TOKEN" \
   -H 'Content-Type: application/json' \
-  -d '{"mode": "search", "queries": ["iphone"], "sortBy": "BEST_SCORE", "maxReviewsPerProduct": 10, "minRating": "0", "maxPages": 1, "maxListings": 10, "proxyConfiguration": {"useApifyProxy": true, "apifyProxyGroups": ["RESIDENTIAL"], "apifyProxyCountry": "TR"}}'
+  -d '{"mode": "search", "queries": ["iphone"], "sortBy": "BEST_SCORE", "maxReviewsPerProduct": 10, "reviewSort": "recommended", "minRating": "0", "maxPages": 1, "maxListings": 10, "proxyConfiguration": {"useApifyProxy": true, "apifyProxyGroups": ["RESIDENTIAL"], "apifyProxyCountry": "TR"}}'
 ```
 
 ## Inputs
@@ -31,6 +31,7 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~trendyol-scraper/run-sync
 | `urls` | array | Trendyol URLs |
 | `productInputs` | array | Products to fetch reviews for |
 | `maxReviewsPerProduct` | integer | Max reviews per product (reviews mode  |
+| `reviewSort` | string | Review order |
 | `minPrice` | integer | Min price |
 | `maxPrice` | integer | Max price |
 | `minRating` | string | Minimum star rating |
@@ -38,6 +39,9 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~trendyol-scraper/run-sync
 | `fastDeliveryOnly` | boolean | Fast delivery only |
 | `officialSellerOnly` | boolean | Official seller only |
 | `couponsOnly` | boolean | Has collectable coupon only |
+| `lowestPriceDays` | array | Lowest price within N days |
+| `influencerPreferredOnly` | boolean | Influencer-preferred only |
+| `specialOffersOnly` | boolean | Discounted listings only |
 | `inStockOnly` | boolean | In stock only |
 | `maxPages` | integer | Max pages per query / URL |
 | `maxListings` | integer | Max products total |
@@ -88,6 +92,7 @@ Full details on the [scraper page](https://apify.com/abotapi/trendyol-scraper?ut
 | `hasCodePromo` | boolean |
 | `hasFlashSale` | boolean |
 | `isInfluencerPreferred` | boolean |
+| `lowestPriceDays` | integer |
 | `hasReviewPhoto` | boolean |
 | `dealBadge` | null |
 | `stripBadge` | null |
@@ -96,7 +101,6 @@ Full details on the [scraper page](https://apify.com/abotapi/trendyol-scraper?ut
 | `badges` | list |
 | `socialProof` | list |
 | `reviews` | null |
-| `qna` | null |
 
 ---
 

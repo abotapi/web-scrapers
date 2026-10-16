@@ -5,8 +5,8 @@
     "address": "Example address",
     "listing_type": "sale",
     "property_type": "Landed",
-    "property_type_group": "S",
-    "price": 2387374,
+    "property_type_group": "T",
+    "price": 587374,
     "price_formatted": "Example price_formatted",
     "currency": "MYR",
     "price_psf": "Example price_psf",
@@ -18,10 +18,10 @@
     "is_developer_listing": false,
     "agent_name": "Example agent_name",
     "agent_id": 11737528,
-    "agent_license": "ren91948",
-    "state": "Penang",
-    "region": "Penang",
-    "city": "Gelugor",
+    "agent_license": "ren18840",
+    "state": "Johor",
+    "region": "Johor",
+    "city": "Example city",
     "badges": [
       "Example badges",
       "Freehold"
@@ -33,27 +33,26 @@
       "https://my1-cdn.pgimgs.com/example/90593.jpg",
       "https://my1-cdn.pgimgs.com/example/6221.jpg"
     ],
-    "image_count": 30,
+    "image_count": 3,
     "url": "https://www.propertyguru.com.my/example/33017",
     "status": "ACT",
     "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
     "headline": "Example headline: mock text standing in for the real value. Same field and type, made-up content.",
-    "latitude": 4.29,
-    "longitude": 105.31,
-    "postal_code": "12750",
+    "latitude": 1.16,
+    "longitude": 108.83,
+    "postal_code": "60859",
     "project_name": "Example project_name",
-    "project_id": "id68584657",
-    "project_legacy_id": 70204,
-    "project_status_code": "Example project_status_code",
-    "total_units": 53
+    "project_id": 468584657,
+    "tenure_detail": "Example tenure_detail",
+    "property_type_text": "Example property_type_text",
+    "furnishing": "Example furnishing"
   },
   {
     "id": 293896177,
     "title": "Example title",
     "address": "Example address",
     "listing_type": "sale",
-    "property_type": "Landed",
-    "property_type_group": "T",
+    "property_type_group": "N",
     "price": 0,
     "price_formatted": "Example price_formatted",
     "currency": "MYR",
@@ -70,7 +69,7 @@
     "city": "Example city",
     "badges": [
       "Freehold",
-      "Example badges"
+      "Apartment"
     ],
     "posted_date": "Example posted_date",
     "posted_unix": 1252560868,
@@ -79,28 +78,30 @@
       "https://my1-cdn.pgimgs.com/example/32853.jpg",
       "https://my1-cdn.pgimgs.com/example/54812.jpg"
     ],
-    "image_count": 3,
+    "image_count": 39,
     "url": "https://www.propertyguru.com.my/example/89596",
     "status": "ACT",
     "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
     "headline": "Example headline",
-    "latitude": 3.56,
-    "longitude": 98.46,
+    "latitude": 3.49,
+    "longitude": 98.53,
     "nearby_schools": [
       {
-        "id": "52301",
+        "id": "91337",
         "name": "Example name"
       },
       {
-        "id": "8545",
+        "id": "86528",
         "name": "Example name"
       }
     ],
     "facilities": [
+      "Example facilities",
       "Example facilities"
     ],
     "highlights": [
-      "Example highlights"
+      "Example highlights: mock text standing in for the real value. Same field and type, made-up content.",
+      "Example highlights: mock text standing in for the real value. Same field and type, made-up content."
     ],
     "images_full": [
       "https://my1-cdn.pgimgs.com/example/8582.jpg",

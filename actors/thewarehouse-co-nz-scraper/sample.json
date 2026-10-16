@@ -1,17 +1,17 @@
 [
   {
     "url": "https://www.thewarehouse.co.nz/example/3629",
-    "productId": "r4075024",
-    "sku": "r8422661",
+    "productId": "r0326792",
+    "sku": "r9793356",
     "gtin": null,
-    "mpn": "ta6222-sa",
+    "mpn": "ta8906-sa",
     "title": "Example title",
     "brand": "Example brand",
     "description": "Example description",
     "category": null,
     "breadcrumbs": [],
-    "price": 46.19,
-    "priceMax": 69.29,
+    "price": 16.79,
+    "priceMax": 25.19,
     "priceText": "Example price text",
     "currency": "NZD",
     "availability": "Example availability",
@@ -21,7 +21,7 @@
       "https://www.thewarehouse.co.nz/example/22250.jpg"
     ],
     "imageCount": 2,
-    "ratingValue": 1.77,
+    "ratingValue": 3.27,
     "ratingCount": null,
     "reviewCount": null,
     "categoryPath": [
@@ -43,12 +43,12 @@
       "@id": "https://www.thewarehouse.co.nz/example/85286",
       "name": "Example name",
       "description": "Example description",
-      "sku": "r8422661",
+      "sku": "r9793356",
       "brand": {
         "@type": "Brand",
         "name": "Example name"
       },
-      "mpn": "ta6222-sa",
+      "mpn": "ta8906-sa",
       "image": [
         "https://www.thewarehouse.co.nz/example/47559.jpg"
       ],
@@ -57,10 +57,10 @@
         "url": "https://www.thewarehouse.co.nz/example/3629",
         "availability": "http://schema.org/example/52799",
         "priceCurrency": "NZD",
-        "price": "28.97"
+        "price": "84.85"
       },
       "gtin13": [
-        "7129091937743"
+        "2177395301874"
       ]
     },
     "isOnSpecial": false,

@@ -13,8 +13,8 @@ client = ApifyClient(os.environ["APIFY_TOKEN"])
 run = client.actor("abotapi/domain-com-au-scraper").call(
     run_input={
         "mode": "search",
-        "locations": ["Sydney NSW 2000"],
         "sortBy": "default",
+        "locations": ["Sydney NSW 2000"],
         "listingType": "buy",
         "maxListings": 10,
         "maxPages": 1,

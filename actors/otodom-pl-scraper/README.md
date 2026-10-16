@@ -35,6 +35,9 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~otodom-pl-scraper/run-syn
 | `maxArea` | integer | Max area (m²) |
 | `minRooms` | integer | Min rooms |
 | `maxRooms` | integer | Max rooms |
+| `buildYear` | integer | Min build year |
+| `postedDate` | string | Posted within |
+| `districts` | array | Districts |
 | `sortBy` | string | Sort order |
 | `urls` | array | Search URLs (URL mode) |
 | `maxPages` | integer | Max pages per search |
@@ -60,8 +63,8 @@ Full details on the [scraper page](https://apify.com/abotapi/otodom-pl-scraper?u
 | `priceTotal` | integer |
 | `priceCurrency` | string |
 | `pricePerSquareMeter` | float |
-| `rentPrice` | integer |
-| `rentAdditional` | integer |
+| `rentPrice` | null |
+| `rentAdditional` | null |
 | `deposit` | null |
 | `areaInSquareMeters` | integer |
 | `rooms` | integer |
@@ -70,14 +73,21 @@ Full details on the [scraper page](https://apify.com/abotapi/otodom-pl-scraper?u
 | `buildYear` | integer |
 | `marketType` | string |
 | `ownership` | string |
-| `buildingType` | string |
+| `buildingType` | null |
 | `buildingMaterial` | null |
 | `heating` | string |
-| `windowsType` | string |
-| `city` | null |
-| `province` | null |
+| `condition` | null |
+| `extras` | list |
+| `images` | list |
+| `dateModified` | string |
+| `agencyUrl` | null |
+| `agencyLicenseNumber` | null |
+| `subdistrict` | null |
+| `windowsType` | null |
+| `city` | string |
+| `province` | string |
 | `district` | string |
-| `street` | string |
+| `street` | null |
 | `postalCode` | null |
 | `latitude` | float |
 | `longitude` | float |
@@ -85,13 +95,6 @@ Full details on the [scraper page](https://apify.com/abotapi/otodom-pl-scraper?u
 | `advertiserType` | string |
 | `contactName` | string |
 | `phone` | string |
-| `contactDetails` | object |
-| `agency` | null |
-| `owner` | object |
-| `referenceId` | string |
-| `description` | string |
-| `features` | list |
-| `isPromoted` | boolean |
 
 ---
 

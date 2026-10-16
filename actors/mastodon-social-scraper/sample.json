@@ -1,16 +1,16 @@
 [
   {
     "recordType": "profile",
-    "id": "42487",
-    "acct": "user33@example.com",
+    "id": "476996",
+    "acct": "warandpeas",
     "username": "Example username",
     "displayName": "Example display name",
-    "bio": "Example bio: mock text standing in for the real value. Same field and type, made-up content.",
-    "bioHtml": "Example bio html: mock text standing in for the real value. Same field and type, made-up content.",
-    "followersCount": 54613,
-    "followingCount": 630,
-    "statusesCount": 25436,
-    "url": "https://framapiaf.org/example/20154",
+    "bio": "Example bio",
+    "bioHtml": "Example bio html",
+    "followersCount": 864613,
+    "followingCount": 90,
+    "statusesCount": 7436,
+    "url": "https://mastodon.social/example/20154",
     "avatar": "https://files.mastodon.social/example/8815.jpg",
     "header": "https://files.mastodon.social/example/28608",
     "bot": false,
@@ -24,37 +24,43 @@
         "name": "Example name",
         "value": "Example value: mock text standing in for the real value. Same field and type, made-up content.",
         "verified_at": "2026-01-15T10:00:00Z"
+      },
+      {
+        "name": "Example name",
+        "value": "Example value: mock text standing in for the real value. Same field and type, made-up content.",
+        "verified_at": null
       }
     ],
     "emojis": [],
     "account": {
-      "id": "42487",
+      "id": "476996",
       "username": "Example username",
-      "acct": "user33@example.com",
+      "acct": "warandpeas",
       "display_name": "Example display_name",
       "locked": false,
       "bot": false,
       "discoverable": true,
-      "indexable": true,
+      "indexable": false,
       "group": false,
       "created_at": "2026-01-15T10:00:00Z",
-      "note": "Example note: mock text standing in for the real value. Same field and type, made-up content.",
-      "url": "https://framapiaf.org/example/20154",
-      "uri": "https://framapiaf.org/example/67520",
+      "note": "Example note",
+      "url": "https://mastodon.social/example/20154",
+      "uri": "https://mastodon.social/example/67520",
       "avatar": "https://files.mastodon.social/example/8815.jpg",
       "avatar_static": "https://files.mastodon.social/example/35191.jpg",
       "avatar_description": "",
       "header": "https://files.mastodon.social/example/28608",
       "header_static": "https://files.mastodon.social/example/9377",
       "header_description": "",
-      "followers_count": 52785,
-      "following_count": 461,
-      "statuses_count": 99203,
+      "followers_count": 682785,
+      "following_count": 11,
+      "statuses_count": 9203,
       "last_status_at": "2026-01-15",
       "hide_collections": false,
       "show_media": true,
       "show_media_replies": true,
       "show_featured": true,
+      "noindex": false,
       "feature_approval": {
         "automatic": [
           "public"
@@ -63,79 +69,79 @@
         "current_user": "Example current_user"
       },
       "emojis": [],
+      "roles": [],
       "fields": [
         {
           "name": "Example name",
           "value": "Example value: mock text standing in for the real value. Same field and type, made-up content.",
           "verified_at": "2026-01-15T10:00:00Z"
+        },
+        {
+          "name": "Example name",
+          "value": "Example value: mock text standing in for the real value. Same field and type, made-up content.",
+          "verified_at": null
         }
       ]
     },
     "reviews": [
       {
         "recordType": "review",
-        "id": "608832016238704123",
+        "id": "468481034660056421",
         "reviewType": "post",
         "isReblog": false,
         "rebloggedByAcct": null,
-        "contentText": "Example content text",
-        "contentHtml": "user0@example.com",
+        "contentText": "Example content text: mock text standing in for the real value. Same field and type, made-up content.",
+        "contentHtml": "Example content html: mock text standing in for the real value. Same field and type, made-up content.",
         "createdAt": "2026-01-15T10:00:00Z",
         "editedAt": null,
-        "language": "de",
-        "url": "https://framapiaf.org/example/20154",
-        "repliesCount": 6,
-        "reblogsCount": 0,
-        "favouritesCount": 3,
-        "inReplyToId": "819027188577812520",
-        "inReplyToAccountId": "736529065668656216",
+        "language": "en",
+        "url": "https://mastodon.social/example/20154",
+        "repliesCount": 0,
+        "reblogsCount": 80,
+        "favouritesCount": 12,
+        "inReplyToId": "289486283579708840",
+        "inReplyToAccountId": "959035",
         "sensitive": false,
         "spoilerText": "",
         "visibility": "public",
         "mediaAttachments": [],
         "tags": [],
-        "mentions": [
-          {
-            "id": "448677361503141511",
-            "username": "Example username",
-            "url": "https://infosec.exchange/example/20154",
-            "acct": "user33@example.com"
-          }
-        ],
-        "cardUrl": null,
-        "cardTitle": null,
-        "authorId": "05874",
-        "authorAcct": "user90@example.com",
+        "mentions": [],
+        "cardUrl": "https://www.patreon.com/example/20036",
+        "cardTitle": "Example card title",
+        "authorId": "456633",
+        "authorAcct": "Example author acct",
         "authorDisplayName": "Example author display name",
-        "authorUrl": "https://framapiaf.org/example/32062",
+        "authorUrl": "https://mastodon.social/example/32062",
         "account": {
-          "id": "42487",
+          "id": "476996",
           "username": "Example username",
-          "acct": "user33@example.com",
+          "acct": "warandpeas",
           "display_name": "Example display_name",
           "locked": false,
           "bot": false,
           "discoverable": true,
-          "indexable": true,
+          "indexable": false,
           "group": false,
           "created_at": "2026-01-15T10:00:00Z",
-          "note": "Example note: mock text standing in for the real value. Same field and type, made-up content.",
-          "url": "https://framapiaf.org/example/20154",
-          "uri": "https://framapiaf.org/example/67520",
+          "note": "Example note",
+          "url": "https://mastodon.social/example/20154",
+          "uri": "https://mastodon.social/example/67520",
           "avatar": "https://files.mastodon.social/example/8815.jpg",
           "avatar_static": "https://files.mastodon.social/example/35191.jpg",
           "avatar_description": "",
           "header": "https://files.mastodon.social/example/28608",
           "header_static": "https://files.mastodon.social/example/9377",
           "header_description": "",
-          "followers_count": 52785,
-          "following_count": 461,
-          "statuses_count": 99203,
+          "followers_count": 682785,
+          "following_count": 11,
+          "statuses_count": 9203,
           "last_status_at": "2026-01-15",
           "hide_collections": false,
           "show_media": true,
           "show_media_replies": true,
           "show_featured": true,
+          "noindex": false,
           "feature_approval": {
             "automatic": [
               "public"
@@ -144,79 +150,105 @@
             "current_user": "Example current_user"
           },
           "emojis": [],
+          "roles": [],
           "fields": [
             {
               "name": "Example name",
               "value": "Example value: mock text standing in for the real value. Same field and type, made-up content.",
               "verified_at": "2026-01-15T10:00:00Z"
+            },
+            {
+              "name": "Example name",
+              "value": "Example value: mock text standing in for the real value. Same field and type, made-up content.",
+              "verified_at": null
             }
           ]
         }
       },
       {
         "recordType": "review",
-        "id": "512058403215907966",
+        "id": "544545795677954064",
         "reviewType": "post",
         "isReblog": false,
         "rebloggedByAcct": null,
-        "contentText": "user19@example.com",
-        "contentHtml": "user55@example.com",
+        "contentText": "",
+        "contentHtml": "",
         "createdAt": "2026-01-15T10:00:00Z",
         "editedAt": null,
         "language": "en",
-        "url": "https://framapiaf.org/example/44102",
-        "repliesCount": 0,
-        "reblogsCount": 7,
-        "favouritesCount": 6,
-        "inReplyToId": "148377576722676974",
-        "inReplyToAccountId": "668885",
+        "url": "https://mastodon.social/example/44102",
+        "repliesCount": 1,
+        "reblogsCount": 367,
+        "favouritesCount": 870,
+        "inReplyToId": null,
+        "inReplyToAccountId": null,
         "sensitive": false,
         "spoilerText": "",
         "visibility": "public",
-        "mediaAttachments": [],
-        "tags": [],
-        "mentions": [
+        "mediaAttachments": [
           {
-            "id": "977682",
-            "username": "Example username",
-            "url": "https://chaos.social/example/44102",
-            "acct": "user23@example.com"
+            "id": "987768843557769791",
+            "type": "image",
+            "url": "https://files.mastodon.social/example/44102",
+            "preview_url": "https://files.mastodon.social/example/79718",
+            "remote_url": null,
+            "preview_remote_url": null,
+            "text_url": null,
+            "meta": {
+              "original": {
+                "width": 1374,
+                "height": 3475,
+                "size": "id96522917",
+                "aspect": 0.9
+              },
+              "small": {
+                "width": 474,
+                "height": 775,
+                "size": "id96522917",
+                "aspect": 0.9
+              }
+            },
+            "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
+            "blurhash": "Example blurhash"
           }
         ],
+        "tags": [],
+        "mentions": [],
         "cardUrl": null,
         "cardTitle": null,
-        "authorId": "84889",
-        "authorAcct": "user47@example.com",
+        "authorId": "573441",
+        "authorAcct": "Example author acct",
         "authorDisplayName": "Example author display name",
-        "authorUrl": "https://framapiaf.org/example/91791",
+        "authorUrl": "https://mastodon.social/example/91791",
         "account": {
-          "id": "43297",
+          "id": "469719",
           "username": "Example username",
-          "acct": "user23@example.com",
+          "acct": "warandpeas",
           "display_name": "Example display_name",
           "locked": false,
           "bot": false,
           "discoverable": true,
-          "indexable": true,
+          "indexable": false,
           "group": false,
           "created_at": "2026-01-15T10:00:00Z",
-          "note": "Example note: mock text standing in for the real value. Same field and type, made-up content.",
-          "url": "https://framapiaf.org/example/44102",
-          "uri": "https://framapiaf.org/example/35569",
+          "note": "Example note",
+          "url": "https://mastodon.social/example/44102",
+          "uri": "https://mastodon.social/example/35569",
           "avatar": "https://files.mastodon.social/example/58364.jpg",
           "avatar_static": "https://files.mastodon.social/example/79596.jpg",
           "avatar_description": "",
           "header": "https://files.mastodon.social/example/90887",
           "header_static": "https://files.mastodon.social/example/14520",
           "header_description": "",
-          "followers_count": 41764,
-          "following_count": 692,
-          "statuses_count": 18107,
+          "followers_count": 761764,
+          "following_count": 62,
+          "statuses_count": 9107,
           "last_status_at": "2026-01-15",
           "hide_collections": false,
           "show_media": true,
           "show_media_replies": true,
           "show_featured": true,
+          "noindex": false,
           "feature_approval": {
             "automatic": [
               "public"
@@ -225,16 +257,22 @@
             "current_user": "Example current_user"
           },
           "emojis": [],
+          "roles": [],
           "fields": [
             {
               "name": "Example name",
               "value": "Example value: mock text standing in for the real value. Same field and type, made-up content.",
               "verified_at": "2026-01-15T10:00:00Z"
+            },
+            {
+              "name": "Example name",
+              "value": "Example value: mock text standing in for the real value. Same field and type, made-up content.",
+              "verified_at": null
             }
           ]
         }
       }
     ],
-    "reviewCount": 7
+    "reviewCount": 97
   }
 ]

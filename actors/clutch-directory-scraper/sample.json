@@ -1,84 +1,94 @@
 [
   {
-    "id": "69440",
+    "id": "80360",
     "kind": "company",
     "type": "company",
-    "slug": "instinctools",
+    "slug": "Example slug",
     "name": "Example name",
     "title": "Example title",
     "url": "https://clutch.co/example/61266",
     "clutchUrl": "https://clutch.co/example/17253",
     "profileUrl": "https://clutch.co/example/36028",
     "profileLink": "https://clutch.co/example/4517",
-    "logo": null,
-    "logoUrl": null,
-    "website": "https://www.instinctools.com/example/8043",
-    "websiteUrl": "https://www.instinctools.com/example/96469",
-    "tagline": null,
-    "description": "user10@example.com",
-    "summary": "user66@example.com",
+    "logo": "https://img.shgstatic.com/example/14944.jpg",
+    "logoUrl": "https://img.shgstatic.com/example/24369.jpg",
+    "website": "https://imaginovation.net/example/8043",
+    "websiteUrl": "https://imaginovation.net/example/96469",
+    "tagline": "Example tagline",
+    "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
+    "summary": "Example summary: mock text standing in for the real value. Same field and type, made-up content.",
     "quote": null,
-    "rating": 5.97,
+    "rating": 6.22,
     "reviewCount": 58,
     "numberOfProjects": null,
-    "minProjectSize": null,
-    "hourlyRate": null,
-    "employeeCount": null,
-    "employeesCount": null,
-    "priceRange": null,
-    "location": null,
-    "services": [],
-    "tags": [],
-    "verified": false,
-    "isVerified": false,
-    "isSponsor": false,
-    "position": null,
+    "minProjectSize": "Example min project size",
+    "hourlyRate": "Example hourly rate",
+    "employeeCount": "38 - 29",
+    "employeesCount": "63 - 41",
+    "priceRange": "Example price range",
+    "location": "Example location",
+    "services": [
+      "Example services",
+      "Example services"
+    ],
+    "tags": [
+      "Example tags",
+      "Example tags"
+    ],
+    "verified": true,
+    "isVerified": true,
+    "isSponsor": true,
+    "position": 7,
     "company": {
-      "id": "69440",
+      "id": "80360",
       "title": "Example title",
       "url": "https://clutch.co/example/61266"
     },
     "branding": {
-      "logotype": null,
-      "verified": false
+      "logotype": "https://img.shgstatic.com/example/52678.jpg",
+      "verified": true
     },
     "contact": {
-      "phone": null,
-      "location": null,
+      "phone": "+1 555 0100",
+      "location": "Example location",
       "company_page_url": "https://clutch.co/example/45521",
       "address": {
         "street": "Example street",
         "city": "Example city",
-        "postal_code": "89248",
-        "country": "DE",
+        "region": "NC",
+        "postal_code": "14469",
+        "country": "US",
         "phone": "+1 555 0100"
       }
     },
     "ratings": {
-      "rating": 5.97,
+      "rating": 6.22,
       "reviews_count": 84,
-      "reviews_text": null,
+      "reviews_text": "Example reviews_text",
       "rating_details": {
-        "best_rating": null,
-        "worst_rating": null
+        "best_rating": 4,
+        "worst_rating": 0.47
       },
       "rating_metrics": {
-        "Quality": 5.92,
-        "Schedule": 3.22,
-        "Cost": 4.97,
-        "Willing to Refer": 3.48
+        "Quality": 6.05,
+        "Schedule": 3.36,
+        "Cost": 5.18,
+        "Willing to Refer": 3.63
       }
     },
     "pricing": {
-      "hourly_rate": null,
-      "minimum_project_size": null,
-      "price_range": null
+      "hourly_rate": "Example hourly_rate",
+      "minimum_project_size": "Example minimum_project_size",
+      "price_range": "Example price_range"
     },
     "staffing": {
-      "employees": null
+      "employees": "89 - 83"
     },
     "services_cluster": {
-      "services_provided": []
+      "services_provided": [
+        "Example services_provided",
+        "Example services_provided"
+      ]
     }
   }
 ]

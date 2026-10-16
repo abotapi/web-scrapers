@@ -37,9 +37,21 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~immoscout24-scraper/run-s
 | `constructionYearMin` | integer | Construction Year From |
 | `constructionYearMax` | integer | Construction Year To |
 | `equipment` | array | Amenities |
+| `apartmentTypes` | array | Apartment type |
+| `buildingTypes` | array | House type |
 | `noCommission` | boolean | Commission-free only |
+| `energyEfficiencyClasses` | array | Energy efficiency class |
+| `heatingTypes` | array | Heating type |
+| `petsAllowed` | array | Pets allowed |
+| `floorMin` | integer | Floor (min) |
+| `floorMax` | integer | Floor (max) |
+| `publishedAfter` | string | Published on or after |
+| `radiusKm` | integer | Radius (km) |
+| `radiusCenter` | string | Radius centre (latitude, longitude) |
 | `sortBy` | string | Sort By |
 | `urls` | array | Search URLs (URL mode) |
+| `includeDetails` | boolean | Include listing details |
+| `excludeNewBuildProjects` | boolean | Exclude new-build projects |
 | `maxPages` | integer | Max Pages |
 | `maxListings` | integer | Max Listings |
 | `proxy` | object | Proxy configuration |

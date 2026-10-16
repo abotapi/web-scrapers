@@ -67,7 +67,7 @@ Full details on the [scraper page](https://apify.com/abotapi/coupang-scraper?utm
 | `savingsAmount` | null |
 | `unitPrice` | null |
 | `currency` | string |
-| `rating` | float |
+| `rating` | integer |
 | `reviewCount` | integer |
 | `rocketDelivery` | boolean |
 | `rocketFresh` | boolean |
@@ -78,6 +78,11 @@ Full details on the [scraper page](https://apify.com/abotapi/coupang-scraper?utm
 | `availability` | null |
 | `deliveryInfo` | null |
 | `isSponsored` | boolean |
+| `badges` | list |
+| `cashback` | integer |
+| `isSoldOut` | boolean |
+| `isOverseas` | boolean |
+| `isRocketMerchant` | boolean |
 | `usedMinPrice` | null |
 | `usedListingCount` | null |
 | `categoryId` | null |
@@ -87,8 +92,6 @@ Full details on the [scraper page](https://apify.com/abotapi/coupang-scraper?utm
 | `buyableQuantity` | null |
 | `almostSoldOut` | null |
 | `otherSellerCount` | null |
-| `query` | string |
-| `scrapedAt` | string |
 
 ---
 

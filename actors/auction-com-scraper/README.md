@@ -79,9 +79,9 @@ Full details on the [scraper page](https://apify.com/abotapi/auction-com-scraper
 | `occupancyStatus` | string |
 | `bedrooms` | integer |
 | `bathrooms` | integer |
-| `squareFootage` | integer |
-| `lotSize` | float |
-| `yearBuilt` | integer |
+| `squareFootage` | null |
+| `lotSize` | null |
+| `yearBuilt` | null |
 | `propertyValuation` | null |
 | `startingBid` | integer |
 | `auctionType` | string |
@@ -93,7 +93,7 @@ Full details on the [scraper page](https://apify.com/abotapi/auction-com-scraper
 | `estimatedValue` | null |
 | `estimatedValueLow` | null |
 | `estimatedValueHigh` | null |
-| `estimatedValueType` | null |
+| `estimatedValueType` | string |
 | `rentalEstimate` | null |
 | `rentalEstimateLow` | null |
 | `rentalEstimateHigh` | null |

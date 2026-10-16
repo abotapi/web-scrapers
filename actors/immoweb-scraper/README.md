@@ -68,9 +68,9 @@ Full details on the [scraper page](https://apify.com/abotapi/immoweb-scraper?utm
 | `propertySubtype` | string |
 | `price` | integer |
 | `displayPrice` | string |
-| `price_per_sqm` | integer |
 | `bedrooms` | integer |
-| `livingArea` | integer |
+| `rooms` | integer |
+| `landArea` | integer |
 | `street` | string |
 | `number` | string |
 | `postalCode` | string |

@@ -1,4 +1,4 @@
-"""Dot Property Scraper: minimal example. Docs: https://apify.com/abotapi/dotproperty-com-ph-scraper
+"""DotProperty & Lamudi Real Estate Scraper: minimal example. Docs: https://apify.com/abotapi/dotproperty-com-ph-scraper
 
 pip install "apify-client>=3"
 APIFY_TOKEN=<your token> python example.py

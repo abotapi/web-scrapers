@@ -60,6 +60,7 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~trademe-co-nz-scraper/run
 | `keyword` | string | Extra keyword filter |
 | `fetchDetails` | boolean | Fetch full details  seller feedback |
 | `includeMemberFeedbackComments` | boolean | Include individual feedback comments |
+| `maxFeedbackComments` | integer | Max feedback comments per seller |
 | `maxItems` | integer | Max items |
 | `maxPages` | integer | Max pages |
 | `proxy` | object | Connection |
@@ -94,6 +95,14 @@ Full details on the [scraper page](https://apify.com/abotapi/trademe-co-nz-scrap
 | `sellerType` | string |
 | `memberId` | string |
 | `scrapedAt` | string |
+| `price` | integer |
+| `oldPrice` | float |
+| `percentageOff` | integer |
+| `categoryPath` | string |
+| `location` | string |
+| `primaryImage` | string |
+| `isDealer` | null |
+| `dealerName` | null |
 
 ---
 

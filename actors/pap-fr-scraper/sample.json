@@ -1,6 +1,6 @@
 [
   {
-    "id": "542062690",
+    "id": "937012146",
     "url": "https://www.pap.fr/example/8178",
     "listingType": "Buy",
     "propertyType": "Apartment",
@@ -13,37 +13,35 @@
     "bedrooms": 7,
     "floor": null,
     "hoaChargesYearly": null,
-    "propertyTaxYearly": null,
-    "heatingType": null,
+    "propertyTaxYearly": 6968,
+    "heatingType": "Example heating type",
     "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
     "streetAddress": "Example street address",
     "city": "Example city",
-    "postcode": "97431",
+    "postcode": "22515",
     "arrondissement": "Example arrondissement",
     "department": "Example department",
     "region": "Example region",
-    "latitude": null,
-    "longitude": null,
+    "departmentCode": "97",
+    "latitude": 60.59,
+    "longitude": 2.64,
     "energyClass": "Example energy class",
     "ghgClass": "Example ghg class",
-    "isActive": false,
+    "isActive": true,
     "reference": "Example reference",
-    "sellerPhone": "+1 555 0100",
+    "sellerPhone": null,
     "seller": {
       "@type": "Person",
       "name": "Example name"
     },
     "refusesCommercialSolicitation": true,
-    "imageCount": 82,
-    "images": [
-      "https://cdn.pap.fr/example/80192.jpg",
-      "https://cdn.pap.fr/example/22835.jpg"
-    ],
-    "additionalProperties": {
-      "Surface": "19.95",
-      "Nombre de pièces": "6",
-      "Type de bien": "Appartement"
-    },
-    "scrapedAt": "2026-01-15T10:00:00Z"
+    "propertyCategory": "appartement",
+    "badge": "exclusif",
+    "isExclusive": true,
+    "isFeatured": false,
+    "hasVirtualTour": false,
+    "virtualTourUrl": null,
+    "phones": [],
+    "hasEmail": true
   }
 ]

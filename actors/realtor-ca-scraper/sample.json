@@ -1,38 +1,42 @@
 [
   {
     "scrapedAt": "2026-01-15T10:00:00Z",
-    "propertyId": "87295941",
-    "mlsNumber": "w66732529",
+    "propertyId": "82030742",
+    "mlsNumber": "e60801983",
     "url": "https://www.realtor.ca/example/2424",
     "listingType": "buy",
-    "propertyType": "house",
-    "buildingType": "House",
+    "propertyType": "condo",
+    "buildingType": "Apartment",
     "ownershipType": "Example ownership type",
     "dateListed": "+1 555 0100",
     "timeOnRealtor": "Example time on realtor",
+    "communityName": "Example community name",
+    "statusId": 4,
+    "uploadedBy": "12",
+    "urlFr": "https://www.realtor.ca/example/11269",
+    "photosUpdatedAt": "Example photos updated at",
     "address": {
       "full": "Example full",
       "street": "Example street",
       "city": "Toronto",
       "province": "Example province",
-      "postalCode": "m2w0c0"
+      "postalCode": "m7h1h3"
     },
     "coordinates": {
-      "latitude": 54.51,
-      "longitude": -62.04
+      "latitude": 54.73,
+      "longitude": -61.81
     },
     "price": {
       "display": "Example display",
-      "value": 681736
+      "value": 681736,
+      "shortValue": "Example short value"
     },
     "features": {
       "bedrooms": 6,
       "bathrooms": 9,
       "parkingSpaces": 3,
       "parkingType": "Example parking type",
-      "landSize": "Example land size",
-      "buildingSize": "Example building size",
-      "stories": 3
+      "buildingSize": "Example building size"
     },
     "propertyFeatures": [
       "Example property features",
@@ -50,22 +54,19 @@
     "agents": [
       {
         "name": "Example name",
+        "id": "4153293",
+        "firstName": "Example first name",
+        "lastName": "Example last name",
+        "organizationType": "Firm",
+        "organizationUrl": "https://www.realtor.ca/example/9021",
         "phone": "+1 555 0100",
         "position": "Example position",
         "profileUrl": "https://www.realtor.ca/example/94295",
         "organization": "Example organization",
         "organizationLogo": "https://cdn.realtor.ca/example/63960.jpg",
+        "organizationId": "533107",
         "organizationDesignation": "Example organization designation",
-        "organizationPhone": "+1 555 0100"
-      },
-      {
-        "name": "Example name",
-        "phone": "+1 555 0100",
-        "position": "Example position",
-        "profileUrl": "https://www.realtor.ca/example/58336",
-        "organization": "Example organization",
-        "organizationLogo": "https://cdn.realtor.ca/example/88728.jpg",
-        "organizationDesignation": "Example organization designation",
+        "organizationWebsite": "https://www.theagencyre.com/example/76786",
         "organizationPhone": "+1 555 0100"
       }
     ]

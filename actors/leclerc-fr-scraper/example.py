@@ -17,6 +17,7 @@ run = client.actor("abotapi/leclerc-fr-scraper").call(
         "queries": ["lait"],
         "sortBy": "relevance",
         "minRating": "0",
+        "maxReviewsPerProduct": 10,
         "maxItems": 10,
         "maxPages": 1,
         "proxy": {"useApifyProxy": True},

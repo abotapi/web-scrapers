@@ -71,7 +71,7 @@ Full details on the [scraper page](https://apify.com/abotapi/leboncoin-fr-scrape
 | `price_cents` | integer |
 | `publication_date` | string |
 | `index_date` | string |
-| `expiration_date` | null |
+| `expiration_date` | string |
 | `has_phone` | boolean |
 | `is_boosted` | boolean |
 | `is_urgent` | boolean |

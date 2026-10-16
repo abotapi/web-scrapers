@@ -1,23 +1,23 @@
 [
   {
-    "productId": "42717618",
-    "sku": "06145752",
-    "concreteProductId": "87188426_st",
+    "productId": "47383778",
+    "sku": "30259078",
+    "concreteProductId": "68765850_st",
     "name": "Example name: mock text standing in for the real value. Same field and type, made-up content.",
     "url": "https://www.hornbach.de/example/92653",
-    "brand": "Einhell",
+    "brand": "Bosch",
     "brandLogoUrl": "https://media.hornbach.de/example/69863.jpg",
-    "price": 40.46,
+    "price": 54.23,
     "currency": "Example currency",
     "priceUnit": "ST",
-    "originalPrice": 65.48,
-    "discountAmount": 58,
-    "discountPercent": 32.67,
+    "originalPrice": 67.19,
+    "discountAmount": 11.48,
+    "discountPercent": 14.83,
     "packPrice": null,
     "packPriceUnit": null,
     "badges": [],
-    "rating": 5.76,
-    "reviewCount": 73,
+    "rating": 5.4,
+    "reviewCount": 1,
     "variantCount": null,
     "image": "https://media.hornbach.de/example/6697.jpg",
     "thumbnailUrl": "https://media.hornbach.de/example/62269.jpg",
@@ -35,12 +35,12 @@
     },
     "searchTerm": "Example search term",
     "reviews": {
-      "averageRating": 4.89,
-      "totalReviewCount": 34,
+      "averageRating": 4.63,
+      "totalReviewCount": 7,
       "ratingDistribution": [
         {
           "rating": 3,
-          "count": 59
+          "count": 5
         },
         {
           "rating": 6,
@@ -51,7 +51,7 @@
         {
           "rating": 3,
           "title": "Example title",
-          "body": "Example body: mock text standing in for the real value. Same field and type, made-up content.",
+          "body": "Example body",
           "author": "Example author",
           "date": "2026-01-15T10:00:00Z",
           "isRecommended": true,

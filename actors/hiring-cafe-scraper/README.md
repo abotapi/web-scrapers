@@ -17,7 +17,7 @@ python example.py
 ```bash
 curl -s -X POST "https://api.apify.com/v2/acts/abotapi~hiring-cafe-scraper/run-sync-get-dataset-items?token=$APIFY_TOKEN" \
   -H 'Content-Type: application/json' \
-  -d '{"keyword": "software engineer", "workplaceType": "Any", "commitmentType": "Any", "seniorityLevel": "Any", "maxItems": 10, "proxy": {"useApifyProxy": true, "apifyProxyGroups": ["RESIDENTIAL"]}}'
+  -d '{"startUrls": [{"url": "https://hiringcafe.com/classic"}, {"url": "https://hiringcafe.com/classic?searchState=%7B%22searchQuery%22%3A%22software%20engineer%22%7D"}, {"url": "https://hiringcafe.com/classic?searchState=%7B%22searchQuery%22%3A%22software%20engineer%22%7D&page=2"}, {"url": "https://hiringcafe.com/?searchState=%7B%22searchQuery%22%3A%22software%20engineer%22%7D"}, {"url": "https://hiringcafe.com/?searchState=eyJzZWFyY2hRdWVyeSI6InNvZnR3YXJlIGVuZ2luZWVyIn0%3D"}, {"url": "https://hiringcafe.com/job/bt38fz2pqe76nimr"}], "workplaceType": "Any", "commitmentType": "Any", "seniorityLevel": "Any", "sortBy": "default", "maxItems": 10, "proxy": {"useApifyProxy": true, "apifyProxyGroups": ["RESIDENTIAL"]}}'
 ```
 
 ## Inputs
@@ -32,6 +32,19 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~hiring-cafe-scraper/run-s
 | `seniorityLevel` | string | Seniority Level |
 | `postedWithinDays` | integer | Posted within (days) |
 | `salaryTransparentOnly` | boolean | Salary transparent only |
+| `sortBy` | string | Sort by |
+| `workplaceTypes` | array | Workplace types (multi) |
+| `commitmentTypes` | array | Commitment types (multi) |
+| `seniorityLevels` | array | Seniority levels (multi) |
+| `jobTitleQuery` | string | Job title contains |
+| `companyNames` | array | Only these companies |
+| `excludedCompanyNames` | array | Exclude companies |
+| `industries` | array | Only these industries |
+| `excludedIndustries` | array | Exclude industries |
+| `minSalary` | integer | Minimum salary |
+| `maxSalary` | integer | Maximum salary |
+| `minYoe` | integer | Min years of experience |
+| `maxYoe` | integer | Max years of experience |
 | `maxItems` | integer | Maximum jobs |
 | `fetchDetails` | boolean | Fetch full job descriptions |
 | `proxy` | object | Proxy configuration |
@@ -72,7 +85,10 @@ Full details on the [scraper page](https://apify.com/abotapi/hiring-cafe-scraper
 | `company_website` | string |
 | `company_tagline` | string |
 | `company_industry` | string |
-| `min_years_experience` | integer |
+| `salary_transparent` | boolean |
+| `salary_min` | integer |
+| `salary_max` | integer |
+| `salary_frequency` | string |
 | `technical_tools` | list |
 | `languages` | list |
 | `security_clearance` | string |
@@ -83,9 +99,6 @@ Full details on the [scraper page](https://apify.com/abotapi/hiring-cafe-scraper
 | `company_hq_country` | string |
 | `company_funding` | object |
 | `views_on_site` | integer |
-| `applies_on_site` | integer |
-| `description` | string |
-| `description_text` | string |
 
 ---
 

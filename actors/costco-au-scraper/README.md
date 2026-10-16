@@ -1,8 +1,8 @@
-# Costco Australia Scraper
+# Costco AU Scraper
 
 Scrape Costco.com.au products by keyword or product, search and category URLs. Extract prices, brands, ratings, review counts and text, stock, images, specifications, promotions and full product details in clean structured data.
 
-**[Open Costco Australia Scraper on Apify](https://apify.com/abotapi/costco-au-scraper?utm_source=github&utm_medium=web-scrapers&utm_campaign=monorepo)** to run it without code and export JSON, CSV or Excel.
+**[Open Costco AU Scraper on Apify](https://apify.com/abotapi/costco-au-scraper?utm_source=github&utm_medium=web-scrapers&utm_campaign=monorepo)** to run it without code and export JSON, CSV or Excel.
 
 ## Run it from code
 

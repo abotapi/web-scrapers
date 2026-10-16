@@ -12,7 +12,7 @@ client = ApifyClient(os.environ["APIFY_TOKEN"])
 
 run = client.actor("abotapi/truthsocial-com-scraper").call(
     run_input={
-        "startUrls": [{"url": "https://truthsocial.com/@realDonaldTrump"}],
+        "startUrls": [{"url": "https://truthsocial.com/@realDonaldTrump"}, {"url": "https://truthsocial.com/@realDonaldTrump/with_replies"}, {"url": "https://truthsocial.com/@realDonaldTrump/media"}, {"url": "https://truthsocial.com/@realDonaldTrump/posts/116813202769287423"}, {"url": "https://truthsocial.com/@realDonaldTrump/116813202769287423"}, {"url": "https://truthsocial.com/users/realDonaldTrump/statuses/116813202769287423"}, {"url": "https://truthsocial.com/group/wine-with-devin-nunes"}, {"url": "https://truthsocial.com/group/wine-with-devin-nunes/posts/117121586897225540"}],
         "profileContentType": "postsAndReplies",
         "maxItems": 10,
         "maxPages": 1,

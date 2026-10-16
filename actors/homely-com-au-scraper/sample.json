@@ -13,7 +13,7 @@
     "isUnderOffer": false,
     "daysOnMarket": "Example days on market",
     "daysOnHomely": 3,
-    "isNew": true,
+    "isNew": false,
     "price": {
       "display": "Example display",
       "short": null

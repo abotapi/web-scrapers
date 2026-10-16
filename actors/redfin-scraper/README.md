@@ -67,7 +67,7 @@ Full details on the [scraper page](https://apify.com/abotapi/redfin-scraper?utm_
 | `priceDisplayLevel` | integer |
 | `priceType` | string |
 | `hideSalePrice` | boolean |
-| `pricePerSqFt` | integer |
+| `pricePerSqFt` | null |
 | `hoa` | null |
 | `hoaDues` | null |
 | `isHoaFrequencyKnown` | boolean |
@@ -75,10 +75,10 @@ Full details on the [scraper page](https://apify.com/abotapi/redfin-scraper?utm_
 | `baths` | integer |
 | `bathFull` | integer |
 | `bathPartial` | null |
-| `sqFt` | integer |
-| `sqft` | integer |
-| `lotSize` | integer |
-| `stories` | float |
+| `sqFt` | null |
+| `sqft` | null |
+| `lotSize` | null |
+| `stories` | integer |
 | `yearBuilt` | integer |
 | `streetLine` | string |
 | `address` | string |

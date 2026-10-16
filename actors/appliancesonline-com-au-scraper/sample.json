@@ -1,7 +1,7 @@
 [
   {
-    "productId": "161137",
-    "sku": "wan59400au",
+    "productId": "126954",
+    "sku": "wgg04882au",
     "title": "Example title",
     "url": "https://www.appliancesonline.com.au/example/57927",
     "brand": null,
@@ -11,7 +11,7 @@
       "thumbnail": "Example thumbnail",
       "recyclingMember": true
     },
-    "price": 516,
+    "price": 5916,
     "rrp": 1920,
     "savings": 791,
     "onSale": true,
@@ -25,6 +25,7 @@
     "ribbonType": null,
     "popularity": null,
     "badges": [
+      "Example badges",
       "Example badges"
     ],
     "isGreenProduct": true,
@@ -79,22 +80,12 @@
           "name": "Example name",
           "value": "Example value",
           "url": null
-        },
-        {
-          "name": "Example name",
-          "value": "Example value",
-          "url": null
         }
       ],
       "smart Features": [
         {
           "name": "Example name",
           "value": "7 ",
-          "url": null
-        },
-        {
-          "name": "Example name",
-          "value": "9 ",
           "url": null
         }
       ],
@@ -130,7 +121,7 @@
         },
         {
           "name": "Example name",
-          "value": "731 ",
+          "value": "357 ",
           "url": null
         }
       ],
@@ -158,13 +149,6 @@
           "url": null
         }
       ],
-      "safety Features": [
-        {
-          "name": "Example name",
-          "value": "7 ",
-          "url": null
-        }
-      ],
       "electrical Connection": [
         {
           "name": "Example name",
@@ -184,18 +168,6 @@
           "url": null
         }
       ],
-      "noise Level": [
-        {
-          "name": "Example name",
-          "value": "Example value",
-          "url": null
-        },
-        {
-          "name": "Example name",
-          "value": "Example value",
-          "url": null
-        }
-      ],
       "notes": [
         {
           "name": "Example name",
@@ -206,11 +178,11 @@
       "Other": [
         {
           "name": "Example name",
-          "value": "7 "
+          "value": "0584155169444 "
         },
         {
           "name": "Example name",
-          "value": "9834559179742 "
+          "value": "9 "
         }
       ]
     },

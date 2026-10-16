@@ -12,8 +12,8 @@ client = ApifyClient(os.environ["APIFY_TOKEN"])
 
 run = client.actor("abotapi/coles-au-scraper").call(
     run_input={
-        "inputMode": "search",
         "mode": "search",
+        "inputMode": "search",
         "queries": ["milk"],
         "categories": ["dairy-eggs-fridge"],
         "sortBy": "relevance",

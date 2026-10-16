@@ -33,6 +33,9 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~realcommercial-au-scraper
 | `priceMax` | integer | Maximum Price |
 | `areaMin` | integer | Minimum Area (m²) |
 | `areaMax` | integer | Maximum Area (m²) |
+| `landAreaMin` | integer | Minimum Land Area (m²) |
+| `landAreaMax` | integer | Maximum Land Area (m²) |
+| `tenure` | string | Tenure |
 | `keywords` | string | Keywords |
 | `urls` | array | Search URLs (URL mode) |
 | `maxListings` | integer | Maximum Listings |
@@ -54,7 +57,7 @@ Full details on the [scraper page](https://apify.com/abotapi/realcommercial-au-s
 | `listingType` | string |
 | `propertyTypes` | list |
 | `tenureType` | string |
-| `title` | string |
+| `description` | string |
 | `status` | string |
 | `daysActive` | integer |
 | `hasTour` | boolean |
@@ -65,7 +68,11 @@ Full details on the [scraper page](https://apify.com/abotapi/realcommercial-au-s
 | `media` | object |
 | `agents` | list |
 | `agency` | object |
+| `nearbyPlaces` | list |
+| `lastUpdatedAt` | string |
+| `canonicalPath` | string |
 | `tenureTypeDisplay` | string |
+| `map` | object |
 | `latitude` | float |
 | `longitude` | float |
 | `scrapedAt` | string |

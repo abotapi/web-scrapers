@@ -15,6 +15,7 @@ run = client.actor("abotapi/gumtree-au-scraper").call(
         "mode": "search",
         "category": "all",
         "location": "Sydney",
+        "priceChangeMonitoring": "none",
         "maxItems": 10,
         "maxPages": 1,
         "proxy": {"useApifyProxy": True, "apifyProxyGroups": ["RESIDENTIAL"], "apifyProxyCountry": "AU"},

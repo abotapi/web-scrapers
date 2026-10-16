@@ -58,7 +58,7 @@ Full details on the [scraper page](https://apify.com/abotapi/suumo-jp-scraper?ut
 | `rentDisplay` | string |
 | `mgmtFeeYen` | integer |
 | `depositYen` | integer |
-| `keyMoneyYen` | integer |
+| `keyMoneyYen` | null |
 | `layout` | string |
 | `areaSqm` | float |
 | `url` | string |

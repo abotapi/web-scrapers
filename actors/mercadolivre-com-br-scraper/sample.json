@@ -1,6 +1,19 @@
 [
   {
     "itemId": "mlb4493175149",
+    "userProductId": "mlbu4038760240",
+    "variationId": "mlb64964110",
+    "verticalId": "CORE",
+    "sponsored": false,
+    "resultType": "organic",
+    "highlight": "Example highlight",
+    "promotions": [
+      {
+        "type": "price_decrement",
+        "campaignId": "02217726"
+      }
+    ],
+    "pricePerQuantity": false,
     "catalogProductId": "mlb33629921",
     "title": "Example title",
     "url": "https://www.mercadolivre.com.br/example/11307",
@@ -8,15 +21,12 @@
     "domainId": "MLB-NOTEBOOKS",
     "sellerName": "Example seller name",
     "officialStore": true,
-    "price": 6309,
+    "price": 3461.34,
     "originalPrice": 7621,
     "discountPercent": 27,
     "currency": "BRL",
     "installments": {
-      "quantity": 53,
-      "amount": 447.98,
-      "totalAmount": null,
-      "interestFree": true,
+      "text": "Example text",
       "currency": "BRL"
     },
     "freeShipping": true,
@@ -25,10 +35,145 @@
     "soldQuantity": 4946,
     "rating": 3.68,
     "images": [
-      "https://http2.mlstatic.com/example/33672.jpg"
+      "https://http2.mlstatic.com/example/33672.jpg",
+      "https://http2.mlstatic.com/example/72924.jpg"
     ],
+    "searchPosition": 5,
+    "totalResults": 6999,
+    "searchKeyword": "notebook",
     "scrapedAt": "2026-01-15T10:00:00Z",
-    "image": "https://http2.mlstatic.com/example/61600.jpg",
-    "installmentsText": "Example installments text"
+    "brand": "Dell",
+    "model": "dc20-i16415u-a30",
+    "condition": "new",
+    "breadcrumb": [
+      {
+        "name": "Example name",
+        "url": "https://www.mercadolivre.com.br/example/11307"
+      },
+      {
+        "name": "Example name",
+        "url": "https://lista.mercadolivre.com.br/example/65653"
+      }
+    ],
+    "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
+    "attributes": [
+      {
+        "name": "Example name",
+        "value": "intel",
+        "group": "Example group"
+      },
+      {
+        "name": "Example name",
+        "value": "UHD",
+        "group": "Example group"
+      }
+    ],
+    "variants": [
+      {
+        "axis": "COLOR",
+        "axisLabel": "Example axis label",
+        "name": "Example name",
+        "productId": "mlb65077990",
+        "url": "https://www.mercadolivre.com.br/example/11307",
+        "price": 6309,
+        "currency": "BRL",
+        "available": null,
+        "selected": true
+      }
+    ],
+    "availableQuantity": 17,
+    "stockStatus": "Example stock status"
+  },
+  {
+    "itemId": "mlb7587806994",
+    "userProductId": "mlbu6926186511",
+    "variationId": "mlb26013873",
+    "verticalId": "CORE",
+    "sponsored": false,
+    "resultType": "organic",
+    "promotions": [
+      {
+        "type": "price_decrement",
+        "campaignId": "27536856"
+      }
+    ],
+    "pricePerQuantity": false,
+    "catalogProductId": "mlb52905577",
+    "title": "Example title: mock text standing in for the real value. Same field and type, made-up content.",
+    "url": "https://www.mercadolivre.com.br/example/17922",
+    "categoryId": "mlb8768",
+    "domainId": "MLB-NOTEBOOKS",
+    "sellerName": "Example seller name",
+    "officialStore": true,
+    "price": 2035.61,
+    "originalPrice": 6841,
+    "discountPercent": 59,
+    "currency": "BRL",
+    "installments": {
+      "text": "Example text",
+      "currency": "BRL"
+    },
+    "freeShipping": true,
+    "fulfillment": true,
+    "shippingText": "Example shipping text: mock text standing in for the real value. Same field and type, made-up content.",
+    "soldQuantity": 485,
+    "rating": 4.56,
+    "images": [
+      "https://http2.mlstatic.com/example/97673.jpg",
+      "https://http2.mlstatic.com/example/85197.jpg"
+    ],
+    "searchPosition": 1,
+    "totalResults": 6754,
+    "searchKeyword": "notebook",
+    "scrapedAt": "2026-01-15T10:00:00Z",
+    "brand": "Asus",
+    "model": "Example model",
+    "condition": "new",
+    "breadcrumb": [
+      {
+        "name": "Example name",
+        "url": "https://www.mercadolivre.com.br/example/17922"
+      },
+      {
+        "name": "Example name",
+        "url": "https://lista.mercadolivre.com.br/example/34202"
+      }
+    ],
+    "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
+    "attributes": [
+      {
+        "name": "Example name",
+        "value": "AMD",
+        "group": "Example group"
+      },
+      {
+        "name": "Example name",
+        "value": "Example value",
+        "group": "Example group"
+      }
+    ],
+    "variants": [
+      {
+        "axis": "COLOR",
+        "axisLabel": "Example axis label",
+        "name": "Example name",
+        "productId": "mlb30018318",
+        "url": "https://www.mercadolivre.com.br/example/17922",
+        "price": 2450,
+        "currency": "BRL",
+        "available": null,
+        "selected": true
+      }
+    ],
+    "availableQuantity": 70,
+    "stockStatus": "Example stock status",
+    "seller": {
+      "name": "Example name",
+      "sellerId": "951035557",
+      "type": "official_store",
+      "reputation": "id5131345",
+      "officialStore": true,
+      "location": "Example location"
+    }
   }
 ]

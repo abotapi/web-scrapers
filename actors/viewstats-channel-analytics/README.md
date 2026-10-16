@@ -17,7 +17,7 @@ python example.py
 ```bash
 curl -s -X POST "https://api.apify.com/v2/acts/abotapi~viewstats-channel-analytics/run-sync-get-dataset-items?token=$APIFY_TOKEN" \
   -H 'Content-Type: application/json' \
-  -d '{"mode": "channels", "channels": ["@MrBeast"], "searchTerms": ["mrbeast"], "statsRange": "365", "statsGroupBy": "monthly", "maxItems": 10, "proxy": {"useApifyProxy": true}, "residentialCountries": ["US", "GB", "DE", "CA", "FR"]}'
+  -d '{"mode": "channels", "searchTerms": ["mrbeast"], "statsRange": "365", "statsGroupBy": "monthly", "maxItems": 10, "proxy": {"useApifyProxy": true}, "residentialCountries": ["US", "GB", "DE", "CA", "FR"]}'
 ```
 
 ## Inputs
@@ -26,6 +26,7 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~viewstats-channel-analyti
 | --- | --- | --- |
 | `mode` * | string | Mode |
 | `channels` | array | Channels |
+| `startUrls` | array | Start URLs (alias of Channels) |
 | `searchTerms` | array | Search terms |
 | `maxChannelsPerSearch` | integer | Max channels per search term |
 | `includeProfileDetails` | boolean | Include profile details |
@@ -49,6 +50,7 @@ Full details on the [scraper page](https://apify.com/abotapi/viewstats-channel-a
 
 | Field | Type |
 | --- | --- |
+| `id` | string |
 | `channelId` | string |
 | `handle` | string |
 | `displayName` | string |
@@ -79,6 +81,8 @@ Full details on the [scraper page](https://apify.com/abotapi/viewstats-channel-a
 | `estimatedRevenueHighUsdMonthly` | integer |
 | `longsAndShorts` | object |
 | `featuredVideo` | object |
+| `shortVideos` | list |
+| `longVideos` | list |
 | `scrapedAt` | string |
 
 ---

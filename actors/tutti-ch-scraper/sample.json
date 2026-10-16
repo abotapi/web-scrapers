@@ -1,9 +1,9 @@
 [
   {
-    "listingId": "14534938",
+    "listingId": "70604734",
     "title": "",
     "description": null,
-    "price": "810.-",
+    "price": "774.-",
     "priceValue": 258,
     "currency": "CHF",
     "categoryId": "bicycles",
@@ -11,8 +11,8 @@
     "parentCategoryId": null,
     "parentCategoryLabel": null,
     "locationName": "Example location name",
-    "postcode": "5594",
-    "canton": "AG",
+    "postcode": "6272",
+    "canton": "SG",
     "cantonName": "Example canton name",
     "latitude": null,
     "longitude": null,
@@ -20,11 +20,11 @@
     "sellerName": "Example seller name",
     "sellerType": "Example seller type",
     "sellerAccountId": null,
-    "sellerLogoUrl": null,
+    "sellerLogoUrl": "https://c.tutti.ch/example/4776.jpg",
     "sellerLocation": null,
     "sellerProfileUrl": null,
     "sellerSubscriptionClass": null,
-    "sellerBadgeUrl": null,
+    "sellerBadgeUrl": "https://cdn.tutti.ch/example/58165.jpg",
     "memberSince": null,
     "phone": null,
     "externalUrl": null,
@@ -38,6 +38,6 @@
     "properties": [],
     "timestamp": "2026-01-15T10:00:00Z",
     "language": "de",
-    "url": null
+    "url": "https://www.tutti.ch/example/55422"
   }
 ]

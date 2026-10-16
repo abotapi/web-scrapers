@@ -37,7 +37,7 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~propertyfinder-ae-scraper
 | `rentPeriod` | string | Rent period (for rent) |
 | `minCheques` | integer | Min number of cheques (for rent) |
 | `maxCheques` | integer | Max number of cheques (for rent) |
-| `urls` | array | Search page URLs |
+| `urls` | array | Page URLs |
 | `minPrice` | integer | Min price (AED) |
 | `maxPrice` | integer | Max price (AED) |
 | `minBedrooms` | integer | Min bedrooms |
@@ -64,6 +64,7 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~propertyfinder-ae-scraper
 | `transactionsSort` | string | Sort transactions by |
 | `maxReviewsPerArea` | integer | Max reviews per area |
 | `maxListings` | integer | Max results |
+| `maxItemsPerUrl` | integer | Max results per URL |
 | `maxPages` | integer | Max pages per search |
 | `includeDetails` | boolean | Add listing details (listing modes, ex |
 | `proxy` | object | Proxy |
@@ -94,6 +95,8 @@ Full details on the [scraper page](https://apify.com/abotapi/propertyfinder-ae-s
 | `bathrooms` | integer |
 | `size_sqft` | integer |
 | `size_unit` | string |
+| `size_value` | integer |
+| `image_url` | string |
 | `furnished` | string |
 | `completion_status` | string |
 | `offering_type` | string |
@@ -116,8 +119,6 @@ Full details on the [scraper page](https://apify.com/abotapi/propertyfinder-ae-s
 | `broker_email` | string |
 | `broker_logo` | string |
 | `rera_number` | null |
-| `reference` | string |
-| `listed_date` | string |
 
 ---
 

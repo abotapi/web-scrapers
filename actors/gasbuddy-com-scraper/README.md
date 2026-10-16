@@ -68,7 +68,7 @@ Full details on the [scraper page](https://apify.com/abotapi/gasbuddy-com-scrape
 | `country` | string |
 | `latitude` | float |
 | `longitude` | float |
-| `phone` | string |
+| `phone` | null |
 | `distance` | null |
 | `distanceMiles` | null |
 | `openStatus` | string |
@@ -92,7 +92,7 @@ Full details on the [scraper page](https://apify.com/abotapi/gasbuddy-com-scrape
 | `topSpotters` | list |
 | `priceTrend` | list |
 | `offers` | list |
-| `cardPaymentAvailable` | null |
+| `cardPaymentAvailable` | boolean |
 
 ---
 

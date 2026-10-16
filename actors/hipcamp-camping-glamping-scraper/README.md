@@ -17,7 +17,7 @@ python example.py
 ```bash
 curl -s -X POST "https://api.apify.com/v2/acts/abotapi~hipcamp-camping-glamping-scraper/run-sync-get-dataset-items?token=$APIFY_TOKEN" \
   -H 'Content-Type: application/json' \
-  -d '{"mode": "search", "regions": ["california"], "maxItems": 10, "proxyConfiguration": {"useApifyProxy": true}}'
+  -d '{"mode": "search", "regions": ["california"], "category": "all", "maxItems": 10, "maxReviewsPerListing": 10, "proxyConfiguration": {"useApifyProxy": true}}'
 ```
 
 ## Inputs
@@ -26,9 +26,12 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~hipcamp-camping-glamping-
 | --- | --- | --- |
 | `mode` * | string | Mode |
 | `regions` | array | Regions |
+| `category` | string | Category (search mode) |
 | `listingInputs` | array | Listing links |
 | `urls` | array | Listing links (alias) |
+| `startUrls` | array | Start URLs (alias) |
 | `maxItems` | integer | Max items |
+| `maxReviewsPerListing` | integer | Max reviews per listing |
 | `fetchDetails` | boolean | Read full detail for front-page listin |
 | `proxyConfiguration` | object | Proxy configuration |
 

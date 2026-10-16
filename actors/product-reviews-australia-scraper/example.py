@@ -15,6 +15,7 @@ run = client.actor("abotapi/product-reviews-australia-scraper").call(
         "mode": "search",
         "outputType": "listings",
         "category": "home-garden-shops",
+        "maxReviewsPerListing": 10,
         "limit": 10,
         "proxy": {"useApifyProxy": True, "apifyProxyGroups": []},
     },

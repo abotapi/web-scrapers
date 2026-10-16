@@ -33,6 +33,7 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~cdiscount-scraper/run-syn
 | `fetchDetails` | boolean | Fetch product details |
 | `maxItems` | integer | Max items |
 | `maxPages` | integer | Max pages |
+| `includeSponsored` | boolean | Include sponsored results |
 | `proxyConfiguration` | object | Proxy configuration |
 
 `*` required
@@ -56,10 +57,10 @@ Full details on the [scraper page](https://apify.com/abotapi/cdiscount-scraper?u
 | `price` | float |
 | `currency` | string |
 | `priceWithoutVAT` | float |
-| `originalPrice` | float |
-| `discountPercent` | integer |
-| `discountAmount` | integer |
-| `promoLabel` | null |
+| `originalPrice` | null |
+| `discountPercent` | null |
+| `discountAmount` | null |
+| `promoLabel` | string |
 | `isAvailable` | boolean |
 | `sponsored` | boolean |
 | `freeShipping` | string |

@@ -26,6 +26,7 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~bol-com-scraper/run-sync-
 | --- | --- | --- |
 | `mode` * | string | Mode |
 | `searchTerms` | array | Search keywords |
+| `productIds` | array | Product IDs, EANs or product URLs |
 | `specialsCategory` | string | Also include a specials category |
 | `sortBy` | string | Sort by |
 | `minPrice` | integer | Minimum price (EUR) |
@@ -33,11 +34,13 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~bol-com-scraper/run-sync-
 | `minRating` | integer | Minimum rating |
 | `condition` | string | Condition |
 | `sponsoredOnly` | boolean | Sponsored products only |
+| `includeSponsored` | boolean | Include sponsored results |
 | `inStockOnly` | boolean | In-stock products only |
 | `urls` | array | Product or result URLs |
 | `fetchDetails` | boolean | Fetch full product details |
 | `maxReviews` | integer | Max reviews per product |
 | `maxPages` | integer | Max pages per search |
+| `totalPages` | integer | Total pages (alias of Max pages) |
 | `maxListings` | integer | Max items |
 | `proxy` | object | Proxy configuration |
 | `residentialCountries` | array | Preferred exit countries |
@@ -81,8 +84,8 @@ Full details on the [scraper page](https://apify.com/abotapi/bol-com-scraper?utm
 | `originalPrice` | null |
 | `savingsAmount` | null |
 | `savingsPercent` | null |
-| `promoLabel` | string |
-| `specialsCategory` | null |
+| `promoLabel` | null |
+| `specialsCategory` | string |
 | `condition` | string |
 | `availability` | string |
 | `in_stock` | boolean |
@@ -90,13 +93,13 @@ Full details on the [scraper page](https://apify.com/abotapi/bol-com-scraper?utm
 | `delivery_text` | string |
 | `has_refurbished` | boolean |
 | `has_select_deal` | boolean |
-| `ean` | null |
-| `ean13` | null |
-| `gtin13` | null |
-| `isbn13` | null |
-| `image` | null |
-| `images` | null |
-| `rating` | float |
+| `ean` | string |
+| `ean13` | string |
+| `gtin13` | string |
+| `isbn13` | string |
+| `image` | string |
+| `images` | list |
+| `rating` | null |
 
 ---
 

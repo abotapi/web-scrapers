@@ -17,6 +17,7 @@ run = client.actor("abotapi/herold-at-scraper").call(
         "locations": ["wien"],
         "maxPages": 1,
         "maxListings": 10,
+        "maxReviews": 10,
         "proxy": {"useApifyProxy": True, "apifyProxyGroups": ["RESIDENTIAL"], "apifyProxyCountry": "AT"},
     },
     logger=None,  # don't stream the run log to your console

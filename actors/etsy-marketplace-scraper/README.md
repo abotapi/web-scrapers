@@ -60,8 +60,8 @@ Full details on the [scraper page](https://apify.com/abotapi/etsy-marketplace-sc
 | `categoryPath` | list |
 | `price` | float |
 | `currency` | string |
-| `originalPrice` | null |
-| `discountPercentage` | null |
+| `originalPrice` | float |
+| `discountPercentage` | integer |
 | `onSale` | boolean |
 | `availability` | null |
 | `quantityAvailable` | null |

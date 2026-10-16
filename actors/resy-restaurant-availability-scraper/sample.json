@@ -22,7 +22,7 @@
     ],
     "priceRange": 3,
     "priceRangeSymbol": "Example price range symbol",
-    "rating": 4.03,
+    "rating": 4.02,
     "ratingCount": 76,
     "phone": "+1 555 0100",
     "website": null,
@@ -81,7 +81,10 @@
     "imageUrl": "https://image.resy.com/example/52243.jpg",
     "whyWeLikeIt": "Example why we like it: mock text standing in for the real value. Same field and type, made-up content.",
     "about": null,
-    "collections": [],
+    "collections": [
+      "Example collections",
+      "Example collections"
+    ],
     "maxPartySize": 6,
     "minPartySize": null,
     "currencyCode": "USD",

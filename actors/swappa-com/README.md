@@ -60,14 +60,29 @@ Full details on the [scraper page](https://apify.com/abotapi/swappa-com?utm_sour
 | Field | Type |
 | --- | --- |
 | `kind` | string |
-| `slug` | string |
-| `name` | string |
+| `listingId` | null |
+| `productSlug` | string |
+| `productName` | string |
 | `url` | string |
-| `minPrice` | integer |
 | `currency` | string |
-| `imageUrl` | string |
-| `platform` | string |
-| `searchTerm` | string |
+| `startingPrice` | integer |
+| `averagePrice` | integer |
+| `pricesUpdatedOn` | string |
+| `salesHistory` | list |
+| `salesHistoryCount` | integer |
+| `salesHistoryFrom` | string |
+| `salesHistoryTo` | string |
+| `soldPriceMin` | integer |
+| `soldPriceMax` | integer |
+| `soldPriceAvg` | float |
+| `priceTrend` | list |
+| `priceTrendFrom` | string |
+| `priceTrendTo` | string |
+| `priceTrendMonths` | integer |
+| `storagePrices` | list |
+| `carrierStoragePrices` | list |
+| `deepHistory` | boolean |
+| `historyFiltersSwept` | integer |
 | `scrapedAt` | string |
 
 ---

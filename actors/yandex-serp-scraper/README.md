@@ -1,8 +1,8 @@
-# Yandex SERP Scraper
+# Yandex Search Scraper
 
-Scrape Yandex web, image and video results with URLs, snippets and organic rankings for SEO and competitor research. Парсер Яндекс Поиска, картинок и видео: ссылки, сниппеты и позиции для SEO, мониторинга выдачи и анализа конкурентов.
+Scrape Yandex web, image and video search results with URLs, snippets and organic rankings for SEO and competitor analysis. Парсер Яндекс Поиска, картинок и видео: ссылки, сниппеты и позиции для SEO, мониторинга выдачи и анализа конкурентов.
 
-**[Open Yandex SERP Scraper on Apify](https://apify.com/abotapi/yandex-serp-scraper?utm_source=github&utm_medium=web-scrapers&utm_campaign=monorepo)** to run it without code and export JSON, CSV or Excel.
+**[Open Yandex Search Scraper on Apify](https://apify.com/abotapi/yandex-serp-scraper?utm_source=github&utm_medium=web-scrapers&utm_campaign=monorepo)** to run it without code and export JSON, CSV or Excel.
 
 ## Run it from code
 

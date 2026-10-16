@@ -58,7 +58,7 @@ Full details on the [scraper page](https://apify.com/abotapi/jobs-cz-scraper?utm
 | `location` | string |
 | `country` | string |
 | `arrangementTags` | list |
-| `arrangement` | string |
+| `arrangement` | null |
 | `remote` | boolean |
 | `status` | string |
 | `teaser` | null |

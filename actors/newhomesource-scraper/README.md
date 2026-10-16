@@ -28,6 +28,7 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~newhomesource-scraper/run
 | `state` | string | State |
 | `city` | string | City (optional) |
 | `urls` | array | NewHomeSource links |
+| `startUrls` | array | Start URLs (alias) |
 | `homeTypes` | array | Home types to include |
 | `minPrice` | integer | Minimum price (USD) |
 | `maxPrice` | integer | Maximum price (USD) |

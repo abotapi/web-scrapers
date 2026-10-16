@@ -17,11 +17,19 @@ python example.py
 ```bash
 curl -s -X POST "https://api.apify.com/v2/acts/abotapi~shopee-collection-products/run-sync-get-dataset-items?token=$APIFY_TOKEN" \
   -H 'Content-Type: application/json' \
-  -d '{}'
+  -d '{"urls": ["https://shopeekh.com/collections/12453606"], "maxItems": 10, "maxPages": 1, "proxy": {"useApifyProxy": true}}'
 ```
 
 ## Inputs
 
+| Input | Type | What it is |
+| --- | --- | --- |
+| `urls` | array | Collection or campaign URLs |
+| `maxItems` | integer | Maximum products |
+| `maxPages` | integer | Maximum pages per collection |
+| `proxy` | object | Proxy configuration |
+
+`*` required
 
 Full details on the [scraper page](https://apify.com/abotapi/shopee-collection-products?utm_source=github&utm_medium=web-scrapers&utm_campaign=monorepo).
 

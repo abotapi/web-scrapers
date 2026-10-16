@@ -27,10 +27,25 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~pap-fr-scraper/run-sync-g
 | `mode` | string | 1. Search mode |
 | `locations` | array | Locations to search (Filter mode) |
 | `listingType` | string | Buy or rent (Filter mode) |
+| `listingTypes` | array | Buy and rent in one run (Filter mode) |
 | `propertyType` | string | Property type (Filter mode) |
 | `roomsMin` | integer | Min rooms / pièces (Filter mode) |
+| `roomsMax` | integer | Max rooms / pièces (Filter mode) |
+| `bedroomsMin` | integer | Min bedrooms / chambres (Filter mode) |
+| `bedroomsMax` | integer | Max bedrooms / chambres (Filter mode) |
+| `priceMin` | integer | Min price  (Filter mode) |
+| `priceMax` | integer | Max price  (Filter mode) |
+| `surfaceMin` | integer | Min living area m² (Filter mode) |
+| `surfaceMax` | integer | Max living area m² (Filter mode) |
+| `landSurfaceMin` | integer | Min land area m² (Filter mode) |
+| `landSurfaceMax` | integer | Max land area m² (Filter mode) |
+| `propertyTypes` | array | Property types  several at once (Filte |
+| `features` | array | Features (Filter mode) |
+| `excludeNewBuild` | boolean | Exclude new-build programmes (Filter m |
+| `strictLocation` | boolean | Exact location only (Filter mode) |
 | `sortBy` | string | Sort order (Filter mode) |
 | `urls` | array | Search URLs (URL mode) |
+| `references` | array | Listing references (both modes) |
 | `maxPages` | integer | Max pages per search |
 | `maxListings` | integer | Max total listings |
 | `fetchDetails` | boolean | Visit each listing's detail page |
@@ -59,8 +74,8 @@ Full details on the [scraper page](https://apify.com/abotapi/pap-fr-scraper?utm_
 | `bedrooms` | integer |
 | `floor` | null |
 | `hoaChargesYearly` | null |
-| `propertyTaxYearly` | null |
-| `heatingType` | null |
+| `propertyTaxYearly` | integer |
+| `heatingType` | string |
 | `description` | string |
 | `streetAddress` | string |
 | `city` | string |
@@ -68,19 +83,24 @@ Full details on the [scraper page](https://apify.com/abotapi/pap-fr-scraper?utm_
 | `arrondissement` | string |
 | `department` | string |
 | `region` | string |
-| `latitude` | null |
-| `longitude` | null |
+| `departmentCode` | string |
+| `latitude` | float |
+| `longitude` | float |
 | `energyClass` | string |
 | `ghgClass` | string |
 | `isActive` | boolean |
 | `reference` | string |
-| `sellerPhone` | string |
+| `sellerPhone` | null |
 | `seller` | object |
 | `refusesCommercialSolicitation` | boolean |
-| `imageCount` | integer |
-| `images` | list |
-| `additionalProperties` | object |
-| `scrapedAt` | string |
+| `propertyCategory` | string |
+| `badge` | string |
+| `isExclusive` | boolean |
+| `isFeatured` | boolean |
+| `hasVirtualTour` | boolean |
+| `virtualTourUrl` | null |
+| `phones` | list |
+| `hasEmail` | boolean |
 
 ---
 

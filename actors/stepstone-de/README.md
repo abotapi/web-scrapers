@@ -63,8 +63,8 @@ Full details on the [scraper page](https://apify.com/abotapi/stepstone-de?utm_so
 | `sourceSite` | string |
 | `title` | string |
 | `datePosted` | string |
-| `publishFromDate` | null |
-| `publishToDate` | null |
+| `publishFromDate` | string |
+| `publishToDate` | string |
 | `employer` | object |
 | `location` | object |
 | `salary` | object |
@@ -72,7 +72,7 @@ Full details on the [scraper page](https://apify.com/abotapi/stepstone-de?utm_so
 | `labels` | list |
 | `skills` | list |
 | `textSnippet` | string |
-| `crossPostedCount` | null |
+| `crossPostedCount` | integer |
 | `isSponsored` | boolean |
 | `isHighlighted` | boolean |
 | `isTopJob` | boolean |

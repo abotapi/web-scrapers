@@ -1,25 +1,23 @@
 [
   {
-    "id": "07562120",
+    "id": "73386602",
     "listingUrl": "https://www.realestate.co.nz/example/96179",
-    "listingNo": "l87331468",
+    "listingNo": "jl44531",
     "address": {
       "full": "Example full",
       "displayAddress": "Example display address",
-      "streetNumber": "90",
+      "streetNumber": "48",
       "streetName": "Example street name",
-      "unitNumber": "6",
       "suburb": "Example suburb",
       "district": "Example district",
       "region": "Auckland",
-      "postcode": "0421",
       "country": "Example country",
       "countryCode": "NZ"
     },
     "price": {
       "display": "Example display",
       "currency": "NZD",
-      "priceType": "negotiable",
+      "priceType": "tender",
       "priceCode": 3
     },
     "features": {
@@ -30,7 +28,12 @@
       "garages": 1,
       "carparks": 0,
       "livingAreas": 0,
-      "floorAreaInSqm": 0,
+      "landSize": {
+        "value": 7120,
+        "unit": "sqm"
+      },
+      "floorAreaInSqm": 185,
+      "parking": 3,
       "storeys": 0,
       "hasPool": false
     },
@@ -46,7 +49,7 @@
         "url": "https://images.realestate.co.nz/example/86841.jpg",
         "thumbnailUrl": "https://images.realestate.co.nz/example/74275.jpg",
         "id": 558225059,
-        "order": 5
+        "order": 0
       },
       {
         "url": "https://images.realestate.co.nz/example/16535.jpg",
@@ -63,45 +66,60 @@
     ],
     "agents": [
       {
-        "id": "0439996",
+        "id": "58134",
         "firstName": "Example first name",
         "lastName": "Example last name",
         "name": "Example name",
         "phone": "+1 555 0100",
         "email": "user38@example.com",
         "slug": "Example slug",
-        "listingCount": 5,
+        "listingCount": 950,
         "imageUrl": "https://images.realestate.co.nz/example/50872.jpg"
+      },
+      {
+        "id": "341531",
+        "firstName": "Example first name",
+        "lastName": "Example last name",
+        "name": "Example name",
+        "phone": "+1 555 0100",
+        "email": "user23@example.com",
+        "slug": "Example slug",
+        "listingCount": 877,
+        "imageUrl": "https://images.realestate.co.nz/example/12824.jpg"
       }
     ],
     "office": {
-      "id": "7226493",
-      "name": "Example name: mock text standing in for the real value. Same field and type, made-up content.",
+      "id": "265575",
+      "name": "Example name",
       "colloquialName": "Example colloquial name",
       "phone": "+1 555 0100",
       "email": "user38@example.com",
+      "websiteUrl": "http://www.jameslaw.co.nz/example/2816",
       "slug": "id71773729",
       "brandColour": "Example brand colour",
       "imageUrl": "https://images.realestate.co.nz/example/50872.jpg"
     },
-    "location": {
-      "lat": -31.06,
-      "lon": 134.65
-    },
-    "schools": [
+    "offices": [
       {
+        "id": "265575",
         "name": "Example name",
-        "slug": "Example slug",
-        "inZone": true,
-        "hasZone": true,
-        "distance": "Example distance"
+        "colloquialName": "Example colloquial name",
+        "phone": "+1 555 0100",
+        "email": "user38@example.com",
+        "websiteUrl": "http://www.jameslaw.co.nz/example/2816",
+        "slug": "id71773729",
+        "brandColour": "Example brand colour",
+        "imageUrl": "https://images.realestate.co.nz/example/50872.jpg"
+      }
+    ],
+    "openHomes": [
+      {
+        "startTime": "2026-01-15T10:00:00Z",
+        "endTime": "2026-01-15T10:00:00Z"
       },
       {
-        "name": "Example name",
-        "slug": "Example slug",
-        "inZone": true,
-        "hasZone": true,
-        "distance": "Example distance"
+        "startTime": "2026-01-15T10:00:00Z",
+        "endTime": "2026-01-15T10:00:00Z"
       }
     ],
     "publishedDate": "2026-01-15T10:00:00Z",

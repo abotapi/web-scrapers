@@ -55,9 +55,9 @@ Full details on the [scraper page](https://apify.com/abotapi/bigw-marketplace-sc
 | --- | --- |
 | `articleId` | string |
 | `gtin` | null |
-| `ean` | null |
+| `ean` | string |
 | `mpn` | string |
-| `barcodes` | null |
+| `barcodes` | list |
 | `name` | string |
 | `title` | string |
 | `brand` | string |
@@ -82,16 +82,16 @@ Full details on the [scraper page](https://apify.com/abotapi/bigw-marketplace-sc
 | `onlineOnlyPromotion` | boolean |
 | `promotions` | list |
 | `paymentOptions` | object |
-| `rating` | integer |
+| `rating` | null |
 | `description` | string |
 | `imageUrl` | string |
 | `images` | list |
-| `category` | null |
+| `category` | string |
 | `categories` | list |
-| `categoryPath` | null |
-| `variants` | list |
+| `categoryPath` | string |
+| `variants` | null |
 | `colours` | null |
-| `sizes` | list |
+| `sizes` | null |
 | `specifications` | object |
 
 ---

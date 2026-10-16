@@ -39,136 +39,54 @@
     "deliveryBaseFee": 0,
     "arrivalGuarantee": true,
     "todayDelivery": false,
-    "brandSlug": "marschoco",
-    "rank": 1,
-    "crawledAt": "2026-01-15T10:00:00Z",
-    "raw": {
-      "id": 5533477752,
-      "channelServiceType": "STOREFARM",
-      "channelProductDisplayStatusType": "ON",
-      "category": {
-        "wholeCategoryId": "Example whole category id",
-        "wholeCategoryName": "Example whole category name",
-        "categoryId": "91027935",
-        "categoryName": "Example category name"
-      },
-      "name": "Example name",
-      "dispName": "Example disp name",
-      "channel": {
-        "channelNo": 768760397,
-        "accountNo": 100132995,
-        "channelUid": "8swdvpc8sydn93qro53ei",
-        "accountId": "id16260203",
-        "channelName": "Example channel name"
-      },
-      "storeKeepExclusiveProduct": false,
-      "productNo": 7172820027,
-      "salePrice": 70107,
-      "saleType": "NEW",
-      "productStatusType": "SALE",
-      "authenticationType": "NORMAL",
-      "seoInfo": {
-        "sellerTags": [
-          {
-            "code": 83305,
-            "text": "Example text"
-          },
-          {
-            "code": 54927,
-            "text": "Example text"
-          }
-        ]
-      },
-      "optionUsable": true,
-      "optionStandards": [],
-      "supplementProductUsable": false,
-      "naverShoppingSearchInfo": {
-        "brandId": 65572,
-        "manufacturerName": "Example manufacturer name",
-        "brandName": "Example brand name"
-      },
-      "purchaseReviewInfo": {
-        "purchaseReviewExposure": true
-      },
-      "eventPhraseCont": "Example event phrase cont",
-      "minorPurchasable": true,
-      "isRestrictCart": false,
-      "benefitsView": {
-        "discountedSalePrice": 85357,
-        "mobileDiscountedSalePrice": 73172,
-        "sellerImmediateDiscountAmount": 0,
-        "mobileSellerImmediateDiscountAmount": 0,
-        "managerImmediateDiscountAmount": 0,
-        "mobileManagerImmediateDiscountAmount": 0,
-        "discountedRatio": 82,
-        "mobileDiscountedRatio": 33,
-        "sellerPurchasePoint": 0,
-        "mobileSellerPurchasePoint": 0,
-        "sellerCustomerManagementPoint": 0,
-        "mobileSellerCustomerManagementPoint": 0,
-        "managerPurchasePoint": 618,
-        "mobileManagerPurchasePoint": 296,
-        "managerPurchaseExtraPoint": 0,
-        "mobileManagerPurchaseExtraPoint": 0,
-        "storeMemberReviewPoint": 0,
-        "givePresent": true,
-        "textReviewPoint": 0,
-        "photoVideoReviewPoint": 0,
-        "afterUseTextReviewPoint": 0,
-        "afterUsePhotoVideoReviewPoint": 0,
-        "managerTextReviewPoint": 74,
-        "managerPhotoVideoReviewPoint": 703,
-        "managerAfterUseTextReviewPoint": 0,
-        "managerAfterUsePhotoVideoReviewPoint": 0,
-        "dispDiscountedSalePrice": 43689,
-        "dispDiscountedRatio": 79
-      },
-      "reviewAmount": {
-        "totalReviewCount": 33348,
-        "premiumReviewCount": 0,
-        "averageReviewScore": 3.58,
-        "productSatisfactionPercent": 0
-      },
-      "displayable": true,
-      "usableDelivery": true,
-      "representativeImageUrl": "https://shop-phinf.pstatic.net/example/10242.jpg",
-      "representativeImageWidth": 9099,
-      "representativeImageHeight": 4391,
-      "optionalImageUrls": [
-        "https://shop-phinf.pstatic.net/example/30100.jpg",
-        "https://shop-phinf.pstatic.net/example/2882.jpg"
-      ],
-      "productDeliveryInfo": {
-        "deliveryFeeType": "FREE",
-        "baseFee": 0,
-        "deliveryAttributeType": "SELLER_GUARANTEE",
-        "deliveryBundleGroup": {
-          "id": 277752
-        },
-        "installationFee": false,
-        "deliveryMethodTypes": [
-          "DELIVERY"
-        ],
-        "deliveryCompany": {
-          "id": "CJGLS",
-          "name": "Example name"
-        }
-      },
-      "detailContents": {
-        "detailContentText": "Example detail content text: mock text standing in for the real value. Same field and type, made-up content.",
-        "editorType": "SEONE"
-      },
-      "enableCart": true,
-      "freeDelivery": true,
-      "todayDelivery": false,
-      "regularSubscription": false,
-      "arrivalGuarantee": true,
-      "subscriptionBenefitContent": [],
-      "rmids": [
-        "Example rmids",
-        "Example rmids"
-      ],
-      "rentalOneTimeFee": false
-    }
+    "options": null,
+    "optionCount": null,
+    "hasOptions": true,
+    "specs": null
+  },
+  {
+    "productNo": "94766182749",
+    "channelProductId": "69105235794",
+    "productName": "Example product name",
+    "productUrl": "https://brand.naver.com/example/32282",
+    "imageUrl": "https://shop-phinf.pstatic.net/example/68418.jpg",
+    "salePrice": 43247,
+    "discountedPrice": 94004,
+    "mobileDiscountedPrice": 61129,
+    "immediateDiscount": 8433,
+    "originalPrice": 43959,
+    "discountPercent": 88,
+    "isOnSpecial": true,
+    "savingsAmount": 2340,
+    "stockQuantity": 402601,
+    "productStatus": "SALE",
+    "displayStatus": "ON",
+    "saleType": "NEW",
+    "authenticationType": "NORMAL",
+    "averageRating": 5.88,
+    "totalReviews": 719,
+    "premiumReviews": 0,
+    "brand": "Example brand",
+    "maker": "Example maker",
+    "sellerName": "Example seller name",
+    "sellerId": "id10569197",
+    "channelNo": 272207721,
+    "channelUid": "6swdvpc6sydn39qro79ei",
+    "categoryId": "09763444",
+    "categoryName": "Example category name",
+    "categoryPath": [
+      "Example category path",
+      "Example category path"
+    ],
+    "wholeCategoryId": "Example whole category id",
+    "freeDelivery": true,
+    "deliveryFeeType": "FREE",
+    "deliveryBaseFee": 0,
+    "arrivalGuarantee": true,
+    "todayDelivery": false,
+    "options": null,
+    "optionCount": null,
+    "hasOptions": true,
+    "specs": null
   }
 ]

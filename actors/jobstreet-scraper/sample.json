@@ -1,25 +1,25 @@
 [
   {
-    "id": "70670723",
+    "id": "41855217",
     "url": "https://my.jobstreet.com/example/9512",
     "jobLink": "https://my.jobstreet.com/example/29476",
     "applyLink": "https://my.jobstreet.com/example/4091",
     "title": "Example title",
     "teaser": "Example teaser: mock text standing in for the real value. Same field and type, made-up content.",
     "jobHook": "Example job hook: mock text standing in for the real value. Same field and type, made-up content.",
-    "content": "user91@example.com",
-    "contentText": "user23@example.com",
+    "content": "Example content: mock text standing in for the real value. Same field and type, made-up content.",
+    "contentText": "Example content text: mock text standing in for the real value. Same field and type, made-up content.",
     "contentSections": [
       "Example content sections",
       "Example content sections: mock text standing in for the real value. Same field and type, made-up content."
     ],
     "bulletPoints": [],
     "companyName": "Example company name",
-    "companyId": "149004674397690",
+    "companyId": "917813959338285",
     "companyUrl": "https://my.jobstreet.com/example/24179",
     "companyNameSlug": "id87958169",
-    "companyOverview": "Example company overview: mock text standing in for the real value. Same field and type, made-up content.",
-    "advertiserId": "40036400",
+    "companyOverview": null,
+    "advertiserId": "09118726",
     "advertiserName": "Example advertiser name",
     "locationLabel": "Example location label",
     "locationSeoHierarchy": [
@@ -31,7 +31,7 @@
       {
         "id": "9355",
         "label": "Example label",
-        "subId": "8278",
+        "subId": "9567",
         "subLabel": "Example sub label"
       }
     ],
@@ -59,10 +59,82 @@
     "phoneNumber": null,
     "phoneNumbers": [],
     "phoneNumbersFromBody": [],
-    "emails": [
-      "user60@example.com"
-    ],
+    "emails": [],
     "shareLink": "https://my.jobstreet.com/example/24259",
+    "listingDate": "2026-01-15T10:00:00Z",
+    "listingDateDisplay": "Example listing date display",
+    "expiresAt": "2026-01-15T10:00:00Z",
+    "isVerified": false,
+    "roleId": "Example role id",
+    "tags": [
+      {
+        "type": "EARLY_APPLICANT",
+        "label": "Example label"
+      }
+    ]
+  },
+  {
+    "id": "85469865",
+    "url": "https://my.jobstreet.com/example/72049",
+    "jobLink": "https://my.jobstreet.com/example/6933",
+    "applyLink": "https://my.jobstreet.com/example/20339",
+    "title": "Example title",
+    "teaser": "Example teaser: mock text standing in for the real value. Same field and type, made-up content.",
+    "jobHook": "Example job hook: mock text standing in for the real value. Same field and type, made-up content.",
+    "content": "Example content: mock text standing in for the real value. Same field and type, made-up content.",
+    "contentText": "Example content text: mock text standing in for the real value. Same field and type, made-up content.",
+    "contentSections": [
+      "Example content sections",
+      "Example content sections: mock text standing in for the real value. Same field and type, made-up content."
+    ],
+    "bulletPoints": [],
+    "companyName": "Example company name",
+    "companyId": "441566998714545",
+    "companyUrl": "https://my.jobstreet.com/example/35388",
+    "companyNameSlug": "id31661451",
+    "companyOverview": null,
+    "advertiserId": "31289826",
+    "advertiserName": "Example advertiser name",
+    "locationLabel": "Example location label",
+    "locationSeoHierarchy": [
+      "Example location seo hierarchy",
+      "Example location seo hierarchy"
+    ],
+    "countryCode": "MY",
+    "classifications": [
+      {
+        "id": "5300",
+        "label": "Example label",
+        "subId": "2842",
+        "subLabel": "Example sub label"
+      }
+    ],
+    "classificationInfo": {
+      "classification": "Example classification",
+      "subClassification": "Example sub classification"
+    },
+    "workTypes": [
+      "Example work types"
+    ],
+    "workArrangements": [
+      {
+        "id": "0",
+        "label": {
+          "text": "Example text"
+        }
+      }
+    ],
+    "workArrangementLabels": [
+      "Example work arrangement labels"
+    ],
+    "salaryLabel": null,
+    "salary": null,
+    "salaryCurrency": null,
+    "phoneNumber": null,
+    "phoneNumbers": [],
+    "phoneNumbersFromBody": [],
+    "emails": [],
+    "shareLink": "https://my.jobstreet.com/example/48256",
     "listingDate": "2026-01-15T10:00:00Z",
     "listingDateDisplay": "Example listing date display",
     "expiresAt": "2026-01-15T10:00:00Z",

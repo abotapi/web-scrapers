@@ -1,7 +1,7 @@
 [
   {
-    "id": 225625068,
-    "title": "Example title",
+    "id": 45625068,
+    "title": "Example title: mock text standing in for the real value. Same field and type, made-up content.",
     "address": "Example address",
     "listing_type": "sale",
     "property_type": "Shophouse",
@@ -15,16 +15,16 @@
     "developer": "Example developer",
     "is_developer_listing": false,
     "agent_name": "Example agent_name",
-    "agent_id": 50862215,
-    "agent_license": "r776045j",
+    "agent_id": 462215,
+    "agent_license": "r390895g",
     "agency_name": "Example agency_name",
     "district": "Example district",
-    "district_code": "D02",
+    "district_code": "D01",
     "region": "Example region",
     "nearby_mrt": "Example nearby_mrt",
     "badges": [
       "Example badges",
-      "Example badges"
+      "Freehold"
     ],
     "posted_date": "Example posted_date",
     "posted_unix": 2204062228,
@@ -42,25 +42,27 @@
     "title": "Example title",
     "address": "Example address",
     "listing_type": "sale",
-    "property_type": "Retail",
+    "property_type": "Shophouse",
     "property_type_group": "R",
-    "price": 373729,
+    "price": 3973729,
     "price_formatted": "Example price_formatted",
     "currency": "SGD",
     "price_psf": "Example price_psf",
     "floor_area": 494,
     "tenure": "Example tenure",
-    "developer": "HC",
+    "developer": "Example developer",
     "is_developer_listing": false,
     "agent_name": "Example agent_name",
-    "agent_id": 84443609,
+    "agent_id": 743609,
+    "agent_license": "r557143g",
+    "agency_name": "Example agency_name",
     "district": "Example district",
-    "district_code": "D01",
+    "district_code": "D19",
     "region": "Example region",
     "nearby_mrt": "Example nearby_mrt",
     "badges": [
       "Example badges",
-      "Example badges"
+      "Freehold"
     ],
     "posted_date": "Example posted_date",
     "posted_unix": 6450626943,
@@ -69,7 +71,7 @@
       "https://sg1-cdn.pgimgs.com/example/81027.jpg",
       "https://sg1-cdn.pgimgs.com/example/18238.jpg"
     ],
-    "image_count": 91,
+    "image_count": 1,
     "url": "https://www.commercialguru.com.sg/example/19717",
     "status": "ACT"
   }

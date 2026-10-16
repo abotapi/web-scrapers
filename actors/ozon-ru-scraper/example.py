@@ -18,6 +18,7 @@ run = client.actor("abotapi/ozon-ru-scraper").call(
         "maxReviewsPerProduct": 10,
         "maxPages": 1,
         "maxListings": 10,
+        "maxItems": 10,
         "proxy": {"useApifyProxy": True, "apifyProxyGroups": ["RESIDENTIAL"]},
     },
     logger=None,  # don't stream the run log to your console

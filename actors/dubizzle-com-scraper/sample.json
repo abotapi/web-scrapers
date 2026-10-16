@@ -1,23 +1,23 @@
 [
   {
-    "id": "19709993",
+    "id": "66708732",
     "url": "https://dubai.dubizzle.com/example/618",
-    "title": "Example title: mock text standing in for the real value. Same field and type, made-up content.",
-    "price": 5692374,
+    "title": "Example title",
+    "price": 14692374,
     "currency": "AED",
     "section": "Example section",
-    "categorySlug": "apartment",
+    "categorySlug": "villahouse",
     "bedrooms": 9,
     "bathrooms": 6,
-    "area": 604,
+    "area": 4204,
     "areaUnit": "sqft",
     "city": "Dubai",
     "neighborhood": [
       "Example neighborhood",
       "Example neighborhood"
     ],
-    "latitude": 30.69,
-    "longitude": 57.99,
+    "latitude": 30.77,
+    "longitude": 57.95,
     "isVerified": true,
     "agentName": "Example agent name",
     "agencyName": null,
@@ -25,17 +25,46 @@
     "whatsapp": null,
     "addedOn": 5259380254,
     "furnished": true,
-    "completionStatus": "off_plan",
+    "completionStatus": "completed",
     "hasDldHistory": false,
     "propertyReference": "Example property reference",
     "shortUrl": "https://dubizzle.com/example/97587",
     "photosCount": 68,
     "isPremium": true,
     "raw": {
-      "payment_plan": "97/73",
+      "handover_date": null,
+      "id": 31822846,
+      "property_reference": "Example property_reference",
+      "listed_by": {
+        "value": "AG",
+        "en": "Example en",
+        "ar": "Example ar"
+      },
+      "promoted": false,
+      "bedrooms": 9,
+      "is_price_hidden": false,
+      "photos_count": 88,
+      "is_verified_user": false,
+      "has_whatsapp_number": true,
       "original_price": null,
-      "bathrooms": 6,
-      "size": 936,
+      "agent_profile": {
+        "id": 322846,
+        "slug": "id8723921",
+        "name": {
+          "en": "Example en",
+          "ar": "Example ar"
+        },
+        "profile_pic": "https://dbz-images.dubizzle.com/example/87404.jpg",
+        "profile_completed": true,
+        "is_emirati_agent": false
+      },
+      "has_dld_history": false,
+      "has_tour_url": false,
+      "area_prime_slot_id": null,
+      "name": {
+        "en": "Example en",
+        "ar": "Example ar"
+      },
       "categories": {
         "ids": [
           26,
@@ -52,7 +81,7 @@
           ]
         },
         "slug": [
-          "apartment",
+          "villahouse",
           "residential"
         ],
         "slug_paths": [
@@ -60,57 +89,16 @@
           "Example slug_paths"
         ]
       },
-      "plot_area": null,
-      "agent_profile": {
-        "id": 322846,
-        "slug": "id8723921",
+      "city": {
+        "id": 7,
         "name": {
           "en": "Example en",
           "ar": "Example ar"
-        },
-        "profile_pic": "https://dbz-images.dubizzle.com/example/87404.jpg",
-        "profile_completed": true,
-        "is_emirati_agent": false
+        }
       },
-      "short_url": "https://dubizzle.com/example/28122",
-      "has_video_url": true,
-      "can_chat": false,
-      "sale_type_2": {
-        "en": "Example en",
-        "ar": "Example ar",
-        "filter": [
-          "NW"
-        ],
-        "badge": "NW"
-      },
-      "name": {
-        "en": "Example en: mock text standing in for the real value. Same field and type, made-up content.",
-        "ar": "Example ar: mock text standing in for the real value. Same field and type, made-up content."
-      },
-      "photos_count": 88,
-      "listed_by": {
-        "value": "AG",
-        "en": "Example en",
-        "ar": "Example ar"
-      },
-      "video_url": "https://www.youtube.com/example/13198",
-      "id": 31822846,
-      "price": 5692374,
-      "external_id": 54690708,
-      "is_verified": true,
-      "absolute_url": {
-        "en": "https://dubai.dubizzle.com/example/99858",
-        "ar": "https://dubai.dubizzle.com/example/63465"
-      },
-      "highlighted_ad": false,
-      "amount_paid": null,
-      "featured_listing": false,
-      "category_id": 64,
-      "uuid": "id37663489",
-      "tour_360": null,
       "neighborhoods": {
         "ids": [
-          88226,
+          26,
           51045
         ],
         "name": {
@@ -124,32 +112,41 @@
           ]
         }
       },
-      "bedrooms": 9,
-      "chat_enabled": false,
-      "building": {
-        "id": 52846,
+      "agent": {
+        "id": 7846,
+        "slug": "id8723921",
+        "logo": "https://dbz-images.dubizzle.com/example/83438.jpg",
         "name": {
           "en": "Example en",
           "ar": "Example ar"
         }
       },
-      "_geoloc": {
-        "lat": 67.93,
-        "lng": 18.71
+      "absolute_url": {
+        "en": "https://dubai.dubizzle.com/example/99858",
+        "ar": "https://dubai.dubizzle.com/example/63465"
       },
-      "has_whatsapp_number": true,
-      "price_drop": null,
-      "sale_type": {
-        "en": "Example en",
-        "ar": "Example ar",
-        "filter": "NW"
-      },
-      "tour_url": "",
-      "completion_status": "off_plan",
+      "is_premium_ad": true,
+      "sale_type": null,
+      "building": null,
+      "short_url": "https://dubizzle.com/example/28122",
       "added": 2579717607,
-      "property_reference": "Example property_reference",
-      "has_tour_url": false,
-      "handover_date": "Example handover_date"
+      "furnished": true,
+      "_geoloc": {
+        "lat": 67.89,
+        "lng": 18.76
+      },
+      "has_sms_number": true,
+      "completion_status": "completed",
+      "plot_area": 6032,
+      "featured_listing": false,
+      "tour_360": null,
+      "video_url": "",
+      "uuid": "id37663489",
+      "can_chat": false,
+      "payment_plan": null,
+      "price": 14692374,
+      "chat_enabled": false,
+      "highlighted_ad": false
     },
     "recordType": "listing",
     "detailMissing": false,

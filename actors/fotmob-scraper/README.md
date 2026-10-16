@@ -17,7 +17,7 @@ python example.py
 ```bash
 curl -s -X POST "https://api.apify.com/v2/acts/abotapi~fotmob-scraper/run-sync-get-dataset-items?token=$APIFY_TOKEN" \
   -H 'Content-Type: application/json' \
-  -d '{"mode": "matches", "date": "2026-08-29", "maxItems": 10, "proxy": {"useApifyProxy": true}}'
+  -d '{"mode": "news", "date": "2026-08-29", "maxItems": 10, "proxy": {"useApifyProxy": true}}'
 ```
 
 ## Inputs
@@ -25,24 +25,24 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~fotmob-scraper/run-sync-g
 | Input | Type | What it is |
 | --- | --- | --- |
 | `mode` * | string | Mode |
-| `matchIds` | array | Match ids or URLs |
-| `urls` | array | FotMob URLs |
-| `date` | string | Date (Fixtures mode) |
-| `daysAhead` | integer | Extra days |
-| `leagueIds` | array | League ids |
-| `season` | string | Season (League mode) |
-| `teamIds` | array | Team ids |
-| `playerIds` | array | Player ids |
+| `matchIds` | array | Match ids or links |
+| `urls` | array | FotMob links (any mix) |
+| `date` | string | Fixtures date |
+| `daysAhead` | integer | Extra days after the date |
+| `leagueIds` | array | Leagues |
+| `season` | string | Season (optional, league mode only) |
+| `teamIds` | array | Teams |
+| `playerIds` | array | Players |
+| `newsPages` | integer | News listing pages to read |
 | `includePlayerStats` | boolean | Player stats |
 | `includeEvents` | boolean | Match events & shotmap |
 | `includeLineups` | boolean | Match lineups |
 | `includeTeamStats` | boolean | Team stats |
 | `includeH2H` | boolean | Head-to-head & league table |
 | `includeRawData` | boolean | Raw page data |
-| `maxItems` | integer | Max items |
-| `maxConcurrency` | integer | Max concurrency |
-| `requestDelaySecs` | number | Delay between requests (seconds) |
-| `proxy` | object | Proxy |
+| `includeNewsBody` | boolean | News article full body |
+| `maxItems` | integer | Max records |
+| `proxy` | object | Proxy configuration |
 
 `*` required
 
@@ -58,7 +58,7 @@ Full details on the [scraper page](https://apify.com/abotapi/fotmob-scraper?utm_
 | `id` | string |
 | `name` | string |
 | `title` | string |
-| `lead` | null |
+| `lead` | string |
 | `source` | string |
 | `sourceIconUrl` | string |
 | `imageUrl` | string |
@@ -67,6 +67,8 @@ Full details on the [scraper page](https://apify.com/abotapi/fotmob-scraper?utm_
 | `url` | string |
 | `matchUrl` | string |
 | `scrapedAt` | string |
+| `bodyHtml` | string |
+| `bodyText` | string |
 
 ---
 

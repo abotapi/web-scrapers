@@ -6,23 +6,21 @@
     "locationName": "Example location name",
     "region": "Example region",
     "address": null,
-    "price": 370.39,
+    "price": 157.95,
     "priceMinor": 40306,
     "currency": "SGD",
     "starRating": 6,
-    "guestRating": 9.72,
+    "guestRating": 10.2,
     "guestRatingMax": 61,
     "guestRatingLabel": "Example guest rating label",
-    "numReviews": 2639,
-    "latitude": 1.6,
-    "longitude": 90.34,
+    "numReviews": 47639,
+    "latitude": 1.61,
+    "longitude": 90.36,
     "facilities": [
-      "Example facilities",
-      "CARPARK"
+      "Example facilities"
     ],
     "facilityCodes": [
-      "WIFI_PUBLIC_AREA",
-      "CARPARK"
+      "WIFI_PUBLIC_AREA"
     ],
     "imageUrl": "https://img.cnt.traveloka.com/example/59508.jpg",
     "imageUrls": [

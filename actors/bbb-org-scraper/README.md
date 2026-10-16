@@ -17,7 +17,7 @@ python example.py
 ```bash
 curl -s -X POST "https://api.apify.com/v2/acts/abotapi~bbb-org-scraper/run-sync-get-dataset-items?token=$APIFY_TOKEN" \
   -H 'Content-Type: application/json' \
-  -d '{"mode": "search", "searchTerms": ["plumber"], "location": "Los Angeles, CA", "country": "USA", "sort": "Relevance", "maxItems": 10, "proxy": {"useApifyProxy": true, "apifyProxyGroups": ["RESIDENTIAL"]}, "maxReviewsPerBusiness": 10}'
+  -d '{"mode": "search", "searchTerms": ["plumber"], "location": "Los Angeles, CA", "country": "USA", "sort": "Relevance", "maxItems": 10, "maxReviewsPerBusiness": 10, "proxy": {"useApifyProxy": true, "apifyProxyGroups": ["RESIDENTIAL"]}}'
 ```
 
 ## Inputs
@@ -26,6 +26,8 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~bbb-org-scraper/run-sync-
 | --- | --- | --- |
 | `mode` * | string | Mode |
 | `searchTerms` | array | Business terms |
+| `search` | string | Search (alias) |
+| `searches` | array | Searches (alias) |
 | `location` | string | Location |
 | `locations` | array | More locations |
 | `country` | string | Country |
@@ -37,16 +39,18 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~bbb-org-scraper/run-sync-
 | `stateFilter` | string | State / province filter |
 | `requestQuoteOnly` | boolean | Only businesses that take quote reques |
 | `servesMyAreaOnly` | boolean | Only businesses serving the location |
+| `onlyWithComplaints` | boolean | Only businesses with complaints |
 | `startUrls` | array | BBB URLs |
 | `maxItems` | integer | Max businesses |
 | `maxPagesPerQuery` | integer | Max pages per search / URL |
-| `proxy` | object | Proxy configuration |
+| `maximizeCoverage` | boolean | Maximize coverage (beyond BBB's 225-re |
 | `scrapeReviews` | boolean | Scrape customer reviews |
 | `scrapeComplaints` | boolean | Scrape complaints |
 | `maxReviewPages` | integer | Max review pages per business |
 | `maxComplaintPages` | integer | Max complaint pages per business |
 | `maxReviewsPerBusiness` | integer | Max reviews per business |
 | `maxComplaintsPerBusiness` | integer | Max complaints per business |
+| `proxy` | object | Proxy configuration |
 
 `*` required
 
@@ -78,6 +82,8 @@ Full details on the [scraper page](https://apify.com/abotapi/bbb-org-scraper?utm
 | `website` | string |
 | `ownerName` | string |
 | `ownerTitle` | string |
+| `contacts` | list |
+| `additionalWebsites` | list |
 | `streetAddress` | string |
 | `addressLine2` | null |
 | `city` | string |
@@ -88,6 +94,7 @@ Full details on the [scraper page](https://apify.com/abotapi/bbb-org-scraper?utm
 | `latitude` | float |
 | `longitude` | float |
 | `serviceAreas` | list |
+| `serviceAreaDescription` | null |
 | `yearsInBusiness` | integer |
 | `businessStartDate` | string |
 | `incorporatedDate` | string |
@@ -95,9 +102,6 @@ Full details on the [scraper page](https://apify.com/abotapi/bbb-org-scraper?utm
 | `entityType` | string |
 | `numberOfEmployees` | null |
 | `isOutOfBusiness` | boolean |
-| `description` | string |
-| `paymentMethods` | null |
-| `licenses` | list |
 
 ---
 

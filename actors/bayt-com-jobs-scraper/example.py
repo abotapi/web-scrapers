@@ -15,6 +15,7 @@ run = client.actor("abotapi/bayt-com-jobs-scraper").call(
         "mode": "search",
         "country": "uae",
         "keyword": "accountant",
+        "sortBy": "relevance",
         "maxPages": 1,
         "maxListings": 10,
         "proxy": {"useApifyProxy": True, "apifyProxyGroups": ["RESIDENTIAL"]},

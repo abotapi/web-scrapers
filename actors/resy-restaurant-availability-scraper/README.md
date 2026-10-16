@@ -32,6 +32,7 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~resy-restaurant-availabil
 | `resyCreditEligibleOnly` | boolean | Card-credit eligible restaurants only |
 | `venueUrls` | array | Restaurant links |
 | `urls` | array | Restaurant links (alias) |
+| `startUrls` | array | Start URLs (alias) |
 | `date` | string | Date |
 | `partySize` | integer | Party size |
 | `timeFilter` | string | Earliest time (optional) |

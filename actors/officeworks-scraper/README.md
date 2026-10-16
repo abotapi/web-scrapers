@@ -62,7 +62,7 @@ Full details on the [scraper page](https://apify.com/abotapi/officeworks-scraper
 | `manufacturerPartNumber` | string |
 | `productType` | string |
 | `colour` | string |
-| `multipackSize` | null |
+| `multipackSize` | integer |
 | `unitsPerPack` | integer |
 | `category` | string |
 | `categoryPath` | string |
@@ -72,11 +72,11 @@ Full details on the [scraper page](https://apify.com/abotapi/officeworks-scraper
 | `isClearance` | boolean |
 | `isOnSpecial` | boolean |
 | `isNew` | boolean |
-| `promoLabel` | string |
+| `promoLabel` | null |
 | `wasPrice` | null |
 | `savingsAmount` | null |
 | `savingsPercent` | null |
-| `rating` | integer |
+| `rating` | float |
 | `reviewCount` | integer |
 | `imageUrl` | string |
 | `images` | list |
@@ -86,8 +86,8 @@ Full details on the [scraper page](https://apify.com/abotapi/officeworks-scraper
 | `variantAxes` | object |
 | `variantCount` | integer |
 | `categoryHierarchy` | list |
-| `itemsPerUnit` | null |
-| `totalUnits` | null |
+| `itemsPerUnit` | integer |
+| `totalUnits` | integer |
 | `brandUrl` | string |
 | `edlpPrice` | integer |
 

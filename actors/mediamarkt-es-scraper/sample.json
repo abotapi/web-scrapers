@@ -12,7 +12,7 @@
     "category": "Example category",
     "url": "https://www.mediamarkt.es/example/81437",
     "rating": 5.74,
-    "reviewCount": 5,
+    "reviewCount": 41,
     "isMarketplace": false,
     "price": 635,
     "currency": "EUR",
@@ -25,12 +25,12 @@
     "installment": {
       "__typename": "Example __typename",
       "duration": 46,
-      "finalRate": 64.48,
-      "interestEffective": 20.26,
+      "finalRate": 62.21,
+      "interestEffective": 20.27,
       "interestNominal": 18.57,
-      "interestTotal": 59.44,
-      "monthlyRate": 61.33,
-      "totalAmount": 710.82
+      "interestTotal": 57.38,
+      "monthlyRate": 59.18,
+      "totalAmount": 685.86
     },
     "image": "https://assets.mmsrg.com/example/91927.jpg",
     "images": [
@@ -40,16 +40,16 @@
     "availabilityStatus": "AVAILABLE",
     "reviews": {
       "averageRating": 5.0,
-      "totalReviewCount": 5,
+      "totalReviewCount": 77,
       "items": [
         {
-          "id": "0346020297",
+          "id": "8990045028",
           "rating": 4,
-          "title": "excelente",
+          "title": "Example title",
           "text": "Example text: mock text standing in for the real value. Same field and type, made-up content.",
           "date": "2026-01-15T10:00:00Z",
           "isVerifiedPurchaser": true,
-          "reviewerName": "Example reviewer name",
+          "reviewerName": "id27997871",
           "syndicationSource": null
         }
       ]

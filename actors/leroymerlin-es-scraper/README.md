@@ -67,10 +67,20 @@ Full details on the [scraper page](https://apify.com/abotapi/leroymerlin-es-scra
 | `sellerName` | string |
 | `sellerType` | string |
 | `offerType` | string |
-| `rating` | null |
+| `rating` | float |
 | `totalOfferCount` | integer |
 | `sellersComposition` | string |
 | `sponsored` | boolean |
+| `ean` | string |
+| `description` | string |
+| `image` | string |
+| `numberOfImages` | integer |
+| `numberOfReviews` | integer |
+| `categoryPath` | list |
+| `category` | string |
+| `stock` | integer |
+| `stockStatus` | string |
+| `deliveryTime` | string |
 | `reviews` | object |
 | `searchMode` | string |
 

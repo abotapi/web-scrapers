@@ -17,7 +17,7 @@ python example.py
 ```bash
 curl -s -X POST "https://api.apify.com/v2/acts/abotapi~product-reviews-australia-scraper/run-sync-get-dataset-items?token=$APIFY_TOKEN" \
   -H 'Content-Type: application/json' \
-  -d '{"mode": "search", "outputType": "listings", "category": "home-garden-shops", "limit": 10, "proxy": {"useApifyProxy": true, "apifyProxyGroups": []}}'
+  -d '{"mode": "search", "outputType": "listings", "category": "home-garden-shops", "maxReviewsPerListing": 10, "limit": 10, "proxy": {"useApifyProxy": true, "apifyProxyGroups": []}}'
 ```
 
 ## Inputs
@@ -26,13 +26,20 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~product-reviews-australia
 | --- | --- | --- |
 | `mode` | string | Mode |
 | `outputType` | string | Output |
-| `category` | string | Category Slug |
+| `category` | string | Category (Filter mode only) |
 | `searchQuery` | string | Search Query |
-| `location` | string | Location |
+| `location` | string | Location Slug or Name |
 | `showDiscontinued` | boolean | Show Discontinued |
-| `sortBy` | string | Sort Results By |
+| `sortBy` | string | Sort Results By (Filter mode only) |
+| `brands` | array | Brands |
+| `minRating` | integer | Minimum listing rating |
 | `urls` | array | URLs |
-| `limit` | integer | Max Output Rows |
+| `maxReviewsPerListing` | integer | Max reviews per listing |
+| `reviewRating` | integer | Only reviews with this rating |
+| `reviewVerifiedOnly` | boolean | Verified purchases only |
+| `reviewsWithAttachmentsOnly` | boolean | Only reviews with photos/attachments |
+| `reviewSortBy` | string | Sort reviews by |
+| `limit` | integer | Max Output Rows (applies to both modes |
 | `maxConcurrency` | integer | Max Concurrency |
 | `proxy` | object | Proxy Configuration |
 
@@ -46,6 +53,7 @@ Full details on the [scraper page](https://apify.com/abotapi/product-reviews-aus
 
 | Field | Type |
 | --- | --- |
+| `recordType` | string |
 | `id` | string |
 | `name` | string |
 | `slug` | string |
@@ -62,16 +70,29 @@ Full details on the [scraper page](https://apify.com/abotapi/product-reviews-aus
 | `pictureUrl` | string |
 | `pictures` | list |
 | `createdAt` | string |
+| `fullName` | string |
+| `shortName` | string |
+| `lowestPrice` | null |
+| `lowestPriceFormatted` | null |
+| `offers` | list |
+| `reviewsSummary` | string |
+| `reviewsSummaryUpdatedAt` | string |
+| `reviewsSummaryHighlights` | object |
+| `marketAvailability` | object |
+| `tags` | list |
+| `awardYears` | list |
+| `officialLink` | string |
+| `specificationValues` | object |
+| `universalIds` | list |
+| `videos` | list |
+| `specHighlights` | list |
+| `capacityText` | null |
+| `rrpPrice` | null |
 | `scrapedAt` | string |
+| `searchUrl` | string |
 | `reviews` | list |
+| `reviewsCollected` | integer |
 | `totalReviews` | integer |
-| `reviewPages` | integer |
-| `pagesScraped` | integer |
-| `address` | null |
-| `businessHours` | null |
-| `description` | string |
-| `faqs` | list |
-| `specifications` | object |
 
 ---
 

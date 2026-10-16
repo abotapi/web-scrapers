@@ -42,6 +42,7 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~ycombinator-com-scraper/r
 | `sortBy` | string | Sort order |
 | `urls` | array | Search URLs |
 | `fetchDetails` | boolean | Fetch full detail page (recommended ON |
+| `fetchJobDetails` | boolean | Fetch full job descriptions |
 | `maxListings` | integer | Max companies |
 | `maxPages` | integer | Max search pages |
 | `proxy` | object | Proxy |

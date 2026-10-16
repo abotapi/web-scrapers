@@ -1,0 +1,19 @@
+[
+  {
+    "recordType": "show",
+    "shopSlug": "Example shop slug",
+    "shopUrl": "https://shopthemasonjar.commentsold.com/example/17151",
+    "showId": "livesale5-shopthemasonjar",
+    "title": "Example title",
+    "status": "idle",
+    "isLiveNow": false,
+    "viewerCount": 0,
+    "startedAt": null,
+    "productCount": 0,
+    "thumbnailUrl": null,
+    "url": "https://shopthemasonjar.commentsold.com/example/49605",
+    "searchMode": "live",
+    "searchQuery": null,
+    "scrapedAt": "2026-01-15T10:00:00Z"
+  }
+]

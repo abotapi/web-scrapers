@@ -5,10 +5,10 @@
     "url": "https://www.currys.co.uk/example/51610",
     "title": "Example title",
     "brand": "LOGIK",
-    "price": 255.99,
-    "wasPrice": null,
-    "discount": null,
-    "discountPercent": null,
+    "price": 217.59,
+    "wasPrice": 145.99,
+    "discount": 77,
+    "discountPercent": 91,
     "currency": "GBP",
     "availabilityStatus": "InStock",
     "categories": [
@@ -26,13 +26,13 @@
     "priceValidUntil": "2026-01-15",
     "carePlans": [
       {
-        "id": "87757",
+        "id": "03140",
         "name": "Example name",
-        "price": 5,
+        "price": 1.92,
         "currency": "GBP"
       },
       {
-        "id": "13450",
+        "id": "40917",
         "name": "Example name",
         "price": 85,
         "currency": "GBP"
@@ -41,14 +41,14 @@
     "financeOptions": [
       {
         "frequency": "monthly",
-        "amount": 6.48,
+        "amount": 5.5,
         "apr": 30.8,
         "installments": 75,
         "currency": "GBP"
       },
       {
         "frequency": "Example frequency",
-        "amount": 255.99,
+        "amount": 217.59,
         "apr": 0,
         "installments": 1,
         "currency": "GBP"

@@ -54,9 +54,9 @@ Full details on the [scraper page](https://apify.com/abotapi/currys-co-uk?utm_so
 | `title` | string |
 | `brand` | string |
 | `price` | float |
-| `wasPrice` | null |
-| `discount` | null |
-| `discountPercent` | null |
+| `wasPrice` | float |
+| `discount` | integer |
+| `discountPercent` | integer |
 | `currency` | string |
 | `availabilityStatus` | string |
 | `categories` | list |

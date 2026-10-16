@@ -75,7 +75,7 @@ Full details on the [scraper page](https://apify.com/abotapi/justia-lawyer-scrap
 | `hasSocialMedia` | boolean |
 | `biography` | string |
 | `practiceAreas` | null |
-| `additionalPracticeAreas` | list |
+| `additionalPracticeAreas` | null |
 | `videoConferencing` | null |
 | `fees` | null |
 | `contingentFees` | boolean |

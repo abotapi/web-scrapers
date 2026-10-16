@@ -1,0 +1,12 @@
+[
+  {
+    "username": "Example username",
+    "roomId": "5962365072954223569",
+    "startedAt": null,
+    "endedAt": null,
+    "durationSeconds": 0,
+    "fileKey": null,
+    "fileSizeBytes": 0,
+    "status": "not_live"
+  }
+]

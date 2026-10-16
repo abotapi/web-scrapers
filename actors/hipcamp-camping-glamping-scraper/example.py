@@ -14,7 +14,9 @@ run = client.actor("abotapi/hipcamp-camping-glamping-scraper").call(
     run_input={
         "mode": "search",
         "regions": ["california"],
+        "category": "all",
         "maxItems": 10,
+        "maxReviewsPerListing": 10,
         "proxyConfiguration": {"useApifyProxy": True},
     },
     logger=None,  # don't stream the run log to your console

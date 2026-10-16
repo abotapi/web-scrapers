@@ -1,36 +1,36 @@
 [
   {
-    "sku": "acd0zsa746",
+    "sku": "paap940206",
     "name": "Example name",
     "title": "Example title",
-    "brand": "Acer",
+    "brand": "Example brand",
     "url": "https://www.officeworks.com.au/example/65580",
     "seoPath": "Example seo path: mock text standing in for the real value. Same field and type, made-up content.",
-    "price": 405,
+    "price": 9,
     "currency": "AUD",
-    "gtin": "5869602523053",
-    "manufacturerPartNumber": "Example manufacturer part number",
+    "gtin": "8111451226911",
+    "manufacturerPartNumber": "ap092798",
     "productType": "STANDARD",
-    "colour": "Silver",
-    "multipackSize": null,
-    "unitsPerPack": 6,
-    "category": "Deals",
-    "categoryPath": "deals",
+    "colour": "Multi",
+    "multipackSize": 87,
+    "unitsPerPack": 42,
+    "category": "Example category",
+    "categoryPath": "Example category path",
     "availableStates": [
-      "NSW",
-      "VIC"
+      "NT",
+      "ACT"
     ],
     "isAvailableInStore": true,
     "availableOnline": true,
     "isClearance": false,
-    "isOnSpecial": true,
+    "isOnSpecial": false,
     "isNew": false,
-    "promoLabel": "Example promo label",
+    "promoLabel": null,
     "wasPrice": null,
     "savingsAmount": null,
     "savingsPercent": null,
-    "rating": 1,
-    "reviewCount": 9,
+    "rating": 5.18,
+    "reviewCount": 45,
     "imageUrl": "https://s3-ap-southeast-2.amazonaws.com/example/71801.jpg",
     "images": [
       "https://s3-ap-southeast-2.amazonaws.com/example/44686.jpg",
@@ -40,41 +40,127 @@
     "source": "Example source",
     "variants": [
       {
-        "sku": "acd0zsa746",
+        "sku": "paap569441",
         "url": "https://www.officeworks.com.au/example/65580",
         "attributes": {
-          "Variation": "Example variation"
+          "Pack Quantity": "50",
+          "Colour": "Red"
         },
         "imageUrl": "https://s3-ap-southeast-2.amazonaws.com/example/71801.jpg"
       },
       {
-        "sku": "acx7psa431",
+        "sku": "paap360475",
         "url": "https://www.officeworks.com.au/example/59210",
         "attributes": {
-          "Variation": "Example variation"
+          "Pack Quantity": "30",
+          "Colour": "Black"
         },
         "imageUrl": "https://s3-ap-southeast-2.amazonaws.com/example/94262.jpg"
       }
     ],
     "variantAxes": {
-      "Variation": [
-        "Example variation",
-        "Example variation"
+      "Pack Quantity": [
+        "30",
+        "30"
+      ],
+      "Colour": [
+        "Assorted",
+        "Example colour"
       ]
     },
     "variantCount": 2,
     "categoryHierarchy": [
       [
-        "Technology",
-        "Laptops"
+        "Example category hierarchy",
+        "Pens"
       ],
       [
-        "Deals"
+        "Education",
+        "Example category hierarchy"
+      ]
+    ],
+    "itemsPerUnit": 1,
+    "totalUnits": 98,
+    "brandUrl": "https://www.officeworks.com.au/example/60347",
+    "edlpPrice": 7
+  },
+  {
+    "sku": "kegp0024bk",
+    "name": "Example name",
+    "title": "Example title",
+    "brand": "Keji",
+    "url": "https://www.officeworks.com.au/example/48397",
+    "seoPath": "Example seo path: mock text standing in for the real value. Same field and type, made-up content.",
+    "price": 2,
+    "currency": "AUD",
+    "gtin": "9192198630318",
+    "manufacturerPartNumber": "gp6309-bk",
+    "productType": "STANDARD",
+    "colour": "Black",
+    "multipackSize": 89,
+    "unitsPerPack": 24,
+    "category": "Example category",
+    "categoryPath": "Example category path",
+    "availableStates": [
+      "NSW",
+      "ACT"
+    ],
+    "isAvailableInStore": true,
+    "availableOnline": true,
+    "isClearance": false,
+    "isOnSpecial": false,
+    "isNew": false,
+    "promoLabel": null,
+    "wasPrice": null,
+    "savingsAmount": null,
+    "savingsPercent": null,
+    "rating": 5.23,
+    "reviewCount": 38,
+    "imageUrl": "https://s3-ap-southeast-2.amazonaws.com/example/39525.jpg",
+    "images": [
+      "https://s3-ap-southeast-2.amazonaws.com/example/40942.jpg",
+      "https://s3-ap-southeast-2.amazonaws.com/example/8475.jpg"
+    ],
+    "searchMode": "search",
+    "source": "Example source",
+    "variants": [
+      {
+        "sku": "kegp0024bk",
+        "url": "https://www.officeworks.com.au/example/48397",
+        "attributes": {
+          "Colour": "Black"
+        },
+        "imageUrl": "https://s3-ap-southeast-2.amazonaws.com/example/39525.jpg"
+      },
+      {
+        "sku": "kegp8800be",
+        "url": "https://www.officeworks.com.au/example/25698",
+        "attributes": {
+          "Colour": "Blue"
+        },
+        "imageUrl": "https://s3-ap-southeast-2.amazonaws.com/example/98581.jpg"
+      }
+    ],
+    "variantAxes": {
+      "Colour": [
+        "Assorted",
+        "Black"
+      ]
+    },
+    "variantCount": 5,
+    "categoryHierarchy": [
+      [
+        "Example category hierarchy",
+        "Pens"
+      ],
+      [
+        "Education",
+        "Example category hierarchy"
       ]
     ],
     "itemsPerUnit": null,
     "totalUnits": null,
-    "brandUrl": "https://www.officeworks.com.au/example/60347",
-    "edlpPrice": 340
+    "brandUrl": "https://www.officeworks.com.au/example/67390",
+    "edlpPrice": 7
   }
 ]

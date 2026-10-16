@@ -53,10 +53,14 @@ Full details on the [scraper page](https://apify.com/abotapi/danmurphys-scraper?
 | `description` | string |
 | `brand` | string |
 | `department` | string |
-| `price` | float |
+| `price` | integer |
+| `wasPrice` | float |
 | `isOnSpecial` | boolean |
 | `isOnOffer` | boolean |
 | `isMemberOffer` | boolean |
+| `memberOfferLabel` | string |
+| `promotionType` | string |
+| `packMessage` | string |
 | `casePrice` | float |
 | `casePackMessage` | string |
 | `singlePrice` | float |
@@ -69,7 +73,6 @@ Full details on the [scraper page](https://apify.com/abotapi/danmurphys-scraper?
 | `style` | string |
 | `closure` | string |
 | `size` | string |
-| `foodMatch` | string |
 | `rating` | integer |
 | `reviewCount` | integer |
 | `isNew` | boolean |

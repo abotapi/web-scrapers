@@ -41,7 +41,7 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~cars-com-scraper/run-sync
 | `maxItems` | integer | Max items |
 | `maxPages` | integer | Max pages per search |
 | `proxy` | object | Proxy configuration |
-| `maxResidentialMB` | integer | Residential traffic budget (MB) |
+| `maxResidentialMB` | integer | Residential traffic budget (MB, not en |
 
 `*` required
 
@@ -70,7 +70,7 @@ Full details on the [scraper page](https://apify.com/abotapi/cars-com-scraper?ut
 | `drivetrain` | string |
 | `fuelType` | string |
 | `fuel_type` | string |
-| `exterior_color` | string |
+| `exterior_color` | null |
 | `interior_color` | null |
 | `transmission` | null |
 | `mpg_city` | null |
@@ -78,21 +78,21 @@ Full details on the [scraper page](https://apify.com/abotapi/cars-com-scraper?ut
 | `stockType` | string |
 | `cpoIndicator` | boolean |
 | `price` | integer |
-| `priceText` | null |
+| `priceText` | string |
 | `msrp` | integer |
-| `monthlyPayment` | null |
-| `price_drop` | null |
-| `deal_rating` | null |
-| `deal_badge_text` | null |
-| `price_vs_market` | null |
+| `monthlyPayment` | string |
+| `price_drop` | string |
+| `deal_rating` | string |
+| `deal_badge_text` | string |
+| `price_vs_market` | string |
 | `shipPrice` | null |
 | `shippingNote` | null |
 | `isShippable` | boolean |
 | `deliveryType` | null |
 | `financingType` | string |
 | `dealer` | object |
-| `dealerName` | null |
-| `dealer_name` | null |
+| `dealerName` | string |
+| `dealer_name` | string |
 
 ---
 

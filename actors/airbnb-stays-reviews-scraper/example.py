@@ -15,6 +15,7 @@ run = client.actor("abotapi/airbnb-stays-reviews-scraper").call(
         "mode": "search",
         "searchQueries": ["Paris, France"],
         "currency": "USD",
+        "locale": "en",
         "maxItems": 10,
         "maxReviewsPerListing": 10,
         "proxyConfiguration": {"useApifyProxy": True},

@@ -17,7 +17,7 @@ python example.py
 ```bash
 curl -s -X POST "https://api.apify.com/v2/acts/abotapi~grabfood-restaurants-scraper/run-sync-get-dataset-items?token=$APIFY_TOKEN" \
   -H 'Content-Type: application/json' \
-  -d '{"mode": "search", "region": "SG", "searchQueries": ["ramen"], "sortBy": "default", "maxItems": 10, "maxPages": 1, "proxyConfiguration": {"useApifyProxy": true, "apifyProxyGroups": ["RESIDENTIAL"]}}'
+  -d '{"mode": "search", "region": "SG", "language": "default", "searchQueries": ["ramen"], "sortBy": "default", "maxItems": 10, "maxPages": 1, "proxyConfiguration": {"useApifyProxy": true, "apifyProxyGroups": ["RESIDENTIAL"]}}'
 ```
 
 ## Inputs
@@ -26,6 +26,9 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~grabfood-restaurants-scra
 | --- | --- | --- |
 | `mode` * | string | Mode |
 | `region` | string | Region |
+| `language` | string | Language |
+| `deliveryLatitude` | number | Delivery latitude |
+| `deliveryLongitude` | number | Delivery longitude |
 | `searchQueries` | array | Search keywords |
 | `startUrls` | array | GrabFood URLs |
 | `cuisineFilter` | array | Cuisine filter |
@@ -78,16 +81,7 @@ Full details on the [scraper page](https://apify.com/abotapi/grabfood-restaurant
 | `sourceUrl` | null |
 | `region` | string |
 | `scrapedAt` | string |
-| `fullAddress` | string |
-| `street` | string |
-| `suburb` | string |
-| `postcode` | string |
-| `city` | string |
-| `countryCode` | string |
-| `orderValueLimit` | integer |
-| `menu` | list |
-| `menuCategoryCount` | integer |
-| `menuItemCount` | integer |
+| `deliveryContext` | object |
 
 ---
 

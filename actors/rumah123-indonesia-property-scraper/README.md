@@ -17,7 +17,7 @@ python example.py
 ```bash
 curl -s -X POST "https://api.apify.com/v2/acts/abotapi~rumah123-indonesia-property-scraper/run-sync-get-dataset-items?token=$APIFY_TOKEN" \
   -H 'Content-Type: application/json' \
-  -d '{"mode": "search", "locations": ["dki-jakarta"], "listingType": "sale", "propertyType": "residential", "sortBy": "recommended", "furnishing": "any", "maxPages": 1, "maxListings": 10, "proxy": {"useApifyProxy": true, "apifyProxyGroups": ["RESIDENTIAL"], "apifyProxyCountry": "ID"}}'
+  -d '{"mode": "search", "locations": ["dki-jakarta"], "listingType": "sale", "propertyType": "residential", "sortBy": "recommended", "furnishing": "any", "maxPages": 1, "maxListings": 10, "limit": 10, "proxy": {"useApifyProxy": true, "apifyProxyGroups": ["RESIDENTIAL"], "apifyProxyCountry": "ID"}}'
 ```
 
 ## Inputs
@@ -37,11 +37,17 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~rumah123-indonesia-proper
 | `minBuildingSize` | integer | Min building size (m2) |
 | `maxBuildingSize` | integer | Max building size (m2) |
 | `urls` | array | Direct URLs |
+| `startUrls` | array | Start URLs (alias of Direct URLs) |
 | `sortBy` | string | Sort by |
 | `furnishing` | string | Furnishing |
+| `propertyTypes` | array | Property types (multi-select) |
+| `furnishings` | array | Furnishing (multi-select) |
+| `promotions` | array | Promotions |
+| `minFloors` | integer | Minimum floors |
 | `fetchDetails` | boolean | Fetch full details |
 | `maxPages` | integer | Max pages per search |
-| `maxListings` | integer | Max listings (0  unlimited) |
+| `maxListings` | integer | Max listings (0  up to 100000) |
+| `limit` | integer | Limit (alias of Max listings) |
 | `proxy` | object | Proxy |
 
 `*` required
@@ -54,6 +60,7 @@ Full details on the [scraper page](https://apify.com/abotapi/rumah123-indonesia-
 
 | Field | Type |
 | --- | --- |
+| `recordType` | string |
 | `id` | string |
 | `uuid` | string |
 | `url` | string |
@@ -70,6 +77,7 @@ Full details on the [scraper page](https://apify.com/abotapi/rumah123-indonesia-
 | `priceMin` | integer |
 | `priceMax` | integer |
 | `pricePerMeterDisplay` | string |
+| `pricePerMeter` | integer |
 | `currency` | string |
 | `isPriceDrop` | boolean |
 | `installmentMonthly` | string |
@@ -92,8 +100,6 @@ Full details on the [scraper page](https://apify.com/abotapi/rumah123-indonesia-
 | `city` | string |
 | `district` | string |
 | `fullAddress` | null |
-| `latitude` | float |
-| `longitude` | float |
 
 ---
 

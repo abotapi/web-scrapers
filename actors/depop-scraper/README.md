@@ -76,8 +76,8 @@ Full details on the [scraper page](https://apify.com/abotapi/depop-scraper?utm_s
 | `isBoosted` | boolean |
 | `boostedAt` | string |
 | `isSold` | null |
-| `price` | integer |
-| `totalPrice` | integer |
+| `price` | float |
+| `totalPrice` | float |
 | `buyerFee` | integer |
 | `tax` | integer |
 | `taxType` | string |

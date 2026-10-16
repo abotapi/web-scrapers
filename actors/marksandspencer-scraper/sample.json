@@ -1,35 +1,35 @@
 [
   {
     "recordType": "product",
-    "id": "p54161753",
-    "productId": "p42400023",
-    "productExternalId": "p92114482",
-    "listingId": "26806802",
+    "id": "p94504240",
+    "productId": "p95447529",
+    "productExternalId": "p05463977",
+    "listingId": "73260338",
     "url": "https://www.marksandspencer.com/example/98453",
     "productUrl": "https://www.marksandspencer.com/example/99922",
     "title": "Example title",
     "name": "Example name",
     "brand": "Autograph",
-    "strokeId": "t958904",
+    "strokeId": "t511309s",
     "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
-    "price": 82,
+    "price": 532,
     "priceDetails": {
       "unitPrice": null,
       "listPrice": {
-        "amount": 22
+        "amount": 652
       },
       "currency": "GBP",
       "previousPrice": null,
       "product": {
         "currencyCode": "GBP"
       },
-      "minimum": 29,
-      "maximum": 96
+      "minimum": 389,
+      "maximum": 366
     },
     "previousPrice": null,
     "unitPrice": null,
     "currency": "GBP",
-    "averageRating": 3.52,
+    "averageRating": 3.63,
     "reviewCount": 12,
     "images": [
       "https://assets.digitalcontent.marksandspencer.app/example/75171.jpg",
@@ -37,7 +37,7 @@
     ],
     "colours": [
       "Example colours",
-      "BLACK"
+      "Example colours"
     ],
     "sizes": [
       "Example sizes",
@@ -45,20 +45,20 @@
     ],
     "variants": [
       {
-        "id": "67381272",
+        "id": "45705420",
         "assets": [
           {
             "type": "ALTERNATIVE",
-            "assetId": "sd_44_t90_9927_cw_x_ec_2"
+            "assetId": "sd_89_t50_3682s_cw_x_ec_5"
           },
           {
             "type": "ALTERNATIVE",
-            "assetId": "sd_10_t53_0802_cw_x_ec_8"
+            "assetId": "sd_69_t85_7333s_cw_x_ec_4"
           }
         ],
         "skus": [
           {
-            "id": "28894103962",
+            "id": "21421094065",
             "inventory": {
               "quantity": 44,
               "quantityOnHand": 94,
@@ -73,8 +73,8 @@
             "leadTime": null,
             "price": {
               "currencyPrefix": "Example currency prefix",
-              "currentPrice": 45,
-              "mfPartnumber": "94743844",
+              "currentPrice": 585,
+              "mfPartnumber": "29498908",
               "offerText": "",
               "previousPrice": 0,
               "unitPrice": "",
@@ -88,7 +88,7 @@
             }
           },
           {
-            "id": "05501238402",
+            "id": "15090190356",
             "inventory": {
               "quantity": 543,
               "quantityOnHand": 184,
@@ -103,8 +103,8 @@
             "leadTime": null,
             "price": {
               "currencyPrefix": "Example currency prefix",
-              "currentPrice": 40,
-              "mfPartnumber": "95357834",
+              "currentPrice": 310,
+              "mfPartnumber": "94147027",
               "offerText": "",
               "previousPrice": 0,
               "unitPrice": "",
@@ -120,12 +120,12 @@
         ],
         "colour": "Example colour",
         "colourSwatchImageUrl": "https://assets.digitalcontent.marksandspencer.app/example/33829.jpg",
-        "colourSwatchAssetId": "sd_88_t55_1627_cw_x_ec_32",
+        "colourSwatchAssetId": "sd_77_t91_9503s_cw_x_ec_34",
         "exactColourForBeauty": "Example exact colour for beauty",
         "colourSequenceNumber": "",
         "modelDetails": {
           "height": "Example height",
-          "size": "S"
+          "size": "7"
         },
         "images": [
           "https://assets.digitalcontent.marksandspencer.app/example/75171.jpg",
@@ -133,20 +133,20 @@
         ]
       },
       {
-        "id": "96121867",
+        "id": "67437041",
         "assets": [
           {
             "type": "ALTERNATIVE",
-            "assetId": "sd_50_t59_8826_y6_x_ec_7"
+            "assetId": "sd_51_t64_5146s_qj_x_ec_1"
           },
           {
             "type": "ALTERNATIVE",
-            "assetId": "sd_05_t08_3352_y9_x_ec_9"
+            "assetId": "sd_66_t36_3618s_qj_x_ec_0"
           }
         ],
         "skus": [
           {
-            "id": "17737102312",
+            "id": "74714921734",
             "inventory": {
               "quantity": 93,
               "quantityOnHand": 94,
@@ -161,8 +161,8 @@
             "leadTime": null,
             "price": {
               "currencyPrefix": "Example currency prefix",
-              "currentPrice": 40,
-              "mfPartnumber": "13788570",
+              "currentPrice": 310,
+              "mfPartnumber": "57824296",
               "offerText": "",
               "previousPrice": 0,
               "unitPrice": "",
@@ -176,7 +176,7 @@
             }
           },
           {
-            "id": "23716281738",
+            "id": "17883798683",
             "inventory": {
               "quantity": 735,
               "quantityOnHand": 571,
@@ -191,8 +191,8 @@
             "leadTime": null,
             "price": {
               "currencyPrefix": "Example currency prefix",
-              "currentPrice": 77,
-              "mfPartnumber": "70664798",
+              "currentPrice": 977,
+              "mfPartnumber": "76032663",
               "offerText": "",
               "previousPrice": 0,
               "unitPrice": "",
@@ -206,10 +206,10 @@
             }
           }
         ],
-        "colour": "BLACK",
+        "colour": "Example colour",
         "colourSwatchImageUrl": "https://assets.digitalcontent.marksandspencer.app/example/4807.jpg",
-        "colourSwatchAssetId": "sd_90_t59_6856_y1_x_ec_31",
-        "exactColourForBeauty": "Black",
+        "colourSwatchAssetId": "sd_53_t55_4221s_qj_x_ec_56",
+        "exactColourForBeauty": "Example exact colour for beauty",
         "colourSequenceNumber": "",
         "modelDetails": {
           "height": "Example height",
@@ -223,8 +223,8 @@
     ],
     "fetchedDetails": true,
     "listingData": {
-      "id": "67381272",
-      "productExternalId": "p92114482",
+      "id": "45705420",
+      "productExternalId": "p05463977",
       "strokeId": "Example stroke id",
       "brand": "Autograph",
       "title": "Example title",
@@ -235,65 +235,65 @@
       "variants": [
         {
           "colour": "Example colour",
-          "skuId": "96481842275",
-          "upc": "83579074",
+          "skuId": "72861247224",
+          "upc": "06129950",
           "size": "Example size",
           "servingSize": null,
-          "partNumber": "71815065730",
-          "price": 82,
+          "partNumber": "10840155620",
+          "price": 532,
           "mediaAssets": [
             {
-              "assetId": "sd_44_t90_9927_cw_x_ec_2",
+              "assetId": "sd_89_t50_3682s_cw_x_ec_5",
               "isLandscapeImage": false,
               "type": "Alternative"
             },
             {
-              "assetId": "sd_10_t53_0802_cw_x_ec_8",
+              "assetId": "sd_69_t85_7333s_cw_x_ec_4",
               "isLandscapeImage": false,
               "type": "Alternative"
             }
           ],
           "swatchAsset": {
-            "assetId": "sd_05_t13_1599_cw_x_ec_71",
+            "assetId": "sd_80_t81_3853s_cw_x_ec_85",
             "isLandscapeImage": false,
             "type": "Fabric"
           }
         },
         {
           "colour": "Example colour",
-          "skuId": "91734208146",
-          "upc": "00077280",
+          "skuId": "40876962267",
+          "upc": "07350900",
           "size": "Example size",
           "servingSize": null,
-          "partNumber": "97822580239",
-          "price": 47,
+          "partNumber": "13748093291",
+          "price": 227,
           "mediaAssets": [
             {
-              "assetId": "sd_14_t34_2227_cw_x_ec_4",
+              "assetId": "sd_03_t51_7126s_cw_x_ec_7",
               "isLandscapeImage": false,
               "type": "Alternative"
             },
             {
-              "assetId": "sd_11_t55_5426_cw_x_ec_7",
+              "assetId": "sd_81_t21_8368s_cw_x_ec_7",
               "isLandscapeImage": false,
               "type": "Alternative"
             }
           ],
           "swatchAsset": {
-            "assetId": "sd_83_t70_9316_fs_x_ec_68",
+            "assetId": "sd_40_t91_2526s_qj_x_ec_88",
             "isLandscapeImage": false,
             "type": "Fabric"
           }
         }
       ],
       "reviews": {
-        "averageRating": 3.52,
-        "totalReviewCount": 29
+        "averageRating": 3.6,
+        "totalReviewCount": 2
       },
       "price": {
         "unitPrice": null,
         "listPrice": {
-          "amount": 22
+          "amount": 652
         },
         "currency": "GBP",
         "previousPrice": null
@@ -307,7 +307,7 @@
           "loyaltyPromotionCode": "87784"
         },
         {
-          "loyaltyPromotionCode": "80663"
+          "loyaltyPromotionCode": "72521"
         }
       ],
       "stockLevelIndicator": "M"
@@ -328,7 +328,7 @@
         "loyaltyPromotionCode": "87784"
       },
       {
-        "loyaltyPromotionCode": "80663"
+        "loyaltyPromotionCode": "72521"
       }
     ],
     "stockLevelIndicator": "M",
@@ -338,7 +338,7 @@
     "productData": {
       "id": "",
       "name": "",
-      "productExternalId": "p92114482",
+      "productExternalId": "p05463977",
       "new": false,
       "attributes": {
         "keyServiceFeatures": "",
@@ -367,8 +367,8 @@
         "ccTumbleDrying": "Example cc tumble drying",
         "ccWashTemperature": "pdp-cc_wash16",
         "usageInstructions": "",
-        "upc": "95275122",
-        "strokeId": "t958904",
+        "upc": "06129950",
+        "strokeId": "t511309s",
         "primarySizeLabel": "Size",
         "secondarySizeLabel": "",
         "servings": "",
@@ -443,13 +443,13 @@
       "promotions": {
         "productLoyaltyPromotion": [
           {
-            "loyaltyPromoCode": "92022",
+            "loyaltyPromoCode": "47035",
             "promoName": "Example promo name",
             "shortDesc": "Example short desc",
             "longDesc": "user60@example.com"
           },
           {
-            "loyaltyPromoCode": "43855",
+            "loyaltyPromoCode": "04087",
             "promoName": "Example promo name",
             "shortDesc": "Example short desc",
             "longDesc": "user96@example.com"
@@ -460,11 +460,11 @@
       "assetCrossReferences": [
         {
           "type": "ALTERNATIVE",
-          "assetId": "sd_18_t44_9857_y4_x_ec_5"
+          "assetId": "sd_89_t50_3682s_cw_x_ec_5"
         },
         {
           "type": "ALTERNATIVE",
-          "assetId": "sd_58_t76_1791_y1_x_ec_0"
+          "assetId": "sd_69_t85_7333s_cw_x_ec_4"
         }
       ],
       "productCrossReferences": [
@@ -472,7 +472,7 @@
           "type": "JL",
           "showproductcard": "Example showproductcard",
           "productId": "",
-          "productExternalId": "p05463977",
+          "productExternalId": "p92114482",
           "seoUrl": "Example seo url",
           "displayNameForProductRelationship": "Example display name for product relationship",
           "productTypeforOawProductReference": "",
@@ -482,28 +482,58 @@
                 "assets": [
                   {
                     "type": "ALTERNATIVE",
-                    "assetId": "sd_89_t50_3682s_cw_x_ec_5"
+                    "assetId": "sd_18_t44_9857_y4_x_ec_5"
                   },
                   {
                     "type": "ALTERNATIVE",
-                    "assetId": "sd_69_t85_7333s_cw_x_ec_4"
+                    "assetId": "sd_58_t76_1791_y1_x_ec_0"
                   }
                 ],
                 "skus": [
                   {
-                    "id": "21421094065",
+                    "id": "17346144710",
                     "price": {
                       "currencyPrefix": "Example currency prefix",
                       "currencyCode": "GBP",
-                      "currentPrice": 585
+                      "currentPrice": 45
                     }
                   },
                   {
-                    "id": "15090190356",
+                    "id": "84179288799",
                     "price": {
                       "currencyPrefix": "Example currency prefix",
                       "currencyCode": "GBP",
-                      "currentPrice": 310
+                      "currentPrice": 40
+                    }
+                  }
+                ]
+              },
+              {
+                "assets": [
+                  {
+                    "type": "ALTERNATIVE",
+                    "assetId": "sd_88_t66_9321_uq_x_ec_3"
+                  },
+                  {
+                    "type": "ALTERNATIVE",
+                    "assetId": "sd_83_t88_8878_uq_x_ec_0"
+                  }
+                ],
+                "skus": [
+                  {
+                    "id": "32442348109",
+                    "price": {
+                      "currencyPrefix": "Example currency prefix",
+                      "currencyCode": "GBP",
+                      "currentPrice": 40
+                    }
+                  },
+                  {
+                    "id": "82424330340",
+                    "price": {
+                      "currencyPrefix": "Example currency prefix",
+                      "currencyCode": "GBP",
+                      "currentPrice": 77
                     }
                   }
                 ]
@@ -514,20 +544,20 @@
       ],
       "variants": [
         {
-          "id": "67381272",
+          "id": "45705420",
           "assets": [
             {
               "type": "ALTERNATIVE",
-              "assetId": "sd_44_t90_9927_cw_x_ec_2"
+              "assetId": "sd_89_t50_3682s_cw_x_ec_5"
             },
             {
               "type": "ALTERNATIVE",
-              "assetId": "sd_10_t53_0802_cw_x_ec_8"
+              "assetId": "sd_69_t85_7333s_cw_x_ec_4"
             }
           ],
           "skus": [
             {
-              "id": "28894103962",
+              "id": "21421094065",
               "inventory": {
                 "quantity": 44,
                 "quantityOnHand": 94,
@@ -542,8 +572,8 @@
               "leadTime": null,
               "price": {
                 "currencyPrefix": "Example currency prefix",
-                "currentPrice": 45,
-                "mfPartnumber": "94743844",
+                "currentPrice": 585,
+                "mfPartnumber": "29498908",
                 "offerText": "",
                 "previousPrice": 0,
                 "unitPrice": "",
@@ -557,7 +587,7 @@
               }
             },
             {
-              "id": "05501238402",
+              "id": "15090190356",
               "inventory": {
                 "quantity": 543,
                 "quantityOnHand": 184,
@@ -572,8 +602,8 @@
               "leadTime": null,
               "price": {
                 "currencyPrefix": "Example currency prefix",
-                "currentPrice": 40,
-                "mfPartnumber": "95357834",
+                "currentPrice": 310,
+                "mfPartnumber": "94147027",
                 "offerText": "",
                 "previousPrice": 0,
                 "unitPrice": "",
@@ -589,12 +619,12 @@
           ],
           "colour": "Example colour",
           "colourSwatchImageUrl": "https://assets.digitalcontent.marksandspencer.app/example/33829.jpg",
-          "colourSwatchAssetId": "sd_88_t55_1627_cw_x_ec_32",
+          "colourSwatchAssetId": "sd_77_t91_9503s_cw_x_ec_34",
           "exactColourForBeauty": "Example exact colour for beauty",
           "colourSequenceNumber": "",
           "modelDetails": {
             "height": "Example height",
-            "size": "S"
+            "size": "7"
           },
           "images": [
             "https://assets.digitalcontent.marksandspencer.app/example/75171.jpg",
@@ -602,20 +632,20 @@
           ]
         },
         {
-          "id": "96121867",
+          "id": "67437041",
           "assets": [
             {
               "type": "ALTERNATIVE",
-              "assetId": "sd_50_t59_8826_y6_x_ec_7"
+              "assetId": "sd_51_t64_5146s_qj_x_ec_1"
             },
             {
               "type": "ALTERNATIVE",
-              "assetId": "sd_05_t08_3352_y9_x_ec_9"
+              "assetId": "sd_66_t36_3618s_qj_x_ec_0"
             }
           ],
           "skus": [
             {
-              "id": "17737102312",
+              "id": "74714921734",
               "inventory": {
                 "quantity": 93,
                 "quantityOnHand": 94,
@@ -630,8 +660,8 @@
               "leadTime": null,
               "price": {
                 "currencyPrefix": "Example currency prefix",
-                "currentPrice": 40,
-                "mfPartnumber": "13788570",
+                "currentPrice": 310,
+                "mfPartnumber": "57824296",
                 "offerText": "",
                 "previousPrice": 0,
                 "unitPrice": "",
@@ -645,7 +675,7 @@
               }
             },
             {
-              "id": "23716281738",
+              "id": "17883798683",
               "inventory": {
                 "quantity": 735,
                 "quantityOnHand": 571,
@@ -660,8 +690,8 @@
               "leadTime": null,
               "price": {
                 "currencyPrefix": "Example currency prefix",
-                "currentPrice": 77,
-                "mfPartnumber": "70664798",
+                "currentPrice": 977,
+                "mfPartnumber": "76032663",
                 "offerText": "",
                 "previousPrice": 0,
                 "unitPrice": "",
@@ -675,10 +705,10 @@
               }
             }
           ],
-          "colour": "BLACK",
+          "colour": "Example colour",
           "colourSwatchImageUrl": "https://assets.digitalcontent.marksandspencer.app/example/4807.jpg",
-          "colourSwatchAssetId": "sd_90_t59_6856_y1_x_ec_31",
-          "exactColourForBeauty": "Black",
+          "colourSwatchAssetId": "sd_53_t55_4221s_qj_x_ec_56",
+          "exactColourForBeauty": "Example exact colour for beauty",
           "colourSequenceNumber": "",
           "modelDetails": {
             "height": "Example height",

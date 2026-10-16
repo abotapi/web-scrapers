@@ -77,7 +77,7 @@ Full details on the [scraper page](https://apify.com/abotapi/immobiliare-it-scra
 | `bedrooms` | integer |
 | `floor` | string |
 | `floorAbbreviation` | string |
-| `elevator` | null |
+| `elevator` | boolean |
 | `condition` | string |
 | `heating` | string |
 | `garage` | null |

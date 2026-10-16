@@ -31,8 +31,10 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~stocktwits-com-scraper/ru
 | `messageUrls` | array | Message links or IDs |
 | `startUrls` | array | Stocktwits links |
 | `sentiment` | string | Sentiment filter |
+| `onlyPriceTargets` | boolean | Only messages with a price target |
 | `fetchReplies` | boolean | Fetch reply threads |
 | `maxItems` | integer | Max items |
+| `maxMessages` | integer | Max messages per target |
 | `proxyConfiguration` | object | Proxy configuration |
 
 `*` required
@@ -64,7 +66,22 @@ Full details on the [scraper page](https://apify.com/abotapi/stocktwits-com-scra
 | `authorIdentity` | string |
 | `authorOfficial` | boolean |
 | `sourceLabel` | object |
+| `likeCount` | integer |
+| `replyCount` | integer |
+| `reshareCount` | integer |
+| `isReshare` | boolean |
+| `isReply` | boolean |
+| `isDiscussion` | boolean |
+| `userName` | string |
+| `userAvatarUrl` | string |
+| `userFollowers` | integer |
+| `userFollowing` | integer |
+| `userIdeas` | integer |
+| `userOfficial` | boolean |
+| `userJoinDate` | string |
+| `sourceTitle` | string |
 | `symbolContext` | string |
+| `scrapedAt` | string |
 
 ---
 

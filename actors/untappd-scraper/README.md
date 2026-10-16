@@ -87,6 +87,9 @@ Full details on the [scraper page](https://apify.com/abotapi/untappd-scraper?utm
 | `sourceUrl` | null |
 | `scrapedAt` | string |
 | `recordId` | string |
+| `beerName` | string |
+| `imageUrl` | string |
+| `scrapedTimestamp` | string |
 
 ---
 

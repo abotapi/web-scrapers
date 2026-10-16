@@ -17,7 +17,7 @@ python example.py
 ```bash
 curl -s -X POST "https://api.apify.com/v2/acts/abotapi~turo-scraper/run-sync-get-dataset-items?token=$APIFY_TOKEN" \
   -H 'Content-Type: application/json' \
-  -d '{"mode": "search", "locations": ["Los Angeles, California"], "maxItems": 10, "proxy": {"useApifyProxy": true, "apifyProxyGroups": ["RESIDENTIAL"]}}'
+  -d '{"mode": "search", "locations": ["Los Angeles, California"], "sortBy": "relevance", "maxItems": 10, "maxReviews": 10, "proxy": {"useApifyProxy": true, "apifyProxyGroups": ["RESIDENTIAL"]}}'
 ```
 
 ## Inputs
@@ -30,11 +30,18 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~turo-scraper/run-sync-get
 | `minYear` | integer | Minimum model year |
 | `maxYear` | integer | Maximum model year |
 | `minRating` | number | Minimum rating |
+| `fuelType` | array | Fuel type |
+| `vehicleType` | array | Vehicle type |
+| `minTotalPrice` | integer | Minimum total trip price |
+| `maxTotalPrice` | integer | Maximum total trip price |
+| `age` | integer | Driver age |
+| `sortBy` | string | Sort by |
 | `urls` | array | Vehicle URLs |
 | `startDateTime` | string | Trip start |
 | `endDateTime` | string | Trip end |
 | `fetchDetails` | boolean | Full vehicle and host details |
 | `maxItems` | integer | Maximum vehicles |
+| `maxReviews` | integer | Maximum reviews per vehicle |
 | `proxy` | object | Proxy |
 
 `*` required
@@ -77,12 +84,16 @@ Full details on the [scraper page](https://apify.com/abotapi/turo-scraper?utm_so
 | `host` | object |
 | `detailStatus` | string |
 | `hostStatus` | string |
-| `scopeId` | string |
-| `scrapedAt` | string |
-| `description` | null |
-| `owner` | object |
-| `basicCarDetails` | object |
-| `coverage` | object |
+| `reviews` | list |
+| `reviewsReturned` | integer |
+| `reviewsStatus` | string |
+| `availability` | null |
+| `avgDailyPrice` | object |
+| `imageUrl` | string |
+| `isAllStarHost` | boolean |
+| `isFavoritedBySearcher` | boolean |
+| `isNewListing` | boolean |
+| `seoCategory` | string |
 
 ---
 

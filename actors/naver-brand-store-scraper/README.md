@@ -17,7 +17,7 @@ python example.py
 ```bash
 curl -s -X POST "https://api.apify.com/v2/acts/abotapi~naver-brand-store-scraper/run-sync-get-dataset-items?token=$APIFY_TOKEN" \
   -H 'Content-Type: application/json' \
-  -d '{"mode": "search", "brandStores": ["marschoco"], "sort": "popular", "maxItems": 10, "proxy": {"useApifyProxy": true, "apifyProxyGroups": ["RESIDENTIAL"], "apifyProxyCountry": "KR"}}'
+  -d '{"mode": "search", "brandStores": ["marschoco"], "sort": "popular", "maxItems": 10, "maxReviewsPerProduct": 10, "reviewSort": "RANKING", "reviewType": "ALL", "proxy": {"useApifyProxy": true, "apifyProxyGroups": ["RESIDENTIAL"], "apifyProxyCountry": "KR"}}'
 ```
 
 ## Inputs
@@ -28,8 +28,11 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~naver-brand-store-scraper
 | `brandStores` | array | Brand stores |
 | `startUrls` | array | Brand store URLs |
 | `sort` | string | Sort by |
-| `fetchReviews` | boolean | Fetch review detail |
 | `maxItems` | integer | Max products |
+| `fetchReviews` | boolean | Fetch review detail |
+| `maxReviewsPerProduct` | integer | Max reviews per product |
+| `reviewSort` | string | Review sort |
+| `reviewType` | string | Review type |
 | `proxy` | object | Proxy |
 
 `*` required
@@ -78,10 +81,10 @@ Full details on the [scraper page](https://apify.com/abotapi/naver-brand-store-s
 | `deliveryBaseFee` | integer |
 | `arrivalGuarantee` | boolean |
 | `todayDelivery` | boolean |
-| `brandSlug` | string |
-| `rank` | integer |
-| `crawledAt` | string |
-| `raw` | object |
+| `options` | null |
+| `optionCount` | null |
+| `hasOptions` | boolean |
+| `specs` | null |
 
 ---
 

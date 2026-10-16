@@ -17,7 +17,7 @@ python example.py
 ```bash
 curl -s -X POST "https://api.apify.com/v2/acts/abotapi~herold-at-scraper/run-sync-get-dataset-items?token=$APIFY_TOKEN" \
   -H 'Content-Type: application/json' \
-  -d '{"mode": "search", "categories": ["restaurant"], "locations": ["wien"], "maxPages": 1, "maxListings": 10, "proxy": {"useApifyProxy": true, "apifyProxyGroups": ["RESIDENTIAL"], "apifyProxyCountry": "AT"}}'
+  -d '{"mode": "search", "categories": ["restaurant"], "locations": ["wien"], "maxPages": 1, "maxListings": 10, "maxReviews": 10, "proxy": {"useApifyProxy": true, "apifyProxyGroups": ["RESIDENTIAL"], "apifyProxyCountry": "AT"}}'
 ```
 
 ## Inputs
@@ -34,6 +34,7 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~herold-at-scraper/run-syn
 | `maxPages` | integer | Max pages per search |
 | `maxListings` | integer | Max listings (total) |
 | `fetchDetails` | boolean | Fetch detail pages (richer data, slowe |
+| `maxReviews` | integer | Max reviews per listing |
 | `proxy` | object | Proxy configuration |
 
 `*` required

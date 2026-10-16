@@ -9,15 +9,18 @@
     "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
     "skills": [
       {
-        "id": 3992710,
+        "id": 5710,
         "name": "Example name"
       },
       {
-        "id": 2226300,
+        "id": 3300,
         "name": "Example name"
       }
     ],
-    "statuses": [],
+    "statuses": [
+      "Featured",
+      "Promoted"
+    ],
     "location": "Example location",
     "latitude": 48.93,
     "longitude": -0.13,
@@ -54,26 +57,26 @@
       "expiryDate": "2026-01-15T10:00:00Z",
       "displayLocationName": "Example display location name",
       "countyLocation": "Example county location",
-      "featuredLabel": false,
+      "featuredLabel": true,
       "externalUrl": "",
       "isFullTime": true,
       "isPartTime": false,
       "isPriority": false,
-      "isPromoted": false,
+      "isPromoted": true,
       "isTopJob": false,
       "ouId": 667012,
       "ouName": "Example ou name",
       "ouType": 1,
       "ouTierId": 7,
-      "profileId": 179189,
+      "profileId": 8189,
       "salaryCurrencyId": 9,
-      "salaryDescription": 0,
+      "salaryDescription": 30,
       "salaryFrom": 57893,
       "salaryTo": 48549,
       "salaryType": 8,
       "taxonomyLevel1": "Engineer",
       "taxonomyLevel2": "Example taxonomy level2",
-      "workingOption": "hybrid",
+      "workingOption": "Example working option",
       "isTrainingJob": false,
       "isSurveyJob": false,
       "isEarlyBird": false,
@@ -84,7 +87,7 @@
     "jobTypeName": "Example job type name",
     "taxonomyLevel1": "Engineer",
     "taxonomyLevel2": "Example taxonomy level2",
-    "isFeatured": false,
-    "isPromoted": false
+    "isFeatured": true,
+    "isPromoted": true
   }
 ]

@@ -70,11 +70,11 @@ Full details on the [scraper page](https://apify.com/abotapi/tutti-ch-scraper?ut
 | `sellerName` | string |
 | `sellerType` | string |
 | `sellerAccountId` | null |
-| `sellerLogoUrl` | null |
+| `sellerLogoUrl` | string |
 | `sellerLocation` | null |
 | `sellerProfileUrl` | null |
 | `sellerSubscriptionClass` | null |
-| `sellerBadgeUrl` | null |
+| `sellerBadgeUrl` | string |
 | `memberSince` | null |
 | `phone` | null |
 | `externalUrl` | null |
@@ -86,7 +86,7 @@ Full details on the [scraper page](https://apify.com/abotapi/tutti-ch-scraper?ut
 | `properties` | list |
 | `timestamp` | string |
 | `language` | string |
-| `url` | null |
+| `url` | string |
 
 ---
 

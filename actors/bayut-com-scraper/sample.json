@@ -1,10 +1,12 @@
 [
   {
-    "externalID": "76475571",
+    "recordType": "listing",
+    "market": "uae",
+    "externalID": "87645554",
     "id": 15275549,
-    "objectID": "60944541",
+    "objectID": "70371624",
     "ownerID": 8148913,
-    "userExternalID": "8164837",
+    "userExternalID": "4996331",
     "url": "https://www.bayut.com/example/26156",
     "slug": "id53652381",
     "purpose": "Example purpose",
@@ -17,12 +19,12 @@
     "currency": "AED",
     "priceHidden": false,
     "rentFrequency": null,
-    "rooms": 5,
+    "rooms": 0,
     "baths": 5,
-    "area": 78.26,
+    "area": 45.58,
     "areaUnit": "sqm",
     "plotArea": null,
-    "furnishingStatus": "unfurnished",
+    "furnishingStatus": "furnished",
     "completionStatus": "Example completion status",
     "isStudio": null,
     "isDeveloper": null,
@@ -30,8 +32,8 @@
     "city": "Dubai",
     "neighbourhood": "Example neighbourhood",
     "building": "Example building",
-    "latitude": 19.55,
-    "longitude": 65.74,
+    "latitude": 19.71,
+    "longitude": 65.77,
     "geoExact": null,
     "locationPath": "Example location path",
     "locationDetails": [
@@ -50,8 +52,6 @@
     ],
     "locationPurposeTier": 1,
     "isVerified": true,
-    "verificationStatus": "verified",
-    "verifiedAt": 2248207369,
-    "trucheckedAt": null
+    "verificationStatus": "verified"
   }
 ]

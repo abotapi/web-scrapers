@@ -17,7 +17,7 @@ python example.py
 ```bash
 curl -s -X POST "https://api.apify.com/v2/acts/abotapi~expedia-universal-scraper/run-sync-get-dataset-items?token=$APIFY_TOKEN" \
   -H 'Content-Type: application/json' \
-  -d '{"mode": "search", "destination": "Paris", "destinationId": "2734", "checkIn": "1 day", "checkOut": "2 days", "sortBy": "RECOMMENDED", "maxReviewsPerHotel": 10, "currency": "USD", "locale": "en_US", "maxItems": 10, "proxy": {"useApifyProxy": true, "apifyProxyGroups": ["RESIDENTIAL"]}}'
+  -d '{"mode": "search", "destination": "Paris", "checkIn": "1 day", "checkOut": "2 days", "sortBy": "RECOMMENDED", "maxReviewsPerHotel": 10, "currency": "USD", "locale": "en_US", "maxItems": 10, "proxy": {"useApifyProxy": true, "apifyProxyGroups": ["RESIDENTIAL"]}}'
 ```
 
 ## Inputs
@@ -26,7 +26,7 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~expedia-universal-scraper
 | --- | --- | --- |
 | `mode` | string | Scraping mode |
 | `destination` | string | Destination |
-| `destinationId` | string | Destination ID (optional) |
+| `destinationId` | string | Destination ID (optional escape hatch) |
 | `startUrls` | array | Hotel URLs |
 | `checkIn` * | string | Check in Date |
 | `checkOut` * | string | Check out Date |
@@ -36,11 +36,30 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~expedia-universal-scraper
 | `minPrice` | integer | Min Price per Night |
 | `maxPrice` | integer | Max Price per Night |
 | `starRatings` | array | Star Ratings Filter |
+| `minGuestRating` | string | Minimum guest rating |
+| `amenities` | array | Amenities |
+| `propertyTypes` | array | Property types |
+| `paymentOptions` | array | Cancellation and payment |
+| `mealPlans` | array | Meal plans |
+| `travelerExperience` | array | Traveler experience |
+| `accessibilityFeatures` | array | Accessibility |
+| `neighborhoodIds` | array | Neighborhood IDs |
+| `brandIds` | array | Brand IDs |
+| `propertyName` | string | Property name |
 | `sortBy` | string | Sort |
+| `includePropertyDetails` | boolean | Include property details (search mode) |
+| `includeRooms` | boolean | Include rooms and rates |
+| `maxPropertyImages` | integer | Max photos per hotel |
 | `reviewsOnly` | boolean | Scrape reviews only |
 | `includeReviews` | boolean | Include reviews in hotel cards |
 | `maxReviewsPerHotel` | integer | Max Reviews per Hotel |
 | `reviewsFrom` | string | Reviews From Date |
+| `reviewSort` | string | Review order |
+| `reviewsTo` | string | Reviews To Date |
+| `minReviewRating` | integer | Minimum review rating |
+| `maxReviewRating` | integer | Maximum review rating |
+| `includeReviewPhotos` | boolean | Include review photos |
+| `includeOwnerResponses` | boolean | Include hotel replies |
 | `includeCategoryRatings` | boolean | Include Category Ratings |
 | `currency` | string | Currency |
 | `locale` | string | Locale |

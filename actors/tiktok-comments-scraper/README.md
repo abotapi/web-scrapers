@@ -17,7 +17,7 @@ python example.py
 ```bash
 curl -s -X POST "https://api.apify.com/v2/acts/abotapi~tiktok-comments-scraper/run-sync-get-dataset-items?token=$APIFY_TOKEN" \
   -H 'Content-Type: application/json' \
-  -d '{"mode": "videos", "usernames": ["tiktok"], "proxyTier": "datacenter", "proxy": {"useApifyProxy": true}}'
+  -d '{"mode": "videos", "usernames": ["tiktok"], "profileSorting": "latest", "profileScrapeSections": ["videos"], "proxyTier": "datacenter", "proxy": {"useApifyProxy": true}}'
 ```
 
 ## Inputs
@@ -28,6 +28,11 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~tiktok-comments-scraper/r
 | `videoUrls` | array | Video URLs or IDs |
 | `usernames` | array | Usernames |
 | `maxVideosPerUser` | integer | Max videos per username (search mode) |
+| `profileSorting` | string | Order of an account's videos (search m |
+| `profileScrapeSections` | array | Account sections (search mode) |
+| `oldestPostDateUnified` | string | Only videos posted after (search mode) |
+| `newestPostDate` | string | Only videos posted before (search mode |
+| `excludePinnedPosts` | boolean | Skip pinned videos (search mode) |
 | `minCommentLikes` | integer | Minimum comment likes |
 | `commentKeyword` | string | Comment text contains |
 | `excludeReplies` | boolean | Exclude replies |
@@ -36,6 +41,7 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~tiktok-comments-scraper/r
 | `maxRepliesPerComment` | integer | Max replies per comment |
 | `replyPatienceSeconds` | integer | Seconds per reply page |
 | `maxCommentsPerVideo` | integer | Max comments per video |
+| `topLevelCommentsPerPost` | integer | Max top-level comments per video |
 | `maxPagesPerVideo` | integer | Max pages per video |
 | `pagePatienceSeconds` | integer | Seconds per page |
 | `maxAttemptsPerPage` | integer | Max requests per page (optional ceilin |
@@ -71,6 +77,21 @@ Full details on the [scraper page](https://apify.com/abotapi/tiktok-comments-scr
 | `createTime` | integer |
 | `createTimeIso` | string |
 | `scrapedAt` | string |
+| `cid` | string |
+| `uid` | string |
+| `uniqueId` | string |
+| `repliesToId` | null |
+| `avatarThumbnail` | string |
+| `createTimeISO` | string |
+| `likedByAuthor` | boolean |
+| `pinnedByAuthor` | boolean |
+| `mentions` | list |
+| `detailedMentions` | list |
+| `images` | list |
+| `sticker` | null |
+| `videoWebUrl` | string |
+| `submittedVideoUrl` | string |
+| `input` | string |
 
 ---
 

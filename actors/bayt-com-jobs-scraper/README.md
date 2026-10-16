@@ -17,7 +17,7 @@ python example.py
 ```bash
 curl -s -X POST "https://api.apify.com/v2/acts/abotapi~bayt-com-jobs-scraper/run-sync-get-dataset-items?token=$APIFY_TOKEN" \
   -H 'Content-Type: application/json' \
-  -d '{"mode": "search", "country": "uae", "keyword": "accountant", "maxPages": 1, "maxListings": 10, "proxy": {"useApifyProxy": true, "apifyProxyGroups": ["RESIDENTIAL"]}}'
+  -d '{"mode": "search", "country": "uae", "keyword": "accountant", "sortBy": "relevance", "maxPages": 1, "maxListings": 10, "proxy": {"useApifyProxy": true, "apifyProxyGroups": ["RESIDENTIAL"]}}'
 ```
 
 ## Inputs
@@ -27,7 +27,10 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~bayt-com-jobs-scraper/run
 | `mode` * | string | 1. Mode |
 | `country` | string | Country |
 | `keyword` | string | Keyword / job title |
-| `urls` | array | Search URLs |
+| `city` | string | City |
+| `sortBy` | string | Sort by |
+| `employmentType` | string | Employment type filter |
+| `urls` | array | Bayt.com URLs |
 | `maxPages` | integer | Max pages per search |
 | `maxListings` | integer | Max listings (total, default 20, 0  un |
 | `fetchDetails` | boolean | Fetch full job details |
@@ -46,17 +49,20 @@ Full details on the [scraper page](https://apify.com/abotapi/bayt-com-jobs-scrap
 | `jobId` | string |
 | `url` | string |
 | `title` | string |
-| `company` | null |
-| `companyUrl` | null |
-| `city` | null |
-| `country` | null |
+| `company` | string |
+| `companyUrl` | string |
+| `city` | string |
+| `country` | string |
+| `location` | string |
 | `countrySlug` | string |
 | `logo` | string |
 | `salary` | null |
-| `careerLevel` | string |
+| `careerLevel` | null |
 | `experience` | null |
 | `workStyle` | null |
 | `postedDate` | string |
+| `postedAtRelative` | string |
+| `listingPage` | integer |
 | `postedTimestamp` | integer |
 | `isExternal` | boolean |
 | `isAggregated` | boolean |
@@ -73,7 +79,7 @@ Full details on the [scraper page](https://apify.com/abotapi/bayt-com-jobs-scrap
 | `jobCountryCode` | string |
 | `directApply` | boolean |
 | `residenceLocation` | null |
-| `nationality` | string |
+| `nationality` | null |
 | `gender` | null |
 | `age` | null |
 | `degree` | null |

@@ -1,0 +1,43 @@
+[
+  {
+    "type": "campaign",
+    "id": "Example id",
+    "saleId": 877749,
+    "brand": "Gemo",
+    "name": "Example name",
+    "brands": [
+      "Gemo"
+    ],
+    "brandIds": [
+      "id98753930"
+    ],
+    "operationCode": "is_gemo86",
+    "beginDate": "2026-01-15T10:00:00Z",
+    "endDate": "2026-01-15T10:00:00Z",
+    "saleTypeId": 45,
+    "url": "https://www.veepee.fr/example/81091",
+    "saleUrl": "https://www.veepee.fr/example/67456",
+    "logo": "https://media.veepee.com/example/41569.jpg",
+    "logos": {
+      "logoImage": "https://media.veepee.com/example/52399.jpg",
+      "ambianceImage": "https://media.veepee.com/example/18972.jpg"
+    },
+    "image": "https://media.veepee.com/example/92258.jpg",
+    "webImage": "https://media.veepee.com/example/99897.jpg",
+    "mobileImage": "https://media.veepee.com/example/72863.jpg",
+    "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
+    "tagline": "",
+    "categoryId": 5,
+    "saleBusinessId": 0,
+    "saleSectorId": 8902,
+    "saleSubSectorId": 34,
+    "businessUnit": 0,
+    "isBrandAlert": true,
+    "isShareable": false,
+    "isNewCatalog": true,
+    "isPreopening": false,
+    "market": "fr",
+    "source": "veepee",
+    "scrapedAt": "2026-01-15T10:00:00Z"
+  }
+]

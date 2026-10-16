@@ -1,12 +1,12 @@
 [
   {
-    "id": "celjjv7ebck",
-    "shortSku": "celjjv2ebck",
-    "model": "celjjv6e",
+    "id": "row6updybrw",
+    "shortSku": "row4updybrw",
+    "model": "row3updy",
     "name": "Example name",
     "title": "Example title",
-    "brand": "CELINE",
-    "color": "Black",
+    "brand": "Example brand",
+    "color": "Brown",
     "price": 3148,
     "discountPrice": null,
     "currentPrice": 2685,
@@ -27,26 +27,20 @@
     "sizes": [
       {
         "label": "Example label",
-        "sku": "celjjv7ebcki88a092",
+        "sku": "row5updybrwi58a976",
         "inStock": true
       },
       {
         "label": "Example label",
-        "sku": "celjjv9ebckuza1a25",
+        "sku": "row9updybrwuza7a86",
         "inStock": true
       }
     ],
     "skus": [
-      "celjjv9ebckja71a06",
-      "celjjv4ebcky88a035"
+      "row9updybrwuza6a34",
+      "row7updybrwja19a44"
     ],
-    "otherColors": [
-      {
-        "label": "Example label",
-        "shortSku": "celjjv2eowh",
-        "image": "https://www.24s.com/example/66538.jpg"
-      }
-    ],
+    "otherColors": [],
     "images": [
       "https://www.24s.com/example/26363.jpg",
       "https://www.24s.com/example/15741.jpg"

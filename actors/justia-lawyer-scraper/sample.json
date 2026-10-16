@@ -1,7 +1,7 @@
 [
   {
     "type": "profile",
-    "id": 1048449,
+    "id": 58449,
     "url": "https://lawyers.justia.com/example/59552",
     "profileUrl": "https://lawyers.justia.com/example/36866",
     "slug": "Example slug",
@@ -18,7 +18,7 @@
     "jobTitles": [
       "Example job titles"
     ],
-    "yearsOfExperience": 6,
+    "yearsOfExperience": 42,
     "headerFacts": [],
     "primaryPhone": "+1 555 0100",
     "emailContactUrl": "https://lawyers.justia.com/example/20217",
@@ -28,15 +28,13 @@
       "Example badges"
     ],
     "claimedProfile": true,
-    "offersVideoConferencing": true,
+    "offersVideoConferencing": false,
     "connectPro": false,
     "liiPlatinum": false,
     "hasSocialMedia": true,
     "biography": "Example biography: mock text standing in for the real value. Same field and type, made-up content.",
     "practiceAreas": null,
-    "additionalPracticeAreas": [
-      "Example additional practice areas"
-    ],
+    "additionalPracticeAreas": null,
     "videoConferencing": null,
     "fees": null,
     "contingentFees": false,

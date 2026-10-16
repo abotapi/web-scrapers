@@ -17,7 +17,7 @@ python example.py
 ```bash
 curl -s -X POST "https://api.apify.com/v2/acts/abotapi~furnishedfinder-scraper/run-sync-get-dataset-items?token=$APIFY_TOKEN" \
   -H 'Content-Type: application/json' \
-  -d '{"mode": "search", "locations": ["Houston, TX"], "propertyTypeClass": "any", "maxPages": 1, "maxListings": 10, "proxy": {"useApifyProxy": true, "apifyProxyGroups": ["RESIDENTIAL"], "apifyProxyCountry": "US"}}'
+  -d '{"mode": "search", "locations": ["Houston, TX"], "propertyTypeClass": "any", "maxReviewsPerListing": 10, "maxPages": 1, "maxListings": 10, "proxy": {"useApifyProxy": true, "apifyProxyGroups": ["RESIDENTIAL"], "apifyProxyCountry": "US"}}'
 ```
 
 ## Inputs
@@ -31,9 +31,12 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~furnishedfinder-scraper/r
 | `maxPrice` | integer | Max monthly price (USD) |
 | `minBedrooms` | integer | Min bedrooms |
 | `minBathrooms` | integer | Min bathrooms |
+| `moveInDate` | string | Move-in date (YYYY-MM-DD) |
+| `moveOutDate` | string | Move-out date (YYYY-MM-DD) |
 | `urls` | array | URLs |
 | `fetchDetails` | boolean | Fetch full property details |
 | `fetchReviews` | boolean | Include guest reviews |
+| `maxReviewsPerListing` | integer | Max reviews per listing |
 | `maxPages` | integer | Max pages per city |
 | `maxListings` | integer | Max listings (total, default 20, 0  un |
 | `proxy` | object | Proxy |
@@ -76,6 +79,10 @@ Full details on the [scraper page](https://apify.com/abotapi/furnishedfinder-scr
 | `photoCount` | integer |
 | `searchLocation` | string |
 | `description` | string |
+| `landlordName` | string |
+| `pricingFrequency` | string |
+| `otherUnits` | list |
+| `nearbyHospitals` | list |
 | `neighborhoodDescription` | string |
 | `spaceDescription` | string |
 | `squareFootage` | integer |
@@ -84,10 +91,6 @@ Full details on the [scraper page](https://apify.com/abotapi/furnishedfinder-scr
 | `reviews` | null |
 | `utilitiesIncluded` | boolean |
 | `minimumStayDays` | integer |
-| `houseRules` | list |
-| `fees` | list |
-| `detailAmenities` | list |
-| `bedroomsDetail` | list |
 
 ---
 

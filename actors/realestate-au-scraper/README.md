@@ -17,7 +17,7 @@ python example.py
 ```bash
 curl -s -X POST "https://api.apify.com/v2/acts/abotapi~realestate-au-scraper/run-sync-get-dataset-items?token=$APIFY_TOKEN" \
   -H 'Content-Type: application/json' \
-  -d '{"mode": "location", "locations": [{"suburb": "Sydney", "state": "NSW"}], "listingType": "buy", "sortBy": "list-date", "dateRange": "6months", "maxListings": 10, "maxPages": 1, "proxyConfiguration": {"useApifyProxy": true, "apifyProxyGroups": ["RESIDENTIAL"], "apifyProxyCountry": "AU"}}'
+  -d '{"mode": "location", "locations": [{"suburb": "Sydney", "state": "NSW"}], "listingType": "buy", "sortBy": "list-date", "dateRange": "6months", "maxListings": 10, "maxPages": 1, "proxyConfiguration": {"useApifyProxy": true, "apifyProxyGroups": ["RESIDENTIAL"], "apifyProxyCountry": "AU"}, "maxItems": 10}'
 ```
 
 ## Inputs
@@ -43,6 +43,8 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~realestate-au-scraper/run
 | `maxListings` | integer | Maximum Listings |
 | `maxPages` | integer | Maximum Pages per Location |
 | `proxyConfiguration` | object | Proxy configuration |
+| `startUrl` | string | Start URL (alias) |
+| `maxItems` | integer | Max items (alias) |
 
 `*` required
 
@@ -82,12 +84,12 @@ Full details on the [scraper page](https://apify.com/abotapi/realestate-au-scrap
 | `isSold` | boolean |
 | `isProject` | boolean |
 | `tier` | object |
+| `statementOfInformationUrl` | string |
 | `scrapedAt` | string |
-| `auctionDate` | string |
-| `auctionDateDisplay` | string |
 | `badge` | string |
 | `dateListed` | string |
 | `dateListedPrecision` | string |
+| `nearbySchools` | object |
 
 ---
 

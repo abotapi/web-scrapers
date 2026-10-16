@@ -47,5 +47,56 @@
     "countryOfOrigin": "Australian",
     "countryOfOriginStatement": "Example country of origin statement",
     "lastUpdated": "2026-01-15T10:00:00Z"
+  },
+  {
+    "productId": "2121302",
+    "name": "Example name",
+    "title": "Example title",
+    "brand": "Devondale",
+    "description": "Example description",
+    "size": "Example size",
+    "url": "https://www.coles.com.au/example/8176",
+    "price": 2.12,
+    "isOnSpecial": false,
+    "comparablePrice": "Example comparable price",
+    "unitPrice": 1.95,
+    "unitOfMeasure": "L",
+    "unitMeasure": "Example unit measure",
+    "isWeighted": false,
+    "currency": "AUD",
+    "isAvailable": true,
+    "availabilityType": "InStoreAndOnline",
+    "availableQuantity": 4122,
+    "retailLimit": 19,
+    "promotionalLimit": 75,
+    "ageRestricted": false,
+    "aisle": "Example aisle",
+    "category": "Example category",
+    "subCategory": "Drinks",
+    "departments": [
+      "drinks",
+      "Example departments"
+    ],
+    "departmentIds": [
+      "93982",
+      "6895"
+    ],
+    "isOnlineOnly": false,
+    "department": "IMPULSE",
+    "productClass": "Example product class",
+    "image": "https://cdn.productimages.coles.com.au/example/92887.jpg",
+    "sponsored": false,
+    "featured": false,
+    "longDescription": "Example long description: mock text standing in for the real value. Same field and type, made-up content.",
+    "gtin": "0767100729245",
+    "countryOfOrigin": "Australia",
+    "countryOfOriginStatement": "Example country of origin statement",
+    "lastUpdated": "2026-01-15T10:00:00Z",
+    "brandSlug": "devondale",
+    "categoryPath": [
+      "Example category path",
+      "Drinks"
+    ],
+    "ingredients": "Example ingredients"
   }
 ]

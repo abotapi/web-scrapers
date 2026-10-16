@@ -19,6 +19,7 @@ run = client.actor("abotapi/local-ch-scraper").call(
         "maxPages": 1,
         "maxListings": 10,
         "maxReviewsPerListing": 10,
+        "sort": "relevance",
         "proxy": {"useApifyProxy": True, "apifyProxyGroups": ["RESIDENTIAL"], "apifyProxyCountry": "CH"},
     },
     logger=None,  # don't stream the run log to your console

@@ -1,6 +1,6 @@
 [
   {
-    "listingId": "5296718489",
+    "listingId": "1193110001",
     "vertical": "marketplace",
     "title": "Example title",
     "url": "https://www.trademe.co.nz/example/32807",
@@ -21,6 +21,14 @@
     "sponsored": null,
     "sellerType": "Example seller type",
     "memberId": "06423",
-    "scrapedAt": "2026-01-15T10:00:00Z"
+    "scrapedAt": "2026-01-15T10:00:00Z",
+    "price": 897,
+    "oldPrice": 596.05,
+    "percentageOff": 18,
+    "categoryPath": "Example category path",
+    "location": "Example location",
+    "primaryImage": "https://trademe.tmcdn.co.nz/example/60273.jpg",
+    "isDealer": null,
+    "dealerName": null
   }
 ]

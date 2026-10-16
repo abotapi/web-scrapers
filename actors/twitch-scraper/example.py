@@ -19,8 +19,9 @@ run = client.actor("abotapi/twitch-scraper").call(
         "streamSort": "VIEWER_COUNT",
         "searchQuery": "valorant",
         "maxResults": 10,
+        "maxItems": 10,
         "maxPages": 1,
-        "proxyConfiguration": {"useApifyProxy": True, "apifyProxyGroups": ["RESIDENTIAL"], "apifyProxyCountry": "US"},
+        "proxyConfiguration": {"useApifyProxy": True},
     },
     logger=None,  # don't stream the run log to your console
 )

@@ -13,32 +13,88 @@
     "district": "Example district",
     "metro": "Example metro",
     "metroTime": 34,
+    "metroLineId": 9,
+    "metroLineColor": "46599a",
     "roomsCount": 3,
-    "totalArea": 175.94,
-    "livingArea": 0,
-    "kitchenArea": 0,
+    "totalArea": 64.68,
+    "livingArea": 23.46,
+    "kitchenArea": 10.29,
     "floorNumber": 1,
-    "floorsCount": 4,
+    "floorsCount": 67,
     "buildYear": null,
-    "materialType": "monolith",
+    "materialType": "monolithBrick",
     "dealType": "sale",
     "category": "Example category",
     "offerType": "flat",
     "isFromDeveloper": true,
     "isPremium": false,
+    "isApartments": false,
     "phoneNumbers": [
       "+1 555 0100"
     ],
-    "latitude": 68.57,
-    "longitude": 30.47,
+    "latitude": 68.54,
+    "longitude": 30.5,
     "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
     "formattedFullInfo": "Example formatted full info",
     "imageUrls": [
       "https://images.cdn-cian.ru/example/36112.jpg",
       "https://images.cdn-cian.ru/example/32575.jpg"
     ],
-    "creationDate": "2026-01-15T10:00:00Z",
-    "addedLabel": "Example added label",
-    "scrapedAt": "2026-01-15T10:00:00Z"
+    "mainImage": {
+      "full": "https://images.cdn-cian.ru/example/96862.jpg"
+    },
+    "siteUrl": "https://www.cian.ru/example/26535",
+    "formattedAddress": "Example formatted address: mock text standing in for the real value. Same field and type, made-up content.",
+    "formattedFullPrice": "Example formatted full price",
+    "ceilingHeight": 0
+  },
+  {
+    "id": 635325284,
+    "url": "https://www.cian.ru/example/54739",
+    "sourceUrl": "https://www.cian.ru/example/85448",
+    "title": "Example title",
+    "jkName": null,
+    "price": "Example price",
+    "priceValue": 72042248,
+    "pricePerMeter": 541945,
+    "currency": "rur",
+    "address": "Example address: mock text standing in for the real value. Same field and type, made-up content.",
+    "district": "Example district",
+    "metro": "Example metro",
+    "metroTime": 3,
+    "metroLineId": 1,
+    "metroLineColor": "55213a",
+    "roomsCount": 2,
+    "totalArea": 56.56,
+    "livingArea": 22.51,
+    "kitchenArea": 9.72,
+    "floorNumber": 9,
+    "floorsCount": 37,
+    "buildYear": 9337,
+    "materialType": "brick",
+    "dealType": "sale",
+    "category": "flatSale",
+    "offerType": "flat",
+    "isFromDeveloper": false,
+    "isPremium": false,
+    "isApartments": false,
+    "phoneNumbers": [
+      "+1 555 0100"
+    ],
+    "latitude": 60.27,
+    "longitude": 45.78,
+    "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
+    "formattedFullInfo": "Example formatted full info",
+    "imageUrls": [
+      "https://images.cdn-cian.ru/example/4170.jpg",
+      "https://images.cdn-cian.ru/example/30973.jpg"
+    ],
+    "mainImage": {
+      "full": "https://images.cdn-cian.ru/example/593.jpg"
+    },
+    "siteUrl": "https://www.cian.ru/example/13486",
+    "formattedAddress": "Example formatted address: mock text standing in for the real value. Same field and type, made-up content.",
+    "formattedFullPrice": "Example formatted full price",
+    "ceilingHeight": 0
   }
 ]

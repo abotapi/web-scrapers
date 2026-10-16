@@ -17,7 +17,7 @@
     "costText": "Example cost text",
     "rating": {
       "aggregate": 3.84,
-      "text": "2.1",
+      "text": "4.4",
       "subtitle": "Example subtitle",
       "votes": 5,
       "color": "1acd44"
@@ -29,7 +29,7 @@
         "subtitle": "DINING"
       },
       "DELIVERY": {
-        "rating": 4.31,
+        "rating": 4.51,
         "reviewCount": 1758,
         "subtitle": "DELIVERY"
       }

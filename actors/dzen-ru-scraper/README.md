@@ -28,6 +28,7 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~dzen-ru-scraper/run-sync-
 | `searchQueries` | array | Search queries |
 | `searchType` | string | Result type |
 | `urls` | array | Dzen URLs |
+| `startUrls` | array | Start URLs (alias of Dzen URLs) |
 | `channelSort` | string | Channel order (channel links) |
 | `channelContent` | string | Channel content (channel links) |
 | `fetchArticleText` | boolean | Full article text (channel links) |
@@ -36,6 +37,8 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~dzen-ru-scraper/run-sync-
 | `commentsSort` | string | Comment order |
 | `maxItems` | integer | Max records |
 | `maxPages` | integer | Max feed / search pages |
+| `maxConcurrency` | integer | Max concurrency |
+| `engagementScore` | boolean | Engagement score |
 | `proxy` | object | Proxy configuration |
 
 `*` required
@@ -71,6 +74,23 @@ Full details on the [scraper page](https://apify.com/abotapi/dzen-ru-scraper?utm
 | `shareUrl` | string |
 | `commentsLink` | string |
 | `comments` | list |
+| `inputUrl` | null |
+| `platform` | string |
+| `contentId` | string |
+| `contentType` | string |
+| `contentUrl` | string |
+| `author` | string |
+| `authorId` | string |
+| `authorSubscribers` | null |
+| `publishedAt` | string |
+| `dislikes` | null |
+| `reposts` | null |
+| `favorites` | null |
+| `category` | null |
+| `engagementRate` | float |
+| `scrapedAt` | string |
+| `status` | string |
+| `error` | null |
 
 ---
 

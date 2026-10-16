@@ -17,25 +17,39 @@ python example.py
 ```bash
 curl -s -X POST "https://api.apify.com/v2/acts/abotapi~tiktok-live-recorder/run-sync-get-dataset-items?token=$APIFY_TOKEN" \
   -H 'Content-Type: application/json' \
-  -d '{}'
+  -d '{"username": "tiktok", "liveUrl": "https://www.tiktok.com/@tiktok/live"}'
 ```
 
 ## Inputs
 
 | Input | Type | What it is |
 | --- | --- | --- |
-| `username` | string | Username (optional) |
-| `roomId` | string | Room ID (optional) |
-| `liveUrl` | string | Live URL (optional) |
-| `duration` | integer | Max Duration (seconds) |
-| `segmentDuration` | number | Segment Duration (minutes) |
-| `cookies` | object | TikTok Cookies (optional) |
-| `proxyConfiguration` | object | Proxy Configuration |
+| `username` | string | Username |
+| `roomId` | string | Room ID |
+| `liveUrl` | string | Live URL |
+| `duration` | integer | Max duration (seconds) |
+| `segmentDuration` | number | Segment length (minutes) |
+| `cookies` | object | TikTok session cookies |
+| `proxyConfiguration` | object | Proxy & connection |
 
 `*` required
 
 Full details on the [scraper page](https://apify.com/abotapi/tiktok-live-recorder?utm_source=github&utm_medium=web-scrapers&utm_campaign=monorepo).
 
+## Sample output
+
+[`sample.json`](sample.json) is **mock data**: the same fields and types as real output, with made-up values.
+
+| Field | Type |
+| --- | --- |
+| `username` | string |
+| `roomId` | string |
+| `startedAt` | null |
+| `endedAt` | null |
+| `durationSeconds` | integer |
+| `fileKey` | null |
+| `fileSizeBytes` | integer |
+| `status` | string |
 
 ---
 

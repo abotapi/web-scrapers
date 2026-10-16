@@ -1,8 +1,8 @@
-# Dot Property Scraper
+# DotProperty & Lamudi Real Estate Scraper
 
 Scrape Philippines property listings from dotproperty.com.ph and lamudi.com.ph with exact map-pin coordinates, price, beds, baths, areas, facilities, full photo galleries, and agent contact details. Covers houses, condos, apartments, townhouses, villas, land, offices and commercial units, for.
 
-**[Open Dot Property Scraper on Apify](https://apify.com/abotapi/dotproperty-com-ph-scraper?utm_source=github&utm_medium=web-scrapers&utm_campaign=monorepo)** to run it without code and export JSON, CSV or Excel.
+**[Open DotProperty & Lamudi Real Estate Scraper on Apify](https://apify.com/abotapi/dotproperty-com-ph-scraper?utm_source=github&utm_medium=web-scrapers&utm_campaign=monorepo)** to run it without code and export JSON, CSV or Excel.
 
 ## Run it from code
 
@@ -55,18 +55,24 @@ Full details on the [scraper page](https://apify.com/abotapi/dotproperty-com-ph-
 | `url` | string |
 | `source` | string |
 | `price` | integer |
-| `usable_area_sqm` | integer |
+| `bedrooms` | integer |
+| `bathrooms` | integer |
+| `usable_area_sqm` | float |
 | `agent_name` | string |
 | `agent_verified` | boolean |
 | `latitude` | float |
 | `longitude` | float |
 | `agent_phone` | string |
 | `title` | string |
+| `floor` | integer |
+| `land_area_sqm` | float |
+| `facilities` | list |
 | `images` | list |
 | `image_count` | integer |
 | `og_image` | string |
 | `description` | string |
 | `listing_id_text` | string |
+| `agent_listing_count` | integer |
 | `agent_url` | string |
 | `breadcrumbs` | list |
 | `currency` | string |

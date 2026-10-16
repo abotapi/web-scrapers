@@ -37,8 +37,8 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~realtor-com-scraper/run-s
 | `urls` | array | Search URLs |
 | `maxListings` | integer | Max Listings |
 | `maxPages` | integer | Max Pages Per Location |
-| `proxyConfiguration` | object | Proxy configuration |
 | `resumeFromCheckpoint` | boolean | Resume From Checkpoint |
+| `proxyConfiguration` | object | Proxy configuration |
 
 `*` required
 

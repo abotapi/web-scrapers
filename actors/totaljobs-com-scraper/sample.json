@@ -23,7 +23,7 @@
     },
     "location": {
       "text": "Example text",
-      "postalCode": "",
+      "postalCode": null,
       "locality": null,
       "region": null,
       "country": null,
@@ -35,15 +35,15 @@
     },
     "salary": {
       "rawText": "Example raw text",
-      "min": null,
-      "max": null,
-      "currency": null,
+      "min": 43,
+      "max": 28,
+      "currency": "GBP",
       "period": null
     },
     "workFromHome": null,
     "skills": [],
     "textSnippet": "Example text snippet: mock text standing in for the real value. Same field and type, made-up content.",
-    "crossPostedCount": 6,
+    "crossPostedCount": 0,
     "isSponsored": false,
     "isHighlighted": false,
     "isTopJob": false,

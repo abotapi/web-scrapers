@@ -17,7 +17,7 @@ python example.py
 ```bash
 curl -s -X POST "https://api.apify.com/v2/acts/abotapi~airbnb-stays-reviews-scraper/run-sync-get-dataset-items?token=$APIFY_TOKEN" \
   -H 'Content-Type: application/json' \
-  -d '{"mode": "search", "searchQueries": ["Paris, France"], "currency": "USD", "maxItems": 10, "maxReviewsPerListing": 10, "proxyConfiguration": {"useApifyProxy": true}}'
+  -d '{"mode": "search", "searchQueries": ["Paris, France"], "currency": "USD", "locale": "en", "maxItems": 10, "maxReviewsPerListing": 10, "proxyConfiguration": {"useApifyProxy": true}}'
 ```
 
 ## Inputs
@@ -35,6 +35,7 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~airbnb-stays-reviews-scra
 | `infants` | integer | Infants |
 | `pets` | integer | Pets |
 | `currency` | string | Currency |
+| `locale` | string | Language / region |
 | `priceMin` | integer | Minimum price per night |
 | `priceMax` | integer | Maximum price per night |
 | `roomTypes` | array | Stay types |
@@ -68,8 +69,8 @@ Full details on the [scraper page](https://apify.com/abotapi/airbnb-stays-review
 | `stayCategory` | string |
 | `locationLabel` | string |
 | `subtitle` | string |
-| `badges` | null |
-| `isGuestFavorite` | null |
+| `badges` | list |
+| `isGuestFavorite` | boolean |
 | `latitude` | float |
 | `longitude` | float |
 | `checkIn` | string |
@@ -77,23 +78,26 @@ Full details on the [scraper page](https://apify.com/abotapi/airbnb-stays-review
 | `adults` | integer |
 | `images` | list |
 | `imagesCount` | integer |
+| `thumbnail` | string |
+| `coordinates` | object |
 | `detailLoaded` | boolean |
 | `reviewsFetched` | integer |
-| `rating` | null |
-| `reviewsCount` | null |
+| `rating` | float |
+| `reviewsCount` | integer |
 | `priceLabel` | string |
 | `priceTotal` | integer |
 | `priceOriginalTotal` | null |
 | `pricePerNight` | float |
 | `pricePerNightListed` | float |
-| `priceCurrency` | string |
+| `priceCurrency` | null |
 | `priceCurrencyRequested` | string |
 | `priceQualifier` | string |
 | `nights` | integer |
-| `bedrooms` | integer |
+| `bedrooms` | null |
 | `beds` | integer |
-| `bathrooms` | integer |
+| `bathrooms` | null |
 | `cardHighlights` | list |
+| `locale` | string |
 
 ---
 

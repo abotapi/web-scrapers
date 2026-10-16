@@ -12,7 +12,7 @@ client = ApifyClient(os.environ["APIFY_TOKEN"])
 
 run = client.actor("abotapi/fotmob-scraper").call(
     run_input={
-        "mode": "matches",
+        "mode": "news",
         "date": "2026-08-29",
         "maxItems": 10,
         "proxy": {"useApifyProxy": True},

@@ -65,7 +65,7 @@ Full details on the [scraper page](https://apify.com/abotapi/nofluffjobs-scraper
 | `companyLogo` | string |
 | `category` | string |
 | `seniority` | list |
-| `technology` | string |
+| `technology` | null |
 | `remote` | boolean |
 | `fullyRemote` | boolean |
 | `remotePercent` | integer |
@@ -78,7 +78,7 @@ Full details on the [scraper page](https://apify.com/abotapi/nofluffjobs-scraper
 | `salaryDisclosed` | string |
 | `salary` | object |
 | `posted` | integer |
-| `renewed` | integer |
+| `renewed` | null |
 | `lastActivity` | integer |
 | `onlineInterviewAvailable` | boolean |
 | `highlighted` | boolean |

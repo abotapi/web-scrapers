@@ -25,10 +25,15 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~tiktok-scraper/run-sync-g
 | Input | Type | What it is |
 | --- | --- | --- |
 | `mode` * | string | Mode |
+| `startUrls` | array | TikTok URLs |
 | `usernames` | array | Usernames or profile URLs |
 | `queries` | array | Hashtags or search keywords |
 | `videoUrls` | array | Video URLs |
 | `maxItems` | integer | Max results per unit |
+| `oldestPostDate` | string | Oldest post date |
+| `newestPostDate` | string | Newest post date |
+| `mostDiggs` | integer | Max likes |
+| `leastDiggs` | integer | Min likes |
 | `proxyTier` | string | Proxy tier |
 | `proxy` | object | Proxy configuration |
 

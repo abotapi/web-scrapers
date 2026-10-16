@@ -33,6 +33,8 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~autoscout24-scraper/run-s
 | `bodyType` | string | Body type |
 | `fuelTypes` | array | Fuel type(s) |
 | `transmission` | string | Transmission |
+| `sellerType` | string | Seller type |
+| `colors` | array | Body colours |
 | `priceMin` | integer | Minimum price (EUR) |
 | `priceMax` | integer | Maximum price (EUR) |
 | `yearMin` | integer | Minimum first registration year |
@@ -47,6 +49,8 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~autoscout24-scraper/run-s
 | `maxListings` | integer | Maximum listings |
 | `maxPages` | integer | Maximum pages per search |
 | `proxyConfiguration` | object | Proxy configuration |
+| `searchUrls` | array | Search URLs (alias of URLs) |
+| `maxPage` | integer | Max pages (alias) |
 
 `*` required
 
@@ -93,8 +97,8 @@ Full details on the [scraper page](https://apify.com/abotapi/autoscout24-scraper
 | `companyName` | string |
 | `contactName` | string |
 | `phones` | list |
-| `ratingsCount` | null |
-| `ratingsStars` | null |
+| `ratingsCount` | integer |
+| `ratingsStars` | integer |
 | `whatsappNumber` | string |
 | `dealerLogoUrl` | string |
 | `dealerInfoPageUrl` | string |

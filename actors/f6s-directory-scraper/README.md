@@ -29,6 +29,10 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~f6s-directory-scraper/run
 | `location` | string | Location |
 | `keyword` | string | Keyword |
 | `programType` | string | Program type |
+| `country` | string | Country |
+| `stage` | string | Stage |
+| `sector` | string | Sector |
+| `deadlineOnly` | boolean | Only with an application deadline |
 | `sortBy` | string | Sort by |
 | `minInvestment` | integer | Min investment (USD) |
 | `maxInvestment` | integer | Max investment (USD) |
@@ -61,11 +65,29 @@ Full details on the [scraper page](https://apify.com/abotapi/f6s-directory-scrap
 | `tags` | string |
 | `verified` | boolean |
 | `deadline` | string |
-| `investmentRaw` | null |
-| `investmentAmount` | null |
-| `investmentCurrency` | null |
+| `investmentRaw` | string |
+| `investmentAmount` | integer |
+| `investmentCurrency` | string |
 | `equityRaw` | null |
 | `equityPercent` | null |
+| `entity_type` | string |
+| `program_name` | string |
+| `program_slug` | string |
+| `program_url` | string |
+| `program_type` | null |
+| `program_classification` | string |
+| `program_description` | null |
+| `program_country` | string |
+| `program_city` | string |
+| `program_sector` | list |
+| `program_benefits` | list |
+| `program_investment_amount` | integer |
+| `program_equity_taken` | null |
+| `program_duration` | null |
+| `program_application_deadline` | string |
+| `program_application_deadline_iso` | string |
+| `program_application_url` | string |
+| `program_website` | null |
 | `sourceUrl` | string |
 | `scrapedAt` | string |
 

@@ -1,50 +1,50 @@
 [
   {
     "kind": "event",
-    "recordId": "6421883",
-    "eventId": "4330317",
+    "recordId": "8429543",
+    "eventId": "0751504",
     "url": "https://www.pollstar.com/example/55319",
-    "title": "Example title: mock text standing in for the real value. Same field and type, made-up content.",
+    "title": "Example title",
     "playDate": "2026-01-15T10:00:00Z",
     "playTime": null,
     "isFestival": false,
     "hasBoxOfficeReport": false,
-    "announcedHoursAgo": 89283,
+    "announcedHoursAgo": 8283,
     "note": null,
-    "venueId": "374661436",
+    "venueId": "773552240",
     "venueName": "Example venue name",
     "venueUrl": "https://www.pollstar.com/example/58148",
     "venueTypes": [
       "Example venue types"
     ],
-    "venueMarket": "Example venue market",
+    "venueMarket": null,
     "venueStreet": "Example venue street",
     "venueCity": "Example venue city",
     "venueState": "NV",
     "venueStateName": "Example venue state name",
-    "venuePostalCode": "78277",
+    "venuePostalCode": "76090",
     "venueCountry": "Example venue country",
-    "venueLatitude": 34.0,
+    "venueLatitude": 33.93,
     "venueLongitude": -105.96,
     "venuePhone": null,
     "venueEmail": null,
-    "venueWebsite": null,
+    "venueWebsite": "Example venue website",
     "headlineArtist": "Example headline artist",
-    "headlineArtistId": "039561",
+    "headlineArtistId": "082944",
     "headlineArtistUrl": "https://www.pollstar.com/example/91374",
     "headlineArtistType": "Example headline artist type",
     "genres": [
-      "Example genres"
+      "Theatrical"
     ],
     "supportActs": [],
     "artists": [
       {
-        "artistId": "441535",
+        "artistId": "130802",
         "name": "Example name",
         "url": "https://www.pollstar.com/example/55319",
         "isHeadline": true,
         "genres": [
-          "Example genres"
+          "Theatrical"
         ],
         "artistType": "Example artist type",
         "sequence": 5
@@ -52,8 +52,8 @@
     ],
     "tickets": [
       {
-        "vendor": "Example vendor",
-        "url": "https://ticketmaster.evyy.net/example/55319",
+        "vendor": "AXS",
+        "url": "https://www.axs.com/example/55319",
         "doorTime": "Example door time"
       },
       {
@@ -62,8 +62,9 @@
         "doorTime": "Example door time"
       }
     ],
-    "ticketUrl": "https://ticketmaster.evyy.net/example/86715",
+    "ticketUrl": "https://www.axs.com/example/86715",
     "ticketVendors": [
+      "AXS",
       "Example ticket vendors"
     ],
     "scopeKind": "city",

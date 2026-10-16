@@ -1,25 +1,26 @@
 [
   {
-    "listingId": "94134390",
+    "listingId": "119127",
     "title": "Example title",
     "subtitle": "Example subtitle",
     "address": "Example address",
-    "propertyType": "resale",
+    "propertyType": "project",
     "price_display": "Example price_display",
     "price_values": [
-      9752214
+      45752214
     ],
     "currency": "INR",
-    "area_value": 2946,
+    "area_value": 246,
     "area_unit": "sq.ft",
-    "latitude": 19.18,
-    "longitude": 76.46,
+    "latitude": 18.78,
+    "longitude": 76.47,
     "features": [
       "Example features",
       "Example features"
     ],
     "bhk_configs": [
       {
+        "id": "0087915",
         "price_display": "Example price_display",
         "label": "Example label"
       }
@@ -30,24 +31,34 @@
     "sellers": [
       "Example sellers"
     ],
-    "seller_firms": [
-      "Example seller_firms"
-    ],
-    "highlights": [
-      "Example highlights",
-      "Example highlights"
-    ],
     "emi": "Example emi",
+    "tags": [
+      "rera_verified"
+    ],
     "images": [
-      "https://is1-3.housingcdn.com/example/41460.jpg",
+      "https://is1-2.housingcdn.com/example/41460.jpg",
       "https://is1-2.housingcdn.com/example/39750.jpg"
     ],
     "image_count": 23,
     "url": "https://housing.com/example/95874",
-    "scraped_at": "2026-01-15T10:00:00Z"
+    "scraped_at": "2026-01-15T10:00:00Z",
+    "possessionDate": "Example possession date",
+    "postedAt": "2026-01-15T10:00:00Z",
+    "updatedAt": "2026-01-15T10:00:00Z",
+    "isMostContacted": false,
+    "projectName": "Example project name",
+    "projectId": "125233",
+    "city": "Mumbai",
+    "cityId": "id60910169",
+    "transactionType": "buy",
+    "isReraVerified": true,
+    "coverImageUrl": "https://is1-2.housingcdn.com/example/62495.jpg",
+    "pricePerArea": "Example price per area",
+    "configurations": "Example configurations",
+    "bedrooms": 9
   },
   {
-    "listingId": "05608436",
+    "listingId": "13703521",
     "title": "Example title",
     "subtitle": "Example subtitle",
     "address": "Example address",
@@ -59,8 +70,8 @@
     "currency": "INR",
     "area_value": 621,
     "area_unit": "sq.ft",
-    "latitude": 16.51,
-    "longitude": 82.31,
+    "latitude": 16.74,
+    "longitude": 82.27,
     "features": [
       "Example features",
       "Example features"
@@ -80,17 +91,33 @@
     "seller_firms": [
       "Example seller_firms"
     ],
-    "highlights": [
-      "Example highlights",
-      "Example highlights"
-    ],
     "emi": "Example emi",
+    "tags": [
+      "rera_verified"
+    ],
     "images": [
       "https://is1-3.housingcdn.com/example/94128.jpg",
-      "https://is1-3.housingcdn.com/example/26228.jpg"
+      "https://housing-is-01.s3.amazonaws.com/example/26228.jpg"
     ],
-    "image_count": 6,
+    "image_count": 24,
     "url": "https://housing.com/example/20661",
-    "scraped_at": "2026-01-15T10:00:00Z"
+    "scraped_at": "2026-01-15T10:00:00Z",
+    "postedAt": "2026-01-15T10:00:00Z",
+    "updatedAt": "2026-01-15T10:00:00Z",
+    "isVerified": true,
+    "verificationStatus": "DC_VERIFIED",
+    "isBrokerageChargeable": false,
+    "isMostContacted": false,
+    "projectId": "28989471",
+    "city": "Mumbai",
+    "cityId": "id36046767",
+    "transactionType": "buy",
+    "isReraVerified": true,
+    "coverImageUrl": "https://is1-3.housingcdn.com/example/30086.jpg",
+    "furnishing": "Example furnishing",
+    "facing": "Example facing",
+    "constructionStatus": "Example construction status",
+    "pricePerArea": "Example price per area",
+    "floorNumber": "42"
   }
 ]

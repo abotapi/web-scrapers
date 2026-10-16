@@ -20,6 +20,7 @@ run = client.actor("abotapi/rumah123-indonesia-property-scraper").call(
         "furnishing": "any",
         "maxPages": 1,
         "maxListings": 10,
+        "limit": 10,
         "proxy": {"useApifyProxy": True, "apifyProxyGroups": ["RESIDENTIAL"], "apifyProxyCountry": "ID"},
     },
     logger=None,  # don't stream the run log to your console

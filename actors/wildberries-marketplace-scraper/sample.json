@@ -15,14 +15,14 @@
     "discountPercent": 61,
     "hasDiscount": true,
     "currency": "RUB",
-    "rating": 0,
-    "reviewRating": 0,
-    "feedbacksCount": 0,
+    "rating": 8,
+    "reviewRating": 6,
+    "feedbacksCount": 3,
     "stock": 18,
     "volume": 84,
-    "weight": 0.34,
+    "weight": 0.47,
     "warehouseIds": [
-      76114705
+      514705
     ],
     "deliveryDaysMin": 28,
     "deliveryDaysMax": 982,
@@ -30,24 +30,38 @@
       "Example colors"
     ],
     "imageUrl": "https://basket-10.wbbasket.ru/example/73729.jpg",
-    "imageUrlsCount": 5,
-    "supplierId": 9786921,
+    "imageUrlsCount": 50,
+    "supplierId": 441786921,
     "supplierName": "Example supplier name",
-    "supplierRating": 3.97,
+    "supplierRating": 3.81,
     "description": null,
     "characteristics": null,
-    "feedbacks": [],
+    "feedbacks": [
+      {
+        "id": "d6ucwliympq8yphb99zu",
+        "createdDate": "2026-01-15T10:00:00Z",
+        "updatedDate": "2026-01-15T10:00:00Z",
+        "rating": 8,
+        "text": "",
+        "pros": "",
+        "cons": "",
+        "size": "",
+        "userName": null,
+        "answerText": "Example answer text: mock text standing in for the real value. Same field and type, made-up content.",
+        "photosCount": 0
+      }
+    ],
     "feedbackSummary": {
-      "valuation": null,
-      "valuationSum": 0,
+      "valuation": "2.1",
+      "valuationSum": 49,
       "distribution": {
         "1": 0,
         "2": 0,
         "3": 0,
         "4": 0,
-        "5": 0
+        "5": 6
       },
-      "withText": 0,
+      "withText": 2,
       "withPhoto": 0
     }
   }

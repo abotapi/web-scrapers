@@ -1,7 +1,7 @@
 [
   {
     "recordType": "agent",
-    "agentId": "45651",
+    "agentId": "5431403",
     "name": "Example name",
     "firstName": "Example first name",
     "jobTitle": "Example job title",
@@ -11,21 +11,58 @@
     "source": "Example source",
     "rating": {
       "average": 5,
-      "totalReviews": 527
+      "totalReviews": 77
     },
     "reviewSummary": "Example review summary: mock text standing in for the real value. Same field and type, made-up content.",
     "salesSummary": {
-      "medianLeasedPrice": null,
+      "medianLeasedPrice": 6846,
       "medianSoldDaysOnSite": 30,
       "medianSoldPrice": 9582403,
-      "sumLeasedProperties": 0,
+      "sumLeasedProperties": 1,
       "sumSoldProperties": 13,
       "sumSoldPropertiesPrimaryLister": 30,
       "sumSoldPropertiesSecondaryLister": 0
     },
-    "agencyId": "MZLZZU",
+    "recentListings": [
+      {
+        "id": "455287761",
+        "url": "https://www.realestate.com.au/example/68184",
+        "status": "Sold",
+        "address": {
+          "street": "Example street",
+          "suburb": "Example suburb",
+          "state": "NSW",
+          "postcode": "8059"
+        },
+        "propertyType": "Apartment",
+        "bedrooms": 4,
+        "bathrooms": 3,
+        "parkingSpaces": 1,
+        "price": "Example price",
+        "dateSold": "2026-01-15"
+      },
+      {
+        "id": "870489125",
+        "url": "https://www.realestate.com.au/example/83466",
+        "status": "Sold",
+        "address": {
+          "street": "Example street",
+          "suburb": "Example suburb",
+          "state": "NSW",
+          "postcode": "6038"
+        },
+        "propertyType": "Apartment",
+        "bedrooms": 7,
+        "bathrooms": 8,
+        "parkingSpaces": 8,
+        "price": "Example price",
+        "dateSold": "2026-01-15"
+      }
+    ],
+    "lastSoldDate": "2026-01-15",
+    "agencyId": "PCLJZU",
     "agency": {
-      "id": "MZLZZU",
+      "id": "PCLJZU",
       "name": "Example name",
       "profileUrl": "https://www.realestate.com.au/example/37914",
       "logoUrl": "https://i1.au.reastatic.net/example/11179.jpg",
@@ -49,43 +86,296 @@
     },
     "stats": {
       "medianSoldPrice": {
-        "townhouse": null,
+        "townhouse": 2120659,
         "apartment": 8132463,
         "house": 8453674,
         "overall": 5247405
       },
       "medianDaysAdvertised": {
-        "townhouse": null,
+        "townhouse": 79,
         "apartment": 63,
         "house": 64,
         "overall": 45
       },
       "propertiesSold": {
         "apartment": 63,
-        "townhouse": 0,
+        "townhouse": 7,
         "asLeadAgent": 33,
         "asSecondaryAgent": 0,
         "house": 1,
         "overall": 45
       }
     },
+    "awardsText": "Example awards text: mock text standing in for the real value. Same field and type, made-up content.",
+    "linkedAgentIds": [
+      "2856926"
+    ],
     "communityInvolvement": "Example community involvement: mock text standing in for the real value. Same field and type, made-up content.",
     "compliments": [
       {
-        "count": 125,
+        "count": 35,
         "tag": "Professional"
       },
       {
-        "count": 141,
+        "count": 51,
         "tag": "Example tag"
       }
     ],
     "video": {
-      "id": "2_vpb7wtdps",
+      "id": "Example id",
       "provider": "youtube",
       "title": "Example title"
     },
+    "currentListings": {
+      "forSale": 5,
+      "forRent": 0,
+      "sold": 11,
+      "total": 4
+    },
+    "currentForSaleListings": [
+      {
+        "id": "274452307",
+        "url": "https://www.realestate.com.au/example/68184",
+        "status": "Example status",
+        "address": {
+          "street": "Example street",
+          "suburb": "Example suburb",
+          "state": "NSW",
+          "postcode": "8059"
+        },
+        "propertyType": "Apartment",
+        "bedrooms": 4,
+        "bathrooms": 3,
+        "parkingSpaces": 1,
+        "price": "Example price",
+        "listedDate": "2026-01-15"
+      },
+      {
+        "id": "304053717",
+        "url": "https://www.realestate.com.au/example/83466",
+        "status": "Example status",
+        "address": {
+          "street": "Example street",
+          "suburb": "Example suburb",
+          "state": "NSW",
+          "postcode": "6038"
+        },
+        "propertyType": "Apartment",
+        "bedrooms": 7,
+        "bathrooms": 8,
+        "parkingSpaces": 8,
+        "price": "Example price",
+        "listedDate": "2026-01-15"
+      }
+    ],
     "reviews": [
+      {
+        "rating": 2,
+        "text": "Example text: mock text standing in for the real value. Same field and type, made-up content.",
+        "reply": null,
+        "reviewerRole": "Example reviewer role",
+        "publishDate": "2026-01-15",
+        "listing": {
+          "propertyType": "Apartment",
+          "suburb": "Example suburb",
+          "state": "NSW"
+        }
+      },
+      {
+        "rating": 5,
+        "text": "Example text: mock text standing in for the real value. Same field and type, made-up content.",
+        "reply": null,
+        "reviewerRole": "Example reviewer role",
+        "publishDate": "2026-01-15",
+        "listing": {
+          "propertyType": "Apartment",
+          "suburb": "Example suburb",
+          "state": "NSW"
+        }
+      }
+    ]
+  },
+  {
+    "recordType": "agent",
+    "agentId": "926126",
+    "name": "Example name",
+    "firstName": "Example first name",
+    "jobTitle": "Example job title",
+    "yearsExperience": 62,
+    "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
+    "url": "https://www.realestate.com.au/example/81564",
+    "source": "Example source",
+    "rating": {
+      "average": 4,
+      "totalReviews": 70
+    },
+    "reviewSummary": "Example review summary: mock text standing in for the real value. Same field and type, made-up content.",
+    "salesSummary": {
+      "medianLeasedPrice": null,
+      "medianSoldDaysOnSite": 11,
+      "medianSoldPrice": 657021,
+      "sumLeasedProperties": 0,
+      "sumSoldProperties": 64,
+      "sumSoldPropertiesPrimaryLister": 52,
+      "sumSoldPropertiesSecondaryLister": 36
+    },
+    "recentListings": [
+      {
+        "id": "385181352",
+        "url": "https://www.realestate.com.au/example/81564",
+        "status": "Sold",
+        "address": {
+          "street": "Example street",
+          "suburb": "Example suburb",
+          "state": "NSW",
+          "postcode": "8065"
+        },
+        "propertyType": "Apartment",
+        "bedrooms": 4,
+        "bathrooms": 5,
+        "parkingSpaces": 0,
+        "price": "Example price",
+        "dateSold": "2026-01-15"
+      },
+      {
+        "id": "801416653",
+        "url": "https://www.realestate.com.au/example/87006",
+        "status": "Sold",
+        "address": {
+          "street": "Example street",
+          "suburb": "Example suburb",
+          "state": "NSW",
+          "postcode": "4847"
+        },
+        "propertyType": "Apartment",
+        "bedrooms": 9,
+        "bathrooms": 6,
+        "parkingSpaces": 0,
+        "price": "Example price",
+        "dateSold": "2026-01-15"
+      }
+    ],
+    "lastSoldDate": "2026-01-15",
+    "agencyId": "PUHSYD",
+    "agency": {
+      "id": "PUHSYD",
+      "name": "Example name",
+      "profileUrl": "https://www.realestate.com.au/example/92978",
+      "logoUrl": "https://i1.au.reastatic.net/example/65715.jpg",
+      "primaryColor": "Example primary color"
+    },
+    "social": {
+      "facebook": "https://www.facebook.com/example/57829",
+      "twitter": "https://twitter.com/example/90639"
+    },
+    "profileImageUrl": "https://i1.au.reastatic.net/example/18693.jpg",
+    "coverPhotoUrl": "https://i1.au.reastatic.net/example/39576.jpg",
+    "scrapedAt": "2026-01-15T10:00:00Z",
+    "startYearInIndustry": 1096,
+    "mostActiveLocation": {
+      "suburb": "Example suburb",
+      "state": "NSW",
+      "postcode": "8065"
+    },
+    "phone": {
+      "mobile": "+1 555 0100",
+      "office": "1449259567"
+    },
+    "stats": {
+      "medianSoldPrice": {
+        "townhouse": null,
+        "apartment": 9892926,
+        "house": null,
+        "overall": 993394
+      },
+      "medianDaysAdvertised": {
+        "townhouse": null,
+        "apartment": 36,
+        "house": null,
+        "overall": 64
+      },
+      "propertiesSold": {
+        "apartment": 36,
+        "townhouse": 0,
+        "asLeadAgent": 94,
+        "asSecondaryAgent": 62,
+        "house": 0,
+        "overall": 64
+      }
+    },
+    "linkedAgentIds": [
+      "299818"
+    ],
+    "compliments": [
+      {
+        "count": 60,
+        "tag": "Professional"
+      },
+      {
+        "count": 14,
+        "tag": "Reliable"
+      }
+    ],
+    "video": {
+      "id": "mvkdn4b43ii",
+      "provider": "youtube",
+      "title": "Example title"
+    },
+    "currentListings": {
+      "forSale": 55,
+      "forRent": 0,
+      "sold": 93,
+      "total": 61
+    },
+    "currentForSaleListings": [
+      {
+        "id": "010160221",
+        "url": "https://www.realestate.com.au/example/81564",
+        "status": "Example status",
+        "address": {
+          "street": "Example street",
+          "suburb": "Example suburb",
+          "state": "NSW",
+          "postcode": "8065"
+        },
+        "propertyType": "Studio",
+        "bedrooms": 0,
+        "bathrooms": 5,
+        "parkingSpaces": 6,
+        "price": "Example price",
+        "listedDate": "2026-01-15"
+      },
+      {
+        "id": "010360399",
+        "url": "https://www.realestate.com.au/example/87006",
+        "status": "Example status",
+        "address": {
+          "street": "Example street",
+          "suburb": "Example suburb",
+          "state": "NSW",
+          "postcode": "4847"
+        },
+        "propertyType": "Apartment",
+        "bedrooms": 9,
+        "bathrooms": 6,
+        "parkingSpaces": 0,
+        "price": "Example price",
+        "listedDate": "2026-01-15"
+      }
+    ],
+    "reviews": [
+      {
+        "rating": 8,
+        "text": "Example text: mock text standing in for the real value. Same field and type, made-up content.",
+        "reply": null,
+        "reviewerRole": "Example reviewer role",
+        "publishDate": "2026-01-15",
+        "listing": {
+          "propertyType": "Apartment",
+          "suburb": "Example suburb",
+          "state": "NSW"
+        }
+      },
       {
         "rating": 2,
         "text": "Example text: mock text standing in for the real value. Same field and type, made-up content.",

@@ -1,13 +1,13 @@
 [
   {
     "kind": "listing",
-    "recordId": "01038590",
-    "listingId": "14828078",
+    "recordId": "52095998",
+    "listingId": "71985630",
     "url": "https://www.padmapper.com/example/97490",
-    "title": "A4",
+    "title": "Example title",
     "description": null,
     "currency": "USD",
-    "rentMin": 428,
+    "rentMin": 8528,
     "rentMax": 2726,
     "previousRent": null,
     "bedrooms": 0,
@@ -20,15 +20,15 @@
     "address": "Example address",
     "city": "Austin",
     "state": "TX",
-    "zipcode": "17398",
+    "zipcode": "33012",
     "citySlug": "austin-tx",
-    "neighborhood": "Example neighborhood",
-    "latitude": 28.46,
-    "longitude": -68.4,
+    "neighborhood": "MLK",
+    "latitude": 28.47,
+    "longitude": -68.39,
     "propertyType": "apartment",
     "listingType": 5,
     "leaseType": 7,
-    "sourceFeed": "realpage",
+    "sourceFeed": "resman",
     "providerUrl": null,
     "phone": "+1 555 0100",
     "petCodes": [
@@ -36,7 +36,6 @@
       2
     ],
     "petAmenities": [
-      "Example pet amenities",
       "Example pet amenities"
     ],
     "buildingAmenities": [

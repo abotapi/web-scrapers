@@ -62,7 +62,7 @@ Full details on the [scraper page](https://apify.com/abotapi/2dehands-2ememain-s
 | `priceType` | string |
 | `city` | string |
 | `countryName` | string |
-| `countryAbbreviation` | string |
+| `countryAbbreviation` | null |
 | `latitude` | float |
 | `longitude` | float |
 | `distanceMeters` | integer |

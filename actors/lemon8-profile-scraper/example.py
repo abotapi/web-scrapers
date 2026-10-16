@@ -13,6 +13,7 @@ client = ApifyClient(os.environ["APIFY_TOKEN"])
 run = client.actor("abotapi/lemon8-profile-scraper").call(
     run_input={
         "username": "sydneydelreyy",
+        "startUrls": ["https://www.lemon8-app.com/@sydneydelreyy?region=us", "https://www.lemon8-app.com/@sydneydelreyy", "https://www.lemon8-app.com/@sydneydelreyy?region=ca", "https://www.lemon8-app.com/@sydneydelreyy/7499465815561994794?region=us", "https://www.lemon8-app.com/@sydneydelreyy/7499465815561994794", "https://www.lemon8-app.com/@sydneydelreyy/follow?region=us"],
         "region": "us",
         "limit": 10,
         "proxy": {"useApifyProxy": True, "apifyProxyCountry": "US"},

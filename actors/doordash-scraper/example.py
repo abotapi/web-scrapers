@@ -15,6 +15,8 @@ run = client.actor("abotapi/doordash-scraper").call(
         "mode": "search",
         "search": ["pizza"],
         "storeType": "any",
+        "minRating": "any",
+        "maxReviews": 10,
         "maxPages": 1,
         "proxy": {"useApifyProxy": True, "apifyProxyGroups": ["RESIDENTIAL"], "apifyProxyCountry": "US"},
     },

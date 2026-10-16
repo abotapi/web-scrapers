@@ -79,14 +79,14 @@ Full details on the [scraper page](https://apify.com/abotapi/zonaprop-scraper?ut
 | `prices` | list |
 | `expenses` | integer |
 | `expensesCurrency` | string |
-| `expensesFormatted` | string |
+| `expensesFormatted` | null |
 | `totalArea` | integer |
 | `coveredArea` | integer |
 | `rooms` | integer |
 | `bedrooms` | integer |
 | `bathrooms` | integer |
 | `garages` | null |
-| `age` | integer |
+| `age` | null |
 | `areaUnit` | string |
 | `address` | string |
 | `addressVisibility` | string |

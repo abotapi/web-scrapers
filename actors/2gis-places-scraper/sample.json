@@ -1,8 +1,8 @@
 [
   {
     "recordType": "place",
-    "id": "65232193538238391",
-    "fullId": "71771866897642417_zg2lu63756g46h3572ig2ggg3w2dhn83g0g5273725275c90wpqt69332j0a5g9g6j729j9jadd6uv6c49408810106h2j7hhhg7h35842",
+    "id": "67420308965808925",
+    "fullId": "54331154320705245_opliz3445bg01h6564ig8gggpzwnds90g2g52a7689ba6b55wpqt46503j1a7g9g5j54bj3jxsyuuv0c5c4069015b8h6j4hhhg8h14bge",
     "name": "Example name",
     "fullName": "Example full name",
     "shortName": "Example short name",
@@ -13,27 +13,82 @@
     "purpose": "Example purpose",
     "description": null,
     "rubrics": [
-      "Example rubrics",
       "Example rubrics"
     ],
     "rubricIds": [
-      "681",
-      "150"
+      "662"
     ],
     "primaryRubric": "Example primary rubric",
-    "rating": 5.95,
+    "rating": 6.08,
     "reviewCount": 348,
     "ratingCount": 517,
     "isReviewable": true,
-    "orgRating": 5.83,
-    "orgReviewCount": 91392,
+    "orgRating": 8,
+    "orgReviewCount": 492,
     "flampRating": null,
     "flampReviewCount": null,
     "address": "Example address",
     "fullAddress": "Example full address",
     "addressComment": null,
-    "postcode": "650494",
-    "buildingId": "8954654445785655",
+    "postcode": "049151",
+    "buildingId": "81332839710912212",
+    "country": "Example country",
+    "region": "Example region",
+    "city": "Example city",
+    "district": "Example district",
+    "livingArea": null,
+    "street": "Example street",
+    "houseNumber": "7",
+    "latitude": 40.7,
+    "longitude": 31.58,
+    "timezoneOffset": 943,
+    "nearestStations": [
+      {
+        "id": "0438981608538577",
+        "distanceMeters": 202
+      },
+      {
+        "id": "9734113429976831",
+        "distanceMeters": 963
+      }
+    ],
+    "buildingName": null
+  },
+  {
+    "recordType": "place",
+    "id": "46258289495907052",
+    "fullId": "17243395249680897_opliz0414bg99h4343ig7gggpzwnds50g4g09a08447439a9wpqt73219j8a2g5g2j22bj8jxsyuuv1c3c691236191h1j2hhhg8h60b95",
+    "name": "Example name",
+    "fullName": "Example full name",
+    "shortName": "Example short name",
+    "nameExtension": "Example name extension",
+    "url": "https://2gis.ru/example/53361",
+    "type": "branch",
+    "subtype": null,
+    "purpose": "Example purpose",
+    "description": null,
+    "rubrics": [
+      "Example rubrics",
+      "Example rubrics"
+    ],
+    "rubricIds": [
+      "760",
+      "70152"
+    ],
+    "primaryRubric": "Example primary rubric",
+    "rating": 5.24,
+    "reviewCount": 794,
+    "ratingCount": 282,
+    "isReviewable": true,
+    "orgRating": 3.86,
+    "orgReviewCount": 1490,
+    "flampRating": null,
+    "flampReviewCount": null,
+    "address": "Example address",
+    "fullAddress": "Example full address",
+    "addressComment": null,
+    "postcode": "948292",
+    "buildingId": "5101939475286785",
     "country": "Example country",
     "region": "Example region",
     "city": "Example city",
@@ -41,48 +96,19 @@
     "livingArea": null,
     "street": "Example street",
     "houseNumber": "Example house number",
-    "latitude": 40.69,
-    "longitude": 31.59,
-    "timezoneOffset": 943,
+    "latitude": 57.41,
+    "longitude": 37.64,
+    "timezoneOffset": 515,
     "nearestStations": [
       {
-        "id": "2314374336863008",
-        "distanceMeters": 202
+        "id": "0917323787805085",
+        "distanceMeters": 368
       },
       {
-        "id": "3608909688297739",
-        "distanceMeters": 4563
+        "id": "0869080877329285",
+        "distanceMeters": 9913
       }
     ],
-    "buildingName": null
-  },
-  {
-    "recordType": "review",
-    "reviewId": "000899730",
-    "placeId": "35332851994781102",
-    "placeName": "Example place name",
-    "rating": 5,
-    "text": "Example text: mock text standing in for the real value. Same field and type, made-up content.",
-    "dateCreated": "2026-01-15T10:00:00Z",
-    "dateEdited": null,
-    "reviewUrl": null,
-    "authorName": "Example author name",
-    "authorId": "363431395",
-    "authorPublicId": "id12134406",
-    "authorUrl": null,
-    "authorPhotoUrl": "https://i9.photo.2gis.com/example/77002.jpg",
-    "authorReviewsCount": 5,
-    "likesCount": 0,
-    "commentsCount": 0,
-    "isVerified": false,
-    "isHidden": false,
-    "hasOfficialAnswer": false,
-    "provider": "Example provider",
-    "source": null,
-    "photos": [],
-    "photoCount": 0,
-    "officialAnswerText": null,
-    "officialAnswerDate": null,
-    "officialAnswerOrg": null
+    "buildingName": "Example building name"
   }
 ]

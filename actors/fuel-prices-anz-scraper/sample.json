@@ -14,25 +14,19 @@
     "phone": "+1 555 0100",
     "prices": {
       "DIESEL": {
-        "price": 327.59,
+        "price": 323.07,
         "updatedAt": 7189868241045,
         "reportedBy": "Example reported by",
         "relevant": true
       },
       "E10": {
-        "price": 276.74,
+        "price": 274.48,
         "updatedAt": 7189868241045,
         "reportedBy": "Example reported by",
         "relevant": true
       },
       "U95": {
-        "price": 294.82,
-        "updatedAt": 7189868241045,
-        "reportedBy": "Example reported by",
-        "relevant": true
-      },
-      "U98": {
-        "price": 304.99,
+        "price": 292.56,
         "updatedAt": 7189868241045,
         "reportedBy": "Example reported by",
         "relevant": true
@@ -82,13 +76,13 @@
     "phone": "+1 555 0100",
     "prices": {
       "E10": {
-        "price": 205.23,
+        "price": 208.71,
         "updatedAt": 9467584543785,
         "reportedBy": "Example reported by",
         "relevant": true
       },
       "U98": {
-        "price": 229.59,
+        "price": 230.46,
         "updatedAt": 9467584543785,
         "reportedBy": "Example reported by",
         "relevant": true
@@ -100,7 +94,7 @@
         "relevant": true
       },
       "U91": {
-        "price": 208.71,
+        "price": 212.19,
         "updatedAt": 9467584543785,
         "reportedBy": "Example reported by",
         "relevant": true

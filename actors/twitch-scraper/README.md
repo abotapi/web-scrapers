@@ -17,7 +17,7 @@ python example.py
 ```bash
 curl -s -X POST "https://api.apify.com/v2/acts/abotapi~twitch-scraper/run-sync-get-dataset-items?token=$APIFY_TOKEN" \
   -H 'Content-Type: application/json' \
-  -d '{"mode": "channel", "channels": ["shroud"], "clipPeriod": "LAST_WEEK", "gameSlug": "valorant", "streamSort": "VIEWER_COUNT", "searchQuery": "valorant", "maxResults": 10, "maxPages": 1, "proxyConfiguration": {"useApifyProxy": true, "apifyProxyGroups": ["RESIDENTIAL"], "apifyProxyCountry": "US"}}'
+  -d '{"mode": "channel", "channels": ["shroud"], "clipPeriod": "LAST_WEEK", "gameSlug": "valorant", "streamSort": "VIEWER_COUNT", "searchQuery": "valorant", "maxResults": 10, "maxItems": 10, "maxPages": 1, "proxyConfiguration": {"useApifyProxy": true}}'
 ```
 
 ## Inputs
@@ -30,10 +30,12 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~twitch-scraper/run-sync-g
 | `gameSlug` | string | Game slug |
 | `streamSort` | string | Stream sort |
 | `searchQuery` | string | Search query |
+| `keywords` | array | Keywords (multi-query search) |
 | `videoIds` | array | Video IDs |
 | `urls` | array | URLs |
 | `includeMediaUrls` | boolean | Include playable media URLs |
 | `maxResults` | integer | Max results |
+| `maxItems` | integer | Max items (alias of Max results) |
 | `maxPages` | integer | Max pages |
 | `proxyConfiguration` | object | Proxy |
 
@@ -49,44 +51,20 @@ Full details on the [scraper page](https://apify.com/abotapi/twitch-scraper?utm_
 | --- | --- |
 | `recordType` | string |
 | `id` | string |
-| `login` | string |
-| `displayName` | string |
-| `url` | string |
-| `description` | string |
+| `videoId` | string |
+| `videoUrl` | string |
+| `channelLogin` | string |
+| `channelDisplayName` | string |
+| `contentOffsetSeconds` | integer |
 | `createdAt` | string |
-| `profileImageUrl` | string |
-| `bannerImageUrl` | string |
-| `primaryColorHex` | string |
-| `isPartner` | boolean |
-| `isAffiliate` | boolean |
-| `isStaff` | boolean |
-| `isSiteAdmin` | boolean |
-| `isGlobalMod` | boolean |
-| `isExtensionsDeveloper` | boolean |
-| `chanlets` | null |
-| `followersCount` | integer |
-| `isLive` | boolean |
-| `broadcastTitle` | string |
-| `broadcastLanguage` | string |
-| `broadcastGameName` | string |
-| `broadcastGameSlug` | string |
-| `lastBroadcastTitle` | string |
-| `lastBroadcastStartedAt` | string |
-| `socialMedias` | list |
+| `commenterId` | string |
+| `commenterLogin` | string |
+| `commenterDisplayName` | string |
+| `messageText` | string |
+| `userColor` | string |
+| `userBadges` | null |
+| `emotes` | null |
 | `scrapedAt` | string |
-| `streamId` | string |
-| `title` | string |
-| `viewersCount` | integer |
-| `streamStartedAt` | string |
-| `streamLanguage` | string |
-| `streamType` | string |
-| `gameName` | string |
-| `gameSlug` | string |
-| `gameId` | string |
-| `boxArtUrl` | string |
-| `thumbnailUrl` | string |
-| `tags` | list |
-| `streamHlsUrl` | string |
 
 ---
 

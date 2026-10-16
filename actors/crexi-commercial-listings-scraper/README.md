@@ -27,9 +27,12 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~crexi-commercial-listings
 | `mode` * | string | Mode |
 | `locations` | array | Locations or keywords |
 | `propertyTypes` | array | Property types |
+| `states` | array | States (2-letter codes) |
+| `cities` | array | Cities |
 | `priceMin` | integer | Minimum asking price (USD) |
 | `priceMax` | integer | Maximum asking price (USD) |
 | `includeUnpriced` | boolean | Include unpriced listings |
+| `moreResults` | boolean | Get more than 1,500 results per search |
 | `sortBy` | string | Sort by |
 | `sortDirection` | string | Sort direction |
 | `urls` | array | Crexi.com URLs |
@@ -58,8 +61,8 @@ Full details on the [scraper page](https://apify.com/abotapi/crexi-commercial-li
 | `url` | string |
 | `property_url` | string |
 | `detailPageUrl` | string |
-| `askingPrice` | null |
-| `price` | null |
+| `askingPrice` | integer |
+| `price` | integer |
 | `types` | list |
 | `property_type` | string |
 | `status` | string |

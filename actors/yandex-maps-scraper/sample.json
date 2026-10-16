@@ -17,8 +17,8 @@
     "country": "Example country",
     "categoryName": "Example category name",
     "categories": [
-      "Restoran",
-      "bar"
+      "Restaurant",
+      "Example categories"
     ],
     "phone": "+1 555 0100",
     "phones": [
@@ -46,14 +46,14 @@
       "lng": -54.03
     },
     "workingTime": {
-      "text": "Example text",
+      "text": "Example text: mock text standing in for the real value. Same field and type, made-up content.",
       "openNow": true,
       "openNowText": "Example open now text"
     }
   },
   {
     "source": "yandex_maps",
-    "id": "85733729566",
+    "id": "629489052743",
     "title": "Example title",
     "scrapedAt": "2026-01-15T10:00:00Z",
     "searchString": "restaurants",
@@ -62,25 +62,44 @@
     "address": "Example address",
     "addressParts": {
       "country": "Example country",
-      "locality": "Example locality"
+      "locality": "Example locality",
+      "street": "Example street",
+      "house": "85"
     },
     "country": "Example country",
     "categoryName": "Example category name",
     "categories": [
-      "Restoran"
+      "Example categories",
+      "restaurant"
     ],
     "phone": "+1 555 0100",
     "phones": [
+      "+1 555 0100",
       "+1 555 0100"
     ],
+    "totalScore": 4.63,
+    "reviewsCount": 3,
+    "photosCount": 36,
+    "photoUrls": [
+      "https://avatars.mds.yandex.net/example/48163.jpg",
+      "https://avatars.mds.yandex.net/example/9639.jpg"
+    ],
     "seoname": "Example seoname",
-    "reviews": [],
+    "reviews": [
+      {
+        "authorName": "Example author name",
+        "authorLevel": "Example author level",
+        "rating": 8,
+        "text": "Example text: mock text standing in for the real value. Same field and type, made-up content.",
+        "date": "2026-01-15T10:00:00Z"
+      }
+    ],
     "location": {
-      "lat": 40.72,
-      "lng": -85.85
+      "lat": 40.7,
+      "lng": -85.83
     },
     "workingTime": {
-      "text": "Example text",
+      "text": "Example text: mock text standing in for the real value. Same field and type, made-up content.",
       "openNow": true,
       "openNowText": "Example open now text"
     }

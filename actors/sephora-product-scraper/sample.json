@@ -1,32 +1,306 @@
 [
   {
-    "market": "americas-us",
+    "market": "sea-au",
     "source": {
-      "id": 793958,
-      "crawlUrl": "https://www.sephora.com/example/98299",
-      "canonicalUrl": "https://www.sephora.com/example/61124",
+      "id": 73958,
+      "crawlUrl": "https://www.sephora.au/example/98299",
+      "canonicalUrl": "https://www.sephora.com.au/example/61124",
       "retailer": "SEPHORA",
-      "currency": "USD",
-      "locale": "en-US"
+      "currency": "AUD",
+      "locale": "en-AU"
     },
     "brand": "Example brand",
-    "title": "Example title: mock text standing in for the real value. Same field and type, made-up content.",
-    "isNewArrival": false,
-    "frontend": "us",
-    "priceText": null,
-    "thumbnail": "https://www.sephora.com/example/18404.jpg",
-    "rating": 3.95,
-    "reviewCount": 5565,
-    "highlights": [],
+    "title": "Example title",
+    "subtitle": "Example subtitle",
+    "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
+    "shortDescription": "Example short description: mock text standing in for the real value. Same field and type, made-up content.",
+    "ingredients": "Example ingredients: mock text standing in for the real value. Same field and type, made-up content.",
+    "howToUse": "Example how to use: mock text standing in for the real value. Same field and type, made-up content.",
+    "claims": [
+      "Example claims: mock text standing in for the real value. Same field and type, made-up content.",
+      "Example claims: mock text standing in for the real value. Same field and type, made-up content."
+    ],
+    "currentSku": "414836",
     "categories": [],
-    "medias": [],
-    "variants": [],
-    "options": [],
+    "options": [
+      {
+        "name": "Example name",
+        "id": "90",
+        "values": [
+          {
+            "value": "Example value",
+            "label": "Example label",
+            "id": "353"
+          }
+        ]
+      },
+      {
+        "name": "Example name",
+        "id": "83",
+        "values": [
+          {
+            "value": "Example value",
+            "label": "Example label",
+            "id": "688"
+          }
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "id": "291360",
+        "sku": "809586",
+        "gtin": "973055653401,984047320823",
+        "name": "Example name",
+        "shade": "Example shade",
+        "position": 0,
+        "price": {
+          "current": 79,
+          "original": 41,
+          "currency": "AUD",
+          "displayPrice": "Example display price",
+          "displayOriginalPrice": "Example display original price",
+          "underSale": false,
+          "stockStatus": "IN_STOCK",
+          "available": true,
+          "inventory": 740
+        },
+        "highlights": [
+          "Example highlights",
+          "Example highlights"
+        ],
+        "swatchUrl": "https://image-optimizer-reg.production.sephora-asia.net/example/67349.jpg",
+        "imageUrl": "https://image-optimizer-reg.production.sephora-asia.net/example/16743.jpg",
+        "zoomImageUrl": "https://image-optimizer-reg.production.sephora-asia.net/example/61786.jpg",
+        "launchStatus": "postlaunch",
+        "isNewArrival": false,
+        "filterValueIds": [
+          "279",
+          "433"
+        ],
+        "ingredientPreferenceId": "80"
+      },
+      {
+        "id": "469767",
+        "sku": "032710",
+        "gtin": "059078293434,670068222220",
+        "name": "Example name",
+        "shade": "Example shade",
+        "position": 3,
+        "price": {
+          "current": 47,
+          "original": 29,
+          "currency": "AUD",
+          "displayPrice": "Example display price",
+          "displayOriginalPrice": "Example display original price",
+          "underSale": false,
+          "stockStatus": "IN_STOCK",
+          "available": true,
+          "inventory": 72
+        },
+        "highlights": [
+          "Example highlights",
+          "Example highlights"
+        ],
+        "swatchUrl": "https://image-optimizer-reg.production.sephora-asia.net/example/52666.jpg",
+        "imageUrl": "https://image-optimizer-reg.production.sephora-asia.net/example/12458.jpg",
+        "zoomImageUrl": "https://image-optimizer-reg.production.sephora-asia.net/example/65072.jpg",
+        "launchStatus": "postlaunch",
+        "isNewArrival": false,
+        "filterValueIds": [
+          "646",
+          "766"
+        ],
+        "ingredientPreferenceId": "71"
+      }
+    ],
+    "medias": [
+      {
+        "url": "https://image-optimizer-reg.production.sephora-asia.net/example/95359.jpg",
+        "type": "image",
+        "role": "hero"
+      },
+      {
+        "url": "https://image-optimizer-reg.production.sephora-asia.net/example/95786.jpg",
+        "type": "image",
+        "role": "hero"
+      }
+    ],
+    "stats": {
+      "reviewCount": 5565,
+      "rating": 4.16
+    },
+    "highlights": [
+      "web",
+      "mobile_app"
+    ],
+    "isNewArrival": false,
+    "frontend": "sea",
+    "price": {
+      "current": 79,
+      "original": 41,
+      "currency": "AUD",
+      "displayPrice": "Example display price",
+      "displayOriginalPrice": "Example display original price",
+      "underSale": false,
+      "stockStatus": "IN_STOCK"
+    },
     "isOnSpecial": false,
     "wasPrice": null,
     "savingsAmount": null,
     "savingsPercent": null,
-    "soldOut": null,
+    "soldOut": false,
+    "scrapedAt": "2026-01-15T10:00:00Z"
+  },
+  {
+    "market": "sea-au",
+    "source": {
+      "id": 51572,
+      "crawlUrl": "https://www.sephora.au/example/15228",
+      "canonicalUrl": "https://www.sephora.com.au/example/12377",
+      "retailer": "SEPHORA",
+      "currency": "AUD",
+      "locale": "en-AU"
+    },
+    "brand": "Example brand",
+    "title": "Example title",
+    "subtitle": "Example subtitle",
+    "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
+    "shortDescription": "Example short description: mock text standing in for the real value. Same field and type, made-up content.",
+    "ingredients": "Example ingredients: mock text standing in for the real value. Same field and type, made-up content.",
+    "howToUse": "Example how to use: mock text standing in for the real value. Same field and type, made-up content.",
+    "claims": [
+      "Example claims",
+      "Example claims: mock text standing in for the real value. Same field and type, made-up content."
+    ],
+    "currentSku": "115716",
+    "categories": [],
+    "options": [
+      {
+        "name": "Example name",
+        "id": "37",
+        "values": [
+          {
+            "value": "Example value",
+            "label": "Example label",
+            "id": "936"
+          }
+        ]
+      },
+      {
+        "name": "Example name",
+        "id": "97",
+        "values": [
+          {
+            "value": "Example value",
+            "label": "Example label",
+            "id": "326"
+          }
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "id": "395409",
+        "sku": "321262",
+        "gtin": "0561789359727",
+        "name": "Example name",
+        "shade": "Example shade",
+        "position": 0,
+        "price": {
+          "current": 48,
+          "original": 56,
+          "currency": "AUD",
+          "displayPrice": "Example display price",
+          "displayOriginalPrice": "Example display original price",
+          "underSale": false,
+          "stockStatus": "IN_STOCK",
+          "available": true,
+          "inventory": 872
+        },
+        "highlights": [
+          "Example highlights"
+        ],
+        "swatchUrl": "https://image-optimizer-reg.production.sephora-asia.net/example/53939.jpg",
+        "imageUrl": "https://image-optimizer-reg.production.sephora-asia.net/example/72139.jpg",
+        "zoomImageUrl": "https://image-optimizer-reg.production.sephora-asia.net/example/43460.jpg",
+        "launchStatus": "postlaunch",
+        "isNewArrival": false,
+        "filterValueIds": [
+          "401",
+          "570"
+        ],
+        "ingredientPreferenceId": "46"
+      },
+      {
+        "id": "74090",
+        "sku": "672455",
+        "gtin": "3523717348238",
+        "name": "Example name",
+        "shade": "Example shade",
+        "position": 6,
+        "price": {
+          "current": 55,
+          "original": 30,
+          "currency": "AUD",
+          "displayPrice": "Example display price",
+          "displayOriginalPrice": "Example display original price",
+          "underSale": false,
+          "stockStatus": "IN_STOCK",
+          "available": true,
+          "inventory": 697
+        },
+        "highlights": [
+          "Example highlights"
+        ],
+        "swatchUrl": "https://image-optimizer-reg.production.sephora-asia.net/example/96038.jpg",
+        "imageUrl": "https://image-optimizer-reg.production.sephora-asia.net/example/90846.jpg",
+        "zoomImageUrl": "https://image-optimizer-reg.production.sephora-asia.net/example/42767.jpg",
+        "launchStatus": "postlaunch",
+        "isNewArrival": false,
+        "filterValueIds": [
+          "524",
+          "377"
+        ],
+        "ingredientPreferenceId": "21"
+      }
+    ],
+    "medias": [
+      {
+        "url": "https://image-optimizer-reg.production.sephora-asia.net/example/68523.jpg",
+        "type": "image",
+        "role": "hero"
+      },
+      {
+        "url": "https://image-optimizer-reg.production.sephora-asia.net/example/41735.jpg",
+        "type": "image",
+        "role": "hero"
+      }
+    ],
+    "stats": {
+      "reviewCount": 57048,
+      "rating": 5.22
+    },
+    "highlights": [
+      "web",
+      "mobile_app"
+    ],
+    "isNewArrival": false,
+    "frontend": "sea",
+    "price": {
+      "current": 48,
+      "original": 56,
+      "currency": "AUD",
+      "displayPrice": "Example display price",
+      "displayOriginalPrice": "Example display original price",
+      "underSale": false,
+      "stockStatus": "IN_STOCK"
+    },
+    "isOnSpecial": false,
+    "wasPrice": null,
+    "savingsAmount": null,
+    "savingsPercent": null,
+    "soldOut": false,
     "scrapedAt": "2026-01-15T10:00:00Z"
   }
 ]

@@ -1,4 +1,4 @@
-"""Costco Australia Scraper: minimal example. Docs: https://apify.com/abotapi/costco-au-scraper
+"""Costco AU Scraper: minimal example. Docs: https://apify.com/abotapi/costco-au-scraper
 
 pip install "apify-client>=3"
 APIFY_TOKEN=<your token> python example.py

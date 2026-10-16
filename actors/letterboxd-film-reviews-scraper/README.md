@@ -46,18 +46,19 @@ Full details on the [scraper page](https://apify.com/abotapi/letterboxd-film-rev
 
 | Field | Type |
 | --- | --- |
-| `kind` | string |
-| `recordId` | string |
-| `filmSlug` | string |
-| `filmTitle` | string |
-| `releaseYear` | null |
 | `url` | string |
-| `author` | string |
-| `rating` | float |
-| `reviewDate` | string |
-| `text` | string |
-| `likes` | null |
-| `containsSpoilers` | boolean |
+| `slug` | string |
+| `title` | string |
+| `image` | string |
+| `description` | string |
+| `genre` | list |
+| `directors` | list |
+| `averageRating` | float |
+| `ratingsCount` | integer |
+| `datePublished` | null |
+| `releaseYear` | integer |
+| `runtimeMinutes` | integer |
+| `tagline` | string |
 | `scrapedAt` | string |
 
 ---

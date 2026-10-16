@@ -1,26 +1,26 @@
 [
   {
-    "productId": "5030744",
-    "sku": "1122796",
-    "ean": "7153656833623",
+    "productId": "2641044",
+    "sku": "3897698",
+    "ean": "7165883298879",
     "name": "Example name: mock text standing in for the real value. Same field and type, made-up content.",
-    "brand": "MEDION",
+    "brand": "SAMSUNG",
     "categoryPath": [
       "Example category path",
       "Example category path"
     ],
     "category": "Example category",
     "url": "https://www.mediamarkt.de/example/33732",
-    "rating": 4.27,
+    "rating": 5.07,
     "reviewCount": 38,
     "isMarketplace": false,
     "price": 637,
     "currency": "EUR",
-    "discountAmount": null,
-    "discountPercent": null,
-    "originalPrice": null,
-    "isOnSpecial": false,
-    "strikePriceType": null,
+    "discountAmount": 325,
+    "discountPercent": 72,
+    "originalPrice": 6865,
+    "isOnSpecial": true,
+    "strikePriceType": "RRP",
     "shippingCost": 0,
     "installment": {
       "__typename": "Example __typename",
@@ -28,9 +28,9 @@
       "finalRate": null,
       "interestEffective": 9.27,
       "interestNominal": 13.2,
-      "interestTotal": 22.58,
-      "monthlyRate": 23.95,
-      "totalAmount": 362.57
+      "interestTotal": 67.64,
+      "monthlyRate": 33.33,
+      "totalAmount": 756.84
     },
     "image": "https://assets.mmsrg.com/example/96984.jpg",
     "images": [
@@ -39,18 +39,18 @@
     "onlineAvailable": true,
     "availabilityStatus": "AVAILABLE",
     "reviews": {
-      "averageRating": 3.25,
+      "averageRating": 3.87,
       "totalReviewCount": 63,
       "items": [
         {
-          "id": "2321373568",
+          "id": "3579356868",
           "rating": 3,
-          "title": "",
-          "text": "",
+          "title": "Example title",
+          "text": "Example text: mock text standing in for the real value. Same field and type, made-up content.",
           "date": "2026-01-15T10:00:00Z",
-          "isVerifiedPurchaser": true,
-          "reviewerName": null,
-          "syndicationSource": null
+          "isVerifiedPurchaser": false,
+          "reviewerName": "Example reviewer name",
+          "syndicationSource": "Example syndication source"
         }
       ]
     }

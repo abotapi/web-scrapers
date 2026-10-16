@@ -16,6 +16,7 @@ run = client.actor("abotapi/housesigma-com").call(
         "province": "ON",
         "locations": ["Toronto"],
         "status": ["for-sale"],
+        "listingType": "all",
         "sortBy": "newest",
         "agentCategory": "sold",
         "maxItems": 10,

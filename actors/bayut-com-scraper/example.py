@@ -13,6 +13,8 @@ client = ApifyClient(os.environ["APIFY_TOKEN"])
 run = client.actor("abotapi/bayut-com-scraper").call(
     run_input={
         "mode": "search",
+        "market": "uae",
+        "searchFor": "listings",
         "locations": ["dubai"],
         "purpose": "for-sale",
         "propertyType": "property",

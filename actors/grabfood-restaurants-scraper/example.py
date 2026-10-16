@@ -14,6 +14,7 @@ run = client.actor("abotapi/grabfood-restaurants-scraper").call(
     run_input={
         "mode": "search",
         "region": "SG",
+        "language": "default",
         "searchQueries": ["ramen"],
         "sortBy": "default",
         "maxItems": 10,

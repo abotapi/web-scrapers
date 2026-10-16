@@ -4,14 +4,22 @@
     "listing_id": "id84295587",
     "url": "https://www.dotproperty.com.ph/example/79200",
     "source": "dotproperty",
-    "price": 6919083,
-    "usable_area_sqm": 612,
+    "price": 69919083,
+    "bedrooms": 6,
+    "bathrooms": 6,
+    "usable_area_sqm": 36.01,
     "agent_name": "Example agent_name",
     "agent_verified": true,
-    "latitude": 11.57,
-    "longitude": 128.3,
+    "latitude": 11.7,
+    "longitude": 128.31,
     "agent_phone": "+1 555 0100",
     "title": "Example title: mock text standing in for the real value. Same field and type, made-up content.",
+    "floor": 4,
+    "land_area_sqm": 27.53,
+    "facilities": [
+      "Example facilities",
+      "Example facilities"
+    ],
     "images": [
       "https://pix.dotproperty.co.th/example/9237.jpg",
       "https://pix.dotproperty.co.th/example/69097.jpg"
@@ -19,7 +27,8 @@
     "image_count": 7,
     "og_image": "https://pix.dotproperty.co.th/example/94830.jpg",
     "description": "user95@example.com",
-    "listing_id_text": "id68322531",
+    "listing_id_text": "fds7021892",
+    "agent_listing_count": 94,
     "agent_url": "https://www.dotproperty.com.ph/example/22347",
     "breadcrumbs": [
       "Example breadcrumbs",

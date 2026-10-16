@@ -1,22 +1,23 @@
 [
   {
-    "propertyId": "065627725",
+    "propertyId": "765358601",
     "url": "https://www.realcommercial.com.au/example/13642",
     "listingType": "for-sale",
     "propertyTypes": [
+      "Offices",
       "Example property types"
     ],
     "tenureType": "vacant",
-    "title": "Example title",
+    "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
     "status": "New",
-    "daysActive": 6,
+    "daysActive": 0,
     "hasTour": false,
-    "product": "eliteplus",
+    "product": "enhanced",
     "address": {
       "street": "Example street",
       "suburb": "Example suburb",
       "state": "VIC",
-      "postcode": "5096",
+      "postcode": "2134",
       "full": "Example full"
     },
     "price": {
@@ -24,43 +25,217 @@
     },
     "attributes": {
       "area": "Example area",
-      "areaValue": 3404,
-      "areaUnit": "Example area unit"
+      "areaValue": 704,
+      "areaUnit": "Example area unit",
+      "carSpaces": 6
     },
     "media": {
-      "imageCount": 5,
+      "imageCount": 95,
       "images": [
         {
           "url": "https://i1.au.reastatic.net/example/13642.jpg",
-          "alt": "Example alt"
+          "alt": "Example alt: mock text standing in for the real value. Same field and type, made-up content."
         },
         {
           "url": "https://i1.au.reastatic.net/example/35715.jpg",
+          "alt": "Example alt: mock text standing in for the real value. Same field and type, made-up content."
+        }
+      ]
+    },
+    "agents": [
+      {
+        "id": "9165465",
+        "name": "Example name",
+        "photoUrl": "https://i1.au.reastatic.net/example/25208.jpg",
+        "phone": {
+          "display": "0448225780",
+          "dial": "+85201800116"
+        },
+        "email": "user15@example.com",
+        "profileUrl": "https://www.realcommercial.com.au/example/32363"
+      },
+      {
+        "id": "2913037",
+        "name": "Example name",
+        "photoUrl": "https://i1.au.reastatic.net/example/2060.jpg",
+        "phone": {
+          "display": "1969688660",
+          "dial": "+57777872131"
+        },
+        "email": "user0@example.com",
+        "profileUrl": "https://www.realcommercial.com.au/example/55741"
+      }
+    ],
+    "agency": {
+      "id": "ZYMOIC",
+      "name": "Example name",
+      "logoUrl": "https://i1.au.reastatic.net/example/36817.jpg",
+      "brandingColor": "Example branding color",
+      "phone": {
+        "display": "98 6476 8204",
+        "dial": "+22841923558"
+      },
+      "address": "Example address",
+      "email": "user15@example.com"
+    },
+    "nearbyPlaces": [
+      {
+        "name": "Example name",
+        "items": [
+          {
+            "id": "Example id",
+            "title": "Example title",
+            "description": "Example description",
+            "icon": {
+              "name": "Example name",
+              "backgroundColourToken": "backgroundPink",
+              "fillColourToken": "textPink"
+            }
+          },
+          {
+            "id": "Example id",
+            "title": "Example title",
+            "description": "Example description",
+            "icon": {
+              "name": "Example name",
+              "backgroundColourToken": "backgroundBlue",
+              "fillColourToken": "textBlue"
+            }
+          }
+        ]
+      }
+    ],
+    "lastUpdatedAt": "Example last updated at",
+    "canonicalPath": "Example canonical path: mock text standing in for the real value. Same field and type, made-up content.",
+    "tenureTypeDisplay": "Example tenure type display",
+    "map": {
+      "precision": "STREET",
+      "zoomLevel": 73
+    },
+    "latitude": -49.21,
+    "longitude": 155.9,
+    "scrapedAt": "2026-01-15T10:00:00Z"
+  },
+  {
+    "propertyId": "999628989",
+    "url": "https://www.realcommercial.com.au/example/24284",
+    "listingType": "for-sale",
+    "propertyTypes": [
+      "Example property types",
+      "Offices"
+    ],
+    "tenureType": "vacant",
+    "title": "Example title",
+    "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
+    "highlights": [
+      "Example highlights",
+      "Example highlights"
+    ],
+    "status": "New",
+    "daysActive": 0,
+    "hasTour": false,
+    "product": "elite",
+    "address": {
+      "street": "Example street",
+      "suburb": "Example suburb",
+      "state": "VIC",
+      "postcode": "7773",
+      "full": "Example full"
+    },
+    "price": {
+      "display": "Example display"
+    },
+    "attributes": {
+      "area": "Example area",
+      "areaValue": 397,
+      "areaUnit": "Example area unit",
+      "carSpaces": 7
+    },
+    "media": {
+      "imageCount": 2,
+      "images": [
+        {
+          "url": "https://i1.au.reastatic.net/example/24284.jpg",
+          "alt": "Example alt"
+        },
+        {
+          "url": "https://i1.au.reastatic.net/example/12611.jpg",
           "alt": "Example alt"
         }
       ]
     },
     "agents": [
       {
-        "id": "4560137",
+        "id": "000335",
         "name": "Example name",
-        "photoUrl": "https://i1.au.reastatic.net/example/25208.jpg"
+        "photoUrl": "https://i1.au.reastatic.net/example/49144.jpg",
+        "phone": {
+          "display": "8742951905",
+          "dial": "+18523865000"
+        },
+        "email": "user35@example.com",
+        "profileUrl": "https://www.realcommercial.com.au/example/36416"
       },
       {
-        "id": "20410",
+        "id": "0645698",
         "name": "Example name",
-        "photoUrl": "https://i1.au.reastatic.net/example/2060.jpg"
+        "photoUrl": "https://i1.au.reastatic.net/example/34209.jpg",
+        "phone": {
+          "display": "6430515464",
+          "dial": "+81509678473"
+        },
+        "email": "user34@example.com",
+        "profileUrl": "https://www.realcommercial.com.au/example/86737"
       }
     ],
     "agency": {
-      "id": "RPBTRA",
+      "id": "VGEPRI",
       "name": "Example name",
-      "logoUrl": "https://i1.au.reastatic.net/example/36817.jpg",
-      "brandingColor": "Example branding color"
+      "logoUrl": "https://i1.au.reastatic.net/example/53864.jpg",
+      "brandingColor": "Example branding color",
+      "phone": {
+        "display": "77 3966 9882",
+        "dial": "+90868136423"
+      },
+      "address": "Example address: mock text standing in for the real value. Same field and type, made-up content.",
+      "email": "user35@example.com"
     },
+    "nearbyPlaces": [
+      {
+        "name": "Example name",
+        "items": [
+          {
+            "id": "Example id",
+            "title": "Example title",
+            "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
+            "icon": {
+              "name": "Example name",
+              "backgroundColourToken": "backgroundPink",
+              "fillColourToken": "textPink"
+            }
+          },
+          {
+            "id": "Example id",
+            "title": "Example title",
+            "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
+            "icon": {
+              "name": "Example name",
+              "backgroundColourToken": "backgroundBlue",
+              "fillColourToken": "textBlue"
+            }
+          }
+        ]
+      }
+    ],
+    "lastUpdatedAt": "Example last updated at",
+    "canonicalPath": "Example canonical path: mock text standing in for the real value. Same field and type, made-up content.",
     "tenureTypeDisplay": "Example tenure type display",
-    "latitude": -49.23,
-    "longitude": 157.61,
+    "map": {
+      "precision": "STREET",
+      "zoomLevel": 95
+    },
+    "latitude": -32.7,
+    "longitude": 184.49,
     "scrapedAt": "2026-01-15T10:00:00Z"
   }
 ]

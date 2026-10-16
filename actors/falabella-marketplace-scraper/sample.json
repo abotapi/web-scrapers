@@ -2,7 +2,7 @@
   {
     "recordType": "product",
     "id": "94337411",
-    "skuId": "22127219",
+    "skuId": "25634536",
     "name": "Example name",
     "brand": "APPLE",
     "url": "https://www.falabella.com/example/13428",
@@ -11,7 +11,7 @@
     "price": 6193333,
     "priceDisplay": "Example price display",
     "oldPrice": 4076961,
-    "discountPercent": 16,
+    "discountPercent": null,
     "ratingAverage": 4.99,
     "ratingCount": 272,
     "sellerId": "Example seller id",

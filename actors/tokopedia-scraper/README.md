@@ -17,7 +17,7 @@ python example.py
 ```bash
 curl -s -X POST "https://api.apify.com/v2/acts/abotapi~tokopedia-scraper/run-sync-get-dataset-items?token=$APIFY_TOKEN" \
   -H 'Content-Type: application/json' \
-  -d '{"mode": "search", "searchTerms": ["sepatu"], "sortBy": "relevance", "condition": "any", "shopTier": "any", "maxPages": 1, "maxItems": 10, "proxy": {"useApifyProxy": true}}'
+  -d '{"mode": "search", "searchTerms": ["sepatu"], "sortBy": "relevance", "condition": "any", "shopTier": "any", "maxReviews": 10, "maxPages": 1, "maxItems": 10, "proxy": {"useApifyProxy": true}}'
 ```
 
 ## Inputs
@@ -36,6 +36,7 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~tokopedia-scraper/run-syn
 | `freeShippingOnly` | boolean | Free shipping only |
 | `discountOnly` | boolean | Discounted products only |
 | `fetchDetails` | boolean | Fetch full product details |
+| `maxReviews` | integer | Reviews per product |
 | `maxPages` | integer | Max pages per search |
 | `maxItems` | integer | Max items |
 | `proxy` | object | Proxy configuration |
@@ -58,16 +59,16 @@ Full details on the [scraper page](https://apify.com/abotapi/tokopedia-scraper?u
 | `name` | string |
 | `url` | string |
 | `applink` | string |
-| `condition` | null |
+| `condition` | string |
 | `categoryId` | string |
 | `categoryName` | string |
 | `categoryBreadcrumb` | string |
 | `categoryGaKey` | string |
-| `minOrder` | null |
-| `weight` | null |
-| `weightUnit` | null |
-| `description` | null |
-| `etalase` | null |
+| `minOrder` | integer |
+| `weight` | float |
+| `weightUnit` | string |
+| `description` | string |
+| `etalase` | string |
 | `price` | integer |
 | `priceText` | string |
 | `originalPrice` | null |
@@ -88,9 +89,9 @@ Full details on the [scraper page](https://apify.com/abotapi/tokopedia-scraper?u
 | `specialsThematicName` | null |
 | `cashbackPercentage` | null |
 | `variantSkus` | list |
-| `stock` | null |
+| `stock` | integer |
 | `stockText` | null |
-| `isPreorder` | null |
+| `isPreorder` | boolean |
 
 ---
 

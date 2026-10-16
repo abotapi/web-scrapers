@@ -63,7 +63,7 @@ Full details on the [scraper page](https://apify.com/abotapi/gupy-io-scraper?utm
 | `addressLine` | null |
 | `addressComplements` | null |
 | `addressDistrict` | null |
-| `city` | string |
+| `city` | null |
 | `state` | null |
 | `stateCode` | null |
 | `country` | null |

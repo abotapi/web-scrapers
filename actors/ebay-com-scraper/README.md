@@ -17,7 +17,7 @@ python example.py
 ```bash
 curl -s -X POST "https://api.apify.com/v2/acts/abotapi~ebay-com-scraper/run-sync-get-dataset-items?token=$APIFY_TOKEN" \
   -H 'Content-Type: application/json' \
-  -d '{"mode": "search", "queries": ["laptop"], "marketplace": "com", "buyingFormat": "any", "itemLocation": "default", "sortBy": "best_match", "maxItems": 10, "maxPages": 1, "proxy": {"useApifyProxy": true}}'
+  -d '{"mode": "search", "queries": ["laptop"], "marketplace": "com", "buyingFormat": "any", "itemLocation": "default", "sortBy": "best_match", "maxItems": 10, "maxPages": 1, "proxy": {"useApifyProxy": true, "apifyProxyGroups": ["RESIDENTIAL"]}}'
 ```
 
 ## Inputs
@@ -64,11 +64,11 @@ Full details on the [scraper page](https://apify.com/abotapi/ebay-com-scraper?ut
 | `brand` | null |
 | `marketplace` | string |
 | `price` | float |
-| `priceMax` | null |
+| `priceMax` | float |
 | `priceText` | string |
 | `currency` | string |
-| `originalPrice` | float |
-| `discountPercent` | float |
+| `originalPrice` | null |
+| `discountPercent` | null |
 | `listingType` | string |
 | `bidCount` | null |
 | `timeLeft` | null |
@@ -76,13 +76,13 @@ Full details on the [scraper page](https://apify.com/abotapi/ebay-com-scraper?ut
 | `shippingText` | string |
 | `freeShipping` | boolean |
 | `itemLocation` | string |
-| `returnsText` | null |
-| `freeReturns` | null |
-| `soldCount` | integer |
-| `sellerName` | null |
-| `sellerUrl` | null |
-| `sellerFeedbackPercent` | null |
-| `sellerFeedbackCount` | null |
+| `returnsText` | string |
+| `freeReturns` | boolean |
+| `soldCount` | null |
+| `sellerName` | string |
+| `sellerUrl` | string |
+| `sellerFeedbackPercent` | float |
+| `sellerFeedbackCount` | integer |
 | `badges` | list |
 | `imageUrl` | string |
 | `attributes` | list |

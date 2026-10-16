@@ -17,7 +17,7 @@ python example.py
 ```bash
 curl -s -X POST "https://api.apify.com/v2/acts/abotapi~mercadona-es-scraper/run-sync-get-dataset-items?token=$APIFY_TOKEN" \
   -H 'Content-Type: application/json' \
-  -d '{"mode": "search", "postalCode": "28001", "category": "Aceite, vinagre y sal", "searchTerm": "aceite de oliva", "sortBy": "RELEVANCE", "maxPages": 1, "maxItems": 10, "proxy": {"useApifyProxy": true}}'
+  -d '{"mode": "search", "postalCode": "28001", "language": "es", "category": "Aceite, vinagre y sal", "searchTerm": "aceite de oliva", "sortBy": "RELEVANCE", "maxPages": 1, "maxItems": 10, "proxy": {"useApifyProxy": true}}'
 ```
 
 ## Inputs
@@ -26,9 +26,11 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~mercadona-es-scraper/run-
 | --- | --- | --- |
 | `mode` * | string | Mode |
 | `postalCode` * | string | Postal code |
+| `language` | string | Language |
 | `category` | string | Category |
 | `urls` | array | URLs to scrape |
 | `searchTerm` | string | Search keyword |
+| `query` | string | Query (alias of Search keyword) |
 | `specialsOnly` | boolean | Discounted only |
 | `brands` | array | Brands |
 | `minPrice` | number | Minimum price (EUR) |
@@ -59,9 +61,9 @@ Full details on the [scraper page](https://apify.com/abotapi/mercadona-es-scrape
 | `image` | string |
 | `price` | float |
 | `currency` | string |
-| `previousPrice` | null |
-| `discountAmount` | null |
-| `discountPercent` | null |
+| `previousPrice` | float |
+| `discountAmount` | float |
+| `discountPercent` | float |
 | `isOnSpecial` | boolean |
 | `unitPrice` | float |
 | `unitPriceFormat` | string |
@@ -69,12 +71,26 @@ Full details on the [scraper page](https://apify.com/abotapi/mercadona-es-scrape
 | `packageSizeFormat` | string |
 | `isPack` | boolean |
 | `hasUnitSelector` | boolean |
+| `sellingMethod` | integer |
+| `taxPercentage` | integer |
+| `iva` | null |
+| `isApproxSize` | boolean |
+| `hasBunchSelector` | boolean |
+| `minBunchAmount` | integer |
+| `incrementBunchAmount` | integer |
+| `drainedWeight` | null |
+| `packSize` | null |
+| `totalUnits` | null |
+| `unitName` | null |
+| `priceDecreased` | boolean |
 | `onlineAvailable` | boolean |
+| `published` | boolean |
 | `isWater` | boolean |
 | `requiresAgeCheck` | boolean |
 | `maxQuantityPerOrder` | integer |
 | `isNewArrival` | boolean |
-| `reviews` | list |
+| `status` | null |
+| `unavailableFrom` | null |
 
 ---
 

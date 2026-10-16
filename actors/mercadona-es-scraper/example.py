@@ -14,6 +14,7 @@ run = client.actor("abotapi/mercadona-es-scraper").call(
     run_input={
         "mode": "search",
         "postalCode": "28001",
+        "language": "es",
         "category": "Aceite, vinagre y sal",
         "searchTerm": "aceite de oliva",
         "sortBy": "RELEVANCE",

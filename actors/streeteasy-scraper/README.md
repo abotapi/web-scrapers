@@ -24,7 +24,7 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~streeteasy-scraper/run-sy
 
 | Input | Type | What it is |
 | --- | --- | --- |
-| `mode` * | string | Start here, pick your search mode |
+| `mode` * | string | Start here pick your mode |
 | `saleType` | string | Listing type |
 | `locations` | array | Locations (boroughs / neighborhoods) |
 | `urls` | array | URLs (paste a StreetEasy search-result |
@@ -93,10 +93,10 @@ Full details on the [scraper page](https://apify.com/abotapi/streeteasy-scraper?
 | `agents` | list |
 | `openHouseDates` | list |
 | `virtualTourUrl` | null |
-| `sourceUrl` | null |
-| `zipCode` | string |
-| `state` | string |
-| `mediaAssetCount` | integer |
+| `buildingId` | null |
+| `areaId` | null |
+| `residentialUnitCount` | null |
+| `roomCount` | null |
 
 ---
 

@@ -64,11 +64,11 @@ Full details on the [scraper page](https://apify.com/abotapi/walmart-scraper?utm
 | `shortDescription` | null |
 | `imageUrl` | string |
 | `price` | integer |
-| `wasPrice` | null |
-| `priceRangeLow` | float |
+| `wasPrice` | integer |
+| `priceRangeLow` | integer |
 | `priceRangeHigh` | null |
 | `currency` | string |
-| `rating` | float |
+| `rating` | integer |
 | `reviewCount` | integer |
 | `sellerName` | string |
 | `sellerId` | string |

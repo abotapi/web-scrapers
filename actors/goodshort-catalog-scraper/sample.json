@@ -1,0 +1,52 @@
+[
+  {
+    "platform": "goodshort",
+    "recordType": "title",
+    "id": "98744735449",
+    "slug": "Example slug",
+    "title": "Example title",
+    "url": "https://www.goodshort.com/example/10988",
+    "mode": "TRENDING",
+    "extractionPath": "Example extraction path",
+    "scraperVersion": "9.5",
+    "rail": "Example rail",
+    "views": 684216,
+    "viewsDisplay": "Example views display",
+    "viewsDisplayParsed": 581453,
+    "follows": 893646,
+    "episodeCount": 451,
+    "genres": [
+      "Fantasy"
+    ],
+    "tags": [
+      "Example tags",
+      "Dominant"
+    ],
+    "tagUrls": [
+      "https://www.goodshort.comunderdog-rise-playlets-videos/example/14057",
+      "https://www.goodshort.comdominant-playlets-videos/example/32696"
+    ],
+    "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
+    "cover": "https://acf.goodshort.com/example/6365",
+    "author": "Example author",
+    "studio": "TORA",
+    "status": "Completed",
+    "praiseCount": 7868,
+    "language": "ENGLISH",
+    "statusCode": "COMPLETE",
+    "publishStatus": "PUBLISHED",
+    "likeNum": 0,
+    "novelType": "ORIGINAL",
+    "period": "CONTEMPORARY",
+    "totalWords": 6057,
+    "releaseDate": "2026-01-15",
+    "lastChapterName": "616",
+    "lastChapterTime": "2026-01-15T10:00:00Z",
+    "lastUpdatedAt": "2026-01-15T10:00:00Z",
+    "freeEpisodes": 19,
+    "hasPaidEpisodes": true,
+    "paidFromEpisode": "863",
+    "totalPlayTimeSec": 4701,
+    "detailFetched": true
+  }
+]

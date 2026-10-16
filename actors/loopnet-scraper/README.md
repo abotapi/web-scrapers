@@ -17,7 +17,7 @@ python example.py
 ```bash
 curl -s -X POST "https://api.apify.com/v2/acts/abotapi~loopnet-scraper/run-sync-get-dataset-items?token=$APIFY_TOKEN" \
   -H 'Content-Type: application/json' \
-  -d '{"mode": "search", "site": "co-uk", "locations": ["united-kingdom"], "listingType": "for-sale", "propertyType": "all-commercial", "sortBy": "default", "maxPages": 1, "maxListings": 10, "proxy": {"useApifyProxy": true, "apifyProxyGroups": ["RESIDENTIAL"]}}'
+  -d '{"mode": "search", "site": "co-uk", "locations": ["united-kingdom"], "listingType": "for-sale", "propertyType": "all-commercial", "sortBy": "default", "priceType": "total", "portfolioFilter": "include", "condosFilter": "include", "subType": "any", "maxPages": 1, "maxListings": 10, "proxy": {"useApifyProxy": true, "apifyProxyGroups": ["RESIDENTIAL"]}}'
 ```
 
 ## Inputs
@@ -35,9 +35,18 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~loopnet-scraper/run-sync-
 | `minSqft` | integer | Minimum size (sq ft) |
 | `maxSqft` | integer | Maximum size (sq ft) |
 | `sortBy` | string | Sort by |
+| `listedInLastDays` | integer | Listed in the last N days |
+| `priceType` | string | Read min/max price as |
+| `minCapRate` | number | Minimum cap rate (%) |
+| `maxCapRate` | number | Maximum cap rate (%) |
+| `portfolioFilter` | string | Portfolio sales |
+| `condosFilter` | string | Condos |
+| `keyword` | string | Keyword |
+| `subType` | string | Property sub-type (loopnet.com, for sa |
 | `fetchDetails` | boolean | Fetch detail pages |
 | `maxPages` | integer | Max pages per search |
 | `maxListings` | integer | Max listings (total) |
+| `splitLargeSearches` | boolean | Split searches past the 750-result cap |
 | `proxy` | object | Connection |
 
 `*` required
@@ -73,7 +82,7 @@ Full details on the [scraper page](https://apify.com/abotapi/loopnet-scraper?utm
 | `priceRaw` | null |
 | `priceUnit` | string |
 | `priceLabel` | string |
-| `listedAt` | null |
+| `listedAt` | string |
 | `currency` | string |
 | `size` | string |
 | `sizeSqft` | integer |

@@ -1,6 +1,6 @@
 [
   {
-    "vacancyId": "626023927",
+    "vacancyId": "416253023",
     "url": "https://hh.ru/example/94842",
     "name": "Example name",
     "publicationDate": "2026-01-15T10:00:00Z",
@@ -10,14 +10,14 @@
     "searchUrl": "https://hh.ru/example/24790",
     "searchSessionId": "id10441228",
     "company": {
-      "id": 4970,
+      "id": 1201970,
       "name": "Example name",
       "visibleName": "Example visible name",
-      "isAccreditedIT": true,
+      "isAccreditedIT": false,
       "isTrusted": true,
       "category": "COMPANY",
       "state": "APPROVED",
-      "siteUrl": "https://hh.ru/example/71246",
+      "siteUrl": "http://getwola.ru/example/71246",
       "logoUrl": "https://hh.ru/example/69494.jpg",
       "logos": [
         {
@@ -31,19 +31,19 @@
       ],
       "badges": []
     },
-    "salaryFrom": null,
+    "salaryFrom": 569126,
     "salaryTo": null,
-    "salaryCurrency": null,
-    "salaryGross": null,
-    "salaryMode": null,
-    "salaryFrequency": null,
+    "salaryCurrency": "RUR",
+    "salaryGross": false,
+    "salaryMode": "MONTH",
+    "salaryFrequency": "TWICE_PER_MONTH",
     "compensation": {
-      "from": null,
+      "from": 339225,
       "to": null,
-      "currencyCode": null,
-      "gross": null,
-      "mode": null,
-      "frequency": null
+      "currencyCode": "RUR",
+      "gross": false,
+      "mode": "MONTH",
+      "frequency": "TWICE_PER_MONTH"
     },
     "area": {
       "id": 2,
@@ -53,10 +53,10 @@
     "address": {
       "city": "Example city",
       "street": "Example street",
-      "building": null,
+      "building": "Example building",
       "displayName": "Example display name",
-      "lat": 57.45,
-      "lng": 43.98,
+      "lat": 57.34,
+      "lng": 44.03,
       "metroStations": [
         {
           "id": 20,
@@ -64,17 +64,17 @@
           "lineColor": "Example line color"
         },
         {
-          "id": 851,
+          "id": 41,
           "name": "Example name",
           "lineColor": "Example line color"
         }
       ],
       "district": "Example district"
     },
-    "workExperience": "between6and6",
+    "workExperience": "between0and9",
     "employment": "FULL",
     "employmentForm": "FULL",
-    "workSchedule": "remote",
+    "workSchedule": "Example work schedule",
     "workScheduleByDays": [
       "FIVE_ON_TWO_OFF"
     ],
@@ -82,8 +82,7 @@
       "hours_0"
     ],
     "workFormats": [
-      "REMOTE",
-      "HYBRID"
+      "ON_SITE"
     ],
     "workingDays": [],
     "workingTimeIntervals": [],
@@ -94,9 +93,9 @@
     "acceptHandicapped": null,
     "acceptTemporary": false,
     "acceptIncompleteResumes": false,
-    "acceptLaborContract": false,
+    "acceptLaborContract": true,
     "ageRestriction": null,
-    "responseLetterRequired": false,
+    "responseLetterRequired": true,
     "showContact": false,
     "inboxPossibility": true
   }

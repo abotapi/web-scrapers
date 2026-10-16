@@ -64,6 +64,7 @@ Full details on the [scraper page](https://apify.com/abotapi/propertyguru-sg-scr
 | `listing_type` | string |
 | `property_type` | string |
 | `property_type_group` | string |
+| `property_type_text` | string |
 | `price` | integer |
 | `price_formatted` | string |
 | `currency` | string |
@@ -72,13 +73,14 @@ Full details on the [scraper page](https://apify.com/abotapi/propertyguru-sg-scr
 | `bedrooms` | integer |
 | `bathrooms` | integer |
 | `floor_area` | integer |
+| `land_area` | integer |
 | `tenure` | string |
-| `developer` | string |
 | `is_developer_listing` | boolean |
 | `is_verified_listing` | boolean |
 | `is_official_listing` | boolean |
 | `agent_name` | string |
 | `agent_id` | integer |
+| `agent_profile_url` | string |
 | `agent_license` | string |
 | `is_agent_verified` | boolean |
 | `agency_name` | string |
@@ -86,7 +88,6 @@ Full details on the [scraper page](https://apify.com/abotapi/propertyguru-sg-scr
 | `district` | string |
 | `district_code` | string |
 | `region` | string |
-| `nearby_mrt` | string |
 | `badges` | list |
 | `posted_date` | string |
 | `posted_unix` | integer |
@@ -95,6 +96,7 @@ Full details on the [scraper page](https://apify.com/abotapi/propertyguru-sg-scr
 | `image_count` | integer |
 | `url` | string |
 | `status` | string |
+| `description` | string |
 
 ---
 

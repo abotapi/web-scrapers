@@ -4,27 +4,28 @@
     "url": "https://easyauto123.com.au/example/16729",
     "title": "Example title",
     "make": "KIA",
-    "model": "PICANTO",
+    "model": "SPORTAGE",
     "variant": "Example variant",
     "year": 2342,
     "price": 42324,
     "priceType": "DAP",
-    "state": "SA",
+    "state": "QLD",
     "location": "Example location",
-    "region": "Adelaide",
-    "siteCode": "EM",
-    "odometer": 742735,
-    "vin": "knab7326mjt081350",
+    "region": "Brisbane",
+    "siteCode": "EH",
+    "odometer": 22735,
+    "vin": "knapu12dmn8072039",
     "fuelType": "Petrol",
     "transmission": "Automatic",
     "driveType": "Example drive type",
-    "engineCapacity": "5.2",
-    "colour": "Silver",
+    "engineCapacity": "9",
+    "colour": "White",
     "vehicleTypes": [
-      "Hatchback"
+      "Wagon",
+      "SUV"
     ],
-    "fuelConsumption": "9.2",
-    "carType": "Budget",
+    "fuelConsumption": "7.8",
+    "carType": "Example car type",
     "banner": "Example banner",
     "status": "IN-STOCK",
     "updatedAt": "2026-01-15T10:00:00Z",
@@ -41,8 +42,8 @@
         "taxIncluded": true,
         "calculationInfo": "Example calculation info",
         "displayText": "Example display text",
-        "dollarValue": 98719,
-        "taxValue": 979.92
+        "dollarValue": 25618.81,
+        "taxValue": 2115.31
       },
       {
         "component": "SD",
@@ -51,23 +52,23 @@
         "calculationInfo": "Example calculation info",
         "displayText": "Example display text",
         "dollarValue": 372,
-        "taxValue": null
+        "taxValue": 6
       }
     ],
     "storeName": "Example store name",
     "storeEmail": "user72@example.com",
     "storePhone": "+1 555 0100",
     "storeAddress": "Example store address",
-    "storeRating": 3.53,
+    "storeRating": 3.3,
     "storeRaw": {
       "salesPersonEmail": "user51@example.com",
-      "siteCode": "EM",
-      "region": "Adelaide",
+      "siteCode": "EH",
+      "region": "Brisbane",
       "friendlyName": "Example friendly name",
       "addressComponents": [
         {
-          "longName": "01",
-          "shortName": "82",
+          "longName": "296",
+          "shortName": "922",
           "types": [
             "street_number"
           ]
@@ -100,7 +101,7 @@
             "close": {
               "date": "2026-01-15",
               "day": 5,
-              "time": "5529"
+              "time": "3300"
             },
             "open": {
               "date": "2026-01-15",
@@ -119,8 +120,8 @@
       "formattedPhoneNumber": "+1 555 0100",
       "geometry": {
         "location": {
-          "lat": -41.92,
-          "lng": 160.75
+          "lat": -32.89,
+          "lng": 177.57
         }
       },
       "internationalPhoneNumber": "+1 555 0100",
@@ -132,32 +133,33 @@
           "Example weekday text"
         ]
       },
-      "placeId": "chijf1l-jrzjsgor41n3mnxgs10",
-      "rating": 4.65,
+      "placeId": "chijebmbhe9ykwsrgnenxus6nae",
+      "rating": 4.36,
       "url": "https://maps.google.com/example/16729",
       "userRatingsTotal": 3919,
       "website": "https://easyauto123.com.au/example/80374",
       "distanceBySiteCode": {
-        "EN": 890.04,
-        "EB": 646.7,
-        "EK": 1378.55,
-        "EC": 1675.57,
-        "EH": 1755.6,
-        "EM": 0,
-        "EV": 1159.35,
-        "EO": 1441.48,
-        "EJ": 1948.56,
-        "ER": 865.51,
-        "EL": 2134.12,
-        "EQ": 2257.13,
-        "EE": 1303.67,
-        "ED": 757.33,
-        "EY": 1322.54
+        "EN": 449.43,
+        "EB": 1389.07,
+        "EK": 891.62,
+        "EC": 2848.84,
+        "EH": 0,
+        "EM": 2077.73,
+        "EV": 768.76,
+        "EO": 2228.52,
+        "EJ": 3294.87,
+        "ER": 431.5,
+        "EL": 3615.87,
+        "EQ": 3838.82,
+        "EE": 6.81,
+        "ED": 1286.75,
+        "EG": 440.12,
+        "EY": 659.51
       }
     },
     "detailFetched": true,
     "productCategory": "USED",
     "availableSince": "Example available since: mock text standing in for the real value. Same field and type, made-up content.",
-    "co2Emission": "347"
+    "ancapRating": "0"
   }
 ]

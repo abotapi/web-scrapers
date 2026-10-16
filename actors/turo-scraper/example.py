@@ -14,7 +14,9 @@ run = client.actor("abotapi/turo-scraper").call(
     run_input={
         "mode": "search",
         "locations": ["Los Angeles, California"],
+        "sortBy": "relevance",
         "maxItems": 10,
+        "maxReviews": 10,
         "proxy": {"useApifyProxy": True, "apifyProxyGroups": ["RESIDENTIAL"]},
     },
     logger=None,  # don't stream the run log to your console

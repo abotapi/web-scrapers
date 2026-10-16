@@ -1,28 +1,32 @@
 [
   {
     "kind": "concert",
-    "recordId": "23846325",
-    "concertId": "23775690",
+    "recordId": "59200129",
+    "concertId": "62200837",
     "url": "https://www.concertarchives.org/example/6114",
     "slug": "id10758413",
     "title": "Example title",
     "startDate": "2026-01-15",
     "dateText": "Example date text",
     "isUpcoming": true,
-    "tourName": "Example tour name",
-    "lineup": null,
+    "tourName": null,
+    "lineup": [
+      "Example lineup",
+      "Example lineup"
+    ],
     "headliner": "Example headliner",
     "venueName": "Example venue name",
     "venueUrl": "https://www.concertarchives.org/example/64850",
     "locationText": "Example location text",
     "locationUrl": "https://www.concertarchives.org/example/31344",
-    "venueCity": "Singapore",
-    "venueRegion": "SG.01",
-    "venueCountry": "Singapore",
-    "ticketUrl": "https://www.universe.com/example/80792",
+    "venueCity": "Example venue city",
+    "venueRegion": "Example venue region",
+    "venueCountry": "Brazil",
+    "ticketUrl": null,
     "hasSetlist": false,
-    "hasPhotos": false,
+    "hasPhotos": true,
     "labels": [
+      "Example labels",
       "Example labels"
     ],
     "endDate": "2026-01-15",
@@ -33,18 +37,84 @@
       {
         "name": "Example name",
         "url": "https://www.concertarchives.org/example/6114",
-        "genre": "rock",
+        "genre": "pop",
         "imageUrl": "https://i.scdn.co/example/20333.jpg"
+      },
+      {
+        "name": "Example name",
+        "url": "https://www.concertarchives.org/example/55658",
+        "genre": "pop",
+        "imageUrl": "https://i.scdn.co/example/81990.jpg"
       }
     ],
     "artistGenres": [
-      "Example artist genres",
-      "Example artist genres"
+      "Electronic",
+      "Pop"
     ],
-    "ticketVendor": "Example ticket vendor",
+    "ticketVendor": null,
     "venueAddress": "Example venue address",
-    "lineupCount": 3,
-    "attendeeCount": 6,
+    "lineupCount": 30,
+    "attendeeCount": 60,
+    "photoCount": 7,
+    "setlists": null,
+    "setlistCount": null
+  },
+  {
+    "kind": "concert",
+    "recordId": "62747310",
+    "concertId": "96330669",
+    "url": "https://www.concertarchives.org/example/14040",
+    "slug": "id11587033",
+    "title": "Example title",
+    "startDate": "2026-01-15",
+    "dateText": "Example date text",
+    "isUpcoming": true,
+    "tourName": null,
+    "lineup": [
+      "Example lineup",
+      "Example lineup"
+    ],
+    "headliner": "Example headliner",
+    "venueName": "Example venue name",
+    "venueUrl": "https://www.concertarchives.org/example/738",
+    "locationText": "Example location text",
+    "locationUrl": "https://www.concertarchives.org/example/36005",
+    "venueCity": "Example venue city",
+    "venueRegion": "Example venue region",
+    "venueCountry": "Brazil",
+    "ticketUrl": null,
+    "hasSetlist": true,
+    "hasPhotos": false,
+    "labels": [
+      "Example labels",
+      "Example labels"
+    ],
+    "endDate": "2026-01-15",
+    "eventStatus": "scheduled",
+    "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
+    "imageUrl": "https://i.scdn.co/example/34022.jpg",
+    "performers": [
+      {
+        "name": "Example name",
+        "url": "https://www.concertarchives.org/example/14040",
+        "genre": "pop",
+        "imageUrl": "https://i.scdn.co/example/34022.jpg"
+      },
+      {
+        "name": "Example name",
+        "url": "https://www.concertarchives.org/example/7679",
+        "genre": "rock",
+        "imageUrl": "https://i.scdn.co/example/9182.jpg"
+      }
+    ],
+    "artistGenres": [
+      "Electronic",
+      "Pop"
+    ],
+    "ticketVendor": null,
+    "venueAddress": "Example venue address",
+    "lineupCount": 24,
+    "attendeeCount": 9,
     "photoCount": null,
     "setlists": null,
     "setlistCount": null

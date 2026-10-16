@@ -1,0 +1,64 @@
+[
+  {
+    "idSub": "sub-ja-0061-182767",
+    "titulo": "Example titulo",
+    "estado": "EJ",
+    "estadoDetalle": "Example estado detalle",
+    "tipoSubasta": "Example tipo subasta",
+    "cuentaExpediente": "8652 4692 51 0881 09",
+    "expediente": "6926/14",
+    "fechaInicio": "Example fecha inicio",
+    "fechaConclusion": "Example fecha conclusion",
+    "fechaFin": "Example fecha fin",
+    "fechaPublicacion": "",
+    "cantidadReclamada": "Example cantidad reclamada",
+    "lotes": "9",
+    "anuncioBOE": "boe-b-3463-13863",
+    "valorSubasta": "Example valor subasta: mock text standing in for the real value. Same field and type, made-up content.",
+    "tasacion": "Example tasacion: mock text standing in for the real value. Same field and type, made-up content.",
+    "pujaMinima": "Example puja minima",
+    "tramos": "Example tramos",
+    "deposito": "Example deposito: mock text standing in for the real value. Same field and type, made-up content.",
+    "descripcion": "Example descripcion: mock text standing in for the real value. Same field and type, made-up content.",
+    "autoridadCodigo": "6264665586",
+    "autoridadDescripcion": "Example autoridad descripcion",
+    "autoridadDireccion": "Example autoridad direccion",
+    "autoridadTelefono": "+1 555 0100",
+    "autoridadFax": "Example autoridad fax",
+    "autoridadEmail": "user0@example.com",
+    "autoridad": {
+      "codigo": "4393013776",
+      "descripcion": "Example descripcion",
+      "direccion": "Example direccion",
+      "telefono": "+1 555 0100",
+      "fax": "Example fax",
+      "email": "user81@example.com"
+    },
+    "bienes": [
+      {
+        "descripcion": "Example descripcion: mock text standing in for the real value. Same field and type, made-up content.",
+        "direccion": "Example direccion",
+        "codigoPostal": "12035",
+        "localidad": "CARBONEROS",
+        "provincia": "Example provincia",
+        "situacionPosesoria": "Example situacion posesoria",
+        "visitable": "Example visitable",
+        "inscripcionRegistral": "Example inscripcion registral: mock text standing in for the real value. Same field and type, made-up content."
+      }
+    ],
+    "documentos": [
+      {
+        "titulo": "Example titulo",
+        "idDoc": "id51431354",
+        "url": "https://subastas.boe.es/example/24216"
+      }
+    ],
+    "pujasEstado": "",
+    "hasBids": false,
+    "provincia": "Example provincia",
+    "localidad": "CARBONEROS",
+    "direccion": "Example direccion",
+    "codigoPostal": "12035",
+    "detailUrl": "https://subastas.boe.es/example/28256"
+  }
+]

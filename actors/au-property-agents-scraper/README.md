@@ -57,6 +57,8 @@ Full details on the [scraper page](https://apify.com/abotapi/au-property-agents-
 | `rating` | object |
 | `reviewSummary` | string |
 | `salesSummary` | object |
+| `recentListings` | list |
+| `lastSoldDate` | string |
 | `agencyId` | string |
 | `agency` | object |
 | `social` | object |
@@ -67,9 +69,13 @@ Full details on the [scraper page](https://apify.com/abotapi/au-property-agents-
 | `mostActiveLocation` | object |
 | `phone` | object |
 | `stats` | object |
+| `awardsText` | string |
+| `linkedAgentIds` | list |
 | `communityInvolvement` | string |
 | `compliments` | list |
 | `video` | object |
+| `currentListings` | object |
+| `currentForSaleListings` | list |
 | `reviews` | list |
 
 ---

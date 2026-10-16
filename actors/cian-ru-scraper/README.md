@@ -41,6 +41,21 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~cian-ru-scraper/run-sync-
 | `maxFloor` | integer | Max floor |
 | `minFloors` | integer | Min building floors |
 | `maxFloors` | integer | Max building floors |
+| `minLivingArea` | integer | Min living area |
+| `maxLivingArea` | integer | Max living area |
+| `minHouseYear` | integer | Min house build year |
+| `maxHouseYear` | integer | Max house build year |
+| `minCeilingHeight` | number | Min ceiling height (m) |
+| `maxCeilingHeight` | number | Max ceiling height (m) |
+| `isByHomeowner` | boolean | Only from owners |
+| `fromDeveloper` | boolean | Only from developers |
+| `isFirstFloor` | boolean | Only first floor |
+| `notLastFloor` | boolean | Not last floor |
+| `hasVideo` | boolean | With video |
+| `withLayout` | boolean | With floor plan |
+| `shortTermRent` | boolean | Short-term (daily) rent |
+| `repair` | array | Renovation types |
+| `publishPeriod` | string | Published within |
 | `advancedFilters` | object | Advanced Cian filters |
 | `maxItems` * | integer | Max items |
 | `maxPages` | integer | Max pages |
@@ -70,10 +85,12 @@ Full details on the [scraper page](https://apify.com/abotapi/cian-ru-scraper?utm
 | `district` | string |
 | `metro` | string |
 | `metroTime` | integer |
+| `metroLineId` | integer |
+| `metroLineColor` | string |
 | `roomsCount` | integer |
 | `totalArea` | float |
-| `livingArea` | integer |
-| `kitchenArea` | integer |
+| `livingArea` | float |
+| `kitchenArea` | float |
 | `floorNumber` | integer |
 | `floorsCount` | integer |
 | `buildYear` | null |
@@ -83,15 +100,18 @@ Full details on the [scraper page](https://apify.com/abotapi/cian-ru-scraper?utm
 | `offerType` | string |
 | `isFromDeveloper` | boolean |
 | `isPremium` | boolean |
+| `isApartments` | boolean |
 | `phoneNumbers` | list |
 | `latitude` | float |
 | `longitude` | float |
 | `description` | string |
 | `formattedFullInfo` | string |
 | `imageUrls` | list |
-| `creationDate` | string |
-| `addedLabel` | string |
-| `scrapedAt` | string |
+| `mainImage` | object |
+| `siteUrl` | string |
+| `formattedAddress` | string |
+| `formattedFullPrice` | string |
+| `ceilingHeight` | integer |
 
 ---
 

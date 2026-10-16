@@ -17,7 +17,7 @@ python example.py
 ```bash
 curl -s -X POST "https://api.apify.com/v2/acts/abotapi~gumtree-au-scraper/run-sync-get-dataset-items?token=$APIFY_TOKEN" \
   -H 'Content-Type: application/json' \
-  -d '{"mode": "search", "category": "all", "location": "Sydney", "maxItems": 10, "maxPages": 1, "proxy": {"useApifyProxy": true, "apifyProxyGroups": ["RESIDENTIAL"], "apifyProxyCountry": "AU"}}'
+  -d '{"mode": "search", "category": "all", "location": "Sydney", "priceChangeMonitoring": "none", "maxItems": 10, "maxPages": 1, "proxy": {"useApifyProxy": true, "apifyProxyGroups": ["RESIDENTIAL"], "apifyProxyCountry": "AU"}}'
 ```
 
 ## Inputs
@@ -29,6 +29,19 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~gumtree-au-scraper/run-sy
 | `category` | string | Category / vertical |
 | `location` | string | Location |
 | `keywords` | string | Keyword |
+| `keywordList` | array | Keywords (several searches) |
+| `locationList` | array | Locations (several searches) |
+| `sellerType` | string | Seller type |
+| `carMake` | string | Car make |
+| `carModel` | string | Car model |
+| `carYearMin` | integer | Car year from |
+| `carYearMax` | integer | Car year to |
+| `carMileageMin` | integer | Mileage from (km) |
+| `carMileageMax` | integer | Mileage to (km) |
+| `carFuelType` | string | Fuel type |
+| `carTransmission` | string | Transmission |
+| `listingStartDate` | string | Listed since (YYYY-MM-DD) |
+| `priceChangeMonitoring` | string | Price change monitoring |
 | `adType` | string | Ad type |
 | `sortBy` | string | Sort order |
 | `minPrice` | integer | Minimum price (AUD) |
@@ -53,9 +66,21 @@ Full details on the [scraper page](https://apify.com/abotapi/gumtree-au-scraper?
 | `url` | string |
 | `title` | string |
 | `description` | string |
-| `price` | null |
-| `priceText` | null |
-| `priceType` | null |
+| `detailFetched` | boolean |
+| `detailStatus` | null |
+| `status` | null |
+| `phoneNumberExists` | null |
+| `previousPrice` | null |
+| `fullDescription` | null |
+| `latitude` | null |
+| `longitude` | null |
+| `postcode` | null |
+| `suburb` | null |
+| `state` | null |
+| `mapAddress` | null |
+| `price` | integer |
+| `priceText` | string |
+| `priceType` | string |
 | `currency` | string |
 | `minimumOfferPrice` | null |
 | `previousPriceString` | null |
@@ -75,20 +100,8 @@ Full details on the [scraper page](https://apify.com/abotapi/gumtree-au-scraper?
 | `isAuctionAd` | boolean |
 | `adType` | string |
 | `categoryId` | string |
-| `categoryName` | null |
+| `categoryName` | string |
 | `vertical` | string |
-| `location` | string |
-| `locationArea` | string |
-| `locationState` | string |
-| `age` | null |
-| `sellerName` | string |
-| `images` | list |
-| `imageCount` | integer |
-| `hasVideo` | boolean |
-| `videos` | list |
-| `attributes` | object |
-| `carVin` | null |
-| `carRecordReportUrl` | null |
 
 ---
 

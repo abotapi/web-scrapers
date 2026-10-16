@@ -54,7 +54,7 @@ Full details on the [scraper page](https://apify.com/abotapi/fever-com-scraper?u
 | `citySlug` | string |
 | `locale` | string |
 | `category` | null |
-| `priceFrom` | float |
+| `priceFrom` | integer |
 | `priceText` | null |
 | `originalPrice` | null |
 | `onSale` | null |

@@ -13,6 +13,7 @@ client = ApifyClient(os.environ["APIFY_TOKEN"])
 run = client.actor("abotapi/lemon8-discover-scraper").call(
     run_input={
         "searchTerm": "fashion",
+        "mode": "auto",
         "region": "us",
         "limit": 10,
         "proxy": {"useApifyProxy": True, "apifyProxyCountry": "US"},

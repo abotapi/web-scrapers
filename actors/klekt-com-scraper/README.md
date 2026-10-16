@@ -62,7 +62,7 @@ Full details on the [scraper page](https://apify.com/abotapi/klekt-com-scraper?u
 | `description` | string |
 | `availability` | string |
 | `priceAmount` | integer |
-| `lastSoldPrice` | float |
+| `lastSoldPrice` | integer |
 | `priceCurrency` | string |
 | `imageUrl` | string |
 | `url` | string |

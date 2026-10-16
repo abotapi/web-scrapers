@@ -40,6 +40,10 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~2gis-places-scraper/run-s
 | `onlyWithPhone` | boolean | Only places with a phone |
 | `onlyWithWebsite` | boolean | Only places with a website |
 | `skipAds` | boolean | Skip promoted places |
+| `rubricIds` | array | Category ids |
+| `onlyWithPhotos` | boolean | Only places with photos |
+| `onlyWithGoods` | boolean | Only places with goods/menu |
+| `openNow` | boolean | Only places open now |
 | `maxReviews` | integer | Max reviews per place |
 | `reviewsSort` | string | Reviews sort |
 | `reviewsProvider` | string | Reviews source |
@@ -81,7 +85,7 @@ Full details on the [scraper page](https://apify.com/abotapi/2gis-places-scraper
 | `reviewCount` | integer |
 | `ratingCount` | integer |
 | `isReviewable` | boolean |
-| `orgRating` | float |
+| `orgRating` | integer |
 | `orgReviewCount` | integer |
 | `flampRating` | null |
 | `flampReviewCount` | null |

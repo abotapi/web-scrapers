@@ -63,7 +63,7 @@ Full details on the [scraper page](https://apify.com/abotapi/suno-music-scraper?
 | `dislikeCount` | null |
 | `commentCount` | integer |
 | `flagCount` | integer |
-| `durationSeconds` | float |
+| `durationSeconds` | integer |
 | `styleTags` | string |
 | `displayTags` | list |
 | `lyrics` | string |

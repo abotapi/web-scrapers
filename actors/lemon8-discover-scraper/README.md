@@ -17,7 +17,7 @@ python example.py
 ```bash
 curl -s -X POST "https://api.apify.com/v2/acts/abotapi~lemon8-discover-scraper/run-sync-get-dataset-items?token=$APIFY_TOKEN" \
   -H 'Content-Type: application/json' \
-  -d '{"searchTerm": "fashion", "region": "us", "limit": 10, "proxy": {"useApifyProxy": true, "apifyProxyCountry": "US"}, "dev_dataset_name": "default"}'
+  -d '{"searchTerm": "fashion", "mode": "auto", "region": "us", "limit": 10, "proxy": {"useApifyProxy": true, "apifyProxyCountry": "US"}, "dev_dataset_name": "default"}'
 ```
 
 ## Inputs
@@ -26,6 +26,11 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~lemon8-discover-scraper/r
 | --- | --- | --- |
 | `searchTerm` * | string | Search Term |
 | `startUrls` | array | Start URLs |
+| `mode` | string | Scrape mode |
+| `keywords` | array | Keywords (multi-keyword search) |
+| `feedCategories` | array | Feed categories |
+| `profileUrls` | array | Profile URLs |
+| `postUrls` | array | Post URLs |
 | `region` | string | Region |
 | `limit` | integer | Post Limit |
 | `getDetails` | boolean | Get Detailed Post Data |
@@ -59,9 +64,26 @@ Full details on the [scraper page](https://apify.com/abotapi/lemon8-discover-scr
 | `isVideo` | boolean |
 | `videoData` | object |
 | `searchQuery` | string |
-| `details` | object |
-| `allComments` | list |
-| `commentStats` | object |
+| `groupId` | string |
+| `url` | string |
+| `articleClass` | string |
+| `likes` | integer |
+| `saves` | null |
+| `commentCount` | null |
+| `authorUserId` | string |
+| `authorUsername` | string |
+| `authorNickname` | string |
+| `authorAvatar` | string |
+| `authorFollowers` | null |
+| `videoUrl` | null |
+| `thumbnailUrl` | string |
+| `hashtags` | list |
+| `topComments` | list |
+| `keyword` | string |
+| `category` | null |
+| `region` | string |
+| `sourceMode` | string |
+| `scrapedAt` | string |
 
 ---
 

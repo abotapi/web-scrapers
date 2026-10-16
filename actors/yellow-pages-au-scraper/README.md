@@ -72,6 +72,17 @@ Full details on the [scraper page](https://apify.com/abotapi/yellow-pages-au-scr
 | `addressDetails` | object |
 | `latitude` | float |
 | `longitude` | float |
+| `reviews` | list |
+| `reviewsCount` | integer |
+| `aggregateRating` | null |
+| `aggregateReviewCount` | null |
+| `detailImages` | list |
+| `abn` | string |
+| `paymentMethods` | string |
+| `extraPhones` | list |
+| `generalInfo` | string |
+| `badges` | list |
+| `acn` | string |
 
 ---
 

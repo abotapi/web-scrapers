@@ -19,6 +19,7 @@ run = client.actor("abotapi/houzz-scraper").call(
         "maxReviewsPerPro": 10,
         "maxPages": 1,
         "maxListings": 10,
+        "maxItems": 10,
         "proxy": {"useApifyProxy": True},
     },
     logger=None,  # don't stream the run log to your console

@@ -1,7 +1,7 @@
 [
   {
     "id": "id26753278",
-    "listingKey": "lm7x7j5are8gandovqfeyw",
+    "listingKey": "u5ilclajsmviwdgjy0gc9q",
     "url": "https://www.ziprecruiter.com/example/88955",
     "title": "Example title",
     "company": "Example company",
@@ -10,7 +10,7 @@
     "companyWebsite": null,
     "companyLogo": "https://www.ziprecruiter.com/example/82651.jpg",
     "location": "Example location",
-    "city": "Dearborn",
+    "city": "Example city",
     "state": "Michigan",
     "county": "Example county",
     "postalCode": null,
@@ -19,16 +19,16 @@
     "latitude": null,
     "longitude": null,
     "locationType": "Example location type",
-    "remote": true,
+    "remote": false,
     "salary": "Example salary",
     "salaryMin": 23,
     "salaryMax": 668,
     "salaryCurrency": "USD",
-    "salaryPeriod": "hour",
+    "salaryPeriod": "9",
     "employmentTypes": [
-      "CONTRACTOR"
+      "6"
     ],
-    "employmentType": "CONTRACTOR",
+    "employmentType": "0",
     "industry": null,
     "occupationalCategory": null,
     "benefits": [],
@@ -38,8 +38,8 @@
     "descriptionText": null,
     "emails": [],
     "phoneNumbers": [],
-    "datePosted": "2026-01-15T10:00:00Z",
-    "postedAt": "2026-01-15T10:00:00Z",
+    "datePosted": "Example date posted",
+    "postedAt": "Example posted at",
     "validThrough": null,
     "isActive": true
   }

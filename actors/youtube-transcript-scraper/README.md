@@ -17,7 +17,7 @@ python example.py
 ```bash
 curl -s -X POST "https://api.apify.com/v2/acts/abotapi~youtube-transcript-scraper/run-sync-get-dataset-items?token=$APIFY_TOKEN" \
   -H 'Content-Type: application/json' \
-  -d '{"mode": "url", "videoUrls": ["https://www.youtube.com/watch?v=dQw4w9WgXcQ"], "searchQueries": ["python tutorial"], "maxVideos": 10, "languages": ["en"], "proxyConfiguration": {"useApifyProxy": true, "apifyProxyGroups": ["RESIDENTIAL"]}}'
+  -d '{"mode": "url", "videoUrls": ["https://www.youtube.com/watch?v=dQw4w9WgXcQ", "https://youtu.be/dQw4w9WgXcQ", "https://m.youtube.com/watch?v=dQw4w9WgXcQ", "https://www.youtube.com/shorts/jNQXAC9IVRw", "https://www.youtube.com/live/IoL51xLkMSY", "https://www.youtube.com/embed/dQw4w9WgXcQ", "https://www.youtube.com/watch?v=dQw4w9WgXcQ&list=PLFgquLnL59alCl_2TQvOiD5Vgm1hCaGSI", "https://www.youtube.com/playlist?list=PLFgquLnL59alCl_2TQvOiD5Vgm1hCaGSI", "https://www.youtube.com/@YouTube", "https://www.youtube.com/@YouTube/videos", "https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ", "https://www.youtube.com/user/YouTube", "https://www.youtube.com/c/YouTubeCreators", "https://www.youtube.com/results?search_query=python+tutorial"], "searchQueries": ["python tutorial"], "maxVideos": 10, "languages": ["en"], "proxyConfiguration": {"useApifyProxy": true, "apifyProxyGroups": ["RESIDENTIAL"]}}'
 ```
 
 ## Inputs
@@ -26,6 +26,7 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~youtube-transcript-scrape
 | --- | --- | --- |
 | `mode` * | string | Mode |
 | `videoUrls` | array | Video / playlist / channel URLs |
+| `videoUrl` | string | Single video URL (alias) |
 | `searchQueries` | array | Keyword searches |
 | `startSec` | integer | Time window - start (seconds) |
 | `durationSec` | integer | Time window - duration (seconds) |
@@ -33,6 +34,7 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~youtube-transcript-scrape
 | `maxVideos` | integer | Max videos (overall) |
 | `languages` | array | Preferred transcript languages |
 | `translateToLanguage` | string | Translate transcript to |
+| `targetLanguage` | string | Target language (alias) |
 | `preserveFormatting` | boolean | Preserve text formatting |
 | `proxyConfiguration` | object | Proxy configuration |
 
@@ -66,6 +68,7 @@ Full details on the [scraper page](https://apify.com/abotapi/youtube-transcript-
 | `segmentCount` | integer |
 | `transcript` | string |
 | `segments` | list |
+| `data` | list |
 | `srt` | string |
 | `vtt` | string |
 | `trimmedStart` | integer |

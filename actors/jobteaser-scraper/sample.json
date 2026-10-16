@@ -1,20 +1,20 @@
 [
   {
     "id": "id60539830",
-    "title": "Example title: mock text standing in for the real value. Same field and type, made-up content.",
+    "title": "Example title",
     "url": "https://www.jobteaser.com/example/83164",
     "company": {
       "id": "id60539830",
       "name": "Example name",
       "legal_name": "Example legal_name",
-      "legal_id": "685826783",
+      "legal_id": null,
       "profile_url": "https://www.jobteaser.com/example/6908",
       "logo_url": "https://d1guu6n8gz71j.cloudfront.net/example/75717.jpg",
-      "cover_image_url": null,
-      "short_description": "Example short_description"
+      "cover_image_url": "https://d1guu6n8gz71j.cloudfront.net/example/85561.jpg",
+      "short_description": "Example short_description: mock text standing in for the real value. Same field and type, made-up content."
     },
     "company_profile": {
-      "summary": "Example summary",
+      "summary": "Example summary: mock text standing in for the real value. Same field and type, made-up content.",
       "type_label": "Example type_label",
       "size_label": "Example size_label",
       "industry_label": "Example industry_label"
@@ -22,50 +22,48 @@
     "company_taxonomy": {
       "business_type_code": "large",
       "business_type_label": "Example business_type_label",
-      "main_sector_code": "Example main_sector_code",
+      "main_sector_code": "banking_finance",
       "sector_codes": [
-        "Example sector_codes",
-        "other_category"
+        "banking_finance"
       ],
       "industry_ids": [
-        "id72177607",
-        "id5515384"
+        "id72177607"
       ],
       "space_visibility": "Example space_visibility"
     },
     "primary_location": {
       "address": "Example address",
-      "city": "Example city",
-      "region": "Ile-de-France",
-      "sub_region": "Hauts-de-Seine",
+      "city": "Paris",
+      "region": "Example region",
+      "sub_region": "Paris",
       "country": "France",
-      "place_id": "Example place_id: mock text standing in for the real value. Same field and type, made-up content.",
-      "latitude": 43.46,
-      "longitude": 2.88,
+      "place_id": "chijd4fibh2u0kcryjsmamoccwq",
+      "latitude": 43.48,
+      "longitude": 3.01,
       "label": "Example label"
     },
     "locations": [
       {
         "address": "Example address",
-        "city": "Example city",
-        "region": "Ile-de-France",
-        "sub_region": "Hauts-de-Seine",
+        "city": "Paris",
+        "region": "Example region",
+        "sub_region": "Paris",
         "country": "France",
-        "place_id": "Example place_id: mock text standing in for the real value. Same field and type, made-up content.",
-        "latitude": 43.46,
-        "longitude": 2.88
+        "place_id": "chijd4fibh2u0kcryjsmamoccwq",
+        "latitude": 43.48,
+        "longitude": 3.01
       }
     ],
     "google_locations": [
       {
         "address": "Example address",
-        "city": "Example city",
-        "region": "Ile-de-France",
-        "sub_region": "Hauts-de-Seine",
+        "city": "Paris",
+        "region": "Example region",
+        "sub_region": "Paris",
         "country": "France",
-        "place_id": "Example place_id: mock text standing in for the real value. Same field and type, made-up content.",
-        "latitude": 43.46,
-        "longitude": 2.88
+        "place_id": "chijd4fibh2u0kcryjsmamoccwq",
+        "latitude": 43.48,
+        "longitude": 3.01
       }
     ],
     "location_count": 5,
@@ -90,40 +88,39 @@
       "study_level": "Example study_level",
       "study_level_code": "Example study_level_code",
       "study_level_codes": [
-        "Example study_level_codes",
         "Example study_level_codes"
       ],
-      "education_requirement": "Example education_requirement",
+      "education_requirement": null,
       "applicant_location_requirements": "Example applicant_location_requirements"
     },
     "work_arrangement": {
       "job_location_type": "TELECOMMUTE",
       "remote_policy": "Example remote_policy",
-      "remote_policy_code": "Example remote_policy_code",
-      "remote_policy_type": "partially_remote"
+      "remote_policy_code": null,
+      "remote_policy_type": "not_specified"
     },
     "compensation": {
       "display_text": "Example display_text",
       "salary_text": null,
       "salary_currency": null,
       "min": null,
-      "max": 7346,
+      "max": null,
       "currency": "EUR",
       "frequency": "Example frequency",
-      "status": "has_wage"
+      "status": "unspecified"
     },
     "application": {
-      "direct_apply": true,
+      "direct_apply": false,
       "type": "Example type",
       "channel_code": "Example channel_code",
-      "message_type": "Example message_type",
-      "internal_type": "cv_only",
-      "external_url": null,
-      "external_id": null,
+      "message_type": null,
+      "internal_type": "Example internal_type",
+      "external_url": "https://www.aplitrak.com/example/88869",
+      "external_id": "88869",
       "easy_apply": null
     },
     "application_flags": {
-      "is_internal": true,
+      "is_internal": false,
       "internal_apply_authorized": null,
       "flow_enabled": null,
       "ai_validation_allowed": null,
@@ -145,7 +142,7 @@
       "is_active": true,
       "career_center_status": "Example career_center_status",
       "genai_status": "Example genai_status",
-      "premium": true,
+      "premium": false,
       "private_offer": false,
       "exclusive": false
     },
@@ -183,16 +180,6 @@
           "tagName": "Example tag name",
           "children": [
             {
-              "tagName": "Example tag name",
-              "children": [
-                {
-                  "content": "Example content",
-                  "type": "text"
-                }
-              ],
-              "type": "tag"
-            },
-            {
               "content": "Example content",
               "type": "text"
             }
@@ -200,7 +187,7 @@
           "type": "tag"
         }
       ],
-      "employer_overview": "Example employer_overview"
+      "employer_overview": "Example employer_overview: mock text standing in for the real value. Same field and type, made-up content."
     },
     "media": [
       {
@@ -219,12 +206,18 @@
       }
     ],
     "platform_metadata": {
-      "creation_source": "Example creation_source",
+      "creation_source": "broadbean",
       "school_id": "20571031-8261-2223-1868-921545213883",
       "sequence_number": 7,
-      "paid_with": "credits",
-      "partner_school_ids": [],
-      "legacy_partner_school_ids": []
+      "paid_with": null,
+      "partner_school_ids": [
+        "id54923398",
+        "id57669097"
+      ],
+      "legacy_partner_school_ids": [
+        "id576551",
+        "id39013140"
+      ]
     },
     "source_context": {
       "domain": "jobteaser.com",
@@ -233,7 +226,7 @@
       "search_url": "https://www.jobteaser.com/example/68890",
       "page_index": 5,
       "result_position": 0,
-      "total_results": 1799,
+      "total_results": 82799,
       "scraped_at": "2026-01-15T10:00:00Z"
     }
   }

@@ -79,6 +79,7 @@ Full details on the [scraper page](https://apify.com/abotapi/willhaben-at-scrape
 | `images` | list |
 | `imageCount` | integer |
 | `mainImage` | string |
+| `teaserAttributes` | list |
 | `advertiserInfo` | object |
 | `rawAttributes` | list |
 | `attr_LOCATION` | string |
@@ -88,7 +89,6 @@ Full details on the [scraper page](https://apify.com/abotapi/willhaben-at-scrape
 | `attr_CHANGED_String` | string |
 | `attr_POSTCODE` | string |
 | `attr_BODY_DYN` | string |
-| `attr_STATE` | string |
 
 ---
 

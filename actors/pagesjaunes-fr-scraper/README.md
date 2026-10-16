@@ -48,7 +48,7 @@ Full details on the [scraper page](https://apify.com/abotapi/pagesjaunes-fr-scra
 | `detailUrl` | string |
 | `activities` | list |
 | `address` | string |
-| `rating` | float |
+| `rating` | integer |
 | `reviewCount` | integer |
 | `phone` | string |
 | `description` | string |
@@ -60,7 +60,6 @@ Full details on the [scraper page](https://apify.com/abotapi/pagesjaunes-fr-scra
 | `services` | list |
 | `products` | list |
 | `website` | string |
-| `facebook` | string |
 | `photos` | list |
 | `searchTerms` | string |
 | `searchLocation` | string |

@@ -1,24 +1,24 @@
 [
   {
-    "productId": "0566433",
-    "supermodelId": "379219",
+    "productId": "4367004",
+    "supermodelId": "342571",
     "sku": "id96287451",
-    "name": "Example name",
-    "brand": "ASICS",
+    "name": "Example name: mock text standing in for the real value. Same field and type, made-up content.",
+    "brand": "ADIDAS",
     "url": "https://www.decathlon.es/example/26444",
     "image": "https://contents.mediadecathlon.com/example/58193.jpg",
     "images": [
       "https://contents.mediadecathlon.com/example/47894.jpg"
     ],
-    "price": 62.99,
+    "price": 188.99,
     "currency": "EUR",
-    "originalPrice": 72.74,
-    "discountPercent": 10,
-    "isOnSpecial": true,
-    "saleEndsAt": "2026-01-15T10:00:00Z",
+    "originalPrice": null,
+    "discountPercent": null,
+    "isOnSpecial": false,
+    "saleEndsAt": null,
     "availableSizes": [
       "08",
-      "11,9"
+      "27 7/4"
     ],
     "onlineAvailable": true,
     "seller": {
@@ -29,21 +29,21 @@
       "Example sports"
     ],
     "nature": "Example nature",
-    "rating": 4.28,
-    "reviewCount": 1114,
+    "rating": 4.42,
+    "reviewCount": 214,
     "reviews": {
-      "averageRating": 5.8,
-      "totalReviewCount": 4359,
-      "recommendedCount": 9818,
+      "averageRating": 5.99,
+      "totalReviewCount": 759,
+      "recommendedCount": 818,
       "items": [
         {
           "rating": 3,
           "title": "Example title",
-          "body": "Example body: mock text standing in for the real value. Same field and type, made-up content.",
+          "body": "Example body",
           "author": "Example author",
           "date": "2026-01-15T10:00:00Z",
-          "recommended": null,
-          "verifiedBuyer": false
+          "recommended": true,
+          "verifiedBuyer": true
         }
       ]
     },

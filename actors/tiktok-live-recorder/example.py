@@ -11,7 +11,10 @@ from apify_client import ApifyClient
 client = ApifyClient(os.environ["APIFY_TOKEN"])
 
 run = client.actor("abotapi/tiktok-live-recorder").call(
-    run_input={},
+    run_input={
+        "username": "tiktok",
+        "liveUrl": "https://www.tiktok.com/@tiktok/live",
+    },
     logger=None,  # don't stream the run log to your console
 )
 

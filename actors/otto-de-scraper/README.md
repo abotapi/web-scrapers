@@ -58,7 +58,7 @@ Full details on the [scraper page](https://apify.com/abotapi/otto-de-scraper?utm
 | `url` | string |
 | `image` | string |
 | `images` | list |
-| `price` | float |
+| `price` | integer |
 | `currency` | string |
 | `originalPrice` | integer |
 | `discountPercent` | integer |
@@ -66,7 +66,7 @@ Full details on the [scraper page](https://apify.com/abotapi/otto-de-scraper?utm
 | `promoLabel` | string |
 | `availability` | string |
 | `availabilityText` | string |
-| `rating` | float |
+| `rating` | null |
 | `reviewCount` | integer |
 | `variants` | list |
 | `category` | null |
@@ -79,6 +79,9 @@ Full details on the [scraper page](https://apify.com/abotapi/otto-de-scraper?utm
 | `breadcrumb` | null |
 | `returnPolicy` | null |
 | `reviews` | object |
+| `link` | string |
+| `priceCurrency` | string |
+| `aggregateRating` | object |
 
 ---
 

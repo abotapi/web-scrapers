@@ -17,7 +17,7 @@ python example.py
 ```bash
 curl -s -X POST "https://api.apify.com/v2/acts/abotapi~carrefour-es-scraper/run-sync-get-dataset-items?token=$APIFY_TOKEN" \
   -H 'Content-Type: application/json' \
-  -d '{"mode": "search", "queries": ["leche"], "sortBy": "relevance", "minRating": "0", "maxItems": 10, "maxPages": 1, "proxy": {"useApifyProxy": true, "apifyProxyGroups": ["RESIDENTIAL"], "apifyProxyCountry": "ES"}}'
+  -d '{"mode": "search", "queries": ["leche"], "categories": ["https://www.carrefour.es/supermercado/lacteos-huevos/leche/cat20093/c", "Vinos"], "sortBy": "relevance", "minRating": "0", "maxReviews": 10, "maxItems": 10, "maxPages": 1, "proxy": {"useApifyProxy": true, "apifyProxyGroups": ["RESIDENTIAL"], "apifyProxyCountry": "ES"}, "maxResults": 10}'
 ```
 
 ## Inputs
@@ -28,16 +28,29 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~carrefour-es-scraper/run-
 | `queries` | array | Search keywords |
 | `categories` | array | Category links |
 | `urls` | array | Carrefour Spain links or product ids |
+| `products` | array | Product links or ids (legacy) |
 | `sortBy` | string | Sort by |
 | `minRating` | string | Minimum average rating |
 | `onPromotionOnly` | boolean | Only products on promotion |
 | `inStockOnly` | boolean | Only products in stock |
 | `minPrice` | integer | Minimum price (EUR) |
 | `maxPrice` | integer | Maximum price (EUR) |
+| `brands` | array | Brands |
 | `fetchDetails` | boolean | Fetch product details |
+| `maxReviews` | integer | Max reviews per product |
 | `maxItems` | integer | Max products |
 | `maxPages` | integer | Max pages per keyword / category |
 | `proxy` | object | Proxy configuration |
+| `searchQuery` | string | Search keyword (alternative name) |
+| `searchQueries` | array | Search keywords (alternative name) |
+| `categoryUrl` | string | Category link (alternative name) |
+| `categoryUrls` | array | Category links (alternative name) |
+| `startUrls` | array | Start URLs (alternative name) |
+| `productUrls` | array | Product links (alternative name) |
+| `maxResults` | integer | Max results (alternative name) |
+| `maxResultsPerScrape` | integer | Max results per run (alternative name) |
+| `promotionsOnly` | boolean | Only promotions (alternative name) |
+| `proxyConfiguration` | object | Proxy configuration (alternative name) |
 
 `*` required
 
@@ -52,28 +65,17 @@ Full details on the [scraper page](https://apify.com/abotapi/carrefour-es-scrape
 | `productId` | string |
 | `name` | string |
 | `brand` | string |
-| `sku` | string |
+| `ean` | string |
 | `price` | float |
 | `currency` | string |
-| `unitPrice` | float |
-| `unitPriceMeasure` | string |
-| `onPromotion` | boolean |
-| `stock` | integer |
-| `inStock` | boolean |
-| `sellPackUnit` | integer |
+| `measureUnit` | string |
+| `categoryId` | string |
 | `image` | string |
 | `url` | string |
 | `source` | string |
-| `ean` | string |
-| `measureUnit` | string |
-| `images` | list |
-| `ingredients` | string |
-| `allergens` | list |
-| `nutrition` | object |
-| `offer` | object |
-| `moreInfo` | list |
-| `hasReviews` | boolean |
-| `reviews` | list |
+| `unitPrice` | float |
+| `unitPriceMeasure` | string |
+| `packSize` | string |
 | `searchMode` | string |
 | `scrapedAt` | string |
 

@@ -1,7 +1,7 @@
 [
   {
     "id": "id72413698",
-    "propertyId": "6181215",
+    "propertyId": "0614864",
     "unitId": "2",
     "url": "https://www.furnishedfinder.com/example/97082",
     "name": "Example name",
@@ -15,10 +15,10 @@
     "priceFormatted": "Example price formatted",
     "priceValue": 1998,
     "priceCurrency": "USD",
-    "latitude": 33.1,
-    "longitude": -99.1,
+    "latitude": 33.12,
+    "longitude": -99.23,
     "city": "Houston",
-    "state": "TX",
+    "state": "Texas",
     "encodedLocationName": "Example encoded location name",
     "isAvailableNow": true,
     "availableOnDate": "Example available on date",
@@ -34,6 +34,21 @@
     "photoCount": 31,
     "searchLocation": "Example search location",
     "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
+    "landlordName": "Example landlord name",
+    "pricingFrequency": "Example pricing frequency",
+    "otherUnits": [],
+    "nearbyHospitals": [
+      {
+        "name": "Example name",
+        "type": "hospital",
+        "distance": "Example distance"
+      },
+      {
+        "name": "Example name",
+        "type": "hospital",
+        "distance": "Example distance"
+      }
+    ],
     "neighborhoodDescription": "",
     "spaceDescription": "Example space description: mock text standing in for the real value. Same field and type, made-up content.",
     "squareFootage": 3009,
@@ -41,50 +56,65 @@
     "totalReviewCount": 0,
     "reviews": null,
     "utilitiesIncluded": true,
-    "minimumStayDays": 41,
-    "houseRules": [
+    "minimumStayDays": 41
+  },
+  {
+    "id": "id13812987",
+    "propertyId": "2517320",
+    "unitId": "4",
+    "url": "https://www.furnishedfinder.com/example/37408",
+    "name": "Example name: mock text standing in for the real value. Same field and type, made-up content.",
+    "propertyType": "Apartment",
+    "propertyTypeClass": "entire_unit",
+    "bedroomCount": 4,
+    "bathroomCount": 1,
+    "bathroomType": null,
+    "totalSleeps": 5,
+    "laundryType": "NONE",
+    "priceFormatted": "Example price formatted",
+    "priceValue": 5527,
+    "priceCurrency": "USD",
+    "latitude": 21.75,
+    "longitude": -86.79,
+    "city": "Houston",
+    "state": "TX",
+    "encodedLocationName": "Example encoded location name",
+    "isAvailableNow": true,
+    "availableOnDate": "Example available on date",
+    "minimumStayInDays": 24,
+    "amenities": [
+      "Example amenities",
+      "Example amenities"
+    ],
+    "photos": [
+      "https://www.furnishedfinder.com/example/69546.jpg",
+      "https://www.furnishedfinder.com/example/84005.jpg"
+    ],
+    "photoCount": 4,
+    "searchLocation": "Example search location",
+    "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
+    "landlordName": "Example landlord name",
+    "pricingFrequency": "Example pricing frequency",
+    "otherUnits": [],
+    "nearbyHospitals": [
       {
         "name": "Example name",
-        "description": "Example description"
+        "type": "hospital",
+        "distance": "Example distance"
       },
       {
         "name": "Example name",
-        "description": "Example description"
+        "type": "hospital",
+        "distance": "Example distance"
       }
     ],
-    "fees": [
-      {
-        "type": "Example type",
-        "amount": "Example amount"
-      },
-      {
-        "type": "Example type",
-        "amount": "Example amount"
-      }
-    ],
-    "detailAmenities": [
-      {
-        "name": "Example name",
-        "value": {
-          "count": "2"
-        }
-      },
-      {
-        "name": "Example name",
-        "value": {
-          "count": "9"
-        }
-      }
-    ],
-    "bedroomsDetail": [
-      {
-        "title": "Example title",
-        "type": "Example type"
-      },
-      {
-        "title": "Example title",
-        "type": "Example type"
-      }
-    ]
+    "neighborhoodDescription": "",
+    "spaceDescription": "Example space description: mock text standing in for the real value. Same field and type, made-up content.",
+    "squareFootage": 279,
+    "avgRating": 0,
+    "totalReviewCount": 0,
+    "reviews": null,
+    "utilitiesIncluded": true,
+    "minimumStayDays": 34
   }
 ]

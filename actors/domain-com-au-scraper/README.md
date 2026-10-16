@@ -17,7 +17,7 @@ python example.py
 ```bash
 curl -s -X POST "https://api.apify.com/v2/acts/abotapi~domain-com-au-scraper/run-sync-get-dataset-items?token=$APIFY_TOKEN" \
   -H 'Content-Type: application/json' \
-  -d '{"mode": "search", "locations": ["Sydney NSW 2000"], "sortBy": "default", "listingType": "buy", "maxListings": 10, "maxPages": 1, "proxy": {"useApifyProxy": true, "apifyProxyGroups": ["RESIDENTIAL"], "apifyProxyCountry": "AU"}}'
+  -d '{"mode": "search", "sortBy": "default", "locations": ["Sydney NSW 2000"], "listingType": "buy", "maxListings": 10, "maxPages": 1, "proxy": {"useApifyProxy": true, "apifyProxyGroups": ["RESIDENTIAL"], "apifyProxyCountry": "AU"}}'
 ```
 
 ## Inputs
@@ -25,10 +25,10 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~domain-com-au-scraper/run
 | Input | Type | What it is |
 | --- | --- | --- |
 | `mode` * | string | Start here pick your search mode |
-| `locations` | array | Suburbs / locations (search mode) |
 | `sortBy` | string | Sort order |
 | `inspectionsOnly` | boolean | Open for inspection only (search mode) |
 | `auctionsOnly` | boolean | Auctions only (search mode) |
+| `locations` | array | Suburbs / locations (search mode) |
 | `urls` | array | Domain.com.au URLs (url mode) |
 | `listingType` | string | Listing type |
 | `propertyTypes` | array | Property types |
@@ -70,8 +70,8 @@ Full details on the [scraper page](https://apify.com/abotapi/domain-com-au-scrap
 | `bedrooms` | integer |
 | `bathrooms` | integer |
 | `parkingSpaces` | integer |
-| `landSize` | integer |
-| `landSizeUnit` | string |
+| `landSize` | null |
+| `landSizeUnit` | null |
 | `buildingSize` | integer |
 | `buildingSizeUnit` | string |
 | `propertyType` | string |
@@ -89,7 +89,7 @@ Full details on the [scraper page](https://apify.com/abotapi/domain-com-au-scrap
 | `agencyProfileUrl` | string |
 | `agencyId` | string |
 | `agencyAddress` | object |
-| `agencyBrandColour` | null |
+| `agencyBrandColour` | string |
 | `addressDisplayType` | string |
 | `agents` | list |
 | `suburbInsights` | null |

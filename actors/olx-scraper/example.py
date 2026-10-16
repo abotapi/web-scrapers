@@ -15,6 +15,8 @@ run = client.actor("abotapi/olx-scraper").call(
         "mode": "search",
         "country": "pl",
         "sortBy": "default",
+        "condition": "any",
+        "sellerFilter": "any",
         "maxListings": 10,
         "maxPages": 1,
         "proxyConfiguration": {"useApifyProxy": True},

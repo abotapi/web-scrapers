@@ -74,7 +74,7 @@ Full details on the [scraper page](https://apify.com/abotapi/zoopla-co-uk-scrape
 | `summaryDescription` | string |
 | `price` | integer |
 | `priceLabel` | string |
-| `priceQualifier` | null |
+| `priceQualifier` | string |
 | `currency` | string |
 | `rentFrequencyLabel` | null |
 | `priceDrop` | object |

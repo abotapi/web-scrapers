@@ -1,6 +1,6 @@
 [
   {
-    "productId": "12324082",
+    "productId": "90505117",
     "sku": null,
     "name": "Example name",
     "brand": null,
@@ -9,15 +9,15 @@
     "url": "https://www.fnac.com/example/56282",
     "price": 6309,
     "currency": "EUR",
-    "originalPrice": null,
-    "discountAmount": null,
-    "discountPercent": null,
-    "isOnSpecial": false,
-    "promoLabel": "Example promo label",
+    "originalPrice": 5160,
+    "discountAmount": 644,
+    "discountPercent": 5.62,
+    "isOnSpecial": true,
+    "promoLabel": null,
     "unitPrice": null,
     "image": "https://static.fnac-static.com/example/76098.jpg",
-    "rating": null,
-    "reviewCount": 0,
+    "rating": 2,
+    "reviewCount": 750,
     "onlineAvailable": true,
     "storePickupAvailable": null,
     "condition": "new",
@@ -28,10 +28,19 @@
       "Couleur": "Example couleur"
     },
     "reviews": {
-      "averageRating": null,
-      "ratingCount": 0,
-      "totalReviewCount": 0,
-      "items": []
+      "averageRating": 5,
+      "ratingCount": 483,
+      "totalReviewCount": 6,
+      "items": [
+        {
+          "rating": 2,
+          "title": null,
+          "body": "Example body",
+          "author": "Example author",
+          "date": "Example date",
+          "verifiedPurchase": true
+        }
+      ]
     }
   }
 ]

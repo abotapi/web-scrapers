@@ -11,7 +11,12 @@ from apify_client import ApifyClient
 client = ApifyClient(os.environ["APIFY_TOKEN"])
 
 run = client.actor("abotapi/shopee-collection-products").call(
-    run_input={},
+    run_input={
+        "urls": ["https://shopeekh.com/collections/12453606"],
+        "maxItems": 10,
+        "maxPages": 1,
+        "proxy": {"useApifyProxy": True},
+    },
     logger=None,  # don't stream the run log to your console
 )
 

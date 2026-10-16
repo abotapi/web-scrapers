@@ -17,15 +17,15 @@ python example.py
 ```bash
 curl -s -X POST "https://api.apify.com/v2/acts/abotapi~coles-au-scraper/run-sync-get-dataset-items?token=$APIFY_TOKEN" \
   -H 'Content-Type: application/json' \
-  -d '{"inputMode": "search", "mode": "search", "queries": ["milk"], "categories": ["dairy-eggs-fridge"], "sortBy": "relevance", "minRating": "0", "maxReviewsPerProduct": 10, "maxItems": 10, "maxPages": 1, "proxy": {"useApifyProxy": true}}'
+  -d '{"mode": "search", "inputMode": "search", "queries": ["milk"], "categories": ["dairy-eggs-fridge"], "sortBy": "relevance", "minRating": "0", "maxReviewsPerProduct": 10, "maxItems": 10, "maxPages": 1, "proxy": {"useApifyProxy": true}}'
 ```
 
 ## Inputs
 
 | Input | Type | What it is |
 | --- | --- | --- |
-| `inputMode` | string | What do you want to scrape |
 | `mode` | string | Legacy input mode |
+| `inputMode` | string | What do you want to scrape |
 | `queries` | array | Keywords (optional) |
 | `categories` | array | Category slugs (optional) |
 | `specialsCategory` | string | Specials / offers category |

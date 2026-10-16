@@ -29,11 +29,13 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~housing-com-scraper/run-s
 | `service` | string | Service |
 | `city` | string | City |
 | `locality` | string | Locality |
+| `cities` | array | Additional cities |
 | `min_price` | integer | Min Price (INR) |
 | `max_price` | integer | Max Price (INR) |
 | `min_bhk` | number | Min BHK |
 | `max_bhk` | number | Max BHK |
 | `property_type` | string | Property Type |
+| `days_old` | integer | Posted within days |
 | `max_properties` | integer | Max Properties |
 | `max_pages` | integer | Max Pages |
 | `dataset_name` | string | Dataset Name |
@@ -66,13 +68,26 @@ Full details on the [scraper page](https://apify.com/abotapi/housing-com-scraper
 | `bhk_configs` | list |
 | `amenities` | list |
 | `sellers` | list |
-| `seller_firms` | list |
-| `highlights` | list |
 | `emi` | string |
+| `tags` | list |
 | `images` | list |
 | `image_count` | integer |
 | `url` | string |
 | `scraped_at` | string |
+| `possessionDate` | string |
+| `postedAt` | string |
+| `updatedAt` | string |
+| `isMostContacted` | boolean |
+| `projectName` | string |
+| `projectId` | string |
+| `city` | string |
+| `cityId` | string |
+| `transactionType` | string |
+| `isReraVerified` | boolean |
+| `coverImageUrl` | string |
+| `pricePerArea` | string |
+| `configurations` | string |
+| `bedrooms` | integer |
 
 ---
 

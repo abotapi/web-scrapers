@@ -3,7 +3,7 @@
     "hotelId": "+1 555 0100",
     "name": "Example name",
     "starRating": 7,
-    "reviewScore": 10.7,
+    "reviewScore": 11.32,
     "reviewScoreLabel": "Example review score label",
     "reviewCount": 9839,
     "reviewTags": [
@@ -11,11 +11,11 @@
       "Example review tags"
     ],
     "address": "Example address",
-    "lat": 43.47,
-    "lng": 152.37,
-    "priceCurrent": 25,
-    "priceOriginal": 46,
-    "priceTotalWithTaxes": 33,
+    "lat": 43.56,
+    "lng": 152.33,
+    "priceCurrent": 925,
+    "priceOriginal": 856,
+    "priceTotalWithTaxes": 753,
     "discountPercent": null,
     "discountLabel": null,
     "currency": "USD",
@@ -25,7 +25,6 @@
     ],
     "image": "https://ak-d.tripcdn.com/example/48666.jpg",
     "badges": [
-      "Example badges",
       "Example badges"
     ],
     "medal": null,
@@ -48,7 +47,7 @@
       },
       {
         "name": "Example name",
-        "type": "station",
+        "type": "scenic",
         "distance": "Example distance"
       }
     ],
@@ -58,16 +57,16 @@
     "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
     "rooms": [
       {
-        "roomId": "8544086691",
+        "roomId": "8619625700",
         "roomName": "Example room name",
         "mealInfo": null,
-        "cancelInfo": "Example cancel info",
+        "cancelInfo": null,
         "guestCountInfo": "Example guest count info",
         "roomPrice": {
-          "current": 96,
-          "original": 56,
+          "current": 726,
+          "original": 776,
           "currency": "USD",
-          "taxesAndFeesTotal": 77
+          "taxesAndFeesTotal": 977
         },
         "roomPromotions": [],
         "remainRoomQuantity": 6,
@@ -81,13 +80,13 @@
     "confirmInfo": null,
     "reviews": [
       {
-        "reviewId": "6009966072",
-        "reviewRatingOverall": 30,
+        "reviewId": "9407444285",
+        "reviewRatingOverall": 9.0,
         "reviewRatingLocation": 48,
-        "reviewRatingFacility": 48,
-        "reviewRatingService": 44,
-        "reviewRatingRoom": 57,
-        "reviewCommentLevel": "Outstanding",
+        "reviewRatingFacility": 3,
+        "reviewRatingService": 8,
+        "reviewRatingRoom": 3,
+        "reviewCommentLevel": null,
         "reviewContent": "Example review content: mock text standing in for the real value. Same field and type, made-up content.",
         "reviewLanguage": "en",
         "reviewTranslatedContent": null,
@@ -100,7 +99,7 @@
           "https://ak-d.tripcdn.com/example/48684.jpg"
         ],
         "reviewVideos": [],
-        "reviewerNickname": "Example reviewer nickname",
+        "reviewerNickname": "crissy4268",
         "reviewerRegion": "Example reviewer region",
         "reviewerAvatarUrl": "https://ak-d.tripcdn.com/example/43738.jpg",
         "reviewerLevel": "Example reviewer level",
@@ -112,11 +111,11 @@
     "reviewCount_pushed": 5,
     "aggregateTotalReviewCount": 6732,
     "aggregateRatingBreakdown": {
-      "overall": 11.14,
-      "location": 8,
-      "facility": 6.21,
-      "service": 6.54,
-      "room": 7.3
+      "overall": 11.78,
+      "location": 6.96,
+      "facility": 7,
+      "service": 1,
+      "room": 7.71
     },
     "aggregateCommentTags": [
       "Example aggregate comment tags",

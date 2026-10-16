@@ -1,13 +1,13 @@
 [
   {
     "kind": "product",
-    "id": "w0007737835",
+    "id": "w8231954899",
     "name": "Example name",
     "title": "Example title",
     "url": "https://www.target.com.au/example/93153",
     "baseUrl": "https://www.target.com.au/example/26850",
     "brand": "Example brand",
-    "price": 47,
+    "price": 2,
     "wasPrice": null,
     "onePassPrice": null,
     "currency": "AUD",
@@ -25,27 +25,27 @@
     ],
     "careInstructions": [
       "Example care instructions",
-      "Example care instructions"
+      "21"
     ],
     "category": "Example category",
     "breadcrumbs": [
       "Example breadcrumbs",
       "Example breadcrumbs"
     ],
-    "topLevelCategory": "Women",
+    "topLevelCategory": "Men",
     "merchDepartmentCode": 370,
     "productType": "normal",
     "availability": "NORMAL",
     "groupIds": [
-      "w893120",
-      "w8336899"
+      "w846192",
+      "w9309681"
     ],
     "colour": "Example colour",
     "colourVariantCode": 25039325,
     "sizeVariantCode": 33682801,
     "inStock": true,
-    "availableOnlineQty": 14,
-    "availableStoreQty": 75,
+    "availableOnlineQty": 824,
+    "availableStoreQty": 435,
     "bulkyProduct": false,
     "targetExclusive": false,
     "onlineExclusive": false,

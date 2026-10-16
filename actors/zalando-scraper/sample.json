@@ -1,18 +1,18 @@
 [
   {
-    "sku": "an490c6bd-q99",
+    "sku": "a4q51c1g7-q62",
     "name": "Example name",
-    "brand": "Example brand",
+    "brand": "AllSaints",
     "url": "https://www.zalando.co.uk/example/60791",
     "targetGroup": "WOMEN",
     "category": "DRESS",
     "supplierName": "Example supplier name",
     "shortDescription": null,
     "condition": null,
-    "price": 23,
-    "originalPrice": 33.99,
-    "promotionalPrice": 73,
-    "discountPercentage": 7,
+    "price": 473,
+    "originalPrice": 149.99,
+    "promotionalPrice": 883,
+    "discountPercentage": 70,
     "currency": "GBP",
     "onSale": true,
     "dealFlag": "Example deal flag",
@@ -20,26 +20,30 @@
       {
         "kind": "DEAL",
         "label": "Example label"
+      },
+      {
+        "kind": "PREMIUM",
+        "label": "Example label"
       }
     ],
     "sizes": [
-      "XS",
-      "S"
+      "0",
+      "6"
     ],
     "sizeSkus": [
       {
-        "size": "XS",
-        "sku": "an746c5bd-q0581xs240"
+        "size": "1",
+        "sku": "a2q40c6g8-q501492974"
       },
       {
-        "size": "S",
-        "sku": "an516c3bd-q82099s021"
+        "size": "9",
+        "sku": "a2q10c5g5-q737377409"
       }
     ],
     "image": "https://img01.ztat.net/example/71618.jpg",
     "images": [
       "https://img01.ztat.net/example/32976.jpg",
-      "https://video01.ztat.net/example/83109.jpg"
+      "https://img01.ztat.net/example/83109.jpg"
     ],
     "rating": null,
     "available": true,
@@ -54,7 +58,7 @@
     "mode": "listing",
     "item": {
       "id": "Example id",
-      "sku": "an490c6bd-q99",
+      "sku": "a4q51c1g7-q62",
       "name": "Example name",
       "navigationTargetGroup": "WOMEN",
       "silhouette": "DRESS",
@@ -89,19 +93,23 @@
         {
           "gallerySmall": {
             "__typename": "Example __typename",
-            "uri": "https://video01.ztat.net/example/44324"
+            "uri": "https://img01.ztat.net/example/44324.jpg",
+            "alternativeText": "Example alternative text: mock text standing in for the real value. Same field and type, made-up content."
           },
           "galleryMedium": {
             "__typename": "Example __typename",
-            "uri": "https://video01.ztat.net/example/44324"
+            "uri": "https://img01.ztat.net/example/44324.jpg",
+            "alternativeText": "Example alternative text: mock text standing in for the real value. Same field and type, made-up content."
           },
           "galleryLarge": {
             "__typename": "Example __typename",
-            "uri": "https://video01.ztat.net/example/44324"
+            "uri": "https://img01.ztat.net/example/44324.jpg",
+            "alternativeText": "Example alternative text: mock text standing in for the real value. Same field and type, made-up content."
           },
           "galleryExtraLarge": {
             "__typename": "Example __typename",
-            "uri": "https://video01.ztat.net/example/44324"
+            "uri": "https://img01.ztat.net/example/44324.jpg",
+            "alternativeText": "Example alternative text: mock text standing in for the real value. Same field and type, made-up content."
           }
         }
       ],
@@ -119,26 +127,64 @@
         "name": "Example name"
       },
       "condition": null,
+      "displayPriceModule": {
+        "prices": [
+          {
+            "__typename": "Example __typename",
+            "block": {
+              "__typename": "Example __typename",
+              "content": [
+                {
+                  "__typename": "Example __typename",
+                  "text": "Example text",
+                  "marks": {
+                    "textColor": "sale",
+                    "typography": "Example typography",
+                    "isStrikeThrough": false,
+                    "hasSpace": true,
+                    "fontFamily": "Example font family"
+                  }
+                },
+                {
+                  "__typename": "Example __typename",
+                  "text": "Example text",
+                  "marks": {
+                    "textColor": "secondary",
+                    "typography": "Example typography",
+                    "isStrikeThrough": true,
+                    "hasSpace": false,
+                    "fontFamily": "Example font family"
+                  }
+                }
+              ],
+              "contentDescription": null
+            }
+          }
+        ],
+        "historyExplainer": null,
+        "additionalText": null,
+        "trackingKey": "Example tracking key: mock text standing in for the real value. Same field and type, made-up content."
+      },
       "displayPrice": {
-        "trackingCurrentAmount": 87,
-        "trackingDiscountAmount": 3.26,
+        "trackingCurrentAmount": 897,
+        "trackingDiscountAmount": 32.69,
         "promotional": {
-          "amount": 6414
+          "amount": 51414
         },
         "original": {
-          "amount": 6414,
+          "amount": 51414,
           "currency": "GBP"
         },
         "displayMode": null
       },
       "simples": [
         {
-          "size": "XS",
-          "sku": "an746c5bd-q0581xs240"
+          "size": "1",
+          "sku": "a2q40c6g8-q501492974"
         },
         {
-          "size": "S",
-          "sku": "an516c3bd-q82099s021"
+          "size": "9",
+          "sku": "a2q10c5g5-q737377409"
         }
       ],
       "defaultMediaInfo": {
@@ -193,6 +239,10 @@
         {
           "kind": "DEAL",
           "formatted": "Example formatted"
+        },
+        {
+          "kind": "PREMIUM",
+          "formatted": "Designer"
         }
       ],
       "uri": "https://www.zalando.co.uk/example/51919",
@@ -204,13 +254,12 @@
         "ratingAndReviews": {
           "rating": null
         }
-      },
-      "visibility": null
+      }
     },
-    "title": "Example title",
-    "wasPrice": 40.45,
-    "savingsAmount": 3.26,
-    "savingsPercent": 8,
+    "title": "Example title: mock text standing in for the real value. Same field and type, made-up content.",
+    "wasPrice": 178.49,
+    "savingsAmount": 32.69,
+    "savingsPercent": 35,
     "isOnSpecial": true,
     "promoLabel": "Example promo label",
     "specialsCategory": null

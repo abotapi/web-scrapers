@@ -1,7 +1,7 @@
 [
   {
     "kind": "event",
-    "eventId": "202964820",
+    "eventId": "948384071",
     "url": "https://www.bandsintown.com/example/84237",
     "title": "Example title",
     "datetime": "2026-01-15T10:00:00Z",
@@ -17,8 +17,8 @@
     ],
     "offers": [
       {
-        "type": "Tickets",
         "url": "https://www.bandsintown.com/example/84237",
+        "type": "Tickets",
         "status": "available"
       }
     ],

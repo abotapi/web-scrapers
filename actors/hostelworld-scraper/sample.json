@@ -1,52 +1,55 @@
 [
   {
     "type": "property",
-    "propertyId": 925,
+    "propertyId": 68425,
     "propertyName": "Example property name",
     "propertyUrl": "https://www.hostelworld.com/example/21082",
     "propertyType": "HOSTEL",
-    "address": null,
+    "address": "Example address",
     "city": "Berlin",
     "country": "Germany",
-    "continent": null,
-    "avgRating": 6.72,
-    "numberReviews": "7272",
-    "cityCenterDistanceKm": null,
-    "latitude": "55.1475423",
-    "longitude": "87.7096767",
-    "hasAvailability": null,
-    "isNew": null,
-    "intro": null,
-    "sharedMinPrice": null,
-    "privateMinPrice": null,
+    "continent": "Example continent",
+    "avgRating": 7.04,
+    "numberReviews": 6764,
+    "cityCenterDistanceKm": 1.29,
+    "latitude": "82.6705425",
+    "longitude": "44.8665462",
+    "hasAvailability": true,
+    "isNew": false,
+    "intro": "Example intro: mock text standing in for the real value. Same field and type, made-up content.",
+    "sharedMinPrice": 15.74,
+    "privateMinPrice": 26.58,
     "currency": "EUR",
     "sustainability": null,
-    "badges": [],
+    "badges": [
+      "Example badges",
+      "hoscar"
+    ],
     "imageUrls": [
       "https://a.hwstatic.com/example/24385.jpg",
       "https://a.hwstatic.com/example/62492.jpg"
     ],
     "totalImagesCount": 16,
-    "sourceMode": "propertyId",
-    "sourceQuery": null,
-    "sourceUrl": null,
+    "sourceMode": "search",
+    "sourceQuery": "Berlin",
+    "sourceUrl": "https://www.hostelworld.com/example/1360",
     "scrapedAt": "2026-01-15T10:00:00Z",
     "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
-    "hostelworldSays": null,
+    "hostelworldSays": "",
     "addressFull": "Example address full",
     "directions": "Example directions: mock text standing in for the real value. Same field and type, made-up content.",
-    "checkInFrom": 0,
-    "checkInUntil": 25,
-    "latestCheckOut": "70:61",
+    "checkInFrom": "66",
+    "checkInUntil": "61",
+    "latestCheckOut": "86:45",
     "depositPercentage": 42,
     "freeCancellation": {
       "isAvailable": true,
-      "daysInAdvance": 75
+      "daysInAdvance": 3
     },
     "cancellationPolicy": {
       "depositOnly": {
         "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
-        "numberOfDays": "97"
+        "numberOfDays": "6"
       },
       "nonRefundable": {
         "description": "Example description: mock text standing in for the real value. Same field and type, made-up content."

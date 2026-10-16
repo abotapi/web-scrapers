@@ -87,7 +87,7 @@ Full details on the [scraper page](https://apify.com/abotapi/kleinanzeigen-de-sc
 | `sellerType` | string |
 | `sellerUrl` | string |
 | `sellerActiveSince` | string |
-| `sellerOtherAdsCount` | null |
+| `sellerOtherAdsCount` | integer |
 | `imprint` | null |
 | `searchUrl` | string |
 

@@ -63,11 +63,11 @@ Full details on the [scraper page](https://apify.com/abotapi/mediamarkt-de-scrap
 | `isMarketplace` | boolean |
 | `price` | integer |
 | `currency` | string |
-| `discountAmount` | null |
-| `discountPercent` | null |
-| `originalPrice` | null |
+| `discountAmount` | integer |
+| `discountPercent` | integer |
+| `originalPrice` | integer |
 | `isOnSpecial` | boolean |
-| `strikePriceType` | null |
+| `strikePriceType` | string |
 | `shippingCost` | integer |
 | `installment` | object |
 | `image` | string |

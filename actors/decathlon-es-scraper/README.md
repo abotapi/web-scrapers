@@ -60,10 +60,10 @@ Full details on the [scraper page](https://apify.com/abotapi/decathlon-es-scrape
 | `images` | list |
 | `price` | float |
 | `currency` | string |
-| `originalPrice` | float |
-| `discountPercent` | integer |
+| `originalPrice` | null |
+| `discountPercent` | null |
 | `isOnSpecial` | boolean |
-| `saleEndsAt` | string |
+| `saleEndsAt` | null |
 | `availableSizes` | list |
 | `onlineAvailable` | boolean |
 | `seller` | object |

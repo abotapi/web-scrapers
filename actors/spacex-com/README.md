@@ -53,7 +53,7 @@ Full details on the [scraper page](https://apify.com/abotapi/spacex-com?utm_sour
 | `endDate` | null |
 | `endTime` | null |
 | `title` | string |
-| `shortTitle` | null |
+| `shortTitle` | string |
 | `link` | string |
 | `callToAction` | string |
 | `missionStatus` | string |
@@ -73,7 +73,7 @@ Full details on the [scraper page](https://apify.com/abotapi/spacex-com?utm_sour
 | `ongoingMissionImageMobile` | null |
 | `videoDesktop` | null |
 | `videoMobile` | null |
-| `override` | null |
+| `override` | object |
 | `missionId` | string |
 | `url` | string |
 | `launchDateTime` | string |

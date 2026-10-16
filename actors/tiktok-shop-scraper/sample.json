@@ -1,21 +1,21 @@
 [
   {
-    "productId": "0640895036158443448",
+    "productId": "7125065416056207006",
     "title": "Example title: mock text standing in for the real value. Same field and type, made-up content.",
     "url": "https://shop.tiktok.com/example/88621",
     "categoryPath": [
       "Example category path"
     ],
-    "price": 12.03,
+    "price": 9.9,
     "currency": "USD",
-    "originalPrice": null,
-    "discountPercent": null,
-    "soldCount": 26948,
-    "rating": 5.29,
+    "originalPrice": 11.83,
+    "discountPercent": 79,
+    "soldCount": 8948,
+    "rating": 5.8,
     "reviewCount": 937,
     "ratingHistogram": {
       "1": 98,
-      "2": 27,
+      "2": 9,
       "3": 41,
       "4": 27,
       "5": 351
@@ -30,6 +30,7 @@
       {
         "name": "Example name",
         "options": [
+          "Example options",
           "Example options"
         ]
       },
@@ -43,7 +44,7 @@
     ],
     "reviews": [
       {
-        "reviewId": "3722595582811327025",
+        "reviewId": "4422684661334637837",
         "reviewAuthor": "Example review author",
         "reviewRating": 4,
         "reviewDate": "2026-01-15",
@@ -56,23 +57,22 @@
         "verifiedPurchase": true
       },
       {
-        "reviewId": "3156152029414205633",
+        "reviewId": "5700435408849160258",
         "reviewAuthor": "Example review author",
         "reviewRating": 5,
         "reviewDate": "2026-01-15",
         "reviewBody": "Example review body: mock text standing in for the real value. Same field and type, made-up content.",
         "reviewPhotos": [
-          "https://p16-oec-general-useast5.ttcdn-us.com/example/5047.jpg",
-          "https://p16-oec-general-useast5.ttcdn-us.com/example/99862.jpg"
+          "https://p16-oec-general-useast5.ttcdn-us.com/example/5047.jpg"
         ],
         "reviewHelpfulCount": null,
         "verifiedPurchase": true
       }
     ],
     "searchMode": "browse",
-    "shopId": "7566933497485761484",
-    "sellerRating": 4.37,
-    "sellerProductCount": 987,
+    "shopId": "4589228543760778851",
+    "sellerRating": 4.58,
+    "sellerProductCount": 87,
     "sellerFollowers": 468,
     "scrapedAt": "2026-01-15T10:00:00Z"
   }

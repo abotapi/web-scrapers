@@ -17,7 +17,7 @@ python example.py
 ```bash
 curl -s -X POST "https://api.apify.com/v2/acts/abotapi~truthsocial-com-scraper/run-sync-get-dataset-items?token=$APIFY_TOKEN" \
   -H 'Content-Type: application/json' \
-  -d '{"startUrls": [{"url": "https://truthsocial.com/@realDonaldTrump"}], "profileContentType": "postsAndReplies", "maxItems": 10, "maxPages": 1, "countryCode": "US", "proxyConfiguration": {"useApifyProxy": true, "apifyProxyGroups": ["RESIDENTIAL"]}}'
+  -d '{"startUrls": [{"url": "https://truthsocial.com/@realDonaldTrump"}, {"url": "https://truthsocial.com/@realDonaldTrump/with_replies"}, {"url": "https://truthsocial.com/@realDonaldTrump/media"}, {"url": "https://truthsocial.com/@realDonaldTrump/posts/116813202769287423"}, {"url": "https://truthsocial.com/@realDonaldTrump/116813202769287423"}, {"url": "https://truthsocial.com/users/realDonaldTrump/statuses/116813202769287423"}, {"url": "https://truthsocial.com/group/wine-with-devin-nunes"}, {"url": "https://truthsocial.com/group/wine-with-devin-nunes/posts/117121586897225540"}], "profileContentType": "postsAndReplies", "maxItems": 10, "maxPages": 1, "countryCode": "US", "proxyConfiguration": {"useApifyProxy": true, "apifyProxyGroups": ["RESIDENTIAL"]}}'
 ```
 
 ## Inputs
@@ -25,13 +25,19 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~truthsocial-com-scraper/r
 | Input | Type | What it is |
 | --- | --- | --- |
 | `startUrls` | array | Profile or post URLs |
+| `usernames` | array | Usernames (alternative to pasting URLs |
 | `profileContentType` | string | Profile content |
 | `maxPostsPerProfile` | integer | Max posts/replies per profile |
+| `onlyMedia` | boolean | Only posts with media |
+| `includeReblogs` | boolean | Include reposts (ReTruths) |
+| `postsNewerThan` | string | Posts newer than |
+| `startFromId` | string | Start from post ID |
 | `maxItems` | integer | Max items |
 | `maxPages` | integer | Max pages |
 | `includeRaw` | boolean | Include source objects |
 | `countryCode` | string | Residential country code |
 | `proxyConfiguration` | object | Proxy configuration |
+| `peek` | boolean | Peek (incremental mode only) |
 
 `*` required
 
@@ -44,7 +50,7 @@ Full details on the [scraper page](https://apify.com/abotapi/truthsocial-com-scr
 | Field | Type |
 | --- | --- |
 | `recordType` | string |
-| `sourceQuery` | null |
+| `sourceQuery` | string |
 | `postId` | string |
 | `id` | string |
 | `uri` | string |
@@ -53,7 +59,7 @@ Full details on the [scraper page](https://apify.com/abotapi/truthsocial-com-scr
 | `contentHtml` | string |
 | `createdAt` | string |
 | `editedAt` | null |
-| `language` | string |
+| `language` | null |
 | `repliesCount` | integer |
 | `reTruthsCount` | integer |
 | `likesCount` | integer |
@@ -71,9 +77,9 @@ Full details on the [scraper page](https://apify.com/abotapi/truthsocial-com-scr
 | `tags` | list |
 | `mentions` | list |
 | `poll` | null |
-| `card` | object |
-| `cardUrl` | string |
-| `cardTitle` | string |
+| `card` | null |
+| `cardUrl` | null |
+| `cardTitle` | null |
 | `authorId` | string |
 | `authorUsername` | string |
 | `authorAcct` | string |

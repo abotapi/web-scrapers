@@ -12,8 +12,9 @@ client = ApifyClient(os.environ["APIFY_TOKEN"])
 
 run = client.actor("abotapi/shein-product-scraper").call(
     run_input={
-        "urls": ["https://au.shein.com/RecommendSelection/Women-Clothing-sc-017172961.html"],
+        "urls": ["https://au.shein.com/RecommendSelection/Women-Clothing-sc-017172961.html", "https://au.shein.com/RecommendSelection/Home-Kitchen-sc-017185546.html", "https://au.shein.com/pdsearch/summer%20dress/", "https://au.shein.com/Women-Dresses-c-1727.html"],
         "storefront": "au",
+        "sortBy": "relevance",
         "maxItems": 10,
         "maxPages": 1,
         "proxy": {"useApifyProxy": True, "apifyProxyGroups": ["RESIDENTIAL"]},

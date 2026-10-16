@@ -70,11 +70,11 @@ Full details on the [scraper page](https://apify.com/abotapi/chrono24-scraper?ut
 | `location` | string |
 | `sellerCountry` | string |
 | `sellerUsername` | string |
-| `merchantCountry` | string |
+| `merchantCountry` | null |
 | `certificationStatus` | string |
 | `isDeal` | boolean |
 | `scopeOfDelivery` | string |
-| `gender` | null |
+| `gender` | string |
 | `productType` | string |
 | `marketingType` | string |
 | `collectionId` | integer |

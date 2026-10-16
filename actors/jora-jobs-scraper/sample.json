@@ -20,7 +20,7 @@
     "page": 6,
     "abstract": "Example abstract: mock text standing in for the real value. Same field and type, made-up content.",
     "snippetBullets": [
-      "Example snippet bullets: mock text standing in for the real value. Same field and type, made-up content.",
+      "Example snippet bullets",
       "Example snippet bullets: mock text standing in for the real value. Same field and type, made-up content."
     ],
     "descriptionHtml": "Example description html: mock text standing in for the real value. Same field and type, made-up content.",

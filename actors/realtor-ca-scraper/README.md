@@ -24,25 +24,26 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~realtor-ca-scraper/run-sy
 
 | Input | Type | What it is |
 | --- | --- | --- |
-| `mode` | string | 1. Search mode |
+| `mode` | string | Search mode |
 | `locations` | array | Locations to search |
-| `listingType` | string | Listing Type |
-| `propertySearchCategory` | string | Property Category |
-| `buildingTypeFilter` | string | Building Type Filter |
-| `priceMin` | integer | Minimum Price |
-| `priceMax` | integer | Maximum Price |
-| `bedroomsMin` | integer | Minimum Bedrooms |
-| `bedroomsMax` | integer | Maximum Bedrooms |
-| `bathroomsMin` | integer | Minimum Bathrooms |
-| `sortBy` | string | Sort Order |
-| `soldWithinDays` | string | Sold in Last |
-| `openHouseOnly` | boolean | Open House Only |
+| `listingType` | string | Listing type (buy / rent) |
+| `propertySearchCategory` | string | Property category |
+| `buildingTypeFilter` | string | Building type |
+| `priceMin` | integer | Minimum price |
+| `priceMax` | integer | Maximum price |
+| `bedroomsMin` | integer | Minimum bedrooms |
+| `bedroomsMax` | integer | Maximum bedrooms |
+| `bathroomsMin` | integer | Minimum bathrooms |
+| `sortBy` | string | Sort order |
+| `soldWithinDays` | string | Sold within last |
+| `openHouseOnly` | boolean | Open houses only |
 | `keywords` | string | Keywords |
-| `urls` | array | Search URLs |
-| `maxListings` | integer | Maximum Listings |
-| `maxPages` | integer | Maximum Pages per Location |
+| `urls` | array | Search page URLs |
+| `maxListings` | integer | Maximum listings |
+| `maxPages` | integer | Maximum pages per location |
+| `simplifyOutput` | boolean | Flat output (simplify) |
+| `resumeFromCheckpoint` | boolean | Resume from checkpoint |
 | `proxyConfiguration` | object | Proxy configuration |
-| `resumeFromCheckpoint` | boolean | Resume from Checkpoint |
 
 `*` required
 
@@ -64,6 +65,11 @@ Full details on the [scraper page](https://apify.com/abotapi/realtor-ca-scraper?
 | `ownershipType` | string |
 | `dateListed` | string |
 | `timeOnRealtor` | string |
+| `communityName` | string |
+| `statusId` | integer |
+| `uploadedBy` | string |
+| `urlFr` | string |
+| `photosUpdatedAt` | string |
 | `address` | object |
 | `coordinates` | object |
 | `price` | object |

@@ -14,6 +14,8 @@ run = client.actor("abotapi/tiktok-comments-scraper").call(
     run_input={
         "mode": "videos",
         "usernames": ["tiktok"],
+        "profileSorting": "latest",
+        "profileScrapeSections": ["videos"],
         "proxyTier": "datacenter",
         "proxy": {"useApifyProxy": True},
     },

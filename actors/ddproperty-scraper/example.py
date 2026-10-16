@@ -16,6 +16,8 @@ run = client.actor("abotapi/ddproperty-scraper").call(
         "listing_type": "sale",
         "sort": "date",
         "sort_order": "desc",
+        "country": "th",
+        "maxItems": 10,
         "proxy": {"useApifyProxy": True, "apifyProxyGroups": ["RESIDENTIAL"], "apifyProxyCountry": "TH"},
     },
     logger=None,  # don't stream the run log to your console

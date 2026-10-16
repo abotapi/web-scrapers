@@ -1,19 +1,19 @@
 [
   {
-    "productId": "9437838",
+    "productId": "1445820",
     "ean": null,
     "url": "https://www.darty.com/example/55081",
     "image": "https://image.darty.com/example/65639.jpg",
     "name": "Example name",
     "brand": "Proline",
     "category": "Example category",
-    "price": 57.59,
+    "price": 86.39,
     "currency": "EUR",
     "originalPrice": null,
     "discountAmount": null,
     "discountPercent": null,
     "isOnSpecial": false,
-    "promoLabel": "Example promo label",
+    "promoLabel": null,
     "rating": null,
     "reviewCount": 0,
     "inStock": true,
@@ -25,54 +25,6 @@
       "recommendPercent": null,
       "criteria": [],
       "items": []
-    }
-  },
-  {
-    "productId": "0071559",
-    "ean": null,
-    "url": "https://www.darty.com/example/16574",
-    "image": "https://image.darty.com/example/64211.jpg",
-    "name": "Example name",
-    "brand": "Tcl",
-    "category": "Example category",
-    "price": 597,
-    "currency": "EUR",
-    "originalPrice": 760,
-    "discountAmount": 91,
-    "discountPercent": 29,
-    "isOnSpecial": true,
-    "promoLabel": "Example promo label",
-    "rating": 9,
-    "reviewCount": 4,
-    "inStock": true,
-    "condition": "new",
-    "seller": "Example seller",
-    "reviews": {
-      "averageRating": 7,
-      "totalReviewCount": 6,
-      "recommendPercent": 834,
-      "criteria": [
-        {
-          "name": "Example name",
-          "score": 9
-        },
-        {
-          "name": "Example name",
-          "score": 4
-        }
-      ],
-      "items": [
-        {
-          "rating": 9,
-          "title": "Example title",
-          "body": "Example body",
-          "author": "Example author",
-          "level": "Example level",
-          "postedDate": "76/09/3817",
-          "purchaseDate": "68/36/8576",
-          "purchaseStore": null
-        }
-      ]
     }
   }
 ]

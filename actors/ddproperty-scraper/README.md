@@ -17,14 +17,14 @@ python example.py
 ```bash
 curl -s -X POST "https://api.apify.com/v2/acts/abotapi~ddproperty-scraper/run-sync-get-dataset-items?token=$APIFY_TOKEN" \
   -H 'Content-Type: application/json' \
-  -d '{"mode": "search", "listing_type": "sale", "sort": "date", "sort_order": "desc", "proxy": {"useApifyProxy": true, "apifyProxyGroups": ["RESIDENTIAL"], "apifyProxyCountry": "TH"}}'
+  -d '{"mode": "search", "listing_type": "sale", "sort": "date", "sort_order": "desc", "country": "th", "maxItems": 10, "proxy": {"useApifyProxy": true, "apifyProxyGroups": ["RESIDENTIAL"], "apifyProxyCountry": "TH"}}'
 ```
 
 ## Inputs
 
 | Input | Type | What it is |
 | --- | --- | --- |
-| `mode` * | string | 1. Search mode |
+| `mode` | string | 1. Search mode |
 | `listing_type` | string | Listing type (Search mode) |
 | `property_type` | string | Property type (Search mode) |
 | `search` | string | Location search (Search mode) |
@@ -35,6 +35,14 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~ddproperty-scraper/run-sy
 | `sort` | string | Sort by (Search mode) |
 | `sort_order` | string | Sort order (Search mode) |
 | `urls` | array | Search URLs (URL mode) |
+| `startUrls` | array | Start URLs (same as Search URLs) |
+| `searchQueries` | array | Search queries (one search per entry) |
+| `country` | string | Country |
+| `listingType` | string | Listing type (alias of listing_type) |
+| `propertyType` | string | Property type (alias of property_type) |
+| `minPrice` | integer | Min price, THB (alias of min_price) |
+| `maxPrice` | integer | Max price, THB (alias of max_price) |
+| `maxItems` | integer | Max items (alias of max_properties) |
 | `max_properties` | integer | Max properties |
 | `enable_detail_pages` | boolean | Fetch detail pages |
 | `detail_concurrency` | integer | Detail page concurrency |

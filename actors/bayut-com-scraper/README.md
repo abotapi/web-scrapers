@@ -17,7 +17,7 @@ python example.py
 ```bash
 curl -s -X POST "https://api.apify.com/v2/acts/abotapi~bayut-com-scraper/run-sync-get-dataset-items?token=$APIFY_TOKEN" \
   -H 'Content-Type: application/json' \
-  -d '{"mode": "search", "locations": ["dubai"], "purpose": "for-sale", "propertyType": "property", "furnishing": "any", "completionStatus": "any", "rentFrequency": "any", "sortBy": "popular", "maxPages": 1, "maxListings": 10, "proxy": {"useApifyProxy": true, "apifyProxyGroups": ["RESIDENTIAL"], "apifyProxyCountry": "AE"}}'
+  -d '{"mode": "search", "market": "uae", "searchFor": "listings", "locations": ["dubai"], "purpose": "for-sale", "propertyType": "property", "furnishing": "any", "completionStatus": "any", "rentFrequency": "any", "sortBy": "popular", "maxPages": 1, "maxListings": 10, "proxy": {"useApifyProxy": true, "apifyProxyGroups": ["RESIDENTIAL"], "apifyProxyCountry": "AE"}}'
 ```
 
 ## Inputs
@@ -25,19 +25,32 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~bayut-com-scraper/run-syn
 | Input | Type | What it is |
 | --- | --- | --- |
 | `mode` * | string | 1. Search mode |
+| `market` | string | Country site |
+| `searchFor` | string | What to collect (Search mode) |
 | `locations` | array | Cities / areas to search |
+| `agentName` | string | Agent name contains (Agents only) |
 | `purpose` | string | Buy or rent (Search mode) |
 | `propertyType` | string | Property type (Search mode) |
+| `propertyTypes` | array | Property types (multi-select, override |
 | `minPrice` | integer | Min price (AED) |
 | `maxPrice` | integer | Max price (AED) |
 | `minBedrooms` | integer | Min bedrooms |
 | `maxBedrooms` | integer | Max bedrooms |
+| `minBathrooms` | integer | Min bathrooms |
+| `maxBathrooms` | integer | Max bathrooms |
 | `minArea` | integer | Min area (sqft) |
 | `maxArea` | integer | Max area (sqft) |
 | `furnishing` | string | Furnishing (Search mode) |
 | `completionStatus` | string | Completion status (Search mode) |
 | `rentFrequency` | string | Rent frequency (Rent only) |
 | `verifiedOnly` | boolean | TruCheck verified only (Search mode) |
+| `keywords` | array | Keywords (amenities, views, features) |
+| `agencyIds` | array | Only these agencies |
+| `agentIds` | array | Only these agents |
+| `developerIds` | array | Only these developers |
+| `hasVideo` | boolean | Has a video |
+| `has360Tour` | boolean | Has a 360 tour |
+| `hasFloorPlan` | boolean | Has a floor plan |
 | `sortBy` | string | Sort order (Search mode) |
 | `urls` | array | Search URLs (URL mode) |
 | `maxPages` | integer | Max result pages per location/URL |
@@ -55,6 +68,8 @@ Full details on the [scraper page](https://apify.com/abotapi/bayut-com-scraper?u
 
 | Field | Type |
 | --- | --- |
+| `recordType` | string |
+| `market` | string |
 | `externalID` | string |
 | `id` | integer |
 | `objectID` | string |
@@ -93,8 +108,6 @@ Full details on the [scraper page](https://apify.com/abotapi/bayut-com-scraper?u
 | `locationPurposeTier` | integer |
 | `isVerified` | boolean |
 | `verificationStatus` | string |
-| `verifiedAt` | integer |
-| `trucheckedAt` | null |
 
 ---
 

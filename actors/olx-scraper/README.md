@@ -17,7 +17,7 @@ python example.py
 ```bash
 curl -s -X POST "https://api.apify.com/v2/acts/abotapi~olx-scraper/run-sync-get-dataset-items?token=$APIFY_TOKEN" \
   -H 'Content-Type: application/json' \
-  -d '{"mode": "search", "country": "pl", "sortBy": "default", "maxListings": 10, "maxPages": 1, "proxyConfiguration": {"useApifyProxy": true}}'
+  -d '{"mode": "search", "country": "pl", "sortBy": "default", "condition": "any", "sellerFilter": "any", "maxListings": 10, "maxPages": 1, "proxyConfiguration": {"useApifyProxy": true}}'
 ```
 
 ## Inputs
@@ -29,12 +29,17 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~olx-scraper/run-sync-get-
 | `country` | string | Country |
 | `query` | string | Search query (free text) |
 | `categoryId` | integer | Category ID |
+| `categoryName` | string | Category name |
 | `cityId` | integer | City ID (Pattern A only) |
+| `cityName` | string | City name |
 | `locationId` | integer | Location ID (India only) |
 | `priceMin` | integer | Minimum price |
 | `priceMax` | integer | Maximum price |
 | `sortBy` | string | Sort order |
 | `extraFilters` | object | Extra filters (advanced passthrough) |
+| `condition` | string | Condition |
+| `sellerFilter` | string | Seller type |
+| `fetchPhone` | boolean | Fetch seller phone number |
 | `fetchDetails` | boolean | Fetch full details per listing |
 | `maxListings` | integer | Maximum listings |
 | `maxPages` | integer | Maximum pages per search |
@@ -83,11 +88,11 @@ Full details on the [scraper page](https://apify.com/abotapi/olx-scraper?utm_sou
 | `sellerTag` | null |
 | `sellerLogo` | null |
 | `sellerCreatedAt` | string |
-| `sellerLastLogin` | null |
+| `sellerLastLogin` | string |
 | `sellerOtherAdsEnabled` | boolean |
 | `kycVerified` | null |
 | `businessFlag` | boolean |
-| `partnerCode` | string |
+| `partnerCode` | null |
 | `shopId` | null |
 | `hasPhone` | boolean |
 

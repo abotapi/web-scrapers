@@ -1,12 +1,12 @@
 [
   {
     "kind": "posting",
-    "recordId": "7266694149",
-    "postingId": "2395382622",
-    "postingUuid": "stu8zyexpykgme3cgdiyax",
+    "recordId": "8961236061",
+    "postingId": "4010143072",
+    "postingUuid": "2ui6gbkjgnznfp6e5jdekx",
     "title": "Example title",
     "url": "https://www.craigslist.org/example/44066",
-    "price": 181,
+    "price": 91,
     "priceString": "Example price string",
     "currency": "USD",
     "categoryId": 355,
@@ -16,17 +16,25 @@
     "cityHost": "sfbay",
     "cityName": "Example city name",
     "areaId": 1,
-    "subareaAbbr": "sfc",
+    "subareaAbbr": "sby",
     "locationDescription": "Example location description",
     "neighborhood": "Example neighborhood",
-    "latitude": 37.37,
-    "longitude": -142.0,
+    "latitude": 36.91,
+    "longitude": -141.32,
     "detailLoaded": false,
-    "seoSlug": "id27526594",
+    "seoSlug": "Example seo slug",
     "imageUrls": [
       "https://images.craigslist.org/example/22005.jpg",
       "https://images.craigslist.org/example/69486.jpg"
     ],
-    "imageCount": 7
+    "imageCount": 7,
+    "id": "2431762524",
+    "datetime": "2026-01-15T10:00:00Z",
+    "location": "Example location",
+    "category": "Example category",
+    "label": null,
+    "post": null,
+    "mapAccuracy": null,
+    "phoneNumbers": null
   }
 ]

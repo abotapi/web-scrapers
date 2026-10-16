@@ -65,9 +65,9 @@ Full details on the [scraper page](https://apify.com/abotapi/eventim-de-event-sc
 | `venuePostalCode` | null |
 | `venueCountry` | null |
 | `venueUrl` | null |
-| `priceFrom` | float |
+| `priceFrom` | null |
 | `priceHigh` | null |
-| `priceCurrency` | string |
+| `priceCurrency` | null |
 | `priceTiers` | null |
 | `ticketAvailability` | string |
 | `promoterName` | string |

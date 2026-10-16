@@ -14,8 +14,10 @@ run = client.actor("abotapi/wine-searcher-scraper").call(
     run_input={
         "inputType": "auto",
         "wineNames": ["Domaine Leflaive Puligny-Montrachet Les Pucelles 2020", "Petrus 2015"],
-        "urls": ["https://www.wine-searcher.com/find/petrus/2015"],
+        "urls": ["https://www.wine-searcher.com/find/petrus/2015", "https://www.wine-searcher.com/find/lwin11316442021"],
         "lwins": ["11316442021", "11084042019", "1131644"],
+        "targetCurrency": "USD",
+        "maxReviewsPerWine": 10,
         "maxItems": 10,
         "proxy": {"useApifyProxy": True, "apifyProxyGroups": ["RESIDENTIAL"], "apifyProxyCountry": "FR"},
     },

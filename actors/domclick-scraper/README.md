@@ -63,7 +63,7 @@ Full details on the [scraper page](https://apify.com/abotapi/domclick-scraper?ut
 | `squarePrice` | integer |
 | `monthlyPayment` | integer |
 | `currency` | string |
-| `area` | integer |
+| `area` | float |
 | `rooms` | integer |
 | `roomsOffered` | integer |
 | `floor` | integer |

@@ -17,7 +17,7 @@ python example.py
 ```bash
 curl -s -X POST "https://api.apify.com/v2/acts/abotapi~batdongsan-com-vn-scraper/run-sync-get-dataset-items?token=$APIFY_TOKEN" \
   -H 'Content-Type: application/json' \
-  -d '{"mode": "search", "listingType": "Buy", "propertyType": "Apartment", "locations": ["tp-hcm"], "maxPages": 1, "maxListings": 10, "proxy": {"useApifyProxy": true, "apifyProxyGroups": ["RESIDENTIAL"], "apifyProxyCountry": "VN"}}'
+  -d '{"mode": "search", "listingType": "Buy", "propertyType": "Apartment", "locations": ["tp-hcm"], "sortBy": "Default", "maxPages": 1, "maxListings": 10, "proxy": {"useApifyProxy": true, "apifyProxyGroups": ["RESIDENTIAL"], "apifyProxyCountry": "VN"}}'
 ```
 
 ## Inputs
@@ -28,6 +28,15 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~batdongsan-com-vn-scraper
 | `listingType` | string | Buy or rent (Search mode) |
 | `propertyType` | string | Property type (Search mode) |
 | `locations` | array | Cities / provinces to search (Search m |
+| `minPrice` | integer | Min price (VND) |
+| `maxPrice` | integer | Max price (VND) |
+| `negotiablePriceOnly` | boolean | Only negotiable-price listings |
+| `minArea` | integer | Min area (m²) |
+| `maxArea` | integer | Max area (m²) |
+| `bedrooms` | array | Bedrooms |
+| `directions` | array | House-facing direction |
+| `keyword` | string | Keyword |
+| `sortBy` | string | Sort by |
 | `urls` | array | Search URLs (URL mode) |
 | `maxPages` | integer | Max pages per search |
 | `maxListings` | integer | Max total listings |
@@ -53,15 +62,15 @@ Full details on the [scraper page](https://apify.com/abotapi/batdongsan-com-vn-s
 | `priceValue` | integer |
 | `priceUnit` | string |
 | `pricePerM2` | integer |
-| `area` | float |
+| `area` | integer |
 | `bedrooms` | integer |
 | `bathrooms` | integer |
-| `direction` | string |
-| `balconyDirection` | string |
+| `direction` | null |
+| `balconyDirection` | null |
 | `furniture` | string |
 | `locationText` | string |
 | `city` | string |
-| `district` | null |
+| `district` | string |
 | `ward` | string |
 | `latitude` | float |
 | `longitude` | float |
@@ -82,7 +91,8 @@ Full details on the [scraper page](https://apify.com/abotapi/batdongsan-com-vn-s
 | `specs` | object |
 | `imageCount` | integer |
 | `images` | list |
-| `scrapedAt` | string |
+| `areaText` | string |
+| `currency` | string |
 
 ---
 

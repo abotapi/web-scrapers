@@ -27,6 +27,7 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~mercari-jp-scraper/run-sy
 | `mode` * | string | Search Mode |
 | `queries` | array | Search Keywords |
 | `status` | string | Item Status |
+| `statuses` | array | Item Statuses (multi-select) |
 | `sortBy` | string | Sort By |
 | `minPrice` | integer | Min Price () |
 | `maxPrice` | integer | Max Price () |
@@ -55,45 +56,33 @@ Full details on the [scraper page](https://apify.com/abotapi/mercari-jp-scraper?
 | Field | Type |
 | --- | --- |
 | `id` | string |
-| `itemType` | string |
 | `url` | string |
-| `name` | string |
-| `price` | integer |
-| `currency` | string |
-| `status` | string |
-| `itemCondition` | string |
-| `itemConditionId` | string |
-| `categoryId` | string |
-| `shippingMethodId` | string |
-| `shippingPayer` | string |
-| `shippingPayerId` | string |
-| `thumbnail` | string |
-| `thumbnails` | list |
-| `photos` | list |
-| `isLiked` | boolean |
-| `isNoPrice` | boolean |
+| `kind` | string |
+| `subject` | string |
+| `fame` | string |
+| `message` | string |
 | `createdAtTs` | integer |
-| `updatedAtTs` | integer |
 | `createdAt` | string |
-| `updatedAt` | string |
+| `pagerId` | string |
+| `raterId` | string |
+| `raterName` | string |
+| `raterPhotoUrl` | string |
+| `raterPhotoThumbnailUrl` | string |
 | `sellerId` | string |
-| `shopName` | null |
-| `itemBrandId` | null |
-| `itemBrandName` | null |
-| `description` | null |
-| `metaTitle` | null |
-| `metaSubtitle` | null |
-| `numLikes` | null |
-| `numComments` | null |
-| `comments` | null |
-| `hashtags` | null |
-| `registeredPricesCount` | null |
-| `itemConditionSubname` | null |
-| `itemBrandSubName` | null |
-| `categoryName` | null |
-| `categoryParentId` | null |
-| `categoryParentName` | null |
-| `categoryRootId` | null |
+| `sellerProfileUrl` | string |
+| `sellerName` | string |
+| `sellerIntroduction` | string |
+| `sellerScore` | integer |
+| `sellerNumRatings` | integer |
+| `sellerStarRating` | integer |
+| `sellerRatingsGood` | integer |
+| `sellerRatingsNormal` | integer |
+| `sellerRatingsBad` | integer |
+| `sellerFollowerCount` | integer |
+| `sellerFollowingCount` | integer |
+| `sellerIsOfficial` | boolean |
+| `sellerPhotoUrl` | string |
+| `sellerPhotoThumbnailUrl` | string |
 
 ---
 

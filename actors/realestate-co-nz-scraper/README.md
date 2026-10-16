@@ -38,8 +38,8 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~realestate-co-nz-scraper/
 | `urls` | array | Search List URLs |
 | `maxListings` | integer | Maximum Listings |
 | `outputFormat` | array | Output Formats |
-| `resumeFromCheckpoint` | boolean | Resume from checkpoint |
 | `proxyConfiguration` | object | Proxy configuration |
+| `resumeFromCheckpoint` | boolean | Resume from checkpoint |
 
 `*` required
 
@@ -68,8 +68,8 @@ Full details on the [scraper page](https://apify.com/abotapi/realestate-co-nz-sc
 | `floorPlans` | list |
 | `agents` | list |
 | `office` | object |
-| `location` | object |
-| `schools` | list |
+| `offices` | list |
+| `openHomes` | list |
 | `publishedDate` | string |
 | `createdDate` | string |
 | `isFeatured` | boolean |

@@ -14,8 +14,12 @@ run = client.actor("abotapi/naukri-com-scraper").call(
     run_input={
         "mode": "search",
         "keywords": ["python developer"],
+        "sortBy": "relevance",
+        "freshness": "any",
+        "postedBy": "any",
         "maxItems": 10,
         "maxPages": 1,
+        "maxReviewsPerJob": 10,
         "proxyConfiguration": {"useApifyProxy": True},
     },
     logger=None,  # don't stream the run log to your console

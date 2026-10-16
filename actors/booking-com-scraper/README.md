@@ -85,7 +85,7 @@ Full details on the [scraper page](https://apify.com/abotapi/booking-com-scraper
 | `reviewScore` | float |
 | `reviewScoreLabel` | string |
 | `reviewCount` | integer |
-| `secondaryReviewScore` | float |
+| `secondaryReviewScore` | integer |
 | `externalReviewScore` | null |
 | `externalReviewCount` | null |
 | `address` | string |
@@ -104,7 +104,7 @@ Full details on the [scraper page](https://apify.com/abotapi/booking-com-scraper
 | `price` | object |
 | `rooms` | list |
 | `matchedUnit` | object |
-| `mealPlanIncluded` | null |
+| `mealPlanIncluded` | string |
 | `freeCancellation` | boolean |
 
 ---

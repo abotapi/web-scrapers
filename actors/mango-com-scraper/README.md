@@ -67,6 +67,15 @@ Full details on the [scraper page](https://apify.com/abotapi/mango-com-scraper?u
 | `isOnSpecial` | boolean |
 | `promoLabel` | null |
 | `image` | string |
+| `site` | string |
+| `isSale` | boolean |
+| `color` | string |
+| `rating` | null |
+| `ratingCount` | integer |
+| `sizes` | list |
+| `galleryImages` | list |
+| `details` | object |
+| `scrapedAt` | string |
 
 ---
 

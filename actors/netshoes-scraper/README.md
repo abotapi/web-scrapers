@@ -73,7 +73,7 @@ Full details on the [scraper page](https://apify.com/abotapi/netshoes-scraper?ut
 | `priceBeforePaymentDiscount` | float |
 | `paymentMethod` | null |
 | `paymentMethodPrice` | null |
-| `discountAmount` | float |
+| `discountAmount` | integer |
 | `discountPercent` | integer |
 | `onSale` | boolean |
 | `installments` | object |

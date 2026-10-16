@@ -2,16 +2,18 @@
   {
     "type": "news",
     "id": "id5825056",
-    "name": "Example name",
-    "title": "Example title",
-    "lead": null,
-    "source": "SI",
+    "name": "Example name: mock text standing in for the real value. Same field and type, made-up content.",
+    "title": "Example title: mock text standing in for the real value. Same field and type, made-up content.",
+    "lead": "Example lead: mock text standing in for the real value. Same field and type, made-up content.",
+    "source": "FotMob",
     "sourceIconUrl": "https://images.fotmob.com/example/79465.jpg",
-    "imageUrl": "https://images2.minutemediacdn.com/example/14602.jpg",
+    "imageUrl": "https://images.performgroup.com/example/14602.jpg",
     "publishedAt": "2026-01-15T10:00:00Z",
     "language": "en",
     "url": "https://www.fotmob.com/example/31778",
     "matchUrl": "https://www.fotmob.com/example/25954",
-    "scrapedAt": "2026-01-15T10:00:00Z"
+    "scrapedAt": "2026-01-15T10:00:00Z",
+    "bodyHtml": "Example body html: mock text standing in for the real value. Same field and type, made-up content.",
+    "bodyText": "Example body text: mock text standing in for the real value. Same field and type, made-up content."
   }
 ]

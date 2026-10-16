@@ -1,6 +1,6 @@
 [
   {
-    "jobId": "7210665",
+    "jobId": "7426087",
     "jobUrl": "https://wellfound.com/example/21417",
     "jobSlug": "Example job slug",
     "jobTitle": "Example job title",
@@ -15,6 +15,7 @@
     "hasCompensation": true,
     "hasEquity": false,
     "locations": [
+      "Example locations",
       "Example locations"
     ],
     "acceptedRemoteLocations": [],

@@ -1,45 +1,40 @@
 [
   {
-    "productId": "448811720",
+    "productId": "215082587",
     "goodsId": 747623565,
-    "goodsCode": "305136290",
+    "goodsCode": "046623952",
     "goodsDetailId": 837397635,
-    "name": "Example name: mock text standing in for the real value. Same field and type, made-up content.",
+    "name": "Example name",
     "url": "https://zozo.jp/example/58712",
     "category": "Example category",
     "brandId": 24302,
-    "brand": "Example brand",
+    "brand": "CENEA",
     "brandNameJp": "Example brand name jp",
     "shopId": 9129,
     "shopName": "Example shop name",
     "shopNameJp": null,
-    "shopSlug": "Example shop slug",
+    "shopSlug": "junoah",
     "price": 2837,
-    "originalPrice": null,
-    "discountPercent": null,
+    "originalPrice": 2368,
+    "discountPercent": 73,
     "currency": "JPY",
-    "isOnSale": false,
-    "isTimeSale": false,
+    "isOnSale": true,
+    "isTimeSale": true,
     "isSoldOut": false,
     "isPromoted": true,
-    "colorId": 97,
+    "colorId": 7,
     "colorName": "Example color name",
     "colorCount": 1,
     "colorVariants": [
       {
-        "colorId": 97,
+        "colorId": 7,
         "colorName": "Example color name",
         "imageUrl": "https://c.imgz.jp/example/66228.jpg"
-      },
-      {
-        "colorId": 2,
-        "colorName": "Example color name",
-        "imageUrl": "https://c.imgz.jp/example/14826.jpg"
       }
     ],
     "image": "https://c.imgz.jp/example/29395.jpg",
     "thumbnail": "https://c.imgz.jp/example/31448.jpg",
     "hasMultipleSizes": false,
-    "hasCoupon": true
+    "hasCoupon": false
   }
 ]

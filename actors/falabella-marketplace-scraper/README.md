@@ -55,7 +55,7 @@ Full details on the [scraper page](https://apify.com/abotapi/falabella-marketpla
 | `price` | integer |
 | `priceDisplay` | string |
 | `oldPrice` | integer |
-| `discountPercent` | integer |
+| `discountPercent` | null |
 | `ratingAverage` | float |
 | `ratingCount` | integer |
 | `sellerId` | string |

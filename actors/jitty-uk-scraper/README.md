@@ -75,6 +75,7 @@ Full details on the [scraper page](https://apify.com/abotapi/jitty-uk-scraper?ut
 | `latitude` | float |
 | `longitude` | float |
 | `location_source` | string |
+| `lease_years_remaining` | integer |
 | `estate_agent` | string |
 | `features` | list |
 

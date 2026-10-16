@@ -15,6 +15,7 @@ run = client.actor("abotapi/furnishedfinder-scraper").call(
         "mode": "search",
         "locations": ["Houston, TX"],
         "propertyTypeClass": "any",
+        "maxReviewsPerListing": 10,
         "maxPages": 1,
         "maxListings": 10,
         "proxy": {"useApifyProxy": True, "apifyProxyGroups": ["RESIDENTIAL"], "apifyProxyCountry": "US"},

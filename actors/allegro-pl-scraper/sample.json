@@ -1,10 +1,10 @@
 [
   {
-    "offerId": "66805953377",
-    "title": "Example title",
+    "offerId": "51406935146",
+    "title": "Example title: mock text standing in for the real value. Same field and type, made-up content.",
     "brand": null,
     "url": "https://allegro.pl/example/98541",
-    "price": 35.84,
+    "price": 57.72,
     "currency": "PLN",
     "originalPrice": null,
     "deliveryInfo": "Example delivery info",
@@ -16,20 +16,21 @@
     "smart": true,
     "sellerName": "Example seller name",
     "sellerBusiness": true,
-    "sellerFeedbackPercent": 108.79,
+    "sellerFeedbackPercent": 109.45,
     "superSeller": true,
-    "category": "46078",
+    "category": "37057",
     "parameters": {
-      "Kolor": "Example kolor",
-      "Liczba urządzeń ładowanych jednocześnie": "8",
-      "Długość przewodu": "Example długość przewodu"
+      "Typ": "Example typ",
+      "Grubość szkła": "Example grubość szkła",
+      "Przeznaczenie": "Example przeznaczenie",
+      "Zestaw do aplikacji": "tak"
     },
     "image": "https://a.allegroimg.com/example/38664.jpg",
     "images": [
       "https://a.allegroimg.com/example/31780.jpg",
       "https://a.allegroimg.com/example/603.jpg"
     ],
-    "ratingValue": 3.69,
+    "ratingValue": 3.73,
     "ratingCount": 550,
     "offerCount": 9,
     "hasVariants": false,

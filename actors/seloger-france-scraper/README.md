@@ -27,6 +27,7 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~seloger-france-scraper/ru
 | `mode` * | string | 1. Search mode |
 | `locations` | array | Locations to search |
 | `distributionType` | string | Transaction Type |
+| `privateSellerOnly` | boolean | Private sellers only |
 | `estateTypes` | array | Property Types |
 | `priceMin` | integer | Min Price (EUR) |
 | `priceMax` | integer | Max Price (EUR) |
@@ -57,16 +58,22 @@ Full details on the [scraper page](https://apify.com/abotapi/seloger-france-scra
 | `description` | string |
 | `price` | string |
 | `price_numeric` | integer |
+| `price_per_m2` | string |
 | `currency` | string |
 | `distribution_type` | string |
 | `property_type` | string |
 | `property_type_label` | string |
 | `rooms` | integer |
+| `bedrooms` | integer |
 | `area_m2` | float |
 | `floor` | string |
 | `city` | string |
 | `zipcode` | string |
-| `district` | string |
+| `region` | string |
+| `key_facts` | list |
+| `agency_legal_info` | list |
+| `agency_website` | string |
+| `agency_fee_url` | string |
 | `country` | string |
 | `transport` | list |
 | `energy_class` | string |
@@ -84,10 +91,6 @@ Full details on the [scraper page](https://apify.com/abotapi/seloger-france-scra
 | `portal` | string |
 | `created_at` | string |
 | `updated_at` | string |
-| `source` | string |
-| `latitude` | float |
-| `longitude` | float |
-| `coord_precision` | string |
 
 ---
 

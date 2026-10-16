@@ -2,12 +2,12 @@
   {
     "trackId": "id31027662",
     "url": "https://www.udio.com/example/22752",
-    "title": "Example title: mock text standing in for the real value. Same field and type, made-up content.",
+    "title": "Example title",
     "artist": "Example artist",
-    "artistImageUrl": "https://lh3.googleusercontent.com/example/35319.jpg",
+    "artistImageUrl": null,
     "creatorId": "id54484536",
     "prompt": "Example prompt: mock text standing in for the real value. Same field and type, made-up content.",
-    "lyrics": "Example lyrics: mock text standing in for the real value. Same field and type, made-up content.",
+    "lyrics": "",
     "description": "",
     "tags": [
       "Example tags",
@@ -15,13 +15,13 @@
     ],
     "userTags": [],
     "attribution": null,
-    "likeCount": 6496,
-    "playCount": 631172,
-    "durationSeconds": 214.37,
+    "likeCount": 0,
+    "playCount": 0,
+    "durationSeconds": 142.64,
     "createdAt": "2026-01-15T10:00:00Z",
     "publishedAt": "2026-01-15T10:00:00Z",
     "audioUrl": "https://storage.googleapis.com/example/82241",
-    "videoUrl": "https://storage.googleapis.com/example/61487",
+    "videoUrl": null,
     "artworkUrl": "https://imagedelivery.net/example/7846.jpg",
     "styleId": null,
     "styleSourceType": null,
@@ -31,7 +31,7 @@
     "generationStatus": "succeeded",
     "isFinished": true,
     "isPublishable": true,
-    "sourceMode": "songIds",
+    "sourceMode": "search",
     "collectionId": null,
     "collectionName": null,
     "positionInCollection": null,
@@ -40,28 +40,28 @@
       "id": "id9965537",
       "user_id": "id89882734",
       "artist": "Example artist",
-      "artist_image": "https://lh3.googleusercontent.com/example/25081.jpg",
-      "title": "Example title: mock text standing in for the real value. Same field and type, made-up content.",
+      "artist_image": null,
+      "title": "Example title",
       "created_at": "2026-01-15T10:00:00Z",
       "error_id": null,
       "error_type": null,
       "error_code": null,
       "generation_id": "id1451355",
       "image_path": "https://imagedelivery.net/example/62494.jpg",
-      "lyrics": "Example lyrics: mock text standing in for the real value. Same field and type, made-up content.",
+      "lyrics": "",
       "prompt": "Example prompt: mock text standing in for the real value. Same field and type, made-up content.",
-      "likes": 1143,
-      "plays": 186436,
+      "likes": 0,
+      "plays": 0,
       "published_at": "2026-01-15T10:00:00Z",
       "replaced_tags": {
-        "lush, Americana, pop, folk pop, harmonious, anthemic, playful, country rock, rhythmic, uplifting, male vocalist, melodic, bluegrass, passionate, energetic, country": {
+        "male vocalist, pop rap, pop soul, hip hop, pop, contemporary r&b, hip hop soul, happy, boastful, triumphant, sexual, playful, anthemic": {
           "tags": [
             "Example tags",
             "Example tags"
           ],
           "type": "tags"
         },
-        "country pop, contemporary country, northern american music, country, regional music, contemporary country, introspective, anthemic, raw, longing, melodic, playful, love, bittersweet, passionate, sentimental, pastoral, male vocalist, energetic": {
+        "commanding, confident, gritty, gospel, hip-hop, deep, male vocalist, trap, empowering, soulful, anthemic, slow, contemporary Christian, cinematic, booming, polished": {
           "tags": [
             "Example tags",
             "Example tags"
@@ -74,8 +74,8 @@
         "Example tags",
         "Example tags"
       ],
-      "duration": 175.04,
-      "video_path": "https://storage.googleapis.com/example/11101",
+      "duration": 116.46,
+      "video_path": null,
       "error_detail": null,
       "finished": true,
       "liked": false,

@@ -1,6 +1,6 @@
 [
   {
-    "id": "l92agnbwkmggp4plsd1z",
+    "id": "n7iofglvef4isyxqosso",
     "title": "Example title",
     "price": "Example price",
     "price_numeric": 572083,
@@ -9,8 +9,7 @@
     "bathrooms": 5,
     "property_type": "Flat",
     "tags": [
-      "Example tags",
-      "Balcony"
+      "Example tags"
     ],
     "images": [
       "https://jitty-cdn.com/example/21091.jpg",
@@ -19,9 +18,10 @@
     "image_count": 89,
     "url": "https://jitty.com/example/66643",
     "address": "Example address",
-    "latitude": 45.21,
-    "longitude": -0.1,
+    "latitude": 45.37,
+    "longitude": -0.08,
     "location_source": "detail_page",
+    "lease_years_remaining": 0,
     "estate_agent": "Example estate_agent",
     "features": [
       "Example features",
@@ -29,16 +29,16 @@
     ]
   },
   {
-    "id": "ppr37oleavumfom3cqxu",
+    "id": "Example id",
     "title": "Example title",
     "price": "Example price",
     "price_numeric": 584164,
     "currency": "GBP",
     "bedrooms": 6,
     "bathrooms": 8,
-    "property_type": "Detached",
+    "property_type": "Flat",
     "tags": [
-      "Balcony",
+      "Example tags",
       "Example tags"
     ],
     "images": [
@@ -48,9 +48,10 @@
     "image_count": 22,
     "url": "https://jitty.com/example/61158",
     "address": "Example address",
-    "latitude": 53.61,
-    "longitude": -0.25,
+    "latitude": 53.54,
+    "longitude": -0.11,
     "location_source": "detail_page",
+    "lease_years_remaining": 843,
     "estate_agent": "Example estate_agent",
     "features": [
       "Example features",

@@ -1,8 +1,8 @@
 [
   {
-    "sku": "fba-20xy-668",
+    "sku": "fba-34ci-274",
     "variantSku": null,
-    "productCode": "fba-76xy",
+    "productCode": "fba-96ci",
     "title": "Example title",
     "brand": "Adidas",
     "brandSlug": null,
@@ -10,18 +10,18 @@
     "productType": "Example product type",
     "genders": [],
     "categoryPath": [
-      "Casual",
+      "Running",
       "Example category path"
     ],
     "breadcrumb": [],
     "url": "https://www.netshoes.com.br/example/70008",
     "currency": "BRL",
-    "price": 308.3,
+    "price": 282.79,
     "originalPrice": 463.99,
-    "priceBeforePaymentDiscount": 311.36,
+    "priceBeforePaymentDiscount": 285.59,
     "paymentMethod": null,
     "paymentMethodPrice": null,
-    "discountAmount": 80.53,
+    "discountAmount": 955,
     "discountPercent": 90,
     "onSale": true,
     "installments": {
@@ -43,7 +43,7 @@
     "color": null,
     "colorVariants": [
       {
-        "sku": "fba-94xy-978",
+        "sku": "fba-44ci-294",
         "colorName": null,
         "url": "https://www.netshoes.com.br/example/70008",
         "image": "https://static.netshoes.com.br/example/30195.jpg",
@@ -52,7 +52,7 @@
         "originalPrice": null
       },
       {
-        "sku": "fba-82xy-652",
+        "sku": "fba-85ci-768",
         "colorName": null,
         "url": "https://www.netshoes.com.br/example/29077",
         "image": "https://static.netshoes.com.br/example/60955.jpg",
@@ -74,6 +74,6 @@
       "https://static.netshoes.com.br/example/67091.jpg"
     ],
     "videos": [],
-    "rating": 4.76
+    "rating": 5.0
   }
 ]

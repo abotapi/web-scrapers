@@ -30,6 +30,7 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~instacart-grocery-price-s
 | `urls` | array | Instacart links or product ids |
 | `includeDepartments` | boolean | Include each store's departments |
 | `postalCode` | string | US postal code |
+| `streetAddress` | string | Street address (optional) |
 | `latitude` | number | Latitude (optional, advanced) |
 | `longitude` | number | Longitude (optional, advanced) |
 | `sortBy` | string | Sort by |
@@ -58,13 +59,10 @@ Full details on the [scraper page](https://apify.com/abotapi/instacart-grocery-p
 | `size` | string |
 | `priceString` | string |
 | `price` | float |
-| `pricingUnit` | string |
 | `onSale` | boolean |
 | `available` | boolean |
 | `stockLevel` | string |
-| `stockLevelLabel` | string |
 | `image` | string |
-| `dietaryAttributes` | string |
 | `tags` | list |
 | `retailerName` | string |
 | `retailerSlug` | string |
@@ -74,6 +72,9 @@ Full details on the [scraper page](https://apify.com/abotapi/instacart-grocery-p
 | `serviceType` | string |
 | `storeAddress` | string |
 | `productUrl` | string |
+| `imageUrl` | string |
+| `brandName` | string |
+| `url` | string |
 | `searchQuery` | string |
 | `sourceUrl` | string |
 | `recordId` | string |

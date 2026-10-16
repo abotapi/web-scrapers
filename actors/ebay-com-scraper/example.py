@@ -20,7 +20,7 @@ run = client.actor("abotapi/ebay-com-scraper").call(
         "sortBy": "best_match",
         "maxItems": 10,
         "maxPages": 1,
-        "proxy": {"useApifyProxy": True},
+        "proxy": {"useApifyProxy": True, "apifyProxyGroups": ["RESIDENTIAL"]},
     },
     logger=None,  # don't stream the run log to your console
 )

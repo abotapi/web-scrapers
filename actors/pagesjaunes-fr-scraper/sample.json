@@ -1,21 +1,21 @@
 [
   {
-    "clientId": "90332651",
+    "clientId": "10294399",
     "name": "Example name",
     "detailUrl": "https://www.pagesjaunes.fr/example/86621",
     "activities": [
       "plombiers"
     ],
     "address": "Example address",
-    "rating": 4.59,
+    "rating": 1,
     "reviewCount": 85,
     "phone": "+1 555 0100",
     "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
-    "businessType": "Example business type",
+    "businessType": "Example business type: mock text standing in for the real value. Same field and type, made-up content.",
     "fullAddress": {
       "street": "Example street",
       "locality": "Example locality",
-      "postalCode": "40167",
+      "postalCode": "63368",
       "country": "FR"
     },
     "imageUrl": "https://www.pagesjaunes.fr/example/97384.jpg",
@@ -27,7 +27,7 @@
         "date": "2026-01-15"
       },
       {
-        "author": "Example author",
+        "author": "id868519",
         "rating": 7,
         "text": "Example text: mock text standing in for the real value. Same field and type, made-up content.",
         "date": "2026-01-15"
@@ -42,11 +42,10 @@
       "Example services"
     ],
     "products": [
-      "Example products",
+      "robinetterie",
       "Example products"
     ],
-    "website": "https://www.facebook.com/example/96652",
-    "facebook": "https://www.facebook.com/example/82986",
+    "website": "http://www.plombiers-75012.fr/example/96652",
     "photos": [
       "https://www.pagesjaunes.fr/example/82501.jpg",
       "https://www.pagesjaunes.fr/example/6767.jpg"

@@ -64,12 +64,12 @@ Full details on the [scraper page](https://apify.com/abotapi/lazada-scraper?utm_
 | `seedValue` | string |
 | `country` | string |
 | `currency` | string |
-| `currentPrice` | integer |
+| `currentPrice` | float |
 | `originalPrice` | integer |
 | `discountText` | string |
 | `discountPct` | integer |
 | `isOnSpecial` | boolean |
-| `discountAmount` | integer |
+| `discountAmount` | float |
 | `promoLabel` | string |
 | `specialsCategory` | string |
 | `ratingScore` | float |
@@ -80,7 +80,16 @@ Full details on the [scraper page](https://apify.com/abotapi/lazada-scraper?utm_
 | `freeShipping` | boolean |
 | `sellerName` | string |
 | `sellerId` | string |
+| `sellerLocation` | string |
+| `brandName` | string |
+| `brandId` | string |
 | `primaryImage` | string |
+| `skuId` | string |
+| `language` | string |
+| `canonicalUrl` | string |
+| `enrichmentStatus` | string |
+| `stockStatus` | string |
+| `badges` | list |
 | `raw` | object |
 | `fetchedAt` | string |
 

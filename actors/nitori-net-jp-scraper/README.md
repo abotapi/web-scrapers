@@ -62,8 +62,8 @@ Full details on the [scraper page](https://apify.com/abotapi/nitori-net-jp-scrap
 | `price` | integer |
 | `priceFormatted` | string |
 | `currency` | string |
-| `priceMin` | integer |
-| `priceMax` | integer |
+| `priceMin` | null |
+| `priceMax` | null |
 | `onSale` | boolean |
 | `isOutlet` | boolean |
 | `taxExempt` | boolean |

@@ -1,27 +1,27 @@
 [
   {
-    "listingId": "39443331",
+    "listingId": "39281053",
     "listingType": "sale",
     "channel": "for-sale",
     "url": "https://www.zoopla.co.uk/example/59283",
     "title": "Example title",
     "address": "Example address",
     "summaryDescription": "Example summary description: mock text standing in for the real value. Same field and type, made-up content.",
-    "price": 4668653,
+    "price": 168653,
     "priceLabel": "Example price label",
-    "priceQualifier": null,
+    "priceQualifier": "Example price qualifier",
     "currency": "GBP",
     "rentFrequencyLabel": null,
     "priceDrop": {
       "firstPriceDate": "Example first price date",
       "lastPriceChangeDate": "Example last price change date",
-      "percentageChangeLabel": "9.0"
+      "percentageChangeLabel": "27.1"
     },
     "bedrooms": 9,
     "bathrooms": 3,
     "receptionRooms": 5,
-    "propertyType": "detached",
-    "sizeSqft": 6390,
+    "propertyType": "flat",
+    "sizeSqft": 990,
     "sizeSource": "comparables_epc",
     "publishedOn": "Example published on",
     "publishedOnLabel": "Example published on label",
@@ -31,7 +31,9 @@
     "isPremium": true,
     "featuredType": "weekly_featured",
     "displayType": "premium_plus",
-    "tags": [],
+    "tags": [
+      "Example tags"
+    ],
     "highlights": [
       {
         "description": null,
@@ -53,8 +55,8 @@
     ],
     "imageCount": 87,
     "floorPlanCount": 4,
-    "videoCount": 4,
+    "videoCount": 0,
     "branchName": "Example branch name",
-    "branchId": 736473
+    "branchId": 16473
   }
 ]

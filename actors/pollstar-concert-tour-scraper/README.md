@@ -17,7 +17,7 @@ python example.py
 ```bash
 curl -s -X POST "https://api.apify.com/v2/acts/abotapi~pollstar-concert-tour-scraper/run-sync-get-dataset-items?token=$APIFY_TOKEN" \
   -H 'Content-Type: application/json' \
-  -d '{"mode": "search", "query": "Las Vegas", "searchType": "cities", "sortOrder": "asc", "maxItems": 10, "maxPages": 1, "proxyConfiguration": {"useApifyProxy": true}}'
+  -d '{"mode": "search", "query": "Las Vegas", "searchType": "cities", "sortOrder": "asc", "sortBy": "playdate", "maxItems": 10, "maxPages": 1, "proxyConfiguration": {"useApifyProxy": true}}'
 ```
 
 ## Inputs
@@ -33,6 +33,7 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~pollstar-concert-tour-scr
 | `newOnly` | boolean | Newly announced only |
 | `includeNearbyCities` | boolean | Include nearby cities (city searches o |
 | `sortOrder` | string | Date order |
+| `sortBy` | string | Sort by |
 | `fetchArtistProfiles` | boolean | Fetch headline artist profiles |
 | `maxItems` | integer | Max items |
 | `maxPages` | integer | Max pages per scope |
@@ -63,7 +64,7 @@ Full details on the [scraper page](https://apify.com/abotapi/pollstar-concert-to
 | `venueName` | string |
 | `venueUrl` | string |
 | `venueTypes` | list |
-| `venueMarket` | string |
+| `venueMarket` | null |
 | `venueStreet` | string |
 | `venueCity` | string |
 | `venueState` | string |
@@ -74,7 +75,7 @@ Full details on the [scraper page](https://apify.com/abotapi/pollstar-concert-to
 | `venueLongitude` | float |
 | `venuePhone` | null |
 | `venueEmail` | null |
-| `venueWebsite` | null |
+| `venueWebsite` | string |
 | `headlineArtist` | string |
 | `headlineArtistId` | string |
 | `headlineArtistUrl` | string |

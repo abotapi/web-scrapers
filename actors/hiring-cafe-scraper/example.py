@@ -12,10 +12,11 @@ client = ApifyClient(os.environ["APIFY_TOKEN"])
 
 run = client.actor("abotapi/hiring-cafe-scraper").call(
     run_input={
-        "keyword": "software engineer",
+        "startUrls": [{"url": "https://hiringcafe.com/classic"}, {"url": "https://hiringcafe.com/classic?searchState=%7B%22searchQuery%22%3A%22software%20engineer%22%7D"}, {"url": "https://hiringcafe.com/classic?searchState=%7B%22searchQuery%22%3A%22software%20engineer%22%7D&page=2"}, {"url": "https://hiringcafe.com/?searchState=%7B%22searchQuery%22%3A%22software%20engineer%22%7D"}, {"url": "https://hiringcafe.com/?searchState=eyJzZWFyY2hRdWVyeSI6InNvZnR3YXJlIGVuZ2luZWVyIn0%3D"}, {"url": "https://hiringcafe.com/job/bt38fz2pqe76nimr"}],
         "workplaceType": "Any",
         "commitmentType": "Any",
         "seniorityLevel": "Any",
+        "sortBy": "default",
         "maxItems": 10,
         "proxy": {"useApifyProxy": True, "apifyProxyGroups": ["RESIDENTIAL"]},
     },

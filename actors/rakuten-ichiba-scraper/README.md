@@ -78,7 +78,7 @@ Full details on the [scraper page](https://apify.com/abotapi/rakuten-ichiba-scra
 | `unitPriceDisplay` | string |
 | `unitCount` | integer |
 | `unitLabel` | string |
-| `subscriptionPrice` | integer |
+| `subscriptionPrice` | null |
 | `originalPrice` | null |
 | `originalPriceLabel` | null |
 | `discountPercent` | null |

@@ -7,15 +7,15 @@
     "title": "Example title",
     "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
     "categorySpecificDescription": "Example category specific description: mock text standing in for the real value. Same field and type, made-up content.",
-    "thinContent": false,
-    "price": 13995,
-    "priceCents": 9907527,
+    "thinContent": true,
+    "price": 4995,
+    "priceCents": 907527,
     "priceType": "MIN_BID",
-    "city": "Gerpinnes",
+    "city": "Diepenbeek",
     "countryName": "Example country name",
-    "countryAbbreviation": "BE",
-    "latitude": 43.8,
-    "longitude": 4.44,
+    "countryAbbreviation": null,
+    "latitude": 44.29,
+    "longitude": 5.31,
     "distanceMeters": -4257,
     "location": "Example location",
     "date": "Example date",
@@ -33,7 +33,7 @@
         "largeUrl": "https://images.2dehands.com/example/89013.jpg",
         "extraExtraLargeUrl": "https://images.2dehands.com/example/54991.jpg",
         "aspectRatio": {
-          "width": 23,
+          "width": 5,
           "height": 9
         }
       }
@@ -52,19 +52,19 @@
     "categoryId": 15,
     "priorityProduct": "DAGTOPPER",
     "videoOnVip": false,
-    "urgencyFeatureActive": false,
+    "urgencyFeatureActive": true,
     "napAvailable": false,
     "reserved": false,
     "extendedAttributes": [
       {
-        "key": "upholstery",
+        "key": "advertiser",
         "value": "Example value",
         "values": [
           "Example values"
         ]
       },
       {
-        "key": "fuel",
+        "key": "Example key",
         "value": "Example value",
         "values": [
           "Example values"
@@ -72,14 +72,14 @@
       }
     ],
     "traits": [
-      "dag_topper_3days",
-      "PACKAGE_FREE"
+      "URGENCY",
+      "dag_topper_5days"
     ],
     "verticals": [
       "cars",
       "automotive"
     ],
-    "vipUrl": "Example vip url: mock text standing in for the real value. Same field and type, made-up content.",
+    "vipUrl": "Example vip url",
     "url": "https://www.2dehands.be/example/85709",
     "seedValue": "bmw",
     "pageOffset": 0

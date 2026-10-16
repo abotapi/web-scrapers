@@ -12,10 +12,13 @@ client = ApifyClient(os.environ["APIFY_TOKEN"])
 
 run = client.actor("abotapi/seek-scraper").call(
     run_input={
+        "mode": "auto",
         "region": "AU",
         "location": "All-Australia",
         "salaryType": "annual",
         "sortmode": "ListedDate",
+        "requireContact": "off",
+        "descriptionFormat": "html_text",
         "maxItems": 10,
         "proxyConfiguration": {"useApifyProxy": True, "apifyProxyGroups": []},
     },

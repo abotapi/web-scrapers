@@ -79,9 +79,9 @@ Full details on the [scraper page](https://apify.com/abotapi/gumtree-uk-scraper?
 | `proAccount` | boolean |
 | `attributes` | list |
 | `description` | string |
-| `latitude` | integer |
-| `longitude` | integer |
-| `postcode` | null |
+| `latitude` | float |
+| `longitude` | float |
+| `postcode` | string |
 | `area` | string |
 | `subArea` | string |
 | `address` | string |

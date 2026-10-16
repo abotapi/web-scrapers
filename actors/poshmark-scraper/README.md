@@ -17,7 +17,7 @@ python example.py
 ```bash
 curl -s -X POST "https://api.apify.com/v2/acts/abotapi~poshmark-scraper/run-sync-get-dataset-items?token=$APIFY_TOKEN" \
   -H 'Content-Type: application/json' \
-  -d '{"mode": "search", "searchQueries": ["tote bag"], "availability": "available", "maxItems": 10, "proxyConfiguration": {"useApifyProxy": true}}'
+  -d '{"mode": "search", "searchQueries": ["tote bag"], "availability": "available", "shippingFilter": "all", "sortBy": "relevance", "maxComments": 10, "maxItems": 10, "proxyConfiguration": {"useApifyProxy": true}}'
 ```
 
 ## Inputs
@@ -27,13 +27,19 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~poshmark-scraper/run-sync
 | `mode` * | string | Mode |
 | `searchQueries` | array | Keyword searches |
 | `brands` | array | Brands |
+| `brand` | string | Brand (single) |
 | `closets` | array | Seller closets |
 | `availability` | string | Availability |
 | `department` | string | Department |
 | `condition` | string | Condition |
+| `minPrice` | number | Minimum price (USD) |
+| `maxPrice` | number | Maximum price (USD) |
+| `shippingFilter` | string | Shipping |
+| `sortBy` | string | Sort by |
 | `listingInputs` | array | Links |
 | `urls` | array | Links (alias) |
 | `fetchDetails` | boolean | Detail enrichment |
+| `maxComments` | integer | Max comments per listing |
 | `maxItems` | integer | Max items |
 | `proxyConfiguration` | object | Proxy configuration |
 
@@ -72,7 +78,7 @@ Full details on the [scraper page](https://apify.com/abotapi/poshmark-scraper?ut
 | `category` | string |
 | `subcategory` | string |
 | `colors` | list |
-| `styleTags` | list |
+| `styleTags` | null |
 | `description` | string |
 | `likeCount` | integer |
 | `commentCount` | integer |
@@ -84,6 +90,9 @@ Full details on the [scraper page](https://apify.com/abotapi/poshmark-scraper?ut
 | `coverImageUrl` | string |
 | `pictureUrls` | list |
 | `poshPassEligible` | boolean |
+| `soldPrice` | null |
+| `status` | string |
+| `nwt` | boolean |
 
 ---
 

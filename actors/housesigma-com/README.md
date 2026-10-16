@@ -17,7 +17,7 @@ python example.py
 ```bash
 curl -s -X POST "https://api.apify.com/v2/acts/abotapi~housesigma-com/run-sync-get-dataset-items?token=$APIFY_TOKEN" \
   -H 'Content-Type: application/json' \
-  -d '{"mode": "search", "province": "ON", "locations": ["Toronto"], "status": ["for-sale"], "sortBy": "newest", "agentCategory": "sold", "maxItems": 10, "maxPages": 1, "proxy": {"useApifyProxy": true}}'
+  -d '{"mode": "search", "province": "ON", "locations": ["Toronto"], "status": ["for-sale"], "listingType": "all", "sortBy": "newest", "agentCategory": "sold", "maxItems": 10, "maxPages": 1, "proxy": {"useApifyProxy": true}}'
 ```
 
 ## Inputs
@@ -38,6 +38,9 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~housesigma-com/run-sync-g
 | `minSqft` | integer | Min size (sqft) |
 | `maxSqft` | integer | Max size (sqft) |
 | `soldDays` | integer | Sold/leased within (days) |
+| `listingDays` | integer | Listed within (days) |
+| `listingType` | string | Listing type |
+| `community` | string | Community (within the city) |
 | `sortBy` | string | Sort by |
 | `urls` | array | HouseSigma URLs |
 | `listings` | array | Listing IDs or links |
@@ -59,14 +62,14 @@ Full details on the [scraper page](https://apify.com/abotapi/housesigma-com?utm_
 | Field | Type |
 | --- | --- |
 | `idListing` | string |
-| `mlNum` | string |
+| `mlNum` | null |
 | `url` | string |
 | `status` | string |
 | `saleOrLease` | string |
 | `propertyType` | string |
 | `address` | string |
-| `addressFull` | string |
-| `aptNumber` | string |
+| `addressFull` | null |
+| `aptNumber` | null |
 | `community` | string |
 | `municipality` | string |
 | `province` | string |
@@ -91,13 +94,13 @@ Full details on the [scraper page](https://apify.com/abotapi/housesigma-com?utm_
 | `dataSource` | string |
 | `photo` | string |
 | `listStatus` | object |
-| `photos` | list |
-| `virtualTour` | string |
-| `keyFacts` | object |
-| `propertyDetail` | object |
-| `rooms` | list |
-| `schools` | list |
-| `priceHistory` | list |
+| `taxAnnual` | null |
+| `maintenanceFee` | null |
+| `crossStreet` | null |
+| `openHouseDate` | null |
+| `assessment` | null |
+| `listingPriceChange` | null |
+| `addressGated` | boolean |
 
 ---
 

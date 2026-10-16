@@ -26,6 +26,11 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~sephora-product-scraper/r
 | --- | --- | --- |
 | `mode` * | string | Input mode |
 | `storefront` | string | Storefront |
+| `market` | string | Market (alias) |
+| `locale` | string | Locale (alias) |
+| `categoryIds` | array | Category IDs (alias) |
+| `newProductsPageLimit` | integer | New products page limit (alias) |
+| `maxRequestsPerCrawl` | integer | Max requests per crawl (alias) |
 | `queries` | array | Search queries |
 | `categories` | array | Category slugs |
 | `sortBy` | string | Sort order |
@@ -36,6 +41,7 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~sephora-product-scraper/r
 | `priceMax` | integer | Maximum price |
 | `ratingMin` | integer | Minimum rating |
 | `newOnly` | boolean | New arrivals only |
+| `onlyNewProducts` | boolean | New arrivals only (alias) |
 | `exclusiveOnly` | boolean | Sephora exclusives only |
 | `fetchDetails` | boolean | Fetch product details |
 | `fetchReviews` | boolean | Fetch top reviews |
@@ -61,22 +67,27 @@ Full details on the [scraper page](https://apify.com/abotapi/sephora-product-scr
 | `source` | object |
 | `brand` | string |
 | `title` | string |
+| `subtitle` | string |
+| `description` | string |
+| `shortDescription` | string |
+| `ingredients` | string |
+| `howToUse` | string |
+| `claims` | list |
+| `currentSku` | string |
+| `categories` | list |
+| `options` | list |
+| `variants` | list |
+| `medias` | list |
+| `stats` | object |
+| `highlights` | list |
 | `isNewArrival` | boolean |
 | `frontend` | string |
-| `priceText` | null |
-| `thumbnail` | string |
-| `rating` | float |
-| `reviewCount` | integer |
-| `highlights` | list |
-| `categories` | list |
-| `medias` | list |
-| `variants` | list |
-| `options` | list |
+| `price` | object |
 | `isOnSpecial` | boolean |
 | `wasPrice` | null |
 | `savingsAmount` | null |
 | `savingsPercent` | null |
-| `soldOut` | null |
+| `soldOut` | boolean |
 | `scrapedAt` | string |
 
 ---

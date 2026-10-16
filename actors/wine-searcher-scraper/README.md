@@ -17,7 +17,7 @@ python example.py
 ```bash
 curl -s -X POST "https://api.apify.com/v2/acts/abotapi~wine-searcher-scraper/run-sync-get-dataset-items?token=$APIFY_TOKEN" \
   -H 'Content-Type: application/json' \
-  -d '{"inputType": "auto", "wineNames": ["Domaine Leflaive Puligny-Montrachet Les Pucelles 2020", "Petrus 2015"], "urls": ["https://www.wine-searcher.com/find/petrus/2015"], "lwins": ["11316442021", "11084042019", "1131644"], "maxItems": 10, "proxy": {"useApifyProxy": true, "apifyProxyGroups": ["RESIDENTIAL"], "apifyProxyCountry": "FR"}}'
+  -d '{"inputType": "auto", "wineNames": ["Domaine Leflaive Puligny-Montrachet Les Pucelles 2020", "Petrus 2015"], "urls": ["https://www.wine-searcher.com/find/petrus/2015", "https://www.wine-searcher.com/find/lwin11316442021"], "lwins": ["11316442021", "11084042019", "1131644"], "targetCurrency": "USD", "maxReviewsPerWine": 10, "maxItems": 10, "proxy": {"useApifyProxy": true, "apifyProxyGroups": ["RESIDENTIAL"], "apifyProxyCountry": "FR"}}'
 ```
 
 ## Inputs
@@ -28,8 +28,10 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~wine-searcher-scraper/run
 | `wineNames` | array | Wine names |
 | `urls` | array | Wine-Searcher URLs |
 | `lwins` | array | LWIN codes |
-| `fetchOffers` | boolean | Fetch merchant offers and popularity |
+| `fetchOffers` | boolean | Fetch merchant offers |
+| `targetCurrency` | string | Display currency for converted prices |
 | `fetchReviews` | boolean | Fetch critic reviews |
+| `maxReviewsPerWine` | integer | Max reviews per wine |
 | `concurrency` | integer | Parallel lookups (no longer used) |
 | `maxItems` | integer | Max wines |
 | `proxy` | object | Proxy configuration |
@@ -44,6 +46,7 @@ Full details on the [scraper page](https://apify.com/abotapi/wine-searcher-scrap
 
 | Field | Type |
 | --- | --- |
+| `status` | string |
 | `inputValue` | string |
 | `inputType` | string |
 | `wineSearcherUrl` | string |
@@ -62,14 +65,19 @@ Full details on the [scraper page](https://apify.com/abotapi/wine-searcher-scrap
 | `scoreBestRating` | integer |
 | `criticReviewsCount` | integer |
 | `criticReviews` | list |
+| `criticScores` | object |
 | `avgPrice` | integer |
 | `avgPriceCurrency` | string |
 | `cheapestPriceAmount` | null |
 | `cheapestPriceCurrency` | null |
 | `cheapestPriceMerchant` | null |
+| `cheapestPriceEur` | null |
+| `cheapestPriceConverted` | null |
+| `targetCurrency` | string |
 | `cheapestPriceMerchantUrl` | null |
 | `bottlesPerUnit` | null |
 | `offers` | list |
+| `offersPages` | null |
 | `offersCount` | integer |
 | `highestPriceAmount` | null |
 | `highestPriceCurrency` | null |

@@ -51,8 +51,8 @@ Full details on the [scraper page](https://apify.com/abotapi/tiktok-shop-scraper
 | `categoryPath` | list |
 | `price` | float |
 | `currency` | string |
-| `originalPrice` | null |
-| `discountPercent` | null |
+| `originalPrice` | float |
+| `discountPercent` | integer |
 | `soldCount` | integer |
 | `rating` | float |
 | `reviewCount` | integer |

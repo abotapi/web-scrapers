@@ -68,7 +68,7 @@ Full details on the [scraper page](https://apify.com/abotapi/lennar-scraper?utm_
 | `zipCode` | null |
 | `latitude` | float |
 | `longitude` | float |
-| `googlePlaceId` | string |
+| `googlePlaceId` | null |
 | `propertyTypes` | null |
 | `divisionNumber` | null |
 | `communityNumber` | null |

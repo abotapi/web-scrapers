@@ -17,19 +17,23 @@ python example.py
 ```bash
 curl -s -X POST "https://api.apify.com/v2/acts/abotapi~ai-web-search-tool/run-sync-get-dataset-items?token=$APIFY_TOKEN" \
   -H 'Content-Type: application/json' \
-  -d '{"query": "Tesla", "maxResults": 10, "region": "us-en", "safeSearch": "moderate", "resultType": "web", "proxy": {"useApifyProxy": false, "apifyProxyGroups": ["RESIDENTIAL"], "apifyProxyCountry": ""}, "dev_dataset_name": "default"}'
+  -d '{"resultType": "web", "query": "Tesla", "region": "us-en", "safeSearch": "moderate", "maxResults": 10, "maxItems": 10, "proxy": {"useApifyProxy": true}, "dev_dataset_name": "default"}'
 ```
 
 ## Inputs
 
 | Input | Type | What it is |
 | --- | --- | --- |
-| `query` * | string | Search Query |
-| `maxResults` | integer | Maximum Results |
+| `resultType` | string | Result Type |
+| `query` | string | Search Query |
+| `searchMode` | string | Search mode (alias of Result Type) |
+| `search` | string | Search (alias of Search Query) |
 | `region` | string | Region |
 | `safeSearch` | string | Safe Search |
 | `timeRange` | string | Time Range |
-| `resultType` | string | Result Type |
+| `maxResults` | integer | Maximum Results |
+| `maxItems` | integer | Max items (alias of Maximum Results) |
+| `endPage` | integer | End page |
 | `proxy` | object | Proxy Configuration |
 | `dev_transform_fields` | array | Transform Fields (Advanced) |
 | `dev_dataset_name` | string | Custom Dataset Name (Advanced) |
@@ -51,6 +55,17 @@ Full details on the [scraper page](https://apify.com/abotapi/ai-web-search-tool?
 | `snippet` | string |
 | `domain` | string |
 | `query` | string |
+| `url` | string |
+| `description` | string |
+| `rawDescription` | string |
+| `hostname` | string |
+| `icon` | string |
+| `excerpt` | string |
+| `publishedOn` | null |
+| `viewCount` | null |
+| `image_token` | null |
+| `height` | null |
+| `image` | null |
 
 ---
 

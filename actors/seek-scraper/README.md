@@ -17,17 +17,23 @@ python example.py
 ```bash
 curl -s -X POST "https://api.apify.com/v2/acts/abotapi~seek-scraper/run-sync-get-dataset-items?token=$APIFY_TOKEN" \
   -H 'Content-Type: application/json' \
-  -d '{"region": "AU", "location": "All-Australia", "salaryType": "annual", "sortmode": "ListedDate", "maxItems": 10, "proxyConfiguration": {"useApifyProxy": true, "apifyProxyGroups": []}}'
+  -d '{"mode": "auto", "region": "AU", "location": "All-Australia", "salaryType": "annual", "sortmode": "ListedDate", "requireContact": "off", "descriptionFormat": "html_text", "maxItems": 10, "proxyConfiguration": {"useApifyProxy": true, "apifyProxyGroups": []}}'
 ```
 
 ## Inputs
 
 | Input | Type | What it is |
 | --- | --- | --- |
+| `mode` | string | Mode |
 | `region` | string | Region |
 | `keywords` | string | Keywords |
+| `keywordsList` | array | More keyword searches (optional) |
+| `companyName` | string | Company (exact employer name) |
 | `location` | string | Location |
+| `locationsList` | array | More locations (optional) |
+| `radius` | integer | Search radius (km) |
 | `classification` | array | Classification |
+| `subclassification` | array | Subclassification |
 | `workType` | array | Work type |
 | `workArrangement` | array | Work arrangement |
 | `salaryType` | string | Salary type |
@@ -36,7 +42,22 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~seek-scraper/run-sync-get
 | `daterange` | integer | Listed within N days |
 | `sortmode` | string | Sort order |
 | `urls` | array | SEEK search URLs |
+| `includeKeywords` | array | Include keywords |
+| `excludeKeywords` | array | Exclude keywords |
+| `keywordMatchFields` | array | Match keywords in |
+| `fromDate` | string | Listed on or after |
+| `toDate` | string | Listed on or before |
+| `maxAgeMinutes` | integer | Listed within the last N minutes |
+| `minApplicants` | integer | Minimum applicants |
+| `maxApplicants` | integer | Maximum applicants |
+| `requireContact` | string | Require contact details |
+| `skipReposts` | boolean | Skip reposts |
+| `customFilters` | array | Custom filter rules (post-filter) |
 | `includeFullDescription` | boolean | Fetch full job description |
+| `descriptionFormat` | string | Description format |
+| `descriptionMaxLength` | integer | Max description length (characters) |
+| `compact` | boolean | Compact output (core fields for AI age |
+| `excludeEmptyFields` | boolean | Leave out empty fields |
 | `maxItems` | integer | Max items to return |
 | `maxTimeSec` | integer | Max run time (seconds) |
 | `proxyConfiguration` | object | Proxy configuration |
@@ -76,9 +97,9 @@ Full details on the [scraper page](https://apify.com/abotapi/seek-scraper?utm_so
 | `companyPrimaryLocation` | string |
 | `companyLogo` | string |
 | `companyCoverImage` | string |
-| `companyRating` | null |
-| `companyReviewCount` | null |
-| `companySalaryRating` | null |
+| `companyRating` | float |
+| `companyReviewCount` | integer |
+| `companySalaryRating` | integer |
 | `companyPerks` | list |
 | `companyAwards` | list |
 | `advertiserId` | string |

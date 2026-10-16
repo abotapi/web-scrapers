@@ -1,20 +1,20 @@
 [
   {
-    "id_annonce": "4663107",
+    "id_annonce": "64168046",
     "teacherName": "Example teacher name",
     "title": "Example title: mock text standing in for the real value. Same field and type, made-up content.",
     "url": "https://www.superprof.com/example/69807",
     "landing_url": "https://www.superprof.com/example/62976",
     "type": "rayon",
-    "price": 37,
-    "price_1H": 61,
+    "price": 307,
+    "price_1H": 151,
     "prices": {
-      "hourly": 75,
-      "firstHour": 62,
+      "hourly": 255,
+      "firstHour": 422,
       "currency_hint": null
     },
-    "teacherCity": "Baldwinsville",
-    "city": "Baldwinsville",
+    "teacherCity": "Example teacher city",
+    "city": "Example city",
     "country": null,
     "teacherPhoto": "https://c.superprof.com/example/68465.jpg",
     "lat": null,
@@ -31,11 +31,11 @@
     "is_ambassador": true,
     "is_available": true,
     "search_url": "https://www.superprof.com/example/76818",
-    "sex": "male",
+    "sex": "female",
     "is_superprof": true,
     "is_star": true,
     "is_verified_member": true,
-    "stat_count_reviews": 804,
+    "stat_count_reviews": 84,
     "stat_count_favorite": null,
     "stat_count_total_links": null,
     "stat_stars": 2,
@@ -46,17 +46,17 @@
     "stat_count_recommendations": 78,
     "status": "Ambassador",
     "price_5H": 665,
-    "price_10H": 536,
-    "price_webcam": 91,
+    "price_10H": 5,
+    "price_webcam": 361,
     "price_with_travel": null,
     "offers": [
       {
-        "type": "hourly",
-        "price": 37
+        "type": "id29054264",
+        "price": 307
       },
       {
         "type": "id26404181",
-        "price": 707
+        "price": 5
       }
     ]
   }

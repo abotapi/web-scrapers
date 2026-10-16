@@ -1,8 +1,8 @@
 [
   {
-    "id": "6kz9oyi14ltmqvtnbi2pfw",
+    "id": "jm-50hdkhnbs5tm98hl3lg",
     "name": "Example name",
-    "subtitle": "Example subtitle",
+    "subtitle": null,
     "language": "de",
     "entryType": "BUSINESS",
     "schemaOrgType": "LocalBusiness",
@@ -11,22 +11,22 @@
     "professionalTitle": null,
     "address": "Example address",
     "street": "Example street",
-    "zipCode": "2100",
+    "zipCode": "4244",
     "city": "Example city",
-    "canton": "ZH",
+    "canton": "",
     "country": "CH",
-    "latitude": 53.53,
-    "longitude": 10.77,
+    "latitude": 53.57,
+    "longitude": 10.76,
     "phone": "+1 555 0100",
     "phoneAlt": null,
-    "mobile": null,
+    "mobile": "+1 555 0100",
     "fax": null,
     "email": "user15@example.com",
     "emailAlt": null,
-    "website": "http://www.sternengrill.ch/example/56312",
+    "website": "https://www.local.ch/example/56312",
     "whatsapp": null,
-    "facebook": "https://www.facebook.com/example/64446",
-    "instagram": "https://www.instagram.com/example/95196",
+    "facebook": null,
+    "instagram": null,
     "linkedin": null,
     "twitter": null,
     "tiktok": null,
@@ -34,17 +34,15 @@
     "youtube": null,
     "xing": null,
     "foursquare": null,
-    "mainCategory": "Restaurant",
-    "mainCategorySlug": "restaurant",
-    "categories": [
-      "Restaurant",
-      "Example categories"
+    "phones": [
+      "+1 555 0100"
     ],
-    "categorySlugs": [
-      "restaurant",
-      "Example category slugs"
+    "emails": [
+      "user34@example.com"
     ],
-    "rating": 3.35,
-    "ratingCount": 7
+    "socialMediaUrls": null,
+    "refusesAdvertising": true,
+    "poBoxZipCode": null,
+    "poBoxCity": null
   }
 ]

@@ -1,7 +1,7 @@
 [
   {
-    "productId": "270356382",
-    "title": "Example title",
+    "productId": "648705766",
+    "title": "Example title: mock text standing in for the real value. Same field and type, made-up content.",
     "brand": "Example brand",
     "categoryPath": [
       "Example category path",
@@ -9,7 +9,7 @@
     ],
     "category": "Example category",
     "productUrl": "https://www.lidl.es/example/55735",
-    "price": 15.79,
+    "price": 14.21,
     "currency": "EUR",
     "wasPrice": null,
     "discountAmount": null,
@@ -52,16 +52,16 @@
       "https://www.lidl.es/example/78201.jpg"
     ],
     "internalArticleNumbers": [
-      "477097"
+      "387431"
     ],
     "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
     "badges": [
       "Example badges"
     ],
     "averageRating": 4.94,
-    "reviewCount": 2840,
-    "recommendedYes": 4289,
-    "recommendedNo": 400,
+    "reviewCount": 140,
+    "recommendedYes": 689,
+    "recommendedNo": 40,
     "reviews": {
       "averageRating": null,
       "totalReviewCount": 0,

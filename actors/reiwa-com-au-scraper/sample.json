@@ -1,6 +1,6 @@
 [
   {
-    "id": "1422362",
+    "id": "6154603",
     "type": "for-sale",
     "title": "Example title",
     "address": "Example address",
@@ -8,11 +8,11 @@
     "url": "https://reiwa.com.au/example/14545",
     "sourceUrl": "https://reiwa.com.au/example/5901",
     "price": "Example price",
-    "priceValue": 8316739,
+    "priceValue": 216739,
     "bedrooms": 3,
     "bathrooms": 6,
-    "parkingSpaces": 0,
-    "propertyType": "House",
+    "parkingSpaces": 2,
+    "propertyType": "Apartment",
     "agencyName": "Example agency name",
     "agencyUrl": "https://reiwa.com.au/example/93769",
     "agentNames": [

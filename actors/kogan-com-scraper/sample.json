@@ -2,10 +2,10 @@
   {
     "store": "au",
     "url": "https://www.kogan.com/example/59320",
-    "title": "Example title: mock text standing in for the real value. Same field and type, made-up content.",
+    "title": "Example title",
     "brand": "Sony",
-    "sku": "hki-wh4892xm8blk",
-    "gtin": "4511569288809",
+    "sku": "hki-whch045nwht",
+    "gtin": "0815156069228",
     "price": 134,
     "priceMax": null,
     "originalPrice": null,
@@ -24,9 +24,9 @@
       "https://assets.kogan.com/example/46363.jpg",
       "https://assets.kogan.com/example/74071.jpg"
     ],
-    "averageRating": 5.94,
-    "ratingCount": 20,
-    "productId": "09463270",
+    "averageRating": 5.86,
+    "ratingCount": 380,
+    "productId": "516419749",
     "position": 5,
     "searchMode": "search"
   }

@@ -17,7 +17,7 @@ python example.py
 ```bash
 curl -s -X POST "https://api.apify.com/v2/acts/abotapi~leclerc-fr-scraper/run-sync-get-dataset-items?token=$APIFY_TOKEN" \
   -H 'Content-Type: application/json' \
-  -d '{"postalCode": "75014", "mode": "search", "queries": ["lait"], "sortBy": "relevance", "minRating": "0", "maxItems": 10, "maxPages": 1, "proxy": {"useApifyProxy": true}}'
+  -d '{"postalCode": "75014", "mode": "search", "queries": ["lait"], "sortBy": "relevance", "minRating": "0", "maxReviewsPerProduct": 10, "maxItems": 10, "maxPages": 1, "proxy": {"useApifyProxy": true}}'
 ```
 
 ## Inputs
@@ -37,6 +37,7 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~leclerc-fr-scraper/run-sy
 | `minPrice` | integer | Minimum price (EUR) |
 | `maxPrice` | integer | Maximum price (EUR) |
 | `fetchDetails` | boolean | Fetch product details |
+| `maxReviewsPerProduct` | integer | Max reviews per product |
 | `maxItems` | integer | Max products |
 | `maxPages` | integer | Max pages per keyword / category / lin |
 | `proxy` | object | Proxy configuration |
@@ -55,17 +56,18 @@ Full details on the [scraper page](https://apify.com/abotapi/leclerc-fr-scraper?
 | `ean` | string |
 | `title` | string |
 | `brand` | string |
-| `unitPrice` | float |
-| `unitPriceUnit` | string |
-| `unitPriceDisplay` | string |
-| `rating` | float |
-| `reviewCount` | integer |
 | `canonicalUrl` | string |
 | `source` | string |
+| `lastUpdateDate` | string |
+| `creationDate` | string |
+| `publicationDate` | string |
+| `logisticClassCode` | string |
+| `color` | string |
 | `descriptionHtml` | string |
 | `description` | string |
 | `images` | list |
 | `categoryPath` | string |
+| `offersTotal` | integer |
 | `price` | float |
 | `currency` | string |
 | `availabilityStatus` | string |

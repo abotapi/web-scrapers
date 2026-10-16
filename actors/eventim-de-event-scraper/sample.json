@@ -17,11 +17,11 @@
     "venuePostalCode": null,
     "venueCountry": null,
     "venueUrl": null,
-    "priceFrom": 128.06,
+    "priceFrom": null,
     "priceHigh": null,
-    "priceCurrency": "EUR",
+    "priceCurrency": null,
     "priceTiers": null,
-    "ticketAvailability": "in_stock",
+    "ticketAvailability": "out_of_stock",
     "promoterName": "Example promoter name",
     "categories": [
       "Sports",
@@ -51,14 +51,12 @@
           }
         }
       ],
-      "currency": "EUR",
       "description": "Example description",
       "hasRecommendation": false,
       "imageUrl": "https://www.eventim.de/example/52114.jpg",
-      "inStock": true,
+      "inStock": false,
       "link": "https://www.eventim.de/example/169",
       "name": "Example name",
-      "price": 113.97,
       "productGroupId": "6831475",
       "productId": "77072247",
       "promoter": {

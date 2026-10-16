@@ -13,7 +13,6 @@ client = ApifyClient(os.environ["APIFY_TOKEN"])
 run = client.actor("abotapi/viewstats-channel-analytics").call(
     run_input={
         "mode": "channels",
-        "channels": ["@MrBeast"],
         "searchTerms": ["mrbeast"],
         "statsRange": "365",
         "statsGroupBy": "monthly",

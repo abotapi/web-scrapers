@@ -4,13 +4,13 @@
     "recordId": "id26004168",
     "listingId": "id93785512",
     "url": "https://poshmark.com/example/71658",
-    "title": "Example title: mock text standing in for the real value. Same field and type, made-up content.",
+    "title": "Example title",
     "brand": "Madewell",
     "brandPath": "Madewell",
-    "size": "42",
+    "size": "4",
     "sizeDisplay": "Example size display",
-    "condition": "ug",
-    "conditionLabel": "Good",
+    "condition": "nwt",
+    "conditionLabel": "Example condition label",
     "price": 51,
     "originalPrice": 0,
     "currency": "USD",
@@ -22,21 +22,18 @@
     "updatedAt": "2026-01-15T10:00:00Z",
     "statusChangedAt": "2026-01-15T10:00:00Z",
     "department": "Example department",
-    "category": "Denim",
+    "category": "Tops",
     "subcategory": "Example subcategory",
     "colors": [
-      "Black"
+      "Yellow"
     ],
-    "styleTags": [
-      "Denim",
-      "Casual"
-    ],
+    "styleTags": null,
     "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
-    "likeCount": 59,
+    "likeCount": 0,
     "commentCount": 0,
-    "shareCount": 76,
+    "shareCount": 4,
     "offerCount": 0,
-    "sellerUsername": "Example seller username",
+    "sellerUsername": "id32820434",
     "sellerName": "Example seller name",
     "sellerUrl": "https://poshmark.com/example/81838",
     "coverImageUrl": "https://di2ponv0v5otw.cloudfront.net/example/50098.jpg",
@@ -44,22 +41,25 @@
       "https://di2ponv0v5otw.cloudfront.net/example/16109",
       "https://di2ponv0v5otw.cloudfront.net/example/43182"
     ],
-    "poshPassEligible": false
+    "poshPassEligible": false,
+    "soldPrice": null,
+    "status": "available",
+    "nwt": true
   },
   {
     "kind": "listing",
     "recordId": "id37336189",
     "listingId": "id79364258",
     "url": "https://poshmark.com/example/42389",
-    "title": "Example title: mock text standing in for the real value. Same field and type, made-up content.",
+    "title": "Example title",
     "brand": "Madewell",
     "brandPath": "Madewell",
-    "size": "1",
+    "size": "M",
     "sizeDisplay": "Example size display",
-    "condition": "uln",
-    "conditionLabel": "Example condition label",
+    "condition": null,
+    "conditionLabel": null,
     "price": 28,
-    "originalPrice": 154,
+    "originalPrice": 0,
     "currency": "USD",
     "availability": "available",
     "soldAt": null,
@@ -69,17 +69,14 @@
     "updatedAt": "2026-01-15T10:00:00Z",
     "statusChangedAt": "2026-01-15T10:00:00Z",
     "department": "Example department",
-    "category": "Shoes",
+    "category": "Sweaters",
     "subcategory": "Example subcategory",
     "colors": [
-      "Black"
+      "Pink"
     ],
-    "styleTags": [
-      "Leather",
-      "Summer"
-    ],
+    "styleTags": null,
     "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
-    "likeCount": 9,
+    "likeCount": 0,
     "commentCount": 0,
     "shareCount": 81,
     "offerCount": 0,
@@ -91,6 +88,9 @@
       "https://di2ponv0v5otw.cloudfront.net/example/34707",
       "https://di2ponv0v5otw.cloudfront.net/example/97744"
     ],
-    "poshPassEligible": false
+    "poshPassEligible": false,
+    "soldPrice": null,
+    "status": "available",
+    "nwt": null
   }
 ]

@@ -17,6 +17,7 @@ run = client.actor("abotapi/tokopedia-scraper").call(
         "sortBy": "relevance",
         "condition": "any",
         "shopTier": "any",
+        "maxReviews": 10,
         "maxPages": 1,
         "maxItems": 10,
         "proxy": {"useApifyProxy": True},

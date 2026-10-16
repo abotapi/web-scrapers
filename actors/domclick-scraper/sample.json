@@ -1,6 +1,6 @@
 [
   {
-    "id": "0079383321",
+    "id": "0223352881",
     "url": "https://domclick.ru/example/67312",
     "offerType": "flat",
     "dealType": "sale",
@@ -10,25 +10,25 @@
     "squarePrice": 147254,
     "monthlyPayment": 660126,
     "currency": "RUB",
-    "area": 49,
+    "area": 45.34,
     "rooms": 1,
     "roomsOffered": 0,
-    "floor": 8,
+    "floor": 35,
     "totalFloors": 74,
     "buildYear": 2393,
     "isApartment": true,
     "address": "Example address",
-    "latitude": 61.84,
-    "longitude": 29.71,
+    "latitude": 61.89,
+    "longitude": 29.75,
     "nearestSubway": "Example nearest subway",
-    "subwayWalkMinutes": 27,
+    "subwayWalkMinutes": 9,
     "subways": [
       {
         "name": "Example name",
         "lineColors": [
           "Example line colors"
         ],
-        "walkMinutes": 94,
+        "walkMinutes": 4,
         "distanceKind": 1,
         "isUnderConstruction": false,
         "readyInYear": null

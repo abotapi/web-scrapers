@@ -11,17 +11,17 @@
       "aspirateur"
     ],
     "url": "https://www.boulanger.com/example/13968",
-    "price": 453.59,
+    "price": 216,
     "currency": "EUR",
-    "priceExclTax": 287.99,
-    "originalPrice": 576.97,
-    "discountAmount": 117.17,
+    "priceExclTax": 303.2,
+    "originalPrice": 583.46,
+    "discountAmount": 105.32,
     "discountPercent": 63,
     "isOnSpecial": true,
     "promoLabel": null,
     "unitPrice": null,
     "image": "https://boulanger.scene7.com/example/98343.jpg",
-    "rating": 4.64,
+    "rating": 4.63,
     "reviewCount": 429,
     "onlineAvailable": true,
     "storePickupAvailable": null,
@@ -36,14 +36,14 @@
         "1": 0,
         "2": 0,
         "3": 0,
-        "4": 0,
-        "5": 8
+        "4": 4,
+        "5": 0
       },
       "items": [
         {
           "rating": 3,
           "title": "Example title",
-          "body": "Example body",
+          "body": "Example body: mock text standing in for the real value. Same field and type, made-up content.",
           "author": "Example author",
           "date": "2026-01-15",
           "verifiedPurchase": null

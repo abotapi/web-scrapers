@@ -70,12 +70,22 @@ Full details on the [scraper page](https://apify.com/abotapi/property24-scraper?
 | `displayPrice` | string |
 | `price` | integer |
 | `currency` | string |
+| `bedrooms` | integer |
+| `bathrooms` | integer |
+| `garages` | integer |
+| `parkingSpaces` | integer |
+| `floorSize` | integer |
 | `erfSize` | integer |
 | `suburbName` | string |
 | `description` | string |
+| `badges` | list |
 | `mainImage` | string |
 | `source` | string |
 | `scrapedAt` | string |
+| `latitude` | float |
+| `longitude` | float |
+| `hasExactLocation` | boolean |
+| `streetAddress` | string |
 | `provinceName` | string |
 | `provinceId` | string |
 | `cityName` | string |
@@ -92,16 +102,6 @@ Full details on the [scraper page](https://apify.com/abotapi/property24-scraper?
 | `contacts` | list |
 | `isPrivateListing` | boolean |
 | `propertyOverview` | object |
-| `propertyType` | string |
-| `listingDate` | string |
-| `details` | list |
-| `photos` | list |
-| `photoCount` | integer |
-| `nearbySuburbs` | list |
-| `auction` | boolean |
-| `onShow` | boolean |
-| `repossessed` | boolean |
-| `datePosted` | string |
 
 ---
 

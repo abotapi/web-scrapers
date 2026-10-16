@@ -2,16 +2,16 @@
   {
     "kind": "movie",
     "recordId": "Example record id",
-    "eventCode": "et96515694",
+    "eventCode": "et41170466",
     "title": "Example title",
     "url": "https://in.bookmyshow.com/example/75192",
     "posterUrl": "https://assets-in.bmscdn.com/example/29035.jpg",
     "languages": [
-      "tamil"
+      "hindi"
     ],
     "genres": [
-      "action",
-      "adventure"
+      "drama",
+      "mystery"
     ],
     "category": null,
     "regionCode": "MUMBAI",
@@ -20,15 +20,15 @@
     "listingSection": null,
     "tags": [
       "Example tags",
-      "Example tags"
+      "Hindi"
     ],
     "synopsis": "Example synopsis: mock text standing in for the real value. Same field and type, made-up content.",
-    "duration": "pt5h51m",
+    "duration": "pt7h73m",
     "censor": "Example censor",
     "releaseDate": "2026-01-15",
     "formats": [
       "Example formats",
-      "EPIQ"
+      "Example formats"
     ],
     "cast": [
       "Example cast",
@@ -43,16 +43,16 @@
   {
     "kind": "movie",
     "recordId": "Example record id",
-    "eventCode": "et84779884",
+    "eventCode": "et23473542",
     "title": "Example title",
     "url": "https://in.bookmyshow.com/example/12587",
     "posterUrl": "https://assets-in.bmscdn.com/example/66880.jpg",
     "languages": [
-      "tamil"
+      "hindi"
     ],
     "genres": [
-      "drama",
-      "fantasy"
+      "adventure",
+      "animation"
     ],
     "category": null,
     "regionCode": "MUMBAI",
@@ -60,18 +60,18 @@
     "venueCode": null,
     "listingSection": null,
     "tags": [
-      "Example tags",
-      "Tamil"
+      "U",
+      "Example tags"
     ],
     "synopsis": "Example synopsis: mock text standing in for the real value. Same field and type, made-up content.",
-    "duration": "pt4h24m",
+    "duration": "pt5h22m",
     "censor": "Example censor",
     "releaseDate": "2026-01-15",
     "formats": [
-      "Example formats"
+      "Example formats",
+      "EPIQ"
     ],
     "cast": [
-      "Example cast",
       "Example cast"
     ],
     "director": "Example director",

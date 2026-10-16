@@ -25,16 +25,26 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~clutch-directory-scraper/
 | Input | Type | What it is |
 | --- | --- | --- |
 | `mode` * | string | Mode |
+| `searchQuery` | string | Keyword search (optional) |
 | `directory` | string | Directory |
 | `location` | string | Location |
 | `agencySize` | string | Company size |
 | `relatedServices` | string | Related service |
+| `hourlyRateRange` | string | Hourly rate |
+| `clientBudget` | string | Your project budget |
+| `industry` | string | Industry focus |
+| `clientType` | string | Client focus |
+| `focusArea` | string | Focus area |
+| `specialization` | string | Specialization |
+| `verifiedOnly` | boolean | Verified companies only |
+| `clutchGuaranteeOnly` | boolean | Clutch Guarantee companies only |
 | `sortBy` | string | Sort by |
-| `urls` | array | Clutch directory URLs |
+| `urls` | array | Clutch URLs (directory, profile or sea |
 | `minRating` | integer | Min rating |
 | `minReviews` | integer | Min reviews |
 | `fetchDetails` | boolean | Fetch full profile details (richer rec |
 | `maxReviews` | integer | Max reviews per company |
+| `includePortfolio` | boolean | Include portfolio, key clients & award |
 | `maxPages` | integer | Max pages per list |
 | `maxListings` | integer | Max records |
 | `proxy` | object | Proxy |
@@ -59,29 +69,29 @@ Full details on the [scraper page](https://apify.com/abotapi/clutch-directory-sc
 | `clutchUrl` | string |
 | `profileUrl` | string |
 | `profileLink` | string |
-| `logo` | null |
-| `logoUrl` | null |
+| `logo` | string |
+| `logoUrl` | string |
 | `website` | string |
 | `websiteUrl` | string |
-| `tagline` | null |
+| `tagline` | string |
 | `description` | string |
 | `summary` | string |
 | `quote` | null |
 | `rating` | float |
 | `reviewCount` | integer |
 | `numberOfProjects` | null |
-| `minProjectSize` | null |
-| `hourlyRate` | null |
-| `employeeCount` | null |
-| `employeesCount` | null |
-| `priceRange` | null |
-| `location` | null |
+| `minProjectSize` | string |
+| `hourlyRate` | string |
+| `employeeCount` | string |
+| `employeesCount` | string |
+| `priceRange` | string |
+| `location` | string |
 | `services` | list |
 | `tags` | list |
 | `verified` | boolean |
 | `isVerified` | boolean |
 | `isSponsor` | boolean |
-| `position` | null |
+| `position` | integer |
 | `company` | object |
 | `branding` | object |
 | `contact` | object |

@@ -14,7 +14,6 @@ run = client.actor("abotapi/expedia-universal-scraper").call(
     run_input={
         "mode": "search",
         "destination": "Paris",
-        "destinationId": "2734",
         "checkIn": "1 day",
         "checkOut": "2 days",
         "sortBy": "RECOMMENDED",

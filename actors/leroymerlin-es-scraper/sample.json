@@ -6,7 +6,7 @@
     "brand": "WORX",
     "url": "https://www.leroymerlin.es/example/56597",
     "price": 774,
-    "priceExclTax": 165.74,
+    "priceExclTax": 164.01,
     "currency": "EUR",
     "originalPrice": null,
     "discountPercent": null,
@@ -16,14 +16,34 @@
     "sellerName": "Example seller name",
     "sellerType": "Example seller type",
     "offerType": "NEW",
-    "rating": null,
+    "rating": 5.26,
     "totalOfferCount": 6,
     "sellersComposition": "6p_only",
     "sponsored": true,
+    "ean": "5806098603863",
+    "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
+    "image": "https://media.adeo.com/example/34517.jpg",
+    "numberOfImages": 1,
+    "numberOfReviews": 435,
+    "categoryPath": [
+      "Home",
+      "Productos"
+    ],
+    "category": "Example category",
+    "stock": 4,
+    "stockStatus": "ONSITE",
+    "deliveryTime": "Example delivery time",
     "reviews": {
-      "averageRating": null,
-      "totalReviewCount": 0,
-      "items": []
+      "averageRating": 5.78,
+      "totalReviewCount": 684,
+      "items": [
+        {
+          "rating": 5,
+          "body": "Example body: mock text standing in for the real value. Same field and type, made-up content.",
+          "author": "Example author",
+          "date": "2026-01-15"
+        }
+      ]
     },
     "searchMode": "search"
   }

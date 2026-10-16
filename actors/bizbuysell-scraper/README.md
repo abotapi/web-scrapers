@@ -33,12 +33,18 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~bizbuysell-scraper/run-sy
 | `maxAskingPrice` | integer | Max asking price (USD) |
 | `minCashFlow` | integer | Min cash flow / SDE (USD) |
 | `minGrossRevenue` | integer | Min gross revenue (USD) |
+| `maxCashFlow` | integer | Max cash flow (USD) |
+| `maxGrossRevenue` | integer | Max gross revenue (USD) |
 | `sortBy` | string | Sort by |
 | `urls` | array | BizBuySell URLs |
+| `startUrls` | array | Start URLs (alias of BizBuySell URLs) |
 | `fetchDetails` | boolean | Fetch full listing details |
 | `maxPages` | integer | Max search pages |
+| `max_pages` | integer | max_pages (alias of Max search pages) |
 | `maxListings` | integer | Max listings |
+| `results_wanted` | integer | results_wanted (alias of Max listings) |
 | `proxy` | object | Proxy |
+| `proxyConfiguration` | object | proxyConfiguration (alias of Proxy) |
 
 `*` required
 
@@ -62,7 +68,7 @@ Full details on the [scraper page](https://apify.com/abotapi/bizbuysell-scraper?
 | `askingPrice` | integer |
 | `cashFlow` | integer |
 | `grossRevenue` | null |
-| `ebitda` | null |
+| `ebitda` | integer |
 | `inventory` | null |
 | `ffe` | null |
 | `realEstate` | null |
@@ -83,13 +89,13 @@ Full details on the [scraper page](https://apify.com/abotapi/bizbuysell-scraper?
 | `imageUrl` | string |
 | `images` | list |
 | `brokerName` | string |
-| `brokerPhone` | string |
-| `brokerageName` | string |
+| `brokerPhone` | null |
+| `brokerageName` | null |
 | `brokerProfileUrl` | null |
 | `brokerLicense` | null |
 | `datePosted` | null |
 | `isVerified` | null |
-| `detailsRaw` | null |
+| `location` | string |
 
 ---
 

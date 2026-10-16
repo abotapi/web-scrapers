@@ -27,8 +27,8 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~asos-com-scraper/run-sync
 | `mode` * | string | Mode |
 | `searchTerms` | array | Search terms |
 | `urls` | array | ASOS URLs |
-| `brandIds` | array | Brand ids |
-| `baseColourIds` | array | Colour ids |
+| `brandIds` | array | Brands |
+| `baseColourIds` | array | Colours |
 | `sortBy` | string | Sort the store's results by |
 | `minPrice` | integer | Minimum price (GBP) |
 | `maxPrice` | integer | Maximum price (GBP) |

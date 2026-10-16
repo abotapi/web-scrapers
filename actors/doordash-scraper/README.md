@@ -17,7 +17,7 @@ python example.py
 ```bash
 curl -s -X POST "https://api.apify.com/v2/acts/abotapi~doordash-scraper/run-sync-get-dataset-items?token=$APIFY_TOKEN" \
   -H 'Content-Type: application/json' \
-  -d '{"mode": "search", "search": ["pizza"], "storeType": "any", "maxPages": 1, "proxy": {"useApifyProxy": true, "apifyProxyGroups": ["RESIDENTIAL"], "apifyProxyCountry": "US"}}'
+  -d '{"mode": "search", "search": ["pizza"], "storeType": "any", "minRating": "any", "maxReviews": 10, "maxPages": 1, "proxy": {"useApifyProxy": true, "apifyProxyGroups": ["RESIDENTIAL"], "apifyProxyCountry": "US"}}'
 ```
 
 ## Inputs
@@ -30,10 +30,13 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~doordash-scraper/run-sync
 | `storeType` | string | Store type |
 | `ratedOnly` | boolean | Well-rated only |
 | `dealsOnly` | boolean | Deals only |
+| `minRating` | string | Minimum rating (search mode only) |
+| `fastDeliveryOnly` | boolean | Fast delivery only (search mode only) |
 | `urls` | array | Store URLs or IDs |
 | `includeMenu` | boolean | Include menu |
 | `includeBusiness` | boolean | Include contact & hours |
 | `includeReviews` | boolean | Include reviews |
+| `maxReviews` | integer | Max reviews per store |
 | `maxStores` | integer | Max stores |
 | `maxPages` | integer | Max search pages |
 | `proxy` | object | Proxy |
@@ -52,13 +55,14 @@ Full details on the [scraper page](https://apify.com/abotapi/doordash-scraper?ut
 | `name` | string |
 | `url` | string |
 | `description` | string |
-| `storeBio` | null |
+| `storeBio` | string |
 | `isConvenience` | boolean |
 | `isShippingOnly` | boolean |
 | `rating` | float |
 | `ratingCount` | integer |
 | `ratingCountDisplay` | string |
 | `priceTier` | string |
+| `priceRange` | integer |
 | `cuisines` | list |
 | `currency` | string |
 | `isDashpass` | boolean |
@@ -86,8 +90,7 @@ Full details on the [scraper page](https://apify.com/abotapi/doordash-scraper?ut
 | `state` | string |
 | `street` | string |
 | `displayAddress` | string |
-| `isSponsored` | boolean |
-| `distanceMiles` | float |
+| `timezone` | string |
 
 ---
 

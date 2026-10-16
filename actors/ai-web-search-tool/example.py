@@ -12,12 +12,13 @@ client = ApifyClient(os.environ["APIFY_TOKEN"])
 
 run = client.actor("abotapi/ai-web-search-tool").call(
     run_input={
+        "resultType": "web",
         "query": "Tesla",
-        "maxResults": 10,
         "region": "us-en",
         "safeSearch": "moderate",
-        "resultType": "web",
-        "proxy": {"useApifyProxy": False, "apifyProxyGroups": ["RESIDENTIAL"], "apifyProxyCountry": ""},
+        "maxResults": 10,
+        "maxItems": 10,
+        "proxy": {"useApifyProxy": True},
         "dev_dataset_name": "default",
     },
     logger=None,  # don't stream the run log to your console

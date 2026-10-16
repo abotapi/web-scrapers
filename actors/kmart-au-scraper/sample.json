@@ -1,8 +1,8 @@
 [
   {
     "kind": "product",
-    "id": "032918",
-    "productId": "p_s212399",
+    "id": "18781986",
+    "productId": "p_82618197",
     "name": "Example name",
     "title": "Example title",
     "url": "https://www.kmart.com.au/example/13944",
@@ -11,16 +11,14 @@
     "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
     "descriptionText": "Example description text: mock text standing in for the real value. Same field and type, made-up content.",
     "descriptionSummary": "Example description summary: mock text standing in for the real value. Same field and type, made-up content.",
-    "features": [
-      "Example features",
-      "Example features"
-    ],
+    "features": null,
     "specifications": {
+      "Dimensions/Size": "Example dimensions/ size",
       "Material": "Example material",
-      "Fit and Model Size": "Example fit and  model  size: mock text standing in for the real value. Same field and type, made-up content."
+      "Colour": "Example colour",
+      "Care instructions": "Example care instructions"
     },
     "careInstructions": [
-      "Example care instructions",
       "Example care instructions"
     ],
     "additionalInfo": [
@@ -39,14 +37,13 @@
       {
         "heading": "Example heading",
         "items": [
-          "Example items",
-          "Example items"
+          "Example items: mock text standing in for the real value. Same field and type, made-up content."
         ]
       }
     ],
-    "price": 40,
-    "listPrice": 68,
-    "promoPrice": 89,
+    "price": 2.5,
+    "listPrice": 2.45,
+    "promoPrice": 2.97,
     "wasPrice": null,
     "savingsAmount": null,
     "savingsPercent": null,
@@ -56,21 +53,21 @@
     "currency": "AUD",
     "onSale": false,
     "clearance": false,
-    "averageRating": 4.32,
-    "reviewCount": 3,
+    "averageRating": 4.14,
+    "reviewCount": 237,
     "colour": "Blue",
-    "secondaryColour": "Example secondary colour",
-    "size": "84",
+    "secondaryColour": "Ocean",
+    "size": "Example size",
     "seller": "Example seller",
     "isMarketplace": false,
-    "merchDepartment": 5,
-    "merchClass": "Example merch class",
+    "merchDepartment": 95,
+    "merchClass": "TOWELS",
     "primaryCategoryId": "id25845182"
   },
   {
     "kind": "product",
-    "id": "785302",
-    "productId": "p_s857708",
+    "id": "30191411",
+    "productId": "p_02149162",
     "name": "Example name",
     "title": "Example title",
     "url": "https://www.kmart.com.au/example/43923",
@@ -79,19 +76,19 @@
     "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
     "descriptionText": "Example description text: mock text standing in for the real value. Same field and type, made-up content.",
     "descriptionSummary": "Example description summary: mock text standing in for the real value. Same field and type, made-up content.",
-    "features": [
-      "Example features",
-      "Example features"
-    ],
+    "features": null,
     "specifications": {
+      "Dimensions/Size": "Example dimensions/ size",
       "Material": "Example material",
-      "Fit and Model Size": "Example fit and  model  size"
+      "Colour": "Pink",
+      "Care instructions": "Example care instructions"
     },
     "careInstructions": [
-      "Example care instructions",
       "Example care instructions"
     ],
-    "additionalInfo": null,
+    "additionalInfo": [
+      "Example additional info: mock text standing in for the real value. Same field and type, made-up content."
+    ],
     "warnings": null,
     "manuals": null,
     "detailSections": [
@@ -105,34 +102,31 @@
       {
         "heading": "Example heading",
         "items": [
-          "Example items",
-          "Example items"
+          "Example items: mock text standing in for the real value. Same field and type, made-up content."
         ]
       }
     ],
-    "price": 22,
-    "listPrice": 81,
-    "promoPrice": null,
+    "price": 6.16,
+    "listPrice": 4.46,
+    "promoPrice": 6.32,
     "wasPrice": null,
     "savingsAmount": null,
     "savingsPercent": null,
-    "isOnSpecial": true,
-    "promoLabel": "Example promo label",
-    "variantBadges": [
-      "Clearance"
-    ],
+    "isOnSpecial": false,
+    "promoLabel": null,
+    "variantBadges": null,
     "currency": "AUD",
     "onSale": false,
-    "clearance": true,
-    "averageRating": 2.89,
-    "reviewCount": 7,
-    "colour": "White",
-    "secondaryColour": "White",
-    "size": "33",
+    "clearance": false,
+    "averageRating": 3.82,
+    "reviewCount": 88,
+    "colour": "Pink",
+    "secondaryColour": "Pink",
+    "size": "Example size",
     "seller": "Example seller",
     "isMarketplace": false,
-    "merchDepartment": 9,
-    "merchClass": "Example merch class",
+    "merchDepartment": 99,
+    "merchClass": "TOWELS",
     "primaryCategoryId": "id50955139"
   }
 ]

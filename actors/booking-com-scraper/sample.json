@@ -1,6 +1,6 @@
 [
   {
-    "propertyId": "53225",
+    "propertyId": "9777065",
     "propertyName": "Example property name",
     "propertyUrl": "https://www.booking.com/example/77053",
     "pageName": "Example page name",
@@ -19,43 +19,43 @@
     "reviewScore": 9.07,
     "reviewScoreLabel": "Example review score label",
     "reviewCount": 4177,
-    "secondaryReviewScore": 11.25,
+    "secondaryReviewScore": 0,
     "externalReviewScore": null,
     "externalReviewCount": null,
     "address": "Example address",
-    "city": "Sydney",
+    "city": "Mascot",
     "countryCode": "au",
-    "latitude": -34.9,
-    "longitude": 151.2,
+    "latitude": -34.95,
+    "longitude": 151.19,
     "displayLocation": "Example display location",
     "distanceFromSearchCentre": "Example distance from search centre",
     "distanceMetres": null,
-    "isCentrallyLocated": true,
+    "isCentrallyLocated": false,
     "publicTransportDistance": null,
     "beachDistance": null,
     "mainPhoto": "https://cf.bstatic.com/example/55836.jpg",
     "thumbnailPhoto": "https://cf.bstatic.com/example/89235.jpg",
     "price": {
       "currency": "USD",
-      "perStay": 417.44,
+      "perStay": 312.5,
       "perStayFormatted": "Example per stay formatted",
       "perNight": null,
-      "beforeDiscount": 404.44,
+      "beforeDiscount": 0,
       "label": "Example label",
       "chargesInfo": "Example charges info",
       "propertyCurrency": "AUD",
-      "perStayInPropertyCurrency": 551.31,
+      "perStayInPropertyCurrency": 844,
       "badges": []
     },
     "rooms": [
       {
-        "roomId": "9523061",
+        "roomId": "155769726",
         "occupancy": 2,
         "mealPlanId": 9,
-        "mealPlan": null,
-        "price": 462.46,
+        "mealPlan": "Example meal plan",
+        "price": 346.2,
         "currency": "USD",
-        "propertyCurrencyPrice": 551.31,
+        "propertyCurrencyPrice": 304,
         "propertyCurrency": "AUD",
         "freeCancellationUntil": null,
         "hasCrib": false,
@@ -77,11 +77,15 @@
         {
           "count": 2,
           "typeId": 8
+        },
+        {
+          "count": 4,
+          "typeId": 6
         }
       ],
       "area": null
     },
-    "mealPlanIncluded": null,
+    "mealPlanIncluded": "Example meal plan included",
     "freeCancellation": false
   }
 ]

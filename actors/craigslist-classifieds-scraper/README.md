@@ -33,6 +33,7 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~craigslist-classifieds-sc
 | `soldBy` | string | Posted by |
 | `hasImage` | boolean | Only postings with photos |
 | `postedToday` | boolean | Only postings from today |
+| `maxAge` | integer | Only postings from the last N days |
 | `sortBy` | string | Sort by |
 | `startUrls` | array | Craigslist links |
 | `urls` | array | Craigslist links (alias) |
@@ -75,6 +76,14 @@ Full details on the [scraper page](https://apify.com/abotapi/craigslist-classifi
 | `seoSlug` | string |
 | `imageUrls` | list |
 | `imageCount` | integer |
+| `id` | string |
+| `datetime` | string |
+| `location` | string |
+| `category` | string |
+| `label` | null |
+| `post` | null |
+| `mapAccuracy` | null |
+| `phoneNumbers` | null |
 
 ---
 

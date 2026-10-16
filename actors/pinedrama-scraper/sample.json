@@ -1,0 +1,72 @@
+[
+  {
+    "recordType": "series",
+    "collection_id": "0236169020423823401",
+    "title": "Example title",
+    "cover_url": "https://p16-common-sign.tiktokcdn.com/example/98614",
+    "cover_uri": "Example cover_uri",
+    "cover_width": 235,
+    "cover_height": 658,
+    "episode_count": 52,
+    "watched_count": 53446281,
+    "categories": [
+      "CEO",
+      "Urban"
+    ],
+    "theme_tags": [
+      "CEO",
+      "Urban"
+    ],
+    "theme_tag_ids": [
+      "6525033796346331821",
+      "7630204536162696465"
+    ],
+    "category": 6,
+    "is_limited_free": true,
+    "is_safety_selected": false,
+    "label_hot": true,
+    "label_new": false,
+    "language_code": "en",
+    "scene": 4,
+    "category_filters": [
+      {
+        "category_id": "7878300609627835757",
+        "name": "Example name",
+        "name_en": "Example name_en"
+      }
+    ],
+    "keyword": "CEO",
+    "video_id": "0504627817661474140",
+    "creator_id": "9552459684927987088",
+    "short_cut_num": 52,
+    "episodes": [
+      {
+        "episode_number": 5,
+        "sequence_id": 4,
+        "video_id": "0504627817661474140",
+        "is_intro": false,
+        "is_paid": false,
+        "is_limited_free": true,
+        "has_purchased": false
+      },
+      {
+        "episode_number": 7,
+        "sequence_id": 9,
+        "video_id": "6695612442593290318",
+        "is_intro": false,
+        "is_paid": false,
+        "is_limited_free": true,
+        "has_purchased": false
+      }
+    ],
+    "episodes_collected": 76,
+    "source_collection_id": null,
+    "language": "en",
+    "page": 1,
+    "detailFetched": true,
+    "extractionPath": "catalogue",
+    "scrapedAt": "2026-01-15T10:00:00Z",
+    "resultsReturned": 3,
+    "changeType": "NEW"
+  }
+]

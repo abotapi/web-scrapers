@@ -16,6 +16,7 @@ run = client.actor("abotapi/pollstar-concert-tour-scraper").call(
         "query": "Las Vegas",
         "searchType": "cities",
         "sortOrder": "asc",
+        "sortBy": "playdate",
         "maxItems": 10,
         "maxPages": 1,
         "proxyConfiguration": {"useApifyProxy": True},

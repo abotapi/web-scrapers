@@ -26,8 +26,10 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~careerbuilder-scraper/run
 | --- | --- | --- |
 | `mode` * | string | Mode |
 | `queries` | array | Job keywords |
+| `keywords` | string | Single keyword (alias) |
 | `location` | array | Locations |
 | `startUrls` | array | URLs |
+| `startUrl` | string | Single URL (alias) |
 | `sortBy` | string | Sort by |
 | `fetchDetails` | boolean | Fetch full job details |
 | `maxItems` | integer | Max jobs |
@@ -52,37 +54,37 @@ Full details on the [scraper page](https://apify.com/abotapi/careerbuilder-scrap
 | `jobType` | string |
 | `promoted` | boolean |
 | `provider` | string |
-| `industry` | string |
+| `industry` | null |
 | `company` | string |
-| `companyLogo` | string |
-| `companyWebsite` | string |
-| `companyDescription` | string |
-| `companySize` | string |
-| `companyFoundingDate` | string |
-| `companyLocation` | string |
+| `companyLogo` | null |
+| `companyWebsite` | null |
+| `companyDescription` | null |
+| `companySize` | null |
+| `companyFoundingDate` | null |
+| `companyLocation` | null |
 | `location` | string |
 | `city` | string |
 | `state` | string |
 | `country` | string |
-| `latitude` | string |
-| `longitude` | string |
+| `postalCode` | string |
+| `latitude` | null |
+| `longitude` | null |
 | `isRemote` | boolean |
 | `jobLocationType` | string |
 | `employmentType` | string |
-| `salary` | string |
-| `salaryMin` | integer |
-| `salaryMax` | integer |
-| `salaryCurrency` | string |
+| `salary` | null |
+| `salaryMin` | null |
+| `salaryMax` | null |
+| `salaryCurrency` | null |
 | `salaryUnit` | string |
 | `isSalaryExtracted` | null |
 | `snippet` | string |
 | `description` | null |
+| `skills` | null |
+| `identifier` | null |
+| `occupationalCategory` | null |
+| `validThrough` | null |
 | `datePosted` | string |
-| `dateRecency` | string |
-| `formattedDate` | string |
-| `createdDate` | float |
-| `modifiedDate` | float |
-| `applyType` | string |
 
 ---
 

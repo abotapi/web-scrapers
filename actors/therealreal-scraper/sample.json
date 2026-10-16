@@ -1,12 +1,12 @@
 [
   {
-    "itemId": "48304376",
-    "sku": "cha5663160",
-    "variantId": "797709402",
+    "itemId": "14989231",
+    "sku": "fen344990",
+    "variantId": "782360112",
     "name": "Example name",
     "url": "https://www.therealreal.com/example/56356",
     "designer": "Example designer",
-    "designerId": "650",
+    "designerId": "123",
     "artist": null,
     "itemClass": [
       "Example item class",
@@ -15,12 +15,13 @@
     "category": "Example category",
     "condition": "Example condition",
     "conditionNote": null,
-    "color": "Black",
+    "color": "Brown",
     "gender": "Women",
     "primaryMaterial": "Example primary material",
     "attributes": {
       "Color": [
-        "Black"
+        "Brown",
+        "Example color"
       ],
       "Condition": [
         "Example condition"
@@ -28,27 +29,23 @@
       "Gender": [
         "Women"
       ],
-      "Handbag Style": [
-        "Example handbag  style",
-        "Example handbag  style"
-      ],
       "Primary Material": [
         "Example primary  material"
       ]
     },
     "retailPrice": null,
-    "listPrice": 3681,
-    "originalPrice": 8752,
+    "listPrice": 981,
+    "originalPrice": 652,
     "currency": "USD",
     "discountPct": 0,
     "vsRetailPct": null,
     "isOnSale": false,
-    "availability": "AVAILABLE",
-    "isSold": false,
+    "availability": "HOLD",
+    "isSold": true,
     "quantity": "0",
     "obsessionCount": 19,
     "isEditorsPick": null,
-    "badge": "Example badge",
+    "badge": null,
     "images": [
       "https://product-images.therealreal.com/example/6328.jpg",
       "https://product-images.therealreal.com/example/94094.jpg"

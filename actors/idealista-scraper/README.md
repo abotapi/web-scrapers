@@ -84,7 +84,7 @@ Full details on the [scraper page](https://apify.com/abotapi/idealista-scraper?u
 | `reference` | string |
 | `lastUpdatedText` | string |
 | `features` | list |
-| `hasStorage` | boolean |
+| `hasTerrace` | boolean |
 | `hasAC` | boolean |
 | `condition` | string |
 | `orientation` | string |

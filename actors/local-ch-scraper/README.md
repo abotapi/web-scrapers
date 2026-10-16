@@ -17,7 +17,7 @@ python example.py
 ```bash
 curl -s -X POST "https://api.apify.com/v2/acts/abotapi~local-ch-scraper/run-sync-get-dataset-items?token=$APIFY_TOKEN" \
   -H 'Content-Type: application/json' \
-  -d '{"mode": "search", "category": "restaurant", "where": "zurich", "language": "de", "maxPages": 1, "maxListings": 10, "maxReviewsPerListing": 10, "proxy": {"useApifyProxy": true, "apifyProxyGroups": ["RESIDENTIAL"], "apifyProxyCountry": "CH"}}'
+  -d '{"mode": "search", "category": "restaurant", "where": "zurich", "language": "de", "maxPages": 1, "maxListings": 10, "maxReviewsPerListing": 10, "sort": "relevance", "proxy": {"useApifyProxy": true, "apifyProxyGroups": ["RESIDENTIAL"], "apifyProxyCountry": "CH"}}'
 ```
 
 ## Inputs
@@ -29,6 +29,7 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~local-ch-scraper/run-sync
 | `category` | string | Category (single) |
 | `queries` | array | Categories (multi) |
 | `where` | string | Location |
+| `locations` | array | Locations (multi) |
 | `language` | string | Language |
 | `urls` | array | local.ch URLs |
 | `maxPages` | integer | Maximum pages per search |
@@ -46,6 +47,10 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~local-ch-scraper/run-sync
 | `premiumOnly` | boolean | Only premium-listed companies |
 | `matchQueryPostalCode` | boolean | Only listings matching the query posta |
 | `skipRegionalFallback` | boolean | Only listings from exact query matches |
+| `sort` | string | Sort order |
+| `distanceFrom` | string | Sort by distance from (latitude,longit |
+| `facetFilters` | array | local.ch filters (cuisine, diets, amen |
+| `excludeRefusesAdvertising` | boolean | Exclude businesses that refuse adverti |
 | `proxy` | object | Proxy configuration |
 
 `*` required
@@ -60,7 +65,7 @@ Full details on the [scraper page](https://apify.com/abotapi/local-ch-scraper?ut
 | --- | --- |
 | `id` | string |
 | `name` | string |
-| `subtitle` | string |
+| `subtitle` | null |
 | `language` | string |
 | `entryType` | string |
 | `schemaOrgType` | string |
@@ -77,14 +82,14 @@ Full details on the [scraper page](https://apify.com/abotapi/local-ch-scraper?ut
 | `longitude` | float |
 | `phone` | string |
 | `phoneAlt` | null |
-| `mobile` | null |
+| `mobile` | string |
 | `fax` | null |
 | `email` | string |
 | `emailAlt` | null |
 | `website` | string |
 | `whatsapp` | null |
-| `facebook` | string |
-| `instagram` | string |
+| `facebook` | null |
+| `instagram` | null |
 | `linkedin` | null |
 | `twitter` | null |
 | `tiktok` | null |
@@ -92,12 +97,12 @@ Full details on the [scraper page](https://apify.com/abotapi/local-ch-scraper?ut
 | `youtube` | null |
 | `xing` | null |
 | `foursquare` | null |
-| `mainCategory` | string |
-| `mainCategorySlug` | string |
-| `categories` | list |
-| `categorySlugs` | list |
-| `rating` | float |
-| `ratingCount` | integer |
+| `phones` | list |
+| `emails` | list |
+| `socialMediaUrls` | null |
+| `refusesAdvertising` | boolean |
+| `poBoxZipCode` | null |
+| `poBoxCity` | null |
 
 ---
 

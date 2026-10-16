@@ -5,7 +5,7 @@
     "url": "https://au.seek.com/example/72494",
     "region": "AU",
     "name": "Example name",
-    "isClaimed": false,
+    "isClaimed": true,
     "logoUrl": "https://image-service-cdn.seek.com.au/example/58885.jpg",
     "coverImageUrl": "",
     "totalJobs": 9,

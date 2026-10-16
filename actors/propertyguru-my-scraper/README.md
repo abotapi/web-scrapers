@@ -91,10 +91,10 @@ Full details on the [scraper page](https://apify.com/abotapi/propertyguru-my-scr
 | `longitude` | float |
 | `postal_code` | string |
 | `project_name` | string |
-| `project_id` | string |
-| `project_legacy_id` | integer |
-| `project_status_code` | string |
-| `total_units` | integer |
+| `project_id` | integer |
+| `tenure_detail` | string |
+| `property_type_text` | string |
+| `furnishing` | string |
 
 ---
 

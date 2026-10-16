@@ -17,7 +17,7 @@ python example.py
 ```bash
 curl -s -X POST "https://api.apify.com/v2/acts/abotapi~ozon-ru-scraper/run-sync-get-dataset-items?token=$APIFY_TOKEN" \
   -H 'Content-Type: application/json' \
-  -d '{"mode": "search", "queries": ["iphone 15"], "sortBy": "score", "maxReviewsPerProduct": 10, "maxPages": 1, "maxListings": 10, "proxy": {"useApifyProxy": true, "apifyProxyGroups": ["RESIDENTIAL"]}}'
+  -d '{"mode": "search", "queries": ["iphone 15"], "sortBy": "score", "maxReviewsPerProduct": 10, "maxPages": 1, "maxListings": 10, "maxItems": 10, "proxy": {"useApifyProxy": true, "apifyProxyGroups": ["RESIDENTIAL"]}}'
 ```
 
 ## Inputs
@@ -38,6 +38,12 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~ozon-ru-scraper/run-sync-
 | `maxReviewsPerProduct` | integer | Max reviews per product |
 | `maxPages` | integer | Max pages per query / URL |
 | `maxListings` | integer | Max products (total) |
+| `startUrls` | array | Start URLs (alias of URLs) |
+| `searchKeywords` | array | Search keywords (alias of Search queri |
+| `sortSearchBy` | string | Sort (alias of Sort order) |
+| `maxItems` | integer | Max items per URL or keyword |
+| `scrapeDescription` | boolean | Include description |
+| `scrapeSpecifications` | boolean | Include specifications |
 | `proxy` | object | Proxy configuration |
 
 `*` required
@@ -78,6 +84,14 @@ Full details on the [scraper page](https://apify.com/abotapi/ozon-ru-scraper?utm
 | `buyboxSellers` | list |
 | `reviews` | list |
 | `scrapedAt` | string |
+| `mainImage` | string |
+| `priceString` | string |
+| `originalPriceString` | null |
+| `videos` | list |
+| `sellerInfo` | object |
+| `specifications` | list |
+| `reviewsCount` | integer |
+| `questionsCount` | integer |
 
 ---
 

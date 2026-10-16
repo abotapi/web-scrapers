@@ -13,14 +13,14 @@
       "name": "Example name"
     },
     "price": {
-      "current": 101037.09,
-      "original": 99962.23,
+      "current": 86524,
+      "original": 74223,
       "recommendedRetail": null,
-      "discountPercent": 0,
+      "discountPercent": 3.84,
       "currency": "TRY"
     },
     "rating": {
-      "score": 3.89,
+      "score": 3.98,
       "totalRatings": 775,
       "totalComments": 702,
       "breakdown": null
@@ -45,12 +45,13 @@
     "freeCargo": false,
     "fastDelivery": true,
     "officialSeller": true,
-    "sameDayShipping": false,
-    "rushDelivery": true,
+    "sameDayShipping": true,
+    "rushDelivery": false,
     "hasCoupon": false,
     "hasCodePromo": false,
     "hasFlashSale": false,
     "isInfluencerPreferred": false,
+    "lowestPriceDays": 37,
     "hasReviewPhoto": true,
     "dealBadge": null,
     "stripBadge": null,
@@ -63,7 +64,80 @@
         "value": "Example value"
       }
     ],
-    "reviews": null,
-    "qna": null
+    "reviews": null
+  },
+  {
+    "kind": "product",
+    "contentId": 502350137,
+    "id": 484021410,
+    "groupId": 523822981,
+    "url": "https://www.trendyol.com/example/80475",
+    "name": "Example name",
+    "brand": "Apple",
+    "brandId": 6199,
+    "category": {
+      "id": 1410,
+      "name": "Example name"
+    },
+    "price": {
+      "current": 76281,
+      "original": 60298,
+      "recommendedRetail": null,
+      "discountPercent": 0,
+      "currency": "TRY"
+    },
+    "rating": {
+      "score": 5.57,
+      "totalRatings": 8190,
+      "totalComments": 489,
+      "breakdown": null
+    },
+    "seller": {
+      "id": 721410,
+      "name": "Example name"
+    },
+    "image": "https://cdn.dsmcdn.com/example/65199.jpg",
+    "images": [
+      "https://cdn.dsmcdn.com/example/50038.jpg",
+      "https://cdn.dsmcdn.com/example/15112.jpg"
+    ],
+    "stock": null,
+    "inStock": true,
+    "boutiqueId": 39,
+    "campaignId": 16,
+    "listingId": "id42824615",
+    "itemNumber": 3033947646,
+    "variantValue": "Example variant value",
+    "variantId": "Example variant id",
+    "freeCargo": true,
+    "fastDelivery": true,
+    "officialSeller": false,
+    "sameDayShipping": false,
+    "rushDelivery": true,
+    "hasCoupon": false,
+    "hasCodePromo": false,
+    "hasFlashSale": false,
+    "isInfluencerPreferred": false,
+    "lowestPriceDays": null,
+    "hasReviewPhoto": true,
+    "dealBadge": null,
+    "stripBadge": null,
+    "promotions": [],
+    "stamps": {},
+    "badges": [
+      {
+        "type": "FREE_CARGO",
+        "title": "Example title",
+        "icon": "https://cdn.dsmcdn.com/example/17142.jpg",
+        "color": "Example color"
+      }
+    ],
+    "socialProof": [
+      {
+        "key": "Example key",
+        "value": "Example value"
+      }
+    ],
+    "reviews": null
   }
 ]

@@ -16,6 +16,7 @@ run = client.actor("abotapi/trendyol-scraper").call(
         "queries": ["iphone"],
         "sortBy": "BEST_SCORE",
         "maxReviewsPerProduct": 10,
+        "reviewSort": "recommended",
         "minRating": "0",
         "maxPages": 1,
         "maxListings": 10,

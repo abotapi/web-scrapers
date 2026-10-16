@@ -1,22 +1,34 @@
 [
   {
-    "id": "7799rfx1e64s",
-    "legacy_id": "147330870",
+    "id": "74i77tmmkbjk",
+    "legacy_id": "499243090",
     "title": "Example title",
-    "headline": "Example headline: mock text standing in for the real value. Same field and type, made-up content.",
+    "headline": "Example headline",
     "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
     "price": "Example price",
-    "price_numeric": 151672,
+    "price_numeric": 6451672,
+    "price_per_m2": "Example price_per_m2",
     "currency": "EUR",
     "distribution_type": "BUY",
     "property_type": "APARTMENT",
     "property_type_label": "Appartement",
     "rooms": 9,
-    "area_m2": 16.83,
+    "bedrooms": 7,
+    "area_m2": 116.39,
     "floor": "Example floor",
     "city": "Example city",
-    "zipcode": "26009",
-    "district": "Example district",
+    "zipcode": "37248",
+    "region": "Ile-de-France",
+    "key_facts": [
+      "Example key_facts",
+      "Example key_facts"
+    ],
+    "agency_legal_info": [
+      "Example agency_legal_info",
+      "Example agency_legal_info"
+    ],
+    "agency_website": "https://www.iadfrance.fr/example/72228",
+    "agency_fee_url": "https://bareme.iadfrance.fr/example/43334",
     "country": "FRA",
     "transport": [
       "Example transport",
@@ -29,23 +41,75 @@
     "is_exclusive": true,
     "has_3d_visit": true,
     "is_new": true,
-    "publisher_type": "AGENCY",
+    "publisher_type": "Example publisher_type",
     "images": [
       "https://cdnihddipa.cloudimg.io/example/97918.jpg",
       "https://cdnihddipa.cloudimg.io/example/44130.jpg"
     ],
     "floorplans": [
-      "https://cdnihddipa.cloudimg.io/example/94827.jpg",
-      "https://cdnihddipa.cloudimg.io/example/25805.jpg"
+      "https://cdnihddipa.cloudimg.io/example/94827.jpg"
     ],
-    "image_count": 8,
+    "image_count": 44,
     "url": "https://www.seloger.com/example/82834",
+    "portal": "seloger",
+    "created_at": "2026-01-15T10:00:00Z",
+    "updated_at": "2026-01-15T10:00:00Z"
+  },
+  {
+    "id": "5580rfx4e34s",
+    "legacy_id": "701104304",
+    "title": "Example title",
+    "headline": "Example headline: mock text standing in for the real value. Same field and type, made-up content.",
+    "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
+    "price": "Example price",
+    "price_numeric": 622202,
+    "price_per_m2": "Example price_per_m2",
+    "currency": "EUR",
+    "distribution_type": "BUY",
+    "property_type": "APARTMENT",
+    "property_type_label": "Appartement",
+    "rooms": 9,
+    "area_m2": 23.31,
+    "floor": "Example floor",
+    "city": "Example city",
+    "zipcode": "46534",
+    "region": "Ile-de-France",
+    "key_facts": [
+      "Example key_facts",
+      "Example key_facts"
+    ],
+    "agency_legal_info": [
+      "Example agency_legal_info: mock text standing in for the real value. Same field and type, made-up content.",
+      "Example agency_legal_info"
+    ],
+    "agency_website": "http://www.avl-immobilier.com/example/49325",
+    "country": "FRA",
+    "transport": [
+      "Example transport",
+      "Example transport"
+    ],
+    "energy_class": "Example energy_class",
+    "agent_name": "Example agent_name",
+    "agent_phone": "+1 555 0100",
+    "agent_address": "Example agent_address",
+    "is_exclusive": true,
+    "has_3d_visit": true,
+    "publisher_type": "AGENCY",
+    "images": [
+      "https://cdnihddipa.cloudimg.io/example/2194.jpg",
+      "https://cdnihddipa.cloudimg.io/example/61699.jpg"
+    ],
+    "floorplans": [
+      "https://cdnihddipa.cloudimg.io/example/52589.jpg",
+      "https://cdnihddipa.cloudimg.io/example/1881.jpg"
+    ],
+    "image_count": 4,
+    "url": "https://www.seloger.com/example/12450",
     "portal": "seloger",
     "created_at": "2026-01-15T10:00:00Z",
     "updated_at": "2026-01-15T10:00:00Z",
     "source": "seloger.com",
-    "latitude": 42.54,
-    "longitude": 2.16,
-    "coord_precision": "cluster"
+    "latitude": 49.38,
+    "longitude": 2.92
   }
 ]

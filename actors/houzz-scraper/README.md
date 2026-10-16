@@ -17,7 +17,7 @@ python example.py
 ```bash
 curl -s -X POST "https://api.apify.com/v2/acts/abotapi~houzz-scraper/run-sync-get-dataset-items?token=$APIFY_TOKEN" \
   -H 'Content-Type: application/json' \
-  -d '{"mode": "search", "site": "houzz.com", "category": "interior-designers", "reviewSort": "NEWEST", "maxReviewsPerPro": 10, "maxPages": 1, "maxListings": 10, "proxy": {"useApifyProxy": true}}'
+  -d '{"mode": "search", "site": "houzz.com", "category": "interior-designers", "reviewSort": "NEWEST", "maxReviewsPerPro": 10, "maxPages": 1, "maxListings": 10, "maxItems": 10, "proxy": {"useApifyProxy": true}}'
 ```
 
 ## Inputs
@@ -37,6 +37,7 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~houzz-scraper/run-sync-ge
 | `verifiedOnly` | boolean | Verified pros only |
 | `maxPages` | integer | Max pages per search |
 | `maxListings` | integer | Max pros total |
+| `maxItems` | integer | Max items (alias of Max pros total) |
 | `fetchDetails` | boolean | Fetch full profile per pro |
 | `proxy` | object | Proxy configuration |
 

@@ -14,11 +14,14 @@ run = client.actor("abotapi/carrefour-es-scraper").call(
     run_input={
         "mode": "search",
         "queries": ["leche"],
+        "categories": ["https://www.carrefour.es/supermercado/lacteos-huevos/leche/cat20093/c", "Vinos"],
         "sortBy": "relevance",
         "minRating": "0",
+        "maxReviews": 10,
         "maxItems": 10,
         "maxPages": 1,
         "proxy": {"useApifyProxy": True, "apifyProxyGroups": ["RESIDENTIAL"], "apifyProxyCountry": "ES"},
+        "maxResults": 10,
     },
     logger=None,  # don't stream the run log to your console
 )

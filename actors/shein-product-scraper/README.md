@@ -17,20 +17,27 @@ python example.py
 ```bash
 curl -s -X POST "https://api.apify.com/v2/acts/abotapi~shein-product-scraper/run-sync-get-dataset-items?token=$APIFY_TOKEN" \
   -H 'Content-Type: application/json' \
-  -d '{"urls": ["https://au.shein.com/RecommendSelection/Women-Clothing-sc-017172961.html"], "storefront": "au", "maxItems": 10, "maxPages": 1, "proxy": {"useApifyProxy": true, "apifyProxyGroups": ["RESIDENTIAL"]}}'
+  -d '{"urls": ["https://au.shein.com/RecommendSelection/Women-Clothing-sc-017172961.html", "https://au.shein.com/RecommendSelection/Home-Kitchen-sc-017185546.html", "https://au.shein.com/pdsearch/summer%20dress/", "https://au.shein.com/Women-Dresses-c-1727.html"], "storefront": "au", "sortBy": "relevance", "maxItems": 10, "maxPages": 1, "proxy": {"useApifyProxy": true, "apifyProxyGroups": ["RESIDENTIAL"]}}'
 ```
 
 ## Inputs
 
 | Input | Type | What it is |
 | --- | --- | --- |
-| `urls` * | array | Listing URLs |
+| `urls` | array | Listing URLs |
+| `searchTerms` | array | Search keywords |
 | `storefront` | string | Storefront |
 | `includeOutOfStock` | boolean | Include out-of-stock products |
+| `sortBy` | string | Sort by |
+| `minPrice` | number | Minimum price |
+| `maxPrice` | number | Maximum price |
+| `minRating` | number | Minimum rating |
+| `onSaleOnly` | boolean | Discounted products only |
+| `categories` | array | Categories |
 | `maxItems` | integer | Maximum products |
 | `maxPages` | integer | Maximum listing pages per URL |
-| `proxy` | object | Connection |
 | `enableLegacyBrowserLane` | boolean | Enable legacy browser lane |
+| `proxy` | object | Connection |
 
 `*` required
 
@@ -68,6 +75,20 @@ Full details on the [scraper page](https://apify.com/abotapi/shein-product-scrap
 | `image` | string |
 | `images` | list |
 | `scrapedAt` | string |
+| `priceFormatted` | string |
+| `originalPriceFormatted` | null |
+| `currencyCode` | string |
+| `country` | string |
+| `estimatedPrice` | null |
+| `reviewsCountText` | string |
+| `fit` | object |
+| `soldCountText` | string |
+| `rankLabel` | string |
+| `badges` | list |
+| `dealEndsAt` | null |
+| `promotions` | list |
+| `quickShip` | boolean |
+| `isCustomizable` | boolean |
 
 ---
 

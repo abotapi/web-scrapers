@@ -71,9 +71,9 @@ Full details on the [scraper page](https://apify.com/abotapi/edjoin-scraper?utm_
 | `beginningSalary` | null |
 | `endingSalary` | null |
 | `salaryType` | string |
-| `payRangeFrom` | null |
-| `payRangeTo` | null |
-| `payRangeUnit` | null |
+| `payRangeFrom` | string |
+| `payRangeTo` | string |
+| `payRangeUnit` | string |
 | `singleRate` | null |
 | `singleRateUnit` | null |
 | `employmentType` | string |

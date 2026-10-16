@@ -17,7 +17,7 @@ python example.py
 ```bash
 curl -s -X POST "https://api.apify.com/v2/acts/abotapi~lemon8-profile-scraper/run-sync-get-dataset-items?token=$APIFY_TOKEN" \
   -H 'Content-Type: application/json' \
-  -d '{"username": "sydneydelreyy", "region": "us", "limit": 10, "proxy": {"useApifyProxy": true, "apifyProxyCountry": "US"}, "dev_dataset_name": "default"}'
+  -d '{"username": "sydneydelreyy", "startUrls": ["https://www.lemon8-app.com/@sydneydelreyy?region=us", "https://www.lemon8-app.com/@sydneydelreyy", "https://www.lemon8-app.com/@sydneydelreyy?region=ca", "https://www.lemon8-app.com/@sydneydelreyy/7499465815561994794?region=us", "https://www.lemon8-app.com/@sydneydelreyy/7499465815561994794", "https://www.lemon8-app.com/@sydneydelreyy/follow?region=us"], "region": "us", "limit": 10, "proxy": {"useApifyProxy": true, "apifyProxyCountry": "US"}, "dev_dataset_name": "default"}'
 ```
 
 ## Inputs
@@ -61,10 +61,30 @@ Full details on the [scraper page](https://apify.com/abotapi/lemon8-profile-scra
 | `images` | list |
 | `isVideo` | boolean |
 | `videoData` | null |
+| `articleClass` | string |
 | `details` | object |
 | `allComments` | list |
 | `comments` | list |
 | `commentStats` | object |
+| `groupId` | string |
+| `url` | string |
+| `likes` | integer |
+| `saves` | integer |
+| `commentCount` | integer |
+| `authorUserId` | string |
+| `authorUsername` | string |
+| `authorNickname` | string |
+| `authorAvatar` | string |
+| `authorFollowers` | integer |
+| `videoUrl` | string |
+| `thumbnailUrl` | string |
+| `hashtags` | list |
+| `topComments` | list |
+| `keyword` | string |
+| `category` | null |
+| `region` | string |
+| `sourceMode` | string |
+| `scrapedAt` | string |
 
 ---
 

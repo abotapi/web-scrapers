@@ -1,118 +1,117 @@
 [
   {
     "id": "Example id",
-    "board_token": "adaptify",
+    "board_token": "posthog",
     "source": "adhoc",
-    "source_and_board_token": "adhoc_adaptify",
-    "apply_url": "https://adaptify.ai/example/60602",
+    "source_and_board_token": "adhoc_posthog",
+    "apply_url": "https://posthog.com/example/60602",
     "objectID": "Example object i d",
     "requisition_id": "id50241345",
     "job_url": "https://hiringcafe.com/example/86267",
     "is_expired": false,
     "job_information": {
-      "savedFromUsers": [
-        "jlwrvbidlwvdu6q8fwyiv0j7lav2",
-        "ols8hydkiupcwfwceoc3x0ea52y2"
-      ],
-      "num_views": 537,
-      "job_title_raw": "Example job_title_raw",
-      "viewedByUsers": [
-        "avrxoo9gyrgdfzygoqrzfbqvroc0",
-        "pmthajraj7c7seuqay6mvlicuaj8"
-      ],
-      "num_applies": 858,
-      "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
-      "num_saves": 4,
       "title": "Example title",
-      "appliedFromUsers": [
-        "exfilkrc9iobumpw74rlatfjvem4",
-        "0s9zvpng6nelrfuuqsmzykvictj1"
-      ],
+      "job_title_raw": "Example job_title_raw",
       "hiddenFromUsers": [
-        "avrxoo3gyrgdfzygoqrzfbqvroc9",
-        "a29b5ls3znmozbxrhixmpakd8q62"
-      ]
+        "roeonhmgkzxvazeqvlg2jlohyr96",
+        "yvxignsnpohzrnldsyfxuwxe0ad6"
+      ],
+      "viewedByUsers": [
+        "nwfkqsi0ycpqk55y6xjgkcfzya13",
+        "ysnb6cfzsschtccuibttbjcwr472"
+      ],
+      "num_views": 6
     },
     "v5_processed_job_data": {
-      "security_clearance": "Example security_clearance",
+      "core_job_title": "Example core_job_title",
+      "requirements_summary": "Example requirements_summary: mock text standing in for the real value. Same field and type, made-up content.",
+      "technical_tools": [
+        "Example technical_tools",
+        "Example technical_tools"
+      ],
+      "licenses_or_certifications": [],
+      "associates_degree_requirement": "Example associates_degree_requirement",
+      "associates_degree_fields_of_study": [],
+      "bachelors_degree_requirement": "Example bachelors_degree_requirement",
+      "bachelors_degree_fields_of_study": [],
       "masters_degree_requirement": "Example masters_degree_requirement",
-      "bi-weekly_min_compensation": null,
-      "oral_communication_level": "Medium",
-      "workplace_physical_environment": "Example workplace_physical_environment",
-      "hourly_max_compensation": null,
-      "overnight_work": "Example overnight_work",
-      "is_driver_license_required": false,
+      "masters_degree_fields_of_study": [],
+      "doctorate_degree_requirement": "Example doctorate_degree_requirement",
+      "doctorate_degree_fields_of_study": [],
+      "licenses_or_certifications_not_mentioned": true,
+      "min_industry_and_role_yoe": null,
+      "401k_matching": false,
+      "is_min_industry_and_role_yoe_not_mentioned": null,
+      "min_management_and_leadership_yoe": null,
+      "is_min_management_and_leadership_yoe_not_mentioned": true,
+      "job_category": "Example job_category",
+      "role_activities": [
+        "Example role_activities",
+        "Example role_activities"
+      ],
+      "commitment": [
+        "Example commitment"
+      ],
+      "role_type": "Example role_type",
+      "seniority_level": "Example seniority_level",
+      "workplace_countries": [],
       "boundless_workplace_states": [],
-      "number_of_workplace_states": 0,
-      "retirement_plan": false,
+      "boundless_workplace_countries": [],
+      "boundless_workplace_continents": [
+        "Example boundless_workplace_continents",
+        "Example boundless_workplace_continents"
+      ],
       "workplace_continents": [
         "Example workplace_continents",
         "Example workplace_continents"
       ],
-      "is_workplace_worldwide_ok": false,
-      "is_min_management_and_leadership_yoe_not_mentioned": true,
-      "monthly_min_compensation": null,
-      "military_veterans": false,
-      "is_compensation_transparent": false,
-      "land_travel_requirement": "Example land_travel_requirement",
-      "is_high_school_required": false,
-      "number_of_workplace_continents": 1,
-      "company_name": "Example company_name",
+      "workplace_states": [],
       "workplace_cities": [],
-      "401k_matching": false,
+      "workplace_counties": [],
+      "workplace_type": "Remote",
+      "workplace_physical_environment": "Example workplace_physical_environment",
+      "oral_communication_level": "Medium",
+      "physical_labor_intensity": "Example physical_labor_intensity",
+      "physical_position": "Example physical_position",
+      "computer_usage": "Example computer_usage",
       "cognitive_demand": "Example cognitive_demand",
-      "estimated_publish_date_millis": 4126487622697,
-      "fair_chance": false,
-      "associates_degree_requirement": "Example associates_degree_requirement",
-      "number_of_workplace_counties": 0,
-      "core_job_title": "Example core_job_title",
-      "weekend_availability_required": false,
-      "monthly_max_compensation": null,
-      "doctorate_degree_requirement": "Example doctorate_degree_requirement",
-      "company_website": "Example company_website",
-      "licenses_or_certifications": [],
-      "number_of_workplace_countries": 0,
-      "evening_shift_work": "Example evening_shift_work",
-      "visa_sponsorship": false,
-      "daily_max_compensation": null,
-      "workplace_countries": [],
-      "role_activities": [
-        "Example role_activities",
-        "Example role_activities"
-      ]
+      "air_travel_requirement": "Example air_travel_requirement",
+      "land_travel_requirement": "Example land_travel_requirement"
     },
     "v5_processed_company_data": {
-      "latest_funding_investors": [
-        "Example latest_funding_investors"
-      ],
-      "homepage_uri": "Example homepage_uri",
-      "parent_company": null,
-      "latest_funding_year": 5165,
-      "latest_funding_type": "Example latest_funding_type",
-      "stock_exchange": null,
-      "stock_symbol": null,
-      "nb_employees": 47,
-      "year_founded": 5364,
-      "external_id": "Example external_id",
-      "org_classification": "direct_employer",
-      "board_classification": "direct_employer",
-      "org_entity_id": "id27961776",
-      "hq_country": "US",
       "enriched_at": "2026-01-15T10:00:00Z",
-      "activities": [
-        "Example activities",
-        "Example activities"
+      "status": "VALID_COMPANY",
+      "name": "Example name",
+      "homepage_uri": "Example homepage_uri",
+      "hq_country": "US",
+      "parent_company": null,
+      "subsidiaries": [
+        "Example subsidiaries"
       ],
       "industries": [
         "Example industries",
         "Example industries"
       ],
-      "latest_funding_amount": null,
-      "name": "Example name",
+      "activities": [
+        "Example activities",
+        "Example activities"
+      ],
+      "nb_employees": 497,
+      "year_founded": 5364,
       "tagline": "Example tagline: mock text standing in for the real value. Same field and type, made-up content.",
       "organization_type": "Private",
-      "subsidiaries": null,
-      "status": "VALID_COMPANY"
+      "latest_funding_investors": [
+        "Example latest_funding_investors"
+      ],
+      "latest_funding_type": "Example latest_funding_type",
+      "latest_funding_year": 5165,
+      "latest_funding_amount": 54355298,
+      "stock_exchange": null,
+      "stock_symbol": null,
+      "org_entity_id": "id27961776",
+      "external_id": "1eq--rj",
+      "board_classification": "direct_employer",
+      "org_classification": "direct_employer"
     },
     "job_title": "Example job_title",
     "employment_types": [
@@ -130,7 +129,10 @@
     "company_website": "Example company_website",
     "company_tagline": "Example company_tagline: mock text standing in for the real value. Same field and type, made-up content.",
     "company_industry": "Example company_industry",
-    "min_years_experience": 1,
+    "salary_transparent": true,
+    "salary_min": 482444,
+    "salary_max": 761447,
+    "salary_frequency": "yearly",
     "technical_tools": [
       "Example technical_tools",
       "Example technical_tools"
@@ -140,6 +142,168 @@
     ],
     "security_clearance": "Example security_clearance",
     "benefits": [
+      "Example benefits",
+      "retirement_plan"
+    ],
+    "physical_requirements": {
+      "labor_intensity": "Example labor_intensity",
+      "position": "Example position",
+      "environment": "Example environment",
+      "computer_usage": "Example computer_usage",
+      "oral_communication": "Example oral_communication",
+      "cognitive_demand": "Example cognitive_demand",
+      "air_travel": "Example air_travel",
+      "land_travel": "Example land_travel"
+    },
+    "company_employees": 897,
+    "company_founded": 3979,
+    "company_hq_country": "US",
+    "company_funding": {
+      "latest_funding_type": "Example latest_funding_type",
+      "latest_funding_amount": 54355298,
+      "latest_funding_year": 5165
+    },
+    "views_on_site": 5
+  },
+  {
+    "id": "Example id",
+    "board_token": "posthog",
+    "source": "adhoc",
+    "source_and_board_token": "adhoc_posthog",
+    "apply_url": "https://posthog.com/example/30836",
+    "objectID": "Example object i d",
+    "requisition_id": "id40712308",
+    "job_url": "https://hiringcafe.com/example/62585",
+    "is_expired": false,
+    "job_information": {
+      "num_views": 54,
+      "job_title_raw": "Example job_title_raw",
+      "viewedByUsers": [
+        "mt5a7pwcblqqqkf5kdmpvafuiob8",
+        "fbs9cdbul9xqdh2lanehofwqlub4"
+      ],
+      "num_applies": 77,
+      "title": "Example title",
+      "appliedFromUsers": [
+        "dwfnmypl3ph9bclnsb6b7eawltc0",
+        "5mddcjdqu1t1xkbv7csoxtvhpod1"
+      ],
+      "hiddenFromUsers": [
+        "fbs9cdbul2xqdh5lanehofwqlub0",
+        "o1eupmgyktzdazsmsdxn8byffad3"
+      ],
+      "savedFromUsers": [
+        "ikto38kmpog28wkoqo5r2asqtfw4"
+      ],
+      "num_saves": 9
+    },
+    "v5_processed_job_data": {
+      "security_clearance": "Example security_clearance",
+      "masters_degree_requirement": "Example masters_degree_requirement",
+      "bi-weekly_min_compensation": 11975.48,
+      "oral_communication_level": "Low",
+      "workplace_physical_environment": "Example workplace_physical_environment",
+      "hourly_max_compensation": 122.55,
+      "overnight_work": "Example overnight_work",
+      "is_driver_license_required": false,
+      "boundless_workplace_states": [],
+      "number_of_workplace_states": 0,
+      "retirement_plan": true,
+      "workplace_continents": [
+        "Example workplace_continents",
+        "Example workplace_continents"
+      ],
+      "is_workplace_worldwide_ok": false,
+      "is_min_management_and_leadership_yoe_not_mentioned": true,
+      "monthly_min_compensation": 24593.12,
+      "military_veterans": false,
+      "is_compensation_transparent": true,
+      "land_travel_requirement": "Example land_travel_requirement",
+      "is_high_school_required": false,
+      "number_of_workplace_continents": 9,
+      "company_name": "Example company_name",
+      "workplace_cities": [],
+      "401k_matching": true,
+      "cognitive_demand": "Example cognitive_demand",
+      "estimated_publish_date_millis": 7732294817019,
+      "fair_chance": false,
+      "associates_degree_requirement": "Example associates_degree_requirement",
+      "number_of_workplace_counties": 0,
+      "core_job_title": "Example core_job_title",
+      "weekend_availability_required": false,
+      "monthly_max_compensation": 31981,
+      "doctorate_degree_requirement": "Example doctorate_degree_requirement",
+      "company_website": "Example company_website",
+      "licenses_or_certifications": [],
+      "number_of_workplace_countries": 0,
+      "evening_shift_work": "Example evening_shift_work",
+      "visa_sponsorship": false,
+      "daily_max_compensation": 5416,
+      "workplace_countries": [],
+      "role_activities": [
+        "Example role_activities",
+        "Example role_activities"
+      ]
+    },
+    "v5_processed_company_data": {
+      "latest_funding_investors": [
+        "Example latest_funding_investors"
+      ],
+      "homepage_uri": "Example homepage_uri",
+      "parent_company": null,
+      "latest_funding_year": 3052,
+      "latest_funding_type": "Example latest_funding_type",
+      "stock_exchange": null,
+      "stock_symbol": null,
+      "nb_employees": 572,
+      "year_founded": 2642,
+      "hq_country": "US",
+      "enriched_at": "2026-01-15T10:00:00Z",
+      "activities": [
+        "Example activities",
+        "Example activities"
+      ],
+      "industries": [
+        "Example industries",
+        "Example industries"
+      ],
+      "latest_funding_amount": 51178853,
+      "name": "Example name",
+      "tagline": "Example tagline",
+      "organization_type": "Private",
+      "subsidiaries": null,
+      "status": "VALID_COMPANY"
+    },
+    "job_title": "Example job_title",
+    "employment_types": [
+      "Example employment_types"
+    ],
+    "role_type": "Example role_type",
+    "job_category": "Engineering",
+    "seniority": "Example seniority",
+    "workplace_type": "Remote",
+    "location": "Example location",
+    "employer_type": "Example employer_type",
+    "salary_currency": "USD",
+    "posted_at": "2026-01-15T10:00:00Z",
+    "company_name": "Example company_name",
+    "company_website": "Example company_website",
+    "company_tagline": "Example company_tagline: mock text standing in for the real value. Same field and type, made-up content.",
+    "company_industry": "Example company_industry",
+    "salary_transparent": true,
+    "salary_min": 239866,
+    "salary_max": 413679,
+    "salary_frequency": "yearly",
+    "technical_tools": [
+      "Example technical_tools",
+      "Example technical_tools"
+    ],
+    "languages": [
+      "English"
+    ],
+    "security_clearance": "Example security_clearance",
+    "benefits": [
+      "id77144604",
       "Example benefits"
     ],
     "physical_requirements": {
@@ -152,16 +316,14 @@
       "air_travel": "Example air_travel",
       "land_travel": "Example land_travel"
     },
-    "company_employees": 87,
-    "company_founded": 3979,
+    "company_employees": 770,
+    "company_founded": 8110,
     "company_hq_country": "US",
     "company_funding": {
       "latest_funding_type": "Example latest_funding_type",
-      "latest_funding_year": 5165
+      "latest_funding_amount": 51178853,
+      "latest_funding_year": 3052
     },
-    "views_on_site": 446,
-    "applies_on_site": 524,
-    "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
-    "description_text": "Example description_text: mock text standing in for the real value. Same field and type, made-up content."
+    "views_on_site": 89
   }
 ]
