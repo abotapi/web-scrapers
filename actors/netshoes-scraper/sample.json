@@ -1,8 +1,8 @@
 [
   {
-    "sku": "fba-34ci-274",
+    "sku": "fba-78ev-843",
     "variantSku": null,
-    "productCode": "fba-96ci",
+    "productCode": "fba-84ev",
     "title": "Example title",
     "brand": "Adidas",
     "brandSlug": null,
@@ -16,64 +16,34 @@
     "breadcrumb": [],
     "url": "https://www.netshoes.com.br/example/70008",
     "currency": "BRL",
-    "price": 282.79,
-    "originalPrice": 463.99,
-    "priceBeforePaymentDiscount": 285.59,
+    "price": 1247.34,
+    "originalPrice": 1507.99,
+    "priceBeforePaymentDiscount": 1259.69,
     "paymentMethod": null,
     "paymentMethodPrice": null,
-    "discountAmount": 955,
-    "discountPercent": 90,
+    "discountAmount": 55,
+    "discountPercent": 9,
     "onSale": true,
-    "installments": {
-      "count": 3,
-      "amountEach": null,
-      "total": null,
-      "interestFree": null
-    },
+    "installments": null,
     "installmentPlans": [],
     "sellerName": null,
     "soldByStore": null,
     "inStock": true,
-    "sizes": [
-      "70",
-      "64"
-    ],
+    "sizes": [],
     "sizesInStock": null,
     "variants": null,
     "color": null,
-    "colorVariants": [
-      {
-        "sku": "fba-44ci-294",
-        "colorName": null,
-        "url": "https://www.netshoes.com.br/example/70008",
-        "image": "https://static.netshoes.com.br/example/30195.jpg",
-        "available": null,
-        "price": null,
-        "originalPrice": null
-      },
-      {
-        "sku": "fba-85ci-768",
-        "colorName": null,
-        "url": "https://www.netshoes.com.br/example/29077",
-        "image": "https://static.netshoes.com.br/example/60955.jpg",
-        "available": null,
-        "price": null,
-        "originalPrice": null
-      }
-    ],
+    "colorVariants": [],
     "freeShipping": null,
-    "fastFulfilment": true,
+    "fastFulfilment": false,
     "additionalDeliveryDays": null,
     "preSale": null,
-    "badges": [
-      "NetsGO"
-    ],
+    "badges": [],
     "featuredImage": "https://static.netshoes.com.br/example/86384.jpg",
     "images": [
-      "https://static.netshoes.com.br/example/312.jpg",
-      "https://static.netshoes.com.br/example/67091.jpg"
+      "https://static.netshoes.com.br/example/312.jpg"
     ],
     "videos": [],
-    "rating": 5.0
+    "rating": 1
   }
 ]

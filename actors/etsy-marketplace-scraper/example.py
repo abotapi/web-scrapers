@@ -15,6 +15,7 @@ run = client.actor("abotapi/etsy-marketplace-scraper").call(
         "mode": "search",
         "queries": ["handmade necklace"],
         "sortBy": "most_relevant",
+        "maxReviewsPerListing": 10,
         "maxItems": 10,
         "maxPages": 1,
         "proxy": {"useApifyProxy": True, "apifyProxyGroups": ["RESIDENTIAL"], "apifyProxyCountry": "US"},

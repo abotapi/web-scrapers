@@ -17,7 +17,7 @@ python example.py
 ```bash
 curl -s -X POST "https://api.apify.com/v2/acts/abotapi~padmapper-rental-listings-scraper/run-sync-get-dataset-items?token=$APIFY_TOKEN" \
   -H 'Content-Type: application/json' \
-  -d '{"mode": "search", "locations": ["Austin, TX"], "listingInputs": ["58574913"], "maxItems": 10, "proxyConfiguration": {"useApifyProxy": true, "apifyProxyGroups": ["RESIDENTIAL"]}}'
+  -d '{"mode": "search", "locations": ["Austin, TX"], "maxItems": 10, "proxyConfiguration": {"useApifyProxy": true, "apifyProxyGroups": ["RESIDENTIAL"]}}'
 ```
 
 ## Inputs
@@ -32,6 +32,10 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~padmapper-rental-listings
 | `bathrooms` | integer | Min bathrooms |
 | `catsOk` | boolean | Cats allowed |
 | `dogsOk` | boolean | Dogs allowed |
+| `propertyType` | string | Property type |
+| `minBeds` | integer | Min bedrooms |
+| `maxBeds` | integer | Max bedrooms |
+| `sortBy` | string | Sort by |
 | `listingInputs` | array | Listing or building links |
 | `urls` | array | Listing or building links (alias) |
 | `maxItems` | integer | Max items |

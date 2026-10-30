@@ -1,4 +1,4 @@
-"""Booking.com Hotels Scraper: minimal example. Docs: https://apify.com/abotapi/booking-com-scraper
+"""Booking.com Scraper: minimal example. Docs: https://apify.com/abotapi/booking-com-scraper
 
 pip install "apify-client>=3"
 APIFY_TOKEN=<your token> python example.py
@@ -14,10 +14,10 @@ run = client.actor("abotapi/booking-com-scraper").call(
     run_input={
         "mode": "search",
         "destinations": ["Sydney"],
-        "minReviewScore": "any",
-        "sortBy": "relevance",
         "currency": "USD",
         "language": "en-us",
+        "minReviewScore": "any",
+        "sortBy": "relevance",
         "maxReviewsPerProperty": 10,
         "maxItems": 10,
         "maxPages": 1,

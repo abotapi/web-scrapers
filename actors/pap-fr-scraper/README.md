@@ -70,9 +70,9 @@ Full details on the [scraper page](https://apify.com/abotapi/pap-fr-scraper?utm_
 | `priceCurrency` | string |
 | `priceDisplay` | string |
 | `rooms` | integer |
-| `livingSpace` | integer |
+| `livingSpace` | float |
 | `bedrooms` | integer |
-| `floor` | null |
+| `floor` | integer |
 | `hoaChargesYearly` | null |
 | `propertyTaxYearly` | integer |
 | `heatingType` | string |

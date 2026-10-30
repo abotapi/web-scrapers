@@ -20,7 +20,9 @@ run = client.actor("abotapi/leboncoin-fr-scraper").call(
         "sortBy": "relevance",
         "maxPages": 1,
         "maxListings": 10,
+        "maxReviews": 10,
         "proxy": {"useApifyProxy": True, "apifyProxyGroups": ["RESIDENTIAL"], "apifyProxyCountry": "AT"},
+        "changeScope": "all",
     },
     logger=None,  # don't stream the run log to your console
 )

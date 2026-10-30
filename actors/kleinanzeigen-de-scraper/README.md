@@ -82,13 +82,13 @@ Full details on the [scraper page](https://apify.com/abotapi/kleinanzeigen-de-sc
 | `isSold` | boolean |
 | `adType` | string |
 | `tags` | list |
-| `sellerId` | string |
+| `sellerId` | null |
 | `sellerName` | string |
 | `sellerType` | string |
-| `sellerUrl` | string |
+| `sellerUrl` | null |
 | `sellerActiveSince` | string |
-| `sellerOtherAdsCount` | integer |
-| `imprint` | null |
+| `sellerOtherAdsCount` | null |
+| `imprint` | object |
 | `searchUrl` | string |
 
 ---

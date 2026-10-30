@@ -65,7 +65,7 @@ Full details on the [scraper page](https://apify.com/abotapi/chemistwarehouse-co
 | `price` | float |
 | `rrp` | float |
 | `wasPrice` | float |
-| `savingsAmount` | integer |
+| `savingsAmount` | float |
 | `savingsPercent` | float |
 | `discountPercent` | float |
 | `isOnSpecial` | boolean |

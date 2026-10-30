@@ -14,7 +14,6 @@ run = client.actor("abotapi/padmapper-rental-listings-scraper").call(
     run_input={
         "mode": "search",
         "locations": ["Austin, TX"],
-        "listingInputs": ["58574913"],
         "maxItems": 10,
         "proxyConfiguration": {"useApifyProxy": True, "apifyProxyGroups": ["RESIDENTIAL"]},
     },

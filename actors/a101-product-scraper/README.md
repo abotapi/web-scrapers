@@ -68,12 +68,12 @@ Full details on the [scraper page](https://apify.com/abotapi/a101-product-scrape
 | `discounted_price` | integer |
 | `current_price_text` | string |
 | `original_price_text` | string |
-| `discount_rate` | null |
-| `discount_rate_text` | null |
+| `discount_rate` | integer |
+| `discount_rate_text` | string |
 | `is_on_special` | boolean |
-| `savings_amount` | null |
-| `savings_percent` | null |
-| `promo_label` | null |
+| `savings_amount` | integer |
+| `savings_percent` | integer |
+| `promo_label` | string |
 | `specials_category` | null |
 | `price_range` | string |
 | `in_stock` | boolean |

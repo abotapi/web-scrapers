@@ -1,4 +1,4 @@
-"""Hipflat Scraper: minimal example. Docs: https://apify.com/abotapi/hipflat-scraper
+"""Hipflat Thailand Scraper: minimal example. Docs: https://apify.com/abotapi/hipflat-scraper
 
 pip install "apify-client>=3"
 APIFY_TOKEN=<your token> python example.py
@@ -19,7 +19,7 @@ run = client.actor("abotapi/hipflat-scraper").call(
         "sortBy": "relevance",
         "maxPages": 1,
         "maxItems": 10,
-        "proxy": {"useApifyProxy": True, "apifyProxyGroups": ["RESIDENTIAL"], "apifyProxyCountry": "TH"},
+        "proxy": {"useApifyProxy": True},
     },
     logger=None,  # don't stream the run log to your console
 )

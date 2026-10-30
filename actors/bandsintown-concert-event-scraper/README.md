@@ -27,6 +27,7 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~bandsintown-concert-event
 | `mode` * | string | Mode |
 | `artistNames` | array | Artist names |
 | `dateRange` | string | Date range |
+| `customDateRange` | string | Custom date range |
 | `urls` | array | Bandsintown links |
 | `fetchDetails` | boolean | Fetch full artist and venue details |
 | `maxItems` | integer | Max items |

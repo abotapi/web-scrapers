@@ -1,9 +1,9 @@
 [
   {
-    "propertyId": "885211059",
+    "propertyId": "818040551",
     "url": "https://www.realestate.com.au/example/41457",
     "listingType": "buy",
-    "propertyType": "apartment",
+    "propertyType": "terrace",
     "status": {
       "label": "Example label",
       "type": "new_listing"
@@ -11,13 +11,13 @@
     "address": {
       "street": "Example street",
       "suburb": "Example suburb",
-      "state": "VIC",
-      "postcode": "2782",
+      "state": "NSW",
+      "postcode": "1565",
       "full": "Example full"
     },
     "coordinates": {
-      "latitude": -30.64,
-      "longitude": 158.01
+      "latitude": -27.42,
+      "longitude": 164.81
     },
     "price": {
       "display": "Example display"
@@ -25,21 +25,20 @@
     "features": {
       "bedrooms": 2,
       "bathrooms": 2,
-      "parkingSpaces": 6,
+      "parkingSpaces": 0,
       "hasStudy": false,
       "hasBalcony": false,
       "hasPool": false,
       "hasGarage": false
     },
+    "landSize": 638,
+    "landSizeUnit": "m2",
     "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
     "headline": "Example headline: mock text standing in for the real value. Same field and type, made-up content.",
-    "propertyFeatures": [
-      "Example property features"
-    ],
+    "propertyFeatures": [],
     "propertyFeaturesStructured": {
-      "outdoorFeatures": [
-        "Example outdoor features"
-      ]
+      "indoorFeatures": [],
+      "outdoorFeatures": []
     },
     "media": {
       "imageCount": 27,
@@ -56,7 +55,7 @@
       "floorplanUrl": "https://i3.au.reastatic.net/example/5859.jpg"
     },
     "agent": {
-      "id": "5413055",
+      "id": "8457824",
       "name": "Example name",
       "phone": "+1 555 0100",
       "officePhone": "+1 555 0100",
@@ -69,7 +68,7 @@
     },
     "agents": [
       {
-        "id": "5413055",
+        "id": "8457824",
         "name": "Example name",
         "phone": "+1 555 0100",
         "officePhone": "+1 555 0100",
@@ -79,32 +78,20 @@
         "photoUrl": "https://i3.au.reastatic.net/example/91259.jpg",
         "profileUrl": "https://www.realestate.com.au/example/23143",
         "powerProfile": true
-      },
-      {
-        "id": "3015972",
-        "name": "Example name",
-        "phone": "+1 555 0100",
-        "officePhone": "+1 555 0100",
-        "mobilePhone": "+1 555 0100",
-        "email": "user32@example.com",
-        "jobTitle": "Example job title",
-        "photoUrl": "https://i3.au.reastatic.net/example/1526.jpg",
-        "profileUrl": "https://www.realestate.com.au/example/56349",
-        "powerProfile": true
       }
     ],
     "agency": {
       "name": "Example name",
-      "id": "XBPDOC",
+      "id": "PCLJZU",
       "phone": "+1 555 0100",
       "email": "user75@example.com",
-      "website": "http://www.barryplant.com.au/example/37340",
+      "website": "http://www.ayre.com.au/example/37340",
       "address": "Example address",
       "addressStructured": {
         "streetAddress": "Example street address",
-        "postcode": "3438",
+        "postcode": "1565",
         "suburb": "Example suburb",
-        "state": "VIC"
+        "state": "NSW"
       },
       "logoUrl": "https://i3.au.reastatic.net/example/90042.jpg",
       "profileUrl": "https://www.realestate.com.au/example/23143"
@@ -118,7 +105,7 @@
       },
       {
         "startTime": "2026-01-15T10:00:00Z",
-        "endTime": "2026-01-15T10:00:00Z",
+        "endTime": "",
         "dateDisplay": "",
         "isAuction": false
       }
@@ -126,7 +113,7 @@
     "constructionStatus": "established",
     "productDepth": "signature",
     "featured": false,
-    "agencyListingId": "8p1356",
+    "agencyListingId": "r2-7411831",
     "channel": "buy",
     "isBuy": true,
     "isRent": false,
@@ -137,252 +124,11 @@
       "midtier": false,
       "standard": false
     },
-    "statementOfInformationUrl": "https://i3.au.reastatic.net/example/86059",
     "scrapedAt": "2026-01-15T10:00:00Z",
+    "auctionDate": "2026-01-15T10:00:00Z",
+    "auctionDateDisplay": "Example auction date display",
     "badge": "Example badge",
     "dateListed": "+1 555 0100",
-    "dateListedPrecision": "+1 555 0100",
-    "nearbySchools": {
-      "primary": [
-        {
-          "name": "Example name",
-          "sector": "Example sector",
-          "yearRange": "prep-13",
-          "type": "Combined",
-          "url": "",
-          "address": "Example address",
-          "distance": "Example distance",
-          "distanceMeters": 5084
-        },
-        {
-          "name": "Example name",
-          "sector": "Example sector",
-          "yearRange": "prep-1",
-          "type": "Primary",
-          "url": "https://southmelbourneps.vic.edu.au/example/3976",
-          "address": "Example address",
-          "distance": "Example distance",
-          "distanceMeters": 4790
-        }
-      ],
-      "secondary": [
-        {
-          "name": "Example name",
-          "sector": "Example sector",
-          "yearRange": "4-19",
-          "type": "Secondary",
-          "url": "http://www.vcass.vic.edu.au/example/41457",
-          "address": "Example address",
-          "distance": "Example distance",
-          "distanceMeters": 584
-        },
-        {
-          "name": "Example name",
-          "sector": "Example sector",
-          "yearRange": "2-46",
-          "type": "Secondary",
-          "url": "",
-          "address": "Example address",
-          "distance": "Example distance",
-          "distanceMeters": 4790
-        }
-      ],
-      "combined": [
-        {
-          "name": "Example name",
-          "sector": "Example sector",
-          "yearRange": "prep-13",
-          "type": "Combined",
-          "url": "",
-          "address": "Example address",
-          "distance": "Example distance",
-          "distanceMeters": 5084
-        }
-      ]
-    }
-  },
-  {
-    "propertyId": "439796951",
-    "url": "https://www.realestate.com.au/example/85480",
-    "listingType": "buy",
-    "propertyType": "apartment",
-    "status": {
-      "label": "Example label",
-      "type": "new_listing"
-    },
-    "address": {
-      "street": "Example street",
-      "suburb": "Example suburb",
-      "state": "VIC",
-      "postcode": "2292",
-      "full": "Example full"
-    },
-    "coordinates": {
-      "latitude": -41.99,
-      "longitude": 184.1
-    },
-    "price": {
-      "display": "Example display"
-    },
-    "features": {
-      "bedrooms": 2,
-      "bathrooms": 4,
-      "parkingSpaces": 0,
-      "hasStudy": false,
-      "hasBalcony": false,
-      "hasPool": false,
-      "hasGarage": false
-    },
-    "landSize": 44,
-    "landSizeUnit": "m2",
-    "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
-    "headline": "Example headline",
-    "propertyFeatures": [],
-    "propertyFeaturesStructured": {
-      "indoorFeatures": [],
-      "outdoorFeatures": []
-    },
-    "media": {
-      "imageCount": 46,
-      "images": [
-        {
-          "url": "https://i3.au.reastatic.net/example/85480.jpg",
-          "isFloorplan": false
-        },
-        {
-          "url": "https://i3.au.reastatic.net/example/71329.jpg",
-          "isFloorplan": false
-        }
-      ],
-      "floorplanUrl": "https://i3.au.reastatic.net/example/20449.jpg"
-    },
-    "agent": {
-      "id": "9106242",
-      "name": "Example name",
-      "phone": "+1 555 0100",
-      "officePhone": "+1 555 0100",
-      "mobilePhone": "+1 555 0100",
-      "email": "user38@example.com",
-      "jobTitle": "Example job title",
-      "photoUrl": "https://i3.au.reastatic.net/example/51172.jpg",
-      "profileUrl": "https://www.realestate.com.au/example/21817",
-      "powerProfile": true
-    },
-    "agents": [
-      {
-        "id": "9106242",
-        "name": "Example name",
-        "phone": "+1 555 0100",
-        "officePhone": "+1 555 0100",
-        "mobilePhone": "+1 555 0100",
-        "email": "user38@example.com",
-        "jobTitle": "Example job title",
-        "photoUrl": "https://i3.au.reastatic.net/example/51172.jpg",
-        "profileUrl": "https://www.realestate.com.au/example/21817",
-        "powerProfile": true
-      },
-      {
-        "id": "8393640",
-        "name": "Example name",
-        "phone": "+1 555 0100",
-        "officePhone": "+1 555 0100",
-        "mobilePhone": "+1 555 0100",
-        "email": "user98@example.com",
-        "jobTitle": "Example job title",
-        "photoUrl": "https://i3.au.reastatic.net/example/10782.jpg",
-        "profileUrl": "https://www.realestate.com.au/example/97174",
-        "powerProfile": false
-      }
-    ],
-    "agency": {
-      "name": "Example name",
-      "id": "DVAURA",
-      "phone": "+1 555 0100",
-      "email": "user38@example.com",
-      "website": "http://www.raywhitesouthbank.com.au/example/83168",
-      "address": "Example address",
-      "addressStructured": {
-        "streetAddress": "Example street address",
-        "postcode": "2292",
-        "suburb": "Example suburb",
-        "state": "VIC"
-      },
-      "logoUrl": "https://i3.au.reastatic.net/example/53979.jpg",
-      "profileUrl": "https://www.realestate.com.au/example/21817"
-    },
-    "inspectionTimes": [
-      {
-        "startTime": "2026-01-15T10:00:00Z",
-        "endTime": "2026-01-15T10:00:00Z",
-        "dateDisplay": "",
-        "isAuction": false
-      }
-    ],
-    "constructionStatus": "established",
-    "productDepth": "signature",
-    "featured": false,
-    "agencyListingId": "l41444256",
-    "channel": "buy",
-    "isBuy": true,
-    "isRent": false,
-    "isSold": false,
-    "isProject": false,
-    "tier": {
-      "signature": true,
-      "midtier": false,
-      "standard": false
-    },
-    "statementOfInformationUrl": "https://i3.au.reastatic.net/example/86467",
-    "scrapedAt": "2026-01-15T10:00:00Z",
-    "badge": "Example badge",
-    "dateListed": "+1 555 0100",
-    "dateListedPrecision": "+1 555 0100",
-    "nearbySchools": {
-      "primary": [
-        {
-          "name": "Example name",
-          "sector": "Example sector",
-          "yearRange": "prep-0",
-          "type": "Primary",
-          "url": "https://southmelbourneps.vic.edu.au/example/85480",
-          "address": "Example address",
-          "distance": "Example distance",
-          "distanceMeters": 262
-        },
-        {
-          "name": "Example name",
-          "sector": "Example sector",
-          "yearRange": "prep-4",
-          "type": "Primary",
-          "url": "http://www.gsmelbournesth.catholic.edu.au/example/71329",
-          "address": "Example address",
-          "distance": "Example distance",
-          "distanceMeters": 6575
-        }
-      ],
-      "secondary": [
-        {
-          "name": "Example name",
-          "sector": "Example sector",
-          "yearRange": "8-63",
-          "type": "Secondary",
-          "url": "http://www.vcass.vic.edu.au/example/85480",
-          "address": "Example address",
-          "distance": "Example distance",
-          "distanceMeters": 262
-        },
-        {
-          "name": "Example name",
-          "sector": "Example sector",
-          "yearRange": "51-37",
-          "type": "Secondary",
-          "url": "http://www.y2ic.vic.edu.au/example/71329",
-          "address": "Example address",
-          "distance": "Example distance",
-          "distanceMeters": 6575
-        }
-      ],
-      "combined": []
-    }
+    "dateListedPrecision": "+1 555 0100"
   }
 ]

@@ -17,7 +17,7 @@ python example.py
 ```bash
 curl -s -X POST "https://api.apify.com/v2/acts/abotapi~traveloka-com-scraper/run-sync-get-dataset-items?token=$APIFY_TOKEN" \
   -H 'Content-Type: application/json' \
-  -d '{"mode": "search", "market": "en-sg", "locations": ["Singapore"], "sortBy": "popularity", "maxReviews": 10, "maxItems": 10, "maxPages": 1, "proxy": {"useApifyProxy": true, "apifyProxyGroups": ["RESIDENTIAL"]}}'
+  -d '{"mode": "search", "market": "en-sg", "locations": ["Singapore"], "sortBy": "popularity", "maxReviews": 10, "reviewSortBy": "DEFAULT", "maxItems": 10, "maxPages": 1, "proxy": {"useApifyProxy": true, "apifyProxyGroups": ["RESIDENTIAL"]}}'
 ```
 
 ## Inputs
@@ -40,6 +40,9 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~traveloka-com-scraper/run
 | `fetchDetails` | boolean | Enrich each hotel (facilities, feature |
 | `fetchReviews` | boolean | Read guest reviews per hotel |
 | `maxReviews` | integer | Max reviews per hotel |
+| `reviewSortBy` | string | Review order |
+| `reviewCutoffDate` | string | Only reviews newer than |
+| `aggregateRatings` | boolean | Add aggregated rating |
 | `maxItems` | integer | Max results |
 | `maxPages` | integer | Max pages per location |
 | `proxy` | object | Proxy configuration |
@@ -60,7 +63,7 @@ Full details on the [scraper page](https://apify.com/abotapi/traveloka-com-scrap
 | `locationName` | string |
 | `region` | string |
 | `address` | null |
-| `price` | float |
+| `price` | integer |
 | `priceMinor` | integer |
 | `currency` | string |
 | `starRating` | integer |

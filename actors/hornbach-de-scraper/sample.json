@@ -61,6 +61,11 @@
           }
         }
       ]
-    }
+    },
+    "inStock": true,
+    "articleNumber": "75998749",
+    "imageUrl": "https://media.hornbach.de/example/14796.jpg",
+    "category": null,
+    "scrapedAt": "2026-01-15T10:00:00Z"
   }
 ]

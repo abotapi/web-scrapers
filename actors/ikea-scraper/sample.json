@@ -43,6 +43,18 @@
       "Example category path",
       "Example category path"
     ],
+    "ancestorCategories": [
+      {
+        "name": "Example name",
+        "key": "Example key",
+        "url": "https://www.ikea.com/example/1284"
+      },
+      {
+        "name": "Example name",
+        "key": "Example key",
+        "url": "https://www.ikea.com/example/2878"
+      }
+    ],
     "categoryClass": "Example category class",
     "businessStructure": {
       "homeFurnishingBusinessName": "Example home furnishing business name",
@@ -54,7 +66,6 @@
     },
     "badge": "Example badge",
     "badgeType": "TOP_SELLER",
-    "isBestseller": true,
-    "isNewArrival": false
+    "isBestseller": true
   }
 ]

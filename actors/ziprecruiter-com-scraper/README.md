@@ -17,7 +17,7 @@ python example.py
 ```bash
 curl -s -X POST "https://api.apify.com/v2/acts/abotapi~ziprecruiter-com-scraper/run-sync-get-dataset-items?token=$APIFY_TOKEN" \
   -H 'Content-Type: application/json' \
-  -d '{"mode": "search", "queries": ["software engineer"], "location": "Remote", "datePosted": "any", "employmentType": "any", "maxPages": 1, "maxListings": 10, "proxy": {"useApifyProxy": true, "apifyProxyGroups": ["RESIDENTIAL"], "apifyProxyCountry": "US"}}'
+  -d '{"mode": "search", "queries": ["software engineer"], "location": "Remote", "datePosted": "any", "employmentType": "any", "maxPages": 1, "maxListings": 10, "workplace": "any", "proxy": {"useApifyProxy": true, "apifyProxyGroups": ["RESIDENTIAL"], "apifyProxyCountry": "US"}}'
 ```
 
 ## Inputs
@@ -37,6 +37,12 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~ziprecruiter-com-scraper/
 | `maxPages` | integer | Max pages per search |
 | `maxListings` | integer | Max listings (total) |
 | `fetchDetails` | boolean | Fetch detail pages (richer data) |
+| `maxItemsPerSearch` | integer | Max listings per search |
+| `workplace` | string | Workplace type (client-side screen) |
+| `maxSalary` | integer | Maximum annual salary (USD) |
+| `externalApplyOnly` | boolean | Only jobs that apply on the employer's |
+| `descriptionMaxLength` | integer | Shorten descriptions to N characters |
+| `omitEmptyFields` | boolean | Leave out empty fields |
 | `proxy` | object | Proxy configuration |
 
 `*` required

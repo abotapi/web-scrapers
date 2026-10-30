@@ -15,6 +15,7 @@ run = client.actor("abotapi/werk-nl-scraper").call(
         "mode": "search",
         "keywords": ["developer"],
         "sortBy": "relevance",
+        "descriptionFormat": "all",
         "maxItems": 10,
         "proxy": {"useApifyProxy": True},
     },

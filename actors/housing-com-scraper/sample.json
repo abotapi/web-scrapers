@@ -1,26 +1,32 @@
 [
   {
-    "listingId": "119127",
+    "listingId": "404692",
     "title": "Example title",
     "subtitle": "Example subtitle",
     "address": "Example address",
     "propertyType": "project",
     "price_display": "Example price_display",
     "price_values": [
-      45752214
+      45752214,
+      895167512
     ],
     "currency": "INR",
-    "area_value": 246,
+    "area_value": 2946,
     "area_unit": "sq.ft",
-    "latitude": 18.78,
-    "longitude": 76.47,
+    "latitude": 18.95,
+    "longitude": 76.46,
     "features": [
       "Example features",
       "Example features"
     ],
     "bhk_configs": [
       {
-        "id": "0087915",
+        "id": "2462211",
+        "price_display": "Example price_display",
+        "label": "Example label"
+      },
+      {
+        "id": "9417622",
         "price_display": "Example price_display",
         "label": "Example label"
       }
@@ -29,6 +35,7 @@
       "Example amenities"
     ],
     "sellers": [
+      "Example sellers",
       "Example sellers"
     ],
     "emi": "Example emi",
@@ -45,39 +52,46 @@
     "possessionDate": "Example possession date",
     "postedAt": "2026-01-15T10:00:00Z",
     "updatedAt": "2026-01-15T10:00:00Z",
-    "isMostContacted": false,
+    "isMostContacted": true,
     "projectName": "Example project name",
-    "projectId": "125233",
+    "projectId": "138162",
     "city": "Mumbai",
     "cityId": "id60910169",
+    "locality": "andheri_west",
     "transactionType": "buy",
     "isReraVerified": true,
     "coverImageUrl": "https://is1-2.housingcdn.com/example/62495.jpg",
     "pricePerArea": "Example price per area",
-    "configurations": "Example configurations",
-    "bedrooms": 9
+    "configurations": "Example configurations"
   },
   {
-    "listingId": "13703521",
+    "listingId": "368243",
     "title": "Example title",
     "subtitle": "Example subtitle",
     "address": "Example address",
-    "propertyType": "resale",
+    "propertyType": "project",
     "price_display": "Example price_display",
     "price_values": [
-      7790082
+      16790082,
+      99625866
     ],
     "currency": "INR",
-    "area_value": 621,
+    "area_value": 6921,
     "area_unit": "sq.ft",
-    "latitude": 16.74,
-    "longitude": 82.27,
+    "latitude": 16.46,
+    "longitude": 82.3,
     "features": [
       "Example features",
       "Example features"
     ],
     "bhk_configs": [
       {
+        "id": "8592568",
+        "price_display": "Example price_display",
+        "label": "Example label"
+      },
+      {
+        "id": "5034231",
         "price_display": "Example price_display",
         "label": "Example label"
       }
@@ -86,38 +100,34 @@
       "Example amenities"
     ],
     "sellers": [
+      "Example sellers",
       "Example sellers"
-    ],
-    "seller_firms": [
-      "Example seller_firms"
     ],
     "emi": "Example emi",
     "tags": [
       "rera_verified"
     ],
     "images": [
-      "https://is1-3.housingcdn.com/example/94128.jpg",
-      "https://housing-is-01.s3.amazonaws.com/example/26228.jpg"
+      "https://is1-2.housingcdn.com/example/94128.jpg",
+      "https://is1-2.housingcdn.com/example/26228.jpg"
     ],
     "image_count": 24,
     "url": "https://housing.com/example/20661",
     "scraped_at": "2026-01-15T10:00:00Z",
+    "possessionDate": "Example possession date",
     "postedAt": "2026-01-15T10:00:00Z",
     "updatedAt": "2026-01-15T10:00:00Z",
-    "isVerified": true,
-    "verificationStatus": "DC_VERIFIED",
-    "isBrokerageChargeable": false,
-    "isMostContacted": false,
-    "projectId": "28989471",
+    "isMostContacted": true,
+    "projectName": "Example project name",
+    "projectId": "174078",
     "city": "Mumbai",
     "cityId": "id36046767",
+    "locality": "andheri_west",
     "transactionType": "buy",
     "isReraVerified": true,
-    "coverImageUrl": "https://is1-3.housingcdn.com/example/30086.jpg",
-    "furnishing": "Example furnishing",
-    "facing": "Example facing",
-    "constructionStatus": "Example construction status",
+    "coverImageUrl": "https://is1-2.housingcdn.com/example/30086.jpg",
     "pricePerArea": "Example price per area",
-    "floorNumber": "42"
+    "configurations": "Example configurations",
+    "bedrooms": 4
   }
 ]

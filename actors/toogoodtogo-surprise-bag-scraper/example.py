@@ -14,7 +14,7 @@ run = client.actor("abotapi/toogoodtogo-surprise-bag-scraper").call(
     run_input={
         "mode": "search",
         "locations": ["Berlin"],
-        "itemInputs": ["123456789"],
+        "itemInputs": ["https://www.toogoodtogo.com/en-us/item/76768600385172800", "46934"],
         "maxReviews": 10,
         "maxItems": 10,
         "maxPages": 1,

@@ -36,6 +36,7 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~superprof-tutor-scraper/r
 | `onlyFirstLessonFree` | boolean | First lesson free only |
 | `sortBy` | string | Sort by |
 | `fetchDetails` | boolean | Fetch full tutor profiles |
+| `reviewLimit` | integer | Reviews per tutor |
 | `maxPages` | integer | Max pages per search |
 | `maxItems` | integer | Max items |
 | `proxy` | object | Proxy configuration |

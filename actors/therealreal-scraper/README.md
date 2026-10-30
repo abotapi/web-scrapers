@@ -86,14 +86,14 @@ Full details on the [scraper page](https://apify.com/abotapi/therealreal-scraper
 | `images` | list |
 | `imageCount` | integer |
 | `sourceUrl` | string |
+| `slug` | string |
+| `taxons` | null |
+| `valuationReportUrl` | null |
+| `measurementGuide` | null |
 | `detailFetched` | boolean |
 | `measurements` | null |
 | `materials` | null |
 | `description` | null |
-| `authenticationNote` | null |
-| `sustainability` | null |
-| `returnPolicy` | null |
-| `disclaimers` | null |
 
 ---
 

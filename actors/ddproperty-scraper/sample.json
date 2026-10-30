@@ -59,15 +59,14 @@
     "location_source": "detail_page"
   },
   {
-    "id": 62963112,
+    "id": 602963112,
     "title": "Example title",
-    "address": "Example address: mock text standing in for the real value. Same field and type, made-up content.",
+    "address": "Example address",
     "listing_type": "sale",
-    "property_type": "BUNG",
-    "property_type_group": "B",
-    "price": 4338531,
+    "property_type": "CONDO",
+    "property_type_group": "N",
+    "price": 0,
     "price_formatted": "Example price_formatted",
-    "price_per_sqm": "Example price_per_sqm",
     "currency": "THB",
     "bedrooms": 2,
     "bathrooms": 4,
@@ -77,15 +76,19 @@
     "agent_name": "Example agent_name",
     "agent_id": 882651266,
     "agency_id": 97098,
-    "region": "Example region",
-    "region_code": "TH13",
+    "region": "Bangkok",
+    "region_code": "TH10",
     "district": "Example district",
-    "district_code": "th9119",
+    "district_code": "th4499",
     "area": "Example area",
-    "area_code": "th507630",
+    "area_code": "th003224",
+    "nearby_mrt": "Example nearby_mrt",
+    "nearby_station_id": "BL07",
+    "nearest_mrt_station": "Example nearest_mrt_station",
+    "nearest_mrt_line": "MRT",
     "badges": [
       "Example badges",
-      "Example badges"
+      "Condo"
     ],
     "posted_date": "Example posted_date",
     "posted_unix": 1309768663,
@@ -94,27 +97,35 @@
       "https://th1-cdn.pgimgs.com/example/61258.jpg",
       "https://th1-cdn.pgimgs.com/example/3604.jpg"
     ],
-    "image_count": 6,
+    "image_count": 42,
     "url": "https://www.ddproperty.com/example/42484",
     "status": "ACT",
-    "latitude": 17.27,
-    "longitude": 121.78,
+    "latitude": 16.96,
+    "longitude": 121.61,
+    "nearby_mrts": [
+      {
+        "id": "BL07",
+        "name": "Example name",
+        "latitude": 16.96,
+        "longitude": 121.61,
+        "distance_m": 69,
+        "distance_text": "Example distance_text",
+        "duration_text": "Example duration_text"
+      },
+      {
+        "id": "BL08",
+        "name": "Example name",
+        "latitude": 14.63,
+        "longitude": 123.63,
+        "distance_m": 326,
+        "distance_text": "Example distance_text",
+        "duration_text": "Example duration_text"
+      }
+    ],
     "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
     "facilities": [
       "Example facilities",
       "Example facilities"
-    ],
-    "highlights": [
-      "Example highlights"
-    ],
-    "images_full": [
-      "https://th1-cdn.pgimgs.com/example/43466.jpg",
-      "https://th1-cdn.pgimgs.com/example/5918.jpg"
-    ],
-    "floor_plans": [
-      "https://th1-cdn.pgimgs.com/example/83099.jpg",
-      "https://th1-cdn.pgimgs.com/example/64433.jpg"
-    ],
-    "location_source": "detail_page"
+    ]
   }
 ]

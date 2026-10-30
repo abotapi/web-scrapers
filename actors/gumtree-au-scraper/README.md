@@ -99,7 +99,7 @@ Full details on the [scraper page](https://apify.com/abotapi/gumtree-au-scraper?
 | `isPostedByCarDealer` | boolean |
 | `isAuctionAd` | boolean |
 | `adType` | string |
-| `categoryId` | string |
+| `categoryId` | null |
 | `categoryName` | string |
 | `vertical` | string |
 

@@ -17,7 +17,7 @@ python example.py
 ```bash
 curl -s -X POST "https://api.apify.com/v2/acts/abotapi~yanolja-com-scraper/run-sync-get-dataset-items?token=$APIFY_TOKEN" \
   -H 'Content-Type: application/json' \
-  -d '{"mode": "search", "locations": ["서울"], "categoryGroup": "all", "sortResultsBy": "site_order", "maxItems": 10, "maxPages": 1, "proxy": {"useApifyProxy": true, "apifyProxyGroups": ["RESIDENTIAL"], "apifyProxyCountry": "KR"}}'
+  -d '{"mode": "search", "locations": ["서울"], "categoryGroup": "all", "sortResultsBy": "site_order", "maxItems": 10, "maxPages": 1, "proxy": {"useApifyProxy": true, "apifyProxyGroups": ["RESIDENTIAL"], "apifyProxyCountry": "KR"}, "changeScope": "all"}'
 ```
 
 ## Inputs
@@ -30,11 +30,16 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~yanolja-com-scraper/run-s
 | `urls` | array | Yanolja URLs |
 | `minPriceKrw` | integer | Minimum price (KRW) |
 | `maxPriceKrw` | integer | Maximum price (KRW) |
+| `checkIn` | string | Check-in date |
+| `checkOut` | string | Check-out date |
 | `sortResultsBy` | string | Order the returned rows by |
 | `fetchDetails` | boolean | Fetch full stay details |
 | `maxItems` | integer | Max items |
 | `maxPages` | integer | Max collection pages per region |
 | `proxy` | object | Proxy configuration |
+| `changeScope` | string | What counts as a change (incremental m |
+| `expireAfterMissedScans` | integer | Expire after N missed full scans (incr |
+| `compactUpdates` | boolean | Compact update rows (incremental mode  |
 
 `*` required
 
@@ -54,7 +59,38 @@ Full details on the [scraper page](https://apify.com/abotapi/yanolja-com-scraper
 | `listingImageUrl` | string |
 | `collectionSlug` | string |
 | `collectionTitle` | string |
-| `scrapedAt` | string |
+| `subtitle` | null |
+| `stayGroup` | string |
+| `hotelStar` | null |
+| `badges` | list |
+| `locationDescription` | null |
+| `address` | string |
+| `latitude` | float |
+| `longitude` | float |
+| `cityName` | string |
+| `cityDetail` | string |
+| `sellerPhone` | string |
+| `ratingValue` | float |
+| `reviewCount` | integer |
+| `replyCount` | integer |
+| `ratingFromFd` | float |
+| `ratingCountFromFd` | integer |
+| `priceRange` | string |
+| `lowestPriceKrw` | integer |
+| `overnightPriceKrw` | integer |
+| `dayUsePriceKrw` | integer |
+| `overnightSoldOut` | boolean |
+| `dayUseSoldOut` | boolean |
+| `checkInDate` | string |
+| `checkOutDate` | string |
+| `checkInTime` | null |
+| `checkOutTime` | null |
+| `description` | string |
+| `descriptionText` | string |
+| `facilities` | list |
+| `mainImageUrl` | string |
+| `photoUrls` | list |
+| `roomPhotoUrls` | list |
 
 ---
 

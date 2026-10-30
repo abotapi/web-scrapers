@@ -17,7 +17,7 @@ python example.py
 ```bash
 curl -s -X POST "https://api.apify.com/v2/acts/abotapi~properstar-scraper/run-sync-get-dataset-items?token=$APIFY_TOKEN" \
   -H 'Content-Type: application/json' \
-  -d '{"startUrls": ["https://www.properstar.co.uk/united-kingdom/london/buy/apartment-house"], "transactionType": "any", "maxItems": 10, "proxy": {"useApifyProxy": true, "apifyProxyGroups": ["RESIDENTIAL"]}}'
+  -d '{"startUrls": ["https://www.properstar.co.uk/united-kingdom/london/buy/apartment-house", "https://www.properstar.co.uk/united-kingdom/london/buy/apartment-house?p=2", "https://www.properstar.co.uk/united-kingdom/london/rent/apartment-house", "https://www.properstar.co.uk/united-kingdom/buy/apartment-house", "https://www.properstar.co.uk/united-kingdom/london/buy/apartment-house?price=500000-1000000&bedrooms=2", "https://www.properstar.co.uk/united-kingdom/london/buy/apartment-house?sort=price-asc", "https://www.properstar.co.uk/united-kingdom/london/buy", "https://www.properstar.co.uk/switzerland/buy/apartment-house", "https://www.properstar.co.uk/listing/121377505", "https://www.properstar.co.uk/agency/the-private-realtor-ltd/6482545"], "transactionType": "any", "maxItems": 10, "proxy": {"useApifyProxy": true, "apifyProxyGroups": ["RESIDENTIAL"]}}'
 ```
 
 ## Inputs
@@ -67,13 +67,13 @@ Full details on the [scraper page](https://apify.com/abotapi/properstar-scraper?
 | `price` | integer |
 | `currency` | string |
 | `priceValues` | list |
-| `livingAreaSqm` | float |
+| `livingAreaSqm` | null |
 | `landAreaSqm` | null |
-| `livingAreaSqft` | float |
+| `livingAreaSqft` | null |
 | `landAreaSqft` | null |
 | `rooms` | integer |
 | `bedrooms` | integer |
-| `bathrooms` | null |
+| `bathrooms` | integer |
 | `floor` | null |
 | `constructionYear` | null |
 | `address` | string |

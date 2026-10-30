@@ -73,6 +73,7 @@ Full details on the [scraper page](https://apify.com/abotapi/google-maps-scraper
 | `reviewsCount` | integer |
 | `plusCode` | string |
 | `imageUrls` | list |
+| `openingHours` | list |
 | `searchString` | string |
 | `rank` | integer |
 | `isAdvertisement` | boolean |

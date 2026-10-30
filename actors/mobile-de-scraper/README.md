@@ -28,10 +28,13 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~mobile-de-scraper/run-syn
 | `vehicleClass` | string | Vehicle class |
 | `make` | string | Make |
 | `model` | string | Model |
+| `models` | array | Several makes / models |
 | `condition` | string | Condition |
 | `fuels` | array | Fuel type(s) |
 | `transmission` | string | Transmission |
+| `transmissions` | array | Transmission(s) (multi-select) |
 | `bodyType` | string | Body type |
+| `bodyTypes` | array | Body type(s) (multi-select) |
 | `country` | string | Listing country |
 | `zipcode` | string | Location (postal code or town) |
 | `radiusKm` | integer | Radius around location (km) |
@@ -60,6 +63,7 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~mobile-de-scraper/run-syn
 | `sortBy` | string | Sort order |
 | `urls` | array | URLs (URL mode only) |
 | `fetchDetails` | boolean | Fetch full vehicle detail |
+| `reviewLimit` | integer | Dealer reviews per listing |
 | `includeSponsored` | boolean | Include sponsored Top-Anzeige listings |
 | `maxListings` | integer | Maximum listings |
 | `maxPages` | integer | Maximum pages per search |

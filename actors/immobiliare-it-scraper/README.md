@@ -80,7 +80,7 @@ Full details on the [scraper page](https://apify.com/abotapi/immobiliare-it-scra
 | `elevator` | boolean |
 | `condition` | string |
 | `heating` | string |
-| `garage` | null |
+| `garage` | string |
 | `features` | list |
 | `views` | list |
 | `latitude` | float |

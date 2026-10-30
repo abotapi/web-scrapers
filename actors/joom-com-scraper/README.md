@@ -52,7 +52,7 @@ Full details on the [scraper page](https://apify.com/abotapi/joom-com-scraper?ut
 | `productId` | string |
 | `url` | string |
 | `title` | string |
-| `price` | integer |
+| `price` | float |
 | `currency` | string |
 | `originalPrice` | null |
 | `onSale` | boolean |
@@ -76,17 +76,17 @@ Full details on the [scraper page](https://apify.com/abotapi/joom-com-scraper?ut
 | `shippingCurrency` | string |
 | `category` | string |
 | `storeName` | string |
-| `storeRating` | float |
+| `storeRating` | null |
 | `reviewCount` | integer |
 | `ratingDistribution` | object |
 | `variantsCount` | integer |
 | `variantSizes` | list |
 | `variantColors` | list |
-| `variantMinPrice` | integer |
-| `variantMaxPrice` | integer |
+| `variantMinPrice` | null |
+| `variantMaxPrice` | null |
 | `inventoryTotal` | integer |
-| `deliveryMinDays` | integer |
-| `deliveryMaxDays` | integer |
+| `deliveryMinDays` | null |
+| `deliveryMaxDays` | null |
 
 ---
 

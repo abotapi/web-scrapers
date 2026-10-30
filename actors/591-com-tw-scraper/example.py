@@ -16,6 +16,8 @@ run = client.actor("abotapi/591-com-tw-scraper").call(
         "section": "rent",
         "regions": ["taipei-city"],
         "rentKind": "any",
+        "layout": "any",
+        "sortBy": "default",
         "maxListings": 10,
         "maxPages": 1,
         "proxy": {"useApifyProxy": True},

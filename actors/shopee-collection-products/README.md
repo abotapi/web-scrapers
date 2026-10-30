@@ -17,7 +17,7 @@ python example.py
 ```bash
 curl -s -X POST "https://api.apify.com/v2/acts/abotapi~shopee-collection-products/run-sync-get-dataset-items?token=$APIFY_TOKEN" \
   -H 'Content-Type: application/json' \
-  -d '{"urls": ["https://shopeekh.com/collections/12453606"], "maxItems": 10, "maxPages": 1, "proxy": {"useApifyProxy": true}}'
+  -d '{"urls": ["https://shopeekh.com/collections/12453606", "https://shopeekh.com/collections/12453606?page=1", "https://shopeekh.com/m/Shopee-Beauty", "https://shopeekh.com/api/v4/microsite/get_products_for_collection_landing_page?by=relevancy&card_set_name=Microsite%20ATC%20Card&collection_id=12453606&item_order=0&limit=60&match_id=12453606&need_customised_item_card=true&newest=0&offset=0&order=desc", "https://shopeekh.com/api/v4/pagebuilder/get_csr_page?page_url=Shopee-Beauty&platform=4&timestamp=0"], "maxItems": 10, "maxPages": 1, "sortBy": "relevance", "proxy": {"useApifyProxy": true}}'
 ```
 
 ## Inputs
@@ -27,6 +27,7 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~shopee-collection-product
 | `urls` | array | Collection or campaign URLs |
 | `maxItems` | integer | Maximum products |
 | `maxPages` | integer | Maximum pages per collection |
+| `sortBy` | string | Sort products by |
 | `proxy` | object | Proxy configuration |
 
 `*` required
@@ -46,7 +47,7 @@ Full details on the [scraper page](https://apify.com/abotapi/shopee-collection-p
 | `translatedName` | string |
 | `url` | string |
 | `price` | integer |
-| `originalPrice` | null |
+| `originalPrice` | integer |
 | `discountPercent` | integer |
 | `currency` | string |
 | `rating` | float |
@@ -68,6 +69,13 @@ Full details on the [scraper page](https://apify.com/abotapi/shopee-collection-p
 | `scrapedAt` | string |
 | `productData` | object |
 | `displayAssets` | object |
+| `priceMax` | integer |
+| `isOnSale` | boolean |
+| `historicalSoldEstimated` | null |
+| `shopName` | string |
+| `location` | string |
+| `hasVariations` | boolean |
+| `variationOptions` | list |
 
 ---
 

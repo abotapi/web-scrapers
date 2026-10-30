@@ -82,10 +82,18 @@ Full details on the [scraper page](https://apify.com/abotapi/dubizzle-com-scrape
 | `shortUrl` | string |
 | `photosCount` | integer |
 | `isPremium` | boolean |
-| `raw` | object |
-| `recordType` | string |
-| `detailMissing` | boolean |
-| `scrapedAt` | string |
+| `coordinates` | object |
+| `tourUrl` | null |
+| `videoUrl` | null |
+| `tour360` | null |
+| `featuredListing` | boolean |
+| `promoted` | boolean |
+| `highlightedAd` | boolean |
+| `building` | null |
+| `neighborhoods` | object |
+| `hasWhatsappNumber` | boolean |
+| `agencySlug` | string |
+| `agencyLogo` | string |
 
 ---
 

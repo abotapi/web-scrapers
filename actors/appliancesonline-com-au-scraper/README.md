@@ -17,7 +17,7 @@ python example.py
 ```bash
 curl -s -X POST "https://api.apify.com/v2/acts/abotapi~appliancesonline-com-au-scraper/run-sync-get-dataset-items?token=$APIFY_TOKEN" \
   -H 'Content-Type: application/json' \
-  -d '{"mode": "categories", "searchInputs": ["washers-and-dryers/washing-machines"], "productInputs": ["176381", "appliancesonline.com.au/product/8kg-front-load-haier-washing-machine-hwm80-1403d/", "appliancesonline.com.au/filter/washers-and-dryers/washing-machines/", "appliancesonline.com.au/filter/clearance/"], "sortBy": "popularity", "maxReviewsPerProduct": 10, "maxItems": 10, "proxy": {"useApifyProxy": true}}'
+  -d '{"mode": "categories", "searchInputs": ["washers-and-dryers/washing-machines", "fridge", "samsung wgg24403au"], "productInputs": ["https://www.appliancesonline.com.au/filter/washers-and-dryers/washing-machines/", "https://www.appliancesonline.com.au/filter/clearance/", "https://www.appliancesonline.com.au/filter/washers-and-dryers/washing-machines/front-loading/", "https://www.appliancesonline.com.au/category/refrigeration/fridges/", "https://www.appliancesonline.com.au/product/8kg-front-load-haier-washing-machine-hwm80-1403d/", "176381", "fridge", "samsung wgg24403au"], "sortBy": "popularity", "maxReviewsPerProduct": 10, "maxItems": 10, "proxy": {"useApifyProxy": true}}'
 ```
 
 ## Inputs
@@ -56,21 +56,21 @@ Full details on the [scraper page](https://apify.com/abotapi/appliancesonline-co
 | `sku` | string |
 | `title` | string |
 | `url` | string |
-| `brand` | null |
+| `brand` | string |
 | `manufacturer` | object |
 | `price` | integer |
 | `rrp` | integer |
 | `savings` | integer |
 | `onSale` | boolean |
 | `altPriceMsg` | null |
-| `inStock` | null |
-| `stockStatus` | null |
-| `stockByWarehouse` | null |
+| `inStock` | boolean |
+| `stockStatus` | integer |
+| `stockByWarehouse` | object |
 | `available` | boolean |
 | `featured` | boolean |
 | `featuredLabel` | null |
 | `ribbonType` | null |
-| `popularity` | null |
+| `popularity` | integer |
 | `badges` | list |
 | `isGreenProduct` | boolean |
 | `carePlans` | list |
@@ -82,11 +82,11 @@ Full details on the [scraper page](https://apify.com/abotapi/appliancesonline-co
 | `dimensions` | null |
 | `specs` | object |
 | `keySpecs` | null |
-| `attr` | null |
-| `warrantyNote` | null |
+| `attr` | object |
+| `warrantyNote` | string |
 | `modelNumber` | null |
 | `manufacturerNumber` | null |
-| `origin` | null |
+| `origin` | string |
 | `energyCalculatorEnabled` | boolean |
 | `features` | list |
 | `manuals` | list |

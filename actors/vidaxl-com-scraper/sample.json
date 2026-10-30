@@ -1,0 +1,52 @@
+[
+  {
+    "recordId": "1097305139012",
+    "productId": "1064262000688",
+    "ean": "5640902541685",
+    "url": "https://www.vidaxl.de/example/57095",
+    "title": "Example title: mock text standing in for the real value. Same field and type, made-up content.",
+    "brand": "vidaXL",
+    "sku": "0650092",
+    "masterProductId": "m7037260",
+    "categories": [
+      "Furniture",
+      "Example categories"
+    ],
+    "categoryPath": "Example category path",
+    "variants": {
+      "color": "Hellgrau"
+    },
+    "price": 562.79,
+    "oldPrice": null,
+    "onSale": false,
+    "currency": "EUR",
+    "imageUrl": "https://www.vidaxl.de/example/61141.jpg",
+    "market": "de",
+    "marketHost": "www.vidaxl.de",
+    "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
+    "specifications": {
+      "Farbe": "Example farbe",
+      "Material": "Example material",
+      "Gesamtmaße": "Example gesamtmaße",
+      "Gewicht": "Example gewicht",
+      "Sitzplatzkapazität": "2",
+      "Montage erforderlich": "Ja",
+      "3 x Mittelsitz": "+1 555 0100",
+      "4 x Armsessel": "Example 4 x  armsessel",
+      "1 x Tisch": "Example 1 x  tisch",
+      "EAN": "9508143198832",
+      "SKU": "5631466",
+      "Brand": "vidaXL",
+      "Max. Belastbarkeit": "Example max.  belastbarkeit"
+    },
+    "imageUrls": [
+      "https://www.vidaxl.de/example/54877.jpg",
+      "https://www.vidaxl.de/example/45636.jpg"
+    ],
+    "imageCount": 11,
+    "availability": "Example availability",
+    "stockStatus": "Example stock status",
+    "deliveryEstimate": "Example delivery estimate",
+    "scrapedAt": "2026-01-15T10:00:00Z"
+  }
+]

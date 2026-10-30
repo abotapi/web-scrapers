@@ -1,0 +1,86 @@
+[
+  {
+    "recordId": "Example record id",
+    "url": "https://www.vivrelle.com/example/77724",
+    "slug": "id7993618",
+    "sku": "phcc06921",
+    "itemId": "id76380158",
+    "productId": "phcc32553",
+    "title": "Example title",
+    "brand": "Chanel",
+    "category": "handbag",
+    "collectionType": "Handbags",
+    "itemType": "Shoulder",
+    "categoryTrail": [
+      "Handbags",
+      "Shoulder"
+    ],
+    "tier": "Couture",
+    "retailValue": 1759,
+    "retailValueText": "Example retail value text",
+    "monthlyPrice": 564,
+    "monthlyPriceCurrency": "USD",
+    "tierPrices": {
+      "Premier": 44,
+      "Classique": 688,
+      "Couture": 712,
+      "Classique+": 711,
+      "Couture+": 560
+    },
+    "borrowed": false,
+    "availability": "available",
+    "colors": [
+      "Blue"
+    ],
+    "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
+    "sizeAndMeasurements": "Example size and measurements",
+    "conditionNotes": "user93@example.com",
+    "imageUrl": "https://d3q1j8zgwnwejy.cloudfront.net/example/25614.jpg",
+    "hoverImageUrl": "https://d3q1j8zgwnwejy.cloudfront.net/example/94441.jpg",
+    "imageUrls": [
+      "https://d3q1j8zgwnwejy.cloudfront.net/example/82334.jpg",
+      "https://d3q1j8zgwnwejy.cloudfront.net/example/21437.jpg"
+    ],
+    "imageCount": 2,
+    "isPrivee": false,
+    "raw": {
+      "brand": "Chanel",
+      "title": "Example title",
+      "tier": "Couture",
+      "category": "handbag",
+      "collectionType": "Handbags",
+      "itemType": "Shoulder",
+      "categoryTrail": [
+        "Handbags",
+        "Shoulder"
+      ],
+      "retailValue": 1759,
+      "retailValueText": "Example retail value text",
+      "monthlyPrice": 564,
+      "tierPrices": {
+        "Premier": 44,
+        "Classique": 688,
+        "Couture": 712,
+        "Classique+": 711,
+        "Couture+": 560
+      },
+      "borrowed": false,
+      "availability": "available",
+      "colors": [
+        "Blue"
+      ],
+      "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
+      "sizeAndMeasurements": "Example size and measurements",
+      "conditionNotes": "user93@example.com",
+      "imageUrl": "https://d3q1j8zgwnwejy.cloudfront.net/example/25614.jpg",
+      "hoverImageUrl": "https://d3q1j8zgwnwejy.cloudfront.net/example/94441.jpg",
+      "imageUrls": [
+        "https://d3q1j8zgwnwejy.cloudfront.net/example/82334.jpg",
+        "https://d3q1j8zgwnwejy.cloudfront.net/example/21437.jpg"
+      ],
+      "imageCount": 2,
+      "isPrivee": false
+    },
+    "scrapedAt": "2026-01-15T10:00:00Z"
+  }
+]

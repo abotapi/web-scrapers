@@ -88,8 +88,8 @@ Full details on the [scraper page](https://apify.com/abotapi/rumah123-indonesia-
 | `floors` | integer |
 | `landSize` | integer |
 | `buildingSize` | integer |
-| `maidBedrooms` | null |
-| `maidBathrooms` | null |
+| `maidBedrooms` | integer |
+| `maidBathrooms` | integer |
 | `certificate` | string |
 | `electricity` | string |
 | `furnishing` | string |

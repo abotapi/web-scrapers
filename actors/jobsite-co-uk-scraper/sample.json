@@ -19,7 +19,7 @@
     },
     "location": {
       "text": "Example text",
-      "postalCode": "Example postal code",
+      "postalCode": "",
       "locality": null,
       "region": null,
       "country": null,

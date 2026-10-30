@@ -53,7 +53,7 @@ Full details on the [scraper page](https://apify.com/abotapi/youtube-transcript-
 | `videoTitle` | string |
 | `channelName` | string |
 | `channelUrl` | string |
-| `durationSeconds` | null |
+| `durationSeconds` | integer |
 | `source` | string |
 | `sourceType` | string |
 | `fetchedAt` | string |

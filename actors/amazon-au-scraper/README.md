@@ -35,6 +35,7 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~amazon-au-scraper/run-syn
 | `fetchDetails` | boolean | Fetch product details |
 | `fetchReviews` | boolean | Fetch customer reviews |
 | `maxReviewsPerProduct` | integer | Max reviews per product |
+| `maxProductVariantsAsSeparateResults` | integer | Variants as separate results |
 | `maxItems` | integer | Max products |
 | `maxPages` | integer | Max pages per search |
 | `proxy` | object | Proxy configuration |
@@ -70,14 +71,25 @@ Full details on the [scraper page](https://apify.com/abotapi/amazon-au-scraper?u
 | `deliveryDate` | string |
 | `variants` | list |
 | `variantDimensions` | list |
-| `seller` | null |
+| `seller` | string |
 | `shipsFrom` | null |
 | `images` | list |
 | `thumbnailImage` | string |
 | `sponsored` | boolean |
 | `promoLabel` | null |
 | `searchMode` | string |
-| `isOnSpecial` | boolean |
+| `originalAsin` | string |
+| `loadedCountryCode` | string |
+| `locationText` | string |
+| `visitStoreLink` | string |
+| `delivery` | string |
+| `shippingPrice` | string |
+| `fastestDelivery` | string |
+| `isAmazonChoice` | boolean |
+| `amazonChoiceText` | string |
+| `returnPolicy` | string |
+| `variantAttributes` | object |
+| `galleryThumbnails` | list |
 
 ---
 

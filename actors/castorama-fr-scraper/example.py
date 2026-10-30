@@ -13,7 +13,7 @@ client = ApifyClient(os.environ["APIFY_TOKEN"])
 run = client.actor("abotapi/castorama-fr-scraper").call(
     run_input={
         "mode": "search",
-        "queries": ["perceuse"],
+        "queries": ["perceuse", "peinture blanche mate", "https://www.castorama.fr/outillage/outillage-electroportatif/perceuse-visseuse-perceuse-a-percussion-et-tournevis-sans-fil/cat_id_3796.cat"],
         "minRating": "0",
         "sortBy": "relevance",
         "maxItems": 10,

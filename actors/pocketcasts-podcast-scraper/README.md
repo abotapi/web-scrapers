@@ -17,7 +17,7 @@ python example.py
 ```bash
 curl -s -X POST "https://api.apify.com/v2/acts/abotapi~pocketcasts-podcast-scraper/run-sync-get-dataset-items?token=$APIFY_TOKEN" \
   -H 'Content-Type: application/json' \
-  -d '{"mode": "search", "searchTerms": ["true crime"], "categories": ["comedy"], "region": "us", "proxyConfiguration": {"useApifyProxy": true}}'
+  -d '{"mode": "search", "searchTerms": ["true crime"], "categories": ["comedy"], "region": "us", "maxResults": 10, "sortBy": "chartRank", "proxyConfiguration": {"useApifyProxy": true}}'
 ```
 
 ## Inputs
@@ -29,10 +29,14 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~pocketcasts-podcast-scrap
 | `categories` | array | Categories |
 | `region` | string | Region |
 | `customRegion` | string | Custom region code (advanced) |
+| `country` | string | Country (alias of Region) |
 | `urls` | array | Podcast URLs or UUIDs |
+| `podcastIds` | array | Apple podcast IDs |
 | `maxPodcasts` | integer | Max podcasts |
+| `maxResults` | integer | Max results per search term or categor |
 | `maxEpisodes` | integer | Max episodes (episode search) |
 | `maxEpisodesPerPodcast` | integer | Max episodes per podcast |
+| `sortBy` | string | Sort results by |
 | `includeEpisodes` | boolean | Include episodes |
 | `includeRatings` | boolean | Include ratings |
 | `proxyConfiguration` | object | Proxy configuration |
@@ -74,6 +78,19 @@ Full details on the [scraper page](https://apify.com/abotapi/pocketcasts-podcast
 | `website` | null |
 | `episodeCountReturned` | integer |
 | `episodes` | list |
+| `podcastId` | null |
+| `podcastName` | string |
+| `artistName` | string |
+| `artworkUrl` | string |
+| `genres` | list |
+| `primaryGenre` | string |
+| `country` | null |
+| `contentRating` | string |
+| `releaseDate` | string |
+| `searchTerm` | string |
+| `fullDescription` | string |
+| `guid` | null |
+| `episodeSource` | string |
 
 ---
 

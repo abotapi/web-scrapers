@@ -1,0 +1,24 @@
+[
+  {
+    "recordId": "Example record id",
+    "kind": "creator",
+    "handle": "Example handle",
+    "profileId": "id63080230",
+    "displayName": "Example display name",
+    "fullName": "Example full name",
+    "instagramName": "Example instagram name",
+    "blogName": "Example blog name",
+    "blogUrl": "Example blog url",
+    "bio": "",
+    "avatarUrl": "https://avatar-cdn.liketoknow.it/example/67893.jpg",
+    "bgImageUrl": null,
+    "followerCount": 72532,
+    "categories": [],
+    "bodyShapes": [],
+    "postCount": 80,
+    "productCount": 449,
+    "collectionCount": 9,
+    "url": "https://www.shopltk.com/example/49350",
+    "scrapedAt": "2026-01-15T10:00:00Z"
+  }
+]

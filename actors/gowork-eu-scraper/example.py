@@ -1,4 +1,4 @@
-"""GoWork FR & DE Company Reviews and Profile Scraper: minimal example. Docs: https://apify.com/abotapi/gowork-eu-scraper
+"""GoWork Scraper: minimal example. Docs: https://apify.com/abotapi/gowork-eu-scraper
 
 pip install "apify-client>=3"
 APIFY_TOKEN=<your token> python example.py
@@ -15,7 +15,7 @@ run = client.actor("abotapi/gowork-eu-scraper").call(
         "mode": "search",
         "locale": "fr",
         "queries": ["Carrefour"],
-        "sitemapKind": "constant",
+        "sitemapKind": "companies",
         "output": "company",
         "maxPages": 1,
         "maxListings": 10,

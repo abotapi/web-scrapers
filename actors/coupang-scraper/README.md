@@ -61,10 +61,10 @@ Full details on the [scraper page](https://apify.com/abotapi/coupang-scraper?utm
 | `image` | string |
 | `images` | null |
 | `price` | integer |
-| `originalPrice` | null |
-| `discountPercent` | null |
+| `originalPrice` | integer |
+| `discountPercent` | integer |
 | `isOnSpecial` | boolean |
-| `savingsAmount` | null |
+| `savingsAmount` | integer |
 | `unitPrice` | null |
 | `currency` | string |
 | `rating` | integer |

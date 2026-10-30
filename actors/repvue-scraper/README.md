@@ -17,7 +17,7 @@ python example.py
 ```bash
 curl -s -X POST "https://api.apify.com/v2/acts/abotapi~repvue-scraper/run-sync-get-dataset-items?token=$APIFY_TOKEN" \
   -H 'Content-Type: application/json' \
-  -d '{"mode": "search", "sortBy": "name_asc", "maxReviews": 10, "maxItems": 10, "proxy": {"useApifyProxy": true}}'
+  -d '{"mode": "search", "sortBy": "name_asc", "maxReviews": 10, "reviewSort": "default", "maxItems": 10, "proxy": {"useApifyProxy": true}}'
 ```
 
 ## Inputs
@@ -37,6 +37,8 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~repvue-scraper/run-sync-g
 | `includeQuestions` | boolean | Include community Q&A |
 | `maxReviews` | integer | Max reviews per company |
 | `targetDate` | string | Reviews on or after (YYYY-MM-DD) |
+| `minReviewRating` | integer | Minimum review rating |
+| `reviewSort` | string | Review order |
 | `maxItems` | integer | Max companies |
 | `proxy` | object | Proxy |
 | `maxResidentialMB` | integer | Residential traffic budget (MB) |

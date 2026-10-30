@@ -17,7 +17,7 @@ python example.py
 ```bash
 curl -s -X POST "https://api.apify.com/v2/acts/abotapi~toogoodtogo-surprise-bag-scraper/run-sync-get-dataset-items?token=$APIFY_TOKEN" \
   -H 'Content-Type: application/json' \
-  -d '{"mode": "search", "locations": ["Berlin"], "itemInputs": ["123456789"], "maxReviews": 10, "maxItems": 10, "maxPages": 1, "proxyConfiguration": {"useApifyProxy": true}}'
+  -d '{"mode": "search", "locations": ["Berlin"], "itemInputs": ["https://www.toogoodtogo.com/en-us/item/76768600385172800", "46934"], "maxReviews": 10, "maxItems": 10, "maxPages": 1, "proxyConfiguration": {"useApifyProxy": true}}'
 ```
 
 ## Inputs
@@ -71,32 +71,32 @@ Full details on the [scraper page](https://apify.com/abotapi/toogoodtogo-surpris
 | `subCategory` | string |
 | `price` | float |
 | `currency` | string |
-| `value` | integer |
+| `value` | float |
 | `valueCurrency` | string |
 | `savingsPercent` | float |
 | `quantityAvailable` | integer |
 | `maxPerOrder` | null |
-| `pickupStart` | null |
-| `pickupEnd` | null |
+| `pickupStart` | string |
+| `pickupEnd` | string |
 | `soldOutAt` | null |
-| `purchaseEnd` | null |
+| `purchaseEnd` | string |
 | `lastItemAt` | null |
 | `favoriteCount` | integer |
 | `favorite` | boolean |
-| `ratingAverage` | null |
-| `ratingCount` | null |
-| `ratingMonthCount` | null |
-| `ratingCollectionExperience` | null |
-| `ratingFoodQuality` | null |
-| `ratingContentsVariety` | null |
-| `ratingFoodQuantity` | null |
+| `ratingAverage` | float |
+| `ratingCount` | integer |
+| `ratingMonthCount` | integer |
+| `ratingCollectionExperience` | float |
+| `ratingFoodQuality` | float |
+| `ratingContentsVariety` | float |
+| `ratingFoodQuantity` | float |
 | `positiveRatingReasons` | list |
 | `dietTags` | list |
 | `itemTags` | list |
 | `packagingOption` | string |
 | `canUserSupplyPackaging` | boolean |
-| `foodHandlingInstructions` | null |
-| `collectionInfo` | null |
+| `foodHandlingInstructions` | string |
+| `collectionInfo` | string |
 | `imageUrl` | string |
 
 ---

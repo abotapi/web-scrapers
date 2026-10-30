@@ -17,7 +17,7 @@ python example.py
 ```bash
 curl -s -X POST "https://api.apify.com/v2/acts/abotapi~property24-scraper/run-sync-get-dataset-items?token=$APIFY_TOKEN" \
   -H 'Content-Type: application/json' \
-  -d '{"mode": "search", "listingType": "for-sale", "locations": ["Cape Town"], "propertyType": "any", "sortBy": "default", "maxPages": 1, "maxListings": 10, "proxy": {"useApifyProxy": true, "apifyProxyGroups": ["RESIDENTIAL"]}}'
+  -d '{"mode": "search", "listingType": "for-sale", "locations": ["Cape Town"], "propertyType": "any", "sortBy": "default", "maxPages": 1, "maxListings": 10, "maxItems": 10, "proxy": {"useApifyProxy": true, "apifyProxyGroups": ["RESIDENTIAL"]}}'
 ```
 
 ## Inputs
@@ -47,9 +47,11 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~property24-scraper/run-sy
 | `repossessed` | boolean | Repossessed Only |
 | `retirement` | boolean | Retirement Only |
 | `urls` | array | Property24 URLs |
+| `startUrls` | array | Start URLs (alias of Property24 URLs) |
 | `fetchDetails` | boolean | Fetch Detail Pages |
 | `maxPages` | integer | Max Pages Per Search |
 | `maxListings` | integer | Max Listings |
+| `maxItems` | integer | Max items (alias of Max Listings) |
 | `proxy` | object | Proxy Configuration |
 
 `*` required
@@ -70,15 +72,11 @@ Full details on the [scraper page](https://apify.com/abotapi/property24-scraper?
 | `displayPrice` | string |
 | `price` | integer |
 | `currency` | string |
-| `bedrooms` | integer |
-| `bathrooms` | integer |
 | `garages` | integer |
-| `parkingSpaces` | integer |
 | `floorSize` | integer |
 | `erfSize` | integer |
 | `suburbName` | string |
 | `description` | string |
-| `badges` | list |
 | `mainImage` | string |
 | `source` | string |
 | `scrapedAt` | string |
@@ -102,6 +100,10 @@ Full details on the [scraper page](https://apify.com/abotapi/property24-scraper?
 | `contacts` | list |
 | `isPrivateListing` | boolean |
 | `propertyOverview` | object |
+| `propertyType` | string |
+| `listingDate` | string |
+| `details` | list |
+| `photos` | list |
 
 ---
 

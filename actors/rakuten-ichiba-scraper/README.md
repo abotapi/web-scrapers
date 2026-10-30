@@ -25,17 +25,17 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~rakuten-ichiba-scraper/ru
 | Input | Type | What it is |
 | --- | --- | --- |
 | `mode` * | string | Search mode |
+| `urls` | array | Rakuten URLs |
 | `queries` | array | Search keywords |
 | `genreIds` | array | Genre (category) IDs |
 | `tagIds` | array | Tag IDs (brand and spec filters) |
-| `shopUrlCodes` | array | Shop codes (whole catalogue) |
+| `shopUrlCodes` | array | Shop codes (keyword search by code) |
 | `shopId` | integer | Restrict to one shop (numeric shop ID) |
 | `sortBy` | string | Sort results by |
 | `minPrice` | integer | Min price (JPY) |
 | `maxPrice` | integer | Max price (JPY) |
 | `minRating` | string | Minimum review rating |
 | `condition` | string | Item condition |
-| `urls` | array | Rakuten URLs |
 | `maxItems` | integer | Max products (total) |
 | `maxPages` | integer | Max result pages per search |
 | `fetchDetails` | boolean | Fetch product details |
@@ -78,7 +78,7 @@ Full details on the [scraper page](https://apify.com/abotapi/rakuten-ichiba-scra
 | `unitPriceDisplay` | string |
 | `unitCount` | integer |
 | `unitLabel` | string |
-| `subscriptionPrice` | null |
+| `subscriptionPrice` | integer |
 | `originalPrice` | null |
 | `originalPriceLabel` | null |
 | `discountPercent` | null |

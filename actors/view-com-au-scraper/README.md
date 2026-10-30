@@ -84,6 +84,15 @@ Full details on the [scraper page](https://apify.com/abotapi/view-com-au-scraper
 | `heroImageUrl` | string |
 | `imageUrlSlug` | string |
 | `source` | object |
+| `suburb` | string |
+| `state` | string |
+| `postcode` | string |
+| `priceDisplay` | string |
+| `priceValue` | null |
+| `bedrooms` | integer |
+| `bathrooms` | integer |
+| `carSpaces` | integer |
+| `landSizeInSqm` | null |
 
 ---
 

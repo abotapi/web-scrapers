@@ -16,6 +16,7 @@ run = client.actor("abotapi/jobteaser-scraper").call(
         "queries": ["data analyst"],
         "locale": "en",
         "radius": "30",
+        "postedWithin": "any",
         "maxItems": 10,
         "proxy": {"useApifyProxy": True, "apifyProxyGroups": ["RESIDENTIAL"], "apifyProxyCountry": "FR"},
     },

@@ -1,7 +1,7 @@
 [
   {
     "id": "id26753278",
-    "listingKey": "u5ilclajsmviwdgjy0gc9q",
+    "listingKey": "uhxugmwlh8wfg0jkywph1a",
     "url": "https://www.ziprecruiter.com/example/88955",
     "title": "Example title",
     "company": "Example company",
@@ -10,8 +10,8 @@
     "companyWebsite": null,
     "companyLogo": "https://www.ziprecruiter.com/example/82651.jpg",
     "location": "Example location",
-    "city": "Example city",
-    "state": "Michigan",
+    "city": "Olympia",
+    "state": "Washington",
     "county": "Example county",
     "postalCode": null,
     "streetAddress": null,
@@ -38,8 +38,8 @@
     "descriptionText": null,
     "emails": [],
     "phoneNumbers": [],
-    "datePosted": "Example date posted",
-    "postedAt": "Example posted at",
+    "datePosted": "2026-01-15T10:00:00Z",
+    "postedAt": "2026-01-15T10:00:00Z",
     "validThrough": null,
     "isActive": true
   }

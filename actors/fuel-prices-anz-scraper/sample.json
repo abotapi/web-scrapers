@@ -2,31 +2,31 @@
   {
     "stationId": "id35869872",
     "name": "Example name",
-    "brand": "REDDY",
+    "brand": "OTHER",
     "location": {
-      "lat": -29.09,
-      "lng": 155.76,
+      "lat": -29.17,
+      "lng": 155.7,
       "address": "Example address",
       "suburb": "Example suburb",
       "state": "NSW",
-      "postcode": "4670"
+      "postcode": "1393"
     },
     "phone": "+1 555 0100",
     "prices": {
-      "DIESEL": {
-        "price": 323.07,
-        "updatedAt": 7189868241045,
-        "reportedBy": "Example reported by",
-        "relevant": true
-      },
-      "E10": {
-        "price": 274.48,
-        "updatedAt": 7189868241045,
-        "reportedBy": "Example reported by",
-        "relevant": true
-      },
       "U95": {
-        "price": 292.56,
+        "price": 291.43,
+        "updatedAt": 7189868241045,
+        "reportedBy": "Example reported by",
+        "relevant": true
+      },
+      "PremDSL": {
+        "price": 324.2,
+        "updatedAt": 7189868241045,
+        "reportedBy": "Example reported by",
+        "relevant": true
+      },
+      "U91": {
+        "price": 258.66,
         "updatedAt": 7189868241045,
         "reportedBy": "Example reported by",
         "relevant": true
@@ -45,88 +45,37 @@
     "isAdBlueAvailable": false,
     "verified": false,
     "icon": null,
-    "brandIcon": "reddy.png",
+    "brandIcon": "other.png",
     "searchContext": {
       "searchLocation": {
-        "lat": -29.06,
-        "lng": 155.81,
+        "lat": -29.13,
+        "lng": 155.74,
         "address": "Example address"
       },
       "boundingBox": {
-        "neLat": -34.42,
-        "neLng": 113.48,
-        "swLat": -39.25,
-        "swLng": 110.39
+        "neLat": -34.5,
+        "neLng": 113.44,
+        "swLat": -39.34,
+        "swLng": 110.35
       },
       "radiusKm": 3
-    }
-  },
-  {
-    "stationId": "id47834358",
-    "name": "Example name",
-    "brand": "METRO",
-    "location": {
-      "lat": -25.71,
-      "lng": 158.79,
-      "address": "Example address",
-      "suburb": "Example suburb",
-      "state": "NSW",
-      "postcode": "9545"
     },
-    "phone": "+1 555 0100",
-    "prices": {
-      "E10": {
-        "price": 208.71,
-        "updatedAt": 9467584543785,
-        "reportedBy": "Example reported by",
-        "relevant": true
-      },
-      "U98": {
-        "price": 230.46,
-        "updatedAt": 9467584543785,
-        "reportedBy": "Example reported by",
-        "relevant": true
-      },
-      "PremDSL": {
-        "price": 249.6,
-        "updatedAt": 9467584543785,
-        "reportedBy": "Example reported by",
-        "relevant": true
-      },
-      "U91": {
-        "price": 212.19,
-        "updatedAt": 9467584543785,
-        "reportedBy": "Example reported by",
-        "relevant": true
-      }
-    },
-    "tradingHours": [
-      [
-        "52:45",
-        "29:75"
-      ],
-      [
-        "72:91",
-        "26:07"
-      ]
-    ],
-    "isAdBlueAvailable": false,
-    "verified": false,
-    "icon": null,
-    "brandIcon": "metro.png",
-    "searchContext": {
-      "searchLocation": {
-        "lat": -25.68,
-        "lng": 158.83,
-        "address": "Example address"
-      },
-      "boundingBox": {
-        "neLat": -38.81,
-        "neLng": 111.97,
-        "swLat": -26.4,
-        "swLng": 193.57
-      },
-      "radiusKm": 3
-    }
+    "id": "id28973011",
+    "url": "https://petrolspy.com.au/example/47646",
+    "imageUrl": "https://petrolspy.com.au/example/35772.jpg",
+    "address": "Example address",
+    "suburb": "Example suburb",
+    "state": "NSW",
+    "postalCode": "1332",
+    "latitude": -37.98,
+    "longitude": 184.43,
+    "u91Price": 222.03,
+    "e10Price": null,
+    "u95Price": 190.85,
+    "u98Price": null,
+    "dieselPrice": null,
+    "lpgPrice": null,
+    "distanceKm": 5.09,
+    "currency": "AUD"
   }
 ]

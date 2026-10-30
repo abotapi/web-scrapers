@@ -19,6 +19,7 @@ run = client.actor("abotapi/businessesforsale-com-scraper").call(
         "pageSize": "50",
         "maxPages": 1,
         "maxListings": 10,
+        "maxItems": 10,
         "proxy": {"useApifyProxy": True, "apifyProxyGroups": ["RESIDENTIAL"], "apifyProxyCountry": "US"},
     },
     logger=None,  # don't stream the run log to your console

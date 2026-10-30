@@ -19,6 +19,7 @@ run = client.actor("abotapi/yanolja-com-scraper").call(
         "maxItems": 10,
         "maxPages": 1,
         "proxy": {"useApifyProxy": True, "apifyProxyGroups": ["RESIDENTIAL"], "apifyProxyCountry": "KR"},
+        "changeScope": "all",
     },
     logger=None,  # don't stream the run log to your console
 )

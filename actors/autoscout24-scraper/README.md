@@ -97,8 +97,8 @@ Full details on the [scraper page](https://apify.com/abotapi/autoscout24-scraper
 | `companyName` | string |
 | `contactName` | string |
 | `phones` | list |
-| `ratingsCount` | integer |
-| `ratingsStars` | integer |
+| `ratingsCount` | null |
+| `ratingsStars` | null |
 | `whatsappNumber` | string |
 | `dealerLogoUrl` | string |
 | `dealerInfoPageUrl` | string |

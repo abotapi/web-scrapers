@@ -17,7 +17,7 @@ python example.py
 ```bash
 curl -s -X POST "https://api.apify.com/v2/acts/abotapi~yodobashi-com-scraper/run-sync-get-dataset-items?token=$APIFY_TOKEN" \
   -H 'Content-Type: application/json' \
-  -d '{"mode": "search", "queries": ["カメラ"], "maxItems": 10, "maxPages": 1, "maxReviewsPerProduct": 10, "proxy": {"useApifyProxy": true}}'
+  -d '{"mode": "search", "queries": ["カメラ"], "maxItems": 10, "maxPages": 1, "maxReviewsPerProduct": 10, "proxy": {"useApifyProxy": true}, "changeScope": "all"}'
 ```
 
 ## Inputs
@@ -39,6 +39,9 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~yodobashi-com-scraper/run
 | `fetchReviews` | boolean | Fetch customer reviews |
 | `maxReviewsPerProduct` | integer | Maximum reviews per product |
 | `proxy` | object | Proxy configuration |
+| `changeScope` | string | Change scope (incremental mode only) |
+| `compactUpdates` | boolean | Compact UPDATED rows (incremental mode |
+| `expireAfterMissedScans` | integer | Expire after missed scans (incremental |
 
 `*` required
 

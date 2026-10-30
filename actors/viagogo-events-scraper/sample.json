@@ -2,7 +2,7 @@
   {
     "kind": "event",
     "recordId": "id18077924",
-    "eventId": "723766990",
+    "eventId": "529554758",
     "url": "https://www.viagogo.com/example/42331",
     "title": "Example title",
     "dayOfWeek": "Example day of week",
@@ -15,16 +15,16 @@
     "isTbd": false,
     "isMultidayEvent": false,
     "isParkingEvent": false,
-    "venueTimeZoneOffsetHours": 5,
+    "venueTimeZoneOffsetHours": -5,
     "eventState": 2,
-    "hasListings": true,
+    "hasListings": false,
     "allowPublicPurchase": true,
     "isUnderHundred": false,
-    "venueId": 3944,
+    "venueId": 835158944,
     "venueName": "Example venue name",
-    "venueCity": "Caen",
+    "venueCity": "Gormley",
     "venueLocation": "Example venue location",
-    "countryCode": "FR",
+    "countryCode": "CA",
     "countryName": "Example country name",
     "searchKeyword": "Example search keyword",
     "raw": {
@@ -41,23 +41,51 @@
       "isDateConfirmed": true,
       "isTimeConfirmed": true,
       "eventState": 2,
-      "venueId": 3944,
+      "venueId": 835158944,
       "venueName": "Example venue name",
       "allowPublicPurchase": true,
       "formattedVenueLocation": "Example formatted venue location",
-      "countryCode": "FR",
-      "hasActiveListings": true,
-      "venueCity": "Caen",
+      "countryCode": "CA",
+      "hasActiveListings": false,
+      "venueCity": "Gormley",
       "isParkingEvent": false,
       "countryName": "Example country name",
       "eventMetadata": {
         "common": {
-          "venueTimeZoneOffset": "5966418",
+          "venueTimeZoneOffset": "-23684633",
           "eventStartDateTime": 8839682435643
         }
       },
       "isUnderHundred": false,
       "isMultidayEvent": false
+    },
+    "formattedDateWithoutYear": "Example formatted date without year",
+    "notificationSignupLinkMessage": {
+      "message": "Example message",
+      "hasValue": true,
+      "featureTrackingKey": ""
+    },
+    "notificationSignupModalMessage": {
+      "message": "Example message: mock text standing in for the real value. Same field and type, made-up content.",
+      "hasValue": true,
+      "featureTrackingKey": "id91884695"
+    },
+    "notificationModalContent": {
+      "hasValue": true,
+      "eventGridItemMessage": "Example event grid item message",
+      "notificationModalFormContent": "Example notification modal form content: mock text standing in for the real value. Same field and type, made-up content.",
+      "notificationModalConfirmationContent": "Example notification modal confirmation content: mock text standing in for the real value. Same field and type, made-up content.",
+      "featureTrackingKey": "id91884695"
+    },
+    "isFavorite": false,
+    "aggregateFavorites": 0,
+    "userDistanceFromVenue": "5672546.4325",
+    "isRefetchedGlobalEvent": false,
+    "eventMetadata": {
+      "common": {
+        "venueTimeZoneOffset": "-23684633",
+        "eventStartDateTime": 8839682435643
+      }
     }
   }
 ]

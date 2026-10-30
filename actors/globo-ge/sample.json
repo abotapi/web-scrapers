@@ -1,14 +1,28 @@
 [
   {
-    "id": "06931467",
-    "url": "https://ge.globo.com/example/11801",
-    "title": "Example title: mock text standing in for the real value. Same field and type, made-up content.",
+    "id": "45958410",
+    "url": "https://globoplay.globo.com/example/11801",
+    "title": "Example title",
     "summary": "Example summary: mock text standing in for the real value. Same field and type, made-up content.",
     "publishedAt": "2026-01-15T10:00:00Z",
     "modifiedAt": "2026-01-15T10:00:00Z",
     "species": "Example species",
+    "source": "Example source",
     "recordType": "video",
-    "thumbnailUrl": "https://s03.video.glbimg.com/example/72762.jpg",
+    "thumbnailUrl": "http://s02.video.glbimg.com/example/72762.jpg",
     "durationSeconds": 73
+  },
+  {
+    "id": "20743182",
+    "url": "https://ge.globo.com/example/67312",
+    "title": "Example title",
+    "summary": "Example summary",
+    "publishedAt": "2026-01-15T10:00:00Z",
+    "modifiedAt": "2026-01-15T10:00:00Z",
+    "species": "Example species",
+    "source": "Example source",
+    "recordType": "video",
+    "thumbnailUrl": "https://s03.video.glbimg.com/example/94390.jpg",
+    "durationSeconds": 52
   }
 ]

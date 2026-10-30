@@ -17,6 +17,7 @@ run = client.actor("abotapi/domclick-scraper").call(
         "dealType": "sale",
         "category": "living",
         "offerType": "flat",
+        "apartments": "include",
         "sortBy": "relevance",
         "maxPages": 1,
         "maxListings": 10,

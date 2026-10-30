@@ -31,6 +31,7 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~spacex-com/run-sync-get-d
 | `launchSiteContains` | string | Launch site contains |
 | `dateFrom` | string | Launch date from |
 | `dateTo` | string | Launch date to |
+| `year` | integer | Launch year |
 | `sortBy` | string | Sort by |
 | `urls` | array | Mission URLs |
 | `fetchDetails` | boolean | Fetch mission details |
@@ -53,7 +54,7 @@ Full details on the [scraper page](https://apify.com/abotapi/spacex-com?utm_sour
 | `endDate` | null |
 | `endTime` | null |
 | `title` | string |
-| `shortTitle` | string |
+| `shortTitle` | null |
 | `link` | string |
 | `callToAction` | string |
 | `missionStatus` | string |
@@ -61,7 +62,7 @@ Full details on the [scraper page](https://apify.com/abotapi/spacex-com?utm_sour
 | `returnSite` | string |
 | `launchSite` | string |
 | `launchDate` | string |
-| `launchTime` | string |
+| `launchTime` | null |
 | `missionType` | string |
 | `directToCell` | boolean |
 | `isLive` | boolean |
@@ -73,7 +74,7 @@ Full details on the [scraper page](https://apify.com/abotapi/spacex-com?utm_sour
 | `ongoingMissionImageMobile` | null |
 | `videoDesktop` | null |
 | `videoMobile` | null |
-| `override` | object |
+| `override` | null |
 | `missionId` | string |
 | `url` | string |
 | `launchDateTime` | string |
@@ -82,10 +83,11 @@ Full details on the [scraper page](https://apify.com/abotapi/spacex-com?utm_sour
 | `ongoingMissionImageDesktopUrl` | null |
 | `ongoingMissionImageMobileUrl` | null |
 | `hasDetails` | boolean |
-| `videoDesktopUrl` | null |
-| `videoMobileUrl` | null |
-| `videoUrls` | list |
-| `primaryVideoUrl` | null |
+| `name` | string |
+| `status` | string |
+| `status_description` | string |
+| `net` | string |
+| `window_start` | string |
 
 ---
 

@@ -17,7 +17,7 @@ python example.py
 ```bash
 curl -s -X POST "https://api.apify.com/v2/acts/abotapi~etsy-marketplace-scraper/run-sync-get-dataset-items?token=$APIFY_TOKEN" \
   -H 'Content-Type: application/json' \
-  -d '{"mode": "search", "queries": ["handmade necklace"], "sortBy": "most_relevant", "maxItems": 10, "maxPages": 1, "proxy": {"useApifyProxy": true, "apifyProxyGroups": ["RESIDENTIAL"], "apifyProxyCountry": "US"}}'
+  -d '{"mode": "search", "queries": ["handmade necklace"], "sortBy": "most_relevant", "maxReviewsPerListing": 10, "maxItems": 10, "maxPages": 1, "proxy": {"useApifyProxy": true, "apifyProxyGroups": ["RESIDENTIAL"], "apifyProxyCountry": "US"}}'
 ```
 
 ## Inputs
@@ -27,16 +27,17 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~etsy-marketplace-scraper/
 | `mode` * | string | Mode |
 | `queries` | array | Search keywords |
 | `categoryPath` | string | Category path (optional) |
-| `urls` | array | Etsy links |
 | `sortBy` | string | Sort by |
-| `onSaleOnly` | boolean | On sale only |
 | `freeShippingOnly` | boolean | Free shipping only |
 | `personalizableOnly` | boolean | Personalizable only |
+| `shipToCountry` | string | Ships to (country code, optional) |
+| `urls` | array | Etsy links |
+| `onSaleOnly` | boolean | On sale only |
 | `minPrice` | integer | Minimum price (USD) |
 | `maxPrice` | integer | Maximum price (USD) |
-| `shipToCountry` | string | Ships to (country code, optional) |
 | `fetchDetails` | boolean | Fetch listing details |
 | `includeReviews` | boolean | Include item reviews |
+| `maxReviewsPerListing` | integer | Max reviews per listing |
 | `maxItems` | integer | Max listings |
 | `maxPages` | integer | Max pages per keyword / link |
 | `proxy` | object | Proxy configuration |
@@ -63,16 +64,20 @@ Full details on the [scraper page](https://apify.com/abotapi/etsy-marketplace-sc
 | `originalPrice` | float |
 | `discountPercentage` | integer |
 | `onSale` | boolean |
-| `availability` | null |
-| `quantityAvailable` | null |
+| `availability` | string |
+| `quantityAvailable` | integer |
 | `images` | list |
 | `videoUrl` | string |
-| `description` | null |
+| `description` | string |
+| `descriptionHTML` | string |
+| `listedOn` | string |
+| `favorites` | integer |
+| `highlights` | list |
 | `materials` | list |
-| `shippingOrigin` | null |
-| `rating` | null |
-| `reviewCount` | null |
-| `ratingBreakdown` | null |
+| `shippingOrigin` | object |
+| `rating` | integer |
+| `reviewCount` | integer |
+| `ratingBreakdown` | object |
 | `reviews` | list |
 | `variations` | list |
 | `searchMode` | string |

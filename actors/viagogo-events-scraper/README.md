@@ -17,7 +17,7 @@ python example.py
 ```bash
 curl -s -X POST "https://api.apify.com/v2/acts/abotapi~viagogo-events-scraper/run-sync-get-dataset-items?token=$APIFY_TOKEN" \
   -H 'Content-Type: application/json' \
-  -d '{"mode": "search", "queries": ["Coldplay"], "maxItems": 10, "proxyConfiguration": {"useApifyProxy": true}}'
+  -d '{"mode": "search", "queries": ["Coldplay"], "maxItems": 10, "sortBy": "relevance", "proxyConfiguration": {"useApifyProxy": true}}'
 ```
 
 ## Inputs
@@ -30,6 +30,9 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~viagogo-events-scraper/ru
 | `urls` | array | Links (alias) |
 | `maxItems` | integer | Max items |
 | `includeMatches` | boolean | Also return production and venue match |
+| `startDate` | string | Earliest event date |
+| `endDate` | string | Latest event date |
+| `sortBy` | string | Sort order |
 | `proxyConfiguration` | object | Proxy configuration |
 
 `*` required
@@ -70,6 +73,15 @@ Full details on the [scraper page](https://apify.com/abotapi/viagogo-events-scra
 | `countryName` | string |
 | `searchKeyword` | string |
 | `raw` | object |
+| `formattedDateWithoutYear` | string |
+| `notificationSignupLinkMessage` | object |
+| `notificationSignupModalMessage` | object |
+| `notificationModalContent` | object |
+| `isFavorite` | boolean |
+| `aggregateFavorites` | integer |
+| `userDistanceFromVenue` | string |
+| `isRefetchedGlobalEvent` | boolean |
+| `eventMetadata` | object |
 
 ---
 

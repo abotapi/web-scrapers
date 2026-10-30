@@ -14,6 +14,7 @@ run = client.actor("abotapi/globo-ge").call(
     run_input={
         "mode": "search",
         "queries": ["flamengo"],
+        "sportsCategory": "all",
         "maxItems": 10,
         "maxPages": 1,
         "proxyConfiguration": {"useApifyProxy": True},

@@ -1,6 +1,6 @@
 [
   {
-    "id": "92151664",
+    "id": "46923917",
     "name": "Example name",
     "url": "https://www.zomato.com/example/58440",
     "cuisines": [
@@ -10,26 +10,26 @@
     "cuisineString": "Example cuisine string",
     "locality": {
       "name": "Example name",
-      "address": "Example address",
+      "address": "Example address: mock text standing in for the real value. Same field and type, made-up content.",
       "localityUrl": "Example locality url"
     },
     "costForTwoText": "Example cost for two text",
     "costText": "Example cost text",
     "rating": {
-      "aggregate": 3.84,
-      "text": "4.4",
+      "aggregate": 5.16,
+      "text": "8.4",
       "subtitle": "Example subtitle",
-      "votes": 5,
-      "color": "1acd44"
+      "votes": 4181,
+      "color": "2ba375"
     },
     "ratingsByVertical": {
       "DINING": {
-        "rating": 3.14,
-        "reviewCount": 3,
+        "rating": null,
+        "reviewCount": 0,
         "subtitle": "DINING"
       },
       "DELIVERY": {
-        "rating": 4.51,
+        "rating": 4.21,
         "reviewCount": 1758,
         "subtitle": "DELIVERY"
       }
@@ -56,23 +56,23 @@
     "source": "search",
     "detailScraped": true,
     "statusText": "Example status text",
-    "isDeliveryOnly": false,
+    "isDeliveryOnly": true,
     "isPermanentlyClosed": false,
     "isTemporarilyClosed": false,
     "isOpeningSoon": 0,
-    "address": "Example address",
+    "address": "Example address: mock text standing in for the real value. Same field and type, made-up content.",
     "city": "Example city",
     "cityId": 5,
     "country": "India",
-    "zipcode": "",
-    "latitude": 25.2,
-    "longitude": 54.82,
+    "zipcode": "226830",
+    "latitude": 25.15,
+    "longitude": 54.84,
     "mapImageUrl": "https://maps.zomato.com/example/64868.jpg",
     "isDarkKitchen": false,
     "phones": [
       "+1 555 0100"
     ],
-    "chainName": "Example chain name",
+    "chainName": "Example chain name: mock text standing in for the real value. Same field and type, made-up content.",
     "chainUrl": "https://www.zomato.com/example/26370",
     "establishments": null
   }

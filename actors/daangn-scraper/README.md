@@ -85,7 +85,7 @@ Full details on the [scraper page](https://apify.com/abotapi/daangn-scraper?utm_
 | `favoriteCount` | integer |
 | `chatCount` | integer |
 | `viewCount` | integer |
-| `sellerScore` | float |
+| `sellerScore` | integer |
 | `sellerReviewCount` | integer |
 | `sellerProfileUrl` | string |
 | `sellerProfileImage` | string |

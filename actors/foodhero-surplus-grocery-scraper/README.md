@@ -29,6 +29,10 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~foodhero-surplus-grocery-
 | `radiusKm` | integer | Radius (km) |
 | `searchStoreName` | string | Store name contains |
 | `includeSoldOutOffers` | boolean | Include sold-out deals |
+| `minDiscountPercent` | integer | Minimum discount (%) |
+| `maxPrice` | number | Maximum deal price (CAD) |
+| `departmentNames` | array | Departments |
+| `storeType` | array | Store types |
 | `enrichStoreDetails` | boolean | Add store phone, website and descripti |
 | `urls` | array | Store or offer ids |
 | `maxItems` | integer | Max items |
@@ -66,6 +70,8 @@ Full details on the [scraper page](https://apify.com/abotapi/foodhero-surplus-gr
 | `phone` | null |
 | `website` | null |
 | `timezone` | string |
+| `openingHours` | null |
+| `pickUpInstructions` | null |
 | `productCount` | integer |
 | `storeOfferCount` | integer |
 | `offerId` | string |
@@ -83,8 +89,6 @@ Full details on the [scraper page](https://apify.com/abotapi/foodhero-surplus-gr
 | `currency` | string |
 | `itemLeft` | integer |
 | `isSoldOut` | boolean |
-| `isLastCall` | boolean |
-| `isFrozen` | boolean |
 
 ---
 

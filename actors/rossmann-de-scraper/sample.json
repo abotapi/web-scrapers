@@ -14,15 +14,8 @@
     "discountPercent": null,
     "promotionLabel": null,
     "isOnSpecial": false,
-    "badges": [
-      "Neu"
-    ],
-    "disruptors": [
-      {
-        "type": "NEW",
-        "text": "Example text"
-      }
-    ],
+    "badges": [],
+    "disruptors": [],
     "unitPrice": 10.51,
     "unitPriceCurrency": "EUR",
     "unitPriceUnit": "L",
@@ -49,7 +42,7 @@
       }
     ],
     "reviews": {
-      "averageRating": 4.85,
+      "averageRating": 4.86,
       "totalReviewCount": 905,
       "ratingDistribution": [
         {

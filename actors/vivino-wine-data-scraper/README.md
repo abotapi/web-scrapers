@@ -17,7 +17,7 @@ python example.py
 ```bash
 curl -s -X POST "https://api.apify.com/v2/acts/abotapi~vivino-wine-data-scraper/run-sync-get-dataset-items?token=$APIFY_TOKEN" \
   -H 'Content-Type: application/json' \
-  -d '{"mode": "lookup", "wines": ["Dom Pérignon", "Opus One 2019", "https://www.vivino.com/cloudy-bay-sauvignon-blanc/w/18978"], "searchMode": "auto", "matchingMode": "basic", "sortBy": "relevance", "countryCode": "FR", "currencyCode": "EUR", "maxReviewsPerWine": 10, "maxItems": 10, "maxPages": 1, "proxy": {"useApifyProxy": true}}'
+  -d '{"mode": "lookup", "wines": ["Dom Pérignon", "Opus One 2019", "https://www.vivino.com/cloudy-bay-sauvignon-blanc/w/18978", "https://www.vivino.com/cloudy-bay-sauvignon-blanc/w/18978?year=2015", "https://www.vivino.com/FR/en/henschke-hill-of-grace/w/13563", "https://www.vivino.com/w/88177", "https://www.vivino.com/search/wines?q=chablis", "https://www.vivino.com/explore?country_code=FR&min_rating=4&wine_type_ids[]=1", "https://www.vivino.com/grapes/sauvignon-blanc", "https://www.vivino.com/wine-regions/marlborough", "https://www.vivino.com/wineries/cloudy-bay", "https://www.vivino.com/api/explore/explore?country_code=FR&currency_code=EUR&min_rating=4&page=1&order_by=ratings_average&order=desc", "https://www.vivino.com/api/wines/83919/reviews?per_page=2"], "searchMode": "auto", "matchingMode": "basic", "sortBy": "relevance", "countryCode": "FR", "currencyCode": "EUR", "maxReviewsPerWine": 10, "maxItems": 10, "maxPages": 1, "proxy": {"useApifyProxy": true}}'
 ```
 
 ## Inputs
@@ -85,7 +85,7 @@ Full details on the [scraper page](https://apify.com/abotapi/vivino-wine-data-sc
 | `label_image_url` | string |
 | `food_pairings` | list |
 | `description` | string |
-| `alcohol` | null |
+| `alcohol` | float |
 | `winery_id` | integer |
 | `winery_seo_name` | string |
 | `region_id` | integer |

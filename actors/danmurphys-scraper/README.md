@@ -17,7 +17,7 @@ python example.py
 ```bash
 curl -s -X POST "https://api.apify.com/v2/acts/abotapi~danmurphys-scraper/run-sync-get-dataset-items?token=$APIFY_TOKEN" \
   -H 'Content-Type: application/json' \
-  -d '{"mode": "search", "department": "beer", "maxPages": 1, "maxProducts": 10, "proxyConfiguration": {"useApifyProxy": true}}'
+  -d '{"mode": "search", "department": "beer", "sortBy": "Relevance", "maxPages": 1, "maxProducts": 10, "proxyConfiguration": {"useApifyProxy": true}, "changeScope": "all"}'
 ```
 
 ## Inputs
@@ -32,10 +32,20 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~danmurphys-scraper/run-sy
 | `urls` | array | Category / product URLs |
 | `specialsOnly` | boolean | Specials only |
 | `memberOffersOnly` | boolean | Member offers only |
+| `minPrice` | number | Minimum price (AUD) |
+| `maxPrice` | number | Maximum price (AUD) |
+| `country` | string | Country (optional) |
+| `region` | string | Region (optional) |
+| `style` | string | Style (optional) |
+| `variety` | string | Variety / type (optional) |
+| `sortBy` | string | Sort order |
 | `fetchDetails` | boolean | Fetch product details (charged per pro |
 | `maxPages` | integer | Max pages per scope (0  unlimited) |
-| `maxProducts` | integer | Max products per run (0  unlimited) |
+| `maxProducts` | integer | Max products per scope (0  unlimited) |
 | `proxyConfiguration` | object | Proxy configuration |
+| `changeScope` | string | Change scope (incremental mode only) |
+| `compactUpdates` | boolean | Compact UPDATED rows (incremental mode |
+| `expireAfterMissedScans` | integer | Expire after N missed scans (increment |
 
 `*` required
 
@@ -64,7 +74,7 @@ Full details on the [scraper page](https://apify.com/abotapi/danmurphys-scraper?
 | `casePrice` | float |
 | `casePackMessage` | string |
 | `singlePrice` | float |
-| `inAnySixPrice` | integer |
+| `inAnySixPrice` | float |
 | `unit` | string |
 | `packageSize` | string |
 | `abv` | string |
@@ -73,6 +83,7 @@ Full details on the [scraper page](https://apify.com/abotapi/danmurphys-scraper?
 | `style` | string |
 | `closure` | string |
 | `size` | string |
+| `award` | string |
 | `rating` | integer |
 | `reviewCount` | integer |
 | `isNew` | boolean |
@@ -80,13 +91,12 @@ Full details on the [scraper page](https://apify.com/abotapi/danmurphys-scraper?
 | `purchasable` | boolean |
 | `deliveryOnly` | boolean |
 | `sash` | string |
+| `badges` | list |
 | `imageUrl` | string |
 | `imageLarge` | string |
 | `scrapedAt` | string |
+| `categoryUrl` | string |
 | `changeType` | string |
-| `changedFields` | list |
-| `firstSeenAt` | string |
-| `lastSeenAt` | string |
 
 ---
 

@@ -13,8 +13,8 @@ client = ApifyClient(os.environ["APIFY_TOKEN"])
 run = client.actor("abotapi/appliancesonline-com-au-scraper").call(
     run_input={
         "mode": "categories",
-        "searchInputs": ["washers-and-dryers/washing-machines"],
-        "productInputs": ["176381", "appliancesonline.com.au/product/8kg-front-load-haier-washing-machine-hwm80-1403d/", "appliancesonline.com.au/filter/washers-and-dryers/washing-machines/", "appliancesonline.com.au/filter/clearance/"],
+        "searchInputs": ["washers-and-dryers/washing-machines", "fridge", "samsung wgg24403au"],
+        "productInputs": ["https://www.appliancesonline.com.au/filter/washers-and-dryers/washing-machines/", "https://www.appliancesonline.com.au/filter/clearance/", "https://www.appliancesonline.com.au/filter/washers-and-dryers/washing-machines/front-loading/", "https://www.appliancesonline.com.au/category/refrigeration/fridges/", "https://www.appliancesonline.com.au/product/8kg-front-load-haier-washing-machine-hwm80-1403d/", "176381", "fridge", "samsung wgg24403au"],
         "sortBy": "popularity",
         "maxReviewsPerProduct": 10,
         "maxItems": 10,

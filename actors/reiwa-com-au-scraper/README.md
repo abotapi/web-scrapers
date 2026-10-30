@@ -67,7 +67,6 @@ Full details on the [scraper page](https://apify.com/abotapi/reiwa-com-au-scrape
 | `agentNames` | list |
 | `agentUrls` | list |
 | `phoneNumbers` | list |
-| `dateText` | string |
 | `imageUrls` | list |
 | `scrapedAt` | string |
 

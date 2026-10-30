@@ -56,12 +56,12 @@ Full details on the [scraper page](https://apify.com/abotapi/kogan-com-scraper?u
 | `brand` | string |
 | `sku` | string |
 | `gtin` | string |
-| `price` | integer |
-| `priceMax` | null |
-| `originalPrice` | null |
-| `originalPriceLabel` | null |
-| `discountAmount` | null |
-| `discountPercent` | null |
+| `price` | float |
+| `priceMax` | float |
+| `originalPrice` | float |
+| `originalPriceLabel` | string |
+| `discountAmount` | float |
+| `discountPercent` | float |
 | `isOnSpecial` | boolean |
 | `specialsCategory` | null |
 | `currency` | string |
@@ -73,7 +73,7 @@ Full details on the [scraper page](https://apify.com/abotapi/kogan-com-scraper?u
 | `images` | list |
 | `averageRating` | float |
 | `ratingCount` | integer |
-| `productId` | string |
+| `productId` | null |
 | `position` | integer |
 | `searchMode` | string |
 

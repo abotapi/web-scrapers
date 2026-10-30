@@ -13,8 +13,8 @@
     "priceRangeLow": 216,
     "priceRangeHigh": null,
     "currency": "USD",
-    "rating": 0,
-    "reviewCount": 0,
+    "rating": 5.12,
+    "reviewCount": 8860,
     "sellerName": "Example seller name",
     "sellerId": "f27cdc31ab013bb49fe4b05415549d64",
     "sellerType": null,
@@ -22,7 +22,7 @@
     "inStock": true,
     "fulfillmentText": "Example fulfillment text",
     "badges": [
-      "Rollback"
+      "Example badges"
     ],
     "sponsored": true,
     "variantCount": 0,

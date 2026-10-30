@@ -55,7 +55,7 @@ Full details on the [scraper page](https://apify.com/abotapi/doordash-scraper?ut
 | `name` | string |
 | `url` | string |
 | `description` | string |
-| `storeBio` | string |
+| `storeBio` | null |
 | `isConvenience` | boolean |
 | `isShippingOnly` | boolean |
 | `rating` | float |

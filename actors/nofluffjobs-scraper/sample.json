@@ -1,7 +1,7 @@
 [
   {
     "id": "Example id",
-    "reference": "80hv8bdf",
+    "reference": "wtkd2mls",
     "title": "Example title",
     "url": "https://nofluffjobs.com/example/49711",
     "region": "pl",
@@ -10,12 +10,12 @@
     ],
     "companyName": "Example company name",
     "companyLogo": "Example company logo",
-    "category": "sysAdministrator",
+    "category": "Example category",
     "seniority": [
       "Example seniority"
     ],
     "technology": null,
-    "remote": false,
+    "remote": true,
     "fullyRemote": false,
     "remotePercent": 2,
     "cities": [
@@ -23,14 +23,14 @@
     ],
     "locations": [
       {
-        "city": "Example city",
-        "street": "Example street",
-        "postalCode": "72-376",
-        "countryCode": "POL",
-        "country": "Poland",
+        "city": "Remote",
+        "street": null,
+        "postalCode": null,
+        "countryCode": null,
+        "country": null,
         "province": null,
-        "latitude": 41.55,
-        "longitude": 18.97,
+        "latitude": null,
+        "longitude": null,
         "url": "Example url"
       }
     ],
@@ -46,29 +46,25 @@
       "currency": "PLN",
       "period": "Example period",
       "disclosedAt": "VISIBLE",
-      "flexibleUpperBound": false
+      "flexibleUpperBound": false,
+      "containsSalary": "VISIBLE"
     },
     "posted": 8568058686996,
     "renewed": null,
     "lastActivity": 1075966555016,
-    "onlineInterviewAvailable": false,
+    "onlineInterviewAvailable": true,
     "highlighted": false,
     "topInSearch": false,
-    "companySize": "88 - 58",
-    "companyVideo": "",
-    "companyProfileUrl": "https://nofluffjobs.com/example/11419",
+    "companySize": "8608+",
+    "companyVideo": "https://www.youtube.com/example/6647",
+    "companyProfileUrl": "https://www.7n.com/example/11419",
     "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
     "position": "",
     "dailyTasks": [
       "Example daily tasks: mock text standing in for the real value. Same field and type, made-up content.",
       "Example daily tasks: mock text standing in for the real value. Same field and type, made-up content."
     ],
-    "requirementsMust": [
-      {
-        "name": "Example name",
-        "type": "main"
-      }
-    ],
+    "requirementsMust": [],
     "requirementsNice": [],
     "requirementLanguages": [
       "en"
@@ -78,9 +74,6 @@
       "Example benefits",
       "Example benefits"
     ],
-    "officePerks": [
-      "Example office perks",
-      "Example office perks"
-    ]
+    "officePerks": []
   }
 ]

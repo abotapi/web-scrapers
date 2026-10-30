@@ -31,6 +31,13 @@
           "date": "2026-01-15"
         }
       ]
-    }
+    },
+    "images": [
+      "https://www.druni.es/example/33195.jpg"
+    ],
+    "outOfStock": false,
+    "productUrl": "https://www.druni.es/example/89706",
+    "lowestPrice": 50.45,
+    "scrapedAt": "2026-01-15T10:00:00Z"
   }
 ]

@@ -19,6 +19,7 @@ run = client.actor("abotapi/walgreens-com").call(
         "maxPages": 1,
         "maxReviewsPerProduct": 10,
         "proxy": {"useApifyProxy": False},
+        "changeScope": "all",
     },
     logger=None,  # don't stream the run log to your console
 )

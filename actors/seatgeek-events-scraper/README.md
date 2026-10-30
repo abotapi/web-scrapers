@@ -77,9 +77,9 @@ Full details on the [scraper page](https://apify.com/abotapi/seatgeek-events-scr
 | `performers` | list |
 | `performerIds` | list |
 | `taxonomies` | list |
-| `lowestPrice` | integer |
-| `highestPrice` | integer |
-| `averagePrice` | integer |
+| `lowestPrice` | null |
+| `highestPrice` | null |
+| `averagePrice` | null |
 | `medianPrice` | integer |
 | `goodDealLowestPrice` | null |
 | `listingCount` | integer |

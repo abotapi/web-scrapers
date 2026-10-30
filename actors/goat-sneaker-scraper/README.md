@@ -69,7 +69,7 @@ Full details on the [scraper page](https://apify.com/abotapi/goat-sneaker-scrape
 | `designer` | string |
 | `silhouette` | string |
 | `midsole` | string |
-| `upperMaterial` | string |
+| `upperMaterial` | null |
 | `productCategory` | string |
 | `productType` | string |
 | `activities` | list |

@@ -59,9 +59,9 @@ Full details on the [scraper page](https://apify.com/abotapi/fnac-com-scraper?ut
 | `url` | string |
 | `price` | integer |
 | `currency` | string |
-| `originalPrice` | integer |
-| `discountAmount` | integer |
-| `discountPercent` | float |
+| `originalPrice` | null |
+| `discountAmount` | null |
+| `discountPercent` | null |
 | `isOnSpecial` | boolean |
 | `promoLabel` | null |
 | `unitPrice` | null |

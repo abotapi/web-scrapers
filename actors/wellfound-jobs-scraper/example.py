@@ -15,6 +15,8 @@ run = client.actor("abotapi/wellfound-jobs-scraper").call(
         "mode": "search",
         "locations": ["san-francisco"],
         "keywords": ["python"],
+        "experienceLevel": "any",
+        "sortBy": "default",
         "maxItems": 10,
         "maxPages": 1,
         "proxy": {"useApifyProxy": True, "apifyProxyGroups": ["RESIDENTIAL"]},

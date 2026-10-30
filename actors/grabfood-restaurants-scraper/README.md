@@ -81,7 +81,16 @@ Full details on the [scraper page](https://apify.com/abotapi/grabfood-restaurant
 | `sourceUrl` | null |
 | `region` | string |
 | `scrapedAt` | string |
-| `deliveryContext` | object |
+| `fullAddress` | string |
+| `street` | string |
+| `suburb` | string |
+| `postcode` | string |
+| `city` | string |
+| `countryCode` | string |
+| `orderValueLimit` | integer |
+| `menuObservedAt` | string |
+| `menu` | list |
+| `menuCategoryCount` | integer |
 
 ---
 

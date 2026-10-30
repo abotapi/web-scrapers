@@ -17,7 +17,7 @@ python example.py
 ```bash
 curl -s -X POST "https://api.apify.com/v2/acts/abotapi~24s-com-scraper/run-sync-get-dataset-items?token=$APIFY_TOKEN" \
   -H 'Content-Type: application/json' \
-  -d '{"mode": "search", "locale": "en-gb", "categories": ["women/shoes"], "sortBy": "relevance", "maxItems": 10, "maxPages": 1, "proxy": {"useApifyProxy": true, "apifyProxyGroups": ["RESIDENTIAL"]}}'
+  -d '{"mode": "search", "locale": "en-gb", "categories": ["women/shoes"], "sortBy": "relevance", "maxItems": 10, "maxPages": 1, "proxy": {"useApifyProxy": true}}'
 ```
 
 ## Inputs
@@ -26,6 +26,7 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~24s-com-scraper/run-sync-
 | --- | --- | --- |
 | `mode` * | string | Mode |
 | `locale` | string | Market / locale |
+| `country` | string | Country (alias for market) |
 | `categories` | array | Categories |
 | `brands` | array | Brands |
 | `colors` | array | Colors |
@@ -83,6 +84,14 @@ Full details on the [scraper page](https://apify.com/abotapi/24s-com-scraper?utm
 | `productSlug` | string |
 | `url` | string |
 | `locale` | string |
+| `imageUrl` | string |
+| `imageUrls` | list |
+| `originalPrice` | integer |
+| `discount` | null |
+| `sku` | null |
+| `country` | string |
+| `category` | string |
+| `categoryPath` | string |
 
 ---
 

@@ -66,9 +66,9 @@ Full details on the [scraper page](https://apify.com/abotapi/bizbuysell-scraper?
 | `shortDescription` | string |
 | `fullDescription` | null |
 | `askingPrice` | integer |
-| `cashFlow` | integer |
+| `cashFlow` | null |
 | `grossRevenue` | null |
-| `ebitda` | integer |
+| `ebitda` | null |
 | `inventory` | null |
 | `ffe` | null |
 | `realEstate` | null |

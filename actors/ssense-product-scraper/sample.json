@@ -1,27 +1,48 @@
 [
   {
-    "recordId": "06854602",
+    "recordId": "83281170",
     "rowType": "product",
-    "productId": "81906138",
+    "productId": "43839407",
     "url": "https://www.ssense.com/example/68156",
     "title": "Example title",
-    "brand": "Balenciaga",
-    "brandId": "222",
-    "sku": "213181m247517",
+    "brand": "Lanvin",
+    "brandId": "007",
+    "sku": "781998m690666",
     "gender": "men",
     "categoryIds": [
       "7",
       "882"
     ],
-    "price": 685,
-    "regularPrice": 433,
+    "price": 1585,
+    "regularPrice": 4933,
     "onSale": false,
     "discountPercent": null,
     "currency": "USD",
     "inStock": true,
     "imageUrl": "https://res.cloudinary.com/example/28857.jpg",
-    "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
-    "category": "low-top-sneakers",
+    "scrapedAt": "2026-01-15T10:00:00Z"
+  },
+  {
+    "recordId": "60384488",
+    "rowType": "product",
+    "productId": "09658222",
+    "url": "https://www.ssense.com/example/95943",
+    "title": "Example title",
+    "brand": "Example brand",
+    "brandId": "907",
+    "sku": "618165m764507",
+    "gender": "men",
+    "categoryIds": [
+      "6",
+      "944"
+    ],
+    "price": 732,
+    "regularPrice": 339,
+    "onSale": false,
+    "discountPercent": null,
+    "currency": "USD",
+    "inStock": true,
+    "imageUrl": "https://res.cloudinary.com/example/86213.jpg",
     "scrapedAt": "2026-01-15T10:00:00Z"
   }
 ]

@@ -16,6 +16,7 @@ run = client.actor("abotapi/mastodon-social-scraper").call(
         "instanceUrl": "https://mastodon.social",
         "profileSource": "both",
         "keywords": ["news"],
+        "sortBy": "newest",
         "maxProfiles": 10,
         "maxReviewsPerProfile": 10,
         "maxReviews": 10,

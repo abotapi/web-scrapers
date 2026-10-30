@@ -75,11 +75,20 @@ Full details on the [scraper page](https://apify.com/abotapi/jumia-marketplace-s
 | `marketHost` | string |
 | `lastModified` | integer |
 | `gtin` | null |
+| `country` | string |
+| `countryCode` | string |
+| `priceText` | string |
+| `oldPriceText` | string |
+| `rating` | float |
+| `reviewsCount` | integer |
+| `inStock` | boolean |
+| `isOfficialStore` | boolean |
+| `isExpress` | boolean |
+| `categoryPath` | list |
+| `enriched` | boolean |
 | `sourceType` | string |
 | `sourceId` | string |
 | `sourceUrl` | null |
-| `position` | integer |
-| `scrapedAt` | string |
 
 ---
 

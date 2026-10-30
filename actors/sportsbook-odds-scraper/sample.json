@@ -3,7 +3,7 @@
     "recordType": "event",
     "bookmaker": "linebet",
     "feed": "prematch",
-    "eventId": "201396757",
+    "eventId": "323346292",
     "num": 283853,
     "sport": "Football",
     "sportId": 8,
@@ -17,19 +17,19 @@
     "scoreHome": null,
     "scoreAway": null,
     "isLive": false,
-    "oddsHome": 6.79,
-    "oddsDraw": 8,
-    "oddsAway": 0.96,
+    "oddsHome": 1.29,
+    "oddsDraw": 5.0,
+    "oddsAway": 3.48,
     "totals": [
       {
         "line": 2.4,
-        "over": 1.69,
-        "under": 2.95
+        "over": 1.78,
+        "under": 2.8
       },
       {
         "line": 6,
-        "over": 1.51,
-        "under": 2.63
+        "over": 1.59,
+        "under": 2.49
       }
     ],
     "markets": [
@@ -37,13 +37,13 @@
         "group": 9,
         "type": 7,
         "line": null,
-        "odds": 8.26
+        "odds": 1.57
       },
       {
         "group": 1,
         "type": 6,
         "line": null,
-        "odds": 1
+        "odds": 5.33
       }
     ],
     "url": "https://linebet.com/example/39364",
@@ -53,7 +53,7 @@
     "recordType": "event",
     "bookmaker": "linebet",
     "feed": "prematch",
-    "eventId": "750983754",
+    "eventId": "828154449",
     "num": 317417,
     "sport": "Football",
     "sportId": 5,
@@ -67,19 +67,19 @@
     "scoreHome": null,
     "scoreAway": null,
     "isLive": false,
-    "oddsHome": 3.03,
-    "oddsDraw": 2.91,
-    "oddsAway": 2.31,
+    "oddsHome": 1.95,
+    "oddsDraw": 2.55,
+    "oddsAway": 3.7,
     "totals": [
       {
-        "line": 2.62,
-        "over": 1.58,
-        "under": 2.81
+        "line": 1.57,
+        "over": 1.35,
+        "under": 4.62
       },
       {
         "line": 6,
-        "over": 1.76,
-        "under": 2.63
+        "over": 1.41,
+        "under": 4.27
       }
     ],
     "markets": [
@@ -87,13 +87,13 @@
         "group": 2,
         "type": 4,
         "line": null,
-        "odds": 2.44
+        "odds": 1.57
       },
       {
         "group": 8,
         "type": 6,
         "line": null,
-        "odds": 4.66
+        "odds": 4.08
       }
     ],
     "url": "https://linebet.com/example/85993",

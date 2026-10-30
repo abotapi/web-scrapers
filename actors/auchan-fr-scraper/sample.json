@@ -5,9 +5,9 @@
     "brand": "LACTEL",
     "packSize": "Example pack size",
     "productUrl": "https://www.auchan.fr/example/35231",
-    "price": 7.87,
+    "price": 7.79,
     "currency": "EUR",
-    "unitPrice": 1.34,
+    "unitPrice": 1.33,
     "unitOfMeasure": "Example unit of measure",
     "wasPrice": null,
     "discountAmount": null,
@@ -17,7 +17,8 @@
     "availability": "Example availability",
     "deliveryPromise": "Example delivery promise",
     "deliveryChannel": "PICK_UP",
-    "stock": 91,
+    "stock": 1,
+    "priceValidUntil": "2026-01-15",
     "averageRating": null,
     "reviewCount": 0,
     "images": [
@@ -31,6 +32,13 @@
       "reviewCount": 0,
       "ratingBreakdown": null,
       "items": []
-    }
+    },
+    "name": "Example name",
+    "url": "https://www.auchan.fr/example/58914",
+    "imageUrl": "https://cdn.auchan.fr/example/10101.jpg",
+    "inStock": true,
+    "rating": null,
+    "scrapedAt": "2026-01-15T10:00:00Z",
+    "reviewItems": []
   }
 ]

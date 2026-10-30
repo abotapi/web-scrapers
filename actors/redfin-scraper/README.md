@@ -35,6 +35,8 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~redfin-scraper/run-sync-g
 | `minBaths` | integer | Min bathrooms |
 | `minSqft` | integer | Min square feet |
 | `urls` | array | URLs |
+| `addresses` | array | Addresses |
+| `searchResultsDatasetId` | string | Search results dataset ID |
 | `fetchDetails` | boolean | Fetch full listing details |
 | `maxItems` | integer | Max listings |
 | `maxPages` | integer | Max pages per search |
@@ -67,17 +69,17 @@ Full details on the [scraper page](https://apify.com/abotapi/redfin-scraper?utm_
 | `priceDisplayLevel` | integer |
 | `priceType` | string |
 | `hideSalePrice` | boolean |
-| `pricePerSqFt` | null |
+| `pricePerSqFt` | integer |
 | `hoa` | null |
 | `hoaDues` | null |
 | `isHoaFrequencyKnown` | boolean |
 | `beds` | integer |
-| `baths` | integer |
+| `baths` | float |
 | `bathFull` | integer |
-| `bathPartial` | null |
-| `sqFt` | null |
-| `sqft` | null |
-| `lotSize` | null |
+| `bathPartial` | integer |
+| `sqFt` | integer |
+| `sqft` | integer |
+| `lotSize` | integer |
 | `stories` | integer |
 | `yearBuilt` | integer |
 | `streetLine` | string |

@@ -1,11 +1,38 @@
 [
   {
-    "url": "https://www.google.com/example/57276",
+    "url": "https://www.example.com/example/57276",
     "markdown": "Example markdown: mock text standing in for the real value. Same field and type, made-up content.",
     "metadata": {
       "title": "Example title",
       "description": "",
-      "author": ""
+      "author": "",
+      "canonicalUrl": "",
+      "keywords": "",
+      "languageCode": "en",
+      "openGraph": {},
+      "jsonLd": [],
+      "headers": {
+        "age": "0412",
+        "allow": "Example allow",
+        "alt-svc": "Example alt-svc",
+        "cf-cache-status": "HIT",
+        "cf-ray": "a13e4eee4f9184c6-mia",
+        "content-encoding": "br",
+        "content-type": "Example content-type",
+        "date": "Example date",
+        "last-modified": "Example last-modified",
+        "server": "cloudflare"
+      }
+    },
+    "text": "Example text: mock text standing in for the real value. Same field and type, made-up content.",
+    "crawl": {
+      "loadedUrl": "https://www.example.com/example/49467",
+      "loadedTime": "2026-01-15T10:00:00Z",
+      "referrerUrl": "",
+      "depth": 0,
+      "httpStatusCode": 833,
+      "contentLengthBytes": 1786,
+      "contentType": "Example content type"
     }
   }
 ]

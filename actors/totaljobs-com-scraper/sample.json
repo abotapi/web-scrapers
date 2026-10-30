@@ -18,7 +18,7 @@
       "id": 5169432,
       "name": "Example name",
       "url": "https://www.totaljobs.com/example/38354",
-      "logoUrl": "https://tjgliveassets.s3.eu-west-1.amazonaws.com/example/94940.jpg",
+      "logoUrl": "",
       "isAnonymous": false
     },
     "location": {
@@ -35,8 +35,8 @@
     },
     "salary": {
       "rawText": "Example raw text",
-      "min": 43,
-      "max": 28,
+      "min": 15.02,
+      "max": 17.2,
       "currency": "GBP",
       "period": null
     },
@@ -55,6 +55,13 @@
       "sourceSiteFriendlyName": ""
     },
     "travelTime": null,
+    "labels": [],
+    "topLabels": [],
+    "section": "main",
+    "metaData": {
+      "positionAbsolute": 9,
+      "positionOnPage": 7
+    },
     "description": null,
     "descriptionText": null,
     "validThrough": null,
@@ -63,10 +70,6 @@
     "directApply": null,
     "applyType": null,
     "jobLocationType": null,
-    "applicantLocationRequirements": null,
-    "externalId": "id72823266",
-    "contractType": null,
-    "workType": null,
-    "company": null
+    "applicantLocationRequirements": null
   }
 ]

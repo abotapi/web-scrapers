@@ -27,7 +27,7 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~tutti-ch-scraper/run-sync
 | `mode` * | string | Mode |
 | `keyword` | string | Keyword |
 | `category` | string | Category |
-| `locations` | array | Locations (city slugs) |
+| `locations` | array | Locations (city or canton names) |
 | `minPrice` | integer | Min price (CHF) |
 | `maxPrice` | integer | Max price (CHF) |
 | `urls` | array | tutti.ch URLs |
@@ -35,6 +35,7 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~tutti-ch-scraper/run-sync
 | `language` | string | Site language |
 | `fetchDetails` | boolean | Fetch full details (extra cost) |
 | `maxPages` | integer | Max pages per search |
+| `maxAgeHours` | integer | Max listing age (hours) |
 | `maxListings` | integer | Max listings (0  no limit) |
 | `proxy` | object | Proxy |
 | `maxResidentialPercent` | integer | Residential usage cap (%) |
@@ -52,7 +53,7 @@ Full details on the [scraper page](https://apify.com/abotapi/tutti-ch-scraper?ut
 | --- | --- |
 | `listingId` | string |
 | `title` | string |
-| `description` | null |
+| `description` | string |
 | `price` | string |
 | `priceValue` | integer |
 | `currency` | string |
@@ -70,11 +71,11 @@ Full details on the [scraper page](https://apify.com/abotapi/tutti-ch-scraper?ut
 | `sellerName` | string |
 | `sellerType` | string |
 | `sellerAccountId` | null |
-| `sellerLogoUrl` | string |
+| `sellerLogoUrl` | null |
 | `sellerLocation` | null |
 | `sellerProfileUrl` | null |
 | `sellerSubscriptionClass` | null |
-| `sellerBadgeUrl` | string |
+| `sellerBadgeUrl` | null |
 | `memberSince` | null |
 | `phone` | null |
 | `externalUrl` | null |
@@ -84,6 +85,9 @@ Full details on the [scraper page](https://apify.com/abotapi/tutti-ch-scraper?ut
 | `imageCount` | integer |
 | `images` | list |
 | `properties` | list |
+| `email` | null |
+| `category_path` | null |
+| `scraped_at` | string |
 | `timestamp` | string |
 | `language` | string |
 | `url` | string |

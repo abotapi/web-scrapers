@@ -17,7 +17,7 @@ python example.py
 ```bash
 curl -s -X POST "https://api.apify.com/v2/acts/abotapi~rewe-de-scraper/run-sync-get-dataset-items?token=$APIFY_TOKEN" \
   -H 'Content-Type: application/json' \
-  -d '{"mode": "search", "zipCode": "50667", "searchTerm": "milch", "maxPages": 1, "maxItems": 10, "proxy": {"useApifyProxy": true, "apifyProxyGroups": ["RESIDENTIAL"], "apifyProxyCountry": "DE"}}'
+  -d '{"mode": "search", "zipCode": "50667", "searchTerm": "milch", "sortBy": "RELEVANCE_DESC", "maxPages": 1, "maxItems": 10, "proxy": {"useApifyProxy": true}}'
 ```
 
 ## Inputs
@@ -33,7 +33,17 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~rewe-de-scraper/run-sync-
 | `attribute` | string | Dietary / sourcing filter |
 | `minPrice` | number | Minimum price (EUR) |
 | `maxPrice` | number | Maximum price (EUR) |
+| `sortBy` | string | Sort by |
+| `campaignsOnly` | boolean | Offers only |
+| `inStockOnly` | boolean | Available products only |
+| `marketId` | string | REWE market id (advanced) |
+| `searchTerms` | array | More search keywords |
+| `productIds` | array | Shopping list product ids |
+| `quantities` | array | Shopping list quantities |
 | `fetchDetails` | boolean | Fetch product detail |
+| `compact` | boolean | Compact output |
+| `excludeEmptyFields` | boolean | Exclude empty fields |
+| `descriptionMaxLength` | integer | Description max length |
 | `maxPages` | integer | Max pages per search |
 | `maxItems` | integer | Max products total |
 | `proxy` | object | Proxy configuration |
@@ -72,6 +82,7 @@ Full details on the [scraper page](https://apify.com/abotapi/rewe-de-scraper?utm
 | `offerValidTo` | null |
 | `merchant` | string |
 | `gtin` | string |
+| `scrapedAt` | string |
 
 ---
 

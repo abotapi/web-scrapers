@@ -1,6 +1,6 @@
 [
   {
-    "wineId": 12276,
+    "wineId": 3612276,
     "vintageId": 6362751,
     "vivino_url": "https://www.vivino.com/example/88430",
     "name": "Example name",
@@ -14,13 +14,13 @@
       "Example grape_varieties",
       "Example grape_varieties"
     ],
-    "average_rating": 4.74,
-    "ratings_count": 25402,
-    "wine_average_rating": 3.4,
-    "wine_ratings_count": 834220,
-    "price": 272.31,
+    "average_rating": 4.84,
+    "ratings_count": 7402,
+    "wine_average_rating": 3.48,
+    "wine_ratings_count": 6220,
+    "price": 1661.24,
     "currency": "EUR",
-    "merchant_url": "https://cultwinesintl.com/example/61353",
+    "merchant_url": "https://www.drinkdivino.com/example/61353",
     "discounted_from": 0,
     "discount_percent": null,
     "is_on_sale": false,
@@ -36,7 +36,7 @@
       "Example food_pairings"
     ],
     "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
-    "alcohol": null,
+    "alcohol": 9.5,
     "winery_id": 768911,
     "winery_seo_name": "Example winery_seo_name",
     "region_id": 271,
@@ -47,11 +47,11 @@
     "lwin_canonical": null,
     "taste_profile": {
       "body": null,
-      "acidity": 4.72,
+      "acidity": 4.79,
       "tannins": null,
       "sweetness": null,
-      "fizziness": 4.02,
-      "intensity": 3.04,
+      "fizziness": 4.04,
+      "intensity": 3.14,
       "flavor_notes": [
         "brioche",
         "toast"
@@ -62,24 +62,24 @@
           "keywords": [
             {
               "name": "Example name",
-              "count": 7650
+              "count": 90
             },
             {
               "name": "Example name",
-              "count": 5719
+              "count": 49
             }
           ]
         },
         {
-          "group": "tree_fruit",
+          "group": "earth",
           "keywords": [
             {
               "name": "Example name",
-              "count": 5719
+              "count": 49
             },
             {
               "name": "Example name",
-              "count": 2580
+              "count": 60
             }
           ]
         }

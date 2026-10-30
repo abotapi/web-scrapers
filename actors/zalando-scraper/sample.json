@@ -1,43 +1,34 @@
 [
   {
-    "sku": "a4q51c1g7-q62",
+    "sku": "an490c6bd-q99",
     "name": "Example name",
-    "brand": "AllSaints",
+    "brand": "Example brand",
     "url": "https://www.zalando.co.uk/example/60791",
     "targetGroup": "WOMEN",
     "category": "DRESS",
     "supplierName": "Example supplier name",
     "shortDescription": null,
     "condition": null,
-    "price": 473,
-    "originalPrice": 149.99,
-    "promotionalPrice": 883,
-    "discountPercentage": 70,
+    "price": 28.21,
+    "originalPrice": 33.99,
+    "promotionalPrice": null,
+    "discountPercentage": null,
     "currency": "GBP",
-    "onSale": true,
-    "dealFlag": "Example deal flag",
-    "flags": [
-      {
-        "kind": "DEAL",
-        "label": "Example label"
-      },
-      {
-        "kind": "PREMIUM",
-        "label": "Example label"
-      }
-    ],
+    "onSale": false,
+    "dealFlag": null,
+    "flags": [],
     "sizes": [
-      "0",
-      "6"
+      "XS",
+      "S"
     ],
     "sizeSkus": [
       {
-        "size": "1",
-        "sku": "a2q40c6g8-q501492974"
+        "size": "XS",
+        "sku": "an746c5bd-q0581xs240"
       },
       {
-        "size": "9",
-        "sku": "a2q10c5g5-q737377409"
+        "size": "S",
+        "sku": "an516c3bd-q82099s021"
       }
     ],
     "image": "https://img01.ztat.net/example/71618.jpg",
@@ -47,7 +38,7 @@
     ],
     "rating": null,
     "available": true,
-    "variantCount": 0,
+    "variantCount": null,
     "inWishlist": false,
     "benefits": [],
     "priceTrackingKey": "Example price tracking key: mock text standing in for the real value. Same field and type, made-up content.",
@@ -56,9 +47,14 @@
     "sourceUrl": "https://www.zalando.co.uk/example/8792",
     "productsFound": 28234,
     "mode": "listing",
+    "unitPrice": null,
+    "unitPriceLabel": null,
+    "comingSoon": null,
+    "sizeAdvice": null,
+    "lowerPriceLabel": null,
     "item": {
       "id": "Example id",
-      "sku": "a4q51c1g7-q62",
+      "sku": "an490c6bd-q99",
       "name": "Example name",
       "navigationTargetGroup": "WOMEN",
       "silhouette": "DRESS",
@@ -138,20 +134,9 @@
                   "__typename": "Example __typename",
                   "text": "Example text",
                   "marks": {
-                    "textColor": "sale",
+                    "textColor": "primary",
                     "typography": "Example typography",
                     "isStrikeThrough": false,
-                    "hasSpace": true,
-                    "fontFamily": "Example font family"
-                  }
-                },
-                {
-                  "__typename": "Example __typename",
-                  "text": "Example text",
-                  "marks": {
-                    "textColor": "secondary",
-                    "typography": "Example typography",
-                    "isStrikeThrough": true,
                     "hasSpace": false,
                     "fontFamily": "Example font family"
                   }
@@ -166,25 +151,23 @@
         "trackingKey": "Example tracking key: mock text standing in for the real value. Same field and type, made-up content."
       },
       "displayPrice": {
-        "trackingCurrentAmount": 897,
-        "trackingDiscountAmount": 32.69,
-        "promotional": {
-          "amount": 51414
-        },
+        "trackingCurrentAmount": 29.57,
+        "trackingDiscountAmount": null,
+        "promotional": null,
         "original": {
-          "amount": 51414,
+          "amount": 6414,
           "currency": "GBP"
         },
         "displayMode": null
       },
       "simples": [
         {
-          "size": "1",
-          "sku": "a2q40c6g8-q501492974"
+          "size": "XS",
+          "sku": "an746c5bd-q0581xs240"
         },
         {
-          "size": "9",
-          "sku": "a2q10c5g5-q737377409"
+          "size": "S",
+          "sku": "an516c3bd-q82099s021"
         }
       ],
       "defaultMediaInfo": {
@@ -235,16 +218,7 @@
       "experienceWatermarkLarge": null,
       "experienceWatermarkMedium": null,
       "experienceWatermarkSmall": null,
-      "productFlags": [
-        {
-          "kind": "DEAL",
-          "formatted": "Example formatted"
-        },
-        {
-          "kind": "PREMIUM",
-          "formatted": "Designer"
-        }
-      ],
+      "productFlags": [],
       "uri": "https://www.zalando.co.uk/example/51919",
       "inWishlist": false,
       "benefits": [],
@@ -256,12 +230,7 @@
         }
       }
     },
-    "title": "Example title: mock text standing in for the real value. Same field and type, made-up content.",
-    "wasPrice": 178.49,
-    "savingsAmount": 32.69,
-    "savingsPercent": 35,
-    "isOnSpecial": true,
-    "promoLabel": "Example promo label",
-    "specialsCategory": null
+    "title": "Example title",
+    "wasPrice": null
   }
 ]

@@ -2,8 +2,8 @@
   {
     "kind": "product",
     "uniqueKey": "Example unique key",
-    "productId": "e954062-894",
-    "styleCode": "306570",
+    "productId": "e847756-183",
+    "styleCode": "392090",
     "name": "Example name",
     "url": "https://www.uniqlo.com/example/25479",
     "country": "us",
@@ -31,10 +31,10 @@
     "fitRating": null,
     "colors": [
       {
-        "code": "COL07",
-        "displayCode": "09",
+        "code": "COL00",
+        "displayCode": "46",
         "name": "Example name",
-        "group": "GRAY",
+        "group": "WHITE",
         "hex": null,
         "imageUrl": "https://image.uniqlo.com/example/34597.jpg",
         "chipUrl": "https://image.uniqlo.com/example/91073.jpg"
@@ -62,75 +62,6 @@
     "subImages": [
       "https://image.uniqlo.com/example/84785.jpg",
       "https://image.uniqlo.com/example/90083.jpg"
-    ],
-    "flags": [],
-    "flagCodes": [],
-    "isNew": false,
-    "isNewColor": false
-  },
-  {
-    "kind": "product",
-    "uniqueKey": "Example unique key",
-    "productId": "e646633-618",
-    "styleCode": "473752",
-    "name": "Example name",
-    "url": "https://www.uniqlo.com/example/85773",
-    "country": "us",
-    "countryName": "Example country name",
-    "language": "en",
-    "department": "MEN",
-    "genderCategory": "MEN",
-    "sizeGender": "MEN",
-    "price": 37.08,
-    "basePrice": 34.68,
-    "promoPrice": null,
-    "originalPrice": null,
-    "discountAmount": null,
-    "discountPercent": null,
-    "isOnSale": false,
-    "currency": "USD",
-    "currencySymbol": "Example currency symbol",
-    "taxPolicy": "EXCLUSIVE",
-    "isDualPrice": false,
-    "priceGroup": "14",
-    "promotionText": null,
-    "rating": 5.23,
-    "reviewCount": 8,
-    "ratingBreakdown": null,
-    "fitRating": null,
-    "colors": [
-      {
-        "code": "COL00",
-        "displayCode": "11",
-        "name": "Example name",
-        "group": "WHITE",
-        "hex": null,
-        "imageUrl": "https://image.uniqlo.com/example/22905.jpg",
-        "chipUrl": "https://image.uniqlo.com/example/25583.jpg"
-      }
-    ],
-    "colorCount": 2,
-    "sizes": [
-      {
-        "code": "sma636",
-        "displayCode": "592",
-        "name": "Example name"
-      },
-      {
-        "code": "sma723",
-        "displayCode": "006",
-        "name": "Example name"
-      }
-    ],
-    "sizeCount": 1,
-    "images": [
-      "https://image.uniqlo.com/example/83057.jpg",
-      "https://image.uniqlo.com/example/40775.jpg"
-    ],
-    "mainImage": "https://image.uniqlo.com/example/82798.jpg",
-    "subImages": [
-      "https://image.uniqlo.com/example/55146.jpg",
-      "https://image.uniqlo.com/example/72156.jpg"
     ],
     "flags": [],
     "flagCodes": [],

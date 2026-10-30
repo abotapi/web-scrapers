@@ -17,6 +17,7 @@ run = client.actor("abotapi/pagesjaunes-fr-scraper").call(
         "location": "Paris",
         "maxPages": 1,
         "maxListings": 10,
+        "maxReviews": 10,
         "proxy": {"useApifyProxy": True, "apifyProxyGroups": ["RESIDENTIAL"]},
     },
     logger=None,  # don't stream the run log to your console

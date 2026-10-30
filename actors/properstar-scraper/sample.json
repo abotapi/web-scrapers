@@ -1,33 +1,19 @@
 [
   {
-    "id": "604610771",
+    "id": "533394091",
     "url": "https://www.properstar.co.uk/example/34799",
     "class": "Example class",
     "transactionType": "Sell",
     "type": "Apartment",
     "subType": "Apartment",
     "title": "Example title",
-    "automaticTitle": "Example automatic title: mock text standing in for the real value. Same field and type, made-up content.",
+    "automaticTitle": "Example automatic title",
     "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
     "titleByLanguage": {
-      "ar": "Example ar",
-      "de": "Example de: mock text standing in for the real value. Same field and type, made-up content.",
-      "en": "Example en: mock text standing in for the real value. Same field and type, made-up content.",
-      "es": "Example es: mock text standing in for the real value. Same field and type, made-up content.",
-      "fr": "Example fr: mock text standing in for the real value. Same field and type, made-up content.",
-      "it": "Example it: mock text standing in for the real value. Same field and type, made-up content.",
-      "ru": "Example ru: mock text standing in for the real value. Same field and type, made-up content.",
-      "zh": "Example zh"
+      "en": "Example en"
     },
     "descriptionByLanguage": {
-      "ar": "Example ar: mock text standing in for the real value. Same field and type, made-up content.",
-      "de": "Example de: mock text standing in for the real value. Same field and type, made-up content.",
-      "en": "Example en: mock text standing in for the real value. Same field and type, made-up content.",
-      "es": "Example es: mock text standing in for the real value. Same field and type, made-up content.",
-      "fr": "Example fr: mock text standing in for the real value. Same field and type, made-up content.",
-      "it": "Example it: mock text standing in for the real value. Same field and type, made-up content.",
-      "ru": "Example ru: mock text standing in for the real value. Same field and type, made-up content.",
-      "zh": "Example zh: mock text standing in for the real value. Same field and type, made-up content."
+      "en": "Example en: mock text standing in for the real value. Same field and type, made-up content."
     },
     "status": "Published",
     "energyRating": null,
@@ -43,21 +29,21 @@
         "value": 628281
       }
     ],
-    "livingAreaSqm": 57.36,
+    "livingAreaSqm": null,
     "landAreaSqm": null,
-    "livingAreaSqft": 721.32,
+    "livingAreaSqft": null,
     "landAreaSqft": null,
     "rooms": 8,
     "bedrooms": 3,
-    "bathrooms": null,
+    "bathrooms": 3,
     "floor": null,
     "constructionYear": null,
     "address": "Example address",
-    "city": "Example city",
+    "city": "London",
     "postcode": "Example postcode",
     "countryISO": "GB",
-    "latitude": 49.43,
-    "longitude": -0.17,
+    "latitude": 49.44,
+    "longitude": -0.19,
     "showAddress": true,
     "geocodeLevel": "Street",
     "pictures": [

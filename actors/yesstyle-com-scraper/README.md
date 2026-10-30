@@ -17,7 +17,7 @@ python example.py
 ```bash
 curl -s -X POST "https://api.apify.com/v2/acts/abotapi~yesstyle-com-scraper/run-sync-get-dataset-items?token=$APIFY_TOKEN" \
   -H 'Content-Type: application/json' \
-  -d '{"mode": "search", "queries": ["sheet mask"], "sortBy": "bestsellers", "reviewSort": "relevant", "reviewFilter": "all", "maxReviewsPerProduct": 10, "maxItems": 10, "maxPages": 1, "proxy": {"useApifyProxy": true, "apifyProxyGroups": ["RESIDENTIAL"], "apifyProxyCountry": "US"}}'
+  -d '{"mode": "search", "queries": ["sheet mask"], "sortBy": "bestsellers", "reviewSort": "relevant", "reviewFilter": "all", "maxReviewsPerProduct": 10, "maxItems": 10, "maxPages": 1, "proxy": {"useApifyProxy": true, "apifyProxyGroups": ["RESIDENTIAL"], "apifyProxyCountry": "US"}, "changeScope": "all"}'
 ```
 
 ## Inputs
@@ -30,6 +30,7 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~yesstyle-com-scraper/run-
 | `urls` | array | YesStyle links |
 | `minPrice` | string | Minimum price |
 | `maxPrice` | string | Maximum price |
+| `featured` | array | Featured collections |
 | `inStockOnly` | boolean | In stock only |
 | `fetchDetails` | boolean | Fetch product details |
 | `fetchReviews` | boolean | Fetch customer reviews |
@@ -39,6 +40,9 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~yesstyle-com-scraper/run-
 | `maxItems` | integer | Max products |
 | `maxPages` | integer | Max pages per listing |
 | `proxy` | object | Connection |
+| `changeScope` | string | Change scope (incremental mode only) |
+| `compactUpdates` | boolean | Compact updated rows (incremental mode |
+| `expireAfterMissedScans` | integer | Expire after missed scans (incremental |
 
 `*` required
 

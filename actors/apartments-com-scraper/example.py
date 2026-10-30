@@ -17,8 +17,10 @@ run = client.actor("abotapi/apartments-com-scraper").call(
         "propertyType": "any",
         "bedrooms": "any",
         "lifestyle": "none",
+        "sortBy": "default",
         "maxPages": 1,
         "maxListings": 10,
+        "maxReviews": 10,
         "proxy": {"useApifyProxy": True, "apifyProxyGroups": ["RESIDENTIAL"]},
     },
     logger=None,  # don't stream the run log to your console

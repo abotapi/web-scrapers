@@ -10,6 +10,12 @@
     "priceValue": 634704,
     "priceCurrency": "EUR",
     "priceDisplay": "Example price display",
+    "price": "Example price",
+    "location": "Example location",
+    "keyFacts": [
+      "Example key facts",
+      "Example key facts"
+    ],
     "pricePerSqm": "Example price per sqm",
     "rooms": 4,
     "livingSpace": 11,
@@ -23,8 +29,8 @@
     "district": "Example district",
     "postcode": "21627",
     "street": null,
-    "latitude": 45.63,
-    "longitude": 13.17,
+    "latitude": null,
+    "longitude": null,
     "addressPublished": false,
     "agentName": "Example agent name",
     "agentCompany": "Example agent company",
@@ -42,20 +48,6 @@
     "images": [
       "https://mms.immowelt.de/example/9588.jpg",
       "https://mms.immowelt.de/example/98335.jpg"
-    ],
-    "imagesAnnotated": [
-      {
-        "url": "https://mms.immowelt.de/example/31010",
-        "description": "Example description",
-        "classification": "LIVING_ROOM"
-      },
-      {
-        "url": "https://mms.immowelt.de/example/99497",
-        "description": "Example description",
-        "classification": "LIVING_ROOM"
-      }
-    ],
-    "hasFloorplan": false,
-    "has3DTour": false
+    ]
   }
 ]

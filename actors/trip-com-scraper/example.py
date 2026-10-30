@@ -16,9 +16,11 @@ run = client.actor("abotapi/trip-com-scraper").call(
         "locations": ["Tokyo"],
         "currency": "USD",
         "maxReviews": 10,
+        "sortBy": "mostRelevant",
         "maxPages": 1,
         "maxListings": 10,
         "proxy": {"useApifyProxy": True},
+        "changeScope": "all",
     },
     logger=None,  # don't stream the run log to your console
 )

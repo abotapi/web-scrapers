@@ -26,6 +26,7 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~truelocal-com-au-scraper/
 | --- | --- | --- |
 | `mode` * | string | 1. Mode |
 | `searchTerms` | array | Search terms (what) |
+| `searchQueries` | array | Search queries (alias of Search terms) |
 | `locations` | array | Locations (where) |
 | `urls` | array | TrueLocal URLs |
 | `fetchDetails` | boolean | Fetch profile pages (richer data) |
@@ -33,6 +34,7 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~truelocal-com-au-scraper/
 | `maxReviews` | integer | Max reviews per listing |
 | `maxPages` | integer | Max pages per search |
 | `maxListings` | integer | Max listings (total, default 20, 0  un |
+| `maxBusinesses` | integer | Max businesses (alias of Max listings) |
 | `proxy` | object | Proxy configuration |
 
 `*` required
@@ -49,16 +51,20 @@ Full details on the [scraper page](https://apify.com/abotapi/truelocal-com-au-sc
 | `url` | string |
 | `name` | string |
 | `description` | null |
+| `slogan` | string |
+| `yearsInBusiness` | null |
 | `categories` | list |
 | `primaryCategory` | null |
+| `category` | null |
 | `categoryCodes` | list |
 | `categoryId` | string |
-| `phone` | null |
+| `phone` | string |
 | `secondaryPhone` | null |
 | `email` | null |
 | `website` | null |
 | `image` | null |
 | `street` | null |
+| `addressStreet` | null |
 | `suburb` | null |
 | `state` | null |
 | `postcode` | null |
@@ -74,6 +80,10 @@ Full details on the [scraper page](https://apify.com/abotapi/truelocal-com-au-sc
 | `reviewsReturned` | integer |
 | `reviews` | list |
 | `scrapedAt` | string |
+| `observedAt` | string |
+| `searchQuery` | string |
+| `location` | string |
+| `source` | string |
 
 ---
 

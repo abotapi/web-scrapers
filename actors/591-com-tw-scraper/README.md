@@ -17,7 +17,7 @@ python example.py
 ```bash
 curl -s -X POST "https://api.apify.com/v2/acts/abotapi~591-com-tw-scraper/run-sync-get-dataset-items?token=$APIFY_TOKEN" \
   -H 'Content-Type: application/json' \
-  -d '{"mode": "search", "section": "rent", "regions": ["taipei-city"], "rentKind": "any", "maxListings": 10, "maxPages": 1, "proxy": {"useApifyProxy": true}}'
+  -d '{"mode": "search", "section": "rent", "regions": ["taipei-city"], "rentKind": "any", "layout": "any", "sortBy": "default", "maxListings": 10, "maxPages": 1, "proxy": {"useApifyProxy": true}}'
 ```
 
 ## Inputs
@@ -32,9 +32,13 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~591-com-tw-scraper/run-sy
 | `maxPrice` | integer | Max price |
 | `minArea` | integer | Min area (坪 / ping) |
 | `maxArea` | integer | Max area (坪 / ping) |
-| `urls` | array | 591 list URLs |
+| `layout` | string | Rooms (Rent, Search mode) |
+| `keyword` | string | Keyword (Rent, Search mode) |
+| `sortBy` | string | Sort by (Rent lists) |
+| `urls` | array | 591 URLs |
 | `fetchDetails` | boolean | Visit each listing's detail page |
 | `maxListings` | integer | Max total listings |
+| `maxItemsPerUrl` | integer | Max items per URL |
 | `maxPages` | integer | Max pages per region / URL |
 | `proxy` | object | Proxy configuration |
 | `maxResidentialRequests` | integer | Residential request budget |
@@ -60,14 +64,14 @@ Full details on the [scraper page](https://apify.com/abotapi/591-com-tw-scraper?
 | `unitPrice` | null |
 | `kind` | integer |
 | `kindName` | string |
-| `room` | string |
+| `room` | null |
 | `layout` | string |
-| `area` | integer |
+| `area` | float |
 | `areaText` | string |
 | `floor` | string |
 | `fitment` | string |
 | `address` | string |
-| `communityName` | string |
+| `communityName` | null |
 | `communityId` | integer |
 | `regionId` | integer |
 | `regionName` | string |
@@ -88,7 +92,7 @@ Full details on the [scraper page](https://apify.com/abotapi/591-com-tw-scraper?
 | `sectionName` | string |
 | `latitude` | float |
 | `longitude` | float |
-| `leaseMinTerm` | null |
+| `leaseMinTerm` | string |
 
 ---
 

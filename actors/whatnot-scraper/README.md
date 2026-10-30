@@ -17,7 +17,7 @@ python example.py
 ```bash
 curl -s -X POST "https://api.apify.com/v2/acts/abotapi~whatnot-scraper/run-sync-get-dataset-items?token=$APIFY_TOKEN" \
   -H 'Content-Type: application/json' \
-  -d '{"mode": "search", "resultType": "shows", "queries": ["charizard"], "categories": ["pokemon_cards"], "minSellerRating": "any", "maxItems": 10, "maxPages": 1, "proxy": {"useApifyProxy": true}}'
+  -d '{"mode": "search", "resultType": "shows", "queries": ["charizard"], "categoryView": "list", "leaderboardInterval": "CURRENT_WEEK", "categories": ["pokemon_cards"], "minSellerRating": "any", "maxItems": 10, "maxPages": 1, "proxy": {"useApifyProxy": true}}'
 ```
 
 ## Inputs
@@ -28,6 +28,10 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~whatnot-scraper/run-sync-
 | `resultType` | string | Result type |
 | `queries` | array | Search keywords |
 | `urls` | array | Whatnot links |
+| `sellers` | array | Seller usernames |
+| `shopQuery` | string | Shop text query |
+| `categoryView` | string | Category view |
+| `leaderboardInterval` | string | Leaderboard interval |
 | `categories` | array | Categories |
 | `showStatus` | array | Time of show (live shows only) |
 | `showFormat` | array | Show format (live shows only) |
@@ -67,7 +71,7 @@ Full details on the [scraper page](https://apify.com/abotapi/whatnot-scraper?utm
 | `isLiveNow` | boolean |
 | `isScheduled` | boolean |
 | `startTime` | string |
-| `endTime` | null |
+| `endTime` | string |
 | `activeViewers` | integer |
 | `watchlistUsers` | integer |
 | `isHiddenBySeller` | boolean |
@@ -88,7 +92,7 @@ Full details on the [scraper page](https://apify.com/abotapi/whatnot-scraper?utm
 | `sellerUrl` | string |
 | `sellerIsLive` | boolean |
 | `sellerIsVerified` | boolean |
-| `sellerIsPremierShop` | null |
+| `sellerIsPremierShop` | boolean |
 | `sellerFollowerCount` | integer |
 | `sellerSoldCount` | integer |
 | `sellerRating` | float |

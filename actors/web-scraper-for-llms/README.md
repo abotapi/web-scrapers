@@ -17,7 +17,7 @@ python example.py
 ```bash
 curl -s -X POST "https://api.apify.com/v2/acts/abotapi~web-scraper-for-llms/run-sync-get-dataset-items?token=$APIFY_TOKEN" \
   -H 'Content-Type: application/json' \
-  -d '{"urls": ["https://example.com"], "formats": ["markdown"]}'
+  -d '{"urls": ["https://example.com", "http://example.com/?a=1&b=2", "https://www.iana.org/domains/reserved", "https://en.wikipedia.org/wiki/Web_scraping"], "formats": ["markdown"], "crawlerType": "auto", "maxResults": 10}'
 ```
 
 ## Inputs
@@ -32,6 +32,11 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~web-scraper-for-llms/run-
 | `concurrency` | integer | Concurrency |
 | `maxRetries` | integer | Max Retries |
 | `timeoutMs` | integer | Timeout (ms) |
+| `waitForSelector` | string | Wait For Selector |
+| `crawlerType` | string | Fetch engine |
+| `maxResults` | integer | Max results |
+| `customHttpHeaders` | object | Custom HTTP headers |
+| `initialCookies` | array | Initial cookies |
 | `onlyMainContent` | boolean | Only Main Content |
 | `removeAds` | boolean | Remove Ads |
 | `removeBase64Images` | boolean | Remove Base64 Images |
@@ -39,7 +44,13 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~web-scraper-for-llms/run-
 | `excludeTags` | array | Exclude Tags |
 | `includePatterns` | array | Include URL Patterns |
 | `excludePatterns` | array | Exclude URL Patterns |
-| `waitForSelector` | string | Wait For Selector |
+| `includeUrlGlobs` | array | Include URL globs |
+| `excludeUrlGlobs` | array | Exclude URL globs |
+| `useSitemaps` | boolean | Use sitemaps |
+| `useLlmsTxt` | boolean | Use llms.txt |
+| `respectRobotsTxtFile` | boolean | Respect robots.txt |
+| `keepUrlFragments` | boolean | Keep URL fragments |
+| `onlyCrawlPagesModifiedSince` | string | Only pages modified since |
 | `proxyConfiguration` | object | Proxy Configuration |
 
 `*` required
@@ -55,8 +66,10 @@ Full details on the [scraper page](https://apify.com/abotapi/web-scraper-for-llm
 | `url` | string |
 | `title` | string |
 | `description` | null |
+| `text` | string |
 | `markdown` | string |
 | `html` | null |
+| `crawl` | object |
 | `metadata` | object |
 | `duration` | integer |
 | `scrapedAt` | string |

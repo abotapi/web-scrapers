@@ -17,7 +17,7 @@ python example.py
 ```bash
 curl -s -X POST "https://api.apify.com/v2/acts/abotapi~stockx-market-data-scraper/run-sync-get-dataset-items?token=$APIFY_TOKEN" \
   -H 'Content-Type: application/json' \
-  -d '{"mode": "search", "searchTerms": ["air jordan 1"], "market": "US", "orderBy": "featured", "sortResultsBy": "site_order", "maxItems": 10, "maxPages": 1, "proxy": {"useApifyProxy": true}}'
+  -d '{"mode": "search", "searchTerms": ["air jordan 1"], "currency": "USD", "market": "US", "orderBy": "featured", "sortResultsBy": "site_order", "maxItems": 10, "maxPages": 1, "proxy": {"useApifyProxy": true}}'
 ```
 
 ## Inputs
@@ -27,6 +27,10 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~stockx-market-data-scrape
 | `mode` * | string | Mode |
 | `searchTerms` | array | Search terms |
 | `urls` | array | StockX URLs |
+| `productIds` | array | Product ids |
+| `maxSalesPerProduct` | integer | Max sales per product |
+| `salesSince` | string | Only sales since |
+| `currency` | string | Currency of the sales |
 | `category` | string | Category |
 | `brands` | array | Brands |
 | `models` | array | Models |
@@ -102,8 +106,8 @@ Full details on the [scraper page](https://apify.com/abotapi/stockx-market-data-
 | `averagePriceLast12Months` | integer |
 | `priceVolatility` | float |
 | `pricePremium` | float |
-| `standardAskCount` | integer |
-| `standardLowestAsk` | integer |
+| `annualRangeHigh` | integer |
+| `annualRangeLow` | integer |
 
 ---
 

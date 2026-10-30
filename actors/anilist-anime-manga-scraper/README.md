@@ -29,6 +29,13 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~anilist-anime-manga-scrap
 | `searchTerms` | array | Search terms |
 | `chartKind` | string | Chart |
 | `urls` | array | AniList URLs or ids |
+| `format` | array | Format |
+| `status` | array | Status |
+| `season` | string | Season (anime only) |
+| `seasonYear` | integer | Season year |
+| `genres` | array | Genres |
+| `sort` | string | Sort by |
+| `adultContent` | string | Adult content |
 | `maxMedia` | integer | Max records |
 | `maxPages` | integer | Max pages per search or chart |
 | `includeAdult` | boolean | Include adult media |
@@ -73,6 +80,17 @@ Full details on the [scraper page](https://apify.com/abotapi/anilist-anime-manga
 | `nextAiringAt` | null |
 | `coverImage` | string |
 | `bannerImage` | string |
+| `coverUrl` | string |
+| `anilistUrl` | string |
+| `genresText` | string |
+| `studiosText` | string |
+| `synonyms` | list |
+| `source` | string |
+| `hashtag` | string |
+| `trending` | integer |
+| `tags` | list |
+| `rankings` | list |
+| `trailerUrl` | string |
 
 ---
 

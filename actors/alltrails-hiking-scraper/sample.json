@@ -31,31 +31,20 @@
     "lat": 30.19,
     "lng": -125.54,
     "imageUrl": "https://images.alltrails.com/example/38369.jpg",
+    "visitorUsage": 9,
+    "isClosed": false,
     "sourceType": "grid",
     "sourceUrl": "https://www.alltrails.com/example/47519",
     "position": 2,
     "scrapedAt": "2026-01-15T10:00:00Z",
-    "photos": [
-      {
-        "url": "https://images.alltrails.com/example/43791.jpg",
-        "thumbUrl": "https://images.alltrails.com/example/56953.jpg",
-        "title": null,
-        "description": null,
-        "likes": 0,
-        "lat": 30.18,
-        "lng": -125.52,
-        "credit": "Example credit"
-      },
-      {
-        "url": "https://images.alltrails.com/example/95994.jpg",
-        "thumbUrl": "https://images.alltrails.com/example/23523.jpg",
-        "title": "",
-        "description": null,
-        "likes": 0,
-        "lat": 38.48,
-        "lng": -124.32,
-        "credit": "id27209408"
-      }
-    ]
+    "trailUrl": "https://www.alltrails.com/example/54030",
+    "avgRating": 4.61,
+    "numReviews": 46024,
+    "latitude": 29.81,
+    "longitude": -121.95,
+    "elevationGainFt": 5588,
+    "profilePhotoUrl": "https://images.alltrails.com/example/22266.jpg",
+    "dogFriendly": false,
+    "kidFriendly": false
   }
 ]

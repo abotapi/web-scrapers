@@ -17,7 +17,7 @@ python example.py
 ```bash
 curl -s -X POST "https://api.apify.com/v2/acts/abotapi~lemon8-feeds-scraper/run-sync-get-dataset-items?token=$APIFY_TOKEN" \
   -H 'Content-Type: application/json' \
-  -d '{"category": 0, "region": "us", "limit": 10, "proxy": {"useApifyProxy": true, "apifyProxyCountry": "US"}, "dev_dataset_name": "default"}'
+  -d '{"category": 0, "startUrls": ["https://www.lemon8-app.com/feed/outfits?region=au", "https://www.lemon8-app.com/feed/outfits", "https://www.lemon8-app.com/@lylassecret10/7699504612750934559?region=us", "https://www.lemon8-app.com/@lylassecret10?region=us", "https://www.lemon8-app.com/@lylassecret10/7699504612750934559?region=us&share_token=x"], "region": "us", "limit": 10, "proxy": {"useApifyProxy": true, "apifyProxyCountry": "US"}, "dev_dataset_name": "default"}'
 ```
 
 ## Inputs
@@ -25,12 +25,14 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~lemon8-feeds-scraper/run-
 | Input | Type | What it is |
 | --- | --- | --- |
 | `category` * | integer | Category |
+| `categoryName` | string | Category name |
 | `startUrls` | array | Start URLs |
 | `region` | string | Region |
 | `limit` | integer | Post Limit |
 | `getDetails` | boolean | Get Detailed Post Data |
 | `detailsLimit` | integer | Details Post Limit |
 | `commentExpansionTimeout` | integer | Comment Expansion Timeout (seconds) |
+| `maxCommentsPerPost` | integer | Max Comments per Post |
 | `saveImages` | boolean | Save Images |
 | `saveVideos` | boolean | Save Videos |
 | `proxy` | object | Proxy Configuration |
@@ -63,6 +65,25 @@ Full details on the [scraper page](https://apify.com/abotapi/lemon8-feeds-scrape
 | `details` | object |
 | `allComments` | list |
 | `commentStats` | object |
+| `groupId` | string |
+| `url` | string |
+| `likes` | integer |
+| `saves` | integer |
+| `commentCount` | integer |
+| `authorUserId` | string |
+| `authorUsername` | string |
+| `authorNickname` | string |
+| `authorAvatar` | string |
+| `authorFollowers` | null |
+| `videoUrl` | null |
+| `thumbnailUrl` | string |
+| `hashtags` | list |
+| `articleClass` | string |
+| `region` | string |
+| `sourceMode` | string |
+| `scrapedAt` | string |
+| `keyword` | null |
+| `topComments` | list |
 
 ---
 

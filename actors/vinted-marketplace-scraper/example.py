@@ -16,6 +16,7 @@ run = client.actor("abotapi/vinted-marketplace-scraper").call(
         "country": "de",
         "queries": ["nike"],
         "sortBy": "relevance",
+        "maxReviews": 10,
         "maxPages": 1,
         "maxItems": 10,
         "proxy": {"useApifyProxy": True, "apifyProxyGroups": ["RESIDENTIAL"]},

@@ -1,4 +1,4 @@
-"""Lennar Homes Scraper: minimal example. Docs: https://apify.com/abotapi/lennar-scraper
+"""Lennar Scraper: minimal example. Docs: https://apify.com/abotapi/lennar-scraper
 
 pip install "apify-client>=3"
 APIFY_TOKEN=<your token> python example.py

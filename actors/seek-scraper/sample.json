@@ -1,6 +1,6 @@
 [
   {
-    "id": "56750899",
+    "id": "25976796",
     "url": "https://www.seek.com.au/example/2155",
     "jobLink": "https://www.seek.com.au/example/10066",
     "applyLink": "https://www.seek.com.au/example/90096",
@@ -19,14 +19,14 @@
       "Example bullet points: mock text standing in for the real value. Same field and type, made-up content."
     ],
     "companyName": "Example company name",
-    "companyId": "124346",
+    "companyId": "268613",
     "companyUrl": "https://au.seek.com/example/89226",
     "companyNameSlug": "id2464305",
-    "companyProfileId": 77384,
+    "companyProfileId": 5384,
     "companyOverview": "Example company overview: mock text standing in for the real value. Same field and type, made-up content.",
     "companyIndustry": "Example company industry",
     "companySize": "Example company size",
-    "companyWebsite": "http://omf.net.au/example/29772",
+    "companyWebsite": "https://www.ramsaycareers.com.au/example/29772",
     "companySpecialities": [
       "Example company specialities",
       "Example company specialities"
@@ -34,12 +34,15 @@
     "companyPrimaryLocation": "Example company primary location",
     "companyLogo": "https://image-service-cdn.seek.com.au/example/68877.jpg",
     "companyCoverImage": "https://image-service-cdn.seek.com.au/example/34700.jpg",
-    "companyRating": 3.24,
-    "companyReviewCount": 94,
+    "companyRating": 4,
+    "companyReviewCount": 274,
     "companySalaryRating": 85,
-    "companyPerks": [],
+    "companyPerks": [
+      "Example company perks",
+      "Example company perks"
+    ],
     "companyAwards": [],
-    "advertiserId": "91018986",
+    "advertiserId": "88735077",
     "advertiserName": "Example advertiser name",
     "locationLabel": "Example location label",
     "locationSeoHierarchy": [
@@ -49,23 +52,23 @@
     "countryCode": "AU",
     "classifications": [
       {
-        "id": "1125",
+        "id": "4416",
         "label": "Example label",
-        "subId": "0276",
+        "subId": "4840",
         "subLabel": "Example sub label"
       }
     ],
     "classificationInfo": {
       "classification": "Example classification",
       "subClassification": "Example sub classification",
-      "classificationId": "6844",
-      "subClassificationId": "2504"
+      "classificationId": "3311",
+      "subClassificationId": "0816"
     },
     "workTypes": [
       "Example work types"
     ],
     "workTypeIds": [
-      "497"
+      "926"
     ],
     "workArrangements": [
       {

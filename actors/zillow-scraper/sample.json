@@ -1,7 +1,7 @@
 [
   {
-    "id": "621869508",
-    "zpid": "378351431",
+    "id": "773347846",
+    "zpid": "284667813",
     "url": "https://www.zillow.com/example/11909",
     "listingType": "FOR_SALE",
     "homeStatus": "FOR_SALE",
@@ -11,21 +11,19 @@
     "price": 112188,
     "formattedPrice": "Example formatted price",
     "currency": "USD",
-    "zestimate": 704967,
-    "rentZestimate": 4369,
     "taxAssessedValue": 433118,
     "streetAddress": "Example street address",
     "city": "Austin",
     "state": "TX",
-    "zipCode": "05922",
+    "zipCode": "75217",
     "country": "USA",
     "address": "Example address",
-    "latitude": 24.17,
-    "longitude": -108.37,
+    "latitude": 24.12,
+    "longitude": -108.51,
     "bedrooms": 2,
     "bathrooms": 8,
     "livingArea": 8422,
-    "lotAreaValue": 12845.58,
+    "lotAreaValue": 7567.94,
     "lotAreaUnit": "sqft",
     "daysOnZillow": 6,
     "brokerName": "Example broker name",
@@ -39,6 +37,13 @@
       "https://photos.zillowstatic.com/example/25432.jpg",
       "https://photos.zillowstatic.com/example/78593.jpg"
     ],
-    "scrapedAt": "2026-01-15T10:00:00Z"
+    "cardType": "home",
+    "isValid": true,
+    "hasImage": true,
+    "marketingTagline": "Showcase",
+    "listingSubType": {
+      "isFSBA": true
+    },
+    "sourceSearchUrl": "https://www.zillow.com/example/77685"
   }
 ]

@@ -50,7 +50,7 @@
       "size_name",
       "Example variant dimensions"
     ],
-    "seller": null,
+    "seller": "Example seller",
     "shipsFrom": null,
     "images": [
       "https://m.media-amazon.com/example/65423.jpg",
@@ -60,6 +60,32 @@
     "sponsored": false,
     "promoLabel": null,
     "searchMode": "search",
-    "isOnSpecial": false
+    "originalAsin": "b41b0yp4ky",
+    "loadedCountryCode": "AU",
+    "locationText": "Example location text",
+    "visitStoreLink": "https://www.amazon.com.au/example/55687",
+    "delivery": "Example delivery",
+    "shippingPrice": "FREE",
+    "fastestDelivery": "Example fastest delivery",
+    "isAmazonChoice": true,
+    "amazonChoiceText": "Example amazon choice text",
+    "returnPolicy": "Example return policy: mock text standing in for the real value. Same field and type, made-up content.",
+    "variantAttributes": {
+      "size_name": [
+        "Example size_name",
+        "Example size_name"
+      ],
+      "configuration": [
+        "Example configuration"
+      ],
+      "color_name": [
+        "Example color_name",
+        "Example color_name"
+      ]
+    },
+    "galleryThumbnails": [
+      "https://m.media-amazon.com/example/49123.jpg",
+      "https://m.media-amazon.com/example/61207.jpg"
+    ]
   }
 ]

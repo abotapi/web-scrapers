@@ -1,18 +1,18 @@
 [
   {
-    "productId": "0386469",
-    "sku": "4019018",
-    "ean": "8922886386626",
+    "productId": "3807832",
+    "sku": "9512601",
+    "ean": "7751891931651",
     "name": "Example name: mock text standing in for the real value. Same field and type, made-up content.",
-    "brand": "LENOVO",
+    "brand": "ACER",
     "categoryPath": [
       "Example category path",
       "Example category path"
     ],
     "category": "Example category",
     "url": "https://www.mediamarkt.es/example/81437",
-    "rating": 5.74,
-    "reviewCount": 41,
+    "rating": 4,
+    "reviewCount": 5,
     "isMarketplace": false,
     "price": 635,
     "currency": "EUR",
@@ -21,16 +21,16 @@
     "originalPrice": 938,
     "isOnSpecial": true,
     "strikePriceType": "XOP",
-    "shippingCost": 5.66,
+    "shippingCost": 0,
     "installment": {
       "__typename": "Example __typename",
       "duration": 46,
-      "finalRate": 62.21,
-      "interestEffective": 20.27,
+      "finalRate": 40.05,
+      "interestEffective": 20.29,
       "interestNominal": 18.57,
-      "interestTotal": 57.38,
-      "monthlyRate": 59.18,
-      "totalAmount": 685.86
+      "interestTotal": 26.33,
+      "monthlyRate": 38.1,
+      "totalAmount": 367.93
     },
     "image": "https://assets.mmsrg.com/example/91927.jpg",
     "images": [
@@ -39,17 +39,17 @@
     "onlineAvailable": true,
     "availabilityStatus": "AVAILABLE",
     "reviews": {
-      "averageRating": 5.0,
-      "totalReviewCount": 77,
+      "averageRating": 6,
+      "totalReviewCount": 5,
       "items": [
         {
-          "id": "8990045028",
+          "id": "6119194486",
           "rating": 4,
           "title": "Example title",
           "text": "Example text: mock text standing in for the real value. Same field and type, made-up content.",
           "date": "2026-01-15T10:00:00Z",
           "isVerifiedPurchaser": true,
-          "reviewerName": "id27997871",
+          "reviewerName": "Example reviewer name",
           "syndicationSource": null
         }
       ]

@@ -15,6 +15,7 @@ run = client.actor("abotapi/housing-com-scraper").call(
         "mode": "search",
         "service": "buy",
         "city": "Mumbai",
+        "locality": "andheri_west",
     },
     logger=None,  # don't stream the run log to your console
 )

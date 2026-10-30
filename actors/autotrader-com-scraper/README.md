@@ -17,7 +17,7 @@ python example.py
 ```bash
 curl -s -X POST "https://api.apify.com/v2/acts/abotapi~autotrader-com-scraper/run-sync-get-dataset-items?token=$APIFY_TOKEN" \
   -H 'Content-Type: application/json' \
-  -d '{"mode": "search", "zip": "90012", "make": ["HONDA"], "sellerType": "any", "sortBy": "relevance", "maxListings": 10, "maxPages": 1, "proxy": {"useApifyProxy": true, "apifyProxyGroups": ["RESIDENTIAL"]}}'
+  -d '{"mode": "search", "zip": "90012", "make": ["HONDA"], "sellerType": "any", "sortBy": "relevance", "maxListings": 10, "maxItems": 10, "maxPages": 1, "proxy": {"useApifyProxy": true, "apifyProxyGroups": ["RESIDENTIAL"]}}'
 ```
 
 ## Inputs
@@ -45,9 +45,12 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~autotrader-com-scraper/ru
 | `sellerType` | string | Seller type |
 | `sortBy` | string | Sort by |
 | `urls` | array | Autotrader URLs |
+| `startUrls` | array | Start URLs (alias of Autotrader URLs) |
 | `fetchDetails` | boolean | Fetch full detail per listing |
 | `maxListings` | integer | Max listings |
+| `maxItems` | integer | Max items (alias of Max listings) |
 | `maxPages` | integer | Max pages per search |
+| `endPage` | integer | End page (alias of Max pages per searc |
 | `proxy` | object | Proxy configuration |
 | `sessionCookie` | string | Session cookie (optional, advanced) |
 
@@ -67,6 +70,7 @@ Full details on the [scraper page](https://apify.com/abotapi/autotrader-com-scra
 | `title` | string |
 | `year` | integer |
 | `make` | string |
+| `brand` | string |
 | `makeCode` | string |
 | `model` | string |
 | `modelCode` | string |
@@ -85,7 +89,8 @@ Full details on the [scraper page](https://apify.com/abotapi/autotrader-com-scra
 | `isReducedPrice` | boolean |
 | `hasSpecialOffer` | boolean |
 | `mileage` | string |
-| `mileageUnit` | null |
+| `mileageValue` | integer |
+| `mileageUnit` | string |
 | `exteriorColor` | string |
 | `exteriorColorSimple` | string |
 | `interiorColor` | string |
@@ -99,8 +104,6 @@ Full details on the [scraper page](https://apify.com/abotapi/autotrader-com-scra
 | `hasLeatherSeats` | boolean |
 | `daysOnSite` | integer |
 | `isNewlyListed` | boolean |
-| `isHot` | boolean |
-| `stockId` | string |
 
 ---
 

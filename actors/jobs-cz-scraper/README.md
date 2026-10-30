@@ -32,6 +32,7 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~jobs-cz-scraper/run-sync-
 | `employmentType` | string | Employment type |
 | `education` | string | Required education |
 | `arrangement` | string | Work arrangement |
+| `datePosted` | string | Posted within |
 | `urls` | array | Jobs.cz URLs |
 | `maxItems` | integer | Max items (total) |
 | `maxPages` | integer | Max pages per search |
@@ -54,7 +55,7 @@ Full details on the [scraper page](https://apify.com/abotapi/jobs-cz-scraper?utm
 | `jobUrl` | string |
 | `title` | string |
 | `companyName` | string |
-| `companyLogo` | string |
+| `companyLogo` | null |
 | `location` | string |
 | `country` | string |
 | `arrangementTags` | list |

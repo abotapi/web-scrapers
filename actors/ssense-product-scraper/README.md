@@ -17,7 +17,7 @@ python example.py
 ```bash
 curl -s -X POST "https://api.apify.com/v2/acts/abotapi~ssense-product-scraper/run-sync-get-dataset-items?token=$APIFY_TOKEN" \
   -H 'Content-Type: application/json' \
-  -d '{"mode": "search", "searchTerms": ["sneakers"], "gender": "men", "sortResultsBy": "site_order", "maxItems": 10, "maxPages": 1, "proxy": {"useApifyProxy": true}}'
+  -d '{"mode": "search", "searchTerms": ["sneakers"], "gender": "men", "sortResultsBy": "site_order", "siteSort": "site_default", "countryCode": "US", "maxItems": 10, "maxPages": 1, "proxy": {"useApifyProxy": true}}'
 ```
 
 ## Inputs
@@ -31,10 +31,12 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~ssense-product-scraper/ru
 | `category` | string | Category |
 | `designerSlugs` | array | Designers |
 | `saleOnly` | boolean | Sale only |
-| `minPriceUsd` | integer | Minimum price (USD) |
-| `maxPriceUsd` | integer | Maximum price (USD) |
+| `minPriceUsd` | integer | Minimum price (row currency) |
+| `maxPriceUsd` | integer | Maximum price (row currency) |
 | `onSaleOnly` | boolean | Discounted rows only |
 | `sortResultsBy` | string | Order the returned rows by |
+| `siteSort` | string | Store ordering |
+| `countryCode` | string | Country (market) |
 | `fetchDetails` | boolean | Fetch product details |
 | `maxItems` | integer | Max items |
 | `maxPages` | integer | Max pages per source |
@@ -67,8 +69,6 @@ Full details on the [scraper page](https://apify.com/abotapi/ssense-product-scra
 | `currency` | string |
 | `inStock` | boolean |
 | `imageUrl` | string |
-| `description` | string |
-| `category` | string |
 | `scrapedAt` | string |
 
 ---

@@ -28,11 +28,14 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~hipages-business-scraper/
 | `category` | string | Category |
 | `state` | string | State |
 | `suburb` | string | Suburb |
+| `postcode` | integer | Postcode |
+| `sortBy` | string | Sort by |
 | `urls` | array | HiPages search URLs |
 | `maxBusinesses` | integer | Maximum Businesses |
 | `pageLimit` | integer | Page Limit |
 | `scrapeDetails` | boolean | Scrape Business Details |
 | `scrapeRecommendations` | boolean | Scrape All Recommendations |
+| `maxRecommendations` | integer | Max Recommendations per Business |
 | `proxy` | object | Proxy Configuration |
 
 `*` required
@@ -62,6 +65,8 @@ Full details on the [scraper page](https://apify.com/abotapi/hipages-business-sc
 | `thumbnailUrl` | string |
 | `galleryImages` | list |
 | `profilePageUrl` | string |
+| `profilePageFullUrl` | string |
+| `headline` | string |
 | `profilePagePath` | string |
 | `listingType` | string |
 | `position` | integer |

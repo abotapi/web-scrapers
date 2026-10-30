@@ -65,30 +65,27 @@
       "mode": "detail",
       "detailPageUrl": "https://gowork.fr/example/74449",
       "hasNuxtPayload": true,
-      "hasJsonLd": false
+      "hasJsonLd": true
     },
-    "companyId": "id6392555",
     "org_name": "Example org_name",
+    "org_telephone": "+1 555 0100",
+    "org_tax_id": "094233311",
+    "org_description": null,
+    "org_founding_date": "51608933",
+    "org_street_address": "Example org_street_address",
+    "org_address_locality": "Example org_address_locality",
+    "org_address_region": "Example org_address_region",
+    "org_address_country": "Example org_address_country",
+    "postalCode": "78238",
+    "org_rating_value": 2.89,
+    "org_rating_count": 38,
+    "org_review_count": 50,
+    "org_review_blocks": 7,
+    "companyLogoUrl": "https://gowork.fr/example/70943.jpg",
+    "companyId": "id6392555",
     "longName": "Example long name",
     "altName": "Example alt name",
     "status": 6,
-    "dataStatus": 0,
-    "flagsBits": [
-      5,
-      46
-    ],
-    "multiCity": false,
-    "companyEmail": null,
-    "companyPhone": "+1 555 0100",
-    "org_telephone": "+1 555 0100",
-    "companyWebsite": "https://www.carrefour.fr/example/90797",
-    "companyWebsiteRaw": "https://www.carrefour.fr/example/88894",
-    "companyWebpageTitle": null,
-    "companyWebpageDescription": null,
-    "companyLinkedInUrl": null,
-    "companyInstagramUrl": null,
-    "companyFacebookUrl": "https://www.facebook.com/example/67373",
-    "companyTwitterUrl": null,
-    "companyYouTubeUrl": null
+    "dataStatus": 0
   }
 ]

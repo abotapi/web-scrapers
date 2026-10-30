@@ -13,20 +13,20 @@
       "name": "Example name"
     },
     "price": {
-      "current": 86524,
-      "original": 74223,
+      "current": 986524,
+      "original": 524223,
       "recommendedRetail": null,
-      "discountPercent": 3.84,
+      "discountPercent": 1.62,
       "currency": "TRY"
     },
     "rating": {
-      "score": 3.98,
+      "score": 4.05,
       "totalRatings": 775,
-      "totalComments": 702,
+      "totalComments": 72,
       "breakdown": null
     },
     "seller": {
-      "id": 425,
+      "id": 419825,
       "name": "Example name"
     },
     "image": "https://cdn.dsmcdn.com/example/21479.jpg",
@@ -36,17 +36,17 @@
     ],
     "stock": null,
     "inStock": true,
-    "boutiqueId": 736495,
-    "campaignId": 421555,
+    "boutiqueId": 25,
+    "campaignId": 85,
     "listingId": "id41061362",
     "itemNumber": 5685868933,
     "variantValue": "Example variant value",
     "variantId": "Example variant id",
-    "freeCargo": false,
+    "freeCargo": true,
     "fastDelivery": true,
     "officialSeller": true,
-    "sameDayShipping": true,
-    "rushDelivery": false,
+    "sameDayShipping": false,
+    "rushDelivery": true,
     "hasCoupon": false,
     "hasCodePromo": false,
     "hasFlashSale": false,
@@ -57,78 +57,11 @@
     "stripBadge": null,
     "promotions": [],
     "stamps": {},
-    "badges": [],
-    "socialProof": [
-      {
-        "key": "Example key",
-        "value": "Example value"
-      }
-    ],
-    "reviews": null
-  },
-  {
-    "kind": "product",
-    "contentId": 502350137,
-    "id": 484021410,
-    "groupId": 523822981,
-    "url": "https://www.trendyol.com/example/80475",
-    "name": "Example name",
-    "brand": "Apple",
-    "brandId": 6199,
-    "category": {
-      "id": 1410,
-      "name": "Example name"
-    },
-    "price": {
-      "current": 76281,
-      "original": 60298,
-      "recommendedRetail": null,
-      "discountPercent": 0,
-      "currency": "TRY"
-    },
-    "rating": {
-      "score": 5.57,
-      "totalRatings": 8190,
-      "totalComments": 489,
-      "breakdown": null
-    },
-    "seller": {
-      "id": 721410,
-      "name": "Example name"
-    },
-    "image": "https://cdn.dsmcdn.com/example/65199.jpg",
-    "images": [
-      "https://cdn.dsmcdn.com/example/50038.jpg",
-      "https://cdn.dsmcdn.com/example/15112.jpg"
-    ],
-    "stock": null,
-    "inStock": true,
-    "boutiqueId": 39,
-    "campaignId": 16,
-    "listingId": "id42824615",
-    "itemNumber": 3033947646,
-    "variantValue": "Example variant value",
-    "variantId": "Example variant id",
-    "freeCargo": true,
-    "fastDelivery": true,
-    "officialSeller": false,
-    "sameDayShipping": false,
-    "rushDelivery": true,
-    "hasCoupon": false,
-    "hasCodePromo": false,
-    "hasFlashSale": false,
-    "isInfluencerPreferred": false,
-    "lowestPriceDays": null,
-    "hasReviewPhoto": true,
-    "dealBadge": null,
-    "stripBadge": null,
-    "promotions": [],
-    "stamps": {},
     "badges": [
       {
         "type": "FREE_CARGO",
         "title": "Example title",
-        "icon": "https://cdn.dsmcdn.com/example/17142.jpg",
+        "icon": "https://cdn.dsmcdn.com/example/20256.jpg",
         "color": "Example color"
       }
     ],
@@ -136,6 +69,10 @@
       {
         "key": "Example key",
         "value": "Example value"
+      },
+      {
+        "key": "Example key",
+        "value": "610+"
       }
     ],
     "reviews": null

@@ -85,7 +85,7 @@ Full details on the [scraper page](https://apify.com/abotapi/2gis-places-scraper
 | `reviewCount` | integer |
 | `ratingCount` | integer |
 | `isReviewable` | boolean |
-| `orgRating` | integer |
+| `orgRating` | float |
 | `orgReviewCount` | integer |
 | `flampRating` | null |
 | `flampReviewCount` | null |

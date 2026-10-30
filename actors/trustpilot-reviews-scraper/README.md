@@ -38,6 +38,8 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~trustpilot-reviews-scrape
 | `verifiedOnly` | boolean | Verified reviews only |
 | `reviewsSince` | string | Review age |
 | `reviewKeyword` | string | Review keyword |
+| `withReplies` | boolean | Only reviews with a company reply |
+| `publishedAfter` | string | Published after (exact date) |
 | `fetchDetails` | boolean | Fetch business details |
 | `minTrustScore` | integer | Minimum TrustScore |
 | `maxItems` | integer | Max items |

@@ -3,13 +3,16 @@
     "url": "https://www.thewarehouse.co.nz/example/3629",
     "productId": "r0326792",
     "sku": "r9793356",
-    "gtin": null,
+    "gtin": "8994500670663",
     "mpn": "ta8906-sa",
     "title": "Example title",
     "brand": "Example brand",
     "description": "Example description",
-    "category": null,
-    "breadcrumbs": [],
+    "category": "Example category: mock text standing in for the real value. Same field and type, made-up content.",
+    "breadcrumbs": [
+      "homegarden",
+      "Example breadcrumbs"
+    ],
     "price": 16.79,
     "priceMax": 25.19,
     "priceText": "Example price text",
@@ -70,6 +73,11 @@
       "Example features",
       "Example features"
     ],
+    "wasPrice": null,
+    "promotionFlags": null,
+    "isClearance": null,
+    "inStock": true,
+    "sourceUrl": "https://www.thewarehouse.co.nz/example/65338",
     "scrapedAt": "2026-01-15T10:00:00Z"
   }
 ]

@@ -1,8 +1,8 @@
-# Hipflat Scraper
+# Hipflat Thailand Scraper
 
-Scrape hipflat.co.th property listings and new-project data across Thailand: price, price per m², beds, baths, area, floor, type, address, GPS, amenities, photos, full description and project facts. Buy and rent; search and URL modes; project records with available units; sorts and filters.
+Scrape Hipflat (hipflat.co.th) properties for sale and rent across Thailand. Extract prices, price per m², beds, baths, area, floor, GPS, amenities, photos and descriptions. Includes new-project details and available units, with search, URL, filters and sorting.
 
-**[Open Hipflat Scraper on Apify](https://apify.com/abotapi/hipflat-scraper?utm_source=github&utm_medium=web-scrapers&utm_campaign=monorepo)** to run it without code and export JSON, CSV or Excel.
+**[Open Hipflat Thailand Scraper on Apify](https://apify.com/abotapi/hipflat-scraper?utm_source=github&utm_medium=web-scrapers&utm_campaign=monorepo)** to run it without code and export JSON, CSV or Excel.
 
 ## Run it from code
 
@@ -17,7 +17,7 @@ python example.py
 ```bash
 curl -s -X POST "https://api.apify.com/v2/acts/abotapi~hipflat-scraper/run-sync-get-dataset-items?token=$APIFY_TOKEN" \
   -H 'Content-Type: application/json' \
-  -d '{"mode": "search", "locations": ["Bangkok"], "dealType": "buy", "propertyType": "condo", "sortBy": "relevance", "maxPages": 1, "maxItems": 10, "proxy": {"useApifyProxy": true, "apifyProxyGroups": ["RESIDENTIAL"], "apifyProxyCountry": "TH"}}'
+  -d '{"mode": "search", "locations": ["Bangkok"], "dealType": "buy", "propertyType": "condo", "sortBy": "relevance", "maxPages": 1, "maxItems": 10, "proxy": {"useApifyProxy": true}}'
 ```
 
 ## Inputs
@@ -28,14 +28,18 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~hipflat-scraper/run-sync-
 | `locations` | array | Locations |
 | `dealType` | string | Deal type |
 | `propertyType` | string | Property type |
+| `propertyTypes` | array | Property types (multi) |
+| `sortBy` | string | Sort order |
+| `urls` | array | Hipflat URLs |
 | `minPrice` | integer | Min price (THB) |
 | `maxPrice` | integer | Max price (THB) |
 | `bedrooms` | integer | Bedrooms |
 | `minBathrooms` | integer | Min bathrooms |
 | `minArea` | integer | Min area (m2) |
 | `maxArea` | integer | Max area (m2) |
-| `sortBy` | string | Sort order |
-| `urls` | array | Hipflat URLs |
+| `publicationDate` | string | Listed within |
+| `bedroomCounts` | array | Bedroom counts (multi) |
+| `bathroomCounts` | array | Bathroom counts (multi) |
 | `includeProjectDetails` | boolean | Fetch full project record for each pro |
 | `fetchDetails` | boolean | Fetch full detail for each listing |
 | `maxPages` | integer | Max pages per search |

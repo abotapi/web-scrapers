@@ -1,16 +1,26 @@
 [
   {
-    "url": "https://example.com/example/95406",
+    "url": "http://example.com/example/95406",
     "title": "Example title",
     "description": null,
+    "text": "Example text: mock text standing in for the real value. Same field and type, made-up content.",
     "markdown": "Example markdown: mock text standing in for the real value. Same field and type, made-up content.",
     "html": null,
+    "crawl": {
+      "loadedUrl": "http://example.com/example/82020",
+      "loadedTime": "2026-01-15T10:00:00Z",
+      "referrerUrl": null,
+      "depth": 0,
+      "httpStatusCode": 644,
+      "contentLengthBytes": 450,
+      "contentType": "Example content type"
+    },
     "metadata": {
       "title": "Example title",
       "description": null,
       "author": null,
       "language": "en",
-      "charset": null,
+      "charset": "Example charset",
       "favicon": "Example favicon",
       "canonical": null,
       "image": null,
@@ -18,9 +28,26 @@
       "robots": null,
       "themeColor": null,
       "openGraph": null,
-      "twitter": null
+      "twitter": null,
+      "canonicalUrl": null,
+      "languageCode": "en",
+      "jsonLd": [],
+      "headers": {
+        "age": "62197",
+        "allow": "Example allow",
+        "alt-svc": "Example alt-svc",
+        "cf-cache-status": "HIT",
+        "cf-ray": "a80e9d57f866c3b6-iad",
+        "connection": "Example connection",
+        "content-encoding": "br",
+        "content-type": "Example content-type",
+        "date": "Example date",
+        "last-modified": "Example last-modified",
+        "server": "cloudflare",
+        "transfer-encoding": "chunked"
+      }
     },
-    "duration": 18,
+    "duration": 288,
     "scrapedAt": "2026-01-15T10:00:00Z",
     "success": true,
     "error": null

@@ -13,8 +13,8 @@ client = ApifyClient(os.environ["APIFY_TOKEN"])
 run = client.actor("abotapi/jobstreet-companies-reviews-scraper").call(
     run_input={
         "mode": "companies",
-        "country": "MY",
         "industry": "Information & Communication Technology",
+        "country": "MY",
         "maxReviewsPerCompany": 10,
         "reviewSort": "helpful",
         "maxItems": 10,

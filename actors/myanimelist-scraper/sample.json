@@ -1,5 +1,14 @@
 [
   {
+    "malId": 33908,
+    "rank": 68,
+    "titleSynonyms": [
+      "Example title synonyms"
+    ],
+    "airedFrom": "2026-01-15",
+    "airedTo": "2026-01-15",
+    "season": "winter",
+    "year": 1175,
     "id": 12652,
     "mediaType": "anime",
     "url": "https://myanimelist.net/example/94659",
@@ -8,6 +17,7 @@
     "episodes": 11,
     "score": 7.87,
     "synopsisSnippet": "Example synopsis snippet: mock text standing in for the real value. Same field and type, made-up content.",
+    "trailerUrl": "https://www.youtube.com/example/24760",
     "titleJapanese": "Example title japanese",
     "titleEnglish": "Example title english",
     "synonyms": [
@@ -45,88 +55,6 @@
     "authors": [],
     "serialization": [],
     "synopsis": "Example synopsis: mock text standing in for the real value. Same field and type, made-up content.",
-    "imageUrl": "https://cdn.myanimelist.net/example/42854.jpg",
-    "scoredBy": 212558,
-    "reviewCount": 542,
-    "reviewBreakdown": {
-      "recommended": 180,
-      "mixedFeelings": 90,
-      "notRecommended": 50
-    },
-    "relatedEntries": [
-      {
-        "id": 12652,
-        "mediaType": "anime",
-        "title": "Example title",
-        "url": "https://myanimelist.net/example/94659",
-        "relation": "Example relation"
-      },
-      {
-        "id": 53284,
-        "mediaType": "anime",
-        "title": "Example title",
-        "url": "https://myanimelist.net/example/49229",
-        "relation": "Example relation"
-      }
-    ],
-    "characters": [
-      {
-        "id": 642652,
-        "name": "Example name",
-        "url": "https://myanimelist.net/example/94659",
-        "role": "Example role",
-        "imageUrl": "https://cdn.myanimelist.net/example/42854.jpg",
-        "voiceActors": [
-          {
-            "id": 12652,
-            "name": "Example name",
-            "url": "https://myanimelist.net/example/94659",
-            "language": "Japanese"
-          }
-        ]
-      },
-      {
-        "id": 323284,
-        "name": "Example name",
-        "url": "https://myanimelist.net/example/49229",
-        "role": "Example role",
-        "imageUrl": "https://cdn.myanimelist.net/example/16804.jpg",
-        "voiceActors": [
-          {
-            "id": 53284,
-            "name": "Example name",
-            "url": "https://myanimelist.net/example/49229",
-            "language": "Japanese"
-          }
-        ]
-      }
-    ],
-    "staff": [
-      {
-        "id": 12652,
-        "name": "Example name",
-        "url": "https://myanimelist.net/example/94659",
-        "role": "Example role",
-        "imageUrl": "https://cdn.myanimelist.net/example/42854.jpg"
-      },
-      {
-        "id": 53284,
-        "name": "Example name",
-        "url": "https://myanimelist.net/example/49229",
-        "role": "Example role",
-        "imageUrl": "https://cdn.myanimelist.net/example/16804.jpg"
-      }
-    ],
-    "reviews": [
-      {
-        "author": "stark217",
-        "text": "Example text: mock text standing in for the real value. Same field and type, made-up content.",
-        "url": "https://myanimelist.net/example/94659",
-        "date": "Example date",
-        "recommendation": "Example recommendation",
-        "rating": 9
-      }
-    ],
-    "openingThemes": []
+    "imageUrl": "https://cdn.myanimelist.net/example/42854.jpg"
   }
 ]

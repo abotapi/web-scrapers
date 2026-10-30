@@ -17,7 +17,7 @@ python example.py
 ```bash
 curl -s -X POST "https://api.apify.com/v2/acts/abotapi~viator-com-scraper/run-sync-get-dataset-items?token=$APIFY_TOKEN" \
   -H 'Content-Type: application/json' \
-  -d '{"mode": "search", "destination": "boston", "category": "tours_sightseeing", "sortBy": "source", "maxItems": 10, "maxPages": 1, "proxy": {"useApifyProxy": true, "apifyProxyGroups": ["RESIDENTIAL"]}}'
+  -d '{"mode": "search", "destination": "boston", "category": "tours_sightseeing", "sortBy": "source", "maxReviewsPerProduct": 10, "maxItems": 10, "maxPages": 1, "proxy": {"useApifyProxy": true, "apifyProxyGroups": ["RESIDENTIAL"]}}'
 ```
 
 ## Inputs
@@ -26,6 +26,7 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~viator-com-scraper/run-sy
 | --- | --- | --- |
 | `mode` * | string | Mode |
 | `destination` | string | Destination |
+| `destinationQuery` | string | Destination (type a name) |
 | `category` | string | Category |
 | `urls` | array | URLs |
 | `keyword` | string | Keyword |
@@ -37,6 +38,7 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~viator-com-scraper/run-sy
 | `availability` | string | Availability |
 | `sortBy` | string | Sort |
 | `fetchDetails` | boolean | Fetch details |
+| `maxReviewsPerProduct` | integer | Max reviews per product |
 | `maxItems` * | integer | Max items |
 | `maxPages` | integer | Max pages |
 | `proxy` | object | Proxy |

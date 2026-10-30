@@ -1,0 +1,59 @@
+[
+  {
+    "recordId": "Example record id: mock text standing in for the real value. Same field and type, made-up content.",
+    "recordType": "article",
+    "url": "https://www.vogue.com/example/28630",
+    "title": "Example title: mock text standing in for the real value. Same field and type, made-up content.",
+    "dek": "Example dek: mock text standing in for the real value. Same field and type, made-up content.",
+    "summary": null,
+    "section": "fashion",
+    "contentType": "article",
+    "authors": [
+      "Example authors"
+    ],
+    "authorUrls": [
+      "https://www.vogue.com/example/97173"
+    ],
+    "pubDate": "2026-01-15T10:00:00Z",
+    "issueDate": null,
+    "imageUrl": "https://assets.vogue.com/example/2702.jpg",
+    "imageAlt": "Example image alt: mock text standing in for the real value. Same field and type, made-up content.",
+    "isSponsored": false,
+    "subscribersOnly": false,
+    "videoLengthSeconds": null,
+    "functionalTags": [],
+    "sourceFeed": "fashion",
+    "dateModified": "2026-01-15T10:00:00Z",
+    "imageUrls": [
+      "https://assets.vogue.com/example/969.jpg",
+      "https://assets.vogue.com/example/95598.jpg"
+    ],
+    "keywords": [
+      "fashion",
+      "Example keywords"
+    ],
+    "bodyText": "Example body text: mock text standing in for the real value. Same field and type, made-up content.",
+    "accessibleFree": true,
+    "inLanguage": "en-US",
+    "thumbnailUrl": "https://assets.vogue.com/example/23038.jpg",
+    "wordCount": 223,
+    "contentId": "id99570916",
+    "publishDate": "2026-01-15T10:00:00Z",
+    "modifiedDate": "2026-01-15T10:00:00Z",
+    "editorNames": [
+      "Example editor names"
+    ],
+    "sourceWordCount": 564,
+    "isCommerceContent": false,
+    "hasAffiliateLinks": false,
+    "affiliateLinksCount": 0,
+    "hasBuyButtons": false,
+    "templateType": "Example template type",
+    "revisions": 610,
+    "galleryImages": 0,
+    "breadcrumbs": [
+      "Example breadcrumbs",
+      "Example breadcrumbs"
+    ]
+  }
+]

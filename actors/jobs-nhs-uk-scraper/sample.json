@@ -1,29 +1,29 @@
 [
   {
-    "id": "e3081-87-0123",
+    "id": "c8752-90-8330",
     "url": "https://www.jobs.nhs.uk/example/79900",
     "title": "Example title",
-    "referenceNumber": "487796",
+    "referenceNumber": "024-nlft-2869",
     "employer": "Example employer",
-    "employerWebsite": "https://jobs.priorygroup.com/example/79734",
+    "employerWebsite": "https://www.northlondonmentalhealth.nhs.uk/example/79734",
     "employerLogoDataUri": "Example employer logo data uri: mock text standing in for the real value. Same field and type, made-up content.",
     "location": "Example location",
     "postcode": "Example postcode",
     "addressLine1": "Example address line1",
     "addressLine2": "Example address line2",
     "addressTown": "Example address town",
-    "addressCounty": "Example address county",
+    "addressCounty": null,
     "addressLines": [
       "Example address lines",
       "Example address lines"
     ],
     "salary": "Example salary",
     "salaryQualifier": null,
-    "salaryMin": 64058,
-    "salaryMax": 64402,
-    "salaryPeriod": "Example salary period",
+    "salaryMin": null,
+    "salaryMax": null,
+    "salaryPeriod": null,
     "payScheme": "Example pay scheme",
-    "grade": null,
+    "grade": "Example grade",
     "contractType": "Permanent",
     "contractDuration": null,
     "workingPattern": "Example working pattern",
@@ -45,15 +45,15 @@
     },
     "employerDetails": {
       "name": "Example name",
-      "website": "https://jobs.priorygroup.com/example/77336",
+      "website": "https://www.northlondonmentalhealth.nhs.uk/example/77336",
       "address": [
         "Example address",
         "Example address"
       ],
       "postcode": "Example postcode"
     },
-    "jobOverviewHtml": "Example job overview html",
-    "jobOverviewText": "Example job overview text",
+    "jobOverviewHtml": "Example job overview html: mock text standing in for the real value. Same field and type, made-up content.",
+    "jobOverviewText": "Example job overview text: mock text standing in for the real value. Same field and type, made-up content.",
     "mainDutiesHtml": "",
     "mainDutiesText": null
   }

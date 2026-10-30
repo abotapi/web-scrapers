@@ -17,7 +17,7 @@ python example.py
 ```bash
 curl -s -X POST "https://api.apify.com/v2/acts/abotapi~willhaben-at-scraper/run-sync-get-dataset-items?token=$APIFY_TOKEN" \
   -H 'Content-Type: application/json' \
-  -d '{"mode": "search", "category": "kaufen-und-verkaufen/marktplatz", "sort": "default", "maxListings": 10, "maxPages": 1, "proxy": {"useApifyProxy": true, "apifyProxyGroups": ["RESIDENTIAL"], "apifyProxyCountry": "AT"}}'
+  -d '{"mode": "search", "category": "kaufen-und-verkaufen/marktplatz", "sort": "default", "maxListings": 10, "maxItems": 10, "maxPages": 1, "proxy": {"useApifyProxy": true, "apifyProxyGroups": ["RESIDENTIAL"], "apifyProxyCountry": "AT"}}'
 ```
 
 ## Inputs
@@ -29,13 +29,16 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~willhaben-at-scraper/run-
 | `categoryPath` | string | Custom category path (advanced) |
 | `keyword` | string | Keyword |
 | `areaId` | integer | Area ID (location) |
+| `region` | string | Region name |
 | `minPrice` | integer | Min price () |
 | `maxPrice` | integer | Max price () |
 | `sort` | string | Sort by |
 | `customParameters` | array | Extra filters (advanced) |
 | `urls` | array | Search URLs |
+| `startUrl` | string | Start URL (single link) |
 | `fetchDetails` | boolean | Fetch detail pages |
 | `maxListings` | integer | Max listings |
+| `maxItems` | integer | Max items (alias) |
 | `maxPages` | integer | Max pages per search |
 | `proxy` | object | Proxy |
 
@@ -79,16 +82,16 @@ Full details on the [scraper page](https://apify.com/abotapi/willhaben-at-scrape
 | `images` | list |
 | `imageCount` | integer |
 | `mainImage` | string |
-| `teaserAttributes` | list |
 | `advertiserInfo` | object |
 | `rawAttributes` | list |
 | `attr_LOCATION` | string |
 | `attr_p2penabled` | string |
 | `attr_CHANGED` | string |
-| `attr_categorytreeattributeids` | string |
 | `attr_CHANGED_String` | string |
 | `attr_POSTCODE` | string |
 | `attr_BODY_DYN` | string |
+| `attr_ORGNAME` | string |
+| `attr_STATE` | string |
 
 ---
 

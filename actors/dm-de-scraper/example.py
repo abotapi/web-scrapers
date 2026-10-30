@@ -14,10 +14,12 @@ run = client.actor("abotapi/dm-de-scraper").call(
     run_input={
         "mode": "search",
         "searchTerm": "shampoo",
+        "country": "de",
         "sortBy": "RELEVANCE",
         "maxReviewsPerProduct": 10,
         "maxPages": 1,
         "maxItems": 10,
+        "maxResults": 10,
         "proxy": {"useApifyProxy": True},
     },
     logger=None,  # don't stream the run log to your console

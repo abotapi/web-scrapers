@@ -1,0 +1,74 @@
+[
+  {
+    "id": "047836347",
+    "url": "https://auto.drom.ru/example/19131",
+    "title": "Example title",
+    "make": "Audi",
+    "model": "Q3",
+    "year": "2833",
+    "price": 8795893,
+    "currency": "RUB",
+    "engine": "Example engine",
+    "fuel": "Example fuel",
+    "gearbox": "Example gearbox",
+    "drivetrain": "Example drivetrain",
+    "mileageKm": 866506,
+    "city": "Example city",
+    "bullId": 273855734,
+    "minimalPrice": 0,
+    "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
+    "images": {
+      "total": 6,
+      "items": [
+        {
+          "src": "https://s31.auto.drom.ru/example/82918.jpg",
+          "src2x": "https://s31.auto.drom.ru/example/5304.jpg",
+          "width": 930,
+          "height": 546,
+          "alt": "Example alt: mock text standing in for the real value. Same field and type, made-up content."
+        },
+        {
+          "src": "https://s31.auto.drom.ru/example/14082.jpg",
+          "src2x": "https://s31.auto.drom.ru/example/82133.jpg",
+          "width": 540,
+          "height": 334,
+          "alt": "Example alt: mock text standing in for the real value. Same field and type, made-up content."
+        }
+      ]
+    },
+    "frameType": 7,
+    "showPlaceholder": false,
+    "dealType": 3,
+    "sold": false,
+    "marks": [],
+    "info": null,
+    "dealerName": null,
+    "hasDealerName": false,
+    "subtitle": "Example subtitle",
+    "attributes": [
+      {
+        "type": "plain",
+        "payload": "Example payload"
+      },
+      {
+        "type": "plain",
+        "payload": "Example payload"
+      }
+    ],
+    "promotionStatus": 3,
+    "date": "Example date",
+    "location": "Example location",
+    "carState": [],
+    "region": "neftekamsk-bash",
+    "category": "auto",
+    "engineVolume": 5,
+    "powerHp": 664,
+    "photos": [
+      "https://s31.auto.drom.ru/example/19516.jpg",
+      "https://s31.auto.drom.ru/example/47880.jpg"
+    ],
+    "photoCount": 6,
+    "imageUrl": "https://s31.auto.drom.ru/example/22959.jpg",
+    "recordType": "listing"
+  }
+]

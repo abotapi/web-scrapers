@@ -31,6 +31,7 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~mediamarkt-de-scraper/run
 | `minRating` | integer | Minimum rating |
 | `minPrice` | number | Minimum price (EUR) |
 | `maxPrice` | number | Maximum price (EUR) |
+| `inStockOnly` | boolean | In stock only |
 | `sortBy` | string | Sort order |
 | `urls` | array | URLs to scrape |
 | `fetchDetails` | boolean | Fetch full product detail |
@@ -74,6 +75,12 @@ Full details on the [scraper page](https://apify.com/abotapi/mediamarkt-de-scrap
 | `images` | list |
 | `onlineAvailable` | boolean |
 | `availabilityStatus` | string |
+| `energyClass` | null |
+| `discountPercentage` | integer |
+| `inStock` | boolean |
+| `onlineStatus` | string |
+| `imageUrl` | string |
+| `scrapedAt` | string |
 | `reviews` | object |
 
 ---

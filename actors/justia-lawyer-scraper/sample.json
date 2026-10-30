@@ -1,16 +1,19 @@
 [
   {
     "type": "profile",
-    "id": 58449,
+    "id": 1048449,
     "url": "https://lawyers.justia.com/example/59552",
     "profileUrl": "https://lawyers.justia.com/example/36866",
     "slug": "Example slug",
-    "name": "Example name: mock text standing in for the real value. Same field and type, made-up content.",
+    "name": "Example name",
     "telephones": [
+      "+1 555 0100",
       "+1 555 0100"
     ],
+    "firstName": "Example first name",
+    "lastName": "Example last name",
     "freeConsultation": false,
-    "topRated": false,
+    "topRated": true,
     "profileImage": "https://justatic.com/example/28498.jpg",
     "servingLocationText": null,
     "scrapedAt": "2026-01-15T10:00:00Z",
@@ -18,34 +21,131 @@
     "jobTitles": [
       "Example job titles"
     ],
-    "yearsOfExperience": 42,
+    "yearsOfExperience": null,
     "headerFacts": [],
     "primaryPhone": "+1 555 0100",
     "emailContactUrl": "https://lawyers.justia.com/example/20217",
-    "vcardUrl": null,
+    "vcardUrl": "https://lawyers.justia.com/example/49327",
     "badges": [
       "Example badges",
       "Example badges"
     ],
     "claimedProfile": true,
-    "offersVideoConferencing": false,
+    "offersVideoConferencing": true,
     "connectPro": false,
     "liiPlatinum": false,
     "hasSocialMedia": true,
     "biography": "Example biography: mock text standing in for the real value. Same field and type, made-up content.",
-    "practiceAreas": null,
-    "additionalPracticeAreas": null,
-    "videoConferencing": null,
-    "fees": null,
+    "practiceAreas": [
+      {
+        "area": "Example area",
+        "subAreas": [
+          "Example sub areas",
+          "Example sub areas"
+        ]
+      },
+      {
+        "area": "Example area",
+        "subAreas": [
+          "Example sub areas",
+          "Example sub areas"
+        ]
+      }
+    ],
+    "additionalPracticeAreas": [
+      "Example additional practice areas: mock text standing in for the real value. Same field and type, made-up content."
+    ],
+    "videoConferencing": [
+      "Example video conferencing"
+    ],
+    "fees": [
+      "Example fees: mock text standing in for the real value. Same field and type, made-up content.",
+      "Example fees: mock text standing in for the real value. Same field and type, made-up content."
+    ],
     "contingentFees": false,
-    "jurisdictions": null,
-    "languages": null,
-    "experience": null,
-    "education": null,
-    "awards": null,
-    "associations": null,
-    "speakingEngagements": null,
-    "certifications": null,
-    "publications": null
+    "jurisdictions": [
+      {
+        "name": "Example name",
+        "organization": null,
+        "idNumber": "771898",
+        "since": null
+      }
+    ],
+    "languages": [
+      {
+        "language": "English",
+        "modalities": [
+          "Example modalities",
+          "Example modalities"
+        ]
+      },
+      {
+        "language": "Farsi",
+        "modalities": [
+          "Example modalities"
+        ]
+      }
+    ],
+    "experience": [
+      {
+        "role": "Example role",
+        "organization": "Example organization",
+        "startDate": null,
+        "endDate": null
+      },
+      {
+        "role": "Example role",
+        "organization": "Example organization",
+        "startDate": "8476",
+        "endDate": "1231"
+      }
+    ],
+    "education": [
+      {
+        "school": "Example school",
+        "degree": "Example degree",
+        "field": null,
+        "startDate": null,
+        "endDate": "4197",
+        "honors": null
+      },
+      {
+        "school": "Example school",
+        "degree": "Example degree: mock text standing in for the real value. Same field and type, made-up content.",
+        "field": null,
+        "startDate": null,
+        "endDate": null,
+        "honors": null
+      }
+    ],
+    "awards": [
+      {
+        "title": "Example title",
+        "organization": "Example organization: mock text standing in for the real value. Same field and type, made-up content.",
+        "year": "1821"
+      },
+      {
+        "title": "Example title",
+        "organization": "Example organization: mock text standing in for the real value. Same field and type, made-up content.",
+        "year": "9768"
+      }
+    ],
+    "associations": [
+      {
+        "organization": "Example organization",
+        "role": "Example role"
+      },
+      {
+        "organization": "Example organization",
+        "role": "Example role"
+      }
+    ],
+    "speakingEngagements": [
+      {
+        "title": "Example title",
+        "date": null,
+        "description": "Example description: mock text standing in for the real value. Same field and type, made-up content."
+      }
+    ]
   }
 ]

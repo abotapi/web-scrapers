@@ -1,12 +1,12 @@
 [
   {
-    "articleId": "5357035859",
-    "gtin": null,
-    "ean": "8586881080820",
-    "mpn": "40133200",
+    "articleId": "9623158608",
+    "gtin": "8889307877473",
+    "ean": "9947817460780",
+    "mpn": "86528740",
     "barcodes": [
       {
-        "barcode": "6779697246340",
+        "barcode": "4292933472598",
         "isPrimary": false,
         "type": "EAN"
       }
@@ -21,7 +21,7 @@
     "condition": "New",
     "listingStatus": "LISTEDONLINEONLY",
     "url": "https://www.bigw.com.au/example/88077",
-    "price": 153.96,
+    "price": 94.67,
     "wasPrice": null,
     "rrp": null,
     "saving": null,

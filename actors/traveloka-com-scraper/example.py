@@ -17,6 +17,7 @@ run = client.actor("abotapi/traveloka-com-scraper").call(
         "locations": ["Singapore"],
         "sortBy": "popularity",
         "maxReviews": 10,
+        "reviewSortBy": "DEFAULT",
         "maxItems": 10,
         "maxPages": 1,
         "proxy": {"useApifyProxy": True, "apifyProxyGroups": ["RESIDENTIAL"]},

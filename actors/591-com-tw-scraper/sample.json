@@ -6,19 +6,19 @@
     "url": "https://rent.591.com.tw/example/99392",
     "title": "Example title",
     "price": 86416,
-    "priceText": "07,887",
+    "priceText": "30,975",
     "priceUnit": "Example price unit",
     "unitPrice": null,
     "kind": 4,
     "kindName": "Example kind name",
-    "room": "Example room",
-    "layout": "4",
-    "area": 4,
+    "room": null,
+    "layout": "9",
+    "area": 6.39,
     "areaText": "Example area text",
     "floor": "Example floor",
     "fitment": "Example fitment",
     "address": "Example address",
-    "communityName": "Example community name",
+    "communityName": null,
     "communityId": 0,
     "regionId": 9,
     "regionName": "Example region name",
@@ -28,18 +28,19 @@
     ],
     "nearbyTransit": [
       {
-        "type": "subway",
+        "type": "bus",
         "name": "Example name",
-        "distance": 508
+        "distance": 58
       },
       {
         "type": "bus",
         "name": "Example name",
-        "distance": 31
+        "distance": 211
       }
     ],
     "photos": [
-      "https://img2.591.com.tw/example/56048.jpg"
+      "https://img2.591.com.tw/example/56048.jpg",
+      "https://img2.591.com.tw/example/16881.jpg"
     ],
     "coverPhoto": "https://img2.591.com.tw/example/64981.jpg",
     "photoCount": 6,
@@ -47,14 +48,14 @@
     "browseCount": 281,
     "contactRole": "Example contact role",
     "refreshedAt": "Example refreshed at",
-    "descriptionHtml": "Example description html: mock text standing in for the real value. Same field and type, made-up content.",
-    "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
+    "descriptionHtml": "user53@example.com",
+    "description": "user91@example.com",
     "deposit": "Example deposit",
     "shape": "Example shape",
     "sectionId": 3,
     "sectionName": "Example section name",
-    "latitude": 26.05,
-    "longitude": 130.06,
-    "leaseMinTerm": null
+    "latitude": 26.06,
+    "longitude": 130.03,
+    "leaseMinTerm": "Example lease min term"
   }
 ]

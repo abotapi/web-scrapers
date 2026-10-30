@@ -12,11 +12,7 @@ client = ApifyClient(os.environ["APIFY_TOKEN"])
 
 run = client.actor("abotapi/mercadolivre-com-br-scraper").call(
     run_input={
-        "mode": "search",
-        "queries": ["notebook"],
-        "condition": "any",
-        "sortBy": "relevance",
-        "maxReviewsPerProduct": 10,
+        "mode": "category",
         "maxItems": 10,
         "maxPages": 1,
         "proxy": {"useApifyProxy": True, "apifyProxyGroups": ["RESIDENTIAL"], "apifyProxyCountry": "BR"},

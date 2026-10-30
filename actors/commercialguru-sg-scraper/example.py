@@ -16,7 +16,7 @@ run = client.actor("abotapi/commercialguru-sg-scraper").call(
         "listing_type": "sale",
         "sort": "date",
         "sort_order": "desc",
-        "proxy": {"useApifyProxy": True, "apifyProxyGroups": ["RESIDENTIAL"], "apifyProxyCountry": "SG"},
+        "proxy": {"useApifyProxy": True},
     },
     logger=None,  # don't stream the run log to your console
 )

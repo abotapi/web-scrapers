@@ -17,7 +17,7 @@ python example.py
 ```bash
 curl -s -X POST "https://api.apify.com/v2/acts/abotapi~sofascore-scraper/run-sync-get-dataset-items?token=$APIFY_TOKEN" \
   -H 'Content-Type: application/json' \
-  -d '{"mode": "search", "searchQueries": ["Real Madrid"], "searchType": "all", "sports": ["football"], "maxItems": 10, "proxy": {"useApifyProxy": true}}'
+  -d '{"mode": "search", "searchQueries": ["Real Madrid"], "searchType": "all", "tournamentSeasons": "current", "sports": ["football"], "maxItems": 10, "proxy": {"useApifyProxy": true}}'
 ```
 
 ## Inputs
@@ -28,6 +28,8 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~sofascore-scraper/run-syn
 | `searchQueries` | array | Search queries |
 | `searchType` | string | Restrict search to type |
 | `urls` | array | SofaScore URLs |
+| `expandTournamentMatches` | boolean | List every match of a tournament |
+| `tournamentSeasons` | string | Seasons to list (tournament links) |
 | `sports` | array | Sports |
 | `date` | string | Date (Scheduled mode) |
 | `daysAhead` | integer | Extra days |
@@ -37,6 +39,8 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~sofascore-scraper/run-syn
 | `includeOdds` | boolean | Match odds |
 | `includeVotes` | boolean | Fan votes (reviews) |
 | `includeH2H` | boolean | Head-to-head history |
+| `includeShotmap` | boolean | Shotmap (xG shots) |
+| `includePlayerHeatmaps` | boolean | Player heatmaps |
 | `includeStandings` | boolean | Tournament standings |
 | `includeSquad` | boolean | Team squad |
 | `maxItems` | integer | Max items |

@@ -34,6 +34,7 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~offerup-scraper/run-sync-
 | `priceDropOnly` | boolean | Price drops only |
 | `sortBy` | string | Sort by |
 | `urls` | array | OfferUp URLs |
+| `listingIds` | array | Listing IDs |
 | `fetchDetails` | boolean | Fetch full details |
 | `maxItems` | integer | Max items |
 | `maxPages` | integer | Max pages per query |

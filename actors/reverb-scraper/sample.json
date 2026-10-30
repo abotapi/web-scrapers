@@ -32,6 +32,7 @@
     "price": 9.83,
     "priceCents": 557,
     "currency": "USD",
+    "priceCurrency": "USD",
     "priceDisplay": "Example price display",
     "taxIncluded": false,
     "buyerPrice": 6.23,
@@ -42,7 +43,6 @@
     "state": "live",
     "isLive": true,
     "inventory": 9,
-    "hasInventory": true,
-    "offersEnabled": false
+    "hasInventory": true
   }
 ]

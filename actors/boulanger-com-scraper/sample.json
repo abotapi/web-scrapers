@@ -13,11 +13,11 @@
     "url": "https://www.boulanger.com/example/13968",
     "price": 216,
     "currency": "EUR",
-    "priceExclTax": 303.2,
-    "originalPrice": 583.46,
-    "discountAmount": 105.32,
-    "discountPercent": 63,
-    "isOnSpecial": true,
+    "priceExclTax": 399.2,
+    "originalPrice": null,
+    "discountAmount": null,
+    "discountPercent": null,
+    "isOnSpecial": false,
     "promoLabel": null,
     "unitPrice": null,
     "image": "https://boulanger.scene7.com/example/98343.jpg",
@@ -36,8 +36,8 @@
         "1": 0,
         "2": 0,
         "3": 0,
-        "4": 4,
-        "5": 0
+        "4": 0,
+        "5": 8
       },
       "items": [
         {
@@ -49,6 +49,10 @@
           "verifiedPurchase": null
         }
       ]
-    }
+    },
+    "availability": "Example availability",
+    "source": "boulanger.com",
+    "searchQuery": "Example search query",
+    "scrapedAt": "2026-01-15T10:00:00Z"
   }
 ]

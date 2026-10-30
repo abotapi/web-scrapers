@@ -9,13 +9,13 @@
       "id": "id87274198",
       "name": "Example name",
       "slug": "Example slug",
-      "url": "https://www.loungelovers.com.au/example/31042",
+      "url": "https://www.plush.com.au/example/31042",
       "isManaged": true
     },
     "contact": {
-      "email": "user82@example.com",
-      "website": "https://www.loungelovers.com.au/example/52865",
-      "phone": "+1 555 0100"
+      "email": null,
+      "website": "https://www.plush.com.au/example/52865",
+      "phone": null
     },
     "categories": [
       {
@@ -33,12 +33,12 @@
     ],
     "locations": [],
     "statistics": {
-      "rating": 4.75,
+      "rating": 4.46,
       "numberOfReviews": 85286,
-      "numberOfQuestions": 21,
+      "numberOfQuestions": 471,
       "ratingDistribution": [
-        265,
-        72
+        2965,
+        252
       ],
       "numberOfLeaves": 8,
       "numberOfReviewsLastYear": 581
@@ -51,15 +51,14 @@
       "rating": 4,
       "submittedAt": "2026-01-15T10:00:00Z",
       "authorName": "Example author name",
-      "authorLocation": "Example author location",
+      "authorLocation": null,
       "hasVerifiedPurchase": false
     },
     "highlightedReviews": [],
     "logoUrl": "https://cdn.productreview.com.au/example/365.jpg",
     "pictureUrl": "https://cdn.productreview.com.au/example/63716",
     "pictures": [
-      "https://cdn.productreview.com.au/example/40844",
-      "https://cdn.productreview.com.au/example/10683"
+      "https://cdn.productreview.com.au/example/40844"
     ],
     "createdAt": "2026-01-15T10:00:00Z",
     "fullName": "Example full name",
@@ -74,13 +73,16 @@
         "Example pros: mock text standing in for the real value. Same field and type, made-up content.",
         "Example pros: mock text standing in for the real value. Same field and type, made-up content."
       ],
-      "cons": [],
+      "cons": [
+        "Example cons: mock text standing in for the real value. Same field and type, made-up content.",
+        "Example cons: mock text standing in for the real value. Same field and type, made-up content."
+      ],
       "verdict": "Example verdict: mock text standing in for the real value. Same field and type, made-up content."
     },
     "marketAvailability": {
       "startDate": null,
       "endDate": null,
-      "isStartDateUnknown": true,
+      "isStartDateUnknown": false,
       "isEndDateUnknown": false
     },
     "tags": [
@@ -91,15 +93,15 @@
       3051,
       3448
     ],
-    "officialLink": "https://www.loungelovers.com.au/example/56592",
+    "officialLink": "https://www.plush.com.au/example/56592",
     "specificationValues": {
       "Type of Furniture Offered": [
         "Sofas",
-        "Outdoor"
+        "Living"
       ]
     },
     "universalIds": [
-      "19079465285"
+      "54808217355"
     ],
     "videos": [],
     "specHighlights": [],
@@ -120,7 +122,7 @@
         "author": {
           "id": "id87274198",
           "displayName": "Example display name",
-          "locationName": "Example location name",
+          "locationName": null,
           "avatarUrl": "https://cdn.productreview.com.au/example/16768.jpg"
         },
         "comments": [
@@ -165,7 +167,7 @@
         "author": {
           "id": "id36078153",
           "displayName": "Example display name",
-          "locationName": null,
+          "locationName": "Example location name",
           "avatarUrl": "https://cdn.productreview.com.au/example/70059.jpg"
         },
         "comments": [
@@ -212,12 +214,12 @@
       "id": "id24683951",
       "name": "Example name",
       "slug": "Example slug",
-      "url": "https://www.bestpoolsupplies.com.au/example/46485",
+      "url": "https://www.loungelovers.com.au/example/46485",
       "isManaged": true
     },
     "contact": {
       "email": "user30@example.com",
-      "website": "https://www.bestpoolsupplies.com.au/example/91501",
+      "website": "https://www.loungelovers.com.au/example/91501",
       "phone": "+1 555 0100"
     },
     "categories": [
@@ -236,12 +238,12 @@
     ],
     "locations": [],
     "statistics": {
-      "rating": 9,
-      "numberOfReviews": 4061,
+      "rating": 6.32,
+      "numberOfReviews": 13061,
       "numberOfQuestions": 58,
       "ratingDistribution": [
-        10,
-        1
+        820,
+        64
       ],
       "numberOfLeaves": 6,
       "numberOfReviewsLastYear": 991
@@ -254,11 +256,11 @@
       "rating": 9,
       "submittedAt": "2026-01-15T10:00:00Z",
       "authorName": "Example author name",
-      "authorLocation": null,
-      "hasVerifiedPurchase": true
+      "authorLocation": "Example author location",
+      "hasVerifiedPurchase": false
     },
     "highlightedReviews": [],
-    "logoUrl": null,
+    "logoUrl": "https://cdn.productreview.com.au/example/89366.jpg",
     "pictureUrl": "https://cdn.productreview.com.au/example/69542",
     "pictures": [
       "https://cdn.productreview.com.au/example/96435",
@@ -283,7 +285,7 @@
     "marketAvailability": {
       "startDate": null,
       "endDate": null,
-      "isStartDateUnknown": false,
+      "isStartDateUnknown": true,
       "isEndDateUnknown": false
     },
     "tags": [
@@ -294,20 +296,15 @@
       6858,
       7882
     ],
-    "officialLink": "https://www.bestpoolsupplies.com.au/example/25065",
+    "officialLink": "https://www.loungelovers.com.au/example/25065",
     "specificationValues": {
-      "Offers Free Standard Shipping": "Example offers  free  standard  shipping",
-      "Products / Services Offered": [
-        "Example products /  services  offered",
-        "Example products /  services  offered"
-      ],
-      "Shop Type": [
-        "Example shop  type"
-      ],
-      "After Sales Service": "Example after  sales  service"
+      "Type of Furniture Offered": [
+        "Sofas",
+        "Outdoor"
+      ]
     },
     "universalIds": [
-      "66972833213"
+      "57454990128"
     ],
     "videos": [],
     "specHighlights": [],
@@ -322,19 +319,29 @@
         "body": "Example body: mock text standing in for the real value. Same field and type, made-up content.",
         "rating": 9,
         "submittedAt": "2026-01-15T10:00:00Z",
-        "hasVerifiedPurchase": true,
+        "hasVerifiedPurchase": false,
         "attachments": [],
         "images": [],
         "author": {
           "id": "id24683951",
           "displayName": "Example display name",
-          "locationName": null,
+          "locationName": "Example location name",
           "avatarUrl": "https://cdn.productreview.com.au/example/30796.jpg"
         },
-        "comments": [],
+        "comments": [
+          {
+            "id": "id24683951",
+            "body": "Example body: mock text standing in for the real value. Same field and type, made-up content.",
+            "submittedAt": "2026-01-15T10:00:00Z",
+            "author": {
+              "displayName": "Example display name",
+              "isBrandManager": true
+            }
+          }
+        ],
         "numberOfLikes": 0,
         "numberOfDislikes": 0,
-        "isVerified": true,
+        "isVerified": false,
         "firstPublishedAt": "2026-01-15T10:00:00Z",
         "modifiedAt": "2026-01-15T10:00:00Z",
         "tags": [],
@@ -343,10 +350,8 @@
         "followUps": [],
         "footnote": null,
         "specificationValues": {
-          "Warranty Claim Made": "Example warranty  claim  made",
-          "Purchase Type": [
-            "Pool"
-          ],
+          "Product Purchased": "Example product  purchased",
+          "Store Location": "Example store  location",
           "Incentivised Review": "Example incentivised  review"
         },
         "subject": {
@@ -358,10 +363,10 @@
       {
         "id": "id62995661",
         "title": null,
-        "body": "Example body",
+        "body": "Example body: mock text standing in for the real value. Same field and type, made-up content.",
         "rating": 2,
         "submittedAt": "2026-01-15T10:00:00Z",
-        "hasVerifiedPurchase": true,
+        "hasVerifiedPurchase": false,
         "attachments": [],
         "images": [],
         "author": {
@@ -370,10 +375,20 @@
           "locationName": null,
           "avatarUrl": "https://cdn.productreview.com.au/example/79222.jpg"
         },
-        "comments": [],
+        "comments": [
+          {
+            "id": "id62995661",
+            "body": "Example body: mock text standing in for the real value. Same field and type, made-up content.",
+            "submittedAt": "2026-01-15T10:00:00Z",
+            "author": {
+              "displayName": "Example display name",
+              "isBrandManager": true
+            }
+          }
+        ],
         "numberOfLikes": 0,
         "numberOfDislikes": 0,
-        "isVerified": true,
+        "isVerified": false,
         "firstPublishedAt": "2026-01-15T10:00:00Z",
         "modifiedAt": "2026-01-15T10:00:00Z",
         "tags": [],
@@ -382,10 +397,6 @@
         "followUps": [],
         "footnote": null,
         "specificationValues": {
-          "Warranty Claim Made": "Example warranty  claim  made",
-          "Purchase Type": [
-            "Pool"
-          ],
           "Incentivised Review": "Example incentivised  review"
         },
         "subject": {
@@ -396,6 +407,6 @@
       }
     ],
     "reviewsCollected": 46,
-    "totalReviews": 5950
+    "totalReviews": 68950
   }
 ]

@@ -29,6 +29,11 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~anghami-catalog-scraper/r
 | `urls` | array | Anghami URLs |
 | `kinds` | array | Kinds to keep |
 | `excludePodcasts` | boolean | Exclude podcasts |
+| `excludeAudiobooks` | boolean | Exclude audiobooks |
+| `explicitOnly` | boolean | Explicit content only |
+| `yearFrom` | integer | Year from |
+| `yearTo` | integer | Year to |
+| `genre` | string | Genre contains |
 | `fetchDetails` | boolean | Fetch record details |
 | `maxItems` | integer | Max items |
 | `maxPages` | integer | Max pages per source |

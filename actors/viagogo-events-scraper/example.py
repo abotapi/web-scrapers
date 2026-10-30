@@ -15,6 +15,7 @@ run = client.actor("abotapi/viagogo-events-scraper").call(
         "mode": "search",
         "queries": ["Coldplay"],
         "maxItems": 10,
+        "sortBy": "relevance",
         "proxyConfiguration": {"useApifyProxy": True},
     },
     logger=None,  # don't stream the run log to your console

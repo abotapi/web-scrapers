@@ -17,7 +17,7 @@ python example.py
 ```bash
 curl -s -X POST "https://api.apify.com/v2/acts/abotapi~walgreens-com/run-sync-get-dataset-items?token=$APIFY_TOKEN" \
   -H 'Content-Type: application/json' \
-  -d '{"mode": "search", "searchQueries": ["toothpaste"], "sortBy": "relevance", "maxItems": 10, "maxPages": 1, "maxReviewsPerProduct": 10, "proxy": {"useApifyProxy": false}}'
+  -d '{"mode": "search", "searchQueries": ["toothpaste"], "sortBy": "relevance", "maxItems": 10, "maxPages": 1, "maxReviewsPerProduct": 10, "proxy": {"useApifyProxy": false}, "changeScope": "all"}'
 ```
 
 ## Inputs
@@ -41,6 +41,9 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~walgreens-com/run-sync-ge
 | `fetchReviews` | boolean | Include customer reviews |
 | `maxReviewsPerProduct` | integer | Max reviews per product |
 | `proxy` | object | Connection settings |
+| `changeScope` | string | Change scope |
+| `compactUpdates` | boolean | Compact updated rows |
+| `expireAfterMissedScans` | integer | Expire after missed scans |
 
 `*` required
 
@@ -56,6 +59,11 @@ Full details on the [scraper page](https://apify.com/abotapi/walgreens-com?utm_s
 | `hairToolType` | string |
 | `size` | list |
 | `toothPasteAttribute` | string |
+| `bogoCode` | string |
+| `pluCode` | string |
+| `familyCodeValue` | string |
+| `familyCodeQuantity` | integer |
+| `familyCodeRule` | string |
 | `storeInv` | string |
 | `fulfillerType` | string |
 | `webExclusive` | string |
@@ -69,6 +77,7 @@ Full details on the [scraper page](https://apify.com/abotapi/walgreens-com?utm_s
 | `reviewCount` | string |
 | `productSize` | string |
 | `newItem` | string |
+| `familyCodePrice` | string |
 | `wBrandInd` | string |
 | `autoReorder` | string |
 | `unitPrice` | string |
@@ -86,12 +95,6 @@ Full details on the [scraper page](https://apify.com/abotapi/walgreens-com?utm_s
 | `isAgeRestricted` | boolean |
 | `excludeLocalDelivery` | boolean |
 | `sameDayPurchaseLimit` | integer |
-| `storeUPC` | string |
-| `temperatureCode` | list |
-| `gtin` | string |
-| `shipToStoreInd` | string |
-| `oddEnabled` | boolean |
-| `tier1CategoryId` | string |
 
 ---
 

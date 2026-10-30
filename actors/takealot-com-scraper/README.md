@@ -17,7 +17,7 @@ python example.py
 ```bash
 curl -s -X POST "https://api.apify.com/v2/acts/abotapi~takealot-com-scraper/run-sync-get-dataset-items?token=$APIFY_TOKEN" \
   -H 'Content-Type: application/json' \
-  -d '{"mode": "search", "queries": ["laptop"], "sort": "Relevance", "maxReviewsPerProduct": 10, "maxItems": 10, "maxPages": 1, "proxyConfiguration": {"useApifyProxy": true}}'
+  -d '{"mode": "search", "queries": ["laptop"], "sort": "Relevance", "maxReviewsPerProduct": 10, "maxItems": 10, "maxPages": 1, "proxyConfiguration": {"useApifyProxy": true}, "changeScope": "all"}'
 ```
 
 ## Inputs
@@ -40,6 +40,9 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~takealot-com-scraper/run-
 | `maxItems` | integer | Max items |
 | `maxPages` | integer | Max pages per keyword |
 | `proxyConfiguration` | object | Proxy configuration |
+| `changeScope` | string | What counts as a change (incremental m |
+| `compactUpdates` | boolean | Compact update rows (incremental mode  |
+| `expireAfterMissedScans` | integer | Expire after N missed full scans (incr |
 
 `*` required
 
@@ -59,9 +62,9 @@ Full details on the [scraper page](https://apify.com/abotapi/takealot-com-scrape
 | `subtitle` | string |
 | `brand` | null |
 | `price` | integer |
-| `priceMax` | integer |
+| `priceMax` | null |
 | `prettyPrice` | string |
-| `listingPrice` | null |
+| `listingPrice` | integer |
 | `savingPercent` | integer |
 | `currency` | string |
 | `starRating` | float |
@@ -84,13 +87,13 @@ Full details on the [scraper page](https://apify.com/abotapi/takealot-com-scrape
 | `productId` | integer |
 | `hasMoreColours` | boolean |
 | `promotionLabel` | null |
+| `slug` | string |
+| `estimatedDelivery` | string |
+| `estimatedDeliveryType` | string |
 | `descriptionHtml` | string |
 | `descriptionText` | string |
 | `specs` | object |
 | `boxContents` | string |
-| `warranty` | string |
-| `categoriesPath` | list |
-| `departmentName` | string |
 
 ---
 

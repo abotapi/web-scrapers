@@ -17,7 +17,7 @@ python example.py
 ```bash
 curl -s -X POST "https://api.apify.com/v2/acts/abotapi~homes-com-scraper/run-sync-get-dataset-items?token=$APIFY_TOKEN" \
   -H 'Content-Type: application/json' \
-  -d '{"mode": "search", "location": "Austin, TX", "sort": "relevance", "listingType": "for_sale", "maxItems": 10, "maxPages": 1, "proxy": {"useApifyProxy": true}}'
+  -d '{"mode": "search", "location": "Austin, TX", "sort": "relevance", "listingType": "for_sale", "maxItems": 10, "maxPages": 1, "proxy": {"useApifyProxy": true}, "changeScope": "all"}'
 ```
 
 ## Inputs
@@ -36,6 +36,9 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~homes-com-scraper/run-syn
 | `maxItems` | integer | Max items (per run, 0  unlimited) |
 | `maxPages` | integer | Max pages per search (0  unlimited) |
 | `proxy` | object | Proxy configuration |
+| `changeScope` | string | What counts as a change (incremental m |
+| `compactUpdates` | boolean | Compact UPDATED rows (incremental mode |
+| `expireAfterMissedScans` | integer | Expire after missed scans (incremental |
 
 `*` required
 

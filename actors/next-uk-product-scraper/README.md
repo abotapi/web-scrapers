@@ -17,7 +17,7 @@ python example.py
 ```bash
 curl -s -X POST "https://api.apify.com/v2/acts/abotapi~next-uk-product-scraper/run-sync-get-dataset-items?token=$APIFY_TOKEN" \
   -H 'Content-Type: application/json' \
-  -d '{"mode": "search", "searchQuery": "dresses", "links": ["https://www.next.co.uk/shop/gender-women-category-dresses", "https://www.next.co.uk/style/sv132147/y76826", "Y76826"], "sortBy": "relevance", "maxItems": 10, "proxyConfiguration": {"useApifyProxy": true}}'
+  -d '{"mode": "search", "searchQuery": "dresses", "sortBy": "relevance", "maxReviewsPerProduct": 10, "maxItems": 10, "maxPages": 1, "proxyConfiguration": {"useApifyProxy": true}}'
 ```
 
 ## Inputs
@@ -32,7 +32,10 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~next-uk-product-scraper/r
 | `maxPrice` | integer | Max price (GBP) |
 | `onSaleOnly` | boolean | Reduced only |
 | `fetchDetails` | boolean | Open each product for full detail |
+| `maxReviewsPerProduct` | integer | Max reviews per product |
 | `maxItems` | integer | Max items |
+| `maxPages` | integer | Max listing pages |
+| `results_wanted` | integer | Results wanted (alias of Max items) |
 | `proxyConfiguration` | object | Proxy configuration |
 
 `*` required
@@ -59,8 +62,28 @@ Full details on the [scraper page](https://apify.com/abotapi/next-uk-product-scr
 | `lowStock` | boolean |
 | `images` | list |
 | `composition` | string |
+| `fit` | string |
+| `availableFits` | list |
+| `brand` | string |
+| `colour` | string |
+| `department` | string |
+| `productCategory` | string |
 | `detailFetched` | boolean |
 | `image` | string |
+| `rating` | null |
+| `reviewCount` | integer |
+| `reviews` | list |
+| `rank` | integer |
+| `searchTerm` | string |
+| `territory` | string |
+| `newIn` | null |
+| `criteriaUrl` | string |
+| `colourwaysCount` | integer |
+| `language` | string |
+| `realm` | string |
+| `itemNumber` | string |
+| `minPrice` | integer |
+| `maxPrice` | integer |
 
 ---
 

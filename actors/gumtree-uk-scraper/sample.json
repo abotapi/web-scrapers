@@ -1,14 +1,14 @@
 [
   {
-    "id": "1072865469",
+    "id": "4236192034",
     "url": "https://www.gumtree.com/example/27041",
     "title": "Example title",
     "price": 582,
     "priceText": "Example price text",
     "currency": "GBP",
-    "categoryId": "46977",
+    "categoryId": "02002",
     "l1CategoryId": "3222",
-    "l2CategoryId": "7017",
+    "l2CategoryId": "93205",
     "categoryName": null,
     "vertical": "Example vertical",
     "adItemType": "http://schema.org/example/25114",
@@ -24,6 +24,7 @@
     "standout": false,
     "bumpup": false,
     "hasVideo": false,
+    "image": "https://img.gumtree.com/example/40428.jpg",
     "images": [
       "https://img.gumtree.com/example/45392.jpg",
       "https://img.gumtree.com/example/53287.jpg"
@@ -47,9 +48,9 @@
       }
     ],
     "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
-    "latitude": 52.53,
-    "longitude": -0.29,
-    "postcode": "W67HG",
+    "latitude": 0,
+    "longitude": 0,
+    "postcode": null,
     "area": "Example area",
     "subArea": "Example sub area",
     "address": "Example address",
@@ -57,8 +58,8 @@
     "seller": {
       "name": "Example name",
       "type": "private",
-      "id": "900390003",
-      "accountId": "312966256",
+      "id": "454789774",
+      "accountId": "991090098",
       "accountPublicId": "id98619742",
       "rating": 0,
       "reviewCount": 0,
@@ -79,12 +80,11 @@
       "phone": null,
       "phoneMasked": "+1 555 0100",
       "phoneStatus": "+1 555 0100",
-      "userId": "857181116",
+      "userId": "390707818",
       "smsEnabled": false,
       "loginRequiredToContact": true,
       "contactBadges": null,
       "skills": null
-    },
-    "scrapedAt": "2026-01-15T10:00:00Z"
+    }
   }
 ]

@@ -18,6 +18,7 @@ run = client.actor("abotapi/ticketmaster-event-discovery").call(
         "maxItems": 10,
         "maxPages": 1,
         "proxyConfiguration": {"useApifyProxy": True, "apifyProxyGroups": ["RESIDENTIAL"]},
+        "changeScope": "all",
     },
     logger=None,  # don't stream the run log to your console
 )

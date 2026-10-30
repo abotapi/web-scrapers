@@ -17,7 +17,7 @@ python example.py
 ```bash
 curl -s -X POST "https://api.apify.com/v2/acts/abotapi~thewarehouse-co-nz-scraper/run-sync-get-dataset-items?token=$APIFY_TOKEN" \
   -H 'Content-Type: application/json' \
-  -d '{"mode": "search", "queries": ["toaster"], "sortBy": "relevance", "maxReviewsPerProduct": 10, "maxItems": 10, "maxPages": 1, "proxy": {"useApifyProxy": true, "apifyProxyGroups": ["RESIDENTIAL"], "apifyProxyCountry": "NZ"}}'
+  -d '{"mode": "search", "queries": ["toaster"], "sortBy": "relevance", "maxItems": 10, "maxPages": 1, "maxReviewsPerProduct": 10, "proxy": {"useApifyProxy": true, "apifyProxyGroups": ["RESIDENTIAL"], "apifyProxyCountry": "NZ"}}'
 ```
 
 ## Inputs
@@ -30,11 +30,11 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~thewarehouse-co-nz-scrape
 | `sortBy` | string | Sort by |
 | `urls` | array | The Warehouse URLs |
 | `fetchDetails` | boolean | Fetch product details |
-| `fetchReviews` | boolean | Fetch customer reviews |
-| `maxReviewsPerProduct` | integer | Max reviews per product |
 | `includeUnavailable` | boolean | Include unavailable products |
 | `maxItems` | integer | Max products |
 | `maxPages` | integer | Max pages per query / URL |
+| `fetchReviews` | boolean | Fetch customer reviews |
+| `maxReviewsPerProduct` | integer | Max reviews per product |
 | `proxy` | object | Proxy configuration |
 
 `*` required
@@ -50,12 +50,12 @@ Full details on the [scraper page](https://apify.com/abotapi/thewarehouse-co-nz-
 | `url` | string |
 | `productId` | string |
 | `sku` | string |
-| `gtin` | null |
+| `gtin` | string |
 | `mpn` | string |
 | `title` | string |
 | `brand` | string |
 | `description` | string |
-| `category` | null |
+| `category` | string |
 | `breadcrumbs` | list |
 | `price` | float |
 | `priceMax` | float |
@@ -79,6 +79,11 @@ Full details on the [scraper page](https://apify.com/abotapi/thewarehouse-co-nz-
 | `offerEndsAt` | null |
 | `specialsCategory` | null |
 | `features` | list |
+| `wasPrice` | null |
+| `promotionFlags` | null |
+| `isClearance` | null |
+| `inStock` | boolean |
+| `sourceUrl` | string |
 | `scrapedAt` | string |
 
 ---

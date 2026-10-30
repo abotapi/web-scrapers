@@ -1,6 +1,6 @@
 # AU Residential Property Scraper
 
-Scrape Australian property listings with rich detail-page enrichment. Each listing record comes back with far more than the usual "address + price + beds". You get the full picture that a buyer would see on the site.
+Scrape Australian real estate listings with detailed property information. Extract addresses, prices, bedrooms, bathrooms, property features, descriptions, photos and other available listing details. Includes rich detail-page enrichment for comprehensive property research.
 
 **[Open AU Residential Property Scraper on Apify](https://apify.com/abotapi/property-au-scraper?utm_source=github&utm_medium=web-scrapers&utm_campaign=monorepo)** to run it without code and export JSON, CSV or Excel.
 
@@ -40,9 +40,9 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~property-au-scraper/run-s
 | `sortBy` | string | Sort Order |
 | `max_properties` | integer | Max Properties |
 | `max_pages` | integer | Max Pages |
-| `proxy` | object | Proxy Configuration |
 | `dataset_name` | string | Dataset Name (optional) |
 | `clear_dataset` | boolean | Clear Named Dataset |
+| `proxy` | object | Proxy Configuration |
 
 `*` required
 
@@ -64,8 +64,6 @@ Full details on the [scraper page](https://apify.com/abotapi/property-au-scraper
 | `listing_type` | string |
 | `listing_status` | string |
 | `property_type` | string |
-| `price` | string |
-| `price_details` | string |
 | `features` | object |
 | `description` | string |
 | `timeline` | list |
@@ -81,6 +79,13 @@ Full details on the [scraper page](https://apify.com/abotapi/property-au-scraper
 | `rea_url` | string |
 | `breadcrumbs` | list |
 | `status` | string |
+| `bedrooms` | integer |
+| `bathrooms` | integer |
+| `landSize` | string |
+| `propertyType` | string |
+| `councilArea` | string |
+| `url` | string |
+| `image` | string |
 | `source_listing` | string |
 | `source_listing_type` | string |
 | `scraped_at` | string |

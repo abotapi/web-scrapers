@@ -80,7 +80,7 @@ Full details on the [scraper page](https://apify.com/abotapi/marktplaats-nl-scra
 | `categoryId` | integer |
 | `category_id` | integer |
 | `category` | object |
-| `searchCategory` | integer |
+| `searchCategory` | null |
 | `searchQuery` | string |
 | `searchType` | string |
 | `search_type` | string |

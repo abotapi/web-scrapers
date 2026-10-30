@@ -15,6 +15,7 @@ run = client.actor("abotapi/kream-scraper").call(
         "mode": "search",
         "keywords": ["nike"],
         "sort": "popularity",
+        "maxReviewsPerProduct": 10,
         "maxItems": 10,
         "maxPages": 1,
         "proxy": {"useApifyProxy": True, "apifyProxyGroups": ["RESIDENTIAL"]},

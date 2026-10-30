@@ -68,8 +68,8 @@ Full details on the [scraper page](https://apify.com/abotapi/employmenthero-jobs
 | `experienceLevel` | string |
 | `workplaceType` | string |
 | `remote` | boolean |
-| `salaryMin` | integer |
-| `salaryMax` | integer |
+| `salaryMin` | null |
+| `salaryMax` | null |
 | `salaryCurrency` | string |
 | `salaryRate` | string |
 | `payHidden` | boolean |
@@ -77,7 +77,7 @@ Full details on the [scraper page](https://apify.com/abotapi/employmenthero-jobs
 | `countryCode` | string |
 | `sectorId` | integer |
 | `sectorName` | string |
-| `teamName` | string |
+| `teamName` | null |
 | `eoi` | boolean |
 | `organisationId` | string |
 | `organisationName` | string |
@@ -90,7 +90,7 @@ Full details on the [scraper page](https://apify.com/abotapi/employmenthero-jobs
 | `locationCity` | string |
 | `locationRegion` | string |
 | `locationPostcode` | string |
-| `salaryDisplay` | string |
+| `salaryDisplay` | null |
 | `scrapedAt` | string |
 
 ---

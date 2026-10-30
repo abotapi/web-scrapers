@@ -1,7 +1,7 @@
 [
   {
     "type": "property",
-    "propertyId": 68425,
+    "propertyId": 925,
     "propertyName": "Example property name",
     "propertyUrl": "https://www.hostelworld.com/example/21082",
     "propertyType": "HOSTEL",
@@ -9,16 +9,16 @@
     "city": "Berlin",
     "country": "Germany",
     "continent": "Example continent",
-    "avgRating": 7.04,
+    "avgRating": 6.72,
     "numberReviews": 6764,
-    "cityCenterDistanceKm": 1.29,
-    "latitude": "82.6705425",
-    "longitude": "44.8665462",
+    "cityCenterDistanceKm": 1.06,
+    "latitude": "55.1475423",
+    "longitude": "87.7096767",
     "hasAvailability": true,
     "isNew": false,
     "intro": "Example intro: mock text standing in for the real value. Same field and type, made-up content.",
-    "sharedMinPrice": 15.74,
-    "privateMinPrice": 26.58,
+    "sharedMinPrice": 13.15,
+    "privateMinPrice": 22.78,
     "currency": "EUR",
     "sustainability": null,
     "badges": [
@@ -35,21 +35,21 @@
     "sourceUrl": "https://www.hostelworld.com/example/1360",
     "scrapedAt": "2026-01-15T10:00:00Z",
     "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
-    "hostelworldSays": "",
+    "hostelworldSays": null,
     "addressFull": "Example address full",
     "directions": "Example directions: mock text standing in for the real value. Same field and type, made-up content.",
-    "checkInFrom": "66",
-    "checkInUntil": "61",
-    "latestCheckOut": "86:45",
+    "checkInFrom": 0,
+    "checkInUntil": 25,
+    "latestCheckOut": "70:61",
     "depositPercentage": 42,
     "freeCancellation": {
       "isAvailable": true,
-      "daysInAdvance": 3
+      "daysInAdvance": 75
     },
     "cancellationPolicy": {
       "depositOnly": {
         "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
-        "numberOfDays": "6"
+        "numberOfDays": "97"
       },
       "nonRefundable": {
         "description": "Example description: mock text standing in for the real value. Same field and type, made-up content."

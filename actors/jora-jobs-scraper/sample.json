@@ -8,9 +8,9 @@
     "countryCode": "au",
     "url": "https://au.jora.com/example/80288",
     "sourceUrl": "https://au.jora.com/example/65657",
-    "salary": null,
-    "salaryMin": null,
-    "salaryMax": null,
+    "salary": "Example salary",
+    "salaryMin": 20126,
+    "salaryMax": 20366,
     "workType": "Example work type",
     "workArrangement": null,
     "postedAtText": "Example posted at text",
@@ -20,7 +20,6 @@
     "page": 6,
     "abstract": "Example abstract: mock text standing in for the real value. Same field and type, made-up content.",
     "snippetBullets": [
-      "Example snippet bullets",
       "Example snippet bullets: mock text standing in for the real value. Same field and type, made-up content."
     ],
     "descriptionHtml": "Example description html: mock text standing in for the real value. Same field and type, made-up content.",

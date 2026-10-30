@@ -5,10 +5,10 @@
     "name": "Example name",
     "description": "Example description",
     "shortDescription": "Example short description",
-    "brandSlug": "burger-king",
-    "brandName": "Example brand name",
-    "brandLogoImage": "https://imageproxy.wolt.com/example/27619.jpg",
-    "brandLogoBlurhash": "Example brand logo blurhash",
+    "brandSlug": null,
+    "brandName": null,
+    "brandLogoImage": null,
+    "brandLogoBlurhash": null,
     "coverImage": "https://imageproxy.wolt.com/example/78833.jpg",
     "coverBlurhash": "Example cover blurhash",
     "address": "Example address",
@@ -16,18 +16,19 @@
     "cityId": "id27731367",
     "citySlug": "helsinki",
     "countryCode": "FIN",
-    "postCode": "55043",
-    "latitude": 44.53,
-    "longitude": 24.19,
+    "postCode": "14183",
+    "latitude": 44.54,
+    "longitude": 24.21,
     "timezone": "Example timezone",
     "currency": "EUR",
     "phone": "+1 555 0100",
-    "website": "http://www.burgerking.fi/example/35823",
+    "website": "http://wolt.com/example/35823",
     "woltUrl": "https://wolt.com/example/20923",
     "productLine": "restaurant",
     "secondaryProductLine": "none",
     "deliveryMethods": [
-      "homedelivery"
+      "homedelivery",
+      "takeaway"
     ],
     "deliveryBasePrice": 991,
     "deliveryBasePriceFormatted": "Example delivery base price formatted",
@@ -43,11 +44,11 @@
         [
           [
             28.27,
-            77.08
+            77.0
           ],
           [
-            31.77,
-            46.38
+            31.73,
+            46.33
           ]
         ]
       ]
@@ -62,9 +63,9 @@
     "venueId": "id75803481",
     "slug": "Example slug",
     "name": "Example name",
-    "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
+    "description": "Example description",
     "shortDescription": "Example short description",
-    "brandSlug": "taco-bell",
+    "brandSlug": "burger-king",
     "brandName": "Example brand name",
     "brandLogoImage": "https://imageproxy.wolt.com/example/63920.jpg",
     "brandLogoBlurhash": "Example brand logo blurhash",
@@ -81,7 +82,7 @@
     "timezone": "Example timezone",
     "currency": "EUR",
     "phone": "+1 555 0100",
-    "website": "https://www.tacobell.fi/example/34929",
+    "website": "http://www.burgerking.fi/example/34929",
     "woltUrl": "https://wolt.com/example/85361",
     "productLine": "restaurant",
     "secondaryProductLine": "none",
@@ -101,12 +102,12 @@
       "coordinates": [
         [
           [
-            19.09,
-            48.77
+            19.1,
+            48.78
           ],
           [
             20.1,
-            74.68
+            74.69
           ]
         ]
       ]

@@ -1,22 +1,22 @@
 [
   {
-    "stockcode": "2694254",
+    "stockcode": "199049",
     "name": "Example name",
     "displayName": "Example display name",
     "title": "Example title",
-    "brand": "Example brand",
+    "brand": "a2",
     "url": "https://www.woolworths.com.au/example/8870",
-    "price": 3.81,
+    "price": 7.96,
     "isOnSpecial": false,
     "isHalfPrice": false,
     "isEdrSpecial": false,
-    "cupPrice": 87,
+    "cupPrice": 3.18,
     "cupMeasure": "Example cup measure",
     "cupString": "Example cup string",
     "packageSize": "Example package size",
     "unit": "Each",
     "currency": "AUD",
-    "barcode": "4649895312724",
+    "barcode": "6744820275616",
     "gtinFormat": 24,
     "isAvailable": true,
     "isInStock": true,
@@ -25,77 +25,26 @@
     "ageRestricted": false,
     "isTobacco": false,
     "departments": [
-      "Example departments",
       "Example departments"
     ],
     "departmentIds": [
-      "9_8e3f8e4",
-      "9_7e75c94"
+      "9_8e3f8e4"
     ],
     "departmentNames": [
-      "Example department names",
       "Example department names"
     ],
     "productLimit": 73,
     "isMarketProduct": false,
     "variety": "Example variety",
-    "offerId": "25626130",
     "sponsored": false,
-    "image": "https://cdn1.woolworths.media/example/77464.jpg",
-    "thumbnailImage": "https://cdn1.woolworths.media/example/76232.jpg",
+    "image": "https://cdn0.woolworths.media/example/77464.jpg",
+    "thumbnailImage": "https://cdn0.woolworths.media/example/76232.jpg",
     "description": "Example description",
-    "savingsLabel": "Example savings label",
-    "promotionType": "LowerShelfPrice",
-    "promotionInfo": "Example promotion info",
-    "inStorePrice": 3.78,
-    "inStoreIsOnSpecial": false
-  },
-  {
-    "stockcode": "394457",
-    "name": "Example name",
-    "displayName": "Example display name",
-    "title": "Example title",
-    "brand": "Oli6",
-    "url": "https://www.woolworths.com.au/example/23338",
-    "price": 27.65,
-    "isOnSpecial": false,
-    "isHalfPrice": false,
-    "isEdrSpecial": false,
-    "cupPrice": 5.78,
-    "cupMeasure": "Example cup measure",
-    "cupString": "Example cup string",
-    "packageSize": "Example package size",
-    "unit": "Each",
-    "currency": "AUD",
-    "barcode": "9532146777543",
-    "gtinFormat": 69,
-    "isAvailable": true,
-    "isInStock": true,
-    "isNew": false,
-    "isOnlineOnly": false,
-    "ageRestricted": false,
-    "isTobacco": false,
-    "departments": [
-      "baby"
-    ],
-    "departmentIds": [
-      "4_453a62b"
-    ],
-    "departmentNames": [
-      "Example department names"
-    ],
-    "productLimit": 33,
-    "isMarketProduct": false,
-    "variety": "Example variety",
-    "sponsored": false,
-    "image": "https://cdn1.woolworths.media/example/51468.jpg",
-    "thumbnailImage": "https://cdn1.woolworths.media/example/91772.jpg",
-    "description": "Example description",
-    "inStorePrice": 41.08,
+    "promoLabel": "Example promo label",
+    "inStorePrice": 7.88,
     "inStoreIsOnSpecial": false,
-    "inStoreCupPrice": 6.18,
+    "inStoreCupPrice": 4.05,
     "inStoreCupString": "Example in store cup string",
-    "richDescription": "Example rich description: mock text standing in for the real value. Same field and type, made-up content.",
-    "fullDescription": "Example full description"
+    "richDescription": "Example rich description: mock text standing in for the real value. Same field and type, made-up content."
   }
 ]

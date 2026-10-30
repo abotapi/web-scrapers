@@ -58,12 +58,12 @@ Full details on the [scraper page](https://apify.com/abotapi/poshmark-scraper?ut
 | `listingId` | string |
 | `url` | string |
 | `title` | string |
-| `brand` | string |
-| `brandPath` | string |
+| `brand` | null |
+| `brandPath` | null |
 | `size` | string |
 | `sizeDisplay` | string |
-| `condition` | string |
-| `conditionLabel` | string |
+| `condition` | null |
+| `conditionLabel` | null |
 | `price` | integer |
 | `originalPrice` | integer |
 | `currency` | string |
@@ -88,11 +88,11 @@ Full details on the [scraper page](https://apify.com/abotapi/poshmark-scraper?ut
 | `sellerName` | string |
 | `sellerUrl` | string |
 | `coverImageUrl` | string |
-| `pictureUrls` | list |
+| `pictureUrls` | null |
 | `poshPassEligible` | boolean |
 | `soldPrice` | null |
 | `status` | string |
-| `nwt` | boolean |
+| `nwt` | null |
 
 ---
 

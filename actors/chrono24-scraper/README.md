@@ -17,7 +17,7 @@ python example.py
 ```bash
 curl -s -X POST "https://api.apify.com/v2/acts/abotapi~chrono24-scraper/run-sync-get-dataset-items?token=$APIFY_TOKEN" \
   -H 'Content-Type: application/json' \
-  -d '{"mode": "search", "searchQuery": "Rolex Submariner", "sortBy": "relevance", "maxListings": 10, "maxPages": 1, "proxy": {"useApifyProxy": true}}'
+  -d '{"mode": "search", "searchQuery": "Rolex Submariner", "sortBy": "relevance", "maxReviewsPerListing": 10, "maxListings": 10, "maxPages": 1, "proxy": {"useApifyProxy": true}}'
 ```
 
 ## Inputs
@@ -27,11 +27,36 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~chrono24-scraper/run-sync
 | `mode` * | string | Mode |
 | `searchQuery` | string | Search keyword |
 | `searchParams` | object | Filters |
+| `manufacturerIds` | string | Brand ids |
+| `catalogCollectionId` | string | Catalog collection id |
+| `catalogModelId` | string | Catalog model id |
+| `priceFrom` | integer | Min price |
+| `priceTo` | integer | Max price |
+| `watchTypes` | string | New or used |
+| `condition` | string | Condition code |
+| `certified` | boolean | Certified only |
+| `specials` | array | Delivery contents |
+| `movementTypes` | string | Movement type |
+| `gender` | string | Gender |
+| `caseDiameter` | string | Case diameter (mm) |
+| `year` | string | Year |
+| `waterproof` | string | Water resistance code |
+| `functions` | array | Functions |
+| `styles` | array | Styles |
+| `caseMaterials` | array | Case materials |
+| `dialColor` | array | Dial colors |
+| `braceletMaterial` | array | Bracelet materials |
+| `braceletColor` | array | Bracelet colors |
+| `sellerType` | string | Seller type |
+| `stockInfo` | string | Stock |
+| `countryIds` | string | Seller countries |
+| `trackingId` | string | Tracking id |
 | `sortBy` | string | Sort by |
 | `dealsOnly` | boolean | Top Deals collection only |
 | `urls` | array | Start URLs |
 | `fetchDetails` | boolean | Fetch full details |
 | `fetchSellerReviews` | boolean | Include seller reviews |
+| `maxReviewsPerListing` | integer | Max reviews per listing |
 | `flatten` | boolean | Flatten specs |
 | `includeRaw` | boolean | Include raw size marker |
 | `maxListings` | integer | Max listings |
@@ -85,9 +110,9 @@ Full details on the [scraper page](https://apify.com/abotapi/chrono24-scraper?ut
 | `specs` | object |
 | `images` | list |
 | `thumbnail` | string |
-| `scrapedAt` | string |
-| `sellerRating` | float |
-| `reviewCount` | integer |
+| `mainImage` | string |
+| `imageUrls` | list |
+| `certifiedStatus` | string |
 
 ---
 

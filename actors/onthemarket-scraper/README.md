@@ -36,6 +36,7 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~onthemarket-scraper/run-s
 | `radius` | string | Search radius (miles) |
 | `sortType` | string | Sort order |
 | `includeUnderOffer` | boolean | Include under offer / SSTC |
+| `addedToSite` | string | Added to site |
 | `includeDetails` | boolean | Include full property details |
 | `maxItems` | integer | Max items |
 | `maxPages` | integer | Max pages |
@@ -51,6 +52,7 @@ Full details on the [scraper page](https://apify.com/abotapi/onthemarket-scraper
 
 | Field | Type |
 | --- | --- |
+| `recordType` | string |
 | `id` | string |
 | `url` | string |
 | `channel` | string |
@@ -67,6 +69,8 @@ Full details on the [scraper page](https://apify.com/abotapi/onthemarket-scraper
 | `longitude` | float |
 | `mainLabel` | string |
 | `daysSinceAddedReduced` | string |
+| `feesLabel` | null |
+| `feesDescription` | null |
 | `reduced` | null |
 | `spotlight` | boolean |
 | `matterportVirtualTour` | boolean |
@@ -79,6 +83,9 @@ Full details on the [scraper page](https://apify.com/abotapi/onthemarket-scraper
 | `agentLogo` | string |
 | `rawAgent` | object |
 | `detailScraped` | boolean |
+| `sourceUrl` | string |
+| `seedType` | string |
+| `seedValue` | string |
 
 ---
 

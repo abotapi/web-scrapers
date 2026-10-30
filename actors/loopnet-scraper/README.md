@@ -64,14 +64,14 @@ Full details on the [scraper page](https://apify.com/abotapi/loopnet-scraper?utm
 | `title` | string |
 | `listingType` | string |
 | `propertyType` | string |
-| `propertyTypeName` | null |
+| `propertyTypeName` | string |
 | `spaceUse` | null |
 | `listingTypeName` | string |
 | `exposureLevel` | string |
 | `addressRaw` | string |
 | `street` | null |
 | `city` | string |
-| `state` | null |
+| `state` | string |
 | `zipCode` | string |
 | `country` | string |
 | `marketId` | null |
@@ -82,7 +82,7 @@ Full details on the [scraper page](https://apify.com/abotapi/loopnet-scraper?utm
 | `priceRaw` | null |
 | `priceUnit` | string |
 | `priceLabel` | string |
-| `listedAt` | string |
+| `listedAt` | null |
 | `currency` | string |
 | `size` | string |
 | `sizeSqft` | integer |

@@ -17,7 +17,7 @@ python example.py
 ```bash
 curl -s -X POST "https://api.apify.com/v2/acts/abotapi~swappa-com/run-sync-get-dataset-items?token=$APIFY_TOKEN" \
   -H 'Content-Type: application/json' \
-  -d '{"mode": "search", "resultType": "both", "queries": ["iPhone 15 Pro"], "maxPages": 1, "maxListings": 10, "proxy": {"useApifyProxy": true, "apifyProxyGroups": ["RESIDENTIAL"], "apifyProxyCountry": "US"}}'
+  -d '{"mode": "search", "resultType": "both", "queries": ["iPhone 15 Pro"], "maxReviewsPerProduct": 10, "maxPages": 1, "maxListings": 10, "proxy": {"useApifyProxy": true, "apifyProxyGroups": ["RESIDENTIAL"], "apifyProxyCountry": "US"}, "changeScope": "all"}'
 ```
 
 ## Inputs
@@ -44,10 +44,14 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~swappa-com/run-sync-get-d
 | `maxPrice` | integer | Maximum price (USD) |
 | `minBatteryHealth` | integer | Minimum battery health (%) |
 | `fetchDetails` | boolean | Open each device page |
+| `maxReviewsPerProduct` | integer | Maximum reviews per device model |
 | `deepSoldHistory` | boolean | Deep sold-price history |
 | `maxPages` | integer | Maximum catalogue pages per device |
 | `maxListings` | integer | Maximum devices |
 | `proxy` | object | Connection |
+| `changeScope` | string | Fields to compare (incremental mode on |
+| `compactUpdates` | boolean | Compact UPDATED rows (incremental mode |
+| `expireAfterMissedScans` | integer | Expire after missed scans (incremental |
 
 `*` required
 
@@ -84,6 +88,7 @@ Full details on the [scraper page](https://apify.com/abotapi/swappa-com?utm_sour
 | `deepHistory` | boolean |
 | `historyFiltersSwept` | integer |
 | `scrapedAt` | string |
+| `reviews` | list |
 
 ---
 

@@ -9,15 +9,15 @@
     "jobUrl": "https://www.stepstone.de/example/26423",
     "applyUrl": "https://www.stepstone.de/example/24789",
     "sourceSite": "StepStone.de",
-    "title": "Example title",
+    "title": "Example title: mock text standing in for the real value. Same field and type, made-up content.",
     "datePosted": "2026-01-15T10:00:00Z",
     "publishFromDate": "2026-01-15T10:00:00Z",
     "publishToDate": "2026-01-15T10:00:00Z",
     "employer": {
-      "id": 546438,
+      "id": 96438,
       "name": "Example name",
       "url": "https://www.stepstone.de/example/38998",
-      "logoUrl": "",
+      "logoUrl": "https://www.stepstone.de/example/7453.jpg",
       "isAnonymous": false
     },
     "location": {

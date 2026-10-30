@@ -10,7 +10,7 @@
     "images": [
       "https://contents.mediadecathlon.com/example/47894.jpg"
     ],
-    "price": 188.99,
+    "price": 150.56,
     "currency": "EUR",
     "originalPrice": null,
     "discountPercent": null,
@@ -21,6 +21,7 @@
       "27 7/4"
     ],
     "onlineAvailable": true,
+    "inStock": true,
     "seller": {
       "name": "Example name",
       "type": "FIRST_PARTY"
@@ -29,12 +30,20 @@
       "Example sports"
     ],
     "nature": "Example nature",
-    "rating": 4.42,
+    "rating": 4.41,
     "reviewCount": 214,
     "reviews": {
-      "averageRating": 5.99,
+      "averageRating": 5.97,
       "totalReviewCount": 759,
       "recommendedCount": 818,
+      "percentageSatisfied": 85.35,
+      "ratingDistribution": {
+        "1": 5,
+        "2": 6,
+        "3": 3,
+        "4": 35,
+        "5": 403
+      },
       "items": [
         {
           "rating": 3,
@@ -43,7 +52,11 @@
           "author": "Example author",
           "date": "2026-01-15T10:00:00Z",
           "recommended": true,
-          "verifiedBuyer": true
+          "verifiedBuyer": true,
+          "reviewId": "id4534332",
+          "replies": [],
+          "usedSince": "Example used since",
+          "incentivized": true
         }
       ]
     },

@@ -1,24 +1,24 @@
 [
   {
     "rowType": "detail",
-    "listingId": "69210647",
-    "watchId": "10960782",
+    "listingId": "24547749",
+    "watchId": "99476805",
     "listingUrl": "https://www.chrono24.com/example/58826",
     "sourceUrl": "https://www.chrono24.com/example/32964",
-    "title": "Example title: mock text standing in for the real value. Same field and type, made-up content.",
+    "title": "Example title",
     "brand": "Rolex",
     "model": "Example model",
     "referenceNumber": "54479",
-    "listingCode": "s2vo33",
+    "listingCode": "s6s7t8",
     "description": "Example description",
     "price": 2309,
-    "priceDisplay": "7408",
+    "priceDisplay": "8354",
     "currency": "USD",
     "availability": "Example availability",
     "availabilityText": "Example availability text",
     "condition": "Example condition",
     "conditionText": "Example condition text: mock text standing in for the real value. Same field and type, made-up content.",
-    "year": "1200",
+    "year": "9458",
     "location": "Example location",
     "sellerCountry": "Example seller country",
     "sellerUsername": "Example seller username",
@@ -35,8 +35,8 @@
     "refId": 835,
     "buyingAgent": null,
     "specs": {
-      "movement": "Example movement",
-      "caliber": null,
+      "movement": null,
+      "caliber": "Example caliber",
       "baseCaliber": null,
       "powerReserve": null,
       "jewels": null,
@@ -59,8 +59,11 @@
       "https://img.chrono24.com/example/28837.jpg"
     ],
     "thumbnail": "https://img.chrono24.com/example/15323.jpg",
-    "scrapedAt": "2026-01-15T10:00:00Z",
-    "sellerRating": 5.14,
-    "reviewCount": 15
+    "mainImage": "https://img.chrono24.com/example/10979.jpg",
+    "imageUrls": [
+      "https://img.chrono24.com/example/46524.jpg",
+      "https://img.chrono24.com/example/27668.jpg"
+    ],
+    "certifiedStatus": "Certifiable"
   }
 ]

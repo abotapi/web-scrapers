@@ -18,6 +18,8 @@ run = client.actor("abotapi/ebay-com-scraper").call(
         "buyingFormat": "any",
         "itemLocation": "default",
         "sortBy": "best_match",
+        "itemCondition": "any",
+        "maxReviewsPerProduct": 10,
         "maxItems": 10,
         "maxPages": 1,
         "proxy": {"useApifyProxy": True, "apifyProxyGroups": ["RESIDENTIAL"]},

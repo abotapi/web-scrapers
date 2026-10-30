@@ -1,8 +1,8 @@
-# GoWork FR & DE Company Reviews and Profile Scraper
+# GoWork Scraper
 
 Extract company profiles from GoWork France and Germany, including contact details, review threads with replies, ratings breakdowns, opening hours, social links, SIREN/NAF identifiers, and 100+ structured company fields. Supports keyword search, URL input, and bulk sitemap discovery.
 
-**[Open GoWork FR & DE Company Reviews and Profile Scraper on Apify](https://apify.com/abotapi/gowork-eu-scraper?utm_source=github&utm_medium=web-scrapers&utm_campaign=monorepo)** to run it without code and export JSON, CSV or Excel.
+**[Open GoWork Scraper on Apify](https://apify.com/abotapi/gowork-eu-scraper?utm_source=github&utm_medium=web-scrapers&utm_campaign=monorepo)** to run it without code and export JSON, CSV or Excel.
 
 ## Run it from code
 
@@ -17,7 +17,7 @@ python example.py
 ```bash
 curl -s -X POST "https://api.apify.com/v2/acts/abotapi~gowork-eu-scraper/run-sync-get-dataset-items?token=$APIFY_TOKEN" \
   -H 'Content-Type: application/json' \
-  -d '{"mode": "search", "locale": "fr", "queries": ["Carrefour"], "sitemapKind": "constant", "output": "company", "maxPages": 1, "maxListings": 10, "maxReviewsPerCompany": 10, "proxy": {"useApifyProxy": true, "apifyProxyGroups": ["RESIDENTIAL"], "apifyProxyCountry": "FR"}}'
+  -d '{"mode": "search", "locale": "fr", "queries": ["Carrefour"], "sitemapKind": "companies", "output": "company", "maxPages": 1, "maxListings": 10, "maxReviewsPerCompany": 10, "proxy": {"useApifyProxy": true, "apifyProxyGroups": ["RESIDENTIAL"], "apifyProxyCountry": "FR"}}'
 ```
 
 ## Inputs
@@ -71,26 +71,26 @@ Full details on the [scraper page](https://apify.com/abotapi/gowork-eu-scraper?u
 | `jsonLd` | list |
 | `isUpstreamChallenge` | boolean |
 | `parseMeta` | object |
-| `companyId` | string |
 | `org_name` | string |
+| `org_telephone` | string |
+| `org_tax_id` | string |
+| `org_description` | null |
+| `org_founding_date` | string |
+| `org_street_address` | string |
+| `org_address_locality` | string |
+| `org_address_region` | string |
+| `org_address_country` | string |
+| `postalCode` | string |
+| `org_rating_value` | float |
+| `org_rating_count` | integer |
+| `org_review_count` | integer |
+| `org_review_blocks` | integer |
+| `companyLogoUrl` | string |
+| `companyId` | string |
 | `longName` | string |
 | `altName` | string |
 | `status` | integer |
 | `dataStatus` | integer |
-| `flagsBits` | list |
-| `multiCity` | boolean |
-| `companyEmail` | null |
-| `companyPhone` | string |
-| `org_telephone` | string |
-| `companyWebsite` | string |
-| `companyWebsiteRaw` | string |
-| `companyWebpageTitle` | null |
-| `companyWebpageDescription` | null |
-| `companyLinkedInUrl` | null |
-| `companyInstagramUrl` | null |
-| `companyFacebookUrl` | string |
-| `companyTwitterUrl` | null |
-| `companyYouTubeUrl` | null |
 
 ---
 

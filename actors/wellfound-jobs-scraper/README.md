@@ -17,7 +17,7 @@ python example.py
 ```bash
 curl -s -X POST "https://api.apify.com/v2/acts/abotapi~wellfound-jobs-scraper/run-sync-get-dataset-items?token=$APIFY_TOKEN" \
   -H 'Content-Type: application/json' \
-  -d '{"mode": "search", "locations": ["san-francisco"], "keywords": ["python"], "maxItems": 10, "maxPages": 1, "proxy": {"useApifyProxy": true, "apifyProxyGroups": ["RESIDENTIAL"]}}'
+  -d '{"mode": "search", "locations": ["san-francisco"], "keywords": ["python"], "experienceLevel": "any", "sortBy": "default", "maxItems": 10, "maxPages": 1, "proxy": {"useApifyProxy": true, "apifyProxyGroups": ["RESIDENTIAL"]}}'
 ```
 
 ## Inputs
@@ -32,6 +32,18 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~wellfound-jobs-scraper/ru
 | `remoteOnly` | boolean | Remote only |
 | `requireCompensation` | boolean | Require compensation |
 | `activelyHiringOnly` | boolean | Actively hiring only |
+| `jobTypes` | array | Job types |
+| `experienceLevel` | string | Experience level |
+| `includeNoExperience` | boolean | Keep jobs with no experience listed |
+| `minSalary` | integer | Minimum salary |
+| `maxSalary` | integer | Maximum salary |
+| `includeNoSalary` | boolean | Keep jobs with no salary listed |
+| `postedWithinDays` | integer | Posted within days |
+| `includeCompanies` | array | Include companies |
+| `excludeCompanies` | array | Exclude companies |
+| `companySize` | array | Company size |
+| `sortBy` | string | Sort by |
+| `includeJobDetails` | boolean | Include job details |
 | `maxItems` | integer | Max items |
 | `maxPages` | integer | Max pages per source |
 | `proxy` | object | Proxy configuration |

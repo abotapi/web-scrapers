@@ -1,6 +1,6 @@
 # Currys UK Scraper
 
-Scrape Currys UK electronics by keyword or URL. Extract prices, brands, stock status, EANs, descriptions, full image galleries and customer reviews. Supports automatic forward pagination for efficient catalogue scraping.
+Scrape Currys UK products, including electronics, home appliances, computers, TVs and gaming. Search by keyword or URL. Extract prices, brands, stock availability, EANs, descriptions, full image galleries and customer reviews. Supports automatic pagination.
 
 **[Open Currys UK Scraper on Apify](https://apify.com/abotapi/currys-co-uk?utm_source=github&utm_medium=web-scrapers&utm_campaign=monorepo)** to run it without code and export JSON, CSV or Excel.
 
@@ -54,17 +54,20 @@ Full details on the [scraper page](https://apify.com/abotapi/currys-co-uk?utm_so
 | `title` | string |
 | `brand` | string |
 | `price` | float |
-| `wasPrice` | float |
-| `discount` | integer |
-| `discountPercent` | integer |
+| `wasPrice` | null |
+| `discount` | null |
+| `discountPercent` | null |
 | `currency` | string |
 | `availabilityStatus` | string |
+| `searchUrl` | string |
+| `imageUrl` | string |
 | `categories` | list |
 | `ean` | string |
 | `rating` | float |
 | `reviewCount` | integer |
 | `description` | string |
 | `images` | list |
+| `specs` | list |
 | `priceValidUntil` | string |
 | `carePlans` | list |
 | `financeOptions` | list |

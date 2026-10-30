@@ -18,25 +18,5 @@
     "seller": "Example seller",
     "rating": 4.22,
     "reviewCount": 91
-  },
-  {
-    "productId": "480926132",
-    "title": "Example title",
-    "url": "https://www.kaufland.de/example/6487",
-    "image": "https://media.cdn.kaufland.de/example/89931.jpg",
-    "price": null,
-    "currency": null,
-    "originalPrice": null,
-    "discountAmount": null,
-    "discountPercent": null,
-    "isOnSpecial": false,
-    "unitPrice": {
-      "value": 50.72,
-      "unit": "Example unit"
-    },
-    "promoLabel": "Example promo label",
-    "seller": "Example seller",
-    "rating": 6.1,
-    "reviewCount": 76
   }
 ]

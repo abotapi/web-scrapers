@@ -38,6 +38,16 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~rakuten-travel-scraper/ru
 | `maxReviews` | integer | Max reviews per hotel |
 | `maxItems` | integer | Max items |
 | `maxPages` | integer | Max listing pages per source |
+| `checkInDate` | string | Check-in date (room rates) |
+| `startDate` | string | Start date |
+| `endDate` | string | End date (inclusive) |
+| `monthsAhead` | integer | Months ahead |
+| `nights` | integer | Nights |
+| `adults` | integer | Adults |
+| `children` | integer | Children |
+| `childCounts` | object | Child counts by age band |
+| `rooms` | integer | Rooms |
+| `includeSoldOut` | boolean | Keep sold-out entries |
 | `proxy` | object | Proxy configuration |
 
 `*` required

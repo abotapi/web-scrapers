@@ -26,6 +26,7 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~thredup-scraper/run-sync-
 | --- | --- | --- |
 | `mode` * | string | Mode |
 | `searchQueries` | array | Search keywords |
+| `searchQuery` | string | Search keyword (single) |
 | `department` | string | Department |
 | `categories` | array | Categories |
 | `brands` | array | Brands |
@@ -91,6 +92,7 @@ Full details on the [scraper page](https://apify.com/abotapi/thredup-scraper?utm
 | `fullDescription` | null |
 | `measurements` | null |
 | `detailRaw` | null |
+| `size` | string |
 
 ---
 

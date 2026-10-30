@@ -17,7 +17,7 @@ python example.py
 ```bash
 curl -s -X POST "https://api.apify.com/v2/acts/abotapi~leboncoin-fr-scraper/run-sync-get-dataset-items?token=$APIFY_TOKEN" \
   -H 'Content-Type: application/json' \
-  -d '{"mode": "search", "category": "all", "locations": ["Paris"], "ownerType": "all", "fuel": "all", "sortBy": "relevance", "maxPages": 1, "maxListings": 10, "proxy": {"useApifyProxy": true, "apifyProxyGroups": ["RESIDENTIAL"], "apifyProxyCountry": "AT"}}'
+  -d '{"mode": "search", "category": "all", "locations": ["Paris"], "ownerType": "all", "fuel": "all", "sortBy": "relevance", "maxPages": 1, "maxListings": 10, "maxReviews": 10, "proxy": {"useApifyProxy": true, "apifyProxyGroups": ["RESIDENTIAL"], "apifyProxyCountry": "AT"}, "changeScope": "all"}'
 ```
 
 ## Inputs
@@ -43,8 +43,12 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~leboncoin-fr-scraper/run-
 | `maxListings` | integer | Max total listings |
 | `fetchDetails` | boolean | Fetch detail pages (richer fields) |
 | `fetchSellerReviews` | boolean | Enrich with seller reviews |
+| `maxReviews` | integer | Max reviews per seller |
 | `fetchSellerOtherListings` | boolean | Enrich with seller's other listings |
 | `proxy` | object | Proxy |
+| `expireAfterMissedScans` | integer | Expire after N missed scans (increment |
+| `changeScope` | string | Compare scope (incremental mode only) |
+| `compactUpdates` | boolean | Compact UPDATED rows (incremental mode |
 
 `*` required
 
@@ -71,7 +75,7 @@ Full details on the [scraper page](https://apify.com/abotapi/leboncoin-fr-scrape
 | `price_cents` | integer |
 | `publication_date` | string |
 | `index_date` | string |
-| `expiration_date` | string |
+| `expiration_date` | null |
 | `has_phone` | boolean |
 | `is_boosted` | boolean |
 | `is_urgent` | boolean |

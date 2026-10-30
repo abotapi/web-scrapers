@@ -1,6 +1,6 @@
 [
   {
-    "id": "5581737814",
+    "id": "4347077338",
     "nodeId": "id63713463",
     "url": "https://www.daangn.com/example/92124",
     "title": "Example title",
@@ -28,18 +28,18 @@
     "regionSlug": null,
     "searchQuery": "Example search query",
     "region": {
-      "id": "1774",
+      "id": "2631",
       "name": "Example name",
       "countryCode": "KR"
     },
     "category": {
-      "id": "82",
+      "id": "5",
       "name": "Example name"
     },
     "user": {
       "nickname": "Example nickname",
-      "score": 40.94,
-      "reviewCount": 65,
+      "score": 86,
+      "reviewCount": 605,
       "locationName": null
     },
     "tradingLocation": {
@@ -51,13 +51,13 @@
     "sellerName": "Example seller name",
     "condition": "used",
     "chatRoomsCount": 0,
-    "watchesCount": 93,
-    "readsCount": 878,
-    "favoriteCount": 77,
+    "watchesCount": 0,
+    "readsCount": 5,
+    "favoriteCount": 0,
     "chatCount": 0,
-    "viewCount": 115,
-    "sellerScore": 47.6,
-    "sellerReviewCount": 84,
+    "viewCount": 7,
+    "sellerScore": 70,
+    "sellerReviewCount": 264,
     "sellerProfileUrl": "https://www.daangn.com/example/44329",
     "sellerProfileImage": "https://assetstorage.krrt.io/example/6596.jpg"
   }

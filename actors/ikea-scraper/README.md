@@ -37,6 +37,7 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~ikea-scraper/run-sync-get
 | `inStockOnly` | boolean | In stock only |
 | `containsKeyword` | string | Contains keyword |
 | `specialsCategory` | string | Specials |
+| `filters` | object | Facet filters |
 | `fetchDetails` | boolean | Fetch full description & reviews |
 | `maxReviews` | integer | Max reviews per product |
 | `includeAvailability` | boolean | Include store availability |
@@ -88,12 +89,12 @@ Full details on the [scraper page](https://apify.com/abotapi/ikea-scraper?utm_so
 | `height` | float |
 | `measurementUnit` | string |
 | `categoryPath` | list |
+| `ancestorCategories` | list |
 | `categoryClass` | string |
 | `businessStructure` | object |
 | `badge` | string |
 | `badgeType` | string |
 | `isBestseller` | boolean |
-| `isNewArrival` | boolean |
 
 ---
 

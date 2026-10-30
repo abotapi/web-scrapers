@@ -17,7 +17,7 @@ python example.py
 ```bash
 curl -s -X POST "https://api.apify.com/v2/acts/abotapi~jobteaser-scraper/run-sync-get-dataset-items?token=$APIFY_TOKEN" \
   -H 'Content-Type: application/json' \
-  -d '{"mode": "search", "queries": ["data analyst"], "locale": "en", "radius": "30", "maxItems": 10, "proxy": {"useApifyProxy": true, "apifyProxyGroups": ["RESIDENTIAL"], "apifyProxyCountry": "FR"}}'
+  -d '{"mode": "search", "queries": ["data analyst"], "locale": "en", "radius": "30", "postedWithin": "any", "maxItems": 10, "proxy": {"useApifyProxy": true, "apifyProxyGroups": ["RESIDENTIAL"], "apifyProxyCountry": "FR"}}'
 ```
 
 ## Inputs
@@ -41,6 +41,7 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~jobteaser-scraper/run-syn
 | `languages` | array | Listing languages |
 | `startDate` | array | Start dates |
 | `jobWithImpact` | boolean | Companies with impact only |
+| `postedWithin` | string | Posted within |
 | `startUrls` | array | URLs |
 | `fetchDetails` | boolean | Fetch full job details |
 | `includeCompanyDetails` | boolean | Include employer profiles |

@@ -85,9 +85,9 @@ Full details on the [scraper page](https://apify.com/abotapi/cwjobs-scraper?utm_
 | `employerId` | integer |
 | `employerLogoUrl` | string |
 | `employerProfileUrl` | string |
-| `companyEmployees` | null |
-| `companyFounded` | null |
-| `companyIndustries` | null |
+| `companyEmployees` | string |
+| `companyFounded` | integer |
+| `companyIndustries` | list |
 
 ---
 

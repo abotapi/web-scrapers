@@ -1,8 +1,8 @@
 [
   {
     "kind": "concert",
-    "recordId": "59200129",
-    "concertId": "62200837",
+    "recordId": "41016005",
+    "concertId": "96901831",
     "url": "https://www.concertarchives.org/example/6114",
     "slug": "id10758413",
     "title": "Example title",
@@ -22,11 +22,10 @@
     "venueCity": "Example venue city",
     "venueRegion": "Example venue region",
     "venueCountry": "Brazil",
-    "ticketUrl": null,
+    "ticketUrl": "https://www.universe.com/example/80792",
     "hasSetlist": false,
-    "hasPhotos": true,
+    "hasPhotos": false,
     "labels": [
-      "Example labels",
       "Example labels"
     ],
     "endDate": "2026-01-15",
@@ -37,13 +36,13 @@
       {
         "name": "Example name",
         "url": "https://www.concertarchives.org/example/6114",
-        "genre": "pop",
+        "genre": "rock",
         "imageUrl": "https://i.scdn.co/example/20333.jpg"
       },
       {
         "name": "Example name",
         "url": "https://www.concertarchives.org/example/55658",
-        "genre": "pop",
+        "genre": "rock",
         "imageUrl": "https://i.scdn.co/example/81990.jpg"
       }
     ],
@@ -51,70 +50,10 @@
       "Electronic",
       "Pop"
     ],
-    "ticketVendor": null,
+    "ticketVendor": "Example ticket vendor",
     "venueAddress": "Example venue address",
     "lineupCount": 30,
-    "attendeeCount": 60,
-    "photoCount": 7,
-    "setlists": null,
-    "setlistCount": null
-  },
-  {
-    "kind": "concert",
-    "recordId": "62747310",
-    "concertId": "96330669",
-    "url": "https://www.concertarchives.org/example/14040",
-    "slug": "id11587033",
-    "title": "Example title",
-    "startDate": "2026-01-15",
-    "dateText": "Example date text",
-    "isUpcoming": true,
-    "tourName": null,
-    "lineup": [
-      "Example lineup",
-      "Example lineup"
-    ],
-    "headliner": "Example headliner",
-    "venueName": "Example venue name",
-    "venueUrl": "https://www.concertarchives.org/example/738",
-    "locationText": "Example location text",
-    "locationUrl": "https://www.concertarchives.org/example/36005",
-    "venueCity": "Example venue city",
-    "venueRegion": "Example venue region",
-    "venueCountry": "Brazil",
-    "ticketUrl": null,
-    "hasSetlist": true,
-    "hasPhotos": false,
-    "labels": [
-      "Example labels",
-      "Example labels"
-    ],
-    "endDate": "2026-01-15",
-    "eventStatus": "scheduled",
-    "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
-    "imageUrl": "https://i.scdn.co/example/34022.jpg",
-    "performers": [
-      {
-        "name": "Example name",
-        "url": "https://www.concertarchives.org/example/14040",
-        "genre": "pop",
-        "imageUrl": "https://i.scdn.co/example/34022.jpg"
-      },
-      {
-        "name": "Example name",
-        "url": "https://www.concertarchives.org/example/7679",
-        "genre": "rock",
-        "imageUrl": "https://i.scdn.co/example/9182.jpg"
-      }
-    ],
-    "artistGenres": [
-      "Electronic",
-      "Pop"
-    ],
-    "ticketVendor": null,
-    "venueAddress": "Example venue address",
-    "lineupCount": 24,
-    "attendeeCount": 9,
+    "attendeeCount": 6,
     "photoCount": null,
     "setlists": null,
     "setlistCount": null

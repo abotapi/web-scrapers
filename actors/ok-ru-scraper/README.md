@@ -26,6 +26,7 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~ok-ru-scraper/run-sync-ge
 | --- | --- | --- |
 | `mode` * | string | Mode |
 | `searchQuery` | string | Search query |
+| `searchQueries` | array | More search queries |
 | `searchTypes` | array | What to search (pick one or more) |
 | `links` | array | Links (groups, topics, profiles, video |
 | `maxItems` | integer | Max items |

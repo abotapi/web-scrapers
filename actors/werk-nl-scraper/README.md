@@ -17,7 +17,7 @@ python example.py
 ```bash
 curl -s -X POST "https://api.apify.com/v2/acts/abotapi~werk-nl-scraper/run-sync-get-dataset-items?token=$APIFY_TOKEN" \
   -H 'Content-Type: application/json' \
-  -d '{"mode": "search", "keywords": ["developer"], "sortBy": "relevance", "maxItems": 10, "proxy": {"useApifyProxy": true}}'
+  -d '{"mode": "search", "keywords": ["developer"], "sortBy": "relevance", "descriptionFormat": "all", "maxItems": 10, "proxy": {"useApifyProxy": true}}'
 ```
 
 ## Inputs
@@ -26,9 +26,11 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~werk-nl-scraper/run-sync-
 | --- | --- | --- |
 | `mode` | string | Mode |
 | `keywords` | array | Keywords |
+| `query` | string | Query (alias of keywords) |
 | `location` | string | Location |
 | `profession` | array | Profession (Beroep) |
 | `educationLevels` | array | Education level |
+| `educationLevel` | string | Education level (single, alias) |
 | `hoursPerWeek` | array | Hours per week |
 | `workingHours` | array | Working hours type |
 | `drivingLicense` | array | Driving licence |
@@ -37,12 +39,19 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~werk-nl-scraper/run-sync-
 | `country` | array | Country |
 | `sortBy` | string | Sort by |
 | `expandResults` | boolean | Expand results |
+| `daysOld` | integer | Max age (days) |
 | `urls` | array | Vacancy URLs / reference numbers |
+| `startUrls` | array | Start URLs (alias of URLs) |
 | `fetchDetails` | boolean | Fetch full vacancy details |
 | `includeRawDetail` | boolean | Include raw detail payload |
+| `excludeEmptyFields` | boolean | Exclude empty fields |
+| `compact` | boolean | Compact rows |
+| `descriptionMaxLength` | integer | Description max length |
+| `descriptionFormat` | string | Description format |
 | `maxItems` | integer | Max vacancies |
 | `maxPagesPerSearch` | integer | Max pages per search |
 | `proxy` | object | Proxy configuration |
+| `skipReposts` | boolean | Skip reposts |
 
 `*` required
 
@@ -78,14 +87,14 @@ Full details on the [scraper page](https://apify.com/abotapi/werk-nl-scraper?utm
 | `contractType` | string |
 | `contractTypeCode` | integer |
 | `contractStartDate` | string |
-| `contractEndDate` | null |
+| `contractEndDate` | string |
 | `minHours` | integer |
 | `maxHours` | integer |
 | `workingHoursCode` | integer |
 | `studyLevel` | string |
 | `salaryTypeCode` | integer |
 | `salaryIndication` | string |
-| `termsOfEmployment` | null |
+| `termsOfEmployment` | string |
 | `functionName` | string |
 | `functionCode` | string |
 | `customDescription` | string |

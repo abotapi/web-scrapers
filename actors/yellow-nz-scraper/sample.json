@@ -5,47 +5,105 @@
     "phone": "+1 555 0100",
     "address": "Example address",
     "categories": [
-      "Plumbers"
+      "Plumbers",
+      "Example categories"
     ],
     "rating": 1,
     "reviewCount": 9,
-    "openStatus": "Example open status",
+    "website": "https://brockelsby.co.nz/example/2395",
     "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
     "email": "user16@example.com",
     "fullAddress": {
       "street": "Example street",
       "locality": "Example locality",
-      "region": "WKO",
-      "postalCode": "0908",
+      "region": "WGN",
+      "postalCode": "1829",
       "country": "NZ"
     },
-    "latitude": -40.42,
-    "longitude": 150.71,
+    "latitude": -44.12,
+    "longitude": 150.41,
     "openingHours": [
       "Example opening hours"
     ],
-    "paymentAccepted": "cash",
+    "paymentAccepted": "Example payment accepted",
     "imageUrl": "https://i2.ypcdn.com/example/61110.jpg",
-    "logoUrl": "https://i4.ypcdn.com/example/70670.jpg",
+    "logoUrl": "https://i2.ypcdn.com/example/70670.jpg",
     "reviews": [
       {
         "author": "Example author",
         "rating": 1,
         "text": "Example text: mock text standing in for the real value. Same field and type, made-up content.",
         "date": "2026-01-15"
-      },
-      {
-        "author": "Example author",
-        "rating": 5,
-        "text": "Example text",
-        "date": "2026-01-15"
       }
     ],
-    "yearEstablished": "2667",
+    "yearEstablished": "5941",
     "slogan": "Example slogan: mock text standing in for the real value. Same field and type, made-up content.",
-    "associations": "Example associations",
+    "associations": "Example associations: mock text standing in for the real value. Same field and type, made-up content.",
     "generalInfo": "Example general info: mock text standing in for the real value. Same field and type, made-up content.",
     "searchTerms": "Example search terms",
-    "searchLocation": "Example search location"
+    "searchLocation": "Example search location",
+    "businessId": "874513411",
+    "listingUrl": "https://yellow.co.nz/example/96707",
+    "category": "Plumbers",
+    "street": "Example street",
+    "city": "Example city",
+    "region": "WGN",
+    "postalCode": "1829",
+    "country": "NZ",
+    "addressText": "Example address text",
+    "allEmails": [
+      "user31@example.com"
+    ],
+    "emailSource": "Example email source",
+    "searchQuery": "Example search query",
+    "source": "yellow.co.nz",
+    "observedAt": "2026-01-15T10:00:00Z"
+  },
+  {
+    "name": "Example name",
+    "detailUrl": "https://yellow.co.nz/example/8066",
+    "phone": "+1 555 0100",
+    "address": "Example address",
+    "categories": [
+      "Plumbers"
+    ],
+    "website": "https://hibiscuswater.co.nz/example/47719",
+    "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
+    "email": "user90@example.com",
+    "fullAddress": {
+      "street": "Example street",
+      "locality": "Example locality",
+      "region": "AUK",
+      "postalCode": "3296",
+      "country": "NZ"
+    },
+    "latitude": -35.9,
+    "longitude": 206.19,
+    "openingHours": [
+      "Example opening hours",
+      "Example opening hours"
+    ],
+    "paymentAccepted": "Example payment accepted",
+    "imageUrl": "https://i1.ypcdn.com/example/49075.jpg",
+    "generalInfo": "Example general info: mock text standing in for the real value. Same field and type, made-up content.",
+    "searchTerms": "Example search terms",
+    "searchLocation": "Example search location",
+    "businessId": "971193977",
+    "listingUrl": "https://yellow.co.nz/example/62162",
+    "category": "Plumbers",
+    "street": "Example street",
+    "city": "Whangaparaoa",
+    "region": "AUK",
+    "postalCode": "3296",
+    "country": "NZ",
+    "addressText": "Example address text",
+    "suburb": "Example suburb",
+    "allEmails": [
+      "user81@example.com"
+    ],
+    "emailSource": "Example email source",
+    "searchQuery": "Example search query",
+    "source": "yellow.co.nz",
+    "observedAt": "2026-01-15T10:00:00Z"
   }
 ]

@@ -17,7 +17,7 @@ python example.py
 ```bash
 curl -s -X POST "https://api.apify.com/v2/acts/abotapi~hornbach-de-scraper/run-sync-get-dataset-items?token=$APIFY_TOKEN" \
   -H 'Content-Type: application/json' \
-  -d '{"mode": "search", "searchTerm": "akkuschrauber", "sortBy": "SCORE", "maxReviewsPerProduct": 10, "maxPages": 1, "maxItems": 10, "proxy": {"useApifyProxy": true}}'
+  -d '{"mode": "search", "searchTerm": "akkuschrauber", "sortBy": "SCORE", "maxReviewsPerProduct": 10, "maxPages": 1, "maxItems": 10, "maxResults": 10, "proxy": {"useApifyProxy": true}}'
 ```
 
 ## Inputs
@@ -26,7 +26,9 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~hornbach-de-scraper/run-s
 | --- | --- | --- |
 | `mode` * | string | Mode |
 | `searchTerm` | string | Search keyword |
-| `category` | string | Category ID (optional) |
+| `searchQuery` | string | Search keyword (alias) |
+| `category` | string | Category (name or ID, optional) |
+| `categoryUrl` | string | Category URL (alias) |
 | `brands` | array | Brands |
 | `sellers` | array | Sellers |
 | `minPrice` | integer | Minimum price (EUR) |
@@ -39,6 +41,7 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~hornbach-de-scraper/run-s
 | `maxReviewsPerProduct` | integer | Max reviews per product |
 | `maxPages` | integer | Max pages per search |
 | `maxItems` | integer | Max products total |
+| `maxResults` | integer | Max products (alias) |
 | `proxy` | object | Proxy configuration |
 
 `*` required
@@ -80,6 +83,11 @@ Full details on the [scraper page](https://apify.com/abotapi/hornbach-de-scraper
 | `storeMerchant` | object |
 | `searchTerm` | string |
 | `reviews` | object |
+| `inStock` | boolean |
+| `articleNumber` | string |
+| `imageUrl` | string |
+| `category` | null |
+| `scrapedAt` | string |
 
 ---
 

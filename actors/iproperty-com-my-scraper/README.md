@@ -26,6 +26,7 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~iproperty-com-my-scraper/
 | --- | --- | --- |
 | `mode` * | string | Mode |
 | `channel` | string | Channel |
+| `isCommercial` | boolean | Commercial properties |
 | `location` | string | Location |
 | `propertyType` | string | Property type |
 | `priceMin` | integer | Minimum price (MYR) |
@@ -61,6 +62,7 @@ Full details on the [scraper page](https://apify.com/abotapi/iproperty-com-my-sc
 | `typeText` | string |
 | `statusCode` | string |
 | `price` | object |
+| `currency` | string |
 | `priceValue` | integer |
 | `pricePretty` | string |
 | `priceType` | null |
@@ -71,24 +73,23 @@ Full details on the [scraper page](https://apify.com/abotapi/iproperty-com-my-sc
 | `floorArea` | integer |
 | `areaText` | string |
 | `tenure` | string |
+| `furnishing` | string |
+| `listingType` | string |
+| `isCommercial` | boolean |
+| `area` | null |
+| `district` | string |
+| `region` | string |
 | `location` | object |
 | `fullAddress` | string |
 | `shortAddress` | string |
 | `agent` | object |
 | `agency` | object |
+| `agentName` | string |
+| `agencyName` | string |
 | `agentRating` | object |
 | `images` | list |
 | `imageCount` | integer |
 | `thumbnail` | string |
-| `badges` | list |
-| `postedOn` | object |
-| `recency` | string |
-| `developer` | string |
-| `isVerified` | boolean |
-| `isOfficialListing` | boolean |
-| `isDeveloperListing` | boolean |
-| `newProject` | boolean |
-| `projectId` | integer |
 
 ---
 

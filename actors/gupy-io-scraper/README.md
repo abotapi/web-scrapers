@@ -17,7 +17,7 @@ python example.py
 ```bash
 curl -s -X POST "https://api.apify.com/v2/acts/abotapi~gupy-io-scraper/run-sync-get-dataset-items?token=$APIFY_TOKEN" \
   -H 'Content-Type: application/json' \
-  -d '{"mode": "search", "searchTerm": "developer", "sortBy": "newest", "maxItems": 10, "maxPages": 1, "proxyConfiguration": {"useApifyProxy": true, "apifyProxyGroups": []}}'
+  -d '{"mode": "search", "searchTerm": "developer", "sortBy": "newest", "maxItems": 10, "maxPages": 1, "proxyConfiguration": {"useApifyProxy": true, "apifyProxyGroups": []}, "maxResults": 10}'
 ```
 
 ## Inputs
@@ -40,6 +40,8 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~gupy-io-scraper/run-sync-
 | `maxPages` | integer | Max pages |
 | `pageSize` | integer | Page size |
 | `proxyConfiguration` | object | Proxy configuration |
+| `maxResults` | integer | Max results (alias of Max items) |
+| `feedback` | string | Feedback |
 
 `*` required
 
@@ -63,7 +65,7 @@ Full details on the [scraper page](https://apify.com/abotapi/gupy-io-scraper?utm
 | `addressLine` | null |
 | `addressComplements` | null |
 | `addressDistrict` | null |
-| `city` | null |
+| `city` | string |
 | `state` | null |
 | `stateCode` | null |
 | `country` | null |
@@ -77,6 +79,7 @@ Full details on the [scraper page](https://apify.com/abotapi/gupy-io-scraper?utm
 | `handicapped` | boolean |
 | `disabilities` | boolean |
 | `skills` | list |
+| `relevantExperiences` | null |
 | `isJobPostedOnGoogle` | null |
 | `jobLanguage` | string |
 | `publishedAt` | string |
@@ -88,9 +91,8 @@ Full details on the [scraper page](https://apify.com/abotapi/gupy-io-scraper?utm
 | `quickApply` | null |
 | `jobSteps` | null |
 | `jobRatingCriterias` | null |
-| `companyId` | integer |
-| `companySubdomain` | null |
-| `companyTimezone` | string |
+| `applicationQuestions` | null |
+| `requiredApplicationFields` | null |
 
 ---
 

@@ -1,20 +1,21 @@
 [
   {
-    "productId": "88656826",
+    "id": 995346369,
+    "productId": "32161298",
     "name": "Example name",
     "brand": "Zara",
-    "reference": "19659858-i0406",
+    "reference": "41175895-i4425",
     "section": "WOMAN",
-    "family": "VESTIDO",
+    "family": "MONO",
     "subfamily": "Example subfamily",
     "kind": "Wear",
     "description": "",
     "url": "https://www.zara.com/example/208",
     "currency": "EUR",
-    "defaultColorId": "953",
+    "defaultColorId": "522",
     "colors": [
       {
-        "id": "494",
+        "id": "272",
         "name": "Example name",
         "hexColor": "Example hex color",
         "discernProductId": 700558918,
@@ -24,18 +25,46 @@
             "url": "https://static.zara.net/example/208",
             "width": 9969,
             "height": 1221,
-            "kind": "other"
+            "kind": "full"
           },
           {
             "url": "https://static.zara.net/example/21326",
             "width": 8756,
             "height": 8311,
-            "kind": "full"
+            "kind": "other"
           }
         ],
         "sizes": [],
         "currency": "EUR",
-        "price": 71.94,
+        "price": 47.94,
+        "oldPrice": null,
+        "originalPrice": null,
+        "discountPercent": null,
+        "isOnSale": false
+      },
+      {
+        "id": "913",
+        "name": "Example name",
+        "hexColor": "Example hex color",
+        "discernProductId": 498025251,
+        "availability": "in_stock",
+        "images": [
+          {
+            "url": "https://static.zara.net/example/21326",
+            "width": 8756,
+            "height": 8311,
+            "kind": "other"
+          },
+          {
+            "url": "https://static.zara.net/example/27359",
+            "width": 7634,
+            "height": 5822,
+            "kind": "other"
+          }
+        ],
+        "sizes": [],
+        "currency": "EUR",
+        "price": 43.55,
         "oldPrice": null,
         "originalPrice": null,
         "discountPercent": null,
@@ -44,12 +73,51 @@
     ],
     "compositions": null,
     "reviews": [],
-    "price": 71.94,
+    "sectionName": "Example section name",
+    "familyId": null,
+    "familyName": "Example family name",
+    "subfamilyId": null,
+    "subfamilyName": "Example subfamily name",
+    "type": "Product",
+    "state": null,
+    "keyword": "Example keyword",
+    "displayReference": "2051/485",
+    "detailedComposition": null,
+    "extraInfo": {
+      "highlightPrice": false,
+      "hideProductInfo": false,
+      "duplicateReference": false
+    },
+    "relatedProducts": [],
+    "firstVisibleDate": null,
+    "price": 47.94,
     "oldPrice": null,
     "originalPrice": null,
     "discountPercent": null,
     "isOnSale": false,
     "availability": "in_stock",
-    "image": "https://static.zara.net/example/53903.jpg"
+    "image": "https://static.zara.net/example/53903.jpg",
+    "images": [
+      {
+        "url": "https://static.zara.net/example/208",
+        "width": 9969,
+        "height": 1221,
+        "kind": "full"
+      },
+      {
+        "url": "https://static.zara.net/example/21326",
+        "width": 8756,
+        "height": 8311,
+        "kind": "other"
+      }
+    ],
+    "pricing": {
+      "price": 47.94,
+      "oldPrice": null,
+      "originalPrice": null,
+      "discountPercent": null,
+      "isOnSale": false,
+      "currency": "EUR"
+    }
   }
 ]

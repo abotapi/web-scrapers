@@ -15,6 +15,8 @@ run = client.actor("abotapi/whatnot-scraper").call(
         "mode": "search",
         "resultType": "shows",
         "queries": ["charizard"],
+        "categoryView": "list",
+        "leaderboardInterval": "CURRENT_WEEK",
         "categories": ["pokemon_cards"],
         "minSellerRating": "any",
         "maxItems": 10,

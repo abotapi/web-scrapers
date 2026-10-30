@@ -15,9 +15,9 @@ run = client.actor("abotapi/thewarehouse-co-nz-scraper").call(
         "mode": "search",
         "queries": ["toaster"],
         "sortBy": "relevance",
-        "maxReviewsPerProduct": 10,
         "maxItems": 10,
         "maxPages": 1,
+        "maxReviewsPerProduct": 10,
         "proxy": {"useApifyProxy": True, "apifyProxyGroups": ["RESIDENTIAL"], "apifyProxyCountry": "NZ"},
     },
     logger=None,  # don't stream the run log to your console

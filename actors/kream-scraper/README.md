@@ -17,7 +17,7 @@ python example.py
 ```bash
 curl -s -X POST "https://api.apify.com/v2/acts/abotapi~kream-scraper/run-sync-get-dataset-items?token=$APIFY_TOKEN" \
   -H 'Content-Type: application/json' \
-  -d '{"mode": "search", "keywords": ["nike"], "sort": "popularity", "maxItems": 10, "maxPages": 1, "proxy": {"useApifyProxy": true, "apifyProxyGroups": ["RESIDENTIAL"]}}'
+  -d '{"mode": "search", "keywords": ["nike"], "sort": "popularity", "maxReviewsPerProduct": 10, "maxItems": 10, "maxPages": 1, "proxy": {"useApifyProxy": true, "apifyProxyGroups": ["RESIDENTIAL"]}}'
 ```
 
 ## Inputs
@@ -34,6 +34,7 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~kream-scraper/run-sync-ge
 | `category` | string | Category slug |
 | `gender` | string | Gender |
 | `fetchDetails` | boolean | Fetch full details |
+| `maxReviewsPerProduct` | integer | Reviews per product |
 | `maxItems` | integer | Max items |
 | `maxPages` | integer | Max pages per keyword |
 | `proxy` | object | Proxy configuration |
@@ -82,6 +83,11 @@ Full details on the [scraper page](https://apify.com/abotapi/kream-scraper?utm_s
 | `isTradable` | boolean |
 | `sizes` | list |
 | `sizeOptions` | list |
+| `productNameEn` | string |
+| `productUrl` | string |
+| `modelNumber` | string |
+| `releasePrice` | integer |
+| `price` | integer |
 
 ---
 

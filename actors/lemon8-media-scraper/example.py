@@ -12,7 +12,10 @@ client = ApifyClient(os.environ["APIFY_TOKEN"])
 
 run = client.actor("abotapi/lemon8-media-scraper").call(
     run_input={
+        "mode": "auto",
         "searchTerm": "fashion",
+        "feedCategories": ["foryou"],
+        "keywords": ["fashion"],
         "region": "us",
         "limit": 10,
         "proxy": {"useApifyProxy": True, "apifyProxyCountry": "US"},

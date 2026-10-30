@@ -59,6 +59,7 @@ Full details on the [scraper page](https://apify.com/abotapi/au-property-agents-
 | `salesSummary` | object |
 | `recentListings` | list |
 | `lastSoldDate` | string |
+| `specialitiesText` | string |
 | `agencyId` | string |
 | `agency` | object |
 | `social` | object |

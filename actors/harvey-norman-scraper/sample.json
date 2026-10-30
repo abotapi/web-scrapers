@@ -7,17 +7,17 @@
     "brand": null,
     "url": "https://www.harveynorman.com.au/example/35470",
     "imageUrl": null,
-    "rating": 4.26,
+    "rating": 4.18,
     "reviewCount": 375,
-    "promotion": "Example promotion",
+    "promotion": null,
     "searchMode": "search",
     "source": "Example source",
     "price": 1102,
     "currency": "AUD",
-    "wasPrice": 5099,
-    "discountAmount": 3122,
-    "discountPercent": 24.28,
+    "wasPrice": null,
+    "discountAmount": 0,
+    "discountPercent": 0,
     "title": "Example title",
-    "isOnSpecial": true
+    "isOnSpecial": false
   }
 ]

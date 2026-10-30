@@ -1,0 +1,57 @@
+[
+  {
+    "recordId": "Example record id",
+    "bookId": "13428364594",
+    "title": "Example title",
+    "titleEn": "Example title en",
+    "author": null,
+    "introduction": "Example introduction: mock text standing in for the real value. Same field and type, made-up content.",
+    "cover": "https://thwztchapter.dramaboxdb.com/example/82193",
+    "chapterCount": 86,
+    "labels": [
+      "Example labels",
+      "Example labels"
+    ],
+    "tags": [
+      "Billionaire",
+      "Example tags"
+    ],
+    "typeOneName": null,
+    "viewCount": 23325405,
+    "viewCountDisplay": null,
+    "followCount": 4686641,
+    "lastUpdateTime": null,
+    "shelfTime": "2026-01-15T10:00:00Z",
+    "language": "ENGLISH",
+    "url": "https://www.dramabox.com/example/34732",
+    "kind": "series",
+    "episodeCount": 72,
+    "episodes": [
+      {
+        "episodeId": "148868913",
+        "indexStr": "812",
+        "name": "Example name",
+        "index": 0,
+        "locked": false,
+        "durationSeconds": 802
+      },
+      {
+        "episodeId": "690334377",
+        "indexStr": "180",
+        "name": "Example name",
+        "index": 2,
+        "locked": false,
+        "durationSeconds": 43
+      }
+    ],
+    "episodesTruncated": false,
+    "performerIdList": [],
+    "hasCast": false,
+    "recommendBookIds": [
+      "77438865222",
+      "44034519248"
+    ],
+    "articleUrl": "https://nres.dramaboxdb.com/example/16842",
+    "scrapedAt": "2026-01-15T10:00:00Z"
+  }
+]

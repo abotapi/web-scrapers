@@ -17,7 +17,7 @@ python example.py
 ```bash
 curl -s -X POST "https://api.apify.com/v2/acts/abotapi~tiktok-shop-scraper/run-sync-get-dataset-items?token=$APIFY_TOKEN" \
   -H 'Content-Type: application/json' \
-  -d '{"mode": "category", "queries": ["phone case"], "maxItems": 10, "maxPages": 1, "proxy": {"useApifyProxy": true, "apifyProxyGroups": ["RESIDENTIAL"], "apifyProxyCountry": "US"}}'
+  -d '{"mode": "category", "queries": ["phone case"], "maxItems": 10, "maxPages": 1, "maxReviewsPerProduct": 10, "proxy": {"useApifyProxy": true, "apifyProxyGroups": ["RESIDENTIAL"], "apifyProxyCountry": "US"}}'
 ```
 
 ## Inputs
@@ -33,6 +33,7 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~tiktok-shop-scraper/run-s
 | `maxPages` | integer | Max pages (optional) |
 | `fetchDetails` | boolean | Fetch product details |
 | `includeReviews` | boolean | Include item reviews |
+| `maxReviewsPerProduct` | integer | Max reviews per product |
 | `proxy` | object | Proxy configuration |
 
 `*` required
@@ -49,14 +50,14 @@ Full details on the [scraper page](https://apify.com/abotapi/tiktok-shop-scraper
 | `title` | string |
 | `url` | string |
 | `categoryPath` | list |
-| `price` | float |
+| `price` | integer |
 | `currency` | string |
-| `originalPrice` | float |
-| `discountPercent` | integer |
+| `originalPrice` | null |
+| `discountPercent` | null |
 | `soldCount` | integer |
-| `rating` | float |
+| `rating` | null |
 | `reviewCount` | integer |
-| `ratingHistogram` | object |
+| `ratingHistogram` | null |
 | `images` | list |
 | `shopName` | string |
 | `description` | string |
@@ -64,9 +65,22 @@ Full details on the [scraper page](https://apify.com/abotapi/tiktok-shop-scraper
 | `reviews` | list |
 | `searchMode` | string |
 | `shopId` | string |
-| `sellerRating` | float |
+| `resultSource` | string |
 | `sellerProductCount` | integer |
-| `sellerFollowers` | integer |
+| `id` | string |
+| `sold` | integer |
+| `available` | boolean |
+| `final_price` | integer |
+| `final_price_low` | integer |
+| `final_price_high` | integer |
+| `colors` | list |
+| `sizes` | list |
+| `shipping_fee` | float |
+| `specifications` | list |
+| `category` | string |
+| `category_url` | string |
+| `domain` | string |
+| `store_details` | object |
 | `scrapedAt` | string |
 
 ---

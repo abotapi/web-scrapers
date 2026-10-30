@@ -33,7 +33,49 @@
     "nextAiringEpisode": null,
     "nextAiringAt": null,
     "coverImage": "https://s4.anilist.co/example/64725.jpg",
-    "bannerImage": "https://s4.anilist.co/example/84900.jpg"
+    "bannerImage": "https://s4.anilist.co/example/84900.jpg",
+    "coverUrl": "https://s4.anilist.co/example/37790",
+    "anilistUrl": "https://anilist.co/example/89804",
+    "genresText": "Example genres text",
+    "studiosText": "MADHOUSE",
+    "synonyms": [
+      "Example synonyms",
+      "Example synonyms"
+    ],
+    "source": "MANGA",
+    "hashtag": "Example hashtag",
+    "trending": 22,
+    "tags": [
+      {
+        "name": "Example name",
+        "rank": 41,
+        "isSpoiler": false
+      },
+      {
+        "name": "Example name",
+        "rank": 48,
+        "isSpoiler": false
+      }
+    ],
+    "rankings": [
+      {
+        "rank": 5,
+        "type": "RATED",
+        "allTime": true,
+        "season": null,
+        "year": null,
+        "context": "Example context"
+      },
+      {
+        "rank": 48,
+        "type": "POPULAR",
+        "allTime": true,
+        "season": null,
+        "year": null,
+        "context": "Example context"
+      }
+    ],
+    "trailerUrl": "https://www.youtube.com/example/80081"
   },
   {
     "id": 307754,
@@ -69,6 +111,48 @@
     "nextAiringEpisode": null,
     "nextAiringAt": null,
     "coverImage": "https://s4.anilist.co/example/71892.jpg",
-    "bannerImage": null
+    "bannerImage": null,
+    "coverUrl": "https://s4.anilist.co/example/90187",
+    "anilistUrl": "https://anilist.co/example/87814",
+    "genresText": "Example genres text",
+    "studiosText": "MADHOUSE",
+    "synonyms": [
+      "Example synonyms",
+      "Example synonyms"
+    ],
+    "source": "MANGA",
+    "hashtag": "Example hashtag",
+    "trending": 4,
+    "tags": [
+      {
+        "name": "Example name",
+        "rank": 450,
+        "isSpoiler": false
+      },
+      {
+        "name": "Example name",
+        "rank": 263,
+        "isSpoiler": false
+      }
+    ],
+    "rankings": [
+      {
+        "rank": 9,
+        "type": "POPULAR",
+        "allTime": false,
+        "season": null,
+        "year": 3651,
+        "context": "Example context"
+      },
+      {
+        "rank": 2,
+        "type": "POPULAR",
+        "allTime": false,
+        "season": "FALL",
+        "year": 6029,
+        "context": "Example context"
+      }
+    ],
+    "trailerUrl": null
   }
 ]

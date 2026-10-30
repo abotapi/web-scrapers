@@ -1,7 +1,7 @@
 [
   {
-    "postingId": "72412111",
-    "postingCode": "Example posting code",
+    "postingId": "37566814",
+    "postingCode": "588230",
     "alphanumericKey": "id20353075",
     "url": "https://www.zonaprop.com.ar/example/56913",
     "title": "Example title",
@@ -16,7 +16,7 @@
     "reserved": false,
     "isDuplicated": null,
     "price": 101229,
-    "priceFormatted": "843.946",
+    "priceFormatted": "760.639",
     "currency": "USD",
     "priceUsd": 994180,
     "priceArs": null,
@@ -25,13 +25,13 @@
         "operationType": "Venta",
         "operationTypeId": "5",
         "amount": 559285,
-        "formattedAmount": "125.861",
+        "formattedAmount": "965.400",
         "currency": "USD",
         "currencyId": "0"
       }
     ],
-    "expenses": 0,
-    "expensesCurrency": "Example expenses currency",
+    "expenses": null,
+    "expensesCurrency": null,
     "expensesFormatted": null,
     "totalArea": 69,
     "coveredArea": 52,
@@ -39,7 +39,7 @@
     "bedrooms": 8,
     "bathrooms": 7,
     "garages": null,
-    "age": null,
+    "age": 5,
     "areaUnit": "Example area unit",
     "address": "Example address",
     "addressVisibility": "Example address visibility",
@@ -47,7 +47,7 @@
     "city": "Example city",
     "province": "Example province",
     "country": "Argentina",
-    "locationId": "v0-c-1928473",
+    "locationId": "v0-c-1608180",
     "locationName": "Example location name"
   }
 ]

@@ -17,7 +17,7 @@ python example.py
 ```bash
 curl -s -X POST "https://api.apify.com/v2/acts/abotapi~webtoons-com-scraper/run-sync-get-dataset-items?token=$APIFY_TOKEN" \
   -H 'Content-Type: application/json' \
-  -d '{"mode": "search", "searchType": "all", "language": "en", "source": "originals", "sortOrder": "MANA", "maxItems": 10, "maxPages": 1, "proxy": {"useApifyProxy": true, "apifyProxyGroups": ["RESIDENTIAL"]}}'
+  -d '{"mode": "search", "searchType": "all", "language": "en", "source": "originals", "sortOrder": "MANA", "maxItems": 10, "maxPages": 1, "proxy": {"useApifyProxy": true}}'
 ```
 
 ## Inputs
@@ -72,6 +72,8 @@ Full details on the [scraper page](https://apify.com/abotapi/webtoons-com-scrape
 | `latestEpisode` | null |
 | `imageUrl` | string |
 | `referer` | string |
+| `isUnsuitableForChildren` | boolean |
+| `scrapedAt` | string |
 
 ---
 

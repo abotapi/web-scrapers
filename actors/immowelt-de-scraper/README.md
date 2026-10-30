@@ -64,6 +64,9 @@ Full details on the [scraper page](https://apify.com/abotapi/immowelt-de-scraper
 | `priceValue` | integer |
 | `priceCurrency` | string |
 | `priceDisplay` | string |
+| `price` | string |
+| `location` | string |
+| `keyFacts` | list |
 | `pricePerSqm` | string |
 | `rooms` | integer |
 | `livingSpace` | integer |
@@ -77,8 +80,8 @@ Full details on the [scraper page](https://apify.com/abotapi/immowelt-de-scraper
 | `district` | string |
 | `postcode` | string |
 | `street` | null |
-| `latitude` | float |
-| `longitude` | float |
+| `latitude` | null |
+| `longitude` | null |
 | `addressPublished` | boolean |
 | `agentName` | string |
 | `agentCompany` | string |
@@ -91,9 +94,6 @@ Full details on the [scraper page](https://apify.com/abotapi/immowelt-de-scraper
 | `agentAddress` | string |
 | `imageCount` | integer |
 | `images` | list |
-| `imagesAnnotated` | list |
-| `hasFloorplan` | boolean |
-| `has3DTour` | boolean |
 
 ---
 

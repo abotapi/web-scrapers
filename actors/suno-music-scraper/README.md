@@ -17,7 +17,7 @@ python example.py
 ```bash
 curl -s -X POST "https://api.apify.com/v2/acts/abotapi~suno-music-scraper/run-sync-get-dataset-items?token=$APIFY_TOKEN" \
   -H 'Content-Type: application/json' \
-  -d '{"mode": "explore", "exploreFeeds": ["trending"], "profileSortBy": "upvote_count", "maxItems": 10, "maxPages": 1, "proxyConfiguration": {"useApifyProxy": true}}'
+  -d '{"mode": "explore", "exploreFeeds": ["trending"], "profileSortBy": "upvote_count", "isInstrumental": "any", "maxItems": 10, "maxPages": 1, "proxyConfiguration": {"useApifyProxy": true}}'
 ```
 
 ## Inputs
@@ -28,9 +28,17 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~suno-music-scraper/run-sy
 | `exploreFeeds` | array | Sections to read (optional) |
 | `playlistUrls` | array | Playlist links or ids |
 | `profileUrls` | array | Profile links or handles |
+| `startUrls` | array | Suno links (any page type) |
 | `profileSortBy` | string | Profile ordering |
 | `followProfilePlaylists` | boolean | Also read the playlists linked on the  |
+| `styleTag` | string | Style tag contains |
+| `modelVersion` | string | Model version |
+| `minPlayCount` | integer | Minimum play count |
+| `createdAfter` | string | Created on or after |
+| `isInstrumental` | string | Instrumental |
 | `includeLyrics` | boolean | Include lyrics |
+| `includeComments` | boolean | Include comments |
+| `maxCommentsPerSong` | integer | Max comments per song |
 | `maxItems` | integer | Max records |
 | `maxPages` | integer | Max pages per source |
 | `proxyConfiguration` | object | Proxy configuration |
@@ -63,13 +71,13 @@ Full details on the [scraper page](https://apify.com/abotapi/suno-music-scraper?
 | `dislikeCount` | null |
 | `commentCount` | integer |
 | `flagCount` | integer |
-| `durationSeconds` | integer |
+| `durationSeconds` | float |
 | `styleTags` | string |
 | `displayTags` | list |
 | `lyrics` | string |
 | `modelName` | string |
-| `modelVersion` | string |
-| `isInstrumental` | boolean |
+| `modelVersion` | null |
+| `isInstrumental` | null |
 | `isRemix` | boolean |
 | `canRemix` | boolean |
 | `hasStems` | boolean |

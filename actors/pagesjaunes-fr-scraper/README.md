@@ -17,7 +17,7 @@ python example.py
 ```bash
 curl -s -X POST "https://api.apify.com/v2/acts/abotapi~pagesjaunes-fr-scraper/run-sync-get-dataset-items?token=$APIFY_TOKEN" \
   -H 'Content-Type: application/json' \
-  -d '{"mode": "search", "searchTerms": "plombier", "location": "Paris", "maxPages": 1, "maxListings": 10, "proxy": {"useApifyProxy": true, "apifyProxyGroups": ["RESIDENTIAL"]}}'
+  -d '{"mode": "search", "searchTerms": "plombier", "location": "Paris", "maxPages": 1, "maxListings": 10, "maxReviews": 10, "proxy": {"useApifyProxy": true, "apifyProxyGroups": ["RESIDENTIAL"]}}'
 ```
 
 ## Inputs
@@ -28,9 +28,14 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~pagesjaunes-fr-scraper/ru
 | `searchTerms` | string | Search Terms (quoiqui) |
 | `location` | string | Location (ou) |
 | `urls` | array | PagesJaunes search URLs |
+| `minRating` | integer | Minimum rating |
+| `minReviewCount` | integer | Minimum review count |
+| `hasWebsite` | boolean | Only with a website |
+| `hasPhone` | boolean | Only with a phone number |
 | `maxPages` | integer | Maximum Pages |
 | `maxListings` | integer | Max listings total |
 | `scrapeDetails` | boolean | Scrape Detail Pages |
+| `maxReviews` | integer | Max reviews per business |
 | `proxy` | object | Proxy Configuration |
 
 `*` required
@@ -48,12 +53,13 @@ Full details on the [scraper page](https://apify.com/abotapi/pagesjaunes-fr-scra
 | `detailUrl` | string |
 | `activities` | list |
 | `address` | string |
-| `rating` | integer |
+| `rating` | float |
 | `reviewCount` | integer |
 | `phone` | string |
 | `description` | string |
 | `businessType` | string |
 | `fullAddress` | object |
+| `openingHours` | list |
 | `imageUrl` | string |
 | `reviews` | list |
 | `breadcrumb` | list |

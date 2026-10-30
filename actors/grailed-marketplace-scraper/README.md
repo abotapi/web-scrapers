@@ -17,7 +17,7 @@ python example.py
 ```bash
 curl -s -X POST "https://api.apify.com/v2/acts/abotapi~grailed-marketplace-scraper/run-sync-get-dataset-items?token=$APIFY_TOKEN" \
   -H 'Content-Type: application/json' \
-  -d '{"mode": "search", "searchTerms": ["varsity jacket"], "categories": ["outerwear"], "department": "menswear", "sortResultsBy": "site_order", "maxItems": 10, "maxPages": 1, "proxy": {"useApifyProxy": true}}'
+  -d '{"mode": "search", "searchTerms": ["varsity jacket"], "maxReviewsPerSeller": 10, "categories": ["outerwear"], "department": "menswear", "sortResultsBy": "site_order", "maxItems": 10, "maxPages": 1, "proxy": {"useApifyProxy": true}, "changeScope": "all"}'
 ```
 
 ## Inputs
@@ -28,6 +28,7 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~grailed-marketplace-scrap
 | `searchTerms` | array | Search terms |
 | `sellerUsernames` | array | Seller usernames |
 | `fetchSellerReviews` | boolean | Fetch seller reviews |
+| `maxReviewsPerSeller` | integer | Max reviews per seller |
 | `includeSellerListings` | boolean | Also walk each seller's on-sale listin |
 | `categories` | array | Categories |
 | `designers` | array | Designers |
@@ -42,6 +43,9 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~grailed-marketplace-scrap
 | `maxItems` | integer | Max items |
 | `maxPages` | integer | Max pages per source |
 | `proxy` | object | Proxy configuration |
+| `changeScope` | string | What counts as a change (incremental m |
+| `compactUpdates` | boolean | Compact update rows (incremental mode  |
+| `expireAfterMissedScans` | integer | Expire after N missed full scans (incr |
 
 `*` required
 
@@ -84,15 +88,15 @@ Full details on the [scraper page](https://apify.com/abotapi/grailed-marketplace
 | `photoCount` | integer |
 | `coverPhoto` | string |
 | `shippingUs` | float |
+| `shipping` | object |
+| `heat` | float |
+| `measurementCount` | integer |
+| `sellerAvatarUrl` | string |
 | `followerCount` | integer |
 | `sellerId` | integer |
 | `sellerUsername` | string |
 | `sellerUrl` | string |
 | `sellerRating` | integer |
-| `sellerRatingCount` | integer |
-| `sellerSales` | integer |
-| `sellerTrusted` | boolean |
-| `scrapedAt` | string |
 
 ---
 

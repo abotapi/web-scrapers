@@ -1,8 +1,8 @@
 [
   {
     "recordType": "place",
-    "id": "67420308965808925",
-    "fullId": "54331154320705245_opliz3445bg01h6564ig8gggpzwnds90g2g52a7689ba6b55wpqt46503j1a7g9g5j54bj3jxsyuuv0c5c4069015b8h6j4hhhg8h14bge",
+    "id": "65232193538238391",
+    "fullId": "82198866306557975_nw9bnk8a48g30545077g4178bhtg9s32g6g5g1i4g0i5g620wpqt75639jg2451031gjijgj0092uv9c5555a03aj2h8hjj5f",
     "name": "Example name",
     "fullName": "Example full name",
     "shortName": "Example short name",
@@ -13,82 +13,27 @@
     "purpose": "Example purpose",
     "description": null,
     "rubrics": [
-      "Example rubrics"
-    ],
-    "rubricIds": [
-      "662"
-    ],
-    "primaryRubric": "Example primary rubric",
-    "rating": 6.08,
-    "reviewCount": 348,
-    "ratingCount": 517,
-    "isReviewable": true,
-    "orgRating": 8,
-    "orgReviewCount": 492,
-    "flampRating": null,
-    "flampReviewCount": null,
-    "address": "Example address",
-    "fullAddress": "Example full address",
-    "addressComment": null,
-    "postcode": "049151",
-    "buildingId": "81332839710912212",
-    "country": "Example country",
-    "region": "Example region",
-    "city": "Example city",
-    "district": "Example district",
-    "livingArea": null,
-    "street": "Example street",
-    "houseNumber": "7",
-    "latitude": 40.7,
-    "longitude": 31.58,
-    "timezoneOffset": 943,
-    "nearestStations": [
-      {
-        "id": "0438981608538577",
-        "distanceMeters": 202
-      },
-      {
-        "id": "9734113429976831",
-        "distanceMeters": 963
-      }
-    ],
-    "buildingName": null
-  },
-  {
-    "recordType": "place",
-    "id": "46258289495907052",
-    "fullId": "17243395249680897_opliz0414bg99h4343ig7gggpzwnds50g4g09a08447439a9wpqt73219j8a2g5g2j22bj8jxsyuuv1c3c691236191h1j2hhhg8h60b95",
-    "name": "Example name",
-    "fullName": "Example full name",
-    "shortName": "Example short name",
-    "nameExtension": "Example name extension",
-    "url": "https://2gis.ru/example/53361",
-    "type": "branch",
-    "subtype": null,
-    "purpose": "Example purpose",
-    "description": null,
-    "rubrics": [
       "Example rubrics",
       "Example rubrics"
     ],
     "rubricIds": [
-      "760",
-      "70152"
+      "681",
+      "150"
     ],
     "primaryRubric": "Example primary rubric",
-    "rating": 5.24,
-    "reviewCount": 794,
-    "ratingCount": 282,
+    "rating": 5.95,
+    "reviewCount": 348,
+    "ratingCount": 517,
     "isReviewable": true,
-    "orgRating": 3.86,
-    "orgReviewCount": 1490,
+    "orgRating": 5.83,
+    "orgReviewCount": 91392,
     "flampRating": null,
     "flampReviewCount": null,
     "address": "Example address",
     "fullAddress": "Example full address",
     "addressComment": null,
-    "postcode": "948292",
-    "buildingId": "5101939475286785",
+    "postcode": "650494",
+    "buildingId": "8954654445785655",
     "country": "Example country",
     "region": "Example region",
     "city": "Example city",
@@ -96,19 +41,48 @@
     "livingArea": null,
     "street": "Example street",
     "houseNumber": "Example house number",
-    "latitude": 57.41,
-    "longitude": 37.64,
-    "timezoneOffset": 515,
+    "latitude": 40.69,
+    "longitude": 31.59,
+    "timezoneOffset": 943,
     "nearestStations": [
       {
-        "id": "0917323787805085",
-        "distanceMeters": 368
+        "id": "2314374336863008",
+        "distanceMeters": 202
       },
       {
-        "id": "0869080877329285",
-        "distanceMeters": 9913
+        "id": "3608909688297739",
+        "distanceMeters": 4563
       }
     ],
-    "buildingName": "Example building name"
+    "buildingName": null
+  },
+  {
+    "recordType": "review",
+    "reviewId": "159018076",
+    "placeId": "35332851994781102",
+    "placeName": "Example place name",
+    "rating": 5,
+    "text": "Example text",
+    "dateCreated": "2026-01-15T10:00:00Z",
+    "dateEdited": null,
+    "reviewUrl": null,
+    "authorName": "Example author name",
+    "authorId": "34182029",
+    "authorPublicId": "id12134406",
+    "authorUrl": null,
+    "authorPhotoUrl": "https://i0.photo.2gis.com/example/77002.jpg",
+    "authorReviewsCount": 5,
+    "likesCount": 0,
+    "commentsCount": 0,
+    "isVerified": false,
+    "isHidden": false,
+    "hasOfficialAnswer": false,
+    "provider": "Example provider",
+    "source": null,
+    "photos": [],
+    "photoCount": 0,
+    "officialAnswerText": null,
+    "officialAnswerDate": null,
+    "officialAnswerOrg": null
   }
 ]

@@ -1,8 +1,8 @@
-# Wolt.com Scraper
+# Wolt Scraper
 
-Scrape Wolt restaurants and full menus at the city scale. Extract 60+ fields, including name, address, GPS, hours, ratings, tags, menus with images and prices, delivery zones, fees, minimum order, and merchant details. Supports city search or URL input with fast, rich output.
+Scrape Wolt restaurants and full menus by city or URL. Extract 60+ fields including restaurant names, addresses, GPS coordinates, opening hours, ratings, tags, menu items, images, prices, delivery zones, fees, minimum orders and merchant details.
 
-**[Open Wolt.com Scraper on Apify](https://apify.com/abotapi/wolt-restaurants-scraper?utm_source=github&utm_medium=web-scrapers&utm_campaign=monorepo)** to run it without code and export JSON, CSV or Excel.
+**[Open Wolt Scraper on Apify](https://apify.com/abotapi/wolt-restaurants-scraper?utm_source=github&utm_medium=web-scrapers&utm_campaign=monorepo)** to run it without code and export JSON, CSV or Excel.
 
 ## Run it from code
 
@@ -17,7 +17,7 @@ python example.py
 ```bash
 curl -s -X POST "https://api.apify.com/v2/acts/abotapi~wolt-restaurants-scraper/run-sync-get-dataset-items?token=$APIFY_TOKEN" \
   -H 'Content-Type: application/json' \
-  -d '{"mode": "search", "cities": ["Helsinki"], "sortBy": "default", "language": "en", "proxyConfiguration": {"useApifyProxy": true}}'
+  -d '{"mode": "search", "cities": ["Helsinki"], "sortBy": "default", "language": "en", "maxItems": 10, "proxyConfiguration": {"useApifyProxy": true}}'
 ```
 
 ## Inputs
@@ -26,15 +26,20 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~wolt-restaurants-scraper/
 | --- | --- | --- |
 | `mode` * | string | Mode |
 | `cities` | array | Cities |
+| `latitude` | number | Latitude |
+| `longitude` | number | Longitude |
 | `urls` | array | Wolt URLs |
 | `primaryCategories` | array | Cuisine filter |
 | `minRating` | integer | Min rating score |
 | `minRatingVolume` | integer | Min review count |
+| `categoryFilter` | string | Category filter (free text) |
 | `sortBy` | string | Sort venues by |
 | `fetchMenu` | boolean | Fetch full menu |
+| `includeDetails` | boolean | Include details |
 | `includeReviews` | boolean | Include rating fields |
 | `language` | string | Language |
 | `maxVenues` | integer | Max venues |
+| `maxItems` | integer | Max items |
 | `maxVenuesPerCity` | integer | Max venues per city |
 | `proxyConfiguration` | object | Proxy |
 
@@ -53,10 +58,10 @@ Full details on the [scraper page](https://apify.com/abotapi/wolt-restaurants-sc
 | `name` | string |
 | `description` | string |
 | `shortDescription` | string |
-| `brandSlug` | string |
-| `brandName` | string |
-| `brandLogoImage` | string |
-| `brandLogoBlurhash` | string |
+| `brandSlug` | null |
+| `brandName` | null |
+| `brandLogoImage` | null |
+| `brandLogoBlurhash` | null |
 | `coverImage` | string |
 | `coverBlurhash` | string |
 | `address` | string |

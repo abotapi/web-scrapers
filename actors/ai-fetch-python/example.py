@@ -12,8 +12,10 @@ client = ApifyClient(os.environ["APIFY_TOKEN"])
 
 run = client.actor("abotapi/ai-fetch-python").call(
     run_input={
-        "url": "https://www.google.com",
+        "url": "https://www.example.com",
+        "startUrls": [{"url": "https://www.example.com"}, {"url": "https://en.wikipedia.org/wiki/Web_scraping"}],
         "urlField": "link",
+        "engine": "auto",
         "waitUntil": "domcontentloaded",
     },
     logger=None,  # don't stream the run log to your console

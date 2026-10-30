@@ -56,7 +56,7 @@ Full details on the [scraper page](https://apify.com/abotapi/leroymerlin-es-scra
 | `name` | string |
 | `brand` | string |
 | `url` | string |
-| `price` | integer |
+| `price` | float |
 | `priceExclTax` | float |
 | `currency` | string |
 | `originalPrice` | null |
@@ -81,8 +81,13 @@ Full details on the [scraper page](https://apify.com/abotapi/leroymerlin-es-scra
 | `stock` | integer |
 | `stockStatus` | string |
 | `deliveryTime` | string |
+| `specs` | object |
+| `imageUrl` | string |
+| `reviewCount` | integer |
+| `inStock` | boolean |
 | `reviews` | object |
 | `searchMode` | string |
+| `scrapedAt` | string |
 
 ---
 

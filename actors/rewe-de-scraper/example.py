@@ -15,9 +15,10 @@ run = client.actor("abotapi/rewe-de-scraper").call(
         "mode": "search",
         "zipCode": "50667",
         "searchTerm": "milch",
+        "sortBy": "RELEVANCE_DESC",
         "maxPages": 1,
         "maxItems": 10,
-        "proxy": {"useApifyProxy": True, "apifyProxyGroups": ["RESIDENTIAL"], "apifyProxyCountry": "DE"},
+        "proxy": {"useApifyProxy": True},
     },
     logger=None,  # don't stream the run log to your console
 )

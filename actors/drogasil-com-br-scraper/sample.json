@@ -10,7 +10,7 @@
       "https://product-data.raiadrogasil.io/example/42623.jpg"
     ],
     "currency": "BRL",
-    "price": 3.42,
+    "price": 5.87,
     "packSize": "Example pack size",
     "prescriptionRequired": false,
     "isGenericMedicine": false,
@@ -40,7 +40,7 @@
     "isSponsored": false,
     "ean": "5051709898123",
     "originalPrice": 7.26,
-    "discountPercent": 35.72,
+    "discountPercent": 4.72,
     "onSale": true,
     "multiBuyUnitPrice": null,
     "multiBuyMinQuantity": null,

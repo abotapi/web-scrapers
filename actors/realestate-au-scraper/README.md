@@ -65,6 +65,8 @@ Full details on the [scraper page](https://apify.com/abotapi/realestate-au-scrap
 | `coordinates` | object |
 | `price` | object |
 | `features` | object |
+| `landSize` | integer |
+| `landSizeUnit` | string |
 | `description` | string |
 | `headline` | string |
 | `propertyFeatures` | list |
@@ -84,12 +86,12 @@ Full details on the [scraper page](https://apify.com/abotapi/realestate-au-scrap
 | `isSold` | boolean |
 | `isProject` | boolean |
 | `tier` | object |
-| `statementOfInformationUrl` | string |
 | `scrapedAt` | string |
+| `auctionDate` | string |
+| `auctionDateDisplay` | string |
 | `badge` | string |
 | `dateListed` | string |
 | `dateListedPrecision` | string |
-| `nearbySchools` | object |
 
 ---
 

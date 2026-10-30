@@ -1,8 +1,8 @@
-# Fuel Prices AU Scraper
+# Fuel Price Scraper
 
-Scrapes petrol and fuel prices data across Australia and New Zealand. Search by address or coordinates to find nearby stations with current fuel prices.
+Scrape current petrol and fuel prices across Australia and New Zealand. Search by address or GPS coordinates to find nearby fuel stations, compare prices and collect station locations and fuel price data.
 
-**[Open Fuel Prices AU Scraper on Apify](https://apify.com/abotapi/fuel-prices-anz-scraper?utm_source=github&utm_medium=web-scrapers&utm_campaign=monorepo)** to run it without code and export JSON, CSV or Excel.
+**[Open Fuel Price Scraper on Apify](https://apify.com/abotapi/fuel-prices-anz-scraper?utm_source=github&utm_medium=web-scrapers&utm_campaign=monorepo)** to run it without code and export JSON, CSV or Excel.
 
 ## Run it from code
 
@@ -17,7 +17,7 @@ python example.py
 ```bash
 curl -s -X POST "https://api.apify.com/v2/acts/abotapi~fuel-prices-anz-scraper/run-sync-get-dataset-items?token=$APIFY_TOKEN" \
   -H 'Content-Type: application/json' \
-  -d '{"suburb": "Sydney", "proxy": {"useApifyProxy": false}}'
+  -d '{"suburb": "Sydney", "searchMode": "location", "startUrls": [{"url": "https://petrolspy.com.au/map/location/au/nsw/2000/sydney"}, {"url": "https://petrolspy.com.au/map/latlng/-33.8688/151.2093"}], "sortOrder": "asc", "maxItems": 10, "proxy": {"useApifyProxy": false}}'
 ```
 
 ## Inputs
@@ -27,8 +27,16 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~fuel-prices-anz-scraper/r
 | `suburb` | string | Suburb or City |
 | `lat` | number | Latitude |
 | `lng` | number | Longitude |
+| `latitude` | number | Latitude (alias) |
+| `longitude` | number | Longitude (alias) |
+| `searchMode` | string | Search mode |
+| `startUrls` | array | Start URLs |
 | `radiusKm` | number | Search Radius (km) |
 | `fuelType` | string | Fuel Type Filter |
+| `brands` | array | Brands (optional) |
+| `sortBy` | string | Sort by |
+| `sortOrder` | string | Sort order |
+| `maxItems` | integer | Max stations |
 | `proxy` | object | Proxy Configuration |
 
 `*` required
@@ -53,6 +61,23 @@ Full details on the [scraper page](https://apify.com/abotapi/fuel-prices-anz-scr
 | `icon` | null |
 | `brandIcon` | string |
 | `searchContext` | object |
+| `id` | string |
+| `url` | string |
+| `imageUrl` | string |
+| `address` | string |
+| `suburb` | string |
+| `state` | string |
+| `postalCode` | string |
+| `latitude` | float |
+| `longitude` | float |
+| `u91Price` | float |
+| `e10Price` | null |
+| `u95Price` | float |
+| `u98Price` | null |
+| `dieselPrice` | null |
+| `lpgPrice` | null |
+| `distanceKm` | float |
+| `currency` | string |
 
 ---
 

@@ -17,19 +17,26 @@ python example.py
 ```bash
 curl -s -X POST "https://api.apify.com/v2/acts/abotapi~yellow-nz-scraper/run-sync-get-dataset-items?token=$APIFY_TOKEN" \
   -H 'Content-Type: application/json' \
-  -d '{"searchTerms": "Plumbers", "location": "New Zealand", "maxPages": 1, "maxListings": 10}'
+  -d '{"startUrls": [{"url": "https://yellow.co.nz/search?search_terms=Plumbers&geo_location_terms=Auckland"}, {"url": "https://yellow.co.nz/auckland/plumbers"}, {"url": "https://yellow.co.nz/auckland/bpp/onehunga-plumbers-579426046"}], "searchTerms": "Plumbers", "location": "New Zealand", "maxListings": 10, "maxPages": 1, "maxReviews": 10}'
 ```
 
 ## Inputs
 
 | Input | Type | What it is |
 | --- | --- | --- |
+| `startUrls` | array | Start URLs |
 | `searchTerms` * | string | Search Terms |
 | `location` * | string | Location |
-| `maxPages` | integer | Maximum Pages |
+| `searchQueries` | array | Search queries (several keywords) |
+| `locations` | array | Locations (several places) |
+| `minRating` | number | Minimum rating |
+| `hasEmail` | boolean | Only businesses with an email |
+| `hasWebsite` | boolean | Only businesses with a website |
 | `maxListings` | integer | Max Listings |
-| `scrapeDetails` | boolean | Scrape Detail Pages |
+| `maxPages` | integer | Maximum Pages |
 | `maxConcurrency` | integer | Max Concurrency |
+| `scrapeDetails` | boolean | Scrape Detail Pages |
+| `maxReviews` | integer | Max Reviews per Business |
 | `proxy` | object | Proxy Configuration |
 
 `*` required
@@ -49,7 +56,7 @@ Full details on the [scraper page](https://apify.com/abotapi/yellow-nz-scraper?u
 | `categories` | list |
 | `rating` | integer |
 | `reviewCount` | integer |
-| `openStatus` | string |
+| `website` | string |
 | `description` | string |
 | `email` | string |
 | `fullAddress` | object |
@@ -66,6 +73,20 @@ Full details on the [scraper page](https://apify.com/abotapi/yellow-nz-scraper?u
 | `generalInfo` | string |
 | `searchTerms` | string |
 | `searchLocation` | string |
+| `businessId` | string |
+| `listingUrl` | string |
+| `category` | string |
+| `street` | string |
+| `city` | string |
+| `region` | string |
+| `postalCode` | string |
+| `country` | string |
+| `addressText` | string |
+| `allEmails` | list |
+| `emailSource` | string |
+| `searchQuery` | string |
+| `source` | string |
+| `observedAt` | string |
 
 ---
 

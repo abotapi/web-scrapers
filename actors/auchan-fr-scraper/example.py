@@ -20,6 +20,7 @@ run = client.actor("abotapi/auchan-fr-scraper").call(
         "maxPages": 1,
         "maxItems": 10,
         "proxy": {"useApifyProxy": True},
+        "maxResults": 10,
     },
     logger=None,  # don't stream the run log to your console
 )

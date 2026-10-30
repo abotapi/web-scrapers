@@ -1,7 +1,7 @@
 [
   {
-    "id": "ucbjycsmduvyel18r_u1jriq",
-    "channelId": "ucbjycsmduvyel60r_u7jriq",
+    "id": "ucx2oq0dkcsbyne5h6uqquva",
+    "channelId": "ucx2oq0dkcsbyne1h4uqquva",
     "handle": "Example handle",
     "displayName": "Example display name",
     "url": "https://www.viewstats.com/example/43862",
@@ -10,420 +10,222 @@
     "country": "US",
     "avatarUrl": "https://yt3.ggpht.com/example/33881.jpg",
     "bannerUrl": "https://yt3.googleusercontent.com/example/69932",
-    "subscriberCount": 87916981,
-    "viewCount": 8856752661,
+    "subscriberCount": 897916981,
+    "viewCount": 962856752661,
     "videoCount": 6967,
     "totalFollowing": 0,
-    "globalSubscribersRanking": 231,
-    "globalViewsRanking": 9449,
-    "countrySubscriberRanking": 914,
-    "categorySubscriberRanking": 45,
-    "vpv90": 7164830,
+    "globalSubscribersRanking": 6,
+    "globalViewsRanking": 89,
+    "countrySubscriberRanking": 5,
+    "categorySubscriberRanking": 9,
+    "vpv90": 664164830,
     "recentTests": 0,
     "totalTests": 0,
-    "description": "user22@example.com",
+    "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
     "dateCreated": "2026-01-15",
     "viewstatsRanking": 74,
     "averages": {
       "daily": {
-        "viewsAverage": 3856366,
-        "estimatedRevenueLowUsd": 1539,
-        "estimatedRevenueHighUsd": 91385,
-        "subsAverage": 5814
-      },
-      "weekly": {
-        "viewsAverage": 66856366,
-        "estimatedRevenueLowUsd": 82539,
-        "estimatedRevenueHighUsd": 991385,
-        "subsAverage": 23814
-      },
-      "monthly": {
         "viewsAverage": 606856366,
-        "estimatedRevenueLowUsd": 352539,
+        "estimatedRevenueLowUsd": 82539,
         "estimatedRevenueHighUsd": 991385,
         "subsAverage": 383814
       },
-      "yearly": {
+      "weekly": {
         "viewsAverage": 606856366,
+        "estimatedRevenueLowUsd": 352539,
+        "estimatedRevenueHighUsd": 4591385,
+        "subsAverage": 9383814
+      },
+      "monthly": {
+        "viewsAverage": 4206856366,
         "estimatedRevenueLowUsd": 1252539,
         "estimatedRevenueHighUsd": 4591385,
         "subsAverage": 9383814
+      },
+      "yearly": {
+        "viewsAverage": 67206856366,
+        "estimatedRevenueLowUsd": 28252539,
+        "estimatedRevenueHighUsd": 58591385,
+        "subsAverage": 90383814
       },
       "uploadFrequency": 4
     },
     "uploadFrequencyPerMonth": 7,
     "growth": {
       "weekly": {
-        "views": 60353843,
-        "viewsDelta": -71707180,
-        "subscribers": 0,
-        "subscribersDelta": 0,
-        "estimatedRevenueLowUsd": 82539,
-        "estimatedRevenueHighUsd": 91385,
+        "views": 3840353843,
+        "viewsDelta": 881707180,
+        "subscribers": 2715371,
+        "subscribersDelta": 6726785,
+        "estimatedRevenueLowUsd": 352539,
+        "estimatedRevenueHighUsd": 4591385,
         "estimatedRevenueDelta": -29811
       },
       "monthly": {
-        "views": 240353843,
-        "viewsDelta": 8707180,
-        "subscribers": 915371,
-        "subscribersDelta": 0,
-        "estimatedRevenueLowUsd": 352539,
-        "estimatedRevenueHighUsd": 991385,
-        "estimatedRevenueDelta": 29811
+        "views": 3840353843,
+        "viewsDelta": 8081707180,
+        "subscribers": 2715371,
+        "subscribersDelta": 6726785,
+        "estimatedRevenueLowUsd": 1252539,
+        "estimatedRevenueHighUsd": 4591385,
+        "estimatedRevenueDelta": 6689811
       },
       "quarterly": {
-        "views": 240353843,
-        "viewsDelta": 881707180,
-        "subscribers": 915371,
-        "subscribersDelta": 426785,
-        "estimatedRevenueLowUsd": 352539,
-        "estimatedRevenueHighUsd": 4591385,
-        "estimatedRevenueDelta": 389811
+        "views": 3840353843,
+        "viewsDelta": -8081707180,
+        "subscribers": 92715371,
+        "subscribersDelta": -96726785,
+        "estimatedRevenueLowUsd": 1252539,
+        "estimatedRevenueHighUsd": 58591385,
+        "estimatedRevenueDelta": 6689811
       },
       "yearly": {
-        "views": 240353843,
-        "viewsDelta": 881707180,
-        "subscribers": 915371,
-        "subscribersDelta": 426785,
-        "estimatedRevenueLowUsd": 1252539,
-        "estimatedRevenueHighUsd": 4591385,
-        "estimatedRevenueDelta": 389811
+        "views": 39840353843,
+        "viewsDelta": 8081707180,
+        "subscribers": 92715371,
+        "subscribersDelta": -96726785,
+        "estimatedRevenueLowUsd": 28252539,
+        "estimatedRevenueHighUsd": 58591385,
+        "estimatedRevenueDelta": -6689811
       },
       "allTime": {
-        "views": 3840353843,
+        "views": 129840353843,
         "viewsDelta": 0,
-        "subscribers": 92715371,
+        "subscribers": 542715371,
         "subscribersDelta": 0,
-        "estimatedRevenueLowUsd": 1252539,
-        "estimatedRevenueHighUsd": 4591385,
+        "estimatedRevenueLowUsd": 118252539,
+        "estimatedRevenueHighUsd": 868591385,
         "estimatedRevenueDelta": 0
       }
     },
-    "estimatedRevenueLowUsdMonthly": 780981,
-    "estimatedRevenueHighUsdMonthly": 591261,
+    "estimatedRevenueLowUsdMonthly": 8880981,
+    "estimatedRevenueHighUsdMonthly": 7791261,
     "longsAndShorts": {
       "weekly": {
         "videos": 4,
-        "shorts": 0,
-        "longs": 6,
-        "views": 60353843,
-        "longViews": 93249355,
-        "shortViews": 9839990
+        "shorts": 2,
+        "longs": 0,
+        "views": 3840353843,
+        "longViews": 183249355,
+        "shortViews": 288839990
       },
       "monthly": {
         "videos": 4,
-        "shorts": 0,
+        "shorts": 2,
         "longs": 6,
-        "views": 240353843,
-        "longViews": 93249355,
-        "shortViews": 18839990
+        "views": 3840353843,
+        "longViews": 5583249355,
+        "shortViews": 8388839990
       },
       "ninetyDays": {
         "videos": 13,
         "shorts": 2,
-        "longs": 33,
-        "views": 240353843,
-        "longViews": 183249355,
-        "shortViews": 18839990
+        "longs": 6,
+        "views": 3840353843,
+        "longViews": 5583249355,
+        "shortViews": 8388839990
       },
       "yearly": {
-        "videos": 13,
+        "videos": 643,
         "shorts": 92,
         "longs": 33,
-        "views": 240353843,
-        "longViews": 183249355,
-        "shortViews": 288839990
+        "views": 39840353843,
+        "longViews": 5583249355,
+        "shortViews": 26388839990
       },
       "allTime": {
         "videos": 2443,
         "shorts": 542,
-        "longs": 3453,
-        "views": 3840353843,
-        "longViews": 5583249355,
-        "shortViews": 288839990
+        "longs": 753,
+        "views": 129840353843,
+        "longViews": 41583249355,
+        "shortViews": 26388839990
       }
     },
     "featuredVideo": {
-      "id": "qvv0mqzlrn6",
-      "channelId": "ucbjycsmduvyel60r_u7jriq",
+      "id": "re9_pgwdwhw",
+      "channelId": "ucx2oq0dkcsbyne1h4uqquva",
       "channelName": "Example channel name",
       "channelAvatarUrl": "https://yt3.ggpht.com/example/5755.jpg",
       "channelHandle": "Example channel handle",
       "title": "Example title",
-      "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
-      "viewCount": 9752661,
-      "likeCount": 73328,
-      "commentCount": 3096,
+      "description": "user22@example.com",
+      "viewCount": 756752661,
+      "likeCount": 7363328,
+      "commentCount": 21096,
       "uploadDate": "2026-01-15T10:00:00Z",
-      "duration": 627,
+      "duration": 8727,
       "shorts": false,
       "viewsPerHour": 794094,
-      "outlierScore": 0.0
-    },
-    "shortVideos": [],
-    "longVideos": [
-      {
-        "id": "qvv0mqzlrn6",
-        "channelId": "ucbjycsmduvyel60r_u7jriq",
-        "channelName": "Example channel name",
-        "channelAvatarUrl": "https://yt3.ggpht.com/example/5755.jpg",
-        "title": "Example title",
-        "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
-        "viewCount": 9752661,
-        "likeCount": 73328,
-        "commentCount": 3096,
-        "uploadDate": "2026-01-15T10:00:00Z",
-        "duration": 627,
-        "shorts": false,
-        "outlierScore": 0.0,
-        "averageViews": 392134
-      },
-      {
-        "id": "_8g2og20xji",
-        "channelId": "ucbjycsmduvyel17r_u1jriq",
-        "channelName": "Example channel name",
-        "channelAvatarUrl": "https://yt3.ggpht.com/example/66698.jpg",
-        "title": "Example title",
-        "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
-        "viewCount": 7371696,
-        "likeCount": 72255,
-        "commentCount": 7293,
-        "uploadDate": "2026-01-15T10:00:00Z",
-        "duration": 686,
-        "shorts": false,
-        "outlierScore": 0.61,
-        "averageViews": 4890996
-      }
-    ],
-    "scrapedAt": "2026-01-15T10:00:00Z"
-  },
-  {
-    "id": "ucx0oq0dkcsbyne4h6uqquva",
-    "channelId": "ucx0oq1dkcsbyne5h1uqquva",
-    "handle": "Example handle",
-    "displayName": "Example display name",
-    "url": "https://www.viewstats.com/example/15864",
-    "youtubeUrl": "https://www.youtube.com/example/33283",
-    "verified": true,
-    "country": "US",
-    "avatarUrl": "https://yt3.ggpht.com/example/14722.jpg",
-    "bannerUrl": "https://yt3.googleusercontent.com/example/64110",
-    "subscriberCount": 143899573,
-    "viewCount": 317247077863,
-    "videoCount": 6363,
-    "totalFollowing": 0,
-    "globalSubscribersRanking": 5,
-    "globalViewsRanking": 92,
-    "countrySubscriberRanking": 7,
-    "categorySubscriberRanking": 3,
-    "vpv90": 308346045,
-    "recentTests": 0,
-    "totalTests": 0,
-    "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
-    "dateCreated": "2026-01-15",
-    "viewstatsRanking": 95,
-    "averages": {
-      "daily": {
-        "viewsAverage": 66847755,
-        "estimatedRevenueLowUsd": 89083,
-        "estimatedRevenueHighUsd": 119571,
-        "subsAverage": 447702
-      },
-      "weekly": {
-        "viewsAverage": 426847755,
-        "estimatedRevenueLowUsd": 899083,
-        "estimatedRevenueHighUsd": 119571,
-        "subsAverage": 447702
-      },
-      "monthly": {
-        "viewsAverage": 4026847755,
-        "estimatedRevenueLowUsd": 8099083,
-        "estimatedRevenueHighUsd": 1919571,
-        "subsAverage": 2247702
-      },
-      "yearly": {
-        "viewsAverage": 85026847755,
-        "estimatedRevenueLowUsd": 53099083,
-        "estimatedRevenueHighUsd": 55919571,
-        "subsAverage": 65247702
-      },
-      "uploadFrequency": 1
-    },
-    "uploadFrequencyPerMonth": 7,
-    "growth": {
-      "weekly": {
-        "views": 172633643,
-        "viewsDelta": 11287526,
-        "subscribers": 6796325,
-        "subscribersDelta": 0,
-        "estimatedRevenueLowUsd": 899083,
-        "estimatedRevenueHighUsd": 1919571,
-        "estimatedRevenueDelta": -60353
-      },
-      "monthly": {
-        "views": 1972633643,
-        "viewsDelta": -11287526,
-        "subscribers": 6796325,
-        "subscribersDelta": 3832311,
-        "estimatedRevenueLowUsd": 8099083,
-        "estimatedRevenueHighUsd": 1919571,
-        "estimatedRevenueDelta": 960353
-      },
-      "quarterly": {
-        "views": 1972633643,
-        "viewsDelta": -6041287526,
-        "subscribers": 78796325,
-        "subscribersDelta": -93832311,
-        "estimatedRevenueLowUsd": 8099083,
-        "estimatedRevenueHighUsd": 55919571,
-        "estimatedRevenueDelta": 9060353
-      },
-      "yearly": {
-        "views": 64972633643,
-        "viewsDelta": 6041287526,
-        "subscribers": 78796325,
-        "subscribersDelta": -93832311,
-        "estimatedRevenueLowUsd": 53099083,
-        "estimatedRevenueHighUsd": 55919571,
-        "estimatedRevenueDelta": -9060353
-      },
-      "allTime": {
-        "views": 874972633643,
-        "viewsDelta": 0,
-        "subscribers": 168796325,
-        "subscribersDelta": 0,
-        "estimatedRevenueLowUsd": 953099083,
-        "estimatedRevenueHighUsd": 595919571,
-        "estimatedRevenueDelta": 0
-      }
-    },
-    "estimatedRevenueLowUsdMonthly": 8517664,
-    "estimatedRevenueHighUsdMonthly": 4884236,
-    "longsAndShorts": {
-      "weekly": {
-        "videos": 2,
-        "shorts": 0,
-        "longs": 2,
-        "views": 172633643,
-        "longViews": 953999280,
-        "shortViews": 845472285
-      },
-      "monthly": {
-        "videos": 2,
-        "shorts": 9,
-        "longs": 2,
-        "views": 1972633643,
-        "longViews": 953999280,
-        "shortViews": 3545472285
-      },
-      "ninetyDays": {
-        "videos": 74,
-        "shorts": 9,
-        "longs": 2,
-        "views": 1972633643,
-        "longViews": 5453999280,
-        "shortViews": 3545472285
-      },
-      "yearly": {
-        "videos": 614,
-        "shorts": 27,
-        "longs": 74,
-        "views": 64972633643,
-        "longViews": 5453999280,
-        "shortViews": 21545472285
-      },
-      "allTime": {
-        "videos": 6914,
-        "shorts": 567,
-        "longs": 434,
-        "views": 874972633643,
-        "longViews": 77453999280,
-        "shortViews": 21545472285
-      }
-    },
-    "featuredVideo": {
-      "id": "ani8jv3lbpq",
-      "channelId": "ucx0oq1dkcsbyne5h1uqquva",
-      "channelName": "Example channel name",
-      "channelAvatarUrl": "https://yt3.ggpht.com/example/9544.jpg",
-      "channelHandle": "Example channel handle",
-      "title": "Example title",
-      "description": "",
-      "viewCount": 87077863,
-      "likeCount": 640395,
-      "commentCount": 53712,
-      "uploadDate": "2026-01-15T10:00:00Z",
-      "duration": 65,
-      "shorts": false,
-      "viewsPerHour": 866588,
-      "outlierScore": 0.46
+      "outlierScore": 1.93
     },
     "shortVideos": [
       {
-        "id": "cejxqm0eij8",
-        "channelId": "ucx0oq1dkcsbyne5h1uqquva",
+        "id": "mnd7t9lzg_g",
+        "channelId": "ucx2oq0dkcsbyne1h4uqquva",
         "channelName": "Example channel name",
-        "channelAvatarUrl": "https://yt3.ggpht.com/example/9544.jpg",
+        "channelAvatarUrl": "https://yt3.ggpht.com/example/5755.jpg",
         "title": "Example title",
         "description": "",
-        "viewCount": 87077863,
-        "likeCount": 6040395,
-        "commentCount": 53712,
-        "uploadDate": "2026-01-15T10:00:00Z",
-        "duration": 65,
-        "shorts": true,
-        "outlierScore": 2.16,
-        "averageViews": 35509899
-      },
-      {
-        "id": "t_smf2j64uc",
-        "channelId": "ucx0oq7dkcsbyne4h3uqquva",
-        "channelName": "Example channel name",
-        "channelAvatarUrl": "https://yt3.ggpht.com/example/91965.jpg",
-        "title": "Example title",
-        "description": "",
-        "viewCount": 38328566,
-        "likeCount": 302469,
-        "commentCount": 25432,
+        "viewCount": 36752661,
+        "likeCount": 163328,
+        "commentCount": 21096,
         "uploadDate": "2026-01-15T10:00:00Z",
         "duration": 87,
         "shorts": true,
-        "outlierScore": 0.74,
-        "averageViews": 83099762
+        "outlierScore": 0.56,
+        "averageViews": 96692134
+      },
+      {
+        "id": "y4iji0ip4vk",
+        "channelId": "ucx5oq2dkcsbyne0h4uqquva",
+        "channelName": "Example channel name",
+        "channelAvatarUrl": "https://yt3.ggpht.com/example/66698.jpg",
+        "title": "Example title",
+        "description": "",
+        "viewCount": 808371696,
+        "likeCount": 9252255,
+        "commentCount": 16293,
+        "uploadDate": "2026-01-15T10:00:00Z",
+        "duration": 56,
+        "shorts": true,
+        "outlierScore": 3.36,
+        "averageViews": 94890996
       }
     ],
     "longVideos": [
       {
-        "id": "ani8jv3lbpq",
-        "channelId": "ucx0oq1dkcsbyne5h1uqquva",
+        "id": "re9_pgwdwhw",
+        "channelId": "ucx2oq0dkcsbyne1h4uqquva",
         "channelName": "Example channel name",
-        "channelAvatarUrl": "https://yt3.ggpht.com/example/9544.jpg",
+        "channelAvatarUrl": "https://yt3.ggpht.com/example/5755.jpg",
         "title": "Example title",
-        "description": "",
-        "viewCount": 87077863,
-        "likeCount": 640395,
-        "commentCount": 53712,
+        "description": "user22@example.com",
+        "viewCount": 756752661,
+        "likeCount": 7363328,
+        "commentCount": 21096,
         "uploadDate": "2026-01-15T10:00:00Z",
-        "duration": 65,
+        "duration": 8727,
         "shorts": false,
-        "outlierScore": 0.46,
-        "averageViews": 35509899
+        "outlierScore": 1.93,
+        "averageViews": 96692134
       },
       {
-        "id": "pln5jmbadrg",
-        "channelId": "ucx0oq7dkcsbyne4h3uqquva",
+        "id": "pln0jmbadrg",
+        "channelId": "ucx5oq2dkcsbyne0h4uqquva",
         "channelName": "Example channel name",
-        "channelAvatarUrl": "https://yt3.ggpht.com/example/91965.jpg",
+        "channelAvatarUrl": "https://yt3.ggpht.com/example/66698.jpg",
         "title": "Example title",
-        "description": "user52@example.com",
-        "viewCount": 398328566,
-        "likeCount": 4802469,
-        "commentCount": 925432,
+        "description": "user16@example.com",
+        "viewCount": 808371696,
+        "likeCount": 9252255,
+        "commentCount": 736293,
         "uploadDate": "2026-01-15T10:00:00Z",
-        "duration": 6297,
+        "duration": 1586,
         "shorts": false,
-        "outlierScore": 2.37,
-        "averageViews": 173099762
+        "outlierScore": 3.31,
+        "averageViews": 94890996
       }
     ],
     "scrapedAt": "2026-01-15T10:00:00Z"

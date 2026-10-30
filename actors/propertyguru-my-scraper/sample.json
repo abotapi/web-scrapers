@@ -5,8 +5,8 @@
     "address": "Example address",
     "listing_type": "sale",
     "property_type": "Landed",
-    "property_type_group": "T",
-    "price": 587374,
+    "property_type_group": "S",
+    "price": 2387374,
     "price_formatted": "Example price_formatted",
     "currency": "MYR",
     "price_psf": "Example price_psf",
@@ -17,42 +17,61 @@
     "developer": "Example developer",
     "is_developer_listing": false,
     "agent_name": "Example agent_name",
-    "agent_id": 11737528,
-    "agent_license": "ren18840",
-    "state": "Johor",
-    "region": "Johor",
+    "agent_id": 937528,
+    "agent_license": "pea6037",
+    "state": "Selangor",
+    "region": "Selangor",
     "city": "Example city",
     "badges": [
       "Example badges",
-      "Freehold"
+      "Example badges"
     ],
-    "posted_date": "2026-01-15T10:00:00Z",
+    "posted_date": "Example posted_date",
     "posted_unix": 2767167919,
     "recency": "Example recency",
     "images": [
       "https://my1-cdn.pgimgs.com/example/90593.jpg",
       "https://my1-cdn.pgimgs.com/example/6221.jpg"
     ],
-    "image_count": 3,
+    "image_count": 30,
     "url": "https://www.propertyguru.com.my/example/33017",
     "status": "ACT",
+    "agency_name": "Example agency_name",
     "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
-    "headline": "Example headline: mock text standing in for the real value. Same field and type, made-up content.",
-    "latitude": 1.16,
-    "longitude": 108.83,
-    "postal_code": "60859",
-    "project_name": "Example project_name",
-    "project_id": 468584657,
-    "tenure_detail": "Example tenure_detail",
-    "property_type_text": "Example property_type_text",
-    "furnishing": "Example furnishing"
+    "headline": "Example headline",
+    "latitude": 2.48,
+    "longitude": 106.54,
+    "nearby_schools": [
+      {
+        "id": "10013",
+        "name": "Example name"
+      },
+      {
+        "id": "17817",
+        "name": "Example name"
+      }
+    ],
+    "facilities": [
+      "Example facilities",
+      "Example facilities"
+    ],
+    "amenities": [
+      "Example amenities",
+      "Example amenities"
+    ],
+    "images_full": [
+      "https://my1-cdn.pgimgs.com/example/66676.jpg",
+      "https://my1-cdn.pgimgs.com/example/26210.jpg"
+    ],
+    "location_source": "detail_page"
   },
   {
     "id": 293896177,
     "title": "Example title",
     "address": "Example address",
     "listing_type": "sale",
-    "property_type_group": "N",
+    "property_type": "Landed",
+    "property_type_group": "T",
     "price": 0,
     "price_formatted": "Example price_formatted",
     "currency": "MYR",
@@ -64,12 +83,12 @@
     "is_developer_listing": true,
     "agent_name": "Example agent_name",
     "agent_id": 86877222,
-    "state": "Selangor",
-    "region": "Selangor",
-    "city": "Example city",
+    "state": "Example state",
+    "region": "Example region",
+    "city": "Seremban",
     "badges": [
       "Freehold",
-      "Apartment"
+      "Example badges"
     ],
     "posted_date": "Example posted_date",
     "posted_unix": 1252560868,
@@ -78,30 +97,29 @@
       "https://my1-cdn.pgimgs.com/example/32853.jpg",
       "https://my1-cdn.pgimgs.com/example/54812.jpg"
     ],
-    "image_count": 39,
+    "image_count": 3,
     "url": "https://www.propertyguru.com.my/example/89596",
     "status": "ACT",
     "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
     "headline": "Example headline",
-    "latitude": 3.49,
-    "longitude": 98.53,
+    "latitude": 3.06,
+    "longitude": 98.83,
     "nearby_schools": [
       {
-        "id": "91337",
+        "id": "03829",
         "name": "Example name"
       },
       {
-        "id": "86528",
+        "id": "82190",
         "name": "Example name"
       }
     ],
     "facilities": [
-      "Example facilities",
       "Example facilities"
     ],
     "highlights": [
-      "Example highlights: mock text standing in for the real value. Same field and type, made-up content.",
-      "Example highlights: mock text standing in for the real value. Same field and type, made-up content."
+      "Example highlights",
+      "Example highlights"
     ],
     "images_full": [
       "https://my1-cdn.pgimgs.com/example/8582.jpg",

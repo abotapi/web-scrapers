@@ -17,7 +17,7 @@ python example.py
 ```bash
 curl -s -X POST "https://api.apify.com/v2/acts/abotapi~resq-club-surplus-food-scraper/run-sync-get-dataset-items?token=$APIFY_TOKEN" \
   -H 'Content-Type: application/json' \
-  -d '{"mode": "search", "locations": ["60.1699,24.9384"], "maxItems": 10, "maxPages": 1, "proxyConfiguration": {"useApifyProxy": true}}'
+  -d '{"mode": "search", "locations": ["60.1699,24.9384"], "sortBy": "none", "sortOrder": "asc", "maxItems": 10, "maxPages": 1, "proxyConfiguration": {"useApifyProxy": true}}'
 ```
 
 ## Inputs
@@ -33,6 +33,11 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~resq-club-surplus-food-sc
 | `countries` | array | Countries |
 | `tags` | array | Offer tags |
 | `includeSoldOutOffers` | boolean | Include sold-out offers |
+| `maxPrice` | number | Max price |
+| `pickupAfter` | string | Pickup window starts after |
+| `pickupBefore` | string | Pickup window ends before |
+| `sortBy` | string | Sort by |
+| `sortOrder` | string | Sort order |
 | `maxItems` | integer | Max items |
 | `maxPages` | integer | Max venue pages |
 | `proxyConfiguration` | object | Proxy configuration |
@@ -51,7 +56,7 @@ Full details on the [scraper page](https://apify.com/abotapi/resq-club-surplus-f
 | `offerId` | integer |
 | `url` | string |
 | `offerName` | string |
-| `offerDescription` | string |
+| `offerDescription` | null |
 | `price` | integer |
 | `currentPrice` | integer |
 | `priceMinorUnits` | integer |
@@ -70,7 +75,7 @@ Full details on the [scraper page](https://apify.com/abotapi/resq-club-surplus-f
 | `venueId` | integer |
 | `venueUrl` | string |
 | `venueName` | string |
-| `venueDescription` | null |
+| `venueDescription` | string |
 | `address` | string |
 | `country` | string |
 | `countryName` | string |

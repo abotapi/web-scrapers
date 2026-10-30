@@ -1,9 +1,9 @@
 [
   {
     "id": 18030952,
-    "code": "214-29851777",
+    "code": "93443-29628716",
     "name": "Example name",
-    "jobUrl": "https://invillia.gupy.io/example/54458",
+    "jobUrl": "https://stefaninilatam.gupy.io/example/54458",
     "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
     "descriptionPlainText": "Example description plain text: mock text standing in for the real value. Same field and type, made-up content.",
     "prerequisites": null,
@@ -12,20 +12,21 @@
     "addressLine": null,
     "addressComplements": null,
     "addressDistrict": null,
-    "city": null,
+    "city": "Santiago",
     "state": null,
     "stateCode": null,
     "country": null,
     "countryCode": null,
     "jobType": "Example job type",
-    "workplaceType": "remote",
-    "isRemoteWork": true,
+    "workplaceType": "hybrid",
+    "isRemoteWork": false,
     "publicationType": "external",
     "status": "published",
     "reason": null,
     "handicapped": true,
     "disabilities": true,
     "skills": [],
+    "relevantExperiences": null,
     "isJobPostedOnGoogle": null,
     "jobLanguage": "pt",
     "publishedAt": "2026-01-15T10:00:00Z",
@@ -37,8 +38,7 @@
     "quickApply": null,
     "jobSteps": null,
     "jobRatingCriterias": null,
-    "companyId": 145,
-    "companySubdomain": null,
-    "companyTimezone": "Example company timezone"
+    "applicationQuestions": null,
+    "requiredApplicationFields": null
   }
 ]

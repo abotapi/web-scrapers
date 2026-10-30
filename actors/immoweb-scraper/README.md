@@ -63,14 +63,13 @@ Full details on the [scraper page](https://apify.com/abotapi/immoweb-scraper?utm
 | --- | --- |
 | `id` | integer |
 | `url` | string |
+| `title` | string |
 | `transactionType` | string |
 | `propertyType` | string |
 | `propertySubtype` | string |
 | `price` | integer |
 | `displayPrice` | string |
 | `bedrooms` | integer |
-| `rooms` | integer |
-| `landArea` | integer |
 | `street` | string |
 | `number` | string |
 | `postalCode` | string |
@@ -88,6 +87,8 @@ Full details on the [scraper page](https://apify.com/abotapi/immoweb-scraper?utm
 | `lastModified` | string |
 | `listingFlag` | string |
 | `customerName` | string |
+| `lastModificationDate` | string |
+| `scrapedAt` | string |
 
 ---
 

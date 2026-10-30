@@ -1,44 +1,44 @@
 [
   {
-    "id": "72536",
+    "id": "37012",
     "name": "Example name",
-    "slug": "polytrack",
+    "slug": "Example slug",
     "url": "https://www.crazygames.com/example/64174",
-    "rating": 10.32,
-    "upvotes": 521010,
-    "downvotes": 58428,
-    "ratingCount": 807172,
-    "totalLikes": 503995,
-    "totalPlays": 69069430,
+    "rating": 9.74,
+    "upvotes": 4121010,
+    "downvotes": 7978428,
+    "ratingCount": 6207172,
+    "totalLikes": 8603995,
+    "totalPlays": 519069430,
     "developer": "Example developer",
-    "developerId": "2yurmjmxj9nf9l67mtaac5chg8b6",
-    "category": "Driving",
-    "categorySlug": "driving",
+    "developerId": "jk1rmeclxwajwbvlm1hzb8o04zl2",
+    "category": "Example category",
+    "categorySlug": "io",
     "tags": [
       {
         "name": "Example name",
-        "slug": "mobile",
-        "gamesCount": 5254
+        "slug": "Example slug",
+        "gamesCount": 34
       },
       {
         "name": "Example name",
-        "slug": "Example slug",
-        "gamesCount": 2797
+        "slug": "sandbox",
+        "gamesCount": 97
       }
     ],
     "hierarchy": [
       {
         "name": "Example name",
-        "slug": "driving",
+        "slug": "io",
         "isCategory": true
       },
       {
         "name": "Example name",
-        "slug": "car",
-        "isCategory": false
+        "slug": "adventure",
+        "isCategory": true
       }
     ],
-    "collection": "car",
+    "collection": "minecraft",
     "descriptionFirst": "Example description first: mock text standing in for the real value. Same field and type, made-up content.",
     "descriptionRest": "Example description rest: mock text standing in for the real value. Same field and type, made-up content.",
     "metaDescription": "Example meta description: mock text standing in for the real value. Same field and type, made-up content.",
@@ -46,7 +46,7 @@
     "faq": [
       {
         "question": "Example question",
-        "answer": "Example answer: mock text standing in for the real value. Same field and type, made-up content."
+        "answer": "Example answer"
       },
       {
         "question": "Example question",
@@ -56,22 +56,93 @@
     "addedOn": "2026-01-15",
     "basicLaunchOn": "2026-01-15",
     "releaseYear": 5364,
-    "lastFileUpdatedOn": "2026-01-15",
+    "lastFileUpdatedOn": null,
     "lastSignificantUpdatedOn": "2026-01-15",
-    "loaderType": "html5",
-    "loaderTypeLabel": "HTML5",
+    "loaderType": "iframe",
+    "loaderTypeLabel": "Example loader type label",
     "technology": "iframe",
     "orientation": "LANDSCAPE",
     "status": "PUBLISHED",
     "isKids": false,
     "isOriginal": false,
-    "hasIap": false,
-    "gameThumbLabels": [
-      "Example game thumb labels"
-    ],
+    "hasIap": true,
+    "gameThumbLabels": [],
     "mobileFriendly": true,
     "iosFriendly": true,
     "androidFriendly": true,
     "iosAppFriendly": true
+  },
+  {
+    "id": "46842",
+    "name": "Example name",
+    "slug": "Example slug",
+    "url": "https://www.crazygames.com/example/29714",
+    "rating": 4,
+    "upvotes": 266041,
+    "downvotes": 268485,
+    "ratingCount": 601079,
+    "totalLikes": 644650,
+    "totalPlays": 35190002,
+    "developer": null,
+    "developerId": "tgonal3zdxpbll0ru6h0pfssr0l8",
+    "category": "Example category",
+    "categorySlug": "io",
+    "tags": [
+      {
+        "name": "Example name",
+        "slug": "battle",
+        "gamesCount": 953
+      },
+      {
+        "name": "Example name",
+        "slug": "Example slug",
+        "gamesCount": 506
+      }
+    ],
+    "hierarchy": [
+      {
+        "name": "Example name",
+        "slug": "io",
+        "isCategory": true
+      },
+      {
+        "name": "Example name",
+        "slug": "battle",
+        "isCategory": false
+      }
+    ],
+    "collection": "war",
+    "descriptionFirst": "Example description first: mock text standing in for the real value. Same field and type, made-up content.",
+    "descriptionRest": "Example description rest: mock text standing in for the real value. Same field and type, made-up content.",
+    "metaDescription": "Example meta description: mock text standing in for the real value. Same field and type, made-up content.",
+    "controls": "Example controls",
+    "faq": [
+      {
+        "question": "Example question",
+        "answer": "Example answer: mock text standing in for the real value. Same field and type, made-up content."
+      },
+      {
+        "question": "Example question",
+        "answer": "Example answer"
+      }
+    ],
+    "addedOn": "2026-01-15",
+    "basicLaunchOn": null,
+    "releaseYear": 8768,
+    "lastFileUpdatedOn": "2026-01-15",
+    "lastSignificantUpdatedOn": "2026-01-15",
+    "loaderType": "iframe",
+    "loaderTypeLabel": "Example loader type label",
+    "technology": "iframe",
+    "orientation": "PORTRAIT",
+    "status": "PUBLISHED",
+    "isKids": false,
+    "isOriginal": false,
+    "hasIap": false,
+    "gameThumbLabels": [],
+    "mobileFriendly": false,
+    "iosFriendly": false,
+    "androidFriendly": false,
+    "iosAppFriendly": false
   }
 ]

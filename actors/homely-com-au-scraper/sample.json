@@ -12,13 +12,13 @@
     "isExclusiveList": false,
     "isUnderOffer": false,
     "daysOnMarket": "Example days on market",
-    "daysOnHomely": 3,
-    "isNew": false,
+    "daysOnHomely": 0,
+    "isNew": true,
     "price": {
       "display": "Example display",
       "short": null
     },
-    "priceValue": 49,
+    "priceValue": 9972769,
     "address": {
       "streetAddress": "Example street address",
       "longAddress": "Example long address"
@@ -39,7 +39,14 @@
       {
         "id": 934810,
         "name": "Example name",
-        "phone": "+1 555 0100",
+        "phone": null,
+        "mobile": "+1 555 0100",
+        "email": null
+      },
+      {
+        "id": 8622459,
+        "name": "Example name",
+        "phone": null,
         "mobile": "+1 555 0100",
         "email": null
       }
@@ -64,17 +71,16 @@
         "endsOn": null
       }
     ],
-    "auction": null,
-    "landFeatures": null,
-    "slugs": {
-      "suburbUri": "Example suburb uri",
-      "suburbSlug": "id27798670"
+    "auction": {
+      "auctionOn": "2026-01-15T10:00:00Z"
     },
+    "landFeatures": null,
+    "slugs": {},
     "nextInspection": "Example next inspection",
     "soldOn": null,
     "soldPrice": "Example sold price",
     "soldPriceValue": null,
-    "auctionOn": null,
+    "auctionOn": "2026-01-15T10:00:00Z",
     "loanPriceEstimate": 1891813,
     "sourceUrl": "https://www.homely.com.au/example/41416",
     "scrapedAt": "2026-01-15T10:00:00Z"

@@ -1,0 +1,196 @@
+[
+  {
+    "recordId": "Example record id",
+    "country": "nz",
+    "source": "realestate.co.nz",
+    "title": "Example title",
+    "distressType": "mortgagee-sale",
+    "url": "https://www.realestate.co.nz/example/24635",
+    "portalId": "901590",
+    "publishedAt": "2026-01-15T10:00:00Z",
+    "location": {
+      "address": "Example address",
+      "city": "Kamo",
+      "region": "Northland",
+      "country": "NZ"
+    },
+    "valueText": "Example value text",
+    "status": "active",
+    "parties": [
+      {
+        "role": "agent",
+        "name": "Example name",
+        "url": "https://www.barfoot.co.nz/example/24635"
+      },
+      {
+        "role": "agent",
+        "name": "Example name",
+        "url": "https://www.barfoot.co.nz/example/61361"
+      }
+    ],
+    "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
+    "attachments": [
+      {
+        "label": "photo",
+        "url": "https://www.realestate.co.nz/example/24635"
+      },
+      {
+        "label": "photo",
+        "url": "https://www.realestate.co.nz/example/61361"
+      }
+    ],
+    "details": {
+      "listingType": "House",
+      "bedrooms": 8,
+      "bathrooms": 5,
+      "parking": 0,
+      "landArea": "Example land area",
+      "priceCode": 5,
+      "photoCount": 3,
+      "isMortgageeSale": true,
+      "openHomeCount": 0,
+      "schoolCount": 55,
+      "geopoint": "-34.243546672985,595.14380085434",
+      "detailPath": "Example detail path"
+    },
+    "raw": {
+      "title-type": 4,
+      "parking-garage-count": 0,
+      "study-count": 0,
+      "videos": [],
+      "is-new-construction": false,
+      "other-features": [],
+      "photos": [
+        {
+          "small": "Example small",
+          "base-url": "Example base-url",
+          "square": "Example square",
+          "thumbnail": "Example thumbnail",
+          "large": "Example large",
+          "id": 268468412,
+          "medium": "Example medium",
+          "uuid": "id56854069",
+          "md5": "id53615603",
+          "order": 3
+        },
+        {
+          "small": "Example small",
+          "base-url": "Example base-url",
+          "square": "Example square",
+          "thumbnail": "Example thumbnail",
+          "large": "Example large",
+          "id": 518179755,
+          "medium": "Example medium",
+          "uuid": "id96358448",
+          "md5": "id25000355",
+          "order": 4
+        }
+      ],
+      "is-featured": true,
+      "is-private-listing": false,
+      "living-area-count": 0,
+      "features": {
+        "garages": 0,
+        "bedrooms": 0,
+        "storey-count": 0,
+        "bathroom-wc-count": 0,
+        "pool": false,
+        "carports": 0,
+        "ensuite": 0,
+        "bathrooms": 0,
+        "other-features": {},
+        "carpark-other": 0
+      },
+      "virtual-walkthroughs": [],
+      "listing-type": 7,
+      "bathrooms-total-count": 3,
+      "is-refresh": true,
+      "child-cares": [
+        {
+          "in-zone": false,
+          "school-id": 6272,
+          "has-zone": false,
+          "short-id": "Example short-id",
+          "geo-radius": "Example geo-radius",
+          "slug": "Example slug",
+          "organization-name": "Example organization-name",
+          "geo-point": [
+            221.36,
+            -34.96
+          ]
+        },
+        {
+          "in-zone": false,
+          "school-id": 9001,
+          "has-zone": false,
+          "short-id": "Example short-id",
+          "geo-radius": "Example geo-radius",
+          "slug": "Example slug",
+          "organization-name": "Example organization-name",
+          "geo-point": [
+            170.84,
+            -32.86
+          ]
+        }
+      ],
+      "floorplans": [],
+      "bathroom-wc-count": 0,
+      "has-swimming-pool": false,
+      "additional-websites": [
+        {
+          "title": "here",
+          "type": "Example type",
+          "url": "https://www.barfoot.co.nz/example/24635",
+          "order": 0
+        }
+      ],
+      "broadbands": [],
+      "auction-date": "2026-01-15T10:00:00Z",
+      "schools": [
+        {
+          "in-zone": true,
+          "school-id": 6272,
+          "has-zone": true,
+          "short-id": "k38j9ywhmy",
+          "geo-radius": "Example geo-radius",
+          "slug": "Example slug",
+          "organization-name": "Example organization-name",
+          "geo-point": [
+            221.38,
+            -34.97
+          ]
+        },
+        {
+          "in-zone": true,
+          "school-id": 91,
+          "has-zone": true,
+          "short-id": "dvlgd2ljr",
+          "geo-radius": "Example geo-radius",
+          "slug": "Example slug",
+          "organization-name": "Example organization-name",
+          "geo-point": [
+            170.82,
+            -32.83
+          ]
+        }
+      ],
+      "property-short-id": "id2046313",
+      "call-to-action-links": [],
+      "parking-covered-count": 0,
+      "header": "Example header",
+      "auction-time": "2026-01-15T10:00:00Z",
+      "land-area": 2936,
+      "website-full-url": "https://www.realestate.co.nz/example/36115",
+      "listing-category-code": "res_sale",
+      "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
+      "parking-other-count": 0,
+      "is-showcased": true,
+      "published-date": "2026-01-15T10:00:00Z",
+      "bedroom-count": 6,
+      "deferred-share-url": "https://realestateconz.smart.link/example/77770",
+      "listing-sub-type": "House",
+      "listing-no": "220872",
+      "is-coastal-waterfront": false
+    }
+  }
+]

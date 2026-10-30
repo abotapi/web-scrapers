@@ -17,7 +17,7 @@ python example.py
 ```bash
 curl -s -X POST "https://api.apify.com/v2/acts/abotapi~jobs-nhs-uk-scraper/run-sync-get-dataset-items?token=$APIFY_TOKEN" \
   -H 'Content-Type: application/json' \
-  -d '{"mode": "search", "keywords": ["doctor"], "location": "London", "distance": "10", "maxPages": 1, "maxListings": 10, "proxy": {"useApifyProxy": true, "apifyProxyGroups": ["RESIDENTIAL"], "apifyProxyCountry": "GB"}}'
+  -d '{"mode": "search", "keywords": ["doctor"], "location": "London", "distance": "10", "maxPages": 1, "maxListings": 10, "maxItems": 10, "proxy": {"useApifyProxy": true}}'
 ```
 
 ## Inputs
@@ -35,12 +35,17 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~jobs-nhs-uk-scraper/run-s
 | `payRanges` | array | Pay range (k GBP per year) |
 | `employerName` | string | Employer name (optional) |
 | `covidJobsOnly` | boolean | COVID-related roles only |
+| `salaryFrom` | integer | Minimum salary (GBP per year) |
+| `salaryTo` | integer | Maximum salary (GBP per year) |
+| `jobReference` | string | Job reference |
 | `sortBy` | string | Sort by |
 | `urls` | array | Search URLs (URL mode) |
+| `startUrl` | string | Start URL (alias) |
 | `maxPages` | integer | Max pages per search |
 | `maxListings` | integer | Max listings (total, default 20, 0  un |
-| `fetchDetails` | boolean | Fetch detail pages (richer data) |
+| `maxItems` | integer | Max items (alias of Max listings) |
 | `proxy` | object | Proxy configuration |
+| `fetchDetails` | boolean | Fetch detail pages (richer data) |
 
 `*` required
 
@@ -64,15 +69,15 @@ Full details on the [scraper page](https://apify.com/abotapi/jobs-nhs-uk-scraper
 | `addressLine1` | string |
 | `addressLine2` | string |
 | `addressTown` | string |
-| `addressCounty` | string |
+| `addressCounty` | null |
 | `addressLines` | list |
 | `salary` | string |
 | `salaryQualifier` | null |
-| `salaryMin` | integer |
-| `salaryMax` | integer |
-| `salaryPeriod` | string |
+| `salaryMin` | null |
+| `salaryMax` | null |
+| `salaryPeriod` | null |
 | `payScheme` | string |
-| `grade` | null |
+| `grade` | string |
 | `contractType` | string |
 | `contractDuration` | null |
 | `workingPattern` | string |

@@ -4,15 +4,15 @@
     "id": "id13754876",
     "showId": "id7411354",
     "url": "https://www.whatnot.com/example/51586",
-    "title": "Example title",
+    "title": "Example title: mock text standing in for the real value. Same field and type, made-up content.",
     "description": null,
     "status": "PLAYING",
     "isLiveNow": true,
     "isScheduled": false,
     "startTime": "2026-01-15T10:00:00Z",
-    "endTime": null,
-    "activeViewers": 2,
-    "watchlistUsers": 0,
+    "endTime": "2026-01-15T10:00:00Z",
+    "activeViewers": 83,
+    "watchlistUsers": 149,
     "isHiddenBySeller": false,
     "categories": [
       "Example categories"
@@ -21,8 +21,8 @@
       "pokemon_cards"
     ],
     "tags": [
-      "Slabs",
-      "Charizard"
+      "Example tags",
+      "Example tags"
     ],
     "showLabels": [],
     "isFreeShippingEnabled": null,
@@ -33,16 +33,16 @@
     "searchMode": "search",
     "searchQuery": "charizard",
     "scrapedAt": "2026-01-15T10:00:00Z",
-    "sellerId": "04527655",
+    "sellerId": "18139356",
     "sellerUsername": "Example seller username",
     "sellerUrl": "https://www.whatnot.com/example/13597",
     "sellerIsLive": true,
     "sellerIsVerified": false,
-    "sellerIsPremierShop": null,
-    "sellerFollowerCount": 665,
-    "sellerSoldCount": 8050,
+    "sellerIsPremierShop": true,
+    "sellerFollowerCount": 82565,
+    "sellerSoldCount": 368050,
     "sellerRating": 4.75,
-    "sellerReviewCount": 728,
+    "sellerReviewCount": 95228,
     "sellerProfileImageUrl": "https://images.whatnot.com/example/93692.jpg"
   }
 ]

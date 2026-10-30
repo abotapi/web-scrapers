@@ -65,7 +65,7 @@ Full details on the [scraper page](https://apify.com/abotapi/darty-com-scraper?u
 | `discountPercent` | null |
 | `isOnSpecial` | boolean |
 | `promoLabel` | null |
-| `rating` | null |
+| `rating` | integer |
 | `reviewCount` | integer |
 | `inStock` | boolean |
 | `condition` | string |

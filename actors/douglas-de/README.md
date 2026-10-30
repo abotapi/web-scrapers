@@ -17,7 +17,7 @@ python example.py
 ```bash
 curl -s -X POST "https://api.apify.com/v2/acts/abotapi~douglas-de/run-sync-get-dataset-items?token=$APIFY_TOKEN" \
   -H 'Content-Type: application/json' \
-  -d '{"mode": "search", "queries": ["parfum"], "category": "01", "gender": "any", "sortBy": "relevance", "maxReviewsPerProduct": 10, "maxPages": 1, "maxItems": 10, "proxyConfiguration": {"useApifyProxy": true, "apifyProxyGroups": ["RESIDENTIAL"], "apifyProxyCountry": "DE"}}'
+  -d '{"mode": "search", "queries": ["parfum"], "category": "01", "gender": "any", "sortBy": "relevance", "maxReviewsPerProduct": 10, "maxPages": 1, "maxItems": 10, "maxResults": 10, "proxyConfiguration": {"useApifyProxy": true, "apifyProxyGroups": ["RESIDENTIAL"], "apifyProxyCountry": "DE"}}'
 ```
 
 ## Inputs
@@ -26,20 +26,25 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~douglas-de/run-sync-get-d
 | --- | --- | --- |
 | `mode` * | string | Input mode |
 | `queries` | array | Search keywords |
+| `keywords` | array | Keywords (alias) |
 | `category` | string | Category |
 | `brand` | string | Brand |
 | `gender` | string | Gender filter |
 | `sortBy` | string | Sort order |
+| `sort` | string | Sort (alias) |
 | `promoFlags` | array | Promotion flags |
 | `urls` | array | Douglas URLs |
+| `productCodes` | array | Product codes |
 | `priceMin` | number | Minimum price (EUR) |
 | `priceMax` | number | Maximum price (EUR) |
 | `specialsOnly` | boolean | Discounted products only |
 | `fetchDetails` | boolean | Fetch product details |
+| `scrapeMode` | string | Scrape mode (alias) |
 | `fetchReviews` | boolean | Fetch reviews |
 | `maxReviewsPerProduct` | integer | Max reviews per product |
 | `maxPages` | integer | Max pages per search/URL |
 | `maxItems` | integer | Max products total |
+| `maxResults` | integer | Max results (alias) |
 | `proxyConfiguration` | object | Proxy configuration |
 
 `*` required
@@ -86,6 +91,12 @@ Full details on the [scraper page](https://apify.com/abotapi/douglas-de?utm_sour
 | `specifications` | object |
 | `reviewSummary` | string |
 | `scrapedAt` | string |
+| `currency` | string |
+| `recommendedRetailPrice` | integer |
+| `lowestPrice30d` | float |
+| `basePriceUnit` | string |
+| `flags` | list |
+| `contentAmount` | integer |
 
 ---
 

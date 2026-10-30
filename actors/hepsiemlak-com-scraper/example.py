@@ -15,6 +15,7 @@ run = client.actor("abotapi/hepsiemlak-com-scraper").call(
         "mode": "search",
         "listingType": "sale",
         "propertyType": "any",
+        "sortBy": "default",
         "locations": ["Istanbul"],
         "maxItems": 10,
         "maxPages": 1,

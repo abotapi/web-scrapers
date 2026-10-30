@@ -17,7 +17,7 @@ python example.py
 ```bash
 curl -s -X POST "https://api.apify.com/v2/acts/abotapi~klekt-com-scraper/run-sync-get-dataset-items?token=$APIFY_TOKEN" \
   -H 'Content-Type: application/json' \
-  -d '{"mode": "browse", "strategy": "trending", "maxItems": 10, "maxPages": 1, "proxy": {"useApifyProxy": true}}'
+  -d '{"mode": "browse", "strategy": "trending", "maxItems": 10, "maxPages": 1, "maxReviewsPerProduct": 10, "proxy": {"useApifyProxy": true}, "changeScope": "all"}'
 ```
 
 ## Inputs
@@ -41,7 +41,11 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~klekt-com-scraper/run-syn
 | `fetchDetails` | boolean | Fetch product details |
 | `maxItems` | integer | Max items |
 | `maxPages` | integer | Max catalogue pages (Browse mode) |
+| `maxReviewsPerProduct` | integer | Max reviews per product |
 | `proxy` | object | Proxy configuration |
+| `changeScope` | string | What counts as a change (incremental m |
+| `compactUpdates` | boolean | Compact update rows (incremental mode  |
+| `expireAfterMissedScans` | integer | Expire after N missed full scans (incr |
 
 `*` required
 
@@ -56,23 +60,25 @@ Full details on the [scraper page](https://apify.com/abotapi/klekt-com-scraper?u
 | `id` | string |
 | `type` | string |
 | `name` | string |
-| `sku` | string |
 | `slug` | string |
-| `colorway` | string |
-| `description` | string |
-| `availability` | string |
+| `url` | string |
+| `size` | string |
+| `boxCondition` | string |
+| `condition` | string |
 | `priceAmount` | integer |
-| `lastSoldPrice` | integer |
 | `priceCurrency` | string |
 | `imageUrl` | string |
-| `url` | string |
+| `likesCount` | integer |
+| `postedAgo` | string |
 | `brand` | string |
+| `sku` | string |
+| `description` | string |
+| `availability` | string |
 | `seller` | string |
 | `images` | list |
 | `model` | string |
-| `lowestListingPrice` | integer |
-| `lowestListingSize` | string |
 | `detailScraped` | boolean |
+| `reviews` | list |
 
 ---
 

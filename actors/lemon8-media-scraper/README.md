@@ -17,15 +17,19 @@ python example.py
 ```bash
 curl -s -X POST "https://api.apify.com/v2/acts/abotapi~lemon8-media-scraper/run-sync-get-dataset-items?token=$APIFY_TOKEN" \
   -H 'Content-Type: application/json' \
-  -d '{"searchTerm": "fashion", "region": "us", "limit": 10, "proxy": {"useApifyProxy": true, "apifyProxyCountry": "US"}}'
+  -d '{"mode": "auto", "searchTerm": "fashion", "feedCategories": ["foryou"], "keywords": ["fashion"], "region": "us", "limit": 10, "proxy": {"useApifyProxy": true, "apifyProxyCountry": "US"}}'
 ```
 
 ## Inputs
 
 | Input | Type | What it is |
 | --- | --- | --- |
+| `mode` | string | Mode |
 | `postUrls` | array | Post URLs |
 | `searchTerm` | string | Search Term |
+| `feedCategories` | array | Feed categories (feed mode) |
+| `keywords` | array | Keywords (discover mode) |
+| `profileUrls` | array | Profile URLs (profile mode) |
 | `region` | string | Region |
 | `limit` | integer | Limit |
 | `saveImages` | boolean | Save Images |
@@ -50,6 +54,28 @@ Full details on the [scraper page](https://apify.com/abotapi/lemon8-media-scrape
 | `videos` | list |
 | `imageCount` | integer |
 | `videoCount` | integer |
+| `groupId` | string |
+| `url` | string |
+| `title` | string |
+| `content` | string |
+| `articleClass` | string |
+| `likes` | integer |
+| `saves` | integer |
+| `commentCount` | integer |
+| `authorUserId` | string |
+| `authorUsername` | string |
+| `authorNickname` | string |
+| `authorAvatar` | string |
+| `authorFollowers` | integer |
+| `videoUrl` | null |
+| `thumbnailUrl` | string |
+| `hashtags` | list |
+| `topComments` | list |
+| `keyword` | null |
+| `category` | null |
+| `region` | string |
+| `sourceMode` | string |
+| `scrapedAt` | string |
 
 ---
 

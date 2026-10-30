@@ -42,7 +42,7 @@
         "cashPrice": null,
         "cashPostedAt": null,
         "cashReportedBy": null,
-        "creditPrice": 2.96,
+        "creditPrice": 2.88,
         "creditPostedAt": "2026-01-15T10:00:00Z",
         "creditReportedBy": "Example credit reported by",
         "formattedPrice": "Example formatted price",
@@ -55,14 +55,14 @@
         "cashPrice": null,
         "cashPostedAt": null,
         "cashReportedBy": null,
-        "creditPrice": null,
-        "creditPostedAt": null,
-        "creditReportedBy": null,
-        "formattedPrice": null,
+        "creditPrice": 5.28,
+        "creditPostedAt": "2026-01-15T10:00:00Z",
+        "creditReportedBy": "Example credit reported by",
+        "formattedPrice": "Example formatted price",
         "memberDiscount": 0
       }
     ],
-    "lowestPrice": 3.03,
+    "lowestPrice": 2.95,
     "lowestPriceFuelType": "regular",
     "lastPriceReportedAt": "2026-01-15T10:00:00Z",
     "lastPriceReportedBy": "Example last price reported by",
@@ -88,21 +88,21 @@
       {
         "areaName": "Example area name",
         "country": "US",
-        "todayAverage": 4.0,
-        "todayLow": 4.36,
+        "todayAverage": 3.85,
+        "todayLow": 4.2,
         "direction": "rising"
       },
       {
         "areaName": "Example area name",
         "country": "US",
-        "todayAverage": 3.74,
-        "todayLow": 2.34,
-        "direction": "flat"
+        "todayAverage": 3.61,
+        "todayLow": 2.12,
+        "direction": "falling"
       }
     ],
     "offers": [
       {
-        "offerId": "h999920-4-3-5-8-1-3-1-8-h090lkshe4iltp07bxexny9",
+        "offerId": "h690242-8-4-1-9-5-9-5-6-hcocoinentx6ikfyke56heq",
         "highlight": "Example highlight",
         "types": [
           "gasbuddy"
@@ -171,7 +171,7 @@
         "cashPrice": null,
         "cashPostedAt": null,
         "cashReportedBy": null,
-        "creditPrice": 3.35,
+        "creditPrice": 3.18,
         "creditPostedAt": "2026-01-15T10:00:00Z",
         "creditReportedBy": "Example credit reported by",
         "formattedPrice": "Example formatted price",
@@ -184,14 +184,14 @@
         "cashPrice": null,
         "cashPostedAt": null,
         "cashReportedBy": null,
-        "creditPrice": null,
-        "creditPostedAt": null,
-        "creditReportedBy": null,
-        "formattedPrice": null,
+        "creditPrice": 2.97,
+        "creditPostedAt": "2026-01-15T10:00:00Z",
+        "creditReportedBy": "Example credit reported by",
+        "formattedPrice": "Example formatted price",
         "memberDiscount": 0
       }
     ],
-    "lowestPrice": 3.67,
+    "lowestPrice": 3.49,
     "lowestPriceFuelType": "regular",
     "lastPriceReportedAt": "2026-01-15T10:00:00Z",
     "lastPriceReportedBy": "Example last price reported by",
@@ -217,21 +217,21 @@
       {
         "areaName": "Example area name",
         "country": "US",
-        "todayAverage": 4.39,
-        "todayLow": 3.14,
+        "todayAverage": 4.22,
+        "todayLow": 3.02,
         "direction": "rising"
       },
       {
         "areaName": "Example area name",
         "country": "US",
-        "todayAverage": 3.17,
-        "todayLow": 3.95,
-        "direction": "flat"
+        "todayAverage": 3.05,
+        "todayLow": 3.59,
+        "direction": "falling"
       }
     ],
     "offers": [
       {
-        "offerId": "h451506-5-7-6-2-2-5-8-7-hqyc6qvvuq9dq6p9eq2wyu",
+        "offerId": "h210515-6-9-1-4-8-1-0-4-hdnaeap72obiqnw2xpu5j7y",
         "highlight": "Example highlight",
         "types": [
           "gasbuddy"

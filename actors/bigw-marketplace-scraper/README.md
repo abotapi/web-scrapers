@@ -54,7 +54,7 @@ Full details on the [scraper page](https://apify.com/abotapi/bigw-marketplace-sc
 | Field | Type |
 | --- | --- |
 | `articleId` | string |
-| `gtin` | null |
+| `gtin` | string |
 | `ean` | string |
 | `mpn` | string |
 | `barcodes` | list |

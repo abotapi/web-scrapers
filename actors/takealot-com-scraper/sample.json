@@ -8,9 +8,9 @@
     "subtitle": "Example subtitle: mock text standing in for the real value. Same field and type, made-up content.",
     "brand": null,
     "price": 6691,
-    "priceMax": 4499,
+    "priceMax": null,
     "prettyPrice": "Example pretty price",
-    "listingPrice": null,
+    "listingPrice": 6360,
     "savingPercent": 58,
     "currency": "ZAR",
     "starRating": 4.39,
@@ -26,11 +26,10 @@
     "stockStatus": "Example stock status",
     "isImportedItem": false,
     "distributionCentres": [
-      "CPT",
-      "DBN"
+      "JHB"
     ],
     "isPreorder": false,
-    "addToCartAvailable": false,
+    "addToCartAvailable": true,
     "isDeal": true,
     "badges": [
       "Example badges"
@@ -44,6 +43,9 @@
     "productId": 923453272,
     "hasMoreColours": false,
     "promotionLabel": null,
+    "slug": "id68645116",
+    "estimatedDelivery": "Example estimated delivery",
+    "estimatedDeliveryType": "same_day",
     "descriptionHtml": "Example description html: mock text standing in for the real value. Same field and type, made-up content.",
     "descriptionText": "Example description text: mock text standing in for the real value. Same field and type, made-up content.",
     "specs": {
@@ -56,12 +58,71 @@
       "Touchscreen Enabled ": "Example touchscreen  enabled",
       "Device Storage Capacity": "Example device  storage  capacity"
     },
-    "boxContents": "Example box contents",
-    "warranty": "Example warranty",
-    "categoriesPath": [
-      "Example categories path",
-      "Laptops"
+    "boxContents": "Example box contents"
+  },
+  {
+    "kind": "product",
+    "recordId": "plid799195085",
+    "plid": 366962738,
+    "url": "https://www.takealot.com/example/73185",
+    "title": "Example title",
+    "subtitle": "Example subtitle",
+    "brand": null,
+    "price": 6023,
+    "priceMax": null,
+    "prettyPrice": "Example pretty price",
+    "listingPrice": 8614,
+    "savingPercent": 14,
+    "currency": "ZAR",
+    "starRating": 0,
+    "reviewCount": 0,
+    "ratingDistribution": {
+      "star5": 0,
+      "star4": 0,
+      "star3": 0,
+      "star2": 0,
+      "star1": 0
+    },
+    "inStock": false,
+    "stockStatus": "Example stock status",
+    "isImportedItem": false,
+    "distributionCentres": null,
+    "isPreorder": false,
+    "addToCartAvailable": true,
+    "isDeal": true,
+    "badges": [
+      "Example badges"
     ],
-    "departmentName": "Example department name"
+    "imageUrl": "https://media.takealot.com/example/90790.jpg",
+    "imageCount": 3,
+    "shippingMessage": "Example shipping message",
+    "shippingCode": "takealotmore",
+    "isPromotion": false,
+    "tsin": 323745232,
+    "productId": 494316771,
+    "hasMoreColours": false,
+    "promotionLabel": null,
+    "slug": "id68556970",
+    "estimatedDelivery": "Example estimated delivery",
+    "estimatedDeliveryType": "standard",
+    "descriptionHtml": "Example description html: mock text standing in for the real value. Same field and type, made-up content.",
+    "descriptionText": "Example description text: mock text standing in for the real value. Same field and type, made-up content.",
+    "specs": {
+      "By User": "Example by  user",
+      "CPU Type": "Example c p u  type",
+      "CPU Speed": "Example c p u  speed",
+      "Is Backlit": "Example is  backlit",
+      "Screen Size": "Example screen  size",
+      "Model": "Example model",
+      "Connector Type": "Type-C",
+      "Hard Drive Types": "eMMC",
+      "USB Connectivity": "Example u s b  connectivity",
+      "Device Operating Systems": "Example device  operating  systems",
+      "Number of USB ports": "5",
+      "Touchscreen Enabled ": "Example touchscreen  enabled",
+      "Number of HDMI Ports": "2",
+      "Computer Graphics Processor": "Example computer  graphics  processor"
+    },
+    "boxContents": "Example box contents: mock text standing in for the real value. Same field and type, made-up content."
   }
 ]

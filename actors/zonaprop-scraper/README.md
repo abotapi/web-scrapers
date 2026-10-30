@@ -77,8 +77,8 @@ Full details on the [scraper page](https://apify.com/abotapi/zonaprop-scraper?ut
 | `priceUsd` | integer |
 | `priceArs` | null |
 | `prices` | list |
-| `expenses` | integer |
-| `expensesCurrency` | string |
+| `expenses` | null |
+| `expensesCurrency` | null |
 | `expensesFormatted` | null |
 | `totalArea` | integer |
 | `coveredArea` | integer |
@@ -86,7 +86,7 @@ Full details on the [scraper page](https://apify.com/abotapi/zonaprop-scraper?ut
 | `bedrooms` | integer |
 | `bathrooms` | integer |
 | `garages` | null |
-| `age` | null |
+| `age` | integer |
 | `areaUnit` | string |
 | `address` | string |
 | `addressVisibility` | string |

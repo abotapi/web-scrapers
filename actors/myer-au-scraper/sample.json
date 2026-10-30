@@ -1,10 +1,10 @@
 [
   {
-    "id": "036799185",
-    "name": "Example name: mock text standing in for the real value. Same field and type, made-up content.",
+    "id": "940331923",
+    "name": "Example name",
     "brand": "CHANEL",
     "url": "https://www.myer.com.au/example/44883",
-    "seoToken": "Example seo token",
+    "seoToken": "id30509788",
     "price": 657,
     "priceTo": 645,
     "listPrice": 553,
@@ -21,21 +21,17 @@
     "hasMoreColours": false,
     "colourVariants": [
       {
-        "id": "306790169",
-        "colour": null
-      },
-      {
-        "id": "295526227",
+        "id": "225508977",
         "colour": null
       }
     ],
-    "mfPartNumber": "4108631",
+    "mfPartNumber": "5433737",
     "productExclusive": null,
     "merchCategory": "Example merch category",
-    "category": "Example category",
+    "category": "chanel-no7",
     "categories": [
       "beauty",
-      "all-fragrance"
+      "Example categories"
     ],
     "imageUrl": "https://myer-media.com.au/example/86518.jpg",
     "images": [
@@ -44,8 +40,9 @@
     ],
     "searchMode": "search",
     "source": "myer.com.au",
+    "sourceUrl": "https://www.myer.com.au/example/75560",
     "internalId": 40299688,
-    "title": "Example title: mock text standing in for the real value. Same field and type, made-up content.",
+    "title": "Example title",
     "brandUrl": "Example brand url",
     "shortDescription": null,
     "longDescription": "Example long description: mock text standing in for the real value. Same field and type, made-up content.",
@@ -53,12 +50,6 @@
     "isClearance": null,
     "afterPayEligible": true,
     "hummEligible": true,
-    "categoryUri": "Example category uri",
-    "specifications": {
-      "Brand": "CHANEL",
-      "Dangerous Goods": "Example dangerous  goods",
-      "Fragrance Note": "Example fragrance  note",
-      "Collection Name": "Example collection  name"
-    }
+    "categoryUri": "Example category uri: mock text standing in for the real value. Same field and type, made-up content."
   }
 ]

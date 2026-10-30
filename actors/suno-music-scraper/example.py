@@ -15,6 +15,7 @@ run = client.actor("abotapi/suno-music-scraper").call(
         "mode": "explore",
         "exploreFeeds": ["trending"],
         "profileSortBy": "upvote_count",
+        "isInstrumental": "any",
         "maxItems": 10,
         "maxPages": 1,
         "proxyConfiguration": {"useApifyProxy": True},

@@ -17,7 +17,7 @@ python example.py
 ```bash
 curl -s -X POST "https://api.apify.com/v2/acts/abotapi~housing-com-scraper/run-sync-get-dataset-items?token=$APIFY_TOKEN" \
   -H 'Content-Type: application/json' \
-  -d '{"mode": "search", "service": "buy", "city": "Mumbai"}'
+  -d '{"mode": "search", "service": "buy", "city": "Mumbai", "locality": "andheri_west"}'
 ```
 
 ## Inputs
@@ -82,12 +82,12 @@ Full details on the [scraper page](https://apify.com/abotapi/housing-com-scraper
 | `projectId` | string |
 | `city` | string |
 | `cityId` | string |
+| `locality` | string |
 | `transactionType` | string |
 | `isReraVerified` | boolean |
 | `coverImageUrl` | string |
 | `pricePerArea` | string |
 | `configurations` | string |
-| `bedrooms` | integer |
 
 ---
 

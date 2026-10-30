@@ -1,12 +1,12 @@
 [
   {
-    "productId": "74973867",
-    "sku": "08608471",
-    "name": "Example name: mock text standing in for the real value. Same field and type, made-up content.",
-    "brand": "WORX",
+    "productId": "46691221",
+    "sku": "00109465",
+    "name": "Example name",
+    "brand": "BOSCH",
     "url": "https://www.leroymerlin.es/example/56597",
-    "price": 774,
-    "priceExclTax": 164.01,
+    "price": 41.99,
+    "priceExclTax": 43.38,
     "currency": "EUR",
     "originalPrice": null,
     "discountPercent": null,
@@ -16,15 +16,15 @@
     "sellerName": "Example seller name",
     "sellerType": "Example seller type",
     "offerType": "NEW",
-    "rating": 5.26,
+    "rating": 5.23,
     "totalOfferCount": 6,
     "sellersComposition": "6p_only",
     "sponsored": true,
-    "ean": "5806098603863",
+    "ean": "0197789169512",
     "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
     "image": "https://media.adeo.com/example/34517.jpg",
     "numberOfImages": 1,
-    "numberOfReviews": 435,
+    "numberOfReviews": 75,
     "categoryPath": [
       "Home",
       "Productos"
@@ -33,18 +33,42 @@
     "stock": 4,
     "stockStatus": "ONSITE",
     "deliveryTime": "Example delivery time",
+    "specs": {
+      "Tipo de producto": "Example tipo de producto",
+      "Tensión (en V)": "2",
+      "Brushless": "Example brushless",
+      "Torque máximo/fuerza de apriete (en Nm)": "7.1",
+      "Número de velocidades": "4",
+      "Función percutor": "Example función percutor",
+      "Batería incluida": "Example batería incluida",
+      "Cantidad de baterías suministradas": "8",
+      "Cargador suministrado": "Example cargador suministrado",
+      "Tiempo de carga (en min)": "515",
+      "Indicador de nivel de carga": "Example indicador de nivel de carga",
+      "Embrague de seguridad": "Example embrague de seguridad",
+      "Iluminación integrada": "Example iluminación integrada",
+      "Marca del producto": "BOSCH",
+      "Producto empaquetado: anchura (en cm)": "62.7",
+      "Producto empaquetado: altura (en cm)": "87",
+      "Producto empaquetado: profundidad (en cm)": "3.5",
+      "Producto empaquetado: peso (en kg)": "6.99"
+    },
+    "imageUrl": "https://media.adeo.com/example/2202.jpg",
+    "reviewCount": 24,
+    "inStock": true,
     "reviews": {
-      "averageRating": 5.78,
-      "totalReviewCount": 684,
+      "averageRating": 5.74,
+      "totalReviewCount": 54,
       "items": [
         {
           "rating": 5,
-          "body": "Example body: mock text standing in for the real value. Same field and type, made-up content.",
+          "body": "Example body",
           "author": "Example author",
           "date": "2026-01-15"
         }
       ]
     },
-    "searchMode": "search"
+    "searchMode": "search",
+    "scrapedAt": "2026-01-15T10:00:00Z"
   }
 ]

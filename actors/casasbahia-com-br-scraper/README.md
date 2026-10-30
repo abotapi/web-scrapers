@@ -26,6 +26,7 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~casasbahia-com-br-scraper
 | --- | --- | --- |
 | `mode` * | string | Mode |
 | `queries` | array | Search keywords |
+| `term` | string | Search keyword (alias) |
 | `urls` | array | Store links or product codes |
 | `categories` | array | Department |
 | `brands` | array | Brand |
@@ -42,6 +43,9 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~casasbahia-com-br-scraper
 | `maxReviewsPerProduct` | integer | Max reviews per product |
 | `maxItems` | integer | Max products |
 | `maxPages` | integer | Max result pages per keyword or link |
+| `startPage` | integer | Start page |
+| `failOnNoResults` | boolean | Fail when nothing is found |
+| `ignoreSiteFailures` | boolean | Succeed even if the site refused every |
 | `proxy` | object | Proxy configuration |
 
 `*` required
@@ -63,11 +67,11 @@ Full details on the [scraper page](https://apify.com/abotapi/casasbahia-com-br-s
 | `categoryName` | string |
 | `categoryPath` | list |
 | `categoryIds` | list |
-| `price` | integer |
+| `price` | float |
 | `originalPrice` | float |
 | `discountPercent` | integer |
 | `discountAmount` | float |
-| `listPrice` | integer |
+| `listPrice` | float |
 | `currency` | string |
 | `onSale` | boolean |
 | `cashPrice` | null |
@@ -89,8 +93,8 @@ Full details on the [scraper page](https://apify.com/abotapi/casasbahia-com-br-s
 | `sellerName` | string |
 | `sellerCount` | integer |
 | `offerCount` | integer |
-| `minOfferPrice` | integer |
-| `maxOfferPrice` | integer |
+| `minOfferPrice` | float |
+| `maxOfferPrice` | float |
 | `image` | string |
 | `images` | list |
 | `videos` | list |

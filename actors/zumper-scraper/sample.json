@@ -1,6 +1,6 @@
 [
   {
-    "id": "80129213",
+    "id": "32176018",
     "url": "https://www.zumper.com/example/1675",
     "padmapperUrl": "https://www.zumper.com/example/85680",
     "title": "Example title",
@@ -11,10 +11,10 @@
     "formattedAddress": null,
     "city": "Example city",
     "state": "CA",
-    "zipcode": "98185",
-    "neighborhood": "SOMA",
-    "latitude": 33.62,
-    "longitude": -104.04,
+    "zipcode": "62051",
+    "neighborhood": "Example neighborhood",
+    "latitude": 33.63,
+    "longitude": -104.03,
     "minPrice": 5640,
     "maxPrice": 2787,
     "previousPrice": null,
@@ -35,8 +35,8 @@
     "yearRemodeled": null,
     "floors": null,
     "unitAmenities": [
-      "Dryer",
-      "Courtyard"
+      "Example unit amenities",
+      "Example unit amenities"
     ],
     "buildingAmenities": [
       "Example building amenities",

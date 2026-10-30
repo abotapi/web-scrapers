@@ -31,7 +31,6 @@
     "cancellationPolicy": "Example cancellation policy",
     "repeatClients": 32,
     "browsableServiceSlugs": [
-      "Example browsable service slugs",
       "Example browsable service slugs"
     ],
     "firstName": "Example first name",

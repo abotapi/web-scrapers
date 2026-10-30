@@ -1,6 +1,6 @@
 # Mercado Livre Brazil Scraper
 
-Scrape Mercado Livre Brazil by keyword or URL. Filter by category, brand, price, condition, shipping, official store, and seller rating. Extract prices, discounts, instalments, stock, delivery, seller details, variants, specifications, and buyer reviews.
+Scrape Mercado Livre Brazil's best-sellers, category and product-video feeds without login. Extract prices, discounts, instalments, sold counts, shipping, sellers, images and videos. Category mode auto-pages the app's home tabs. Keyword search is sign-in gated.
 
 **[Open Mercado Livre Brazil Scraper on Apify](https://apify.com/abotapi/mercadolivre-com-br-scraper?utm_source=github&utm_medium=web-scrapers&utm_campaign=monorepo)** to run it without code and export JSON, CSV or Excel.
 
@@ -17,35 +17,17 @@ python example.py
 ```bash
 curl -s -X POST "https://api.apify.com/v2/acts/abotapi~mercadolivre-com-br-scraper/run-sync-get-dataset-items?token=$APIFY_TOKEN" \
   -H 'Content-Type: application/json' \
-  -d '{"mode": "search", "queries": ["notebook"], "condition": "any", "sortBy": "relevance", "maxReviewsPerProduct": 10, "maxItems": 10, "maxPages": 1, "proxy": {"useApifyProxy": true, "apifyProxyGroups": ["RESIDENTIAL"], "apifyProxyCountry": "BR"}}'
+  -d '{"mode": "category", "maxItems": 10, "maxPages": 1, "proxy": {"useApifyProxy": true, "apifyProxyGroups": ["RESIDENTIAL"], "apifyProxyCountry": "BR"}}'
 ```
 
 ## Inputs
 
 | Input | Type | What it is |
 | --- | --- | --- |
-| `mode` * | string | Mode |
-| `queries` | array | Search keywords |
-| `urls` | array | Links or MLB codes |
-| `category` | string | Category |
-| `brand` | string | Brand |
-| `condition` | string | Condition |
-| `minPrice` | integer | Minimum price (BRL) |
-| `maxPrice` | integer | Maximum price (BRL) |
-| `freeShippingOnly` | boolean | Free shipping only |
-| `fulfillmentOnly` | boolean | Marketplace-fulfilled only |
-| `officialStoresOnly` | boolean | Official brand stores only |
-| `bestSellersOnly` | boolean | Top-rated sellers only |
-| `minDiscountPercent` | integer | Minimum discount (%) |
-| `interestFreeInstallments` | boolean | Interest-free instalments only |
-| `includeSponsored` | boolean | Include sponsored results |
-| `sortBy` | string | Sort by |
-| `fetchDetails` | boolean | Fetch full details |
-| `fetchReviews` | boolean | Fetch buyer opinions |
-| `maxReviewsPerProduct` | integer | Max opinions per product |
+| `mode` * | string | Pick your mode |
+| `category` | array | Category mode tabs to walk |
 | `maxItems` | integer | Max products |
 | `maxPages` | integer | Max result pages per search |
-| `ofertasFilter` | string | Ofertas filter (no effect) |
 | `proxy` | object | Proxy configuration |
 
 `*` required
@@ -59,45 +41,18 @@ Full details on the [scraper page](https://apify.com/abotapi/mercadolivre-com-br
 | Field | Type |
 | --- | --- |
 | `itemId` | string |
-| `userProductId` | string |
-| `variationId` | string |
-| `verticalId` | string |
-| `sponsored` | boolean |
-| `resultType` | string |
-| `highlight` | string |
-| `promotions` | list |
-| `pricePerQuantity` | boolean |
-| `catalogProductId` | string |
 | `title` | string |
 | `url` | string |
-| `categoryId` | string |
-| `domainId` | string |
-| `sellerName` | string |
-| `officialStore` | boolean |
-| `price` | float |
-| `originalPrice` | integer |
-| `discountPercent` | integer |
+| `imageUrl` | string |
+| `price` | integer |
 | `currency` | string |
-| `installments` | object |
+| `installmentsText` | string |
 | `freeShipping` | boolean |
-| `fulfillment` | boolean |
-| `shippingText` | string |
-| `soldQuantity` | integer |
-| `rating` | float |
-| `images` | list |
-| `searchPosition` | integer |
-| `totalResults` | integer |
-| `searchKeyword` | string |
+| `rating` | integer |
+| `bestSeller` | boolean |
+| `soldText` | string |
+| `full` | boolean |
 | `scrapedAt` | string |
-| `brand` | string |
-| `model` | string |
-| `condition` | string |
-| `breadcrumb` | list |
-| `description` | string |
-| `attributes` | list |
-| `variants` | list |
-| `availableQuantity` | integer |
-| `stockStatus` | string |
 
 ---
 

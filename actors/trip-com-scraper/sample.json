@@ -3,21 +3,21 @@
     "hotelId": "+1 555 0100",
     "name": "Example name",
     "starRating": 7,
-    "reviewScore": 11.32,
+    "reviewScore": 10.95,
     "reviewScoreLabel": "Example review score label",
     "reviewCount": 9839,
     "reviewTags": [
       "Example review tags",
       "Example review tags"
     ],
-    "address": "Example address",
-    "lat": 43.56,
-    "lng": 152.33,
+    "address": "Example address: mock text standing in for the real value. Same field and type, made-up content.",
+    "lat": 43.59,
+    "lng": 152.29,
     "priceCurrent": 925,
     "priceOriginal": 856,
     "priceTotalWithTaxes": 753,
-    "discountPercent": null,
-    "discountLabel": null,
+    "discountPercent": 36,
+    "discountLabel": "Example discount label",
     "currency": "USD",
     "images": [
       "https://ak-d.tripcdn.com/example/281.jpg",
@@ -25,6 +25,7 @@
     ],
     "image": "https://ak-d.tripcdn.com/example/48666.jpg",
     "badges": [
+      "Example badges",
       "Example badges"
     ],
     "medal": null,
@@ -42,12 +43,12 @@
     "nearbyPlaces": [
       {
         "name": "Example name",
-        "type": "scenic",
+        "type": "station",
         "distance": "Example distance"
       },
       {
         "name": "Example name",
-        "type": "scenic",
+        "type": "metro",
         "distance": "Example distance"
       }
     ],
@@ -57,10 +58,10 @@
     "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
     "rooms": [
       {
-        "roomId": "8619625700",
+        "roomId": "3075538388",
         "roomName": "Example room name",
         "mealInfo": null,
-        "cancelInfo": null,
+        "cancelInfo": "Example cancel info",
         "guestCountInfo": "Example guest count info",
         "roomPrice": {
           "current": 726,
@@ -68,7 +69,9 @@
           "currency": "USD",
           "taxesAndFeesTotal": 977
         },
-        "roomPromotions": [],
+        "roomPromotions": [
+          "Example room promotions"
+        ],
         "remainRoomQuantity": 6,
         "roomAmenityChips": [
           "Example room amenity chips"
@@ -80,13 +83,203 @@
     "confirmInfo": null,
     "reviews": [
       {
-        "reviewId": "9407444285",
-        "reviewRatingOverall": 9.0,
+        "reviewId": "1842683564",
+        "reviewRatingOverall": 30,
         "reviewRatingLocation": 48,
-        "reviewRatingFacility": 3,
-        "reviewRatingService": 8,
-        "reviewRatingRoom": 3,
+        "reviewRatingFacility": 48,
+        "reviewRatingService": 44,
+        "reviewRatingRoom": 57,
+        "reviewCommentLevel": "Outstanding",
+        "reviewContent": "Example review content: mock text standing in for the real value. Same field and type, made-up content.",
+        "reviewLanguage": "en",
+        "reviewTranslatedContent": null,
+        "reviewCreateDate": "2026-01-15T10:00:00Z",
+        "reviewCheckinDate": "2026-01-15T10:00:00Z",
+        "reviewTravelType": "Family",
+        "reviewRecommend": true,
+        "reviewImages": [
+          "https://ak-d.tripcdn.com/example/52246.jpg",
+          "https://ak-d.tripcdn.com/example/48684.jpg"
+        ],
+        "reviewVideos": [],
+        "reviewerNickname": "Example reviewer nickname",
+        "reviewerRegion": "Example reviewer region",
+        "reviewerAvatarUrl": "https://ak-d.tripcdn.com/example/43738.jpg",
+        "reviewerLevel": "Example reviewer level",
+        "reviewUsefulCount": 0,
+        "reviewSourceName": "Example review source name",
+        "reviewOwnerReply": null,
+        "reviewHotelId": "+1 555 0100",
+        "reviewRoomName": "Example review room name",
+        "reviewerCommentCount": 5,
+        "reviewSubScores": [
+          {
+            "name": "Example name",
+            "score": 18
+          },
+          {
+            "name": "Example name",
+            "score": 76
+          }
+        ],
+        "reviewReplyContent": null,
+        "reviewReplyTranslatedContent": null,
+        "reviewReplyLanguage": null,
+        "reviewReplyDate": null
+      },
+      {
+        "reviewId": "7037922327",
+        "reviewRatingOverall": 5.49,
+        "reviewRatingLocation": 2,
+        "reviewRatingFacility": 6,
+        "reviewRatingService": 3,
+        "reviewRatingRoom": 8,
         "reviewCommentLevel": null,
+        "reviewContent": "Example review content: mock text standing in for the real value. Same field and type, made-up content.",
+        "reviewLanguage": "zh",
+        "reviewTranslatedContent": "Example review translated content: mock text standing in for the real value. Same field and type, made-up content.",
+        "reviewCreateDate": "2026-01-15T10:00:00Z",
+        "reviewCheckinDate": "2026-01-15T10:00:00Z",
+        "reviewTravelType": "Couple",
+        "reviewRecommend": false,
+        "reviewImages": [
+          "https://ak-d.tripcdn.com/example/48684.jpg",
+          "https://ak-d.tripcdn.com/example/41272.jpg"
+        ],
+        "reviewVideos": [],
+        "reviewerNickname": "Example reviewer nickname",
+        "reviewerRegion": "Example reviewer region",
+        "reviewerAvatarUrl": "https://ak-d.tripcdn.com/example/30640.jpg",
+        "reviewerLevel": "Example reviewer level",
+        "reviewUsefulCount": 0,
+        "reviewSourceName": "Example review source name",
+        "reviewOwnerReply": null,
+        "reviewHotelId": "+1 555 0100",
+        "reviewRoomName": "Example review room name",
+        "reviewerCommentCount": 68,
+        "reviewSubScores": [
+          {
+            "name": "Example name",
+            "score": 4
+          },
+          {
+            "name": "Example name",
+            "score": 3
+          }
+        ],
+        "reviewReplyContent": null,
+        "reviewReplyTranslatedContent": null,
+        "reviewReplyLanguage": null,
+        "reviewReplyDate": null
+      }
+    ],
+    "reviewCount_pushed": 23,
+    "aggregateTotalReviewCount": 6732,
+    "aggregateRatingBreakdown": {
+      "overall": 11.39,
+      "location": 8,
+      "facility": 6.28,
+      "service": 6.76,
+      "room": 7.46
+    },
+    "aggregateCommentTags": [
+      "Example aggregate comment tags",
+      "Example aggregate comment tags"
+    ],
+    "aggregateAiSummary": "Example aggregate ai summary: mock text standing in for the real value. Same field and type, made-up content.",
+    "cityId": 853
+  },
+  {
+    "hotelId": "+1 555 0100",
+    "name": "Example name",
+    "starRating": 3,
+    "reviewScore": 7.22,
+    "reviewScoreLabel": "Example review score label",
+    "reviewCount": 9657,
+    "reviewTags": [
+      "Example review tags",
+      "Example review tags"
+    ],
+    "address": "Example address",
+    "lat": 25.3,
+    "lng": 99.25,
+    "priceCurrent": 34,
+    "priceOriginal": 76,
+    "priceTotalWithTaxes": 18,
+    "discountPercent": 63,
+    "discountLabel": "Example discount label",
+    "currency": "USD",
+    "images": [
+      "https://ak-d.tripcdn.com/example/2786.jpg",
+      "https://ak-d.tripcdn.com/example/51090.jpg"
+    ],
+    "image": "https://ak-d.tripcdn.com/example/46691.jpg",
+    "badges": [
+      "Example badges",
+      "Example badges"
+    ],
+    "medal": null,
+    "propertyTag": "Hotel",
+    "detailUrl": "https://www.trip.com/example/86704",
+    "amenities": [
+      "Example amenities",
+      "Example amenities"
+    ],
+    "policies": {
+      "checkin": "Example checkin",
+      "checkout": "Example checkout",
+      "cancellation": "Example cancellation"
+    },
+    "nearbyPlaces": [
+      {
+        "name": "Example name",
+        "type": "scenic",
+        "distance": "Example distance"
+      },
+      {
+        "name": "Example name",
+        "type": "station",
+        "distance": "Example distance"
+      }
+    ],
+    "contactPhone": "+1 555 0100",
+    "contactEmail": "user48@example.com",
+    "nearbyHotels": [],
+    "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
+    "rooms": [
+      {
+        "roomId": "6233578930",
+        "roomName": "Example room name",
+        "mealInfo": null,
+        "cancelInfo": "Example cancel info",
+        "guestCountInfo": "Example guest count info",
+        "roomPrice": {
+          "current": 40,
+          "original": 31,
+          "currency": "USD",
+          "taxesAndFeesTotal": 81
+        },
+        "roomPromotions": [
+          "Example room promotions"
+        ],
+        "remainRoomQuantity": 8,
+        "roomAmenityChips": [
+          "Example room amenity chips"
+        ]
+      }
+    ],
+    "roomCount": 3,
+    "roomImages": null,
+    "confirmInfo": null,
+    "reviews": [
+      {
+        "reviewId": "8557708666",
+        "reviewRatingOverall": 85,
+        "reviewRatingLocation": 36,
+        "reviewRatingFacility": 35,
+        "reviewRatingService": 79,
+        "reviewRatingRoom": 15,
+        "reviewCommentLevel": "Outstanding",
         "reviewContent": "Example review content: mock text standing in for the real value. Same field and type, made-up content.",
         "reviewLanguage": "en",
         "reviewTranslatedContent": null,
@@ -95,33 +288,95 @@
         "reviewTravelType": "Example review travel type",
         "reviewRecommend": true,
         "reviewImages": [
-          "https://ak-d.tripcdn.com/example/52246.jpg",
-          "https://ak-d.tripcdn.com/example/48684.jpg"
+          "https://ak-d.tripcdn.com/example/40498.jpg",
+          "https://ak-d.tripcdn.com/example/65150.jpg"
         ],
         "reviewVideos": [],
-        "reviewerNickname": "crissy4268",
+        "reviewerNickname": "Example reviewer nickname",
         "reviewerRegion": "Example reviewer region",
-        "reviewerAvatarUrl": "https://ak-d.tripcdn.com/example/43738.jpg",
+        "reviewerAvatarUrl": "https://ak-d.tripcdn.com/example/6218.jpg",
         "reviewerLevel": "Example reviewer level",
         "reviewUsefulCount": 0,
         "reviewSourceName": "Example review source name",
-        "reviewOwnerReply": null
+        "reviewOwnerReply": null,
+        "reviewHotelId": "+1 555 0100",
+        "reviewRoomName": "Example review room name",
+        "reviewerCommentCount": 83,
+        "reviewSubScores": [
+          {
+            "name": "Example name",
+            "score": 61
+          },
+          {
+            "name": "Example name",
+            "score": 56
+          }
+        ],
+        "reviewReplyContent": null,
+        "reviewReplyTranslatedContent": null,
+        "reviewReplyLanguage": null,
+        "reviewReplyDate": null
+      },
+      {
+        "reviewId": "5140311083",
+        "reviewRatingOverall": 27,
+        "reviewRatingLocation": 46,
+        "reviewRatingFacility": 71,
+        "reviewRatingService": 10,
+        "reviewRatingRoom": 14,
+        "reviewCommentLevel": "Outstanding",
+        "reviewContent": "Example review content",
+        "reviewLanguage": "zh",
+        "reviewTranslatedContent": "Example review translated content: mock text standing in for the real value. Same field and type, made-up content.",
+        "reviewCreateDate": "2026-01-15T10:00:00Z",
+        "reviewCheckinDate": "2026-01-15T10:00:00Z",
+        "reviewTravelType": "Example review travel type",
+        "reviewRecommend": true,
+        "reviewImages": [
+          "https://ak-d.tripcdn.com/example/65150.jpg",
+          "https://ak-d.tripcdn.com/example/36195.jpg"
+        ],
+        "reviewVideos": [],
+        "reviewerNickname": "Example reviewer nickname",
+        "reviewerRegion": "",
+        "reviewerAvatarUrl": "https://ak-d.tripcdn.com/example/91044.jpg",
+        "reviewerLevel": "Example reviewer level",
+        "reviewUsefulCount": 0,
+        "reviewSourceName": "Example review source name",
+        "reviewOwnerReply": null,
+        "reviewHotelId": "+1 555 0100",
+        "reviewRoomName": "Example review room name",
+        "reviewerCommentCount": 2,
+        "reviewSubScores": [
+          {
+            "name": "Example name",
+            "score": 56
+          },
+          {
+            "name": "Example name",
+            "score": 13
+          }
+        ],
+        "reviewReplyContent": null,
+        "reviewReplyTranslatedContent": null,
+        "reviewReplyLanguage": null,
+        "reviewReplyDate": null
       }
     ],
-    "reviewCount_pushed": 5,
-    "aggregateTotalReviewCount": 6732,
+    "reviewCount_pushed": 17,
+    "aggregateTotalReviewCount": 7095,
     "aggregateRatingBreakdown": {
-      "overall": 11.78,
-      "location": 6.96,
-      "facility": 7,
-      "service": 1,
-      "room": 7.71
+      "overall": 9.74,
+      "location": 9,
+      "facility": 6.97,
+      "service": 6.8,
+      "room": 9.61
     },
     "aggregateCommentTags": [
       "Example aggregate comment tags",
       "Example aggregate comment tags"
     ],
     "aggregateAiSummary": "Example aggregate ai summary: mock text standing in for the real value. Same field and type, made-up content.",
-    "cityId": 853
+    "cityId": 223
   }
 ]

@@ -1,6 +1,6 @@
 # Yellow Pages AU Scraper
 
-Scrape business listings from Yellow Pages Australia by type and location. Get names, contacts, websites, ratings, social links, and more. Supports filters, sorting, and custom output fields. Perfect for lead gen, local SEO, and market research.
+Scrape Yellow Pages Australia (yellowpages.com.au) business listings by category and location from $1/1K results. Extract business names, phone numbers, addresses, websites, ratings and social links. Supports filters, sorting and custom fields for lead generation, local SEO and market research.
 
 **[Open Yellow Pages AU Scraper on Apify](https://apify.com/abotapi/yellow-pages-au-scraper?utm_source=github&utm_medium=web-scrapers&utm_campaign=monorepo)** to run it without code and export JSON, CSV or Excel.
 
@@ -72,17 +72,6 @@ Full details on the [scraper page](https://apify.com/abotapi/yellow-pages-au-scr
 | `addressDetails` | object |
 | `latitude` | float |
 | `longitude` | float |
-| `reviews` | list |
-| `reviewsCount` | integer |
-| `aggregateRating` | null |
-| `aggregateReviewCount` | null |
-| `detailImages` | list |
-| `abn` | string |
-| `paymentMethods` | string |
-| `extraPhones` | list |
-| `generalInfo` | string |
-| `badges` | list |
-| `acn` | string |
 
 ---
 

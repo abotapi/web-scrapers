@@ -1,11 +1,11 @@
 [
   {
     "recordId": "Example record id",
-    "productId": "56756397848620",
-    "url": "https://showpo.com/example/37663",
+    "productId": "25073888893347",
+    "url": "https://www.showpo.com/example/37663",
     "title": "Example title",
-    "brand": "Example brand",
-    "color": "Chocolate",
+    "brand": "SHOWPO",
+    "color": "Black",
     "attributes": [
       {
         "name": "Example name",
@@ -21,7 +21,7 @@
     "compareAtPrice": null,
     "onSale": false,
     "discountPercent": 0,
-    "currency": "USD",
+    "currency": "AUD",
     "availableForSale": true,
     "inventoryLevel": 598,
     "gtin": null,
@@ -36,11 +36,11 @@
       "https://cdn.shopify.com/example/17404.jpg",
       "https://cdn.shopify.com/example/34758.jpg"
     ],
-    "ratingValue": 5.88,
+    "ratingValue": 5.76,
     "reviewCount": 25,
     "sizesAvailable": [
-      "Example sizes available",
-      "Example sizes available"
+      "XS",
+      "S"
     ],
     "sizesUnavailable": [],
     "descriptionHtml": "Example description html: mock text standing in for the real value. Same field and type, made-up content.",
@@ -61,29 +61,29 @@
     ],
     "variants": [
       {
-        "variantId": "72751345562673",
+        "variantId": "44860407364471",
         "title": "Example title",
-        "sku": "sd90006874-398",
-        "size": "Example size",
+        "sku": "lux4057-224",
+        "size": "L",
         "price": 151.45,
         "compareAtPrice": 140.95,
         "onSale": false,
         "availableForSale": true,
         "quantityAvailable": 73,
-        "restockLabel": "Example restock label: mock text standing in for the real value. Same field and type, made-up content.",
+        "restockLabel": null,
         "imageUrl": "https://cdn.shopify.com/example/81116.jpg"
       },
       {
-        "variantId": "73559494503675",
+        "variantId": "25070425710884",
         "title": "Example title",
-        "sku": "sd48623180-348",
-        "size": "Example size",
+        "sku": "lux9064-595",
+        "size": "M",
         "price": 133.46,
         "compareAtPrice": 112.46,
         "onSale": false,
         "availableForSale": true,
-        "quantityAvailable": 71,
-        "restockLabel": "Example restock label: mock text standing in for the real value. Same field and type, made-up content.",
+        "quantityAvailable": 971,
+        "restockLabel": null,
         "imageUrl": "https://cdn.shopify.com/example/49999.jpg"
       }
     ],
@@ -91,7 +91,7 @@
       {
         "handle": "Example handle",
         "image": "https://cdn.shopify.com/example/87340.jpg",
-        "pdpColor": "Chocolate",
+        "pdpColor": "Blue",
         "plpSwatchColor": "Example plp swatch color"
       },
       {
@@ -104,7 +104,7 @@
     "colorways": [
       {
         "handle": "Example handle",
-        "color": "Chocolate",
+        "color": "Blue",
         "imageUrl": "https://cdn.shopify.com/example/81116.jpg"
       },
       {
@@ -120,116 +120,5 @@
     "sizingGuide": null,
     "restockLabel": null,
     "sizeInformation": "Example size information"
-  },
-  {
-    "recordId": "Example record id",
-    "productId": "84197494523905",
-    "url": "https://showpo.com/example/86480",
-    "title": "Example title: mock text standing in for the real value. Same field and type, made-up content.",
-    "brand": "Example brand",
-    "color": "Example color",
-    "attributes": [
-      {
-        "name": "Example name",
-        "value": "Example value"
-      },
-      {
-        "name": "Example name",
-        "value": "Example value"
-      }
-    ],
-    "price": 103.16,
-    "listPrice": 129.55,
-    "compareAtPrice": null,
-    "onSale": false,
-    "discountPercent": 0,
-    "currency": "USD",
-    "availableForSale": true,
-    "inventoryLevel": 23,
-    "gtin": null,
-    "condition": null,
-    "categories": [
-      "Example categories",
-      "Example categories"
-    ],
-    "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
-    "imageUrl": "https://cdn.shopify.com/example/25637.jpg",
-    "imageUrls": [
-      "https://cdn.shopify.com/example/11793.jpg",
-      "https://cdn.shopify.com/example/24228.jpg"
-    ],
-    "ratingValue": null,
-    "reviewCount": null,
-    "sizesAvailable": [
-      "Example sizes available",
-      "Example sizes available"
-    ],
-    "sizesUnavailable": [],
-    "descriptionHtml": "Example description html: mock text standing in for the real value. Same field and type, made-up content.",
-    "subTitle": "Example sub title: mock text standing in for the real value. Same field and type, made-up content.",
-    "styleName": "Example style name: mock text standing in for the real value. Same field and type, made-up content.",
-    "seoTitle": null,
-    "seoDescription": null,
-    "canonicalUrl": null,
-    "collections": [
-      "Example collections",
-      "clothes"
-    ],
-    "options": [
-      {
-        "name": "Example name",
-        "values": []
-      }
-    ],
-    "variants": [
-      {
-        "variantId": "05301818949941",
-        "title": "Example title",
-        "sku": "sd29247542-588",
-        "size": "Example size",
-        "price": 103.16,
-        "compareAtPrice": 87.56,
-        "onSale": false,
-        "availableForSale": true,
-        "quantityAvailable": 85,
-        "restockLabel": "Example restock label: mock text standing in for the real value. Same field and type, made-up content.",
-        "imageUrl": "https://cdn.shopify.com/example/25637.jpg"
-      },
-      {
-        "variantId": "80531528382349",
-        "title": "Example title",
-        "sku": "sd71677001-110",
-        "size": "Example size",
-        "price": 125.95,
-        "compareAtPrice": 151.14,
-        "onSale": false,
-        "availableForSale": true,
-        "quantityAvailable": 47,
-        "restockLabel": "Example restock label: mock text standing in for the real value. Same field and type, made-up content.",
-        "imageUrl": "https://cdn.shopify.com/example/288.jpg"
-      }
-    ],
-    "swatches": [
-      {
-        "handle": "Example handle: mock text standing in for the real value. Same field and type, made-up content.",
-        "image": "https://cdn.shopify.com/example/78146.jpg",
-        "pdpColor": "Example pdp color",
-        "plpSwatchColor": "Example plp swatch color"
-      }
-    ],
-    "colorways": [
-      {
-        "handle": "Example handle: mock text standing in for the real value. Same field and type, made-up content.",
-        "color": "Example color",
-        "imageUrl": "https://cdn.shopify.com/example/25637.jpg"
-      }
-    ],
-    "tags": [
-      "Example tags",
-      "Example tags"
-    ],
-    "sizingGuide": null,
-    "restockLabel": null,
-    "sizeInformation": null
   }
 ]

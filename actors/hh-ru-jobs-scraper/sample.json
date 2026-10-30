@@ -1,6 +1,6 @@
 [
   {
-    "vacancyId": "416253023",
+    "vacancyId": "223088933",
     "url": "https://hh.ru/example/94842",
     "name": "Example name",
     "publicationDate": "2026-01-15T10:00:00Z",
@@ -10,14 +10,14 @@
     "searchUrl": "https://hh.ru/example/24790",
     "searchSessionId": "id10441228",
     "company": {
-      "id": 1201970,
+      "id": 4970,
       "name": "Example name",
       "visibleName": "Example visible name",
-      "isAccreditedIT": false,
+      "isAccreditedIT": true,
       "isTrusted": true,
       "category": "COMPANY",
       "state": "APPROVED",
-      "siteUrl": "http://getwola.ru/example/71246",
+      "siteUrl": "https://hh.ru/example/71246",
       "logoUrl": "https://hh.ru/example/69494.jpg",
       "logos": [
         {
@@ -31,19 +31,19 @@
       ],
       "badges": []
     },
-    "salaryFrom": 569126,
+    "salaryFrom": null,
     "salaryTo": null,
-    "salaryCurrency": "RUR",
-    "salaryGross": false,
-    "salaryMode": "MONTH",
-    "salaryFrequency": "TWICE_PER_MONTH",
+    "salaryCurrency": null,
+    "salaryGross": null,
+    "salaryMode": null,
+    "salaryFrequency": null,
     "compensation": {
-      "from": 339225,
+      "from": null,
       "to": null,
-      "currencyCode": "RUR",
-      "gross": false,
-      "mode": "MONTH",
-      "frequency": "TWICE_PER_MONTH"
+      "currencyCode": null,
+      "gross": null,
+      "mode": null,
+      "frequency": null
     },
     "area": {
       "id": 2,
@@ -53,10 +53,10 @@
     "address": {
       "city": "Example city",
       "street": "Example street",
-      "building": "Example building",
+      "building": "72",
       "displayName": "Example display name",
-      "lat": 57.34,
-      "lng": 44.03,
+      "lat": 57.45,
+      "lng": 43.97,
       "metroStations": [
         {
           "id": 20,
@@ -71,10 +71,10 @@
       ],
       "district": "Example district"
     },
-    "workExperience": "between0and9",
+    "workExperience": "between6and6",
     "employment": "FULL",
     "employmentForm": "FULL",
-    "workSchedule": "Example work schedule",
+    "workSchedule": "remote",
     "workScheduleByDays": [
       "FIVE_ON_TWO_OFF"
     ],
@@ -82,7 +82,8 @@
       "hours_0"
     ],
     "workFormats": [
-      "ON_SITE"
+      "ON_SITE",
+      "REMOTE"
     ],
     "workingDays": [],
     "workingTimeIntervals": [],
@@ -95,7 +96,7 @@
     "acceptIncompleteResumes": false,
     "acceptLaborContract": true,
     "ageRestriction": null,
-    "responseLetterRequired": true,
+    "responseLetterRequired": false,
     "showContact": false,
     "inboxPossibility": true
   }

@@ -83,7 +83,7 @@ Full details on the [scraper page](https://apify.com/abotapi/we-work-remotely-jo
 | `skillsCount` | integer |
 | `technologies` | list |
 | `tags` | list |
-| `seniorityLevel` | null |
+| `seniorityLevel` | string |
 | `postedAt` | string |
 | `postedAtText` | string |
 | `postedAgeDays` | integer |

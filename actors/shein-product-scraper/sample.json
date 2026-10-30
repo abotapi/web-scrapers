@@ -1,27 +1,27 @@
 [
   {
-    "productId": "956233725",
+    "productId": "232097179",
     "sku": "id26056093",
     "spu": "id46186238",
     "title": "Example title: mock text standing in for the real value. Same field and type, made-up content.",
     "url": "https://au.shein.com/example/955",
     "category": "Example category",
     "categoryId": "6015",
-    "price": 13.81,
-    "originalPrice": null,
-    "discountPercent": null,
-    "discountAmount": null,
-    "isOnSale": false,
+    "price": 11.74,
+    "originalPrice": 14.23,
+    "discountPercent": 68,
+    "discountAmount": 1.9,
+    "isOnSale": true,
     "currency": "Example currency",
-    "priceUsd": 7.21,
-    "rating": 4.03,
-    "reviewsCount": 5558,
+    "priceUsd": 6.17,
+    "rating": 4.19,
+    "reviewsCount": 158,
     "inStock": true,
     "stock": 856,
     "isFlashSale": false,
     "isClearance": false,
     "hasVideo": false,
-    "storeCode": "4725228483",
+    "storeCode": "9262395565",
     "mallCode": "8",
     "image": "https://img.ltwebstatic.com/example/33446.jpg",
     "images": [
@@ -30,11 +30,11 @@
     ],
     "scrapedAt": "2026-01-15T10:00:00Z",
     "priceFormatted": "Example price formatted",
-    "originalPriceFormatted": null,
+    "originalPriceFormatted": "Example original price formatted",
     "currencyCode": "AUD",
     "country": "AU",
     "estimatedPrice": null,
-    "reviewsCountText": "2338+",
+    "reviewsCountText": "566+",
     "fit": {
       "trueSize": "Example true size",
       "large": "Example large",
@@ -49,11 +49,22 @@
       },
       {
         "text": "Example text",
-        "type": "trend"
+        "type": "sales"
       }
     ],
     "dealEndsAt": null,
-    "promotions": [],
+    "promotions": [
+      {
+        "id": "82357814",
+        "typeId": "41",
+        "endTime": "2026-01-15T10:00:00Z",
+        "endTimestamp": 2845108829,
+        "endsAt": "2026-01-15T10:00:00Z",
+        "isReturn": true,
+        "isFullShop": false,
+        "note": "Example note"
+      }
+    ],
     "quickShip": false,
     "isCustomizable": false
   }

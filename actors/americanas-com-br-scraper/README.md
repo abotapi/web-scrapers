@@ -26,7 +26,9 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~americanas-com-br-scraper
 | --- | --- | --- |
 | `mode` * | string | Mode |
 | `queries` | array | Search keywords |
+| `searchTerm` | string | Search term (alias) |
 | `urls` | array | Store links |
+| `searchUrl` | string | Store link (alias) |
 | `categories` | array | Department |
 | `brands` | array | Brand |
 | `sellerType` | string | Sold by |
@@ -34,6 +36,7 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~americanas-com-br-scraper
 | `maxPrice` | integer | Maximum price (BRL) |
 | `minInterestFreeInstallments` | integer | Minimum interest free instalments |
 | `inStockOnly` | boolean | Only products that can be ordered |
+| `onlyAvailable` | boolean | Only available (alias) |
 | `onSaleOnly` | boolean | Only reduced price products |
 | `sortBy` | string | Sort by |
 | `fetchDetails` | boolean | Fetch delivery details |
@@ -77,8 +80,8 @@ Full details on the [scraper page](https://apify.com/abotapi/americanas-com-br-s
 | `price` | integer |
 | `listPrice` | integer |
 | `originalPrice` | integer |
-| `discountAmount` | null |
-| `discountPercent` | null |
+| `discountAmount` | integer |
+| `discountPercent` | float |
 | `onSale` | boolean |
 | `pixPrice` | float |
 | `pixDiscountAmount` | float |

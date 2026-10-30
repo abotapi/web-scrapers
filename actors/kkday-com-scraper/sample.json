@@ -1,14 +1,14 @@
 [
   {
-    "id": "016978",
-    "name": "Example name",
+    "id": "7561",
+    "name": "Example name: mock text standing in for the real value. Same field and type, made-up content.",
     "url": "https://www.kkday.com/example/61733",
-    "minPrice": 14.3,
-    "maxPrice": 26.79,
-    "officialPrice": 13.28,
+    "minPrice": 17.97,
+    "maxPrice": 55.64,
+    "officialPrice": 31.25,
     "currency": "USD",
-    "discountPercent": null,
-    "ratingStar": 5.17,
+    "discountPercent": 46.13,
+    "ratingStar": 5.16,
     "ratingCount": 24466,
     "bookedCount": "Example booked count",
     "destinations": [
@@ -23,11 +23,68 @@
     "introduction": "Example introduction: mock text standing in for the real value. Same field and type, made-up content.",
     "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
     "address": "Example address",
-    "latitude": 36.37,
-    "longitude": 173.23,
     "imageUrls": [
       "https://image.kkday.com/example/33621.jpg",
       "https://image.kkday.com/example/56205.jpg"
+    ],
+    "priceTiers": [
+      {
+        "price": 17.26,
+        "currency": "USD",
+        "name": "Example name"
+      },
+      {
+        "price": 23.08,
+        "currency": "USD",
+        "name": "Example name: mock text standing in for the real value. Same field and type, made-up content."
+      }
+    ],
+    "detailStatus": "complete",
+    "scrapedAt": "2026-01-15T10:00:00Z",
+    "changeType": "NEW",
+    "changedFields": [],
+    "firstSeenAt": "2026-01-15T10:00:00Z",
+    "lastSeenAt": "2026-01-15T10:00:00Z"
+  },
+  {
+    "id": "102662",
+    "name": "Example name",
+    "url": "https://www.kkday.com/example/94985",
+    "minPrice": 25.78,
+    "maxPrice": 148.97,
+    "officialPrice": 67.11,
+    "currency": "USD",
+    "discountPercent": 27.89,
+    "ratingStar": 5.18,
+    "ratingCount": 9296,
+    "bookedCount": "Example booked count",
+    "destinations": [
+      "Example destinations"
+    ],
+    "displayTags": [
+      "Example display tags",
+      "Example display tags"
+    ],
+    "imageUrl": "https://image.kkday.com/example/48901.jpg",
+    "supplierName": null,
+    "introduction": "Example introduction: mock text standing in for the real value. Same field and type, made-up content.",
+    "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
+    "address": "Example address: mock text standing in for the real value. Same field and type, made-up content.",
+    "imageUrls": [
+      "https://image.kkday.com/example/96545.jpg",
+      "https://image.kkday.com/example/84578.jpg"
+    ],
+    "priceTiers": [
+      {
+        "price": 194.44,
+        "currency": "USD",
+        "name": "Example name"
+      },
+      {
+        "price": 33.58,
+        "currency": "USD",
+        "name": "Example name: mock text standing in for the real value. Same field and type, made-up content."
+      }
     ],
     "detailStatus": "complete",
     "scrapedAt": "2026-01-15T10:00:00Z",

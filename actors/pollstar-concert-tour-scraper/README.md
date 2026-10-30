@@ -64,7 +64,7 @@ Full details on the [scraper page](https://apify.com/abotapi/pollstar-concert-to
 | `venueName` | string |
 | `venueUrl` | string |
 | `venueTypes` | list |
-| `venueMarket` | null |
+| `venueMarket` | string |
 | `venueStreet` | string |
 | `venueCity` | string |
 | `venueState` | string |
@@ -75,7 +75,7 @@ Full details on the [scraper page](https://apify.com/abotapi/pollstar-concert-to
 | `venueLongitude` | float |
 | `venuePhone` | null |
 | `venueEmail` | null |
-| `venueWebsite` | string |
+| `venueWebsite` | null |
 | `headlineArtist` | string |
 | `headlineArtistId` | string |
 | `headlineArtistUrl` | string |

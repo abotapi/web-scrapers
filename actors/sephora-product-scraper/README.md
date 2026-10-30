@@ -67,27 +67,22 @@ Full details on the [scraper page](https://apify.com/abotapi/sephora-product-scr
 | `source` | object |
 | `brand` | string |
 | `title` | string |
-| `subtitle` | string |
-| `description` | string |
-| `shortDescription` | string |
-| `ingredients` | string |
-| `howToUse` | string |
-| `claims` | list |
-| `currentSku` | string |
-| `categories` | list |
-| `options` | list |
-| `variants` | list |
-| `medias` | list |
-| `stats` | object |
-| `highlights` | list |
 | `isNewArrival` | boolean |
 | `frontend` | string |
-| `price` | object |
+| `priceText` | null |
+| `thumbnail` | string |
+| `rating` | float |
+| `reviewCount` | integer |
+| `highlights` | list |
+| `categories` | list |
+| `medias` | list |
+| `variants` | list |
+| `options` | list |
 | `isOnSpecial` | boolean |
 | `wasPrice` | null |
 | `savingsAmount` | null |
 | `savingsPercent` | null |
-| `soldOut` | boolean |
+| `soldOut` | null |
 | `scrapedAt` | string |
 
 ---

@@ -32,6 +32,12 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~eventim-de-event-scraper/
 | `dateTo` | string | Events until (YYYY-MM-DD) |
 | `inStockOnly` | boolean | Available tickets only |
 | `sort` | string | Sort order |
+| `postalCode` | string | Postal code |
+| `artist` | string | Artist |
+| `venue` | array | Venues |
+| `priceMin` | integer | Minimum price (EUR) |
+| `priceMax` | integer | Maximum price (EUR) |
+| `eventSeriesIds` | array | Event series IDs |
 | `urls` | array | Eventim links |
 | `fetchDetails` | boolean | Fetch event details |
 | `maxItems` | integer | Max items |
@@ -73,10 +79,21 @@ Full details on the [scraper page](https://apify.com/abotapi/eventim-de-event-sc
 | `promoterName` | string |
 | `categories` | list |
 | `tags` | list |
-| `description` | null |
-| `imageUrl` | null |
+| `description` | string |
+| `imageUrl` | string |
 | `validFrom` | null |
 | `raw` | object |
+| `eventName` | string |
+| `eventUrl` | string |
+| `type` | string |
+| `status` | string |
+| `currency` | null |
+| `fromPrice` | null |
+| `fromPriceDisplay` | null |
+| `inStock` | boolean |
+| `hasRecommendation` | boolean |
+| `attractions` | list |
+| `venue` | object |
 
 ---
 

@@ -1,6 +1,6 @@
 # SimplyHired Scraper
 
-Pull active SimplyHired jobs across the US, UK, Canada, Australia, Ireland, and India. Search via builder or URL. Extract 40+ fields, including title, company, salary range, full HTML description, qualifications, geocoordinates, and apply URL.
+Scrape active SimplyHired jobs across the US, UK, Canada, Australia, Ireland and India from $1/1K listings. Search by filters or URL. Extract 40+ fields including job titles, companies, salary ranges, full HTML descriptions, qualifications, coordinates and apply URLs.
 
 **[Open SimplyHired Scraper on Apify](https://apify.com/abotapi/simplyhired-com-scraper?utm_source=github&utm_medium=web-scrapers&utm_campaign=monorepo)** to run it without code and export JSON, CSV or Excel.
 
@@ -17,7 +17,7 @@ python example.py
 ```bash
 curl -s -X POST "https://api.apify.com/v2/acts/abotapi~simplyhired-com-scraper/run-sync-get-dataset-items?token=$APIFY_TOKEN" \
   -H 'Content-Type: application/json' \
-  -d '{"mode": "search", "queries": ["software engineer"], "location": "Remote", "country": "us", "jobType": "any", "maxPages": 1, "maxListings": 10, "proxy": {"useApifyProxy": true, "apifyProxyGroups": ["RESIDENTIAL"], "apifyProxyCountry": "US"}}'
+  -d '{"mode": "search", "queries": ["software engineer"], "location": "Remote", "country": "us", "jobType": "any", "datePosted": "any", "sortBy": "relevance", "maxPages": 1, "maxListings": 10, "proxy": {"useApifyProxy": true, "apifyProxyGroups": ["RESIDENTIAL"], "apifyProxyCountry": "US"}}'
 ```
 
 ## Inputs
@@ -30,7 +30,15 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~simplyhired-com-scraper/r
 | `country` | string | Country site |
 | `jobType` | string | Job type |
 | `skipSponsored` | boolean | Skip sponsored placements |
+| `datePosted` | string | Date posted |
+| `minSalary` | integer | Minimum salary (per year) |
+| `remoteOnly` | boolean | Remote jobs only |
+| `sortBy` | string | Sort within each page |
+| `keyword` | string | Keyword (alias of Keywords) |
+| `results_wanted` | integer | Results wanted (alias of Max listings) |
+| `max_pages` | integer | Max pages (alias of Max pages per sear |
 | `urls` | array | Search URLs (URL mode) |
+| `startUrls` | array | Start URLs (alias of Search URLs) |
 | `maxPages` | integer | Max pages per search |
 | `maxListings` | integer | Max listings (total) |
 | `fetchDetails` | boolean | Fetch detail pages (richer data) |
@@ -52,25 +60,25 @@ Full details on the [scraper page](https://apify.com/abotapi/simplyhired-com-scr
 | `displayTitle` | string |
 | `normalizedTitle` | string |
 | `company` | string |
-| `companyRating` | null |
+| `companyRating` | float |
 | `companyPageUrl` | null |
-| `employerLogoUrl` | null |
+| `employerLogoUrl` | string |
 | `employerHomepage` | null |
 | `location` | string |
 | `formattedLocation` | string |
 | `city` | string |
-| `state` | null |
-| `latitude` | integer |
-| `longitude` | integer |
+| `state` | string |
+| `latitude` | float |
+| `longitude` | float |
 | `country` | string |
 | `jobTypes` | list |
 | `workSettings` | list |
 | `remoteAttributes` | list |
-| `salary` | null |
-| `salaryMin` | null |
-| `salaryMax` | null |
-| `salaryCurrency` | null |
-| `salaryPeriod` | null |
+| `salary` | string |
+| `salaryMin` | integer |
+| `salaryMax` | integer |
+| `salaryCurrency` | string |
+| `salaryPeriod` | string |
 | `compensation` | null |
 | `snippet` | string |
 | `descriptionHtml` | string |

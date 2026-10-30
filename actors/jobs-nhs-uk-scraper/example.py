@@ -18,7 +18,8 @@ run = client.actor("abotapi/jobs-nhs-uk-scraper").call(
         "distance": "10",
         "maxPages": 1,
         "maxListings": 10,
-        "proxy": {"useApifyProxy": True, "apifyProxyGroups": ["RESIDENTIAL"], "apifyProxyCountry": "GB"},
+        "maxItems": 10,
+        "proxy": {"useApifyProxy": True},
     },
     logger=None,  # don't stream the run log to your console
 )

@@ -2,7 +2,7 @@
   {
     "platform": "goodshort",
     "recordType": "title",
-    "id": "98744735449",
+    "id": "78501755601",
     "slug": "Example slug",
     "title": "Example title",
     "url": "https://www.goodshort.com/example/10988",
@@ -10,26 +10,26 @@
     "extractionPath": "Example extraction path",
     "scraperVersion": "9.5",
     "rail": "Example rail",
-    "views": 684216,
+    "views": 54216,
     "viewsDisplay": "Example views display",
     "viewsDisplayParsed": 581453,
-    "follows": 893646,
-    "episodeCount": 451,
+    "follows": 83646,
+    "episodeCount": 91,
     "genres": [
       "Fantasy"
     ],
     "tags": [
-      "Example tags",
-      "Dominant"
+      "Marriage",
+      "Reborn"
     ],
     "tagUrls": [
-      "https://www.goodshort.comunderdog-rise-playlets-videos/example/14057",
-      "https://www.goodshort.comdominant-playlets-videos/example/32696"
+      "https://www.goodshort.commarriage-playlets-videos/example/14057",
+      "https://www.goodshort.comreborn-playlets-videos/example/32696"
     ],
     "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
     "cover": "https://acf.goodshort.com/example/6365",
     "author": "Example author",
-    "studio": "TORA",
+    "studio": "TXH",
     "status": "Completed",
     "praiseCount": 7868,
     "language": "ENGLISH",
@@ -40,12 +40,12 @@
     "period": "CONTEMPORARY",
     "totalWords": 6057,
     "releaseDate": "2026-01-15",
-    "lastChapterName": "616",
+    "lastChapterName": "573",
     "lastChapterTime": "2026-01-15T10:00:00Z",
     "lastUpdatedAt": "2026-01-15T10:00:00Z",
-    "freeEpisodes": 19,
+    "freeEpisodes": 1,
     "hasPaidEpisodes": true,
-    "paidFromEpisode": "863",
+    "paidFromEpisode": "215",
     "totalPlayTimeSec": 4701,
     "detailFetched": true
   }

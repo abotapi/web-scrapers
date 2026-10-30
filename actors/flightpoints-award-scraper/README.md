@@ -1,8 +1,8 @@
-# Flightpoints & Roame Award Flight Scraper
+# Award Flight Scraper
 
-Multi-source award flight availability from Flightpoints.com + Roame.travel. Search any route and date for miles, taxes, available seats, cabins, stops, loyalty program and operating airline per itinerary — across dozens of loyalty programs. Per-cabin miles/taxes/seats/stops, fare-class.
+Scrape award flight availability from Flightpoints.com and Roame.travel by route and date. Compare miles, taxes, available seats, cabins, stops, fare classes, loyalty programs and operating airlines. Includes per-cabin details across dozens of loyalty programs.
 
-**[Open Flightpoints & Roame Award Flight Scraper on Apify](https://apify.com/abotapi/flightpoints-award-scraper?utm_source=github&utm_medium=web-scrapers&utm_campaign=monorepo)** to run it without code and export JSON, CSV or Excel.
+**[Open Award Flight Scraper on Apify](https://apify.com/abotapi/flightpoints-award-scraper?utm_source=github&utm_medium=web-scrapers&utm_campaign=monorepo)** to run it without code and export JSON, CSV or Excel.
 
 ## Run it from code
 
@@ -25,8 +25,8 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~flightpoints-award-scrape
 | Input | Type | What it is |
 | --- | --- | --- |
 | `mode` * | string | Mode |
-| `origin` | string | Origin (IATA) |
-| `destination` | string | Destination (IATA) |
+| `origin` | string | Origin |
+| `destination` | string | Destination |
 | `departureDate` | string | Departure date |
 | `routes` | array | Bulk routes |
 | `sources` | array | Sources |
@@ -34,6 +34,16 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~flightpoints-award-scrape
 | `searchClass` | string | Cabin |
 | `daysAround` | integer | days window |
 | `directOnly` | boolean | Direct flights only |
+| `startDate` | string | Window start date |
+| `endDate` | string | Window end date |
+| `cabin` | string | Cabin filter |
+| `maxMiles` | integer | Max miles |
+| `maxCashTaxes` | number | Max cash taxes |
+| `minSeats` | integer | Min seats |
+| `nonstop` | boolean | Nonstop only |
+| `issuers` | array | Programs (issuers) |
+| `operatingAirlines` | array | Operating airlines |
+| `sortBy` | string | Prioritize cabin |
 | `maxItems` | integer | Max itineraries |
 | `fetchDetails` | boolean | Add flight detail (billed per enriched |
 | `proxy` | object | Proxy configuration |
@@ -62,6 +72,18 @@ Full details on the [scraper page](https://apify.com/abotapi/flightpoints-award-
 | `cabins` | object |
 | `lastSeen` | string |
 | `scrapedAt` | string |
+| `economy` | object |
+| `premiumEconomy` | object |
+| `business` | object |
+| `first` | null |
+| `stops` | integer |
+| `originName` | string |
+| `destinationName` | string |
+| `coordinates` | object |
+| `searchId` | string |
+| `flightId` | string |
+| `connections` | list |
+| `airlines` | list |
 
 ---
 

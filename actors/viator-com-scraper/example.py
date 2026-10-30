@@ -16,6 +16,7 @@ run = client.actor("abotapi/viator-com-scraper").call(
         "destination": "boston",
         "category": "tours_sightseeing",
         "sortBy": "source",
+        "maxReviewsPerProduct": 10,
         "maxItems": 10,
         "maxPages": 1,
         "proxy": {"useApifyProxy": True, "apifyProxyGroups": ["RESIDENTIAL"]},

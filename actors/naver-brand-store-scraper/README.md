@@ -52,7 +52,7 @@ Full details on the [scraper page](https://apify.com/abotapi/naver-brand-store-s
 | `imageUrl` | string |
 | `salePrice` | integer |
 | `discountedPrice` | integer |
-| `mobileDiscountedPrice` | integer |
+| `mobileDiscountedPrice` | null |
 | `immediateDiscount` | integer |
 | `originalPrice` | integer |
 | `discountPercent` | integer |

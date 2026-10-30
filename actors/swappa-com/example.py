@@ -15,9 +15,11 @@ run = client.actor("abotapi/swappa-com").call(
         "mode": "search",
         "resultType": "both",
         "queries": ["iPhone 15 Pro"],
+        "maxReviewsPerProduct": 10,
         "maxPages": 1,
         "maxListings": 10,
         "proxy": {"useApifyProxy": True, "apifyProxyGroups": ["RESIDENTIAL"], "apifyProxyCountry": "US"},
+        "changeScope": "all",
     },
     logger=None,  # don't stream the run log to your console
 )

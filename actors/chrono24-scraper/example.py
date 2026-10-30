@@ -15,6 +15,7 @@ run = client.actor("abotapi/chrono24-scraper").call(
         "mode": "search",
         "searchQuery": "Rolex Submariner",
         "sortBy": "relevance",
+        "maxReviewsPerListing": 10,
         "maxListings": 10,
         "maxPages": 1,
         "proxy": {"useApifyProxy": True},

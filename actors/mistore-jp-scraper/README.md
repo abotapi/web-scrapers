@@ -17,7 +17,7 @@ python example.py
 ```bash
 curl -s -X POST "https://api.apify.com/v2/acts/abotapi~mistore-jp-scraper/run-sync-get-dataset-items?token=$APIFY_TOKEN" \
   -H 'Content-Type: application/json' \
-  -d '{"mode": "search", "queries": ["バッグ"], "sortBy": "recommended", "maxReviewsPerProduct": 10, "maxItems": 10, "maxPages": 1, "proxy": {"useApifyProxy": true, "apifyProxyCountry": "JP"}}'
+  -d '{"mode": "search", "queries": ["バッグ"], "sortBy": "recommended", "maxReviewsPerProduct": 10, "maxItems": 10, "maxPages": 1, "proxy": {"useApifyProxy": true, "apifyProxyCountry": "JP"}, "changeScope": "all"}'
 ```
 
 ## Inputs
@@ -41,6 +41,9 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~mistore-jp-scraper/run-sy
 | `maxItems` | integer | Max products |
 | `maxPages` | integer | Max result pages per keyword, departme |
 | `proxy` | object | Proxy configuration |
+| `changeScope` | string | Change scope (incremental mode only) |
+| `compactUpdates` | boolean | Compact updated rows (incremental mode |
+| `expireAfterMissedScans` | integer | Expire after missed scans (incremental |
 
 `*` required
 
@@ -73,11 +76,11 @@ Full details on the [scraper page](https://apify.com/abotapi/mistore-jp-scraper?
 | `digitalProduct` | null |
 | `brandCode` | string |
 | `brandUrl` | string |
-| `sku` | null |
+| `sku` | string |
 | `description` | string |
 | `originalPrice` | null |
 | `discountPercent` | null |
-| `availability` | null |
+| `availability` | string |
 | `stockNote` | null |
 | `images` | list |
 | `thumbnails` | list |

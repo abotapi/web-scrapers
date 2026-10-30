@@ -1,0 +1,166 @@
+[
+  {
+    "court": "Example court",
+    "stateName": "Example state name",
+    "objectType": "Example object type",
+    "propertyType": "Eigentumswohnung",
+    "areaSqm": null,
+    "areaBasis": null,
+    "pricePerSqmEur": null,
+    "daysUntilAuction": 4,
+    "isNewSinceLastRun": null,
+    "recordId": "Example record id",
+    "country": "de",
+    "source": "zvg",
+    "title": "Example title: mock text standing in for the real value. Same field and type, made-up content.",
+    "distressType": "Example distress type",
+    "url": "https://www.zvg-portal.de/example/92779",
+    "caseNumber": "Example case number",
+    "publishedAt": "2026-01-15T10:00:00Z",
+    "auctionDate": "2026-01-15T10:00:00Z",
+    "location": {
+      "address": "Example address",
+      "city": "Berlin",
+      "region": "BE",
+      "country": "de"
+    },
+    "valueAmount": 2148563,
+    "valueCurrency": "EUR",
+    "valueText": "2.259.979,63",
+    "status": "scheduled",
+    "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
+    "parties": [
+      {
+        "role": "court",
+        "name": "Example name"
+      }
+    ],
+    "attachments": [
+      {
+        "label": "Example label",
+        "url": "https://www.zvg-portal.de/example/92779"
+      }
+    ],
+    "raw": {
+      "zvgId": "99438",
+      "landAbk": "be",
+      "aktenzeichen": "Example aktenzeichen",
+      "updatedAt": "79-80-6892 11:35",
+      "court": "Example court",
+      "objectLage": "Example object lage",
+      "address": "Example address",
+      "verkehrswert": "3.813.810,22",
+      "termin": "Example termin",
+      "attachments": [
+        {
+          "label": "Example label",
+          "url": "Example url"
+        }
+      ]
+    },
+    "details": {
+      "courtName": "Example court name",
+      "aktenzeichen": "Example aktenzeichen",
+      "artDerVersteigerung": "Example art der versteigerung",
+      "grundbuch": "Example grundbuch",
+      "objektLage": "Example objekt lage: mock text standing in for the real value. Same field and type, made-up content.",
+      "beschreibung": "Example beschreibung: mock text standing in for the real value. Same field and type, made-up content.",
+      "verkehrswert": "3.813.810,22",
+      "termin": "Example termin",
+      "ortDerVersteigerung": "Example ort der versteigerung: mock text standing in for the real value. Same field and type, made-up content.",
+      "gericht": null,
+      "attachments": [
+        {
+          "label": "Example label",
+          "url": "Example url"
+        },
+        {
+          "label": "Example label",
+          "url": "Example url"
+        }
+      ]
+    }
+  },
+  {
+    "court": "Example court",
+    "stateName": "Example state name",
+    "objectType": "Example object type",
+    "propertyType": "Gewerbeeinheit",
+    "areaSqm": 96.56,
+    "areaBasis": "usable",
+    "pricePerSqmEur": 3305.79,
+    "daysUntilAuction": 9,
+    "isNewSinceLastRun": null,
+    "recordId": "Example record id",
+    "country": "de",
+    "source": "zvg",
+    "title": "Example title: mock text standing in for the real value. Same field and type, made-up content.",
+    "distressType": "Example distress type",
+    "url": "https://www.zvg-portal.de/example/1222",
+    "caseNumber": "Example case number",
+    "publishedAt": "2026-01-15T10:00:00Z",
+    "auctionDate": "2026-01-15T10:00:00Z",
+    "location": {
+      "address": "Example address",
+      "city": "Berlin",
+      "region": "BE",
+      "country": "de"
+    },
+    "valueAmount": 434685,
+    "valueCurrency": "EUR",
+    "valueText": "860.978,11",
+    "status": "scheduled",
+    "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
+    "parties": [
+      {
+        "role": "court",
+        "name": "Example name"
+      }
+    ],
+    "attachments": [
+      {
+        "label": "Example label",
+        "url": "https://www.zvg-portal.de/example/1222"
+      }
+    ],
+    "raw": {
+      "zvgId": "97783",
+      "landAbk": "be",
+      "aktenzeichen": "Example aktenzeichen",
+      "updatedAt": "75-00-9079 48:96",
+      "court": "Example court",
+      "objectLage": "Example object lage: mock text standing in for the real value. Same field and type, made-up content.",
+      "address": "Example address",
+      "verkehrswert": "652.944,74",
+      "termin": "Example termin",
+      "attachments": [
+        {
+          "label": "Example label",
+          "url": "Example url"
+        }
+      ]
+    },
+    "details": {
+      "courtName": "Example court name",
+      "aktenzeichen": "Example aktenzeichen",
+      "artDerVersteigerung": "Example art der versteigerung",
+      "grundbuch": "Example grundbuch",
+      "objektLage": "Example objekt lage: mock text standing in for the real value. Same field and type, made-up content.",
+      "beschreibung": "Example beschreibung: mock text standing in for the real value. Same field and type, made-up content.",
+      "verkehrswert": "652.944,74",
+      "termin": "Example termin",
+      "ortDerVersteigerung": "Example ort der versteigerung: mock text standing in for the real value. Same field and type, made-up content.",
+      "gericht": null,
+      "attachments": [
+        {
+          "label": "Example label",
+          "url": "Example url"
+        },
+        {
+          "label": "Example label",
+          "url": "Example url"
+        }
+      ]
+    }
+  }
+]

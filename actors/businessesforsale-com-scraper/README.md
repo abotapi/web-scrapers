@@ -17,7 +17,7 @@ python example.py
 ```bash
 curl -s -X POST "https://api.apify.com/v2/acts/abotapi~businessesforsale-com-scraper/run-sync-get-dataset-items?token=$APIFY_TOKEN" \
   -H 'Content-Type: application/json' \
-  -d '{"mode": "search", "keywords": "restaurant", "country": "global", "sortBy": "Default", "pageSize": "50", "maxPages": 1, "maxListings": 10, "proxy": {"useApifyProxy": true, "apifyProxyGroups": ["RESIDENTIAL"], "apifyProxyCountry": "US"}}'
+  -d '{"mode": "search", "keywords": "restaurant", "country": "global", "sortBy": "Default", "pageSize": "50", "maxPages": 1, "maxListings": 10, "maxItems": 10, "proxy": {"useApifyProxy": true, "apifyProxyGroups": ["RESIDENTIAL"], "apifyProxyCountry": "US"}}'
 ```
 
 ## Inputs
@@ -37,11 +37,25 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~businessesforsale-com-scr
 | `revenueDisclosedOnly` | boolean | Revenue disclosed only |
 | `profitDisclosedOnly` | boolean | Cash flow disclosed only |
 | `sortBy` | string | Sort by |
+| `queryKeywords` | array | Multiple keyword searches |
+| `querySort` | string | Sort (free text) |
+| `queryStateOrRegion` | string | State / region |
+| `queryCityOrArea` | string | City / area |
+| `queryIndustrySlug` | string | Industry slug |
+| `querySearchPath` | string | Custom search path |
+| `queryMinAskingPrice` | string | Min asking price (10K / 1.5M) |
+| `queryMaxAskingPrice` | string | Max asking price (10K / 1.5M) |
+| `queryMinGrossIncome` | string | Min revenue (10K / 1.5M) |
+| `queryMaxGrossIncome` | string | Max revenue (10K / 1.5M) |
+| `queryMinCashFlow` | string | Min cash flow (10K / 1.5M) |
+| `queryMaxCashFlow` | string | Max cash flow (10K / 1.5M) |
 | `urls` | array | Listing or search URLs |
+| `startUrls` | array | Start URLs (alias of URLs) |
 | `fetchDetails` | boolean | Fetch listing details |
 | `pageSize` | string | Results per page |
 | `maxPages` | integer | Max pages per search |
 | `maxListings` | integer | Max listings |
+| `maxItems` | integer | Max items (alias of Max listings) |
 | `proxy` | object | Proxy |
 
 `*` required
@@ -55,13 +69,14 @@ Full details on the [scraper page](https://apify.com/abotapi/businessesforsale-c
 | Field | Type |
 | --- | --- |
 | `id` | string |
+| `listingId` | string |
 | `url` | string |
 | `title` | string |
 | `listingClass` | string |
 | `labels` | list |
 | `searchCountry` | string |
 | `locationText` | string |
-| `locationDetail` | null |
+| `locationDetail` | string |
 | `country` | null |
 | `region` | null |
 | `locality` | null |
@@ -70,13 +85,13 @@ Full details on the [scraper page](https://apify.com/abotapi/businessesforsale-c
 | `priceCurrency` | string |
 | `businessFunction` | null |
 | `revenueDisplay` | string |
-| `revenueValue` | null |
+| `revenueValue` | integer |
 | `cashFlowDisplay` | string |
-| `cashFlowValue` | null |
+| `cashFlowValue` | integer |
 | `tenure` | null |
 | `sizeSqFt` | null |
-| `tradingHours` | null |
-| `employees` | null |
+| `tradingHours` | string |
+| `employees` | string |
 | `yearsEstablished` | null |
 | `description` | string |
 | `categories` | list |
@@ -86,7 +101,13 @@ Full details on the [scraper page](https://apify.com/abotapi/businessesforsale-c
 | `thumbnail` | string |
 | `imageCount` | integer |
 | `images` | list |
-| `scrapedAt` | string |
+| `location` | string |
+| `status` | string |
+| `ebitda` | null |
+| `ffne` | null |
+| `inventoryValue` | null |
+| `totalPhotos` | integer |
+| `hasVideo` | boolean |
 
 ---
 

@@ -29,7 +29,7 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~product-hunt-launches-scr
 | `searchTerms` | array | Keyword search terms |
 | `searchSort` | string | Keyword search sort |
 | `searchCategories` | array | Keyword categories |
-| `searchCategorySlugs` | array | Custom keyword category slugs |
+| `searchCategorySlugs` | array | Custom categories (name or slug) |
 | `enrichEmails` | boolean | Find contact emails on product website |
 | `includeReviews` | boolean | Include product reviews |
 | `outputReviewsAsRows` | boolean | Output reviews as separate rows |
@@ -40,6 +40,12 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~product-hunt-launches-scr
 | `minFollowersCount` | integer | Minimum followers |
 | `websiteRequired` | boolean | Require product website |
 | `socialLinkRequired` | boolean | Require social or source link |
+| `scrapeMakers` | boolean | Include makers |
+| `saveWebsiteContent` | boolean | Save website text |
+| `archiveDate` | string | Archive day (YYYY-MM-DD) |
+| `archiveWeek` | integer | Archive week number (1-53) |
+| `archiveYear` | integer | Archive year |
+| `filter` | object | Launch filter (JSON) |
 | `proxy` | object | Proxy configuration |
 
 `*` required
@@ -64,11 +70,24 @@ Full details on the [scraper page](https://apify.com/abotapi/product-hunt-launch
 | `websiteUrl` | string |
 | `linkedinUrl` | string |
 | `twitterUrl` | string |
-| `votesCount` | null |
-| `commentsCount` | null |
+| `votesCount` | integer |
+| `commentsCount` | integer |
 | `followersCount` | integer |
 | `reviewsCount` | integer |
 | `postsCount` | integer |
+| `launchesCount` | integer |
+| `launchDayScore` | integer |
+| `dayRank` | integer |
+| `weekRank` | integer |
+| `monthRank` | integer |
+| `isPromoted` | boolean |
+| `employeeSize` | null |
+| `fundingAmount` | null |
+| `wasInYCombinator` | boolean |
+| `appStoreUrl` | string |
+| `googlePlayUrl` | string |
+| `ratingBreakdown` | list |
+| `badges` | list |
 | `media` | list |
 | `mediaCount` | integer |
 | `categories` | list |
@@ -76,8 +95,9 @@ Full details on the [scraper page](https://apify.com/abotapi/product-hunt-launch
 | `reviewsExtracted` | integer |
 | `averageRating` | float |
 | `searchContext` | object |
-| `scrapedAt` | string |
-| `harvestedEmails` | list |
+| `shortDescription` | string |
+| `upvotes` | integer |
+| `launchName` | string |
 
 ---
 

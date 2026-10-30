@@ -83,14 +83,14 @@ Full details on the [scraper page](https://apify.com/abotapi/homely-com-au-scrap
 | `videos` | list |
 | `externalLinks` | list |
 | `inspections` | list |
-| `auction` | null |
+| `auction` | object |
 | `landFeatures` | null |
 | `slugs` | object |
 | `nextInspection` | string |
 | `soldOn` | null |
 | `soldPrice` | string |
 | `soldPriceValue` | null |
-| `auctionOn` | null |
+| `auctionOn` | string |
 | `loanPriceEstimate` | integer |
 | `sourceUrl` | string |
 | `scrapedAt` | string |

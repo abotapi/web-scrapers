@@ -4,7 +4,7 @@
     "sku": "wgg04882au",
     "title": "Example title",
     "url": "https://www.appliancesonline.com.au/example/57927",
-    "brand": null,
+    "brand": "Bosch",
     "manufacturer": {
       "name": "Example name",
       "url": "Example url",
@@ -16,14 +16,26 @@
     "savings": 791,
     "onSale": true,
     "altPriceMsg": null,
-    "inStock": null,
-    "stockStatus": null,
-    "stockByWarehouse": null,
+    "inStock": true,
+    "stockStatus": 6,
+    "stockByWarehouse": {
+      "201main": 8,
+      "301whse": 5,
+      "401whse": 0,
+      "501whse": 7,
+      "601whse": 0,
+      "701whse": 5,
+      "801whse": 7,
+      "ao-dc-gle": 0,
+      "ao-ql-cns": 0,
+      "ao-ql-tsv": 0,
+      "national": 3
+    },
     "available": true,
     "featured": false,
     "featuredLabel": null,
     "ribbonType": null,
-    "popularity": null,
+    "popularity": 29137,
     "badges": [
       "Example badges",
       "Example badges"
@@ -187,11 +199,52 @@
       ]
     },
     "keySpecs": null,
-    "attr": null,
-    "warrantyNote": null,
+    "attr": {
+      "attr_Brand": "Bosch",
+      "attr_Water_Inlets": "Example attr_ water_ inlets",
+      "attr_Manufacturer_Warranty": "Example attr_ manufacturer_ warranty",
+      "attr_Washing_capacity": 3,
+      "attr_Energy_Star_Rating": "6",
+      "attr_Depth__mm_": 106,
+      "attr_Depth_With_Door_Open": 4362,
+      "attr_Height__mm_": 676,
+      "attr_Width__mm_": 586,
+      "attr_Type_of_connection": "Example attr_ type_of_connection",
+      "attr_Depth_with_Door_Closed": 88,
+      "attr_Range_": "Example attr_ range_",
+      "attr_Water_efficient": "9.6",
+      "attr_Accessories_included": "Example attr_ accessories_included",
+      "attr_Dark_Wash": 8,
+      "attr_Control_type": "Dial",
+      "attr_Depth_Package_Dimensions": 755,
+      "attr_Default_Door_Hinge": "Example attr_ default_ door_ hinge",
+      "attr_Finish_Colour": "White",
+      "attr_Height_Package_Dimensions": 666,
+      "attr_Litres_Used_Per_Wash": 51,
+      "attr_Number_of_Programs": 52,
+      "attr_Origin": "Example attr_ origin",
+      "attr_Reload": 4,
+      "attr_Stackable": 7,
+      "attr_Temperature_Control": "Example attr_ temperature_ control",
+      "attr_Time_delay": 2,
+      "attr_Warranty_Note": "Example attr_ warranty_ note",
+      "attr_Water_Star_Rating": "2.1",
+      "attr_Width_Package_Dimensions": 565,
+      "attr_Cotton": 9,
+      "attr_Delicate": 1,
+      "attr_Wool": 4,
+      "attr_Time_Remaining_Display": 3,
+      "attr_Washing_Machine_Type": "Example attr_ washing_ machine_ type",
+      "attr_Rinse": 5,
+      "attr_Easy_Care": 8,
+      "attr_Packaged_Weight": 11,
+      "attr_Connected_load": 2.6,
+      "attr_Drum_Clean": 7
+    },
+    "warrantyNote": "Example warranty note",
     "modelNumber": null,
     "manufacturerNumber": null,
-    "origin": null,
+    "origin": "Example origin",
     "energyCalculatorEnabled": true,
     "features": [
       {
@@ -215,6 +268,309 @@
         "title": "Example title",
         "type": null,
         "url": "https://www.appliancesonline.com.au/example/59463"
+      }
+    ],
+    "delivery": null,
+    "questions": null
+  },
+  {
+    "productId": "593956",
+    "sku": "wan74744au",
+    "title": "Example title",
+    "url": "https://www.appliancesonline.com.au/example/43769",
+    "brand": "Bosch",
+    "manufacturer": {
+      "name": "Example name",
+      "url": "Example url",
+      "thumbnail": "Example thumbnail",
+      "recyclingMember": true
+    },
+    "price": 362,
+    "rrp": 1327,
+    "savings": 887,
+    "onSale": true,
+    "altPriceMsg": null,
+    "inStock": true,
+    "stockStatus": 9,
+    "stockByWarehouse": {
+      "201main": 2,
+      "301whse": 4,
+      "401whse": 0,
+      "501whse": 2,
+      "601whse": 0,
+      "701whse": 9,
+      "801whse": 1,
+      "ao-dc-gle": 9,
+      "ao-ql-cns": 0,
+      "ao-ql-tsv": 0,
+      "national": 4
+    },
+    "available": true,
+    "featured": false,
+    "featuredLabel": null,
+    "ribbonType": null,
+    "popularity": 78801,
+    "badges": [
+      "Example badges",
+      "Example badges"
+    ],
+    "isGreenProduct": true,
+    "carePlans": [
+      {
+        "name": "Example name",
+        "price": 362,
+        "productId": 245291
+      },
+      {
+        "name": "Example name",
+        "price": 515,
+        "productId": 709483
+      }
+    ],
+    "associatedFreeProducts": null,
+    "efficiencyLabels": null,
+    "image": "https://www.appliancesonline.com.au/example/62405.jpg",
+    "images": [
+      "https://www.appliancesonline.com.au/example/6771.jpg",
+      "https://www.appliancesonline.com.au/example/10340.jpg"
+    ],
+    "media": [],
+    "dimensions": null,
+    "specs": {
+      "key Specifications": [
+        {
+          "name": "Example name",
+          "value": "Example value",
+          "url": "https://www.appliancesonline.com.au/example/43769"
+        },
+        {
+          "name": "Example name",
+          "value": "Example value",
+          "url": null
+        }
+      ],
+      "warranty": [
+        {
+          "name": "Example name",
+          "value": "Example value",
+          "url": null
+        },
+        {
+          "name": "Example name",
+          "value": "Example value",
+          "url": null
+        }
+      ],
+      "door": [
+        {
+          "name": "Example name",
+          "value": "Example value",
+          "url": null
+        },
+        {
+          "name": "Example name",
+          "value": "Example value",
+          "url": null
+        }
+      ],
+      "smart Features": [
+        {
+          "name": "Example name",
+          "value": "6 ",
+          "url": null
+        },
+        {
+          "name": "Example name",
+          "value": "3 ",
+          "url": null
+        }
+      ],
+      "additional Dimensions": [
+        {
+          "name": "Example name",
+          "value": "Example value",
+          "url": null
+        },
+        {
+          "name": "Example name",
+          "value": "Example value",
+          "url": null
+        }
+      ],
+      "programs": [
+        {
+          "name": "Example name",
+          "value": "Example value",
+          "url": null
+        },
+        {
+          "name": "Example name",
+          "value": "Example value: mock text standing in for the real value. Same field and type, made-up content.",
+          "url": null
+        }
+      ],
+      "energy Efficiency": [
+        {
+          "name": "Example name",
+          "value": "0 ",
+          "url": null
+        },
+        {
+          "name": "Example name",
+          "value": "521 ",
+          "url": null
+        }
+      ],
+      "water Efficiency": [
+        {
+          "name": "Example name",
+          "value": "Example value",
+          "url": null
+        },
+        {
+          "name": "Example name",
+          "value": "2.9 ",
+          "url": null
+        }
+      ],
+      "other Features": [
+        {
+          "name": "Example name",
+          "value": "Example value",
+          "url": null
+        },
+        {
+          "name": "Example name",
+          "value": "3 ",
+          "url": null
+        }
+      ],
+      "safety Features": [
+        {
+          "name": "Example name",
+          "value": "6 ",
+          "url": null
+        }
+      ],
+      "electrical Connection": [
+        {
+          "name": "Example name",
+          "value": "Example value",
+          "url": null
+        },
+        {
+          "name": "Example name",
+          "value": "Example value",
+          "url": null
+        }
+      ],
+      "country of Origin": [
+        {
+          "name": "Example name",
+          "value": "Example value",
+          "url": null
+        }
+      ],
+      "noise Level": [
+        {
+          "name": "Example name",
+          "value": "Example value",
+          "url": null
+        },
+        {
+          "name": "Example name",
+          "value": "Example value",
+          "url": null
+        }
+      ],
+      "notes": [
+        {
+          "name": "Example name",
+          "value": "Example value: mock text standing in for the real value. Same field and type, made-up content.",
+          "url": null
+        }
+      ],
+      "Other": [
+        {
+          "name": "Example name",
+          "value": "6 "
+        },
+        {
+          "name": "Example name",
+          "value": "1528655644957 "
+        }
+      ]
+    },
+    "keySpecs": null,
+    "attr": {
+      "attr_Brand": "Bosch",
+      "attr_Water_Inlets": "Example attr_ water_ inlets",
+      "attr_Manufacturer_Warranty": "Example attr_ manufacturer_ warranty",
+      "attr_Washing_capacity": 4,
+      "attr_Weight__kg_": 58.38,
+      "attr_Energy_Star_Rating": "9",
+      "attr_Depth__mm_": 220,
+      "attr_Depth_With_Door_Open": 9576,
+      "attr_Height__mm_": 223,
+      "attr_Width__mm_": 186,
+      "attr_Type_of_connection": "Example attr_ type_of_connection",
+      "attr_Depth_with_Door_Closed": 580,
+      "attr_Range_": "Example attr_ range_",
+      "attr_Programmable_timer": 3,
+      "attr_Water_efficient": "4.1",
+      "attr_Accessories_included": "Example attr_ accessories_included",
+      "attr_Control_type": "Dial",
+      "attr_Delay_Start": 7,
+      "attr_Depth_Package_Dimensions": 423,
+      "attr_Direct_Drive_Motor": 0,
+      "attr_Default_Door_Hinge": "Example attr_ default_ door_ hinge",
+      "attr_Finish_Colour": "White",
+      "attr_Height_Package_Dimensions": 277,
+      "attr_Litres_Used_Per_Wash": 63,
+      "attr_Number_of_Programs": 74,
+      "attr_Origin": "Example attr_ origin",
+      "attr_Family_size_washing_machine": 7,
+      "attr_Reload": 4,
+      "attr_Stackable": 6,
+      "attr_Temperature_Control": "Example attr_ temperature_ control",
+      "attr_Time_delay": 2,
+      "attr_Warranty_Note": "Example attr_ warranty_ note",
+      "attr_Water_Star_Rating": "2.4",
+      "attr_Width_Package_Dimensions": 442,
+      "attr_Reversible_door": "Example attr_ reversible_door",
+      "attr_Add_items_after_youve_started_the_load": 5,
+      "attr_Anti_Crease": 4,
+      "attr_Auto_Balance": 2,
+      "attr_Auto_Load_Sensing": 1,
+      "attr_Time_Remaining_Display": 6
+    },
+    "warrantyNote": "Example warranty note",
+    "modelNumber": null,
+    "manufacturerNumber": null,
+    "origin": "Example origin",
+    "energyCalculatorEnabled": true,
+    "features": [
+      {
+        "title": "Example title",
+        "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
+        "imageUrl": "https://www.appliancesonline.com.au/example/31647.jpg"
+      },
+      {
+        "title": "Example title",
+        "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
+        "imageUrl": "https://www.appliancesonline.com.au/example/1120.jpg"
+      }
+    ],
+    "manuals": [
+      {
+        "title": "Example title",
+        "type": null,
+        "url": "https://www.appliancesonline.com.au/example/43769"
+      },
+      {
+        "title": "Example title",
+        "type": null,
+        "url": "https://www.appliancesonline.com.au/example/3696"
       }
     ],
     "delivery": null,

@@ -1,6 +1,6 @@
 [
   {
-    "id": "6154603",
+    "id": "1933944",
     "type": "for-sale",
     "title": "Example title",
     "address": "Example address",
@@ -12,22 +12,21 @@
     "bedrooms": 3,
     "bathrooms": 6,
     "parkingSpaces": 2,
-    "propertyType": "Apartment",
+    "propertyType": "House",
     "agencyName": "Example agency name",
-    "agencyUrl": "https://reiwa.com.au/example/93769",
+    "agencyUrl": "https://stpub.reiwa.com.au/example/93769",
     "agentNames": [
       "Example agent names"
     ],
     "agentUrls": [
-      "https://reiwa.com.au/example/11529"
+      "https://stpub.reiwa.com.au/example/11529"
     ],
     "phoneNumbers": [
       "+1 555 0100"
     ],
-    "dateText": "Example date text",
     "imageUrls": [
-      "https://imagecdn.reiwa.com.au/example/11964.jpg",
-      "https://imagecdn.reiwa.com.au/example/32746.jpg"
+      "https://stimagecdn.reiwa.com.au/example/11964.jpg",
+      "https://stimagecdn.reiwa.com.au/example/32746.jpg"
     ],
     "scrapedAt": "2026-01-15T10:00:00Z"
   }

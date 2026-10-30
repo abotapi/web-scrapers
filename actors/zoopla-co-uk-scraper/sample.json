@@ -1,28 +1,42 @@
 [
   {
-    "listingId": "39281053",
+    "listingId": "11311960",
     "listingType": "sale",
     "channel": "for-sale",
     "url": "https://www.zoopla.co.uk/example/59283",
     "title": "Example title",
     "address": "Example address",
     "summaryDescription": "Example summary description: mock text standing in for the real value. Same field and type, made-up content.",
+    "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
+    "thumbnail": "https://lid.zoocdn.com/example/41323.jpg",
+    "featured": true,
+    "roomsCount": [
+      {
+        "type": "bedrooms",
+        "count": 8
+      },
+      {
+        "type": "bathrooms",
+        "count": 6
+      }
+    ],
     "price": 168653,
     "priceLabel": "Example price label",
-    "priceQualifier": "Example price qualifier",
+    "priceQualifier": null,
     "currency": "GBP",
     "rentFrequencyLabel": null,
     "priceDrop": {
       "firstPriceDate": "Example first price date",
       "lastPriceChangeDate": "Example last price change date",
-      "percentageChangeLabel": "27.1"
+      "percentageChangeLabel": "5.3",
+      "priceChangeLabel": "Example price change label"
     },
     "bedrooms": 9,
     "bathrooms": 3,
     "receptionRooms": 5,
     "propertyType": "flat",
     "sizeSqft": 990,
-    "sizeSource": "comparables_epc",
+    "sizeSource": "structured_data",
     "publishedOn": "Example published on",
     "publishedOnLabel": "Example published on label",
     "availableFrom": null,
@@ -32,7 +46,8 @@
     "featuredType": "weekly_featured",
     "displayType": "premium_plus",
     "tags": [
-      "Example tags"
+      "Example tags",
+      "Leasehold"
     ],
     "highlights": [
       {
@@ -48,15 +63,11 @@
     "latitude": null,
     "longitude": null,
     "imageUrl": "https://lid.zoocdn.com/example/35723.jpg",
-    "imageCaption": null,
+    "imageCaption": "Example image caption",
     "images": [
       "https://lid.zoocdn.com/example/97334.jpg",
       "https://lid.zoocdn.com/example/68945.jpg"
     ],
-    "imageCount": 87,
-    "floorPlanCount": 4,
-    "videoCount": 0,
-    "branchName": "Example branch name",
-    "branchId": 16473
+    "imageCount": 87
   }
 ]

@@ -5,7 +5,7 @@
     "origin": "JFK",
     "destination": "LHR",
     "departureDate": "2026-01-15",
-    "program": "QF",
+    "program": "AA",
     "programName": "Example program name",
     "airline": "Example airline",
     "alliance": "oneworld",
@@ -14,25 +14,92 @@
     "cabins": {
       "economy": {
         "miles": 23509,
-        "taxes": 352,
+        "taxes": 4.59,
+        "seats": 6,
+        "stops": 0,
+        "airlines": [
+          "AA"
+        ]
+      },
+      "premium": {
+        "miles": 23509,
+        "taxes": 4.59,
+        "seats": 6,
+        "stops": 0,
+        "airlines": [
+          "AA"
+        ]
+      },
+      "business": {
+        "miles": 23509,
+        "taxes": 601.47,
         "seats": 6,
         "stops": 0,
         "airlines": [
           "AA",
           "BA"
         ]
-      },
-      "premium": {
-        "miles": 23509,
-        "taxes": 99.96,
-        "seats": 6,
-        "stops": 9,
-        "airlines": [
-          "IB"
-        ]
       }
     },
     "lastSeen": "2026-01-15T10:00:00Z",
-    "scrapedAt": "2026-01-15T10:00:00Z"
+    "scrapedAt": "2026-01-15T10:00:00Z",
+    "economy": {
+      "miles": 23509,
+      "tax": 6.16,
+      "seats": 6,
+      "stops": 0,
+      "airlineCodes": [
+        "AA"
+      ],
+      "available": true
+    },
+    "premiumEconomy": {
+      "miles": 23509,
+      "tax": 6.16,
+      "seats": 6,
+      "stops": 0,
+      "airlineCodes": [
+        "AA"
+      ],
+      "available": true
+    },
+    "business": {
+      "miles": 23509,
+      "tax": 806.85,
+      "seats": 6,
+      "stops": 0,
+      "airlineCodes": [
+        "AA",
+        "BA"
+      ],
+      "available": true
+    },
+    "first": null,
+    "stops": 0,
+    "originName": "Example origin name",
+    "destinationName": "Example destination name",
+    "coordinates": {
+      "origin": {
+        "latitude": 29.26,
+        "longitude": -74.52
+      },
+      "destination": {
+        "latitude": 37.06,
+        "longitude": -0.47
+      }
+    },
+    "searchId": "id96205027",
+    "flightId": "Example flight id",
+    "connections": [],
+    "airlines": [
+      {
+        "code": "AA",
+        "name": null
+      },
+      {
+        "code": "BA",
+        "name": null
+      }
+    ]
   }
 ]

@@ -1,12 +1,12 @@
 [
   {
-    "id": "row6updybrw",
-    "shortSku": "row4updybrw",
-    "model": "row3updy",
+    "id": "celjjv7ebck",
+    "shortSku": "celjjv2ebck",
+    "model": "celjjv6e",
     "name": "Example name",
     "title": "Example title",
-    "brand": "Example brand",
-    "color": "Brown",
+    "brand": "CELINE",
+    "color": "Black",
     "price": 3148,
     "discountPrice": null,
     "currentPrice": 2685,
@@ -27,20 +27,26 @@
     "sizes": [
       {
         "label": "Example label",
-        "sku": "row5updybrwi58a976",
+        "sku": "celjjv7ebcki88a092",
         "inStock": true
       },
       {
         "label": "Example label",
-        "sku": "row9updybrwuza7a86",
+        "sku": "celjjv9ebckja46a80",
         "inStock": true
       }
     ],
     "skus": [
-      "row9updybrwuza6a34",
-      "row7updybrwja19a44"
+      "celjjv9ebckja71a06",
+      "celjjv4ebcky88a035"
     ],
-    "otherColors": [],
+    "otherColors": [
+      {
+        "label": "Example label",
+        "shortSku": "celjjv2eowh",
+        "image": "https://www.24s.com/example/66538.jpg"
+      }
+    ],
     "images": [
       "https://www.24s.com/example/26363.jpg",
       "https://www.24s.com/example/15741.jpg"
@@ -48,6 +54,17 @@
     "imagesCount": 3,
     "productSlug": "Example product slug",
     "url": "https://www.24s.com/example/15658",
-    "locale": "en-gb"
+    "locale": "en-gb",
+    "imageUrl": "https://www.24s.com/example/56602.jpg",
+    "imageUrls": [
+      "https://www.24s.com/example/29375.jpg",
+      "https://www.24s.com/example/84243.jpg"
+    ],
+    "originalPrice": 2068,
+    "discount": null,
+    "sku": null,
+    "country": "GB",
+    "category": "Shoes",
+    "categoryPath": "Example category path"
   }
 ]

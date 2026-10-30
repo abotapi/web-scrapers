@@ -59,16 +59,16 @@ Full details on the [scraper page](https://apify.com/abotapi/tokopedia-scraper?u
 | `name` | string |
 | `url` | string |
 | `applink` | string |
-| `condition` | string |
+| `condition` | null |
 | `categoryId` | string |
 | `categoryName` | string |
 | `categoryBreadcrumb` | string |
 | `categoryGaKey` | string |
-| `minOrder` | integer |
-| `weight` | float |
-| `weightUnit` | string |
-| `description` | string |
-| `etalase` | string |
+| `minOrder` | null |
+| `weight` | null |
+| `weightUnit` | null |
+| `description` | null |
+| `etalase` | null |
 | `price` | integer |
 | `priceText` | string |
 | `originalPrice` | null |
@@ -89,9 +89,9 @@ Full details on the [scraper page](https://apify.com/abotapi/tokopedia-scraper?u
 | `specialsThematicName` | null |
 | `cashbackPercentage` | null |
 | `variantSkus` | list |
-| `stock` | integer |
+| `stock` | null |
 | `stockText` | null |
-| `isPreorder` | boolean |
+| `isPreorder` | null |
 
 ---
 

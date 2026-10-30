@@ -13,6 +13,7 @@ client = ApifyClient(os.environ["APIFY_TOKEN"])
 run = client.actor("abotapi/lemon8-feeds-scraper").call(
     run_input={
         "category": 0,
+        "startUrls": ["https://www.lemon8-app.com/feed/outfits?region=au", "https://www.lemon8-app.com/feed/outfits", "https://www.lemon8-app.com/@lylassecret10/7699504612750934559?region=us", "https://www.lemon8-app.com/@lylassecret10?region=us", "https://www.lemon8-app.com/@lylassecret10/7699504612750934559?region=us&share_token=x"],
         "region": "us",
         "limit": 10,
         "proxy": {"useApifyProxy": True, "apifyProxyCountry": "US"},

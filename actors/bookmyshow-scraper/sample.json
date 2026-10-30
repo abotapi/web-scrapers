@@ -2,7 +2,7 @@
   {
     "kind": "movie",
     "recordId": "Example record id",
-    "eventCode": "et41170466",
+    "eventCode": "et89191464",
     "title": "Example title",
     "url": "https://in.bookmyshow.com/example/75192",
     "posterUrl": "https://assets-in.bmscdn.com/example/29035.jpg",
@@ -10,8 +10,8 @@
       "hindi"
     ],
     "genres": [
-      "drama",
-      "mystery"
+      "comedy",
+      "romantic"
     ],
     "category": null,
     "regionCode": "MUMBAI",
@@ -19,62 +19,20 @@
     "venueCode": null,
     "listingSection": null,
     "tags": [
-      "Example tags",
+      "A",
       "Hindi"
     ],
     "synopsis": "Example synopsis: mock text standing in for the real value. Same field and type, made-up content.",
-    "duration": "pt7h73m",
+    "duration": "pt7h29m",
     "censor": "Example censor",
     "releaseDate": "2026-01-15",
     "formats": [
-      "Example formats",
       "Example formats"
     ],
     "cast": [
-      "Example cast",
       "Example cast"
     ],
-    "director": "Example director",
-    "priceDisplay": null,
-    "availability": null,
-    "dateText": null,
-    "timeText": null
-  },
-  {
-    "kind": "movie",
-    "recordId": "Example record id",
-    "eventCode": "et23473542",
-    "title": "Example title",
-    "url": "https://in.bookmyshow.com/example/12587",
-    "posterUrl": "https://assets-in.bmscdn.com/example/66880.jpg",
-    "languages": [
-      "hindi"
-    ],
-    "genres": [
-      "adventure",
-      "animation"
-    ],
-    "category": null,
-    "regionCode": "MUMBAI",
-    "venueName": null,
-    "venueCode": null,
-    "listingSection": null,
-    "tags": [
-      "U",
-      "Example tags"
-    ],
-    "synopsis": "Example synopsis: mock text standing in for the real value. Same field and type, made-up content.",
-    "duration": "pt5h22m",
-    "censor": "Example censor",
-    "releaseDate": "2026-01-15",
-    "formats": [
-      "Example formats",
-      "EPIQ"
-    ],
-    "cast": [
-      "Example cast"
-    ],
-    "director": "Example director",
+    "director": null,
     "priceDisplay": null,
     "availability": null,
     "dateText": null,

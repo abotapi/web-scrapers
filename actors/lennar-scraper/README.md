@@ -1,8 +1,8 @@
-# Lennar Homes Scraper
+# Lennar Scraper
 
-Scrape Lennar new-home communities, move-in-ready homes and floor plans. Extract prices, monthly payment breakdowns, price drops, beds, baths, square footage, coordinates, amenities, virtual tours and 50+ fields. Search by state or paste Lennar URLs.
+Scrape Lennar (lennar.com) new-home communities, move-in-ready homes and floor plans by state or URL. Extract 50+ fields including prices, monthly payments, price drops, beds, baths, square footage, GPS coordinates, amenities and virtual tours.
 
-**[Open Lennar Homes Scraper on Apify](https://apify.com/abotapi/lennar-scraper?utm_source=github&utm_medium=web-scrapers&utm_campaign=monorepo)** to run it without code and export JSON, CSV or Excel.
+**[Open Lennar Scraper on Apify](https://apify.com/abotapi/lennar-scraper?utm_source=github&utm_medium=web-scrapers&utm_campaign=monorepo)** to run it without code and export JSON, CSV or Excel.
 
 ## Run it from code
 
@@ -26,6 +26,8 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~lennar-scraper/run-sync-g
 | --- | --- | --- |
 | `mode` * | string | Search mode |
 | `states` | array | States |
+| `markets` | array | Markets (metro areas, optional) |
+| `expandToWholeState` | boolean | Expand to whole state |
 | `startUrls` | array | URLs |
 | `includeCommunities` | boolean | Include communities |
 | `includeHomesites` | boolean | Include move-in-ready homes |

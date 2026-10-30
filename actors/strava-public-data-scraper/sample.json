@@ -1,0 +1,129 @@
+[
+  {
+    "recordId": "Example record id",
+    "kind": "club",
+    "clubId": "76417",
+    "name": "Example name",
+    "slug": null,
+    "url": "https://www.strava.com/example/59711",
+    "description": "Example description",
+    "sportType": "Running",
+    "displayIcon": "Example display icon",
+    "clubTypes": [
+      "CasualClub"
+    ],
+    "city": "Ambleside",
+    "state": "England",
+    "country": "Example country",
+    "countryCode": "UK",
+    "memberCount": 781,
+    "verified": false,
+    "inviteOnly": true,
+    "leaderboardEnabled": true,
+    "postsDefaultView": false,
+    "website": "http://www.amblesideac.org.uk/example/53312",
+    "avatarUrl": "https://dgalywyr863hv.cloudfront.net/example/54585.jpg",
+    "coverPhotoUrl": "https://dgalywyr863hv.cloudfront.net/example/43779.jpg",
+    "memberPreviews": [
+      {
+        "athleteId": "8543054",
+        "firstName": "Example first name",
+        "lastName": "Example last name",
+        "badgeType": "Free",
+        "profileImageUrl": "https://dgalywyr863hv.cloudfront.net/example/51445.jpg"
+      },
+      {
+        "athleteId": "95750369",
+        "firstName": "Example first name",
+        "lastName": "Example last name",
+        "badgeType": "Free",
+        "profileImageUrl": "https://lh3.googleusercontent.com/example/75787.jpg"
+      }
+    ],
+    "requestedRef": "64688",
+    "raw": {
+      "name": "Example name",
+      "location": {
+        "country": "Example country",
+        "state": "England",
+        "city": "Ambleside"
+      },
+      "avatarUrl": "https://dgalywyr863hv.cloudfront.net/example/54585.jpg",
+      "clubSettings": {
+        "inviteOnly": true,
+        "leaderboardEnabled": true,
+        "postsDefaultView": false
+      },
+      "clubSportType": "Running",
+      "clubTypes": [
+        "CasualClub"
+      ],
+      "countryCode": "UK",
+      "coverPhotoUrl": "https://dgalywyr863hv.cloudfront.net/example/43779.jpg",
+      "description": "Example description",
+      "displayIcon": "Example display icon",
+      "id": "23238",
+      "verified": false,
+      "website": "http://www.amblesideac.org.uk/example/53312",
+      "memberCount": 781,
+      "members": {
+        "nodes": [
+          {
+            "athlete": {
+              "id": "5925443",
+              "firstName": "Example first name",
+              "lastName": "Example last name",
+              "badge": {
+                "badgeType": "Free"
+              },
+              "profileImageUrl": "https://dgalywyr863hv.cloudfront.net/example/51445.jpg"
+            }
+          },
+          {
+            "athlete": {
+              "id": "67833719",
+              "firstName": "Example first name",
+              "lastName": "Example last name",
+              "badge": {
+                "badgeType": "Free"
+              },
+              "profileImageUrl": "https://lh3.googleusercontent.com/example/75787.jpg"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "recordId": "Example record id",
+    "kind": "athlete",
+    "athleteId": "6740657",
+    "firstName": "Example first name",
+    "lastName": "Example last name",
+    "name": "Example name",
+    "url": "https://www.strava.com/example/90489",
+    "profileImageUrl": "https://dgalywyr863hv.cloudfront.net/example/96067.jpg",
+    "profileImageUrlLarge": "https://dgalywyr863hv.cloudfront.net/example/26006.jpg",
+    "hasDefaultProfileImage": false,
+    "badgeType": "Free",
+    "profileVisibilitySetting": "Example profile visibility setting",
+    "city": null,
+    "state": null,
+    "country": "Example country",
+    "requestedRef": "3963891",
+    "raw": {
+      "id": "7770393",
+      "firstName": "Example first name",
+      "lastName": "Example last name",
+      "profileVisibilitySetting": "Example profile visibility setting",
+      "profileImageUrl": "https://dgalywyr863hv.cloudfront.net/example/96067.jpg",
+      "hasDefaultProfileImage": false,
+      "badge": {
+        "badgeType": "Free"
+      },
+      "location": {
+        "country": "Example country"
+      }
+    }
+  }
+]

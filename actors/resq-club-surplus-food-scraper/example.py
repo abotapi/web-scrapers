@@ -14,6 +14,8 @@ run = client.actor("abotapi/resq-club-surplus-food-scraper").call(
     run_input={
         "mode": "search",
         "locations": ["60.1699,24.9384"],
+        "sortBy": "none",
+        "sortOrder": "asc",
         "maxItems": 10,
         "maxPages": 1,
         "proxyConfiguration": {"useApifyProxy": True},

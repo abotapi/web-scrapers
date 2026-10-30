@@ -68,6 +68,11 @@ Full details on the [scraper page](https://apify.com/abotapi/druni-es-scraper?ut
 | `image` | string |
 | `features` | list |
 | `reviews` | object |
+| `images` | list |
+| `outOfStock` | boolean |
+| `productUrl` | string |
+| `lowestPrice` | float |
+| `scrapedAt` | string |
 
 ---
 

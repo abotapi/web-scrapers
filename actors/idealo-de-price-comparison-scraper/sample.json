@@ -1,25 +1,19 @@
 [
   {
-    "id": "351119447",
+    "id": "8031421",
     "url": "https://www.idealo.de/example/1850",
     "title": "Example title",
-    "brand": "Withings",
+    "brand": "Casio",
     "category": null,
     "gtin": null,
-    "lowPrice": 165,
-    "highPrice": 510.44,
+    "lowPrice": 12.37,
+    "highPrice": 31,
     "currency": "EUR",
     "priceFormatted": "Example price formatted",
-    "offerCount": 409,
-    "rating": 3.25,
-    "reviewCount": 41,
-    "reviewBreakdown": {
-      "1": 5,
-      "2": 0,
-      "3": 3,
-      "4": 3,
-      "5": 5
-    },
+    "offerCount": 49,
+    "rating": 3.42,
+    "reviewCount": 3641,
+    "reviewBreakdown": {},
     "previewImage": "https://cdn.idealo.com/example/58945.jpg",
     "images": [
       "https://cdn.idealo.com/example/43591.jpg",
@@ -29,37 +23,27 @@
     "specs": {
       "Produkttypen": "Example produkttypen",
       "Serie": "Example serie",
-      "Für wen": "Example für wen",
-      "Stile": "Example stile",
-      "Betriebssystem Kompatibilität": "Example betriebssystem  kompatibilität",
-      "Gehäusematerial": "Example gehäusematerial",
-      "Gehäuseeigenschaft": "wasserdicht",
-      "Gehäuseform": "rund",
-      "Uhrenglas": "Example uhrenglas",
-      "Displaytyp": "OLED",
-      "Displaymaterial": "Example displaymaterial",
-      "Displayeigenschaften": "Example displayeigenschaften",
+      "wasserdicht": "Example wasserdicht",
+      "Gehäuse": "Example gehäuse",
+      "Gehäusegröße": "Example gehäusegröße",
+      "Gehäusehöhe": "Example gehäusehöhe",
+      "Funktionen": "Example funktionen",
+      "Ganggenauigkeit": "Example ganggenauigkeit",
+      "weitere Funktionen": "Example weitere  funktionen",
+      "Uhrwerk": "Example uhrwerk",
       "Stromversorgung": "Example stromversorgung",
-      "Akkuart": "Example akkuart",
-      "Akkulaufzeit": "Example akkulaufzeit",
-      "Akkukapazität": "Example akkukapazität",
-      "Ladefunktion": "Example ladefunktion",
-      "Datenübertragung/Funkstandard": "Example datenübertragung/ funkstandard",
-      "Bluetooth-Version": "Example bluetooth- version",
-      "Ortungsdienst": "GPS",
-      "Wasserdichtigkeit": "Example wasserdichtigkeit",
-      "Sensoren": "Example sensoren",
-      "Tracking-Funktionen": "Example tracking- funktionen",
-      "Gesundheitsfunktionen": "Example gesundheitsfunktionen: mock text standing in for the real value. Same field and type, made-up content.",
-      "Sportarten": "Example sportarten"
+      "Batterie-Typ": "cr2853",
+      "Anzeige-Eigenschaft": "Example anzeige- eigenschaft",
+      "Anzeigetypen": "Example anzeigetypen",
+      "Anzeige": "digital"
     },
     "offers": [
       {
         "merchant": "Example merchant",
-        "price": 771,
+        "price": 13.36,
         "priceFormatted": "Example price formatted",
         "shipping": "Example shipping",
-        "total": 537,
+        "total": 19.56,
         "totalFormatted": "Example total formatted",
         "pros": [],
         "cons": [],
@@ -67,31 +51,16 @@
       },
       {
         "merchant": "Example merchant",
-        "price": 352.17,
+        "price": 23.39,
         "priceFormatted": "Example price formatted",
         "shipping": "Example shipping",
-        "total": 233.86,
+        "total": 15.53,
         "totalFormatted": "Example total formatted",
         "pros": [],
         "cons": [],
         "url": "https://www.idealo.de/example/51329"
       }
     ],
-    "reviews": [
-      {
-        "author": "Example author",
-        "date": "52.85.14",
-        "title": null,
-        "text": "Example text: mock text standing in for the real value. Same field and type, made-up content.",
-        "rating": 2
-      },
-      {
-        "author": "Example author",
-        "date": "86.35.93",
-        "title": null,
-        "text": "Example text: mock text standing in for the real value. Same field and type, made-up content.",
-        "rating": 5
-      }
-    ]
+    "reviews": []
   }
 ]

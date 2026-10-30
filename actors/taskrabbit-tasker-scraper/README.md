@@ -17,7 +17,7 @@ python example.py
 ```bash
 curl -s -X POST "https://api.apify.com/v2/acts/abotapi~taskrabbit-tasker-scraper/run-sync-get-dataset-items?token=$APIFY_TOKEN" \
   -H 'Content-Type: application/json' \
-  -d '{"mode": "search", "locations": ["Portland, OR"], "services": ["furniture assembly", "tv mounting"], "profileInputs": ["1883135"], "maxItems": 10, "maxReviewsPerTasker": 10, "proxyConfiguration": {"useApifyProxy": true}}'
+  -d '{"mode": "search", "locations": ["Portland, OR"], "services": ["furniture assembly", "tv mounting"], "maxItems": 10, "maxReviewsPerTasker": 10, "proxyConfiguration": {"useApifyProxy": true}}'
 ```
 
 ## Inputs
@@ -27,13 +27,15 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~taskrabbit-tasker-scraper
 | `mode` * | string | Mode |
 | `locations` | array | Cities |
 | `services` | array | Services |
-| `profileInputs` | array | Tasker links or ids |
+| `profileInputs` | array | Tasker links, ids or city links |
 | `urls` | array | Tasker links or ids (alias) |
 | `maxItems` | integer | Max items |
 | `includeProfiles` | boolean | Fetch full tasker profiles (rates and  |
 | `includeReviews` | boolean | Also fetch tasker reviews |
 | `maxReviewsPerTasker` | integer | Max reviews per tasker |
 | `includeCityReviews` | boolean | Also return city service reviews (sear |
+| `scrapeServiceInfo` | boolean | Also return service info (FAQ answers) |
+| `maxTaskersPerPage` | integer | Max taskers per city page |
 | `proxyConfiguration` | object | Proxy configuration |
 
 `*` required
@@ -67,7 +69,7 @@ Full details on the [scraper page](https://apify.com/abotapi/taskrabbit-tasker-s
 | `slug` | string |
 | `url` | string |
 | `metroName` | string |
-| `hoursWorked` | float |
+| `hoursWorked` | integer |
 | `positiveRating` | string |
 | `onDuty` | boolean |
 | `taskCountProfile` | integer |
@@ -79,6 +81,13 @@ Full details on the [scraper page](https://apify.com/abotapi/taskrabbit-tasker-s
 | `categories` | list |
 | `totalReviewCount` | integer |
 | `ratingDistribution` | null |
+| `dataType` | string |
+| `taskerId` | string |
+| `name` | string |
+| `isElite` | boolean |
+| `profileUrl` | string |
+| `location` | string |
+| `service` | string |
 
 ---
 

@@ -19,6 +19,7 @@ run = client.actor("abotapi/galaxus-marketplace-scraper").call(
         "maxItems": 10,
         "maxPages": 1,
         "proxyConfiguration": {"useApifyProxy": True},
+        "changeScope": "all",
     },
     logger=None,  # don't stream the run log to your console
 )

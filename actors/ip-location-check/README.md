@@ -17,14 +17,14 @@ python example.py
 ```bash
 curl -s -X POST "https://api.apify.com/v2/acts/abotapi~ip-location-check/run-sync-get-dataset-items?token=$APIFY_TOKEN" \
   -H 'Content-Type: application/json' \
-  -d '{"ipAddresses": ["8.8.8.8", "1.1.1.1"], "language": "en"}'
+  -d '{"ipAddresses": ["8.8.8.8", "81.2.69.142", "2a02:26f0:1700::1"], "language": "en"}'
 ```
 
 ## Inputs
 
 | Input | Type | What it is |
 | --- | --- | --- |
-| `ipAddresses` * | array | IP Addresses |
+| `ipAddresses` * | array | IP addresses |
 | `language` | string | Language |
 
 `*` required
@@ -49,6 +49,18 @@ Full details on the [scraper page](https://apify.com/abotapi/ip-location-check?u
 | `accuracyRadius` | integer |
 | `success` | boolean |
 | `error` | null |
+| `continent` | string |
+| `continentCode` | string |
+| `isInEuropeanUnion` | boolean |
+| `registeredCountry` | string |
+| `registeredCountryCode` | string |
+| `subdivisionCode` | null |
+| `network` | string |
+| `metroCode` | null |
+| `asn` | integer |
+| `asOrganization` | string |
+| `input` | string |
+| `data` | object |
 
 ---
 

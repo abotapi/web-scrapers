@@ -1,7 +1,7 @@
 [
   {
     "kind": "listing",
-    "listingId": "2569856496670368194",
+    "listingId": "6454091566806519637",
     "url": "https://www.airbnb.com/example/99513",
     "title": "Example title",
     "categoryLabel": "Example category label",
@@ -9,11 +9,11 @@
     "locationLabel": "Example location label",
     "subtitle": "Example subtitle",
     "badges": [
-      "Example badges"
+      "Superhost"
     ],
-    "isGuestFavorite": true,
-    "latitude": 43.48,
-    "longitude": 1.65,
+    "isGuestFavorite": null,
+    "latitude": 43.49,
+    "longitude": 1.66,
     "checkIn": "2026-01-15",
     "checkOut": "2026-01-15",
     "adults": 5,
@@ -24,25 +24,25 @@
     "imagesCount": 6,
     "thumbnail": "https://a0.muscache.com/example/84786.jpg",
     "coordinates": {
-      "latitude": 43.48,
-      "longitude": 1.65
+      "latitude": 43.49,
+      "longitude": 1.66
     },
     "detailLoaded": false,
     "reviewsFetched": 0,
-    "rating": 3.66,
-    "reviewsCount": 255,
+    "rating": 3.68,
+    "reviewsCount": 75,
     "priceLabel": "Example price label",
-    "priceTotal": 314,
-    "priceOriginalTotal": null,
-    "pricePerNight": 141.56,
-    "pricePerNightListed": 159.37,
+    "priceTotal": 9314,
+    "priceOriginalTotal": 3131,
+    "pricePerNight": 376.38,
+    "pricePerNightListed": 532.1,
     "priceCurrency": null,
     "priceCurrencyRequested": "USD",
     "priceQualifier": "total",
     "nights": 5,
-    "bedrooms": null,
+    "bedrooms": 9,
     "beds": 4,
-    "bathrooms": null,
+    "bathrooms": 2,
     "cardHighlights": [
       "Example card highlights",
       "Example card highlights"

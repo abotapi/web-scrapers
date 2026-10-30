@@ -7,15 +7,15 @@
     "title": "Example title",
     "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
     "categorySpecificDescription": "Example category specific description: mock text standing in for the real value. Same field and type, made-up content.",
-    "thinContent": true,
+    "thinContent": false,
     "price": 4995,
     "priceCents": 907527,
     "priceType": "MIN_BID",
-    "city": "Diepenbeek",
+    "city": "Gent",
     "countryName": "Example country name",
     "countryAbbreviation": null,
-    "latitude": 44.29,
-    "longitude": 5.31,
+    "latitude": 44.43,
+    "longitude": 3.66,
     "distanceMeters": -4257,
     "location": "Example location",
     "date": "Example date",
@@ -57,14 +57,14 @@
     "reserved": false,
     "extendedAttributes": [
       {
-        "key": "advertiser",
+        "key": "Example key",
         "value": "Example value",
         "values": [
           "Example values"
         ]
       },
       {
-        "key": "Example key",
+        "key": "color",
         "value": "Example value",
         "values": [
           "Example values"
@@ -79,7 +79,7 @@
       "cars",
       "automotive"
     ],
-    "vipUrl": "Example vip url",
+    "vipUrl": "Example vip url: mock text standing in for the real value. Same field and type, made-up content.",
     "url": "https://www.2dehands.be/example/85709",
     "seedValue": "bmw",
     "pageOffset": 0

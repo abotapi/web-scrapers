@@ -14,6 +14,7 @@ run = client.actor("abotapi/kkday-com-scraper").call(
     run_input={
         "mode": "search",
         "query": "Taipei",
+        "sortBy": "prec",
         "language": "en",
         "currency": "USD",
         "maxItems": 10,

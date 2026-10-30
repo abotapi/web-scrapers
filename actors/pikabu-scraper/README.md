@@ -27,12 +27,13 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~pikabu-scraper/run-sync-g
 | `mode` * | string | Mode |
 | `searchQuery` | string | Search query |
 | `searchOrder` | string | Order |
+| `searchUrl` | string | Search results URL (optional) |
 | `feedLinks` | array | Feed, community, tag or user links |
 | `storyUrls` | array | Story links or IDs |
 | `profileUrls` | array | Profile links or names |
 | `fetchDetails` | boolean | Open each story for full detail |
 | `fetchComments` | boolean | Collect comments (story mode or with f |
-| `maxCommentsPerStory` | integer | Max comments per story (0  all) |
+| `maxCommentsPerStory` | integer | Max comments per story |
 | `maxItems` | integer | Max items |
 | `proxyConfiguration` | object | Proxy configuration |
 
@@ -58,9 +59,10 @@ Full details on the [scraper page](https://apify.com/abotapi/pikabu-scraper?utm_
 | `pluses` | null |
 | `minuses` | null |
 | `commentsCount` | integer |
+| `createdAtHuman` | string |
 | `publishedAt` | string |
 | `timestamp` | integer |
-| `seriesId` | null |
+| `seriesId` | string |
 | `isLong` | boolean |
 | `isPinned` | boolean |
 | `blocks` | list |
@@ -70,6 +72,20 @@ Full details on the [scraper page](https://apify.com/abotapi/pikabu-scraper?utm_
 | `media` | object |
 | `detailFetched` | boolean |
 | `channel` | null |
+| `views` | integer |
+| `storyId` | string |
+| `searchUrl` | string |
+| `scrapedAt` | string |
+| `content` | string |
+| `detailPageUrl` | string |
+| `createdAt` | string |
+| `coverImage` | string |
+| `authorId` | string |
+| `authorName` | string |
+| `authorLink` | string |
+| `authorAvatar` | string |
+| `communityName` | null |
+| `communityLink` | null |
 
 ---
 

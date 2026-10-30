@@ -1,8 +1,8 @@
-# Twitch ALL IN ONE URL Scraper
+# Twitch Scraper
 
 Scrape Twitch data at scale, including channels, live streams, clips, VODs, and top games. Extract HLS m3u8 stream URLs, clip MP4 downloads in multiple qualities, chapter markers, and metadata. Supports keyword search with rich, analytics-ready output.
 
-**[Open Twitch ALL IN ONE URL Scraper on Apify](https://apify.com/abotapi/twitch-scraper?utm_source=github&utm_medium=web-scrapers&utm_campaign=monorepo)** to run it without code and export JSON, CSV or Excel.
+**[Open Twitch Scraper on Apify](https://apify.com/abotapi/twitch-scraper?utm_source=github&utm_medium=web-scrapers&utm_campaign=monorepo)** to run it without code and export JSON, CSV or Excel.
 
 ## Run it from code
 
@@ -51,20 +51,44 @@ Full details on the [scraper page](https://apify.com/abotapi/twitch-scraper?utm_
 | --- | --- |
 | `recordType` | string |
 | `id` | string |
-| `videoId` | string |
-| `videoUrl` | string |
-| `channelLogin` | string |
-| `channelDisplayName` | string |
-| `contentOffsetSeconds` | integer |
+| `login` | string |
+| `displayName` | string |
+| `url` | string |
+| `description` | string |
 | `createdAt` | string |
-| `commenterId` | string |
-| `commenterLogin` | string |
-| `commenterDisplayName` | string |
-| `messageText` | string |
-| `userColor` | string |
-| `userBadges` | null |
-| `emotes` | null |
+| `profileImageUrl` | string |
+| `bannerImageUrl` | string |
+| `primaryColorHex` | string |
+| `isPartner` | boolean |
+| `isAffiliate` | boolean |
+| `isStaff` | boolean |
+| `isSiteAdmin` | boolean |
+| `isGlobalMod` | boolean |
+| `isExtensionsDeveloper` | boolean |
+| `chanlets` | null |
+| `followersCount` | integer |
+| `isLive` | boolean |
+| `broadcastTitle` | string |
+| `broadcastLanguage` | string |
+| `broadcastGameName` | string |
+| `broadcastGameSlug` | string |
+| `lastBroadcastTitle` | string |
+| `lastBroadcastStartedAt` | string |
+| `lastBroadcastGameName` | string |
+| `socialMedias` | list |
 | `scrapedAt` | string |
+| `channelId` | string |
+| `profileImageURL` | string |
+| `stream` | object |
+| `latestVideo` | object |
+| `topClip` | object |
+| `nextSchedule` | object |
+| `keyword` | null |
+| `streamId` | string |
+| `title` | string |
+| `viewersCount` | integer |
+| `streamStartedAt` | string |
+| `streamLanguage` | string |
 
 ---
 

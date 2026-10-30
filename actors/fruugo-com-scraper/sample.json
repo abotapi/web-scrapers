@@ -1,0 +1,36 @@
+[
+  {
+    "recordId": "Example record id",
+    "url": "https://www.fruugoaustralia.com/example/58800",
+    "productId": "229947753",
+    "skuId": null,
+    "fruugoId": "969705284-7424351590",
+    "title": "Example title: mock text standing in for the real value. Same field and type, made-up content.",
+    "brand": "Lego",
+    "category": "Example category",
+    "breadcrumbs": "Example breadcrumbs: mock text standing in for the real value. Same field and type, made-up content.",
+    "price": 238,
+    "priceCurrency": "AUD",
+    "priceText": "Example price text",
+    "listPrice": 707,
+    "discountPercent": null,
+    "availability": "Example availability",
+    "inStock": true,
+    "merchantName": "Example merchant name",
+    "sellerCount": null,
+    "shippingPrice": 92.91,
+    "shippingText": "Example shipping text",
+    "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
+    "ean": "716381061307",
+    "gtin": "940059704808",
+    "sku": "2321946384",
+    "imageUrl": "https://img.fruugo.com/example/63268.jpg",
+    "imageUrls": [
+      "https://img.fruugo.com/example/23604.jpg"
+    ],
+    "attributes": [],
+    "returnDays": 18,
+    "country": "AU",
+    "scrapedAt": "2026-01-15T10:00:00Z"
+  }
+]

@@ -48,55 +48,5 @@
     "crunchbaseUrl": null,
     "githubUrl": null,
     "demoDayVideoUrl": null
-  },
-  {
-    "id": 26428,
-    "slug": "heyclicky",
-    "objectID": "44119",
-    "name": "Example name",
-    "url": "https://www.ycombinator.com/example/12276",
-    "oneLiner": "Example one liner: mock text standing in for the real value. Same field and type, made-up content.",
-    "longDescription": "Example long description: mock text standing in for the real value. Same field and type, made-up content.",
-    "website": "https://heyclicky.com/example/19160",
-    "batch": "X26",
-    "batchName": "Example batch name",
-    "status": "Active",
-    "stage": "Early",
-    "industry": "Example industry",
-    "subindustry": "Example subindustry",
-    "industries": [
-      "Example industries"
-    ],
-    "tags": [],
-    "regions": [
-      "Example regions",
-      "Example regions"
-    ],
-    "allLocations": "Example all locations",
-    "teamSize": 0,
-    "yearFounded": 9981,
-    "launchedAt": 1548475969,
-    "isHiring": false,
-    "topCompany": false,
-    "nonprofit": false,
-    "hasAppVideo": false,
-    "hasDemoDayVideo": false,
-    "hasQuestionAnswers": false,
-    "formerNames": [
-      "Example former names",
-      "Example former names"
-    ],
-    "logoUrl": "https://bookface-images.s3.us-west-2.amazonaws.com/example/36457.jpg",
-    "smallLogoUrl": "https://bookface-images.s3.amazonaws.com/example/48247.jpg",
-    "location": "Example location",
-    "city": "Example city",
-    "cityTag": "Example city tag",
-    "country": "US",
-    "linkedinUrl": null,
-    "twitterUrl": "https://x.com/example/68909",
-    "facebookUrl": null,
-    "crunchbaseUrl": null,
-    "githubUrl": null,
-    "demoDayVideoUrl": null
   }
 ]

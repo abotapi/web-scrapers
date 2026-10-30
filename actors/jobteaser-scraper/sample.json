@@ -11,10 +11,10 @@
       "profile_url": "https://www.jobteaser.com/example/6908",
       "logo_url": "https://d1guu6n8gz71j.cloudfront.net/example/75717.jpg",
       "cover_image_url": "https://d1guu6n8gz71j.cloudfront.net/example/85561.jpg",
-      "short_description": "Example short_description: mock text standing in for the real value. Same field and type, made-up content."
+      "short_description": null
     },
     "company_profile": {
-      "summary": "Example summary: mock text standing in for the real value. Same field and type, made-up content.",
+      "summary": null,
       "type_label": "Example type_label",
       "size_label": "Example size_label",
       "industry_label": "Example industry_label"
@@ -33,55 +33,55 @@
     },
     "primary_location": {
       "address": "Example address",
-      "city": "Paris",
-      "region": "Example region",
-      "sub_region": "Paris",
-      "country": "France",
-      "place_id": "chijd4fibh2u0kcryjsmamoccwq",
-      "latitude": 43.48,
-      "longitude": 3.01,
+      "city": "Milan",
+      "region": "Lombardy",
+      "sub_region": "Example sub_region",
+      "country": "Italy",
+      "place_id": "chij63usp1nbhkcrjq04xhpn_zw",
+      "latitude": 40.47,
+      "longitude": 11.75,
       "label": "Example label"
     },
     "locations": [
       {
         "address": "Example address",
-        "city": "Paris",
-        "region": "Example region",
-        "sub_region": "Paris",
-        "country": "France",
-        "place_id": "chijd4fibh2u0kcryjsmamoccwq",
-        "latitude": 43.48,
-        "longitude": 3.01
+        "city": "Milan",
+        "region": "Lombardy",
+        "sub_region": "Example sub_region",
+        "country": "Italy",
+        "place_id": "chij63usp1nbhkcrjq04xhpn_zw",
+        "latitude": 40.47,
+        "longitude": 11.75
       }
     ],
     "google_locations": [
       {
         "address": "Example address",
-        "city": "Paris",
-        "region": "Example region",
-        "sub_region": "Paris",
-        "country": "France",
-        "place_id": "chijd4fibh2u0kcryjsmamoccwq",
-        "latitude": 43.48,
-        "longitude": 3.01
+        "city": "Milan",
+        "region": "Lombardy",
+        "sub_region": "Example sub_region",
+        "country": "Italy",
+        "place_id": "chij63usp1nbhkcrjq04xhpn_zw",
+        "latitude": 40.47,
+        "longitude": 11.75
       }
     ],
     "location_count": 5,
     "has_multiple_locations": false,
     "contract": {
       "label": "Example label",
-      "code": "internship",
-      "duration_min_months": 7,
-      "duration_max_months": 4
+      "code": "vie",
+      "duration_min_months": 88,
+      "duration_max_months": 22
     },
     "classification": {
       "category_name": "Example category_name",
       "category_id": "id53542241",
       "department": "Example department",
-      "language_code": "fr",
+      "language_code": "en",
       "work_experience_code": "young_graduate",
       "employment_types": [
-        "INTERN"
+        "FULL_TIME"
       ]
     },
     "requirements": {
@@ -90,7 +90,7 @@
       "study_level_codes": [
         "Example study_level_codes"
       ],
-      "education_requirement": null,
+      "education_requirement": "Example education_requirement",
       "applicant_location_requirements": "Example applicant_location_requirements"
     },
     "work_arrangement": {
@@ -105,8 +105,8 @@
       "salary_currency": null,
       "min": null,
       "max": null,
-      "currency": "EUR",
-      "frequency": "Example frequency",
+      "currency": null,
+      "frequency": null,
       "status": "unspecified"
     },
     "application": {
@@ -116,7 +116,7 @@
       "message_type": null,
       "internal_type": "Example internal_type",
       "external_url": "https://www.aplitrak.com/example/88869",
-      "external_id": "88869",
+      "external_id": "26849",
       "easy_apply": null
     },
     "application_flags": {
@@ -134,8 +134,8 @@
       "expected_archive_at": "2026-01-15T10:00:00Z",
       "application_deadline": "Example application_deadline",
       "valid_through": "2026-01-15T10:00:00Z",
-      "start_date": null,
-      "start_period": "id78429168",
+      "start_date": "Example start_date",
+      "start_period": "7",
       "immediate_start": true
     },
     "status": {
@@ -170,7 +170,7 @@
           "tagName": "Example tag name",
           "children": [
             {
-              "content": "Example content",
+              "content": "Example content: mock text standing in for the real value. Same field and type, made-up content.",
               "type": "text"
             }
           ],
@@ -180,14 +180,14 @@
           "tagName": "Example tag name",
           "children": [
             {
-              "content": "Example content",
+              "content": "Example content: mock text standing in for the real value. Same field and type, made-up content.",
               "type": "text"
             }
           ],
           "type": "tag"
         }
       ],
-      "employer_overview": "Example employer_overview: mock text standing in for the real value. Same field and type, made-up content."
+      "employer_overview": null
     },
     "media": [
       {

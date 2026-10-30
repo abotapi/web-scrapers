@@ -1,6 +1,6 @@
 # NoFluffJobs Scraper
 
-Scrape NoFluffJobs IT jobs across Poland, Czechia, Slovakia, Hungary and the Netherlands. Search with filters or URLs and extract salaries, skills, descriptions, tasks, benefits, hiring steps, company size, GPS and office locations.
+Scrape No Fluff Jobs IT listings across Poland, Czechia, Slovakia, Hungary and the Netherlands by search filters or URL. Extract job titles, salaries, required skills, descriptions, responsibilities, benefits, hiring steps, company sizes, GPS coordinates and office locations.
 
 **[Open NoFluffJobs Scraper on Apify](https://apify.com/abotapi/nofluffjobs-scraper?utm_source=github&utm_medium=web-scrapers&utm_campaign=monorepo)** to run it without code and export JSON, CSV or Excel.
 

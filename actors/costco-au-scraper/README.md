@@ -30,6 +30,11 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~costco-au-scraper/run-syn
 | `specialsCategory` | string | Specials / offers |
 | `brand` | string | Brand |
 | `category` | string | Category code |
+| `categoryCode` | string | Category code or URL |
+| `parentId` | string | Parent category code |
+| `filters` | array | Facet filters |
+| `rawQuery` | string | Raw query expression |
+| `productCode` | string | Product code or URL |
 | `minRating` | string | Minimum average rating |
 | `urls` | array | Costco Australia URLs |
 | `minPrice` | integer | Minimum price (AUD) |

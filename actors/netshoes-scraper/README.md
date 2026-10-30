@@ -17,7 +17,7 @@ python example.py
 ```bash
 curl -s -X POST "https://api.apify.com/v2/acts/abotapi~netshoes-scraper/run-sync-get-dataset-items?token=$APIFY_TOKEN" \
   -H 'Content-Type: application/json' \
-  -d '{"mode": "search", "queries": ["tenis adidas"], "sortBy": "relevance", "maxReviewsPerProduct": 10, "maxItems": 10, "maxPages": 1, "proxy": {"useApifyProxy": true}}'
+  -d '{"mode": "search", "queries": ["tenis adidas"], "sortBy": "relevance", "maxReviewsPerProduct": 10, "maxItems": 10, "maxPages": 1, "proxy": {"useApifyProxy": true}, "changeScope": "all"}'
 ```
 
 ## Inputs
@@ -27,6 +27,8 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~netshoes-scraper/run-sync
 | `mode` * | string | Mode |
 | `queries` | array | Search keywords |
 | `urls` | array | Netshoes links |
+| `keyword` | string | Keyword (alias of Search keywords) |
+| `startUrl` | string | Start URL (alias of Netshoes links) |
 | `brand` | string | Brand |
 | `category` | string | Department |
 | `productType` | string | Product type |
@@ -44,6 +46,9 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~netshoes-scraper/run-sync
 | `maxItems` | integer | Max products |
 | `maxPages` | integer | Max result pages per keyword or link |
 | `proxy` | object | Proxy configuration |
+| `changeScope` | string | Changes to watch (incremental mode onl |
+| `compactUpdates` | boolean | Compact UPDATED rows (incremental mode |
+| `expireAfterMissedScans` | integer | Expire after missed scans (incremental |
 
 `*` required
 
@@ -76,7 +81,7 @@ Full details on the [scraper page](https://apify.com/abotapi/netshoes-scraper?ut
 | `discountAmount` | integer |
 | `discountPercent` | integer |
 | `onSale` | boolean |
-| `installments` | object |
+| `installments` | null |
 | `installmentPlans` | list |
 | `sellerName` | null |
 | `soldByStore` | null |
@@ -94,7 +99,7 @@ Full details on the [scraper page](https://apify.com/abotapi/netshoes-scraper?ut
 | `featuredImage` | string |
 | `images` | list |
 | `videos` | list |
-| `rating` | float |
+| `rating` | integer |
 
 ---
 

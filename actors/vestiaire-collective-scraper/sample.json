@@ -1,0 +1,104 @@
+[
+  {
+    "recordId": "Example record id",
+    "productId": "99016942",
+    "kind": "product",
+    "url": "https://www.vestiairecollective.com/example/95149",
+    "slug": "Example slug",
+    "title": "Example title",
+    "brand": "Chanel",
+    "brandId": 58,
+    "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
+    "currency": "AUD",
+    "price": 9450,
+    "priceCents": 668922,
+    "wasPrice": 4475,
+    "discountPercent": 3,
+    "colorName": "Example color name",
+    "colorNames": [
+      "Example color names"
+    ],
+    "colors": [
+      92
+    ],
+    "model": "Example model",
+    "modelId": 5656,
+    "size": null,
+    "sizeStandard": null,
+    "likes": 8,
+    "sold": false,
+    "stock": false,
+    "shouldBeGone": false,
+    "localEligible": true,
+    "directShippingEligible": false,
+    "editorPicks": [
+      "Example editor picks"
+    ],
+    "pictureUrls": [
+      "https://images.vestiairecollective.com/example/16877.jpg",
+      "https://images.vestiairecollective.com/example/30939.jpg"
+    ],
+    "imageUrl": "https://images.vestiairecollective.com/example/85092.jpg",
+    "imageCount": 55,
+    "sellerId": 47005888,
+    "sellerName": "Example seller name",
+    "sellerIsOfficialStore": false,
+    "country": "AU",
+    "universeId": 5,
+    "createdAt": "2026-01-15T10:00:00Z",
+    "personalizationType": "Example personalization type",
+    "market": "AU",
+    "condition": "5"
+  },
+  {
+    "recordId": "Example record id",
+    "productId": "96852125",
+    "kind": "product",
+    "url": "https://www.vestiairecollective.com/example/13027",
+    "slug": "Example slug",
+    "title": "Example title",
+    "brand": "Chanel",
+    "brandId": 77,
+    "description": "Example description",
+    "currency": "AUD",
+    "price": 1748,
+    "priceCents": 479197,
+    "wasPrice": null,
+    "discountPercent": null,
+    "colorName": "Example color name",
+    "colorNames": [
+      "Example color names"
+    ],
+    "colors": [
+      95
+    ],
+    "model": "Example model",
+    "modelId": 7,
+    "size": null,
+    "sizeStandard": null,
+    "likes": 22,
+    "sold": false,
+    "stock": false,
+    "shouldBeGone": false,
+    "localEligible": true,
+    "directShippingEligible": false,
+    "editorPicks": [
+      "Example editor picks"
+    ],
+    "pictureUrls": [
+      "https://images.vestiairecollective.com/example/67472.jpg",
+      "https://images.vestiairecollective.com/example/92796.jpg"
+    ],
+    "imageUrl": "https://images.vestiairecollective.com/example/57328.jpg",
+    "imageCount": 8,
+    "sellerId": 20100038,
+    "sellerName": "Example seller name",
+    "sellerIsOfficialStore": false,
+    "country": "AU",
+    "universeId": 3,
+    "createdAt": "2026-01-15T10:00:00Z",
+    "personalizationType": "Example personalization type",
+    "market": "AU",
+    "condition": "3"
+  }
+]

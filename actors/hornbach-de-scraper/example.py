@@ -18,6 +18,7 @@ run = client.actor("abotapi/hornbach-de-scraper").call(
         "maxReviewsPerProduct": 10,
         "maxPages": 1,
         "maxItems": 10,
+        "maxResults": 10,
         "proxy": {"useApifyProxy": True},
     },
     logger=None,  # don't stream the run log to your console

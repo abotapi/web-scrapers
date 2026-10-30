@@ -15,7 +15,6 @@ run = client.actor("abotapi/taskrabbit-tasker-scraper").call(
         "mode": "search",
         "locations": ["Portland, OR"],
         "services": ["furniture assembly", "tv mounting"],
-        "profileInputs": ["1883135"],
         "maxItems": 10,
         "maxReviewsPerTasker": 10,
         "proxyConfiguration": {"useApifyProxy": True},

@@ -1,6 +1,6 @@
 # PineDrama Scraper
 
-Scrape the PineDrama short-drama catalogue: series with watch counts, episode counts, categories, theme tags, covers, language, hot/new/free labels, creator ids and full episode lists. Filter by keyword or category in 17 languages, or paste links. Incremental runs and MCP export.
+Scrape Pine Drama series by keyword, category or URL across 17 languages. Extract titles, watch counts, episode counts, genres, theme tags, covers, languages, hot/new/free labels, creator IDs and full episode lists. Supports incremental updates and MCP export.
 
 **[Open PineDrama Scraper on Apify](https://apify.com/abotapi/pinedrama-scraper?utm_source=github&utm_medium=web-scrapers&utm_campaign=monorepo)** to run it without code and export JSON, CSV or Excel.
 

@@ -30,6 +30,8 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~homes-co-nz-scraper/run-s
 | `listingStatus` | string | Listing Status |
 | `minBedrooms` | integer | Min Bedrooms |
 | `minBathrooms` | integer | Min Bathrooms |
+| `maxBedrooms` | integer | Max Bedrooms |
+| `maxBathrooms` | integer | Max Bathrooms |
 | `minPrice` | integer | Min Price (NZD) |
 | `maxPrice` | integer | Max Price (NZD) |
 | `sortBy` | string | Sort By |
@@ -88,8 +90,8 @@ Full details on the [scraper page](https://apify.com/abotapi/homes-co-nz-scraper
 | `canUseImages` | boolean |
 | `images` | list |
 | `media` | list |
+| `videoUrls` | list |
 | `mediaCount` | integer |
-| `openHomes` | list |
 
 ---
 

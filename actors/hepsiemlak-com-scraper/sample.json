@@ -1,12 +1,12 @@
 [
   {
     "recordType": "listing",
-    "listingId": "78703-4034",
+    "listingId": "935745-1903",
     "url": "https://www.hepsiemlak.com/example/84506",
     "title": "Example title",
     "price": 4028640,
     "currency": "TRY",
-    "grossSqm": 551,
+    "grossSqm": 11,
     "rooms": 4,
     "bedrooms": 1,
     "propertyTypes": [
@@ -20,9 +20,48 @@
     "sellerName": "Example seller name",
     "sellerOfficeUrl": "https://www.hepsiemlak.com/example/40887",
     "position": 3,
-    "sourceType": "search",
-    "sourceId": "istanbul",
-    "sourceUrl": null,
-    "scrapedAt": "2026-01-15T10:00:00Z"
+    "county": "Example county",
+    "district": "Example district",
+    "mainCategory": "Residential",
+    "subCategory": "Apartment",
+    "category": "Example category",
+    "createDate": "2026-01-15T10:00:00Z",
+    "updatedDate": "2026-01-15T10:00:00Z",
+    "listingUpdatedDate": "2026-01-15T10:00:00Z",
+    "startDate": "2026-01-15T10:00:00Z",
+    "buildingAge": 1,
+    "floorName": "Example floor name",
+    "images": [
+      "https://hecdn01.hemlak.com/example/12139.jpg",
+      "https://hecdn01.hemlak.com/example/36664.jpg"
+    ],
+    "imageCount": 79,
+    "latitude": 36.92,
+    "longitude": 28.39,
+    "mapLocation": {
+      "lat": 30.77,
+      "lon": 36.41
+    },
+    "roomCount": 7,
+    "livingRoomCount": 4,
+    "roomPlan": "7+1",
+    "sellerType": "Example seller type",
+    "netAreaSqm": 10,
+    "owner": {
+      "id": 5035965,
+      "name": "Example name",
+      "type": "Example type",
+      "url": "Example url",
+      "phones": [
+        "+1 555 0100",
+        "+1 555 0100"
+      ]
+    },
+    "firm": {
+      "id": 535965,
+      "name": "Example name",
+      "type": "Example type",
+      "url": "Example url"
+    }
   }
 ]

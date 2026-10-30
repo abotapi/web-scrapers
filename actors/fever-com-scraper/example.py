@@ -15,8 +15,10 @@ run = client.actor("abotapi/fever-com-scraper").call(
         "mode": "search",
         "cities": ["new-york"],
         "locale": "en",
+        "maxReviewsPerEvent": 10,
         "maxItems": 10,
         "proxy": {"useApifyProxy": True},
+        "changeScope": "all",
     },
     logger=None,  # don't stream the run log to your console
 )

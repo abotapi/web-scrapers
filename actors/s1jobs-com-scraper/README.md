@@ -34,6 +34,7 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~s1jobs-com-scraper/run-sy
 | `salaryType` | string | Salary period |
 | `publicSectorOnly` | boolean | Public sector only |
 | `hasVideoOnly` | boolean | Jobs with video only |
+| `postedWithinHours` | integer | Posted within (hours) |
 | `sortBy` | string | Sort by |
 | `urls` | array | Search URLs |
 | `fetchDetails` | boolean | Fetch full job details |
@@ -69,7 +70,7 @@ Full details on the [scraper page](https://apify.com/abotapi/s1jobs-com-scraper?
 | `vacancy_id` | string |
 | `vacancyUuid` | string |
 | `jobReference` | string |
-| `talentPoolId` | integer |
+| `talentPoolId` | null |
 | `companyUrn` | string |
 | `url` | string |
 | `jobUrl` | string |

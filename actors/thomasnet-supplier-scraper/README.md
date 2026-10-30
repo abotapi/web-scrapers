@@ -17,7 +17,7 @@ python example.py
 ```bash
 curl -s -X POST "https://api.apify.com/v2/acts/abotapi~thomasnet-supplier-scraper/run-sync-get-dataset-items?token=$APIFY_TOKEN" \
   -H 'Content-Type: application/json' \
-  -d '{"mode": "search", "queries": ["valves"], "sortBy": "relevance", "maxPages": 1, "maxItems": 10, "proxy": {"useApifyProxy": true, "apifyProxyGroups": []}}'
+  -d '{"mode": "search", "queries": ["valves"], "area": "NA", "sortBy": "relevance", "maxPages": 1, "maxItems": 10, "proxy": {"useApifyProxy": true, "apifyProxyGroups": []}}'
 ```
 
 ## Inputs
@@ -27,13 +27,16 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~thomasnet-supplier-scrape
 | `mode` * | string | Mode |
 | `queries` | array | Search terms |
 | `state` | string | State / region (optional) |
+| `area` | string | Area (optional) |
 | `zip` | string | ZIP / postal code (optional) |
 | `radius` | integer | Radius (miles, optional) |
 | `certification` | string | Certification filter (optional) |
 | `companyType` | string | Company type |
 | `sortBy` | string | Sort by |
+| `excludeIds` | array | Exclude supplier IDs (optional) |
 | `urls` | array | Company or search URLs |
 | `fetchDetails` | boolean | Fetch full company profiles |
+| `includeWebsiteContacts` | boolean | Also read each company's own website f |
 | `maxPages` | integer | Max pages per search |
 | `maxItems` | integer | Max items |
 | `proxy` | object | Proxy configuration |
@@ -72,8 +75,9 @@ Full details on the [scraper page](https://apify.com/abotapi/thomasnet-supplier-
 | `isAffiliationPage` | boolean |
 | `isClaimed` | boolean |
 | `isMultiLocation` | boolean |
+| `isTopResponder` | boolean |
 | `locationTypes` | list |
-| `locations` | null |
+| `locations` | list |
 | `logoTitle` | string |
 | `logoUrl` | string |
 | `mainLocationName` | string |
@@ -87,7 +91,6 @@ Full details on the [scraper page](https://apify.com/abotapi/thomasnet-supplier-
 | `premiums` | null |
 | `primaryPhone` | string |
 | `products` | list |
-| `social` | null |
 
 ---
 

@@ -1,4 +1,4 @@
-"""Fuel Prices AU Scraper: minimal example. Docs: https://apify.com/abotapi/fuel-prices-anz-scraper
+"""Fuel Price Scraper: minimal example. Docs: https://apify.com/abotapi/fuel-prices-anz-scraper
 
 pip install "apify-client>=3"
 APIFY_TOKEN=<your token> python example.py
@@ -13,6 +13,10 @@ client = ApifyClient(os.environ["APIFY_TOKEN"])
 run = client.actor("abotapi/fuel-prices-anz-scraper").call(
     run_input={
         "suburb": "Sydney",
+        "searchMode": "location",
+        "startUrls": [{"url": "https://petrolspy.com.au/map/location/au/nsw/2000/sydney"}, {"url": "https://petrolspy.com.au/map/latlng/-33.8688/151.2093"}],
+        "sortOrder": "asc",
+        "maxItems": 10,
         "proxy": {"useApifyProxy": False},
     },
     logger=None,  # don't stream the run log to your console

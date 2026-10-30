@@ -12,7 +12,7 @@ client = ApifyClient(os.environ["APIFY_TOKEN"])
 
 run = client.actor("abotapi/ip-location-check").call(
     run_input={
-        "ipAddresses": ["8.8.8.8", "1.1.1.1"],
+        "ipAddresses": ["8.8.8.8", "81.2.69.142", "2a02:26f0:1700::1"],
         "language": "en",
     },
     logger=None,  # don't stream the run log to your console

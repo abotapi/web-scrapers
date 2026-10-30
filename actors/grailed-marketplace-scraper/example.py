@@ -14,12 +14,14 @@ run = client.actor("abotapi/grailed-marketplace-scraper").call(
     run_input={
         "mode": "search",
         "searchTerms": ["varsity jacket"],
+        "maxReviewsPerSeller": 10,
         "categories": ["outerwear"],
         "department": "menswear",
         "sortResultsBy": "site_order",
         "maxItems": 10,
         "maxPages": 1,
         "proxy": {"useApifyProxy": True},
+        "changeScope": "all",
     },
     logger=None,  # don't stream the run log to your console
 )

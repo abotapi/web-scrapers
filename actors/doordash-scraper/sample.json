@@ -1,13 +1,13 @@
 [
   {
-    "storeId": "6361755",
+    "storeId": "05579513",
     "name": "Example name",
     "url": "https://www.doordash.com/example/57278",
     "description": "Example description",
-    "storeBio": "https://a816-health.nyc.gov/example/79020",
+    "storeBio": null,
     "isConvenience": false,
     "isShippingOnly": false,
-    "rating": 3.46,
+    "rating": 3.39,
     "ratingCount": 49,
     "ratingCountDisplay": "(53+)",
     "priceTier": "Example price tier",
@@ -24,7 +24,8 @@
     "offersGroupOrder": true,
     "offersScheduling": true,
     "additionalImages": [
-      "https://img.cdn4dd.com/example/42575.jpg"
+      "https://img.cdn4dd.com/example/42575.jpg",
+      "https://img.cdn4dd.com/example/94092.jpg"
     ],
     "etaMinutes": 68,
     "pickupEtaMinutes": 61,
@@ -33,12 +34,12 @@
     "coverSquareImageUrl": "https://img.cdn4dd.com/example/35038.jpg",
     "businessHeaderImageUrl": "https://img.cdn4dd.com/example/25807.jpg",
     "photoCountText": "Example photo count text",
-    "businessId": "296586",
+    "businessId": "22787",
     "businessName": "Example business name",
     "businessLink": "Example business link",
     "businessTags": [
-      "Pizza",
-      "Beer"
+      "Italian",
+      "Example business tags"
     ],
     "distance": "mi",
     "latitude": 51.76,
@@ -50,16 +51,16 @@
     "timezone": "Example timezone"
   },
   {
-    "storeId": "16019796",
+    "storeId": "24267781",
     "name": "Example name",
     "url": "https://www.doordash.com/example/27413",
     "description": "Example description",
-    "storeBio": null,
+    "storeBio": "https://a816-health.nyc.gov/example/36576",
     "isConvenience": false,
     "isShippingOnly": false,
-    "rating": 0,
-    "ratingCount": 0,
-    "ratingCountDisplay": "",
+    "rating": 4.65,
+    "ratingCount": 494,
+    "ratingCountDisplay": "(926+)",
     "priceTier": "Example price tier",
     "priceRange": 3,
     "cuisines": [
@@ -78,18 +79,18 @@
     "pickupEtaMinutes": 33,
     "deliveryFee": "Example delivery fee",
     "coverImageUrl": "https://img.cdn4dd.com/example/65701.jpg",
-    "coverSquareImageUrl": "",
+    "coverSquareImageUrl": "https://img.cdn4dd.com/example/49941.jpg",
     "businessHeaderImageUrl": "https://img.cdn4dd.com/example/98897.jpg",
     "photoCountText": null,
-    "businessId": "90794051",
+    "businessId": "97832253",
     "businessName": "Example business name",
     "businessLink": "Example business link",
     "businessTags": [
-      "Sicilian",
-      "Pizzeria"
+      "Italian",
+      "American"
     ],
     "distance": "mi",
-    "latitude": 36.68,
+    "latitude": 36.66,
     "longitude": -65.11,
     "city": "Example city",
     "state": "NY",

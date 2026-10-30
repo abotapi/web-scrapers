@@ -7,31 +7,31 @@
     "street": "Example street",
     "city": "Austin",
     "state": "TX",
-    "zip": "60702",
-    "rentMin": 3682,
+    "zip": "82198",
+    "rentMin": 982,
     "rentMax": 4610,
     "bedsLabel": "Example beds label",
     "phone": "+1 555 0100",
-    "amenitiesSummary": "Example amenities summary",
+    "amenitiesSummary": "Example amenities summary: mock text standing in for the real value. Same field and type, made-up content.",
     "photo": "https://images1.apartments.com/example/734.jpg",
     "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
-    "latitude": 26.6,
-    "longitude": -85.02,
+    "latitude": 26.76,
+    "longitude": -85.13,
     "currency": "USD",
     "bedsRange": "Example beds range",
     "bathsRange": "Example baths range",
-    "sqftRange": "057 - 9,309",
+    "sqftRange": "723 - 0,168",
     "yearBuilt": 3476,
     "unitsInBuilding": 443,
     "stories": 3,
-    "leaseOptions": null,
+    "leaseOptions": "Example lease options",
     "neighborhood": "Example neighborhood",
-    "managementCompany": "Example management company",
+    "managementCompany": null,
     "rentSpecial": "Example rent special: mock text standing in for the real value. Same field and type, made-up content.",
     "verified": true,
     "petsAllowed": true,
-    "rating": 1.73,
-    "reviewCount": 35,
+    "rating": null,
+    "reviewCount": null,
     "amenities": [
       "Example amenities",
       "Example amenities"
@@ -40,23 +40,23 @@
       {
         "name": "Example name",
         "rent": "Example rent",
-        "beds": 0,
+        "beds": 3,
         "baths": 9,
         "sqft": 612
       },
       {
         "name": "Example name",
         "rent": "Example rent",
-        "beds": 0,
+        "beds": 6,
         "baths": 3,
         "sqft": 238
       }
     ],
     "units": [
       {
-        "model": "E2",
-        "unit": "0403",
-        "beds": 0,
+        "model": "Example model",
+        "unit": "l2-l5833",
+        "beds": 3,
         "baths": 9,
         "rent": 3347,
         "sqft": 612,
@@ -64,9 +64,9 @@
         "key": "id59831815"
       },
       {
-        "model": "E1",
-        "unit": "9768",
-        "beds": 0,
+        "model": "Example model",
+        "unit": "l2-l0830",
+        "beds": 6,
         "baths": 3,
         "rent": 4815,
         "sqft": 238,
@@ -75,22 +75,23 @@
       }
     ],
     "fees": [
-      "Example fees",
+      "Example fees: mock text standing in for the real value. Same field and type, made-up content.",
       "Example fees"
     ],
     "parking": [
+      "Example parking",
       "Example parking"
     ],
     "transit": [
       {
         "name": "Example name",
-        "distanceMiles": 3.53,
-        "driveTimeMin": 3
+        "distanceMiles": 8.66,
+        "driveTimeMin": 57
       },
       {
         "name": "Example name",
-        "distanceMiles": 2.29,
-        "driveTimeMin": 6
+        "distanceMiles": 5.62,
+        "driveTimeMin": 60
       }
     ],
     "schools": [
@@ -103,14 +104,13 @@
       {
         "name": "Example name",
         "type": "Example type",
-        "grades": "0-3",
+        "grades": "Example grades",
         "students": 165
       }
     ],
     "walkScore": {
       "walk": 46,
-      "transit": 74,
-      "drive": 837,
+      "drive": 27,
       "bike": 86
     }
   }

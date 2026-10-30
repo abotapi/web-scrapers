@@ -21,6 +21,8 @@ run = client.actor("abotapi/totaljobs-com-scraper").call(
         "sortBy": "relevance",
         "maxListings": 10,
         "maxPages": 1,
+        "maxResults": 10,
+        "descriptionFormat": "html",
         "proxy": {"useApifyProxy": True, "apifyProxyGroups": ["RESIDENTIAL"], "apifyProxyCountry": "GB"},
     },
     logger=None,  # don't stream the run log to your console

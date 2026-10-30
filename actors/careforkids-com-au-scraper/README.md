@@ -35,7 +35,7 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~careforkids-com-au-scrape
 | `maxListings` | integer | Max listings (total) |
 | `fetchDetails` | boolean | Fetch detail pages (richer data) |
 | `reviewsOnly` | boolean | Reviews-only output (one record per re |
-| `maxReviewsPerCentre` | integer | Max reviews per centre (Reviews-only) |
+| `maxReviewsPerCentre` | integer | Max reviews per centre |
 | `proxy` | object | Proxy configuration |
 
 `*` required

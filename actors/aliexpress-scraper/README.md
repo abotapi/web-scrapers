@@ -17,7 +17,7 @@ python example.py
 ```bash
 curl -s -X POST "https://api.apify.com/v2/acts/abotapi~aliexpress-scraper/run-sync-get-dataset-items?token=$APIFY_TOKEN" \
   -H 'Content-Type: application/json' \
-  -d '{"mode": "search", "shippingCountry": "us", "queries": ["airpods"], "sortBy": "relevance", "maxReviewsPerProduct": 10, "maxPages": 1, "maxListings": 10, "proxy": {"useApifyProxy": true, "apifyProxyGroups": ["RESIDENTIAL"], "apifyProxyCountry": "US"}}'
+  -d '{"mode": "search", "shippingCountry": "us", "queries": ["airpods"], "sortBy": "relevance", "maxReviewsPerProduct": 10, "maxPages": 1, "maxListings": 10, "proxy": {"useApifyProxy": true}, "changeScope": "all"}'
 ```
 
 ## Inputs
@@ -27,6 +27,8 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~aliexpress-scraper/run-sy
 | `mode` * | string | Run mode |
 | `shippingCountry` | string | Target market |
 | `queries` | array | Search keywords |
+| `query` | string | Search keyword (single) |
+| `page` | integer | Start page |
 | `categoryId` | string | Category ID (optional) |
 | `freeShippingOnly` | boolean | Free shipping only |
 | `sortBy` | string | Sort order |
@@ -41,6 +43,9 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~aliexpress-scraper/run-sy
 | `maxPages` | integer | Max result pages per query/URL |
 | `maxListings` | integer | Max products total |
 | `proxy` | object | Proxy configuration |
+| `expireAfterMissedScans` | integer | Expire only after N missed scans (incr |
+| `changeScope` | string | Change scope (incremental mode only) |
+| `compactUpdates` | boolean | Compact UPDATED and EXPIRED rows (incr |
 
 `*` required
 
@@ -65,15 +70,27 @@ Full details on the [scraper page](https://apify.com/abotapi/aliexpress-scraper?
 | `currency` | string |
 | `title` | string |
 | `price` | float |
+| `originalPrice` | float |
+| `discountPercentage` | integer |
+| `rating` | integer |
+| `totalSold` | string |
+| `totalSoldCount` | integer |
 | `imageUrl` | string |
 | `additionalImages` | list |
 | `scrapedAt` | string |
 | `productType` | string |
 | `currentPrice` | float |
+| `discountPct` | integer |
+| `ratingScore` | integer |
+| `itemSold` | string |
+| `itemSoldCount` | integer |
 | `isSponsored` | boolean |
+| `sellingPoints` | list |
 | `primaryImage` | string |
 | `imageGallery` | list |
 | `categoryId` | string |
+| `reviewsSummary` | object |
+| `legacy` | object |
 | `raw` | object |
 | `fetchedAt` | string |
 

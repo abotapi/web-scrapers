@@ -59,10 +59,13 @@ Full details on the [scraper page](https://apify.com/abotapi/instacart-grocery-p
 | `size` | string |
 | `priceString` | string |
 | `price` | float |
+| `pricingUnit` | string |
 | `onSale` | boolean |
 | `available` | boolean |
 | `stockLevel` | string |
+| `stockLevelLabel` | string |
 | `image` | string |
+| `dietaryAttributes` | string |
 | `tags` | list |
 | `retailerName` | string |
 | `retailerSlug` | string |

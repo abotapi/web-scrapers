@@ -70,14 +70,14 @@ Full details on the [scraper page](https://apify.com/abotapi/depop-scraper?utm_s
 | `mainPicture` | string |
 | `pictureCount` | integer |
 | `sizes` | list |
-| `variantSetId` | integer |
+| `variantSetId` | null |
 | `variants` | list |
 | `sku` | null |
 | `isBoosted` | boolean |
 | `boostedAt` | string |
 | `isSold` | null |
-| `price` | float |
-| `totalPrice` | float |
+| `price` | integer |
+| `totalPrice` | integer |
 | `buyerFee` | integer |
 | `tax` | integer |
 | `taxType` | string |

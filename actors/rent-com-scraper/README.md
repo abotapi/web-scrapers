@@ -74,7 +74,7 @@ Full details on the [scraper page](https://apify.com/abotapi/rent-com-scraper?ut
 | `sqftMin` | integer |
 | `sqftMax` | integer |
 | `priceMin` | integer |
-| `priceMax` | integer |
+| `priceMax` | null |
 | `priceLabel` | string |
 | `availability` | string |
 | `unitsAvailableText` | string |
@@ -82,14 +82,14 @@ Full details on the [scraper page](https://apify.com/abotapi/rent-com-scraper?ut
 | `phoneText` | string |
 | `phoneSem` | string |
 | `phoneSemText` | string |
-| `specialOffer` | null |
-| `specialOfferCategory` | null |
+| `specialOffer` | string |
+| `specialOfferCategory` | string |
 | `deals` | list |
 | `categoryBadges` | list |
-| `amenitiesHighlighted` | list |
-| `amenitiesAll` | list |
-| `petsCats` | boolean |
-| `petsDogs` | boolean |
+| `dealTypes` | list |
+| `tourUrls` | list |
+| `videoUrls` | list |
+| `priceDropAmounts` | list |
 
 ---
 

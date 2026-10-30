@@ -1,0 +1,46 @@
+[
+  {
+    "recordId": "Example record id",
+    "styleId": "psc800",
+    "url": "https://www.renttherunway.com/example/83365",
+    "designer": "Example designer",
+    "title": "Example title",
+    "category": "Example category",
+    "breadcrumbs": [
+      "Example breadcrumbs",
+      "Example breadcrumbs"
+    ],
+    "rentalPrice": 81,
+    "retailPrice": 921,
+    "msrp": 258,
+    "priceCurrency": "USD",
+    "availability": "Example availability",
+    "inStock": true,
+    "shortDescription": "Example short description: mock text standing in for the real value. Same field and type, made-up content.",
+    "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
+    "sizesAvailable": [
+      "6",
+      "8"
+    ],
+    "sizeRange": "2-67",
+    "modelInfo": [
+      "Example model info"
+    ],
+    "materialsAndMeasurements": "Example materials and measurements: mock text standing in for the real value. Same field and type, made-up content.",
+    "imageUrl": "https://pc-ap.rtrcdn.com/example/90697.jpg",
+    "imageUrls": [
+      "https://pc-ap.rtrcdn.com/example/26367.jpg",
+      "https://pc-ap.rtrcdn.com/example/49629.jpg"
+    ],
+    "ratingValue": null,
+    "reviewCount": null,
+    "reviewAverageRating": null,
+    "reviewFitCounts": null,
+    "reviewPhotoCount": null,
+    "reviews": [],
+    "datePublished": "2026-01-15",
+    "dateModified": "2026-01-15",
+    "scopePath": "Example scope path",
+    "scrapedAt": "2026-01-15T10:00:00Z"
+  }
+]

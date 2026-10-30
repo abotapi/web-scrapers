@@ -1,8 +1,8 @@
 [
   {
     "id": 169574293,
-    "propertyId": "119303208",
-    "property_id": "236610403",
+    "propertyId": "981946409",
+    "property_id": "798709756",
     "listingId": 158602501,
     "realEstateAdId": "id34356930",
     "real_estate_ad_id": "id91589916",
@@ -31,14 +31,14 @@
     "subtype_id": 5,
     "buildingType": "Flat",
     "building_type": "Flat",
-    "buildingSubtype": "Flat",
-    "building_subtype": "Flat",
+    "buildingSubtype": "Attic",
+    "building_subtype": "Attic",
     "itemType": "realEstate",
     "periodicityId": 0,
     "periodicity_id": 0,
     "price": "Example price",
-    "rawPrice": 390653,
-    "raw_price": 350697,
+    "rawPrice": 9390653,
+    "raw_price": 7550697,
     "minPrice": 0
   }
 ]

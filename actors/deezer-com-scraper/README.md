@@ -26,15 +26,19 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~deezer-com-scraper/run-sy
 | --- | --- | --- |
 | `mode` * | string | Mode |
 | `queries` | array | Search keywords |
+| `query` | string | Search keyword (alias) |
 | `searchType` | string | Entity type |
 | `source` | string | Source |
 | `chartGenreId` | integer | Chart genre id |
 | `urls` | array | Deezer URLs |
+| `startUrls` | array | Start URLs (alias) |
 | `includeArtistReleases` | boolean | Artist also return their albums |
+| `includeArtistProfile` | boolean | Artist include profile (bio, status, s |
 | `includeUserCollections` | boolean | User also return their public playlist |
 | `excludeExplicit` | boolean | Exclude explicit tracks |
 | `minDurationSec` | integer | Min duration (seconds) |
 | `maxDurationSec` | integer | Max duration (seconds) |
+| `minFans` | integer | Minimum artist fans |
 | `sortBy` | string | Sort results by |
 | `fetchDetails` | boolean | Fetch full track detail (search mode) |
 | `includeLyrics` | boolean | Include lyrics (any mode) |
@@ -42,6 +46,7 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~deezer-com-scraper/run-sy
 | `maxItems` | integer | Max records |
 | `maxPages` | integer | Max result pages per keyword or link |
 | `proxy` | object | Proxy configuration |
+| `proxyConfiguration` | object | Proxy (alias) |
 
 `*` required
 
@@ -57,12 +62,12 @@ Full details on the [scraper page](https://apify.com/abotapi/deezer-com-scraper?
 | `deezerType` | string |
 | `title` | string |
 | `url` | string |
-| `durationSec` | integer |
+| `durationSec` | null |
 | `explicitLyrics` | boolean |
-| `rank` | integer |
-| `isrc` | string |
-| `previewUrl` | string |
-| `releaseDate` | null |
+| `rank` | null |
+| `isrc` | null |
+| `previewUrl` | null |
+| `releaseDate` | string |
 | `bpm` | null |
 | `gain` | null |
 | `diskNumber` | null |
@@ -72,12 +77,12 @@ Full details on the [scraper page](https://apify.com/abotapi/deezer-com-scraper?
 | `artistUrl` | string |
 | `artistFans` | null |
 | `artistAlbumCount` | null |
-| `albumId` | integer |
-| `albumTitle` | string |
-| `albumUrl` | string |
-| `label` | null |
+| `albumId` | null |
+| `albumTitle` | null |
+| `albumUrl` | null |
+| `label` | string |
 | `copyright` | null |
-| `albumTrackCount` | null |
+| `albumTrackCount` | integer |
 | `genres` | list |
 | `contributorNames` | list |
 | `availableCountries` | list |
@@ -92,7 +97,7 @@ Full details on the [scraper page](https://apify.com/abotapi/deezer-com-scraper?
 | `collaborative` | null |
 | `userName` | null |
 | `userCountry` | null |
-| `sourceQuery` | string |
+| `sourceQuery` | null |
 
 ---
 

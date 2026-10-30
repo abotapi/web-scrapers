@@ -85,11 +85,11 @@ Full details on the [scraper page](https://apify.com/abotapi/hostelworld-scraper
 | `sourceUrl` | string |
 | `scrapedAt` | string |
 | `description` | string |
-| `hostelworldSays` | string |
+| `hostelworldSays` | null |
 | `addressFull` | string |
 | `directions` | string |
-| `checkInFrom` | string |
-| `checkInUntil` | string |
+| `checkInFrom` | integer |
+| `checkInUntil` | integer |
 | `latestCheckOut` | string |
 | `depositPercentage` | integer |
 | `freeCancellation` | object |

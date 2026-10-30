@@ -62,10 +62,9 @@ Full details on the [scraper page](https://apify.com/abotapi/remoteok-com-scrape
 | `tags` | list |
 | `description` | string |
 | `location` | null |
-| `salary_min` | integer |
-| `salary_max` | integer |
 | `apply_url` | string |
-| `original` | boolean |
+| `salary_min` | null |
+| `salary_max` | null |
 | `logo` | string |
 | `url` | string |
 | `jobId` | string |
@@ -82,7 +81,7 @@ Full details on the [scraper page](https://apify.com/abotapi/remoteok-com-scrape
 | `postedAt` | string |
 | `postedEpoch` | integer |
 | `postedAgeDays` | integer |
-| `salaryMid` | integer |
+| `salaryMid` | null |
 | `hasSalary` | boolean |
 | `companyLogoUrl` | null |
 | `scrapedAt` | string |

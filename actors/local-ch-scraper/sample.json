@@ -1,6 +1,6 @@
 [
   {
-    "id": "jm-50hdkhnbs5tm98hl3lg",
+    "id": "oysi8pi5xze6dwmxhqq7kg",
     "name": "Example name",
     "subtitle": null,
     "language": "de",
@@ -11,21 +11,21 @@
     "professionalTitle": null,
     "address": "Example address",
     "street": "Example street",
-    "zipCode": "4244",
+    "zipCode": "6338",
     "city": "Example city",
-    "canton": "",
+    "canton": "ZH",
     "country": "CH",
-    "latitude": 53.57,
-    "longitude": 10.76,
+    "latitude": 53.54,
+    "longitude": 10.75,
     "phone": "+1 555 0100",
     "phoneAlt": null,
-    "mobile": "+1 555 0100",
+    "mobile": null,
     "fax": null,
     "email": "user15@example.com",
     "emailAlt": null,
-    "website": "https://www.local.ch/example/56312",
+    "website": "http://www.thai-food-corner.ch/example/56312",
     "whatsapp": null,
-    "facebook": null,
+    "facebook": "https://www.facebook.com/example/64446",
     "instagram": null,
     "linkedin": null,
     "twitter": null,
@@ -40,8 +40,10 @@
     "emails": [
       "user34@example.com"
     ],
-    "socialMediaUrls": null,
-    "refusesAdvertising": true,
+    "socialMediaUrls": [
+      "https://www.facebook.com/example/56370"
+    ],
+    "refusesAdvertising": false,
     "poBoxZipCode": null,
     "poBoxCity": null
   }

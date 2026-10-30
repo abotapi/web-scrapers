@@ -85,16 +85,16 @@ Full details on the [scraper page](https://apify.com/abotapi/propertyguru-my-scr
 | `image_count` | integer |
 | `url` | string |
 | `status` | string |
+| `agency_name` | string |
 | `description` | string |
 | `headline` | string |
 | `latitude` | float |
 | `longitude` | float |
-| `postal_code` | string |
-| `project_name` | string |
-| `project_id` | integer |
-| `tenure_detail` | string |
-| `property_type_text` | string |
-| `furnishing` | string |
+| `nearby_schools` | list |
+| `facilities` | list |
+| `amenities` | list |
+| `images_full` | list |
+| `location_source` | string |
 
 ---
 

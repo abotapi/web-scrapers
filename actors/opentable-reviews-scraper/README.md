@@ -43,6 +43,8 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~opentable-reviews-scraper
 | `neighborhoods` | array | Neighborhood filter |
 | `fromDinedDate` | string | Dined from |
 | `toDinedDate` | string | Dined to |
+| `fromReviewDate` | string | Posted from |
+| `toReviewDate` | string | Posted to |
 | `vipOnly` | boolean | VIP reviewers only |
 | `requireReviewPhotos` | boolean | Require review photos |
 | `proxy` | object | Proxy configuration |
@@ -79,7 +81,7 @@ Full details on the [scraper page](https://apify.com/abotapi/opentable-reviews-s
 | `reviewerLocation` | string |
 | `reviewerApprovedReviewCount` | integer |
 | `reviewerProfileColor` | string |
-| `reviewerPhotoUrl` | null |
+| `reviewerPhotoUrl` | string |
 | `reviewPhotoUrls` | list |
 | `reviewPhotoCount` | integer |
 | `restaurantId` | integer |
@@ -95,8 +97,8 @@ Full details on the [scraper page](https://apify.com/abotapi/opentable-reviews-s
 | `restaurantRating` | float |
 | `restaurantPhotoUrl` | string |
 | `restaurantTotalReviewCount` | integer |
-| `sourceMode` | string |
-| `sourceQuery` | string |
+| `restaurantAddressLine1` | null |
+| `restaurantCity` | null |
 
 ---
 

@@ -30,6 +30,7 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~zara-com-scraper/run-sync
 | `categoryId` | string | Category id |
 | `specialsOnly` | boolean | Rebajas (sale) only |
 | `urls` | array | URLs to scrape |
+| `productUrls` | array | Product URLs (alias of URLs) |
 | `searchTerm` | string | Keyword filter |
 | `colors` | array | Colours |
 | `sizes` | array | Sizes |
@@ -50,6 +51,7 @@ Full details on the [scraper page](https://apify.com/abotapi/zara-com-scraper?ut
 
 | Field | Type |
 | --- | --- |
+| `id` | integer |
 | `productId` | string |
 | `name` | string |
 | `brand` | string |
@@ -65,6 +67,19 @@ Full details on the [scraper page](https://apify.com/abotapi/zara-com-scraper?ut
 | `colors` | list |
 | `compositions` | null |
 | `reviews` | list |
+| `sectionName` | string |
+| `familyId` | null |
+| `familyName` | string |
+| `subfamilyId` | null |
+| `subfamilyName` | string |
+| `type` | string |
+| `state` | null |
+| `keyword` | string |
+| `displayReference` | string |
+| `detailedComposition` | null |
+| `extraInfo` | object |
+| `relatedProducts` | list |
+| `firstVisibleDate` | null |
 | `price` | float |
 | `oldPrice` | null |
 | `originalPrice` | null |
@@ -72,6 +87,8 @@ Full details on the [scraper page](https://apify.com/abotapi/zara-com-scraper?ut
 | `isOnSale` | boolean |
 | `availability` | string |
 | `image` | string |
+| `images` | list |
+| `pricing` | object |
 
 ---
 

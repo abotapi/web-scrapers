@@ -92,9 +92,9 @@ Full details on the [scraper page](https://apify.com/abotapi/autotrader?utm_sour
 | `financeTermMonths` | null |
 | `sellerType` | string |
 | `dealerId` | string |
-| `dealerName` | string |
+| `dealerName` | null |
 | `dealerReviewRating` | float |
-| `dealerReviewCount` | integer |
+| `dealerReviewCount` | null |
 | `dealerLink` | string |
 | `isManufacturerApproved` | boolean |
 | `isFranchiseApproved` | boolean |
@@ -102,8 +102,8 @@ Full details on the [scraper page](https://apify.com/abotapi/autotrader?utm_sour
 | `hasDigitalRetailing` | boolean |
 | `vehicleLocation` | string |
 | `distanceMiles` | integer |
-| `latitude` | float |
-| `longitude` | float |
+| `latitude` | null |
+| `longitude` | null |
 | `images` | list |
 | `numberOfImages` | integer |
 | `badges` | list |

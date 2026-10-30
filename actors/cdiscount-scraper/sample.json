@@ -3,21 +3,24 @@
     "id": "id54517178",
     "productId": "id28139814",
     "offerId": 5829947063,
-    "name": "Example name",
+    "name": "Example name: mock text standing in for the real value. Same field and type, made-up content.",
     "brand": null,
     "url": "https://www.cdiscount.com/example/47306",
     "categoryPath": "17/7977/088908/96932831",
     "condition": "NEW",
-    "price": 244.25,
+    "price": 73.79,
     "currency": "EUR",
-    "priceWithoutVAT": 268.08,
+    "priceWithoutVAT": 80.99,
     "originalPrice": null,
     "discountPercent": null,
     "discountAmount": null,
-    "promoLabel": "Example promo label",
+    "promoLabel": null,
     "isAvailable": true,
     "sponsored": false,
     "freeShipping": "Example free shipping",
+    "isCdav": true,
+    "isFbc": true,
+    "isDownloadable": false,
     "media": [
       "https://www.cdiscount.com/example/2550",
       "https://www.cdiscount.com/example/95266"
@@ -26,87 +29,34 @@
     "rating": null,
     "reviewCount": null,
     "characteristics": {
-      "Taille de la diagonale": "Example taille de la diagonale",
-      "Résolution du capteur": "Example résolution du capteur",
-      "Capacité de la batterie": "Example capacité de la batterie",
-      "Capacité de la mémoire interne": "Example capacité de la mémoire interne"
+      "Résolution du capteur": "s7k4h8",
+      "Capacité de la batterie": "1746mah",
+      "Génération à haut débit mobile": "+1 555 0100"
     },
     "sellerId": 218661,
     "sellerName": "Example seller name",
-    "sellerRating": 3.11,
+    "sellerRating": 3.83,
     "sellerRatingsCount": 599,
     "sellerSalesCount": 28069,
     "sellerCountry": "Example seller country",
     "sellerRaw": {
-      "expeditionCountry": "ROUMANIE",
+      "expeditionCountry": "FRANCE",
       "name": "Example name",
       "salesCount": 82193,
       "sellerId": 218661,
       "sellerPoolId": 5,
       "sellerRating": {
         "sellerId": 0,
-        "sellerRating": 3.11,
+        "sellerRating": 3.83,
         "totalReviewCount": 105
       },
       "sellerSource": "Example seller source"
     },
     "hasDetail": false,
     "sourceMode": "search",
-    "searchWord": "telephone"
-  },
-  {
-    "id": "id14888762",
-    "productId": "id18541211",
-    "offerId": 6303788312,
-    "name": "Example name",
-    "brand": null,
-    "url": "https://www.cdiscount.com/example/32865",
-    "categoryPath": "02/6315/132187/69910114",
-    "condition": "NEW",
-    "price": 101.99,
-    "currency": "EUR",
-    "priceWithoutVAT": 125.99,
-    "originalPrice": null,
-    "discountPercent": null,
-    "discountAmount": null,
-    "promoLabel": "Example promo label",
-    "isAvailable": true,
-    "sponsored": false,
-    "freeShipping": "Example free shipping",
-    "media": [
-      "https://www.cdiscount.com/example/2033",
-      "https://www.cdiscount.com/example/57645"
-    ],
-    "previewImage": "https://www.cdiscount.com/example/68116.jpg",
-    "rating": null,
-    "reviewCount": null,
-    "characteristics": {
-      "Taille de la diagonale": "Example taille de la diagonale",
-      "Résolution du capteur": "Example résolution du capteur",
-      "Capacité de la batterie": "Example capacité de la batterie",
-      "Capacité de la mémoire interne": "Example capacité de la mémoire interne"
-    },
-    "sellerId": 568757,
-    "sellerName": "Example seller name",
-    "sellerRating": 3.72,
-    "sellerRatingsCount": 372,
-    "sellerSalesCount": 30490,
-    "sellerCountry": "Example seller country",
-    "sellerRaw": {
-      "expeditionCountry": "ROUMANIE",
-      "name": "Example name",
-      "salesCount": 43460,
-      "sellerId": 568757,
-      "sellerPoolId": 6,
-      "sellerRating": {
-        "sellerId": 0,
-        "sellerRating": 3.72,
-        "totalReviewCount": 794
-      },
-      "sellerSource": "Example seller source"
-    },
-    "hasDetail": false,
-    "sourceMode": "search",
-    "searchWord": "telephone"
+    "searchWord": "telephone",
+    "page": 2,
+    "rankOnPage": 6,
+    "scrapedAt": "2026-01-15T10:00:00Z"
   }
 ]

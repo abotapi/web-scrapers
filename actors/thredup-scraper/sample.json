@@ -56,6 +56,7 @@
     "imageUrl": "https://tup-images.thredup.com/example/91634.jpg",
     "fullDescription": null,
     "measurements": null,
-    "detailRaw": null
+    "detailRaw": null,
+    "size": "Example size"
   }
 ]

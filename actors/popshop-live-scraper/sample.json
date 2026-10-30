@@ -19,56 +19,5 @@
     "sellerStoreType": "Example seller store type",
     "sellerActive": true,
     "scrapedAt": "2026-01-15T10:00:00Z"
-  },
-  {
-    "recordId": "Example record id",
-    "productId": "rv1gf4wo8khxh4cwjsmn",
-    "listingId": "rv6gf3wo1khxh5cwjsmn",
-    "title": "Example title",
-    "price": -5,
-    "discountPrice": null,
-    "currency": "USD",
-    "status": "active",
-    "quantity": 0,
-    "soldOut": false,
-    "sellerId": "zc9ieytvrgaubxeqbe4j7aelfdw9",
-    "sellerName": "Example seller name",
-    "shippingFee": null,
-    "shippingSurcharge": null,
-    "maximumPurchaseQuantity": null,
-    "externalId": null,
-    "url": "https://popshop.live/example/6619",
-    "sku": null,
-    "tags": null,
-    "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
-    "imageUrl": "https://firebasestorage.googleapis.com/example/2921.jpg",
-    "imageUrls": [
-      "https://firebasestorage.googleapis.com/example/4721.jpg",
-      "https://firebasestorage.googleapis.com/example/93272.jpg"
-    ],
-    "variants": [
-      {
-        "variantId": "id21556687",
-        "name": "Example name",
-        "price": 383,
-        "discountPrice": 776,
-        "quantity": 21,
-        "sku": null
-      },
-      {
-        "variantId": "id3248378",
-        "name": "Example name",
-        "price": 738,
-        "discountPrice": 855,
-        "quantity": 65,
-        "sku": null
-      }
-    ],
-    "createdAt": "2026-01-15T10:00:00Z",
-    "updatedAt": "2026-01-15T10:00:00Z",
-    "reviews": [],
-    "reviewsTotal": null,
-    "reviewsDeliveredCount": 0,
-    "scrapedAt": "2026-01-15T10:00:00Z"
   }
 ]

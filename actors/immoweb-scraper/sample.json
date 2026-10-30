@@ -2,25 +2,24 @@
   {
     "id": 76388293,
     "url": "https://www.immoweb.be/example/96963",
+    "title": "Example title",
     "transactionType": "FOR_SALE",
-    "propertyType": "HOUSE",
-    "propertySubtype": "HOUSE",
+    "propertyType": "APARTMENT",
+    "propertySubtype": "PENTHOUSE",
     "price": 703317,
     "displayPrice": "Example display price",
     "bedrooms": 8,
-    "rooms": 8,
-    "landArea": 0,
     "street": "Example street",
     "number": "71",
-    "postalCode": "5208",
+    "postalCode": "1803",
     "locality": "Example locality",
     "district": "Example district",
     "province": "Example province",
-    "region": "Flanders",
-    "regionCode": "FLANDERS",
+    "region": "Brussels",
+    "regionCode": "BRUSSELS",
     "country": "Belgium",
-    "latitude": 36.07,
-    "longitude": 6.01,
+    "latitude": 36.1,
+    "longitude": 5.34,
     "images": [
       "https://media-resize.immowebstatic.be/example/87566.jpg",
       "https://media-resize.immowebstatic.be/example/66745.jpg"
@@ -29,6 +28,8 @@
     "salePrice": 769135,
     "lastModified": "2026-01-15T10:00:00Z",
     "listingFlag": "new",
-    "customerName": "Example customer name"
+    "customerName": "Example customer name",
+    "lastModificationDate": "2026-01-15T10:00:00Z",
+    "scrapedAt": "2026-01-15T10:00:00Z"
   }
 ]

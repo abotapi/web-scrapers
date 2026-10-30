@@ -7,13 +7,13 @@
     "translatedName": "Example translated name",
     "url": "https://shopeekh.com/example/44372",
     "price": 25051,
-    "originalPrice": null,
+    "originalPrice": 42499,
     "discountPercent": 62,
     "currency": "KHR",
     "rating": 4.68,
-    "ratingCount": 27,
+    "ratingCount": 297,
     "ratingDistribution": [
-      62,
+      602,
       0
     ],
     "images": [
@@ -67,6 +67,7 @@
       "is_adult": false,
       "need_kyc": false,
       "adult_age_threshold": null,
+      "is_outlet_shop": null,
       "is_sexual": false,
       "item_card_display_price": {
         "item_id": 87787181608,
@@ -82,7 +83,7 @@
         "recommended_platform_voucher_promotion_id": null,
         "recommended_shop_voucher_info": null,
         "recommended_platform_voucher_info": null,
-        "original_price": null,
+        "original_price": 9607157481,
         "pix_discount_info": null,
         "applied_product_promo_price": 2524745197
       },
@@ -117,7 +118,7 @@
       "item_rating": {
         "rating_star": 6.31,
         "rating_count": [
-          28,
+          748,
           0
         ],
         "rcount_with_context": null,
@@ -223,6 +224,28 @@
       "deals_label": null,
       "promotion_stock_progress_bar_asset": null,
       "final_price_icon": null
-    }
+    },
+    "priceMax": 46152,
+    "isOnSale": true,
+    "historicalSoldEstimated": null,
+    "shopName": "Example shop name",
+    "location": "Example location",
+    "hasVariations": true,
+    "variationOptions": [
+      {
+        "name": "Example name",
+        "options": [
+          "Example options",
+          "Example options"
+        ]
+      },
+      {
+        "name": "Example name",
+        "options": [
+          "Example options",
+          "Example options"
+        ]
+      }
+    ]
   }
 ]

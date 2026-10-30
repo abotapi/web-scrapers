@@ -48,8 +48,8 @@ Full details on the [scraper page](https://apify.com/abotapi/idealo-de-price-com
 | `brand` | string |
 | `category` | null |
 | `gtin` | null |
-| `lowPrice` | integer |
-| `highPrice` | float |
+| `lowPrice` | float |
+| `highPrice` | integer |
 | `currency` | string |
 | `priceFormatted` | string |
 | `offerCount` | integer |

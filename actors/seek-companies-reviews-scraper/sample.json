@@ -1,56 +1,73 @@
 [
   {
-    "id": "185853",
+    "id": "749978",
     "slug": "id37050925",
     "url": "https://au.seek.com/example/72494",
     "region": "AU",
     "name": "Example name",
     "isClaimed": true,
     "logoUrl": "https://image-service-cdn.seek.com.au/example/58885.jpg",
-    "coverImageUrl": "",
-    "totalJobs": 9,
-    "ratingOverall": 2.26,
-    "reviewCount": 70,
-    "salaryRating": 17,
-    "recommendedPercent": 67,
+    "coverImageUrl": "https://image-service-cdn.seek.com.au/example/7873.jpg",
+    "brandId": "id98054914",
+    "totalJobs": 0,
+    "overviewText": "Example overview text: mock text standing in for the real value. Same field and type, made-up content.",
+    "overviewParagraphs": [
+      "Example overview paragraphs: mock text standing in for the real value. Same field and type, made-up content.",
+      "Example overview paragraphs: mock text standing in for the real value. Same field and type, made-up content."
+    ],
+    "website": {
+      "url": "http://ept.com.au/example/72494",
+      "displayName": "Example display name"
+    },
+    "size": "26-224",
+    "primaryLocation": "Example primary location",
+    "specialities": [
+      "Example specialities",
+      "Example specialities"
+    ],
+    "organisationId": "683841",
+    "ratingOverall": 9,
+    "reviewCount": 7,
+    "salaryRating": 737,
+    "recommendedPercent": 517,
     "ratingBreakdown": {
-      "companyRating1StarCount": 5,
-      "companyRating1StarPercentage": 45.0,
-      "companyRating2StarCount": 9,
-      "companyRating2StarPercentage": 18.0,
-      "companyRating3StarCount": 8,
-      "companyRating3StarPercentage": 9.58,
-      "companyRating4StarCount": 5,
-      "companyRating4StarPercentage": 9.92,
+      "companyRating1StarCount": 0,
+      "companyRating1StarPercentage": 0,
+      "companyRating2StarCount": 0,
+      "companyRating2StarPercentage": 0,
+      "companyRating3StarCount": 0,
+      "companyRating3StarPercentage": 0,
+      "companyRating4StarCount": 0,
+      "companyRating4StarPercentage": 0,
       "companyRating5StarCount": 7,
-      "companyRating5StarPercentage": 71
+      "companyRating5StarPercentage": 701
     },
     "categoryRatings": [
       {
-        "rating": 3.7,
-        "count": 50,
+        "rating": 4.82,
+        "count": 5,
         "description": "Example description"
       },
       {
-        "rating": 4,
-        "count": 98,
+        "rating": 4.28,
+        "count": 8,
         "description": "Example description"
       }
     ],
     "topReviews": [
       {
-        "reviewId": "8296771",
-        "companyId": "690619",
+        "reviewId": "414880317217577",
+        "companyId": "024654",
         "schemaVersion": "1.5.6",
-        "title": "Example title",
-        "pros": "Example pros",
+        "title": "Example title: mock text standing in for the real value. Same field and type, made-up content.",
+        "pros": "Example pros: mock text standing in for the real value. Same field and type, made-up content.",
         "cons": "Example cons: mock text standing in for the real value. Same field and type, made-up content.",
         "overallExperienceDetails": null,
         "jobTitle": "Example job title",
-        "workLocation": null,
+        "workLocation": "Example work location",
         "employmentStatus": "Example employment status",
         "salarySummary": "Example salary summary",
-        "recommended": false,
+        "recommended": true,
         "recommendedLabel": "Example recommended label",
         "ratings": [
           {

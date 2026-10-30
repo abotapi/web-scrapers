@@ -1,4 +1,4 @@
-"""Twitch ALL IN ONE URL Scraper: minimal example. Docs: https://apify.com/abotapi/twitch-scraper
+"""Twitch Scraper: minimal example. Docs: https://apify.com/abotapi/twitch-scraper
 
 pip install "apify-client>=3"
 APIFY_TOKEN=<your token> python example.py

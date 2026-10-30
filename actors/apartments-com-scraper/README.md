@@ -17,7 +17,7 @@ python example.py
 ```bash
 curl -s -X POST "https://api.apify.com/v2/acts/abotapi~apartments-com-scraper/run-sync-get-dataset-items?token=$APIFY_TOKEN" \
   -H 'Content-Type: application/json' \
-  -d '{"mode": "search", "locations": ["Austin, TX"], "propertyType": "any", "bedrooms": "any", "lifestyle": "none", "maxPages": 1, "maxListings": 10, "proxy": {"useApifyProxy": true, "apifyProxyGroups": ["RESIDENTIAL"]}}'
+  -d '{"mode": "search", "locations": ["Austin, TX"], "propertyType": "any", "bedrooms": "any", "lifestyle": "none", "sortBy": "default", "maxPages": 1, "maxListings": 10, "maxReviews": 10, "proxy": {"useApifyProxy": true, "apifyProxyGroups": ["RESIDENTIAL"]}}'
 ```
 
 ## Inputs
@@ -33,8 +33,11 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~apartments-com-scraper/ru
 | `lifestyle` | string | Lifestyle / amenity |
 | `urls` | array | URLs |
 | `fetchDetails` | boolean | Fetch full property details |
+| `includeVirtualTours` | boolean | Include virtual tour links |
+| `sortBy` | string | Sort results by |
 | `maxPages` | integer | Max result pages per location/URL |
 | `maxListings` | integer | Max properties (default 20, 0  unlimit |
+| `maxReviews` | integer | Max reviews per property |
 | `proxy` | object | Proxy |
 
 `*` required
@@ -71,14 +74,14 @@ Full details on the [scraper page](https://apify.com/abotapi/apartments-com-scra
 | `yearBuilt` | integer |
 | `unitsInBuilding` | integer |
 | `stories` | integer |
-| `leaseOptions` | null |
+| `leaseOptions` | string |
 | `neighborhood` | string |
-| `managementCompany` | string |
+| `managementCompany` | null |
 | `rentSpecial` | string |
 | `verified` | boolean |
 | `petsAllowed` | boolean |
-| `rating` | float |
-| `reviewCount` | integer |
+| `rating` | null |
+| `reviewCount` | null |
 | `amenities` | list |
 | `floorplans` | list |
 | `units` | list |

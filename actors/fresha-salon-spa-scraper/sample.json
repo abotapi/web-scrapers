@@ -1,0 +1,58 @@
+[
+  {
+    "recordType": "venue",
+    "id": "214818",
+    "venueId": "982423",
+    "slug": "id79192404",
+    "name": "Example name",
+    "url": "https://www.fresha.com/example/15121",
+    "venueType": "Example venue type",
+    "ownerId": "947405",
+    "featured": false,
+    "isNew": false,
+    "hasDeals": false,
+    "isFreshaVerified": true,
+    "groupingScore": 0.89,
+    "rating": 6,
+    "ratingFormatted": "2.6",
+    "reviewsCount": 853,
+    "ratingLevel": "Example rating level",
+    "ratingTitle": "Example rating title",
+    "ratingSubtitle": "Example rating subtitle",
+    "images": [
+      "https://images.fresha.com/example/79705.jpg",
+      "https://images.fresha.com/example/96882.jpg"
+    ],
+    "imageKeywords": [
+      "Example image keywords",
+      "Example image keywords"
+    ],
+    "imageDescriptions": [
+      "Example image descriptions: mock text standing in for the real value. Same field and type, made-up content.",
+      "Example image descriptions: mock text standing in for the real value. Same field and type, made-up content."
+    ],
+    "street": "Example street",
+    "apartmentSuite": "Example apartment suite",
+    "city": "Sydney",
+    "area": "Example area",
+    "state": "Example state",
+    "country": "AU",
+    "postalCode": "9048",
+    "fullAddress": "Example full address: mock text standing in for the real value. Same field and type, made-up content.",
+    "shortAddress": "Example short address",
+    "servicingAreas": [
+      "Example servicing areas"
+    ],
+    "nearbyServicingAreas": [
+      "Example nearby servicing areas",
+      "Example nearby servicing areas"
+    ],
+    "latitude": -32.51,
+    "longitude": 119.47,
+    "mapsUrl": "https://www.google.com/example/87130",
+    "directionsUrl": "https://maps.google.com/example/13728",
+    "searchQuery": "hair",
+    "searchLocation": "Example search location",
+    "searchSort": "RECOMMENDED"
+  }
+]

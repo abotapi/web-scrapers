@@ -63,12 +63,12 @@ Full details on the [scraper page](https://apify.com/abotapi/hh-ru-jobs-scraper?
 | `searchUrl` | string |
 | `searchSessionId` | string |
 | `company` | object |
-| `salaryFrom` | integer |
+| `salaryFrom` | null |
 | `salaryTo` | null |
-| `salaryCurrency` | string |
-| `salaryGross` | boolean |
-| `salaryMode` | string |
-| `salaryFrequency` | string |
+| `salaryCurrency` | null |
+| `salaryGross` | null |
+| `salaryMode` | null |
+| `salaryFrequency` | null |
 | `compensation` | object |
 | `area` | object |
 | `address` | object |

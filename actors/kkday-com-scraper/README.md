@@ -17,7 +17,7 @@ python example.py
 ```bash
 curl -s -X POST "https://api.apify.com/v2/acts/abotapi~kkday-com-scraper/run-sync-get-dataset-items?token=$APIFY_TOKEN" \
   -H 'Content-Type: application/json' \
-  -d '{"mode": "search", "query": "Taipei", "language": "en", "currency": "USD", "maxItems": 10, "maxPages": 1, "proxyConfiguration": {"useApifyProxy": true, "apifyProxyGroups": ["RESIDENTIAL"], "apifyProxyCountry": "SG"}}'
+  -d '{"mode": "search", "query": "Taipei", "sortBy": "prec", "language": "en", "currency": "USD", "maxItems": 10, "maxPages": 1, "proxyConfiguration": {"useApifyProxy": true, "apifyProxyGroups": ["RESIDENTIAL"], "apifyProxyCountry": "SG"}}'
 ```
 
 ## Inputs
@@ -26,12 +26,18 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~kkday-com-scraper/run-syn
 | --- | --- | --- |
 | `mode` * | string | Mode |
 | `query` | string | Search query |
+| `sortBy` | string | Sort results by |
+| `urls` | array | KKday URLs |
 | `language` | string | Language |
 | `currency` | string | Currency |
-| `urls` | array | KKday URLs |
 | `fetchDetails` | boolean | Fetch activity details |
 | `maxItems` | integer | Max items |
 | `maxPages` | integer | Max search pages |
+| `includeAvailability` | boolean | Include availability calendar |
+| `availabilityDateFrom` | string | Calendar start date |
+| `availabilityDays` | integer | Calendar length (days) |
+| `availabilityOnlyAvailable` | boolean | Only bookable dates |
+| `availabilityTimeSlots` | boolean | Time slots, sold-out and discount flag |
 | `proxyConfiguration` | object | Proxy configuration |
 
 `*` required
@@ -51,7 +57,7 @@ Full details on the [scraper page](https://apify.com/abotapi/kkday-com-scraper?u
 | `maxPrice` | float |
 | `officialPrice` | float |
 | `currency` | string |
-| `discountPercent` | null |
+| `discountPercent` | float |
 | `ratingStar` | float |
 | `ratingCount` | integer |
 | `bookedCount` | string |
@@ -62,9 +68,8 @@ Full details on the [scraper page](https://apify.com/abotapi/kkday-com-scraper?u
 | `introduction` | string |
 | `description` | string |
 | `address` | string |
-| `latitude` | float |
-| `longitude` | float |
 | `imageUrls` | list |
+| `priceTiers` | list |
 | `detailStatus` | string |
 | `scrapedAt` | string |
 | `changeType` | string |

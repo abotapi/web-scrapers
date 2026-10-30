@@ -1,6 +1,6 @@
 [
   {
-    "id": "135950809",
+    "id": "013398953",
     "slug": "id99746436",
     "url": "https://www.depop.com/example/42284",
     "status": "STATUS_ONSALE",
@@ -9,7 +9,7 @@
     "brandName": "Example brand name",
     "countryCode": "US",
     "hasVideo": false,
-    "likeCount": 4,
+    "likeCount": 0,
     "isLiked": false,
     "pictures": [
       "https://media-photos.depop.com/example/86176.jpg",
@@ -17,27 +17,15 @@
     ],
     "mainPicture": "https://media-photos.depop.com/example/29214.jpg",
     "pictureCount": 6,
-    "sizes": [
-      {
-        "id": 2,
-        "name": "Example name",
-        "quantity": 9,
-        "status": "STATUS_ONSALE"
-      }
-    ],
-    "variantSetId": 43,
-    "variants": [
-      {
-        "variantId": 4,
-        "quantity": 9
-      }
-    ],
+    "sizes": [],
+    "variantSetId": null,
+    "variants": [],
     "sku": null,
     "isBoosted": false,
     "boostedAt": "2026-01-15T10:00:00Z",
     "isSold": null,
-    "price": 17.59,
-    "totalPrice": 19.51,
+    "price": 8,
+    "totalPrice": 8,
     "buyerFee": 0,
     "tax": 0,
     "taxType": "Example tax type",
@@ -54,6 +42,6 @@
     "hasBuyerFee": false,
     "hasTax": false,
     "hasShippingPrice": false,
-    "description": "Example description: mock text standing in for the real value. Same field and type, made-up content."
+    "description": "Example description"
   }
 ]

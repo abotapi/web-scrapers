@@ -70,7 +70,7 @@ Full details on the [scraper page](https://apify.com/abotapi/cars-com-scraper?ut
 | `drivetrain` | string |
 | `fuelType` | string |
 | `fuel_type` | string |
-| `exterior_color` | null |
+| `exterior_color` | string |
 | `interior_color` | null |
 | `transmission` | null |
 | `mpg_city` | null |
@@ -79,9 +79,9 @@ Full details on the [scraper page](https://apify.com/abotapi/cars-com-scraper?ut
 | `cpoIndicator` | boolean |
 | `price` | integer |
 | `priceText` | string |
-| `msrp` | integer |
+| `msrp` | null |
 | `monthlyPayment` | string |
-| `price_drop` | string |
+| `price_drop` | null |
 | `deal_rating` | string |
 | `deal_badge_text` | string |
 | `price_vs_market` | string |

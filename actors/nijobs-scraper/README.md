@@ -86,7 +86,7 @@ Full details on the [scraper page](https://apify.com/abotapi/nijobs-scraper?utm_
 | `validThrough` | string |
 | `hasFuturePosting` | boolean |
 | `employmentType` | string |
-| `workType` | string |
+| `workType` | null |
 
 ---
 

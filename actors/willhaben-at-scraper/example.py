@@ -16,6 +16,7 @@ run = client.actor("abotapi/willhaben-at-scraper").call(
         "category": "kaufen-und-verkaufen/marktplatz",
         "sort": "default",
         "maxListings": 10,
+        "maxItems": 10,
         "maxPages": 1,
         "proxy": {"useApifyProxy": True, "apifyProxyGroups": ["RESIDENTIAL"], "apifyProxyCountry": "AT"},
     },

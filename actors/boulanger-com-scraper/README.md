@@ -26,6 +26,7 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~boulanger-com-scraper/run
 | --- | --- | --- |
 | `mode` * | string | Mode |
 | `searchTerm` | string | Search keyword |
+| `searchQueries` | array | More search keywords |
 | `category` | string | Category |
 | `sortBy` | string | Sort order |
 | `urls` | array | URLs to scrape |
@@ -61,9 +62,9 @@ Full details on the [scraper page](https://apify.com/abotapi/boulanger-com-scrap
 | `price` | integer |
 | `currency` | string |
 | `priceExclTax` | float |
-| `originalPrice` | float |
-| `discountAmount` | float |
-| `discountPercent` | integer |
+| `originalPrice` | null |
+| `discountAmount` | null |
+| `discountPercent` | null |
 | `isOnSpecial` | boolean |
 | `promoLabel` | null |
 | `unitPrice` | null |
@@ -76,6 +77,10 @@ Full details on the [scraper page](https://apify.com/abotapi/boulanger-com-scrap
 | `sellerName` | string |
 | `isBundle` | boolean |
 | `reviews` | object |
+| `availability` | string |
+| `source` | string |
+| `searchQuery` | string |
+| `scrapedAt` | string |
 
 ---
 

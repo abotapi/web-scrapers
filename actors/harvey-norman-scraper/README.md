@@ -58,14 +58,14 @@ Full details on the [scraper page](https://apify.com/abotapi/harvey-norman-scrap
 | `imageUrl` | null |
 | `rating` | float |
 | `reviewCount` | integer |
-| `promotion` | string |
+| `promotion` | null |
 | `searchMode` | string |
 | `source` | string |
 | `price` | integer |
 | `currency` | string |
-| `wasPrice` | integer |
+| `wasPrice` | null |
 | `discountAmount` | integer |
-| `discountPercent` | float |
+| `discountPercent` | integer |
 | `title` | string |
 | `isOnSpecial` | boolean |
 

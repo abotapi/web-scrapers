@@ -17,7 +17,7 @@ python example.py
 ```bash
 curl -s -X POST "https://api.apify.com/v2/acts/abotapi~commercialguru-sg-scraper/run-sync-get-dataset-items?token=$APIFY_TOKEN" \
   -H 'Content-Type: application/json' \
-  -d '{"mode": "search", "listing_type": "sale", "sort": "date", "sort_order": "desc", "proxy": {"useApifyProxy": true, "apifyProxyGroups": ["RESIDENTIAL"], "apifyProxyCountry": "SG"}}'
+  -d '{"mode": "search", "listing_type": "sale", "sort": "date", "sort_order": "desc", "proxy": {"useApifyProxy": true}}'
 ```
 
 ## Inputs
@@ -83,6 +83,16 @@ Full details on the [scraper page](https://apify.com/abotapi/commercialguru-sg-s
 | `image_count` | integer |
 | `url` | string |
 | `status` | string |
+| `is_official_listing` | boolean |
+| `is_verified_listing` | boolean |
+| `agent_profile_url` | string |
+| `listing_id` | integer |
+| `price_value` | integer |
+| `price_type` | string |
+| `full_address` | string |
+| `floor_area_sqft` | integer |
+| `listed_at` | string |
+| `availability` | string |
 
 ---
 

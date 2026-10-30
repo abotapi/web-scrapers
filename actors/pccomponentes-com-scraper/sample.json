@@ -6,29 +6,22 @@
     "brand": "Alurin",
     "category": "Example category",
     "url": "https://www.pccomponentes.com/example/58970",
-    "price": 529,
+    "price": 458.19,
     "currency": "EUR",
     "originalPrice": null,
     "discountAmount": null,
     "discountPercent": null,
     "isOnSpecial": false,
     "image": "https://thumb.pccomponentes.com/example/34671.jpg",
-    "rating": 3.44,
+    "rating": 3.46,
     "reviewCount": 181,
-    "onlineAvailable": false,
+    "onlineAvailable": true,
     "freeShipping": true,
     "reviews": {
-      "averageRating": 4.6,
-      "ratingCount": 667,
-      "totalReviewCount": 25,
-      "items": [
-        {
-          "rating": 8,
-          "body": "Example body: mock text standing in for the real value. Same field and type, made-up content.",
-          "author": "bea0762",
-          "date": "2026-01-15T10:00:00Z"
-        }
-      ]
+      "averageRating": null,
+      "ratingCount": 0,
+      "totalReviewCount": 0,
+      "items": []
     }
   }
 ]

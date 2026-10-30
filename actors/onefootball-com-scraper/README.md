@@ -17,7 +17,7 @@ python example.py
 ```bash
 curl -s -X POST "https://api.apify.com/v2/acts/abotapi~onefootball-com-scraper/run-sync-get-dataset-items?token=$APIFY_TOKEN" \
   -H 'Content-Type: application/json' \
-  -d '{"mode": "search", "competitions": ["premier-league-9"], "language": "en", "maxItems": 10, "maxPages": 1, "proxyConfiguration": {"useApifyProxy": true}}'
+  -d '{"mode": "search", "competitions": ["premier-league-9"], "language": "en", "matchStatus": "any", "sortBy": "default", "sortOrder": "asc", "maxItems": 10, "maxPages": 1, "proxyConfiguration": {"useApifyProxy": true}}'
 ```
 
 ## Inputs
@@ -34,6 +34,12 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~onefootball-com-scraper/r
 | `includeFixtures` | boolean | Fixtures |
 | `includeResults` | boolean | Results |
 | `includeTable` | boolean | League table |
+| `dateFrom` | string | From date |
+| `dateTo` | string | To date |
+| `matchStatus` | string | Match status |
+| `query` | string | Text filter |
+| `sortBy` | string | Sort by |
+| `sortOrder` | string | Sort order |
 | `fetchDetails` | boolean | Read full article text |
 | `maxItems` | integer | Max records |
 | `maxPages` | integer | Max pages per source |
@@ -51,23 +57,22 @@ Full details on the [scraper page](https://apify.com/abotapi/onefootball-com-scr
 | --- | --- |
 | `recordType` | string |
 | `id` | string |
-| `title` | string |
-| `url` | string |
-| `publisher` | string |
-| `publisherImageUrl` | string |
-| `publisherIsVerified` | boolean |
-| `publishedAt` | string |
-| `publishTime` | string |
-| `preview` | string |
-| `imageUrl` | string |
-| `isVideo` | boolean |
-| `language` | string |
-| `articleText` | null |
-| `articleChars` | null |
+| `competitionSlug` | string |
+| `competitionName` | string |
+| `position` | integer |
+| `positionChange` | null |
+| `teamName` | string |
+| `teamUrl` | string |
+| `teamBadgeUrl` | string |
+| `played` | integer |
+| `won` | integer |
+| `drawn` | null |
+| `lost` | integer |
+| `goalDifference` | integer |
+| `points` | integer |
 | `sourceType` | string |
 | `sourceId` | string |
 | `sourceUrl` | string |
-| `position` | integer |
 | `scrapedAt` | string |
 
 ---

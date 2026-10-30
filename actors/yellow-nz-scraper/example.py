@@ -12,10 +12,12 @@ client = ApifyClient(os.environ["APIFY_TOKEN"])
 
 run = client.actor("abotapi/yellow-nz-scraper").call(
     run_input={
+        "startUrls": [{"url": "https://yellow.co.nz/search?search_terms=Plumbers&geo_location_terms=Auckland"}, {"url": "https://yellow.co.nz/auckland/plumbers"}, {"url": "https://yellow.co.nz/auckland/bpp/onehunga-plumbers-579426046"}],
         "searchTerms": "Plumbers",
         "location": "New Zealand",
-        "maxPages": 1,
         "maxListings": 10,
+        "maxPages": 1,
+        "maxReviews": 10,
     },
     logger=None,  # don't stream the run log to your console
 )

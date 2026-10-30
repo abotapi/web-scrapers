@@ -58,7 +58,7 @@ Full details on the [scraper page](https://apify.com/abotapi/veepee-scraper?utm_
 | `saleTypeId` | integer |
 | `url` | string |
 | `saleUrl` | string |
-| `logo` | string |
+| `logo` | null |
 | `logos` | object |
 | `image` | string |
 | `webImage` | string |

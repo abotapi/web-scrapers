@@ -1,0 +1,88 @@
+[
+  {
+    "recordId": "Example record id",
+    "productId": "9286517-06",
+    "familyId": "3436326",
+    "url": "https://cottonon.com/example/40243",
+    "title": "Example title",
+    "brand": "Example brand",
+    "brandId": "women",
+    "color": "White",
+    "price": 18.55,
+    "wasPrice": 24.24,
+    "discountPercent": null,
+    "currency": "AUD",
+    "categories": [
+      "Example categories",
+      "Women"
+    ],
+    "categoryPath": [
+      "Apparel"
+    ],
+    "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
+    "imageUrl": "https://cottonon.com/example/34438.jpg",
+    "imageAltUrl": "https://cottonon.com/example/83317.jpg",
+    "imageUrls": [
+      "https://cottonon.com/example/58689.jpg",
+      "https://cottonon.com/example/87371.jpg"
+    ],
+    "ean": "0439958388226",
+    "eans": [
+      "8641590641106",
+      "0349809301349"
+    ],
+    "rmsDivision": "6-cottonon",
+    "rmsDepartment": "29-ladieswear",
+    "rmsCategory": "Example rms category",
+    "sourceKind": "category",
+    "sourceLabel": "https://cottonon.com/example/79544",
+    "position": 5,
+    "listName": "Example list name",
+    "colorCount": 38,
+    "colorName": "Example color name",
+    "colors": [
+      {
+        "name": "Example name"
+      },
+      {
+        "name": "Example name"
+      }
+    ],
+    "sizes": [
+      "Example sizes",
+      "XS"
+    ],
+    "sizesUnavailable": [],
+    "fitFeedback": "Example fit feedback",
+    "sizeNote": "Example size note",
+    "availability": "Example availability",
+    "reviewsAverage": 3.25,
+    "reviewsCount": 855,
+    "reviewsRecommended": null,
+    "ratingDistribution": [
+      {
+        "stars": 2,
+        "count": 534
+      },
+      {
+        "stars": 2,
+        "count": 69
+      }
+    ],
+    "reviews": [
+      {
+        "reviewId": "6679994152",
+        "reviewRating": 3,
+        "reviewTitle": "Example review title",
+        "reviewBody": "Example review body",
+        "reviewAuthor": "Example review author",
+        "reviewDate": "2026-01-15T10:00:00Z",
+        "verifiedBuyer": true,
+        "valueRating": 3,
+        "votesUp": 0,
+        "votesDown": 0,
+        "reviewPhotos": []
+      }
+    ]
+  }
+]

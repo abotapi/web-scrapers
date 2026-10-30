@@ -17,6 +17,8 @@ run = client.actor("abotapi/simplyhired-com-scraper").call(
         "location": "Remote",
         "country": "us",
         "jobType": "any",
+        "datePosted": "any",
+        "sortBy": "relevance",
         "maxPages": 1,
         "maxListings": 10,
         "proxy": {"useApifyProxy": True, "apifyProxyGroups": ["RESIDENTIAL"], "apifyProxyCountry": "US"},

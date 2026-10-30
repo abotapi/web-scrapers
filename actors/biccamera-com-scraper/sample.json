@@ -1,15 +1,15 @@
 [
   {
-    "itemId": "90682519",
-    "title": "Example title",
+    "itemId": "64150225",
+    "title": "Example title: mock text standing in for the real value. Same field and type, made-up content.",
     "brand": "Example brand",
     "url": "https://www.biccamera.com/example/50116",
-    "price": 97766,
+    "price": 7766,
     "currency": "JPY",
-    "pointAmount": 5881,
+    "pointAmount": 481,
     "pointRate": 80,
-    "effectivePrice": 53533,
-    "rating": 4.77,
+    "effectivePrice": 8533,
+    "rating": 1,
     "reviewCount": 60,
     "thumbnail": "https://image.biccamera.com/example/63917.jpg",
     "images": [
@@ -22,12 +22,12 @@
     "inStock": true,
     "usedPrice": null,
     "usedOfferCount": null,
-    "isSponsored": false,
+    "isSponsored": true,
     "rank": 9,
     "variant": null,
     "source": "listing",
     "reviews": {
-      "averageRating": 4.37,
+      "averageRating": 4,
       "totalReviewCount": 22,
       "ratingDistribution": {
         "1": 0,

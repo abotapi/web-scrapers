@@ -24,20 +24,25 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~universal-media-extractor
 
 | Input | Type | What it is |
 | --- | --- | --- |
-| `url` * | string | Video URL |
+| `urls` | array | Video URLs |
+| `url` | string | Video URL |
 | `mode` | string | Mode |
 | `format` | string | Format |
+| `preferredQuality` | string | Preferred quality |
+| `preferredFormat` | string | Preferred format |
+| `filenameTemplateParts` | array | Filename parts |
+| `ignore_errors` | boolean | Ignore Errors |
 | `storage_type` | string | Storage Type |
 | `storage_config` | object | Storage Configuration |
-| `proxy` | object | Proxy configuration |
-| `extract_flat` | boolean | Extract Flat (Playlists) |
-| `playlist_items` | string | Playlist Items |
 | `write_subtitles` | boolean | Write Subtitles |
 | `subtitle_langs` | array | Subtitle Languages |
-| `geo_bypass` | boolean | Geo Bypass |
-| `ignore_errors` | boolean | Ignore Errors |
+| `playlist_items` | string | Playlist Items |
+| `extract_flat` | boolean | Extract Flat (Playlists) |
+| `max_items_per_url` | integer | Max videos per playlist or channel |
 | `username` | string | Username |
 | `password` | string | Password |
+| `geo_bypass` | boolean | Geo Bypass |
+| `proxy` | object | Proxy configuration |
 
 `*` required
 

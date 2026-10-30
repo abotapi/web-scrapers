@@ -17,6 +17,8 @@ run = client.actor("abotapi/monster-com").call(
         "location": "New York, NY",
         "workplace": "all",
         "datePosted": "all",
+        "postedWithinDays": "any",
+        "country": "US",
         "employmentType": "all",
         "sortBy": "relevance",
         "maxItems": 10,

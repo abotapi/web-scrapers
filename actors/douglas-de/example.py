@@ -20,6 +20,7 @@ run = client.actor("abotapi/douglas-de").call(
         "maxReviewsPerProduct": 10,
         "maxPages": 1,
         "maxItems": 10,
+        "maxResults": 10,
         "proxyConfiguration": {"useApifyProxy": True, "apifyProxyGroups": ["RESIDENTIAL"], "apifyProxyCountry": "DE"},
     },
     logger=None,  # don't stream the run log to your console

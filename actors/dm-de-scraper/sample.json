@@ -22,6 +22,7 @@
     "reviewCount": 784,
     "isPharmacy": false,
     "image": "https://products.dm-static.com/example/25850.jpg",
+    "imageUrl": "https://products.dm-static.com/example/36413.jpg",
     "images": [
       "https://products.dm-static.com/example/48122.jpg",
       "https://products.dm-static.com/example/20754.jpg"
@@ -43,13 +44,14 @@
         {
           "rating": 7,
           "title": "Example title",
-          "body": "Example body",
-          "author": "Example author",
+          "body": "Example body: mock text standing in for the real value. Same field and type, made-up content.",
+          "author": "kathleen23",
           "date": "2026-01-15T10:00:00Z",
           "isRecommended": true,
           "verifiedPurchaser": false
         }
       ]
-    }
+    },
+    "scrapedAt": "2026-01-15T10:00:00Z"
   }
 ]

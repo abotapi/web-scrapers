@@ -68,7 +68,7 @@ Full details on the [scraper page](https://apify.com/abotapi/trulia-scraper?utm_
 | `longitude` | float |
 | `bedrooms` | integer |
 | `bedroomsFormatted` | string |
-| `bathrooms` | float |
+| `bathrooms` | integer |
 | `bathroomsFormatted` | string |
 | `floorSpace` | string |
 | `lotSize` | null |

@@ -37,6 +37,7 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~flippa-com-scraper/run-sy
 | `minMonthlyRevenue` | integer | Min Monthly Revenue (USD) |
 | `maxMonthlyRevenue` | integer | Max Monthly Revenue (USD) |
 | `minUniquesPerMonth` | integer | Min Uniques per Month |
+| `maxUniquesPerMonth` | integer | Max Uniques per Month |
 | `minAgeMonths` | integer | Min Age (months) |
 | `maxAgeMonths` | integer | Max Age (months) |
 | `tlds` | array | Domain Extensions (TLD) |
@@ -82,17 +83,18 @@ Full details on the [scraper page](https://apify.com/abotapi/flippa-com-scraper?
 | `primaryPlatform` | null |
 | `saleMethod` | string |
 | `saleMethodTitle` | string |
-| `status` | null |
+| `status` | string |
 | `endAt` | null |
-| `price` | integer |
-| `originalPrice` | integer |
-| `priceText` | string |
-| `originalPriceText` | string |
-| `priceDropped` | boolean |
-| `priceDroppedPercent` | integer |
+| `timeLeft` | null |
+| `price` | null |
+| `originalPrice` | null |
+| `priceText` | null |
+| `originalPriceText` | null |
+| `priceDropped` | null |
+| `priceDroppedPercent` | null |
 | `underOffer` | null |
-| `currency` | string |
-| `currencyLabel` | string |
+| `currency` | null |
+| `currencyLabel` | null |
 | `targetRaiseAmount` | null |
 | `targetRaiseAmountText` | null |
 | `ttmRevenue` | null |
@@ -109,7 +111,6 @@ Full details on the [scraper page](https://apify.com/abotapi/flippa-com-scraper?
 | `authorityScore` | null |
 | `appRating` | null |
 | `siteAge` | string |
-| `ageInYears` | string |
 
 ---
 

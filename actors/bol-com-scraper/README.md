@@ -72,7 +72,7 @@ Full details on the [scraper page](https://apify.com/abotapi/bol-com-scraper?utm
 | `category` | string |
 | `categories` | list |
 | `categoryHierarchy` | list |
-| `price` | float |
+| `price` | integer |
 | `list_price` | null |
 | `currency` | string |
 | `price_currency` | string |
@@ -84,8 +84,8 @@ Full details on the [scraper page](https://apify.com/abotapi/bol-com-scraper?utm
 | `originalPrice` | null |
 | `savingsAmount` | null |
 | `savingsPercent` | null |
-| `promoLabel` | null |
-| `specialsCategory` | string |
+| `promoLabel` | string |
+| `specialsCategory` | null |
 | `condition` | string |
 | `availability` | string |
 | `in_stock` | boolean |
@@ -93,13 +93,13 @@ Full details on the [scraper page](https://apify.com/abotapi/bol-com-scraper?utm
 | `delivery_text` | string |
 | `has_refurbished` | boolean |
 | `has_select_deal` | boolean |
-| `ean` | string |
-| `ean13` | string |
-| `gtin13` | string |
-| `isbn13` | string |
-| `image` | string |
-| `images` | list |
-| `rating` | null |
+| `ean` | null |
+| `ean13` | null |
+| `gtin13` | null |
+| `isbn13` | null |
+| `image` | null |
+| `images` | null |
+| `rating` | float |
 
 ---
 

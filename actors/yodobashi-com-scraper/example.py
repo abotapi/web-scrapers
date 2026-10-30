@@ -18,6 +18,7 @@ run = client.actor("abotapi/yodobashi-com-scraper").call(
         "maxPages": 1,
         "maxReviewsPerProduct": 10,
         "proxy": {"useApifyProxy": True},
+        "changeScope": "all",
     },
     logger=None,  # don't stream the run log to your console
 )

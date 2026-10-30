@@ -14,17 +14,37 @@
     "discountPercent": null,
     "isOnSpecial": false,
     "promoLabel": null,
-    "rating": null,
-    "reviewCount": 0,
+    "rating": 1,
+    "reviewCount": 9,
     "inStock": true,
     "condition": "new",
     "seller": "Example seller",
     "reviews": {
-      "averageRating": null,
-      "totalReviewCount": 0,
-      "recommendPercent": null,
-      "criteria": [],
-      "items": []
+      "averageRating": 2,
+      "totalReviewCount": 8,
+      "recommendPercent": 262,
+      "criteria": [
+        {
+          "name": "Example name",
+          "score": 7
+        },
+        {
+          "name": "Example name",
+          "score": 3
+        }
+      ],
+      "items": [
+        {
+          "rating": 1,
+          "title": "Example title",
+          "body": "Example body: mock text standing in for the real value. Same field and type, made-up content.",
+          "author": "Example author",
+          "level": "Example level",
+          "postedDate": "25/44/2412",
+          "purchaseDate": "19/38/6882",
+          "purchaseStore": null
+        }
+      ]
     }
   }
 ]

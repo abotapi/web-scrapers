@@ -17,7 +17,7 @@ python example.py
 ```bash
 curl -s -X POST "https://api.apify.com/v2/acts/abotapi~suumo-jp-scraper/run-sync-get-dataset-items?token=$APIFY_TOKEN" \
   -H 'Content-Type: application/json' \
-  -d '{"mode": "search", "prefecture": "13", "cityCodes": ["13101"], "layouts": ["02"], "maxItems": 10, "maxPages": 1, "proxyConfiguration": {"useApifyProxy": true}}'
+  -d '{"mode": "search", "prefecture": "13", "cityCodes": ["13101"], "layouts": ["02"], "sortBy": "default", "maxItems": 10, "maxPages": 1, "proxyConfiguration": {"useApifyProxy": true}, "changeScope": "all"}'
 ```
 
 ## Inputs
@@ -26,13 +26,24 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~suumo-jp-scraper/run-sync
 | --- | --- | --- |
 | `mode` * | string | Mode |
 | `prefecture` | string | Prefecture |
-| `cityCodes` | array | City codes (optional) |
+| `cityCodes` | array | Cities (optional) |
 | `layouts` | array | Layout codes (optional) |
+| `rentMin` | number | Minimum rent (10,000 yen) |
+| `rentMax` | number | Maximum rent (10,000 yen) |
+| `areaMin` | integer | Minimum floor area (sqm) |
+| `areaMax` | integer | Maximum floor area (sqm) |
+| `maxBuildingAge` | integer | Maximum building age (years) |
+| `maxWalkMinutes` | integer | Maximum walk to station (minutes) |
+| `sortBy` | string | Sort order (rentals) |
 | `urls` | array | Suumo links |
+| `searchUrl` | string | Search link |
 | `fetchDetails` | boolean | Read each room's own page |
 | `maxItems` | integer | Max rooms |
 | `maxPages` | integer | Max pages per source |
 | `proxyConfiguration` | object | Proxy configuration |
+| `changeScope` | string | What counts as a change (recurring upd |
+| `compactUpdates` | boolean | Short rows for updated rooms (recurrin |
+| `expireAfterMissedScans` | integer | Missed scans before a room is marked g |
 
 `*` required
 
@@ -56,8 +67,8 @@ Full details on the [scraper page](https://apify.com/abotapi/suumo-jp-scraper?ut
 | `floor` | string |
 | `rentYen` | integer |
 | `rentDisplay` | string |
-| `mgmtFeeYen` | integer |
-| `depositYen` | integer |
+| `mgmtFeeYen` | null |
+| `depositYen` | null |
 | `keyMoneyYen` | null |
 | `layout` | string |
 | `areaSqm` | float |
@@ -66,6 +77,18 @@ Full details on the [scraper page](https://apify.com/abotapi/suumo-jp-scraper?ut
 | `sourceId` | string |
 | `sourceUrl` | null |
 | `position` | integer |
+| `mode` | string |
+| `propertyType` | string |
+| `propertyCode` | string |
+| `buildingTitle` | string |
+| `stationAccess` | list |
+| `totalFloors` | string |
+| `thumbnailUrl` | string |
+| `detailUrl` | string |
+| `rent` | string |
+| `area` | string |
+| `price` | string |
+| `exclusiveArea` | string |
 | `scrapedAt` | string |
 
 ---

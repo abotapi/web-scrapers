@@ -1,45 +1,45 @@
 [
   {
-    "videoId": "jnqxac9ivrw",
+    "videoId": "t9ppdkypowi",
     "videoUrl": "https://www.youtube.com/example/57547",
-    "videoTitle": "Example video title",
+    "videoTitle": "Example video title: mock text standing in for the real value. Same field and type, made-up content.",
     "channelName": "Example channel name",
     "channelUrl": "https://www.youtube.com/example/36665",
-    "durationSeconds": null,
-    "source": "https://www.youtube.com/example/65689",
-    "sourceType": "video",
+    "durationSeconds": 35152,
+    "source": "Example source",
+    "sourceType": "search",
     "fetchedAt": "2026-01-15T10:00:00Z",
     "success": true,
     "error": null,
-    "language": "English",
+    "language": "Example language",
     "languageCode": "en",
-    "isGenerated": false,
+    "isGenerated": true,
     "isTranslated": false,
     "translatedTo": null,
-    "charCount": 403,
-    "segmentCount": 3,
+    "charCount": 311803,
+    "segmentCount": 5907,
     "transcript": "Example transcript: mock text standing in for the real value. Same field and type, made-up content.",
     "segments": [
       {
         "text": "Example text",
-        "start": 1.39,
-        "duration": 1.66
+        "start": 0.37,
+        "duration": 3.94
       },
       {
         "text": "Example text",
-        "start": 5.48,
-        "duration": 2.42
+        "start": 3.79,
+        "duration": 3.35
       }
     ],
     "data": [
       {
-        "start": 1.39,
-        "dur": 2.68,
+        "start": 0.37,
+        "dur": 6.35,
         "text": "Example text"
       },
       {
-        "start": 5.48,
-        "dur": 2.71,
+        "start": 3.79,
+        "dur": 3.75,
         "text": "Example text"
       }
     ],
@@ -49,14 +49,14 @@
     "trimmedDuration": 0
   },
   {
-    "videoId": "bq3jh7mmsci",
+    "videoId": "ix1crabkve1",
     "videoUrl": "https://www.youtube.com/example/87817",
     "videoTitle": "Example video title",
-    "channelName": null,
-    "channelUrl": null,
-    "durationSeconds": 7071,
-    "source": "https://www.youtube.com/example/36294",
-    "sourceType": "channel",
+    "channelName": "Example channel name",
+    "channelUrl": "https://www.youtube.com/example/88782",
+    "durationSeconds": 25071,
+    "source": "Example source",
+    "sourceType": "search",
     "fetchedAt": "2026-01-15T10:00:00Z",
     "success": true,
     "error": null,
@@ -65,35 +65,35 @@
     "isGenerated": true,
     "isTranslated": false,
     "translatedTo": null,
-    "charCount": 39581,
-    "segmentCount": 913,
-    "transcript": "Example transcript: mock text standing in for the real value. Same field and type, made-up content.",
+    "charCount": 129581,
+    "segmentCount": 56713,
+    "transcript": "user6@example.com",
     "segments": [
       {
         "text": "Example text",
-        "start": 0.15,
-        "duration": 6
+        "start": 0.22,
+        "duration": 3.56
       },
       {
         "text": "Example text",
-        "start": 1.97,
-        "duration": 2.96
+        "start": 2.04,
+        "duration": 2.65
       }
     ],
     "data": [
       {
-        "start": 0.15,
-        "dur": 5,
+        "start": 0.22,
+        "dur": 2.66,
         "text": "Example text"
       },
       {
-        "start": 1.97,
-        "dur": 3.69,
+        "start": 2.04,
+        "dur": 3.3,
         "text": "Example text"
       }
     ],
-    "srt": "Example srt: mock text standing in for the real value. Same field and type, made-up content.",
-    "vtt": "Example vtt: mock text standing in for the real value. Same field and type, made-up content.",
+    "srt": "user91@example.com",
+    "vtt": "user96@example.com",
     "trimmedStart": 0,
     "trimmedDuration": 0
   }

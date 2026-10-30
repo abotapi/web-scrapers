@@ -1,10 +1,10 @@
 [
   {
-    "productId": "1293146219",
-    "productGroupId": "91649646",
-    "title": "Example title",
-    "brand": "Consul",
-    "brandId": "222",
+    "productId": "1867352",
+    "productGroupId": "276277",
+    "title": "Example title: mock text standing in for the real value. Same field and type, made-up content.",
+    "brand": "Electrolux",
+    "brandId": "056",
     "url": "https://www.casasbahia.com.br/example/22374",
     "categoryName": "Example category name",
     "categoryPath": [
@@ -15,11 +15,11 @@
       "95",
       "96"
     ],
-    "price": 4179,
-    "originalPrice": 2522.51,
+    "price": 2708.87,
+    "originalPrice": 2392.22,
     "discountPercent": 82,
-    "discountAmount": 1028.96,
-    "listPrice": 3248,
+    "discountAmount": 996.06,
+    "listPrice": 2057.9,
     "currency": "BRL",
     "onSale": true,
     "cashPrice": null,
@@ -29,24 +29,24 @@
     "hasBoletoDiscount": false,
     "installmentText": "Example installment text",
     "installmentCount": 5,
-    "installmentValue": 391.12,
+    "installmentValue": 2204.89,
     "installmentInterestFree": true,
     "installmentOptions": [
       {
         "type": "Bandeira",
         "count": 4,
-        "installmentValue": 7155,
+        "installmentValue": 2204.89,
         "monthlyInterest": 0,
-        "totalPrice": 8744,
+        "totalPrice": 1553.93,
         "interestFree": true,
         "label": "Example label"
       },
       {
         "type": "Bandeira",
         "count": 8,
-        "installmentValue": 1173.37,
+        "installmentValue": 1102.45,
         "monthlyInterest": 0,
-        "totalPrice": 2083,
+        "totalPrice": 1532.93,
         "interestFree": true,
         "label": "Example label"
       }
@@ -60,12 +60,12 @@
     "pickupInStore": false,
     "deliveryEstimate": null,
     "shippingCost": null,
-    "sellerId": "37942",
+    "sellerId": "14123",
     "sellerName": "Example seller name",
     "sellerCount": 3,
     "offerCount": 3,
-    "minOfferPrice": 7485,
-    "maxOfferPrice": 5249,
+    "minOfferPrice": 1574.93,
+    "maxOfferPrice": 2498.88,
     "image": "https://imgs.casasbahia.com.br/example/2221.jpg",
     "images": [
       "https://imgs.casasbahia.com.br/example/71618.jpg",

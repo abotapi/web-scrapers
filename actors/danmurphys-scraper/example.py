@@ -14,9 +14,11 @@ run = client.actor("abotapi/danmurphys-scraper").call(
     run_input={
         "mode": "search",
         "department": "beer",
+        "sortBy": "Relevance",
         "maxPages": 1,
         "maxProducts": 10,
         "proxyConfiguration": {"useApifyProxy": True},
+        "changeScope": "all",
     },
     logger=None,  # don't stream the run log to your console
 )

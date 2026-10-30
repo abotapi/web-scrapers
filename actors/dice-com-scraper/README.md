@@ -71,8 +71,8 @@ Full details on the [scraper page](https://apify.com/abotapi/dice-com-scraper?ut
 | `postalCode` | null |
 | `applicantLocationRequirements` | null |
 | `salary` | string |
-| `salaryMin` | integer |
-| `salaryMax` | integer |
+| `salaryMin` | null |
+| `salaryMax` | null |
 | `salaryCurrency` | null |
 | `salaryPeriod` | null |
 | `employmentType` | string |
@@ -87,12 +87,12 @@ Full details on the [scraper page](https://apify.com/abotapi/dice-com-scraper?ut
 | `score` | float |
 | `summary` | string |
 | `description` | null |
+| `descriptionHtml` | null |
 | `descriptionText` | null |
 | `postedDate` | string |
 | `modifiedDate` | string |
+| `updated` | string |
 | `validThrough` | null |
-| `applyType` | null |
-| `applyUrl` | null |
 
 ---
 

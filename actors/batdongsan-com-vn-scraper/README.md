@@ -64,10 +64,10 @@ Full details on the [scraper page](https://apify.com/abotapi/batdongsan-com-vn-s
 | `pricePerM2` | integer |
 | `area` | integer |
 | `bedrooms` | integer |
-| `bathrooms` | integer |
+| `bathrooms` | null |
 | `direction` | null |
 | `balconyDirection` | null |
-| `furniture` | string |
+| `furniture` | null |
 | `locationText` | string |
 | `city` | string |
 | `district` | string |

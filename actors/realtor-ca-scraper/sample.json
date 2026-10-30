@@ -1,8 +1,8 @@
 [
   {
     "scrapedAt": "2026-01-15T10:00:00Z",
-    "propertyId": "82030742",
-    "mlsNumber": "e60801983",
+    "propertyId": "32477093",
+    "mlsNumber": "w07845275",
     "url": "https://www.realtor.ca/example/2424",
     "listingType": "buy",
     "propertyType": "condo",
@@ -16,15 +16,15 @@
     "urlFr": "https://www.realtor.ca/example/11269",
     "photosUpdatedAt": "Example photos updated at",
     "address": {
-      "full": "Example full",
+      "full": "Example full: mock text standing in for the real value. Same field and type, made-up content.",
       "street": "Example street",
       "city": "Toronto",
       "province": "Example province",
-      "postalCode": "m7h1h3"
+      "postalCode": "m5b6b0"
     },
     "coordinates": {
-      "latitude": 54.73,
-      "longitude": -61.81
+      "latitude": 54.64,
+      "longitude": -61.97
     },
     "price": {
       "display": "Example display",
@@ -54,7 +54,7 @@
     "agents": [
       {
         "name": "Example name",
-        "id": "4153293",
+        "id": "1073462",
         "firstName": "Example first name",
         "lastName": "Example last name",
         "organizationType": "Firm",
@@ -63,10 +63,9 @@
         "position": "Example position",
         "profileUrl": "https://www.realtor.ca/example/94295",
         "organization": "Example organization",
-        "organizationLogo": "https://cdn.realtor.ca/example/63960.jpg",
-        "organizationId": "533107",
+        "organizationId": "568816",
         "organizationDesignation": "Example organization designation",
-        "organizationWebsite": "https://www.theagencyre.com/example/76786",
+        "organizationWebsite": "http://www.rigmaxxrealty.com/example/76786",
         "organizationPhone": "+1 555 0100"
       }
     ]

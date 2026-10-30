@@ -66,6 +66,7 @@ Full details on the [scraper page](https://apify.com/abotapi/decathlon-es-scrape
 | `saleEndsAt` | null |
 | `availableSizes` | list |
 | `onlineAvailable` | boolean |
+| `inStock` | boolean |
 | `seller` | object |
 | `sports` | list |
 | `nature` | string |

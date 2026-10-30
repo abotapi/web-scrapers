@@ -58,7 +58,7 @@ Full details on the [scraper page](https://apify.com/abotapi/mediamarkt-es-scrap
 | `categoryPath` | list |
 | `category` | string |
 | `url` | string |
-| `rating` | float |
+| `rating` | integer |
 | `reviewCount` | integer |
 | `isMarketplace` | boolean |
 | `price` | integer |
@@ -68,7 +68,7 @@ Full details on the [scraper page](https://apify.com/abotapi/mediamarkt-es-scrap
 | `originalPrice` | integer |
 | `isOnSpecial` | boolean |
 | `strikePriceType` | string |
-| `shippingCost` | float |
+| `shippingCost` | integer |
 | `installment` | object |
 | `image` | string |
 | `images` | list |

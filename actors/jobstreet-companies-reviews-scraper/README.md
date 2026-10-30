@@ -17,7 +17,7 @@ python example.py
 ```bash
 curl -s -X POST "https://api.apify.com/v2/acts/abotapi~jobstreet-companies-reviews-scraper/run-sync-get-dataset-items?token=$APIFY_TOKEN" \
   -H 'Content-Type: application/json' \
-  -d '{"mode": "companies", "country": "MY", "industry": "Information & Communication Technology", "maxReviewsPerCompany": 10, "reviewSort": "helpful", "maxItems": 10, "proxyConfiguration": {"useApifyProxy": true, "apifyProxyGroups": []}}'
+  -d '{"mode": "companies", "industry": "Information & Communication Technology", "country": "MY", "maxReviewsPerCompany": 10, "reviewSort": "helpful", "maxItems": 10, "proxyConfiguration": {"useApifyProxy": true, "apifyProxyGroups": []}}'
 ```
 
 ## Inputs
@@ -25,10 +25,10 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~jobstreet-companies-revie
 | Input | Type | What it is |
 | --- | --- | --- |
 | `mode` * | string | Mode |
-| `country` | string | Country |
 | `urls` | array | Company URLs |
 | `keywords` | string | Keywords |
 | `industry` | string | Industry |
+| `country` | string | Country |
 | `maxReviewsPerCompany` | integer | Max reviews per company |
 | `reviewSort` | string | Review sort order |
 | `includeAISummary` | boolean | Include AI review summary |
@@ -58,6 +58,10 @@ Full details on the [scraper page](https://apify.com/abotapi/jobstreet-companies
 | `coverImageUrl` | string |
 | `industry` | string |
 | `totalJobs` | integer |
+| `overviewText` | string |
+| `companySize` | string |
+| `perks` | list |
+| `customStatement` | object |
 | `ratingOverall` | integer |
 | `reviewCount` | integer |
 | `salaryRating` | integer |
@@ -67,6 +71,8 @@ Full details on the [scraper page](https://apify.com/abotapi/jobstreet-companies
 | `topReviews` | list |
 | `topReviewCount` | integer |
 | `scrapedAt` | string |
+| `aiSummary` | object |
+| `recordType` | string |
 
 ---
 

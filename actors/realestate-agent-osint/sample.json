@@ -1,0 +1,273 @@
+[
+  {
+    "recordType": "agent",
+    "source": [
+      "rma",
+      "domain"
+    ],
+    "sourceUrl": "https://www.ratemyagent.com.au/example/92684",
+    "fetchedAt": "2026-01-15T10:00:00Z",
+    "agentId": "id37825453",
+    "name": "Example name",
+    "title": "Example title",
+    "phones": [
+      "+1 555 0100"
+    ],
+    "phoneDetails": [],
+    "emails": [
+      "user57@example.com"
+    ],
+    "emailDetails": [
+      {
+        "value": "user65@example.com",
+        "kind": "personal",
+        "source": "reiwa",
+        "basis": "Example basis"
+      },
+      {
+        "value": "user7@example.com",
+        "kind": "role",
+        "source": "agencysite",
+        "basis": "Example basis"
+      }
+    ],
+    "agencyName": "Example agency name",
+    "agencyGroup": null,
+    "officeAddress": "Example office address",
+    "socialLinks": {
+      "website": "https://www.kswproperty.com.au/example/52916"
+    },
+    "socialLinkDetails": [],
+    "website": null,
+    "agencyProfileUrl": "https://kswproperty.com.au/example/39907",
+    "bio": null,
+    "bioSource": null,
+    "yearsExperienceStated": null,
+    "yearsExperienceEvidence": null,
+    "languages": [],
+    "specialities": [],
+    "agency": {
+      "name": "Example name",
+      "website": "https://www.kswproperty.com.au/example/52916",
+      "email": "user63@example.com",
+      "emailKind": "Example email kind",
+      "phone": "+1 555 0100",
+      "address": "Example address",
+      "logoUrl": null,
+      "profileTier": "branded",
+      "teamSize": 9,
+      "team": [
+        {
+          "name": "Example name",
+          "role": null,
+          "profileUrl": "https://www.domain.com.au/example/69347"
+        },
+        {
+          "name": "Example name",
+          "role": null,
+          "profileUrl": "https://www.domain.com.au/example/51768"
+        }
+      ],
+      "source": "domain",
+      "entity": null,
+      "entityCandidates": [
+        {
+          "abn": "89482581703",
+          "name": "Example name",
+          "nameType": "Example name type",
+          "status": "Active",
+          "state": "WA",
+          "postcode": "1656",
+          "matchBasis": "name",
+          "reason": "Example reason: mock text standing in for the real value. Same field and type, made-up content.",
+          "confirmed": false,
+          "url": "https://abr.business.gov.au/example/64673"
+        }
+      ]
+    },
+    "currentListings": {
+      "count": 2,
+      "listingsRead": 7,
+      "suburbs": [
+        {
+          "suburb": "Example suburb",
+          "count": 2
+        },
+        {
+          "suburb": "Example suburb",
+          "count": 1
+        }
+      ],
+      "propertyTypes": [
+        {
+          "type": "apartment",
+          "count": 2
+        }
+      ],
+      "priceTexts": [
+        "Example price texts",
+        "Example price texts"
+      ],
+      "auctionShare": 0,
+      "sampleUrls": [
+        "https://www.domain.com.au/example/97810",
+        "https://www.domain.com.au/example/24106"
+      ],
+      "source": "domain"
+    },
+    "nzStats": [],
+    "servicedSuburbs": [],
+    "nzRecentSales": [],
+    "mediaMentions": [],
+    "mentionLeads": [],
+    "memberships": [
+      {
+        "agencyName": "Example agency name",
+        "agencyId": "Example agency id",
+        "start": null,
+        "end": null,
+        "source": "rma"
+      },
+      {
+        "agencyName": "Example agency name",
+        "agencyId": "40447",
+        "start": null,
+        "end": null,
+        "source": "domain"
+      }
+    ],
+    "suburbs": [
+      "Example suburbs",
+      "Example suburbs"
+    ],
+    "region": "Example region",
+    "profileUrls": [
+      "https://www.ratemyagent.com.au/example/99393",
+      "https://www.domain.com.au/example/46396"
+    ],
+    "sourceIds": {
+      "rma": "Example rma",
+      "domain": "0880708",
+      "reiwa": "38039"
+    },
+    "soldSummary": {
+      "countAll": 7,
+      "count12m": 7,
+      "count24m": 5,
+      "volume12m": 63033891,
+      "volumeAll": 70612014,
+      "sources": [
+        "rma",
+        "reiwa"
+      ]
+    },
+    "soldAnalysis": {
+      "listingsWithPrice": 2,
+      "listingsWithDate": 7,
+      "price": {
+        "median": 8926954,
+        "p25": 3877580,
+        "p75": 7271052,
+        "min": 1862593,
+        "max": 3588337,
+        "bands": [
+          {
+            "band": "Example band",
+            "count": 0
+          },
+          {
+            "band": "id65466801",
+            "count": 1
+          }
+        ]
+      },
+      "areas": [
+        {
+          "suburb": "Example suburb",
+          "count": 2,
+          "medianPrice": 4558788,
+          "minPrice": 6852458,
+          "maxPrice": 6416770,
+          "lastSaleDate": "2026-01-15T10:00:00Z"
+        },
+        {
+          "suburb": "Example suburb",
+          "count": 1,
+          "medianPrice": 1379708,
+          "minPrice": 5120754,
+          "maxPrice": 3646534,
+          "lastSaleDate": "2026-01-15T10:00:00Z"
+        }
+      ],
+      "time": {
+        "firstSale": "2026-01-15",
+        "lastSale": "2026-01-15",
+        "activeYears": 0.4,
+        "perYear": [
+          {
+            "year": "4762",
+            "count": 2
+          },
+          {
+            "year": "5135",
+            "count": 1
+          }
+        ],
+        "medianGapDays": 43,
+        "topMonth": "Example top month",
+        "last12mShare": 5
+      },
+      "methodMix": [
+        {
+          "method": "Example method",
+          "count": 2
+        },
+        {
+          "method": "unknown",
+          "count": 1
+        }
+      ]
+    },
+    "statistics": {
+      "rmaOverallStars": null,
+      "rmaReviewCount": 0,
+      "rmaSoldListings": 1,
+      "rmaForSale": 89,
+      "rmaAverageDaysOnMarket": 11,
+      "rmaAveragePrice": 1566771.43,
+      "rmaTotalSalesValue": 98119502,
+      "rmaHasEmailAddress": true,
+      "rmaPhoto": "https://cdn.ratemyagent.com.au/example/21651.jpg",
+      "rmaProfileTier": "Default",
+      "rmaClaimed": false,
+      "rmaProfileSlug": "id28040399",
+      "rmaAgentProfileId": 956944,
+      "agencyCode": "Example agency code",
+      "domainContactId": 7006509,
+      "domainAgentIdV2": "a884348",
+      "domainJobCategory": "Example domain job category",
+      "domainProfileTier": "branded",
+      "domainReviewCount": 0,
+      "domainStarRating": null,
+      "domainTotalForSale": 3,
+      "domainTotalSold": 5,
+      "domainTotalForRent": 0,
+      "domainTotalLeased": 0,
+      "domainAverageDaysOnMarket": 60.9,
+      "domainAverageSoldPrice": 5291623,
+      "domainHasEmail": true,
+      "reiwaAgentId": "10292",
+      "reiwaMembershipLevel": "FullMember",
+      "reiwaAccredited": false,
+      "reiwaForSaleTotal": 4,
+      "reiwaForRentTotal": 0,
+      "reiwaSoldTotal": 66,
+      "reiwaLeasedTotal": 0,
+      "reiwaListingsSold12m": "85",
+      "reiwaMedianSalePrice": "Example reiwa median sale price",
+      "reiwaMedianDaysOnMarket": "28",
+      "reiwaPhoto": "https://imagecdn.reiwa.com.au/example/81528.jpg"
+    },
+    "photo": "https://cdn.ratemyagent.com.au/example/63339.jpg"
+  }
+]

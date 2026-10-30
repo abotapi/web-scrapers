@@ -21,7 +21,7 @@
     "slug": "id55944679",
     "url": "https://www.taskrabbit.com/example/14221",
     "metroName": "Example metro name",
-    "hoursWorked": 2377.9,
+    "hoursWorked": 3981,
     "positiveRating": "Example positive rating",
     "onDuty": true,
     "taskCountProfile": 517,
@@ -55,6 +55,13 @@
       }
     ],
     "totalReviewCount": 624,
-    "ratingDistribution": null
+    "ratingDistribution": null,
+    "dataType": "tasker",
+    "taskerId": "66872253",
+    "name": "Example name",
+    "isElite": false,
+    "profileUrl": "https://www.taskrabbit.com/example/81832",
+    "location": "Example location",
+    "service": "Example service"
   }
 ]

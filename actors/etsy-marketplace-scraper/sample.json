@@ -1,31 +1,88 @@
 [
   {
-    "listingId": "4766542214",
+    "listingId": "6915207720",
     "title": "Example title: mock text standing in for the real value. Same field and type, made-up content.",
     "url": "https://www.etsy.com/example/43631",
-    "shopId": "49620586",
+    "shopId": "70476309",
     "shopName": "Example shop name",
     "shopUrl": "https://www.etsy.com/example/11341",
-    "categoryPath": [],
-    "price": 35.59,
+    "categoryPath": [
+      "Jewelry",
+      "Necklaces"
+    ],
+    "price": 13809.33,
     "currency": "USD",
-    "originalPrice": 41.13,
-    "discountPercentage": 20,
+    "originalPrice": 11759.57,
+    "discountPercentage": 2,
     "onSale": true,
-    "availability": null,
-    "quantityAvailable": null,
+    "availability": "in_stock",
+    "quantityAvailable": 255,
     "images": [
-      "https://i.etsystatic.com/example/33521.jpg"
+      "https://i.etsystatic.com/example/33521.jpg",
+      "https://i.etsystatic.com/example/25172.jpg"
     ],
     "videoUrl": "https://v.etsystatic.com/example/63651",
-    "description": null,
-    "materials": [],
-    "shippingOrigin": null,
-    "rating": null,
-    "reviewCount": null,
-    "ratingBreakdown": null,
-    "reviews": [],
-    "variations": [],
+    "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
+    "descriptionHTML": "Example description h t m l: mock text standing in for the real value. Same field and type, made-up content.",
+    "listedOn": "2026-01-15",
+    "favorites": 476,
+    "highlights": [
+      "Example highlights",
+      "Example highlights: mock text standing in for the real value. Same field and type, made-up content."
+    ],
+    "materials": [
+      "Example materials"
+    ],
+    "shippingOrigin": {
+      "@type": "DefinedRegion",
+      "addressCountry": "Example address country",
+      "addressRegion": "Example address region"
+    },
+    "rating": 9,
+    "reviewCount": 7,
+    "ratingBreakdown": {
+      "itemQuality": 8,
+      "shipping": 9,
+      "customerService": 2,
+      "buyersRecommend": 131
+    },
+    "reviews": [
+      {
+        "reviewId": "7161070287",
+        "reviewAuthor": "id50374388",
+        "reviewRating": 5,
+        "reviewDate": "Example review date",
+        "reviewBody": "Example review body",
+        "reviewPhotos": [],
+        "reviewHelpfulCount": null,
+        "reviewVariantContext": null
+      },
+      {
+        "reviewId": "1848217694",
+        "reviewAuthor": "id60438279",
+        "reviewRating": 9,
+        "reviewDate": "Example review date",
+        "reviewBody": "Example review body",
+        "reviewPhotos": [],
+        "reviewHelpfulCount": null,
+        "reviewVariantContext": null
+      }
+    ],
+    "variations": [
+      {
+        "name": "Example name",
+        "options": [
+          {
+            "variationId": "0314602798",
+            "label": "Example label"
+          },
+          {
+            "variationId": "0801436980",
+            "label": "Example label"
+          }
+        ]
+      }
+    ],
     "searchMode": "search"
   }
 ]

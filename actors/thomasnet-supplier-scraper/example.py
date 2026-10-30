@@ -14,6 +14,7 @@ run = client.actor("abotapi/thomasnet-supplier-scraper").call(
     run_input={
         "mode": "search",
         "queries": ["valves"],
+        "area": "NA",
         "sortBy": "relevance",
         "maxPages": 1,
         "maxItems": 10,

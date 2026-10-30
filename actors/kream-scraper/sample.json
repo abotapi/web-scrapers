@@ -25,10 +25,10 @@
     "marketPrice": 635836,
     "lastSalePrice": 724548,
     "totalSales": 884229,
-    "changeValue": -45320,
-    "changePercentage": -10.54,
+    "changeValue": 9320,
+    "changePercentage": 1.05,
     "premium": -57818,
-    "premiumPercentage": -19.63,
+    "premiumPercentage": -22.65,
     "hasImmediateDelivery": true,
     "wishCount": 630570,
     "reviewCount": 66335,
@@ -52,6 +52,11 @@
         "name": "505",
         "displayName": "018"
       }
-    ]
+    ],
+    "productNameEn": "Example product name en",
+    "productUrl": "https://kream.co.kr/example/93053",
+    "modelNumber": "Example model number",
+    "releasePrice": 875369,
+    "price": 547434
   }
 ]

@@ -14,6 +14,7 @@ run = client.actor("abotapi/jobstreet-scraper").call(
     run_input={
         "country": "MY",
         "keywords": "software engineer",
+        "location": "Kuala Lumpur",
         "salaryType": "monthly",
         "requireContact": "off",
         "sortmode": "ListedDate",

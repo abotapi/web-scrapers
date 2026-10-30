@@ -11,7 +11,7 @@
     ],
     "category": "Example category",
     "url": "https://www.mediamarkt.de/example/33732",
-    "rating": 5.07,
+    "rating": 5.14,
     "reviewCount": 38,
     "isMarketplace": false,
     "price": 637,
@@ -28,9 +28,9 @@
       "finalRate": null,
       "interestEffective": 9.27,
       "interestNominal": 13.2,
-      "interestTotal": 67.64,
-      "monthlyRate": 33.33,
-      "totalAmount": 756.84
+      "interestTotal": 64.56,
+      "monthlyRate": 31.75,
+      "totalAmount": 720.88
     },
     "image": "https://assets.mmsrg.com/example/96984.jpg",
     "images": [
@@ -38,19 +38,25 @@
     ],
     "onlineAvailable": true,
     "availabilityStatus": "AVAILABLE",
+    "energyClass": null,
+    "discountPercentage": 10,
+    "inStock": true,
+    "onlineStatus": "AVAILABLE",
+    "imageUrl": "https://assets.mmsrg.com/example/98166.jpg",
+    "scrapedAt": "2026-01-15T10:00:00Z",
     "reviews": {
-      "averageRating": 3.87,
+      "averageRating": 3.92,
       "totalReviewCount": 63,
       "items": [
         {
-          "id": "3579356868",
+          "id": "6897298580",
           "rating": 3,
           "title": "Example title",
           "text": "Example text: mock text standing in for the real value. Same field and type, made-up content.",
           "date": "2026-01-15T10:00:00Z",
-          "isVerifiedPurchaser": false,
-          "reviewerName": "Example reviewer name",
-          "syndicationSource": "Example syndication source"
+          "isVerifiedPurchaser": true,
+          "reviewerName": "thomas38",
+          "syndicationSource": null
         }
       ]
     }

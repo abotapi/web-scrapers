@@ -17,7 +17,7 @@ python example.py
 ```bash
 curl -s -X POST "https://api.apify.com/v2/acts/abotapi~totaljobs-com-scraper/run-sync-get-dataset-items?token=$APIFY_TOKEN" \
   -H 'Content-Type: application/json' \
-  -d '{"mode": "search", "locations": ["London"], "jobType": "any", "companyType": "any", "salaryType": "annual", "postedWithin": "0", "sortBy": "relevance", "maxListings": 10, "maxPages": 1, "proxy": {"useApifyProxy": true, "apifyProxyGroups": ["RESIDENTIAL"], "apifyProxyCountry": "GB"}}'
+  -d '{"mode": "search", "locations": ["London"], "jobType": "any", "companyType": "any", "salaryType": "annual", "postedWithin": "0", "sortBy": "relevance", "maxListings": 10, "maxPages": 1, "maxResults": 10, "descriptionFormat": "html", "proxy": {"useApifyProxy": true, "apifyProxyGroups": ["RESIDENTIAL"], "apifyProxyCountry": "GB"}}'
 ```
 
 ## Inputs
@@ -33,11 +33,27 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~totaljobs-com-scraper/run
 | `salaryType` | string | Salary period |
 | `postedWithin` | string | Posted within (days) |
 | `sortBy` | string | Sort by |
+| `remote` | boolean | Remote only |
+| `contractType` | string | Contract type |
+| `excludeSponsored` | boolean | Exclude sponsored jobs |
 | `urls` | array | Search URLs |
 | `fetchDetails` | boolean | Fetch full job details |
 | `maxListings` | integer | Max jobs |
 | `maxPages` | integer | Max pages per search |
+| `query` | string | Query (alias of Keywords) |
+| `location` | string | Location (alias of Locations) |
+| `startUrls` | array | Start URLs (alias of URLs) |
+| `age` | integer | Age in days (alias of Posted within) |
+| `sort` | string | Sort (alias of Sort by) |
+| `maxResults` | integer | Max results (alias of Max jobs) |
+| `includeDetails` | boolean | Include details (alias of Fetch detail |
+| `descriptionFormat` | string | Description format |
+| `descriptionMaxLength` | integer | Description max length |
+| `outputFields` | array | Output fields |
+| `compact` | boolean | Compact rows |
+| `excludeEmptyFields` | boolean | Exclude empty fields |
 | `proxy` | object | Proxy |
+| `proxyConfiguration` | object | Proxy (alias) |
 
 `*` required
 
@@ -76,6 +92,10 @@ Full details on the [scraper page](https://apify.com/abotapi/totaljobs-com-scrap
 | `isTrafficFromPartner` | boolean |
 | `partnership` | object |
 | `travelTime` | null |
+| `labels` | list |
+| `topLabels` | list |
+| `section` | string |
+| `metaData` | object |
 | `description` | null |
 | `descriptionText` | null |
 | `validThrough` | null |
@@ -85,10 +105,6 @@ Full details on the [scraper page](https://apify.com/abotapi/totaljobs-com-scrap
 | `applyType` | null |
 | `jobLocationType` | null |
 | `applicantLocationRequirements` | null |
-| `externalId` | string |
-| `contractType` | null |
-| `workType` | null |
-| `company` | null |
 
 ---
 

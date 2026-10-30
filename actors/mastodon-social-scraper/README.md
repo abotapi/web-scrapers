@@ -1,6 +1,6 @@
 # Mastodon Scraper
 
-Scrape trending Mastodon profiles and related posts from any Mastodon instance. Returns rich profile data, follower counts, bios, avatars, fields, and thread replies. Supports nested profile reviews or flat review output.
+Scrape trending Mastodon profiles and related posts from any Mastodon instance. Extract usernames, bios, follower counts, avatars, profile fields, posts and thread replies. Supports nested profile reviews or flat review output for easier analysis.
 
 **[Open Mastodon Scraper on Apify](https://apify.com/abotapi/mastodon-social-scraper?utm_source=github&utm_medium=web-scrapers&utm_campaign=monorepo)** to run it without code and export JSON, CSV or Excel.
 
@@ -17,7 +17,7 @@ python example.py
 ```bash
 curl -s -X POST "https://api.apify.com/v2/acts/abotapi~mastodon-social-scraper/run-sync-get-dataset-items?token=$APIFY_TOKEN" \
   -H 'Content-Type: application/json' \
-  -d '{"mode": "profiles", "instanceUrl": "https://mastodon.social", "profileSource": "both", "keywords": ["news"], "maxProfiles": 10, "maxReviewsPerProfile": 10, "maxReviews": 10, "maxPosts": 10, "proxy": {"useApifyProxy": true}}'
+  -d '{"mode": "profiles", "instanceUrl": "https://mastodon.social", "profileSource": "both", "keywords": ["news"], "sortBy": "newest", "maxProfiles": 10, "maxReviewsPerProfile": 10, "maxReviews": 10, "maxPosts": 10, "proxy": {"useApifyProxy": true}}'
 ```
 
 ## Inputs
@@ -28,9 +28,15 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~mastodon-social-scraper/r
 | `instanceUrl` | string | Mastodon instance |
 | `profileSource` | string | Trending profile source |
 | `onlyLocal` | boolean | Local accounts only |
-| `urls` | array | Profile or post URLs (optional) |
+| `urls` | array | URLs (any Mastodon URL shape) |
+| `accounts` | array | Accounts (plain names) |
 | `keywords` | array | Keywords (keyword mode) |
+| `hashtags` | array | Hashtags (alias of keywords) |
 | `includeReplies` | boolean | Include replies |
+| `includeBoosts` | boolean | Include boosts |
+| `since` | string | Posts since (date) |
+| `until` | string | Posts until (date) |
+| `sortBy` | string | Sort posts by |
 | `maxProfiles` | integer | Max profiles |
 | `maxReviewsPerProfile` | integer | Max posts per profile |
 | `maxRepliesPerPost` | integer | Max replies per post |

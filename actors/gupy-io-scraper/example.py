@@ -18,6 +18,7 @@ run = client.actor("abotapi/gupy-io-scraper").call(
         "maxItems": 10,
         "maxPages": 1,
         "proxyConfiguration": {"useApifyProxy": True, "apifyProxyGroups": []},
+        "maxResults": 10,
     },
     logger=None,  # don't stream the run log to your console
 )

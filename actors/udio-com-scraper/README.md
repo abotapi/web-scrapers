@@ -46,7 +46,7 @@ Full details on the [scraper page](https://apify.com/abotapi/udio-com-scraper?ut
 | `url` | string |
 | `title` | string |
 | `artist` | string |
-| `artistImageUrl` | null |
+| `artistImageUrl` | string |
 | `creatorId` | string |
 | `prompt` | string |
 | `lyrics` | string |

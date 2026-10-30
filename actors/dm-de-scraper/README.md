@@ -17,7 +17,7 @@ python example.py
 ```bash
 curl -s -X POST "https://api.apify.com/v2/acts/abotapi~dm-de-scraper/run-sync-get-dataset-items?token=$APIFY_TOKEN" \
   -H 'Content-Type: application/json' \
-  -d '{"mode": "search", "searchTerm": "shampoo", "sortBy": "RELEVANCE", "maxReviewsPerProduct": 10, "maxPages": 1, "maxItems": 10, "proxy": {"useApifyProxy": true}}'
+  -d '{"mode": "search", "searchTerm": "shampoo", "country": "de", "sortBy": "RELEVANCE", "maxReviewsPerProduct": 10, "maxPages": 1, "maxItems": 10, "maxResults": 10, "proxy": {"useApifyProxy": true}}'
 ```
 
 ## Inputs
@@ -26,7 +26,10 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~dm-de-scraper/run-sync-ge
 | --- | --- | --- |
 | `mode` * | string | Mode |
 | `searchTerm` | string | Search keyword or category |
+| `searchQuery` | string | Search query (alias of Search keyword) |
 | `urls` | array | URLs to scrape |
+| `categoryUrl` | string | Category URL (alias of URLs to scrape) |
+| `country` | string | Country |
 | `specialsOnly` | boolean | Ausverkauf / clearance only |
 | `brands` | array | Brands |
 | `minRating` | integer | Minimum rating |
@@ -38,6 +41,7 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~dm-de-scraper/run-sync-ge
 | `maxReviewsPerProduct` | integer | Max reviews per product |
 | `maxPages` | integer | Max pages per search |
 | `maxItems` | integer | Max products total |
+| `maxResults` | integer | Max results (alias of Max products tot |
 | `proxy` | object | Proxy configuration |
 
 `*` required
@@ -72,8 +76,10 @@ Full details on the [scraper page](https://apify.com/abotapi/dm-de-scraper?utm_s
 | `reviewCount` | integer |
 | `isPharmacy` | boolean |
 | `image` | string |
+| `imageUrl` | string |
 | `images` | list |
 | `reviews` | object |
+| `scrapedAt` | string |
 
 ---
 

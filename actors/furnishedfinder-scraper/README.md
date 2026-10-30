@@ -59,7 +59,7 @@ Full details on the [scraper page](https://apify.com/abotapi/furnishedfinder-scr
 | `propertyType` | string |
 | `propertyTypeClass` | string |
 | `bedroomCount` | integer |
-| `bathroomCount` | float |
+| `bathroomCount` | integer |
 | `bathroomType` | null |
 | `totalSleeps` | integer |
 | `laundryType` | string |

@@ -33,11 +33,12 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~hijobs-net-jobs-scraper/r
 | `sort` | string | Sort order |
 | `salaryFrom` | integer | Minimum salary |
 | `salaryTo` | integer | Maximum salary |
+| `featuredOnly` | boolean | Featured jobs only |
 | `postedWithinHours` | integer | Only jobs posted within the last N hou |
 | `urls` | array | hijobs.net URLs |
 | `fetchDetails` | boolean | Fetch full job details |
-| `maxItems` | integer | Max jobs (total, default 20, 0  unlimi |
-| `maxPages` | integer | Max result pages per search (0  unlimi |
+| `maxItems` | integer | Max jobs (total, default 20, 0  hard c |
+| `maxPages` | integer | Max result pages per search (0  hard c |
 | `proxy` | object | Proxy configuration |
 
 `*` required
@@ -70,6 +71,7 @@ Full details on the [scraper page](https://apify.com/abotapi/hijobs-net-jobs-scr
 | `recruiterSlug` | string |
 | `companyLogo` | string |
 | `companyWebsite` | string |
+| `companyDomain` | string |
 | `contactName` | string |
 | `employer` | object |
 | `location` | string |
@@ -80,16 +82,15 @@ Full details on the [scraper page](https://apify.com/abotapi/hijobs-net-jobs-scr
 | `longitude` | float |
 | `salary` | object |
 | `salaryRaw` | string |
-| `salaryMin` | float |
-| `salaryMax` | float |
+| `salaryMin` | integer |
+| `salaryMax` | integer |
 | `categories` | list |
-| `sector` | string |
+| `sector` | null |
 | `specialism` | null |
 | `employmentTypes` | list |
 | `contractType` | string |
 | `hours` | string |
 | `hoursValue` | integer |
-| `hoursGeneral` | string |
 
 ---
 

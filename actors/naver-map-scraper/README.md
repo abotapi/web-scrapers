@@ -28,6 +28,12 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~naver-map-scraper/run-syn
 | `keywords` | array | Search keywords |
 | `sort` | string | Sort order |
 | `searchCoordinates` | string | Search centre (lat,lng) |
+| `newlyOpened` | boolean | Newly opened only |
+| `naverPay` | boolean | Naver Pay only |
+| `hasCoupon` | boolean | With coupons only |
+| `wheelchairAccessible` | boolean | Wheelchair accessible only |
+| `searchRadiusKm` | number | Radius around search centre (km) |
+| `reviewCutoffDate` | string | Reviews on or after (YYYY-MM-DD) |
 | `startUrls` | array | URLs |
 | `includeDetails` | boolean | Include place details |
 | `includeReviews` | boolean | Include visitor reviews |

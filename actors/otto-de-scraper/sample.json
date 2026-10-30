@@ -1,94 +1,37 @@
 [
   {
-    "productId": "s9hjt0r1",
-    "variationId": "sblxt5x3e1bd",
-    "articleNumber": "s7hjt2r0ylt",
+    "productId": "s0bap46r",
+    "variationId": "s0bap70rhhvb",
+    "articleNumber": "s8bap96rbz0",
     "name": "Example name: mock text standing in for the real value. Same field and type, made-up content.",
-    "brand": "GrainGold",
+    "brand": "id88089300",
     "url": "https://www.otto.de/example/92532",
     "image": "https://i.otto.de/example/68309.jpg",
     "images": [
       "https://i.otto.de/example/38997.jpg",
       "https://i.otto.de/example/27128.jpg"
     ],
-    "price": 5738,
+    "price": 338,
     "currency": "EUR",
-    "originalPrice": 6347,
+    "originalPrice": 947,
     "discountPercent": 54,
     "isOnSpecial": true,
     "promoLabel": "Example promo label",
     "availability": "AVAILABLE",
     "availabilityText": "Example availability text",
-    "rating": null,
-    "reviewCount": 0,
+    "rating": 5,
+    "reviewCount": 409,
     "variants": [
       {
-        "variationId": "sm2uyewifij6",
-        "color": "Creme",
-        "hexCode": "cec8ba",
+        "variationId": "s3bap66rfm0t",
+        "color": "Example color",
+        "hexCode": "9e7d8b",
         "selected": false
       },
       {
-        "variationId": "slxivva3htua",
-        "color": "Beige",
-        "hexCode": "c4bcb2",
-        "selected": false
-      }
-    ],
-    "category": null,
-    "seller": null,
-    "ean": null,
-    "gtin": null,
-    "sku": null,
-    "description": null,
-    "specs": null,
-    "breadcrumb": null,
-    "returnPolicy": null,
-    "reviews": {
-      "averageRating": null,
-      "reviewCount": 0,
-      "items": []
-    },
-    "link": "https://www.otto.de/example/1439",
-    "priceCurrency": "EUR",
-    "aggregateRating": {
-      "ratingValue": null,
-      "reviewCount": 0
-    }
-  },
-  {
-    "productId": "s29jq0bb",
-    "variationId": "s7s2cdadma5t",
-    "articleNumber": "s59jq6bbp73",
-    "name": "Example name: mock text standing in for the real value. Same field and type, made-up content.",
-    "brand": "GrainGold",
-    "url": "https://www.otto.de/example/97175",
-    "image": "https://i.otto.de/example/18147.jpg",
-    "images": [
-      "https://i.otto.de/example/58123.jpg",
-      "https://i.otto.de/example/86454.jpg"
-    ],
-    "price": 892,
-    "currency": "EUR",
-    "originalPrice": 1831,
-    "discountPercent": 95,
-    "isOnSpecial": true,
-    "promoLabel": "Example promo label",
-    "availability": "AVAILABLE",
-    "availabilityText": "Example availability text",
-    "rating": 8,
-    "reviewCount": 1,
-    "variants": [
-      {
-        "variationId": "sannbmjf3mns",
-        "color": "Grau",
-        "hexCode": "209a82",
-        "selected": false
-      },
-      {
-        "variationId": "s8s8cdadma0t",
-        "color": "Beige",
-        "hexCode": "aa0a5c",
+        "variationId": "s5bap50rhhvb",
+        "color": "Example color",
+        "hexCode": "c5b6ab",
         "selected": true
       }
     ],
@@ -102,30 +45,30 @@
     "breadcrumb": null,
     "returnPolicy": null,
     "reviews": {
-      "averageRating": 3,
-      "reviewCount": 1,
+      "averageRating": 9,
+      "reviewCount": 409,
       "items": [
         {
-          "reviewId": "id14226036",
-          "rating": 8,
+          "reviewId": "id19181106",
+          "rating": 5,
           "verifiedPurchase": null,
-          "author": "Example author",
-          "location": "Example location",
-          "date": "68.07.9544",
-          "title": "Example title",
-          "body": "Example body: mock text standing in for the real value. Same field and type, made-up content.",
-          "helpfulVotes": 1,
-          "helpfulVotesTotal": 1,
-          "variantPurchased": "Example variant purchased",
-          "seller": "Example seller"
+          "author": null,
+          "location": null,
+          "date": null,
+          "title": null,
+          "body": null,
+          "helpfulVotes": null,
+          "helpfulVotesTotal": null,
+          "variantPurchased": null,
+          "seller": null
         }
       ]
     },
-    "link": "https://www.otto.de/example/20021",
+    "link": "https://www.otto.de/example/1439",
     "priceCurrency": "EUR",
     "aggregateRating": {
-      "ratingValue": 4,
-      "reviewCount": 1
+      "ratingValue": 6,
+      "reviewCount": 409
     }
   }
 ]

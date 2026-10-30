@@ -27,14 +27,18 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~wildberries-marketplace-s
 | `mode` * | string | Mode |
 | `query` | string | Search query |
 | `urls` | array | Wildberries links |
+| `ignoreUrlFailures` | boolean | Ignore URL failures |
+| `maxItemsPerUrl` | integer | Max items per link |
 | `sortBy` | string | Sort by |
 | `priceMin` | integer | Min price (RUB) |
 | `priceMax` | integer | Max price (RUB) |
 | `minRating` | integer | Min rating (1-5) |
 | `minFeedbacks` | integer | Min review count |
 | `onlyWithDiscount` | boolean | Only discounted products |
+| `deliveryTime` | string | Delivery time |
 | `fetchDetails` | boolean | Fetch full product details |
 | `maxFeedbacksPerProduct` | integer | Max reviews per product |
+| `includeMetaData` | boolean | Include raw card metadata |
 | `maxItems` | integer | Max items |
 | `maxPages` | integer | Max pages per scope |
 | `proxyConfiguration` | object | Proxy configuration |
@@ -73,7 +77,7 @@ Full details on the [scraper page](https://apify.com/abotapi/wildberries-marketp
 | `warehouseIds` | list |
 | `deliveryDaysMin` | integer |
 | `deliveryDaysMax` | integer |
-| `colors` | list |
+| `colors` | null |
 | `imageUrl` | string |
 | `imageUrlsCount` | integer |
 | `supplierId` | integer |
@@ -83,6 +87,12 @@ Full details on the [scraper page](https://apify.com/abotapi/wildberries-marketp
 | `characteristics` | null |
 | `feedbacks` | list |
 | `feedbackSummary` | object |
+| `siteBrandId` | integer |
+| `subjectParentId` | integer |
+| `kindId` | integer |
+| `entity` | string |
+| `matchId` | integer |
+| `supplierFlags` | integer |
 
 ---
 

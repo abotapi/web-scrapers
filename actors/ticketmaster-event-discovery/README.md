@@ -17,7 +17,7 @@ python example.py
 ```bash
 curl -s -X POST "https://api.apify.com/v2/acts/abotapi~ticketmaster-event-discovery/run-sync-get-dataset-items?token=$APIFY_TOKEN" \
   -H 'Content-Type: application/json' \
-  -d '{"mode": "search", "query": "concerts", "market": "us", "maxItems": 10, "maxPages": 1, "proxyConfiguration": {"useApifyProxy": true, "apifyProxyGroups": ["RESIDENTIAL"]}}'
+  -d '{"mode": "search", "query": "concerts", "market": "us", "maxItems": 10, "maxPages": 1, "proxyConfiguration": {"useApifyProxy": true, "apifyProxyGroups": ["RESIDENTIAL"]}, "changeScope": "all"}'
 ```
 
 ## Inputs
@@ -31,10 +31,15 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~ticketmaster-event-discov
 | `city` | string | City filter |
 | `dateFrom` | string | Start date from |
 | `dateTo` | string | Start date to |
+| `startDate` | string | Start date from (alias) |
+| `endDate` | string | Start date to (alias) |
 | `urls` | array | Ticketmaster links |
 | `maxItems` | integer | Max items |
 | `maxPages` | integer | Max pages |
 | `proxyConfiguration` | object | Proxy configuration |
+| `changeScope` | string | What counts as a change (incremental m |
+| `compactUpdates` | boolean | Compact update rows (incremental mode  |
+| `expireAfterMissedScans` | integer | Expire after N missed full scans (incr |
 
 `*` required
 

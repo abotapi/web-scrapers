@@ -24,6 +24,7 @@
     "phones": [
       "+1 555 0100"
     ],
+    "website": "https://www.noburestaurants.com/example/63926",
     "totalScore": 3.85,
     "reviewsCount": 4,
     "photosCount": 1,
@@ -31,6 +32,7 @@
       "https://avatars.mds.yandex.net/example/77263.jpg",
       "https://avatars.mds.yandex.net/example/80214.jpg"
     ],
+    "logoUrl": "https://avatars.mds.yandex.net/example/34583.jpg",
     "seoname": "Example seoname",
     "reviews": [
       {
@@ -38,18 +40,134 @@
         "authorLevel": "Example author level",
         "rating": 6,
         "text": "Example text: mock text standing in for the real value. Same field and type, made-up content.",
-        "date": "2026-01-15T10:00:00Z"
+        "date": "2026-01-15T10:00:00Z",
+        "reviewId": "9k44zzf8mgwtbb4rnj5fmh0ddrnr4zws",
+        "authorId": "id47890325",
+        "authorAvatarUrl": "https://avatars.mds.yandex.net/example/16430.jpg",
+        "authorProfileUrl": "https://yandex.com/example/45784",
+        "textLanguage": "ru",
+        "likeCount": 1,
+        "dislikeCount": 8,
+        "isPinned": false,
+        "textLanguageName": "Example text language name",
+        "textTranslations": [
+          {
+            "language": "en",
+            "text": "Example text: mock text standing in for the real value. Same field and type, made-up content."
+          },
+          {
+            "language": "tr",
+            "text": "Example text: mock text standing in for the real value. Same field and type, made-up content."
+          }
+        ]
+      },
+      {
+        "authorName": "Example author name",
+        "authorLevel": "Example author level",
+        "rating": 8,
+        "text": "Example text: mock text standing in for the real value. Same field and type, made-up content.",
+        "date": "2026-01-15T10:00:00Z",
+        "reviewId": "aq-nrnfvamo6j-2fdoixk_bbrtosferh",
+        "authorId": "id7418779",
+        "authorAvatarUrl": "https://avatars.mds.yandex.net/example/59198.jpg",
+        "authorProfileUrl": "https://yandex.com/example/20716",
+        "textLanguage": "ru",
+        "likeCount": 7,
+        "dislikeCount": 0,
+        "isPinned": false,
+        "textLanguageName": "Example text language name",
+        "textTranslations": [
+          {
+            "language": "en",
+            "text": "Example text: mock text standing in for the real value. Same field and type, made-up content."
+          },
+          {
+            "language": "tr",
+            "text": "Example text: mock text standing in for the real value. Same field and type, made-up content."
+          }
+        ]
       }
     ],
     "location": {
       "lat": 30.94,
       "lng": -54.03
     },
-    "workingTime": {
-      "text": "Example text: mock text standing in for the real value. Same field and type, made-up content.",
-      "openNow": true,
-      "openNowText": "Example open now text"
-    }
+    "description": "Example description",
+    "shortTitle": "Example short title",
+    "status": "open",
+    "geoId": 984,
+    "regionId": 814,
+    "region": "new-york",
+    "city": "Example city",
+    "street": "Example street",
+    "house": "330",
+    "timezoneOffset": -13942,
+    "latitude": 41.53,
+    "longitude": -80.67,
+    "isOpenNow": false,
+    "isVerifiedOwner": false,
+    "socialLinks": [
+      {
+        "type": "facebook",
+        "url": "http://facebook.com/example/89731",
+        "readableHref": "Example readable href"
+      },
+      {
+        "type": "instagram",
+        "url": "http://instagram.com/example/7906",
+        "readableHref": "Example readable href"
+      }
+    ],
+    "nearbyMetro": [
+      {
+        "id": "stop__new_york-mta-nyc-subway586s",
+        "name": "Example name",
+        "distance": "Example distance",
+        "distanceValue": 86.62,
+        "type": "metro",
+        "coordinates": [
+          -71.79,
+          49.67
+        ],
+        "lineColor": "Example line color"
+      },
+      {
+        "id": "stop__new_york-mta-nyc-subway906n",
+        "name": "Example name",
+        "distance": "Example distance",
+        "distanceValue": 70.05,
+        "type": "metro",
+        "coordinates": [
+          -90.29,
+          34.2
+        ],
+        "lineColor": "Example line color"
+      }
+    ],
+    "nearbyStops": [
+      {
+        "id": "id17048496",
+        "name": "Example name",
+        "distance": "Example distance",
+        "distanceValue": 175.48,
+        "type": "common",
+        "coordinates": [
+          -71.79,
+          49.67
+        ]
+      },
+      {
+        "id": "id69664006",
+        "name": "Example name",
+        "distance": "Example distance",
+        "distanceValue": 339.15,
+        "type": "common",
+        "coordinates": [
+          -90.29,
+          34.2
+        ]
+      }
+    ]
   },
   {
     "source": "yandex_maps",
@@ -77,6 +195,7 @@
       "+1 555 0100",
       "+1 555 0100"
     ],
+    "website": "https://www.timeoutmarket.com/example/20085",
     "totalScore": 4.63,
     "reviewsCount": 3,
     "photosCount": 36,
@@ -84,6 +203,7 @@
       "https://avatars.mds.yandex.net/example/48163.jpg",
       "https://avatars.mds.yandex.net/example/9639.jpg"
     ],
+    "logoUrl": "https://avatars.mds.yandex.net/example/80529.jpg",
     "seoname": "Example seoname",
     "reviews": [
       {
@@ -91,17 +211,147 @@
         "authorLevel": "Example author level",
         "rating": 8,
         "text": "Example text: mock text standing in for the real value. Same field and type, made-up content.",
-        "date": "2026-01-15T10:00:00Z"
+        "date": "2026-01-15T10:00:00Z",
+        "reviewId": "5d1n6o4nbhwirb8s10rjcjynzophcb9m",
+        "authorId": "Example author id",
+        "authorAvatarUrl": "https://avatars.mds.yandex.net/example/45632.jpg",
+        "authorProfileUrl": "https://yandex.com/example/3285",
+        "textLanguage": "ru",
+        "likeCount": 0,
+        "dislikeCount": 0,
+        "isPinned": false,
+        "photoUrls": [
+          "https://avatars.mds.yandex.net/example/48163.jpg"
+        ],
+        "textLanguageName": "Example text language name",
+        "textTranslations": [
+          {
+            "language": "en",
+            "text": "Example text: mock text standing in for the real value. Same field and type, made-up content."
+          },
+          {
+            "language": "tr",
+            "text": "Example text: mock text standing in for the real value. Same field and type, made-up content."
+          }
+        ],
+        "photoDetails": [
+          {
+            "id": "id92724638",
+            "url": "https://avatars.mds.yandex.net/example/68292.jpg",
+            "createdTime": "2026-01-15T10:00:00Z",
+            "moderationStatus": "ACCEPTED",
+            "likeCount": 0,
+            "dislikeCount": 0,
+            "copyright": "Example copyright",
+            "showReactions": true
+          }
+        ]
+      },
+      {
+        "authorName": "Example author name",
+        "authorLevel": "Example author level",
+        "rating": 9,
+        "text": "Example text: mock text standing in for the real value. Same field and type, made-up content.",
+        "date": "2026-01-15T10:00:00Z",
+        "reviewId": "trcxcclutnnv8_5uigaazww6bpw5l00xp",
+        "authorId": "id93635413",
+        "authorProfileUrl": "https://yandex.com/example/41924",
+        "textLanguage": "ru",
+        "likeCount": 9,
+        "dislikeCount": 0,
+        "isPinned": false,
+        "textLanguageName": "Example text language name",
+        "textTranslations": [
+          {
+            "language": "en",
+            "text": "Example text: mock text standing in for the real value. Same field and type, made-up content."
+          },
+          {
+            "language": "tr",
+            "text": "Example text: mock text standing in for the real value. Same field and type, made-up content."
+          }
+        ]
       }
     ],
     "location": {
       "lat": 40.7,
       "lng": -85.83
     },
-    "workingTime": {
-      "text": "Example text: mock text standing in for the real value. Same field and type, made-up content.",
-      "openNow": true,
-      "openNowText": "Example open now text"
-    }
+    "description": "Example description",
+    "shortTitle": "Example short title",
+    "status": "open",
+    "geoId": 246,
+    "regionId": 482,
+    "region": "new-york",
+    "city": "Example city",
+    "street": "Example street",
+    "house": "85",
+    "timezoneOffset": -31044,
+    "latitude": 41.92,
+    "longitude": -67.33,
+    "isOpenNow": false,
+    "isVerifiedOwner": false,
+    "socialLinks": [
+      {
+        "type": "instagram",
+        "url": "https://www.instagram.com/example/68292",
+        "readableHref": "Example readable href"
+      },
+      {
+        "type": "twitter",
+        "url": "https://twitter.com/example/45900",
+        "readableHref": "Example readable href"
+      }
+    ],
+    "nearbyMetro": [
+      {
+        "id": "stop__new_york-mta-nyc-subwaya60s",
+        "name": "Example name",
+        "distance": "Example distance",
+        "distanceValue": 785.65,
+        "type": "metro",
+        "coordinates": [
+          -85.09,
+          38.66
+        ],
+        "lineColor": "Example line color"
+      },
+      {
+        "id": "stop__new_york-mta-nyc-subwaya97n",
+        "name": "Example name",
+        "distance": "Example distance",
+        "distanceValue": 679.65,
+        "type": "metro",
+        "coordinates": [
+          -70.29,
+          34.19
+        ],
+        "lineColor": "Example line color"
+      }
+    ],
+    "nearbyStops": [
+      {
+        "id": "id92724638",
+        "name": "Example name",
+        "distance": "Example distance",
+        "distanceValue": 1466.55,
+        "type": "common",
+        "coordinates": [
+          -85.1,
+          38.67
+        ]
+      },
+      {
+        "id": "id74699751",
+        "name": "Example name",
+        "distance": "Example distance",
+        "distanceValue": 1274.9,
+        "type": "common",
+        "coordinates": [
+          -70.3,
+          34.2
+        ]
+      }
+    ]
   }
 ]

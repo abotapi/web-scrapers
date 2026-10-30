@@ -17,7 +17,7 @@ python example.py
 ```bash
 curl -s -X POST "https://api.apify.com/v2/acts/abotapi~auchan-fr-scraper/run-sync-get-dataset-items?token=$APIFY_TOKEN" \
   -H 'Content-Type: application/json' \
-  -d '{"mode": "search", "postalCode": "75001", "deliveryMode": "drive", "searchTerm": "lait", "sortBy": "RELEVANCE", "maxPages": 1, "maxItems": 10, "proxy": {"useApifyProxy": true}}'
+  -d '{"mode": "search", "postalCode": "75001", "deliveryMode": "drive", "searchTerm": "lait", "sortBy": "RELEVANCE", "maxPages": 1, "maxItems": 10, "proxy": {"useApifyProxy": true}, "maxResults": 10}'
 ```
 
 ## Inputs
@@ -36,6 +36,8 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~auchan-fr-scraper/run-syn
 | `maxPages` | integer | Max search pages |
 | `maxItems` | integer | Max products total |
 | `proxy` | object | Proxy configuration |
+| `searchQuery` | string | Search keyword (alias) |
+| `maxResults` | integer | Max products (alias) |
 
 `*` required
 
@@ -65,6 +67,7 @@ Full details on the [scraper page](https://apify.com/abotapi/auchan-fr-scraper?u
 | `deliveryPromise` | string |
 | `deliveryChannel` | string |
 | `stock` | integer |
+| `priceValidUntil` | string |
 | `averageRating` | null |
 | `reviewCount` | integer |
 | `images` | list |
@@ -72,6 +75,13 @@ Full details on the [scraper page](https://apify.com/abotapi/auchan-fr-scraper?u
 | `category` | null |
 | `ean` | null |
 | `reviews` | object |
+| `name` | string |
+| `url` | string |
+| `imageUrl` | string |
+| `inStock` | boolean |
+| `rating` | null |
+| `scrapedAt` | string |
+| `reviewItems` | list |
 
 ---
 

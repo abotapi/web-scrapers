@@ -17,7 +17,7 @@ python example.py
 ```bash
 curl -s -X POST "https://api.apify.com/v2/acts/abotapi~globo-ge/run-sync-get-dataset-items?token=$APIFY_TOKEN" \
   -H 'Content-Type: application/json' \
-  -d '{"mode": "search", "queries": ["flamengo"], "maxItems": 10, "maxPages": 1, "proxyConfiguration": {"useApifyProxy": true}}'
+  -d '{"mode": "search", "queries": ["flamengo"], "sportsCategory": "all", "maxItems": 10, "maxPages": 1, "proxyConfiguration": {"useApifyProxy": true}}'
 ```
 
 ## Inputs
@@ -27,6 +27,7 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~globo-ge/run-sync-get-dat
 | `mode` | string | Collection mode |
 | `queries` | array | Search keywords |
 | `urls` | array | GE URLs |
+| `sportsCategory` | string | Sports section |
 | `fetchDetails` | boolean | Fetch article details |
 | `maxItems` | integer | Maximum records |
 | `maxPages` | integer | Maximum pages |
@@ -49,6 +50,7 @@ Full details on the [scraper page](https://apify.com/abotapi/globo-ge?utm_source
 | `publishedAt` | string |
 | `modifiedAt` | string |
 | `species` | string |
+| `source` | string |
 | `recordType` | string |
 | `thumbnailUrl` | string |
 | `durationSeconds` | integer |

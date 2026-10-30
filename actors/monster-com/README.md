@@ -17,7 +17,7 @@ python example.py
 ```bash
 curl -s -X POST "https://api.apify.com/v2/acts/abotapi~monster-com/run-sync-get-dataset-items?token=$APIFY_TOKEN" \
   -H 'Content-Type: application/json' \
-  -d '{"mode": "search", "query": "software engineer", "location": "New York, NY", "workplace": "all", "datePosted": "all", "employmentType": "all", "sortBy": "relevance", "maxItems": 10, "maxPages": 1, "proxy": {"useApifyProxy": true, "apifyProxyGroups": ["RESIDENTIAL"]}}'
+  -d '{"mode": "search", "query": "software engineer", "location": "New York, NY", "workplace": "all", "datePosted": "all", "postedWithinDays": "any", "country": "US", "employmentType": "all", "sortBy": "relevance", "maxItems": 10, "maxPages": 1, "proxy": {"useApifyProxy": true, "apifyProxyGroups": ["RESIDENTIAL"]}}'
 ```
 
 ## Inputs
@@ -27,16 +27,22 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~monster-com/run-sync-get-
 | `mode` * | string | Mode |
 | `query` | string | Keywords |
 | `location` | string | Location |
+| `address` | string | Address (alias of Location) |
 | `radius` | integer | Radius in miles |
 | `workplace` | string | Workplace |
 | `startUrls` | array | Start URLs |
 | `datePosted` | string | Date posted |
+| `postedWithinDays` | string | Posted within (days) |
+| `country` | string | Country |
 | `employmentType` | string | Employment type |
 | `company` | string | Company contains |
 | `sortBy` | string | Sort |
 | `enrichEmails` | boolean | Extract public emails |
 | `maxItems` | integer | Max items |
 | `maxPages` | integer | Max pages |
+| `scrapeAllPages` | boolean | Scrape all pages |
+| `startPage` | integer | Start page |
+| `pageSize` | integer | Page size |
 | `proxy` | object | Proxy configuration |
 
 `*` required
@@ -57,10 +63,10 @@ Full details on the [scraper page](https://apify.com/abotapi/monster-com?utm_sou
 | `companyLogo` | string |
 | `companyDescription` | string |
 | `location` | string |
-| `streetAddress` | null |
+| `streetAddress` | string |
 | `city` | string |
 | `region` | string |
-| `postalCode` | null |
+| `postalCode` | string |
 | `country` | string |
 | `latitude` | float |
 | `longitude` | float |
@@ -71,13 +77,13 @@ Full details on the [scraper page](https://apify.com/abotapi/monster-com?utm_sou
 | `status` | string |
 | `jobType` | string |
 | `ingestionMethod` | string |
-| `industry` | string |
+| `industry` | null |
 | `occupationalCategory` | null |
 | `educationRequirements` | null |
 | `employmentTypes` | list |
 | `employmentTypesText` | string |
-| `salaryMin` | integer |
-| `salaryMax` | integer |
+| `salaryMin` | null |
+| `salaryMax` | null |
 | `salaryCurrency` | string |
 | `salaryUnit` | string |
 | `remote` | boolean |

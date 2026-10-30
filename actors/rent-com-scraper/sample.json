@@ -12,11 +12,11 @@
     "city": "Example city",
     "state": "CA",
     "stateName": "Example state name",
-    "zip": "57491",
+    "zip": "21846",
     "latitude": 37.81,
-    "longitude": -149.02,
+    "longitude": -149.06,
     "bedsMin": 0,
-    "bedsMax": 0,
+    "bedsMax": 8,
     "bedsLabel": "Example beds label",
     "bathsMin": 3,
     "bathsMax": 4,
@@ -24,7 +24,7 @@
     "sqftMin": 765,
     "sqftMax": 267,
     "priceMin": 4699,
-    "priceMax": 6483,
+    "priceMax": null,
     "priceLabel": "Example price label",
     "availability": "TODAY",
     "unitsAvailableText": "Example units available text",
@@ -32,19 +32,17 @@
     "phoneText": "+1 555 0100",
     "phoneSem": "+1 555 0100",
     "phoneSemText": "+1 555 0100",
-    "specialOffer": null,
-    "specialOfferCategory": null,
-    "deals": [],
+    "specialOffer": "Example special offer: mock text standing in for the real value. Same field and type, made-up content.",
+    "specialOfferCategory": "Example special offer category",
+    "deals": [
+      "Example deals: mock text standing in for the real value. Same field and type, made-up content."
+    ],
     "categoryBadges": [],
-    "amenitiesHighlighted": [
-      "Example amenities highlighted",
-      "Example amenities highlighted"
+    "dealTypes": [
+      "Example deal types"
     ],
-    "amenitiesAll": [
-      "Example amenities all",
-      "Example amenities all"
-    ],
-    "petsCats": true,
-    "petsDogs": true
+    "tourUrls": [],
+    "videoUrls": [],
+    "priceDropAmounts": []
   }
 ]

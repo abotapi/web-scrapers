@@ -2,19 +2,19 @@
   {
     "recordType": "post",
     "sourceQuery": "https://truthsocial.com/example/79023",
-    "postId": "217313163296589565",
-    "id": "537792683102663331",
+    "postId": "142918576586886340",
+    "id": "322639963716746578",
     "uri": "https://truthsocial.com/example/28908",
     "postUrl": "https://truthsocial.com/example/76572",
-    "content": "",
-    "contentHtml": "Example content html",
+    "content": "https://www.youtube.com/example/85293",
+    "contentHtml": "Example content html: mock text standing in for the real value. Same field and type, made-up content.",
     "createdAt": "2026-01-15T10:00:00Z",
     "editedAt": null,
     "language": null,
     "repliesCount": 336,
-    "reTruthsCount": 538,
-    "likesCount": 393,
-    "favouritesCount": 716,
+    "reTruthsCount": 6838,
+    "likesCount": 3993,
+    "favouritesCount": 5216,
     "quotesCount": null,
     "inReplyToId": null,
     "inReplyToAccountId": null,
@@ -23,50 +23,32 @@
     "visibility": "public",
     "isReblog": false,
     "rebloggedByAcct": null,
-    "media": [
-      {
-        "id": "607692994861421521",
-        "type": "video",
-        "url": "https://static-assets-1.truthsocial.com/example/53377",
-        "preview_url": "https://static-assets-1.truthsocial.com/example/87212.jpg",
-        "external_video_id": "id12857439",
-        "remote_url": null,
-        "preview_remote_url": null,
-        "text_url": null,
-        "meta": {
-          "colors": {
-            "accent": "Example accent",
-            "background": "Example background",
-            "foreground": "Example foreground"
-          },
-          "original": {
-            "bitrate": 9352357,
-            "duration": 68,
-            "frame_rate": "44418/189",
-            "height": 848,
-            "width": 450
-          },
-          "small": {
-            "aspect": 0.51,
-            "height": 848,
-            "size": "id86964199",
-            "width": 450
-          }
-        },
-        "description": null,
-        "blurhash": "Example blurhash",
-        "processing": "complete"
-      }
-    ],
-    "mediaUrls": [
-      "https://static-assets-1.truthsocial.com/example/52516"
-    ],
+    "media": [],
+    "mediaUrls": [],
     "tags": [],
     "mentions": [],
     "poll": null,
-    "card": null,
-    "cardUrl": null,
-    "cardTitle": null,
+    "card": {
+      "id": null,
+      "url": "https://www.youtube.com/example/53377",
+      "title": "Example title: mock text standing in for the real value. Same field and type, made-up content.",
+      "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
+      "type": "video",
+      "author_name": "",
+      "author_url": "",
+      "provider_name": "Example provider_name",
+      "provider_url": "",
+      "html": "Example html: mock text standing in for the real value. Same field and type, made-up content.",
+      "width": 450,
+      "height": 848,
+      "image": "https://static-assets-1.truthsocial.com/example/44686.jpg",
+      "embed_url": "",
+      "blurhash": "Example blurhash",
+      "links": null,
+      "group": null
+    },
+    "cardUrl": "https://www.youtube.com/example/84727",
+    "cardTitle": "Example card title: mock text standing in for the real value. Same field and type, made-up content.",
     "authorId": "168616821734513956",
     "authorUsername": "Example author username",
     "authorAcct": "Example author acct",
@@ -106,7 +88,7 @@
       "tv_account": false,
       "premium": true
     },
-    "upvotesCount": 464,
+    "upvotesCount": 7664,
     "downvotesCount": 0,
     "pinned": false
   }

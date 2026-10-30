@@ -49,7 +49,7 @@ Full details on the [scraper page](https://apify.com/abotapi/allegro-pl-scraper?
 | `title` | string |
 | `brand` | null |
 | `url` | string |
-| `price` | float |
+| `price` | integer |
 | `currency` | string |
 | `originalPrice` | null |
 | `deliveryInfo` | string |
@@ -72,6 +72,13 @@ Full details on the [scraper page](https://apify.com/abotapi/allegro-pl-scraper?
 | `offerCount` | integer |
 | `hasVariants` | boolean |
 | `recentBuyersLabel` | string |
+| `purchasesCount` | integer |
+| `sellerInfo` | object |
+| `deliveryCost` | float |
+| `shippingInfo` | string |
+| `isDiscount` | boolean |
+| `isInStock` | boolean |
+| `thumbnail` | string |
 | `sourceUrl` | string |
 | `sourceLabel` | string |
 

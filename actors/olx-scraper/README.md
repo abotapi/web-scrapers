@@ -92,7 +92,7 @@ Full details on the [scraper page](https://apify.com/abotapi/olx-scraper?utm_sou
 | `sellerOtherAdsEnabled` | boolean |
 | `kycVerified` | null |
 | `businessFlag` | boolean |
-| `partnerCode` | null |
+| `partnerCode` | string |
 | `shopId` | null |
 | `hasPhone` | boolean |
 

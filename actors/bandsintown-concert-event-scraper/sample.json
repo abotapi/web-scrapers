@@ -1,9 +1,9 @@
 [
   {
     "kind": "event",
-    "eventId": "948384071",
+    "eventId": "567005142",
     "url": "https://www.bandsintown.com/example/84237",
-    "title": "Example title",
+    "title": "Example title: mock text standing in for the real value. Same field and type, made-up content.",
     "datetime": "2026-01-15T10:00:00Z",
     "startsAt": "2026-01-15T10:00:00Z",
     "endsAt": null,
@@ -17,9 +17,9 @@
     ],
     "offers": [
       {
-        "url": "https://www.bandsintown.com/example/84237",
+        "status": "available",
         "type": "Tickets",
-        "status": "available"
+        "url": "https://www.bandsintown.com/example/84237"
       }
     ],
     "soldOut": false,
@@ -46,12 +46,12 @@
     "artistLocation": null,
     "artistLinks": [
       {
-        "url": "https://x.com/example/84237",
-        "type": "twitter"
+        "type": "itunes",
+        "url": "https://music.apple.com/example/84237"
       },
       {
-        "type": "itunes",
-        "url": "https://music.apple.com/example/74498"
+        "type": "twitter",
+        "url": "https://x.com/example/74498"
       }
     ],
     "artistUpcomingEvents": null,

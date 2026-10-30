@@ -14,9 +14,10 @@ run = client.actor("abotapi/next-uk-product-scraper").call(
     run_input={
         "mode": "search",
         "searchQuery": "dresses",
-        "links": ["https://www.next.co.uk/shop/gender-women-category-dresses", "https://www.next.co.uk/style/sv132147/y76826", "Y76826"],
         "sortBy": "relevance",
+        "maxReviewsPerProduct": 10,
         "maxItems": 10,
+        "maxPages": 1,
         "proxyConfiguration": {"useApifyProxy": True},
     },
     logger=None,  # don't stream the run log to your console

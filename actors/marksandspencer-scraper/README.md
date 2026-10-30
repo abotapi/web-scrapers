@@ -71,7 +71,7 @@ Full details on the [scraper page](https://apify.com/abotapi/marksandspencer-scr
 | `description` | string |
 | `price` | integer |
 | `priceDetails` | object |
-| `previousPrice` | null |
+| `previousPrice` | integer |
 | `unitPrice` | null |
 | `currency` | string |
 | `averageRating` | float |
@@ -86,6 +86,8 @@ Full details on the [scraper page](https://apify.com/abotapi/marksandspencer-scr
 | `searchTerm` | string |
 | `searchTotal` | integer |
 | `matchedFilters` | object |
+| `input` | string |
+| `searchIndex` | integer |
 | `imageUrl` | string |
 | `dietaryInformation` | list |
 | `labels` | list |
@@ -95,8 +97,6 @@ Full details on the [scraper page](https://apify.com/abotapi/marksandspencer-scr
 | `productDefinition` | string |
 | `isRanged` | boolean |
 | `subMessage` | null |
-| `productData` | object |
-| `composition` | string |
 
 ---
 

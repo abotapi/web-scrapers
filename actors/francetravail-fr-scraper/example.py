@@ -22,7 +22,7 @@ run = client.actor("abotapi/francetravail-fr-scraper").call(
         "sortBy": "Newest | Date",
         "maxItems": 10,
         "maxPages": 1,
-        "proxy": {"useApifyProxy": True, "apifyProxyGroups": ["RESIDENTIAL"]},
+        "proxy": {"useApifyProxy": True},
     },
     logger=None,  # don't stream the run log to your console
 )

@@ -17,7 +17,7 @@ python example.py
 ```bash
 curl -s -X POST "https://api.apify.com/v2/acts/abotapi~kmart-au-scraper/run-sync-get-dataset-items?token=$APIFY_TOKEN" \
   -H 'Content-Type: application/json' \
-  -d '{"mode": "search", "searchTerms": ["towel"], "sortBy": "relevance", "maxReviews": 10, "maxItems": 10, "maxPages": 1, "proxy": {"useApifyProxy": true}}'
+  -d '{"mode": "search", "searchTerms": ["towel"], "sortBy": "relevance", "maxReviews": 10, "maxItems": 10, "maxPages": 1, "proxy": {"useApifyProxy": true}, "changeScope": "all"}'
 ```
 
 ## Inputs
@@ -28,6 +28,7 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~kmart-au-scraper/run-sync
 | `searchTerms` | array | Search terms |
 | `specialsCategory` | string | Specials / offers collection |
 | `urls` | array | URLs |
+| `basketItems` | array | Basket lines |
 | `sortBy` | string | Sort by |
 | `brand` | string | Brand |
 | `colour` | string | Colour |
@@ -39,8 +40,17 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~kmart-au-scraper/run-sync
 | `maxReviews` | integer | Max reviews per product |
 | `maxItems` | integer | Max products |
 | `maxPages` | integer | Max pages per search |
+| `storePostcodes` | array | Store postcodes |
+| `storeNames` | array | Store names |
+| `includeClickAndCollect` | boolean | Include Click & Collect and exact unit |
+| `trackStates` | array | Tracked states |
+| `verifyOnlineDelivery` | boolean | Check online delivery live (Tracked st |
+| `returnDeliveryAnswers` | boolean | Return verified delivery answers once  |
 | `proxy` | object | Proxy |
 | `baselineDatasetId` | string | Start from an existing dataset (option |
+| `changeScope` | string | What counts as a change (incremental m |
+| `compactUpdates` | boolean | Compact update rows (incremental mode  |
+| `expireAfterMissedScans` | integer | Expire after N missed full scans (incr |
 
 `*` required
 
@@ -55,43 +65,21 @@ Full details on the [scraper page](https://apify.com/abotapi/kmart-au-scraper?ut
 | `kind` | string |
 | `id` | string |
 | `productId` | string |
-| `name` | string |
-| `title` | string |
 | `url` | string |
-| `brand` | string |
-| `apn` | integer |
-| `description` | string |
-| `descriptionText` | string |
-| `descriptionSummary` | string |
-| `features` | null |
-| `specifications` | object |
-| `careInstructions` | list |
-| `additionalInfo` | list |
-| `warnings` | null |
-| `manuals` | null |
-| `detailSections` | list |
-| `price` | float |
-| `listPrice` | float |
-| `promoPrice` | float |
-| `wasPrice` | null |
-| `savingsAmount` | null |
-| `savingsPercent` | null |
-| `isOnSpecial` | boolean |
-| `promoLabel` | null |
-| `variantBadges` | null |
+| `name` | string |
 | `currency` | string |
-| `onSale` | boolean |
-| `clearance` | boolean |
-| `averageRating` | float |
-| `reviewCount` | integer |
-| `colour` | string |
-| `secondaryColour` | string |
-| `size` | string |
-| `seller` | string |
-| `isMarketplace` | boolean |
-| `merchDepartment` | integer |
-| `merchClass` | string |
-| `primaryCategoryId` | string |
+| `price` | integer |
+| `currentPrice` | integer |
+| `inStockNationally` | boolean |
+| `inStockInSelectedStates` | boolean |
+| `changeType` | string |
+| `changedFields` | list |
+| `firstSeenAt` | string |
+| `lastSeenAt` | string |
+| `previousPrice` | null |
+| `priceChanges` | null |
+| `variantChanges` | null |
+| `deliveryChanges` | list |
 
 ---
 

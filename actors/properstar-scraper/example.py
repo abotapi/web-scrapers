@@ -12,7 +12,7 @@ client = ApifyClient(os.environ["APIFY_TOKEN"])
 
 run = client.actor("abotapi/properstar-scraper").call(
     run_input={
-        "startUrls": ["https://www.properstar.co.uk/united-kingdom/london/buy/apartment-house"],
+        "startUrls": ["https://www.properstar.co.uk/united-kingdom/london/buy/apartment-house", "https://www.properstar.co.uk/united-kingdom/london/buy/apartment-house?p=2", "https://www.properstar.co.uk/united-kingdom/london/rent/apartment-house", "https://www.properstar.co.uk/united-kingdom/buy/apartment-house", "https://www.properstar.co.uk/united-kingdom/london/buy/apartment-house?price=500000-1000000&bedrooms=2", "https://www.properstar.co.uk/united-kingdom/london/buy/apartment-house?sort=price-asc", "https://www.properstar.co.uk/united-kingdom/london/buy", "https://www.properstar.co.uk/switzerland/buy/apartment-house", "https://www.properstar.co.uk/listing/121377505", "https://www.properstar.co.uk/agency/the-private-realtor-ltd/6482545"],
         "transactionType": "any",
         "maxItems": 10,
         "proxy": {"useApifyProxy": True, "apifyProxyGroups": ["RESIDENTIAL"]},

@@ -1,0 +1,51 @@
+[
+  {
+    "recordType": "title",
+    "id": "0896874356773438906",
+    "slug": "Example slug",
+    "title": "Example title",
+    "titleRaw": "Example title raw",
+    "isDubbed": false,
+    "url": "https://netshort.com/example/84060",
+    "fullEpisodesUrl": "https://netshort.com/example/71198",
+    "cover": "https://awscover.netshort.com/example/88804.jpg",
+    "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
+    "genres": [
+      {
+        "name": "Example name",
+        "id": "9029722267078580977"
+      },
+      {
+        "name": "Example name",
+        "id": "3856793396502332020"
+      }
+    ],
+    "genreIds": [
+      "7178199823192194384",
+      "2032100106260651632"
+    ],
+    "episodes": 46,
+    "language": "en_US",
+    "libraryId": "8754684403117664891",
+    "isDelisted": false,
+    "releaseDate": null,
+    "mode": "CATALOG",
+    "extractionPath": "Example extraction path",
+    "likesDisplay": null,
+    "followsDisplay": null,
+    "likes": null,
+    "follows": null,
+    "detailFetched": true,
+    "reviews": [
+      {
+        "reviewTitle": "Example review title",
+        "reviewContent": "Example review content: mock text standing in for the real value. Same field and type, made-up content."
+      }
+    ],
+    "reviewsFetched": true,
+    "resultsReturned": 1,
+    "platform": "NetShort",
+    "scrapedAt": "2026-01-15T10:00:00Z",
+    "changeType": "NEW"
+  }
+]

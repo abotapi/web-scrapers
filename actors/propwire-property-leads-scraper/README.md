@@ -17,7 +17,7 @@ python example.py
 ```bash
 curl -s -X POST "https://api.apify.com/v2/acts/abotapi~propwire-property-leads-scraper/run-sync-get-dataset-items?token=$APIFY_TOKEN" \
   -H 'Content-Type: application/json' \
-  -d '{"addressMatchMode": "first", "startUrls": ["https://propwire.com/realestate/4055-Britt-Rd-Mount-Dora-FL/51608674/property-details", "https://propwire.com/search?filters=%7B%22locations%22%3A%20%5B%7B%22state%22%3A%20%22FL%22%7D%5D%7D"], "searchStates": ["FL"], "maxItems": 10, "maxPages": 1, "proxyConfiguration": {"useApifyProxy": true, "apifyProxyGroups": ["RESIDENTIAL"], "apifyProxyCountry": "US"}}'
+  -d '{"addressMatchMode": "first", "startUrls": ["https://propwire.com/realestate/4055-Britt-Rd-Mount-Dora-FL/51608674/property-details", "https://propwire.com/search?filters=%7B%22locations%22%3A%20%5B%7B%22state%22%3A%20%22FL%22%7D%5D%7D", "https://propwire.com/realestate/4055-Britt-Rd-Mount-Dora-FL/51608674", "https://propwire.com/realestate/x/51608674/property-details", "https://propwire.com/realestate/4055-Britt-Rd-Mount-Dora-FL/51608674/property-details?foo=bar", "https://www.propwire.com/realestate/4055-Britt-Rd-Mount-Dora-FL/51608674/property-details", "http://propwire.com/realestate/4055-Britt-Rd-Mount-Dora-FL/51608674/property-details", "https://propwire.com/search?filters=%7B%22locations%22%3A%20%5B%7B%22state%22%3A%20%22FL%22%7D%5D%7D&page=2"], "searchStates": ["FL"], "maxItems": 10, "maxPages": 1, "proxyConfiguration": {"useApifyProxy": true, "apifyProxyGroups": ["RESIDENTIAL"], "apifyProxyCountry": "US"}}'
 ```
 
 ## Inputs

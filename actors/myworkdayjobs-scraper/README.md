@@ -31,8 +31,17 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~myworkdayjobs-scraper/run
 | `jobType` | string | Job type |
 | `timeType` | string | Time type |
 | `location` | string | Location |
+| `jobCategories` | array | Job categories (multi-select) |
+| `jobTypes` | array | Job types (multi-select) |
+| `timeTypes` | array | Time types (multi-select) |
+| `locations` | array | Locations (multi-select) |
+| `postedAt` | string | Posted since |
+| `startAt` | string | Start date from |
+| `pagination` | integer | Pages per query |
+| `stats` | boolean | Add listing stats |
 | `urls` | array | Workday URLs |
 | `fetchDetails` | boolean | Fetch full job details |
+| `details` | boolean | Details (alias) |
 | `maxItems` | integer | Max jobs |
 | `proxy` | object | Proxy configuration |
 | `residentialCountries` | array | Residential country rotation |
@@ -78,6 +87,14 @@ Full details on the [scraper page](https://apify.com/abotapi/myworkdayjobs-scrap
 | `hiringOrganization` | object |
 | `similarJobs` | list |
 | `scrapedAt` | string |
+| `id` | string |
+| `url` | string |
+| `jobDescription` | string |
+| `originUrl` | string |
+| `metadata` | object |
+| `videoInfo` | null |
+| `page` | integer |
+| `stats` | null |
 
 ---
 

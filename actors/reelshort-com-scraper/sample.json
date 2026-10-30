@@ -1,0 +1,56 @@
+[
+  {
+    "recordType": "title",
+    "id": "id21445681",
+    "bookId": "id32611825",
+    "transportId": "877935531291243621",
+    "chapterId": "id68839423",
+    "title": "Example title",
+    "url": "https://www.reelshort.com/example/67234",
+    "cover": "https://v-img.crazymaplestudios.com/example/7917.jpg",
+    "synopsis": "Example synopsis: mock text standing in for the real value. Same field and type, made-up content.",
+    "themes": [
+      "Example themes",
+      "Example themes: mock text standing in for the real value. Same field and type, made-up content."
+    ],
+    "tags": [
+      {
+        "name": "Example name",
+        "category": "7704"
+      },
+      {
+        "name": "Example name",
+        "category": "9184"
+      }
+    ],
+    "chapterCount": 82,
+    "collectCount": 3830,
+    "collectCountDisplay": "Example collect count display",
+    "language": "en",
+    "bookType": 7,
+    "mode": "SHELF",
+    "extractionPath": "Example extraction path",
+    "readCount": 343216,
+    "readCountDisplay": "Example read count display",
+    "paidStart": 2,
+    "screenMode": 6,
+    "hasTrailer": 0,
+    "shelf": "Example shelf",
+    "shelfRank": null,
+    "resultsReturned": 4,
+    "chapterDescription": "Example chapter description: mock text standing in for the real value. Same field and type, made-up content.",
+    "durationSec": 25,
+    "hasDub": false,
+    "firstChapterId": "id59608003",
+    "firstSerialNumber": 9,
+    "videoUrl": "https://v-mps.crazymaplestudios.com/example/86952",
+    "videoPic": "https://v-mps.crazymaplestudios.com/example/54206",
+    "releaseDate": "2026-01-15T10:00:00Z",
+    "onlineAtDate": "2026-01-15T10:00:00Z",
+    "updateStatus": 4,
+    "bookSource": 46,
+    "cast": [],
+    "hasCast": false,
+    "imdbId": null
+  }
+]

@@ -52,6 +52,8 @@ Full details on the [scraper page](https://apify.com/abotapi/bunnings-com-au-scr
 | --- | --- |
 | `code` | string |
 | `itemNumber` | string |
+| `sku` | string |
+| `scrapedAt` | string |
 | `name` | string |
 | `title` | string |
 | `brand` | string |
@@ -88,8 +90,6 @@ Full details on the [scraper page](https://apify.com/abotapi/bunnings-com-au-scr
 | `savingsAmount` | null |
 | `savingsPercent` | null |
 | `isOnSpecial` | boolean |
-| `searchMode` | string |
-| `source` | string |
 
 ---
 

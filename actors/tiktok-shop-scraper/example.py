@@ -16,6 +16,7 @@ run = client.actor("abotapi/tiktok-shop-scraper").call(
         "queries": ["phone case"],
         "maxItems": 10,
         "maxPages": 1,
+        "maxReviewsPerProduct": 10,
         "proxy": {"useApifyProxy": True, "apifyProxyGroups": ["RESIDENTIAL"], "apifyProxyCountry": "US"},
     },
     logger=None,  # don't stream the run log to your console

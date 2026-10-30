@@ -17,7 +17,7 @@ python example.py
 ```bash
 curl -s -X POST "https://api.apify.com/v2/acts/abotapi~galaxus-marketplace-scraper/run-sync-get-dataset-items?token=$APIFY_TOKEN" \
   -H 'Content-Type: application/json' \
-  -d '{"mode": "search", "market": "galaxus-ch", "searchTerms": ["laptop"], "sortBy": "relevance", "maxItems": 10, "maxPages": 1, "proxyConfiguration": {"useApifyProxy": true}}'
+  -d '{"mode": "search", "market": "galaxus-ch", "searchTerms": ["laptop"], "sortBy": "relevance", "maxItems": 10, "maxPages": 1, "proxyConfiguration": {"useApifyProxy": true}, "changeScope": "all"}'
 ```
 
 ## Inputs
@@ -30,11 +30,17 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~galaxus-marketplace-scrap
 | `sortBy` | string | Ordering |
 | `minPrice` | integer | Min price (optional) |
 | `maxPrice` | integer | Max price (optional) |
+| `includeOutOfStock` | boolean | Include out-of-stock products |
 | `urls` | array | Product or category links |
+| `categoryUrl` | string | Category link (optional) |
+| `categorySlug` | string | Category slug (optional) |
 | `fetchDetails` | boolean | Read product detail pages |
 | `maxItems` | integer | Max records |
 | `maxPages` | integer | Max pages per source |
 | `proxyConfiguration` | object | Proxy configuration |
+| `changeScope` | string | Change scope (recurring updates only) |
+| `compactUpdates` | boolean | Slim UPDATED and EXPIRED rows (recurri |
+| `expireAfterMissedScans` | integer | Missed scans before EXPIRED (recurring |
 
 `*` required
 
@@ -55,6 +61,7 @@ Full details on the [scraper page](https://apify.com/abotapi/galaxus-marketplace
 | `productTypeId` | integer |
 | `url` | string |
 | `imageUrl` | string |
+| `imageUrls` | list |
 | `price` | integer |
 | `priceExclVat` | float |
 | `currency` | string |
@@ -68,6 +75,10 @@ Full details on the [scraper page](https://apify.com/abotapi/galaxus-marketplace
 | `promotionType` | null |
 | `promotionRemainingDays` | null |
 | `labels` | list |
+| `nameFull` | string |
+| `inStock` | boolean |
+| `category` | string |
+| `energyRating` | null |
 | `canAddToCart` | boolean |
 | `market` | string |
 | `marketHost` | string |

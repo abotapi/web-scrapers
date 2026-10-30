@@ -17,7 +17,7 @@ python example.py
 ```bash
 curl -s -X POST "https://api.apify.com/v2/acts/abotapi~klook-activities-scraper/run-sync-get-dataset-items?token=$APIFY_TOKEN" \
   -H 'Content-Type: application/json' \
-  -d '{"operation": "activities", "mode": "search", "query": "Tokyo", "currency": "USD", "checkIn": "30 days", "hotelSort": "recommended", "minHotelRating": "0", "maxItems": 10, "maxPages": 1, "proxyConfiguration": {"useApifyProxy": true}}'
+  -d '{"operation": "activities", "mode": "search", "query": "Tokyo", "sortBy": "default", "currency": "USD", "language": "en_US", "checkIn": "30 days", "hotelSort": "recommended", "minHotelRating": "0", "maxItems": 10, "maxPages": 1, "proxyConfiguration": {"useApifyProxy": true}}'
 ```
 
 ## Inputs
@@ -27,7 +27,11 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~klook-activities-scraper/
 | `operation` | string | Klook data type |
 | `mode` * | string | Mode |
 | `query` | string | Search query |
+| `searchQueries` | array | Multiple search queries |
+| `cityIds` | array | City IDs filter |
+| `sortBy` | string | Sort activities |
 | `currency` | string | Currency |
+| `language` | string | Language |
 | `urls` | array | Klook URLs |
 | `checkIn` | string | Check-in date |
 | `checkOut` | string | Check-out date |
@@ -56,6 +60,8 @@ Full details on the [scraper page](https://apify.com/abotapi/klook-activities-sc
 
 | Field | Type |
 | --- | --- |
+| `latitude` | float |
+| `longitude` | float |
 | `id` | string |
 | `activityId` | string |
 | `recordType` | string |
@@ -67,6 +73,7 @@ Full details on the [scraper page](https://apify.com/abotapi/klook-activities-sc
 | `rating` | float |
 | `reviewCount` | integer |
 | `location` | string |
+| `cityId` | integer |
 | `category` | string |
 | `imageUrls` | list |
 | `promotions` | list |
@@ -77,6 +84,17 @@ Full details on the [scraper page](https://apify.com/abotapi/klook-activities-sc
 | `detailStatus` | string |
 | `operation` | string |
 | `sourceMode` | string |
+| `activity_id` | string |
+| `activity_url` | string |
+| `sell_price` | float |
+| `price_from` | float |
+| `price_to` | null |
+| `city_name` | string |
+| `country_name` | string |
+| `image_url` | string |
+| `review_count` | integer |
+| `booked_count` | integer |
+| `scraped_at` | string |
 | `changeType` | string |
 
 ---

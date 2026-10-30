@@ -17,6 +17,7 @@
       "currency": "MYR",
       "type": null
     },
+    "currency": "MYR",
     "priceValue": 323986,
     "pricePretty": "Example price pretty",
     "priceType": null,
@@ -27,6 +28,12 @@
     "floorArea": 3096,
     "areaText": "Example area text",
     "tenure": "Example tenure",
+    "furnishing": "Example furnishing",
+    "listingType": "sale",
+    "isCommercial": false,
+    "area": null,
+    "district": "Example district",
+    "region": "Example region",
     "location": {
       "area": "",
       "district": "Example district",
@@ -49,6 +56,8 @@
       "id": 65226,
       "name": "Example name"
     },
+    "agentName": "Example agent name",
+    "agencyName": "Example agency name",
     "agentRating": {
       "reviewCount": 0,
       "ratingAverage": 0
@@ -58,29 +67,6 @@
       "https://ipp1-cdn.pgimgs.com/example/57881.jpg"
     ],
     "imageCount": 7,
-    "thumbnail": "https://ipp1-cdn.pgimgs.com/example/71535.jpg",
-    "badges": [
-      {
-        "name": "Example name",
-        "text": "Example text",
-        "variant": "secondary"
-      },
-      {
-        "name": "Example name",
-        "text": "Example text",
-        "variant": "secondary"
-      }
-    ],
-    "postedOn": {
-      "text": "Example text",
-      "unix": 6621719606
-    },
-    "recency": "Example recency",
-    "developer": "Example developer",
-    "isVerified": false,
-    "isOfficialListing": false,
-    "isDeveloperListing": false,
-    "newProject": false,
-    "projectId": 0
+    "thumbnail": "https://ipp1-cdn.pgimgs.com/example/71535.jpg"
   }
 ]

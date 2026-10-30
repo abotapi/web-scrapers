@@ -17,7 +17,7 @@ python example.py
 ```bash
 curl -s -X POST "https://api.apify.com/v2/acts/abotapi~vinted-marketplace-scraper/run-sync-get-dataset-items?token=$APIFY_TOKEN" \
   -H 'Content-Type: application/json' \
-  -d '{"mode": "search", "country": "de", "queries": ["nike"], "sortBy": "relevance", "maxPages": 1, "maxItems": 10, "proxy": {"useApifyProxy": true, "apifyProxyGroups": ["RESIDENTIAL"]}}'
+  -d '{"mode": "search", "country": "de", "queries": ["nike"], "sortBy": "relevance", "maxReviews": 10, "maxPages": 1, "maxItems": 10, "proxy": {"useApifyProxy": true, "apifyProxyGroups": ["RESIDENTIAL"]}}'
 ```
 
 ## Inputs
@@ -37,9 +37,18 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~vinted-marketplace-scrape
 | `sellers` | array | Sellers |
 | `fetchDetails` | boolean | Fetch item detail |
 | `fetchSellerProfiles` | boolean | Fetch seller profiles |
+| `maxReviews` | integer | Max reviews per seller |
 | `maxPages` | integer | Max pages per search |
 | `maxItems` | integer | Max items total |
 | `proxy` | object | Proxy configuration |
+| `query` | string | Search keyword (alias) |
+| `priceMin` | number | Minimum price (alias) |
+| `priceMax` | number | Maximum price (alias) |
+| `catalogId` | integer | Category ID (alias) |
+| `condition` | array | Condition (alias) |
+| `startUrls` | array | Start URLs (alias) |
+| `includeItemDetails` | boolean | Include item details (alias) |
+| `includeSellerDetails` | boolean | Include seller details (alias) |
 
 `*` required
 
@@ -57,6 +66,8 @@ Full details on the [scraper page](https://apify.com/abotapi/vinted-marketplace-
 | `path` | string |
 | `brandTitle` | string |
 | `priceAmount` | integer |
+| `serviceFee` | float |
+| `totalPrice` | float |
 | `currency` | string |
 | `size` | string |
 | `condition` | string |
@@ -64,7 +75,9 @@ Full details on the [scraper page](https://apify.com/abotapi/vinted-marketplace-
 | `favouriteCount` | integer |
 | `promoted` | boolean |
 | `photos` | list |
+| `photoCount` | integer |
 | `image` | string |
+| `sellerUrl` | string |
 | `seller` | object |
 | `scrapedAt` | string |
 

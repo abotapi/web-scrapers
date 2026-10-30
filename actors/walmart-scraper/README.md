@@ -68,7 +68,7 @@ Full details on the [scraper page](https://apify.com/abotapi/walmart-scraper?utm
 | `priceRangeLow` | integer |
 | `priceRangeHigh` | null |
 | `currency` | string |
-| `rating` | integer |
+| `rating` | float |
 | `reviewCount` | integer |
 | `sellerName` | string |
 | `sellerId` | string |

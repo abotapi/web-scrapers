@@ -15,9 +15,12 @@ run = client.actor("abotapi/reverb-scraper").call(
         "mode": "search",
         "queries": ["Fender Stratocaster"],
         "sortBy": "relevance",
+        "maxReviewsPerProduct": 10,
         "maxItems": 10,
         "maxPages": 1,
         "proxy": {"useApifyProxy": True},
+        "changeScope": "all",
+        "maxListings": 10,
     },
     logger=None,  # don't stream the run log to your console
 )

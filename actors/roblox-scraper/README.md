@@ -17,7 +17,7 @@ python example.py
 ```bash
 curl -s -X POST "https://api.apify.com/v2/acts/abotapi~roblox-scraper/run-sync-get-dataset-items?token=$APIFY_TOKEN" \
   -H 'Content-Type: application/json' \
-  -d '{"mode": "games", "gameQueries": ["blox fruits"], "catalogCategory": "all", "userQueries": ["builderman"], "groupQueries": ["7"], "catalogSalesType": "any", "catalogSortType": "relevance", "maxPages": 1, "maxItems": 10, "proxy": {"useApifyProxy": true}}'
+  -d '{"mode": "games", "gameQueries": ["blox fruits"], "catalogCategory": "all", "userQueries": ["builderman"], "groupQueries": ["7"], "catalogSalesType": "any", "catalogSortType": "relevance", "maxPages": 1, "maxItems": 10, "proxy": {"useApifyProxy": true}, "changeScope": "all"}'
 ```
 
 ## Inputs
@@ -30,18 +30,23 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~roblox-scraper/run-sync-g
 | `catalogCategory` | string | Catalog category |
 | `userQueries` | array | Usernames, ids or profile links |
 | `userKeyword` | string | Username search |
-| `groupQueries` | array | Community ids or links |
+| `groupQueries` | array | Community names, ids or links |
 | `fetchGroupMembers` | boolean | Also return community members |
 | `urls` | array | Roblox links |
 | `minPlaying` | integer | Minimum live players |
 | `catalogSalesType` | string | Sale type |
 | `catalogSortType` | string | Sort order |
+| `catalogCreatorName` | string | Creator name |
+| `catalogIncludeUnavailable` | boolean | Include off-sale items |
 | `minPrice` | integer | Minimum price (Robux) |
 | `maxPrice` | integer | Maximum price (Robux) |
 | `fetchDetails` | boolean | Fetch full details |
 | `maxPages` | integer | Max pages per search |
-| `maxItems` | integer | Max items (total, default 20, 0  unlim |
+| `maxItems` | integer | Max items (total, default 20, 0  up to |
 | `proxy` | object | Proxy configuration |
+| `changeScope` | string | Change scope (incremental mode only) |
+| `compactUpdates` | boolean | Compact UPDATED rows (incremental mode |
+| `expireAfterMissedScans` | integer | Expire after missed scans (incremental |
 
 `*` required
 

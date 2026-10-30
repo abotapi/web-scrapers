@@ -14,6 +14,7 @@ run = client.actor("abotapi/stockx-market-data-scraper").call(
     run_input={
         "mode": "search",
         "searchTerms": ["air jordan 1"],
+        "currency": "USD",
         "market": "US",
         "orderBy": "featured",
         "sortResultsBy": "site_order",

@@ -1,10 +1,10 @@
 [
   {
-    "listingId": "1193110001",
+    "listingId": "9258519145",
     "vertical": "marketplace",
     "title": "Example title",
     "url": "https://www.trademe.co.nz/example/32807",
-    "category": "0740-6632-7583-1464-",
+    "category": "4736-1117-3526-9060-",
     "priceDisplay": "Example price display",
     "startPrice": 0,
     "buyNowPrice": 585,
@@ -13,18 +13,19 @@
     "suburb": "Example suburb",
     "district": null,
     "photoUrls": [
-      "https://trademe.tmcdn.co.nz/example/86257.jpg"
+      "https://trademe.tmcdn.co.nz/example/86257.jpg",
+      "https://trademe.tmcdn.co.nz/example/40301.jpg"
     ],
     "listedDate": "2026-01-15T10:00:00Z",
     "closesDate": "2026-01-15T10:00:00Z",
     "isFeatured": null,
     "sponsored": null,
     "sellerType": "Example seller type",
-    "memberId": "06423",
+    "memberId": "4628414",
     "scrapedAt": "2026-01-15T10:00:00Z",
     "price": 897,
-    "oldPrice": 596.05,
-    "percentageOff": 18,
+    "oldPrice": 520,
+    "percentageOff": 9,
     "categoryPath": "Example category path",
     "location": "Example location",
     "primaryImage": "https://trademe.tmcdn.co.nz/example/60273.jpg",

@@ -26,6 +26,7 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~trustmate-io-reviews-scra
 | --- | --- | --- |
 | `mode` | string | Mode |
 | `companyUrls` | array | Company URLs, slugs or domains |
+| `companySlugs` | array | Company slugs (alias) |
 | `startUrls` | array | Company profile URLs / slugs / domains |
 | `minRating` | string | Minimum rating |
 | `sortBy` | string | Sort reviews by |

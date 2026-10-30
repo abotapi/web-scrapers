@@ -17,7 +17,7 @@ python example.py
 ```bash
 curl -s -X POST "https://api.apify.com/v2/acts/abotapi~discogs-scraper/run-sync-get-dataset-items?token=$APIFY_TOKEN" \
   -H 'Content-Type: application/json' \
-  -d '{"mode": "search", "searchQueries": ["nirvana nevermind"], "searchType": "release", "sortBy": "relevance", "sortOrder": "desc", "maxItems": 10, "maxPages": 1, "currency": "USD", "proxyConfiguration": {"useApifyProxy": true}}'
+  -d '{"mode": "search", "searchQueries": ["nirvana nevermind"], "searchType": "release", "sortBy": "relevance", "sortOrder": "desc", "maxItems": 10, "maxPages": 1, "currency": "USD", "proxyConfiguration": {"useApifyProxy": true}, "maxResults": 10}'
 ```
 
 ## Inputs
@@ -48,6 +48,13 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~discogs-scraper/run-sync-
 | `currency` | string | Price currency |
 | `proxyConfiguration` | object | Proxy configuration |
 | `discogsToken` | string | Discogs personal access token (optiona |
+| `query` | array | Alias of searchQueries |
+| `type` | string | Alias of searchType (release, master,  |
+| `maxResults` | integer | Alias of maxItems (no minimum of 20) |
+| `getDetails` | boolean | Alias of fetchDetails |
+| `yearMin` | integer | Earliest release year (with yearMax bu |
+| `yearMax` | integer | Latest release year (with yearMin buil |
+| `proxyConfig` | object | Alias of proxyConfiguration |
 
 `*` required
 

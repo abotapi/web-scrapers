@@ -15,6 +15,7 @@ run = client.actor("abotapi/repvue-scraper").call(
         "mode": "search",
         "sortBy": "name_asc",
         "maxReviews": 10,
+        "reviewSort": "default",
         "maxItems": 10,
         "proxy": {"useApifyProxy": True},
     },

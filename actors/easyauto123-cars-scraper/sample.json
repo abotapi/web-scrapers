@@ -3,28 +3,28 @@
     "listingId": "id72412637",
     "url": "https://easyauto123.com.au/example/16729",
     "title": "Example title",
-    "make": "KIA",
-    "model": "SPORTAGE",
+    "make": "TESLA",
+    "model": "Example model",
     "variant": "Example variant",
     "year": 2342,
     "price": 42324,
-    "priceType": "DAP",
-    "state": "QLD",
+    "priceType": "EGC",
+    "state": "NSW",
     "location": "Example location",
-    "region": "Brisbane",
-    "siteCode": "EH",
+    "region": "Sydney",
+    "siteCode": "EV",
     "odometer": 22735,
-    "vin": "knapu12dmn8072039",
-    "fuelType": "Petrol",
+    "vin": "lrwyhcek3rc977736",
+    "fuelType": "Electric",
     "transmission": "Automatic",
     "driveType": "Example drive type",
-    "engineCapacity": "9",
+    "engineCapacity": "4",
     "colour": "White",
     "vehicleTypes": [
       "Wagon",
       "SUV"
     ],
-    "fuelConsumption": "7.8",
+    "fuelConsumption": "9",
     "carType": "Example car type",
     "banner": "Example banner",
     "status": "IN-STOCK",
@@ -42,33 +42,33 @@
         "taxIncluded": true,
         "calculationInfo": "Example calculation info",
         "displayText": "Example display text",
-        "dollarValue": 25618.81,
-        "taxValue": 2115.31
+        "dollarValue": 98719,
+        "taxValue": 4333.5
       },
       {
-        "component": "SD",
-        "category": "Tax",
-        "taxIncluded": null,
+        "component": "ADMIN_FEE",
+        "category": "Fee",
+        "taxIncluded": true,
         "calculationInfo": "Example calculation info",
         "displayText": "Example display text",
         "dollarValue": 372,
-        "taxValue": 6
+        "taxValue": 31.41
       }
     ],
     "storeName": "Example store name",
     "storeEmail": "user72@example.com",
     "storePhone": "+1 555 0100",
     "storeAddress": "Example store address",
-    "storeRating": 3.3,
+    "storeRating": 3.45,
     "storeRaw": {
       "salesPersonEmail": "user51@example.com",
-      "siteCode": "EH",
-      "region": "Brisbane",
+      "siteCode": "EV",
+      "region": "Sydney",
       "friendlyName": "Example friendly name",
       "addressComponents": [
         {
-          "longName": "296",
-          "shortName": "922",
+          "longName": "118",
+          "shortName": "481",
           "types": [
             "street_number"
           ]
@@ -83,30 +83,30 @@
       ],
       "businessStatus": "OPERATIONAL",
       "currentOpeningHours": {
-        "openNow": true,
+        "openNow": false,
         "periods": [
           {
             "close": {
               "date": "2026-01-15",
-              "day": 5,
-              "time": "8194"
+              "day": 0,
+              "time": "2478"
             },
             "open": {
               "date": "2026-01-15",
-              "day": 5,
-              "time": "9307"
+              "day": 0,
+              "time": "8346"
             }
           },
           {
             "close": {
               "date": "2026-01-15",
               "day": 5,
-              "time": "3300"
+              "time": "8467"
             },
             "open": {
               "date": "2026-01-15",
               "day": 5,
-              "time": "1166"
+              "time": "3566"
             }
           }
         ],
@@ -114,47 +114,47 @@
           "Example weekday text",
           "Example weekday text"
         ],
-        "specialDays": null
+        "specialDays": []
       },
       "formattedAddress": "Example formatted address",
       "formattedPhoneNumber": "+1 555 0100",
       "geometry": {
         "location": {
-          "lat": -32.89,
-          "lng": 177.57
+          "lat": -40.72,
+          "lng": 175.06
         }
       },
       "internationalPhoneNumber": "+1 555 0100",
       "name": "Example name",
       "openingHours": {
-        "openNow": true,
+        "openNow": false,
         "weekdayText": [
           "Example weekday text",
           "Example weekday text"
         ]
       },
-      "placeId": "chijebmbhe9ykwsrgnenxus6nae",
-      "rating": 4.36,
+      "placeId": "chiju59kdlgvemsrfr3uxmspdxo",
+      "rating": 4.55,
       "url": "https://maps.google.com/example/16729",
       "userRatingsTotal": 3919,
       "website": "https://easyauto123.com.au/example/80374",
       "distanceBySiteCode": {
-        "EN": 449.43,
-        "EB": 1389.07,
-        "EK": 891.62,
-        "EC": 2848.84,
-        "EH": 0,
-        "EM": 2077.73,
-        "EV": 768.76,
-        "EO": 2228.52,
-        "EJ": 3294.87,
-        "ER": 431.5,
-        "EL": 3615.87,
-        "EQ": 3838.82,
-        "EE": 6.81,
-        "ED": 1286.75,
-        "EG": 440.12,
-        "EY": 659.51
+        "EN": 99.32,
+        "EK": 21.32,
+        "EB": 696.89,
+        "EC": 2571.67,
+        "EH": 821.52,
+        "EV": 0,
+        "EM": 1466.24,
+        "EJ": 2980.16,
+        "EO": 1293.95,
+        "ER": 104.24,
+        "EL": 3268.03,
+        "EQ": 3460.35,
+        "EE": 614.09,
+        "ED": 702.65,
+        "EY": 156.81,
+        "EG": 91.13
       }
     },
     "detailFetched": true,

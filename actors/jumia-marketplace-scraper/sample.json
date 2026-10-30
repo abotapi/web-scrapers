@@ -16,7 +16,7 @@
     "price": 121763,
     "priceDisplay": "Example price display",
     "oldPrice": 657615,
-    "discountPercent": 7,
+    "discountPercent": 79,
     "ratingAverage": 4.06,
     "ratingCount": 428,
     "officialStore": true,
@@ -32,10 +32,22 @@
     "marketHost": "www.jumia.com.ng",
     "lastModified": 1796689817,
     "gtin": null,
+    "country": "Nigeria",
+    "countryCode": "NG",
+    "priceText": "Example price text",
+    "oldPriceText": "Example old price text",
+    "rating": 4.71,
+    "reviewsCount": 160,
+    "inStock": true,
+    "isOfficialStore": true,
+    "isExpress": true,
+    "categoryPath": [
+      "Example category path",
+      "Example category path"
+    ],
+    "enriched": false,
     "sourceType": "search",
     "sourceId": "phone",
-    "sourceUrl": null,
-    "position": 5,
-    "scrapedAt": "2026-01-15T10:00:00Z"
+    "sourceUrl": null
   }
 ]

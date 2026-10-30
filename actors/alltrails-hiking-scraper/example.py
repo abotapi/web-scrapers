@@ -17,7 +17,7 @@ run = client.actor("abotapi/alltrails-hiking-scraper").call(
         "tags": ["backpacking"],
         "maxItems": 10,
         "maxPages": 1,
-        "proxyConfiguration": {"useApifyProxy": True, "apifyProxyGroups": ["UNBLOCKER"]},
+        "proxyConfiguration": {"useApifyProxy": True, "apifyProxyGroups": ["RESIDENTIAL"]},
     },
     logger=None,  # don't stream the run log to your console
 )

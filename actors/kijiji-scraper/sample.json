@@ -1,6 +1,6 @@
 [
   {
-    "id": "5789969549",
+    "id": "4734355023",
     "listingType": "StandardListing",
     "title": "Example title",
     "description": "user23@example.com",
@@ -13,24 +13,24 @@
     "imageUrls": [
       "https://media.kijiji.ca/example/39618.jpg"
     ],
-    "price": 317,
-    "priceRaw": 19227,
-    "priceType": "FIXED",
+    "price": null,
+    "priceRaw": null,
+    "priceType": "CONTACT",
     "originalPrice": null,
     "currency": "CAD",
     "locationId": 7280147,
     "locationName": "Example location name",
     "address": "Example address",
     "nearestIntersection": null,
-    "latitude": 48.01,
-    "longitude": -68.28,
-    "posterId": "0230622609",
+    "latitude": 48.11,
+    "longitude": -68.31,
+    "posterId": "1104548260",
     "posterRating": null,
     "posterVerified": false,
     "sellerType": "Example seller type",
     "posterInfo": {
       "__typename": "Example __typename",
-      "posterId": "0230622609",
+      "posterId": "1104548260",
       "sellerType": "Example seller type",
       "websiteUrl": "https://flipafone.ca/example/27270",
       "phoneNumber": "+1 555 0100",
@@ -50,29 +50,32 @@
       "isPromotionProvTopAd": null,
       "isPromotionTopAd": true
     },
-    "attr_forsaleby": "delr",
     "attr_phonecarrier": "+1 555 0100",
+    "attr_payment": "cashless",
     "attr_phonebrand": "+1 555 0100",
+    "attr_fulfillment": [
+      "delivery",
+      "shipping"
+    ],
+    "attr_forsaleby": "delr",
     "attr_srpLogoUrl": "https://media.kijiji.ca/example/68429.jpg",
     "attributesRaw": [
       {
         "__typename": "listingattributev9",
         "canonicalName": "Example canonical name",
         "canonicalValues": [
-          "delr"
+          "unlck"
         ]
       },
       {
         "__typename": "listingattributev8",
         "canonicalName": "Example canonical name",
         "canonicalValues": [
-          "unlck"
+          "cashless"
         ]
       }
     ],
-    "views": 4155,
-    "status": "ACTIVE",
-    "listingTypeOffer": "OFFER",
-    "endDate": "2026-01-15T10:00:00Z"
+    "street_address": "Example street_address",
+    "locality": "Example locality"
   }
 ]

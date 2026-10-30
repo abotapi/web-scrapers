@@ -15,6 +15,7 @@ run = client.actor("abotapi/sofascore-scraper").call(
         "mode": "search",
         "searchQueries": ["Real Madrid"],
         "searchType": "all",
+        "tournamentSeasons": "current",
         "sports": ["football"],
         "maxItems": 10,
         "proxy": {"useApifyProxy": True},

@@ -17,7 +17,7 @@ python example.py
 ```bash
 curl -s -X POST "https://api.apify.com/v2/acts/abotapi~hepsiemlak-com-scraper/run-sync-get-dataset-items?token=$APIFY_TOKEN" \
   -H 'Content-Type: application/json' \
-  -d '{"mode": "search", "listingType": "sale", "propertyType": "any", "locations": ["Istanbul"], "maxItems": 10, "maxPages": 1, "proxyConfiguration": {"useApifyProxy": true, "apifyProxyGroups": ["RESIDENTIAL"], "apifyProxyCountry": "TR"}}'
+  -d '{"mode": "search", "listingType": "sale", "propertyType": "any", "sortBy": "default", "locations": ["Istanbul"], "maxItems": 10, "maxPages": 1, "proxyConfiguration": {"useApifyProxy": true, "apifyProxyGroups": ["RESIDENTIAL"], "apifyProxyCountry": "TR"}}'
 ```
 
 ## Inputs
@@ -27,6 +27,9 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~hepsiemlak-com-scraper/ru
 | `mode` * | string | Mode |
 | `listingType` | string | Listing type |
 | `propertyType` | string | Property type |
+| `roomCount` | string | Room plan |
+| `ownerOnly` | boolean | Owner listings only |
+| `sortBy` | string | Sort by |
 | `locations` | array | Locations |
 | `minPrice` | integer | Min price (TRY) |
 | `maxPrice` | integer | Max price (TRY) |
@@ -36,6 +39,7 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~hepsiemlak-com-scraper/ru
 | `fetchDetails` | boolean | Fetch details |
 | `maxItems` | integer | Max items |
 | `maxPages` | integer | Max pages per source |
+| `maxItemsPerSource` | integer | Max items per location or link |
 | `proxyConfiguration` | object | Proxy configuration |
 
 `*` required
@@ -65,10 +69,29 @@ Full details on the [scraper page](https://apify.com/abotapi/hepsiemlak-com-scra
 | `sellerName` | string |
 | `sellerOfficeUrl` | string |
 | `position` | integer |
-| `sourceType` | string |
-| `sourceId` | string |
-| `sourceUrl` | null |
-| `scrapedAt` | string |
+| `county` | string |
+| `district` | string |
+| `mainCategory` | string |
+| `subCategory` | string |
+| `category` | string |
+| `createDate` | string |
+| `updatedDate` | string |
+| `listingUpdatedDate` | string |
+| `startDate` | string |
+| `buildingAge` | integer |
+| `floorName` | string |
+| `images` | list |
+| `imageCount` | integer |
+| `latitude` | float |
+| `longitude` | float |
+| `mapLocation` | object |
+| `roomCount` | integer |
+| `livingRoomCount` | integer |
+| `roomPlan` | string |
+| `sellerType` | string |
+| `netAreaSqm` | integer |
+| `owner` | object |
+| `firm` | object |
 
 ---
 

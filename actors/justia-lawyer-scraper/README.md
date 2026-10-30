@@ -55,6 +55,8 @@ Full details on the [scraper page](https://apify.com/abotapi/justia-lawyer-scrap
 | `slug` | string |
 | `name` | string |
 | `telephones` | list |
+| `firstName` | string |
+| `lastName` | string |
 | `freeConsultation` | boolean |
 | `topRated` | boolean |
 | `profileImage` | string |
@@ -62,11 +64,11 @@ Full details on the [scraper page](https://apify.com/abotapi/justia-lawyer-scrap
 | `scrapedAt` | string |
 | `jobTitle` | string |
 | `jobTitles` | list |
-| `yearsOfExperience` | integer |
+| `yearsOfExperience` | null |
 | `headerFacts` | list |
 | `primaryPhone` | string |
 | `emailContactUrl` | string |
-| `vcardUrl` | null |
+| `vcardUrl` | string |
 | `badges` | list |
 | `claimedProfile` | boolean |
 | `offersVideoConferencing` | boolean |
@@ -74,20 +76,18 @@ Full details on the [scraper page](https://apify.com/abotapi/justia-lawyer-scrap
 | `liiPlatinum` | boolean |
 | `hasSocialMedia` | boolean |
 | `biography` | string |
-| `practiceAreas` | null |
-| `additionalPracticeAreas` | null |
-| `videoConferencing` | null |
-| `fees` | null |
+| `practiceAreas` | list |
+| `additionalPracticeAreas` | list |
+| `videoConferencing` | list |
+| `fees` | list |
 | `contingentFees` | boolean |
-| `jurisdictions` | null |
-| `languages` | null |
-| `experience` | null |
-| `education` | null |
-| `awards` | null |
-| `associations` | null |
-| `speakingEngagements` | null |
-| `certifications` | null |
-| `publications` | null |
+| `jurisdictions` | list |
+| `languages` | list |
+| `experience` | list |
+| `education` | list |
+| `awards` | list |
+| `associations` | list |
+| `speakingEngagements` | list |
 
 ---
 

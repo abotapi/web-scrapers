@@ -1,14 +1,15 @@
 [
   {
-    "id": "n7iofglvef4isyxqosso",
+    "id": "wwloswvfthiqyd4amjm3",
     "title": "Example title",
     "price": "Example price",
     "price_numeric": 572083,
     "currency": "GBP",
     "bedrooms": 2,
     "bathrooms": 5,
-    "property_type": "Flat",
+    "property_type": "Terraced",
     "tags": [
+      "Example tags",
       "Example tags"
     ],
     "images": [
@@ -18,10 +19,16 @@
     "image_count": 89,
     "url": "https://jitty.com/example/66643",
     "address": "Example address",
-    "latitude": 45.37,
-    "longitude": -0.08,
+    "latitude": 45.4,
+    "longitude": 0.22,
     "location_source": "detail_page",
-    "lease_years_remaining": 0,
+    "ownership": "Example ownership",
+    "living_spaces": 8,
+    "property_type_detail": "Terraced",
+    "epc_current_score": 68,
+    "epc_current_rating": "Example epc_current_rating",
+    "epc_potential_score": 18,
+    "epc_potential_rating": "Example epc_potential_rating",
     "estate_agent": "Example estate_agent",
     "features": [
       "Example features",
@@ -29,14 +36,14 @@
     ]
   },
   {
-    "id": "Example id",
+    "id": "aezlgbsgy6hsq0zugotg",
     "title": "Example title",
     "price": "Example price",
     "price_numeric": 584164,
     "currency": "GBP",
     "bedrooms": 6,
     "bathrooms": 8,
-    "property_type": "Flat",
+    "property_type": "Semi-Detached",
     "tags": [
       "Example tags",
       "Example tags"
@@ -48,10 +55,16 @@
     "image_count": 22,
     "url": "https://jitty.com/example/61158",
     "address": "Example address",
-    "latitude": 53.54,
-    "longitude": -0.11,
+    "latitude": 53.6,
+    "longitude": 0.24,
     "location_source": "detail_page",
-    "lease_years_remaining": 843,
+    "ownership": "Example ownership",
+    "living_spaces": 8,
+    "property_type_detail": "Semi-Detached",
+    "epc_current_score": 36,
+    "epc_current_rating": "Example epc_current_rating",
+    "epc_potential_score": 95,
+    "epc_potential_rating": "Example epc_potential_rating",
     "estate_agent": "Example estate_agent",
     "features": [
       "Example features",

@@ -16,6 +16,8 @@ run = client.actor("abotapi/pocketcasts-podcast-scraper").call(
         "searchTerms": ["true crime"],
         "categories": ["comedy"],
         "region": "us",
+        "maxResults": 10,
+        "sortBy": "chartRank",
         "proxyConfiguration": {"useApifyProxy": True},
     },
     logger=None,  # don't stream the run log to your console

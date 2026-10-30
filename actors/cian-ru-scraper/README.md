@@ -88,9 +88,9 @@ Full details on the [scraper page](https://apify.com/abotapi/cian-ru-scraper?utm
 | `metroLineId` | integer |
 | `metroLineColor` | string |
 | `roomsCount` | integer |
-| `totalArea` | float |
+| `totalArea` | integer |
 | `livingArea` | float |
-| `kitchenArea` | float |
+| `kitchenArea` | integer |
 | `floorNumber` | integer |
 | `floorsCount` | integer |
 | `buildYear` | null |

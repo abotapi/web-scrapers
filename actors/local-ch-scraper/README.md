@@ -82,13 +82,13 @@ Full details on the [scraper page](https://apify.com/abotapi/local-ch-scraper?ut
 | `longitude` | float |
 | `phone` | string |
 | `phoneAlt` | null |
-| `mobile` | string |
+| `mobile` | null |
 | `fax` | null |
 | `email` | string |
 | `emailAlt` | null |
 | `website` | string |
 | `whatsapp` | null |
-| `facebook` | null |
+| `facebook` | string |
 | `instagram` | null |
 | `linkedin` | null |
 | `twitter` | null |
@@ -99,7 +99,7 @@ Full details on the [scraper page](https://apify.com/abotapi/local-ch-scraper?ut
 | `foursquare` | null |
 | `phones` | list |
 | `emails` | list |
-| `socialMediaUrls` | null |
+| `socialMediaUrls` | list |
 | `refusesAdvertising` | boolean |
 | `poBoxZipCode` | null |
 | `poBoxCity` | null |

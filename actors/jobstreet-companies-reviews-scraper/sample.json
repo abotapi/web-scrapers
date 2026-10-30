@@ -10,6 +10,15 @@
     "coverImageUrl": "https://image-service-cdn.seek.com.au/example/97044.jpg",
     "industry": "Example industry",
     "totalJobs": 39,
+    "overviewText": "Example overview text: mock text standing in for the real value. Same field and type, made-up content.",
+    "companySize": "Example company size",
+    "perks": [
+      "Example perks"
+    ],
+    "customStatement": {
+      "title": "Example title",
+      "description": "Example description: mock text standing in for the real value. Same field and type, made-up content."
+    },
     "ratingOverall": 8,
     "reviewCount": 709,
     "salaryRating": 48,
@@ -70,6 +79,10 @@
       }
     ],
     "topReviewCount": 4,
-    "scrapedAt": "2026-01-15T10:00:00Z"
+    "scrapedAt": "2026-01-15T10:00:00Z",
+    "aiSummary": {
+      "summary": "Example summary: mock text standing in for the real value. Same field and type, made-up content."
+    },
+    "recordType": "company"
   }
 ]

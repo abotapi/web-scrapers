@@ -27,8 +27,14 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~myanimelist-scraper/run-s
 | `mode` * | string | Collection mode |
 | `mediaType` | string | Media type |
 | `searchTerms` | array | Search keywords |
+| `searchType` | string | Search type filter |
+| `searchQueries` | array | Search queries (alias) |
 | `chartKind` | string | Chart |
+| `topType` | string | Top list (alias) |
+| `topLimit` | integer | Top list limit (alias) |
 | `urls` | array | MyAnimeList URLs |
+| `animeIds` | array | Anime IDs |
+| `mangaIds` | array | Manga IDs |
 | `fetchDetails` | boolean | Fetch full details for every record |
 | `maxReviews` | integer | Maximum reviews per record |
 | `maxItems` | integer | Maximum records |
@@ -45,6 +51,13 @@ Full details on the [scraper page](https://apify.com/abotapi/myanimelist-scraper
 
 | Field | Type |
 | --- | --- |
+| `malId` | integer |
+| `rank` | integer |
+| `titleSynonyms` | list |
+| `airedFrom` | string |
+| `airedTo` | string |
+| `season` | string |
+| `year` | integer |
 | `id` | integer |
 | `mediaType` | string |
 | `url` | string |
@@ -53,6 +66,7 @@ Full details on the [scraper page](https://apify.com/abotapi/myanimelist-scraper
 | `episodes` | integer |
 | `score` | float |
 | `synopsisSnippet` | string |
+| `trailerUrl` | string |
 | `titleJapanese` | string |
 | `titleEnglish` | string |
 | `synonyms` | list |
@@ -77,14 +91,6 @@ Full details on the [scraper page](https://apify.com/abotapi/myanimelist-scraper
 | `serialization` | list |
 | `synopsis` | string |
 | `imageUrl` | string |
-| `scoredBy` | integer |
-| `reviewCount` | integer |
-| `reviewBreakdown` | object |
-| `relatedEntries` | list |
-| `characters` | list |
-| `staff` | list |
-| `reviews` | list |
-| `openingThemes` | list |
 
 ---
 

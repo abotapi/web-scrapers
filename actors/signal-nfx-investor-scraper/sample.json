@@ -1,0 +1,84 @@
+[
+  {
+    "recordId": "Example record id",
+    "recordKind": "investor",
+    "investorProfileId": "4973",
+    "personSlug": "Example person slug",
+    "personUrl": "https://signal.nfx.com/example/1698",
+    "name": "Example name",
+    "firstName": "Example first name",
+    "lastName": "Example last name",
+    "linkedinUrl": "https://www.linkedin.com/example/99388",
+    "twitterUrl": "https://www.twitter.com/example/66881",
+    "crunchbaseUrl": "https://www.crunchbase.com/example/30489",
+    "angellistUrl": "https://www.angel.co/example/65613",
+    "personalWebsiteUrl": "https://notion.so/example/96731",
+    "roles": [
+      "VC",
+      "Example roles"
+    ],
+    "firstDegreeCount": 3873,
+    "firmName": "Example firm name",
+    "firmSlug": "id80141703",
+    "firmUrl": "https://signal.nfx.com/example/51753",
+    "seniority": "partner",
+    "minCheckUsd": 360283,
+    "maxCheckUsd": 1445801,
+    "targetCheckUsd": 9608200,
+    "investmentLocations": [
+      "Example investment locations",
+      "Example investment locations"
+    ],
+    "investorLists": [
+      {
+        "slug": "Example slug",
+        "stageName": "Example stage name",
+        "vertical": "Example vertical"
+      },
+      {
+        "slug": "Example slug",
+        "stageName": "Example stage name",
+        "vertical": "Example vertical"
+      }
+    ],
+    "listVertical": "Example list vertical",
+    "listStage": "seed",
+    "foundVia": "list",
+    "sourceListSlug": "fintech-seed",
+    "scrapedAt": "2026-01-15T10:00:00Z",
+    "headline": "Example headline",
+    "voteCount": 74,
+    "location": "Example location",
+    "areasOfInterestFreeform": "Example areas of interest freeform",
+    "degrees": [
+      {
+        "degree": "Example degree",
+        "fieldOfStudy": "Example field of study",
+        "school": "Example school"
+      }
+    ],
+    "fundingRounds": [
+      {
+        "company": "Example company",
+        "stage": "Example stage",
+        "amount": "Example amount",
+        "amountUsd": 106196716,
+        "date": "2026-01-15T10:00:00Z"
+      },
+      {
+        "company": "Example company",
+        "stage": "Example stage",
+        "amount": "Example amount",
+        "amountUsd": 81035602,
+        "date": "2026-01-15T10:00:00Z"
+      }
+    ],
+    "fundingRoundCount": 91,
+    "mediaLinks": [
+      {
+        "url": "https://www.axios.com/example/91163",
+        "title": "Example title: mock text standing in for the real value. Same field and type, made-up content."
+      }
+    ]
+  }
+]

@@ -28,6 +28,7 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~gumtree-uk-scraper/run-sy
 | `urls` | array | Search or listing URLs (URL mode) |
 | `category` | string | Category / vertical |
 | `location` | string | Location |
+| `locations` | array | More locations |
 | `keywords` | string | Keyword |
 | `sortBy` | string | Sort order |
 | `minPrice` | integer | Minimum price (GBP) |
@@ -72,6 +73,7 @@ Full details on the [scraper page](https://apify.com/abotapi/gumtree-uk-scraper?
 | `standout` | boolean |
 | `bumpup` | boolean |
 | `hasVideo` | boolean |
+| `image` | string |
 | `images` | list |
 | `imageCount` | integer |
 | `numberOfImages` | integer |
@@ -79,15 +81,14 @@ Full details on the [scraper page](https://apify.com/abotapi/gumtree-uk-scraper?
 | `proAccount` | boolean |
 | `attributes` | list |
 | `description` | string |
-| `latitude` | float |
-| `longitude` | float |
-| `postcode` | string |
+| `latitude` | integer |
+| `longitude` | integer |
+| `postcode` | null |
 | `area` | string |
 | `subArea` | string |
 | `address` | string |
 | `detailFetched` | boolean |
 | `seller` | object |
-| `scrapedAt` | string |
 
 ---
 

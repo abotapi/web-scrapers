@@ -4,7 +4,7 @@
     "placeName": "Example place name",
     "hotelId": "+1 555 0100",
     "hotelUrl": "https://www.expedia.com/example/80789",
-    "hotelOverallRating": 8.46,
+    "hotelOverallRating": 8.82,
     "hotelRatingLabel": "+1 555 0100",
     "hotelTotalReviews": 7547,
     "provider": "expedia",
@@ -27,14 +27,14 @@
       "neighborhood": "Example neighborhood",
       "highlightedAmenities": [
         "Example highlighted amenities",
-        "AC"
+        "Example highlighted amenities"
       ],
       "offerMessages": [],
       "freeCancellation": false,
       "sponsored": false,
       "totalPrice": 112,
       "totalPriceFormatted": "Example total price formatted",
-      "dealBadge": null,
+      "dealBadge": "Example deal badge",
       "availabilityMessage": "Example availability message",
       "priceCurrency": "USD",
       "childrenAges": [],
@@ -43,7 +43,6 @@
       "searchRank": 2,
       "regionId": "1570",
       "badges": [
-        "Example badges",
         "Example badges"
       ],
       "priceMessages": [
@@ -52,12 +51,12 @@
       ],
       "gallery": [
         {
-          "id": "624676",
+          "id": "532919",
           "url": "https://images.trvl-media.com/example/29937.jpg",
           "description": "Example description: mock text standing in for the real value. Same field and type, made-up content."
         },
         {
-          "id": "523749",
+          "id": "588256",
           "url": "https://images.trvl-media.com/example/50508.jpg",
           "description": "Example description: mock text standing in for the real value. Same field and type, made-up content."
         }

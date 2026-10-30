@@ -32,8 +32,10 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~mudah-my-scraper/run-sync
 | `startUrls` | array | Start URLs |
 | `minPrice` | integer | Minimum price (RM) |
 | `maxPrice` | integer | Maximum price (RM) |
+| `onlyUrgent` | boolean | Only urgent listings |
 | `maxItems` | integer | Max items |
 | `maxPages` | integer | Max pages per search |
+| `includeDetails` | boolean | Include listing details |
 | `proxy` | object | Connection |
 
 `*` required
@@ -65,6 +67,14 @@ Full details on the [scraper page](https://apify.com/abotapi/mudah-my-scraper?ut
 | `highlights` | null |
 | `rank` | object |
 | `bundle` | null |
+| `listingId` | string |
+| `typeId` | string |
+| `transactionType` | string |
+| `previousPrice` | null |
+| `discountAmount` | null |
+| `discountPercent` | null |
+| `urgent` | boolean |
+| `categorisedBadges` | null |
 | `reviews` | list |
 | `scrapedAt` | string |
 | `categoryId` | string |

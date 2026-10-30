@@ -17,7 +17,7 @@ python example.py
 ```bash
 curl -s -X POST "https://api.apify.com/v2/acts/abotapi~domclick-scraper/run-sync-get-dataset-items?token=$APIFY_TOKEN" \
   -H 'Content-Type: application/json' \
-  -d '{"mode": "search", "locations": ["Москва"], "dealType": "sale", "category": "living", "offerType": "flat", "sortBy": "relevance", "maxPages": 1, "maxListings": 10, "proxy": {"useApifyProxy": true, "apifyProxyGroups": ["RESIDENTIAL"], "apifyProxyCountry": "RU"}}'
+  -d '{"mode": "search", "locations": ["Москва"], "dealType": "sale", "category": "living", "offerType": "flat", "apartments": "include", "sortBy": "relevance", "maxPages": 1, "maxListings": 10, "proxy": {"useApifyProxy": true, "apifyProxyGroups": ["RESIDENTIAL"], "apifyProxyCountry": "RU"}}'
 ```
 
 ## Inputs
@@ -36,6 +36,19 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~domclick-scraper/run-sync
 | `maxArea` | integer | Max area (m²) |
 | `minFloor` | integer | Min floor |
 | `maxFloor` | integer | Max floor |
+| `minBuildYear` | integer | Built in or after (year) |
+| `maxBuildYear` | integer | Built in or before (year) |
+| `minBuildingFloors` | integer | Min floors in building |
+| `maxBuildingFloors` | integer | Max floors in building |
+| `minKitchenArea` | integer | Min kitchen area (m²) |
+| `minPricePerM2` | integer | Min price per m² (RUB) |
+| `maxPricePerM2` | integer | Max price per m² (RUB) |
+| `maxMetroWalkMinutes` | integer | Max walk to metro (minutes) |
+| `wallType` | array | Wall material |
+| `notFirstFloor` | boolean | Exclude first floor |
+| `notLastFloor` | boolean | Exclude top floor |
+| `onlyWithPhoto` | boolean | Only with photos |
+| `apartments` | string | Apartments (non-residential units) |
 | `sortBy` | string | Sort by |
 | `urls` | array | Domclick URLs |
 | `fetchDetails` | boolean | Fetch extra details (valuation, nearby |
@@ -87,9 +100,9 @@ Full details on the [scraper page](https://apify.com/abotapi/domclick-scraper?ut
 | `buildingEndYear` | integer |
 | `buildingEndQuarter` | integer |
 | `sellerName` | string |
-| `sellerCasId` | null |
-| `sellerExperience` | null |
-| `sellerPhotoUrl` | null |
+| `sellerCasId` | integer |
+| `sellerExperience` | integer |
+| `sellerPhotoUrl` | string |
 | `isAgent` | boolean |
 | `isAgency` | boolean |
 | `isSbolVerified` | boolean |

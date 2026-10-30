@@ -65,7 +65,7 @@ Full details on the [scraper page](https://apify.com/abotapi/concert-archives-sc
 | `venueCity` | string |
 | `venueRegion` | string |
 | `venueCountry` | string |
-| `ticketUrl` | null |
+| `ticketUrl` | string |
 | `hasSetlist` | boolean |
 | `hasPhotos` | boolean |
 | `labels` | list |
@@ -75,11 +75,11 @@ Full details on the [scraper page](https://apify.com/abotapi/concert-archives-sc
 | `imageUrl` | string |
 | `performers` | list |
 | `artistGenres` | list |
-| `ticketVendor` | null |
+| `ticketVendor` | string |
 | `venueAddress` | string |
 | `lineupCount` | integer |
 | `attendeeCount` | integer |
-| `photoCount` | integer |
+| `photoCount` | null |
 | `setlists` | null |
 | `setlistCount` | null |
 

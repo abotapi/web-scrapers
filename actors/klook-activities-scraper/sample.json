@@ -1,5 +1,7 @@
 [
   {
+    "latitude": 33.14,
+    "longitude": 100.72,
     "id": "517",
     "activityId": "428",
     "recordType": "activity",
@@ -11,12 +13,15 @@
     "rating": 6.14,
     "reviewCount": 84335,
     "location": "Example location",
+    "cityId": 21,
     "category": "Example category",
     "imageUrls": [
       "https://res.klook.com/example/13854.jpg",
       "https://res.klook.com/example/67306.jpg"
     ],
-    "promotions": [],
+    "promotions": [
+      "Example promotions"
+    ],
     "booked": "Example booked",
     "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
     "country": "Japan",
@@ -24,6 +29,17 @@
     "detailStatus": "complete",
     "operation": "activities",
     "sourceMode": "search",
+    "activity_id": "213",
+    "activity_url": "https://www.klook.com/example/31150",
+    "sell_price": 46.3,
+    "price_from": 76.73,
+    "price_to": null,
+    "city_name": "Example city_name",
+    "country_name": "Example country_name",
+    "image_url": "https://res.klook.com/example/759.jpg",
+    "review_count": 66901,
+    "booked_count": 5116112,
+    "scraped_at": "2026-01-15T10:00:00Z",
     "changeType": "NEW"
   }
 ]

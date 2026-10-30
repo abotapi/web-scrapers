@@ -17,7 +17,7 @@ python example.py
 ```bash
 curl -s -X POST "https://api.apify.com/v2/acts/abotapi~castorama-fr-scraper/run-sync-get-dataset-items?token=$APIFY_TOKEN" \
   -H 'Content-Type: application/json' \
-  -d '{"mode": "search", "queries": ["perceuse"], "minRating": "0", "sortBy": "relevance", "maxItems": 10, "maxPages": 1, "proxy": {"useApifyProxy": true}}'
+  -d '{"mode": "search", "queries": ["perceuse", "peinture blanche mate", "https://www.castorama.fr/outillage/outillage-electroportatif/perceuse-visseuse-perceuse-a-percussion-et-tournevis-sans-fil/cat_id_3796.cat"], "minRating": "0", "sortBy": "relevance", "maxItems": 10, "maxPages": 1, "proxy": {"useApifyProxy": true}}'
 ```
 
 ## Inputs
@@ -76,7 +76,9 @@ Full details on the [scraper page](https://apify.com/abotapi/castorama-fr-scrape
 | `manufacturerRaw` | object |
 | `offersRaw` | list |
 | `searchMode` | string |
+| `name` | string |
 | `scrapedAt` | string |
+| `inStock` | boolean |
 | `rating` | float |
 | `reviewCount` | integer |
 | `reviews` | list |

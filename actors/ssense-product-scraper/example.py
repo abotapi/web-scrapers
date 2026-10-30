@@ -16,6 +16,8 @@ run = client.actor("abotapi/ssense-product-scraper").call(
         "searchTerms": ["sneakers"],
         "gender": "men",
         "sortResultsBy": "site_order",
+        "siteSort": "site_default",
+        "countryCode": "US",
         "maxItems": 10,
         "maxPages": 1,
         "proxy": {"useApifyProxy": True},

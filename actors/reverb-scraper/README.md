@@ -17,7 +17,7 @@ python example.py
 ```bash
 curl -s -X POST "https://api.apify.com/v2/acts/abotapi~reverb-scraper/run-sync-get-dataset-items?token=$APIFY_TOKEN" \
   -H 'Content-Type: application/json' \
-  -d '{"mode": "search", "queries": ["Fender Stratocaster"], "sortBy": "relevance", "maxItems": 10, "maxPages": 1, "proxy": {"useApifyProxy": true}}'
+  -d '{"mode": "search", "queries": ["Fender Stratocaster"], "sortBy": "relevance", "maxReviewsPerProduct": 10, "maxItems": 10, "maxPages": 1, "proxy": {"useApifyProxy": true}, "changeScope": "all", "maxListings": 10}'
 ```
 
 ## Inputs
@@ -43,9 +43,18 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~reverb-scraper/run-sync-g
 | `sortBy` | string | Sort by (search mode) |
 | `includeSoldPriceGuide` | boolean | Include the sold Price Guide |
 | `fetchDetails` | boolean | Read each listing's own item page |
+| `maxReviewsPerProduct` | integer | Max reviews per Price Guide record |
 | `maxItems` | integer | Max results |
 | `maxPages` | integer | Max pages per keyword or link |
 | `proxy` | object | Proxy configuration |
+| `changeScope` | string | What counts as a change (incremental m |
+| `compactUpdates` | boolean | Compact update rows (incremental mode  |
+| `expireAfterMissedScans` | integer | Expire after N missed full scans (incr |
+| `searchQueries` | array | Search queries (alias) |
+| `condition` | string | Condition (alias) |
+| `maxListings` | integer | Max listings (alias) |
+| `scrapeDetails` | boolean | Scrape details (alias) |
+| `proxyConfiguration` | object | Proxy configuration (alias) |
 
 `*` required
 
@@ -85,6 +94,7 @@ Full details on the [scraper page](https://apify.com/abotapi/reverb-scraper?utm_
 | `price` | float |
 | `priceCents` | integer |
 | `currency` | string |
+| `priceCurrency` | string |
 | `priceDisplay` | string |
 | `taxIncluded` | boolean |
 | `buyerPrice` | float |
@@ -96,7 +106,6 @@ Full details on the [scraper page](https://apify.com/abotapi/reverb-scraper?utm_
 | `isLive` | boolean |
 | `inventory` | integer |
 | `hasInventory` | boolean |
-| `offersEnabled` | boolean |
 
 ---
 

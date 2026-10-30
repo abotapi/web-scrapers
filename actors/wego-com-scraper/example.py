@@ -20,6 +20,7 @@ run = client.actor("abotapi/wego-com-scraper").call(
         "maxItems": 10,
         "maxPages": 1,
         "proxy": {"useApifyProxy": True},
+        "changeScope": "all",
     },
     logger=None,  # don't stream the run log to your console
 )

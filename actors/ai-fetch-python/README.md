@@ -17,7 +17,7 @@ python example.py
 ```bash
 curl -s -X POST "https://api.apify.com/v2/acts/abotapi~ai-fetch-python/run-sync-get-dataset-items?token=$APIFY_TOKEN" \
   -H 'Content-Type: application/json' \
-  -d '{"url": "https://www.google.com", "urlField": "link", "waitUntil": "domcontentloaded"}'
+  -d '{"url": "https://www.example.com", "startUrls": [{"url": "https://www.example.com"}, {"url": "https://en.wikipedia.org/wiki/Web_scraping"}], "urlField": "link", "engine": "auto", "waitUntil": "domcontentloaded"}'
 ```
 
 ## Inputs
@@ -25,12 +25,26 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~ai-fetch-python/run-sync-
 | Input | Type | What it is |
 | --- | --- | --- |
 | `url` | string | URL to fetch |
+| `startUrls` | array | Start URLs (multiple) |
 | `datasetId` | string | Dataset ID (Integration Mode) |
 | `urlField` | string | URL Field Name |
 | `maxUrls` | integer | Maximum URLs to Fetch |
-| `proxy` | object | Proxy Configuration |
+| `maxCrawlDepth` | integer | Crawl depth |
+| `maxCrawlPages` | integer | Max pages |
+| `includeUrlGlobs` | array | Include URL globs |
+| `excludeUrlGlobs` | array | Exclude URL globs |
+| `waitForSelector` | string | Wait for selector |
+| `customHttpHeaders` | object | Custom HTTP headers |
+| `initialCookies` | array | Initial cookies |
+| `engine` | string | Fetch engine |
+| `removeElementsCssSelector` | string | Remove elements (CSS) |
+| `keepElementsCssSelector` | string | Keep only elements (CSS) |
+| `saveHtml` | boolean | Include raw HTML in rows |
+| `saveHtmlAsFile` | boolean | Save HTML as file |
+| `saveScreenshots` | boolean | Save screenshots |
 | `waitUntil` | string | Wait Until |
 | `debug` | boolean | Debug Mode |
+| `proxy` | object | Proxy Configuration |
 
 `*` required
 
@@ -45,6 +59,8 @@ Full details on the [scraper page](https://apify.com/abotapi/ai-fetch-python?utm
 | `url` | string |
 | `markdown` | string |
 | `metadata` | object |
+| `text` | string |
+| `crawl` | object |
 
 ---
 

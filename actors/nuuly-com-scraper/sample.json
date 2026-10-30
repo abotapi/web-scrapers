@@ -1,0 +1,94 @@
+[
+  {
+    "recordId": "Example record id",
+    "url": "https://www.nuuly.com/example/63076",
+    "productSlug": "Example product slug",
+    "styleNumber": "098255940",
+    "skuId": null,
+    "title": "Example title",
+    "brand": "Example brand",
+    "vendorBrands": [
+      "Example vendor brands"
+    ],
+    "colorCode": "279",
+    "colorName": "Example color name",
+    "retailPrice": 169,
+    "salePrice": 985,
+    "listPrice": 142,
+    "discountPercent": null,
+    "availableToRent": true,
+    "availabilityStatus": "IN_STOCK",
+    "isVintage": false,
+    "previouslyRented": null,
+    "ratingAverage": 4.79,
+    "ratingCount": 1,
+    "ratingHistogram": {
+      "1": 8,
+      "2": 0,
+      "3": 6,
+      "4": 0,
+      "5": 4
+    },
+    "fitRatingAverage": 2.33,
+    "sizeDisplayName": null,
+    "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
+    "additionalDescription": "Example additional description: mock text standing in for the real value. Same field and type, made-up content.",
+    "fabricCare": "Example fabric care",
+    "modelNotes": "Example model notes",
+    "colors": [
+      {
+        "code": "820",
+        "name": "Example name",
+        "hex": "Example hex",
+        "imageUrl": "https://s7d2.scene7.com/example/40329.jpg"
+      }
+    ],
+    "sizes": [
+      {
+        "size": "XXS",
+        "group": "Example group",
+        "available": true,
+        "inventory": 0
+      },
+      {
+        "size": "XS",
+        "group": "Example group",
+        "available": true,
+        "inventory": 2
+      }
+    ],
+    "attributes": [
+      {
+        "name": "Example name",
+        "value": "Example value"
+      },
+      {
+        "name": "Example name",
+        "value": "Example value"
+      }
+    ],
+    "imageUrl": "https://s7d2.scene7.com/example/40329.jpg",
+    "imageUrls": [
+      "https://s7d2.scene7.com/example/57649.jpg",
+      "https://s7d2.scene7.com/example/21978.jpg"
+    ],
+    "reviews": [
+      {
+        "reviewId": "id67992766",
+        "reviewAuthor": "Example review author",
+        "reviewRating": 6,
+        "reviewFitRating": 1,
+        "reviewTitle": "Example review title",
+        "reviewBody": "Example review body: mock text standing in for the real value. Same field and type, made-up content.",
+        "reviewDate": "2103-11-10 31:12:11.83+61",
+        "reviewType": null,
+        "reviewPhotos": []
+      }
+    ],
+    "reviewsTotal": 3,
+    "scrapedAt": "2026-01-15T10:00:00Z",
+    "choiceId": "id20266934",
+    "merchandiseClass": "3099",
+    "brandSlug": "farm-rio"
+  }
+]

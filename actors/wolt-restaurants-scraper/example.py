@@ -1,4 +1,4 @@
-"""Wolt.com Scraper: minimal example. Docs: https://apify.com/abotapi/wolt-restaurants-scraper
+"""Wolt Scraper: minimal example. Docs: https://apify.com/abotapi/wolt-restaurants-scraper
 
 pip install "apify-client>=3"
 APIFY_TOKEN=<your token> python example.py
@@ -16,6 +16,7 @@ run = client.actor("abotapi/wolt-restaurants-scraper").call(
         "cities": ["Helsinki"],
         "sortBy": "default",
         "language": "en",
+        "maxItems": 10,
         "proxyConfiguration": {"useApifyProxy": True},
     },
     logger=None,  # don't stream the run log to your console

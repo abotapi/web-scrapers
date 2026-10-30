@@ -12,8 +12,10 @@ client = ApifyClient(os.environ["APIFY_TOKEN"])
 
 run = client.actor("abotapi/web-scraper-for-llms").call(
     run_input={
-        "urls": ["https://example.com"],
+        "urls": ["https://example.com", "http://example.com/?a=1&b=2", "https://www.iana.org/domains/reserved", "https://en.wikipedia.org/wiki/Web_scraping"],
         "formats": ["markdown"],
+        "crawlerType": "auto",
+        "maxResults": 10,
     },
     logger=None,  # don't stream the run log to your console
 )

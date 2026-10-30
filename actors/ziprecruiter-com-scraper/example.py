@@ -19,6 +19,7 @@ run = client.actor("abotapi/ziprecruiter-com-scraper").call(
         "employmentType": "any",
         "maxPages": 1,
         "maxListings": 10,
+        "workplace": "any",
         "proxy": {"useApifyProxy": True, "apifyProxyGroups": ["RESIDENTIAL"], "apifyProxyCountry": "US"},
     },
     logger=None,  # don't stream the run log to your console

@@ -60,10 +60,13 @@ Full details on the [scraper page](https://apify.com/abotapi/cdiscount-scraper?u
 | `originalPrice` | null |
 | `discountPercent` | null |
 | `discountAmount` | null |
-| `promoLabel` | string |
+| `promoLabel` | null |
 | `isAvailable` | boolean |
 | `sponsored` | boolean |
 | `freeShipping` | string |
+| `isCdav` | boolean |
+| `isFbc` | boolean |
+| `isDownloadable` | boolean |
 | `media` | list |
 | `previewImage` | string |
 | `rating` | null |
@@ -79,6 +82,9 @@ Full details on the [scraper page](https://apify.com/abotapi/cdiscount-scraper?u
 | `hasDetail` | boolean |
 | `sourceMode` | string |
 | `searchWord` | string |
+| `page` | integer |
+| `rankOnPage` | integer |
+| `scrapedAt` | string |
 
 ---
 

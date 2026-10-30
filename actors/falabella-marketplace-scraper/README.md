@@ -27,11 +27,15 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~falabella-marketplace-scr
 | `mode` * | string | Mode |
 | `market` | string | Market |
 | `queries` | array | Search terms |
+| `term` | string | Search term (alias) |
 | `sort` | string | Ordering |
 | `urls` | array | Product or listing links |
 | `fetchDetails` | boolean | Read product detail pages |
 | `maxItems` | integer | Max records |
 | `maxPages` | integer | Max pages per source |
+| `concurrency` | integer | Concurrency |
+| `retries` | integer | Retries |
+| `timeoutSecs` | integer | Timeout per request (seconds) |
 | `proxyConfiguration` | object | Proxy configuration |
 
 `*` required
@@ -55,23 +59,35 @@ Full details on the [scraper page](https://apify.com/abotapi/falabella-marketpla
 | `price` | integer |
 | `priceDisplay` | string |
 | `oldPrice` | integer |
-| `discountPercent` | null |
-| `ratingAverage` | float |
+| `discountPercent` | integer |
+| `ratingAverage` | integer |
 | `ratingCount` | integer |
 | `sellerId` | string |
 | `sellerName` | string |
 | `officialSeller` | boolean |
 | `sponsored` | boolean |
 | `bestSeller` | boolean |
-| `installments` | list |
+| `installments` | null |
 | `shippingOptions` | list |
 | `market` | string |
 | `marketHost` | string |
+| `offering_id` | string |
+| `discount_label` | string |
+| `badges` | list |
+| `promotions` | list |
+| `category_id` | string |
+| `total_reviews` | integer |
+| `shipping_labels` | list |
+| `raw_product` | string |
+| `internet_price` | integer |
+| `normal_price` | integer |
 | `sourceType` | string |
 | `sourceId` | string |
 | `sourceUrl` | null |
 | `position` | integer |
 | `scrapedAt` | string |
+| `product_id` | string |
+| `sku_id` | string |
 
 ---
 

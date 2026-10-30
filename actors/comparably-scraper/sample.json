@@ -1,25 +1,25 @@
 [
   {
     "companyId": 29459,
-    "slug": "microsoft",
+    "slug": "google",
     "url": "https://www.comparably.com/example/36926",
     "name": "Example name",
     "fullName": "Example full name",
     "mission": "Example mission: mock text standing in for the real value. Same field and type, made-up content.",
-    "website": "http://www.microsoft.com/example/29272",
+    "website": "http://www.google.com/example/29272",
     "phone": "+1 555 0100",
     "address": "Example address",
-    "revenue": 0,
+    "revenue": 317924448219,
     "logo": "https://cdn.comparably.com/example/64656.jpg",
-    "backgroundUrl": "https://cdn.comparably.com/example/41484",
+    "backgroundUrl": "https://cdn.comparably.com/example/41484.jpg",
     "employeeParticipantCount": 8937,
     "totalRatingsCount": 50770,
     "lastModifiedDate": "2026-01-15T10:00:00Z",
     "isClaimedCompany": true,
     "isPremiumCompany": false,
-    "overallRating": 3.33,
+    "overallRating": 3.4,
     "letterGrade": "Example letter grade",
-    "isChoiceEmployer": false,
+    "isChoiceEmployer": true,
     "cultureScore": 42,
     "cultureGrade": "Example culture grade",
     "cultureScoreLabel": "Example culture score label",
@@ -50,14 +50,14 @@
     ],
     "bottomDimensions": [
       {
-        "category": "Manager",
+        "category": "Example category",
         "grade": "Example grade",
         "score": "Example score",
         "percent": 40,
         "url": null
       },
       {
-        "category": "Retention",
+        "category": "eNPS",
         "grade": "Example grade",
         "score": "Example score",
         "percent": 86,
@@ -73,8 +73,8 @@
     "metro": {
       "metroId": 8,
       "name": "Example name",
-      "mainCityId": 23517,
-      "mainCityStateId": 11,
+      "mainCityId": 5517,
+      "mainCityStateId": 2,
       "verified": true,
       "visibleOnSite": true
     },
@@ -91,7 +91,7 @@
     "relatedCompanies": [],
     "reviews": [
       {
-        "reviewId": "4945670",
+        "reviewId": "7881159",
         "url": "https://www.comparably.com/example/36926",
         "question": "Example question",
         "text": "Example text",
@@ -104,25 +104,25 @@
   },
   {
     "companyId": 76604,
-    "slug": "google",
+    "slug": "microsoft",
     "url": "https://www.comparably.com/example/73689",
     "name": "Example name",
     "fullName": "Example full name",
     "mission": "Example mission: mock text standing in for the real value. Same field and type, made-up content.",
-    "website": "http://www.google.com/example/5443",
+    "website": "http://www.microsoft.com/example/5443",
     "phone": "+1 555 0100",
     "address": "Example address",
-    "revenue": 320033414759,
+    "revenue": 0,
     "logo": "https://cdn.comparably.com/example/49643.jpg",
-    "backgroundUrl": "https://cdn.comparably.com/example/88914.jpg",
+    "backgroundUrl": "https://cdn.comparably.com/example/88914",
     "employeeParticipantCount": 2627,
     "totalRatingsCount": 20468,
     "lastModifiedDate": "2026-01-15T10:00:00Z",
     "isClaimedCompany": true,
     "isPremiumCompany": false,
-    "overallRating": 4.65,
+    "overallRating": 4.54,
     "letterGrade": "Example letter grade",
-    "isChoiceEmployer": true,
+    "isChoiceEmployer": false,
     "cultureScore": 19,
     "cultureGrade": "Example culture grade",
     "cultureScoreLabel": "Example culture score label",
@@ -153,14 +153,14 @@
     ],
     "bottomDimensions": [
       {
-        "category": "Example category",
+        "category": "Manager",
         "grade": "Example grade",
         "score": "Example score",
         "percent": 72,
         "url": null
       },
       {
-        "category": "eNPS",
+        "category": "Retention",
         "grade": "Example grade",
         "score": "Example score",
         "percent": 23,
@@ -176,25 +176,25 @@
     "metro": {
       "metroId": 3,
       "name": "Example name",
-      "mainCityId": 4380,
-      "mainCityStateId": 4,
+      "mainCityId": 40380,
+      "mainCityStateId": 49,
       "verified": true,
       "visibleOnSite": true
     },
     "awards": [
       {
-        "filePath": "https://c2-static.comparably.com/example/29359.jpg",
+        "filePath": "https://c4-static.comparably.com/example/29359.jpg",
         "toolTip": "Example tool tip"
       },
       {
-        "filePath": "https://c4-static.comparably.com/example/771.jpg",
+        "filePath": "https://c2-static.comparably.com/example/771.jpg",
         "toolTip": "Example tool tip"
       }
     ],
     "relatedCompanies": [],
     "reviews": [
       {
-        "reviewId": "0554025",
+        "reviewId": "9805635",
         "url": "https://www.comparably.com/example/73689",
         "question": "Example question",
         "text": "Example text",

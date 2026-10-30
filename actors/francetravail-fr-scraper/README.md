@@ -17,7 +17,7 @@ python example.py
 ```bash
 curl -s -X POST "https://api.apify.com/v2/acts/abotapi~francetravail-fr-scraper/run-sync-get-dataset-items?token=$APIFY_TOKEN" \
   -H 'Content-Type: application/json' \
-  -d '{"mode": "search", "queries": ["developpeur"], "location": "Paris", "publishedDate": "Last Week", "contractType": ["Permanent contract (CDI) | CDI"], "contractDuration": ["Full-time | Temps plein"], "jobCategory": ["IT | Informatique, Télécommunication"], "sortBy": "Newest | Date", "maxItems": 10, "maxPages": 1, "proxy": {"useApifyProxy": true, "apifyProxyGroups": ["RESIDENTIAL"]}}'
+  -d '{"mode": "search", "queries": ["developpeur"], "location": "Paris", "publishedDate": "Last Week", "contractType": ["Permanent contract (CDI) | CDI"], "contractDuration": ["Full-time | Temps plein"], "jobCategory": ["IT | Informatique, Télécommunication"], "sortBy": "Newest | Date", "maxItems": 10, "maxPages": 1, "proxy": {"useApifyProxy": true}}'
 ```
 
 ## Inputs
@@ -71,30 +71,30 @@ Full details on the [scraper page](https://apify.com/abotapi/francetravail-fr-sc
 | `addressCountry` | string |
 | `mapUrl` | string |
 | `contractType` | string |
-| `workTime` | null |
+| `workTime` | string |
 | `publishedAt` | string |
+| `updatedAt` | string |
 | `validThrough` | null |
 | `description` | string |
-| `salary` | null |
-| `salaryCurrency` | null |
-| `salaryMin` | null |
-| `salaryMax` | null |
-| `salaryUnit` | null |
-| `salaryText` | null |
+| `salary` | integer |
+| `salaryCurrency` | string |
+| `salaryMin` | integer |
+| `salaryMax` | integer |
+| `salaryUnit` | string |
+| `salaryText` | string |
 | `employmentType` | null |
-| `workHours` | null |
+| `workHours` | string |
 | `experienceRequirements` | list |
+| `experienceYears` | integer |
 | `skills` | list |
 | `softSkills` | list |
 | `additionalInformation` | list |
 | `companySize` | null |
 | `recruiterName` | string |
-| `recruiterDescription` | null |
+| `recruiterDescription` | string |
 | `employerPageUrl` | null |
 | `employerLogoUrl` | null |
 | `employerPhone` | null |
-| `employerEmail` | null |
-| `applyActionUrl` | string |
 
 ---
 

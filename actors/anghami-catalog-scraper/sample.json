@@ -11,5 +11,29 @@
     "artist_plays": 892005235,
     "artist_followers": 18008195,
     "scrapedAt": "2026-01-15T10:00:00Z"
+  },
+  {
+    "recordId": "Example record id",
+    "kind": "song",
+    "id": "5884244",
+    "url": "https://play.anghami.com/example/10358",
+    "coverArt": "https://artwork.anghcdn.co/example/66196",
+    "title": "Example title",
+    "artist": "Example artist",
+    "artistId": "812",
+    "album": "Example album",
+    "albumId": "665818",
+    "genre": "Example genre",
+    "isPodcast": false,
+    "isAudiobook": false,
+    "lyrics": true,
+    "keywords": [
+      "Example keywords",
+      "Example keywords"
+    ],
+    "durationSec": 747,
+    "explicit": false,
+    "year": 4088,
+    "scrapedAt": "2026-01-15T10:00:00Z"
   }
 ]

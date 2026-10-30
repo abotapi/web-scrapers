@@ -44,6 +44,7 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~reed-co-uk-scraper/run-sy
 | `easyApply` | boolean | Easy apply |
 | `visaSponsorship` | boolean | Visa sponsorship |
 | `earlyBird` | boolean | Early bird |
+| `workFromHome` | boolean | Remote / work from home only |
 | `fetchDetails` | boolean | Fetch full job details |
 | `companies` | array | Companies |
 | `courseQueries` | array | Course search keywords |
@@ -83,9 +84,9 @@ Full details on the [scraper page](https://apify.com/abotapi/reed-co-uk-scraper?
 | `shortDisplaySalary` | string |
 | `salaryFrom` | integer |
 | `salaryTo` | integer |
-| `salaryCurrencyId` | integer |
-| `salaryType` | integer |
-| `jobType` | integer |
+| `salaryCurrencyId` | null |
+| `salaryType` | null |
+| `jobType` | null |
 | `isPartTime` | boolean |
 | `isFullTime` | boolean |
 | `postedOn` | string |
@@ -101,9 +102,9 @@ Full details on the [scraper page](https://apify.com/abotapi/reed-co-uk-scraper?
 | `isApplicationWithdrawn` | boolean |
 | `sourceListUrl` | string |
 | `rawListData` | object |
-| `jobTypeName` | string |
-| `taxonomyLevel1` | string |
-| `taxonomyLevel2` | string |
+| `jobTypeName` | null |
+| `taxonomyLevel1` | null |
+| `taxonomyLevel2` | null |
 | `isFeatured` | boolean |
 | `isPromoted` | boolean |
 

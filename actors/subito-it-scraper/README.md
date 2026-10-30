@@ -17,7 +17,7 @@ python example.py
 ```bash
 curl -s -X POST "https://api.apify.com/v2/acts/abotapi~subito-it-scraper/run-sync-get-dataset-items?token=$APIFY_TOKEN" \
   -H 'Content-Type: application/json' \
-  -d '{"category": "marketplace", "sellerType": "any", "sort": "datedesc", "adType": "s", "startUrls": [{"url": "https://www.subito.it/annunci-italia/vendita/usato/?q=bici"}], "maxItems": 10, "proxyConfiguration": {"useApifyProxy": true, "apifyProxyGroups": ["RESIDENTIAL"], "apifyProxyCountry": "IT"}}'
+  -d '{"category": "marketplace", "sellerType": "any", "sort": "datedesc", "adType": "s", "startUrls": [{"url": "https://www.subito.it/annunci-italia/vendita/usato/?q=bici"}, {"url": "https://www.subito.it/annunci-italia/vendita/usato/?q=bici&o=2"}, {"url": "https://www.subito.it/annunci-italia/vendita/usato/?q=bici&sort=priceasc&ps=10&pe=100"}, {"url": "https://www.subito.it/annunci-italia/vendita/usato/?q=bici&advt=1"}, {"url": "https://www.subito.it/annunci-italia/vendita/usato/?q=bici&shp=true"}, {"url": "https://www.subito.it/annunci-lombardia/vendita/usato/milano/?q=bici"}, {"url": "https://www.subito.it/annunci-italia/vendita/usato/"}, {"url": "https://www.subito.it/annunci-italia/vendita/biciclette/"}, {"url": "https://www.subito.it/annunci-lombardia/vendita/auto/"}, {"url": "https://www.subito.it/annunci-italia/vendita/auto/toyota/corolla/"}, {"url": "https://www.subito.it/annunci-italia/vendita/moto-e-scooter/"}, {"url": "https://www.subito.it/annunci-italia/vendita/immobili/"}, {"url": "https://www.subito.it/annunci-italia/vendita/appartamenti/"}, {"url": "https://www.subito.it/annunci-lazio/affitto/appartamenti/roma/?ps=500&pe=1200"}, {"url": "https://www.subito.it/annunci-italia/affitto/appartamenti/"}, {"url": "https://www.subito.it/annunci-italia/vendita/offerte-lavoro/"}, {"url": "https://www.subito.it/annunci-italia/cerco/usato/?q=bici"}, {"url": "https://www.subito.it/annunci-italia/regalo/usato/"}, {"url": "https://www.subito.it/bambini-giocattoli/seggiolino-bici-con-morsetto-di-attacco-arezzo-665060654.htm"}, {"url": "https://www.subito.it/auto/mercedes-benz-b200-treviso-664945738.htm"}, {"url": "https://www.subito.it/utente/106698735"}, {"url": "https://m.subito.it/annunci-italia/vendita/usato/?q=bici"}], "maxItems": 10, "proxyConfiguration": {"useApifyProxy": true, "apifyProxyGroups": ["RESIDENTIAL"], "apifyProxyCountry": "IT"}}'
 ```
 
 ## Inputs
@@ -99,10 +99,13 @@ Full details on the [scraper page](https://apify.com/abotapi/subito-it-scraper?u
 | `city` | string |
 | `cityId` | string |
 | `cityShort` | string |
+| `provinceCode` | string |
+| `cityIstat` | string |
 | `town` | string |
 | `townId` | string |
 | `imageCount` | integer |
 | `images` | list |
+| `coverImage` | string |
 | `images360` | list |
 | `sellerId` | string |
 | `sellerName` | null |
@@ -111,9 +114,6 @@ Full details on the [scraper page](https://apify.com/abotapi/subito-it-scraper?u
 | `sellerPhone` | null |
 | `sellerVat` | null |
 | `shopId` | null |
-| `shopName` | null |
-| `shippingAvailable` | boolean |
-| `shippingType` | null |
 
 ---
 

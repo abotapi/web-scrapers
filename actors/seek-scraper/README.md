@@ -97,7 +97,7 @@ Full details on the [scraper page](https://apify.com/abotapi/seek-scraper?utm_so
 | `companyPrimaryLocation` | string |
 | `companyLogo` | string |
 | `companyCoverImage` | string |
-| `companyRating` | float |
+| `companyRating` | integer |
 | `companyReviewCount` | integer |
 | `companySalaryRating` | integer |
 | `companyPerks` | list |

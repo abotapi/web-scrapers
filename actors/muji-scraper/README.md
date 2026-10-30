@@ -17,7 +17,7 @@ python example.py
 ```bash
 curl -s -X POST "https://api.apify.com/v2/acts/abotapi~muji-scraper/run-sync-get-dataset-items?token=$APIFY_TOKEN" \
   -H 'Content-Type: application/json' \
-  -d '{"mode": "search", "queries": ["aroma diffuser"], "country": "us", "sortBy": "relevance", "maxReviewsPerProduct": 10, "maxItems": 10, "maxPages": 1, "proxy": {"useApifyProxy": true}}'
+  -d '{"mode": "search", "queries": ["aroma diffuser"], "country": "us", "sortBy": "relevance", "maxReviewsPerProduct": 10, "maxItems": 10, "maxPages": 1, "proxy": {"useApifyProxy": true}, "changeScope": "all"}'
 ```
 
 ## Inputs
@@ -41,6 +41,9 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~muji-scraper/run-sync-get
 | `maxItems` | integer | Max products |
 | `maxPages` | integer | Max pages per keyword or link |
 | `proxy` | object | Proxy configuration |
+| `changeScope` | string | Change scope (incremental mode only) |
+| `compactUpdates` | boolean | Compact UPDATED and EXPIRED rows (incr |
+| `expireAfterMissedScans` | integer | Expire after missed scans (incremental |
 
 `*` required
 
@@ -67,8 +70,8 @@ Full details on the [scraper page](https://apify.com/abotapi/muji-scraper?utm_so
 | `breadcrumb` | list |
 | `collections` | list |
 | `tags` | list |
-| `price` | integer |
-| `priceMax` | integer |
+| `price` | float |
+| `priceMax` | float |
 | `originalPrice` | null |
 | `discountAmount` | null |
 | `discountPercent` | null |

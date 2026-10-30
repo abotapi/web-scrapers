@@ -1,16 +1,16 @@
 [
   {
-    "adId": "9789569243",
+    "adId": "5895169967",
     "url": "https://www.kleinanzeigen.de/example/78779",
     "title": "Example title",
     "descriptionShort": "Example description short: mock text standing in for the real value. Same field and type, made-up content.",
     "descriptionFull": "Example description full: mock text standing in for the real value. Same field and type, made-up content.",
     "price": "Example price",
-    "priceAmount": 870,
-    "priceType": "FIXED",
+    "priceAmount": 1770,
+    "priceType": "NEGOTIABLE",
     "currency": "EUR",
     "locationText": "Example location text",
-    "postalCode": "89272",
+    "postalCode": "15027",
     "regionName": "Example region name",
     "cityName": "Example city name",
     "latitude": null,
@@ -24,8 +24,7 @@
     "imageCount": 9,
     "thumbnailUrl": "https://img.kleinanzeigen.de/example/83710.jpg",
     "imageUrls": [
-      "https://img.kleinanzeigen.de/example/15612.jpg",
-      "https://img.kleinanzeigen.de/example/38363.jpg"
+      "https://img.kleinanzeigen.de/example/15612.jpg"
     ],
     "attributes": {
       "Art": "Example art",
@@ -42,19 +41,33 @@
         "value": "Example value"
       }
     ],
-    "isPro": false,
-    "isShop": false,
+    "isPro": true,
+    "isShop": true,
     "isTopAd": false,
     "isSold": false,
     "adType": "OFFERED",
-    "tags": [],
-    "sellerId": "732564455",
+    "tags": [
+      "PRO"
+    ],
+    "sellerId": null,
     "sellerName": "Example seller name",
     "sellerType": "Example seller type",
-    "sellerUrl": "https://www.kleinanzeigen.de/example/61532",
+    "sellerUrl": null,
     "sellerActiveSince": "2026-01-15",
-    "sellerOtherAdsCount": 5,
-    "imprint": null,
+    "sellerOtherAdsCount": null,
+    "imprint": {
+      "raw": "Example raw: mock text standing in for the real value. Same field and type, made-up content.",
+      "lines": [
+        "Example lines",
+        "Example lines"
+      ],
+      "email": null,
+      "phone": null,
+      "vatId": null,
+      "registerNumber": "Example register number",
+      "registerCourt": "Example register court",
+      "managingDirector": "Example managing director"
+    },
     "searchUrl": "https://www.kleinanzeigen.de/example/19298"
   }
 ]

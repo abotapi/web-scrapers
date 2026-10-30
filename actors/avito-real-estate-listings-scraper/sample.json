@@ -1,0 +1,63 @@
+[
+  {
+    "id": "9682257769",
+    "url": "https://www.avito.ru/example/88105",
+    "title": "Example title",
+    "price": 5182276895,
+    "currency": "RUB",
+    "priceText": "Example price text",
+    "availability": "limited",
+    "category": "kvartiry",
+    "subcategory": "prodam",
+    "region": "moskva",
+    "city": "moskva",
+    "address": "Example address: mock text standing in for the real value. Same field and type, made-up content.",
+    "street": "Example street",
+    "house": "Example house",
+    "developmentName": "Example development name",
+    "metro": "Example metro",
+    "metroId": 774,
+    "metroDistanceMin": 63,
+    "rooms": 1,
+    "areaSqm": 541.09,
+    "floor": 78,
+    "totalFloors": 82,
+    "postedDate": "",
+    "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
+    "photoUrls": [
+      "https://c60.img.avito.st/example/77449.jpg",
+      "https://60.img.avito.st/example/77267.jpg"
+    ],
+    "photoCount": 66,
+    "badges": [
+      "Example badges"
+    ],
+    "isVerified": true,
+    "realtyBenefit": "",
+    "sellerName": "Example seller name",
+    "sellerType": "Example seller type",
+    "sellerRating": null,
+    "sellerReviewsCount": null,
+    "sellerSince": "",
+    "viewsCount": 791124,
+    "todayViews": 1449,
+    "postedDateFull": "Example posted date full",
+    "attributes": {
+      "Количество комнат": "5",
+      "Общая площадь": "Example общая площадь",
+      "Площадь кухни": "Example площадь кухни",
+      "Жилая площадь": "Example жилая площадь",
+      "Этаж": "Example этаж",
+      "Высота потолков": "Example высота потолков",
+      "Отделка": "Example отделка",
+      "Название новостройки": "Example название новостройки",
+      "Корпус, строение": "Example корпус, строение",
+      "Тип участия": "Example тип участия",
+      "Срок сдачи": "Example срок сдачи",
+      "Тип дома": "Example тип дома",
+      "Этажей в доме": "29"
+    },
+    "lat": 61.33,
+    "lng": 40.93
+  }
+]

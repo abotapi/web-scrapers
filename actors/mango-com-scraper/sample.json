@@ -1,11 +1,11 @@
 [
   {
-    "productId": "30236430",
+    "productId": "49061692",
     "name": "Example name",
     "brand": "Mango",
     "section": "Example section",
     "collection": "oi1858",
-    "model": "SUKI",
+    "model": "XOSAKA",
     "category": "Example category",
     "families": [
       {
@@ -15,20 +15,20 @@
       }
     ],
     "url": "https://shop.mango.com/example/60151",
-    "defaultColorId": "68",
+    "defaultColorId": "75",
     "colors": [
       {
-        "id": "78",
+        "id": "97",
         "label": "Example label",
-        "rgb": "72,99,79",
+        "rgb": "75,90,99",
         "sizes": [
           {
-            "id": "08",
-            "label": "Example label",
+            "id": "55",
+            "label": "XS",
             "plusSize": false
           },
           {
-            "id": "25",
+            "id": "52",
             "label": "Example label",
             "plusSize": false
           }
@@ -45,7 +45,7 @@
             "alt": "Example alt: mock text standing in for the real value. Same field and type, made-up content."
           }
         ],
-        "price": 113.39,
+        "price": 50.39,
         "currency": "EUR",
         "originalPrice": null,
         "discountAmount": null,
@@ -59,7 +59,7 @@
       "totalReviewCount": 0,
       "items": []
     },
-    "price": 113.39,
+    "price": 50.39,
     "currency": "EUR",
     "originalPrice": null,
     "discountAmount": null,
@@ -69,146 +69,20 @@
     "image": "https://media.mango.com/example/2553.jpg",
     "site": "mango",
     "isSale": false,
-    "color": "Example color",
+    "color": "Negro",
     "rating": null,
     "ratingCount": 0,
     "sizes": [
-      "S",
-      "M"
+      "XS",
+      "S"
     ],
     "galleryImages": [
       "https://media.mango.com/example/52937.jpg",
       "https://media.mango.com/example/71417.jpg"
     ],
     "details": {
-      "productId": "30236430",
-      "colorId": "09",
-      "discountPercent": null,
-      "gender": "Women",
-      "subcategory": "fiesta"
-    },
-    "scrapedAt": "2026-01-15T10:00:00Z"
-  },
-  {
-    "productId": "58550329",
-    "name": "Example name",
-    "brand": "Mango",
-    "section": "Example section",
-    "collection": "oi6988",
-    "model": "MERY",
-    "category": "Example category",
-    "families": [
-      {
-        "id": "43",
-        "label": "Example label",
-        "labelEn": "Example label en"
-      }
-    ],
-    "url": "https://shop.mango.com/example/53960",
-    "defaultColorId": "17",
-    "colors": [
-      {
-        "id": "34",
-        "label": "Example label",
-        "rgb": "98,13,17",
-        "sizes": [
-          {
-            "id": "23",
-            "label": "XS",
-            "plusSize": false
-          },
-          {
-            "id": "39",
-            "label": "Example label",
-            "plusSize": false
-          }
-        ],
-        "images": [
-          {
-            "code": "O1",
-            "url": "https://media.mango.com/example/53960.jpg",
-            "alt": "Example alt: mock text standing in for the real value. Same field and type, made-up content."
-          },
-          {
-            "code": "Example code",
-            "url": "https://media.mango.com/example/43990.jpg",
-            "alt": "Example alt: mock text standing in for the real value. Same field and type, made-up content."
-          }
-        ],
-        "price": 49.19,
-        "currency": "EUR",
-        "originalPrice": null,
-        "discountAmount": null,
-        "discountPercent": null,
-        "isOnSpecial": false,
-        "promoLabel": null
-      },
-      {
-        "id": "90",
-        "label": "Example label",
-        "rgb": "50,17,77",
-        "sizes": [
-          {
-            "id": "81",
-            "label": "XS",
-            "plusSize": false
-          },
-          {
-            "id": "50",
-            "label": "Example label",
-            "plusSize": false
-          }
-        ],
-        "images": [
-          {
-            "code": "Example code",
-            "url": "https://media.mango.com/example/43990.jpg",
-            "alt": "Example alt: mock text standing in for the real value. Same field and type, made-up content."
-          },
-          {
-            "code": "O1",
-            "url": "https://media.mango.com/example/92184.jpg",
-            "alt": "Example alt: mock text standing in for the real value. Same field and type, made-up content."
-          }
-        ],
-        "price": 48.39,
-        "currency": "EUR",
-        "originalPrice": 45.59,
-        "discountAmount": 23,
-        "discountPercent": 51,
-        "isOnSpecial": true,
-        "promoLabel": "MSS"
-      }
-    ],
-    "reviews": {
-      "averageRating": null,
-      "totalReviewCount": 0,
-      "items": []
-    },
-    "price": 49.19,
-    "currency": "EUR",
-    "originalPrice": null,
-    "discountAmount": null,
-    "discountPercent": null,
-    "isOnSpecial": false,
-    "promoLabel": null,
-    "image": "https://media.mango.com/example/804.jpg",
-    "site": "mango",
-    "isSale": false,
-    "color": "Verde",
-    "rating": null,
-    "ratingCount": 0,
-    "sizes": [
-      "S",
-      "M"
-    ],
-    "galleryImages": [
-      "https://media.mango.com/example/93127.jpg",
-      "https://media.mango.com/example/79826.jpg"
-    ],
-    "details": {
-      "productId": "58550329",
-      "colorId": "16",
+      "productId": "49061692",
+      "colorId": "34",
       "discountPercent": null,
       "gender": "Women",
       "subcategory": "fiesta"

@@ -39,6 +39,8 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~dotproperty-com-ph-scrape
 | `maxPages` | integer | Max pages per search |
 | `fetchDetails` | boolean | Fetch detail pages |
 | `proxy` | object | Proxy configuration |
+| `monitoringMode` | boolean | Monitoring mode (new listings only) |
+| `resetMonitoringState` | boolean | Reset monitoring state (one run) |
 
 `*` required
 
@@ -55,18 +57,13 @@ Full details on the [scraper page](https://apify.com/abotapi/dotproperty-com-ph-
 | `url` | string |
 | `source` | string |
 | `price` | integer |
-| `bedrooms` | integer |
-| `bathrooms` | integer |
-| `usable_area_sqm` | float |
+| `usable_area_sqm` | integer |
 | `agent_name` | string |
 | `agent_verified` | boolean |
 | `latitude` | float |
 | `longitude` | float |
 | `agent_phone` | string |
 | `title` | string |
-| `floor` | integer |
-| `land_area_sqm` | float |
-| `facilities` | list |
 | `images` | list |
 | `image_count` | integer |
 | `og_image` | string |
@@ -76,7 +73,18 @@ Full details on the [scraper page](https://apify.com/abotapi/dotproperty-com-ph-
 | `agent_url` | string |
 | `breadcrumbs` | list |
 | `currency` | string |
+| `price_raw` | string |
+| `description_html` | string |
+| `agent_info_text` | string |
+| `location_text` | string |
+| `property_type` | string |
+| `operation` | string |
+| `region` | string |
+| `city` | string |
+| `area` | string |
+| `agent_location` | string |
 | `location_source` | string |
+| `scraped_at` | string |
 
 ---
 

@@ -17,7 +17,7 @@ python example.py
 ```bash
 curl -s -X POST "https://api.apify.com/v2/acts/abotapi~wego-com-scraper/run-sync-get-dataset-items?token=$APIFY_TOKEN" \
   -H 'Content-Type: application/json' \
-  -d '{"mode": "search", "locations": ["Dubai"], "currency": "USD", "sortBy": "popularity", "maxReviewsPerHotel": 10, "maxItems": 10, "maxPages": 1, "proxy": {"useApifyProxy": true}}'
+  -d '{"mode": "search", "locations": ["Dubai"], "currency": "USD", "sortBy": "popularity", "maxReviewsPerHotel": 10, "maxItems": 10, "maxPages": 1, "proxy": {"useApifyProxy": true}, "changeScope": "all"}'
 ```
 
 ## Inputs
@@ -31,7 +31,7 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~wego-com-scraper/run-sync
 | `rooms` | integer | Rooms |
 | `adults` | integer | Adults per room |
 | `currency` | string | Currency |
-| `urls` | array | Wego hotels search URLs |
+| `urls` | array | Wego hotels URLs |
 | `starRatings` | array | Star ratings |
 | `minPriceUsd` | integer | Minimum total price (USD) |
 | `maxPriceUsd` | integer | Maximum total price (USD) |
@@ -43,6 +43,9 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~wego-com-scraper/run-sync
 | `maxItems` | integer | Max items |
 | `maxPages` | integer | Max feed polls per city |
 | `proxy` | object | Proxy configuration |
+| `changeScope` | string | Change scope (incremental mode only) |
+| `compactUpdates` | boolean | Compact updates (incremental mode only |
+| `expireAfterMissedScans` | integer | Expire after missed scans (incremental |
 
 `*` required
 

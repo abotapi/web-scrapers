@@ -1,19 +1,19 @@
 [
   {
-    "itemId": "494887260257",
+    "itemId": "078347380192",
     "url": "https://www.ebay.com/example/60077",
     "title": "Example title: mock text standing in for the real value. Same field and type, made-up content.",
     "subtitle": "Example subtitle: mock text standing in for the real value. Same field and type, made-up content.",
     "condition": "Example condition",
-    "conditionId": "8501",
+    "conditionId": "2396",
     "brand": null,
     "marketplace": "com",
-    "price": 373.33,
-    "priceMax": 761.48,
+    "price": 185,
+    "priceMax": null,
     "priceText": "Example price text",
     "currency": "USD",
-    "originalPrice": null,
-    "discountPercent": null,
+    "originalPrice": 970,
+    "discountPercent": 50.59,
     "listingType": "buy_it_now",
     "bidCount": null,
     "timeLeft": null,
@@ -24,10 +24,10 @@
     "returnsText": "Example returns text",
     "freeReturns": true,
     "soldCount": null,
-    "sellerName": "Example seller name",
-    "sellerUrl": "https://www.ebay.com/example/32960",
-    "sellerFeedbackPercent": 80.68,
-    "sellerFeedbackCount": 864738,
+    "sellerName": null,
+    "sellerUrl": null,
+    "sellerFeedbackPercent": null,
+    "sellerFeedbackCount": null,
     "badges": [
       "Example badges"
     ],
@@ -38,12 +38,12 @@
     ],
     "pageNumber": 6,
     "sourceUrl": "https://www.ebay.com/example/21759",
+    "sellerUsername": null,
     "images": null,
     "itemSpecifics": null,
     "categoryPath": null,
     "paymentMethods": null,
     "mpn": null,
-    "model": null,
-    "color": null
+    "model": null
   }
 ]

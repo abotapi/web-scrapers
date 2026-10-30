@@ -79,6 +79,7 @@ Full details on the [scraper page](https://apify.com/abotapi/myer-au-scraper?utm
 | `images` | list |
 | `searchMode` | string |
 | `source` | string |
+| `sourceUrl` | string |
 | `internalId` | integer |
 | `title` | string |
 | `brandUrl` | string |
@@ -89,7 +90,6 @@ Full details on the [scraper page](https://apify.com/abotapi/myer-au-scraper?utm
 | `afterPayEligible` | boolean |
 | `hummEligible` | boolean |
 | `categoryUri` | string |
-| `specifications` | object |
 
 ---
 

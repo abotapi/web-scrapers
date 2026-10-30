@@ -31,6 +31,7 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~elcorteingles-es-scraper/
 | `brands` | array | Brands |
 | `minPrice` | number | Minimum price (EUR) |
 | `maxPrice` | number | Maximum price (EUR) |
+| `minDiscountPercent` | number | Minimum discount (%) |
 | `sortBy` | string | Sort order |
 | `urls` | array | URLs to scrape |
 | `fetchDetails` | boolean | Fetch full product detail |
@@ -71,6 +72,21 @@ Full details on the [scraper page](https://apify.com/abotapi/elcorteingles-es-sc
 | `image` | string |
 | `images` | list |
 | `variants` | list |
+| `shortDescription` | string |
+| `badges` | object |
+| `hierarchy` | list |
+| `provider` | list |
+| `is_sold_by` | boolean |
+| `is_gift_card` | boolean |
+| `size_guide` | string |
+| `size_guide_type` | string |
+| `size_guide_details` | object |
+| `status` | string |
+| `categories` | list |
+| `promotional_actions` | list |
+| `default_image` | string |
+| `canonical` | string |
+| `media_objects` | list |
 | `reviews` | object |
 
 ---

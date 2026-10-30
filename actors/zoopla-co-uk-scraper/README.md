@@ -33,6 +33,7 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~zoopla-co-uk-scraper/run-
 | `maxBeds` | integer | Maximum bedrooms |
 | `minBaths` | integer | Minimum bathrooms |
 | `propertySubTypes` | array | Property types |
+| `mustHaveFeatures` | array | Must-have features |
 | `radius` | string | Search radius (miles) |
 | `addedSince` | string | Added to site |
 | `keywords` | string | Keyword |
@@ -45,6 +46,7 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~zoopla-co-uk-scraper/run-
 | `includeUnderOffer` | boolean | Include under offer / sold STC |
 | `includeLetAgreed` | boolean | Include let agreed |
 | `furnishedState` | string | Furnishing |
+| `availableFrom` | string | Available to move in |
 | `priceFrequency` | string | Rent price shown per |
 | `petsAllowed` | boolean | Pets allowed only |
 | `billsIncluded` | boolean | Bills included only |
@@ -72,9 +74,13 @@ Full details on the [scraper page](https://apify.com/abotapi/zoopla-co-uk-scrape
 | `title` | string |
 | `address` | string |
 | `summaryDescription` | string |
+| `description` | string |
+| `thumbnail` | string |
+| `featured` | boolean |
+| `roomsCount` | list |
 | `price` | integer |
 | `priceLabel` | string |
-| `priceQualifier` | string |
+| `priceQualifier` | null |
 | `currency` | string |
 | `rentFrequencyLabel` | null |
 | `priceDrop` | object |
@@ -98,13 +104,9 @@ Full details on the [scraper page](https://apify.com/abotapi/zoopla-co-uk-scrape
 | `latitude` | null |
 | `longitude` | null |
 | `imageUrl` | string |
-| `imageCaption` | null |
+| `imageCaption` | string |
 | `images` | list |
 | `imageCount` | integer |
-| `floorPlanCount` | integer |
-| `videoCount` | integer |
-| `branchName` | string |
-| `branchId` | integer |
 
 ---
 

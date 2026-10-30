@@ -18,7 +18,7 @@ run = client.actor("abotapi/24s-com-scraper").call(
         "sortBy": "relevance",
         "maxItems": 10,
         "maxPages": 1,
-        "proxy": {"useApifyProxy": True, "apifyProxyGroups": ["RESIDENTIAL"]},
+        "proxy": {"useApifyProxy": True},
     },
     logger=None,  # don't stream the run log to your console
 )

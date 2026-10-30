@@ -58,13 +58,13 @@ Full details on the [scraper page](https://apify.com/abotapi/zalando-scraper?utm
 | `supplierName` | string |
 | `shortDescription` | null |
 | `condition` | null |
-| `price` | integer |
+| `price` | float |
 | `originalPrice` | float |
-| `promotionalPrice` | integer |
-| `discountPercentage` | integer |
+| `promotionalPrice` | null |
+| `discountPercentage` | null |
 | `currency` | string |
 | `onSale` | boolean |
-| `dealFlag` | string |
+| `dealFlag` | null |
 | `flags` | list |
 | `sizes` | list |
 | `sizeSkus` | list |
@@ -72,7 +72,7 @@ Full details on the [scraper page](https://apify.com/abotapi/zalando-scraper?utm
 | `images` | list |
 | `rating` | null |
 | `available` | boolean |
-| `variantCount` | integer |
+| `variantCount` | null |
 | `inWishlist` | boolean |
 | `benefits` | list |
 | `priceTrackingKey` | string |
@@ -81,14 +81,14 @@ Full details on the [scraper page](https://apify.com/abotapi/zalando-scraper?utm
 | `sourceUrl` | string |
 | `productsFound` | integer |
 | `mode` | string |
+| `unitPrice` | null |
+| `unitPriceLabel` | null |
+| `comingSoon` | null |
+| `sizeAdvice` | null |
+| `lowerPriceLabel` | null |
 | `item` | object |
 | `title` | string |
-| `wasPrice` | float |
-| `savingsAmount` | float |
-| `savingsPercent` | integer |
-| `isOnSpecial` | boolean |
-| `promoLabel` | string |
-| `specialsCategory` | null |
+| `wasPrice` | null |
 
 ---
 

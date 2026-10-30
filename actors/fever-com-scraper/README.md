@@ -17,7 +17,7 @@ python example.py
 ```bash
 curl -s -X POST "https://api.apify.com/v2/acts/abotapi~fever-com-scraper/run-sync-get-dataset-items?token=$APIFY_TOKEN" \
   -H 'Content-Type: application/json' \
-  -d '{"mode": "search", "cities": ["new-york"], "locale": "en", "maxItems": 10, "proxy": {"useApifyProxy": true}}'
+  -d '{"mode": "search", "cities": ["new-york"], "locale": "en", "maxReviewsPerEvent": 10, "maxItems": 10, "proxy": {"useApifyProxy": true}, "changeScope": "all"}'
 ```
 
 ## Inputs
@@ -26,15 +26,22 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~fever-com-scraper/run-syn
 | --- | --- | --- |
 | `mode` * | string | Mode |
 | `cities` | array | Cities |
+| `queryType` | string | Query type (alias) |
+| `city` | string | City (alias) |
 | `locale` | string | Language |
 | `category` | string | Category (optional) |
 | `query` | string | Keyword filter (optional) |
 | `urls` | array | Fever URLs |
+| `id` | string | Event ID (alias) |
 | `minPrice` | integer | Minimum price |
 | `maxPrice` | integer | Maximum price |
 | `fetchDetails` | boolean | Fetch event details |
+| `maxReviewsPerEvent` | integer | Guest reviews per event |
 | `maxItems` | integer | Max items |
 | `proxy` | object | Proxy configuration |
+| `changeScope` | string | Change scope (incremental mode only) |
+| `compactUpdates` | boolean | Compact UPDATED rows (incremental mode |
+| `expireAfterMissedScans` | integer | Expire after N missed scans (increment |
 
 `*` required
 
@@ -54,24 +61,24 @@ Full details on the [scraper page](https://apify.com/abotapi/fever-com-scraper?u
 | `citySlug` | string |
 | `locale` | string |
 | `category` | null |
-| `priceFrom` | integer |
-| `priceText` | null |
-| `originalPrice` | null |
-| `onSale` | null |
-| `discountPercent` | null |
+| `priceFrom` | float |
+| `priceText` | string |
+| `originalPrice` | float |
+| `onSale` | boolean |
+| `discountPercent` | float |
 | `currency` | string |
 | `priceType` | string |
 | `startDate` | string |
-| `endDate` | null |
+| `endDate` | string |
 | `sessionDate` | null |
-| `venueName` | null |
+| `venueName` | string |
 | `venueAddress` | null |
 | `latitude` | null |
 | `longitude` | null |
-| `rating` | null |
-| `ratingCount` | null |
+| `rating` | float |
+| `ratingCount` | integer |
 | `isNew` | boolean |
-| `imageUrl` | null |
+| `imageUrl` | string |
 | `description` | null |
 | `categories` | list |
 | `firstSessionDate` | null |

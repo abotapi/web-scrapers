@@ -17,7 +17,7 @@ python example.py
 ```bash
 curl -s -X POST "https://api.apify.com/v2/acts/abotapi~alltrails-hiking-scraper/run-sync-get-dataset-items?token=$APIFY_TOKEN" \
   -H 'Content-Type: application/json' \
-  -d '{"mode": "search", "regionPath": "California", "tags": ["backpacking"], "maxItems": 10, "maxPages": 1, "proxyConfiguration": {"useApifyProxy": true, "apifyProxyGroups": ["UNBLOCKER"]}}'
+  -d '{"mode": "search", "regionPath": "California", "tags": ["backpacking"], "maxItems": 10, "maxPages": 1, "proxyConfiguration": {"useApifyProxy": true, "apifyProxyGroups": ["RESIDENTIAL"]}}'
 ```
 
 ## Inputs
@@ -27,6 +27,13 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~alltrails-hiking-scraper/
 | `mode` * | string | Collection mode |
 | `regionPath` | string | Region to browse |
 | `tags` | array | Trail tag grids |
+| `latitude` | number | Latitude (center) |
+| `longitude` | number | Longitude (center) |
+| `searchRadius` | number | Search radius (miles) |
+| `customBottomLat` | number | Box south latitude |
+| `customBottomLng` | number | Box west longitude |
+| `customTopLat` | number | Box north latitude |
+| `customTopLng` | number | Box east longitude |
 | `urls` | array | Grid or trail links |
 | `followSubGrids` | boolean | Follow additional grids |
 | `fetchDetails` | boolean | Read trail details and reviews |
@@ -43,6 +50,7 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~alltrails-hiking-scraper/
 | `elevationGainMin` | number | Minimum elevation gain (metres) |
 | `elevationGainMax` | number | Maximum elevation gain (metres) |
 | `featuresFilter` | array | Trail features |
+| `visitorUsageFilter` | array | Visitor usage |
 | `maxItems` | integer | Maximum trail records |
 | `maxPages` | integer | Maximum grid pages |
 | `proxyConfiguration` | object | Connection settings |
@@ -82,11 +90,21 @@ Full details on the [scraper page](https://apify.com/abotapi/alltrails-hiking-sc
 | `lat` | float |
 | `lng` | float |
 | `imageUrl` | string |
+| `visitorUsage` | integer |
+| `isClosed` | boolean |
 | `sourceType` | string |
 | `sourceUrl` | string |
 | `position` | integer |
 | `scrapedAt` | string |
-| `photos` | list |
+| `trailUrl` | string |
+| `avgRating` | float |
+| `numReviews` | integer |
+| `latitude` | float |
+| `longitude` | float |
+| `elevationGainFt` | integer |
+| `profilePhotoUrl` | string |
+| `dogFriendly` | boolean |
+| `kidFriendly` | boolean |
 
 ---
 

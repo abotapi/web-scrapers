@@ -56,8 +56,16 @@ Full details on the [scraper page](https://apify.com/abotapi/seek-companies-revi
 | `isClaimed` | boolean |
 | `logoUrl` | string |
 | `coverImageUrl` | string |
+| `brandId` | string |
 | `totalJobs` | integer |
-| `ratingOverall` | float |
+| `overviewText` | string |
+| `overviewParagraphs` | list |
+| `website` | object |
+| `size` | string |
+| `primaryLocation` | string |
+| `specialities` | list |
+| `organisationId` | string |
+| `ratingOverall` | integer |
 | `reviewCount` | integer |
 | `salaryRating` | integer |
 | `recommendedPercent` | integer |

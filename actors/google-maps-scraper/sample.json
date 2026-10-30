@@ -1,6 +1,6 @@
 [
   {
-    "placeId": "Example place id",
+    "placeId": "chijh0tl4lrywokrzzrdicl7jxy",
     "title": "Example title",
     "url": "https://www.google.com/example/42345",
     "scrapedAt": "2026-01-15T10:00:00Z",
@@ -9,16 +9,26 @@
     "street": "Example street",
     "city": "Example city",
     "state": "NY",
-    "postalCode": "37237",
+    "postalCode": "75931",
     "countryCode": "US",
     "phone": "+1 555 0100",
-    "website": "https://shaverhall.com/example/16368",
-    "totalScore": 4.02,
-    "reviewsCount": 537,
+    "website": "https://www.bubbagump.com/example/16368",
+    "totalScore": 4.21,
+    "reviewsCount": 88737,
     "plusCode": "Example plus code",
     "imageUrls": [
       "https://lh3.googleusercontent.com/example/70219.jpg",
       "https://lh3.googleusercontent.com/example/33911.jpg"
+    ],
+    "openingHours": [
+      {
+        "day": "Example day",
+        "hours": "Example hours"
+      },
+      {
+        "day": "Example day",
+        "hours": "Example hours"
+      }
     ],
     "searchString": "restaurants",
     "rank": 8,
@@ -30,27 +40,27 @@
         "text": "Example text: mock text standing in for the real value. Same field and type, made-up content.",
         "publishedAtDate": "2026-01-15T10:00:00Z",
         "isLocalGuide": false,
-        "reviewId": "ci6dqulrqunvzenodhljrjlvt63swvduwmpaekpnum4su2rrrlvur0v8u0tou6dxyxab"
+        "responseFromOwnerText": "Example response from owner text: mock text standing in for the real value. Same field and type, made-up content.",
+        "reviewId": "ci3dqulrqunvzenodhljrjlvt6tvmlluqkvimmxozvvka6v8aznvwfp1ykrkefyzyxab"
       }
     ]
   },
   {
-    "placeId": "chijk4l4akxzwokr_kpabwut9rk",
+    "placeId": "chijh8r-a6pzwokrscebiccx8p0",
     "title": "Example title",
     "url": "https://www.google.com/example/14370",
     "scrapedAt": "2026-01-15T10:00:00Z",
     "categoryName": "Example category name",
-    "address": "Example address: mock text standing in for the real value. Same field and type, made-up content.",
+    "address": "Example address",
     "street": "Example street",
     "city": "Example city",
     "state": "NY",
-    "postalCode": "06673",
+    "postalCode": "33878",
     "countryCode": "US",
     "phone": "+1 555 0100",
-    "website": "https://www.thebazaar.com/example/27988",
-    "totalScore": 4.09,
-    "reviewsCount": 233,
-    "plusCode": "Example plus code",
+    "website": "https://amphorarestaurant.com/example/27988",
+    "totalScore": 2,
+    "reviewsCount": 53,
     "imageUrls": [
       "https://lh3.googleusercontent.com/example/88529.jpg",
       "https://lh3.googleusercontent.com/example/19356.jpg"
@@ -75,8 +85,7 @@
         "text": "Example text: mock text standing in for the real value. Same field and type, made-up content.",
         "publishedAtDate": "2026-01-15T10:00:00Z",
         "isLocalGuide": false,
-        "responseFromOwnerText": "Example response from owner text: mock text standing in for the real value. Same field and type, made-up content.",
-        "reviewId": "ci4dqulrqunvzenodhljrjlvt44zm6nivnburvjtujfzdgrywxpaemhfvg6vnvzuyxab"
+        "reviewId": "ci2dqulrqunvzenodhljrjlvt7xaclvuy3hlvtg1ulzgmgjuuk2xrup0vvdsc6ftyxab"
       }
     ]
   }

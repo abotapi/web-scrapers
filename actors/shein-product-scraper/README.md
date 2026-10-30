@@ -57,9 +57,9 @@ Full details on the [scraper page](https://apify.com/abotapi/shein-product-scrap
 | `category` | string |
 | `categoryId` | string |
 | `price` | float |
-| `originalPrice` | null |
-| `discountPercent` | null |
-| `discountAmount` | null |
+| `originalPrice` | float |
+| `discountPercent` | integer |
+| `discountAmount` | float |
 | `isOnSale` | boolean |
 | `currency` | string |
 | `priceUsd` | float |
@@ -76,7 +76,7 @@ Full details on the [scraper page](https://apify.com/abotapi/shein-product-scrap
 | `images` | list |
 | `scrapedAt` | string |
 | `priceFormatted` | string |
-| `originalPriceFormatted` | null |
+| `originalPriceFormatted` | string |
 | `currencyCode` | string |
 | `country` | string |
 | `estimatedPrice` | null |

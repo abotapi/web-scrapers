@@ -26,9 +26,20 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~drhorton-scraper/run-sync
 | --- | --- | --- |
 | `mode` * | string | Search mode |
 | `states` | array | States |
+| `state` | string | State (single, alias) |
 | `includeCommunities` | boolean | Include communities |
 | `includeQmiHomes` | boolean | Include quick move-in homes |
 | `includeFloorPlans` | boolean | Include floor plans (detail crawl) |
+| `minPrice` | integer | Min price (USD) |
+| `maxPrice` | integer | Max price (USD) |
+| `minBedrooms` | integer | Min bedrooms |
+| `minBathrooms` | number | Min bathrooms |
+| `minSqft` | integer | Min square feet |
+| `maxSqft` | integer | Max square feet |
+| `minGarages` | integer | Min garage spaces |
+| `minStories` | integer | Min stories |
+| `propertyType` | string | Property type contains |
+| `series` | string | Series / brand contains |
 | `startUrls` | array | URLs |
 | `maxItems` | integer | Max records |
 | `proxy` | object | Proxy |
@@ -51,6 +62,7 @@ Full details on the [scraper page](https://apify.com/abotapi/drhorton-scraper?ut
 | `brand` | string |
 | `propertyType` | string |
 | `address` | string |
+| `city` | string |
 | `url` | string |
 | `imageUrl` | string |
 | `sellingStatus` | string |
@@ -61,7 +73,7 @@ Full details on the [scraper page](https://apify.com/abotapi/drhorton-scraper?ut
 | `minBeds` | integer |
 | `maxBeds` | integer |
 | `minBaths` | integer |
-| `maxBaths` | integer |
+| `maxBaths` | float |
 | `minCars` | integer |
 | `maxCars` | integer |
 | `minStories` | integer |
@@ -73,6 +85,7 @@ Full details on the [scraper page](https://apify.com/abotapi/drhorton-scraper?ut
 | `callForPrice` | boolean |
 | `amenities` | list |
 | `badges` | null |
+| `location` | object |
 | `raw` | object |
 
 ---

@@ -62,7 +62,7 @@
             "homesites": [
               {
                 "isHotw": false,
-                "status": "Example status",
+                "status": "MOVE_IN_READY",
                 "__typename": "Example __typename"
               }
             ],
@@ -123,6 +123,8 @@
         "name": "Example name",
         "market": {
           "code": "TAM",
+          "name": "Example name",
+          "slug": "Example slug",
           "state": {
             "code": "FL",
             "__typename": "Example __typename"
@@ -177,7 +179,7 @@
               "homesites": [
                 {
                   "isHotw": false,
-                  "status": "Example status",
+                  "status": "MOVE_IN_READY",
                   "__typename": "Example __typename"
                 }
               ],

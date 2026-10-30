@@ -1,0 +1,89 @@
+[
+  {
+    "productId": "4310888325656",
+    "handle": "Example handle",
+    "baseHandle": "Example base handle",
+    "url": "https://www.fashionnova.com/example/29397",
+    "title": "Example title",
+    "baseTitle": "Example base title",
+    "color": "chocolate",
+    "colorFamily": "Brown",
+    "brand": "Example brand",
+    "category": "Dresses",
+    "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
+    "currency": "USD",
+    "price": 31,
+    "maxPrice": null,
+    "compareAtPrice": 16.59,
+    "onSale": true,
+    "discountPercent": 93,
+    "availableForSale": true,
+    "isGiftCard": false,
+    "options": [
+      {
+        "name": "Example name",
+        "values": [
+          "XXS",
+          "XS"
+        ]
+      }
+    ],
+    "colorValues": null,
+    "sizeValues": [
+      "XXS",
+      "XS"
+    ],
+    "variantCount": 4,
+    "inStockVariantCount": 4,
+    "sizesAvailable": [
+      "XXS",
+      "XS"
+    ],
+    "sizesUnavailable": null,
+    "variants": [
+      {
+        "variantId": "91779798671822",
+        "title": "XXS",
+        "sku": "d965_chocolate_xxs",
+        "size": "XXS",
+        "color": null,
+        "price": 31,
+        "compareAtPrice": 16.59,
+        "onSale": true,
+        "availableForSale": true,
+        "imageUrl": "https://cdn.shopify.com/example/67754.jpg"
+      },
+      {
+        "variantId": "13316144930047",
+        "title": "XS",
+        "sku": "d646_chocolate_xs",
+        "size": "XS",
+        "color": null,
+        "price": 48,
+        "compareAtPrice": 19.39,
+        "onSale": true,
+        "availableForSale": true,
+        "imageUrl": "https://cdn.shopify.com/example/62943.jpg"
+      }
+    ],
+    "imageUrl": "https://cdn.shopify.com/example/67754.jpg",
+    "imageUrls": [
+      "https://cdn.shopify.com/example/88957.jpg",
+      "https://cdn.shopify.com/example/45724.jpg"
+    ],
+    "imageCount": 6,
+    "tags": [
+      "Example tags",
+      "Example tags"
+    ],
+    "seoTitle": "Example seo title",
+    "seoDescription": "Example seo description: mock text standing in for the real value. Same field and type, made-up content.",
+    "publishedAt": "2026-01-15T10:00:00Z",
+    "updatedAt": "2026-01-15T10:00:00Z",
+    "source": "search",
+    "searchQuery": "dresses",
+    "reviewCount": 4877,
+    "reviewsRating": 4.55,
+    "reviewsFit": "Example reviews fit"
+  }
+]
