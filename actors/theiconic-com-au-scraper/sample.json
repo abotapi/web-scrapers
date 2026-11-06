@@ -1,0 +1,140 @@
+[
+  {
+    "product_id": "8293823",
+    "sku": "ae342aa51ti",
+    "name": "Example name",
+    "brand": "AERE",
+    "url": "https://www.theiconic.com.au/example/76350",
+    "price": 92,
+    "special_price": 67,
+    "final_price": 37,
+    "markdown_price": 52,
+    "currency": "AUD",
+    "is_on_sale": false,
+    "price_range": {
+      "min_price": 36,
+      "max_price": 86,
+      "min_final_price": 75,
+      "max_final_price": 36
+    },
+    "image": "https://img1.theiconic.com.au/example/68151.jpg",
+    "images": [
+      "https://img1.theiconic.com.au/example/10197.jpg",
+      "https://img1.theiconic.com.au/example/16312.jpg"
+    ],
+    "thumbnails": [
+      "https://img1.theiconic.com.au/example/85537.jpg",
+      "https://img1.theiconic.com.au/example/70538.jpg"
+    ],
+    "color_name": "Example color_name",
+    "color_hex": "Example color_hex",
+    "variants_count": 4,
+    "variants_details": [
+      {
+        "product_id": "0896740",
+        "sku": "ae448aa07qe",
+        "name": "Example name",
+        "url": "https://www.theiconic.com.au/example/76350",
+        "image": "https://img1.theiconic.com.au/example/68151.jpg",
+        "color_name": "Example color_name",
+        "color_hex": "Example color_hex",
+        "price": 92,
+        "special_price": 67,
+        "final_price": 37,
+        "markdown_price": 52,
+        "is_on_sale": false
+      },
+      {
+        "product_id": "6187756",
+        "sku": "ae294aa90ti",
+        "name": "Example name",
+        "url": "https://www.theiconic.com.au/example/45366",
+        "image": "https://img1.theiconic.com.au/example/88823.jpg",
+        "color_name": "Example color_name",
+        "color_hex": "Example color_hex",
+        "price": 65,
+        "special_price": 65,
+        "final_price": 93,
+        "markdown_price": 37,
+        "is_on_sale": false
+      }
+    ],
+    "variants_message": "Example variants_message",
+    "sizes": [
+      "Example sizes",
+      "Example sizes"
+    ],
+    "size_universal": [
+      "Example size_universal",
+      "Example size_universal"
+    ],
+    "size_code": [
+      "3",
+      "9"
+    ],
+    "size_stock_status": [
+      "in-stock",
+      "in-stock"
+    ],
+    "size_price": [
+      84,
+      54
+    ],
+    "size_sku": [
+      "ae886aa63ti-86753704",
+      "ae127aa05ti-68036074"
+    ],
+    "size_details": [
+      {
+        "sku": "ae997aa44ti-00435254",
+        "size": "Example size",
+        "universal_size": "Example universal_size",
+        "size_code": "3",
+        "price": 92,
+        "list_price": 12,
+        "special_price": 67,
+        "stock_status": "in-stock",
+        "in_stock": true,
+        "dispatch_time": "Example dispatch_time",
+        "supplier": "Example supplier",
+        "is_sold_by_partner": false
+      },
+      {
+        "sku": "ae606aa54ti-34984227",
+        "size": "Example size",
+        "universal_size": "Example universal_size",
+        "size_code": "9",
+        "price": 65,
+        "list_price": 46,
+        "special_price": 65,
+        "stock_status": "in-stock",
+        "in_stock": true,
+        "dispatch_time": "Example dispatch_time",
+        "supplier": "Example supplier",
+        "is_sold_by_partner": false
+      }
+    ],
+    "dispatch_time": "Example dispatch_time",
+    "supplier": "Example supplier",
+    "gender": "female",
+    "department": "Example department",
+    "category": "Example category",
+    "subcategory": "Example subcategory",
+    "category_path": "Example category_path: mock text standing in for the real value. Same field and type, made-up content.",
+    "breadcrumbs": [
+      {
+        "name": "Example name",
+        "url": "https://www.theiconic.com.au/example/76350"
+      },
+      {
+        "name": "Example name",
+        "url": "https://www.theiconic.com.au/example/45366"
+      }
+    ],
+    "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
+    "composition_material": "Example composition_material",
+    "fabric_material": "Example fabric_material",
+    "measurements": "Example measurements",
+    "care_label": "Example care_label"
+  }
+]

@@ -1,4 +1,4 @@
-"""PagesJaunes FR Scraper: minimal example. Docs: https://apify.com/abotapi/pagesjaunes-fr-scraper
+"""PagesJaunes Scraper: minimal example. Docs: https://apify.com/abotapi/pagesjaunes-fr-scraper
 
 pip install "apify-client>=3"
 APIFY_TOKEN=<your token> python example.py

@@ -1,52 +1,54 @@
 [
   {
-    "id": "885169261",
+    "id": "071714644",
     "idInt": 243088811,
     "url": "https://www.finn.no/example/46582",
     "title": "Example title",
-    "subtitle": "Example subtitle: mock text standing in for the real value. Same field and type, made-up content.",
+    "subtitle": "Example subtitle",
     "employer": "Example employer",
-    "employerUrl": "https://ixys.no/example/27778",
-    "employerHomepage": null,
+    "employerUrl": "https://thermakulde.no/example/27778",
+    "employerHomepage": "https://thermakulde.no/example/48978",
     "employerLogo": "https://images.finncdn.no/example/50712.jpg",
     "streetAddress": "Example street address",
-    "postalCode": "4280",
-    "city": "Bryne",
+    "postalCode": "4922",
+    "city": "Oslo",
     "addressCountry": "Example address country",
     "locationDisplay": "Example location display",
-    "locationLink": null,
-    "latitude": 63.43,
-    "longitude": 6.33,
+    "locationLink": "https://www.finn.no/example/48975",
+    "latitude": 64.73,
+    "longitude": 12.18,
     "datePosted": "2026-01-15",
     "datePostedEpochMs": 6246549367984,
     "relativePosted": "Example relative posted",
-    "applicationDeadline": "2026-01-15",
-    "applicationDeadlineEpochMs": 9294779171131,
-    "applicationDeadlineRaw": null,
+    "applicationDeadline": null,
+    "applicationDeadlineEpochMs": null,
+    "applicationDeadlineRaw": "Example application deadline raw",
     "lastModified": "2026-01-15T10:00:00Z",
     "lastModifiedEpochMs": 4320715755815,
-    "employmentForm": null,
+    "employmentForm": "Example employment form",
     "employmentType": [
       "FULL_TIME"
     ],
     "employmentTypeRequested": "fulltime",
-    "sector": null,
+    "sector": "Example sector",
     "industries": [
       "Example industries",
       "Example industries"
     ],
     "jobFunction": "Example job function",
     "internalJobTitle": null,
-    "workingLanguages": [],
+    "workingLanguages": [
+      "Norsk"
+    ],
     "contactPersons": [],
     "keywords": [],
-    "applyUrl": null,
+    "applyUrl": "https://www.finn.no/example/6864",
     "descriptionHtml": "Example description html: mock text standing in for the real value. Same field and type, made-up content.",
     "descriptionText": "Example description text: mock text standing in for the real value. Same field and type, made-up content.",
     "breadcrumb": [
       "FINN",
       "Example breadcrumb"
     ],
-    "sponsored": true
+    "salary": null
   }
 ]

@@ -23,9 +23,8 @@
     "shared": false,
     "imported": false,
     "importSource": null,
-    "orderIdentifier": "id80932732",
     "orderNumber": null,
-    "isOrderLinked": true,
+    "isOrderLinked": false,
     "reviewStatus": 5,
     "reviewEnabled": true,
     "mediationExists": false,
@@ -48,6 +47,7 @@
     "companyAccountId": 8314,
     "companyVerified": true,
     "companyEmail": "user15@example.com",
-    "companyNip": "4202219261"
+    "companyNip": "4202219261",
+    "companyLanguage": "pl"
   }
 ]

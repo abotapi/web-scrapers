@@ -17,7 +17,7 @@ python example.py
 ```bash
 curl -s -X POST "https://api.apify.com/v2/acts/abotapi~ikea-scraper/run-sync-get-dataset-items?token=$APIFY_TOKEN" \
   -H 'Content-Type: application/json' \
-  -d '{"mode": "search", "market": "us/en", "searchTerms": ["bookcase"], "sortBy": "RELEVANCE", "specialsCategory": "none", "maxReviews": 10, "maxItems": 10, "maxPages": 1, "proxy": {"useApifyProxy": true}}'
+  -d '{"mode": "search", "market": "us/en", "searchTerms": ["bookcase"], "sortBy": "RELEVANCE", "specialsCategory": "none", "maxReviews": 10, "maxItems": 10, "maxPages": 1, "proxy": {"useApifyProxy": true}, "changeScope": "all"}'
 ```
 
 ## Inputs
@@ -41,9 +41,16 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~ikea-scraper/run-sync-get
 | `fetchDetails` | boolean | Fetch full description & reviews |
 | `maxReviews` | integer | Max reviews per product |
 | `includeAvailability` | boolean | Include store availability |
+| `storeIds` | array | Store IDs or names (optional) |
+| `deliveryPostcode` | string | Delivery postcode (optional) |
 | `maxItems` | integer | Max products |
+| `readProductsAtOnce` | integer | Read products at once |
 | `maxPages` | integer | Max pages per input |
 | `proxy` | object | Proxy |
+| `baselineDatasetId` | string | Start from an existing dataset (option |
+| `changeScope` | string | What counts as a change (incremental m |
+| `compactUpdates` | boolean | Compact update rows (incremental mode  |
+| `expireAfterMissedScans` | integer | Expire after N missed full scans (incr |
 
 `*` required
 

@@ -17,7 +17,7 @@ python example.py
 ```bash
 curl -s -X POST "https://api.apify.com/v2/acts/abotapi~quintoandar-scraper/run-sync-get-dataset-items?token=$APIFY_TOKEN" \
   -H 'Content-Type: application/json' \
-  -d '{"mode": "search", "locations": ["São Paulo"], "operationType": "rent", "propertyType": "all", "sortBy": "relevance", "maxPages": 1, "maxListings": 10, "proxy": {"useApifyProxy": true}}'
+  -d '{"mode": "search", "locations": ["São Paulo"], "operationType": "rent", "propertyType": "all", "furnished": "all", "sortBy": "relevance", "maxPages": 1, "maxListings": 10, "proxy": {"useApifyProxy": true}}'
 ```
 
 ## Inputs
@@ -28,11 +28,20 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~quintoandar-scraper/run-s
 | `locations` | array | Locations |
 | `operationType` | string | Operation |
 | `propertyType` | string | Property type |
+| `propertyTypes` | array | Property types (multi-select) |
 | `minPrice` | integer | Min price |
 | `maxPrice` | integer | Max price |
 | `minArea` | integer | Min area (m2) |
 | `maxArea` | integer | Max area (m2) |
 | `minBedrooms` | integer | Min bedrooms |
+| `minBathrooms` | integer | Min bathrooms |
+| `minParking` | integer | Min parking spaces |
+| `neighborhood` | string | Neighbourhood |
+| `furnished` | string | Furnished |
+| `petsAllowed` | boolean | Pets allowed |
+| `nearTransit` | boolean | Near subway / transit |
+| `amenities` | array | Property amenities |
+| `condoAmenities` | array | Condo / building amenities |
 | `sortBy` | string | Sort order |
 | `urls` | array | Results-page URLs |
 | `fetchDetails` | boolean | Fetch full detail from each property p |
@@ -54,6 +63,14 @@ Full details on the [scraper page](https://apify.com/abotapi/quintoandar-scraper
 | `idImovel` | integer |
 | `listingId` | integer |
 | `url` | string |
+| `recordType` | string |
+| `recordId` | string |
+| `sourceName` | string |
+| `sourceDomain` | string |
+| `sourceUrl` | string |
+| `dealType` | string |
+| `transactionType` | string |
+| `iptuPlusCondoFee` | integer |
 | `from_url` | string |
 | `fonte` | string |
 | `source` | string |
@@ -82,14 +99,6 @@ Full details on the [scraper page](https://apify.com/abotapi/quintoandar-scraper
 | `currency` | string |
 | `rent` | integer |
 | `rent_price` | integer |
-| `rentPrice` | integer |
-| `precoAluguel` | integer |
-| `salePrice` | integer |
-| `sale_price` | integer |
-| `precoVenda` | integer |
-| `totalCost` | integer |
-| `total_cost` | integer |
-| `precoTotalMensal` | integer |
 
 ---
 

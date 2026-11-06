@@ -36,8 +36,10 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~zonaprop-scraper/run-sync
 | `minRooms` | integer | Min rooms |
 | `maxRooms` | integer | Max rooms |
 | `minBedrooms` | integer | Min bedrooms |
+| `minBathrooms` | integer | Min bathrooms |
+| `agenciesOnly` | boolean | Agencies only |
 | `sortBy` | string | Sort order |
-| `urls` | array | Search URLs |
+| `urls` | array | Search, agency or property URLs |
 | `fetchDetails` | boolean | Fetch full description from each prope |
 | `maxPages` | integer | Max pages per search |
 | `maxListings` | integer | Max listings |

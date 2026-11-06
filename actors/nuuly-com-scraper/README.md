@@ -72,12 +72,12 @@ Full details on the [scraper page](https://apify.com/abotapi/nuuly-com-scraper?u
 | `ratingAverage` | float |
 | `ratingCount` | integer |
 | `ratingHistogram` | object |
-| `fitRatingAverage` | float |
+| `fitRatingAverage` | integer |
 | `sizeDisplayName` | null |
 | `description` | string |
 | `additionalDescription` | string |
 | `fabricCare` | string |
-| `modelNotes` | string |
+| `modelNotes` | null |
 | `colors` | list |
 | `sizes` | list |
 | `attributes` | list |

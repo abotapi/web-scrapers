@@ -58,7 +58,7 @@ Full details on the [scraper page](https://apify.com/abotapi/timeleft-schedules-
 | `zoneId` | string |
 | `dayUsersBooked` | integer |
 | `groupSize` | integer |
-| `maxParticipants` | null |
+| `maxParticipants` | integer |
 | `genderMix` | string |
 | `ageRestrictions` | integer |
 | `payment` | string |

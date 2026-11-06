@@ -1,44 +1,38 @@
 [
   {
-    "propertyId": "398498831",
+    "propertyId": "447821580",
     "url": "https://www.realcommercial.com.au/example/13642",
     "listingType": "for-sale",
     "propertyTypes": [
-      "Retail",
-      "Offices"
+      "Example property types"
     ],
     "tenureType": "any",
-    "title": "Example title",
     "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
     "status": "New",
     "daysActive": 0,
     "hasTour": false,
-    "product": "eliteplus",
+    "product": "enhanced",
     "address": {
       "street": "Example street",
       "suburb": "Example suburb",
       "state": "VIC",
-      "postcode": "9461",
+      "postcode": "2854",
       "full": "Example full"
     },
     "price": {
-      "display": "Example display"
+      "display": "Example display",
+      "value": 7553329,
+      "min": 1368125,
+      "max": 9096756,
+      "isRange": false
     },
     "attributes": {
       "area": "Example area",
-      "areaValue": 74,
-      "areaUnit": "Example area unit",
-      "carSpaces": 6,
-      "listingAttributes": [
-        {
-          "id": "Example id",
-          "label": "Example label",
-          "value": "Example value"
-        }
-      ]
+      "areaValue": 2,
+      "areaUnit": "Example area unit"
     },
     "media": {
-      "imageCount": 95,
+      "imageCount": 5,
       "images": [
         {
           "url": "https://i1.au.reastatic.net/example/13642.jpg",
@@ -52,79 +46,39 @@
     },
     "agents": [
       {
-        "id": "5722435",
+        "id": "0763078",
         "name": "Example name",
         "photoUrl": "https://i1.au.reastatic.net/example/25208.jpg",
         "phone": {
-          "display": "3861659488",
-          "dial": "+47100733886"
+          "display": "6819844350",
+          "dial": "+67557723473"
         },
         "email": "user15@example.com",
         "profileUrl": "https://www.realcommercial.com.au/example/32363"
       }
     ],
     "agency": {
-      "id": "XTGBEB",
+      "id": "UCCNNZ",
       "name": "Example name",
       "logoUrl": "https://i1.au.reastatic.net/example/36817.jpg",
       "brandingColor": "Example branding color",
       "phone": {
-        "display": "3861659488",
-        "dial": "+47100733886"
+        "display": "88 8238 0382",
+        "dial": "+51689944679"
       },
       "address": "Example address",
       "email": "user15@example.com"
     },
-    "tours": [
-      {
-        "type": "MediaFloorPlan",
-        "id": "id67444577",
-        "alt": "Example alt",
-        "url": "https://i1.au.reastatic.net/example/13642"
-      },
-      {
-        "type": "MediaFloorPlan",
-        "id": "id9137176",
-        "alt": "Example alt",
-        "url": "https://i1.au.reastatic.net/example/35715"
-      }
-    ],
-    "nearbyPlaces": [
-      {
-        "name": "Example name",
-        "items": [
-          {
-            "id": "Example id",
-            "title": "Example title",
-            "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
-            "icon": {
-              "name": "Example name",
-              "backgroundColourToken": "backgroundPink",
-              "fillColourToken": "textPink"
-            }
-          },
-          {
-            "id": "Example id",
-            "title": "Example title",
-            "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
-            "icon": {
-              "name": "Example name",
-              "backgroundColourToken": "backgroundBlue",
-              "fillColourToken": "textBlue"
-            }
-          }
-        ]
-      }
-    ],
     "lastUpdatedAt": "Example last updated at",
-    "canonicalPath": "Example canonical path: mock text standing in for the real value. Same field and type, made-up content.",
+    "canonicalPath": "Example canonical path",
     "tenureTypeDisplay": "Any",
     "map": {
-      "precision": "STREET",
+      "precision": "SUBURB",
       "zoomLevel": 73
     },
-    "latitude": -48.84,
-    "longitude": 156.4,
+    "latitude": -48.79,
+    "longitude": 156.57,
+    "detailFetched": true,
     "scrapedAt": "2026-01-15T10:00:00Z"
   }
 ]

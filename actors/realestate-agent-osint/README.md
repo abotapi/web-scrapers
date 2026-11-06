@@ -73,7 +73,7 @@ Full details on the [scraper page](https://apify.com/abotapi/realestate-agent-os
 | `socialLinks` | object |
 | `socialLinkDetails` | list |
 | `website` | null |
-| `agencyProfileUrl` | string |
+| `agencyProfileUrl` | null |
 | `bio` | null |
 | `bioSource` | null |
 | `yearsExperienceStated` | null |

@@ -57,22 +57,23 @@ Full details on the [scraper page](https://apify.com/abotapi/onefootball-com-scr
 | --- | --- |
 | `recordType` | string |
 | `id` | string |
-| `competitionSlug` | string |
-| `competitionName` | string |
-| `position` | integer |
-| `positionChange` | null |
-| `teamName` | string |
-| `teamUrl` | string |
-| `teamBadgeUrl` | string |
-| `played` | integer |
-| `won` | integer |
-| `drawn` | null |
-| `lost` | integer |
-| `goalDifference` | integer |
-| `points` | integer |
+| `title` | string |
+| `url` | string |
+| `publisher` | string |
+| `publisherImageUrl` | string |
+| `publisherIsVerified` | boolean |
+| `publishedAt` | string |
+| `publishTime` | string |
+| `preview` | string |
+| `imageUrl` | string |
+| `isVideo` | boolean |
+| `language` | string |
+| `articleText` | null |
+| `articleChars` | null |
 | `sourceType` | string |
 | `sourceId` | string |
 | `sourceUrl` | string |
+| `position` | integer |
 | `scrapedAt` | string |
 
 ---

@@ -77,7 +77,7 @@ Full details on the [scraper page](https://apify.com/abotapi/employmenthero-jobs
 | `countryCode` | string |
 | `sectorId` | integer |
 | `sectorName` | string |
-| `teamName` | null |
+| `teamName` | string |
 | `eoi` | boolean |
 | `organisationId` | string |
 | `organisationName` | string |

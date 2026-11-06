@@ -3,84 +3,39 @@
     "recordId": "Example record id",
     "country": "ca",
     "source": "taxsales",
-    "title": "Example title: mock text standing in for the real value. Same field and type, made-up content.",
+    "title": "Example title",
     "distressType": "tax-sale",
     "url": "https://www.taxsales.ca/example/11493",
-    "caseNumber": "1809146043034585885",
     "deadlineAt": "2026-01-15T10:00:00Z",
     "location": {
-      "city": "Example city",
+      "address": "Example address",
+      "city": "Nipigon",
       "region": "ON",
       "country": "ca"
     },
     "valueText": "Example value text",
-    "valueAmount": 35217.14,
+    "valueAmount": 9539.35,
     "valueCurrency": "CAD",
     "attachments": [
       {
-        "label": "Example label: mock text standing in for the real value. Same field and type, made-up content.",
+        "label": "Example label",
         "url": "https://server.arcgisonline.com/example/11493.jpg"
       }
     ],
     "details": {
       "saleMethod": "tender",
       "valueKind": "Example value kind",
-      "legalDescription": "Example legal description: mock text standing in for the real value. Same field and type, made-up content.",
-      "assessedValue": 44517,
-      "submitTenders": "Example submit tenders: mock text standing in for the real value. Same field and type, made-up content.",
-      "municipalNotice": "Example municipal notice: mock text standing in for the real value. Same field and type, made-up content.",
+      "pin": "77140-8202",
+      "legalDescription": "Example legal description",
+      "submitTenders": "Example submit tenders",
+      "municipalNotice": "user81@example.com",
       "noticeConditions": [
         "Example notice conditions: mock text standing in for the real value. Same field and type, made-up content.",
         "Example notice conditions: mock text standing in for the real value. Same field and type, made-up content."
       ],
-      "geo": "48.51994183559380,-02.18171913232067",
-      "locationApproximate": true,
+      "geo": "15.0784887,-59.6440338",
+      "locationApproximate": false,
       "officialSourceUrl": "https://www.ontario.ca/example/81383",
-      "statusHistory": [
-        "Example status history",
-        "Example status history"
-      ]
-    },
-    "status": "Active"
-  },
-  {
-    "recordId": "Example record id",
-    "country": "ca",
-    "source": "taxsales",
-    "title": "Example title: mock text standing in for the real value. Same field and type, made-up content.",
-    "distressType": "tax-sale",
-    "url": "https://www.taxsales.ca/example/59627",
-    "caseNumber": "8192638585533809283",
-    "deadlineAt": "2026-01-15T10:00:00Z",
-    "location": {
-      "city": "Example city",
-      "region": "ON",
-      "country": "ca"
-    },
-    "valueText": "Example value text",
-    "valueAmount": 20294.1,
-    "valueCurrency": "CAD",
-    "attachments": [
-      {
-        "label": "Example label: mock text standing in for the real value. Same field and type, made-up content.",
-        "url": "https://server.arcgisonline.com/example/59627.jpg"
-      }
-    ],
-    "details": {
-      "saleMethod": "tender",
-      "valueKind": "Example value kind",
-      "pin": "52686-8003",
-      "legalDescription": "Example legal description: mock text standing in for the real value. Same field and type, made-up content.",
-      "assessedValue": 58446,
-      "submitTenders": "Example submit tenders: mock text standing in for the real value. Same field and type, made-up content.",
-      "municipalNotice": "Example municipal notice: mock text standing in for the real value. Same field and type, made-up content.",
-      "noticeConditions": [
-        "Example notice conditions: mock text standing in for the real value. Same field and type, made-up content.",
-        "Example notice conditions: mock text standing in for the real value. Same field and type, made-up content."
-      ],
-      "geo": "49.420831345432270,-27.05365988953627",
-      "locationApproximate": true,
-      "officialSourceUrl": "https://www.ontario.ca/example/96989",
       "statusHistory": [
         "Example status history",
         "Example status history"

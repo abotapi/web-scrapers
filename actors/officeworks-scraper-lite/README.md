@@ -1,0 +1,104 @@
+# Officeworks Australia Scraper Lite
+
+Scrape Officeworks (officeworks.com.au) products: name, brand, title, price, GST, was/original price, deals and clearance specials, stock by state, images, variants, specifications, ratings and reviews. Search by keyword, specials or filters, or paste product, search or category URLs.
+
+**[Open Officeworks Australia Scraper Lite on Apify](https://apify.com/abotapi/officeworks-scraper-lite?utm_source=github&utm_medium=web-scrapers&utm_campaign=monorepo)** to run it without code and export JSON, CSV or Excel.
+
+## Run it from code
+
+```bash
+pip install "apify-client>=3"
+export APIFY_TOKEN=<your token>   # https://console.apify.com/settings/integrations
+python example.py
+```
+
+[`example.py`](example.py) starts a small run and prints the results. Or use plain HTTP, which runs and returns the items in one call:
+
+```bash
+curl -s -X POST "https://api.apify.com/v2/acts/abotapi~officeworks-scraper-lite/run-sync-get-dataset-items?token=$APIFY_TOKEN" \
+  -H 'Content-Type: application/json' \
+  -d '{"mode": "search", "queries": ["laptop"], "sortBy": "relevance", "maxReviewsPerProduct": 10, "maxItems": 10, "maxPages": 1, "proxy": {"useApifyProxy": true}, "changeScope": "all"}'
+```
+
+## Inputs
+
+| Input | Type | What it is |
+| --- | --- | --- |
+| `mode` * | string | Mode |
+| `queries` | array | Search keywords |
+| `specialsCategory` | string | Specials / offers collection |
+| `urls` | array | Officeworks URLs |
+| `brand` | string | Brand |
+| `sortBy` | string | Sort by |
+| `minPrice` | integer | Minimum price |
+| `maxPrice` | integer | Maximum price |
+| `minRating` | integer | Minimum rating |
+| `includeOutOfStock` | boolean | Include unavailable products |
+| `detailEnrichment` | boolean | Fetch full product detail  reviews |
+| `maxReviewsPerProduct` | integer | Max reviews per product |
+| `maxItems` | integer | Max products |
+| `maxPages` | integer | Max pages per search |
+| `deliveryPostcode` | string | Delivery postcode |
+| `verifyHomeDelivery` | boolean | Check home delivery live |
+| `pickupStoreId` | string | Pickup store (optional) |
+| `proxy` | object | Proxy configuration |
+| `baselineDatasetId` | string | Start from an existing dataset (option |
+| `earlierHistoryStoreId` | string | Continue from the Officeworks Australi |
+| `changeScope` | string | What counts as a change (incremental m |
+| `compactUpdates` | boolean | Compact update rows (incremental mode  |
+| `expireAfterMissedScans` | integer | Expire after N missed full scans (incr |
+
+`*` required
+
+Full details on the [scraper page](https://apify.com/abotapi/officeworks-scraper-lite?utm_source=github&utm_medium=web-scrapers&utm_campaign=monorepo).
+
+## Sample output
+
+[`sample.json`](sample.json) is **mock data**: the same fields and types as real output, with made-up values.
+
+| Field | Type |
+| --- | --- |
+| `sku` | string |
+| `name` | string |
+| `title` | string |
+| `brand` | string |
+| `url` | string |
+| `seoPath` | string |
+| `price` | integer |
+| `currency` | string |
+| `gtin` | string |
+| `manufacturerPartNumber` | string |
+| `productType` | string |
+| `colour` | string |
+| `multipackSize` | null |
+| `unitsPerPack` | integer |
+| `category` | string |
+| `categoryPath` | string |
+| `availableStates` | list |
+| `isAvailableInStore` | boolean |
+| `availableOnline` | boolean |
+| `isClearance` | boolean |
+| `isOnSpecial` | boolean |
+| `isNew` | boolean |
+| `promoLabel` | string |
+| `wasPrice` | null |
+| `savingsAmount` | null |
+| `savingsPercent` | null |
+| `rating` | float |
+| `reviewCount` | integer |
+| `imageUrl` | string |
+| `images` | list |
+| `searchMode` | string |
+| `source` | string |
+| `country` | string |
+| `rangedOnline` | boolean |
+| `rangedRetail` | boolean |
+| `published` | boolean |
+| `variants` | list |
+| `variantAxes` | object |
+| `variantCount` | integer |
+| `categoryHierarchy` | list |
+
+---
+
+[← All scrapers](../../README.md)

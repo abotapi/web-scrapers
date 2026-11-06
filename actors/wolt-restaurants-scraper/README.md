@@ -58,10 +58,10 @@ Full details on the [scraper page](https://apify.com/abotapi/wolt-restaurants-sc
 | `name` | string |
 | `description` | string |
 | `shortDescription` | string |
-| `brandSlug` | null |
-| `brandName` | null |
-| `brandLogoImage` | null |
-| `brandLogoBlurhash` | null |
+| `brandSlug` | string |
+| `brandName` | string |
+| `brandLogoImage` | string |
+| `brandLogoBlurhash` | string |
 | `coverImage` | string |
 | `coverBlurhash` | string |
 | `address` | string |

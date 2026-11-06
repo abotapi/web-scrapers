@@ -70,11 +70,11 @@ Full details on the [scraper page](https://apify.com/abotapi/depop-scraper?utm_s
 | `mainPicture` | string |
 | `pictureCount` | integer |
 | `sizes` | list |
-| `variantSetId` | null |
+| `variantSetId` | integer |
 | `variants` | list |
 | `sku` | null |
 | `isBoosted` | boolean |
-| `boostedAt` | string |
+| `boostedAt` | null |
 | `isSold` | null |
 | `price` | integer |
 | `totalPrice` | integer |

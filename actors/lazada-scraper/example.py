@@ -17,6 +17,7 @@ run = client.actor("abotapi/lazada-scraper").call(
         "queries": ["laptop"],
         "sortBy": "popularity",
         "maxReviewsPerProduct": 10,
+        "detailMode": "full",
         "maxPages": 1,
         "maxListings": 10,
         "proxy": {"useApifyProxy": True, "apifyProxyGroups": ["RESIDENTIAL"], "apifyProxyCountry": "SG"},

@@ -56,7 +56,7 @@ Full details on the [scraper page](https://apify.com/abotapi/bayt-com-jobs-scrap
 | `location` | string |
 | `countrySlug` | string |
 | `logo` | string |
-| `salary` | null |
+| `salary` | string |
 | `careerLevel` | string |
 | `experience` | null |
 | `workStyle` | null |
@@ -79,9 +79,9 @@ Full details on the [scraper page](https://apify.com/abotapi/bayt-com-jobs-scrap
 | `jobCountryCode` | string |
 | `directApply` | boolean |
 | `residenceLocation` | string |
-| `nationality` | string |
+| `nationality` | null |
 | `gender` | string |
-| `age` | string |
+| `age` | null |
 | `degree` | null |
 | `major` | null |
 | `preferredCandidate` | object |

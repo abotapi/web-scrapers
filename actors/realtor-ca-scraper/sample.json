@@ -1,12 +1,12 @@
 [
   {
     "scrapedAt": "2026-01-15T10:00:00Z",
-    "propertyId": "32477093",
-    "mlsNumber": "w07845275",
+    "propertyId": "33183178",
+    "mlsNumber": "w60524093",
     "url": "https://www.realtor.ca/example/2424",
     "listingType": "buy",
-    "propertyType": "condo",
-    "buildingType": "Apartment",
+    "propertyType": "house",
+    "buildingType": "House",
     "ownershipType": "Example ownership type",
     "dateListed": "+1 555 0100",
     "timeOnRealtor": "Example time on realtor",
@@ -20,23 +20,27 @@
       "street": "Example street",
       "city": "Toronto",
       "province": "Example province",
-      "postalCode": "m5b6b0"
+      "postalCode": "m0n5x3"
     },
     "coordinates": {
-      "latitude": 54.64,
-      "longitude": -61.97
+      "latitude": 54.63,
+      "longitude": -62.03
     },
     "price": {
       "display": "Example display",
-      "value": 681736,
+      "value": 3381736,
       "shortValue": "Example short value"
     },
     "features": {
       "bedrooms": 6,
       "bathrooms": 9,
       "parkingSpaces": 3,
-      "parkingType": "Example parking type",
-      "buildingSize": "Example building size"
+      "parkingType": "Garage",
+      "landSize": "Example land size",
+      "buildingSize": "Example building size",
+      "stories": 3,
+      "halfBathrooms": 8,
+      "landFrontage": "Example land frontage"
     },
     "propertyFeatures": [
       "Example property features",
@@ -54,7 +58,7 @@
     "agents": [
       {
         "name": "Example name",
-        "id": "1073462",
+        "id": "2025135",
         "firstName": "Example first name",
         "lastName": "Example last name",
         "organizationType": "Firm",
@@ -63,9 +67,10 @@
         "position": "Example position",
         "profileUrl": "https://www.realtor.ca/example/94295",
         "organization": "Example organization",
-        "organizationId": "568816",
+        "organizationLogo": "https://cdn.realtor.ca/example/63960.jpg",
+        "organizationId": "81460",
         "organizationDesignation": "Example organization designation",
-        "organizationWebsite": "http://www.rigmaxxrealty.com/example/76786",
+        "organizationWebsite": "http://www.c21parkland.com/example/76786",
         "organizationPhone": "+1 555 0100"
       }
     ]

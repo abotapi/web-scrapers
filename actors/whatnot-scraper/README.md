@@ -71,7 +71,7 @@ Full details on the [scraper page](https://apify.com/abotapi/whatnot-scraper?utm
 | `isLiveNow` | boolean |
 | `isScheduled` | boolean |
 | `startTime` | string |
-| `endTime` | string |
+| `endTime` | null |
 | `activeViewers` | integer |
 | `watchlistUsers` | integer |
 | `isHiddenBySeller` | boolean |
@@ -95,7 +95,7 @@ Full details on the [scraper page](https://apify.com/abotapi/whatnot-scraper?utm
 | `sellerIsPremierShop` | boolean |
 | `sellerFollowerCount` | integer |
 | `sellerSoldCount` | integer |
-| `sellerRating` | float |
+| `sellerRating` | integer |
 | `sellerReviewCount` | integer |
 | `sellerProfileImageUrl` | string |
 

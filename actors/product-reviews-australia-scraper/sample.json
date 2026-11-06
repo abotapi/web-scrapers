@@ -9,13 +9,13 @@
       "id": "id87274198",
       "name": "Example name",
       "slug": "Example slug",
-      "url": "https://www.plush.com.au/example/31042",
+      "url": "https://www.koalaliving.com.au/example/31042",
       "isManaged": true
     },
     "contact": {
-      "email": null,
-      "website": "https://www.plush.com.au/example/52865",
-      "phone": null
+      "email": "user82@example.com",
+      "website": "https://www.koalaliving.com.au/example/52865",
+      "phone": "+1 555 0100"
     },
     "categories": [
       {
@@ -33,15 +33,15 @@
     ],
     "locations": [],
     "statistics": {
-      "rating": 4.46,
+      "rating": 4.66,
       "numberOfReviews": 85286,
-      "numberOfQuestions": 471,
+      "numberOfQuestions": 21,
       "ratingDistribution": [
-        2965,
-        252
+        265,
+        72
       ],
-      "numberOfLeaves": 8,
-      "numberOfReviewsLastYear": 581
+      "numberOfLeaves": 62,
+      "numberOfReviewsLastYear": 7781
     },
     "isDiscontinued": false,
     "featuredReview": {
@@ -73,10 +73,7 @@
         "Example pros: mock text standing in for the real value. Same field and type, made-up content.",
         "Example pros: mock text standing in for the real value. Same field and type, made-up content."
       ],
-      "cons": [
-        "Example cons: mock text standing in for the real value. Same field and type, made-up content.",
-        "Example cons: mock text standing in for the real value. Same field and type, made-up content."
-      ],
+      "cons": [],
       "verdict": "Example verdict: mock text standing in for the real value. Same field and type, made-up content."
     },
     "marketAvailability": {
@@ -93,15 +90,17 @@
       3051,
       3448
     ],
-    "officialLink": "https://www.plush.com.au/example/56592",
+    "officialLink": "https://koalaliving.com.au/example/56592",
     "specificationValues": {
       "Type of Furniture Offered": [
-        "Sofas",
-        "Living"
-      ]
+        "Living",
+        "Dining"
+      ],
+      "dd789968-7d94-480f-98c9-e99fa8115039": false,
+      "e4fc3476-8ed9-423a-ad5f-298c7f28ed49": true
     },
     "universalIds": [
-      "54808217355"
+      "92473227680"
     ],
     "videos": [],
     "specHighlights": [],
@@ -125,17 +124,7 @@
           "locationName": null,
           "avatarUrl": "https://cdn.productreview.com.au/example/16768.jpg"
         },
-        "comments": [
-          {
-            "id": "id87274198",
-            "body": "Example body: mock text standing in for the real value. Same field and type, made-up content.",
-            "submittedAt": "2026-01-15T10:00:00Z",
-            "author": {
-              "displayName": "Example display name",
-              "isBrandManager": true
-            }
-          }
-        ],
+        "comments": [],
         "numberOfLikes": 0,
         "numberOfDislikes": 0,
         "isVerified": false,
@@ -167,20 +156,10 @@
         "author": {
           "id": "id36078153",
           "displayName": "Example display name",
-          "locationName": "Example location name",
+          "locationName": null,
           "avatarUrl": "https://cdn.productreview.com.au/example/70059.jpg"
         },
-        "comments": [
-          {
-            "id": "id36078153",
-            "body": "Example body: mock text standing in for the real value. Same field and type, made-up content.",
-            "submittedAt": "2026-01-15T10:00:00Z",
-            "author": {
-              "displayName": "Example display name",
-              "isBrandManager": true
-            }
-          }
-        ],
+        "comments": [],
         "numberOfLikes": 0,
         "numberOfDislikes": 0,
         "isVerified": false,
@@ -214,12 +193,12 @@
       "id": "id24683951",
       "name": "Example name",
       "slug": "Example slug",
-      "url": "https://www.loungelovers.com.au/example/46485",
+      "url": "http://www.cleanandclearwater.com.au/example/46485",
       "isManaged": true
     },
     "contact": {
       "email": "user30@example.com",
-      "website": "https://www.loungelovers.com.au/example/91501",
+      "website": "http://www.cleanandclearwater.com.au/example/91501",
       "phone": "+1 555 0100"
     },
     "categories": [
@@ -238,12 +217,12 @@
     ],
     "locations": [],
     "statistics": {
-      "rating": 6.32,
-      "numberOfReviews": 13061,
-      "numberOfQuestions": 58,
+      "rating": 9,
+      "numberOfReviews": 4061,
+      "numberOfQuestions": 4,
       "ratingDistribution": [
-        820,
-        64
+        10,
+        1
       ],
       "numberOfLeaves": 6,
       "numberOfReviewsLastYear": 991
@@ -256,15 +235,14 @@
       "rating": 9,
       "submittedAt": "2026-01-15T10:00:00Z",
       "authorName": "Example author name",
-      "authorLocation": "Example author location",
+      "authorLocation": null,
       "hasVerifiedPurchase": false
     },
     "highlightedReviews": [],
     "logoUrl": "https://cdn.productreview.com.au/example/89366.jpg",
     "pictureUrl": "https://cdn.productreview.com.au/example/69542",
     "pictures": [
-      "https://cdn.productreview.com.au/example/96435",
-      "https://cdn.productreview.com.au/example/72940"
+      "https://cdn.productreview.com.au/example/96435"
     ],
     "createdAt": "2026-01-15T10:00:00Z",
     "fullName": "Example full name",
@@ -285,7 +263,7 @@
     "marketAvailability": {
       "startDate": null,
       "endDate": null,
-      "isStartDateUnknown": true,
+      "isStartDateUnknown": false,
       "isEndDateUnknown": false
     },
     "tags": [
@@ -296,16 +274,9 @@
       6858,
       7882
     ],
-    "officialLink": "https://www.loungelovers.com.au/example/25065",
-    "specificationValues": {
-      "Type of Furniture Offered": [
-        "Sofas",
-        "Outdoor"
-      ]
-    },
-    "universalIds": [
-      "57454990128"
-    ],
+    "officialLink": "https://www.cleanandclearwater.com.au/example/25065",
+    "specificationValues": {},
+    "universalIds": [],
     "videos": [],
     "specHighlights": [],
     "capacityText": null,
@@ -325,20 +296,10 @@
         "author": {
           "id": "id24683951",
           "displayName": "Example display name",
-          "locationName": "Example location name",
+          "locationName": null,
           "avatarUrl": "https://cdn.productreview.com.au/example/30796.jpg"
         },
-        "comments": [
-          {
-            "id": "id24683951",
-            "body": "Example body: mock text standing in for the real value. Same field and type, made-up content.",
-            "submittedAt": "2026-01-15T10:00:00Z",
-            "author": {
-              "displayName": "Example display name",
-              "isBrandManager": true
-            }
-          }
-        ],
+        "comments": [],
         "numberOfLikes": 0,
         "numberOfDislikes": 0,
         "isVerified": false,
@@ -350,8 +311,6 @@
         "followUps": [],
         "footnote": null,
         "specificationValues": {
-          "Product Purchased": "Example product  purchased",
-          "Store Location": "Example store  location",
           "Incentivised Review": "Example incentivised  review"
         },
         "subject": {
@@ -375,17 +334,7 @@
           "locationName": null,
           "avatarUrl": "https://cdn.productreview.com.au/example/79222.jpg"
         },
-        "comments": [
-          {
-            "id": "id62995661",
-            "body": "Example body: mock text standing in for the real value. Same field and type, made-up content.",
-            "submittedAt": "2026-01-15T10:00:00Z",
-            "author": {
-              "displayName": "Example display name",
-              "isBrandManager": true
-            }
-          }
-        ],
+        "comments": [],
         "numberOfLikes": 0,
         "numberOfDislikes": 0,
         "isVerified": false,
@@ -407,6 +356,6 @@
       }
     ],
     "reviewsCollected": 46,
-    "totalReviews": 68950
+    "totalReviews": 5950
   }
 ]

@@ -17,7 +17,7 @@ python example.py
 ```bash
 curl -s -X POST "https://api.apify.com/v2/acts/abotapi~trulia-scraper/run-sync-get-dataset-items?token=$APIFY_TOKEN" \
   -H 'Content-Type: application/json' \
-  -d '{"mode": "search", "searchLocation": "New_York,NY", "searchListingType": "FOR_SALE", "searchSort": "RECOMMENDED", "maxItems": 10, "maxPages": 1, "proxy": {"useApifyProxy": true, "apifyProxyGroups": ["RESIDENTIAL"], "apifyProxyCountry": "US"}}'
+  -d '{"mode": "search", "searchLocation": "New_York,NY", "searchListingType": "FOR_SALE", "searchSort": "RECOMMENDED", "maxItems": 10, "maxPages": 1, "proxy": {"useApifyProxy": true, "apifyProxyCountry": "US"}, "changeScope": "all"}'
 ```
 
 ## Inputs
@@ -29,11 +29,18 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~trulia-scraper/run-sync-g
 | `searchListingType` | string | Listing type |
 | `searchKeyword` | string | Keyword (optional) |
 | `searchSort` | string | Sort by |
+| `minBeds` | integer | Minimum bedrooms (optional) |
+| `minBaths` | integer | Minimum bathrooms (optional) |
+| `propertyType` | string | Property type (optional) |
+| `searchZip` | string | ZIP code (optional) |
 | `startUrls` | array | Trulia URLs |
 | `fetchDetails` | boolean | Fetch property details |
 | `maxItems` | integer | Max items |
 | `maxPages` | integer | Max pages per search |
 | `proxy` | object | Proxy configuration |
+| `changeScope` | string | What counts as a change (incremental m |
+| `compactUpdates` | boolean | Compact update rows (incremental mode  |
+| `expireAfterMissedScans` | integer | Expire after N missed full scans (incr |
 
 `*` required
 

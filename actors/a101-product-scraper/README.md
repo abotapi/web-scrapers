@@ -17,7 +17,7 @@ python example.py
 ```bash
 curl -s -X POST "https://api.apify.com/v2/acts/abotapi~a101-product-scraper/run-sync-get-dataset-items?token=$APIFY_TOKEN" \
   -H 'Content-Type: application/json' \
-  -d '{"mode": "search", "queries": ["kahve"], "channel": "ekstra", "sortBy": "relevance", "maxPages": 1, "maxListings": 10, "proxy": {"useApifyProxy": true}}'
+  -d '{"mode": "search", "queries": ["kahve"], "channel": "ekstra", "sortBy": "relevance", "maxPages": 1, "maxListings": 10, "proxy": {"useApifyProxy": true}, "limit": 10}'
 ```
 
 ## Inputs
@@ -38,6 +38,10 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~a101-product-scraper/run-
 | `maxListings` | integer | Max products |
 | `fetchDetails` | boolean | Fetch details |
 | `proxy` | object | Proxy configuration |
+| `min_price` | number | Min price alias |
+| `max_price` | number | Max price alias |
+| `limit` | integer | Max products alias |
+| `startUrls` | array | Start URLs alias |
 
 `*` required
 

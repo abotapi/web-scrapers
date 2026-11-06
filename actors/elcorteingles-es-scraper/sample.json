@@ -1,22 +1,22 @@
 [
   {
-    "productId": "a49639246",
+    "productId": "a376269518",
     "name": "Example name: mock text standing in for the real value. Same field and type, made-up content.",
-    "brand": "Nike",
+    "brand": "Example brand",
     "category": "Deportes",
     "categoryPath": [
       "Deportes"
     ],
     "url": "https://www.elcorteingles.es/example/21122",
-    "sku": "624016842318307899",
-    "gtin": "4253603279538",
-    "color": "Example color",
-    "size": "24,1/2",
-    "price": 57.77,
+    "sku": "620196005582234890",
+    "gtin": "6049042281733",
+    "color": "Negro",
+    "size": "98,9/5.8",
+    "price": 38.09,
     "currency": "EUR",
-    "originalPrice": 77.99,
-    "discountPercent": 14,
-    "isOnSale": true,
+    "originalPrice": null,
+    "discountPercent": null,
+    "isOnSale": false,
     "onlineAvailable": true,
     "isMarketplace": false,
     "seller": null,
@@ -27,30 +27,30 @@
     ],
     "variants": [
       {
-        "sku": "624016842318307899",
-        "gtin": "4253603279538",
-        "color": "Example color",
-        "size": "24,1/2",
-        "price": 57.77,
+        "sku": "620196005582234890",
+        "gtin": "6049042281733",
+        "color": "Negro",
+        "size": "98,9/5.8",
+        "price": 38.09,
         "currency": "EUR",
-        "originalPrice": 77.99,
-        "discountPercent": 14,
-        "isOnSale": true,
+        "originalPrice": null,
+        "discountPercent": null,
+        "isOnSale": false,
         "onlineAvailable": true,
         "isMarketplace": false,
         "seller": null
       },
       {
-        "sku": "675006342731042625",
-        "gtin": "2743975311785",
-        "color": "Example color",
-        "size": "66,1/8.5",
-        "price": 42.76,
+        "sku": "619476022951683466",
+        "gtin": "0277941551196",
+        "color": "Negro",
+        "size": "66/7",
+        "price": 28.19,
         "currency": "EUR",
-        "originalPrice": 77.34,
-        "discountPercent": 75,
-        "isOnSale": true,
-        "onlineAvailable": false,
+        "originalPrice": null,
+        "discountPercent": null,
+        "isOnSale": false,
+        "onlineAvailable": true,
         "isMarketplace": false,
         "seller": null
       }
@@ -76,11 +76,10 @@
     ],
     "is_sold_by": false,
     "is_gift_card": false,
-    "size_guide": "https://www.elcorteingles.es/example/14317",
     "size_guide_type": "usizy",
     "size_guide_details": {
       "scriptUrl": "https://static.usizy.es/example/58135",
-      "alternativeUrl": "https://www.elcorteingles.es/example/3756",
+      "alternativeUrl": "",
       "language": "es",
       "country": "ES",
       "weight_system": "metric",
@@ -88,7 +87,7 @@
       "active": true,
       "priority": 4
     },
-    "status": "mixed",
+    "status": "ADD",
     "categories": [
       {
         "id": "669.59173547",
@@ -131,8 +130,8 @@
       "items": [
         {
           "rating": 1,
-          "title": null,
-          "body": null,
+          "title": "Example title",
+          "body": "Example body: mock text standing in for the real value. Same field and type, made-up content.",
           "author": "Example author",
           "date": "2026-01-15T10:00:00Z"
         }

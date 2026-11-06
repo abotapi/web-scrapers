@@ -71,13 +71,13 @@ Full details on the [scraper page](https://apify.com/abotapi/onthemarket-scraper
 | `daysSinceAddedReduced` | string |
 | `feesLabel` | null |
 | `feesDescription` | null |
-| `reduced` | null |
+| `reduced` | boolean |
 | `spotlight` | boolean |
 | `matterportVirtualTour` | boolean |
 | `features` | list |
 | `images` | list |
 | `coverImage` | string |
-| `dataLabelId` | null |
+| `dataLabelId` | string |
 | `agentId` | integer |
 | `agentName` | string |
 | `agentLogo` | string |

@@ -28,6 +28,7 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~app-store-reviews-scraper
 | `queries` | array | App name searches |
 | `appsPerQuery` | integer | Apps per search term |
 | `urls` | array | App Store URLs |
+| `appIds` | array | App IDs |
 | `countries` | array | Countries |
 | `sortBy` | string | Sort reviews by |
 | `minRating` | integer | Minimum rating |

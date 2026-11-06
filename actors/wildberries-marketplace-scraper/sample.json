@@ -2,56 +2,58 @@
   {
     "kind": "product",
     "recordId": "Example record id",
-    "nmId": 7079235494,
-    "rootId": 4444618469,
+    "nmId": 779235494,
+    "rootId": 844618469,
     "url": "https://www.wildberries.ru/example/98869",
     "name": "Example name",
     "brand": "Apple",
     "brandId": 1416,
     "subjectId": 120,
-    "price": 98944,
-    "priceRetail": 19611,
+    "price": 188944,
+    "priceRetail": 109611,
     "priceLogistics": 0,
     "discountPercent": 61,
     "hasDiscount": true,
     "currency": "RUB",
-    "rating": 0,
-    "reviewRating": 0,
-    "feedbacksCount": 0,
-    "stock": 9,
-    "volume": 3,
-    "weight": 0.42,
+    "rating": 8,
+    "reviewRating": 6,
+    "feedbacksCount": 3,
+    "stock": 18,
+    "volume": 84,
+    "weight": 0.34,
     "warehouseIds": [
-      514705
+      76114705
     ],
     "deliveryDaysMin": 28,
     "deliveryDaysMax": 982,
-    "colors": null,
+    "colors": [
+      "Example colors"
+    ],
     "imageUrl": "https://basket-10.wbbasket.ru/example/73729.jpg",
     "imageUrlsCount": 50,
-    "supplierId": 441786921,
+    "supplierId": 9786921,
     "supplierName": "Example supplier name",
-    "supplierRating": 3.56,
+    "supplierRating": 3.97,
     "description": null,
     "characteristics": null,
     "feedbacks": [
       {
-        "id": "nntjcxjcm2ohviomvwi3",
+        "id": "tqeal4qtcepghpixnkbg",
         "createdDate": "2026-01-15T10:00:00Z",
         "updatedDate": "2026-01-15T10:00:00Z",
         "rating": 8,
-        "text": "Example text",
+        "text": "Example text: mock text standing in for the real value. Same field and type, made-up content.",
         "pros": "",
         "cons": "",
-        "size": "9",
+        "size": "",
         "userName": "Example user name",
-        "answerText": "Example answer text: mock text standing in for the real value. Same field and type, made-up content.",
+        "answerText": null,
         "helpfulVotes": 0,
-        "unhelpfulVotes": 5,
+        "unhelpfulVotes": 0,
         "photosCount": 0
       },
       {
-        "id": "sxnm3t13lwlqbvxzfdex",
+        "id": "0ffikf1zqxcia5eglgbi",
         "createdDate": "2026-01-15T10:00:00Z",
         "updatedDate": "2026-01-15T10:00:00Z",
         "rating": 3,
@@ -60,30 +62,30 @@
         "cons": "",
         "size": "",
         "userName": "Example user name",
-        "answerText": "Example answer text: mock text standing in for the real value. Same field and type, made-up content.",
+        "answerText": null,
         "helpfulVotes": 2,
-        "unhelpfulVotes": 0,
-        "photosCount": 9
+        "unhelpfulVotes": 3,
+        "photosCount": 0
       }
     ],
     "feedbackSummary": {
-      "valuation": "2.2",
+      "valuation": "2.1",
       "valuationSum": 49,
       "distribution": {
         "1": 0,
         "2": 0,
-        "3": 1,
+        "3": 0,
         "4": 0,
-        "5": 87
+        "5": 6
       },
       "withText": 2,
-      "withPhoto": 8
+      "withPhoto": 0
     },
     "siteBrandId": 0,
     "subjectParentId": 8919,
     "kindId": 0,
     "entity": "",
-    "matchId": 0,
-    "supplierFlags": 9534
+    "matchId": 872046698,
+    "supplierFlags": 534
   }
 ]

@@ -1,22 +1,22 @@
 [
   {
-    "recordId": "1097305139012",
-    "productId": "1064262000688",
-    "ean": "5640902541685",
+    "recordId": "3926779495171",
+    "productId": "6476577070788",
+    "ean": "6854523406978",
     "url": "https://www.vidaxl.de/example/57095",
-    "title": "Example title: mock text standing in for the real value. Same field and type, made-up content.",
+    "title": "Example title",
     "brand": "vidaXL",
-    "sku": "0650092",
-    "masterProductId": "m7037260",
+    "sku": "5714861",
+    "masterProductId": "m12316541417",
     "categories": [
       "Furniture",
       "Example categories"
     ],
     "categoryPath": "Example category path",
     "variants": {
-      "color": "Hellgrau"
+      "color": "Grau"
     },
-    "price": 562.79,
+    "price": 621.59,
     "oldPrice": null,
     "onSale": false,
     "currency": "EUR",
@@ -27,15 +27,20 @@
     "specifications": {
       "Farbe": "Example farbe",
       "Material": "Example material",
-      "Gesamtmaße": "Example gesamtmaße",
       "Gewicht": "Example gewicht",
-      "Sitzplatzkapazität": "2",
+      "Sitztiefe": "Example sitztiefe",
+      "Sitzplatzkapazität": "7",
+      "Rückenhöhe": "Example rückenhöhe",
+      "Verstellbare Min/Max Maße": "+1 555 0100",
       "Montage erforderlich": "Ja",
-      "3 x Mittelsitz": "+1 555 0100",
-      "4 x Armsessel": "Example 4 x  armsessel",
       "1 x Tisch": "Example 1 x  tisch",
-      "EAN": "9508143198832",
-      "SKU": "5631466",
+      "5 x Mittelsofa": "+1 555 0100",
+      "2 x Ecksofa": "Example 2 x  ecksofa",
+      "2 x Fußhocker": "Example 2 x  fußhocker",
+      "9 x Sitzkissen": "Example 9 x  sitzkissen",
+      "9 x Rückenkissen": "Example 9 x  rückenkissen",
+      "EAN": "6274768193032",
+      "SKU": "9850086",
       "Brand": "vidaXL",
       "Max. Belastbarkeit": "Example max.  belastbarkeit"
     },

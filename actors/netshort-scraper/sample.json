@@ -1,7 +1,7 @@
 [
   {
     "recordType": "title",
-    "id": "0896874356773438906",
+    "id": "2474286696021737659",
     "slug": "Example slug",
     "title": "Example title",
     "titleRaw": "Example title raw",
@@ -13,28 +13,28 @@
     "genres": [
       {
         "name": "Example name",
-        "id": "9029722267078580977"
+        "id": "9694589027208779252"
       },
       {
         "name": "Example name",
-        "id": "3856793396502332020"
+        "id": "0992006452272583360"
       }
     ],
     "genreIds": [
-      "7178199823192194384",
-      "2032100106260651632"
+      "8589588827119437140",
+      "7704960882835032281"
     ],
     "episodes": 46,
-    "language": "en_US",
-    "libraryId": "8754684403117664891",
+    "language": "en",
+    "libraryId": "2063369812019778388",
     "isDelisted": false,
     "releaseDate": null,
     "mode": "CATALOG",
     "extractionPath": "Example extraction path",
-    "likesDisplay": null,
-    "followsDisplay": null,
-    "likes": null,
-    "follows": null,
+    "likesDisplay": "Example likes display",
+    "followsDisplay": "Example follows display",
+    "likes": 2001,
+    "follows": 3994,
     "detailFetched": true,
     "reviews": [
       {

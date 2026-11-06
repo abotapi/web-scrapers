@@ -89,6 +89,7 @@ Full details on the [scraper page](https://apify.com/abotapi/naukri-com-scraper?
 | `isTopGroup` | boolean |
 | `listingSource` | string |
 | `externalApply` | boolean |
+| `diversityTags` | list |
 | `companyJobsUrl` | string |
 | `roleCategoryId` | string |
 | `hasApplyQuestionnaire` | boolean |
@@ -103,7 +104,6 @@ Full details on the [scraper page](https://apify.com/abotapi/naukri-com-scraper?
 | `locationIds` | list |
 | `companyDetails` | object |
 | `education` | string |
-| `educationDetails` | object |
 
 ---
 

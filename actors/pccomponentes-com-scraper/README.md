@@ -17,7 +17,7 @@ python example.py
 ```bash
 curl -s -X POST "https://api.apify.com/v2/acts/abotapi~pccomponentes-com-scraper/run-sync-get-dataset-items?token=$APIFY_TOKEN" \
   -H 'Content-Type: application/json' \
-  -d '{"mode": "search", "searchTerm": "portatil", "sortBy": "RELEVANCE", "maxReviewsPerProduct": 10, "maxPages": 1, "maxItems": 10, "proxy": {"useApifyProxy": true}}'
+  -d '{"mode": "search", "searchTerm": "portatil", "sortBy": "RELEVANCE", "maxReviewsPerProduct": 10, "maxPages": 1, "maxItems": 10, "proxy": {"useApifyProxy": true}, "changeScope": "all"}'
 ```
 
 ## Inputs
@@ -26,12 +26,13 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~pccomponentes-com-scraper
 | --- | --- | --- |
 | `mode` * | string | Mode |
 | `searchTerm` | string | Search keyword |
+| `queries` | array | More search keywords (optional) |
 | `category` | string | Category (used only when Search keywor |
 | `brands` | array | Brands |
 | `minPrice` | number | Minimum price (EUR) |
 | `maxPrice` | number | Maximum price (EUR) |
 | `specialsOnly` | boolean | Discounted items only |
-| `sortBy` | string | Sort order (category browsing only) |
+| `sortBy` | string | Sort order |
 | `urls` | array | URLs to scrape |
 | `fetchDetails` | boolean | Fetch full product detail |
 | `fetchReviews` | boolean | Fetch reviews |
@@ -39,6 +40,9 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~pccomponentes-com-scraper
 | `maxPages` | integer | Max pages per search |
 | `maxItems` | integer | Max products total |
 | `proxy` | object | Proxy configuration |
+| `changeScope` | string | What counts as a change (incremental m |
+| `compactUpdates` | boolean | Compact update rows (incremental mode  |
+| `expireAfterMissedScans` | integer | Expire after N missed full scans (incr |
 
 `*` required
 
@@ -51,22 +55,35 @@ Full details on the [scraper page](https://apify.com/abotapi/pccomponentes-com-s
 | Field | Type |
 | --- | --- |
 | `productId` | string |
+| `articleId` | string |
+| `objectId` | string |
+| `condition` | null |
+| `conditionType` | string |
+| `availability` | string |
+| `availabilityLocations` | null |
+| `seller` | string |
+| `mpn` | string |
+| `specs` | object |
 | `sku` | string |
 | `name` | string |
 | `brand` | string |
 | `category` | string |
 | `url` | string |
-| `price` | float |
+| `price` | integer |
 | `currency` | string |
-| `originalPrice` | null |
-| `discountAmount` | null |
-| `discountPercent` | null |
+| `originalPrice` | integer |
+| `discountAmount` | integer |
+| `discountPercent` | integer |
 | `isOnSpecial` | boolean |
 | `image` | string |
 | `rating` | float |
 | `reviewCount` | integer |
 | `onlineAvailable` | boolean |
 | `freeShipping` | boolean |
+| `priceOld` | integer |
+| `discount` | integer |
+| `query` | string |
+| `scraped_at` | string |
 | `reviews` | object |
 
 ---

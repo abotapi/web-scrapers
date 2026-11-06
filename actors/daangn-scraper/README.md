@@ -17,7 +17,7 @@ python example.py
 ```bash
 curl -s -X POST "https://api.apify.com/v2/acts/abotapi~daangn-scraper/run-sync-get-dataset-items?token=$APIFY_TOKEN" \
   -H 'Content-Type: application/json' \
-  -d '{"mode": "search", "searchQueries": ["노트북"], "locations": ["366"], "sortBy": "recommended", "maxItems": 10, "maxPages": 1, "proxy": {"useApifyProxy": true}}'
+  -d '{"mode": "search", "searchQueries": ["노트북"], "locations": ["366"], "availability": "all", "sortBy": "recommended", "maxItems": 10, "maxPages": 1, "proxy": {"useApifyProxy": true}, "changeScope": "all"}'
 ```
 
 ## Inputs
@@ -26,11 +26,16 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~daangn-scraper/run-sync-g
 | --- | --- | --- |
 | `mode` * | string | Mode |
 | `searchQueries` | array | Search queries |
-| `locations` | array | Regions (region ids) |
+| `locations` | array | Regions (ids) |
 | `categoryId` | integer | Category id |
 | `onlyOnSale` | boolean | Only items on sale |
 | `priceMin` | integer | Minimum price (KRW) |
 | `priceMax` | integer | Maximum price (KRW) |
+| `includeKeywords` | array | Title must contain any |
+| `excludeKeywords` | array | Title must contain none |
+| `cities` | array | Neighbourhood contains |
+| `availability` | string | Availability |
+| `maxListingsPerSearch` | integer | Max listings per search |
 | `sortBy` | string | Sort by |
 | `urls` | array | Daangn URLs |
 | `fetchDetails` | boolean | Fetch full details |
@@ -38,6 +43,9 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~daangn-scraper/run-sync-g
 | `maxPages` | integer | Max pages per query |
 | `proxy` | object | Proxy configuration |
 | `maxResidentialMB` | integer | Residential traffic budget (MB) |
+| `changeScope` | string | Change scope (incremental mode only) |
+| `compactUpdates` | boolean | Compact update rows (incremental mode  |
+| `expireAfterMissedScans` | integer | Expire after missed scans (incremental |
 
 `*` required
 
@@ -85,7 +93,7 @@ Full details on the [scraper page](https://apify.com/abotapi/daangn-scraper?utm_
 | `favoriteCount` | integer |
 | `chatCount` | integer |
 | `viewCount` | integer |
-| `sellerScore` | integer |
+| `sellerScore` | float |
 | `sellerReviewCount` | integer |
 | `sellerProfileUrl` | string |
 | `sellerProfileImage` | string |

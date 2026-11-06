@@ -33,6 +33,11 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~kleinanzeigen-de-scraper/
 | `maxPrice` | integer | Max price () |
 | `offerType` | string | Offer type |
 | `sellerType` | string | Seller type |
+| `zipCodes` | array | Several postal codes / cities (optiona |
+| `minRooms` | number | Min rooms (real estate) |
+| `maxRooms` | number | Max rooms (real estate) |
+| `minArea` | integer | Min living area m² (real estate) |
+| `maxArea` | integer | Max living area m² (real estate) |
 | `sortBy` | string | Sort by |
 | `urls` | array | Search URLs |
 | `maxPages` | integer | Max pages per search |
@@ -63,11 +68,13 @@ Full details on the [scraper page](https://apify.com/abotapi/kleinanzeigen-de-sc
 | `postalCode` | string |
 | `regionName` | string |
 | `cityName` | string |
-| `latitude` | null |
-| `longitude` | null |
+| `latitude` | float |
+| `longitude` | float |
 | `categoryId` | string |
 | `categoryName` | string |
 | `categoryPath` | string |
+| `categoryParentId` | string |
+| `locationId` | string |
 | `postedDate` | string |
 | `postedDateText` | null |
 | `viewCount` | null |
@@ -80,16 +87,14 @@ Full details on the [scraper page](https://apify.com/abotapi/kleinanzeigen-de-sc
 | `isShop` | boolean |
 | `isTopAd` | boolean |
 | `isSold` | boolean |
-| `adType` | string |
-| `tags` | list |
-| `sellerId` | null |
-| `sellerName` | string |
-| `sellerType` | string |
-| `sellerUrl` | null |
-| `sellerActiveSince` | string |
-| `sellerOtherAdsCount` | null |
-| `imprint` | object |
-| `searchUrl` | string |
+| `street` | null |
+| `adStatus` | string |
+| `sellerSatisfaction` | string |
+| `sellerFriendliness` | null |
+| `sellerReliability` | string |
+| `sellerBadges` | list |
+| `rentCold` | null |
+| `purchasePrice` | null |
 
 ---
 

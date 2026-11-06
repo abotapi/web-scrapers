@@ -1,8 +1,8 @@
 [
   {
-    "recordId": "429352743",
+    "recordId": "736920924",
     "rowType": "product",
-    "listingId": "989116216",
+    "listingId": "711188333",
     "url": "https://www.grailed.com/example/62560",
     "title": "Example title",
     "createdAt": "2026-01-15T10:00:00Z",
@@ -12,21 +12,18 @@
       "Example designers"
     ],
     "price": 661,
-    "originalPrice": 603,
-    "askHistory": [
-      950,
-      379
-    ],
+    "originalPrice": null,
+    "askHistory": [],
     "sold": false,
     "soldAt": null,
     "soldPrice": 0,
-    "size": "s",
+    "size": "m",
     "condition": "is_gently_used",
     "conditionLabel": "Example condition label",
     "category": "outerwear",
     "categoryPath": "Example category path",
     "department": "menswear",
-    "color": "purple",
+    "color": "black",
     "location": "Example location",
     "strata": "grailed",
     "styles": [
@@ -44,112 +41,37 @@
         "enabled": true
       },
       "ca": {
-        "amount": 0,
-        "enabled": false
+        "amount": 76,
+        "enabled": true
       },
       "uk": {
-        "amount": 0,
-        "enabled": false
+        "amount": 76,
+        "enabled": true
       },
       "eu": {
-        "amount": 0,
-        "enabled": false
+        "amount": 76,
+        "enabled": true
       },
       "asia": {
-        "amount": 0,
-        "enabled": false
+        "amount": 76,
+        "enabled": true
       },
       "au": {
-        "amount": 0,
+        "amount": 76,
         "enabled": false
       },
       "other": {
-        "amount": 0,
+        "amount": 76,
         "enabled": false
       }
     },
-    "heat": 5070.42,
-    "measurementCount": 5,
+    "heat": 5126.18,
+    "measurementCount": 0,
     "sellerAvatarUrl": "https://media-assets.grailed.com/example/76414.jpg",
-    "followerCount": 20,
+    "followerCount": 2,
     "sellerId": 7673479,
     "sellerUsername": "Example seller username",
     "sellerUrl": "https://www.grailed.com/example/36439",
     "sellerRating": 3
-  },
-  {
-    "recordId": "230449799",
-    "rowType": "product",
-    "listingId": "177056110",
-    "url": "https://www.grailed.com/example/3815",
-    "title": "Example title",
-    "createdAt": "2026-01-15T10:00:00Z",
-    "bumpedAt": "2026-01-15T10:00:00Z",
-    "designer": "Example designer",
-    "designers": [
-      "Example designers"
-    ],
-    "price": 35,
-    "originalPrice": null,
-    "askHistory": [],
-    "sold": false,
-    "soldAt": null,
-    "soldPrice": 0,
-    "size": "l",
-    "condition": "is_used",
-    "conditionLabel": "Used",
-    "category": "outerwear",
-    "categoryPath": "Example category path",
-    "department": "menswear",
-    "color": "black",
-    "location": "Example location",
-    "strata": "basic",
-    "styles": [
-      "vintage"
-    ],
-    "badges": [],
-    "buyNow": true,
-    "makeOffer": true,
-    "photoCount": 6,
-    "coverPhoto": "https://media-assets.grailed.com/example/74443.jpg",
-    "shippingUs": 19.54,
-    "shipping": {
-      "us": {
-        "amount": 18.69,
-        "enabled": true
-      },
-      "ca": {
-        "amount": 50,
-        "enabled": true
-      },
-      "uk": {
-        "amount": 50,
-        "enabled": true
-      },
-      "eu": {
-        "amount": 50,
-        "enabled": true
-      },
-      "asia": {
-        "amount": 50,
-        "enabled": false
-      },
-      "au": {
-        "amount": 50,
-        "enabled": false
-      },
-      "other": {
-        "amount": 50,
-        "enabled": true
-      }
-    },
-    "heat": 4246.33,
-    "measurementCount": 0,
-    "sellerAvatarUrl": "https://media-assets.grailed.com/example/12130.jpg",
-    "followerCount": 29,
-    "sellerId": 211900,
-    "sellerUsername": "Example seller username",
-    "sellerUrl": "https://www.grailed.com/example/58392",
-    "sellerRating": null
   }
 ]

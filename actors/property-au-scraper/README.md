@@ -64,6 +64,8 @@ Full details on the [scraper page](https://apify.com/abotapi/property-au-scraper
 | `listing_type` | string |
 | `listing_status` | string |
 | `property_type` | string |
+| `price` | string |
+| `price_details` | string |
 | `features` | object |
 | `description` | string |
 | `timeline` | list |
@@ -81,10 +83,10 @@ Full details on the [scraper page](https://apify.com/abotapi/property-au-scraper
 | `status` | string |
 | `bedrooms` | integer |
 | `bathrooms` | integer |
-| `landSize` | string |
 | `propertyType` | string |
 | `councilArea` | string |
 | `url` | string |
+| `listedDate` | string |
 | `image` | string |
 | `source_listing` | string |
 | `source_listing_type` | string |

@@ -10,7 +10,7 @@
       "https://product-data.raiadrogasil.io/example/42623.jpg"
     ],
     "currency": "BRL",
-    "price": 5.87,
+    "price": 2.93,
     "packSize": "Example pack size",
     "prescriptionRequired": false,
     "isGenericMedicine": false,
@@ -18,7 +18,7 @@
     "requiresRefrigeration": false,
     "soldBy": "drogasil",
     "categories": [
-      "Medicamentos",
+      "Example categories",
       "Example categories"
     ],
     "categoryPath": "Example category path",
@@ -38,9 +38,13 @@
       }
     ],
     "isSponsored": false,
+    "page": 1,
+    "rank": 9,
+    "searchUrl": "https://www.drogasil.com.br/example/80787",
+    "searchTerm": "dipirona",
     "ean": "5051709898123",
-    "originalPrice": 7.26,
-    "discountPercent": 4.72,
+    "originalPrice": 7.35,
+    "discountPercent": 42.38,
     "onSale": true,
     "multiBuyUnitPrice": null,
     "multiBuyMinQuantity": null,
@@ -49,13 +53,6 @@
     "installments": [],
     "stockQuantity": 2,
     "inStock": true,
-    "breadcrumb": [
-      "Example breadcrumb",
-      "Example breadcrumb"
-    ],
-    "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
-    "shortDescription": "Example short description: mock text standing in for the real value. Same field and type, made-up content.",
-    "longDescription": null,
-    "usageInstructions": "Example usage instructions"
+    "breadcrumb": []
   }
 ]

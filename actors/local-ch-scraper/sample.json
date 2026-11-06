@@ -1,6 +1,6 @@
 [
   {
-    "id": "oysi8pi5xze6dwmxhqq7kg",
+    "id": "9vvyixsqx-l2hhvw-lqkfg",
     "name": "Example name",
     "subtitle": null,
     "language": "de",
@@ -11,22 +11,22 @@
     "professionalTitle": null,
     "address": "Example address",
     "street": "Example street",
-    "zipCode": "6338",
+    "zipCode": "5464",
     "city": "Example city",
     "canton": "ZH",
     "country": "CH",
-    "latitude": 53.54,
-    "longitude": 10.75,
+    "latitude": 53.56,
+    "longitude": 10.71,
     "phone": "+1 555 0100",
     "phoneAlt": null,
     "mobile": null,
     "fax": null,
-    "email": "user15@example.com",
+    "email": null,
     "emailAlt": null,
-    "website": "http://www.thai-food-corner.ch/example/56312",
+    "website": "https://rapido-pizza.ch/example/56312",
     "whatsapp": null,
-    "facebook": "https://www.facebook.com/example/64446",
-    "instagram": null,
+    "facebook": null,
+    "instagram": "https://www.instagram.com/example/95196",
     "linkedin": null,
     "twitter": null,
     "tiktok": null,
@@ -37,13 +37,11 @@
     "phones": [
       "+1 555 0100"
     ],
-    "emails": [
-      "user34@example.com"
-    ],
+    "emails": null,
     "socialMediaUrls": [
-      "https://www.facebook.com/example/56370"
+      "https://www.instagram.com/example/56370"
     ],
-    "refusesAdvertising": false,
+    "refusesAdvertising": true,
     "poBoxZipCode": null,
     "poBoxCity": null
   }

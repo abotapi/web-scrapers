@@ -8,13 +8,14 @@
     "title": "Example title: mock text standing in for the real value. Same field and type, made-up content.",
     "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
     "snippet": null,
-    "workType": "",
+    "workType": null,
+    "benefits": null,
     "employmentType": "FULL_TIME",
     "industry": "Example industry",
     "datePosted": "2026-01-15T10:00:00Z",
     "validThrough": "2026-01-15T10:00:00Z",
     "postedAgo": "Example posted ago",
-    "isPremium": true,
+    "isPremium": false,
     "isTopJob": false,
     "isFreeListing": false,
     "directApply": true,
@@ -38,9 +39,6 @@
     "employerLogoUrl": "https://tjgliveassets.s3.eu-west-1.amazonaws.com/example/52342.jpg",
     "employerProfileUrl": "https://www.totaljobs.com/example/20812",
     "companyEmployees": "46-29",
-    "companyFounded": 9614,
-    "companyIndustries": [
-      "Example company industries"
-    ]
+    "companyFounded": 9614
   }
 ]

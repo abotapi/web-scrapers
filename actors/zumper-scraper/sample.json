@@ -1,6 +1,6 @@
 [
   {
-    "id": "32176018",
+    "id": "48331901",
     "url": "https://www.zumper.com/example/1675",
     "padmapperUrl": "https://www.zumper.com/example/85680",
     "title": "Example title",
@@ -12,11 +12,11 @@
     "city": "Example city",
     "state": "CA",
     "zipcode": "62051",
-    "neighborhood": "Example neighborhood",
+    "neighborhood": "SOMA",
     "latitude": 33.63,
-    "longitude": -104.03,
+    "longitude": -104.04,
     "minPrice": 5640,
-    "maxPrice": 2787,
+    "maxPrice": 20787,
     "previousPrice": null,
     "currency": "USD",
     "minBedrooms": 0,
@@ -25,9 +25,9 @@
     "maxBathrooms": 7,
     "minSquareFeet": 800,
     "maxSquareFeet": 1117,
-    "floorplanCount": 4,
+    "floorplanCount": 31,
     "dateAvailable": null,
-    "minLeaseDays": null,
+    "minLeaseDays": 49,
     "maxLeaseDays": null,
     "listedOn": "2026-01-15T10:00:00Z",
     "modifiedOn": "2026-01-15T10:00:00Z",
@@ -35,7 +35,7 @@
     "yearRemodeled": null,
     "floors": null,
     "unitAmenities": [
-      "Example unit amenities",
+      "Garden",
       "Example unit amenities"
     ],
     "buildingAmenities": [

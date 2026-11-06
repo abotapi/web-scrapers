@@ -57,6 +57,7 @@ Full details on the [scraper page](https://apify.com/abotapi/repvue-scraper?utm_
 | `id` | integer |
 | `active_jobs_count` | integer |
 | `aged` | boolean |
+| `ai_job_board` | boolean |
 | `average_rating` | string |
 | `benefits_active` | boolean |
 | `careers_url` | string |
@@ -92,7 +93,6 @@ Full details on the [scraper page](https://apify.com/abotapi/repvue-scraper?utm_
 | `url` | string |
 | `repvueScore` | null |
 | `averageRating` | float |
-| `sizeLabel` | string |
 
 ---
 

@@ -1,26 +1,26 @@
 [
   {
-    "productId": "86431121",
-    "goodsId": 27623565,
-    "goodsCode": "16231127",
+    "productId": "655081507",
+    "goodsId": 747623565,
+    "goodsCode": "374646596",
     "goodsDetailId": 837397635,
     "name": "Example name",
     "url": "https://zozo.jp/example/58712",
     "category": "Example category",
     "store": "ZOZOTOWN",
     "brandId": 24302,
-    "brand": "junoah",
+    "brand": "Louere",
     "brandNameJp": "Example brand name jp",
     "shopId": 9129,
     "shopName": "Example shop name",
     "shopNameJp": null,
     "shopSlug": "junoah",
     "price": 2837,
-    "originalPrice": null,
-    "discountPercent": null,
+    "originalPrice": 2368,
+    "discountPercent": 73,
     "currency": "JPY",
-    "isOnSale": false,
-    "isTimeSale": false,
+    "isOnSale": true,
+    "isTimeSale": true,
     "isSoldOut": false,
     "isPromoted": true,
     "colorId": 7,
@@ -31,11 +31,16 @@
         "colorId": 7,
         "colorName": "Example color name",
         "imageUrl": "https://c.imgz.jp/example/66228.jpg"
+      },
+      {
+        "colorId": 497,
+        "colorName": "Example color name",
+        "imageUrl": "https://c.imgz.jp/example/14826.jpg"
       }
     ],
     "image": "https://c.imgz.jp/example/29395.jpg",
     "thumbnail": "https://c.imgz.jp/example/31448.jpg",
     "hasMultipleSizes": false,
-    "hasCoupon": true
+    "hasCoupon": false
   }
 ]

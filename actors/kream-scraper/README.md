@@ -72,7 +72,7 @@ Full details on the [scraper page](https://apify.com/abotapi/kream-scraper?utm_s
 | `lastSalePrice` | integer |
 | `totalSales` | integer |
 | `changeValue` | integer |
-| `changePercentage` | float |
+| `changePercentage` | integer |
 | `premium` | integer |
 | `premiumPercentage` | float |
 | `hasImmediateDelivery` | boolean |

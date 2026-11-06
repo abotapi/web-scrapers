@@ -1,8 +1,8 @@
-# HH.ru Jobs Scraper
+# HH.ru Scraper
 
-Scrape HH.ru job listings with 50+ structured fields. Search by filters or URLs and extract salary, experience, schedule, employment type, and role. Detail enrichment adds full descriptions, key skills, contact information, and employer logos.
+Scrape HH.ru (HeadHunter) job listings by filters or URLs. Extract 50+ fields including salaries, experience, schedules, employment types and job roles. Optional enrichment adds full descriptions, required skills, contact details and employer logos.
 
-**[Open HH.ru Jobs Scraper on Apify](https://apify.com/abotapi/hh-ru-jobs-scraper?utm_source=github&utm_medium=web-scrapers&utm_campaign=monorepo)** to run it without code and export JSON, CSV or Excel.
+**[Open HH.ru Scraper on Apify](https://apify.com/abotapi/hh-ru-jobs-scraper?utm_source=github&utm_medium=web-scrapers&utm_campaign=monorepo)** to run it without code and export JSON, CSV or Excel.
 
 ## Run it from code
 
@@ -63,12 +63,12 @@ Full details on the [scraper page](https://apify.com/abotapi/hh-ru-jobs-scraper?
 | `searchUrl` | string |
 | `searchSessionId` | string |
 | `company` | object |
-| `salaryFrom` | null |
+| `salaryFrom` | integer |
 | `salaryTo` | null |
-| `salaryCurrency` | null |
-| `salaryGross` | null |
-| `salaryMode` | null |
-| `salaryFrequency` | null |
+| `salaryCurrency` | string |
+| `salaryGross` | boolean |
+| `salaryMode` | string |
+| `salaryFrequency` | string |
 | `compensation` | object |
 | `area` | object |
 | `address` | object |

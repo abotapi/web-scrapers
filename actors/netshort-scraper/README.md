@@ -64,10 +64,10 @@ Full details on the [scraper page](https://apify.com/abotapi/netshort-scraper?ut
 | `releaseDate` | null |
 | `mode` | string |
 | `extractionPath` | string |
-| `likesDisplay` | null |
-| `followsDisplay` | null |
-| `likes` | null |
-| `follows` | null |
+| `likesDisplay` | string |
+| `followsDisplay` | string |
+| `likes` | integer |
+| `follows` | integer |
 | `detailFetched` | boolean |
 | `reviews` | list |
 | `reviewsFetched` | boolean |

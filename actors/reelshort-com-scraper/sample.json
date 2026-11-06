@@ -3,7 +3,7 @@
     "recordType": "title",
     "id": "id21445681",
     "bookId": "id32611825",
-    "transportId": "877935531291243621",
+    "transportId": "060333789193309856",
     "chapterId": "id68839423",
     "title": "Example title",
     "url": "https://www.reelshort.com/example/67234",
@@ -16,15 +16,15 @@
     "tags": [
       {
         "name": "Example name",
-        "category": "7704"
+        "category": "1428"
       },
       {
         "name": "Example name",
-        "category": "9184"
+        "category": "9807"
       }
     ],
     "chapterCount": 82,
-    "collectCount": 3830,
+    "collectCount": 75830,
     "collectCountDisplay": "Example collect count display",
     "language": "en",
     "bookType": 7,
@@ -32,14 +32,14 @@
     "extractionPath": "Example extraction path",
     "readCount": 343216,
     "readCountDisplay": "Example read count display",
-    "paidStart": 2,
+    "paidStart": 83,
     "screenMode": 6,
     "hasTrailer": 0,
     "shelf": "Example shelf",
     "shelfRank": null,
     "resultsReturned": 4,
     "chapterDescription": "Example chapter description: mock text standing in for the real value. Same field and type, made-up content.",
-    "durationSec": 25,
+    "durationSec": 205,
     "hasDub": false,
     "firstChapterId": "id59608003",
     "firstSerialNumber": 9,

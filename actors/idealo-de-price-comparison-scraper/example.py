@@ -14,10 +14,10 @@ run = client.actor("abotapi/idealo-de-price-comparison-scraper").call(
     run_input={
         "mode": "url",
         "searchQuery": "iphone 15",
-        "urls": ["https://www.idealo.de/preisvergleich/ProductCategory/5292.html"],
+        "urls": ["https://www.idealo.de/preisvergleich/ProductCategory/5292.html", "https://www.idealo.de/preisvergleich/MainSearchProductCategory.html?q=iphone+15", "https://www.idealo.de/preisvergleich/ProductCategory/5292F1421457.html", "https://www.idealo.de/preisvergleich/ProductCategory/5292I16-15.html", "https://www.idealo.de/preisvergleich/OffersOfProduct/201663874_-g-shock-gbd-200-casio.html"],
         "maxItems": 10,
         "maxPages": 1,
-        "proxyConfiguration": {"useApifyProxy": True, "apifyProxyGroups": ["RESIDENTIAL"], "apifyProxyCountry": "DE"},
+        "proxyConfiguration": {"useApifyProxy": True, "apifyProxyCountry": "DE"},
     },
     logger=None,  # don't stream the run log to your console
 )

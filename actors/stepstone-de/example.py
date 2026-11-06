@@ -23,6 +23,7 @@ run = client.actor("abotapi/stepstone-de").call(
         "applyMethod": "any",
         "sortBy": "relevance",
         "maxListings": 10,
+        "maxItems": 10,
         "maxPages": 1,
         "proxy": {"useApifyProxy": True, "apifyProxyGroups": ["RESIDENTIAL"], "apifyProxyCountry": "DE"},
     },

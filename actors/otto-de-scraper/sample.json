@@ -1,38 +1,38 @@
 [
   {
-    "productId": "s0bap46r",
-    "variationId": "s0bap70rhhvb",
-    "articleNumber": "s8bap96rbz0",
+    "productId": "s8egh9ev",
+    "variationId": "s5egh6evebc6",
+    "articleNumber": "s3egh8evgyf",
     "name": "Example name: mock text standing in for the real value. Same field and type, made-up content.",
-    "brand": "id88089300",
+    "brand": "thematys",
     "url": "https://www.otto.de/example/92532",
     "image": "https://i.otto.de/example/68309.jpg",
     "images": [
       "https://i.otto.de/example/38997.jpg",
       "https://i.otto.de/example/27128.jpg"
     ],
-    "price": 338,
+    "price": 5738,
     "currency": "EUR",
-    "originalPrice": 947,
+    "originalPrice": 6347,
     "discountPercent": 54,
     "isOnSpecial": true,
     "promoLabel": "Example promo label",
     "availability": "AVAILABLE",
     "availabilityText": "Example availability text",
-    "rating": 5,
-    "reviewCount": 409,
+    "rating": 4.54,
+    "reviewCount": 49,
     "variants": [
       {
-        "variationId": "s3bap66rfm0t",
+        "variationId": "s2egh4evgnv2",
         "color": "Example color",
-        "hexCode": "9e7d8b",
+        "hexCode": "738129",
         "selected": false
       },
       {
-        "variationId": "s5bap50rhhvb",
+        "variationId": "s6egh4evughc",
         "color": "Example color",
-        "hexCode": "c5b6ab",
-        "selected": true
+        "hexCode": "753720",
+        "selected": false
       }
     ],
     "category": null,
@@ -45,8 +45,8 @@
     "breadcrumb": null,
     "returnPolicy": null,
     "reviews": {
-      "averageRating": 9,
-      "reviewCount": 409,
+      "averageRating": 3.24,
+      "reviewCount": 49,
       "items": [
         {
           "reviewId": "id19181106",
@@ -67,8 +67,8 @@
     "link": "https://www.otto.de/example/1439",
     "priceCurrency": "EUR",
     "aggregateRating": {
-      "ratingValue": 6,
-      "reviewCount": 409
+      "ratingValue": 5.67,
+      "reviewCount": 49
     }
   }
 ]

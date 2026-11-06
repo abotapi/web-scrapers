@@ -71,10 +71,10 @@ Full details on the [scraper page](https://apify.com/abotapi/seloger-france-scra
 | `zipcode` | string |
 | `district` | string |
 | `region` | string |
+| `building_state` | string |
 | `key_facts` | list |
 | `agency_legal_info` | list |
 | `agency_website` | string |
-| `agency_fee_url` | string |
 | `country` | string |
 | `transport` | list |
 | `energy_class` | string |
@@ -82,7 +82,6 @@ Full details on the [scraper page](https://apify.com/abotapi/seloger-france-scra
 | `agent_phone` | string |
 | `agent_address` | string |
 | `is_exclusive` | boolean |
-| `has_3d_visit` | boolean |
 | `is_new` | boolean |
 | `publisher_type` | string |
 | `images` | list |
@@ -91,6 +90,7 @@ Full details on the [scraper page](https://apify.com/abotapi/seloger-france-scra
 | `portal` | string |
 | `created_at` | string |
 | `updated_at` | string |
+| `source` | string |
 
 ---
 

@@ -72,6 +72,14 @@ Full details on the [scraper page](https://apify.com/abotapi/betalist-com-scrape
 | `logo_url` | string |
 | `regions` | list |
 | `similar_startups` | list |
+| `makers` | list |
+| `product_name` | string |
+| `long_description` | string |
+| `website` | string |
+| `featured_date` | string |
+| `maker_name` | string |
+| `maker_link` | string |
+| `maker_identifier` | string |
 | `contacts` | null |
 | `contacts_lookup_url` | string |
 | `source` | object |

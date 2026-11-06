@@ -6,7 +6,7 @@
     "address": "Example address",
     "categories": [
       "Plumbers",
-      "Example categories"
+      "Drainage"
     ],
     "rating": 1,
     "reviewCount": 9,
@@ -40,8 +40,8 @@
     "slogan": "Example slogan: mock text standing in for the real value. Same field and type, made-up content.",
     "associations": "Example associations: mock text standing in for the real value. Same field and type, made-up content.",
     "generalInfo": "Example general info: mock text standing in for the real value. Same field and type, made-up content.",
-    "searchTerms": "Example search terms",
-    "searchLocation": "Example search location",
+    "searchTerms": "plumbers",
+    "searchLocation": "auckland",
     "businessId": "874513411",
     "listingUrl": "https://yellow.co.nz/example/96707",
     "category": "Plumbers",
@@ -55,54 +55,7 @@
       "user31@example.com"
     ],
     "emailSource": "Example email source",
-    "searchQuery": "Example search query",
-    "source": "yellow.co.nz",
-    "observedAt": "2026-01-15T10:00:00Z"
-  },
-  {
-    "name": "Example name",
-    "detailUrl": "https://yellow.co.nz/example/8066",
-    "phone": "+1 555 0100",
-    "address": "Example address",
-    "categories": [
-      "Plumbers"
-    ],
-    "website": "https://hibiscuswater.co.nz/example/47719",
-    "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
-    "email": "user90@example.com",
-    "fullAddress": {
-      "street": "Example street",
-      "locality": "Example locality",
-      "region": "AUK",
-      "postalCode": "3296",
-      "country": "NZ"
-    },
-    "latitude": -35.9,
-    "longitude": 206.19,
-    "openingHours": [
-      "Example opening hours",
-      "Example opening hours"
-    ],
-    "paymentAccepted": "Example payment accepted",
-    "imageUrl": "https://i1.ypcdn.com/example/49075.jpg",
-    "generalInfo": "Example general info: mock text standing in for the real value. Same field and type, made-up content.",
-    "searchTerms": "Example search terms",
-    "searchLocation": "Example search location",
-    "businessId": "971193977",
-    "listingUrl": "https://yellow.co.nz/example/62162",
-    "category": "Plumbers",
-    "street": "Example street",
-    "city": "Whangaparaoa",
-    "region": "AUK",
-    "postalCode": "3296",
-    "country": "NZ",
-    "addressText": "Example address text",
-    "suburb": "Example suburb",
-    "allEmails": [
-      "user81@example.com"
-    ],
-    "emailSource": "Example email source",
-    "searchQuery": "Example search query",
+    "searchQuery": "plumbers",
     "source": "yellow.co.nz",
     "observedAt": "2026-01-15T10:00:00Z"
   }

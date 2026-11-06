@@ -81,18 +81,18 @@ Full details on the [scraper page](https://apify.com/abotapi/drom-auto-listings-
 | `hasDealerName` | boolean |
 | `subtitle` | string |
 | `attributes` | list |
-| `promotionStatus` | integer |
 | `date` | string |
 | `location` | string |
 | `carState` | list |
 | `region` | string |
 | `category` | string |
-| `engineVolume` | integer |
+| `engineVolume` | float |
 | `powerHp` | integer |
 | `photos` | list |
 | `photoCount` | integer |
 | `imageUrl` | string |
 | `recordType` | string |
+| `mode` | string |
 
 ---
 

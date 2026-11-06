@@ -60,32 +60,6 @@
             "text": "Example text: mock text standing in for the real value. Same field and type, made-up content."
           }
         ]
-      },
-      {
-        "authorName": "Example author name",
-        "authorLevel": "Example author level",
-        "rating": 8,
-        "text": "Example text: mock text standing in for the real value. Same field and type, made-up content.",
-        "date": "2026-01-15T10:00:00Z",
-        "reviewId": "aq-nrnfvamo6j-2fdoixk_bbrtosferh",
-        "authorId": "id7418779",
-        "authorAvatarUrl": "https://avatars.mds.yandex.net/example/59198.jpg",
-        "authorProfileUrl": "https://yandex.com/example/20716",
-        "textLanguage": "ru",
-        "likeCount": 7,
-        "dislikeCount": 0,
-        "isPinned": false,
-        "textLanguageName": "Example text language name",
-        "textTranslations": [
-          {
-            "language": "en",
-            "text": "Example text: mock text standing in for the real value. Same field and type, made-up content."
-          },
-          {
-            "language": "tr",
-            "text": "Example text: mock text standing in for the real value. Same field and type, made-up content."
-          }
-        ]
       }
     ],
     "location": {
@@ -104,7 +78,7 @@
     "timezoneOffset": -13942,
     "latitude": 41.53,
     "longitude": -80.67,
-    "isOpenNow": false,
+    "isOpenNow": true,
     "isVerifiedOwner": false,
     "socialLinks": [
       {
@@ -246,31 +220,6 @@
             "showReactions": true
           }
         ]
-      },
-      {
-        "authorName": "Example author name",
-        "authorLevel": "Example author level",
-        "rating": 9,
-        "text": "Example text: mock text standing in for the real value. Same field and type, made-up content.",
-        "date": "2026-01-15T10:00:00Z",
-        "reviewId": "trcxcclutnnv8_5uigaazww6bpw5l00xp",
-        "authorId": "id93635413",
-        "authorProfileUrl": "https://yandex.com/example/41924",
-        "textLanguage": "ru",
-        "likeCount": 9,
-        "dislikeCount": 0,
-        "isPinned": false,
-        "textLanguageName": "Example text language name",
-        "textTranslations": [
-          {
-            "language": "en",
-            "text": "Example text: mock text standing in for the real value. Same field and type, made-up content."
-          },
-          {
-            "language": "tr",
-            "text": "Example text: mock text standing in for the real value. Same field and type, made-up content."
-          }
-        ]
       }
     ],
     "location": {
@@ -289,7 +238,7 @@
     "timezoneOffset": -31044,
     "latitude": 41.92,
     "longitude": -67.33,
-    "isOpenNow": false,
+    "isOpenNow": true,
     "isVerifiedOwner": false,
     "socialLinks": [
       {

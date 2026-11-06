@@ -2,7 +2,9 @@
   {
     "rowType": "job",
     "jobId": "id1652941",
-    "jobSlug": "id56128707",
+    "jobSlug": "Example job slug",
+    "guid": "https://weworkremotely.com/example/17682",
+    "source": "Example source",
     "rawTitle": "Example raw title",
     "title": "Example title",
     "companyName": "Example company name",
@@ -14,8 +16,8 @@
     "externalApplyUrl": null,
     "applyUrlIsExternal": false,
     "applyUrlDomain": "Example apply url domain",
-    "companyWebsiteUrl": "https://lemon.io/example/21375",
-    "companyWebsiteDomain": "lemon.io",
+    "companyWebsiteUrl": "https://www.askablelabs.com/example/21375",
+    "companyWebsiteDomain": "askablelabs.com",
     "companyLogoUrl": "https://wwr-pro.s3.amazonaws.com/example/69572.jpg",
     "headquarters": "Example headquarters",
     "locationText": "Example location text",
@@ -28,6 +30,9 @@
     "jobType": null,
     "employmentType": null,
     "category": "Example category",
+    "categories": [
+      "Example categories"
+    ],
     "categorySlug": "Example category slug",
     "skills": [],
     "skillsRaw": null,
@@ -41,10 +46,7 @@
       "Example tags",
       "python"
     ],
-    "seniorityLevel": "Senior",
-    "postedAt": "2026-01-15T10:00:00Z",
-    "postedAtText": "Example posted at text",
-    "postedAgeDays": 25,
-    "expiresAt": null
+    "seniorityLevel": null,
+    "postedAt": "2026-01-15T10:00:00Z"
   }
 ]

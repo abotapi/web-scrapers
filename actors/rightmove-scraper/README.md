@@ -1,8 +1,8 @@
-# Rightmove Scraper
+# Rightmove UK Scraper
 
-Fast, reliable Rightmove.co.uk scraper for sale, rent, and sold-price listings. Search by location or direct URL and extract 80+ structured fields per property.
+Fast, reliable Rightmove.co.uk scraper for UK properties for sale, rent and sold-price records. Search by location or property URL and extract 80+ structured fields per listing. Ideal for property research, price comparisons, rental analysis and real estate market intelligence.
 
-**[Open Rightmove Scraper on Apify](https://apify.com/abotapi/rightmove-scraper?utm_source=github&utm_medium=web-scrapers&utm_campaign=monorepo)** to run it without code and export JSON, CSV or Excel.
+**[Open Rightmove UK Scraper on Apify](https://apify.com/abotapi/rightmove-scraper?utm_source=github&utm_medium=web-scrapers&utm_campaign=monorepo)** to run it without code and export JSON, CSV or Excel.
 
 ## Run it from code
 
@@ -34,15 +34,20 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~rightmove-scraper/run-syn
 | `propertyTypes` | array | Property types |
 | `radius` | string | Search radius (miles) |
 | `sortType` | string | Sort order |
+| `furnished` | string | Furnished (rent / student) |
+| `maxDaysSinceAdded` | string | Added within (days) |
+| `search` | string | Search (alias of Locations) |
+| `endPage` | integer | End page (alias of Max pages) |
+| `sort` | string | Sort (alias of Sort order) |
 | `includeLetAgreed` | boolean | Include Let Agreed (RENT) |
 | `includeSSTC` | boolean | Include SSTC / Under Offer (BUY) |
 | `startUrls` | array | Start URLs |
 | `maxItems` | integer | Max items |
 | `maxPages` | integer | Max pages per search |
 | `includeDetails` | boolean | Scrape full property details |
-| `monitoringMode` | boolean | Monitoring mode (new only) |
 | `proxyConfiguration` | object | Proxy configuration |
 | `proxyCountry` | string | Proxy country |
+| `monitoringMode` | boolean | Monitoring mode (new only) |
 
 `*` required
 

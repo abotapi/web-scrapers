@@ -1,20 +1,20 @@
 [
   {
     "id": "Example id",
-    "itemId": "06587109187",
-    "shopId": "8874314322",
+    "itemId": "43731861491",
+    "shopId": "1231429626",
     "name": "Example name",
-    "translatedName": "Example translated name",
+    "translatedName": "Example translated name: mock text standing in for the real value. Same field and type, made-up content.",
     "url": "https://shopeekh.com/example/44372",
     "price": 25051,
     "originalPrice": 42499,
-    "discountPercent": 62,
+    "discountPercent": 0,
     "currency": "KHR",
-    "rating": 4.68,
+    "rating": 4.67,
     "ratingCount": 297,
     "ratingDistribution": [
       602,
-      0
+      4
     ],
     "images": [
       "https://down-kh.img.susercontent.com/example/33654.jpg",
@@ -27,22 +27,44 @@
           "Example options",
           "Example options"
         ],
-        "images": null,
-        "properties": null,
-        "type": 0
-      },
-      {
-        "name": "Example name",
-        "options": [
-          "Example options",
-          "Example options"
+        "images": [
+          "id9333654",
+          "id42923170"
         ],
-        "images": null,
         "properties": null,
         "type": 0
       }
     ],
-    "videos": null,
+    "videos": [
+      {
+        "video_id": "Example video_id: mock text standing in for the real value. Same field and type, made-up content.",
+        "thumb_url": "id67143737",
+        "duration": 60,
+        "version": 6,
+        "vid": "id63479414",
+        "formats": [
+          {
+            "format": 7425930,
+            "defn": "V720P",
+            "profile": "MP4",
+            "path": "Example path: mock text standing in for the real value. Same field and type, made-up content.",
+            "url": "https://down-ws-kh.vod.susercontent.com/example/44372",
+            "width": 432,
+            "height": 9151
+          }
+        ],
+        "default_format": {
+          "format": 7425930,
+          "defn": "V540P",
+          "profile": "MP4",
+          "path": null,
+          "url": "https://mms.vod.susercontent.com/example/44372",
+          "width": 432,
+          "height": 151
+        },
+        "mms_data": "Example mms_data: mock text standing in for the real value. Same field and type, made-up content."
+      }
+    ],
     "shop": {
       "shop_name": "Example shop_name",
       "shop_icon": null,
@@ -54,7 +76,7 @@
     ],
     "brand": null,
     "inStock": true,
-    "likes": 44,
+    "likes": 0,
     "isVerifiedSeller": false,
     "collectionId": "83941399",
     "collectionName": null,
@@ -72,11 +94,11 @@
       "item_card_display_price": {
         "item_id": 87787181608,
         "model_id": 727846309111,
-        "promotion_type": 305,
-        "promotion_id": 268638093584494,
+        "promotion_type": 0,
+        "promotion_id": 0,
         "price": 2476195051,
-        "strikethrough_price": 9027905465,
-        "discount": 64,
+        "strikethrough_price": null,
+        "discount": 0,
         "discount_text": null,
         "hidden_price_display_text": null,
         "recommended_shop_voucher_promotion_id": null,
@@ -91,12 +113,12 @@
       "is_sold_out": false,
       "is_preview": false,
       "label_ids": [
-        124356759045055,
-        7307561
+        6045055,
+        205307561
       ],
       "catid": 567927,
       "shopee_verified": false,
-      "liked_count": 80,
+      "liked_count": 0,
       "item_type": 0,
       "reference_item_id": null,
       "shop_data": {
@@ -116,17 +138,49 @@
       },
       "overlay_images": null,
       "item_rating": {
-        "rating_star": 6.31,
+        "rating_star": 6.3,
         "rating_count": [
           748,
-          0
+          6
         ],
         "rcount_with_context": null,
         "rcount_with_image": null
       },
-      "global_brand": null,
+      "global_brand": {
+        "brand_id": 5687550,
+        "display_name": null
+      },
       "platform_voucher": null,
-      "video_info_list": null,
+      "video_info_list": [
+        {
+          "video_id": "Example video_id: mock text standing in for the real value. Same field and type, made-up content.",
+          "thumb_url": "id67143737",
+          "duration": 60,
+          "version": 6,
+          "vid": "id63479414",
+          "formats": [
+            {
+              "format": 7425930,
+              "defn": "V720P",
+              "profile": "MP4",
+              "path": "Example path: mock text standing in for the real value. Same field and type, made-up content.",
+              "url": "https://down-ws-kh.vod.susercontent.com/example/44372",
+              "width": 432,
+              "height": 9151
+            }
+          ],
+          "default_format": {
+            "format": 7425930,
+            "defn": "V540P",
+            "profile": "MP4",
+            "path": null,
+            "url": "https://mms.vod.susercontent.com/example/44372",
+            "width": 432,
+            "height": 151
+          },
+          "mms_data": "Example mms_data: mock text standing in for the real value. Same field and type, made-up content."
+        }
+      ],
       "tier_variations": [
         {
           "name": "Example name",
@@ -134,17 +188,10 @@
             "Example options",
             "Example options"
           ],
-          "images": null,
-          "properties": null,
-          "type": 0
-        },
-        {
-          "name": "Example name",
-          "options": [
-            "Example options",
-            "Example options"
+          "images": [
+            "id9333654",
+            "id42923170"
           ],
-          "images": null,
           "properties": null,
           "type": 0
         }
@@ -173,7 +220,7 @@
         "enable_age_gate_label": false
       },
       "icon_in_image": {
-        "icon_type": null,
+        "icon_type": 1,
         "ads_text": "Example ads_text"
       },
       "image_overlay": {
@@ -190,11 +237,7 @@
       "seller_flag": null,
       "promotion_label_list": null,
       "icon_in_price": null,
-      "discount_tag": {
-        "discount_text": "Example discount_text",
-        "discount_badge_image": null,
-        "background_color": null
-      },
+      "discount_tag": null,
       "voucher_applied_icon": null,
       "rating": null,
       "sold_count": null,
@@ -216,7 +259,7 @@
       },
       "cta_button": null,
       "card_header": null,
-      "name_tr": "Example name_tr",
+      "name_tr": "Example name_tr: mock text standing in for the real value. Same field and type, made-up content.",
       "shop_location_tr": null,
       "brand_info": null,
       "in_title_image_flags": null,
@@ -226,19 +269,12 @@
       "final_price_icon": null
     },
     "priceMax": 46152,
-    "isOnSale": true,
+    "isOnSale": false,
     "historicalSoldEstimated": null,
     "shopName": "Example shop name",
     "location": "Example location",
     "hasVariations": true,
     "variationOptions": [
-      {
-        "name": "Example name",
-        "options": [
-          "Example options",
-          "Example options"
-        ]
-      },
       {
         "name": "Example name",
         "options": [

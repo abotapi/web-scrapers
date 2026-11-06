@@ -16,7 +16,7 @@
     "reviewSummary": "Example review summary: mock text standing in for the real value. Same field and type, made-up content.",
     "salesSummary": {
       "medianLeasedPrice": null,
-      "medianSoldDaysOnSite": 30,
+      "medianSoldDaysOnSite": 31.95,
       "medianSoldPrice": 9582403,
       "sumLeasedProperties": 0,
       "sumSoldProperties": 13,
@@ -25,7 +25,7 @@
     },
     "recentListings": [
       {
-        "id": "039760585",
+        "id": "709270598",
         "url": "https://www.realestate.com.au/example/68184",
         "status": "Sold",
         "address": {
@@ -42,7 +42,7 @@
         "dateSold": "2026-01-15"
       },
       {
-        "id": "496988613",
+        "id": "500242507",
         "url": "https://www.realestate.com.au/example/83466",
         "status": "Sold",
         "address": {
@@ -129,10 +129,10 @@
       "title": "Example title"
     },
     "currentListings": {
-      "forSale": 32,
+      "forSale": 5,
       "forRent": 0,
       "sold": 11,
-      "total": 49
+      "total": 4
     },
     "currentForSaleListings": [
       {

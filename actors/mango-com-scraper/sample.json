@@ -1,11 +1,11 @@
 [
   {
-    "productId": "49061692",
+    "productId": "27973221",
     "name": "Example name",
     "brand": "Mango",
     "section": "Example section",
     "collection": "oi1858",
-    "model": "XOSAKA",
+    "model": "XOSAKALY",
     "category": "Example category",
     "families": [
       {
@@ -20,7 +20,7 @@
       {
         "id": "97",
         "label": "Example label",
-        "rgb": "75,90,99",
+        "rgb": "4,6,9",
         "sizes": [
           {
             "id": "55",
@@ -81,7 +81,7 @@
       "https://media.mango.com/example/71417.jpg"
     ],
     "details": {
-      "productId": "49061692",
+      "productId": "27973221",
       "colorId": "34",
       "discountPercent": null,
       "gender": "Women",

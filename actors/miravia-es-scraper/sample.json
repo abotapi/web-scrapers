@@ -2,13 +2,13 @@
   {
     "recordId": "Example record id",
     "rowType": "product",
-    "productId": "4035363097911166",
-    "skuId": "3739389054271395",
+    "productId": "1004883899902959",
+    "skuId": "2529199864781926",
     "url": "https://www.miravia.es/example/53762",
     "title": "Example title: mock text standing in for the real value. Same field and type, made-up content.",
-    "brand": "LEGO",
-    "brandId": "23467244015",
-    "price": 41.99,
+    "brand": "Colorbaby",
+    "brandId": "94192185776",
+    "price": 12.91,
     "priceText": "Example price text",
     "originalPrice": null,
     "originalPriceText": "",
@@ -17,26 +17,26 @@
     "discountTag": null,
     "currency": "EUR",
     "imageUrl": "https://img.mrvcdn.com/example/33308.jpg",
-    "sellerId": "5236233133314",
+    "sellerId": "5331308506273",
     "sellerName": "Example seller name",
-    "officialStore": true,
-    "rating": 0,
-    "reviewCount": null,
+    "officialStore": false,
+    "rating": 4,
+    "reviewCount": 3,
     "soldCount": null,
     "soldText": null,
     "inStock": true,
     "isSponsored": false,
     "promotionTags": [
-      "Example promotion tags",
+      "Publi",
       "Example promotion tags"
     ],
     "promotionTagCodes": [
-      "campaign_tag",
+      "Example promotion tag codes",
       "Example promotion tag codes"
     ],
     "categoryIds": [
       "16594764",
-      "78285590"
+      "65384920"
     ],
     "scrapedAt": "2026-01-15T10:00:00Z"
   }

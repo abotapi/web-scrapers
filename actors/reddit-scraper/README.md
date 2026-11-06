@@ -1,6 +1,6 @@
 # Reddit Scraper
 
-Scrape Reddit posts, comments, and media from any subreddit or user profile — no login or API keys required. Search by keyword, sort by hot/new/top/rising, and optionally pull full comment threads and media URLs. Fast and resource-efficient.
+Scrape Reddit posts, comments and media from any subreddit or user profile. Search by keyword, sort by hot, new, top or rising, and optionally extract full comment threads and media URLs. Fast, resource-efficient and requires no login or API keys.
 
 **[Open Reddit Scraper on Apify](https://apify.com/abotapi/reddit-scraper?utm_source=github&utm_medium=web-scrapers&utm_campaign=monorepo)** to run it without code and export JSON, CSV or Excel.
 

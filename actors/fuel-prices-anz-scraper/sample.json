@@ -20,13 +20,13 @@
         "relevant": true
       },
       "PremDSL": {
-        "price": 324.2,
+        "price": 316.29,
         "updatedAt": 7189868241045,
         "reportedBy": "Example reported by",
         "relevant": true
       },
       "U91": {
-        "price": 258.66,
+        "price": 255.83,
         "updatedAt": 7189868241045,
         "reportedBy": "Example reported by",
         "relevant": true
@@ -69,7 +69,7 @@
     "postalCode": "1332",
     "latitude": -37.98,
     "longitude": 184.43,
-    "u91Price": 222.03,
+    "u91Price": 219.61,
     "e10Price": null,
     "u95Price": 190.85,
     "u98Price": null,

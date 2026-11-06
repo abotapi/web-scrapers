@@ -1,6 +1,6 @@
 [
   {
-    "placeId": "chijh0tl4lrywokrzzrdicl7jxy",
+    "placeId": "chijr5so-lrywokrx8xeja1rcha",
     "title": "Example title",
     "url": "https://www.google.com/example/42345",
     "scrapedAt": "2026-01-15T10:00:00Z",
@@ -12,8 +12,8 @@
     "postalCode": "75931",
     "countryCode": "US",
     "phone": "+1 555 0100",
-    "website": "https://www.bubbagump.com/example/16368",
-    "totalScore": 4.21,
+    "website": "https://carminesnyc.com/example/16368",
+    "totalScore": 4.41,
     "reviewsCount": 88737,
     "plusCode": "Example plus code",
     "imageUrls": [
@@ -32,21 +32,10 @@
     ],
     "searchString": "restaurants",
     "rank": 8,
-    "isAdvertisement": true,
-    "reviews": [
-      {
-        "rating": 9,
-        "reviewerName": "Example reviewer name",
-        "text": "Example text: mock text standing in for the real value. Same field and type, made-up content.",
-        "publishedAtDate": "2026-01-15T10:00:00Z",
-        "isLocalGuide": false,
-        "responseFromOwnerText": "Example response from owner text: mock text standing in for the real value. Same field and type, made-up content.",
-        "reviewId": "ci3dqulrqunvzenodhljrjlvt6tvmlluqkvimmxozvvka6v8aznvwfp1ykrkefyzyxab"
-      }
-    ]
+    "isAdvertisement": false
   },
   {
-    "placeId": "chijh8r-a6pzwokrscebiccx8p0",
+    "placeId": "chijt_hatrrbwokrefghs3pnzwq",
     "title": "Example title",
     "url": "https://www.google.com/example/14370",
     "scrapedAt": "2026-01-15T10:00:00Z",
@@ -55,12 +44,13 @@
     "street": "Example street",
     "city": "Example city",
     "state": "NY",
-    "postalCode": "33878",
+    "postalCode": "48584",
     "countryCode": "US",
     "phone": "+1 555 0100",
-    "website": "https://amphorarestaurant.com/example/27988",
-    "totalScore": 2,
-    "reviewsCount": 53,
+    "website": "https://www.auchevaldiner.com/example/27988",
+    "totalScore": 4.18,
+    "reviewsCount": 9233,
+    "plusCode": "Example plus code",
     "imageUrls": [
       "https://lh3.googleusercontent.com/example/88529.jpg",
       "https://lh3.googleusercontent.com/example/19356.jpg"
@@ -75,18 +65,14 @@
         "hours": "Example hours"
       }
     ],
+    "orderLinks": [
+      {
+        "platform": "Example platform: mock text standing in for the real value. Same field and type, made-up content.",
+        "url": "https://www.google.com/example/14370"
+      }
+    ],
     "searchString": "restaurants",
     "rank": 8,
-    "isAdvertisement": true,
-    "reviews": [
-      {
-        "rating": 1,
-        "reviewerName": "Example reviewer name",
-        "text": "Example text: mock text standing in for the real value. Same field and type, made-up content.",
-        "publishedAtDate": "2026-01-15T10:00:00Z",
-        "isLocalGuide": false,
-        "reviewId": "ci2dqulrqunvzenodhljrjlvt7xaclvuy3hlvtg1ulzgmgjuuk2xrup0vvdsc6ftyxab"
-      }
-    ]
+    "isAdvertisement": false
   }
 ]

@@ -70,7 +70,7 @@ Full details on the [scraper page](https://apify.com/abotapi/s1jobs-com-scraper?
 | `vacancy_id` | string |
 | `vacancyUuid` | string |
 | `jobReference` | string |
-| `talentPoolId` | null |
+| `talentPoolId` | integer |
 | `companyUrn` | string |
 | `url` | string |
 | `jobUrl` | string |

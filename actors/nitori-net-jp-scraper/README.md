@@ -67,7 +67,7 @@ Full details on the [scraper page](https://apify.com/abotapi/nitori-net-jp-scrap
 | `onSale` | boolean |
 | `isOutlet` | boolean |
 | `taxExempt` | boolean |
-| `rating` | float |
+| `rating` | integer |
 | `reviewCount` | integer |
 | `image` | string |
 | `images` | list |
@@ -86,7 +86,7 @@ Full details on the [scraper page](https://apify.com/abotapi/nitori-net-jp-scrap
 | `categoryName` | string |
 | `categoryUrl` | string |
 | `description` | string |
-| `shortDescription` | string |
+| `shortDescription` | null |
 | `catchCopy` | string |
 | `specifications` | object |
 | `dimensions` | string |

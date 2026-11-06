@@ -35,6 +35,7 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~landwatch-scraper/run-syn
 | `hasHouse` | boolean | Has a house |
 | `urls` | array | URLs |
 | `fetchDetails` | boolean | Fetch full listing details |
+| `fetchSellerStats` | boolean | Fetch seller listing statistics |
 | `maxItems` | integer | Max listings |
 | `maxPages` | integer | Max pages per search |
 | `proxy` | object | Proxy |
@@ -66,8 +67,8 @@ Full details on the [scraper page](https://apify.com/abotapi/landwatch-scraper?u
 | `priceChangeDate` | null |
 | `priceChangePercentage` | float |
 | `shortPriceChangeAmount` | string |
-| `acres` | integer |
-| `acreage` | integer |
+| `acres` | float |
+| `acreage` | float |
 | `acresDisplay` | string |
 | `beds` | integer |
 | `bedsDisplay` | string |

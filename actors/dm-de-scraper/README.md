@@ -69,7 +69,7 @@ Full details on the [scraper page](https://apify.com/abotapi/dm-de-scraper?utm_s
 | `discountPercent` | null |
 | `isOnSpecial` | boolean |
 | `promoLabel` | null |
-| `unitPrice` | float |
+| `unitPrice` | integer |
 | `unitPriceBasis` | string |
 | `packSize` | string |
 | `rating` | float |

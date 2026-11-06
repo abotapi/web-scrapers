@@ -8,19 +8,20 @@
     "countryCode": "au",
     "url": "https://au.jora.com/example/80288",
     "sourceUrl": "https://au.jora.com/example/65657",
-    "salary": "Example salary",
-    "salaryMin": 20126,
-    "salaryMax": 20366,
-    "workType": "Example work type",
-    "workArrangement": null,
+    "salary": null,
+    "salaryMin": null,
+    "salaryMax": null,
+    "workType": "Permanent",
+    "workArrangement": "Example work arrangement",
     "postedAtText": "Example posted at text",
-    "quickApply": false,
-    "isSponsored": false,
+    "quickApply": true,
+    "isSponsored": true,
     "rank": 9,
     "page": 6,
     "abstract": "Example abstract: mock text standing in for the real value. Same field and type, made-up content.",
     "snippetBullets": [
-      "Example snippet bullets: mock text standing in for the real value. Same field and type, made-up content."
+      "Example snippet bullets: mock text standing in for the real value. Same field and type, made-up content.",
+      "Example snippet bullets"
     ],
     "descriptionHtml": "Example description html: mock text standing in for the real value. Same field and type, made-up content.",
     "descriptionText": "Example description text: mock text standing in for the real value. Same field and type, made-up content.",
@@ -30,6 +31,17 @@
     "searchLocation": "Example search location",
     "searchTotalCount": 1183,
     "detailFetched": true,
-    "scrapedAt": "2026-01-15T10:00:00Z"
+    "scrapedAt": "2026-01-15T10:00:00Z",
+    "job_id": "id50277725",
+    "job_type": "Permanent",
+    "date_posted": "Example date_posted",
+    "description_text": "Example description_text: mock text standing in for the real value. Same field and type, made-up content.",
+    "description_html": "Example description_html: mock text standing in for the real value. Same field and type, made-up content.",
+    "source": "Aurec",
+    "sponsored": true,
+    "country": "au",
+    "search_keyword": "Example search_keyword",
+    "search_location": "Example search_location",
+    "search_page": 4
   }
 ]

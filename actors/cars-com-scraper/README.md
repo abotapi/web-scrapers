@@ -79,9 +79,9 @@ Full details on the [scraper page](https://apify.com/abotapi/cars-com-scraper?ut
 | `cpoIndicator` | boolean |
 | `price` | integer |
 | `priceText` | string |
-| `msrp` | null |
+| `msrp` | integer |
 | `monthlyPayment` | string |
-| `price_drop` | null |
+| `price_drop` | string |
 | `deal_rating` | string |
 | `deal_badge_text` | string |
 | `price_vs_market` | string |

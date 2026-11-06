@@ -1,22 +1,24 @@
 [
   {
-    "stockcode": "199049",
+    "stockcode": "62434",
     "name": "Example name",
     "displayName": "Example display name",
     "title": "Example title",
-    "brand": "a2",
+    "brand": "Example brand",
     "url": "https://www.woolworths.com.au/example/8870",
-    "price": 7.96,
-    "isOnSpecial": false,
+    "price": 4.58,
+    "wasPrice": 4.46,
+    "savingsAmount": 0.41,
+    "isOnSpecial": true,
     "isHalfPrice": false,
     "isEdrSpecial": false,
-    "cupPrice": 3.18,
+    "cupPrice": 1.83,
     "cupMeasure": "Example cup measure",
     "cupString": "Example cup string",
     "packageSize": "Example package size",
     "unit": "Each",
     "currency": "AUD",
-    "barcode": "6744820275616",
+    "barcode": "19505779812314",
     "gtinFormat": 24,
     "isAvailable": true,
     "isInStock": true,
@@ -25,26 +27,27 @@
     "ageRestricted": false,
     "isTobacco": false,
     "departments": [
+      "Example departments",
       "Example departments"
     ],
     "departmentIds": [
-      "9_8e3f8e4"
+      "2_8d7fee8",
+      "9_4e8f9e2"
     ],
     "departmentNames": [
+      "Example department names",
       "Example department names"
     ],
     "productLimit": 73,
     "isMarketProduct": false,
     "variety": "Example variety",
+    "offerId": "03956706",
     "sponsored": false,
     "image": "https://cdn0.woolworths.media/example/77464.jpg",
     "thumbnailImage": "https://cdn0.woolworths.media/example/76232.jpg",
     "description": "Example description",
+    "savingsPercent": 67,
     "promoLabel": "Example promo label",
-    "inStorePrice": 7.88,
-    "inStoreIsOnSpecial": false,
-    "inStoreCupPrice": 4.05,
-    "inStoreCupString": "Example in store cup string",
-    "richDescription": "Example rich description: mock text standing in for the real value. Same field and type, made-up content."
+    "savingsLabel": "Example savings label"
   }
 ]

@@ -1,0 +1,104 @@
+[
+  {
+    "recordId": "Example record id",
+    "productId": "5242170",
+    "webId": "2472781-8",
+    "url": "https://www.kohls.com/example/55386",
+    "title": "Example title",
+    "brand": "Example brand",
+    "priceLabel": null,
+    "price": 34.11,
+    "priceMax": 33.7,
+    "wasPrice": null,
+    "wasPriceMax": null,
+    "discountPercent": null,
+    "currency": "USD",
+    "imageUrl": "https://media.kohlsimg.com/example/9493.jpg",
+    "rating": 3.83,
+    "reviewsCount": 13943,
+    "badges": [
+      "Example badges"
+    ],
+    "colors": [
+      "Frisco",
+      "Black"
+    ],
+    "position": 0,
+    "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
+    "sku": "48584172",
+    "skus": [
+      "09118589",
+      "50749475"
+    ],
+    "availability": "Example availability",
+    "sellers": [
+      "Example sellers"
+    ],
+    "imageUrls": [
+      "https://media.kohlsimg.com/example/71165.jpg",
+      "https://media.kohlsimg.com/example/18604.jpg"
+    ],
+    "breadcrumbs": [
+      "Example breadcrumbs",
+      "Example breadcrumbs"
+    ],
+    "categoryPath": [
+      "Example category path",
+      "Womens"
+    ],
+    "department": "Example department",
+    "category": "Clothing",
+    "subcategory": "Bottoms",
+    "colorsOutOfStock": [
+      "Olive",
+      "Burgundy"
+    ],
+    "sizes": [
+      "Example sizes",
+      "Example sizes"
+    ],
+    "specs": [
+      {
+        "label": "Example label",
+        "value": "Example value"
+      },
+      {
+        "label": "Example label",
+        "value": "Example value"
+      }
+    ],
+    "reviewsAverage": 3.49,
+    "reviewsRecommended": 82300,
+    "ratingDistribution": [
+      {
+        "stars": 7,
+        "count": 18709
+      },
+      {
+        "stars": 1,
+        "count": 8744
+      }
+    ],
+    "reviews": [
+      {
+        "id": "914988267",
+        "productId": "5242170",
+        "rating": 9,
+        "title": "Example title",
+        "text": "Example text",
+        "author": "Example author",
+        "location": "Example location",
+        "submissionTime": "2026-01-15T10:00:00Z",
+        "lastModifiedTime": "2026-01-15T10:00:00Z",
+        "verifiedPurchaser": true,
+        "isRecommended": true,
+        "helpfulVotes": 0,
+        "comments": [],
+        "fit": "3/5",
+        "size": null
+      }
+    ],
+    "reviewsTotal": 72890,
+    "scrapedAt": "2026-01-15T10:00:00Z"
+  }
+]

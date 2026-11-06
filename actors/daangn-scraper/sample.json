@@ -1,6 +1,6 @@
 [
   {
-    "id": "4347077338",
+    "id": "9519023879",
     "nodeId": "id63713463",
     "url": "https://www.daangn.com/example/92124",
     "title": "Example title",
@@ -8,7 +8,7 @@
     "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
     "status": "Ongoing",
     "listingType": "Example listing type",
-    "price": 358457,
+    "price": 257,
     "priceText": "Example price text",
     "isFree": false,
     "currency": "KRW",
@@ -28,7 +28,7 @@
     "regionSlug": null,
     "searchQuery": "Example search query",
     "region": {
-      "id": "2631",
+      "id": "7467",
       "name": "Example name",
       "countryCode": "KR"
     },
@@ -38,8 +38,8 @@
     },
     "user": {
       "nickname": "Example nickname",
-      "score": 86,
-      "reviewCount": 605,
+      "score": 32.34,
+      "reviewCount": 65,
       "locationName": null
     },
     "tradingLocation": {
@@ -50,14 +50,14 @@
     },
     "sellerName": "Example seller name",
     "condition": "used",
-    "chatRoomsCount": 0,
-    "watchesCount": 0,
-    "readsCount": 5,
-    "favoriteCount": 0,
-    "chatCount": 0,
-    "viewCount": 7,
-    "sellerScore": 70,
-    "sellerReviewCount": 264,
+    "chatRoomsCount": 3,
+    "watchesCount": 93,
+    "readsCount": 878,
+    "favoriteCount": 77,
+    "chatCount": 9,
+    "viewCount": 115,
+    "sellerScore": 37.6,
+    "sellerReviewCount": 84,
     "sellerProfileUrl": "https://www.daangn.com/example/44329",
     "sellerProfileImage": "https://assetstorage.krrt.io/example/6596.jpg"
   }

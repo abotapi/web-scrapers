@@ -1,28 +1,28 @@
 [
   {
     "slug": "id24945345",
-    "id": "6397288",
+    "id": "1843355",
     "epoch": 1941314529,
     "date": "2026-01-15T10:00:00Z",
     "company": "Example company",
     "company_logo": null,
     "position": "Example position",
     "tags": [
-      "saas",
-      "dev"
+      "testing",
+      "marketing"
     ],
     "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
-    "location": null,
+    "location": "Example location",
+    "salary_min": 3398,
+    "salary_max": 6618,
     "apply_url": "https://remoteOK.com/example/89029",
-    "salary_min": null,
-    "salary_max": null,
     "logo": "",
     "url": "https://remoteOK.com/example/48690",
-    "jobId": "7793822",
+    "jobId": "0580556",
     "title": "Example title",
     "companyName": "Example company name",
-    "locationText": null,
-    "rawLocation": null,
+    "locationText": "Example location text",
+    "rawLocation": "Example raw location",
     "descriptionText": "Example description text: mock text standing in for the real value. Same field and type, made-up content.",
     "tagCount": 8,
     "applyUrl": "https://remoteOK.com/example/11053",
@@ -32,31 +32,16 @@
     "postedAt": "2026-01-15T10:00:00Z",
     "postedEpoch": 5995486488,
     "postedAgeDays": 6,
-    "salaryMid": null,
-    "hasSalary": false,
+    "salaryMid": 9696,
+    "hasSalary": true,
     "companyLogoUrl": null,
     "scrapedAt": "2026-01-15T10:00:00Z",
-    "matchedSearchTokens": [],
-    "matchedTagFilters": [],
-    "raw": {
-      "slug": "id24945345",
-      "id": "6397288",
-      "epoch": 1941314529,
-      "date": "2026-01-15T10:00:00Z",
-      "company": "Example company",
-      "company_logo": "",
-      "position": "Example position",
-      "tags": [
-        "saas",
-        "dev"
-      ],
-      "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
-      "location": "",
-      "apply_url": "https://remoteOK.com/example/89029",
-      "salary_min": 0,
-      "salary_max": 0,
-      "logo": "",
-      "url": "https://remoteOK.com/example/48690"
-    }
+    "source": "remoteok",
+    "source_url": "https://remoteOK.com/example/66805",
+    "company_name": "Example company_name",
+    "company_slug": "vogel",
+    "company_url": "https://remoteok.com/example/61864",
+    "company_logo_url": null,
+    "type": null
   }
 ]

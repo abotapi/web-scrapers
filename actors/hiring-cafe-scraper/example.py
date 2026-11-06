@@ -1,4 +1,4 @@
-"""Hiring.Cafe Jobs Scraper: minimal example. Docs: https://apify.com/abotapi/hiring-cafe-scraper
+"""Hiring.Cafe Scraper: minimal example. Docs: https://apify.com/abotapi/hiring-cafe-scraper
 
 pip install "apify-client>=3"
 APIFY_TOKEN=<your token> python example.py

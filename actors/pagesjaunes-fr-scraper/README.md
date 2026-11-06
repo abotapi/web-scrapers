@@ -1,8 +1,8 @@
-# PagesJaunes FR Scraper
+# PagesJaunes Scraper
 
-Scrapes business listings from PagesJaunes.fr (French Yellow Pages). Extract comprehensive business information, including contact details, ratings, reviews, opening hours, payment methods, and category hierarchy across all of France.
+Scrape PagesJaunes.fr (French Yellow Pages) business listings across France. Extract business names, addresses, phone numbers, contact details, ratings, customer reviews, opening hours, payment methods and category hierarchies. Ideal for lead generation, local SEO and market research.
 
-**[Open PagesJaunes FR Scraper on Apify](https://apify.com/abotapi/pagesjaunes-fr-scraper?utm_source=github&utm_medium=web-scrapers&utm_campaign=monorepo)** to run it without code and export JSON, CSV or Excel.
+**[Open PagesJaunes Scraper on Apify](https://apify.com/abotapi/pagesjaunes-fr-scraper?utm_source=github&utm_medium=web-scrapers&utm_campaign=monorepo)** to run it without code and export JSON, CSV or Excel.
 
 ## Run it from code
 
@@ -57,6 +57,7 @@ Full details on the [scraper page](https://apify.com/abotapi/pagesjaunes-fr-scra
 | `reviewCount` | integer |
 | `phone` | string |
 | `description` | string |
+| `paymentAccepted` | string |
 | `businessType` | string |
 | `fullAddress` | object |
 | `openingHours` | list |
@@ -69,6 +70,7 @@ Full details on the [scraper page](https://apify.com/abotapi/pagesjaunes-fr-scra
 | `photos` | list |
 | `searchTerms` | string |
 | `searchLocation` | string |
+| `detailFetched` | boolean |
 
 ---
 

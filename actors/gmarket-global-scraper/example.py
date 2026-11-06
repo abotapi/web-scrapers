@@ -14,10 +14,13 @@ run = client.actor("abotapi/gmarket-global-scraper").call(
     run_input={
         "mode": "search",
         "keywords": ["laptop"],
+        "sortBy": "GLOBAL_RANKPOINT",
         "maxReviewsPerProduct": 10,
         "maxPages": 1,
         "maxListings": 10,
         "proxy": {"useApifyProxy": True},
+        "changeScope": "all",
+        "maxItems": 10,
     },
     logger=None,  # don't stream the run log to your console
 )

@@ -1,19 +1,19 @@
 [
   {
-    "listingId": "6915207720",
+    "listingId": "4766542214",
     "title": "Example title: mock text standing in for the real value. Same field and type, made-up content.",
     "url": "https://www.etsy.com/example/43631",
-    "shopId": "70476309",
+    "shopId": "49620586",
     "shopName": "Example shop name",
     "shopUrl": "https://www.etsy.com/example/11341",
     "categoryPath": [
       "Jewelry",
       "Necklaces"
     ],
-    "price": 13809.33,
+    "price": 35.59,
     "currency": "USD",
-    "originalPrice": 11759.57,
-    "discountPercentage": 2,
+    "originalPrice": 41.13,
+    "discountPercentage": 20,
     "onSale": true,
     "availability": "in_stock",
     "quantityAvailable": 255,
@@ -31,6 +31,7 @@
       "Example highlights: mock text standing in for the real value. Same field and type, made-up content."
     ],
     "materials": [
+      "Example materials",
       "Example materials"
     ],
     "shippingOrigin": {
@@ -43,27 +44,18 @@
     "ratingBreakdown": {
       "itemQuality": 8,
       "shipping": 9,
-      "customerService": 2,
-      "buyersRecommend": 131
+      "customerService": 2
     },
     "reviews": [
       {
-        "reviewId": "7161070287",
-        "reviewAuthor": "id50374388",
+        "reviewId": "2352016355",
+        "reviewAuthor": null,
         "reviewRating": 5,
-        "reviewDate": "Example review date",
-        "reviewBody": "Example review body",
-        "reviewPhotos": [],
-        "reviewHelpfulCount": null,
-        "reviewVariantContext": null
-      },
-      {
-        "reviewId": "1848217694",
-        "reviewAuthor": "id60438279",
-        "reviewRating": 9,
-        "reviewDate": "Example review date",
-        "reviewBody": "Example review body",
-        "reviewPhotos": [],
+        "reviewDate": null,
+        "reviewBody": "Example review body: mock text standing in for the real value. Same field and type, made-up content.",
+        "reviewPhotos": [
+          "https://i.etsystatic.com/example/31649.jpg"
+        ],
         "reviewHelpfulCount": null,
         "reviewVariantContext": null
       }
@@ -73,11 +65,24 @@
         "name": "Example name",
         "options": [
           {
-            "variationId": "0314602798",
+            "variationId": "0888590802",
             "label": "Example label"
           },
           {
-            "variationId": "0801436980",
+            "variationId": "2811901085",
+            "label": "Example label"
+          }
+        ]
+      },
+      {
+        "name": "Example name",
+        "options": [
+          {
+            "variationId": "3656273370",
+            "label": "Example label"
+          },
+          {
+            "variationId": "1148017910",
             "label": "Example label"
           }
         ]

@@ -2,7 +2,7 @@
   {
     "kind": "movie",
     "recordId": "Example record id",
-    "eventCode": "et89191464",
+    "eventCode": "et01661625",
     "title": "Example title",
     "url": "https://in.bookmyshow.com/example/75192",
     "posterUrl": "https://assets-in.bmscdn.com/example/29035.jpg",
@@ -10,8 +10,8 @@
       "hindi"
     ],
     "genres": [
-      "comedy",
-      "romantic"
+      "action",
+      "adventure"
     ],
     "category": null,
     "regionCode": "MUMBAI",
@@ -19,20 +19,22 @@
     "venueCode": null,
     "listingSection": null,
     "tags": [
-      "A",
-      "Hindi"
+      "U",
+      "Example tags"
     ],
     "synopsis": "Example synopsis: mock text standing in for the real value. Same field and type, made-up content.",
-    "duration": "pt7h29m",
+    "duration": "pt5h81m",
     "censor": "Example censor",
     "releaseDate": "2026-01-15",
     "formats": [
+      "Example formats",
       "Example formats"
     ],
     "cast": [
+      "Example cast",
       "Example cast"
     ],
-    "director": null,
+    "director": "Example director",
     "priceDisplay": null,
     "availability": null,
     "dateText": null,

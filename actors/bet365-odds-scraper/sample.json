@@ -1,0 +1,82 @@
+[
+  {
+    "id": "Example id",
+    "home": "Example home",
+    "away": "Example away",
+    "matchup": "Example matchup",
+    "status": "Example status",
+    "prices": [
+      {
+        "label": "Example label",
+        "handicap": "-7.5",
+        "displayPrice": "74/70",
+        "decimalPrice": 1.36,
+        "suspended": false,
+        "selectionId": "502480564"
+      },
+      {
+        "label": "Example label",
+        "handicap": "+4.3",
+        "displayPrice": "28/93",
+        "decimalPrice": 2.01,
+        "suspended": false,
+        "selectionId": "223904962"
+      }
+    ],
+    "hasLiveMedia": false,
+    "sport": "basketball",
+    "resultOdds": null,
+    "fixtureId": "097850135",
+    "sportId": "B18",
+    "competition": "NBA",
+    "competitionId": "25684508",
+    "leagueCode": "NBA",
+    "round": null,
+    "homeTeamId": "9",
+    "awayTeamId": "9",
+    "inPlay": false,
+    "startTime": "2026-01-15T10:00:00Z",
+    "url": "https://www.bet365.com/example/70674",
+    "oddsTimestamp": "2026-01-15T10:00:00Z"
+  },
+  {
+    "id": "Example id",
+    "home": "Example home",
+    "away": "Example away",
+    "matchup": "Example matchup",
+    "status": "Example status",
+    "prices": [
+      {
+        "label": "Example label",
+        "handicap": "+2.1",
+        "displayPrice": "08/88",
+        "decimalPrice": 1.84,
+        "suspended": false,
+        "selectionId": "375235696"
+      },
+      {
+        "label": "Example label",
+        "handicap": "-0.7",
+        "displayPrice": "41/61",
+        "decimalPrice": 2.49,
+        "suspended": false,
+        "selectionId": "890259225"
+      }
+    ],
+    "hasLiveMedia": false,
+    "sport": "basketball",
+    "resultOdds": null,
+    "fixtureId": "250399095",
+    "sportId": "B18",
+    "competition": "NBA",
+    "competitionId": "08571686",
+    "leagueCode": "NBA",
+    "round": null,
+    "homeTeamId": "66",
+    "awayTeamId": "0",
+    "inPlay": false,
+    "startTime": "2026-01-15T10:00:00Z",
+    "url": "https://www.bet365.com/example/38137",
+    "oddsTimestamp": "2026-01-15T10:00:00Z"
+  }
+]

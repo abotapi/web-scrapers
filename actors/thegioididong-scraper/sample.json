@@ -1,7 +1,7 @@
 [
   {
     "code": "935946",
-    "productCode": "0108157265171",
+    "productCode": "6223420571061",
     "name": "Example name",
     "url": "https://www.thegioididong.com/example/8691",
     "brand": "Apple",
@@ -56,7 +56,7 @@
       "Độ phân giải camera trước": "Example độ phân giải camera trước",
       "Dày": "Example dày",
       "Khối lượng máy": "Example khối lượng máy",
-      "Tính năng đặc biệt": "Example tính năng đặc biệt: mock text standing in for the real value. Same field and type, made-up content.",
+      "Tính năng đặc biệt": "Example tính năng đặc biệt",
       "Dung lượng lưu trữ": "Example dung lượng lưu trữ",
       "Bảo mật": "Example bảo mật",
       "Dung lượng pin": "Example dung lượng pin",
@@ -75,18 +75,18 @@
     "variants": [
       {
         "name": "Example name",
-        "sku": "0752955484022",
+        "sku": "1799020651292",
         "price": 72729634,
         "availability": "Example availability"
       },
       {
         "name": "Example name",
-        "sku": "8839871133910",
+        "sku": "5005285012933",
         "price": 87575407,
         "availability": "Example availability"
       }
     ],
-    "sku": "2513851915843",
+    "sku": "6487982005096",
     "categoryPath": [
       "Example category path: mock text standing in for the real value. Same field and type, made-up content.",
       "Example category path"

@@ -18,7 +18,8 @@ run = client.actor("abotapi/harvey-norman-scraper").call(
         "maxReviewsPerProduct": 10,
         "maxItems": 10,
         "maxPages": 1,
-        "proxy": {"useApifyProxy": True, "apifyProxyGroups": ["RESIDENTIAL"], "apifyProxyCountry": "AU"},
+        "proxy": {"useApifyProxy": True, "apifyProxyCountry": "AU"},
+        "changeScope": "all",
     },
     logger=None,  # don't stream the run log to your console
 )

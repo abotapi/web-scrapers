@@ -1,16 +1,16 @@
 [
   {
-    "id": "533394091",
+    "id": "914573204",
     "url": "https://www.properstar.co.uk/example/34799",
     "class": "Example class",
     "transactionType": "Sell",
     "type": "Apartment",
     "subType": "Apartment",
-    "title": "Example title",
-    "automaticTitle": "Example automatic title",
+    "title": "Example title: mock text standing in for the real value. Same field and type, made-up content.",
+    "automaticTitle": "Example automatic title: mock text standing in for the real value. Same field and type, made-up content.",
     "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
     "titleByLanguage": {
-      "en": "Example en"
+      "en": "Example en: mock text standing in for the real value. Same field and type, made-up content."
     },
     "descriptionByLanguage": {
       "en": "Example en: mock text standing in for the real value. Same field and type, made-up content."
@@ -20,13 +20,13 @@
     "co2Rating": null,
     "ratings": null,
     "geoPointReliable": true,
-    "price": 401980,
+    "price": 8501980,
     "currency": "GBP",
     "priceValues": [
       {
         "currencyId": "GBP",
         "type": "Original",
-        "value": 628281
+        "value": 7828281
       }
     ],
     "livingAreaSqm": null,
@@ -42,8 +42,8 @@
     "city": "London",
     "postcode": "Example postcode",
     "countryISO": "GB",
-    "latitude": 49.44,
-    "longitude": -0.19,
+    "latitude": 49.43,
+    "longitude": -0.2,
     "showAddress": true,
     "geocodeLevel": "Street",
     "pictures": [

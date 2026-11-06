@@ -19,6 +19,9 @@ run = client.actor("abotapi/rossmann-de-scraper").call(
         "maxPages": 1,
         "maxItems": 10,
         "proxy": {"useApifyProxy": True},
+        "changeScope": "all",
+        "maxResults": 10,
+        "country": "de",
     },
     logger=None,  # don't stream the run log to your console
 )

@@ -37,6 +37,14 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~jora-jobs-scraper/run-syn
 | `maxItems` | integer | Max items |
 | `maxPages` | integer | Max pages |
 | `proxy` | object | Proxy configuration |
+| `proxyConfiguration` | object | Proxy configuration (alias of Proxy) |
+| `startUrl` | string | Start URL (alias of Jora URLs) |
+| `keyword` | string | Keyword (alias of Searches) |
+| `location` | string | Location (alias of Searches) |
+| `country` | string | Country (alias of Searches country) |
+| `posted_date` | string | Posted date (alias of Posted within) |
+| `results_wanted` | integer | Results wanted (alias of Max items) |
+| `max_pages` | integer | Max pages (alias of Max pages per sear |
 
 `*` required
 
@@ -56,11 +64,11 @@ Full details on the [scraper page](https://apify.com/abotapi/jora-jobs-scraper?u
 | `countryCode` | string |
 | `url` | string |
 | `sourceUrl` | string |
-| `salary` | string |
-| `salaryMin` | integer |
-| `salaryMax` | integer |
+| `salary` | null |
+| `salaryMin` | null |
+| `salaryMax` | null |
 | `workType` | string |
-| `workArrangement` | null |
+| `workArrangement` | string |
 | `postedAtText` | string |
 | `quickApply` | boolean |
 | `isSponsored` | boolean |
@@ -77,6 +85,17 @@ Full details on the [scraper page](https://apify.com/abotapi/jora-jobs-scraper?u
 | `searchTotalCount` | integer |
 | `detailFetched` | boolean |
 | `scrapedAt` | string |
+| `job_id` | string |
+| `job_type` | string |
+| `date_posted` | string |
+| `description_text` | string |
+| `description_html` | string |
+| `source` | string |
+| `sponsored` | boolean |
+| `country` | string |
+| `search_keyword` | string |
+| `search_location` | string |
+| `search_page` | integer |
 
 ---
 

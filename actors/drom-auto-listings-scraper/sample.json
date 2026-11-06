@@ -1,11 +1,11 @@
 [
   {
-    "id": "047836347",
+    "id": "639986102",
     "url": "https://auto.drom.ru/example/19131",
     "title": "Example title",
     "make": "Audi",
-    "model": "Q3",
-    "year": "2833",
+    "model": "A4",
+    "year": "6120",
     "price": 8795893,
     "currency": "RUB",
     "engine": "Example engine",
@@ -18,29 +18,33 @@
     "minimalPrice": 0,
     "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
     "images": {
-      "total": 6,
+      "total": 33,
       "items": [
         {
-          "src": "https://s31.auto.drom.ru/example/82918.jpg",
-          "src2x": "https://s31.auto.drom.ru/example/5304.jpg",
+          "src": "https://s12.auto.drom.ru/example/82918.jpg",
+          "src2x": "https://s12.auto.drom.ru/example/5304.jpg",
           "width": 930,
           "height": 546,
-          "alt": "Example alt: mock text standing in for the real value. Same field and type, made-up content."
+          "alt": "Example alt"
         },
         {
-          "src": "https://s31.auto.drom.ru/example/14082.jpg",
-          "src2x": "https://s31.auto.drom.ru/example/82133.jpg",
+          "src": "https://s12.auto.drom.ru/example/14082.jpg",
+          "src2x": "https://s12.auto.drom.ru/example/82133.jpg",
           "width": 540,
           "height": 334,
-          "alt": "Example alt: mock text standing in for the real value. Same field and type, made-up content."
+          "alt": "Example alt"
         }
       ]
     },
-    "frameType": 7,
+    "frameType": 79,
     "showPlaceholder": false,
     "dealType": 3,
     "sold": false,
-    "marks": [],
+    "marks": [
+      {
+        "type": 99
+      }
+    ],
     "info": null,
     "dealerName": null,
     "hasDealerName": false,
@@ -55,20 +59,20 @@
         "payload": "Example payload"
       }
     ],
-    "promotionStatus": 3,
     "date": "Example date",
     "location": "Example location",
     "carState": [],
-    "region": "neftekamsk-bash",
+    "region": "moscow",
     "category": "auto",
-    "engineVolume": 5,
+    "engineVolume": 1.33,
     "powerHp": 664,
     "photos": [
       "https://s31.auto.drom.ru/example/19516.jpg",
       "https://s31.auto.drom.ru/example/47880.jpg"
     ],
-    "photoCount": 6,
+    "photoCount": 42,
     "imageUrl": "https://s31.auto.drom.ru/example/22959.jpg",
-    "recordType": "listing"
+    "recordType": "listing",
+    "mode": "SEARCH"
   }
 ]

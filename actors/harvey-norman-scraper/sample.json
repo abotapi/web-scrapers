@@ -6,7 +6,7 @@
     "name": "Example name",
     "brand": null,
     "url": "https://www.harveynorman.com.au/example/35470",
-    "imageUrl": null,
+    "imageUrl": "https://hnau.imgix.net/example/76512.jpg",
     "rating": 4.18,
     "reviewCount": 375,
     "promotion": null,
@@ -17,6 +17,37 @@
     "wasPrice": null,
     "discountAmount": 0,
     "discountPercent": 0,
+    "urlKey": "id23195250",
+    "urlSuffix": "Example url suffix",
+    "hidePrice": 0,
+    "smallImage": {
+      "disabled": null,
+      "label": null,
+      "position": null,
+      "url": "https://hnau.imgix.net/example/35470.jpg",
+      "__typename": "Example __typename"
+    },
+    "offers": {
+      "bonus": null,
+      "cashback": null,
+      "standout": null
+    },
+    "priceRange": {
+      "minimum_price": {
+        "final_price": {
+          "currency": "AUD",
+          "value": 7477,
+          "__typename": "Example __typename"
+        },
+        "discount": {
+          "amount_off": 0,
+          "percent_off": 0,
+          "__typename": "Example __typename"
+        },
+        "__typename": "Example __typename"
+      },
+      "__typename": "Example __typename"
+    },
     "title": "Example title",
     "isOnSpecial": false
   }

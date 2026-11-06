@@ -1,15 +1,15 @@
 [
   {
-    "id": "celjjv7ebck",
-    "shortSku": "celjjv2ebck",
-    "model": "celjjv6e",
+    "id": "imam63s6brw",
+    "shortSku": "imam61s9brw",
+    "model": "imam19s6",
     "name": "Example name",
     "title": "Example title",
-    "brand": "CELINE",
-    "color": "Black",
-    "price": 3148,
+    "brand": "Example brand",
+    "color": "Brown",
+    "price": 448,
     "discountPrice": null,
-    "currentPrice": 2685,
+    "currentPrice": 885,
     "discountPercentage": null,
     "currency": "EUR",
     "onSale": false,
@@ -27,26 +27,20 @@
     "sizes": [
       {
         "label": "Example label",
-        "sku": "celjjv7ebcki88a092",
+        "sku": "imam26s7brw7184776",
         "inStock": true
       },
       {
         "label": "Example label",
-        "sku": "celjjv9ebckja46a80",
+        "sku": "imam80s5brwu4a1a26",
         "inStock": true
       }
     ],
     "skus": [
-      "celjjv9ebckja71a06",
-      "celjjv4ebcky88a035"
+      "imam72s1brw0e96a82",
+      "imam01s5brw8892542"
     ],
-    "otherColors": [
-      {
-        "label": "Example label",
-        "shortSku": "celjjv2eowh",
-        "image": "https://www.24s.com/example/66538.jpg"
-      }
-    ],
+    "otherColors": [],
     "images": [
       "https://www.24s.com/example/26363.jpg",
       "https://www.24s.com/example/15741.jpg"
@@ -60,7 +54,7 @@
       "https://www.24s.com/example/29375.jpg",
       "https://www.24s.com/example/84243.jpg"
     ],
-    "originalPrice": 2068,
+    "originalPrice": 268,
     "discount": null,
     "sku": null,
     "country": "GB",

@@ -1,23 +1,22 @@
 [
   {
-    "id": "01409154",
+    "id": "82506261",
     "url": "https://dubai.dubizzle.com/example/618",
-    "title": "Example title: mock text standing in for the real value. Same field and type, made-up content.",
+    "title": "Example title",
     "price": 5692374,
     "currency": "AED",
     "section": "Example section",
-    "categorySlug": "townhouse",
+    "categorySlug": "apartment",
     "bedrooms": 9,
     "bathrooms": 6,
     "area": 4204,
     "areaUnit": "sqft",
     "city": "Dubai",
     "neighborhood": [
-      "Example neighborhood",
       "Example neighborhood"
     ],
-    "latitude": 31.02,
-    "longitude": 58.2,
+    "latitude": 30.88,
+    "longitude": 57.91,
     "isVerified": true,
     "agentName": "Example agent name",
     "agencyName": null,
@@ -32,8 +31,8 @@
     "photosCount": 68,
     "isPremium": true,
     "coordinates": {
-      "lat": 31.02,
-      "lng": 41.57
+      "lat": 30.88,
+      "lng": 41.36
     },
     "tourUrl": null,
     "videoUrl": null,
@@ -41,19 +40,22 @@
     "featuredListing": false,
     "promoted": false,
     "highlightedAd": false,
-    "building": null,
+    "building": {
+      "id": 7846,
+      "name": {
+        "en": "Example en",
+        "ar": "Example ar"
+      }
+    },
     "neighborhoods": {
       "ids": [
-        926,
-        645
+        26
       ],
       "name": {
         "en": [
-          "Example en",
           "Example en"
         ],
         "ar": [
-          "Example ar",
           "Example ar"
         ]
       }

@@ -1,43 +1,39 @@
 [
   {
-    "id": "237353337",
-    "listingNumber": "358980010",
+    "id": "878775318",
+    "listingNumber": "984246872",
     "url": "https://www.property24.com/example/59929",
     "listingType": "Example listing type",
     "title": "Example title",
     "displayPrice": "Example display price",
-    "price": 30143559,
+    "price": 3143559,
     "currency": "ZAR",
-    "garages": 1,
-    "floorSize": 1479,
-    "erfSize": 35089,
+    "bedrooms": 2,
+    "bathrooms": 4,
+    "floorSize": 39,
     "suburbName": "Example suburb name",
     "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
     "mainImage": "https://images.prop24.com/example/67548.jpg",
     "source": "property24.com",
     "scrapedAt": "2026-01-15T10:00:00Z",
-    "latitude": -36.09,
-    "longitude": 18.91,
-    "hasExactLocation": true,
-    "streetAddress": "Example street address",
     "provinceName": "Example province name",
     "provinceId": "7",
     "cityName": "Example city name",
     "cityId": "870",
-    "suburbId": "5497",
+    "suburbId": "67524",
     "descriptionHeader": "Example description header: mock text standing in for the real value. Same field and type, made-up content.",
     "priceOnApplication": false,
     "agentName": "Example agent name",
     "agentProfileUrl": "https://www.property24.com/example/41659",
-    "agentId": "537294",
+    "agentId": "311301",
     "agencyName": "Example agency name",
-    "agencyId": "48623",
+    "agencyId": "94892",
     "agencyLogoUrl": "https://images.prop24.com/example/12818.jpg",
     "contacts": [
       {
         "contactType": "Example contact type",
         "jobTitle": "Example job title",
-        "id": "883040",
+        "id": "165610",
         "name": "Example name",
         "photoUrl": "https://images.prop24.com/example/78927.jpg",
         "profileUrl": "https://www.property24.com/example/66710",
@@ -47,54 +43,68 @@
     ],
     "isPrivateListing": false,
     "propertyOverview": {
-      "Listing Number": "084231263",
-      "Type of Property": "Farm",
-      "Street Address": "Example street  address",
+      "Listing Number": "241085775",
+      "Type of Property": "Example type of  property",
+      "Description": "Example description",
       "Listing Date": "Example listing  date",
-      "Size of farm": "Example size of farm",
       "Floor Size": "Example floor  size",
+      "Price per m²": "Example price per m²",
+      "Levies": "Example levies",
+      "Rates and Taxes": "Example rates and  taxes",
       "Pets Allowed": "Example pets  allowed",
-      "Garage": "0",
-      "Parking": "05",
-      "Gardens": "8"
+      "Furnished": "Example furnished",
+      "Bedrooms": "3",
+      "Bathrooms": "6"
     },
-    "propertyType": "Farm",
+    "propertyType": "Example property type",
     "listingDate": "Example listing date",
     "details": [
       {
         "category": "Example category",
         "categoryItems": {
-          "Listing Number": "084231263",
-          "Type of Property": "Farm",
-          "Street Address": "Example street  address",
+          "Listing Number": "241085775",
+          "Type of Property": "Example type of  property",
+          "Description": "Example description",
           "Listing Date": "Example listing  date",
-          "Size of farm": "Example size of farm",
           "Floor Size": "Example floor  size",
-          "Pets Allowed": "Example pets  allowed"
+          "Price per m²": "Example price per m²",
+          "Levies": "Example levies",
+          "Rates and Taxes": "Example rates and  taxes",
+          "Pets Allowed": "Example pets  allowed",
+          "Furnished": "Example furnished"
         }
       },
       {
-        "category": "Example category",
+        "category": "Rooms",
         "categoryItems": {
-          "Garage": "5",
-          "Parking": "83",
-          "Gardens": "2"
+          "Bedrooms": "0",
+          "Bathrooms": "5"
         }
       }
     ],
+    "keyFeatures": [
+      "Example key features",
+      "Example key features"
+    ],
     "photos": [
       {
-        "imageIdentifier": "959664311",
+        "imageIdentifier": "743803913",
         "thumbnailUrl": "https://images.prop24.com/example/31605.jpg",
         "imageUrl": "https://images.prop24.com/example/53773.jpg",
         "largeImageUrl": "https://images.prop24.com/example/13405.jpg"
       },
       {
-        "imageIdentifier": "897555022",
+        "imageIdentifier": "280968515",
         "thumbnailUrl": "https://images.prop24.com/example/89989.jpg",
         "imageUrl": "https://images.prop24.com/example/49194.jpg",
         "largeImageUrl": "https://images.prop24.com/example/33170.jpg"
       }
-    ]
+    ],
+    "photoCount": 55,
+    "nearbySuburbs": [
+      "Example nearby suburbs",
+      "Example nearby suburbs"
+    ],
+    "auction": false
   }
 ]

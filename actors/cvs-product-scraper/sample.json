@@ -1,0 +1,32 @@
+[
+  {
+    "recordId": "Example record id",
+    "productId": "030384",
+    "skuId": null,
+    "url": "https://www.cvs.com/example/98158",
+    "title": "Example title",
+    "brand": "Example brand",
+    "price": 5.59,
+    "wasPrice": null,
+    "pricePerUnit": null,
+    "currency": "USD",
+    "imageUrl": "https://www.cvs.com/example/86804.jpg",
+    "imageUrls": [
+      "https://www.cvs.com/example/18953.jpg",
+      "Example image urls: mock text standing in for the real value. Same field and type, made-up content."
+    ],
+    "rating": 5.8,
+    "reviewsCount": 92,
+    "sponsored": null,
+    "badges": [],
+    "position": null,
+    "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
+    "availability": "Example availability",
+    "reviewsAverage": null,
+    "reviewsRecommended": null,
+    "ratingDistribution": [],
+    "reviews": [],
+    "reviewsTotal": null,
+    "scrapedAt": "2026-01-15T10:00:00Z"
+  }
+]

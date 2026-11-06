@@ -35,42 +35,5 @@
     "ratingBreakdown": null,
     "familyReviewCount": null,
     "unratedReviewCount": null
-  },
-  {
-    "sku": "343970687820942120",
-    "url": "https://www.yodobashi.com/example/13573",
-    "title": "Example title",
-    "brand": "Example brand",
-    "makerName": "Example maker name",
-    "makerId": "6225374463",
-    "currency": "JPY",
-    "price": 12584,
-    "goldPoints": 0,
-    "goldPointRatePercent": 0,
-    "availability": "Example availability",
-    "inStock": true,
-    "deliveryMessage": "Example delivery message",
-    "deliveryBadge": "Example delivery badge",
-    "rating": 7,
-    "reviewCount": 92,
-    "storeStockCount": 78,
-    "categoryBreadcrumb": [
-      "Example category breadcrumb",
-      "Example category breadcrumb"
-    ],
-    "categoryUrl": "https://www.yodobashi.com/example/63098",
-    "releaseDate": "5268/90/39",
-    "thumbnail": "https://image.yodobashi.com/example/86004.jpg",
-    "images": [
-      "https://image.yodobashi.com/example/29445.jpg"
-    ],
-    "sponsored": false,
-    "isDiscontinued": false,
-    "scrapedAt": "2026-01-15T10:00:00Z",
-    "reviews": [],
-    "reviewsReturned": 0,
-    "ratingBreakdown": null,
-    "familyReviewCount": null,
-    "unratedReviewCount": null
   }
 ]

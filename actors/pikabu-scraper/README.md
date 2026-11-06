@@ -62,7 +62,7 @@ Full details on the [scraper page](https://apify.com/abotapi/pikabu-scraper?utm_
 | `createdAtHuman` | string |
 | `publishedAt` | string |
 | `timestamp` | integer |
-| `seriesId` | string |
+| `seriesId` | null |
 | `isLong` | boolean |
 | `isPinned` | boolean |
 | `blocks` | list |

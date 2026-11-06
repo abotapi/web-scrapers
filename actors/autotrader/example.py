@@ -20,6 +20,7 @@ run = client.actor("abotapi/autotrader").call(
         "writeoffStatus": "include",
         "priceSearchType": "total",
         "sortBy": "relevance",
+        "maxItems": 10,
         "maxPages": 1,
         "maxListings": 10,
         "proxy": {"useApifyProxy": True},

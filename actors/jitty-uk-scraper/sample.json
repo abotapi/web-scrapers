@@ -1,42 +1,41 @@
 [
   {
-    "id": "wwloswvfthiqyd4amjm3",
+    "id": "wgdtc7frzuemdsz6kqlt",
     "title": "Example title",
     "price": "Example price",
     "price_numeric": 572083,
     "currency": "GBP",
     "bedrooms": 2,
     "bathrooms": 5,
-    "property_type": "Terraced",
+    "property_type": "Flat",
     "tags": [
       "Example tags",
-      "Example tags"
+      "Undo"
     ],
     "images": [
       "https://jitty-cdn.com/example/21091.jpg",
       "https://jitty-cdn.com/example/33715.jpg"
     ],
-    "image_count": 89,
+    "image_count": 8,
     "url": "https://jitty.com/example/66643",
     "address": "Example address",
-    "latitude": 45.4,
-    "longitude": 0.22,
+    "latitude": 45.26,
+    "longitude": 0.05,
     "location_source": "detail_page",
     "ownership": "Example ownership",
     "living_spaces": 8,
-    "property_type_detail": "Terraced",
+    "property_type_detail": "Flat",
     "epc_current_score": 68,
     "epc_current_rating": "Example epc_current_rating",
     "epc_potential_score": 18,
     "epc_potential_rating": "Example epc_potential_rating",
     "estate_agent": "Example estate_agent",
     "features": [
-      "Example features",
       "Example features"
     ]
   },
   {
-    "id": "aezlgbsgy6hsq0zugotg",
+    "id": "gyq4wfk4xvrpzgnj5zpy",
     "title": "Example title",
     "price": "Example price",
     "price_numeric": 584164,
@@ -46,7 +45,7 @@
     "property_type": "Semi-Detached",
     "tags": [
       "Example tags",
-      "Example tags"
+      "Undo"
     ],
     "images": [
       "https://jitty-cdn.com/example/19213.jpg",
@@ -55,8 +54,8 @@
     "image_count": 22,
     "url": "https://jitty.com/example/61158",
     "address": "Example address",
-    "latitude": 53.6,
-    "longitude": 0.24,
+    "latitude": 53.42,
+    "longitude": 0.01,
     "location_source": "detail_page",
     "ownership": "Example ownership",
     "living_spaces": 8,

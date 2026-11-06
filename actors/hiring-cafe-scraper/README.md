@@ -1,8 +1,8 @@
-# Hiring.Cafe Jobs Scraper
+# Hiring.Cafe Scraper
 
-Unlock powerful Hiring.Cafe job data extraction. Use advanced filters or URLs to get 100+ fields per job, including salary, company insights, and benefits. Fast, scalable, and built for serious data collection. Only $1 for Gold discount.
+Scrape Hiring.Cafe jobs from $1/1K results. Search with advanced filters or URLs and extract 100+ fields per job, including salaries, company insights, benefits and job details. Fast, scalable job data extraction with Gold discounts starting at $1.
 
-**[Open Hiring.Cafe Jobs Scraper on Apify](https://apify.com/abotapi/hiring-cafe-scraper?utm_source=github&utm_medium=web-scrapers&utm_campaign=monorepo)** to run it without code and export JSON, CSV or Excel.
+**[Open Hiring.Cafe Scraper on Apify](https://apify.com/abotapi/hiring-cafe-scraper?utm_source=github&utm_medium=web-scrapers&utm_campaign=monorepo)** to run it without code and export JSON, CSV or Excel.
 
 ## Run it from code
 
@@ -86,19 +86,19 @@ Full details on the [scraper page](https://apify.com/abotapi/hiring-cafe-scraper
 | `company_website` | string |
 | `company_tagline` | string |
 | `company_industry` | string |
-| `salary_transparent` | boolean |
-| `salary_min` | integer |
-| `salary_max` | integer |
-| `salary_frequency` | string |
-| `min_years_experience` | integer |
-| `education_required` | list |
-| `certifications` | list |
 | `languages` | list |
 | `security_clearance` | string |
-| `schedule` | list |
 | `physical_requirements` | object |
 | `company_employees` | integer |
 | `company_founded` | integer |
+| `company_hq_country` | string |
+| `company_funding` | object |
+| `company_stock` | object |
+| `workplace_cities` | list |
+| `workplace_states` | list |
+| `workplace_countries` | list |
+| `workplace_continents` | list |
+| `workplace_counties` | list |
 
 ---
 

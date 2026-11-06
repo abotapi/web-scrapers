@@ -17,7 +17,7 @@ python example.py
 ```bash
 curl -s -X POST "https://api.apify.com/v2/acts/abotapi~irishjobs-ie/run-sync-get-dataset-items?token=$APIFY_TOKEN" \
   -H 'Content-Type: application/json' \
-  -d '{"mode": "search", "salaryType": "0", "postedWithin": "0", "sortBy": "1", "maxPages": 1, "maxListings": 10, "proxy": {"useApifyProxy": true, "apifyProxyGroups": ["RESIDENTIAL"]}}'
+  -d '{"mode": "search", "salaryType": "0", "postedWithin": "0", "sortBy": "1", "maxPages": 1, "maxListings": 10, "maxResults": 10, "proxy": {"useApifyProxy": true, "apifyProxyGroups": ["RESIDENTIAL"]}}'
 ```
 
 ## Inputs
@@ -32,11 +32,19 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~irishjobs-ie/run-sync-get
 | `salaryType` | string | Salary type |
 | `postedWithin` | string | Posted within |
 | `sortBy` | string | Sort by |
+| `searchQuery` | string | Search query (alias) |
+| `searchQueries` | array | Search queries (alias) |
+| `location` | string | Location (alias) |
+| `daysOld` | integer | Days old (alias) |
 | `urls` | array | Start URLs |
+| `startUrls` | array | Start URLs (alias) |
 | `maxPages` | integer | Max pages |
 | `maxListings` | integer | Max jobs |
+| `maxResults` | integer | Max results (alias) |
+| `compact` | boolean | Compact output |
 | `fetchDetails` | boolean | Fetch detail pages |
 | `proxy` | object | Proxy configuration |
+| `skipReposts` | boolean | Skip reposts (new jobs only) |
 
 `*` required
 
@@ -64,10 +72,10 @@ Full details on the [scraper page](https://apify.com/abotapi/irishjobs-ie?utm_so
 | `locationLat` | null |
 | `locationLng` | null |
 | `salaryRaw` | string |
-| `salaryMin` | null |
-| `salaryMax` | null |
+| `salaryMin` | integer |
+| `salaryMax` | integer |
 | `salaryCurrency` | string |
-| `salaryPeriod` | null |
+| `salaryPeriod` | string |
 | `employmentType` | null |
 | `skills` | list |
 | `datePosted` | string |
@@ -81,6 +89,13 @@ Full details on the [scraper page](https://apify.com/abotapi/irishjobs-ie?utm_so
 | `isTrafficFromPartner` | boolean |
 | `crossPostedCount` | integer |
 | `scrapedAt` | string |
+| `remote` | boolean |
+| `labels` | list |
+| `isAnonymous` | boolean |
+| `snippet` | string |
+| `postCode` | null |
+| `industry` | null |
+| `directApply` | null |
 
 ---
 

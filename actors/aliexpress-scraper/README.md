@@ -70,9 +70,8 @@ Full details on the [scraper page](https://apify.com/abotapi/aliexpress-scraper?
 | `currency` | string |
 | `title` | string |
 | `price` | float |
-| `originalPrice` | float |
 | `discountPercentage` | integer |
-| `rating` | integer |
+| `rating` | float |
 | `totalSold` | string |
 | `totalSoldCount` | integer |
 | `imageUrl` | string |
@@ -81,7 +80,7 @@ Full details on the [scraper page](https://apify.com/abotapi/aliexpress-scraper?
 | `productType` | string |
 | `currentPrice` | float |
 | `discountPct` | integer |
-| `ratingScore` | integer |
+| `ratingScore` | float |
 | `itemSold` | string |
 | `itemSoldCount` | integer |
 | `isSponsored` | boolean |

@@ -17,7 +17,7 @@ python example.py
 ```bash
 curl -s -X POST "https://api.apify.com/v2/acts/abotapi~rossmann-de-scraper/run-sync-get-dataset-items?token=$APIFY_TOKEN" \
   -H 'Content-Type: application/json' \
-  -d '{"mode": "search", "searchTerm": "nivea duschgel", "sortBy": "RELEVANCE", "maxReviewsPerProduct": 10, "maxPages": 1, "maxItems": 10, "proxy": {"useApifyProxy": true}}'
+  -d '{"mode": "search", "searchTerm": "nivea duschgel", "sortBy": "RELEVANCE", "maxReviewsPerProduct": 10, "maxPages": 1, "maxItems": 10, "proxy": {"useApifyProxy": true}, "changeScope": "all", "maxResults": 10, "country": "de"}'
 ```
 
 ## Inputs
@@ -26,7 +26,7 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~rossmann-de-scraper/run-s
 | --- | --- | --- |
 | `mode` * | string | Mode |
 | `searchTerm` | string | Search keyword |
-| `category` | string | Category code (optional) |
+| `category` | string | Category (code, name or URL) |
 | `specialsCategory` | string | Specials category |
 | `brands` | array | Brands |
 | `minRating` | integer | Minimum rating |
@@ -38,6 +38,14 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~rossmann-de-scraper/run-s
 | `maxPages` | integer | Max pages per search |
 | `maxItems` | integer | Max products total |
 | `proxy` | object | Proxy configuration |
+| `changeScope` | string | Change scope (incremental mode only) |
+| `compactUpdates` | boolean | Compact UPDATED rows (incremental mode |
+| `expireAfterMissedScans` | integer | Expire after N missed scans (increment |
+| `searchQuery` | string | Search query (alias) |
+| `categoryUrl` | string | Category URL (alias) |
+| `maxResults` | integer | Max results (alias) |
+| `proxyConfiguration` | object | Proxy configuration (alias) |
+| `country` | string | Country |
 
 `*` required
 
@@ -85,6 +93,10 @@ Full details on the [scraper page](https://apify.com/abotapi/rossmann-de-scraper
 | `variants` | list |
 | `legalNotes` | list |
 | `reviews` | object |
+| `productName` | string |
+| `inStock` | boolean |
+| `imageUrl` | string |
+| `category` | null |
 
 ---
 

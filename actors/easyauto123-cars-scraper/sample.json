@@ -3,29 +3,28 @@
     "listingId": "id72412637",
     "url": "https://easyauto123.com.au/example/16729",
     "title": "Example title",
-    "make": "TESLA",
-    "model": "Example model",
-    "variant": "Example variant",
+    "make": "MITSUBISHI",
+    "model": "LANCER",
+    "variant": "ES",
     "year": 2342,
-    "price": 42324,
-    "priceType": "EGC",
-    "state": "NSW",
+    "price": 6324,
+    "priceType": "DAP",
+    "state": "SA",
     "location": "Example location",
-    "region": "Sydney",
-    "siteCode": "EV",
-    "odometer": 22735,
-    "vin": "lrwyhcek3rc977736",
-    "fuelType": "Electric",
+    "region": "Adelaide",
+    "siteCode": "EM",
+    "odometer": 742735,
+    "vin": "jmfstcy6aeu926304",
+    "fuelType": "Petrol",
     "transmission": "Automatic",
     "driveType": "Example drive type",
-    "engineCapacity": "4",
+    "engineCapacity": "9",
     "colour": "White",
     "vehicleTypes": [
-      "Wagon",
-      "SUV"
+      "Sedan"
     ],
-    "fuelConsumption": "9",
-    "carType": "Example car type",
+    "fuelConsumption": "3.3",
+    "carType": "Budget",
     "banner": "Example banner",
     "status": "IN-STOCK",
     "updatedAt": "2026-01-15T10:00:00Z",
@@ -42,33 +41,33 @@
         "taxIncluded": true,
         "calculationInfo": "Example calculation info",
         "displayText": "Example display text",
-        "dollarValue": 98719,
-        "taxValue": 4333.5
+        "dollarValue": 8719,
+        "taxValue": 805.05
       },
       {
-        "component": "ADMIN_FEE",
-        "category": "Fee",
-        "taxIncluded": true,
+        "component": "SD",
+        "category": "Tax",
+        "taxIncluded": null,
         "calculationInfo": "Example calculation info",
         "displayText": "Example display text",
         "dollarValue": 372,
-        "taxValue": 31.41
+        "taxValue": null
       }
     ],
     "storeName": "Example store name",
     "storeEmail": "user72@example.com",
     "storePhone": "+1 555 0100",
     "storeAddress": "Example store address",
-    "storeRating": 3.45,
+    "storeRating": 3.53,
     "storeRaw": {
       "salesPersonEmail": "user51@example.com",
-      "siteCode": "EV",
-      "region": "Sydney",
+      "siteCode": "EM",
+      "region": "Adelaide",
       "friendlyName": "Example friendly name",
       "addressComponents": [
         {
-          "longName": "118",
-          "shortName": "481",
+          "longName": "01",
+          "shortName": "82",
           "types": [
             "street_number"
           ]
@@ -88,25 +87,25 @@
           {
             "close": {
               "date": "2026-01-15",
-              "day": 0,
-              "time": "2478"
+              "day": 5,
+              "time": "8194"
             },
             "open": {
               "date": "2026-01-15",
-              "day": 0,
-              "time": "8346"
+              "day": 5,
+              "time": "9307"
             }
           },
           {
             "close": {
               "date": "2026-01-15",
               "day": 5,
-              "time": "8467"
+              "time": "5529"
             },
             "open": {
               "date": "2026-01-15",
               "day": 5,
-              "time": "3566"
+              "time": "1166"
             }
           }
         ],
@@ -114,14 +113,14 @@
           "Example weekday text",
           "Example weekday text"
         ],
-        "specialDays": []
+        "specialDays": null
       },
       "formattedAddress": "Example formatted address",
       "formattedPhoneNumber": "+1 555 0100",
       "geometry": {
         "location": {
-          "lat": -40.72,
-          "lng": 175.06
+          "lat": -41.92,
+          "lng": 160.75
         }
       },
       "internationalPhoneNumber": "+1 555 0100",
@@ -133,28 +132,28 @@
           "Example weekday text"
         ]
       },
-      "placeId": "chiju59kdlgvemsrfr3uxmspdxo",
-      "rating": 4.55,
+      "placeId": "chijf1l-jrzjsgor41n3mnxgs10",
+      "rating": 4.65,
       "url": "https://maps.google.com/example/16729",
       "userRatingsTotal": 3919,
       "website": "https://easyauto123.com.au/example/80374",
       "distanceBySiteCode": {
-        "EN": 99.32,
-        "EK": 21.32,
-        "EB": 696.89,
-        "EC": 2571.67,
-        "EH": 821.52,
-        "EV": 0,
-        "EM": 1466.24,
-        "EJ": 2980.16,
-        "EO": 1293.95,
-        "ER": 104.24,
-        "EL": 3268.03,
-        "EQ": 3460.35,
-        "EE": 614.09,
-        "ED": 702.65,
-        "EY": 156.81,
-        "EG": 91.13
+        "EN": 890.04,
+        "EB": 646.7,
+        "EK": 1378.55,
+        "EC": 1675.57,
+        "EH": 1755.6,
+        "EM": 0,
+        "EV": 1159.35,
+        "EO": 1441.48,
+        "EJ": 1948.56,
+        "ER": 865.51,
+        "EL": 2134.12,
+        "EQ": 2257.13,
+        "EE": 1303.67,
+        "ED": 757.33,
+        "EY": 1322.54,
+        "EG": 857.52
       }
     },
     "detailFetched": true,

@@ -1,7 +1,7 @@
 [
   {
     "id": "id60539830",
-    "title": "Example title",
+    "title": "Example title: mock text standing in for the real value. Same field and type, made-up content.",
     "url": "https://www.jobteaser.com/example/83164",
     "company": {
       "id": "id60539830",
@@ -11,10 +11,10 @@
       "profile_url": "https://www.jobteaser.com/example/6908",
       "logo_url": "https://d1guu6n8gz71j.cloudfront.net/example/75717.jpg",
       "cover_image_url": "https://d1guu6n8gz71j.cloudfront.net/example/85561.jpg",
-      "short_description": null
+      "short_description": "Example short_description"
     },
     "company_profile": {
-      "summary": null,
+      "summary": "Example summary",
       "type_label": "Example type_label",
       "size_label": "Example size_label",
       "industry_label": "Example industry_label"
@@ -33,46 +33,46 @@
     },
     "primary_location": {
       "address": "Example address",
-      "city": "Milan",
-      "region": "Lombardy",
+      "city": "Belgrade",
+      "region": "Example region",
       "sub_region": "Example sub_region",
-      "country": "Italy",
-      "place_id": "chij63usp1nbhkcrjq04xhpn_zw",
-      "latitude": 40.47,
-      "longitude": 11.75,
+      "country": "Serbia",
+      "place_id": "bg6jywxpdhk0cnm3y6l7etp9bfz0nmx8vxv3yzbnqljhqnnkudjjt6a7bws5",
+      "latitude": 39.89,
+      "longitude": 26.18,
       "label": "Example label"
     },
     "locations": [
       {
         "address": "Example address",
-        "city": "Milan",
-        "region": "Lombardy",
+        "city": "Belgrade",
+        "region": "Example region",
         "sub_region": "Example sub_region",
-        "country": "Italy",
-        "place_id": "chij63usp1nbhkcrjq04xhpn_zw",
-        "latitude": 40.47,
-        "longitude": 11.75
+        "country": "Serbia",
+        "place_id": "bg6jywxpdhk0cnm3y6l7etp9bfz0nmx8vxv3yzbnqljhqnnkudjjt6a7bws5",
+        "latitude": 39.89,
+        "longitude": 26.18
       }
     ],
     "google_locations": [
       {
         "address": "Example address",
-        "city": "Milan",
-        "region": "Lombardy",
+        "city": "Belgrade",
+        "region": "Example region",
         "sub_region": "Example sub_region",
-        "country": "Italy",
-        "place_id": "chij63usp1nbhkcrjq04xhpn_zw",
-        "latitude": 40.47,
-        "longitude": 11.75
+        "country": "Serbia",
+        "place_id": "bg6jywxpdhk0cnm3y6l7etp9bfz0nmx8vxv3yzbnqljhqnnkudjjt6a7bws5",
+        "latitude": 39.89,
+        "longitude": 26.18
       }
     ],
     "location_count": 5,
     "has_multiple_locations": false,
     "contract": {
       "label": "Example label",
-      "code": "vie",
-      "duration_min_months": 88,
-      "duration_max_months": 22
+      "code": "cdi",
+      "duration_min_months": null,
+      "duration_max_months": null
     },
     "classification": {
       "category_name": "Example category_name",
@@ -88,6 +88,7 @@
       "study_level": "Example study_level",
       "study_level_code": "Example study_level_code",
       "study_level_codes": [
+        "Example study_level_codes",
         "Example study_level_codes"
       ],
       "education_requirement": "Example education_requirement",
@@ -96,8 +97,8 @@
     "work_arrangement": {
       "job_location_type": "TELECOMMUTE",
       "remote_policy": "Example remote_policy",
-      "remote_policy_code": null,
-      "remote_policy_type": "not_specified"
+      "remote_policy_code": "Example remote_policy_code",
+      "remote_policy_type": "partially_remote"
     },
     "compensation": {
       "display_text": "Example display_text",
@@ -115,8 +116,8 @@
       "channel_code": "Example channel_code",
       "message_type": null,
       "internal_type": "Example internal_type",
-      "external_url": "https://www.aplitrak.com/example/88869",
-      "external_id": "26849",
+      "external_url": "https://blackrock.tal.net/example/88869",
+      "external_id": null,
       "easy_apply": null
     },
     "application_flags": {
@@ -134,15 +135,15 @@
       "expected_archive_at": "2026-01-15T10:00:00Z",
       "application_deadline": "Example application_deadline",
       "valid_through": "2026-01-15T10:00:00Z",
-      "start_date": "Example start_date",
-      "start_period": "7",
+      "start_date": null,
+      "start_period": "id78429168",
       "immediate_start": true
     },
     "status": {
       "is_active": true,
       "career_center_status": "Example career_center_status",
       "genai_status": "Example genai_status",
-      "premium": false,
+      "premium": true,
       "private_offer": false,
       "exclusive": false
     },
@@ -170,7 +171,7 @@
           "tagName": "Example tag name",
           "children": [
             {
-              "content": "Example content: mock text standing in for the real value. Same field and type, made-up content.",
+              "content": "Example content",
               "type": "text"
             }
           ],
@@ -180,22 +181,38 @@
           "tagName": "Example tag name",
           "children": [
             {
-              "content": "Example content: mock text standing in for the real value. Same field and type, made-up content.",
-              "type": "text"
+              "tagName": "Example tag name",
+              "children": [
+                {
+                  "content": "Example content: mock text standing in for the real value. Same field and type, made-up content.",
+                  "type": "text"
+                }
+              ],
+              "type": "tag"
+            },
+            {
+              "tagName": "Example tag name",
+              "children": [
+                {
+                  "content": "Example content: mock text standing in for the real value. Same field and type, made-up content.",
+                  "type": "text"
+                }
+              ],
+              "type": "tag"
             }
           ],
           "type": "tag"
         }
       ],
-      "employer_overview": null
+      "employer_overview": "Example employer_overview"
     },
     "media": [
       {
-        "type": "video",
-        "url": "https://img.youtube.com/example/83164.jpg",
+        "type": "image",
+        "url": "https://d1guu6n8gz71j.cloudfront.net/example/83164",
         "name": "Example name",
         "description": null,
-        "thumbnail_url": "https://img.youtube.com/example/73425.jpg"
+        "thumbnail_url": null
       },
       {
         "type": "image",
@@ -206,10 +223,10 @@
       }
     ],
     "platform_metadata": {
-      "creation_source": "broadbean",
+      "creation_source": "Example creation_source",
       "school_id": "20571031-8261-2223-1868-921545213883",
       "sequence_number": 7,
-      "paid_with": null,
+      "paid_with": "credits",
       "partner_school_ids": [
         "id54923398",
         "id57669097"

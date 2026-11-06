@@ -56,6 +56,20 @@
         "boosted": false
       }
     ],
+    "makers": [
+      {
+        "name": "Example name",
+        "handle": "Example handle",
+        "url": "https://betalist.com/example/57965"
+      }
+    ],
+    "product_name": "Example product_name",
+    "long_description": "Example long_description: mock text standing in for the real value. Same field and type, made-up content.",
+    "website": "https://dmautopilot.com/example/47230",
+    "featured_date": "2026-01-15",
+    "maker_name": "Example maker_name",
+    "maker_link": "https://betalist.com/example/27717",
+    "maker_identifier": "MarcusAub",
     "contacts": null,
     "contacts_lookup_url": "https://dmautopilot.com/example/36379",
     "source": {

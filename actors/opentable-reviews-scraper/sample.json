@@ -1,6 +1,6 @@
 [
   {
-    "reviewId": "ot-8169-2948320486-373939294502",
+    "reviewId": "ot-4694-0099004363-907476256477",
     "reviewText": "Example review text: mock text standing in for the real value. Same field and type, made-up content.",
     "ratingOverall": 3,
     "ratingFood": 1,
@@ -18,11 +18,11 @@
     "restaurantReplyText": null,
     "reviewerName": "Example reviewer name",
     "reviewerInitials": "Example reviewer initials",
-    "reviewerIsVip": null,
+    "reviewerIsVip": true,
     "reviewerLocation": "Example reviewer location",
     "reviewerApprovedReviewCount": 5,
     "reviewerProfileColor": "Example reviewer profile color",
-    "reviewerPhotoUrl": "https://resizer.otstatic.com/example/30690.jpg",
+    "reviewerPhotoUrl": null,
     "reviewPhotoUrls": [],
     "reviewPhotoCount": 0,
     "restaurantId": 4824,

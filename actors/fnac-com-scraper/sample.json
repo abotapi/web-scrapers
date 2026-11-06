@@ -27,6 +27,13 @@
       "Taille de l'écran (pouces)": "Example taille de l'écran (pouces)",
       "Couleur": "Example couleur"
     },
+    "sellerId": null,
+    "sellerType": "Example seller type",
+    "sellerLocation": "Example seller location",
+    "isRefurbished": false,
+    "conditionDetail": null,
+    "availability": null,
+    "inStock": null,
     "reviews": {
       "averageRating": 5,
       "ratingCount": 6,
@@ -41,6 +48,7 @@
           "verifiedPurchase": true
         }
       ]
-    }
+    },
+    "scrapedAt": "2026-01-15T10:00:00Z"
   }
 ]

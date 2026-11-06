@@ -72,18 +72,14 @@ Full details on the [scraper page](https://apify.com/abotapi/property24-scraper?
 | `displayPrice` | string |
 | `price` | integer |
 | `currency` | string |
-| `garages` | integer |
+| `bedrooms` | integer |
+| `bathrooms` | integer |
 | `floorSize` | integer |
-| `erfSize` | integer |
 | `suburbName` | string |
 | `description` | string |
 | `mainImage` | string |
 | `source` | string |
 | `scrapedAt` | string |
-| `latitude` | float |
-| `longitude` | float |
-| `hasExactLocation` | boolean |
-| `streetAddress` | string |
 | `provinceName` | string |
 | `provinceId` | string |
 | `cityName` | string |
@@ -103,7 +99,11 @@ Full details on the [scraper page](https://apify.com/abotapi/property24-scraper?
 | `propertyType` | string |
 | `listingDate` | string |
 | `details` | list |
+| `keyFeatures` | list |
 | `photos` | list |
+| `photoCount` | integer |
+| `nearbySuburbs` | list |
+| `auction` | boolean |
 
 ---
 

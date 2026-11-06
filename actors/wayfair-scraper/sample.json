@@ -1,0 +1,72 @@
+[
+  {
+    "recordType": "product",
+    "promoFlag": "Example promo flag",
+    "isBestValue": false,
+    "isSponsored": true,
+    "stockMessage": "Example stock message",
+    "deliveryPromise": "Example delivery promise",
+    "arrivalMessage": "Example arrival message",
+    "keySpecs": {
+      "Top Material": "Example top  material",
+      "Adjustability Features": "Example adjustability  features",
+      "Product Type": "Example product  type",
+      "Overall Shape": "Example overall  shape",
+      "Base Material": "Example base  material",
+      "Weight Capacity": "Example weight  capacity",
+      "Overall Depth - Front to Back": "Example overall  depth -  front to  back",
+      "Overall Height - Top to Bottom": "Example overall  height -  top to  bottom"
+    },
+    "brandId": null,
+    "brandUrl": null,
+    "collection": null,
+    "ratingHistogram": null,
+    "reviewSummary": null,
+    "stockStatus": null,
+    "category": null,
+    "categoryId": null,
+    "breadcrumbs": [],
+    "description": null,
+    "highlights": [],
+    "specifications": {},
+    "dimensions": {},
+    "materials": [],
+    "selectedOptions": {},
+    "options": [
+      {
+        "optionKey": "Example option key",
+        "group": "Example group",
+        "name": "Example name",
+        "optionId": 187593697,
+        "inStock": null,
+        "selected": null,
+        "url": "https://www.wayfair.com/example/9986"
+      },
+      {
+        "optionKey": "Example option key",
+        "group": "Example group",
+        "name": "Example name",
+        "optionId": 444526414,
+        "inStock": null,
+        "selected": null,
+        "url": "https://www.wayfair.com/example/2511"
+      }
+    ],
+    "videos": [],
+    "sku": "w914591876",
+    "variantId": "qc70173093",
+    "optionIds": "519963431,787689673",
+    "name": "Example name: mock text standing in for the real value. Same field and type, made-up content.",
+    "url": "https://www.wayfair.com/example/9986",
+    "brand": "Example brand",
+    "price": 110.23,
+    "wasPrice": 122.09,
+    "currency": "USD",
+    "discountPercent": 2,
+    "discountLabel": "Example discount label",
+    "priceLabel": null,
+    "rating": 4.03,
+    "reviewCount": 49,
+    "imageUrl": "https://assets.wfcdn.com/example/75476.jpg"
+  }
+]

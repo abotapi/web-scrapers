@@ -5,13 +5,13 @@
     "listingId": "id93785512",
     "url": "https://poshmark.com/example/71658",
     "title": "Example title",
-    "brand": null,
-    "brandPath": null,
+    "brand": "None",
+    "brandPath": "None",
     "size": "OS",
     "sizeDisplay": "Example size display",
-    "condition": null,
-    "conditionLabel": null,
-    "price": 51,
+    "condition": "ug",
+    "conditionLabel": "Good",
+    "price": 6,
     "originalPrice": 0,
     "currency": "USD",
     "availability": "available",
@@ -25,23 +25,29 @@
     "category": "Handbags",
     "subcategory": "Totes",
     "colors": [
-      "Red",
-      "Blue"
+      "Black",
+      "Red"
     ],
-    "styleTags": null,
+    "styleTags": [
+      "NY",
+      "Example style tags"
+    ],
     "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
     "likeCount": 0,
     "commentCount": 0,
     "shareCount": 4,
     "offerCount": 0,
-    "sellerUsername": "id32820434",
+    "sellerUsername": "Example seller username",
     "sellerName": "Example seller name",
     "sellerUrl": "https://poshmark.com/example/81838",
     "coverImageUrl": "https://di2ponv0v5otw.cloudfront.net/example/50098.jpg",
-    "pictureUrls": null,
+    "pictureUrls": [
+      "https://di2ponv0v5otw.cloudfront.net/example/16109",
+      "https://di2ponv0v5otw.cloudfront.net/example/43182"
+    ],
     "poshPassEligible": false,
     "soldPrice": null,
     "status": "available",
-    "nwt": null
+    "nwt": false
   }
 ]

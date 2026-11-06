@@ -1,7 +1,7 @@
 [
   {
-    "id": 83945226,
-    "listingId": 33181952,
+    "id": 353945226,
+    "listingId": 663181952,
     "externalId": null,
     "url": "https://www.iproperty.com.my/example/21026",
     "listingUrl": "https://www.iproperty.com.my/example/69933",
@@ -15,12 +15,12 @@
       "value": 278213,
       "pretty": "Example pretty",
       "currency": "MYR",
-      "type": null
+      "type": "Example type"
     },
     "currency": "MYR",
     "priceValue": 323986,
     "pricePretty": "Example price pretty",
-    "priceType": null,
+    "priceType": "Example price type",
     "pricePerArea": "Example price per area",
     "psf": "Example psf",
     "bedrooms": 9,
@@ -31,26 +31,26 @@
     "furnishing": "Example furnishing",
     "listingType": "sale",
     "isCommercial": false,
-    "area": null,
+    "area": "Example area",
     "district": "Example district",
     "region": "Example region",
     "location": {
-      "area": "",
+      "area": "Example area",
       "district": "Example district",
       "region": "Example region",
-      "areaCode": "",
-      "districtCode": "kpycl",
+      "areaCode": "Example area code",
+      "districtCode": "Example district code",
       "regionCode": "Example region code"
     },
-    "fullAddress": "Example full address",
+    "fullAddress": "Example full address: mock text standing in for the real value. Same field and type, made-up content.",
     "shortAddress": "Example short address",
     "agent": {
       "id": 2945226,
       "name": "Example name",
-      "license": "ren56886",
+      "license": "ren83824",
       "isVerified": true,
       "profileUrl": "https://www.iproperty.com.my/example/88425",
-      "avatar": "https://cdn.pgimgs.com/example/92191.jpg"
+      "avatar": "https://ipp1-cdn.pgimgs.com/example/92191.jpg"
     },
     "agency": {
       "id": 65226,
@@ -66,7 +66,7 @@
       "https://ipp1-cdn.pgimgs.com/example/23119.jpg",
       "https://ipp1-cdn.pgimgs.com/example/57881.jpg"
     ],
-    "imageCount": 7,
+    "imageCount": 79,
     "thumbnail": "https://ipp1-cdn.pgimgs.com/example/71535.jpg"
   }
 ]

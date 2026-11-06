@@ -69,7 +69,7 @@ Full details on the [scraper page](https://apify.com/abotapi/taskrabbit-tasker-s
 | `slug` | string |
 | `url` | string |
 | `metroName` | string |
-| `hoursWorked` | integer |
+| `hoursWorked` | float |
 | `positiveRating` | string |
 | `onDuty` | boolean |
 | `taskCountProfile` | integer |

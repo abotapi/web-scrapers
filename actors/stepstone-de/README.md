@@ -17,7 +17,7 @@ python example.py
 ```bash
 curl -s -X POST "https://api.apify.com/v2/acts/abotapi~stepstone-de/run-sync-get-dataset-items?token=$APIFY_TOKEN" \
   -H 'Content-Type: application/json' \
-  -d '{"mode": "search", "locations": ["Berlin"], "workType": "any", "contractType": "any", "datePosted": "0", "workFromHome": "any", "jobLanguage": "any", "experienceLevel": "any", "applyMethod": "any", "sortBy": "relevance", "maxListings": 10, "maxPages": 1, "proxy": {"useApifyProxy": true, "apifyProxyGroups": ["RESIDENTIAL"], "apifyProxyCountry": "DE"}}'
+  -d '{"mode": "search", "locations": ["Berlin"], "workType": "any", "contractType": "any", "datePosted": "0", "workFromHome": "any", "jobLanguage": "any", "experienceLevel": "any", "applyMethod": "any", "sortBy": "relevance", "maxListings": 10, "maxItems": 10, "maxPages": 1, "proxy": {"useApifyProxy": true, "apifyProxyGroups": ["RESIDENTIAL"], "apifyProxyCountry": "DE"}}'
 ```
 
 ## Inputs
@@ -35,9 +35,14 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~stepstone-de/run-sync-get
 | `experienceLevel` | string | Experience level |
 | `applyMethod` | string | How you apply |
 | `sortBy` | string | Sort by |
-| `urls` | array | Search URLs |
+| `discipline` | string | Discipline |
+| `sector` | string | Sector ID |
+| `skillIds` | array | Skill IDs |
+| `cityId` | string | City ID |
+| `urls` | array | Search, company or job URLs |
 | `fetchDetails` | boolean | Fetch full job details |
 | `maxListings` | integer | Max jobs |
+| `maxItems` | integer | Max items (alias) |
 | `maxPages` | integer | Max pages per search |
 | `maxResidentialRequests` | integer | Residential request cap |
 | `proxy` | object | Proxy |
@@ -68,6 +73,18 @@ Full details on the [scraper page](https://apify.com/abotapi/stepstone-de?utm_so
 | `employer` | object |
 | `location` | object |
 | `salary` | object |
+| `companyId` | integer |
+| `companyName` | string |
+| `companyUrl` | string |
+| `companyLogoUrl` | string |
+| `isAnonymous` | boolean |
+| `postCode` | null |
+| `unifiedSalary` | null |
+| `section` | string |
+| `topLabels` | list |
+| `metaData` | object |
+| `hasFuturePosting` | null |
+| `cvToJobScore` | null |
 | `workFromHome` | string |
 | `labels` | list |
 | `skills` | list |
@@ -80,18 +97,6 @@ Full details on the [scraper page](https://apify.com/abotapi/stepstone-de?utm_so
 | `partnership` | object |
 | `travelTime` | null |
 | `description` | null |
-| `descriptionText` | null |
-| `validThrough` | null |
-| `employmentType` | null |
-| `industry` | null |
-| `directApply` | null |
-| `applyType` | null |
-| `jobLocationType` | null |
-| `applicantLocationRequirements` | null |
-| `externalId` | string |
-| `contractType` | null |
-| `workType` | null |
-| `company` | null |
 
 ---
 

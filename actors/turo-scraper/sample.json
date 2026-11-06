@@ -1,20 +1,20 @@
 [
   {
-    "id": "7688934",
+    "id": "9810630",
     "url": "https://turo.com/example/21710",
     "title": "Example title",
-    "make": "Toyota",
-    "model": "Example model",
+    "make": "Ford",
+    "model": "Escape",
     "year": 6998,
     "vehicleType": "SUV",
     "rating": 3,
-    "completedTrips": 61,
+    "completedTrips": 7,
     "hostId": 28554431,
     "city": "Example city",
     "state": "CA",
     "country": "US",
-    "latitude": 32.01,
-    "longitude": -95.63,
+    "latitude": 32.03,
+    "longitude": -95.78,
     "location": {
       "address": "Example address",
       "addressLines": [
@@ -23,9 +23,9 @@
       "city": "Example city",
       "country": "US",
       "id": 77002630,
-      "latitude": 32.01,
+      "latitude": 32.03,
       "locationSource": "GOOGLE",
-      "longitude": -95.63,
+      "longitude": -95.78,
       "precision": {
         "accuracy": 0.08,
         "level": "APPROXIMATE"
@@ -41,12 +41,12 @@
       }
     ],
     "averageDailyPrice": {
-      "amount": 49.84,
+      "amount": 47.25,
       "currency": "USD"
     },
-    "tripTotal": 282.42,
+    "tripTotal": 269.22,
     "currency": "USD",
-    "quotedDailyPrice": 72.25,
+    "quotedDailyPrice": 68.86,
     "quote": {
       "discountSavingsText": null,
       "includedLineItems": [
@@ -58,7 +58,7 @@
             "value": "Example value"
           },
           "price": {
-            "amount": 278.8,
+            "amount": 278.38,
             "currencyCode": "USD"
           },
           "title": "Example title",
@@ -73,7 +73,7 @@
             "value": "Example value"
           },
           "price": {
-            "amount": -3.86,
+            "amount": -34,
             "currencyCode": "USD"
           },
           "title": "Example title",
@@ -93,19 +93,19 @@
       ],
       "priceDisplayType": "TOTAL",
       "totalTripPrice": {
-        "amount": 273.66,
+        "amount": 260.88,
         "currencyCode": "USD"
       },
       "totalTripPriceBeforeDiscount": {
-        "amount": 278.8,
+        "amount": 278.38,
         "currencyCode": "USD"
       },
       "vehicleDailyPrice": {
-        "amount": 92.94,
+        "amount": 92.79,
         "currencyCode": "USD"
       },
       "vehicleDailyPriceAfterDiscount": {
-        "amount": 91.23,
+        "amount": 86.95,
         "currencyCode": "USD"
       },
       "pricingDisplay": {
@@ -160,16 +160,11 @@
     "searchVehicle": {
       "availability": null,
       "avgDailyPrice": {
-        "amount": 49.84,
+        "amount": 47.25,
         "currency": "USD"
       },
-      "badges": [
-        {
-          "label": "Example label",
-          "type": "GREAT_DEAL"
-        }
-      ],
-      "completedTrips": 61,
+      "badges": [],
+      "completedTrips": 7,
       "estimatedQuote": null,
       "hostId": 28554431,
       "id": 5002630,
@@ -187,11 +182,11 @@
         "country": "US",
         "distance": {
           "unit": "MILES",
-          "value": 12.05
+          "value": 1.73
         },
         "homeLocation": {
-          "lat": 35.08,
-          "lng": -128.68
+          "lat": 35.1,
+          "lng": -128.89
         },
         "isDelivery": false,
         "locationId": null,
@@ -208,42 +203,93 @@
         "reservationDeliveryType": null,
         "state": "CA"
       },
-      "make": "Toyota",
-      "model": "Example model",
+      "make": "Ford",
+      "model": "Escape",
       "rating": 3,
       "seoCategory": "SUV",
-      "tags": [],
+      "tags": [
+        {
+          "label": "Example label",
+          "type": "Example type"
+        }
+      ],
       "type": "SUV",
       "year": 6998
     },
     "detail": {
-      "airportLocations": [],
+      "airportLocations": [
+        {
+          "address": "Example address",
+          "code": "LAX",
+          "country": "US",
+          "latitude": 31.91,
+          "longitude": -95.91,
+          "name": "Example name",
+          "pickupAndReturn": {
+            "customLocationDescription": null,
+            "deliveryInstructions": "",
+            "pickupAndReturnDetails": "Example pickup and return details",
+            "rideNeeded": null,
+            "rideNeededDetails": null,
+            "title": "",
+            "value": "REMOTE_UNLOCK"
+          },
+          "region": "CA",
+          "searchPath": "Example search path",
+          "timeZone": "Example time zone",
+          "vehicleCount": ""
+        },
+        {
+          "address": "Example address",
+          "code": "BUR",
+          "country": "US",
+          "latitude": 43.43,
+          "longitude": -99.42,
+          "name": "Example name",
+          "pickupAndReturn": {
+            "customLocationDescription": null,
+            "deliveryInstructions": "",
+            "pickupAndReturnDetails": "Example pickup and return details",
+            "rideNeeded": null,
+            "rideNeededDetails": null,
+            "title": "",
+            "value": "REMOTE_UNLOCK"
+          },
+          "region": "CA",
+          "searchPath": "Example search path",
+          "timeZone": "Example time zone",
+          "vehicleCount": ""
+        }
+      ],
       "badges": [
         {
-          "id": 7,
+          "id": 70,
           "label": "Example label",
-          "value": "all_wheel_drive"
+          "value": "android_auto"
         },
         {
           "id": 61,
           "label": "Example label",
-          "value": "android_auto"
+          "value": "apple_carplay"
         }
       ],
       "basicCarDetails": {
         "automaticTransmission": true,
         "avActiveLabel": null,
-        "averageFuelEconomy": 41.47,
+        "averageFuelEconomy": 32.02,
         "averageFuelEconomyWithLabel": "Example average fuel economy with label",
         "batteryRange": null,
         "batteryRangeLabel": null,
         "cityFuelEconomy": 89,
-        "fuelGrade": null,
+        "fuelGrade": {
+          "label": "Example label",
+          "value": "REGULAR"
+        },
         "fuelType": {
           "label": "Example label",
-          "value": "HYBRID"
+          "value": "GASOLINE"
         },
-        "fuelTypeAndGradeLabel": "Hybrid",
+        "fuelTypeAndGradeLabel": "Example fuel type and grade label",
         "fuelUnit": "MILES_PER_GALLON",
         "fuelUnitLabel": "MPG",
         "highwayFuelEconomy": 44,
@@ -278,9 +324,9 @@
       "dateRangeRate": {
         "appliedDiscountUnit": "DAILY",
         "days": 8,
-        "defaultAverageDailyPrice": 50.24,
+        "defaultAverageDailyPrice": 51.34,
         "defaultAverageDailyPriceWithCurrency": {
-          "amount": 57.09,
+          "amount": 58.34,
           "currencyCode": "USD"
         },
         "interval": {
@@ -295,15 +341,15 @@
             "localTime": "15:10"
           }
         },
-        "rentalPrice": 128.9,
+        "rentalPrice": 727,
         "rentalPriceBeforeDiscount": 171,
         "rentalPriceBeforeDiscountWithCurrency": {
           "amount": 275,
           "currencyCode": "USD"
         },
-        "rentalPriceDiscountPercentage": 3,
+        "rentalPriceDiscountPercentage": 30,
         "rentalPriceWithCurrency": {
-          "amount": 166.11,
+          "amount": 275,
           "currencyCode": "USD"
         }
       },
@@ -314,7 +360,7 @@
             "description": "Example description",
             "enabled": true,
             "extraId": 3457144,
-            "extraPricingType": "PER_TRIP",
+            "extraPricingType": "PER_DAY",
             "extraType": {
               "category": {
                 "label": "Example label",
@@ -324,14 +370,37 @@
               "maxQuantity": 5,
               "priceRecommendationSummary": null,
               "suggestedDescription": null,
-              "value": "ONE_WAY_TRIP"
+              "value": "UNLIMITED_MILES"
             },
             "priceWithCurrency": {
-              "amount": 275,
+              "amount": 95,
               "currencyCode": "USD"
             },
             "quantity": 5,
             "vehicleId": 5113764
+          },
+          {
+            "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
+            "enabled": true,
+            "extraId": 4843725,
+            "extraPricingType": "PER_TRIP",
+            "extraType": {
+              "category": {
+                "label": "Example label",
+                "value": "CONVENIENCE"
+              },
+              "label": "Example label",
+              "maxQuantity": 1,
+              "priceRecommendationSummary": null,
+              "suggestedDescription": null,
+              "value": "PREPAID_REFUEL"
+            },
+            "priceWithCurrency": {
+              "amount": 34,
+              "currencyCode": "USD"
+            },
+            "quantity": 1,
+            "vehicleId": 8865923
           }
         ],
         "hostShareDescription": "Example host share description: mock text standing in for the real value. Same field and type, made-up content.",
@@ -342,8 +411,7 @@
       "guestDeliveryZones": [
         {
           "h3Indexes": [
-            "id71766599",
-            "id51059449"
+            "id71766599"
           ]
         }
       ],
@@ -424,10 +492,10 @@
       },
       "inspectionDetails": null,
       "instantBookLocationPreferences": {
-        "airportLocationEnabled": false,
-        "customLocationEnabled": true,
+        "airportLocationEnabled": true,
+        "customLocationEnabled": false,
         "homeLocationEnabled": true,
-        "poiLocationEnabled": false
+        "poiLocationEnabled": true
       },
       "listingDeleted": false,
       "listingEnabled": true,
@@ -439,9 +507,9 @@
         "city": "Example city",
         "country": "US",
         "id": 77002630,
-        "latitude": 32.01,
+        "latitude": 32.03,
         "locationSource": "GOOGLE",
-        "longitude": -95.63,
+        "longitude": -95.78,
         "precision": {
           "accuracy": 0.08,
           "level": "APPROXIMATE"
@@ -450,11 +518,11 @@
         "state": "CA",
         "timeZone": "Example time zone"
       },
-      "minimumAgeInYearsToRent": 11,
+      "minimumAgeInYearsToRent": null,
       "numberOfFaqs": 0,
       "numberOfFavorites": 218,
-      "numberOfRentals": 97,
-      "numberOfReviews": 94,
+      "numberOfRentals": 7,
+      "numberOfReviews": 4,
       "owner": {
         "allStarHost": true,
         "firstName": "Example first name",
@@ -481,28 +549,107 @@
       "parkingDetails": null,
       "rate": {
         "airportDeliveryFee": null,
-        "airportDeliveryLocationsAndFees": [],
-        "averageDailyPrice": 35.44,
+        "airportDeliveryLocationsAndFees": [
+          {
+            "currentPickupAndReturn": null,
+            "customLocationDescription": null,
+            "deliveryInstructions": "",
+            "enabled": true,
+            "fee": 481,
+            "feeWithCurrency": {
+              "amount": 275,
+              "currencyCode": "USD"
+            },
+            "location": {
+              "address": "Example address",
+              "code": "BUR",
+              "country": "US",
+              "latitude": 32.15,
+              "longitude": -95.87,
+              "name": "Example name",
+              "pickupAndReturn": {
+                "customLocationDescription": null,
+                "deliveryInstructions": "",
+                "pickupAndReturnDetails": "Example pickup and return details",
+                "rideNeeded": null,
+                "rideNeededDetails": null,
+                "title": "",
+                "value": "REMOTE_UNLOCK"
+              },
+              "region": "CA",
+              "searchPath": "Example search path",
+              "timeZone": "Example time zone",
+              "vehicleCount": ""
+            },
+            "migrated": true,
+            "pickupAndReturnOptions": null,
+            "placeId": null,
+            "promotionalFee": null,
+            "promotionalFeeWithCurrency": null,
+            "rideNeeded": null,
+            "valetAvailable": false,
+            "validNonValetCheckInMethods": null,
+            "validValetCheckInMethods": null
+          },
+          {
+            "currentPickupAndReturn": null,
+            "customLocationDescription": null,
+            "deliveryInstructions": "",
+            "enabled": true,
+            "fee": 212,
+            "feeWithCurrency": {
+              "amount": 124,
+              "currencyCode": "USD"
+            },
+            "location": {
+              "address": "Example address",
+              "code": "LAX",
+              "country": "US",
+              "latitude": 43.11,
+              "longitude": -99.46,
+              "name": "Example name",
+              "pickupAndReturn": {
+                "customLocationDescription": null,
+                "deliveryInstructions": "",
+                "pickupAndReturnDetails": "Example pickup and return details",
+                "rideNeeded": null,
+                "rideNeededDetails": null,
+                "title": "",
+                "value": "REMOTE_UNLOCK"
+              },
+              "region": "CA",
+              "searchPath": "Example search path",
+              "timeZone": "Example time zone",
+              "vehicleCount": ""
+            },
+            "migrated": true,
+            "pickupAndReturnOptions": null,
+            "placeId": null,
+            "promotionalFee": null,
+            "promotionalFeeWithCurrency": null,
+            "rideNeeded": null,
+            "valetAvailable": false,
+            "validNonValetCheckInMethods": null,
+            "validValetCheckInMethods": null
+          }
+        ],
+        "averageDailyPrice": 80,
         "averageDailyPriceWithCurrency": {
-          "amount": 55.38,
+          "amount": 95,
           "currencyCode": "USD"
         },
-        "customDeliveryDistance": "Example custom delivery distance",
-        "customDeliveryDistanceWithUnit": {
-          "scalar": 99,
-          "unit": "MI",
-          "unlimited": false
-        },
-        "customDeliveryFee": "Example custom delivery fee",
-        "daily": 35.0,
+        "customDeliveryDistance": null,
+        "customDeliveryDistanceWithUnit": null,
+        "customDeliveryFee": null,
+        "daily": 19,
         "dailyDistance": {
-          "scalar": 279,
+          "scalar": null,
           "unit": "MI",
-          "unlimited": false
+          "unlimited": true
         },
-        "dailyMileage": 996,
+        "dailyMileage": null,
         "excessFeePerDistance": {
-          "amount": 0.28,
+          "amount": 0,
           "currencyCode": "USD"
         },
         "homeLocationFee": "Example home location fee",
@@ -515,8 +662,8 @@
         "monthlyMileage": 6363,
         "promotionResponse": null,
         "regularAirportDeliveryFee": null,
-        "regularCustomDeliveryFee": "Example regular custom delivery fee",
-        "weeklyDiscountPercentage": 1,
+        "regularCustomDeliveryFee": null,
+        "weeklyDiscountPercentage": 82,
         "weeklyDistance": {
           "scalar": 7479,
           "unit": "MI",
@@ -538,14 +685,14 @@
               "label": "Example label"
             }
           ],
-          "ratingsCount": 63
+          "ratingsCount": 9
         },
         "ownerOverall": 2,
         "ratingToHundredth": 7,
         "vehicleId": 5113764
       },
       "tieredOwnerProtectionEnabled": true,
-      "tripCount": 37,
+      "tripCount": 1,
       "turoGo": false,
       "turoGoExplanation": null,
       "vehicle": {
@@ -569,10 +716,10 @@
           "verified": false
         },
         "listingCreatedTime": 8884800416517,
-        "make": "Toyota",
+        "make": "Ford",
         "marketAreaId": null,
         "marketCountry": "US",
-        "model": "Example model",
+        "model": "Escape",
         "name": "Example name",
         "registration": {
           "insuranceCardUrl": "https://help.turo.com/example/75232",
@@ -580,7 +727,7 @@
           "regionRequired": true,
           "state": "CA"
         },
-        "trim": "LE",
+        "trim": "Example trim",
         "type": "SUV",
         "url": "https://turo.com/example/21710",
         "vin": null,
@@ -588,11 +735,140 @@
         "marketCurrency": {
           "currencyCode": "USD",
           "decimalPlaces": 8,
-          "defaultFractionDigits": 9,
+          "defaultFractionDigits": null,
           "symbol": "Example symbol"
         }
       },
-      "vehicleDeliveryLocations": [],
+      "vehicleDeliveryLocations": [
+        {
+          "checkInMethod": {
+            "checkInMethod": "REMOTE_UNLOCK",
+            "description": "Example description",
+            "title": ""
+          },
+          "defaultParkingRecords": null,
+          "deliveryLocation": {
+            "alert": null,
+            "banner": null,
+            "deliveryFeeBadge": null,
+            "deliveryFeeSliderProperties": {
+              "increment": 1,
+              "maximum": {
+                "amount": 275,
+                "currencyCode": "USD"
+              },
+              "minimum": {
+                "amount": 0,
+                "currencyCode": "USD"
+              }
+            },
+            "deliveryLocationRestriction": null,
+            "formattedAddress": "Example formatted address",
+            "isParkingCreditSupported": true,
+            "isPermitted": true,
+            "latitude": 31.91,
+            "longitude": -95.91,
+            "name": "Example name",
+            "operational": true,
+            "parkingLocations": null,
+            "parkingLocationsSummary": null,
+            "placeId": "chijtu-ye0kwwoar1a9lavd3qhc",
+            "promotionOptions": null,
+            "type": "AIRPORT",
+            "valetAvailable": false,
+            "validNonValetCheckInMethods": [
+              {
+                "checkInMethod": "MEET_THE_GUEST",
+                "description": "Example description",
+                "title": ""
+              },
+              {
+                "checkInMethod": "LOCKBOX",
+                "description": "Example description",
+                "title": ""
+              }
+            ],
+            "validValetCheckInMethods": []
+          },
+          "enabled": true,
+          "fee": {
+            "amount": 275,
+            "currencyCode": "USD"
+          },
+          "instructions": "",
+          "locationId": 5138136,
+          "promotion": null,
+          "promotionalFee": null,
+          "reservationDeliveryType": null,
+          "valet": false,
+          "vehicleDeliveryLocationId": 6069918,
+          "vehicleId": 5113764
+        },
+        {
+          "checkInMethod": {
+            "checkInMethod": "MEET_THE_GUEST",
+            "description": "Example description",
+            "title": ""
+          },
+          "defaultParkingRecords": null,
+          "deliveryLocation": {
+            "alert": null,
+            "banner": null,
+            "deliveryFeeBadge": null,
+            "deliveryFeeSliderProperties": {
+              "increment": 8,
+              "maximum": {
+                "amount": 124,
+                "currencyCode": "USD"
+              },
+              "minimum": {
+                "amount": 0,
+                "currencyCode": "USD"
+              }
+            },
+            "deliveryLocationRestriction": null,
+            "formattedAddress": "Example formatted address",
+            "isParkingCreditSupported": false,
+            "isPermitted": false,
+            "latitude": 43.11,
+            "longitude": -99.45,
+            "name": "Example name",
+            "operational": true,
+            "parkingLocations": null,
+            "parkingLocationsSummary": null,
+            "placeId": "chijwqrr4ts0woarhv5lcajcw32",
+            "promotionOptions": null,
+            "type": "LODGING",
+            "valetAvailable": false,
+            "validNonValetCheckInMethods": [
+              {
+                "checkInMethod": "MEET_THE_GUEST",
+                "description": "Example description",
+                "title": ""
+              },
+              {
+                "checkInMethod": "LOCKBOX",
+                "description": "Example description",
+                "title": ""
+              }
+            ],
+            "validValetCheckInMethods": []
+          },
+          "enabled": true,
+          "fee": {
+            "amount": 124,
+            "currencyCode": "USD"
+          },
+          "instructions": "",
+          "locationId": 8857126,
+          "promotion": null,
+          "promotionalFee": null,
+          "reservationDeliveryType": null,
+          "valet": false,
+          "vehicleDeliveryLocationId": 9835556,
+          "vehicleId": 8865923
+        }
+      ],
       "vehicleStatus": "ACTIVE",
       "vehicleValueType": {
         "explanation": {
@@ -611,7 +887,7 @@
         "employment": "",
         "home": "Example home",
         "languages": "",
-        "openEndedText": "Example open ended text",
+        "openEndedText": "",
         "school": ""
       },
       "driver": {
@@ -646,10 +922,10 @@
           ],
           "city": "Example city",
           "country": "US",
-          "id": 77002630,
-          "latitude": 32.01,
+          "id": 5002630,
+          "latitude": 32.03,
           "locationSource": "GOOGLE",
-          "longitude": -95.63,
+          "longitude": -95.78,
           "precision": {
             "accuracy": 0.08,
             "level": "APPROXIMATE"
@@ -660,25 +936,25 @@
         }
       ],
       "memberSince": {
-        "month": 65,
+        "month": 2,
         "year": 6998
       },
       "numberOfRatingsFromCarOwners": 0,
-      "numberOfRatingsFromRenters": 457,
-      "numberOfRentalsFromCarOwners": 0,
-      "numberOfRentalsFromRenters": 537,
+      "numberOfRatingsFromRenters": 97,
+      "numberOfRentalsFromCarOwners": 3,
+      "numberOfRentalsFromRenters": 87,
       "ratingsFromCarOwners": {
         "overall": null,
         "overallRatingToHundredth": null
       },
       "ratingsFromRenters": {
         "overall": 7,
-        "overallRatingToHundredth": 6.09
+        "overallRatingToHundredth": 6.06
       },
       "responseRate": 191,
       "responseTime": {
-        "unit": "HOUR",
-        "value": 8
+        "unit": "MINUTE",
+        "value": 0
       },
       "verifications": [
         {
@@ -698,13 +974,13 @@
     "reviews": [
       {
         "rating": 3,
-        "text": "Example text",
+        "text": "Example text: mock text standing in for the real value. Same field and type, made-up content.",
         "date": "2026-01-15",
-        "time": "12:10",
+        "time": "83:48",
         "dateEpochMillis": 1082320090509,
         "autoPosted": false,
         "reviewer": {
-          "id": 5002630,
+          "id": 77002630,
           "name": "Example name",
           "url": "https://turo.com/example/21710"
         },
@@ -715,7 +991,7 @@
     "reviewsStatus": "complete",
     "availability": null,
     "avgDailyPrice": {
-      "amount": 49.84,
+      "amount": 47.25,
       "currency": "USD"
     },
     "imageUrl": "https://images.turo.com/example/26496.jpg",

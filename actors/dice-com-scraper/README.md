@@ -71,8 +71,8 @@ Full details on the [scraper page](https://apify.com/abotapi/dice-com-scraper?ut
 | `postalCode` | null |
 | `applicantLocationRequirements` | null |
 | `salary` | string |
-| `salaryMin` | null |
-| `salaryMax` | null |
+| `salaryMin` | integer |
+| `salaryMax` | integer |
 | `salaryCurrency` | null |
 | `salaryPeriod` | null |
 | `employmentType` | string |

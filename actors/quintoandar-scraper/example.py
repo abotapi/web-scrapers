@@ -16,6 +16,7 @@ run = client.actor("abotapi/quintoandar-scraper").call(
         "locations": ["São Paulo"],
         "operationType": "rent",
         "propertyType": "all",
+        "furnished": "all",
         "sortBy": "relevance",
         "maxPages": 1,
         "maxListings": 10,

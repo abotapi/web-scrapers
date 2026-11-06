@@ -1,8 +1,8 @@
-# Pap.fr Scraper
+# PAP.fr Scraper
 
-Extract property listings from pap.fr. Get fully-detailed listings with price, address, rooms, area, photo gallery, description, and arrondissement/department/region geography.
+Scrape PAP.fr real estate listings across France. Extract property prices, addresses, room counts, floor areas, full photo galleries, descriptions and location details including arrondissement, department and region. Ideal for property research, price comparison and market analysis.
 
-**[Open Pap.fr Scraper on Apify](https://apify.com/abotapi/pap-fr-scraper?utm_source=github&utm_medium=web-scrapers&utm_campaign=monorepo)** to run it without code and export JSON, CSV or Excel.
+**[Open PAP.fr Scraper on Apify](https://apify.com/abotapi/pap-fr-scraper?utm_source=github&utm_medium=web-scrapers&utm_campaign=monorepo)** to run it without code and export JSON, CSV or Excel.
 
 ## Run it from code
 

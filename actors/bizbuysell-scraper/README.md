@@ -66,7 +66,7 @@ Full details on the [scraper page](https://apify.com/abotapi/bizbuysell-scraper?
 | `shortDescription` | string |
 | `fullDescription` | null |
 | `askingPrice` | integer |
-| `cashFlow` | null |
+| `cashFlow` | integer |
 | `grossRevenue` | null |
 | `ebitda` | null |
 | `inventory` | null |
@@ -89,7 +89,7 @@ Full details on the [scraper page](https://apify.com/abotapi/bizbuysell-scraper?
 | `imageUrl` | string |
 | `images` | list |
 | `brokerName` | string |
-| `brokerPhone` | null |
+| `brokerPhone` | string |
 | `brokerageName` | null |
 | `brokerProfileUrl` | null |
 | `brokerLicense` | null |

@@ -72,7 +72,7 @@ Full details on the [scraper page](https://apify.com/abotapi/bol-com-scraper?utm
 | `category` | string |
 | `categories` | list |
 | `categoryHierarchy` | list |
-| `price` | integer |
+| `price` | float |
 | `list_price` | null |
 | `currency` | string |
 | `price_currency` | string |
@@ -84,7 +84,7 @@ Full details on the [scraper page](https://apify.com/abotapi/bol-com-scraper?utm
 | `originalPrice` | null |
 | `savingsAmount` | null |
 | `savingsPercent` | null |
-| `promoLabel` | string |
+| `promoLabel` | null |
 | `specialsCategory` | null |
 | `condition` | string |
 | `availability` | string |
@@ -99,7 +99,7 @@ Full details on the [scraper page](https://apify.com/abotapi/bol-com-scraper?utm
 | `isbn13` | null |
 | `image` | null |
 | `images` | null |
-| `rating` | float |
+| `rating` | null |
 
 ---
 

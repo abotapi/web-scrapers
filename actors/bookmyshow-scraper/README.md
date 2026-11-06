@@ -66,7 +66,7 @@ Full details on the [scraper page](https://apify.com/abotapi/bookmyshow-scraper?
 | `releaseDate` | string |
 | `formats` | list |
 | `cast` | list |
-| `director` | null |
+| `director` | string |
 | `priceDisplay` | null |
 | `availability` | null |
 | `dateText` | null |

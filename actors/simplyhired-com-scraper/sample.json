@@ -1,21 +1,21 @@
 [
   {
-    "id": "kcj7k4u0rfbilesbpqjnismw6-smvhmiar7j3huegqoip-dldfhsfw",
+    "id": "_qfswpob2lirnq37h0kyygd4eqk6mjay3bt6tuz7gmmince4gakixw",
     "url": "https://www.simplyhired.com/example/1985",
     "title": "Example title",
     "displayTitle": "Example display title",
     "normalizedTitle": "Example normalized title",
     "company": "Example company",
-    "companyRating": 4.95,
+    "companyRating": 3.08,
     "companyPageUrl": null,
     "employerLogoUrl": "https://d2q79iu7y748jz.cloudfront.net/example/77690.jpg",
     "employerHomepage": null,
     "location": "Example location",
-    "formattedLocation": "Example formatted location",
-    "city": "Buffalo",
-    "state": "NY",
-    "latitude": 40.76,
-    "longitude": -81.98,
+    "formattedLocation": "Remote",
+    "city": "Remote",
+    "state": null,
+    "latitude": 95,
+    "longitude": -74,
     "country": "us",
     "jobTypes": [
       "Full-time"
@@ -25,7 +25,7 @@
       "Example remote attributes"
     ],
     "salary": "Example salary",
-    "salaryMin": 161682,
+    "salaryMin": 71682,
     "salaryMax": 345333,
     "salaryCurrency": "USD",
     "salaryPeriod": "year",
@@ -41,7 +41,10 @@
       "Example qualifications",
       "Example qualifications"
     ],
-    "benefits": [],
+    "benefits": [
+      "Example benefits",
+      "Example benefits"
+    ],
     "skillsAll": [
       "Example skills all",
       "Example skills all"
@@ -51,7 +54,7 @@
     "dateOnIndeed": 1298711750719,
     "applyUrl": "https://www.simplyhired.com/example/53111",
     "mobileApplyUrl": "https://www.simplyhired.com/example/25721",
-    "indeedApply": true,
+    "indeedApply": false,
     "sponsored": true
   }
 ]

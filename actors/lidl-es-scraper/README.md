@@ -17,7 +17,7 @@ python example.py
 ```bash
 curl -s -X POST "https://api.apify.com/v2/acts/abotapi~lidl-es-scraper/run-sync-get-dataset-items?token=$APIFY_TOKEN" \
   -H 'Content-Type: application/json' \
-  -d '{"mode": "search", "searchTerm": "bateria", "sortBy": "RELEVANCE", "maxPages": 1, "maxItems": 10, "proxy": {"useApifyProxy": true}}'
+  -d '{"mode": "search", "searchTerm": "bateria", "sortBy": "RELEVANCE", "maxPages": 1, "maxItems": 10, "maxReviewsPerProduct": 10, "proxy": {"useApifyProxy": true}, "changeScope": "all"}'
 ```
 
 ## Inputs
@@ -29,15 +29,21 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~lidl-es-scraper/run-sync-
 | `category` | string | Department |
 | `brand` | string | Brand |
 | `specialsOnly` | boolean | Weekly offers only |
+| `inStockOnly` | boolean | In stock only |
+| `strictMatch` | boolean | Strict keyword match |
 | `minPrice` | number | Minimum price (EUR) |
 | `maxPrice` | number | Maximum price (EUR) |
 | `minRating` | number | Minimum rating (1-5) |
 | `sortBy` | string | Sort order |
 | `urls` | array | URLs to scrape |
-| `fetchDetails` | boolean | Fetch shopper reviews |
 | `maxPages` | integer | Max search pages |
 | `maxItems` | integer | Max products total |
+| `fetchDetails` | boolean | Fetch shopper reviews |
+| `maxReviewsPerProduct` | integer | Max reviews per product |
 | `proxy` | object | Proxy configuration |
+| `changeScope` | string | What counts as a change (incremental m |
+| `compactUpdates` | boolean | Compact update rows (incremental mode  |
+| `expireAfterMissedScans` | integer | Expire after N missed full scans (incr |
 
 `*` required
 
@@ -78,6 +84,17 @@ Full details on the [scraper page](https://apify.com/abotapi/lidl-es-scraper?utm
 | `recommendedYes` | integer |
 | `recommendedNo` | integer |
 | `reviews` | object |
+| `name` | string |
+| `erpNumber` | string |
+| `itemNumber` | string |
+| `productKey` | string |
+| `country` | string |
+| `categoryLvl0` | string |
+| `labels` | list |
+| `priceEur` | float |
+| `priceNormal` | float |
+| `comparePrice` | null |
+| `compareUnit` | null |
 
 ---
 

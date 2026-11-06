@@ -92,7 +92,7 @@ Full details on the [scraper page](https://apify.com/abotapi/trendyol-scraper?ut
 | `hasCodePromo` | boolean |
 | `hasFlashSale` | boolean |
 | `isInfluencerPreferred` | boolean |
-| `lowestPriceDays` | integer |
+| `lowestPriceDays` | null |
 | `hasReviewPhoto` | boolean |
 | `dealBadge` | null |
 | `stripBadge` | null |

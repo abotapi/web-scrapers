@@ -63,7 +63,7 @@ Full details on the [scraper page](https://apify.com/abotapi/yanolja-com-scraper
 | `stayGroup` | string |
 | `hotelStar` | null |
 | `badges` | list |
-| `locationDescription` | null |
+| `locationDescription` | string |
 | `address` | string |
 | `latitude` | float |
 | `longitude` | float |
@@ -85,8 +85,8 @@ Full details on the [scraper page](https://apify.com/abotapi/yanolja-com-scraper
 | `checkOutDate` | string |
 | `checkInTime` | null |
 | `checkOutTime` | null |
-| `description` | string |
-| `descriptionText` | string |
+| `description` | null |
+| `descriptionText` | null |
 | `facilities` | list |
 | `mainImageUrl` | string |
 | `photoUrls` | list |

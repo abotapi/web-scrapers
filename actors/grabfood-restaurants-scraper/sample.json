@@ -17,7 +17,7 @@
     "businessType": "FOOD",
     "estimatedDeliveryTime": 71,
     "estimatedDeliveryTimeRange": "Example estimated delivery time range",
-    "distanceInKm": 5.0,
+    "distanceInKm": 4.85,
     "hasPromo": true,
     "promoLabels": [
       "Example promo labels",
@@ -29,7 +29,7 @@
       "currencySymbol": "Example currency symbol",
       "price": 918,
       "priceDisplay": "Example price display",
-      "discountedPrice": 59,
+      "discountedPrice": 779,
       "hasDiscountedPrice": true
     },
     "currency": {
@@ -74,7 +74,7 @@
         "itemCount": 1,
         "items": [
           {
-            "id": "sgite00495657463713035234",
+            "id": "sgite78177913203031329645",
             "name": "Example name",
             "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
             "available": true,
@@ -86,24 +86,26 @@
             "discountedPriceDisplay": "6.35",
             "discountedPrice": 779,
             "imageUrl": "https://huawei-food-cms.grab.com/example/15886.jpg",
-            "modifierGroupCount": 4,
-            "isOnSpecial": false
+            "isOnSpecial": true,
+            "savingsAmount": 377,
+            "discountPercent": 26
           },
           {
-            "id": "sgite46506474636290130921",
+            "id": "sgite77193472688826014916",
             "name": "Example name",
             "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
             "available": true,
-            "price": 9411,
+            "price": 411,
             "currencyCode": "SGD",
             "currencyExponent": 1,
-            "priceInCurrencyUnits": 11.77,
-            "priceDisplay": "97.13",
-            "discountedPriceDisplay": "82.60",
-            "discountedPrice": 1097,
+            "priceInCurrencyUnits": 10.69,
+            "priceDisplay": "3.36",
+            "discountedPriceDisplay": "6.04",
+            "discountedPrice": 197,
             "imageUrl": "https://huawei-food-cms.grab.com/example/88528.jpg",
-            "modifierGroupCount": 8,
-            "isOnSpecial": false
+            "isOnSpecial": true,
+            "savingsAmount": 296,
+            "discountPercent": 31
           }
         ]
       },
@@ -113,34 +115,35 @@
         "itemCount": 8,
         "items": [
           {
-            "id": "sgite39392509610928356136",
+            "id": "sgite68049873171012987854",
             "name": "Example name",
             "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
             "available": true,
-            "price": 9411,
+            "price": 411,
             "currencyCode": "SGD",
             "currencyExponent": 1,
-            "priceInCurrencyUnits": 14.58,
-            "priceDisplay": "73.44",
-            "discountedPriceDisplay": "81.07",
-            "discountedPrice": 1097,
+            "priceInCurrencyUnits": 10.69,
+            "priceDisplay": "3.36",
+            "discountedPriceDisplay": "1.97",
+            "discountedPrice": 197,
             "imageUrl": "https://huawei-food-cms.grab.com/example/88528.jpg",
             "modifierGroupCount": 8,
             "isOnSpecial": false
           },
           {
-            "id": "sgite29744514728391715074",
+            "id": "sgite21078055963424531862",
             "name": "Example name",
-            "description": "Example description",
+            "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
             "available": true,
-            "price": 728,
+            "price": 8828,
             "currencyCode": "SGD",
             "currencyExponent": 8,
-            "priceInCurrencyUnits": 3.48,
-            "priceDisplay": "1.35",
-            "discountedPriceDisplay": "6.71",
-            "discountedPrice": 336,
+            "priceInCurrencyUnits": 7.74,
+            "priceDisplay": "44.49",
+            "discountedPriceDisplay": "22.17",
+            "discountedPrice": 5736,
             "imageUrl": "https://huawei-food-cms.grab.com/example/43642.jpg",
+            "modifierGroupCount": 3,
             "isOnSpecial": false
           }
         ]

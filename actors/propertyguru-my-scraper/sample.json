@@ -2,11 +2,11 @@
   {
     "id": 983384098,
     "title": "Example title",
-    "address": "Example address",
+    "address": "Example address: mock text standing in for the real value. Same field and type, made-up content.",
     "listing_type": "sale",
-    "property_type": "Landed",
-    "property_type_group": "S",
-    "price": 2387374,
+    "property_type": "Condo",
+    "property_type_group": "N",
+    "price": 587374,
     "price_formatted": "Example price_formatted",
     "currency": "MYR",
     "price_psf": "Example price_psf",
@@ -17,14 +17,14 @@
     "developer": "Example developer",
     "is_developer_listing": false,
     "agent_name": "Example agent_name",
-    "agent_id": 937528,
-    "agent_license": "pea6037",
-    "state": "Selangor",
-    "region": "Selangor",
-    "city": "Example city",
+    "agent_id": 11737528,
+    "agent_license": "ren85876",
+    "state": "Example state",
+    "region": "Example region",
+    "city": "Setapak",
     "badges": [
-      "Example badges",
-      "Example badges"
+      "Condominium",
+      "Leasehold"
     ],
     "posted_date": "Example posted_date",
     "posted_unix": 2767167919,
@@ -39,25 +39,21 @@
     "agency_name": "Example agency_name",
     "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
     "headline": "Example headline",
-    "latitude": 2.48,
-    "longitude": 106.54,
+    "latitude": 2.56,
+    "longitude": 106.8,
     "nearby_schools": [
       {
-        "id": "10013",
+        "id": "03397",
         "name": "Example name"
       },
       {
-        "id": "17817",
+        "id": "03624",
         "name": "Example name"
       }
     ],
     "facilities": [
       "Example facilities",
       "Example facilities"
-    ],
-    "amenities": [
-      "Example amenities",
-      "Example amenities"
     ],
     "images_full": [
       "https://my1-cdn.pgimgs.com/example/66676.jpg",
@@ -70,8 +66,7 @@
     "title": "Example title",
     "address": "Example address",
     "listing_type": "sale",
-    "property_type": "Landed",
-    "property_type_group": "T",
+    "property_type_group": "N",
     "price": 0,
     "price_formatted": "Example price_formatted",
     "currency": "MYR",
@@ -85,9 +80,9 @@
     "agent_id": 86877222,
     "state": "Example state",
     "region": "Example region",
-    "city": "Seremban",
+    "city": "Example city",
     "badges": [
-      "Freehold",
+      "Example badges",
       "Example badges"
     ],
     "posted_date": "Example posted_date",
@@ -100,32 +95,12 @@
     "image_count": 3,
     "url": "https://www.propertyguru.com.my/example/89596",
     "status": "ACT",
-    "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
-    "headline": "Example headline",
-    "latitude": 3.06,
-    "longitude": 98.83,
-    "nearby_schools": [
-      {
-        "id": "03829",
-        "name": "Example name"
-      },
-      {
-        "id": "82190",
-        "name": "Example name"
-      }
-    ],
-    "facilities": [
-      "Example facilities"
-    ],
     "highlights": [
-      "Example highlights",
       "Example highlights"
     ],
     "images_full": [
       "https://my1-cdn.pgimgs.com/example/8582.jpg",
       "https://my1-cdn.pgimgs.com/example/54977.jpg"
-    ],
-    "location_source": "detail_page",
-    "project_name": "Example project_name"
+    ]
   }
 ]

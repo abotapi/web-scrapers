@@ -1,21 +1,21 @@
 [
   {
     "id": 995346369,
-    "productId": "32161298",
+    "productId": "71636996",
     "name": "Example name",
     "brand": "Zara",
-    "reference": "41175895-i4425",
+    "reference": "37409878-i3485",
     "section": "WOMAN",
-    "family": "MONO",
+    "family": "VESTIDO",
     "subfamily": "Example subfamily",
     "kind": "Wear",
     "description": "",
     "url": "https://www.zara.com/example/208",
     "currency": "EUR",
-    "defaultColorId": "522",
+    "defaultColorId": "541",
     "colors": [
       {
-        "id": "272",
+        "id": "105",
         "name": "Example name",
         "hexColor": "Example hex color",
         "discernProductId": 700558918,
@@ -25,46 +25,18 @@
             "url": "https://static.zara.net/example/208",
             "width": 9969,
             "height": 1221,
-            "kind": "full"
+            "kind": "other"
           },
           {
             "url": "https://static.zara.net/example/21326",
             "width": 8756,
             "height": 8311,
-            "kind": "other"
+            "kind": "full"
           }
         ],
         "sizes": [],
         "currency": "EUR",
         "price": 47.94,
-        "oldPrice": null,
-        "originalPrice": null,
-        "discountPercent": null,
-        "isOnSale": false
-      },
-      {
-        "id": "913",
-        "name": "Example name",
-        "hexColor": "Example hex color",
-        "discernProductId": 498025251,
-        "availability": "in_stock",
-        "images": [
-          {
-            "url": "https://static.zara.net/example/21326",
-            "width": 8756,
-            "height": 8311,
-            "kind": "other"
-          },
-          {
-            "url": "https://static.zara.net/example/27359",
-            "width": 7634,
-            "height": 5822,
-            "kind": "other"
-          }
-        ],
-        "sizes": [],
-        "currency": "EUR",
-        "price": 43.55,
         "oldPrice": null,
         "originalPrice": null,
         "discountPercent": null,
@@ -81,7 +53,7 @@
     "type": "Product",
     "state": null,
     "keyword": "Example keyword",
-    "displayReference": "2051/485",
+    "displayReference": "0139/497",
     "detailedComposition": null,
     "extraInfo": {
       "highlightPrice": false,
@@ -102,13 +74,13 @@
         "url": "https://static.zara.net/example/208",
         "width": 9969,
         "height": 1221,
-        "kind": "full"
+        "kind": "other"
       },
       {
         "url": "https://static.zara.net/example/21326",
         "width": 8756,
         "height": 8311,
-        "kind": "other"
+        "kind": "full"
       }
     ],
     "pricing": {

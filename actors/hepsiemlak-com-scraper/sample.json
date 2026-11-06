@@ -1,12 +1,12 @@
 [
   {
     "recordType": "listing",
-    "listingId": "935745-1903",
+    "listingId": "319877-48",
     "url": "https://www.hepsiemlak.com/example/84506",
     "title": "Example title",
     "price": 4028640,
     "currency": "TRY",
-    "grossSqm": 11,
+    "grossSqm": 551,
     "rooms": 4,
     "bedrooms": 1,
     "propertyTypes": [
@@ -36,24 +36,23 @@
       "https://hecdn01.hemlak.com/example/36664.jpg"
     ],
     "imageCount": 79,
-    "latitude": 36.92,
-    "longitude": 28.39,
+    "latitude": 36.91,
+    "longitude": 28.37,
     "mapLocation": {
-      "lat": 30.77,
-      "lon": 36.41
+      "lat": 30.76,
+      "lon": 36.4
     },
     "roomCount": 7,
     "livingRoomCount": 4,
     "roomPlan": "7+1",
     "sellerType": "Example seller type",
-    "netAreaSqm": 10,
+    "netAreaSqm": 190,
     "owner": {
       "id": 5035965,
       "name": "Example name",
       "type": "Example type",
       "url": "Example url",
       "phones": [
-        "+1 555 0100",
         "+1 555 0100"
       ]
     },

@@ -17,7 +17,7 @@ python example.py
 ```bash
 curl -s -X POST "https://api.apify.com/v2/acts/abotapi~officeworks-scraper/run-sync-get-dataset-items?token=$APIFY_TOKEN" \
   -H 'Content-Type: application/json' \
-  -d '{"mode": "search", "queries": ["laptop"], "sortBy": "relevance", "maxReviewsPerProduct": 10, "maxItems": 10, "maxPages": 1, "proxy": {"useApifyProxy": true}}'
+  -d '{"mode": "search", "queries": ["laptop"], "sortBy": "relevance", "maxReviewsPerProduct": 10, "maxItems": 10, "maxPages": 1, "proxy": {"useApifyProxy": true}, "changeScope": "all"}'
 ```
 
 ## Inputs
@@ -38,7 +38,14 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~officeworks-scraper/run-s
 | `maxReviewsPerProduct` | integer | Max reviews per product |
 | `maxItems` | integer | Max products |
 | `maxPages` | integer | Max pages per search |
+| `deliveryPostcode` | string | Delivery postcode |
+| `verifyHomeDelivery` | boolean | Check home delivery live |
+| `pickupStoreId` | string | Pickup store (optional) |
 | `proxy` | object | Proxy configuration |
+| `baselineDatasetId` | string | Start from an existing dataset (option |
+| `changeScope` | string | What counts as a change (incremental m |
+| `compactUpdates` | boolean | Compact update rows (incremental mode  |
+| `expireAfterMissedScans` | integer | Expire after N missed full scans (incr |
 
 `*` required
 

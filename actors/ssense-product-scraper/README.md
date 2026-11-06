@@ -69,6 +69,12 @@ Full details on the [scraper page](https://apify.com/abotapi/ssense-product-scra
 | `currency` | string |
 | `inStock` | boolean |
 | `imageUrl` | string |
+| `description` | string |
+| `category` | string |
+| `images` | list |
+| `sizes` | list |
+| `composition` | string |
+| `countryOfOrigin` | string |
 | `scrapedAt` | string |
 
 ---

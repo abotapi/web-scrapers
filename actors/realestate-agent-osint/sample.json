@@ -23,23 +23,32 @@
         "kind": "personal",
         "source": "reiwa",
         "basis": "Example basis"
-      },
-      {
-        "value": "user7@example.com",
-        "kind": "role",
-        "source": "agencysite",
-        "basis": "Example basis"
       }
     ],
     "agencyName": "Example agency name",
     "agencyGroup": null,
     "officeAddress": "Example office address",
     "socialLinks": {
-      "website": "https://www.kswproperty.com.au/example/52916"
+      "facebook": "https://www.facebook.com/example/20523",
+      "linkedin": "https://au.linkedin.com/example/39627",
+      "website": "http://www.banovichhillman.com.au/example/52916"
     },
-    "socialLinkDetails": [],
+    "socialLinkDetails": [
+      {
+        "platform": "facebook",
+        "url": "https://www.facebook.com/example/64673",
+        "kind": "personal",
+        "source": "reiwa"
+      },
+      {
+        "platform": "linkedin",
+        "url": "https://au.linkedin.com/example/50741",
+        "kind": "personal",
+        "source": "reiwa"
+      }
+    ],
     "website": null,
-    "agencyProfileUrl": "https://kswproperty.com.au/example/39907",
+    "agencyProfileUrl": null,
     "bio": null,
     "bioSource": null,
     "yearsExperienceStated": null,
@@ -48,12 +57,12 @@
     "specialities": [],
     "agency": {
       "name": "Example name",
-      "website": "https://www.kswproperty.com.au/example/52916",
+      "website": "http://www.banovichhillman.com.au/example/52916",
       "email": "user63@example.com",
       "emailKind": "Example email kind",
       "phone": "+1 555 0100",
       "address": "Example address",
-      "logoUrl": null,
+      "logoUrl": "https://rimh2.domainstatic.com.au/example/27243.jpg",
       "profileTier": "branded",
       "teamSize": 9,
       "team": [
@@ -69,25 +78,30 @@
         }
       ],
       "source": "domain",
-      "entity": null,
-      "entityCandidates": [
-        {
-          "abn": "89482581703",
-          "name": "Example name",
-          "nameType": "Example name type",
-          "status": "Active",
-          "state": "WA",
-          "postcode": "1656",
-          "matchBasis": "name",
-          "reason": "Example reason: mock text standing in for the real value. Same field and type, made-up content.",
-          "confirmed": false,
-          "url": "https://abr.business.gov.au/example/64673"
-        }
-      ]
+      "entity": {
+        "abn": "23301621183",
+        "entityName": "Example entity name",
+        "entityType": "Example entity type",
+        "status": "Active",
+        "statusSince": "2026-01-15",
+        "gstRegistered": true,
+        "gstRegisteredSince": "2026-01-15",
+        "businessNames": [
+          "Example business names",
+          "Example business names: mock text standing in for the real value. Same field and type, made-up content."
+        ],
+        "state": "WA",
+        "postcode": "6479",
+        "source": "abr",
+        "basis": "Example basis: mock text standing in for the real value. Same field and type, made-up content.",
+        "confirmed": true,
+        "url": "https://abr.business.gov.au/example/64673"
+      },
+      "entityCandidates": []
     },
     "currentListings": {
-      "count": 2,
-      "listingsRead": 7,
+      "count": 83,
+      "listingsRead": 16,
       "suburbs": [
         {
           "suburb": "Example suburb",
@@ -100,8 +114,12 @@
       ],
       "propertyTypes": [
         {
+          "type": "house",
+          "count": 83
+        },
+        {
           "type": "apartment",
-          "count": 2
+          "count": 1
         }
       ],
       "priceTexts": [
@@ -130,7 +148,7 @@
       },
       {
         "agencyName": "Example agency name",
-        "agencyId": "40447",
+        "agencyId": "43262",
         "start": null,
         "end": null,
         "source": "domain"
@@ -147,28 +165,28 @@
     ],
     "sourceIds": {
       "rma": "Example rma",
-      "domain": "0880708",
-      "reiwa": "38039"
+      "domain": "4416586",
+      "reiwa": "30981"
     },
     "soldSummary": {
-      "countAll": 7,
-      "count12m": 7,
-      "count24m": 5,
+      "countAll": 97,
+      "count12m": 34,
+      "count24m": 77,
       "volume12m": 63033891,
       "volumeAll": 70612014,
       "sources": [
         "rma",
-        "reiwa"
+        "domain"
       ]
     },
     "soldAnalysis": {
-      "listingsWithPrice": 2,
-      "listingsWithDate": 7,
+      "listingsWithPrice": 47,
+      "listingsWithDate": 79,
       "price": {
         "median": 8926954,
         "p25": 3877580,
         "p75": 7271052,
-        "min": 1862593,
+        "min": 962593,
         "max": 3588337,
         "bands": [
           {
@@ -184,9 +202,9 @@
       "areas": [
         {
           "suburb": "Example suburb",
-          "count": 2,
+          "count": 83,
           "medianPrice": 4558788,
-          "minPrice": 6852458,
+          "minPrice": 552458,
           "maxPrice": 6416770,
           "lastSaleDate": "2026-01-15T10:00:00Z"
         },
@@ -202,7 +220,7 @@
       "time": {
         "firstSale": "2026-01-15",
         "lastSale": "2026-01-15",
-        "activeYears": 0.4,
+        "activeYears": 0.72,
         "perYear": [
           {
             "year": "4762",
@@ -210,7 +228,7 @@
           },
           {
             "year": "5135",
-            "count": 1
+            "count": 10
           }
         ],
         "medianGapDays": 43,
@@ -220,52 +238,53 @@
       "methodMix": [
         {
           "method": "Example method",
-          "count": 2
+          "count": 83
         },
         {
-          "method": "unknown",
+          "method": "sold",
           "count": 1
         }
       ]
     },
     "statistics": {
-      "rmaOverallStars": null,
-      "rmaReviewCount": 0,
-      "rmaSoldListings": 1,
+      "rmaOverallStars": 4.99,
+      "rmaReviewCount": 172,
+      "rmaSoldListings": 46,
       "rmaForSale": 89,
       "rmaAverageDaysOnMarket": 11,
-      "rmaAveragePrice": 1566771.43,
+      "rmaAveragePrice": 9851691,
       "rmaTotalSalesValue": 98119502,
       "rmaHasEmailAddress": true,
       "rmaPhoto": "https://cdn.ratemyagent.com.au/example/21651.jpg",
-      "rmaProfileTier": "Default",
-      "rmaClaimed": false,
+      "rmaProfileTier": "Premium",
+      "rmaClaimed": true,
       "rmaProfileSlug": "id28040399",
-      "rmaAgentProfileId": 956944,
+      "rmaAgentProfileId": 56944,
       "agencyCode": "Example agency code",
       "domainContactId": 7006509,
-      "domainAgentIdV2": "a884348",
+      "domainAgentIdV2": "a75235",
       "domainJobCategory": "Example domain job category",
       "domainProfileTier": "branded",
-      "domainReviewCount": 0,
-      "domainStarRating": null,
-      "domainTotalForSale": 3,
-      "domainTotalSold": 5,
+      "domainReviewCount": 155,
+      "domainStarRating": 6.22,
+      "domainTotalForSale": 93,
+      "domainTotalSold": 23,
       "domainTotalForRent": 0,
       "domainTotalLeased": 0,
-      "domainAverageDaysOnMarket": 60.9,
+      "domainAverageDaysOnMarket": 25.37,
       "domainAverageSoldPrice": 5291623,
       "domainHasEmail": true,
-      "reiwaAgentId": "10292",
-      "reiwaMembershipLevel": "FullMember",
+      "reiwaAgentId": "63435",
+      "reiwaMembershipLevel": "AssociateMember",
       "reiwaAccredited": false,
-      "reiwaForSaleTotal": 4,
-      "reiwaForRentTotal": 0,
+      "reiwaForSaleTotal": 22,
+      "reiwaForRentTotal": null,
       "reiwaSoldTotal": 66,
-      "reiwaLeasedTotal": 0,
-      "reiwaListingsSold12m": "85",
+      "reiwaLeasedTotal": null,
+      "reiwaListingsSold12m": "78",
       "reiwaMedianSalePrice": "Example reiwa median sale price",
-      "reiwaMedianDaysOnMarket": "28",
+      "reiwaMedianDaysOnMarket": "99",
+      "rmaAgentCode": "Example rma agent code",
       "reiwaPhoto": "https://imagecdn.reiwa.com.au/example/81528.jpg"
     },
     "photo": "https://cdn.ratemyagent.com.au/example/63339.jpg"

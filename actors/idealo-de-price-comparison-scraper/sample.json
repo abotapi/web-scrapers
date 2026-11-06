@@ -1,18 +1,18 @@
 [
   {
-    "id": "8031421",
+    "id": "255281551",
     "url": "https://www.idealo.de/example/1850",
     "title": "Example title",
-    "brand": "Casio",
-    "category": null,
+    "brand": "Citizen",
+    "category": "Armbanduhren",
     "gtin": null,
-    "lowPrice": 12.37,
-    "highPrice": 31,
+    "lowPrice": 171.77,
+    "highPrice": 211,
     "currency": "EUR",
     "priceFormatted": "Example price formatted",
     "offerCount": 49,
-    "rating": 3.42,
-    "reviewCount": 3641,
+    "rating": 2,
+    "reviewCount": 5,
     "reviewBreakdown": {},
     "previewImage": "https://cdn.idealo.com/example/58945.jpg",
     "images": [
@@ -22,45 +22,81 @@
     "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
     "specs": {
       "Produkttypen": "Example produkttypen",
-      "Serie": "Example serie",
       "wasserdicht": "Example wasserdicht",
       "Gehäuse": "Example gehäuse",
-      "Gehäusegröße": "Example gehäusegröße",
-      "Gehäusehöhe": "Example gehäusehöhe",
-      "Funktionen": "Example funktionen",
-      "Ganggenauigkeit": "Example ganggenauigkeit",
-      "weitere Funktionen": "Example weitere  funktionen",
-      "Uhrwerk": "Example uhrwerk",
+      "Gehäusefarbe": "silberfarben",
+      "Gehäusedurchmesser": "Example gehäusedurchmesser",
+      "Uhrenglas": "Example uhrenglas",
+      "Armband": "Example armband",
+      "Uhrwerke": "Example uhrwerke",
       "Stromversorgung": "Example stromversorgung",
-      "Batterie-Typ": "cr2853",
-      "Anzeige-Eigenschaft": "Example anzeige- eigenschaft",
-      "Anzeigetypen": "Example anzeigetypen",
-      "Anzeige": "digital"
+      "Gangreserve": "Example gangreserve",
+      "Anzeigetyp": "Example anzeigetyp",
+      "Anzeige": "analog"
     },
     "offers": [
       {
         "merchant": "Example merchant",
-        "price": 13.36,
+        "price": 185.51,
         "priceFormatted": "Example price formatted",
         "shipping": "Example shipping",
-        "total": 19.56,
+        "total": 199.25,
         "totalFormatted": "Example total formatted",
         "pros": [],
         "cons": [],
-        "url": "https://www.idealo.de/example/1850"
+        "url": "https://www.idealo.de/example/1850",
+        "shopId": 85165,
+        "position": 2,
+        "offerTitle": "Example offer title",
+        "shopCity": "Neckarsulm",
+        "shopLogoUrl": "https://cdn.idealo.com/example/564.jpg",
+        "shopRating": 4.46,
+        "shopReviewCount": 28033,
+        "marketplace": true,
+        "marketplaceSeller": "Example marketplace seller",
+        "deliveryTime": "Example delivery time",
+        "returnPolicy": "Example return policy",
+        "paymentMethods": [
+          "paypal",
+          "Example payment methods"
+        ]
       },
       {
         "merchant": "Example merchant",
-        "price": 23.39,
+        "price": 638,
         "priceFormatted": "Example price formatted",
         "shipping": "Example shipping",
-        "total": 15.53,
+        "total": 775,
         "totalFormatted": "Example total formatted",
         "pros": [],
         "cons": [],
-        "url": "https://www.idealo.de/example/51329"
+        "url": "https://www.idealo.de/example/51329",
+        "shopId": 75639,
+        "position": 4,
+        "offerTitle": "Example offer title: mock text standing in for the real value. Same field and type, made-up content.",
+        "shopCity": "Neckarsulm",
+        "shopLogoUrl": "https://cdn.idealo.com/example/8459.jpg",
+        "shopRating": 4.14,
+        "shopReviewCount": 79074,
+        "marketplace": true,
+        "marketplaceSeller": "Example marketplace seller",
+        "deliveryTime": "Example delivery time",
+        "returnPolicy": "Example return policy",
+        "paymentMethods": [
+          "paypal",
+          "Example payment methods"
+        ]
       }
     ],
-    "reviews": []
+    "reviews": [],
+    "categories": [
+      "Example categories",
+      "Uhren"
+    ],
+    "priceAvg": 238.52,
+    "availabilityText": "Example availability text",
+    "available": true,
+    "condition": "new",
+    "fetchedAt": "2026-01-15T10:00:00Z"
   }
 ]

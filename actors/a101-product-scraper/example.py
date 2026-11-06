@@ -19,6 +19,7 @@ run = client.actor("abotapi/a101-product-scraper").call(
         "maxPages": 1,
         "maxListings": 10,
         "proxy": {"useApifyProxy": True},
+        "limit": 10,
     },
     logger=None,  # don't stream the run log to your console
 )

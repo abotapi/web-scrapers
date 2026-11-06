@@ -6,12 +6,12 @@
     "title": "Example title",
     "distressType": "mortgagee-sale",
     "url": "https://www.realestate.co.nz/example/24635",
-    "portalId": "901590",
+    "portalId": "879866",
     "publishedAt": "2026-01-15T10:00:00Z",
     "location": {
-      "address": "Example address",
-      "city": "Kamo",
-      "region": "Northland",
+      "address": "Example address: mock text standing in for the real value. Same field and type, made-up content.",
+      "city": "Example city",
+      "region": "Auckland",
       "country": "NZ"
     },
     "valueText": "Example value text",
@@ -50,8 +50,8 @@
       "isMortgageeSale": true,
       "openHomeCount": 0,
       "schoolCount": 55,
-      "geopoint": "-34.243546672985,595.14380085434",
-      "detailPath": "Example detail path"
+      "geopoint": "-29.166863412592,346.22817357384",
+      "detailPath": "Example detail path: mock text standing in for the real value. Same field and type, made-up content."
     },
     "raw": {
       "title-type": 4,
@@ -108,28 +108,28 @@
       "child-cares": [
         {
           "in-zone": false,
-          "school-id": 6272,
+          "school-id": 872,
           "has-zone": false,
           "short-id": "Example short-id",
           "geo-radius": "Example geo-radius",
           "slug": "Example slug",
           "organization-name": "Example organization-name",
           "geo-point": [
-            221.36,
-            -34.96
+            221.94,
+            -36.16
           ]
         },
         {
           "in-zone": false,
-          "school-id": 9001,
+          "school-id": 901,
           "has-zone": false,
-          "short-id": "Example short-id",
+          "short-id": "bbbbbbzr",
           "geo-radius": "Example geo-radius",
           "slug": "Example slug",
           "organization-name": "Example organization-name",
           "geo-point": [
-            170.84,
-            -32.86
+            171.25,
+            -33.92
           ]
         }
       ],
@@ -151,26 +151,26 @@
           "in-zone": true,
           "school-id": 6272,
           "has-zone": true,
-          "short-id": "k38j9ywhmy",
+          "short-id": "f5vmrnwkl9",
           "geo-radius": "Example geo-radius",
           "slug": "Example slug",
           "organization-name": "Example organization-name",
           "geo-point": [
-            221.38,
-            -34.97
+            221.89,
+            -36.16
           ]
         },
         {
           "in-zone": true,
           "school-id": 91,
           "has-zone": true,
-          "short-id": "dvlgd2ljr",
+          "short-id": "vlgd5lsgwc",
           "geo-radius": "Example geo-radius",
           "slug": "Example slug",
           "organization-name": "Example organization-name",
           "geo-point": [
-            170.82,
-            -32.83
+            171.23,
+            -33.93
           ]
         }
       ],
@@ -179,7 +179,7 @@
       "parking-covered-count": 0,
       "header": "Example header",
       "auction-time": "2026-01-15T10:00:00Z",
-      "land-area": 2936,
+      "land-area": 236,
       "website-full-url": "https://www.realestate.co.nz/example/36115",
       "listing-category-code": "res_sale",
       "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
@@ -189,7 +189,7 @@
       "bedroom-count": 6,
       "deferred-share-url": "https://realestateconz.smart.link/example/77770",
       "listing-sub-type": "House",
-      "listing-no": "220872",
+      "listing-no": "607709",
       "is-coastal-waterfront": false
     }
   }

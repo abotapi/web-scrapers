@@ -12,7 +12,7 @@
     "postUrl": "https://www.lemon8-app.com/example/3386",
     "statistics": {
       "savedCount": "8",
-      "likesCount": "3826",
+      "likesCount": "0894",
       "commentsCount": "2"
     },
     "images": [
@@ -38,8 +38,8 @@
       ],
       "editTime": "28/3",
       "statistics": {
-        "savedCount": "9753",
-        "likesCount": "3826",
+        "savedCount": "4763",
+        "likesCount": "0894",
         "commentsCount": "492"
       },
       "galleryImages": [
@@ -83,19 +83,12 @@
         ]
       },
       {
-        "author": "Example author",
+        "author": "lemon3er",
         "authorTag": null,
         "content": "Example content",
-        "time": "89/60",
+        "time": "38/19",
         "likes": "2",
-        "replies": [
-          {
-            "author": "id25246195",
-            "content": "Example content",
-            "time": "4/9",
-            "tag": null
-          }
-        ]
+        "replies": null
       }
     ],
     "commentStats": {
@@ -127,7 +120,7 @@
         "likes": "0"
       },
       {
-        "author": "Example author",
+        "author": "lemon3er",
         "text": "Example text",
         "likes": "2"
       }

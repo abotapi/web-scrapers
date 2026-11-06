@@ -55,7 +55,7 @@ Full details on the [scraper page](https://apify.com/abotapi/thredup-scraper?utm
 | --- | --- |
 | `id` | integer |
 | `itemNumber` | integer |
-| `sku` | null |
+| `sku` | integer |
 | `url` | string |
 | `title` | string |
 | `description` | string |
@@ -76,7 +76,7 @@ Full details on the [scraper page](https://apify.com/abotapi/thredup-scraper?utm
 | `departmentTags` | list |
 | `styleTags` | list |
 | `colorNames` | list |
-| `materials` | null |
+| `materials` | list |
 | `availability` | string |
 | `state` | string |
 | `accessLevels` | list |

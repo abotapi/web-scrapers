@@ -1,0 +1,76 @@
+[
+  {
+    "recordId": "Example record id",
+    "companyName": "Example company name",
+    "encryptedDuns": "id86229550",
+    "profileUrl": "Example profile url: mock text standing in for the real value. Same field and type, made-up content.",
+    "url": "https://www.dnb.com/example/49502",
+    "companyRole": "Example company role",
+    "industryName": "Example industry name",
+    "scopeKind": "search",
+    "scope": "software",
+    "searchQuery": "software",
+    "position": 4,
+    "scrapedAt": "2026-01-15T10:00:00Z",
+    "addressStreet": "Example address street",
+    "addressPostalCode": "23834-7841",
+    "addressCountry": "Example address country",
+    "employeesConsolidatedValue": 45348,
+    "employeesConsolidatedScope": "Example employees consolidated scope",
+    "employeesConsolidatedReliability": "Example employees consolidated reliability",
+    "employeesThisSiteValue": 4833,
+    "employeesThisSiteScope": "Example employees this site scope",
+    "employeesThisSiteReliability": "Example employees this site reliability",
+    "revenueFormatted": "Example revenue formatted",
+    "sales": 3390575397,
+    "revenueReliability": "Example revenue reliability",
+    "revenueYear": "1101",
+    "salesCurrency": "USD",
+    "fiscalPeriodEnd": "Example fiscal period end",
+    "annualRevenues": [
+      {
+        "year": "3282",
+        "revenue": 6523.27,
+        "accuracy": "Example accuracy"
+      },
+      {
+        "year": "4818",
+        "revenue": 7098.34,
+        "accuracy": "Example accuracy"
+      }
+    ],
+    "financialHistory": [
+      {
+        "year": "3282",
+        "revenue": 6523.27
+      },
+      {
+        "year": "4818",
+        "revenue": 7098.34
+      }
+    ],
+    "keyPrincipal": "Example key principal",
+    "principals": [
+      {
+        "name": "Example name",
+        "position": "Example position"
+      },
+      {
+        "name": "Example name",
+        "position": "Example position"
+      }
+    ],
+    "keyPrincipalPosition": "Example key principal position",
+    "totalPrincipals": 2,
+    "totalContactsOnFile": "720",
+    "phone": "+1 555 0100",
+    "website": "Example website",
+    "stockExchange": "Example stock exchange",
+    "stockTicker": "TTWO",
+    "tradeStyleName": "Example trade style name",
+    "industries": [
+      "Example industries",
+      "Example industries"
+    ]
+  }
+]

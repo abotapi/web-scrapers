@@ -1,6 +1,6 @@
 [
   {
-    "listingId": "11311960",
+    "listingId": "63764421",
     "listingType": "sale",
     "channel": "for-sale",
     "url": "https://www.zoopla.co.uk/example/59283",
@@ -28,12 +28,12 @@
     "priceDrop": {
       "firstPriceDate": "Example first price date",
       "lastPriceChangeDate": "Example last price change date",
-      "percentageChangeLabel": "5.3",
-      "priceChangeLabel": "Example price change label"
+      "percentageChangeLabel": null,
+      "priceChangeLabel": null
     },
     "bedrooms": 9,
     "bathrooms": 3,
-    "receptionRooms": 5,
+    "receptionRooms": null,
     "propertyType": "flat",
     "sizeSqft": 990,
     "sizeSource": "structured_data",
@@ -42,28 +42,19 @@
     "availableFrom": null,
     "statusFlag": null,
     "underOffer": null,
-    "isPremium": true,
+    "isPremium": false,
     "featuredType": "weekly_featured",
-    "displayType": "premium_plus",
+    "displayType": "standard",
     "tags": [
       "Example tags",
       "Leasehold"
     ],
-    "highlights": [
-      {
-        "description": null,
-        "label": "Example label"
-      },
-      {
-        "description": null,
-        "label": "Example label"
-      }
-    ],
+    "highlights": [],
     "buyerIncentives": [],
     "latitude": null,
     "longitude": null,
     "imageUrl": "https://lid.zoocdn.com/example/35723.jpg",
-    "imageCaption": "Example image caption",
+    "imageCaption": null,
     "images": [
       "https://lid.zoocdn.com/example/97334.jpg",
       "https://lid.zoocdn.com/example/68945.jpg"

@@ -9,12 +9,12 @@
     "jobUrl": "https://www.stepstone.de/example/26423",
     "applyUrl": "https://www.stepstone.de/example/24789",
     "sourceSite": "StepStone.de",
-    "title": "Example title: mock text standing in for the real value. Same field and type, made-up content.",
+    "title": "Example title",
     "datePosted": "2026-01-15T10:00:00Z",
     "publishFromDate": "2026-01-15T10:00:00Z",
     "publishToDate": "2026-01-15T10:00:00Z",
     "employer": {
-      "id": 96438,
+      "id": 546438,
       "name": "Example name",
       "url": "https://www.stepstone.de/example/38998",
       "logoUrl": "https://www.stepstone.de/example/7453.jpg",
@@ -39,6 +39,21 @@
       "currency": null,
       "period": null
     },
+    "companyId": 870114,
+    "companyName": "Example company name",
+    "companyUrl": "https://www.stepstone.de/example/12315",
+    "companyLogoUrl": "https://www.stepstone.de/example/51396.jpg",
+    "isAnonymous": false,
+    "postCode": null,
+    "unifiedSalary": null,
+    "section": "main",
+    "topLabels": [],
+    "metaData": {
+      "positionOnPage": 1,
+      "positionAbsolute": 1
+    },
+    "hasFuturePosting": null,
+    "cvToJobScore": null,
     "workFromHome": "9",
     "labels": [],
     "skills": [],
@@ -55,18 +70,6 @@
       "sourceSiteFriendlyName": ""
     },
     "travelTime": null,
-    "description": null,
-    "descriptionText": null,
-    "validThrough": null,
-    "employmentType": null,
-    "industry": null,
-    "directApply": null,
-    "applyType": null,
-    "jobLocationType": null,
-    "applicantLocationRequirements": null,
-    "externalId": "id46418649",
-    "contractType": null,
-    "workType": null,
-    "company": null
+    "description": null
   }
 ]

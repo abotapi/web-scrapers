@@ -1,6 +1,6 @@
 # Avito.ru Scraper
 
-Scrape structured listings from Avito.ru by region, category, filters, or direct URL. Automatically paginate through results and extract 25+ fields per listing, including price, full address, metro information, images, posting date, seller type, and verification badges.
+Scrape Avito.ru classifieds across real estate, cars, jobs, services and more. Extract 42 fields including prices, addresses, GPS, photos, descriptions and seller details. Supports optional phone reveal, keyword and URL search, incremental tracking, resume and API export.
 
 **[Open Avito.ru Scraper on Apify](https://apify.com/abotapi/avito-ru-scraper?utm_source=github&utm_medium=web-scrapers&utm_campaign=monorepo)** to run it without code and export JSON, CSV or Excel.
 
@@ -37,6 +37,7 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~avito-ru-scraper/run-sync
 | `maxPages` | integer | Max pages per search |
 | `maxListings` | integer | Max listings |
 | `fetchDetails` | boolean | Fetch detail pages |
+| `fetchPhones` | boolean | Reveal seller phones |
 | `proxy` | object | Proxy configuration |
 
 `*` required

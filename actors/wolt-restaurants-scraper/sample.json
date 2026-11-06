@@ -3,12 +3,12 @@
     "venueId": "id74248090",
     "slug": "Example slug",
     "name": "Example name",
-    "description": "Example description",
+    "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
     "shortDescription": "Example short description",
-    "brandSlug": null,
-    "brandName": null,
-    "brandLogoImage": null,
-    "brandLogoBlurhash": null,
+    "brandSlug": "taco-bell",
+    "brandName": "Example brand name",
+    "brandLogoImage": "https://imageproxy.wolt.com/example/27619.jpg",
+    "brandLogoBlurhash": "Example brand logo blurhash",
     "coverImage": "https://imageproxy.wolt.com/example/78833.jpg",
     "coverBlurhash": "Example cover blurhash",
     "address": "Example address",
@@ -16,19 +16,18 @@
     "cityId": "id27731367",
     "citySlug": "helsinki",
     "countryCode": "FIN",
-    "postCode": "14183",
-    "latitude": 44.54,
-    "longitude": 24.21,
+    "postCode": "55043",
+    "latitude": 44.52,
+    "longitude": 24.19,
     "timezone": "Example timezone",
     "currency": "EUR",
     "phone": "+1 555 0100",
-    "website": "http://wolt.com/example/35823",
+    "website": "https://www.tacobell.fi/example/35823",
     "woltUrl": "https://wolt.com/example/20923",
     "productLine": "restaurant",
     "secondaryProductLine": "none",
     "deliveryMethods": [
-      "homedelivery",
-      "takeaway"
+      "homedelivery"
     ],
     "deliveryBasePrice": 991,
     "deliveryBasePriceFormatted": "Example delivery base price formatted",
@@ -44,11 +43,11 @@
         [
           [
             28.27,
-            77.0
+            77.08
           ],
           [
-            31.73,
-            46.33
+            31.77,
+            46.38
           ]
         ]
       ]
@@ -63,9 +62,9 @@
     "venueId": "id75803481",
     "slug": "Example slug",
     "name": "Example name",
-    "description": "Example description",
+    "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
     "shortDescription": "Example short description",
-    "brandSlug": "burger-king",
+    "brandSlug": "mcdonalds",
     "brandName": "Example brand name",
     "brandLogoImage": "https://imageproxy.wolt.com/example/63920.jpg",
     "brandLogoBlurhash": "Example brand logo blurhash",
@@ -78,11 +77,11 @@
     "countryCode": "FIN",
     "postCode": "31425",
     "latitude": 52.35,
-    "longitude": 22.95,
+    "longitude": 22.94,
     "timezone": "Example timezone",
     "currency": "EUR",
     "phone": "+1 555 0100",
-    "website": "http://www.burgerking.fi/example/34929",
+    "website": "http://mcdonalds.fi/example/34929",
     "woltUrl": "https://wolt.com/example/85361",
     "productLine": "restaurant",
     "secondaryProductLine": "none",
@@ -102,12 +101,12 @@
       "coordinates": [
         [
           [
-            19.1,
+            19.09,
             48.78
           ],
           [
             20.1,
-            74.69
+            74.68
           ]
         ]
       ]

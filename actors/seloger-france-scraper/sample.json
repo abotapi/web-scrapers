@@ -1,12 +1,12 @@
 [
   {
-    "id": "00355w69hyff",
-    "legacy_id": "835231374",
+    "id": "24u9c0yqmmy8",
+    "legacy_id": "208916163",
     "title": "Example title",
     "headline": "Example headline",
     "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
     "price": "Example price",
-    "price_numeric": 151672,
+    "price_numeric": 6451672,
     "price_per_m2": "Example price_per_m2",
     "currency": "EUR",
     "distribution_type": "BUY",
@@ -14,12 +14,13 @@
     "property_type_label": "Appartement",
     "rooms": 9,
     "bedrooms": 7,
-    "area_m2": 31,
+    "area_m2": 481,
     "floor": "Example floor",
     "city": "Example city",
-    "zipcode": "62573",
+    "zipcode": "90943",
     "district": "Example district",
     "region": "Ile-de-France",
+    "building_state": "Example building_state",
     "key_facts": [
       "Example key_facts",
       "Example key_facts"
@@ -28,8 +29,7 @@
       "Example agency_legal_info",
       "Example agency_legal_info"
     ],
-    "agency_website": "https://www.imossimmobilier.fr/example/72228",
-    "agency_fee_url": "http://vd.seloger.com/example/43334",
+    "agency_website": "https://homki-immobilier.com/example/72228",
     "country": "FRA",
     "transport": [
       "Example transport",
@@ -40,7 +40,6 @@
     "agent_phone": "+1 555 0100",
     "agent_address": "Example agent_address",
     "is_exclusive": true,
-    "has_3d_visit": true,
     "is_new": true,
     "publisher_type": "AGENCY",
     "images": [
@@ -48,9 +47,64 @@
       "https://cdnihddipa.cloudimg.io/example/44130.jpg"
     ],
     "image_count": 44,
-    "url": "https://www.seloger.com/example/82834",
-    "portal": "seloger",
+    "url": "https://www.bellesdemeures.com/example/82834",
+    "portal": "Example portal",
     "created_at": "2026-01-15T10:00:00Z",
-    "updated_at": "2026-01-15T10:00:00Z"
+    "updated_at": "2026-01-15T10:00:00Z",
+    "source": "seloger.com"
+  },
+  {
+    "id": "161b0be7xpw6",
+    "legacy_id": "086224546",
+    "title": "Example title",
+    "headline": "Example headline",
+    "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
+    "price": "Example price",
+    "price_numeric": 9622202,
+    "price_per_m2": "Example price_per_m2",
+    "currency": "EUR",
+    "distribution_type": "BUY",
+    "property_type": "APARTMENT",
+    "property_type_label": "Appartement",
+    "rooms": 9,
+    "bedrooms": 2,
+    "area_m2": 388.21,
+    "floor": "Example floor",
+    "city": "Example city",
+    "zipcode": "09289",
+    "district": "Example district",
+    "region": "Ile-de-France",
+    "building_state": "MINT_CONDITION",
+    "key_facts": [
+      "Example key_facts",
+      "Example key_facts"
+    ],
+    "agency_legal_info": [
+      "Example agency_legal_info: mock text standing in for the real value. Same field and type, made-up content.",
+      "Example agency_legal_info: mock text standing in for the real value. Same field and type, made-up content."
+    ],
+    "agency_website": "http://www.danielfeau.com/example/49325",
+    "country": "FRA",
+    "transport": [
+      "Example transport",
+      "Example transport"
+    ],
+    "energy_class": "Example energy_class",
+    "agent_name": "Example agent_name",
+    "agent_phone": "+1 555 0100",
+    "agent_address": "Example agent_address",
+    "has_3d_visit": true,
+    "publisher_type": "AGENCY",
+    "images": [
+      "https://cdnihddipa.cloudimg.io/example/2194.jpg",
+      "https://cdnihddipa.cloudimg.io/example/61699.jpg"
+    ],
+    "image_count": 31,
+    "url": "https://www.bellesdemeures.com/example/12450",
+    "portal": "Example portal",
+    "created_at": "2026-01-15T10:00:00Z",
+    "updated_at": "2026-01-15T10:00:00Z",
+    "source": "seloger.com",
+    "latitude": 49.35
   }
 ]

@@ -1,9 +1,9 @@
 [
   {
     "kind": "event",
-    "eventId": "567005142",
+    "eventId": "320006262",
     "url": "https://www.bandsintown.com/example/84237",
-    "title": "Example title: mock text standing in for the real value. Same field and type, made-up content.",
+    "title": "Example title",
     "datetime": "2026-01-15T10:00:00Z",
     "startsAt": "2026-01-15T10:00:00Z",
     "endsAt": null,
@@ -40,18 +40,18 @@
     "artistThumbUrl": "https://photos.bandsintown.com/example/92562.jpg",
     "artistFacebookPageUrl": "http://www.facebook.com/example/76959",
     "artistTrackerCount": 7564867,
-    "artistUpcomingEventCount": 84,
+    "artistUpcomingEventCount": 3,
     "artistGenre": null,
     "artistBio": null,
     "artistLocation": null,
     "artistLinks": [
       {
-        "type": "itunes",
-        "url": "https://music.apple.com/example/84237"
+        "type": "twitter",
+        "url": "https://x.com/example/84237"
       },
       {
-        "type": "twitter",
-        "url": "https://x.com/example/74498"
+        "type": "itunes",
+        "url": "https://music.apple.com/example/74498"
       }
     ],
     "artistUpcomingEvents": null,

@@ -20,14 +20,14 @@
     "priceCurrency": "AUD",
     "businessFunction": null,
     "revenueDisplay": "Example revenue display",
-    "revenueValue": 504531,
+    "revenueValue": 8604531,
     "cashFlowDisplay": "Example cash flow display",
     "cashFlowValue": 953320,
     "tenure": null,
     "sizeSqFt": null,
-    "tradingHours": "Example trading hours",
-    "employees": "Example employees",
-    "yearsEstablished": null,
+    "tradingHours": "Example trading hours: mock text standing in for the real value. Same field and type, made-up content.",
+    "employees": "Example employees: mock text standing in for the real value. Same field and type, made-up content.",
+    "yearsEstablished": "97/7742",
     "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
     "categories": [
       {
@@ -50,8 +50,9 @@
       "Net Profit": "Example net  profit",
       "Location": "Example location: mock text standing in for the real value. Same field and type, made-up content.",
       "Expansion Potential": "Example expansion  potential: mock text standing in for the real value. Same field and type, made-up content.",
-      "Trading hours": "Example trading hours",
-      "Employees": "Example employees"
+      "Trading hours": "Example trading hours: mock text standing in for the real value. Same field and type, made-up content.",
+      "Employees": "Example employees: mock text standing in for the real value. Same field and type, made-up content.",
+      "Years established": "35/5301"
     },
     "seller": null,
     "thumbnail": "https://www.businessesforsale.com/example/58278.jpg",

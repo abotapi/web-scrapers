@@ -8,8 +8,6 @@
     "currency": "USD",
     "priceDisplay": "Example price display",
     "originalPrice": 3.53,
-    "discountPercent": 30,
-    "rating": 4.1,
     "imageUrl": "https://d1flfk77wl2xk4.cloudfront.net/example/14164.jpg",
     "badges": [
       "Example badges"
@@ -17,8 +15,10 @@
     "originCountry": "KR",
     "brandId": 715778,
     "originalPriceDisplay": "Example original price display",
+    "discountPercent": 30,
     "priceUsd": 0.95,
     "discountAmountUsd": 2.4,
+    "rating": 4.1,
     "reviewCount": 5048,
     "itemStatus": "Example item status",
     "isNew": false,
@@ -61,63 +61,5 @@
       "Types available": "Example types available: mock text standing in for the real value. Same field and type, made-up content.",
       "How to use": "Example how to use: mock text standing in for the real value. Same field and type, made-up content."
     }
-  },
-  {
-    "productId": "4600943156",
-    "url": "https://www.yesstyle.com/example/48481",
-    "brand": "APLB",
-    "name": "Example name",
-    "price": 1.1,
-    "currency": "USD",
-    "priceDisplay": "Example price display",
-    "originalPrice": 3.44,
-    "discountPercent": 57,
-    "rating": 4.11,
-    "imageUrl": "https://d1flfk77wl2xk4.cloudfront.net/example/64917.jpg",
-    "badges": [
-      "Example badges"
-    ],
-    "originCountry": "KR",
-    "brandId": 426113,
-    "originalPriceDisplay": "Example original price display",
-    "priceUsd": 1.11,
-    "discountAmountUsd": 3.35,
-    "reviewCount": 56631,
-    "itemStatus": "Example item status",
-    "isNew": false,
-    "hasVideos": false,
-    "variant": "Example variant",
-    "bestsellerRank": 6,
-    "promotions": [
-      "Example promotions"
-    ],
-    "sourceUrl": "https://www.yesstyle.com/example/34912",
-    "sourceQuery": "Example source query",
-    "searchRank": 7,
-    "productDescription": "Example product description: mock text standing in for the real value. Same field and type, made-up content.",
-    "availability": "Example availability",
-    "condition": "NewCondition",
-    "categories": [
-      "Home",
-      "Beauty"
-    ],
-    "categoryUrls": [
-      "https://www.yesstyle.com/example/1687",
-      "https://www.yesstyle.com/example/53652"
-    ],
-    "images": [
-      "https://d1flfk77wl2xk4.cloudfront.net/example/53845.jpg",
-      "https://d1flfk77wl2xk4.cloudfront.net/example/3687.jpg"
-    ],
-    "imageCount": 69,
-    "selectedOption": "Example selected option",
-    "coverImageUrl": "https://d1flfk77wl2xk4.cloudfront.net/example/57649.jpg",
-    "productDetails": "Example product details: mock text standing in for the real value. Same field and type, made-up content.",
-    "productDetailSections": {
-      "Benefits": "Example benefits: mock text standing in for the real value. Same field and type, made-up content.",
-      "How to use": "Example how to use: mock text standing in for the real value. Same field and type, made-up content."
-    },
-    "howToUse": "Example how to use: mock text standing in for the real value. Same field and type, made-up content.",
-    "benefits": "Example benefits: mock text standing in for the real value. Same field and type, made-up content."
   }
 ]

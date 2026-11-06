@@ -79,16 +79,11 @@ Full details on the [scraper page](https://apify.com/abotapi/twitch-scraper?utm_
 | `scrapedAt` | string |
 | `channelId` | string |
 | `profileImageURL` | string |
-| `stream` | object |
+| `stream` | null |
 | `latestVideo` | object |
 | `topClip` | object |
 | `nextSchedule` | object |
 | `keyword` | null |
-| `streamId` | string |
-| `title` | string |
-| `viewersCount` | integer |
-| `streamStartedAt` | string |
-| `streamLanguage` | string |
 
 ---
 

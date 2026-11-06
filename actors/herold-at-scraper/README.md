@@ -54,34 +54,35 @@ Full details on the [scraper page](https://apify.com/abotapi/herold-at-scraper?u
 | `regionSlug` | string |
 | `position` | integer |
 | `isVerified` | boolean |
-| `breadcrumb` | null |
+| `breadcrumb` | list |
 | `streetAddress` | string |
 | `postalCode` | string |
 | `addressLocality` | string |
 | `addressRegion` | string |
 | `addressCountry` | string |
-| `latitude` | null |
-| `longitude` | null |
+| `latitude` | float |
+| `longitude` | float |
 | `telephone` | string |
-| `email` | string |
+| `email` | null |
 | `website` | string |
 | `logoUrl` | string |
 | `primaryImage` | string |
 | `imageCount` | integer |
-| `foundingDate` | null |
+| `foundingDate` | string |
 | `branchCode` | string |
 | `paymentAccepted` | list |
 | `openingHours` | list |
 | `ratingValue` | float |
 | `ratingCount` | integer |
-| `reviewCount` | null |
+| `reviewCount` | integer |
 | `bestRating` | integer |
 | `worstRating` | integer |
 | `reviews` | list |
-| `description` | null |
+| `description` | string |
 | `services` | list |
 | `branchen` | list |
 | `scrapedAt` | string |
+| `detailFetched` | boolean |
 
 ---
 

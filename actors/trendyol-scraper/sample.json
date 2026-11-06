@@ -16,17 +16,17 @@
       "current": 986524,
       "original": 524223,
       "recommendedRetail": null,
-      "discountPercent": 1.62,
+      "discountPercent": 0,
       "currency": "TRY"
     },
     "rating": {
-      "score": 4.05,
+      "score": 3.92,
       "totalRatings": 775,
-      "totalComments": 72,
+      "totalComments": 702,
       "breakdown": null
     },
     "seller": {
-      "id": 419825,
+      "id": 425,
       "name": "Example name"
     },
     "image": "https://cdn.dsmcdn.com/example/21479.jpg",
@@ -36,13 +36,13 @@
     ],
     "stock": null,
     "inStock": true,
-    "boutiqueId": 25,
-    "campaignId": 85,
+    "boutiqueId": 736495,
+    "campaignId": 421555,
     "listingId": "id41061362",
     "itemNumber": 5685868933,
     "variantValue": "Example variant value",
     "variantId": "Example variant id",
-    "freeCargo": true,
+    "freeCargo": false,
     "fastDelivery": true,
     "officialSeller": true,
     "sameDayShipping": false,
@@ -51,20 +51,13 @@
     "hasCodePromo": false,
     "hasFlashSale": false,
     "isInfluencerPreferred": false,
-    "lowestPriceDays": 37,
+    "lowestPriceDays": null,
     "hasReviewPhoto": true,
     "dealBadge": null,
     "stripBadge": null,
     "promotions": [],
     "stamps": {},
-    "badges": [
-      {
-        "type": "FREE_CARGO",
-        "title": "Example title",
-        "icon": "https://cdn.dsmcdn.com/example/20256.jpg",
-        "color": "Example color"
-      }
-    ],
+    "badges": [],
     "socialProof": [
       {
         "key": "Example key",
@@ -72,7 +65,7 @@
       },
       {
         "key": "Example key",
-        "value": "610+"
+        "value": "272+"
       }
     ],
     "reviews": null

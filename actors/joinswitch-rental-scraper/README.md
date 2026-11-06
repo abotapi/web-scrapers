@@ -82,7 +82,7 @@ Full details on the [scraper page](https://apify.com/abotapi/joinswitch-rental-s
 | `inventoryUpdatedOn` | string |
 | `lowestTierId` | integer |
 | `imageUrl` | string |
-| `imageUrlHover` | null |
+| `imageUrlHover` | string |
 | `imageUrls` | list |
 | `imageCount` | integer |
 | `recordId` | string |

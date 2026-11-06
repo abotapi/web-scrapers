@@ -1,7 +1,7 @@
 [
   {
-    "productId": "1867352",
-    "productGroupId": "276277",
+    "productId": "84337650",
+    "productGroupId": "80872437",
     "title": "Example title: mock text standing in for the real value. Same field and type, made-up content.",
     "brand": "Electrolux",
     "brandId": "056",
@@ -9,44 +9,44 @@
     "categoryName": "Example category name",
     "categoryPath": [
       "Example category path",
-      "Example category path"
+      "Refrigeradores"
     ],
     "categoryIds": [
       "95",
       "96"
     ],
-    "price": 2708.87,
-    "originalPrice": 2392.22,
-    "discountPercent": 82,
-    "discountAmount": 996.06,
-    "listPrice": 2057.9,
+    "price": 4297.13,
+    "originalPrice": 2858.09,
+    "discountPercent": 1,
+    "discountAmount": 343.1,
+    "listPrice": 3264.49,
     "currency": "BRL",
     "onSale": true,
-    "cashPrice": null,
-    "cashPriceLabel": null,
-    "cashDiscountPercent": null,
-    "hasPixDiscount": false,
+    "cashPrice": 3344,
+    "cashPriceLabel": "Example cash price label",
+    "cashDiscountPercent": 97,
+    "hasPixDiscount": true,
     "hasBoletoDiscount": false,
     "installmentText": "Example installment text",
-    "installmentCount": 5,
-    "installmentValue": 2204.89,
+    "installmentCount": 59,
+    "installmentValue": 291.47,
     "installmentInterestFree": true,
     "installmentOptions": [
       {
         "type": "Bandeira",
         "count": 4,
-        "installmentValue": 2204.89,
+        "installmentValue": 3497.67,
         "monthlyInterest": 0,
-        "totalPrice": 1553.93,
+        "totalPrice": 2465.02,
         "interestFree": true,
         "label": "Example label"
       },
       {
         "type": "Bandeira",
         "count": 8,
-        "installmentValue": 1102.45,
+        "installmentValue": 1748.84,
         "monthlyInterest": 0,
-        "totalPrice": 1532.93,
+        "totalPrice": 2431.71,
         "interestFree": true,
         "label": "Example label"
       }
@@ -57,15 +57,15 @@
       "regional": false,
       "commercial": true
     },
-    "pickupInStore": false,
+    "pickupInStore": true,
     "deliveryEstimate": null,
     "shippingCost": null,
-    "sellerId": "14123",
+    "sellerId": "33185",
     "sellerName": "Example seller name",
     "sellerCount": 3,
     "offerCount": 3,
-    "minOfferPrice": 1574.93,
-    "maxOfferPrice": 2498.88,
+    "minOfferPrice": 7485,
+    "maxOfferPrice": 3964.02,
     "image": "https://imgs.casasbahia.com.br/example/2221.jpg",
     "images": [
       "https://imgs.casasbahia.com.br/example/71618.jpg",

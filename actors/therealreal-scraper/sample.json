@@ -1,26 +1,27 @@
 [
   {
-    "itemId": "01450613",
-    "sku": "nemrc97774",
-    "variantId": "588139967",
+    "itemId": "40229559",
+    "sku": "pra1016349",
+    "variantId": "924191221",
     "name": "Example name",
     "url": "https://www.therealreal.com/example/56356",
     "designer": "Example designer",
-    "designerId": "844",
+    "designerId": "8155",
     "artist": null,
     "itemClass": [
       "Example item class",
       "Example item class"
     ],
-    "category": "Totes",
+    "category": "Example category",
     "condition": "Example condition",
     "conditionNote": null,
-    "color": "Blue",
+    "color": "Silver",
     "gender": "Women",
     "primaryMaterial": "Example primary material",
     "attributes": {
       "Color": [
-        "Blue"
+        "Silver",
+        "Yellow"
       ],
       "Condition": [
         "Example condition"
@@ -33,14 +34,14 @@
       ]
     },
     "retailPrice": null,
-    "listPrice": 81,
-    "originalPrice": 652,
+    "listPrice": 3681,
+    "originalPrice": 8752,
     "currency": "USD",
-    "discountPct": 12,
+    "discountPct": 0,
     "vsRetailPct": null,
-    "isOnSale": true,
-    "availability": "AVAILABLE",
-    "isSold": false,
+    "isOnSale": false,
+    "availability": "HOLD",
+    "isSold": true,
     "quantity": "0",
     "obsessionCount": 19,
     "isEditorsPick": null,
@@ -51,7 +52,7 @@
     ],
     "imageCount": 7,
     "sourceUrl": "https://www.therealreal.com/example/53544",
-    "slug": "id84546633",
+    "slug": "Example slug",
     "taxons": null,
     "valuationReportUrl": null,
     "measurementGuide": null,

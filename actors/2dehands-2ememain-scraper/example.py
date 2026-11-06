@@ -16,6 +16,7 @@ run = client.actor("abotapi/2dehands-2ememain-scraper").call(
         "queries": ["bmw"],
         "domain": "2dehands.be",
         "sort": "optimized",
+        "delivery": "any",
         "maxReviews": 10,
         "maxItems": 10,
         "maxPages": 1,

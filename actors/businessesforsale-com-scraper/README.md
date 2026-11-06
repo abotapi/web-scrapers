@@ -92,7 +92,7 @@ Full details on the [scraper page](https://apify.com/abotapi/businessesforsale-c
 | `sizeSqFt` | null |
 | `tradingHours` | string |
 | `employees` | string |
-| `yearsEstablished` | null |
+| `yearsEstablished` | string |
 | `description` | string |
 | `categories` | list |
 | `financials` | object |

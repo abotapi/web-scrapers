@@ -17,7 +17,7 @@ python example.py
 ```bash
 curl -s -X POST "https://api.apify.com/v2/acts/abotapi~bigw-marketplace-scraper/run-sync-get-dataset-items?token=$APIFY_TOKEN" \
   -H 'Content-Type: application/json' \
-  -d '{"mode": "search", "queries": ["piano keyboard"], "sortBy": "relevance", "maxReviewsPerProduct": 10, "maxItems": 10, "maxPages": 1, "proxy": {"useApifyProxy": true}}'
+  -d '{"mode": "search", "queries": ["piano keyboard"], "sortBy": "relevance", "maxReviewsPerProduct": 10, "maxItems": 10, "maxPages": 1, "proxy": {"useApifyProxy": true}, "changeScope": "all"}'
 ```
 
 ## Inputs
@@ -28,8 +28,10 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~bigw-marketplace-scraper/
 | `queries` | array | Search keywords |
 | `urls` | array | BIG W URLs |
 | `marketplaceOnly` | boolean | Marketplace sellers only |
+| `soldBy` | string | Sold by |
+| `fulfilment` | string | Collection |
 | `brand` | string | Brand |
-| `category` | string | Category id |
+| `category` | string | Category (name or id) |
 | `specialsCategory` | string | Specials / offers |
 | `deal` | string | Deal type (advanced) |
 | `sortBy` | string | Sort by |
@@ -41,7 +43,14 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~bigw-marketplace-scraper/
 | `maxReviewsPerProduct` | integer | Max reviews per product |
 | `maxItems` | integer | Max products |
 | `maxPages` | integer | Max pages per search |
+| `deliveryPostcode` | string | Delivery postcode |
+| `verifyHomeDelivery` | boolean | Verify home delivery |
 | `proxy` | object | Proxy configuration |
+| `allowBackupConnection` | boolean | Allow the backup connection for delive |
+| `changeScope` | string | What counts as a change (incremental m |
+| `compactUpdates` | boolean | Compact update rows (incremental mode  |
+| `expireAfterMissedScans` | integer | Expire after N missed full scans (incr |
+| `baselineDatasetId` | string | Start from an existing dataset (option |
 
 `*` required
 
@@ -75,6 +84,9 @@ Full details on the [scraper page](https://apify.com/abotapi/bigw-marketplace-sc
 | `savingsPercent` | null |
 | `isOnSpecial` | boolean |
 | `unitPrice` | null |
+| `pricePerUnitPrice` | null |
+| `pricePerUnitQuantity` | null |
+| `pricePerUnitUnit` | null |
 | `currency` | string |
 | `priceLabel` | null |
 | `priceLabelType` | null |
@@ -90,9 +102,6 @@ Full details on the [scraper page](https://apify.com/abotapi/bigw-marketplace-sc
 | `categories` | list |
 | `categoryPath` | string |
 | `variants` | null |
-| `colours` | null |
-| `sizes` | null |
-| `specifications` | object |
 
 ---
 

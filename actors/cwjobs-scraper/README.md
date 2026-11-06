@@ -1,8 +1,8 @@
-# Cwjobs UK Scraper
+# CWJobs UK Scraper
 
-Scrape tech and IT jobs from CWJobs.co.uk into clean, structured data. Search by keyword, location, salary, work type, date, and sort order, or use job/listing URLs. Returns salary, GPS location, full description, dates, and rich employer details.
+Scrape CWJobs.co.uk tech and IT job listings by keyword, location, salary, work type, date or URL. Extract job titles, salary ranges, GPS coordinates, full descriptions, posting dates and employer details. Supports advanced filters, sorting and structured data for job market research.
 
-**[Open Cwjobs UK Scraper on Apify](https://apify.com/abotapi/cwjobs-scraper?utm_source=github&utm_medium=web-scrapers&utm_campaign=monorepo)** to run it without code and export JSON, CSV or Excel.
+**[Open CWJobs UK Scraper on Apify](https://apify.com/abotapi/cwjobs-scraper?utm_source=github&utm_medium=web-scrapers&utm_campaign=monorepo)** to run it without code and export JSON, CSV or Excel.
 
 ## Run it from code
 
@@ -17,7 +17,7 @@ python example.py
 ```bash
 curl -s -X POST "https://api.apify.com/v2/acts/abotapi~cwjobs-scraper/run-sync-get-dataset-items?token=$APIFY_TOKEN" \
   -H 'Content-Type: application/json' \
-  -d '{"mode": "search", "keywords": ["javascript"], "locations": ["london"], "workType": "any", "salaryPeriod": "annual", "postedWithin": "any", "sortBy": "relevance", "maxPages": 1, "maxListings": 10, "proxy": {"useApifyProxy": true, "apifyProxyGroups": ["RESIDENTIAL"], "apifyProxyCountry": "GB"}}'
+  -d '{"mode": "search", "keywords": ["javascript"], "locations": ["london"], "workType": "any", "salaryPeriod": "annual", "postedWithin": "any", "sortBy": "relevance", "descriptionFormat": "html", "maxPages": 1, "maxListings": 10, "proxy": {"useApifyProxy": true, "apifyProxyGroups": ["RESIDENTIAL"], "apifyProxyCountry": "GB"}}'
 ```
 
 ## Inputs
@@ -32,8 +32,12 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~cwjobs-scraper/run-sync-g
 | `salaryPeriod` | string | Salary period |
 | `postedWithin` | string | Posted within |
 | `sortBy` | string | Sort by |
+| `workFromHome` | boolean | Work from home only |
 | `urls` | array | Job or listing URLs |
 | `fetchDetails` | boolean | Fetch full job details |
+| `descriptionFormat` | string | Description format |
+| `descriptionMaxLength` | integer | Description max length |
+| `compact` | boolean | Compact output |
 | `maxPages` | integer | Max listing pages per search |
 | `maxListings` | integer | Max jobs |
 | `proxy` | object | Proxy configuration |
@@ -56,7 +60,8 @@ Full details on the [scraper page](https://apify.com/abotapi/cwjobs-scraper?utm_
 | `title` | string |
 | `description` | string |
 | `snippet` | null |
-| `workType` | string |
+| `workType` | null |
+| `benefits` | null |
 | `employmentType` | string |
 | `industry` | string |
 | `datePosted` | string |
@@ -87,7 +92,6 @@ Full details on the [scraper page](https://apify.com/abotapi/cwjobs-scraper?utm_
 | `employerProfileUrl` | string |
 | `companyEmployees` | string |
 | `companyFounded` | integer |
-| `companyIndustries` | list |
 
 ---
 

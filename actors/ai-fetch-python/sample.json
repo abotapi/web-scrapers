@@ -12,16 +12,18 @@
       "openGraph": {},
       "jsonLd": [],
       "headers": {
-        "age": "0412",
+        "age": "33426",
         "allow": "Example allow",
         "alt-svc": "Example alt-svc",
         "cf-cache-status": "HIT",
-        "cf-ray": "a13e4eee4f9184c6-mia",
+        "cf-ray": "a607014c0cfdc9af-iad",
         "content-encoding": "br",
         "content-type": "Example content-type",
         "date": "Example date",
         "last-modified": "Example last-modified",
-        "server": "cloudflare"
+        "priority": "Example priority",
+        "server": "cloudflare",
+        "server-timing": "Example server-timing"
       }
     },
     "text": "Example text: mock text standing in for the real value. Same field and type, made-up content.",

@@ -54,13 +54,13 @@
     "uploadFrequencyPerMonth": 7,
     "growth": {
       "weekly": {
-        "views": 3840353843,
-        "viewsDelta": 881707180,
+        "views": 240353843,
+        "viewsDelta": -881707180,
         "subscribers": 2715371,
-        "subscribersDelta": 6726785,
+        "subscribersDelta": -6726785,
         "estimatedRevenueLowUsd": 352539,
         "estimatedRevenueHighUsd": 4591385,
-        "estimatedRevenueDelta": -29811
+        "estimatedRevenueDelta": -389811
       },
       "monthly": {
         "views": 3840353843,
@@ -69,7 +69,7 @@
         "subscribersDelta": 6726785,
         "estimatedRevenueLowUsd": 1252539,
         "estimatedRevenueHighUsd": 4591385,
-        "estimatedRevenueDelta": 6689811
+        "estimatedRevenueDelta": 389811
       },
       "quarterly": {
         "views": 3840353843,
@@ -105,8 +105,8 @@
       "weekly": {
         "videos": 4,
         "shorts": 2,
-        "longs": 0,
-        "views": 3840353843,
+        "longs": 6,
+        "views": 240353843,
         "longViews": 183249355,
         "shortViews": 288839990
       },
@@ -144,25 +144,25 @@
       }
     },
     "featuredVideo": {
-      "id": "re9_pgwdwhw",
+      "id": "_c2e6nci1sc",
       "channelId": "ucx2oq0dkcsbyne1h4uqquva",
       "channelName": "Example channel name",
       "channelAvatarUrl": "https://yt3.ggpht.com/example/5755.jpg",
       "channelHandle": "Example channel handle",
       "title": "Example title",
       "description": "user22@example.com",
-      "viewCount": 756752661,
-      "likeCount": 7363328,
+      "viewCount": 36752661,
+      "likeCount": 163328,
       "commentCount": 21096,
       "uploadDate": "2026-01-15T10:00:00Z",
       "duration": 8727,
       "shorts": false,
       "viewsPerHour": 794094,
-      "outlierScore": 1.93
+      "outlierScore": 0.99
     },
     "shortVideos": [
       {
-        "id": "mnd7t9lzg_g",
+        "id": "93uzbuw1wjs",
         "channelId": "ucx2oq0dkcsbyne1h4uqquva",
         "channelName": "Example channel name",
         "channelAvatarUrl": "https://yt3.ggpht.com/example/5755.jpg",
@@ -174,45 +174,45 @@
         "uploadDate": "2026-01-15T10:00:00Z",
         "duration": 87,
         "shorts": true,
-        "outlierScore": 0.56,
+        "outlierScore": 2.01,
         "averageViews": 96692134
       },
       {
-        "id": "y4iji0ip4vk",
+        "id": "mnd7t0lzg_g",
         "channelId": "ucx5oq2dkcsbyne0h4uqquva",
         "channelName": "Example channel name",
         "channelAvatarUrl": "https://yt3.ggpht.com/example/66698.jpg",
         "title": "Example title",
         "description": "",
-        "viewCount": 808371696,
-        "likeCount": 9252255,
+        "viewCount": 88371696,
+        "likeCount": 252255,
         "commentCount": 16293,
         "uploadDate": "2026-01-15T10:00:00Z",
         "duration": 56,
         "shorts": true,
-        "outlierScore": 3.36,
+        "outlierScore": 0.32,
         "averageViews": 94890996
       }
     ],
     "longVideos": [
       {
-        "id": "re9_pgwdwhw",
+        "id": "_c2e6nci1sc",
         "channelId": "ucx2oq0dkcsbyne1h4uqquva",
         "channelName": "Example channel name",
         "channelAvatarUrl": "https://yt3.ggpht.com/example/5755.jpg",
         "title": "Example title",
         "description": "user22@example.com",
-        "viewCount": 756752661,
-        "likeCount": 7363328,
+        "viewCount": 36752661,
+        "likeCount": 163328,
         "commentCount": 21096,
         "uploadDate": "2026-01-15T10:00:00Z",
         "duration": 8727,
         "shorts": false,
-        "outlierScore": 1.93,
+        "outlierScore": 0.99,
         "averageViews": 96692134
       },
       {
-        "id": "pln0jmbadrg",
+        "id": "re5_pgwdwhw",
         "channelId": "ucx5oq2dkcsbyne0h4uqquva",
         "channelName": "Example channel name",
         "channelAvatarUrl": "https://yt3.ggpht.com/example/66698.jpg",
@@ -220,12 +220,12 @@
         "description": "user16@example.com",
         "viewCount": 808371696,
         "likeCount": 9252255,
-        "commentCount": 736293,
+        "commentCount": 16293,
         "uploadDate": "2026-01-15T10:00:00Z",
         "duration": 1586,
         "shorts": false,
-        "outlierScore": 3.31,
-        "averageViews": 94890996
+        "outlierScore": 1.13,
+        "averageViews": 814890996
       }
     ],
     "scrapedAt": "2026-01-15T10:00:00Z"

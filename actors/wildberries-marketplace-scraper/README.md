@@ -77,7 +77,7 @@ Full details on the [scraper page](https://apify.com/abotapi/wildberries-marketp
 | `warehouseIds` | list |
 | `deliveryDaysMin` | integer |
 | `deliveryDaysMax` | integer |
-| `colors` | null |
+| `colors` | list |
 | `imageUrl` | string |
 | `imageUrlsCount` | integer |
 | `supplierId` | integer |

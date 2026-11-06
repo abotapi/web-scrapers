@@ -2,24 +2,51 @@
   {
     "rowType": "job",
     "sourceSearchUrl": "https://www.jobsite.co.uk/example/7113",
+    "detailStatus": "listingOnly",
+    "apply": {
+      "url": null,
+      "type": null,
+      "isDirect": null
+    },
+    "details": {
+      "descriptionHtml": null,
+      "descriptionText": null,
+      "employmentType": null,
+      "industry": null,
+      "jobLocationType": null,
+      "applicantLocationRequirements": null,
+      "companyProfile": null
+    },
+    "contacts": {
+      "emails": [],
+      "phones": [],
+      "evidence": []
+    },
+    "source": {
+      "searchUrl": "https://www.jobsite.co.uk/example/32845",
+      "keyword": null,
+      "location": "london",
+      "page": 2,
+      "rank": 6
+    },
     "jobId": 553203426,
     "harmonisedId": "id21427487",
     "jobUrl": "https://www.jobsite.co.uk/example/69394",
-    "sourceSite": "Totaljobs.com",
+    "sourceSite": "Caterer.com",
     "title": "Example title",
     "datePosted": "2026-01-15T10:00:00Z",
     "publishFromDate": "2026-01-15T10:00:00Z",
     "publishToDate": "2026-01-15T10:00:00Z",
     "employer": {
-      "id": 7864956,
+      "id": 664956,
       "name": "Example name",
       "url": "https://www.jobsite.co.uk/example/67856",
-      "logoUrl": "https://www.totaljobs.com/example/48977.jpg",
+      "logoUrl": "https://www.caterer.com/example/48977.jpg",
       "isAnonymous": false
     },
     "location": {
       "text": "Example text",
-      "postalCode": "",
+      "postalCode": "Example postal code",
       "locality": null,
       "region": null,
       "country": null,
@@ -28,11 +55,11 @@
       "streetAddress": null
     },
     "salary": {
-      "rawText": "Example raw text",
-      "min": null,
-      "max": null,
-      "currency": null,
-      "period": null
+      "rawText": "Example raw text: mock text standing in for the real value. Same field and type, made-up content.",
+      "min": 20.39,
+      "max": 90346,
+      "currency": "GBP",
+      "period": "year"
     },
     "workFromHome": null,
     "skills": [],
@@ -60,10 +87,6 @@
     "applicantLocationRequirements": null,
     "externalId": "id12493660",
     "contractType": null,
-    "workType": null,
-    "company": null,
-    "contactPhones": [],
-    "contactEmails": [],
-    "detailFetched": false
+    "workType": null
   }
 ]

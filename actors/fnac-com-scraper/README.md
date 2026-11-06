@@ -17,7 +17,7 @@ python example.py
 ```bash
 curl -s -X POST "https://api.apify.com/v2/acts/abotapi~fnac-com-scraper/run-sync-get-dataset-items?token=$APIFY_TOKEN" \
   -H 'Content-Type: application/json' \
-  -d '{"mode": "search", "searchTerm": "iphone", "sortBy": "RELEVANCE", "maxReviewsPerProduct": 10, "maxPages": 1, "maxItems": 10, "proxy": {"useApifyProxy": true}}'
+  -d '{"mode": "search", "searchTerm": "iphone", "sortBy": "RELEVANCE", "condition": "any", "maxReviewsPerProduct": 10, "maxPages": 1, "maxItems": 10, "proxy": {"useApifyProxy": true}}'
 ```
 
 ## Inputs
@@ -30,6 +30,10 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~fnac-com-scraper/run-sync
 | `sortBy` | string | Sort order |
 | `urls` | array | URLs to scrape |
 | `brands` | array | Brands |
+| `searchTerms` | array | Search terms (several) |
+| `soldByFnac` | boolean | Sold by Fnac only |
+| `condition` | string | Condition |
+| `inStockOnly` | boolean | In stock only |
 | `minPrice` | number | Minimum price (EUR) |
 | `maxPrice` | number | Maximum price (EUR) |
 | `specialsOnly` | boolean | Discounted items only |
@@ -73,7 +77,15 @@ Full details on the [scraper page](https://apify.com/abotapi/fnac-com-scraper?ut
 | `condition` | string |
 | `sellerName` | string |
 | `cardCharacteristics` | object |
+| `sellerId` | null |
+| `sellerType` | string |
+| `sellerLocation` | string |
+| `isRefurbished` | boolean |
+| `conditionDetail` | null |
+| `availability` | null |
+| `inStock` | null |
 | `reviews` | object |
+| `scrapedAt` | string |
 
 ---
 

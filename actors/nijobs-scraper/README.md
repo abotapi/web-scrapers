@@ -27,6 +27,7 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~nijobs-scraper/run-sync-g
 | `mode` * | string | Search mode |
 | `keywords` | array | Keywords |
 | `location` | string | Location |
+| `radius` | integer | Search radius (miles) |
 | `postedWithin` | string | Posted within |
 | `minSalary` | integer | Minimum salary |
 | `salaryPeriod` | string | Salary period |

@@ -1,8 +1,8 @@
-# Leboncoin FR Scraper
+# Leboncoin Scraper
 
-Pull public leboncoin.fr listings across cars, property, jobs, electronics, furniture, and 35+ categories. Returns 60–78 fields, including price, GPS, seller info, attributes, and images. Search by filters or URL with pagination and listing ID dedupe.
+Scrape Leboncoin.fr classifieds across cars, property, jobs, electronics, furniture and 35+ categories. Extract 60–78 fields including prices, GPS coordinates, seller details, attributes and images. Supports filtered searches, URLs, pagination and listing deduplication.
 
-**[Open Leboncoin FR Scraper on Apify](https://apify.com/abotapi/leboncoin-fr-scraper?utm_source=github&utm_medium=web-scrapers&utm_campaign=monorepo)** to run it without code and export JSON, CSV or Excel.
+**[Open Leboncoin Scraper on Apify](https://apify.com/abotapi/leboncoin-fr-scraper?utm_source=github&utm_medium=web-scrapers&utm_campaign=monorepo)** to run it without code and export JSON, CSV or Excel.
 
 ## Run it from code
 

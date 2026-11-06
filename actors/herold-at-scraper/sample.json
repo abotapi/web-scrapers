@@ -3,37 +3,143 @@
     "id": "Example id",
     "url": "https://www.herold.at/example/4194",
     "name": "Example name",
-    "category": "restaurant",
+    "category": "zahnarzt",
     "regionSlug": "wien",
     "position": 5,
-    "isVerified": true,
-    "breadcrumb": null,
+    "isVerified": false,
+    "breadcrumb": [
+      "Example breadcrumb",
+      "Example breadcrumb"
+    ],
     "streetAddress": "Example street address",
-    "postalCode": "7239",
+    "postalCode": "2976",
     "addressLocality": "Example address locality",
     "addressRegion": "Example address region",
     "addressCountry": "Example address country",
-    "latitude": null,
-    "longitude": null,
+    "latitude": 40.5,
+    "longitude": 11.58,
     "telephone": "+1 555 0100",
-    "email": "user64@example.com",
-    "website": "https://www.ef16.at/example/4873",
-    "logoUrl": "https://images.herold.at/example/14641.jpg",
-    "primaryImage": "https://images.herold.at/example/66225.jpg",
+    "email": null,
+    "website": "https://www.zahnarzt-steger.at/example/4873",
+    "logoUrl": "https://www.herold.at/example/14641.jpg",
+    "primaryImage": "https://www.herold.at/example/66225.jpg",
     "imageCount": 7,
-    "foundingDate": null,
+    "foundingDate": "4411",
     "branchCode": "Example branch code",
     "paymentAccepted": [],
-    "openingHours": [],
-    "ratingValue": 6.08,
-    "ratingCount": 3,
-    "reviewCount": null,
+    "openingHours": [
+      {
+        "day": "Example day",
+        "opens": "08:64",
+        "closes": "88:56"
+      },
+      {
+        "day": "Example day",
+        "opens": "07:82",
+        "closes": "88:82"
+      }
+    ],
+    "ratingValue": 5.95,
+    "ratingCount": 84,
+    "reviewCount": 48,
     "bestRating": 2,
     "worstRating": 7,
-    "reviews": [],
-    "description": null,
-    "services": [],
-    "branchen": [],
-    "scrapedAt": "2026-01-15T10:00:00Z"
+    "reviews": [
+      {
+        "author": "Example author",
+        "body": "Example body: mock text standing in for the real value. Same field and type, made-up content.",
+        "rating": 5.78,
+        "datePublished": "Example date published"
+      },
+      {
+        "author": "Example author",
+        "body": "Example body: mock text standing in for the real value. Same field and type, made-up content.",
+        "rating": 2,
+        "datePublished": "Example date published"
+      }
+    ],
+    "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
+    "services": [
+      "Example services",
+      "Example services"
+    ],
+    "branchen": [
+      {
+        "name": "Example name",
+        "slug": "zahnarzt"
+      }
+    ],
+    "scrapedAt": "2026-01-15T10:00:00Z",
+    "detailFetched": true
+  },
+  {
+    "id": "G9H9M",
+    "url": "https://www.herold.at/example/99668",
+    "name": "Example name",
+    "category": "zahnarzt",
+    "regionSlug": "wien",
+    "position": 2,
+    "isVerified": true,
+    "breadcrumb": [
+      "Example breadcrumb",
+      "Example breadcrumb"
+    ],
+    "streetAddress": "Example street address",
+    "postalCode": "8866",
+    "addressLocality": "Example address locality",
+    "addressRegion": "Example address region",
+    "addressCountry": "Example address country",
+    "latitude": 33.74,
+    "longitude": 19.79,
+    "telephone": "+1 555 0100",
+    "email": "user52@example.com",
+    "website": "https://www.jonke.at/example/90138",
+    "logoUrl": "https://a.mktgcdn.com/example/34007.jpg",
+    "primaryImage": "https://a.mktgcdn.com/example/11924.jpg",
+    "imageCount": 5,
+    "foundingDate": "3667",
+    "branchCode": "G9H9M",
+    "paymentAccepted": [
+      "VISA",
+      "Example payment accepted"
+    ],
+    "openingHours": [
+      {
+        "day": "Example day",
+        "opens": "64:29",
+        "closes": "84:77"
+      },
+      {
+        "day": "Example day",
+        "opens": "02:08",
+        "closes": "98:94"
+      }
+    ],
+    "ratingValue": 9,
+    "ratingCount": 4,
+    "reviewCount": 3,
+    "bestRating": 3,
+    "worstRating": 8,
+    "reviews": [
+      {
+        "author": "Example author",
+        "body": "Example body",
+        "rating": 2,
+        "datePublished": "Example date published"
+      }
+    ],
+    "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
+    "services": [
+      "Example services",
+      "Example services"
+    ],
+    "branchen": [
+      {
+        "name": "Example name",
+        "slug": "zahnarzt"
+      }
+    ],
+    "scrapedAt": "2026-01-15T10:00:00Z",
+    "detailFetched": true
   }
 ]

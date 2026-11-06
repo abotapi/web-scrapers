@@ -1,24 +1,24 @@
 [
   {
-    "productId": "6260080",
-    "sku": "4100847",
-    "ean": "6944760876165",
+    "productId": "2324101",
+    "sku": "6421731",
+    "ean": "7272869457104",
     "name": "Example name",
     "brand": "Example brand",
     "category": "Shampoo",
     "url": "https://www.dm.de/example/54321",
-    "price": 5.7,
+    "price": 1.43,
     "currency": "EUR",
-    "priceExclVat": 6.42,
+    "priceExclVat": 1.62,
     "originalPrice": null,
     "discountAmount": null,
     "discountPercent": null,
     "isOnSpecial": false,
     "promoLabel": null,
-    "unitPrice": 14.04,
+    "unitPrice": 8,
     "unitPriceBasis": "Example unit price basis",
     "packSize": "Example pack size",
-    "rating": 3.84,
+    "rating": 3.23,
     "reviewCount": 784,
     "isPharmacy": false,
     "image": "https://products.dm-static.com/example/25850.jpg",
@@ -28,7 +28,7 @@
       "https://products.dm-static.com/example/20754.jpg"
     ],
     "reviews": {
-      "averageRating": 5.95,
+      "averageRating": 5.0,
       "totalReviewCount": 734,
       "ratingDistribution": [
         {
@@ -45,7 +45,7 @@
           "rating": 7,
           "title": "Example title",
           "body": "Example body: mock text standing in for the real value. Same field and type, made-up content.",
-          "author": "kathleen23",
+          "author": "desi89",
           "date": "2026-01-15T10:00:00Z",
           "isRecommended": true,
           "verifiedPurchaser": false

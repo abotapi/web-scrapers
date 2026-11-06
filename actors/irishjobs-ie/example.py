@@ -18,6 +18,7 @@ run = client.actor("abotapi/irishjobs-ie").call(
         "sortBy": "1",
         "maxPages": 1,
         "maxListings": 10,
+        "maxResults": 10,
         "proxy": {"useApifyProxy": True, "apifyProxyGroups": ["RESIDENTIAL"]},
     },
     logger=None,  # don't stream the run log to your console

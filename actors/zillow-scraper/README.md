@@ -78,6 +78,8 @@ Full details on the [scraper page](https://apify.com/abotapi/zillow-scraper?utm_
 | `price` | integer |
 | `formattedPrice` | string |
 | `currency` | string |
+| `zestimate` | integer |
+| `rentZestimate` | integer |
 | `taxAssessedValue` | integer |
 | `streetAddress` | string |
 | `city` | string |
@@ -105,8 +107,6 @@ Full details on the [scraper page](https://apify.com/abotapi/zillow-scraper?utm_
 | `isValid` | boolean |
 | `hasImage` | boolean |
 | `marketingTagline` | string |
-| `listingSubType` | object |
-| `sourceSearchUrl` | string |
 
 ---
 

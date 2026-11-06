@@ -62,9 +62,9 @@ Full details on the [scraper page](https://apify.com/abotapi/otodom-pl-scraper?u
 | `estate` | string |
 | `priceTotal` | integer |
 | `priceCurrency` | string |
-| `pricePerSquareMeter` | float |
-| `rentPrice` | integer |
-| `rentAdditional` | integer |
+| `pricePerSquareMeter` | integer |
+| `rentPrice` | null |
+| `rentAdditional` | null |
 | `deposit` | null |
 | `areaInSquareMeters` | float |
 | `rooms` | integer |
@@ -74,7 +74,7 @@ Full details on the [scraper page](https://apify.com/abotapi/otodom-pl-scraper?u
 | `marketType` | string |
 | `ownership` | string |
 | `buildingType` | string |
-| `buildingMaterial` | string |
+| `buildingMaterial` | null |
 | `heating` | string |
 | `condition` | string |
 | `extras` | list |
@@ -83,7 +83,7 @@ Full details on the [scraper page](https://apify.com/abotapi/otodom-pl-scraper?u
 | `agencyUrl` | string |
 | `agencyLicenseNumber` | null |
 | `subdistrict` | null |
-| `windowsType` | string |
+| `windowsType` | null |
 | `city` | string |
 | `province` | string |
 | `district` | string |

@@ -65,10 +65,10 @@ Full details on the [scraper page](https://apify.com/abotapi/currys-co-uk?utm_so
 | `ean` | string |
 | `rating` | float |
 | `reviewCount` | integer |
-| `description` | string |
+| `description` | null |
 | `images` | list |
 | `specs` | list |
-| `priceValidUntil` | string |
+| `priceValidUntil` | null |
 | `carePlans` | list |
 | `financeOptions` | list |
 | `scrapedAt` | string |

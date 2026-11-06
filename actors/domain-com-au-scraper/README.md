@@ -70,10 +70,10 @@ Full details on the [scraper page](https://apify.com/abotapi/domain-com-au-scrap
 | `bedrooms` | integer |
 | `bathrooms` | integer |
 | `parkingSpaces` | integer |
-| `landSize` | integer |
-| `landSizeUnit` | string |
-| `buildingSize` | null |
-| `buildingSizeUnit` | null |
+| `landSize` | null |
+| `landSizeUnit` | null |
+| `buildingSize` | integer |
+| `buildingSizeUnit` | string |
 | `propertyType` | string |
 | `headline` | string |
 | `description` | string |

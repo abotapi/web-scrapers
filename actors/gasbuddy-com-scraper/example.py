@@ -19,6 +19,7 @@ run = client.actor("abotapi/gasbuddy-com-scraper").call(
         "maxReviewsPerStation": 10,
         "maxPages": 1,
         "proxy": {"useApifyProxy": True, "apifyProxyCountry": "US"},
+        "changeScope": "all",
     },
     logger=None,  # don't stream the run log to your console
 )

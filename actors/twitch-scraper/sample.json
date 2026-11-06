@@ -18,11 +18,11 @@
     "isExtensionsDeveloper": false,
     "chanlets": null,
     "followersCount": 97977722,
-    "isLive": true,
+    "isLive": false,
     "broadcastTitle": "Example broadcast title",
     "broadcastLanguage": "EN",
     "broadcastGameName": "Example broadcast game name",
-    "broadcastGameSlug": "id36100773",
+    "broadcastGameSlug": "Example broadcast game slug",
     "lastBroadcastTitle": "Example last broadcast title",
     "lastBroadcastStartedAt": "2026-01-15T10:00:00Z",
     "lastBroadcastGameName": "Example last broadcast game name",
@@ -41,25 +41,15 @@
     "scrapedAt": "2026-01-15T10:00:00Z",
     "channelId": "88235306",
     "profileImageURL": "https://static-cdn.jtvnw.net/example/84900.jpg",
-    "stream": {
-      "id": "614671474002",
-      "title": "Example title",
-      "type": "live",
-      "viewersCount": 29749,
-      "createdAt": "2026-01-15T10:00:00Z",
-      "language": "EN",
-      "gameName": "Example game name",
-      "gameSlug": "id75912090",
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/example/12214.jpg"
-    },
+    "stream": null,
     "latestVideo": {
-      "id": "6923156056",
+      "id": "7585227959",
       "title": "Example title",
       "url": "https://www.twitch.tv/example/83490",
-      "viewCount": 339,
+      "viewCount": 196539,
       "lengthSeconds": 30912,
       "createdAt": "2026-01-15T10:00:00Z",
-      "thumbnailUrl": "https://vod-secure.twitch.tv/example/12214.jpg"
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/example/12214.jpg"
     },
     "topClip": {
       "id": "6501146401",
@@ -78,11 +68,6 @@
       "endAt": "2026-01-15T10:00:00Z",
       "categories": null
     },
-    "keyword": null,
-    "streamId": "216149259020",
-    "title": "Example title",
-    "viewersCount": 29749,
-    "streamStartedAt": "2026-01-15T10:00:00Z",
-    "streamLanguage": "EN"
+    "keyword": null
   }
 ]

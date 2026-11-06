@@ -60,7 +60,7 @@ Full details on the [scraper page](https://apify.com/abotapi/cdiscount-scraper?u
 | `originalPrice` | null |
 | `discountPercent` | null |
 | `discountAmount` | null |
-| `promoLabel` | null |
+| `promoLabel` | string |
 | `isAvailable` | boolean |
 | `sponsored` | boolean |
 | `freeShipping` | string |

@@ -65,6 +65,7 @@ Full details on the [scraper page](https://apify.com/abotapi/realestate-co-nz-sc
 | `heading` | string |
 | `description` | string |
 | `images` | list |
+| `floorPlans` | list |
 | `agents` | list |
 | `office` | object |
 | `offices` | list |

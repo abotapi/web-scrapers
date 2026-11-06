@@ -74,7 +74,7 @@ Full details on the [scraper page](https://apify.com/abotapi/rent-com-scraper?ut
 | `sqftMin` | integer |
 | `sqftMax` | integer |
 | `priceMin` | integer |
-| `priceMax` | null |
+| `priceMax` | integer |
 | `priceLabel` | string |
 | `availability` | string |
 | `unitsAvailableText` | string |

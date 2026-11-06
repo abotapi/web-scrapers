@@ -84,14 +84,14 @@ Full details on the [scraper page](https://apify.com/abotapi/willhaben-at-scrape
 | `mainImage` | string |
 | `advertiserInfo` | object |
 | `rawAttributes` | list |
+| `attr_DISPOSED` | string |
 | `attr_LOCATION` | string |
 | `attr_p2penabled` | string |
 | `attr_CHANGED` | string |
+| `attr_categorytreeattributeids` | string |
 | `attr_CHANGED_String` | string |
 | `attr_POSTCODE` | string |
-| `attr_BODY_DYN` | string |
-| `attr_ORGNAME` | string |
-| `attr_STATE` | string |
+| `attr_PRICE_REDUCTION_SET_DATE` | string |
 
 ---
 

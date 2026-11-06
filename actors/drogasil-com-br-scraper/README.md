@@ -39,6 +39,9 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~drogasil-com-br-scraper/r
 | `fetchDetails` | boolean | Fetch product details |
 | `maxItems` | integer | Max products |
 | `maxPages` | integer | Max result pages per keyword, section  |
+| `term` | string | Search keyword (single) |
+| `startPage` | integer | Start page |
+| `failOnNoResults` | boolean | Fail when nothing is found |
 | `proxy` | object | Proxy configuration |
 
 `*` required
@@ -75,6 +78,10 @@ Full details on the [scraper page](https://apify.com/abotapi/drogasil-com-br-scr
 | `variantCount` | integer |
 | `variantAttributes` | list |
 | `isSponsored` | boolean |
+| `page` | integer |
+| `rank` | integer |
+| `searchUrl` | string |
+| `searchTerm` | string |
 | `ean` | string |
 | `originalPrice` | float |
 | `discountPercent` | float |
@@ -87,10 +94,6 @@ Full details on the [scraper page](https://apify.com/abotapi/drogasil-com-br-scr
 | `stockQuantity` | integer |
 | `inStock` | boolean |
 | `breadcrumb` | list |
-| `description` | string |
-| `shortDescription` | string |
-| `longDescription` | null |
-| `usageInstructions` | string |
 
 ---
 

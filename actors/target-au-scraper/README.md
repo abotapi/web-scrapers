@@ -33,6 +33,7 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~target-au-scraper/run-syn
 | `colour` | string | Colour |
 | `minPrice` | integer | Min price (AUD) |
 | `maxPrice` | integer | Max price (AUD) |
+| `onlyWithPrice` | boolean | Only products with a price |
 | `fetchReviews` | boolean | Fetch ratings and reviews |
 | `maxReviews` | integer | Max reviews per product |
 | `maxItems` | integer | Max products |
@@ -73,13 +74,13 @@ Full details on the [scraper page](https://apify.com/abotapi/target-au-scraper?u
 | `category` | string |
 | `breadcrumbs` | list |
 | `topLevelCategory` | string |
-| `merchDepartmentCode` | integer |
+| `merchDepartmentCode` | string |
 | `productType` | string |
 | `availability` | string |
 | `groupIds` | list |
 | `colour` | string |
-| `colourVariantCode` | integer |
-| `sizeVariantCode` | integer |
+| `colourVariantCode` | string |
+| `sizeVariantCode` | string |
 | `inStock` | boolean |
 | `availableOnlineQty` | integer |
 | `availableStoreQty` | integer |

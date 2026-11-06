@@ -1,6 +1,6 @@
 [
   {
-    "sku": "an490c6bd-q99",
+    "sku": "on370f509-j84",
     "name": "Example name",
     "brand": "Example brand",
     "url": "https://www.zalando.co.uk/example/60791",
@@ -9,14 +9,23 @@
     "supplierName": "Example supplier name",
     "shortDescription": null,
     "condition": null,
-    "price": 28.21,
-    "originalPrice": 33.99,
-    "promotionalPrice": null,
-    "discountPercentage": null,
+    "price": 23,
+    "originalPrice": 34.99,
+    "promotionalPrice": 73,
+    "discountPercentage": 70,
     "currency": "GBP",
-    "onSale": false,
-    "dealFlag": null,
-    "flags": [],
+    "onSale": true,
+    "dealFlag": "Example deal flag",
+    "flags": [
+      {
+        "kind": "DEAL",
+        "label": "Example label"
+      },
+      {
+        "kind": "MATERNITY",
+        "label": "Example label"
+      }
+    ],
     "sizes": [
       "XS",
       "S"
@@ -24,21 +33,21 @@
     "sizeSkus": [
       {
         "size": "XS",
-        "sku": "an746c5bd-q0581xs240"
+        "sku": "on793f024-j8209xs492"
       },
       {
         "size": "S",
-        "sku": "an516c3bd-q82099s021"
+        "sku": "on061f789-j07621s102"
       }
     ],
     "image": "https://img01.ztat.net/example/71618.jpg",
     "images": [
       "https://img01.ztat.net/example/32976.jpg",
-      "https://img01.ztat.net/example/83109.jpg"
+      "https://video01.ztat.net/example/83109.jpg"
     ],
     "rating": null,
     "available": true,
-    "variantCount": null,
+    "variantCount": 0,
     "inWishlist": false,
     "benefits": [],
     "priceTrackingKey": "Example price tracking key: mock text standing in for the real value. Same field and type, made-up content.",
@@ -54,7 +63,7 @@
     "lowerPriceLabel": null,
     "item": {
       "id": "Example id",
-      "sku": "an490c6bd-q99",
+      "sku": "on370f509-j84",
       "name": "Example name",
       "navigationTargetGroup": "WOMEN",
       "silhouette": "DRESS",
@@ -68,44 +77,40 @@
           "gallerySmall": {
             "__typename": "Example __typename",
             "uri": "https://img01.ztat.net/example/51919.jpg",
-            "alternativeText": "Example alternative text: mock text standing in for the real value. Same field and type, made-up content."
+            "alternativeText": "Example alternative text"
           },
           "galleryMedium": {
             "__typename": "Example __typename",
             "uri": "https://img01.ztat.net/example/51919.jpg",
-            "alternativeText": "Example alternative text: mock text standing in for the real value. Same field and type, made-up content."
+            "alternativeText": "Example alternative text"
           },
           "galleryLarge": {
             "__typename": "Example __typename",
             "uri": "https://img01.ztat.net/example/51919.jpg",
-            "alternativeText": "Example alternative text: mock text standing in for the real value. Same field and type, made-up content."
+            "alternativeText": "Example alternative text"
           },
           "galleryExtraLarge": {
             "__typename": "Example __typename",
             "uri": "https://img01.ztat.net/example/51919.jpg",
-            "alternativeText": "Example alternative text: mock text standing in for the real value. Same field and type, made-up content."
+            "alternativeText": "Example alternative text"
           }
         },
         {
           "gallerySmall": {
             "__typename": "Example __typename",
-            "uri": "https://img01.ztat.net/example/44324.jpg",
-            "alternativeText": "Example alternative text: mock text standing in for the real value. Same field and type, made-up content."
+            "uri": "https://video01.ztat.net/example/44324"
           },
           "galleryMedium": {
             "__typename": "Example __typename",
-            "uri": "https://img01.ztat.net/example/44324.jpg",
-            "alternativeText": "Example alternative text: mock text standing in for the real value. Same field and type, made-up content."
+            "uri": "https://video01.ztat.net/example/44324"
           },
           "galleryLarge": {
             "__typename": "Example __typename",
-            "uri": "https://img01.ztat.net/example/44324.jpg",
-            "alternativeText": "Example alternative text: mock text standing in for the real value. Same field and type, made-up content."
+            "uri": "https://video01.ztat.net/example/44324"
           },
           "galleryExtraLarge": {
             "__typename": "Example __typename",
-            "uri": "https://img01.ztat.net/example/44324.jpg",
-            "alternativeText": "Example alternative text: mock text standing in for the real value. Same field and type, made-up content."
+            "uri": "https://video01.ztat.net/example/44324"
           }
         }
       ],
@@ -134,9 +139,20 @@
                   "__typename": "Example __typename",
                   "text": "Example text",
                   "marks": {
-                    "textColor": "primary",
+                    "textColor": "sale",
                     "typography": "Example typography",
                     "isStrikeThrough": false,
+                    "hasSpace": true,
+                    "fontFamily": "Example font family"
+                  }
+                },
+                {
+                  "__typename": "Example __typename",
+                  "text": "Example text",
+                  "marks": {
+                    "textColor": "secondary",
+                    "typography": "Example typography",
+                    "isStrikeThrough": true,
                     "hasSpace": false,
                     "fontFamily": "Example font family"
                   }
@@ -151,9 +167,11 @@
         "trackingKey": "Example tracking key: mock text standing in for the real value. Same field and type, made-up content."
       },
       "displayPrice": {
-        "trackingCurrentAmount": 29.57,
-        "trackingDiscountAmount": null,
-        "promotional": null,
+        "trackingCurrentAmount": 87,
+        "trackingDiscountAmount": 4.35,
+        "promotional": {
+          "amount": 6414
+        },
         "original": {
           "amount": 6414,
           "currency": "GBP"
@@ -163,15 +181,15 @@
       "simples": [
         {
           "size": "XS",
-          "sku": "an746c5bd-q0581xs240"
+          "sku": "on793f024-j8209xs492"
         },
         {
           "size": "S",
-          "sku": "an516c3bd-q82099s021"
+          "sku": "on061f789-j07621s102"
         }
       ],
       "defaultMediaInfo": {
-        "alternativeText": "Example alternative text: mock text standing in for the real value. Same field and type, made-up content."
+        "alternativeText": "Example alternative text"
       },
       "smallDefaultMedia": {
         "uri": "https://img01.ztat.net/example/51919.jpg"
@@ -186,7 +204,7 @@
         "uri": "https://img01.ztat.net/example/51919.jpg"
       },
       "packshotImageInfo": {
-        "alternativeText": "Example alternative text: mock text standing in for the real value. Same field and type, made-up content."
+        "alternativeText": "Example alternative text"
       },
       "smallPackshotImage": {
         "uri": "https://img01.ztat.net/example/51919.jpg"
@@ -201,7 +219,7 @@
         "uri": "https://img01.ztat.net/example/51919.jpg"
       },
       "hoverMediaInfo": {
-        "alternativeText": "Example alternative text: mock text standing in for the real value. Same field and type, made-up content."
+        "alternativeText": "Example alternative text"
       },
       "smallHoverMedia": {
         "uri": "https://img01.ztat.net/example/51919.jpg"
@@ -218,7 +236,16 @@
       "experienceWatermarkLarge": null,
       "experienceWatermarkMedium": null,
       "experienceWatermarkSmall": null,
-      "productFlags": [],
+      "productFlags": [
+        {
+          "kind": "DEAL",
+          "formatted": "Example formatted"
+        },
+        {
+          "kind": "MATERNITY",
+          "formatted": "Maternity"
+        }
+      ],
       "uri": "https://www.zalando.co.uk/example/51919",
       "inWishlist": false,
       "benefits": [],
@@ -231,6 +258,6 @@
       }
     },
     "title": "Example title",
-    "wasPrice": null
+    "wasPrice": 41.64
   }
 ]

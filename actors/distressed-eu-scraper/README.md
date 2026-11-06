@@ -68,9 +68,9 @@ Full details on the [scraper page](https://apify.com/abotapi/distressed-eu-scrap
 | `stateName` | string |
 | `objectType` | string |
 | `propertyType` | string |
-| `areaSqm` | null |
-| `areaBasis` | null |
-| `pricePerSqmEur` | null |
+| `areaSqm` | float |
+| `areaBasis` | string |
+| `pricePerSqmEur` | float |
 | `daysUntilAuction` | integer |
 | `isNewSinceLastRun` | null |
 | `recordId` | string |

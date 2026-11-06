@@ -55,7 +55,7 @@ Full details on the [scraper page](https://apify.com/abotapi/doordash-scraper?ut
 | `name` | string |
 | `url` | string |
 | `description` | string |
-| `storeBio` | null |
+| `storeBio` | string |
 | `isConvenience` | boolean |
 | `isShippingOnly` | boolean |
 | `rating` | float |
@@ -78,7 +78,7 @@ Full details on the [scraper page](https://apify.com/abotapi/doordash-scraper?ut
 | `coverImageUrl` | string |
 | `coverSquareImageUrl` | string |
 | `businessHeaderImageUrl` | string |
-| `photoCountText` | string |
+| `photoCountText` | null |
 | `businessId` | string |
 | `businessName` | string |
 | `businessLink` | string |

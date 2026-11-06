@@ -2,16 +2,17 @@
   {
     "id": 5236965,
     "listNumber": 1047072,
-    "title": "Example title: mock text standing in for the real value. Same field and type, made-up content.",
+    "title": "Example title",
     "url": "https://www.bizquest.com/example/41757",
     "description": "Example description",
     "image": "https://images.bizquest.com/example/26716.jpg",
     "images": [
-      "https://images.bizquest.com/example/96136.jpg"
+      "https://images.bizquest.com/example/96136.jpg",
+      "https://images.bizquest.com/example/26680.jpg"
     ],
-    "askingPrice": 1989407,
+    "askingPrice": 99407,
     "cashFlow": null,
-    "ebitda": 740171,
+    "ebitda": null,
     "leaseRateDuration": 32,
     "leaseRatePerSquareFoot": null,
     "realEstateIncludedInAskingPrice": false,
@@ -42,12 +43,12 @@
     "isFranchise": false,
     "categoryDetails": null,
     "brokerName": "Example broker name",
-    "brokerCompany": "Example broker company",
+    "brokerCompany": null,
     "brokerPhone": "+1 555 0100",
-    "tpnPhone": "+1 555 0100",
-    "tpnPhoneExt": "",
-    "brokerPhoto": "https://images.bizquest.com/example/16997.jpg",
-    "brokerProfileUrl": "Example broker profile url: mock text standing in for the real value. Same field and type, made-up content.",
+    "tpnPhone": null,
+    "tpnPhoneExt": null,
+    "brokerPhoto": null,
+    "brokerProfileUrl": null,
     "brokerCertifications": null,
     "contactInfo": {
       "contactInfoPersonId": 835645,
@@ -55,16 +56,16 @@
       "contactPhoneNumber": {
         "telephone": "+1 555 0100",
         "phoneCountryCode": null,
-        "tpnPhone": "+1 555 0100",
-        "tpnPhoneExt": ""
+        "tpnPhone": null,
+        "tpnPhoneExt": null
       },
-      "contactPhoto": "https://images.bizquest.com/example/21529.jpg",
-      "brokerCompany": "Example broker company",
-      "brokerProfileUrl": "Example broker profile url: mock text standing in for the real value. Same field and type, made-up content."
+      "contactPhoto": null,
+      "brokerCompany": null,
+      "brokerProfileUrl": null
     },
-    "hotProperty": true,
-    "recentlyAdded": false,
-    "recentlyUpdated": true,
+    "hotProperty": false,
+    "recentlyAdded": true,
+    "recentlyUpdated": false,
     "listingPriceReduced": false,
     "adLevelId": 3
   }

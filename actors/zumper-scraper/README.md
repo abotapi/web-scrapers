@@ -17,7 +17,7 @@ python example.py
 ```bash
 curl -s -X POST "https://api.apify.com/v2/acts/abotapi~zumper-scraper/run-sync-get-dataset-items?token=$APIFY_TOKEN" \
   -H 'Content-Type: application/json' \
-  -d '{"mode": "search", "locations": ["San Francisco, CA"], "propertyCategory": "apartments", "sortBy": "default", "maxPages": 1, "maxListings": 10, "proxy": {"useApifyProxy": true, "apifyProxyGroups": ["RESIDENTIAL"]}}'
+  -d '{"mode": "search", "locations": ["San Francisco, CA"], "propertyCategory": "apartments", "sortBy": "default", "maxPages": 1, "maxListings": 10, "proxy": {"useApifyProxy": true, "apifyProxyGroups": ["RESIDENTIAL"]}, "changeScope": "all"}'
 ```
 
 ## Inputs
@@ -39,6 +39,9 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~zumper-scraper/run-sync-g
 | `maxPages` | integer | Max pages per search |
 | `maxListings` | integer | Max listings (total) |
 | `proxy` | object | Connection |
+| `expireAfterMissedScans` | integer | Expire after missed scans (incremental |
+| `changeScope` | string | Change scope (incremental mode only) |
+| `compactUpdates` | boolean | Compact UPDATED and EXPIRED rows (incr |
 
 `*` required
 
@@ -77,7 +80,7 @@ Full details on the [scraper page](https://apify.com/abotapi/zumper-scraper?utm_
 | `maxSquareFeet` | integer |
 | `floorplanCount` | integer |
 | `dateAvailable` | null |
-| `minLeaseDays` | null |
+| `minLeaseDays` | integer |
 | `maxLeaseDays` | null |
 | `listedOn` | string |
 | `modifiedOn` | string |

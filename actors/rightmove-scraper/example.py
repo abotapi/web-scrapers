@@ -1,4 +1,4 @@
-"""Rightmove Scraper: minimal example. Docs: https://apify.com/abotapi/rightmove-scraper
+"""Rightmove UK Scraper: minimal example. Docs: https://apify.com/abotapi/rightmove-scraper
 
 pip install "apify-client>=3"
 APIFY_TOKEN=<your token> python example.py

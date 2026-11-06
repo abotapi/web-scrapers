@@ -1,68 +1,71 @@
 [
   {
-    "productId": "4310888325656",
+    "productId": "5850432551807",
     "handle": "Example handle",
     "baseHandle": "Example base handle",
     "url": "https://www.fashionnova.com/example/29397",
     "title": "Example title",
     "baseTitle": "Example base title",
-    "color": "chocolate",
-    "colorFamily": "Brown",
+    "color": "black",
+    "colorFamily": "Black",
     "brand": "Example brand",
     "category": "Dresses",
     "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
     "currency": "USD",
-    "price": 31,
+    "price": 72.79,
     "maxPrice": null,
-    "compareAtPrice": 16.59,
-    "onSale": true,
-    "discountPercent": 93,
+    "compareAtPrice": null,
+    "onSale": false,
+    "discountPercent": null,
     "availableForSale": true,
     "isGiftCard": false,
     "options": [
       {
         "name": "Example name",
         "values": [
-          "XXS",
-          "XS"
+          "XS",
+          "Example values"
         ]
       }
     ],
     "colorValues": null,
     "sizeValues": [
-      "XXS",
-      "XS"
+      "XS",
+      "S"
     ],
     "variantCount": 4,
     "inStockVariantCount": 4,
     "sizesAvailable": [
-      "XXS",
-      "XS"
+      "M",
+      "L"
     ],
-    "sizesUnavailable": null,
+    "sizesUnavailable": [
+      "XS",
+      "S"
+    ],
     "variants": [
       {
-        "variantId": "91779798671822",
-        "title": "XXS",
-        "sku": "d965_chocolate_xxs",
-        "size": "XXS",
+        "variantId": "07973396686650",
+        "title": "XS",
+        "sku": "sdm2038jp_black_xs",
+        "size": "XS",
         "color": null,
-        "price": 31,
-        "compareAtPrice": 16.59,
-        "onSale": true,
-        "availableForSale": true,
+        "price": 72.79,
+        "compareAtPrice": 66.39,
+        "onSale": false,
+        "availableForSale": false,
         "imageUrl": "https://cdn.shopify.com/example/67754.jpg"
       },
       {
-        "variantId": "13316144930047",
-        "title": "XS",
-        "sku": "d646_chocolate_xs",
-        "size": "XS",
+        "variantId": "93475485862633",
+        "title": "Example title",
+        "sku": "sdm9400jp_black_s",
+        "size": "S",
         "color": null,
-        "price": 48,
-        "compareAtPrice": 19.39,
-        "onSale": true,
-        "availableForSale": true,
+        "price": 86.39,
+        "compareAtPrice": 77.59,
+        "onSale": false,
+        "availableForSale": false,
         "imageUrl": "https://cdn.shopify.com/example/62943.jpg"
       }
     ],
@@ -82,8 +85,8 @@
     "updatedAt": "2026-01-15T10:00:00Z",
     "source": "search",
     "searchQuery": "dresses",
-    "reviewCount": 4877,
-    "reviewsRating": 4.55,
+    "reviewCount": 17,
+    "reviewsRating": 4.85,
     "reviewsFit": "Example reviews fit"
   }
 ]

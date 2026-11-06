@@ -61,9 +61,9 @@ Full details on the [scraper page](https://apify.com/abotapi/asos-com-scraper?ut
 | `colourWayId` | string |
 | `price` | float |
 | `priceText` | string |
-| `originalPrice` | float |
+| `originalPrice` | integer |
 | `onSale` | boolean |
-| `discountPercent` | integer |
+| `discountPercent` | float |
 | `currency` | string |
 | `isNew` | boolean |
 | `isSellingFast` | boolean |

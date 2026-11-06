@@ -22,7 +22,7 @@
     "unitPriceBasisSize": 4,
     "packagingAmount": 252,
     "packagingUnit": "ml",
-    "rating": 4.81,
+    "rating": 4.82,
     "reviewCount": 621,
     "isRateable": true,
     "image": "https://www.rossmann.de/example/18638.jpg",
@@ -64,6 +64,10 @@
           "isRecommended": null
         }
       ]
-    }
+    },
+    "productName": "Example product name",
+    "inStock": true,
+    "imageUrl": "https://www.rossmann.de/example/98472.jpg",
+    "category": null
   }
 ]

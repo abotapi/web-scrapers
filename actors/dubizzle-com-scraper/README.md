@@ -89,7 +89,7 @@ Full details on the [scraper page](https://apify.com/abotapi/dubizzle-com-scrape
 | `featuredListing` | boolean |
 | `promoted` | boolean |
 | `highlightedAd` | boolean |
-| `building` | null |
+| `building` | object |
 | `neighborhoods` | object |
 | `hasWhatsappNumber` | boolean |
 | `agencySlug` | string |

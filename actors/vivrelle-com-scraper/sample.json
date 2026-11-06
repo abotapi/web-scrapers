@@ -3,17 +3,17 @@
     "recordId": "Example record id",
     "url": "https://www.vivrelle.com/example/77724",
     "slug": "id7993618",
-    "sku": "phcc06921",
+    "sku": "phcc06665",
     "itemId": "id76380158",
-    "productId": "phcc32553",
+    "productId": "phcc24431",
     "title": "Example title",
     "brand": "Chanel",
     "category": "handbag",
     "collectionType": "Handbags",
-    "itemType": "Shoulder",
+    "itemType": "Crossbody",
     "categoryTrail": [
       "Handbags",
-      "Shoulder"
+      "Crossbody"
     ],
     "tier": "Couture",
     "retailValue": 1759,
@@ -30,7 +30,7 @@
     "borrowed": false,
     "availability": "available",
     "colors": [
-      "Blue"
+      "Black"
     ],
     "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
     "sizeAndMeasurements": "Example size and measurements",
@@ -49,10 +49,10 @@
       "tier": "Couture",
       "category": "handbag",
       "collectionType": "Handbags",
-      "itemType": "Shoulder",
+      "itemType": "Crossbody",
       "categoryTrail": [
         "Handbags",
-        "Shoulder"
+        "Crossbody"
       ],
       "retailValue": 1759,
       "retailValueText": "Example retail value text",
@@ -67,7 +67,7 @@
       "borrowed": false,
       "availability": "available",
       "colors": [
-        "Blue"
+        "Black"
       ],
       "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
       "sizeAndMeasurements": "Example size and measurements",

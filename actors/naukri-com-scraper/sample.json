@@ -1,7 +1,7 @@
 [
   {
-    "recordId": "586484632721",
-    "jobId": "881123031391",
+    "recordId": "359584481977",
+    "jobId": "948390609910",
     "kind": "job",
     "title": "Example title",
     "url": "https://www.naukri.com/example/48469",
@@ -28,6 +28,10 @@
     "isTopGroup": false,
     "listingSource": "jp",
     "externalApply": false,
+    "diversityTags": [
+      "women",
+      "Example diversity tags"
+    ],
     "companyJobsUrl": "https://www.naukri.com/example/39432",
     "roleCategoryId": "5684",
     "hasApplyQuestionnaire": true,
@@ -42,7 +46,7 @@
     },
     "companyRating": {
       "aggregateRating": "4.2",
-      "reviewsCount": "70795",
+      "reviewsCount": "05988",
       "reviewsUrl": "https://www.ambitionbox.com/example/12199"
     },
     "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
@@ -78,20 +82,10 @@
     ],
     "companyDetails": {
       "name": "Example name",
-      "description": "Example description",
+      "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
       "address": "Example address",
       "overviewUrl": "https://www.naukri.com/example/38247"
     },
-    "education": "Example education: mock text standing in for the real value. Same field and type, made-up content.",
-    "educationDetails": {
-      "ug": [
-        "Example ug",
-        "Example ug"
-      ],
-      "pg": [
-        "Example pg",
-        "Example pg"
-      ]
-    }
+    "education": "Example education"
   }
 ]

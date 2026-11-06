@@ -17,7 +17,7 @@ python example.py
 ```bash
 curl -s -X POST "https://api.apify.com/v2/acts/abotapi~gmarket-global-scraper/run-sync-get-dataset-items?token=$APIFY_TOKEN" \
   -H 'Content-Type: application/json' \
-  -d '{"mode": "search", "keywords": ["laptop"], "maxReviewsPerProduct": 10, "maxPages": 1, "maxListings": 10, "proxy": {"useApifyProxy": true}}'
+  -d '{"mode": "search", "keywords": ["laptop"], "sortBy": "GLOBAL_RANKPOINT", "maxReviewsPerProduct": 10, "maxPages": 1, "maxListings": 10, "proxy": {"useApifyProxy": true}, "changeScope": "all", "maxItems": 10}'
 ```
 
 ## Inputs
@@ -30,6 +30,7 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~gmarket-global-scraper/ru
 | `maxPrice` | integer | Maximum price (KRW) |
 | `overseaDeliveryOnly` | boolean | Oversea delivery only |
 | `bigSmileOnly` | boolean | BigSmile promotion only |
+| `sortBy` | string | Sort by |
 | `urls` | array | URLs |
 | `reviewsOnly` | boolean | Reviews only |
 | `maxReviewsPerProduct` | integer | Max reviews per product |
@@ -37,6 +38,13 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~gmarket-global-scraper/ru
 | `maxListings` | integer | Max total records |
 | `fetchDetails` | boolean | Fetch detail pages (richer default) |
 | `proxy` | object | Proxy |
+| `expireAfterMissedScans` | integer | Grace scans before EXPIRED (incrementa |
+| `changeScope` | string | What counts as a change (incremental m |
+| `compactUpdates` | boolean | Compact UPDATED rows (incremental mode |
+| `query` | string | Query (alias of keywords) |
+| `startUrls` | array | Start URLs (alias of urls) |
+| `maxItems` | integer | Max items (alias of maxListings) |
+| `proxyConfiguration` | object | Proxy configuration (alias of proxy) |
 
 `*` required
 
@@ -48,6 +56,28 @@ Full details on the [scraper page](https://apify.com/abotapi/gmarket-global-scra
 
 | Field | Type |
 | --- | --- |
+| `product_id` | string |
+| `product_url` | string |
+| `price_krw` | integer |
+| `original_price_krw` | integer |
+| `coupon_price_krw` | null |
+| `discount_amount_krw` | integer |
+| `price_usd` | float |
+| `discount_percent` | integer |
+| `is_free_shipping` | boolean |
+| `is_sponsored` | boolean |
+| `is_oversea_delivery` | boolean |
+| `is_big_smile` | boolean |
+| `is_adult` | boolean |
+| `seller_id` | null |
+| `shop_handle` | string |
+| `category_code_l` | string |
+| `category_code_m` | string |
+| `category_code_s` | string |
+| `images_count` | integer |
+| `images` | list |
+| `image_url` | string |
+| `scraped_at` | string |
 | `goodsCode` | string |
 | `title` | string |
 | `linkUrl` | string |
@@ -64,30 +94,8 @@ Full details on the [scraper page](https://apify.com/abotapi/gmarket-global-scra
 | `discountRatePercent` | integer |
 | `isOnSpecial` | boolean |
 | `isBigSmilePromo` | boolean |
-| `bigSmileImageUrl` | null |
+| `bigSmileImageUrl` | string |
 | `isSponsored` | boolean |
-| `isFreeShipping` | boolean |
-| `deliveryInfo` | null |
-| `deliveryFee` | null |
-| `sellerCustNo` | null |
-| `miniShopHandle` | string |
-| `miniShopUrl` | string |
-| `categoryCodeL` | string |
-| `categoryCodeM` | string |
-| `categoryCodeS` | string |
-| `overseaDeliveryAvailable` | boolean |
-| `isBigSmile` | boolean |
-| `isAdult` | boolean |
-| `translation` | object |
-| `raw` | object |
-| `scrapedAt` | string |
-| `descriptionText` | null |
-| `brand` | null |
-| `sellerInfo` | object |
-| `sellerCompanyName` | string |
-| `sellerManagerName` | string |
-| `sellerPhone` | string |
-| `sellerBusinessNumber` | string |
 
 ---
 

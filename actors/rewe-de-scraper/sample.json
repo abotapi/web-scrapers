@@ -1,14 +1,17 @@
 [
   {
-    "productId": "466272",
+    "productId": "111697",
     "name": "Example name",
-    "brand": "Weihenstephan",
-    "tags": [],
+    "brand": "Example brand",
+    "tags": [
+      "Bio",
+      "Example tags"
+    ],
     "url": "https://www.rewe.de/example/42709",
     "hasVariants": false,
     "freeShipping": false,
-    "categoryId": "650",
-    "category": "H-Milch",
+    "categoryId": "0162",
+    "category": "Frischmilch",
     "categoryPath": [
       "Example category path",
       "Milch"
@@ -17,7 +20,7 @@
     "images": [
       "https://img.rewe-static.de/example/23325.jpg"
     ],
-    "price": 1.43,
+    "price": 1.21,
     "currency": "EUR",
     "originalPrice": null,
     "discountAmount": null,
@@ -28,7 +31,7 @@
     "available": true,
     "offerValidTo": null,
     "merchant": "REWE",
-    "gtin": "1027411977815",
+    "gtin": "4819375555051",
     "scrapedAt": "2026-01-15T10:00:00Z"
   }
 ]

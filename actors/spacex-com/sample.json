@@ -2,7 +2,7 @@
   {
     "id": 4161,
     "documentId": "id85208654",
-    "correlationId": "be304fb32d937ad596a1fc6d56e9dc26dde88e025b1a537ef36f3c6aafc7ab4b",
+    "correlationId": "363f1d60c8eb683984b37aaa737c628b79559ac0ca19fb6e702f9341090dd2e9",
     "endDate": null,
     "endTime": null,
     "title": "Example title",
@@ -23,60 +23,64 @@
     "imageDesktop": {
       "id": 4161,
       "name": "Example name",
-      "alternativeText": "Example alternative text",
-      "caption": "Example caption",
+      "alternativeText": null,
+      "caption": null,
       "width": 9407,
       "height": 5154,
       "formats": {
         "large": {
           "ext": "Example ext",
           "url": "https://sxcontent9668.azureedge.us/example/26801",
-          "hash": "large_vandy_desktop4_668995ccc3",
+          "hash": "large_starlink_g1_66_vertical_sunset_9029_desktop_740e1b2fd3",
           "mime": "Example mime",
           "name": "Example name",
           "path": null,
-          "size": 36.58,
+          "size": 58.51,
           "width": 9407,
-          "height": 654
+          "height": 654,
+          "sizeInBytes": 17359
         },
         "small": {
           "ext": "Example ext",
           "url": "https://sxcontent9668.azureedge.us/example/26801",
-          "hash": "small_vandy_desktop2_813302ccc1",
+          "hash": "small_starlink_g0_47_vertical_sunset_9117_desktop_862e4b9fd3",
           "mime": "Example mime",
           "name": "Example name",
           "path": null,
-          "size": 11.76,
+          "size": 17.34,
           "width": 407,
-          "height": 654
+          "height": 654,
+          "sizeInBytes": 17359
         },
         "medium": {
           "ext": "Example ext",
           "url": "https://sxcontent9668.azureedge.us/example/26801",
-          "hash": "medium_vandy_desktop5_260349ccc7",
+          "hash": "medium_starlink_g7_10_vertical_sunset_4133_desktop_905e9b5fd0",
           "mime": "Example mime",
           "name": "Example name",
           "path": null,
-          "size": 22.64,
+          "size": 34.74,
           "width": 407,
-          "height": 654
+          "height": 654,
+          "sizeInBytes": 17359
         },
         "thumbnail": {
           "ext": "Example ext",
           "url": "https://sxcontent9668.azureedge.us/example/26801.jpg",
-          "hash": "thumbnail_vandy_desktop0_088105ccc8",
+          "hash": "thumbnail_starlink_g5_51_vertical_sunset_0190_desktop_890e3b3fd0",
           "mime": "Example mime",
           "name": "Example name",
           "path": null,
-          "size": 4.15,
+          "size": 5.7,
           "width": 407,
-          "height": 654
+          "height": 654,
+          "sizeInBytes": 8359
         }
       },
-      "hash": "vandy_desktop6_366137ccc8",
+      "hash": "starlink_g4_83_vertical_sunset_2551_desktop_911e4b9fd8",
       "ext": "Example ext",
       "mime": "Example mime",
-      "size": 229.68,
+      "size": 410.84,
       "url": "https://sxcontent9668.azureedge.us/example/26801",
       "previewUrl": null,
       "provider": "Example provider",
@@ -91,60 +95,64 @@
     "imageMobile": {
       "id": 4161,
       "name": "Example name",
-      "alternativeText": "Example alternative text",
-      "caption": "Example caption",
+      "alternativeText": null,
+      "caption": null,
       "width": 407,
       "height": 5154,
       "formats": {
         "large": {
           "ext": "Example ext",
           "url": "https://sxcontent9668.azureedge.us/example/26801",
-          "hash": "large_vandy_mobile_6dc9f7755d",
+          "hash": "large_starlink_g4_37_vertical_sunset_vert_9356_mobile_4af4ea40d1",
           "mime": "Example mime",
           "name": "Example name",
           "path": null,
-          "size": 71.92,
+          "size": 104.67,
           "width": 407,
-          "height": 5154
+          "height": 5154,
+          "sizeInBytes": 17359
         },
         "small": {
           "ext": "Example ext",
           "url": "https://sxcontent9668.azureedge.us/example/26801",
-          "hash": "small_vandy_mobile_9dc0f7881d",
+          "hash": "small_starlink_g0_85_vertical_sunset_vert_0298_mobile_3af3ea90d0",
           "mime": "Example mime",
           "name": "Example name",
           "path": null,
-          "size": 21.5,
+          "size": 31.62,
           "width": 407,
-          "height": 654
+          "height": 654,
+          "sizeInBytes": 17359
         },
         "medium": {
           "ext": "Example ext",
           "url": "https://sxcontent9668.azureedge.us/example/26801",
-          "hash": "medium_vandy_mobile_2dc7f0904d",
+          "hash": "medium_starlink_g0_61_vertical_sunset_vert_2991_mobile_7af4ea25d2",
           "mime": "Example mime",
           "name": "Example name",
           "path": null,
-          "size": 43.28,
+          "size": 63.83,
           "width": 407,
-          "height": 654
+          "height": 654,
+          "sizeInBytes": 17359
         },
         "thumbnail": {
           "ext": "Example ext",
           "url": "https://sxcontent9668.azureedge.us/example/26801.jpg",
-          "hash": "thumbnail_vandy_mobile_5dc3f9390d",
+          "hash": "thumbnail_starlink_g5_42_vertical_sunset_vert_5040_mobile_8af9ea68d9",
           "mime": "Example mime",
-          "name": "Example name",
+          "name": "Example name: mock text standing in for the real value. Same field and type, made-up content.",
           "path": null,
-          "size": 3.34,
+          "size": 4.32,
           "width": 407,
-          "height": 654
+          "height": 654,
+          "sizeInBytes": 8359
         }
       },
-      "hash": "vandy_mobile_3dc6f6689d",
+      "hash": "starlink_g4_14_vertical_sunset_vert_8977_mobile_1af6ea56d2",
       "ext": "Example ext",
       "mime": "Example mime",
-      "size": 99.69,
+      "size": 142.2,
       "url": "https://sxcontent9668.azureedge.us/example/26801",
       "previewUrl": null,
       "provider": "Example provider",

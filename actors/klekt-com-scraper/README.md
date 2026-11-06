@@ -65,11 +65,8 @@ Full details on the [scraper page](https://apify.com/abotapi/klekt-com-scraper?u
 | `size` | string |
 | `boxCondition` | string |
 | `condition` | string |
-| `priceAmount` | integer |
 | `priceCurrency` | string |
 | `imageUrl` | string |
-| `likesCount` | integer |
-| `postedAgo` | string |
 | `brand` | string |
 | `sku` | string |
 | `description` | string |
@@ -77,6 +74,7 @@ Full details on the [scraper page](https://apify.com/abotapi/klekt-com-scraper?u
 | `seller` | string |
 | `images` | list |
 | `model` | string |
+| `priceAmount` | float |
 | `detailScraped` | boolean |
 | `reviews` | list |
 

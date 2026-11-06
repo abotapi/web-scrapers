@@ -1,6 +1,6 @@
 # Jobsite UK Scraper
 
-Collect UK job listings from Jobsite.co.uk at scale. Search by keyword, location, filters, or paste search URLs. Returns 35+ clean fields per job from search pages. Optional detail mode adds full description, GPS coordinates, employment type, and company profile.
+Scrape Jobsite.co.uk job listings at scale by keyword, location, filters or URL. Extract 35+ structured fields per job, including titles, salaries and company details. Optional enrichment adds full descriptions, GPS coordinates, employment types and company profiles.
 
 **[Open Jobsite UK Scraper on Apify](https://apify.com/abotapi/jobsite-co-uk-scraper?utm_source=github&utm_medium=web-scrapers&utm_campaign=monorepo)** to run it without code and export JSON, CSV or Excel.
 
@@ -17,7 +17,7 @@ python example.py
 ```bash
 curl -s -X POST "https://api.apify.com/v2/acts/abotapi~jobsite-co-uk-scraper/run-sync-get-dataset-items?token=$APIFY_TOKEN" \
   -H 'Content-Type: application/json' \
-  -d '{"mode": "search", "locations": ["London"], "jobType": "any", "companyType": "any", "salaryType": "annual", "postedWithin": "0", "sortBy": "relevance", "maxPages": 1, "maxListings": 10, "proxy": {"useApifyProxy": true}}'
+  -d '{"mode": "search", "locations": ["London"], "jobType": "any", "companyType": "any", "salaryType": "annual", "postedWithin": "0", "sortBy": "relevance", "maxPages": 1, "maxListings": 10, "maxItems": 10, "proxy": {"useApifyProxy": true}}'
 ```
 
 ## Inputs
@@ -29,14 +29,23 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~jobsite-co-uk-scraper/run
 | `keywords` | string | Keywords |
 | `jobType` | string | Job type |
 | `companyType` | string | Advertiser type |
+| `advertiserType` | string | Advertiser type (alias) |
 | `minSalary` | integer | Minimum salary |
 | `salaryType` | string | Salary period |
+| `salaryPeriod` | string | Salary period (alias) |
 | `postedWithin` | string | Posted within (days) |
+| `postedWithinDays` | string | Posted within days (alias) |
 | `sortBy` | string | Sort by |
+| `radiusMiles` | integer | Search radius (miles) |
 | `urls` | array | Search URLs |
+| `startUrls` | array | Start URLs (alias) |
 | `fetchDetails` | boolean | Fetch full job details |
+| `detailMode` | string | Detail mode (alias) |
+| `includeContactHints` | boolean | Include contact hints |
 | `maxPages` | integer | Max pages per search |
+| `maxPagesPerSearch` | integer | Max pages per search (alias) |
 | `maxListings` | integer | Max jobs |
+| `maxItems` | integer | Max items (alias) |
 | `maxResidentialRequests` | integer | Residential request cap |
 | `proxy` | object | Proxy |
 
@@ -52,6 +61,11 @@ Full details on the [scraper page](https://apify.com/abotapi/jobsite-co-uk-scrap
 | --- | --- |
 | `rowType` | string |
 | `sourceSearchUrl` | string |
+| `detailStatus` | string |
+| `apply` | object |
+| `details` | object |
+| `contacts` | object |
+| `source` | object |
 | `jobId` | integer |
 | `harmonisedId` | string |
 | `jobUrl` | string |
@@ -85,10 +99,6 @@ Full details on the [scraper page](https://apify.com/abotapi/jobsite-co-uk-scrap
 | `externalId` | string |
 | `contractType` | null |
 | `workType` | null |
-| `company` | null |
-| `contactPhones` | list |
-| `contactEmails` | list |
-| `detailFetched` | boolean |
 
 ---
 

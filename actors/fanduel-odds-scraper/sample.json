@@ -1,0 +1,104 @@
+[
+  {
+    "id": "Example id",
+    "eventId": "32364731",
+    "matchup": "Example matchup",
+    "home": "Example home",
+    "away": "Example away",
+    "homeAbbr": "BAL",
+    "awayAbbr": "JAX",
+    "homeLogo": "https://assets.sportsbook.fanduel.com/example/61172.jpg",
+    "awayLogo": "https://assets.sportsbook.fanduel.com/example/31551.jpg",
+    "kickoffTime": "2026-01-15T10:00:00Z",
+    "inplay": false,
+    "competitionId": 12890284,
+    "competition": "NFL",
+    "sport": "Example sport",
+    "moneyline": {
+      "marketId": "756.822643402",
+      "marketName": "Example market name",
+      "selections": [
+        {
+          "name": null,
+          "selectionId": 91444,
+          "handicap": 0,
+          "status": "ACTIVE",
+          "side": null,
+          "odds": {
+            "decimal": 1.5,
+            "fractional": "31/80",
+            "american": -842
+          }
+        },
+        {
+          "name": null,
+          "selectionId": 82994,
+          "handicap": 0,
+          "status": "ACTIVE",
+          "side": null,
+          "odds": {
+            "decimal": 6.48,
+            "fractional": "20/54",
+            "american": 564
+          }
+        }
+      ]
+    },
+    "spread": null,
+    "total": null,
+    "oddsTimestamp": "2026-01-15T10:00:00Z",
+    "url": "https://sportsbook.fanduel.com/example/87397",
+    "detailFetched": false
+  },
+  {
+    "id": "Example id",
+    "eventId": "99824127",
+    "matchup": "Example matchup",
+    "home": "Example home",
+    "away": "Example away",
+    "homeAbbr": "MIZZ",
+    "awayAbbr": "TEX",
+    "homeLogo": "https://assets.sportsbook.fanduel.com/example/35473.jpg",
+    "awayLogo": "https://assets.sportsbook.fanduel.com/example/20246.jpg",
+    "kickoffTime": "2026-01-15T10:00:00Z",
+    "inplay": false,
+    "competitionId": 35926060,
+    "competition": "Example competition",
+    "sport": "Example sport",
+    "moneyline": {
+      "marketId": "754.600062298",
+      "marketName": "Example market name",
+      "selections": [
+        {
+          "name": null,
+          "selectionId": 827199,
+          "handicap": 0,
+          "status": "ACTIVE",
+          "side": null,
+          "odds": {
+            "decimal": 1.39,
+            "fractional": "623/401",
+            "american": -690
+          }
+        },
+        {
+          "name": null,
+          "selectionId": 851299,
+          "handicap": 0,
+          "status": "ACTIVE",
+          "side": null,
+          "odds": {
+            "decimal": 2.71,
+            "fractional": "747/392",
+            "american": 741
+          }
+        }
+      ]
+    },
+    "spread": null,
+    "total": null,
+    "oddsTimestamp": "2026-01-15T10:00:00Z",
+    "url": "https://sportsbook.fanduel.com/example/71194",
+    "detailFetched": false
+  }
+]

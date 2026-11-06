@@ -67,7 +67,7 @@ Full details on the [scraper page](https://apify.com/abotapi/grailed-marketplace
 | `designer` | string |
 | `designers` | list |
 | `price` | integer |
-| `originalPrice` | integer |
+| `originalPrice` | null |
 | `askHistory` | list |
 | `sold` | boolean |
 | `soldAt` | null |

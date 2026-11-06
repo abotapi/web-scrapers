@@ -77,11 +77,11 @@ Full details on the [scraper page](https://apify.com/abotapi/opentable-reviews-s
 | `restaurantReplyText` | null |
 | `reviewerName` | string |
 | `reviewerInitials` | string |
-| `reviewerIsVip` | null |
+| `reviewerIsVip` | boolean |
 | `reviewerLocation` | string |
 | `reviewerApprovedReviewCount` | integer |
 | `reviewerProfileColor` | string |
-| `reviewerPhotoUrl` | string |
+| `reviewerPhotoUrl` | null |
 | `reviewPhotoUrls` | list |
 | `reviewPhotoCount` | integer |
 | `restaurantId` | integer |

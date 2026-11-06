@@ -14,6 +14,8 @@ run = client.actor("abotapi/mediamarkt-es-scraper").call(
     run_input={
         "mode": "search",
         "searchTerm": "portatil",
+        "condition": "all",
+        "sellerType": "all",
         "sortBy": "RELEVANCE",
         "maxReviewsPerProduct": 10,
         "maxPages": 1,

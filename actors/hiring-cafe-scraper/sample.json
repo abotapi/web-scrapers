@@ -1,115 +1,108 @@
 [
   {
     "id": "id15516072",
-    "board_token": "heb",
+    "board_token": "Example board_token",
     "source": "id83364080",
     "source_and_board_token": "id13379246",
-    "apply_url": "https://careers.heb.com/example/60602",
+    "apply_url": "https://employees-publicisgroupe.icims.com/example/60602",
     "objectID": "id36395824",
     "requisition_id": "id50241345",
     "job_url": "https://hiringcafe.com/example/86267",
     "is_expired": false,
     "job_information": {
-      "title": "Example title: mock text standing in for the real value. Same field and type, made-up content.",
-      "job_title_raw": "Example job_title_raw: mock text standing in for the real value. Same field and type, made-up content.",
-      "description": "Example description: mock text standing in for the real value. Same field and type, made-up content."
+      "job_title_raw": "Example job_title_raw",
+      "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
+      "title": "Example title"
     },
     "v5_processed_job_data": {
-      "core_job_title": "Example core_job_title",
-      "requirements_summary": "Example requirements_summary: mock text standing in for the real value. Same field and type, made-up content.",
-      "technical_tools": [],
-      "licenses_or_certifications": [
-        "Example licenses_or_certifications",
-        "hazmat"
-      ],
-      "associates_degree_requirement": "Example associates_degree_requirement",
-      "associates_degree_fields_of_study": [],
-      "bachelors_degree_requirement": "Example bachelors_degree_requirement",
-      "bachelors_degree_fields_of_study": [],
+      "security_clearance": "Example security_clearance",
       "masters_degree_requirement": "Example masters_degree_requirement",
-      "masters_degree_fields_of_study": [],
-      "doctorate_degree_requirement": "Example doctorate_degree_requirement",
-      "doctorate_degree_fields_of_study": [],
-      "licenses_or_certifications_not_mentioned": false,
-      "min_industry_and_role_yoe": 3,
-      "401k_matching": false,
-      "is_min_industry_and_role_yoe_not_mentioned": false,
-      "min_management_and_leadership_yoe": null,
-      "is_min_management_and_leadership_yoe_not_mentioned": true,
-      "job_category": "Example job_category",
-      "role_activities": [
-        "Example role_activities",
-        "Example role_activities"
-      ],
-      "commitment": [
-        "Example commitment"
-      ],
-      "role_type": "Example role_type",
-      "seniority_level": "Example seniority_level",
-      "workplace_countries": [
-        "US"
-      ],
+      "bi-weekly_min_compensation": null,
+      "oral_communication_level": "High",
+      "workplace_physical_environment": "Example workplace_physical_environment",
+      "hourly_max_compensation": null,
+      "overnight_work": "Example overnight_work",
+      "is_driver_license_required": false,
       "boundless_workplace_states": [],
-      "boundless_workplace_countries": [],
-      "boundless_workplace_continents": [],
+      "number_of_workplace_states": 1,
+      "retirement_plan": false,
       "workplace_continents": [
         "Example workplace_continents"
       ],
-      "workplace_states": [
-        "Example workplace_states"
-      ],
+      "is_workplace_worldwide_ok": false,
+      "is_min_management_and_leadership_yoe_not_mentioned": true,
+      "monthly_min_compensation": null,
+      "military_veterans": false,
+      "is_compensation_transparent": false,
+      "land_travel_requirement": "Example land_travel_requirement",
+      "is_high_school_required": false,
+      "number_of_workplace_continents": 1,
+      "company_name": "Example company_name",
       "workplace_cities": [
         "Example workplace_cities"
       ],
-      "workplace_counties": [],
-      "workplace_type": "Onsite",
-      "workplace_physical_environment": "Example workplace_physical_environment",
-      "oral_communication_level": "Medium",
-      "physical_labor_intensity": "Example physical_labor_intensity",
-      "physical_position": "Example physical_position",
-      "computer_usage": "Example computer_usage",
+      "401k_matching": false,
       "cognitive_demand": "Example cognitive_demand",
-      "air_travel_requirement": "Example air_travel_requirement",
-      "land_travel_requirement": "Example land_travel_requirement"
+      "estimated_publish_date_millis": 4126487622697,
+      "fair_chance": false,
+      "associates_degree_requirement": "Example associates_degree_requirement",
+      "number_of_workplace_counties": 2,
+      "core_job_title": "Example core_job_title",
+      "weekend_availability_required": false,
+      "monthly_max_compensation": null,
+      "doctorate_degree_requirement": "Example doctorate_degree_requirement",
+      "company_website": "https://www.publicisgroupe.com/example/25872",
+      "licenses_or_certifications": [],
+      "number_of_workplace_countries": 9,
+      "evening_shift_work": "Example evening_shift_work",
+      "visa_sponsorship": false,
+      "daily_max_compensation": null,
+      "workplace_countries": [
+        "BR"
+      ],
+      "role_activities": [
+        "Example role_activities",
+        "Example role_activities"
+      ]
     },
     "v5_processed_company_data": {
-      "enriched_at": "2026-01-15T10:00:00Z",
-      "status": "VALID_COMPANY",
-      "name": "Example name",
+      "latest_funding_investors": null,
       "homepage_uri": "Example homepage_uri",
-      "hq_country": "US",
       "parent_company": null,
-      "subsidiaries": [
-        "Example subsidiaries",
-        "Example subsidiaries"
+      "latest_funding_year": 5165,
+      "latest_funding_type": "Example latest_funding_type",
+      "stock_exchange": "Example stock_exchange",
+      "stock_symbol": "PUB",
+      "nb_employees": 581897,
+      "year_founded": 5364,
+      "external_id": "Example external_id",
+      "org_classification": "direct_employer",
+      "board_classification": "direct_employer",
+      "org_entity_id": "id27961776",
+      "hq_country": "FR",
+      "enriched_at": "2026-01-15T10:00:00Z",
+      "activities": [
+        "Example activities",
+        "Example activities"
       ],
       "industries": [
         "Example industries",
         "Example industries"
       ],
-      "activities": [
-        "Example activities",
-        "Example activities"
+      "latest_funding_amount": 8604355298,
+      "name": "Example name",
+      "tagline": "Example tagline: mock text standing in for the real value. Same field and type, made-up content.",
+      "organization_type": "Public",
+      "subsidiaries": [
+        "Example subsidiaries",
+        "Example subsidiaries"
       ],
-      "nb_employees": 581897,
-      "year_founded": 5364,
-      "tagline": "Example tagline",
-      "organization_type": "Private",
-      "latest_funding_investors": null,
-      "latest_funding_type": null,
-      "latest_funding_year": null,
-      "latest_funding_amount": null,
-      "stock_exchange": null,
-      "stock_symbol": null,
-      "org_entity_id": "id27961776",
-      "external_id": "q6mtfm-",
-      "board_classification": "direct_employer",
-      "org_classification": "direct_employer"
+      "status": "VALID_COMPANY"
     },
     "_geoloc": [
       {
-        "lat": 30.31,
-        "lon": -89.63
+        "lon": -42.44,
+        "lat": -24.26
       }
     ],
     "job_title": "Example job_title",
@@ -117,37 +110,22 @@
       "Example employment_types"
     ],
     "role_type": "Example role_type",
-    "job_category": "Example job_category",
+    "job_category": "Marketing",
     "seniority": "Example seniority",
-    "workplace_type": "Onsite",
+    "workplace_type": "Hybrid",
     "location": "Example location",
     "employer_type": "Example employer_type",
-    "salary_currency": "USD",
+    "salary_currency": "BRL",
     "posted_at": "2026-01-15T10:00:00Z",
     "company_name": "Example company_name",
-    "company_website": "Example company_website",
+    "company_website": "https://www.publicisgroupe.com/example/25872",
     "company_tagline": "Example company_tagline: mock text standing in for the real value. Same field and type, made-up content.",
     "company_industry": "Example company_industry",
-    "salary_transparent": true,
-    "salary_min": 32444,
-    "salary_max": 41447,
-    "salary_frequency": "yearly",
-    "min_years_experience": 1,
-    "education_required": [
-      "Example education_required"
-    ],
-    "certifications": [
-      "Example certifications",
-      "hazmat"
-    ],
     "languages": [
-      "Spanish"
+      "Portuguese",
+      "English"
     ],
     "security_clearance": "Example security_clearance",
-    "schedule": [
-      "overnight_shift",
-      "Example schedule"
-    ],
     "physical_requirements": {
       "labor_intensity": "Example labor_intensity",
       "position": "Example position",
@@ -159,6 +137,31 @@
       "land_travel": "Example land_travel"
     },
     "company_employees": 887397,
-    "company_founded": 3979
+    "company_founded": 3979,
+    "company_hq_country": "FR",
+    "company_funding": {
+      "latest_funding_type": "Example latest_funding_type",
+      "latest_funding_amount": 8604355298,
+      "latest_funding_year": 5165
+    },
+    "company_stock": {
+      "stock_symbol": "PUB",
+      "stock_exchange": "Example stock_exchange"
+    },
+    "workplace_cities": [
+      "Example workplace_cities"
+    ],
+    "workplace_states": [
+      "Example workplace_states"
+    ],
+    "workplace_countries": [
+      "BR"
+    ],
+    "workplace_continents": [
+      "Example workplace_continents"
+    ],
+    "workplace_counties": [
+      "Example workplace_counties"
+    ]
   }
 ]

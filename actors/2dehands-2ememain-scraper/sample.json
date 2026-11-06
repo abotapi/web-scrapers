@@ -4,23 +4,28 @@
     "sourceSite": "Example source site",
     "itemId": "id6270601",
     "id": "id26334413",
+    "listingId": "id44465879",
     "title": "Example title",
     "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
     "categorySpecificDescription": "Example category specific description: mock text standing in for the real value. Same field and type, made-up content.",
-    "thinContent": false,
-    "price": 4995,
-    "priceCents": 907527,
+    "thinContent": true,
+    "price": 13995,
+    "priceCents": 9907527,
     "priceType": "MIN_BID",
-    "city": "Gent",
+    "city": "Lommel",
     "countryName": "Example country name",
     "countryAbbreviation": null,
-    "latitude": 44.43,
-    "longitude": 3.66,
+    "country": "BE",
+    "latitude": 44.57,
+    "longitude": 5.2,
     "distanceMeters": -4257,
     "location": "Example location",
     "date": "Example date",
+    "postedDate": "2026-01-15",
+    "postedAt": "2026-01-15T10:00:00Z",
     "imageUrl": "Example image url: mock text standing in for the real value. Same field and type, made-up content.",
     "imageUrls": [
+      "Example image urls: mock text standing in for the real value. Same field and type, made-up content.",
       "Example image urls: mock text standing in for the real value. Same field and type, made-up content."
     ],
     "pictures": [
@@ -33,8 +38,21 @@
         "largeUrl": "https://images.2dehands.com/example/89013.jpg",
         "extraExtraLargeUrl": "https://images.2dehands.com/example/54991.jpg",
         "aspectRatio": {
-          "width": 5,
-          "height": 9
+          "width": 203,
+          "height": 396
+        }
+      },
+      {
+        "id": 0,
+        "mediaId": "",
+        "url": "https://images.2dehands.com/example/48368.jpg",
+        "extraSmallUrl": "https://images.2dehands.com/example/31050.jpg",
+        "mediumUrl": "https://images.2dehands.com/example/73734.jpg",
+        "largeUrl": "https://images.2dehands.com/example/11620.jpg",
+        "extraExtraLargeUrl": "https://images.2dehands.com/example/99797.jpg",
+        "aspectRatio": {
+          "width": 895,
+          "height": 881
         }
       }
     ],
@@ -52,19 +70,19 @@
     "categoryId": 15,
     "priorityProduct": "DAGTOPPER",
     "videoOnVip": false,
-    "urgencyFeatureActive": true,
+    "urgencyFeatureActive": false,
     "napAvailable": false,
     "reserved": false,
     "extendedAttributes": [
       {
-        "key": "Example key",
+        "key": "transmission",
         "value": "Example value",
         "values": [
           "Example values"
         ]
       },
       {
-        "key": "color",
+        "key": "model",
         "value": "Example value",
         "values": [
           "Example values"
@@ -72,16 +90,12 @@
       }
     ],
     "traits": [
-      "URGENCY",
-      "dag_topper_5days"
+      "dag_topper_3days",
+      "PACKAGE_FREE"
     ],
     "verticals": [
       "cars",
       "automotive"
-    ],
-    "vipUrl": "Example vip url: mock text standing in for the real value. Same field and type, made-up content.",
-    "url": "https://www.2dehands.be/example/85709",
-    "seedValue": "bmw",
-    "pageOffset": 0
+    ]
   }
 ]

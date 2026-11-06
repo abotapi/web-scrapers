@@ -61,11 +61,11 @@ Full details on the [scraper page](https://apify.com/abotapi/fashionnova-com-scr
 | `category` | string |
 | `description` | string |
 | `currency` | string |
-| `price` | integer |
+| `price` | float |
 | `maxPrice` | null |
-| `compareAtPrice` | float |
+| `compareAtPrice` | null |
 | `onSale` | boolean |
-| `discountPercent` | integer |
+| `discountPercent` | null |
 | `availableForSale` | boolean |
 | `isGiftCard` | boolean |
 | `options` | list |
@@ -74,7 +74,7 @@ Full details on the [scraper page](https://apify.com/abotapi/fashionnova-com-scr
 | `variantCount` | integer |
 | `inStockVariantCount` | integer |
 | `sizesAvailable` | list |
-| `sizesUnavailable` | null |
+| `sizesUnavailable` | list |
 | `variants` | list |
 | `imageUrl` | string |
 | `imageUrls` | list |

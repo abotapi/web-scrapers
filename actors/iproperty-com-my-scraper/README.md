@@ -65,7 +65,7 @@ Full details on the [scraper page](https://apify.com/abotapi/iproperty-com-my-sc
 | `currency` | string |
 | `priceValue` | integer |
 | `pricePretty` | string |
-| `priceType` | null |
+| `priceType` | string |
 | `pricePerArea` | string |
 | `psf` | string |
 | `bedrooms` | integer |
@@ -76,7 +76,7 @@ Full details on the [scraper page](https://apify.com/abotapi/iproperty-com-my-sc
 | `furnishing` | string |
 | `listingType` | string |
 | `isCommercial` | boolean |
-| `area` | null |
+| `area` | string |
 | `district` | string |
 | `region` | string |
 | `location` | object |

@@ -75,7 +75,7 @@ Full details on the [scraper page](https://apify.com/abotapi/olx-scraper?utm_sou
 | `categoryPath` | null |
 | `city` | string |
 | `region` | string |
-| `district` | null |
+| `district` | string |
 | `fullLocation` | string |
 | `latitude` | float |
 | `longitude` | float |

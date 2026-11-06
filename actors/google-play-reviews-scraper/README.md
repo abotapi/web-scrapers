@@ -26,13 +26,20 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~google-play-reviews-scrap
 | --- | --- | --- |
 | `mode` * | string | Mode |
 | `queries` | array | App name searches |
-| `appsPerQuery` | integer | Apps per search term |
+| `appsPerQuery` | integer | Apps per search term or listing page |
 | `urls` | array | Google Play URLs |
+| `appIdOrUrl` | string | App ID or URL (alias) |
 | `countries` | array | Countries |
 | `language` | string | Language |
 | `sortBy` | string | Sort reviews by |
 | `minRating` | integer | Minimum rating |
 | `maxRating` | integer | Maximum rating |
+| `rating` | integer | Exact star rating (alias) |
+| `keywords` | array | Keywords |
+| `appVersion` | array | App versions |
+| `startDate` | string | From date |
+| `endDate` | string | To date |
+| `recentDays` | integer | Only the last N days |
 | `fetchDetails` | boolean | Enrich with app details |
 | `maxItems` | integer | Max reviews |
 | `maxPages` | integer | Max pages per country |
@@ -59,12 +66,13 @@ Full details on the [scraper page](https://apify.com/abotapi/google-play-reviews
 | `authorId` | string |
 | `authorImage` | string |
 | `thumbsUp` | integer |
-| `appVersion` | string |
+| `appVersion` | null |
 | `reviewDate` | string |
 | `reviewTimestamp` | integer |
 | `reviewUrl` | string |
 | `developerReply` | null |
 | `developerReplyDate` | null |
+| `position` | integer |
 
 ---
 

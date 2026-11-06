@@ -60,7 +60,6 @@ Full details on the [scraper page](https://apify.com/abotapi/viagogo-events-scra
 | `isTbd` | boolean |
 | `isMultidayEvent` | boolean |
 | `isParkingEvent` | boolean |
-| `venueTimeZoneOffsetHours` | integer |
 | `eventState` | integer |
 | `hasListings` | boolean |
 | `allowPublicPurchase` | boolean |

@@ -1,8 +1,8 @@
-# We Work Remotely Scraper
+# WeWorkRemotely Scraper
 
 Extract current remote job listings from weworkremotely.com. Use keyword search or WWR feed, category, and remote-jobs URLs. Returns clean job rows with title, company, category, region, tags, salary text, description matches, and filtered structured output.
 
-**[Open We Work Remotely Scraper on Apify](https://apify.com/abotapi/we-work-remotely-jobs-scraper?utm_source=github&utm_medium=web-scrapers&utm_campaign=monorepo)** to run it without code and export JSON, CSV or Excel.
+**[Open WeWorkRemotely Scraper on Apify](https://apify.com/abotapi/we-work-remotely-jobs-scraper?utm_source=github&utm_medium=web-scrapers&utm_campaign=monorepo)** to run it without code and export JSON, CSV or Excel.
 
 ## Run it from code
 
@@ -17,7 +17,7 @@ python example.py
 ```bash
 curl -s -X POST "https://api.apify.com/v2/acts/abotapi~we-work-remotely-jobs-scraper/run-sync-get-dataset-items?token=$APIFY_TOKEN" \
   -H 'Content-Type: application/json' \
-  -d '{"mode": "keyword", "searchTerms": ["python"], "categories": ["all"], "maxItems": 10, "proxy": {"useApifyProxy": true, "apifyProxyGroups": []}}'
+  -d '{"mode": "keyword", "searchTerms": ["python"], "categories": ["all"], "maxItems": 10, "sort": "feed", "proxy": {"useApifyProxy": true, "apifyProxyGroups": []}}'
 ```
 
 ## Inputs
@@ -31,6 +31,10 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~we-work-remotely-jobs-scr
 | `regions` | array | Region filters |
 | `includeDetails` | boolean | Include full description fields |
 | `maxItems` | integer | Max items |
+| `sort` | string | Sort by |
+| `results_wanted` | integer | Results wanted (alias of Max items) |
+| `search_urls` | array | Search URLs (alias) |
+| `category` | string | Category (alias) |
 | `postedWithinDays` | integer | Posted within days |
 | `requireSalary` | boolean | Require salary |
 | `requireCompanyWebsite` | boolean | Require company website |
@@ -51,6 +55,8 @@ Full details on the [scraper page](https://apify.com/abotapi/we-work-remotely-jo
 | `rowType` | string |
 | `jobId` | string |
 | `jobSlug` | string |
+| `guid` | string |
+| `source` | string |
 | `rawTitle` | string |
 | `title` | string |
 | `companyName` | string |
@@ -76,6 +82,7 @@ Full details on the [scraper page](https://apify.com/abotapi/we-work-remotely-jo
 | `jobType` | null |
 | `employmentType` | null |
 | `category` | string |
+| `categories` | list |
 | `categorySlug` | string |
 | `skills` | list |
 | `skillsRaw` | null |
@@ -83,11 +90,8 @@ Full details on the [scraper page](https://apify.com/abotapi/we-work-remotely-jo
 | `skillsCount` | integer |
 | `technologies` | list |
 | `tags` | list |
-| `seniorityLevel` | string |
+| `seniorityLevel` | null |
 | `postedAt` | string |
-| `postedAtText` | string |
-| `postedAgeDays` | integer |
-| `expiresAt` | null |
 
 ---
 

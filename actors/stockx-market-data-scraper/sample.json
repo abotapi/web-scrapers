@@ -41,9 +41,9 @@
     "averagePriceLast90Days": 905,
     "salesLast12Months": 66741,
     "averagePriceLast12Months": 419,
-    "priceVolatility": 0.98,
-    "pricePremium": 0.62,
+    "priceVolatility": 0.4,
+    "pricePremium": 2.55,
     "annualRangeHigh": 653,
-    "annualRangeLow": 54
+    "annualRangeLow": 864
   }
 ]

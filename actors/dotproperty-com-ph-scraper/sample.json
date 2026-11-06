@@ -4,14 +4,20 @@
     "listing_id": "id84295587",
     "url": "https://www.dotproperty.com.ph/example/79200",
     "source": "dotproperty",
-    "price": 339919083,
-    "usable_area_sqm": 612,
+    "price": 6919083,
+    "bedrooms": 6,
+    "bathrooms": 6,
     "agent_name": "Example agent_name",
     "agent_verified": true,
     "latitude": 11.65,
-    "longitude": 128.29,
+    "longitude": 128.26,
     "agent_phone": "+1 555 0100",
     "title": "Example title: mock text standing in for the real value. Same field and type, made-up content.",
+    "floor": 58,
+    "facilities": [
+      "Example facilities",
+      "Example facilities"
+    ],
     "images": [
       "https://pix.dotproperty.co.th/example/9237.jpg",
       "https://pix.dotproperty.co.th/example/69097.jpg"
@@ -19,8 +25,8 @@
     "image_count": 7,
     "og_image": "https://pix.dotproperty.co.th/example/94830.jpg",
     "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
-    "listing_id_text": "ds78-222013",
-    "agent_listing_count": 994,
+    "listing_id_text": "8brlmr77sqm",
+    "agent_listing_count": 94,
     "agent_url": "https://www.dotproperty.com.ph/example/22347",
     "breadcrumbs": [
       "Example breadcrumbs",
@@ -28,15 +34,15 @@
     ],
     "currency": "PHP",
     "price_raw": "Example price_raw",
+    "specs_raw": "Example specs_raw",
     "description_html": "Example description_html: mock text standing in for the real value. Same field and type, made-up content.",
     "agent_info_text": "Example agent_info_text: mock text standing in for the real value. Same field and type, made-up content.",
     "location_text": "Example location_text: mock text standing in for the real value. Same field and type, made-up content.",
-    "property_type": "Shophouse",
+    "property_type": "Condo",
     "operation": "sale",
     "region": "Example region",
-    "city": "Makati",
+    "city": "Manila",
     "area": "Example area",
-    "agent_location": "Example agent_location: mock text standing in for the real value. Same field and type, made-up content.",
     "location_source": "detail_page",
     "scraped_at": "2026-01-15T10:00:00Z"
   }

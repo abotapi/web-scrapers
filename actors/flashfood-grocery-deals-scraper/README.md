@@ -17,7 +17,7 @@ python example.py
 ```bash
 curl -s -X POST "https://api.apify.com/v2/acts/abotapi~flashfood-grocery-deals-scraper/run-sync-get-dataset-items?token=$APIFY_TOKEN" \
   -H 'Content-Type: application/json' \
-  -d '{"mode": "search", "locations": ["Detroit, Michigan"], "storeInputs": ["629cec56061cc242985326fd"], "maxItems": 10, "proxyConfiguration": {"useApifyProxy": true}}'
+  -d '{"mode": "search", "locations": ["Detroit, Michigan"], "storeInputs": ["https://app.shopper.flashfood.com/api/v1/stores/629cec56061cc242985326fd", "https://app.shopper.flashfood.com/api/v1/items/?storeIds=629cec56061cc242985326fd", "https://app.shopper.flashfood.com/api/v1/stores?latitude=42.33&longitude=-83.04&maxDistance=10000", "https://flashfood.com/en/locations", "629cec56061cc242985326fd"], "maxItems": 10, "proxyConfiguration": {"useApifyProxy": true}}'
 ```
 
 ## Inputs
@@ -27,6 +27,16 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~flashfood-grocery-deals-s
 | `mode` * | string | Mode |
 | `locations` | array | Locations |
 | `radiusKm` | integer | Radius (km) |
+| `countries` | array | Countries |
+| `banners` | array | Store chains (banners) |
+| `keywords` | array | Keywords |
+| `departments` | array | Departments |
+| `minDiscountPercent` | integer | Minimum discount (%) |
+| `maxPrice` | string | Maximum price |
+| `expiringWithinDays` | integer | Best before within (days) |
+| `maxStores` | integer | Max stores |
+| `fullNetwork` | boolean | Network sweep |
+| `storesOnly` | boolean | Store records only |
 | `storeInputs` | array | Store links or ids |
 | `urls` | array | Store links or ids (alias) |
 | `maxItems` | integer | Max items |
@@ -48,14 +58,20 @@ Full details on the [scraper page](https://apify.com/abotapi/flashfood-grocery-d
 | `recordId` | string |
 | `itemId` | string |
 | `url` | string |
+| `apiUrl` | string |
 | `title` | string |
+| `name` | string |
+| `gtin` | string |
 | `price` | float |
-| `originalPrice` | integer |
+| `originalPrice` | float |
 | `discountPercent` | integer |
+| `savings` | float |
+| `daysToExpiry` | integer |
 | `currency` | string |
 | `quantityAvailable` | integer |
 | `bestBefore` | string |
 | `department` | string |
+| `departmentFr` | string |
 | `legacyDepartment` | string |
 | `imageUrl` | string |
 | `imageGallery` | list |
@@ -73,6 +89,9 @@ Full details on the [scraper page](https://apify.com/abotapi/flashfood-grocery-d
 | `countryCode` | string |
 | `latitude` | float |
 | `longitude` | float |
+| `distanceKm` | integer |
+| `scrapedAt` | string |
+| `queryLocation` | string |
 
 ---
 

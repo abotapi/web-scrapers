@@ -1,6 +1,6 @@
 [
   {
-    "id": "1941370757",
+    "id": "4968409994",
     "url": "https://www.domain.com.au/example/67430",
     "listingType": "buy",
     "displayAddress": "Example display address",
@@ -15,10 +15,10 @@
     "bedrooms": 9,
     "bathrooms": 7,
     "parkingSpaces": 1,
-    "landSize": 89,
-    "landSizeUnit": "Example land size unit",
-    "buildingSize": null,
-    "buildingSizeUnit": null,
+    "landSize": null,
+    "landSizeUnit": null,
+    "buildingSize": 910,
+    "buildingSizeUnit": "Example building size unit",
     "propertyType": "Example property type",
     "headline": "Example headline",
     "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
@@ -34,6 +34,12 @@
           "end": "2026-01-15T10:00:00Z",
           "time": "Example time",
           "dayOfWeek": "Example day of week"
+        },
+        {
+          "start": "2026-01-15T10:00:00Z",
+          "end": "2026-01-15T10:00:00Z",
+          "time": "Example time",
+          "dayOfWeek": "Example day of week"
         }
       ]
     },
@@ -42,7 +48,7 @@
     "soldDate": null,
     "agencyName": "Example agency name",
     "agencyProfileUrl": "https://www.domain.com.au/example/71478",
-    "agencyId": "qwdlbmn3ojiwmte3",
+    "agencyId": "Example agency id",
     "agencyAddress": {
       "street": null,
       "streetNumber": null,
@@ -59,7 +65,7 @@
         "mobile": "+1 555 0100",
         "email": "user41@example.com",
         "photo": "https://rimh2.domainstatic.com.au/example/34419.jpg",
-        "id": "Example id",
+        "id": "qwdlbnq7odyzmzcx",
         "profileUrl": "https://www.domain.com.au/example/62774"
       }
     ],
@@ -67,14 +73,17 @@
     "schools": [],
     "priceHistory": [
       {
-        "event": "leased",
-        "year": 5226,
+        "event": "listed_for_sale",
+        "year": "NOW",
+        "price": "Example price",
         "date": "Example date",
+        "agent": "Example agent",
         "details": "Example details"
       },
       {
-        "event": "listed_for_rent",
-        "year": 8933
+        "event": "Example event",
+        "year": 8933,
+        "details": "Example details"
       }
     ]
   }

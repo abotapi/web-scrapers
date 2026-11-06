@@ -1,9 +1,9 @@
 [
   {
-    "propertyId": "818040551",
+    "propertyId": "019240418",
     "url": "https://www.realestate.com.au/example/41457",
     "listingType": "buy",
-    "propertyType": "terrace",
+    "propertyType": "apartment",
     "status": {
       "label": "Example label",
       "type": "new_listing"
@@ -16,7 +16,7 @@
       "full": "Example full"
     },
     "coordinates": {
-      "latitude": -27.42,
+      "latitude": -27.44,
       "longitude": 164.81
     },
     "price": {
@@ -25,20 +25,26 @@
     "features": {
       "bedrooms": 2,
       "bathrooms": 2,
-      "parkingSpaces": 0,
+      "parkingSpaces": 6,
       "hasStudy": false,
       "hasBalcony": false,
       "hasPool": false,
-      "hasGarage": false
+      "hasGarage": true
     },
-    "landSize": 638,
-    "landSizeUnit": "m2",
     "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
-    "headline": "Example headline: mock text standing in for the real value. Same field and type, made-up content.",
-    "propertyFeatures": [],
+    "headline": "Example headline",
+    "propertyFeatures": [
+      "Example property features",
+      "Example property features"
+    ],
     "propertyFeaturesStructured": {
-      "indoorFeatures": [],
-      "outdoorFeatures": []
+      "outdoorFeatures": [
+        "Example outdoor features"
+      ],
+      "indoorFeatures": [
+        "Example indoor features",
+        "Example indoor features"
+      ]
     },
     "media": {
       "imageCount": 27,
@@ -55,7 +61,7 @@
       "floorplanUrl": "https://i3.au.reastatic.net/example/5859.jpg"
     },
     "agent": {
-      "id": "8457824",
+      "id": "8917275",
       "name": "Example name",
       "phone": "+1 555 0100",
       "officePhone": "+1 555 0100",
@@ -64,11 +70,11 @@
       "jobTitle": "Example job title",
       "photoUrl": "https://i3.au.reastatic.net/example/91259.jpg",
       "profileUrl": "https://www.realestate.com.au/example/23143",
-      "powerProfile": true
+      "powerProfile": false
     },
     "agents": [
       {
-        "id": "8457824",
+        "id": "8917275",
         "name": "Example name",
         "phone": "+1 555 0100",
         "officePhone": "+1 555 0100",
@@ -77,19 +83,19 @@
         "jobTitle": "Example job title",
         "photoUrl": "https://i3.au.reastatic.net/example/91259.jpg",
         "profileUrl": "https://www.realestate.com.au/example/23143",
-        "powerProfile": true
+        "powerProfile": false
       }
     ],
     "agency": {
       "name": "Example name",
-      "id": "PCLJZU",
+      "id": "IXEUCX",
       "phone": "+1 555 0100",
       "email": "user75@example.com",
-      "website": "http://www.ayre.com.au/example/37340",
+      "website": "http://www.ghh.rh.com.au/example/37340",
       "address": "Example address",
       "addressStructured": {
         "streetAddress": "Example street address",
-        "postcode": "1565",
+        "postcode": "2030",
         "suburb": "Example suburb",
         "state": "NSW"
       },
@@ -105,7 +111,7 @@
       },
       {
         "startTime": "2026-01-15T10:00:00Z",
-        "endTime": "",
+        "endTime": "2026-01-15T10:00:00Z",
         "dateDisplay": "",
         "isAuction": false
       }
@@ -113,7 +119,7 @@
     "constructionStatus": "established",
     "productDepth": "signature",
     "featured": false,
-    "agencyListingId": "r2-7411831",
+    "agencyListingId": "l68267125",
     "channel": "buy",
     "isBuy": true,
     "isRent": false,

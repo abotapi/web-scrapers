@@ -17,7 +17,7 @@ python example.py
 ```bash
 curl -s -X POST "https://api.apify.com/v2/acts/abotapi~idealo-de-price-comparison-scraper/run-sync-get-dataset-items?token=$APIFY_TOKEN" \
   -H 'Content-Type: application/json' \
-  -d '{"mode": "url", "searchQuery": "iphone 15", "urls": ["https://www.idealo.de/preisvergleich/ProductCategory/5292.html"], "maxItems": 10, "maxPages": 1, "proxyConfiguration": {"useApifyProxy": true, "apifyProxyGroups": ["RESIDENTIAL"], "apifyProxyCountry": "DE"}}'
+  -d '{"mode": "url", "searchQuery": "iphone 15", "urls": ["https://www.idealo.de/preisvergleich/ProductCategory/5292.html", "https://www.idealo.de/preisvergleich/MainSearchProductCategory.html?q=iphone+15", "https://www.idealo.de/preisvergleich/ProductCategory/5292F1421457.html", "https://www.idealo.de/preisvergleich/ProductCategory/5292I16-15.html", "https://www.idealo.de/preisvergleich/OffersOfProduct/201663874_-g-shock-gbd-200-casio.html"], "maxItems": 10, "maxPages": 1, "proxyConfiguration": {"useApifyProxy": true, "apifyProxyCountry": "DE"}}'
 ```
 
 ## Inputs
@@ -27,6 +27,7 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~idealo-de-price-compariso
 | `mode` * | string | Search mode |
 | `searchQuery` | string | Search keyword (search mode only) |
 | `urls` | array | URLs (URL mode only) |
+| `values` | array | Lookup values (lookup modes only) |
 | `fetchDetails` | boolean | Fetch full product detail |
 | `maxItems` | integer | Maximum items |
 | `maxPages` | integer | Maximum pages per search |
@@ -46,14 +47,14 @@ Full details on the [scraper page](https://apify.com/abotapi/idealo-de-price-com
 | `url` | string |
 | `title` | string |
 | `brand` | string |
-| `category` | null |
+| `category` | string |
 | `gtin` | null |
 | `lowPrice` | float |
 | `highPrice` | integer |
 | `currency` | string |
 | `priceFormatted` | string |
 | `offerCount` | integer |
-| `rating` | float |
+| `rating` | integer |
 | `reviewCount` | integer |
 | `reviewBreakdown` | object |
 | `previewImage` | string |
@@ -62,6 +63,12 @@ Full details on the [scraper page](https://apify.com/abotapi/idealo-de-price-com
 | `specs` | object |
 | `offers` | list |
 | `reviews` | list |
+| `categories` | list |
+| `priceAvg` | float |
+| `availabilityText` | string |
+| `available` | boolean |
+| `condition` | string |
+| `fetchedAt` | string |
 
 ---
 

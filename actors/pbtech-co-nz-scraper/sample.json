@@ -7,6 +7,7 @@
     "originalPrice": null,
     "currency": "NZD",
     "reviewCount": 3,
+    "rating": 5,
     "specifications": {
       "CPU Family": "Example c p u  family",
       "Memory Size": "Example memory  size",
@@ -22,42 +23,6 @@
     "discountPercent": null,
     "searchMode": "search",
     "specialsCategory": null,
-    "source": "pbtech.co.nz",
-    "sku": "nbkacn1643i",
-    "brand": "Acer",
-    "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
-    "images": [
-      "https://www.pbtech.co.nz/example/27369.jpg",
-      "https://www.pbtech.co.nz/example/3491.jpg"
-    ],
-    "rating": 5,
-    "basePrice": 9745,
-    "availability": "Example availability",
-    "condition": "New",
-    "priceValidUntil": "2026-01-15",
-    "seller": "Example seller",
-    "categories": [
-      "Example categories",
-      "Laptops"
-    ],
-    "specificationsText": "Example specifications text: mock text standing in for the real value. Same field and type, made-up content.",
-    "storeStock": [
-      {
-        "branch": "Example branch",
-        "stock": 1
-      },
-      {
-        "branch": "Example branch",
-        "stock": 2
-      }
-    ],
-    "totalStoreStock": 41,
-    "ratingBreakdown": {
-      "1": 0,
-      "2": 0,
-      "3": 0,
-      "4": 0,
-      "5": 4
-    }
+    "source": "pbtech.co.nz"
   }
 ]

@@ -17,7 +17,7 @@ python example.py
 ```bash
 curl -s -X POST "https://api.apify.com/v2/acts/abotapi~lazada-scraper/run-sync-get-dataset-items?token=$APIFY_TOKEN" \
   -H 'Content-Type: application/json' \
-  -d '{"mode": "search", "country": "sg", "queries": ["laptop"], "sortBy": "popularity", "maxReviewsPerProduct": 10, "maxPages": 1, "maxListings": 10, "proxy": {"useApifyProxy": true, "apifyProxyGroups": ["RESIDENTIAL"], "apifyProxyCountry": "SG"}}'
+  -d '{"mode": "search", "country": "sg", "queries": ["laptop"], "sortBy": "popularity", "maxReviewsPerProduct": 10, "detailMode": "full", "maxPages": 1, "maxListings": 10, "proxy": {"useApifyProxy": true, "apifyProxyGroups": ["RESIDENTIAL"], "apifyProxyCountry": "SG"}}'
 ```
 
 ## Inputs
@@ -35,10 +35,12 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~lazada-scraper/run-sync-g
 | `urls` | array | URLs |
 | `minRating` | integer | Minimum average rating |
 | `freeShippingOnly` | boolean | Free shipping only |
+| `localLanguage` | boolean | Use the storefront's own language |
 | `reviewsOnly` | boolean | Output reviews only (instead of produc |
 | `fetchReviews` | boolean | Include reviews on each product |
 | `maxReviewsPerProduct` | integer | Max reviews per product |
 | `fetchDetails` | boolean | Enrich each product with detail page d |
+| `detailMode` | string | (retired) How product pages are read |
 | `maxPages` | integer | Max SERP pages per query/URL |
 | `maxListings` | integer | Max products total |
 | `proxy` | object | Proxy configuration |
@@ -64,15 +66,15 @@ Full details on the [scraper page](https://apify.com/abotapi/lazada-scraper?utm_
 | `seedValue` | string |
 | `country` | string |
 | `currency` | string |
-| `currentPrice` | float |
+| `currentPrice` | integer |
 | `originalPrice` | integer |
 | `discountText` | string |
 | `discountPct` | integer |
 | `isOnSpecial` | boolean |
-| `discountAmount` | float |
+| `discountAmount` | integer |
 | `promoLabel` | string |
 | `specialsCategory` | string |
-| `ratingScore` | float |
+| `ratingScore` | integer |
 | `reviewCount` | integer |
 | `itemSold` | string |
 | `inStock` | boolean |
@@ -89,7 +91,6 @@ Full details on the [scraper page](https://apify.com/abotapi/lazada-scraper?utm_
 | `canonicalUrl` | string |
 | `enrichmentStatus` | string |
 | `stockStatus` | string |
-| `badges` | list |
 | `raw` | object |
 | `fetchedAt` | string |
 

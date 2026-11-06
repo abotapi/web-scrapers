@@ -1,0 +1,280 @@
+[
+  {
+    "recordId": "Example record id",
+    "productId": "62949553",
+    "lin": "136082",
+    "modelId": "dcd472c3",
+    "url": "https://www.lowes.com/example/83545",
+    "title": "Example title: mock text standing in for the real value. Same field and type, made-up content.",
+    "brand": "DEWALT",
+    "price": 197,
+    "priceUnavailableReason": null,
+    "wasPrice": 619,
+    "pricePerUnit": null,
+    "currency": "USD",
+    "stockQuantity": 759,
+    "itemNumber": "465517",
+    "inStock": true,
+    "pickupEligible": false,
+    "parcelEligible": true,
+    "freeShipping": true,
+    "storeNumber": "2365",
+    "marketingBullets": [
+      "Example marketing bullets: mock text standing in for the real value. Same field and type, made-up content.",
+      "Example marketing bullets: mock text standing in for the real value. Same field and type, made-up content."
+    ],
+    "brandId": "38",
+    "groups": [
+      {
+        "id": "gr_7520",
+        "type": "PCR_GROUP",
+        "url": "https://www.lowes.com/example/83545"
+      },
+      {
+        "id": "gr_73249",
+        "type": "PCR_GROUP",
+        "url": "https://www.lowes.com/example/58490"
+      }
+    ],
+    "collection": {
+      "id": "gr_7520",
+      "type": "PCR_GROUP",
+      "url": "https://www.lowes.com/example/83545"
+    },
+    "categories": [
+      {
+        "id": "409395",
+        "code": "c639332"
+      }
+    ],
+    "merchandisingHierarchy": {
+      "businessArea": "5",
+      "businessAreaDescription": "HARDLINES",
+      "division": "36",
+      "divisionDescription": "Example division description",
+      "subDivision": "072",
+      "subDivisionDescription": "Example sub division description",
+      "productGroup": "759914",
+      "productGroupDescription": "Example product group description",
+      "assortment": "35631",
+      "assortmentDescription": "Example assortment description"
+    },
+    "measurements": {
+      "depth": {
+        "uom": "Example uom",
+        "value": "6.4",
+        "conversions": [
+          {
+            "uom": "Example uom",
+            "value": "82.046",
+            "system": "Example system"
+          },
+          {
+            "uom": "Example uom",
+            "value": "614.66",
+            "system": "Example system"
+          }
+        ]
+      },
+      "width": {
+        "uom": "Example uom",
+        "value": "94.5",
+        "conversions": [
+          {
+            "uom": "Example uom",
+            "value": "84.166",
+            "system": "Example system"
+          },
+          {
+            "uom": "Example uom",
+            "value": "138.03",
+            "system": "Example system"
+          }
+        ]
+      },
+      "height": {
+        "uom": "Example uom",
+        "value": "1.3",
+        "conversions": [
+          {
+            "uom": "Example uom",
+            "value": "43.720",
+            "system": "Example system"
+          },
+          {
+            "uom": "Example uom",
+            "value": "059.26",
+            "system": "Example system"
+          }
+        ]
+      },
+      "grossWeight": {
+        "uom": "Example uom",
+        "value": "6.2",
+        "conversions": [
+          {
+            "uom": "Example uom",
+            "value": "9.354",
+            "system": "Example system"
+          }
+        ]
+      },
+      "cube": {
+        "uom": "Example uom",
+        "value": "4.160547",
+        "conversions": [
+          {
+            "uom": "Example uom",
+            "value": "7.9242",
+            "system": "Example system"
+          }
+        ]
+      },
+      "netContent": {
+        "uom": "Example uom",
+        "value": "2"
+      }
+    },
+    "guides": [
+      {
+        "type": "Example type",
+        "guideTitle": "Example guide title",
+        "mimeType": "Example mime type",
+        "url": "https://pdf.lowes.com/example/83545"
+      },
+      {
+        "type": "WARRANTY_GUIDE",
+        "guideTitle": "Example guide title",
+        "mimeType": "Example mime type",
+        "url": "https://pdf.lowes.com/example/58490"
+      }
+    ],
+    "images": [
+      "https://mobileimages.lowes.com/example/74876.jpg",
+      "https://mobileimages.lowes.com/example/60184.jpg"
+    ],
+    "videos": [
+      {
+        "title": "Example title",
+        "view": "Example view",
+        "url": "https://cdnapisec.kaltura.com/example/83545",
+        "thumbnailUrl": "https://mobileimages.lowes.com/example/103.jpg",
+        "durationMs": 57143
+      },
+      {
+        "title": "Example title",
+        "view": "Example view",
+        "url": "https://cdnapisec.kaltura.com/example/58490",
+        "thumbnailUrl": "https://mobileimages.lowes.com/example/47966.jpg",
+        "durationMs": 23109
+      }
+    ],
+    "status": "ACTIVE",
+    "lowesExclusive": false,
+    "energyStar": false,
+    "priceInfo": {
+      "type": "NETWORK",
+      "displayType": "WAS",
+      "displayPriceType": "was",
+      "sellingPrice": 519,
+      "wasPrice": 619,
+      "totalSaving": 58,
+      "totalPercentage": 79,
+      "isContractor": null,
+      "saleStartsAt": "2026-01-15T10:00:00Z",
+      "saleEndsAt": "2026-01-15T10:00:00Z",
+      "rows": [
+        {
+          "usageType": "SELLING",
+          "displayType": "WAS",
+          "priceType": 98,
+          "basePrice": 565,
+          "finalPrice": 172,
+          "retailPrice": 771,
+          "dollarDiscount": 84,
+          "percentage": 66,
+          "dotd": false
+        }
+      ]
+    },
+    "savingsAmount": 14,
+    "savingsPercent": 88,
+    "saleEndsAt": "2026-01-15T10:00:00Z",
+    "promotions": [
+      {
+        "kind": "finance",
+        "promoId": "3324192615831359126",
+        "promoType": "Example promo type",
+        "promoName": "Example promo name",
+        "promoGroupCode": "Example promo group code",
+        "startDateTime": "2026-01-15T10:00:00Z",
+        "endDateTime": "2026-01-15T10:00:00Z",
+        "bannerName": null,
+        "financeTermType": null,
+        "financeTermId": null,
+        "displayPriority": null,
+        "financeTypeId": null,
+        "financeThresholdAmount": null,
+        "financeMonths": null,
+        "financePromoPercent": null,
+        "financeAnualPercentRate": null,
+        "financePrice": null,
+        "pricePerMonth": null,
+        "offerPrice": 127.75,
+        "percentOff": null,
+        "itemXQuantity": null,
+        "itemYQuantity": null,
+        "description": "Example description: mock text standing in for the real value. Same field and type, made-up content."
+      },
+      {
+        "kind": "offer",
+        "promoId": "0364702338495328563",
+        "promoType": "Example promo type",
+        "promoName": "Example promo name",
+        "promoGroupCode": "Example promo group code",
+        "startDateTime": "2026-01-15T10:00:00Z",
+        "endDateTime": "2026-01-15T10:00:00Z",
+        "bannerName": "lac-8-off",
+        "financeTermType": null,
+        "financeTermId": null,
+        "displayPriority": 0,
+        "financeTypeId": 0,
+        "financeThresholdAmount": 0,
+        "financeMonths": 0,
+        "financePromoPercent": 0,
+        "financeAnualPercentRate": 0,
+        "financePrice": null,
+        "pricePerMonth": null,
+        "offerPrice": 99.48,
+        "percentOff": 1,
+        "itemXQuantity": null,
+        "itemYQuantity": null,
+        "description": null
+      }
+    ],
+    "inventory": [
+      {
+        "method": "parcel",
+        "deliveryMethodName": "Example delivery method name",
+        "availabilityStatus": "Available",
+        "isAvailable": true,
+        "availableQuantity": 353,
+        "leadTimeDays": 7,
+        "leadTime": "2026-01-15T10:00:00Z",
+        "leadTimeTimestamp": 5153721063936
+      },
+      {
+        "method": "pickup",
+        "deliveryMethodName": "Example delivery method name",
+        "availabilityStatus": "Example availability status",
+        "isAvailable": false,
+        "availableQuantity": 140,
+        "leadTimeDays": 6,
+        "leadTime": "Example lead time",
+        "leadTimeTimestamp": null
+      }
+    ],
+    "storeInfo": null,
+    "barcode": "547097426684"
+  }
+]

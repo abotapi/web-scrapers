@@ -51,9 +51,9 @@ Full details on the [scraper page](https://apify.com/abotapi/showpo-com-scraper?
 | `brand` | string |
 | `color` | string |
 | `attributes` | list |
-| `price` | float |
+| `price` | integer |
 | `listPrice` | float |
-| `compareAtPrice` | null |
+| `compareAtPrice` | float |
 | `onSale` | boolean |
 | `discountPercent` | integer |
 | `currency` | string |

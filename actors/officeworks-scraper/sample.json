@@ -14,11 +14,11 @@
     "colour": "Silver",
     "multipackSize": null,
     "unitsPerPack": 6,
-    "category": "Deals",
-    "categoryPath": "deals",
+    "category": "Example category",
+    "categoryPath": "Example category path",
     "availableStates": [
-      "QLD",
-      "NT"
+      "SA",
+      "QLD"
     ],
     "isAvailableInStore": true,
     "availableOnline": true,
@@ -73,8 +73,7 @@
         "Example category hierarchy"
       ],
       [
-        "Technology",
-        "Laptops"
+        "Example category hierarchy"
       ]
     ]
   }

@@ -62,9 +62,9 @@ Full details on the [scraper page](https://apify.com/abotapi/takealot-com-scrape
 | `subtitle` | string |
 | `brand` | null |
 | `price` | integer |
-| `priceMax` | null |
+| `priceMax` | integer |
 | `prettyPrice` | string |
-| `listingPrice` | integer |
+| `listingPrice` | null |
 | `savingPercent` | integer |
 | `currency` | string |
 | `starRating` | float |

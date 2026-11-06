@@ -69,7 +69,7 @@ Full details on the [scraper page](https://apify.com/abotapi/airbnb-stays-review
 | `stayCategory` | string |
 | `locationLabel` | string |
 | `subtitle` | string |
-| `badges` | list |
+| `badges` | null |
 | `isGuestFavorite` | null |
 | `latitude` | float |
 | `longitude` | float |
@@ -82,14 +82,14 @@ Full details on the [scraper page](https://apify.com/abotapi/airbnb-stays-review
 | `coordinates` | object |
 | `detailLoaded` | boolean |
 | `reviewsFetched` | integer |
-| `rating` | float |
+| `rating` | integer |
 | `reviewsCount` | integer |
 | `priceLabel` | string |
 | `priceTotal` | integer |
-| `priceOriginalTotal` | integer |
+| `priceOriginalTotal` | null |
 | `pricePerNight` | float |
 | `pricePerNightListed` | float |
-| `priceCurrency` | null |
+| `priceCurrency` | string |
 | `priceCurrencyRequested` | string |
 | `priceQualifier` | string |
 | `nights` | integer |

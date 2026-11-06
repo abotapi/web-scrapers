@@ -38,6 +38,7 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~marktplaats-nl-scraper/ru
 | `fetchDetails` | boolean | Fetch full detail pages |
 | `maxPages` | integer | Max pages per search |
 | `maxListings` | integer | Max listings |
+| `maxRecords` | integer | Max records (alias of Max listings) |
 | `proxy` | object | Proxy configuration |
 | `residentialCountries` | array | Premium connection fallback countries |
 | `maxResidentialRequests` | integer | Premium connection request budget |

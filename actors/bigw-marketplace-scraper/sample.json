@@ -21,13 +21,16 @@
     "condition": "New",
     "listingStatus": "LISTEDONLINEONLY",
     "url": "https://www.bigw.com.au/example/88077",
-    "price": 94.67,
+    "price": 92.36,
     "wasPrice": null,
     "rrp": null,
     "saving": null,
     "savingsPercent": null,
     "isOnSpecial": false,
     "unitPrice": null,
+    "pricePerUnitPrice": null,
+    "pricePerUnitQuantity": null,
+    "pricePerUnitUnit": null,
     "currency": "AUD",
     "priceLabel": null,
     "priceLabelType": null,
@@ -52,11 +55,6 @@
       "Example categories"
     ],
     "categoryPath": "Example category path: mock text standing in for the real value. Same field and type, made-up content.",
-    "variants": null,
-    "colours": null,
-    "sizes": null,
-    "specifications": {
-      "BrandName": "Example brand name"
-    }
+    "variants": null
   }
 ]

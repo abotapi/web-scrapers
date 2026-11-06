@@ -25,13 +25,13 @@
     "ratingDistributionPercent": {
       "oneStar": 1.78,
       "twoStar": 0.75,
-      "threeStar": 1.28,
-      "fourStar": 4.05,
-      "fiveStar": 89.09
+      "threeStar": 1.29,
+      "fourStar": 4.07,
+      "fiveStar": 89.06
     },
     "ratingDistributionTotal": 16554,
     "negativeReviewShare": 2.55,
-    "positiveReviewShare": 110.92,
+    "positiveReviewShare": 110.91,
     "reviewLanguages": [
       {
         "isoCode": "ar",
@@ -56,8 +56,8 @@
     "verifiedByGoogle": false,
     "verifiedPaymentMethod": true,
     "verifiedUserIdentity": false,
-    "replyPercentage": 80.67,
-    "averageDaysToReply": 0.81,
+    "replyPercentage": 80.83,
+    "averageDaysToReply": 0.79,
     "negativeReviewsWithRepliesCount": 336,
     "totalNegativeReviewsCount": 531,
     "lastReplyToNegativeReview": "Example last reply to negative review",

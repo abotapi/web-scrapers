@@ -75,7 +75,7 @@ Full details on the [scraper page](https://apify.com/abotapi/resq-club-surplus-f
 | `venueId` | integer |
 | `venueUrl` | string |
 | `venueName` | string |
-| `venueDescription` | string |
+| `venueDescription` | null |
 | `address` | string |
 | `country` | string |
 | `countryName` | string |

@@ -62,8 +62,8 @@ Full details on the [scraper page](https://apify.com/abotapi/curtsy-app-scraper?
 | `price` | integer |
 | `retailPrice` | null |
 | `suggestedPrice` | integer |
-| `priceWithFees` | integer |
-| `shippingPrice` | float |
+| `priceWithFees` | float |
+| `shippingPrice` | integer |
 | `shippingCost` | float |
 | `size` | string |
 | `sizeCategory` | string |

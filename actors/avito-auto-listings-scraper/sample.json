@@ -1,9 +1,9 @@
 [
   {
-    "id": "6385682686",
+    "id": "9222386189",
     "url": "https://www.avito.ru/example/56190",
     "title": "Example title",
-    "price": 5158333,
+    "price": 77158333,
     "currency": "RUB",
     "priceText": "Example price text",
     "availability": "limited",
@@ -22,14 +22,15 @@
     "areaSqm": null,
     "floor": null,
     "totalFloors": null,
-    "postedDate": "Example posted date",
+    "postedDate": "",
     "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
     "photoUrls": [
-      "https://b40.img.avito.st/example/23086.jpg",
-      "https://60.img.avito.st/example/40490.jpg"
+      "https://50.img.avito.st/example/23086.jpg",
+      "https://c90.img.avito.st/example/40490.jpg"
     ],
     "photoCount": 50,
     "badges": [
+      "Example badges",
       "Example badges"
     ],
     "isVerified": false,
@@ -40,13 +41,14 @@
     "sellerReviewsCount": null,
     "sellerSince": "",
     "viewsCount": null,
-    "todayViews": 10,
+    "todayViews": 550,
     "postedDateFull": "Example posted date full",
     "attributes": {
-      "Год выпуска": "2206",
+      "Год выпуска": "5883",
       "Поколение": "Example поколение",
       "Пробег": "Example пробег",
       "ПТС": "Example птс",
+      "Владельцев по ПТС": "4",
       "Состояние": "Example состояние",
       "Модификация": "Example модификация",
       "Объём двигателя": "Example объём двигателя",
@@ -59,7 +61,7 @@
       "Руль": "Example руль",
       "VIN или номер кузова": "Example v i n или номер кузова"
     },
-    "lat": 55.74,
-    "lng": 43.51
+    "lat": 55.79,
+    "lng": 43.58
   }
 ]

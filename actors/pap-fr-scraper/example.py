@@ -1,4 +1,4 @@
-"""Pap.fr Scraper: minimal example. Docs: https://apify.com/abotapi/pap-fr-scraper
+"""PAP.fr Scraper: minimal example. Docs: https://apify.com/abotapi/pap-fr-scraper
 
 pip install "apify-client>=3"
 APIFY_TOKEN=<your token> python example.py

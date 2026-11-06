@@ -17,7 +17,7 @@ python example.py
 ```bash
 curl -s -X POST "https://api.apify.com/v2/acts/abotapi~2dehands-2ememain-scraper/run-sync-get-dataset-items?token=$APIFY_TOKEN" \
   -H 'Content-Type: application/json' \
-  -d '{"mode": "search", "queries": ["bmw"], "domain": "2dehands.be", "sort": "optimized", "maxReviews": 10, "maxItems": 10, "maxPages": 1, "proxy": {"useApifyProxy": true, "apifyProxyGroups": ["RESIDENTIAL"], "apifyProxyCountry": "BE"}}'
+  -d '{"mode": "search", "queries": ["bmw"], "domain": "2dehands.be", "sort": "optimized", "delivery": "any", "maxReviews": 10, "maxItems": 10, "maxPages": 1, "proxy": {"useApifyProxy": true, "apifyProxyGroups": ["RESIDENTIAL"], "apifyProxyCountry": "BE"}}'
 ```
 
 ## Inputs
@@ -26,18 +26,35 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~2dehands-2ememain-scraper
 | --- | --- | --- |
 | `mode` * | string | 1. Mode |
 | `queries` | array | Search keywords |
+| `searchQuery` | string | Search keyword (alias) |
+| `searchQueries` | array | Search keywords (alias list) |
+| `listingIds` | array | Exact listing IDs |
 | `startUrls` | array | Listing or search URLs |
 | `domain` | string | Site |
 | `minPrice` | integer | Minimum price (EUR) |
 | `maxPrice` | integer | Maximum price (EUR) |
+| `priceMinEur` | integer | Minimum price in EUR (alias) |
+| `priceMaxEur` | integer | Maximum price in EUR (alias) |
 | `sort` | string | Sort results |
+| `sortBy` | string | Sort (alias) |
 | `categoryId` | integer | Category ID (optional) |
+| `postcode` | string | Belgian postcode |
+| `radiusKm` | integer | Radius around the postcode (km) |
+| `conditions` | array | Item condition |
+| `delivery` | string | Delivery |
+| `buyItNowOnly` | boolean | Fixed-price listings only |
+| `postedAfter` | string | Posted on or after |
+| `postedBefore` | string | Posted on or before |
 | `fetchDetails` | boolean | Fetch full listing details |
+| `scrapeDetails` | boolean | Fetch details (alias) |
 | `includeReviews` | boolean | Include seller reviews |
 | `maxReviews` | integer | Max reviews per listing |
 | `maxItems` | integer | Max listings (the run cap) |
 | `maxPages` | integer | Max pages per search |
 | `proxy` | object | Proxy configuration |
+| `proxyConfiguration` | object | Proxy configuration (alias) |
+| `onlyNewListings` | boolean | Only listings not seen before |
+| `resetState` | boolean | Forget remembered listings first |
 
 `*` required
 
@@ -53,6 +70,7 @@ Full details on the [scraper page](https://apify.com/abotapi/2dehands-2ememain-s
 | `sourceSite` | string |
 | `itemId` | string |
 | `id` | string |
+| `listingId` | string |
 | `title` | string |
 | `description` | string |
 | `categorySpecificDescription` | string |
@@ -63,11 +81,14 @@ Full details on the [scraper page](https://apify.com/abotapi/2dehands-2ememain-s
 | `city` | string |
 | `countryName` | string |
 | `countryAbbreviation` | null |
+| `country` | string |
 | `latitude` | float |
 | `longitude` | float |
 | `distanceMeters` | integer |
 | `location` | string |
 | `date` | string |
+| `postedDate` | string |
+| `postedAt` | string |
 | `imageUrl` | string |
 | `imageUrls` | list |
 | `pictures` | list |
@@ -85,10 +106,6 @@ Full details on the [scraper page](https://apify.com/abotapi/2dehands-2ememain-s
 | `extendedAttributes` | list |
 | `traits` | list |
 | `verticals` | list |
-| `vipUrl` | string |
-| `url` | string |
-| `seedValue` | string |
-| `pageOffset` | integer |
 
 ---
 

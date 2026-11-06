@@ -34,6 +34,7 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~kmart-au-scraper/run-sync
 | `colour` | string | Colour |
 | `category` | string | Category |
 | `includeMarketplace` | boolean | Include marketplace products |
+| `sellers` | array | Sellers |
 | `minPrice` | integer | Min price (AUD) |
 | `maxPrice` | integer | Max price (AUD) |
 | `fetchReviews` | boolean | Fetch reviews |
@@ -45,6 +46,7 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~kmart-au-scraper/run-sync
 | `includeClickAndCollect` | boolean | Include Click & Collect and exact unit |
 | `trackStates` | array | Tracked states |
 | `verifyOnlineDelivery` | boolean | Check online delivery live (Tracked st |
+| `deliveryPostcode` | string | Delivery postcode (optional, one Track |
 | `returnDeliveryAnswers` | boolean | Return verified delivery answers once  |
 | `proxy` | object | Proxy |
 | `baselineDatasetId` | string | Start from an existing dataset (option |
@@ -65,21 +67,43 @@ Full details on the [scraper page](https://apify.com/abotapi/kmart-au-scraper?ut
 | `kind` | string |
 | `id` | string |
 | `productId` | string |
-| `url` | string |
 | `name` | string |
+| `title` | string |
+| `url` | string |
+| `brand` | string |
+| `apn` | integer |
+| `description` | string |
+| `descriptionText` | string |
+| `descriptionSummary` | string |
+| `features` | null |
+| `specifications` | object |
+| `careInstructions` | list |
+| `additionalInfo` | list |
+| `warnings` | null |
+| `manuals` | null |
+| `detailSections` | list |
+| `price` | float |
+| `currentPrice` | float |
+| `listPrice` | float |
+| `promoPrice` | float |
+| `wasPrice` | null |
+| `savingsAmount` | null |
+| `savingsPercent` | null |
+| `isOnSpecial` | boolean |
+| `promoLabel` | null |
+| `variantBadges` | null |
 | `currency` | string |
-| `price` | integer |
-| `currentPrice` | integer |
-| `inStockNationally` | boolean |
-| `inStockInSelectedStates` | boolean |
-| `changeType` | string |
-| `changedFields` | list |
-| `firstSeenAt` | string |
-| `lastSeenAt` | string |
-| `previousPrice` | null |
-| `priceChanges` | null |
-| `variantChanges` | null |
-| `deliveryChanges` | list |
+| `onSale` | boolean |
+| `clearance` | boolean |
+| `averageRating` | float |
+| `reviewCount` | integer |
+| `colour` | string |
+| `secondaryColour` | string |
+| `size` | string |
+| `seller` | string |
+| `isMarketplace` | boolean |
+| `merchDepartment` | integer |
+| `merchClass` | string |
 
 ---
 

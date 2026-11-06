@@ -17,7 +17,7 @@ python example.py
 ```bash
 curl -s -X POST "https://api.apify.com/v2/acts/abotapi~bizquest-scraper/run-sync-get-dataset-items?token=$APIFY_TOKEN" \
   -H 'Content-Type: application/json' \
-  -d '{"mode": "search", "locations": ["Florida"], "maxPages": 1, "maxListings": 10, "proxy": {"useApifyProxy": true, "apifyProxyGroups": ["RESIDENTIAL"], "apifyProxyCountry": "US"}}'
+  -d '{"mode": "search", "locations": ["Florida"], "maxPages": 1, "maxListings": 10, "proxy": {"useApifyProxy": true, "apifyProxyGroups": ["RESIDENTIAL"], "apifyProxyCountry": "US"}, "changeScope": "all"}'
 ```
 
 ## Inputs
@@ -31,11 +31,19 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~bizquest-scraper/run-sync
 | `sortBy` | string | Sort by |
 | `minPrice` | integer | Min asking price (USD) |
 | `maxPrice` | integer | Max asking price (USD) |
+| `subCategory` | string | Sub-category |
+| `minCashFlow` | integer | Min cash flow (USD) |
+| `maxCashFlow` | integer | Max cash flow (USD) |
+| `listedWithinDays` | integer | Listed within the last N days |
+| `establishedAfterYear` | integer | Established after year |
 | `urls` | array | BizQuest URLs |
 | `includeDetails` | boolean | Fetch full listing details |
 | `maxPages` | integer | Max pages per search |
 | `maxListings` | integer | Max listings |
 | `proxy` | object | Proxy |
+| `expireAfterMissedScans` | integer | Expire after N missed full scans (incr |
+| `changeScope` | string | What counts as a change (incremental m |
+| `compactUpdates` | boolean | Compact update rows (incremental mode  |
 
 `*` required
 
@@ -56,7 +64,7 @@ Full details on the [scraper page](https://apify.com/abotapi/bizquest-scraper?ut
 | `images` | list |
 | `askingPrice` | integer |
 | `cashFlow` | null |
-| `ebitda` | integer |
+| `ebitda` | null |
 | `leaseRateDuration` | integer |
 | `leaseRatePerSquareFoot` | null |
 | `realEstateIncludedInAskingPrice` | boolean |
@@ -74,12 +82,12 @@ Full details on the [scraper page](https://apify.com/abotapi/bizquest-scraper?ut
 | `isFranchise` | boolean |
 | `categoryDetails` | null |
 | `brokerName` | string |
-| `brokerCompany` | string |
+| `brokerCompany` | null |
 | `brokerPhone` | string |
-| `tpnPhone` | string |
-| `tpnPhoneExt` | string |
-| `brokerPhoto` | string |
-| `brokerProfileUrl` | string |
+| `tpnPhone` | null |
+| `tpnPhoneExt` | null |
+| `brokerPhoto` | null |
+| `brokerProfileUrl` | null |
 | `brokerCertifications` | null |
 | `contactInfo` | object |
 | `hotProperty` | boolean |

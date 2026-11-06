@@ -61,8 +61,8 @@ Full details on the [scraper page](https://apify.com/abotapi/vestiaire-collectiv
 | `currency` | string |
 | `price` | integer |
 | `priceCents` | integer |
-| `wasPrice` | integer |
-| `discountPercent` | integer |
+| `wasPrice` | null |
+| `discountPercent` | null |
 | `colorName` | string |
 | `colorNames` | list |
 | `colors` | list |

@@ -1,6 +1,6 @@
 [
   {
-    "productId": 69,
+    "productId": 55869,
     "url": "https://kream.co.kr/example/12025",
     "productName": "Example product name",
     "productNameKo": "Example product name ko",
@@ -20,15 +20,15 @@
       "https://kream-phinf.pstatic.net/example/1553.jpg",
       "https://kream-phinf.pstatic.net/example/32139.jpg"
     ],
-    "lowestAsk": 172858,
+    "lowestAsk": 82858,
     "highestBid": 908290,
     "marketPrice": 635836,
     "lastSalePrice": 724548,
     "totalSales": 884229,
-    "changeValue": 9320,
-    "changePercentage": 1.05,
+    "changeValue": 0,
+    "changePercentage": 0,
     "premium": -57818,
-    "premiumPercentage": -22.65,
+    "premiumPercentage": -26.17,
     "hasImmediateDelivery": true,
     "wishCount": 630570,
     "reviewCount": 66335,
@@ -36,27 +36,27 @@
     "isActive": true,
     "isTradable": true,
     "sizes": [
-      "948",
-      "881"
+      "623",
+      "736"
     ],
     "sizeOptions": [
       {
         "id": 4431849,
-        "key": "568",
-        "name": "917",
-        "displayName": "887"
+        "key": "949",
+        "name": "625",
+        "displayName": "370"
       },
       {
         "id": 5479503,
-        "key": "674",
-        "name": "505",
-        "displayName": "018"
+        "key": "545",
+        "name": "487",
+        "displayName": "035"
       }
     ],
     "productNameEn": "Example product name en",
     "productUrl": "https://kream.co.kr/example/93053",
     "modelNumber": "Example model number",
     "releasePrice": 875369,
-    "price": 547434
+    "price": 97434
   }
 ]

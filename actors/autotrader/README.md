@@ -17,7 +17,7 @@ python example.py
 ```bash
 curl -s -X POST "https://api.apify.com/v2/acts/abotapi~autotrader/run-sync-get-dataset-items?token=$APIFY_TOKEN" \
   -H 'Content-Type: application/json' \
-  -d '{"mode": "search", "channel": "cars", "postcode": "SW1A 1AA", "make": "BMW", "sellerType": "any", "writeoffStatus": "include", "priceSearchType": "total", "sortBy": "relevance", "maxPages": 1, "maxListings": 10, "proxy": {"useApifyProxy": true}}'
+  -d '{"mode": "search", "channel": "cars", "postcode": "SW1A 1AA", "make": "BMW", "sellerType": "any", "writeoffStatus": "include", "priceSearchType": "total", "sortBy": "relevance", "maxItems": 10, "maxPages": 1, "maxListings": 10, "proxy": {"useApifyProxy": true}}'
 ```
 
 ## Inputs
@@ -50,6 +50,9 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~autotrader/run-sync-get-d
 | `priceSearchType` | string | Price basis |
 | `sortBy` | string | Sort order |
 | `urls` | array | URLs |
+| `startUrls` | array | Start URLs (alias of URLs) |
+| `maxItems` | integer | Max items (alias of Max listings) |
+| `endPage` | integer | End page (alias of Max pages) |
 | `fetchDetails` | boolean | Fetch full advert details |
 | `includeFinanceGuides` | boolean | Include finance guide text |
 | `maxPages` | integer | Max pages per search |
@@ -72,7 +75,7 @@ Full details on the [scraper page](https://apify.com/abotapi/autotrader?utm_sour
 | `channel` | string |
 | `title` | string |
 | `subTitle` | string |
-| `attentionGrabber` | string |
+| `attentionGrabber` | null |
 | `make` | string |
 | `model` | string |
 | `vehicleCategory` | string |
@@ -91,11 +94,11 @@ Full details on the [scraper page](https://apify.com/abotapi/autotrader?utm_sour
 | `financeInitialPayment` | null |
 | `financeTermMonths` | null |
 | `sellerType` | string |
-| `dealerId` | string |
+| `dealerId` | null |
 | `dealerName` | null |
-| `dealerReviewRating` | float |
+| `dealerReviewRating` | null |
 | `dealerReviewCount` | null |
-| `dealerLink` | string |
+| `dealerLink` | null |
 | `isManufacturerApproved` | boolean |
 | `isFranchiseApproved` | boolean |
 | `preReg` | boolean |

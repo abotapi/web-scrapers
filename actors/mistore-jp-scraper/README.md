@@ -71,7 +71,7 @@ Full details on the [scraper page](https://apify.com/abotapi/mistore-jp-scraper?
 | `colorCodes` | list |
 | `badgeCodes` | list |
 | `saleStartsAt` | string |
-| `saleEndsAt` | null |
+| `saleEndsAt` | string |
 | `cardholderOnly` | boolean |
 | `digitalProduct` | null |
 | `brandCode` | string |

@@ -57,6 +57,7 @@ Full details on the [scraper page](https://apify.com/abotapi/pbtech-co-nz-scrape
 | `originalPrice` | null |
 | `currency` | string |
 | `reviewCount` | integer |
+| `rating` | integer |
 | `specifications` | object |
 | `promotion` | string |
 | `imageUrl` | null |
@@ -64,21 +65,6 @@ Full details on the [scraper page](https://apify.com/abotapi/pbtech-co-nz-scrape
 | `searchMode` | string |
 | `specialsCategory` | null |
 | `source` | string |
-| `sku` | string |
-| `brand` | string |
-| `description` | string |
-| `images` | list |
-| `rating` | integer |
-| `basePrice` | integer |
-| `availability` | string |
-| `condition` | string |
-| `priceValidUntil` | string |
-| `seller` | string |
-| `categories` | list |
-| `specificationsText` | string |
-| `storeStock` | list |
-| `totalStoreStock` | integer |
-| `ratingBreakdown` | object |
 
 ---
 

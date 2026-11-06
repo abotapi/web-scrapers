@@ -17,7 +17,7 @@ python example.py
 ```bash
 curl -s -X POST "https://api.apify.com/v2/acts/abotapi~fotocasa-es-scraper/run-sync-get-dataset-items?token=$APIFY_TOKEN" \
   -H 'Content-Type: application/json' \
-  -d '{"mode": "search", "locations": ["madrid-capital"], "operation": "comprar", "propertyType": "viviendas", "sortBy": "relevance", "maxListings": 10, "maxPages": 1, "proxy": {"useApifyProxy": true, "apifyProxyGroups": ["RESIDENTIAL"], "apifyProxyCountry": "ES"}, "residentialCountries": ["ES"]}'
+  -d '{"mode": "search", "locations": ["madrid-capital"], "operation": "comprar", "propertyType": "viviendas", "sortBy": "relevance", "maxListings": 10, "maxPages": 1, "proxy": {"useApifyProxy": true, "apifyProxyGroups": ["RESIDENTIAL"], "apifyProxyCountry": "ES"}, "residentialCountries": ["ES"], "changeScope": "all"}'
 ```
 
 ## Inputs
@@ -37,6 +37,11 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~fotocasa-es-scraper/run-s
 | `maxBaths` | integer | Max Bathrooms |
 | `minSurface` | integer | Min Surface (m²) |
 | `maxSurface` | integer | Max Surface (m²) |
+| `publicationDate` | string | Published within |
+| `latitude` | number | Radius centre latitude |
+| `longitude` | number | Radius centre longitude |
+| `distanceKm` | integer | Radius (km) |
+| `rentalTypes` | array | Rental types |
 | `urls` | array | Search URLs |
 | `fetchDetails` | boolean | Fetch full details |
 | `maxListings` | integer | Max items |
@@ -45,6 +50,9 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~fotocasa-es-scraper/run-s
 | `residentialCountries` | array | Residential fallback countries |
 | `maxResidentialRequests` | integer | Residential request budget |
 | `backupProxyUrl` | string | Backup proxy URL |
+| `changeScope` | string | What counts as a change (incremental m |
+| `compactUpdates` | boolean | Compact UPDATED/EXPIRED rows (incremen |
+| `expireAfterMissedScans` | integer | Expire after N missed scans (increment |
 
 `*` required
 

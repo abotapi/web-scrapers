@@ -55,10 +55,10 @@ Full details on the [scraper page](https://apify.com/abotapi/fruugo-com-scraper?
 | `brand` | string |
 | `category` | string |
 | `breadcrumbs` | string |
-| `price` | integer |
+| `price` | float |
 | `priceCurrency` | string |
 | `priceText` | string |
-| `listPrice` | integer |
+| `listPrice` | float |
 | `discountPercent` | null |
 | `availability` | string |
 | `inStock` | boolean |
@@ -67,7 +67,7 @@ Full details on the [scraper page](https://apify.com/abotapi/fruugo-com-scraper?
 | `shippingPrice` | float |
 | `shippingText` | string |
 | `description` | string |
-| `ean` | string |
+| `ean` | null |
 | `gtin` | string |
 | `sku` | string |
 | `imageUrl` | string |

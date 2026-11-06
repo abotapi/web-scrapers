@@ -18,7 +18,7 @@
       "id": 5169432,
       "name": "Example name",
       "url": "https://www.totaljobs.com/example/38354",
-      "logoUrl": "",
+      "logoUrl": "https://tjgliveassets.s3.eu-west-1.amazonaws.com/example/94940.jpg",
       "isAnonymous": false
     },
     "location": {
@@ -35,8 +35,8 @@
     },
     "salary": {
       "rawText": "Example raw text",
-      "min": 15.02,
-      "max": 17.2,
+      "min": 67453,
+      "max": 10468,
       "currency": "GBP",
       "period": null
     },

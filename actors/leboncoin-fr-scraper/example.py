@@ -1,4 +1,4 @@
-"""Leboncoin FR Scraper: minimal example. Docs: https://apify.com/abotapi/leboncoin-fr-scraper
+"""Leboncoin Scraper: minimal example. Docs: https://apify.com/abotapi/leboncoin-fr-scraper
 
 pip install "apify-client>=3"
 APIFY_TOKEN=<your token> python example.py

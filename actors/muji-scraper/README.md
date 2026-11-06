@@ -70,8 +70,8 @@ Full details on the [scraper page](https://apify.com/abotapi/muji-scraper?utm_so
 | `breadcrumb` | list |
 | `collections` | list |
 | `tags` | list |
-| `price` | float |
-| `priceMax` | float |
+| `price` | integer |
+| `priceMax` | integer |
 | `originalPrice` | null |
 | `discountAmount` | null |
 | `discountPercent` | null |

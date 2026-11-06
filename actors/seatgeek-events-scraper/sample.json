@@ -15,15 +15,15 @@
     "announcedAt": "2026-01-15T10:00:00Z",
     "venueId": 336758,
     "venueName": "Example venue name",
-    "venueCity": "Springfield",
-    "venueState": "MA",
+    "venueCity": "Milwaukee",
+    "venueState": "WI",
     "venueCountry": "US",
     "venueAddress": "Example venue address",
-    "venuePostalCode": "55372",
+    "venuePostalCode": "44864",
     "venueTimezone": "Example venue timezone",
     "venueCapacity": 0,
-    "venueLatitude": 42.93,
-    "venueLongitude": -52.98,
+    "venueLatitude": 43.91,
+    "venueLongitude": -64.18,
     "venueUrl": "https://seatgeek.com/example/66067",
     "headliner": "Example headliner",
     "performers": [
@@ -47,8 +47,8 @@
     "goodDealLowestPrice": null,
     "listingCount": 0,
     "ticketCount": 0,
-    "popularity": 0.46,
-    "score": 0.47,
+    "popularity": 0.48,
+    "score": 0.5,
     "raw": {
       "access_method": null,
       "announce_date": "2026-01-15T10:00:00Z",
@@ -92,7 +92,7 @@
       "last_valid_datetime_utc": "2026-01-15T10:00:00Z",
       "links": [
         {
-          "id": "3127042",
+          "id": "9486772",
           "url": "",
           "provider": "vividseats",
           "primary": false,
@@ -175,10 +175,10 @@
         }
       ],
       "playoffs": null,
-      "popularity": 0.46,
+      "popularity": 0.48,
       "relative_url": "Example relative_url: mock text standing in for the real value. Same field and type, made-up content.",
       "schedule_status": "Example schedule_status",
-      "score": 0.47,
+      "score": 0.5,
       "season_stage": null,
       "short_title": "Example short_title"
     }

@@ -1,4 +1,4 @@
-"""HH.ru Jobs Scraper: minimal example. Docs: https://apify.com/abotapi/hh-ru-jobs-scraper
+"""HH.ru Scraper: minimal example. Docs: https://apify.com/abotapi/hh-ru-jobs-scraper
 
 pip install "apify-client>=3"
 APIFY_TOKEN=<your token> python example.py

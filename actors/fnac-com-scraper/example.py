@@ -15,6 +15,7 @@ run = client.actor("abotapi/fnac-com-scraper").call(
         "mode": "search",
         "searchTerm": "iphone",
         "sortBy": "RELEVANCE",
+        "condition": "any",
         "maxReviewsPerProduct": 10,
         "maxPages": 1,
         "maxItems": 10,

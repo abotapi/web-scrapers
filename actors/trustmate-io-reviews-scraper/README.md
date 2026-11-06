@@ -69,7 +69,6 @@ Full details on the [scraper page](https://apify.com/abotapi/trustmate-io-review
 | `shared` | boolean |
 | `imported` | boolean |
 | `importSource` | null |
-| `orderIdentifier` | string |
 | `orderNumber` | null |
 | `isOrderLinked` | boolean |
 | `reviewStatus` | integer |
@@ -86,6 +85,7 @@ Full details on the [scraper page](https://apify.com/abotapi/trustmate-io-review
 | `companyVerified` | boolean |
 | `companyEmail` | string |
 | `companyNip` | string |
+| `companyLanguage` | string |
 
 ---
 

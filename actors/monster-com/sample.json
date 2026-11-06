@@ -26,10 +26,9 @@
     "occupationalCategory": null,
     "educationRequirements": null,
     "employmentTypes": [
-      "FULL_TIME",
-      "PERMANENT"
+      "FULL_TIME"
     ],
-    "employmentTypesText": "Example employment types text",
+    "employmentTypesText": "FULL_TIME",
     "salaryMin": null,
     "salaryMax": null,
     "salaryCurrency": "USD",

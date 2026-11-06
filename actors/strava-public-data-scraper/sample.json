@@ -1,129 +1,89 @@
 [
   {
     "recordId": "Example record id",
-    "kind": "club",
-    "clubId": "76417",
+    "kind": "challenge",
+    "challengeId": "04700",
     "name": "Example name",
-    "slug": null,
+    "shortName": "Example short name",
     "url": "https://www.strava.com/example/59711",
-    "description": "Example description",
-    "sportType": "Running",
-    "displayIcon": "Example display icon",
-    "clubTypes": [
-      "CasualClub"
-    ],
-    "city": "Ambleside",
-    "state": "England",
-    "country": "Example country",
-    "countryCode": "UK",
-    "memberCount": 781,
-    "verified": false,
-    "inviteOnly": true,
-    "leaderboardEnabled": true,
-    "postsDefaultView": false,
-    "website": "http://www.amblesideac.org.uk/example/53312",
-    "avatarUrl": "https://dgalywyr863hv.cloudfront.net/example/54585.jpg",
-    "coverPhotoUrl": "https://dgalywyr863hv.cloudfront.net/example/43779.jpg",
-    "memberPreviews": [
-      {
-        "athleteId": "8543054",
-        "firstName": "Example first name",
-        "lastName": "Example last name",
-        "badgeType": "Free",
-        "profileImageUrl": "https://dgalywyr863hv.cloudfront.net/example/51445.jpg"
-      },
-      {
-        "athleteId": "95750369",
-        "firstName": "Example first name",
-        "lastName": "Example last name",
-        "badgeType": "Free",
-        "profileImageUrl": "https://lh3.googleusercontent.com/example/75787.jpg"
-      }
-    ],
-    "requestedRef": "64688",
+    "slug": "november-flexibility-challenge-3994",
+    "sport": "promoted",
+    "goal": 34598,
+    "dimension": "moving_time",
+    "sponsored": false,
+    "icon": "yoga",
+    "coverImageUrl": "https://dgalywyr863hv.cloudfront.net/example/67570.jpg",
+    "coverTitleText": null,
+    "logoUrl": "https://dgalywyr863hv.cloudfront.net/example/22267.jpg",
+    "logoTitleText": null,
+    "followersInChallenge": null,
+    "joined": false,
+    "externalJoinUrl": null,
+    "goalDescription": "Example goal description",
+    "rewardDescription": "Example reward description",
+    "dateStart": "2026-01-15",
+    "dateEnd": "2026-01-15",
     "raw": {
+      "id": 37585,
+      "url": "https://www.strava.com/example/59711",
       "name": "Example name",
-      "location": {
-        "country": "Example country",
-        "state": "England",
-        "city": "Ambleside"
-      },
-      "avatarUrl": "https://dgalywyr863hv.cloudfront.net/example/54585.jpg",
-      "clubSettings": {
-        "inviteOnly": true,
-        "leaderboardEnabled": true,
-        "postsDefaultView": false
-      },
-      "clubSportType": "Running",
-      "clubTypes": [
-        "CasualClub"
-      ],
-      "countryCode": "UK",
-      "coverPhotoUrl": "https://dgalywyr863hv.cloudfront.net/example/43779.jpg",
-      "description": "Example description",
-      "displayIcon": "Example display icon",
-      "id": "23238",
-      "verified": false,
-      "website": "http://www.amblesideac.org.uk/example/53312",
-      "memberCount": 781,
-      "members": {
-        "nodes": [
-          {
-            "athlete": {
-              "id": "5925443",
-              "firstName": "Example first name",
-              "lastName": "Example last name",
-              "badge": {
-                "badgeType": "Free"
-              },
-              "profileImageUrl": "https://dgalywyr863hv.cloudfront.net/example/51445.jpg"
-            }
-          },
-          {
-            "athlete": {
-              "id": "67833719",
-              "firstName": "Example first name",
-              "lastName": "Example last name",
-              "badge": {
-                "badgeType": "Free"
-              },
-              "profileImageUrl": "https://lh3.googleusercontent.com/example/75787.jpg"
-            }
-          }
-        ]
+      "sponsored": false,
+      "goal": 34598,
+      "dimension": "moving_time",
+      "displayedIcon": "yoga",
+      "shortName": "Example short name",
+      "coverImageUrl": "https://dgalywyr863hv.cloudfront.net/example/67570.jpg",
+      "coverTitleText": "",
+      "logoUrl": "https://dgalywyr863hv.cloudfront.net/example/22267.jpg",
+      "logoTitleText": "",
+      "followersInChallenge": null,
+      "joined": false,
+      "externalJoinUrl": "",
+      "summaryBulletEntries": {
+        "goalDescription": {
+          "title": "Example title",
+          "icons": [
+            "Example icons"
+          ]
+        },
+        "rewardDescription": {
+          "title": "Example title",
+          "icons": [
+            "Example icons"
+          ]
+        },
+        "duration": {
+          "title": "Example title",
+          "icons": [
+            "Example icons"
+          ]
+        }
       }
-    }
-  },
-  {
-    "recordId": "Example record id",
-    "kind": "athlete",
-    "athleteId": "6740657",
-    "firstName": "Example first name",
-    "lastName": "Example last name",
-    "name": "Example name",
-    "url": "https://www.strava.com/example/90489",
-    "profileImageUrl": "https://dgalywyr863hv.cloudfront.net/example/96067.jpg",
-    "profileImageUrlLarge": "https://dgalywyr863hv.cloudfront.net/example/26006.jpg",
-    "hasDefaultProfileImage": false,
-    "badgeType": "Free",
-    "profileVisibilitySetting": "Example profile visibility setting",
-    "city": null,
-    "state": null,
-    "country": "Example country",
-    "requestedRef": "3963891",
-    "raw": {
-      "id": "7770393",
-      "firstName": "Example first name",
-      "lastName": "Example last name",
-      "profileVisibilitySetting": "Example profile visibility setting",
-      "profileImageUrl": "https://dgalywyr863hv.cloudfront.net/example/96067.jpg",
-      "hasDefaultProfileImage": false,
-      "badge": {
-        "badgeType": "Free"
-      },
-      "location": {
-        "country": "Example country"
-      }
-    }
+    },
+    "subtitle": "Example subtitle: mock text standing in for the real value. Same field and type, made-up content.",
+    "activityType": "ride",
+    "ended": false,
+    "completed": false,
+    "rewardButtonText": "Example reward button text",
+    "locale": "en-US",
+    "organizingClub": {
+      "clubId": "656486",
+      "name": "Example name",
+      "url": "https://www.strava.com/example/59711",
+      "verified": true,
+      "sportType": "workout",
+      "memberCount": 9540781,
+      "logoUrl": "https://dgalywyr863hv.cloudfront.net/example/22267.jpg"
+    },
+    "overviewText": "Example overview text: mock text standing in for the real value. Same field and type, made-up content.",
+    "rewardsText": "Example rewards text: mock text standing in for the real value. Same field and type, made-up content.",
+    "rulesText": "Example rules text: mock text standing in for the real value. Same field and type, made-up content.",
+    "additionalInfoText": "Example additional info text: mock text standing in for the real value. Same field and type, made-up content.",
+    "qualifyingActivities": [
+      "Example qualifying activities",
+      "Example qualifying activities"
+    ],
+    "participantsCount": 330963,
+    "goalDescriptionDetail": "Example goal description detail"
   }
 ]

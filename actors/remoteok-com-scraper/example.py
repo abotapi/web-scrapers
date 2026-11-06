@@ -16,6 +16,7 @@ run = client.actor("abotapi/remoteok-com-scraper").call(
         "searchTerms": ["all jobs"],
         "sortBy": "posted-desc",
         "maxItems": 10,
+        "maxResults": 10,
         "maxPages": 1,
         "proxy": {"useApifyProxy": True, "apifyProxyGroups": []},
     },

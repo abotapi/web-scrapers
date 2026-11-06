@@ -9,7 +9,7 @@
     ],
     "category": "Example category",
     "productUrl": "https://www.lidl.es/example/55735",
-    "price": 14.21,
+    "price": 15.0,
     "currency": "EUR",
     "wasPrice": null,
     "discountAmount": null,
@@ -69,6 +69,19 @@
       "recommendedNo": null,
       "starHistogram": null,
       "items": []
-    }
+    },
+    "name": "Example name: mock text standing in for the real value. Same field and type, made-up content.",
+    "erpNumber": "388738202",
+    "itemNumber": "465447",
+    "productKey": "Example product key",
+    "country": "ES",
+    "categoryLvl0": "Example category lvl0",
+    "labels": [
+      "Example labels"
+    ],
+    "priceEur": 15.38,
+    "priceNormal": 22.98,
+    "comparePrice": null,
+    "compareUnit": null
   }
 ]

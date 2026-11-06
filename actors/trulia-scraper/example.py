@@ -18,7 +18,8 @@ run = client.actor("abotapi/trulia-scraper").call(
         "searchSort": "RECOMMENDED",
         "maxItems": 10,
         "maxPages": 1,
-        "proxy": {"useApifyProxy": True, "apifyProxyGroups": ["RESIDENTIAL"], "apifyProxyCountry": "US"},
+        "proxy": {"useApifyProxy": True, "apifyProxyCountry": "US"},
+        "changeScope": "all",
     },
     logger=None,  # don't stream the run log to your console
 )

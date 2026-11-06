@@ -4,6 +4,7 @@
     "id": 95392,
     "active_jobs_count": 0,
     "aged": true,
+    "ai_job_board": false,
     "average_rating": "0.2",
     "benefits_active": false,
     "careers_url": "http://www.workathansons.com/example/73796",
@@ -38,7 +39,6 @@
     "website": "https://www.hansons.com/example/76021",
     "url": "https://www.repvue.com/example/72221",
     "repvueScore": null,
-    "averageRating": 2.57,
-    "sizeLabel": "397-0357"
+    "averageRating": 2.57
   }
 ]

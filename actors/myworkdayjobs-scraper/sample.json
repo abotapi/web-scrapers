@@ -9,12 +9,12 @@
       "host": "Example host",
       "lang": "en-US"
     },
-    "jobReqId": "jr0469225",
+    "jobReqId": "jr1682738",
     "postingInternalId": "id79255561",
-    "jobPostingId": "senior-software-engineer--kubernetes-and-virtualization---dgx-cloud_jr8792152",
+    "jobPostingId": "senior-asic-design-engineer---clocks-ip_jr9238870",
     "jobPostingSiteId": "Example job posting site id",
     "questionnaireId": "id82441695",
-    "title": "Example title: mock text standing in for the real value. Same field and type, made-up content.",
+    "title": "Example title",
     "jobUrl": "https://nvidia.wd5.myworkdayjobs.com/example/18922",
     "externalPath": "Example external path: mock text standing in for the real value. Same field and type, made-up content.",
     "postedOn": "Example posted on",
@@ -62,32 +62,15 @@
       "name": "Example name",
       "url": ""
     },
-    "similarJobs": [
-      {
-        "title": "Example title",
-        "externalPath": "Example external path: mock text standing in for the real value. Same field and type, made-up content.",
-        "timeType": "Example time type",
-        "locationsText": "Example locations text",
-        "postedOn": "Example posted on",
-        "startDate": "2026-01-15"
-      },
-      {
-        "title": "Example title",
-        "externalPath": "Example external path: mock text standing in for the real value. Same field and type, made-up content.",
-        "timeType": "Example time type",
-        "locationsText": "Example locations text",
-        "postedOn": "Example posted on",
-        "startDate": "2026-01-15"
-      }
-    ],
+    "similarJobs": [],
     "scrapedAt": "2026-01-15T10:00:00Z",
-    "id": "jr9911461",
+    "id": "jr6324444",
     "url": "https://nvidia.wd5.myworkdayjobs.com/example/52524",
     "jobDescription": "Example job description: mock text standing in for the real value. Same field and type, made-up content.",
     "originUrl": "https://nvidia.wd5.myworkdayjobs.com/example/54522",
     "metadata": {
       "postingInternalId": "id79255561",
-      "jobPostingId": "senior-software-engineer--kubernetes-and-virtualization---dgx-cloud_jr8792152",
+      "jobPostingId": "senior-asic-design-engineer---clocks-ip_jr9238870",
       "jobPostingSiteId": "Example job posting site id",
       "questionnaireId": "id82441695",
       "includeResumeParsing": true,
@@ -107,14 +90,14 @@
       "host": "Example host",
       "lang": "en-US"
     },
-    "jobReqId": "jr0265211",
+    "jobReqId": "jr4422355",
     "postingInternalId": "id52674981",
-    "jobPostingId": "senior-system-software-engineer---av-platform_jr1084032",
+    "jobPostingId": "global-trade-compliance-analyst_jr5618300",
     "jobPostingSiteId": "Example job posting site id",
     "questionnaireId": "id61301491",
     "title": "Example title",
     "jobUrl": "https://nvidia.wd5.myworkdayjobs.com/example/80781",
-    "externalPath": "Example external path: mock text standing in for the real value. Same field and type, made-up content.",
+    "externalPath": "Example external path",
     "postedOn": "Example posted on",
     "startDate": "2026-01-15",
     "timeType": "Example time type",
@@ -122,7 +105,7 @@
     "canApply": true,
     "includeResumeParsing": true,
     "locationText": "Example location text",
-    "country": "US",
+    "country": "IN",
     "employerName": "Example employer name",
     "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
     "descriptionText": "Example description text: mock text standing in for the real value. Same field and type, made-up content.",
@@ -144,7 +127,7 @@
         "country": {
           "descriptor": "Example descriptor",
           "id": "id47554360",
-          "alpha2Code": "US"
+          "alpha2Code": "IN"
         }
       }
     },
@@ -158,32 +141,15 @@
       "name": "Example name",
       "url": ""
     },
-    "similarJobs": [
-      {
-        "title": "Example title",
-        "externalPath": "Example external path: mock text standing in for the real value. Same field and type, made-up content.",
-        "timeType": "Example time type",
-        "locationsText": "Example locations text",
-        "postedOn": "Example posted on",
-        "startDate": "2026-01-15"
-      },
-      {
-        "title": "Example title",
-        "externalPath": "Example external path: mock text standing in for the real value. Same field and type, made-up content.",
-        "timeType": "Example time type",
-        "locationsText": "Example locations text",
-        "postedOn": "Example posted on",
-        "startDate": "2026-01-15"
-      }
-    ],
+    "similarJobs": [],
     "scrapedAt": "2026-01-15T10:00:00Z",
-    "id": "jr1362618",
+    "id": "jr8281417",
     "url": "https://nvidia.wd5.myworkdayjobs.com/example/89476",
     "jobDescription": "Example job description: mock text standing in for the real value. Same field and type, made-up content.",
     "originUrl": "https://nvidia.wd5.myworkdayjobs.com/example/96959",
     "metadata": {
       "postingInternalId": "id52674981",
-      "jobPostingId": "senior-system-software-engineer---av-platform_jr1084032",
+      "jobPostingId": "global-trade-compliance-analyst_jr5618300",
       "jobPostingSiteId": "Example job posting site id",
       "questionnaireId": "id61301491",
       "includeResumeParsing": true,

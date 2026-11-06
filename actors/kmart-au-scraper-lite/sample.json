@@ -1,0 +1,67 @@
+[
+  {
+    "kind": "product",
+    "id": "93274302",
+    "productId": "p_11548330",
+    "name": "Example name",
+    "title": "Example title",
+    "url": "https://www.kmart.com.au/example/82648",
+    "brand": "Anko",
+    "apn": 7977612581669,
+    "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
+    "descriptionText": "Example description text: mock text standing in for the real value. Same field and type, made-up content.",
+    "descriptionSummary": "Example description summary: mock text standing in for the real value. Same field and type, made-up content.",
+    "features": null,
+    "specifications": {
+      "Dimensions/Size": "Example dimensions/ size",
+      "Material": "Example material",
+      "Colour": "Example colour",
+      "Care instructions": "Example care instructions"
+    },
+    "careInstructions": [
+      "Example care instructions"
+    ],
+    "additionalInfo": [
+      "Example additional info: mock text standing in for the real value. Same field and type, made-up content."
+    ],
+    "warnings": null,
+    "manuals": null,
+    "detailSections": [
+      {
+        "heading": "Example heading",
+        "items": [
+          "Example items",
+          "Example items"
+        ]
+      },
+      {
+        "heading": "Example heading",
+        "items": [
+          "Example items: mock text standing in for the real value. Same field and type, made-up content."
+        ]
+      }
+    ],
+    "price": 2.85,
+    "currentPrice": 3.0,
+    "listPrice": 3.23,
+    "promoPrice": 2.88,
+    "wasPrice": null,
+    "savingsAmount": null,
+    "savingsPercent": null,
+    "isOnSpecial": false,
+    "promoLabel": null,
+    "variantBadges": null,
+    "currency": "AUD",
+    "onSale": false,
+    "clearance": false,
+    "averageRating": 3.36,
+    "reviewCount": 831,
+    "colour": "Blue",
+    "secondaryColour": "Ocean",
+    "size": "Example size",
+    "seller": "Example seller",
+    "isMarketplace": false,
+    "merchDepartment": 10,
+    "merchClass": "TOWELS"
+  }
+]

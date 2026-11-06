@@ -1,8 +1,8 @@
-# Tiktok Live Recorder Scraper
+# TikTok Live Recorder Scraper
 
-Record TikTok live streams to MP4 with full metadata, all stream quality URLs, and crash-resilient segmented recording, at a fraction of the cost.
+Record TikTok LIVE streams to MP4 at a fraction of the cost. Extract full stream metadata and all available quality URLs. Supports crash-resilient segmented recording for reliable video capture and recovery.
 
-**[Open Tiktok Live Recorder Scraper on Apify](https://apify.com/abotapi/tiktok-live-recorder?utm_source=github&utm_medium=web-scrapers&utm_campaign=monorepo)** to run it without code and export JSON, CSV or Excel.
+**[Open TikTok Live Recorder Scraper on Apify](https://apify.com/abotapi/tiktok-live-recorder?utm_source=github&utm_medium=web-scrapers&utm_campaign=monorepo)** to run it without code and export JSON, CSV or Excel.
 
 ## Run it from code
 

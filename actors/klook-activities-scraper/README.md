@@ -69,7 +69,7 @@ Full details on the [scraper page](https://apify.com/abotapi/klook-activities-sc
 | `url` | string |
 | `price` | float |
 | `currency` | string |
-| `marketPrice` | null |
+| `marketPrice` | float |
 | `rating` | float |
 | `reviewCount` | integer |
 | `location` | string |
@@ -88,7 +88,7 @@ Full details on the [scraper page](https://apify.com/abotapi/klook-activities-sc
 | `activity_url` | string |
 | `sell_price` | float |
 | `price_from` | float |
-| `price_to` | null |
+| `price_to` | float |
 | `city_name` | string |
 | `country_name` | string |
 | `image_url` | string |

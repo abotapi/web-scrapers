@@ -32,6 +32,14 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~idealista-scraper/run-syn
 | `maxPrice` | integer | Max Price (EUR) |
 | `minBedrooms` | integer | Min Bedrooms |
 | `maxBedrooms` | integer | Max Bedrooms |
+| `minSize` | integer | Min Size (m2) |
+| `maxSize` | integer | Max Size (m2) |
+| `bathrooms` | string | Bathrooms |
+| `propertyTypes` | array | Property types |
+| `features` | array | Must have (all selected) |
+| `conditions` | array | Condition |
+| `publishedWithin` | string | Published within |
+| `sortBy` | string | Sort order |
 | `urls` | array | Search URLs |
 | `maxPages` | integer | Max Pages Per Search |
 | `maxListings` | integer | Max Listings |
@@ -57,38 +65,38 @@ Full details on the [scraper page](https://apify.com/abotapi/idealista-scraper?u
 | `propertyType` | string |
 | `price` | integer |
 | `priceText` | string |
-| `previousPrice` | integer |
 | `priceDropped` | boolean |
 | `currency` | string |
 | `size` | integer |
 | `rooms` | integer |
 | `bathrooms` | integer |
-| `floor` | string |
-| `hasLift` | boolean |
 | `description` | string |
 | `thumbnail` | string |
 | `photoCount` | integer |
 | `isBranded` | boolean |
+| `isProfessionalAd` | boolean |
 | `hasVideo` | boolean |
 | `has3DTour` | boolean |
 | `hasFloorPlan` | boolean |
 | `hasHomeStaging` | boolean |
+| `tags` | list |
 | `source` | string |
 | `scrapedAt` | string |
 | `address` | string |
 | `neighborhood` | string |
 | `city` | string |
 | `pricePerM2` | integer |
-| `energyConsumptionRating` | string |
-| `energyEmissionsRating` | string |
 | `reference` | string |
 | `lastUpdatedText` | string |
 | `features` | list |
+| `hasTerrace` | boolean |
 | `hasGarage` | boolean |
 | `hasStorage` | boolean |
 | `hasGarden` | boolean |
 | `hasPool` | boolean |
 | `hasAC` | boolean |
+| `condition` | string |
+| `orientation` | string |
 
 ---
 

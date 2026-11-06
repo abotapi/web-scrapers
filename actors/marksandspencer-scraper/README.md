@@ -71,7 +71,7 @@ Full details on the [scraper page](https://apify.com/abotapi/marksandspencer-scr
 | `description` | string |
 | `price` | integer |
 | `priceDetails` | object |
-| `previousPrice` | integer |
+| `previousPrice` | null |
 | `unitPrice` | null |
 | `currency` | string |
 | `averageRating` | float |

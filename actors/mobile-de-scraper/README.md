@@ -105,7 +105,7 @@ Full details on the [scraper page](https://apify.com/abotapi/mobile-de-scraper?u
 | `sellerName` | string |
 | `sellerCity` | string |
 | `sellerCountry` | string |
-| `rating` | float |
+| `rating` | integer |
 | `reviewCount` | integer |
 | `description` | null |
 | `features` | list |

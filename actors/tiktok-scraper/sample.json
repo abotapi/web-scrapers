@@ -6,7 +6,7 @@
     "uniqueId": "tiktok",
     "nickname": "Example nickname",
     "signature": "Example signature",
-    "avatarUrl": "https://p16-common-sign.tiktokcdn-eu.com/example/59144.jpg",
+    "avatarUrl": "https://p19-common-sign.tiktokcdn-eu.com/example/59144.jpg",
     "followerCount": 43463533,
     "followingCount": 5,
     "heartCount": 320960418,
@@ -22,7 +22,7 @@
   {
     "recordType": "video",
     "sourceMode": "profile",
-    "id": "5009430314089570873",
+    "id": "8028646458020849042",
     "url": "https://www.tiktok.com/example/69027",
     "desc": "user88@example.com",
     "createTime": 6584394876,
@@ -39,12 +39,12 @@
     "commentCount": 9193,
     "shareCount": 975,
     "collectCount": 334,
-    "musicId": "2859518830209662683",
+    "musicId": "1485097812032371309",
     "musicTitle": "Example music title",
     "musicAuthor": "Example music author",
     "musicUrl": "https://v45.tiktokcdn-eu.com/example/97424",
     "hashtags": [],
-    "coverUrl": "https://p19-common-sign.tiktokcdn-eu.com/example/17984.jpg",
+    "coverUrl": "https://p16-common-sign.tiktokcdn-eu.com/example/17984.jpg",
     "dynamicCoverUrl": "https://p19-common-sign.tiktokcdn-eu.com/example/53413.jpg",
     "originCoverUrl": "https://p16-common-sign.tiktokcdn-eu.com/example/39038.jpg",
     "region": null,
@@ -58,7 +58,7 @@
     "effectStickers": null,
     "slideshowImageLinks": null,
     "musicOriginal": true,
-    "musicCoverMediumUrl": "https://p19-common-sign.tiktokcdn-eu.com/example/3123",
+    "musicCoverMediumUrl": "https://p16-common-sign.tiktokcdn-eu.com/example/3123",
     "videoDefinition": "Example video definition"
   }
 ]

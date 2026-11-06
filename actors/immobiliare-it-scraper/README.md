@@ -17,7 +17,7 @@ python example.py
 ```bash
 curl -s -X POST "https://api.apify.com/v2/acts/abotapi~immobiliare-it-scraper/run-sync-get-dataset-items?token=$APIFY_TOKEN" \
   -H 'Content-Type: application/json' \
-  -d '{"mode": "search", "locations": ["Roma"], "contract": "sale", "category": "all", "sortBy": "relevance", "maxPages": 1, "maxListings": 10, "proxy": {"useApifyProxy": true, "apifyProxyGroups": ["RESIDENTIAL"]}}'
+  -d '{"mode": "search", "locations": ["Roma"], "contract": "sale", "category": "all", "sortBy": "relevance", "maxPages": 1, "maxListings": 10, "maxItems": 10, "proxy": {"useApifyProxy": true, "apifyProxyGroups": ["RESIDENTIAL"]}}'
 ```
 
 ## Inputs
@@ -37,8 +37,10 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~immobiliare-it-scraper/ru
 | `excludeAuctions` | boolean | Exclude auctions |
 | `sortBy` | string | Sort order |
 | `urls` | array | Search URLs |
+| `startUrl` | string | Start URL (single search URL) |
 | `maxPages` | integer | Max pages per search |
 | `maxListings` | integer | Max listings (0  unlimited) |
+| `maxItems` | integer | Max items (alias of Max listings) |
 | `proxy` | object | Proxy configuration |
 
 `*` required
@@ -80,7 +82,7 @@ Full details on the [scraper page](https://apify.com/abotapi/immobiliare-it-scra
 | `elevator` | boolean |
 | `condition` | string |
 | `heating` | string |
-| `garage` | string |
+| `garage` | null |
 | `features` | list |
 | `views` | list |
 | `latitude` | float |

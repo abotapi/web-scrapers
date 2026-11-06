@@ -1,6 +1,6 @@
 # Commercial Property AU Scraper
 
-Scrape Australian commercial property listings with full detail data. Extract descriptions, highlights, property attributes, GPS coordinates, nearby places, agents, agencies, images and rich listing metadata.
+Scrape Australian commercial property listings with detailed property data. Extract descriptions, highlights, property attributes, GPS coordinates, nearby places, agent contacts, agency details, images and rich listing metadata for real estate research and market analysis.
 
 **[Open Commercial Property AU Scraper on Apify](https://apify.com/abotapi/realcommercial-au-scraper?utm_source=github&utm_medium=web-scrapers&utm_campaign=monorepo)** to run it without code and export JSON, CSV or Excel.
 
@@ -39,6 +39,7 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~realcommercial-au-scraper
 | `keywords` | string | Keywords |
 | `urls` | array | Search URLs (URL mode) |
 | `maxListings` | integer | Maximum Listings |
+| `fetchDetails` | boolean | Fetch full property detail pages |
 | `maxPages` | integer | Maximum Pages per Location |
 | `proxyConfiguration` | object | Proxy Configuration |
 
@@ -57,7 +58,6 @@ Full details on the [scraper page](https://apify.com/abotapi/realcommercial-au-s
 | `listingType` | string |
 | `propertyTypes` | list |
 | `tenureType` | string |
-| `title` | string |
 | `description` | string |
 | `status` | string |
 | `daysActive` | integer |
@@ -69,14 +69,13 @@ Full details on the [scraper page](https://apify.com/abotapi/realcommercial-au-s
 | `media` | object |
 | `agents` | list |
 | `agency` | object |
-| `tours` | list |
-| `nearbyPlaces` | list |
 | `lastUpdatedAt` | string |
 | `canonicalPath` | string |
 | `tenureTypeDisplay` | string |
 | `map` | object |
 | `latitude` | float |
 | `longitude` | float |
+| `detailFetched` | boolean |
 | `scrapedAt` | string |
 
 ---

@@ -1,0 +1,80 @@
+[
+  {
+    "sku": "acd9zsa152",
+    "name": "Example name",
+    "title": "Example title",
+    "brand": "Acer",
+    "url": "https://www.officeworks.com.au/example/56788",
+    "seoPath": "Example seo path: mock text standing in for the real value. Same field and type, made-up content.",
+    "price": 638,
+    "currency": "AUD",
+    "gtin": "9986593119603",
+    "manufacturerPartNumber": "Example manufacturer part number",
+    "productType": "STANDARD",
+    "colour": "Silver",
+    "multipackSize": null,
+    "unitsPerPack": 7,
+    "category": "Example category",
+    "categoryPath": "Example category path",
+    "availableStates": [
+      "SA",
+      "QLD"
+    ],
+    "isAvailableInStore": true,
+    "availableOnline": true,
+    "isClearance": false,
+    "isOnSpecial": true,
+    "isNew": false,
+    "promoLabel": "Example promo label",
+    "wasPrice": null,
+    "savingsAmount": null,
+    "savingsPercent": null,
+    "rating": 2.64,
+    "reviewCount": 1,
+    "imageUrl": "https://s3-ap-southeast-2.amazonaws.com/example/68553.jpg",
+    "images": [
+      "https://s3-ap-southeast-2.amazonaws.com/example/79160.jpg",
+      "https://s3-ap-southeast-2.amazonaws.com/example/13616.jpg"
+    ],
+    "searchMode": "search",
+    "source": "Example source",
+    "country": "AU",
+    "rangedOnline": true,
+    "rangedRetail": true,
+    "published": true,
+    "variants": [
+      {
+        "sku": "acd9zsa152",
+        "url": "https://www.officeworks.com.au/example/56788",
+        "attributes": {
+          "Variation": "Example variation"
+        },
+        "imageUrl": "https://s3-ap-southeast-2.amazonaws.com/example/68553.jpg"
+      },
+      {
+        "sku": "acx2psa498",
+        "url": "https://www.officeworks.com.au/example/83672",
+        "attributes": {
+          "Variation": "Example variation"
+        },
+        "imageUrl": "https://s3-ap-southeast-2.amazonaws.com/example/52104.jpg"
+      }
+    ],
+    "variantAxes": {
+      "Variation": [
+        "Example variation",
+        "Example variation"
+      ]
+    },
+    "variantCount": 4,
+    "categoryHierarchy": [
+      [
+        "Technology",
+        "Example category hierarchy"
+      ],
+      [
+        "Example category hierarchy"
+      ]
+    ]
+  }
+]

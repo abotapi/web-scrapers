@@ -62,15 +62,15 @@ Full details on the [scraper page](https://apify.com/abotapi/yesstyle-com-scrape
 | `currency` | string |
 | `priceDisplay` | string |
 | `originalPrice` | float |
-| `discountPercent` | integer |
-| `rating` | float |
 | `imageUrl` | string |
 | `badges` | list |
 | `originCountry` | string |
 | `brandId` | integer |
 | `originalPriceDisplay` | string |
+| `discountPercent` | integer |
 | `priceUsd` | float |
 | `discountAmountUsd` | float |
+| `rating` | float |
 | `reviewCount` | integer |
 | `itemStatus` | string |
 | `isNew` | boolean |

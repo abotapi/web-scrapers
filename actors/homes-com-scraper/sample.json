@@ -9,7 +9,7 @@
     "price": 290203,
     "priceCurrency": "USD",
     "availability": "Example availability",
-    "propertyType": "House",
+    "propertyType": "Example property type",
     "bedrooms": 9,
     "bathrooms": 3.1,
     "livingAreaSqft": 3424,
@@ -17,7 +17,7 @@
     "streetAddress": "Example street address",
     "city": "Austin",
     "state": "TX",
-    "postalCode": "46617",
+    "postalCode": "07929",
     "country": "US",
     "latitude": null,
     "longitude": null,
@@ -30,7 +30,6 @@
     "agentUrl": null,
     "agentPhone": "+1 555 0100",
     "agentEmail": null,
-    "scrapedAt": "2026-01-15T10:00:00Z",
-    "statusLabel": "Example status label"
+    "scrapedAt": "2026-01-15T10:00:00Z"
   }
 ]

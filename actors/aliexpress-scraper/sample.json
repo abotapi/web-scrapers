@@ -12,10 +12,9 @@
     "shippingCountry": "US",
     "currency": "USD",
     "title": "Example title: mock text standing in for the real value. Same field and type, made-up content.",
-    "price": 1.22,
-    "originalPrice": 5.59,
+    "price": 1.0,
     "discountPercentage": 70,
-    "rating": 3,
+    "rating": 3.91,
     "totalSold": "Example total sold",
     "totalSoldCount": 64,
     "imageUrl": "https://ae-pic-a1.aliexpress-media.com/example/19631.jpg",
@@ -25,13 +24,14 @@
     ],
     "scrapedAt": "2026-01-15T10:00:00Z",
     "productType": "natural",
-    "currentPrice": 1.42,
+    "currentPrice": 1.17,
     "discountPct": 15,
-    "ratingScore": 6,
+    "ratingScore": 3.65,
     "itemSold": "Example item sold",
     "itemSoldCount": 35,
     "isSponsored": false,
     "sellingPoints": [
+      "Example selling points",
       "Example selling points"
     ],
     "primaryImage": "https://ae-pic-a1.aliexpress-media.com/example/36153.jpg",
@@ -41,7 +41,7 @@
     ],
     "categoryId": "76",
     "reviewsSummary": {
-      "averageRating": 1
+      "averageRating": 3.95
     },
     "legacy": {
       "image": {
@@ -55,12 +55,11 @@
         "displayTitle": "Example display title: mock text standing in for the real value. Same field and type, made-up content."
       },
       "evaluation": {
-        "starRating": 6
+        "starRating": 3.02
       },
       "productDetailUrl": "https://www.aliexpress.com/example/81967",
       "prices": {
-        "originalPrice": 5.59,
-        "salePrice": 1.44,
+        "salePrice": 1.18,
         "currencyCode": "USD"
       },
       "trade": {
@@ -72,20 +71,16 @@
         "itemId": "6898264753905889",
         "productUrl": "https://www.aliexpress.com/example/19356",
         "productName": "Example product name: mock text standing in for the real value. Same field and type, made-up content.",
-        "currentPrice": 1.42,
-        "originalPrice": 5.59,
+        "currentPrice": 1.17,
         "discountPct": 15,
         "currency": "USD",
-        "ratingScore": 6,
+        "ratingScore": 3.65,
         "itemSold": "Example item sold",
         "itemSoldCount": 35,
         "primaryImage": "https://ae-pic-a1.aliexpress-media.com/example/36153.jpg",
         "imageGallery": [
           "https://ae-pic-a1.aliexpress-media.com/example/37615.jpg",
           "https://ae-pic-a1.aliexpress-media.com/example/81531.jpg"
-        ],
-        "sellingPoints": [
-          "Example selling points"
         ],
         "isSponsored": false,
         "productType": "natural",
@@ -95,7 +90,7 @@
           "itemType": "productv5",
           "productType": "natural",
           "nativeCardType": "nt_srp_cell_g",
-          "itemCardType": "Example item card type",
+          "itemCardType": "itemcard_new",
           "transitionaryExpFrame": false,
           "productId": "0725495292594714",
           "lunchTime": "2026-01-15T10:00:00Z",
@@ -120,19 +115,11 @@
             "builderType": "skuCoupon",
             "currencySymbol": "Example currency symbol",
             "prefix": "Example prefix",
-            "originalPrice": {
-              "priceType": "original_price",
-              "currencyCode": "USD",
-              "minPrice": 5.39,
-              "formattedPrice": "Example formatted price",
-              "cent": 508
-            },
             "salePrice": {
               "discount": 70,
-              "minPriceDiscount": 31,
               "priceType": "sale_price",
               "currencyCode": "USD",
-              "minPrice": 1.08,
+              "minPrice": 0.88,
               "formattedPrice": "Example formatted price",
               "cent": 508
             },
@@ -143,36 +130,39 @@
               "sellingPointTagId": "id8333498",
               "position": 7,
               "tagStyleType": "default",
-              "tagContent": {
-                "displayTagType": "image",
-                "tagImgUrl": "https://ae-pic-a1.aliexpress-media.com/example/20502.jpg",
-                "tagImgWidth": 713,
-                "tagImgHeight": 67,
-                "tagStyle": {
-                  "position": "9"
+              "source": "ETA_atm",
+              "resourceCode": "Example resource code",
+              "materials": [
+                {
+                  "materialCode": "atm_text",
+                  "type": "TEXT",
+                  "value": "Example value: mock text standing in for the real value. Same field and type, made-up content.",
+                  "features": {}
                 }
-              },
-              "source": "choice_atm",
-              "resourceCode": "searchItemCard"
+              ]
             },
             {
               "sellingPointTagId": "id84051256",
               "position": 6,
               "tagStyleType": "default",
-              "tagContent": {
-                "displayTagType": "text",
-                "tagText": "Example tag text",
-                "tagStyle": {
-                  "color": "Example color",
-                  "position": "1"
+              "source": "FAB",
+              "materials": [
+                {
+                  "materialCode": "atm_icon",
+                  "type": "IMAGE",
+                  "value": "https://ae-pic-a1.aliexpress-media.com/example/29017",
+                  "height": 21,
+                  "width": 65
+                },
+                {
+                  "type": "TEXT",
+                  "value": "Example value"
                 }
-              },
-              "source": "ETA_atm",
-              "resourceCode": "searchItemCard"
+              ]
             }
           ],
           "evaluation": {
-            "starRating": 6
+            "starRating": 3.02
           },
           "trade": {
             "tradeDesc": "Example trade desc"
@@ -192,7 +182,15 @@
               "imgType": "1"
             }
           ],
-          "allPlatformInfo": {},
+          "allPlatformInfo": {
+            "adTag": {
+              "displayTagType": "text",
+              "tagText": "Ad",
+              "tagStyle": {
+                "backgroundColor": "Example background color"
+              }
+            }
+          },
           "seoWhite": "false"
         },
         "legacy": {
@@ -207,12 +205,11 @@
             "displayTitle": "Example display title: mock text standing in for the real value. Same field and type, made-up content."
           },
           "evaluation": {
-            "starRating": 6
+            "starRating": 3.02
           },
           "productDetailUrl": "https://www.aliexpress.com/example/81967",
           "prices": {
-            "originalPrice": 5.59,
-            "salePrice": 1.44,
+            "salePrice": 1.18,
             "currencyCode": "USD"
           },
           "trade": {

@@ -1,53 +1,55 @@
 [
   {
     "id": 925622528,
-    "itemNumber": 1338448268,
-    "sku": null,
+    "itemNumber": 438448268,
+    "sku": 81543680,
     "url": "https://www.thredup.com/example/4729",
     "title": "Example title",
     "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
     "brand": "Nike",
     "brandId": 148,
     "brandStyleName": null,
-    "price": 27.83,
-    "originalPrice": 26.09,
+    "price": 46.07,
+    "originalPrice": 27.67,
     "msrp": 911,
     "clearance": false,
     "newWithTags": false,
-    "condition": "good",
+    "condition": "excellent",
     "sizeDisplay": "Example size display",
     "department": "women",
     "merchandisingDepartment": "women",
     "category": "Example category",
     "categoryTags": [
-      "activewear"
+      "dresses"
     ],
     "departmentTags": [
       "juniors",
       "women"
     ],
     "styleTags": [
-      "tops"
+      "mini"
     ],
     "colorNames": [
-      "Example color names",
       "Example color names"
     ],
-    "materials": null,
+    "materials": [
+      "Example materials",
+      "Example materials"
+    ],
     "availability": "Example availability",
     "state": "listed",
     "accessLevels": [
       "any"
     ],
     "favoriteCount": 1,
-    "isP2P": true,
+    "isP2P": false,
     "clusterId": null,
     "clusterItemCount": null,
     "warehouseId": 52,
-    "supplierId": 3804697,
+    "supplierId": 21804697,
     "photoIds": [
-      "3980598437",
-      "3394739077"
+      "228623310",
+      "045287592"
     ],
     "imageUrls": [
       "https://tup-images.thredup.com/example/70147.jpg",

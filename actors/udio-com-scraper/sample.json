@@ -3,11 +3,11 @@
     "trackId": "id31027662",
     "url": "https://www.udio.com/example/22752",
     "title": "Example title",
-    "artist": "venuslock",
-    "artistImageUrl": "https://cdn.discordapp.com/example/35319.jpg",
+    "artist": "softcore",
+    "artistImageUrl": "https://lh3.googleusercontent.com/example/35319.jpg",
     "creatorId": "id54484536",
-    "prompt": "Example prompt: mock text standing in for the real value. Same field and type, made-up content.",
-    "lyrics": "Example lyrics: mock text standing in for the real value. Same field and type, made-up content.",
+    "prompt": "Example prompt",
+    "lyrics": "",
     "description": "",
     "tags": [
       "Example tags",
@@ -17,7 +17,7 @@
     "attribution": null,
     "likeCount": 0,
     "playCount": 0,
-    "durationSeconds": 142.64,
+    "durationSeconds": 35.76,
     "createdAt": "2026-01-15T10:00:00Z",
     "publishedAt": "2026-01-15T10:00:00Z",
     "audioUrl": "https://storage.googleapis.com/example/82241",
@@ -39,8 +39,8 @@
     "raw": {
       "id": "id9965537",
       "user_id": "id89882734",
-      "artist": "venuslock",
-      "artist_image": "https://cdn.discordapp.com/example/25081.jpg",
+      "artist": "softcore",
+      "artist_image": "https://lh3.googleusercontent.com/example/25081.jpg",
       "title": "Example title",
       "created_at": "2026-01-15T10:00:00Z",
       "error_id": null,
@@ -48,114 +48,33 @@
       "error_code": null,
       "generation_id": "id1451355",
       "image_path": "https://imagedelivery.net/example/62494.jpg",
-      "lyrics": "Example lyrics: mock text standing in for the real value. Same field and type, made-up content.",
-      "prompt": "Example prompt: mock text standing in for the real value. Same field and type, made-up content.",
+      "lyrics": "",
+      "prompt": "Example prompt",
       "likes": 0,
       "plays": 0,
       "published_at": "2026-01-15T10:00:00Z",
-      "replaced_tags": null,
+      "replaced_tags": {
+        "современный, поп, электропоп, душевный, инди поп, мелодичный": {
+          "tags": [
+            "Example tags",
+            "electropop"
+          ],
+          "type": "tags"
+        },
+        "contemporary r&b, electropop, dance-pop, dance, r&b, electronic, synth funk, sexual, romantic, love, male vocalist": {
+          "tags": [
+            "Example tags",
+            "Example tags"
+          ],
+          "type": "tags"
+        }
+      },
       "song_path": "https://storage.googleapis.com/example/45411",
       "tags": [
         "Example tags",
         "Example tags"
       ],
-      "duration": 116.46,
-      "video_path": null,
-      "error_detail": null,
-      "finished": true,
-      "liked": false,
-      "disliked": false,
-      "publishable": true,
-      "audio_conditioning_type": null,
-      "attribution": "",
-      "description": "",
-      "user_tags": [],
-      "original_song_path": null,
-      "style_source_song_id": null,
-      "style_source_type": null,
-      "style_id": null,
-      "transformation_hash": null,
-      "generation_status": "succeeded",
-      "trim_start_ms": null,
-      "trim_end_ms": null
-    }
-  },
-  {
-    "trackId": "id88192459",
-    "url": "https://www.udio.com/example/22638",
-    "title": "Example title",
-    "artist": "id58810588",
-    "artistImageUrl": "https://lh3.googleusercontent.com/example/68688.jpg",
-    "creatorId": "id95387391",
-    "prompt": "Example prompt: mock text standing in for the real value. Same field and type, made-up content.",
-    "lyrics": "Example lyrics: mock text standing in for the real value. Same field and type, made-up content.",
-    "description": "",
-    "tags": [
-      "Example tags",
-      "electronic"
-    ],
-    "userTags": [],
-    "attribution": null,
-    "likeCount": 6,
-    "playCount": 0,
-    "durationSeconds": 120.39,
-    "createdAt": "2026-01-15T10:00:00Z",
-    "publishedAt": "2026-01-15T10:00:00Z",
-    "audioUrl": "https://storage.googleapis.com/example/91635",
-    "videoUrl": null,
-    "artworkUrl": "https://imagedelivery.net/example/45080.jpg",
-    "styleId": null,
-    "styleSourceType": null,
-    "styleSourceTrackId": null,
-    "parentTrackId": null,
-    "generationId": "id52733622",
-    "generationStatus": "succeeded",
-    "isFinished": true,
-    "isPublishable": true,
-    "sourceMode": "search",
-    "collectionId": null,
-    "collectionName": null,
-    "positionInCollection": null,
-    "scrapedAt": "2026-01-15T10:00:00Z",
-    "raw": {
-      "id": "id6410462",
-      "user_id": "id85892758",
-      "artist": "id58810588",
-      "artist_image": "https://lh3.googleusercontent.com/example/25351.jpg",
-      "title": "Example title",
-      "created_at": "2026-01-15T10:00:00Z",
-      "error_id": null,
-      "error_type": null,
-      "error_code": null,
-      "generation_id": "id38415400",
-      "image_path": "https://imagedelivery.net/example/52546.jpg",
-      "lyrics": "Example lyrics: mock text standing in for the real value. Same field and type, made-up content.",
-      "prompt": "Example prompt: mock text standing in for the real value. Same field and type, made-up content.",
-      "likes": 2,
-      "plays": 0,
-      "published_at": "2026-01-15T10:00:00Z",
-      "replaced_tags": {
-        "mallsoft, lofi aesthetic, dreamy, instrumental, 1980s corporate ambient, retro synth pop, ethereal, elevator music, chillwave, synthwave, smooth synthesizer, ambient, relaxing, vaporwave, nostalgic drum machine, slowed down bpm": {
-          "tags": [
-            "chillwave",
-            "electronic"
-          ],
-          "type": "tags"
-        },
-        "chillwave, electronic, indietronica, glitch pop, neo-psychedelia, bedroom pop, synthpop, sampling, lush, summer, aquatic, psychedelic, male vocalist, bittersweet, love, atmospheric, hypnotic, surreal, mellow, ethereal, dense, eclectic, soothing, optimistic, breakup, futuristic, nocturnal, warm": {
-          "tags": [
-            "Example tags",
-            "electronic"
-          ],
-          "type": "tags"
-        }
-      },
-      "song_path": "https://storage.googleapis.com/example/6371",
-      "tags": [
-        "Example tags",
-        "electronic"
-      ],
-      "duration": 143.94,
+      "duration": 29.2,
       "video_path": null,
       "error_detail": null,
       "finished": true,

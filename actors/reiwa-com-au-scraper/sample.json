@@ -1,6 +1,6 @@
 [
   {
-    "id": "1933944",
+    "id": "0713600",
     "type": "for-sale",
     "title": "Example title",
     "address": "Example address",
@@ -8,25 +8,23 @@
     "url": "https://reiwa.com.au/example/14545",
     "sourceUrl": "https://reiwa.com.au/example/5901",
     "price": "Example price",
-    "priceValue": 216739,
     "bedrooms": 3,
     "bathrooms": 6,
     "parkingSpaces": 2,
     "propertyType": "House",
     "agencyName": "Example agency name",
-    "agencyUrl": "https://stpub.reiwa.com.au/example/93769",
+    "agencyUrl": "https://reiwa.com.au/example/93769",
     "agentNames": [
       "Example agent names"
     ],
-    "agentUrls": [
-      "https://stpub.reiwa.com.au/example/11529"
-    ],
+    "agentUrls": [],
     "phoneNumbers": [
       "+1 555 0100"
     ],
+    "dateText": "Example date text",
     "imageUrls": [
-      "https://stimagecdn.reiwa.com.au/example/11964.jpg",
-      "https://stimagecdn.reiwa.com.au/example/32746.jpg"
+      "https://imagecdn.reiwa.com.au/example/11964.jpg",
+      "https://imagecdn.reiwa.com.au/example/32746.jpg"
     ],
     "scrapedAt": "2026-01-15T10:00:00Z"
   }

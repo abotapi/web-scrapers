@@ -65,8 +65,6 @@ Full details on the [scraper page](https://apify.com/abotapi/realestate-au-scrap
 | `coordinates` | object |
 | `price` | object |
 | `features` | object |
-| `landSize` | integer |
-| `landSizeUnit` | string |
 | `description` | string |
 | `headline` | string |
 | `propertyFeatures` | list |

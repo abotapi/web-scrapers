@@ -60,6 +60,8 @@ Full details on the [scraper page](https://apify.com/abotapi/woolworths-au-scrap
 | `brand` | string |
 | `url` | string |
 | `price` | float |
+| `wasPrice` | float |
+| `savingsAmount` | float |
 | `isOnSpecial` | boolean |
 | `isHalfPrice` | boolean |
 | `isEdrSpecial` | boolean |
@@ -83,16 +85,14 @@ Full details on the [scraper page](https://apify.com/abotapi/woolworths-au-scrap
 | `productLimit` | integer |
 | `isMarketProduct` | boolean |
 | `variety` | string |
+| `offerId` | string |
 | `sponsored` | boolean |
 | `image` | string |
 | `thumbnailImage` | string |
 | `description` | string |
+| `savingsPercent` | integer |
 | `promoLabel` | string |
-| `inStorePrice` | float |
-| `inStoreIsOnSpecial` | boolean |
-| `inStoreCupPrice` | float |
-| `inStoreCupString` | string |
-| `richDescription` | string |
+| `savingsLabel` | string |
 
 ---
 

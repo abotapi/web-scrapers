@@ -56,12 +56,8 @@ Full details on the [scraper page](https://apify.com/abotapi/castorama-fr-scrape
 | `brand` | string |
 | `price` | float |
 | `currency` | string |
-| `originalPrice` | float |
-| `discountAmount` | integer |
-| `discountPercentage` | integer |
 | `isOnSpecial` | boolean |
 | `promotionLabel` | string |
-| `sellerId` | string |
 | `sellerName` | string |
 | `soldByCastorama` | boolean |
 | `categoryPath` | list |
@@ -73,8 +69,8 @@ Full details on the [scraper page](https://apify.com/abotapi/castorama-fr-scrape
 | `image` | string |
 | `specifications` | list |
 | `description` | string |
+| `manuals` | list |
 | `manufacturerRaw` | object |
-| `offersRaw` | list |
 | `searchMode` | string |
 | `name` | string |
 | `scrapedAt` | string |

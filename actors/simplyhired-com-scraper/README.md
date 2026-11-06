@@ -67,9 +67,9 @@ Full details on the [scraper page](https://apify.com/abotapi/simplyhired-com-scr
 | `location` | string |
 | `formattedLocation` | string |
 | `city` | string |
-| `state` | string |
-| `latitude` | float |
-| `longitude` | float |
+| `state` | null |
+| `latitude` | integer |
+| `longitude` | integer |
 | `country` | string |
 | `jobTypes` | list |
 | `workSettings` | list |

@@ -1,11 +1,11 @@
 [
   {
-    "id": "25659769",
-    "sku": "841633",
+    "id": "05892936",
+    "sku": "380311",
     "url": "https://www.currys.co.uk/example/51610",
     "title": "Example title",
     "brand": "JVC",
-    "price": 243.19,
+    "price": 217.59,
     "wasPrice": null,
     "discount": null,
     "discountPercent": null,
@@ -17,125 +17,40 @@
       "Example categories",
       "Televisions"
     ],
-    "ean": "2908845287963",
-    "rating": 5.0,
+    "ean": "2666015728512",
+    "rating": 5.49,
     "reviewCount": 46,
-    "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
-    "images": [
-      "https://media.currys.biz/example/93410.jpg",
-      "https://media.currys.biz/example/34238.jpg"
-    ],
-    "specs": [
-      {
-        "group": "Example group",
-        "name": "Example name",
-        "value": "Example value"
-      },
-      {
-        "group": "Example group",
-        "name": "Example name",
-        "value": "Example value"
-      }
-    ],
-    "priceValidUntil": "2026-01-15",
+    "description": null,
+    "images": [],
+    "specs": [],
+    "priceValidUntil": null,
     "carePlans": [
       {
-        "id": "87757",
+        "id": "03140",
         "name": "Example name",
-        "price": 2.3,
+        "price": 1.73,
         "currency": "GBP"
       },
       {
-        "id": "13450",
+        "id": "40917",
         "name": "Example name",
-        "price": 46.57,
+        "price": 36.22,
         "currency": "GBP"
       }
     ],
     "financeOptions": [
       {
         "frequency": "monthly",
-        "amount": 6.16,
+        "amount": 5.5,
         "apr": 30.8,
         "installments": 75,
         "currency": "GBP"
       },
       {
         "frequency": "Example frequency",
-        "amount": 243.19,
+        "amount": 217.59,
         "apr": 0,
         "installments": 1,
-        "currency": "GBP"
-      }
-    ],
-    "scrapedAt": "2026-01-15T10:00:00Z"
-  },
-  {
-    "id": "44061136",
-    "sku": "090929",
-    "url": "https://www.currys.co.uk/example/41814",
-    "title": "Example title",
-    "brand": "JVC",
-    "price": 721,
-    "wasPrice": null,
-    "discount": null,
-    "discountPercent": null,
-    "currency": "GBP",
-    "availabilityStatus": "InStock",
-    "searchUrl": "https://www.currys.co.uk/example/47781",
-    "imageUrl": "https://media.currys.biz/example/62126.jpg",
-    "categories": [
-      "Example categories",
-      "Televisions"
-    ],
-    "ean": "3810604419638",
-    "rating": 3.82,
-    "reviewCount": 20,
-    "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
-    "images": [
-      "https://media.currys.biz/example/65398.jpg",
-      "https://media.currys.biz/example/58187.jpg"
-    ],
-    "specs": [
-      {
-        "group": "Example group",
-        "name": "Example name",
-        "value": "Example value"
-      },
-      {
-        "group": "Example group",
-        "name": "Example name",
-        "value": "Example value"
-      }
-    ],
-    "priceValidUntil": "2026-01-15",
-    "carePlans": [
-      {
-        "id": "47969",
-        "name": "Example name",
-        "price": 1.64,
-        "currency": "GBP"
-      },
-      {
-        "id": "48842",
-        "name": "Example name",
-        "price": 30.78,
-        "currency": "GBP"
-      }
-    ],
-    "financeOptions": [
-      {
-        "frequency": "monthly",
-        "amount": 6.88,
-        "apr": 32.89,
-        "installments": 72,
-        "currency": "GBP"
-      },
-      {
-        "frequency": "Example frequency",
-        "amount": 980,
-        "apr": 0,
-        "installments": 9,
         "currency": "GBP"
       }
     ],

@@ -91,14 +91,14 @@ Full details on the [scraper page](https://apify.com/abotapi/ddproperty-scraper?
 | `image_count` | integer |
 | `url` | string |
 | `status` | string |
-| `latitude` | float |
-| `longitude` | float |
-| `description` | string |
-| `facilities` | list |
 | `highlights` | list |
 | `images_full` | list |
 | `floor_plans` | list |
-| `location_source` | string |
+| `type` | string |
+| `sourceSite` | string |
+| `thumbnail` | string |
+| `agentName` | string |
+| `isAgentVerified` | boolean |
 
 ---
 

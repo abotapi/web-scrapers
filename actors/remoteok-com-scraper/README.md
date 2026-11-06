@@ -17,7 +17,7 @@ python example.py
 ```bash
 curl -s -X POST "https://api.apify.com/v2/acts/abotapi~remoteok-com-scraper/run-sync-get-dataset-items?token=$APIFY_TOKEN" \
   -H 'Content-Type: application/json' \
-  -d '{"mode": "search", "searchTerms": ["all jobs"], "sortBy": "posted-desc", "maxItems": 10, "maxPages": 1, "proxy": {"useApifyProxy": true, "apifyProxyGroups": []}}'
+  -d '{"mode": "search", "searchTerms": ["all jobs"], "sortBy": "posted-desc", "maxItems": 10, "maxResults": 10, "maxPages": 1, "proxy": {"useApifyProxy": true, "apifyProxyGroups": []}}'
 ```
 
 ## Inputs
@@ -35,9 +35,13 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~remoteok-com-scraper/run-
 | `postedWithinDays` | integer | Posted within days |
 | `sortBy` | string | Sort order |
 | `requireSalary` | boolean | Require salary |
+| `keywordFilter` | string | Keyword filter |
+| `includeUnverified` | boolean | Include unverified listings |
+| `filterNonTech` | boolean | Technical roles only |
 | `includeDescriptionText` | boolean | Include cleaned description text |
 | `includeRawFields` | boolean | Include raw source fields |
 | `maxItems` | integer | Max items |
+| `maxResults` | integer | Max results (alias of Max items) |
 | `maxPages` | integer | Max pages |
 | `proxy` | object | Proxy configuration |
 | `maxNotifyJobs` | integer | Max jobs to export per connector |
@@ -61,17 +65,17 @@ Full details on the [scraper page](https://apify.com/abotapi/remoteok-com-scrape
 | `position` | string |
 | `tags` | list |
 | `description` | string |
-| `location` | null |
+| `location` | string |
+| `salary_min` | integer |
+| `salary_max` | integer |
 | `apply_url` | string |
-| `salary_min` | null |
-| `salary_max` | null |
 | `logo` | string |
 | `url` | string |
 | `jobId` | string |
 | `title` | string |
 | `companyName` | string |
-| `locationText` | null |
-| `rawLocation` | null |
+| `locationText` | string |
+| `rawLocation` | string |
 | `descriptionText` | string |
 | `tagCount` | integer |
 | `applyUrl` | string |
@@ -81,13 +85,17 @@ Full details on the [scraper page](https://apify.com/abotapi/remoteok-com-scrape
 | `postedAt` | string |
 | `postedEpoch` | integer |
 | `postedAgeDays` | integer |
-| `salaryMid` | null |
+| `salaryMid` | integer |
 | `hasSalary` | boolean |
 | `companyLogoUrl` | null |
 | `scrapedAt` | string |
-| `matchedSearchTokens` | list |
-| `matchedTagFilters` | list |
-| `raw` | object |
+| `source` | string |
+| `source_url` | string |
+| `company_name` | string |
+| `company_slug` | string |
+| `company_url` | string |
+| `company_logo_url` | null |
+| `type` | null |
 
 ---
 

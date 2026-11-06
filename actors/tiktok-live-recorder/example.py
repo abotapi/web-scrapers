@@ -1,4 +1,4 @@
-"""Tiktok Live Recorder Scraper: minimal example. Docs: https://apify.com/abotapi/tiktok-live-recorder
+"""TikTok Live Recorder Scraper: minimal example. Docs: https://apify.com/abotapi/tiktok-live-recorder
 
 pip install "apify-client>=3"
 APIFY_TOKEN=<your token> python example.py

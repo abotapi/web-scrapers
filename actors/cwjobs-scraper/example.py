@@ -1,4 +1,4 @@
-"""Cwjobs UK Scraper: minimal example. Docs: https://apify.com/abotapi/cwjobs-scraper
+"""CWJobs UK Scraper: minimal example. Docs: https://apify.com/abotapi/cwjobs-scraper
 
 pip install "apify-client>=3"
 APIFY_TOKEN=<your token> python example.py
@@ -19,6 +19,7 @@ run = client.actor("abotapi/cwjobs-scraper").call(
         "salaryPeriod": "annual",
         "postedWithin": "any",
         "sortBy": "relevance",
+        "descriptionFormat": "html",
         "maxPages": 1,
         "maxListings": 10,
         "proxy": {"useApifyProxy": True, "apifyProxyGroups": ["RESIDENTIAL"], "apifyProxyCountry": "GB"},

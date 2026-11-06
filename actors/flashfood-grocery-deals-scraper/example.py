@@ -14,7 +14,7 @@ run = client.actor("abotapi/flashfood-grocery-deals-scraper").call(
     run_input={
         "mode": "search",
         "locations": ["Detroit, Michigan"],
-        "storeInputs": ["629cec56061cc242985326fd"],
+        "storeInputs": ["https://app.shopper.flashfood.com/api/v1/stores/629cec56061cc242985326fd", "https://app.shopper.flashfood.com/api/v1/items/?storeIds=629cec56061cc242985326fd", "https://app.shopper.flashfood.com/api/v1/stores?latitude=42.33&longitude=-83.04&maxDistance=10000", "https://flashfood.com/en/locations", "629cec56061cc242985326fd"],
         "maxItems": 10,
         "proxyConfiguration": {"useApifyProxy": True},
     },

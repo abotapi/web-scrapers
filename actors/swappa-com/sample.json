@@ -13,11 +13,11 @@
       {
         "soldDateLabel": "+1 555 0100",
         "soldDate": "2026-01-15",
-        "condition": "Good",
+        "condition": "Mint",
         "carrier": "Example carrier",
         "storage": "Example storage",
         "soldPrice": 722,
-        "listingId": "lalm35205",
+        "listingId": "lalp42485",
         "listingUrl": "https://swappa.com/example/75805"
       },
       {
@@ -27,7 +27,7 @@
         "carrier": "Example carrier",
         "storage": "Example storage",
         "soldPrice": 400,
-        "listingId": "lalk58068",
+        "listingId": "lalp89147",
         "listingUrl": "https://swappa.com/example/79425"
       }
     ],
@@ -36,7 +36,7 @@
     "salesHistoryTo": "2026-01-15",
     "soldPriceMin": 984,
     "soldPriceMax": 188,
-    "soldPriceAvg": 421.43,
+    "soldPriceAvg": 384.95,
     "priceTrend": [
       {
         "storage": "Example storage",
@@ -93,7 +93,7 @@
         "rank": 1,
         "carrier": "Example carrier",
         "storage": "Example storage",
-        "listingCount": 726,
+        "listingCount": 96,
         "avgPrice": 987,
         "tradeInValue": 415
       }
@@ -107,54 +107,7 @@
         "rating": 9,
         "date": "2026-01-15",
         "text": "Example text: mock text standing in for the real value. Same field and type, made-up content."
-      },
-      {
-        "reviewer": "Example reviewer",
-        "rating": 2,
-        "date": "2026-01-15",
-        "text": "Example text: mock text standing in for the real value. Same field and type, made-up content."
       }
     ]
-  },
-  {
-    "kind": "listing",
-    "listingId": "lzan40556",
-    "url": "https://swappa.com/example/72162",
-    "productSlug": "id51265422",
-    "productName": "Example product name",
-    "brand": "Apple",
-    "price": 968,
-    "priceExact": 443.35,
-    "variantSlug": "id56246190",
-    "currency": "USD",
-    "priceValidUntil": "2026-01-15",
-    "gtin": "76928623744202",
-    "imageUrl": "https://static.swappa.com/example/74087.jpg",
-    "imageCount": 5,
-    "featured": true,
-    "title": "Example title: mock text standing in for the real value. Same field and type, made-up content.",
-    "listingPosition": 9,
-    "condition": "Good",
-    "batteryHealthPct": null,
-    "storage": "Example storage",
-    "color": "Black",
-    "carrier": "Example carrier",
-    "modelNumber": "A2848",
-    "sellerName": "Example seller name",
-    "sellerRating": 7,
-    "sellerRatingsCount": 9990,
-    "sellerLocation": "Example seller location",
-    "sellerBadges": [
-      "Example seller badges",
-      "Example seller badges"
-    ],
-    "acceptsPaypal": true,
-    "acceptsCreditCards": true,
-    "carrierUnlocked": false,
-    "totalResults": 834,
-    "productLowPrice": 396,
-    "productHighPrice": 4317,
-    "detailFetched": false,
-    "scrapedAt": "2026-01-15T10:00:00Z"
   }
 ]

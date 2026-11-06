@@ -1,0 +1,74 @@
+[
+  {
+    "recordType": "product",
+    "productKey": "Example product key",
+    "productId": "448310",
+    "name": "Example name",
+    "brand": "Gap",
+    "brandCode": "gap",
+    "url": "https://www.gap.com/example/81962",
+    "currency": "USD",
+    "price": 79,
+    "priceMax": 95,
+    "regularPrice": 95.95,
+    "discountPercent": 90,
+    "discountAmount": 42.29,
+    "onSale": true,
+    "priceType": "Sale",
+    "rating": 3.53,
+    "reviewCount": 31,
+    "colorCount": 1,
+    "colors": [
+      {
+        "colorId": "633588768",
+        "colorName": "Example color name",
+        "colorGroup": "Blue",
+        "price": 79,
+        "regularPrice": 95.95,
+        "discountPercent": 90,
+        "priceType": "Sale",
+        "stockStatus": "Example stock status",
+        "inventoryCount": 7666,
+        "imageUrl": "https://content.gapinc.com/example/45653.jpg",
+        "promoFlags": [
+          "Example promo flags"
+        ]
+      },
+      {
+        "colorId": "170316691",
+        "colorName": "Example color name",
+        "colorGroup": "Brown",
+        "price": 18,
+        "regularPrice": 95.95,
+        "discountPercent": 98,
+        "priceType": "Sale",
+        "stockStatus": "Example stock status",
+        "inventoryCount": 2488,
+        "imageUrl": "https://content.gapinc.com/example/71161.jpg",
+        "promoFlags": [
+          "Example promo flags"
+        ]
+      }
+    ],
+    "inStock": true,
+    "totalInventory": 1029,
+    "freeShipping": false,
+    "excludedFromPromotion": false,
+    "productType": "Example product type",
+    "promoFlags": [
+      "Example promo flags",
+      "Example promo flags"
+    ],
+    "badges": [
+      "Example badges"
+    ],
+    "imageUrl": "https://content.gapinc.com/example/45653.jpg",
+    "sourceLabel": "Example source label",
+    "position": 2,
+    "page": 6,
+    "scrapedAt": "2026-01-15T10:00:00Z",
+    "reviewsRequested": false,
+    "reviews": [],
+    "reviewsDelivered": 0
+  }
+]

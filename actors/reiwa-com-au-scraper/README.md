@@ -17,7 +17,7 @@ python example.py
 ```bash
 curl -s -X POST "https://api.apify.com/v2/acts/abotapi~reiwa-com-au-scraper/run-sync-get-dataset-items?token=$APIFY_TOKEN" \
   -H 'Content-Type: application/json' \
-  -d '{"mode": "search", "channel": "for-sale", "locations": ["perth~region"], "sortBy": "default", "maxItems": 10, "maxPages": 1, "proxy": {"useApifyProxy": true}}'
+  -d '{"mode": "search", "channel": "for-sale", "locations": ["perth~region"], "sortBy": "default", "maxItems": 10, "maxPages": 1, "proxy": {"useApifyProxy": true}, "changeScope": "all"}'
 ```
 
 ## Inputs
@@ -38,6 +38,9 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~reiwa-com-au-scraper/run-
 | `maxItems` | integer | Max items |
 | `maxPages` | integer | Max pages per search |
 | `proxy` | object | Proxy |
+| `changeScope` | string | Change scope (incremental mode only) |
+| `compactUpdates` | boolean | Compact UPDATED rows (incremental mode |
+| `expireAfterMissedScans` | integer | Expire after N missed scans (increment |
 
 `*` required
 
@@ -57,7 +60,6 @@ Full details on the [scraper page](https://apify.com/abotapi/reiwa-com-au-scrape
 | `url` | string |
 | `sourceUrl` | string |
 | `price` | string |
-| `priceValue` | integer |
 | `bedrooms` | integer |
 | `bathrooms` | integer |
 | `parkingSpaces` | integer |
@@ -67,6 +69,7 @@ Full details on the [scraper page](https://apify.com/abotapi/reiwa-com-au-scrape
 | `agentNames` | list |
 | `agentUrls` | list |
 | `phoneNumbers` | list |
+| `dateText` | string |
 | `imageUrls` | list |
 | `scrapedAt` | string |
 

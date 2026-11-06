@@ -1,14 +1,14 @@
 [
   {
-    "productId": "6008202149336354",
-    "product_id": "0290233066926430",
-    "id": "7697750865329956",
+    "productId": "5771346213018212",
+    "product_id": "7100358211066628",
+    "id": "8532213294470247",
     "title": "Example title: mock text standing in for the real value. Same field and type, made-up content.",
     "url": "https://www.bol.com/example/1503",
     "sourceUrl": "https://www.bol.com/example/69845",
     "type": "Product",
     "mode": "search",
-    "brand": "HP",
+    "brand": "GMR",
     "category": "Example category",
     "categories": [
       "Example categories",
@@ -24,27 +24,27 @@
         "Laptops"
       ]
     ],
-    "price": 633,
+    "price": 331.71,
     "list_price": null,
     "currency": "EUR",
     "price_currency": "EUR",
     "discount_percentage": null,
     "priceRange": {
-      "min": 545,
-      "max": 773
+      "min": 256.2,
+      "max": 223.83
     },
     "buyBoxPriceRange": {
-      "min": 545,
-      "max": 773
+      "min": 256.2,
+      "max": 223.83
     },
     "alternative_prices": [
-      640
+      188.78
     ],
-    "isOnSpecial": true,
+    "isOnSpecial": false,
     "originalPrice": null,
     "savingsAmount": null,
     "savingsPercent": null,
-    "promoLabel": "Example promo label",
+    "promoLabel": null,
     "specialsCategory": null,
     "condition": "new",
     "availability": "Example availability",
@@ -52,13 +52,13 @@
     "delivery": "Example delivery",
     "delivery_text": "Example delivery_text",
     "has_refurbished": false,
-    "has_select_deal": true,
+    "has_select_deal": false,
     "ean": null,
     "ean13": null,
     "gtin13": null,
     "isbn13": null,
     "image": null,
     "images": null,
-    "rating": 3.24
+    "rating": null
   }
 ]

@@ -84,12 +84,12 @@ Full details on the [scraper page](https://apify.com/abotapi/local-ch-scraper?ut
 | `phoneAlt` | null |
 | `mobile` | null |
 | `fax` | null |
-| `email` | string |
+| `email` | null |
 | `emailAlt` | null |
 | `website` | string |
 | `whatsapp` | null |
-| `facebook` | string |
-| `instagram` | null |
+| `facebook` | null |
+| `instagram` | string |
 | `linkedin` | null |
 | `twitter` | null |
 | `tiktok` | null |
@@ -98,7 +98,7 @@ Full details on the [scraper page](https://apify.com/abotapi/local-ch-scraper?ut
 | `xing` | null |
 | `foursquare` | null |
 | `phones` | list |
-| `emails` | list |
+| `emails` | null |
 | `socialMediaUrls` | list |
 | `refusesAdvertising` | boolean |
 | `poBoxZipCode` | null |

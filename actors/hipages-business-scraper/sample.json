@@ -32,7 +32,97 @@
       "category": "excavation",
       "state": "vic",
       "suburb": "clayton"
-    }
+    },
+    "detailedInfo": {
+      "businessName": "Example business name",
+      "location": "Example location",
+      "abn": "87075665166",
+      "memberSince": "4484",
+      "description": null,
+      "services": [
+        "Example services",
+        "Example services"
+      ],
+      "galleryImages": [
+        {
+          "imageId": 9701282,
+          "galleryId": 7936572,
+          "fileName": "Example file name",
+          "title": "",
+          "description": "",
+          "featured": false,
+          "url": "https://thumbnail-cloud.homeimprovementpages.com.au/example/25415.jpg"
+        }
+      ],
+      "recommendations": [],
+      "totalRecommendations": 0,
+      "email": "user82@example.com",
+      "mobile": "+1 555 0100",
+      "phone": "+1 555 0100",
+      "website": null,
+      "joinedDate": "2026-01-15T10:00:00Z",
+      "address": "Example address",
+      "suburb": "CLAYTON",
+      "state": "VIC",
+      "accountId": 743255,
+      "isFreemium": false,
+      "thumbnail": "https://mediacache.homeimprovementpages.com.au/example/55061.jpg",
+      "primaryCategory": {
+        "id": 12,
+        "name": "Example name",
+        "seoKey": "Example seo key",
+        "seoName": "Example seo name"
+      },
+      "categories": [
+        {
+          "id": 12,
+          "name": "Example name",
+          "seoKey": "excavation"
+        },
+        {
+          "id": 612,
+          "name": "Example name",
+          "seoKey": "Example seo key"
+        }
+      ],
+      "ratingBreakdown": {
+        "starRating": -4,
+        "ratings": 0,
+        "hired": 8,
+        "recommendYes": 0,
+        "recommendNo": 0,
+        "recommendYesNotHired": 0,
+        "externalRecommendations": 0,
+        "recommendations": 0,
+        "hiredRecommendations": 0
+      },
+      "primaryLocation": {
+        "suburb": "CLAYTON",
+        "postcode": 5009,
+        "stateCode": "VIC",
+        "capitalCity": "Melbourne",
+        "region": 0,
+        "mobile": "+1 555 0100",
+        "phone": "+1 555 0100",
+        "email": null
+      },
+      "licenses": [
+        {
+          "name": "Example name",
+          "url": "https://bams.vba.vic.gov.au/example/25415",
+          "number": "97021",
+          "verified": true,
+          "licencedTradesUrl": ""
+        }
+      ],
+      "conditions": [
+        {
+          "state_name": "Example state_name",
+          "licence_requirement_description": "Example licence_requirement_description: mock text standing in for the real value. Same field and type, made-up content."
+        }
+      ]
+    },
+    "detailFetched": true
   },
   {
     "businessId": "6672664",
@@ -67,6 +157,73 @@
       "category": "excavation",
       "state": "vic",
       "suburb": "clayton"
-    }
+    },
+    "detailedInfo": {
+      "businessName": "Example business name",
+      "location": "Example location",
+      "abn": "53188776167",
+      "memberSince": "9394",
+      "description": null,
+      "services": [
+        "Example services",
+        "Example services"
+      ],
+      "galleryImages": [],
+      "recommendations": [],
+      "totalRecommendations": 0,
+      "email": "user45@example.com",
+      "mobile": "+1 555 0100",
+      "phone": "+1 555 0100",
+      "website": null,
+      "joinedDate": "2026-01-15T10:00:00Z",
+      "address": "Example address",
+      "suburb": "CHADSTONE",
+      "state": "VIC",
+      "accountId": 839016,
+      "isFreemium": false,
+      "thumbnail": "https://mediacache.homeimprovementpages.com.au/example/56030.jpg",
+      "primaryCategory": {
+        "id": 71,
+        "name": "Example name",
+        "seoKey": "Example seo key",
+        "seoName": "Example seo name"
+      },
+      "categories": [
+        {
+          "id": 71,
+          "name": "Example name",
+          "seoKey": "excavation"
+        },
+        {
+          "id": 150,
+          "name": "Example name",
+          "seoKey": "Example seo key"
+        }
+      ],
+      "ratingBreakdown": {
+        "starRating": -1,
+        "ratings": 0,
+        "hired": 5,
+        "recommendYes": 0,
+        "recommendNo": 0,
+        "recommendYesNotHired": 0,
+        "externalRecommendations": 0,
+        "recommendations": 0,
+        "hiredRecommendations": 0
+      },
+      "primaryLocation": {
+        "suburb": "CHADSTONE",
+        "postcode": 5719,
+        "stateCode": "VIC",
+        "capitalCity": "Melbourne",
+        "region": 0,
+        "mobile": "+1 555 0100",
+        "phone": "+1 555 0100",
+        "email": null
+      },
+      "licenses": [],
+      "conditions": []
+    },
+    "detailFetched": true
   }
 ]

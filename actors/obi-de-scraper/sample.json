@@ -18,6 +18,7 @@
     "rating": null,
     "reviewCount": null,
     "onlineAvailable": true,
+    "inStock": true,
     "onlineAvailabilityStatus": "BESTELLBAR",
     "storeAvailabilityStatus": "Example store availability status",
     "image": "https://bilder.obi.de/example/3770.jpg",
@@ -30,6 +31,7 @@
       "totalReviewCount": 0,
       "ratingDistribution": [],
       "items": []
-    }
+    },
+    "scrapedAt": "2026-01-15T10:00:00Z"
   }
 ]

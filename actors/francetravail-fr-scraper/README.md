@@ -69,7 +69,7 @@ Full details on the [scraper page](https://apify.com/abotapi/francetravail-fr-sc
 | `addressLocality` | string |
 | `addressRegion` | null |
 | `addressCountry` | string |
-| `mapUrl` | string |
+| `mapUrl` | null |
 | `contractType` | string |
 | `workTime` | string |
 | `publishedAt` | string |
@@ -91,8 +91,8 @@ Full details on the [scraper page](https://apify.com/abotapi/francetravail-fr-sc
 | `additionalInformation` | list |
 | `companySize` | null |
 | `recruiterName` | string |
-| `recruiterDescription` | string |
-| `employerPageUrl` | null |
+| `recruiterDescription` | null |
+| `employerPageUrl` | string |
 | `employerLogoUrl` | null |
 | `employerPhone` | null |
 

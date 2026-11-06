@@ -1,0 +1,50 @@
+[
+  {
+    "recordId": "Example record id",
+    "kind": "listing",
+    "objectId": 155,
+    "hotelId": null,
+    "hotelTitle": null,
+    "hotelType": null,
+    "hotelStars": null,
+    "title": "Example title",
+    "typeTitle": "Example type title",
+    "url": "https://sutochno.ru/example/62786",
+    "pricePerNight": 94515,
+    "priceFull": 31937,
+    "priceWithoutDiscounts": 90978,
+    "currency": "RUB",
+    "rating": 4.4,
+    "countReviews": 96,
+    "bookingNow": false,
+    "mediaUrls": [
+      "https://static.sutochno.ru/example/6332",
+      "https://static.sutochno.ru/example/74502"
+    ],
+    "photoCount": 95,
+    "address": "Example address",
+    "cityId": 732747,
+    "cityTitle": "Example city title",
+    "lat": 48.55,
+    "lng": 32.43,
+    "area": 198,
+    "bedrooms": 7,
+    "beds": 8,
+    "countBeds": 8,
+    "guests": 5,
+    "isChildrenAllowed": true,
+    "partyAllowed": false,
+    "forCouple": false,
+    "ownerId": 383,
+    "metroStations": [
+      "Example metro stations",
+      "Example metro stations"
+    ],
+    "hotSale": false,
+    "externalReviews": [],
+    "wifi": true,
+    "parking": null,
+    "airConditioning": null,
+    "washmachine": true
+  }
+]

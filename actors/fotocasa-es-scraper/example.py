@@ -21,6 +21,7 @@ run = client.actor("abotapi/fotocasa-es-scraper").call(
         "maxPages": 1,
         "proxy": {"useApifyProxy": True, "apifyProxyGroups": ["RESIDENTIAL"], "apifyProxyCountry": "ES"},
         "residentialCountries": ["ES"],
+        "changeScope": "all",
     },
     logger=None,  # don't stream the run log to your console
 )

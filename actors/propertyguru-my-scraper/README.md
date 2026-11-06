@@ -92,7 +92,6 @@ Full details on the [scraper page](https://apify.com/abotapi/propertyguru-my-scr
 | `longitude` | float |
 | `nearby_schools` | list |
 | `facilities` | list |
-| `amenities` | list |
 | `images_full` | list |
 | `location_source` | string |
 

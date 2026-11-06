@@ -1,7 +1,7 @@
 [
   {
     "record_type": "property_listing",
-    "record_id": "45099494",
+    "record_id": "82262141",
     "source_context": {
       "source_domain": "Example source_domain",
       "source_url": "https://www.fundainbusiness.nl/example/96186",
@@ -14,8 +14,8 @@
       "language": "nl",
       "country": "NL",
       "external_ids": {
-        "listing_id": "36807281",
-        "global_id": "9970652"
+        "listing_id": "03025024",
+        "global_id": "0058174"
       },
       "search": {
         "property_type": "all",
@@ -31,14 +31,16 @@
       "status": "Beschikbaar"
     },
     "listing": {
-      "listing_id": "36807281",
+      "listing_id": "03025024",
       "listing_type": "Example listing_type",
       "deal_type": "both",
       "offer_type": "rent",
-      "source_category": "Kantoor",
-      "source_listing_type": "promo",
+      "source_category": "Example source_category",
+      "source_listing_type": "regular",
       "is_featured": false,
-      "labels": [],
+      "labels": [
+        "Example labels"
+      ],
       "available_from": "Example available_from"
     },
     "pricing": {
@@ -53,19 +55,20 @@
       "city": "Amsterdam",
       "region": "Noord-Holland",
       "country": "Netherlands",
-      "latitude": 46.55,
-      "longitude": 4.9,
+      "latitude": 46.62,
+      "longitude": 4.84,
       "map_marker_title": "Example map_marker_title"
     },
     "property": {
-      "property_id": "9982858",
+      "property_id": "1561553",
       "property_type": "all",
       "usage_types": [
-        "Kantoor"
+        "Kantoor",
+        "Bedrijfshal"
       ],
-      "floor_area": 4175,
+      "floor_area": 575,
       "energy_label": "Example energy_label",
-      "construction_year": "3186",
+      "construction_year": "0272",
       "construction_type": "Example construction_type",
       "features": {
         "Overdracht": {
@@ -77,12 +80,12 @@
         },
         "Bouw": {
           "Hoofdfunctie": "Example hoofdfunctie",
+          "Mogelijke functie(s)": "Example mogelijke functie(s)",
           "Soort bouw": "Example soort bouw",
-          "Bouwjaar": "1727"
+          "Bouwjaar": "7553"
         },
         "Oppervlakten": {
-          "Oppervlakte": "Example oppervlakte",
-          "Perceel": "Example perceel"
+          "Oppervlakte": "Example oppervlakte"
         },
         "Indeling": {
           "Aantal bouwlagen": "Example aantal bouwlagen",
@@ -93,11 +96,7 @@
         },
         "Omgeving": {
           "Ligging": "Example ligging",
-          "Bereikbaarheid": "Example bereikbaarheid: mock text standing in for the real value. Same field and type, made-up content.",
-          "Lokale voorzieningen": "Example lokale voorzieningen: mock text standing in for the real value. Same field and type, made-up content."
-        },
-        "Parkeergelegenheid": {
-          "Parkeerplaatsen": "Example parkeerplaatsen"
+          "Bereikbaarheid": "Example bereikbaarheid: mock text standing in for the real value. Same field and type, made-up content."
         }
       }
     },
@@ -114,7 +113,7 @@
         "name": "Example name",
         "url": "https://www.fundainbusiness.nl/example/73857",
         "phone": "+1 555 0100",
-        "broker_id": "28054"
+        "broker_id": "62084"
       }
     },
     "availability": {
@@ -123,11 +122,10 @@
     },
     "attributes": {
       "kenmerken_summary": {
-        "Oppervlakte": "Example oppervlakte",
-        "Units vanaf": "Example units vanaf"
+        "Oppervlakte": "Example oppervlakte"
       },
       "source_specific": {
-        "listing_type": "promo"
+        "listing_type": "regular"
       }
     }
   }

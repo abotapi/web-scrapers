@@ -1,8 +1,8 @@
 [
   {
     "id": 169574293,
-    "propertyId": "981946409",
-    "property_id": "798709756",
+    "propertyId": "612276225",
+    "property_id": "258359679",
     "listingId": 158602501,
     "realEstateAdId": "id34356930",
     "real_estate_ad_id": "id91589916",
@@ -31,8 +31,8 @@
     "subtype_id": 5,
     "buildingType": "Flat",
     "building_type": "Flat",
-    "buildingSubtype": "Attic",
-    "building_subtype": "Attic",
+    "buildingSubtype": "Flat",
+    "building_subtype": "Flat",
     "itemType": "realEstate",
     "periodicityId": 0,
     "periodicity_id": 0,

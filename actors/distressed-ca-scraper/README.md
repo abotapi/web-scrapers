@@ -57,7 +57,6 @@ Full details on the [scraper page](https://apify.com/abotapi/distressed-ca-scrap
 | `title` | string |
 | `distressType` | string |
 | `url` | string |
-| `caseNumber` | string |
 | `deadlineAt` | string |
 | `location` | object |
 | `valueText` | string |

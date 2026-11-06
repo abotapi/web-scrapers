@@ -2,7 +2,7 @@
   {
     "kind": "event",
     "recordId": "id18077924",
-    "eventId": "529554758",
+    "eventId": "031267589",
     "url": "https://www.viagogo.com/example/42331",
     "title": "Example title",
     "dayOfWeek": "Example day of week",
@@ -15,16 +15,15 @@
     "isTbd": false,
     "isMultidayEvent": false,
     "isParkingEvent": false,
-    "venueTimeZoneOffsetHours": -5,
     "eventState": 2,
     "hasListings": false,
     "allowPublicPurchase": true,
     "isUnderHundred": false,
-    "venueId": 835158944,
+    "venueId": 3944,
     "venueName": "Example venue name",
-    "venueCity": "Gormley",
+    "venueCity": "Wolverhampton",
     "venueLocation": "Example venue location",
-    "countryCode": "CA",
+    "countryCode": "GB",
     "countryName": "Example country name",
     "searchKeyword": "Example search keyword",
     "raw": {
@@ -41,18 +40,17 @@
       "isDateConfirmed": true,
       "isTimeConfirmed": true,
       "eventState": 2,
-      "venueId": 835158944,
+      "venueId": 3944,
       "venueName": "Example venue name",
       "allowPublicPurchase": true,
       "formattedVenueLocation": "Example formatted venue location",
-      "countryCode": "CA",
+      "countryCode": "GB",
       "hasActiveListings": false,
-      "venueCity": "Gormley",
+      "venueCity": "Wolverhampton",
       "isParkingEvent": false,
       "countryName": "Example country name",
       "eventMetadata": {
         "common": {
-          "venueTimeZoneOffset": "-23684633",
           "eventStartDateTime": 8839682435643
         }
       },
@@ -62,6 +60,7 @@
     "formattedDateWithoutYear": "Example formatted date without year",
     "notificationSignupLinkMessage": {
       "message": "Example message",
+      "disclaimer": "Example disclaimer: mock text standing in for the real value. Same field and type, made-up content.",
       "hasValue": true,
       "featureTrackingKey": ""
     },
@@ -73,17 +72,16 @@
     "notificationModalContent": {
       "hasValue": true,
       "eventGridItemMessage": "Example event grid item message",
-      "notificationModalFormContent": "Example notification modal form content: mock text standing in for the real value. Same field and type, made-up content.",
-      "notificationModalConfirmationContent": "Example notification modal confirmation content: mock text standing in for the real value. Same field and type, made-up content.",
+      "notificationModalFormContent": "Example notification modal form content",
+      "notificationModalConfirmationContent": "Example notification modal confirmation content",
       "featureTrackingKey": "id91884695"
     },
     "isFavorite": false,
     "aggregateFavorites": 0,
-    "userDistanceFromVenue": "5672546.4325",
+    "userDistanceFromVenue": "1415908.6399",
     "isRefetchedGlobalEvent": false,
     "eventMetadata": {
       "common": {
-        "venueTimeZoneOffset": "-23684633",
         "eventStartDateTime": 8839682435643
       }
     }

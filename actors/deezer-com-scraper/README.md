@@ -62,12 +62,12 @@ Full details on the [scraper page](https://apify.com/abotapi/deezer-com-scraper?
 | `deezerType` | string |
 | `title` | string |
 | `url` | string |
-| `durationSec` | null |
+| `durationSec` | integer |
 | `explicitLyrics` | boolean |
-| `rank` | null |
-| `isrc` | null |
-| `previewUrl` | null |
-| `releaseDate` | string |
+| `rank` | integer |
+| `isrc` | string |
+| `previewUrl` | string |
+| `releaseDate` | null |
 | `bpm` | null |
 | `gain` | null |
 | `diskNumber` | null |
@@ -77,12 +77,12 @@ Full details on the [scraper page](https://apify.com/abotapi/deezer-com-scraper?
 | `artistUrl` | string |
 | `artistFans` | null |
 | `artistAlbumCount` | null |
-| `albumId` | null |
-| `albumTitle` | null |
-| `albumUrl` | null |
-| `label` | string |
+| `albumId` | integer |
+| `albumTitle` | string |
+| `albumUrl` | string |
+| `label` | null |
 | `copyright` | null |
-| `albumTrackCount` | integer |
+| `albumTrackCount` | null |
 | `genres` | list |
 | `contributorNames` | list |
 | `availableCountries` | list |
@@ -97,7 +97,7 @@ Full details on the [scraper page](https://apify.com/abotapi/deezer-com-scraper?
 | `collaborative` | null |
 | `userName` | null |
 | `userCountry` | null |
-| `sourceQuery` | null |
+| `sourceQuery` | string |
 
 ---
 

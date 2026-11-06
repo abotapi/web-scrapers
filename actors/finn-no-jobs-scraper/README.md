@@ -26,7 +26,7 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~finn-no-jobs-scraper/run-
 | --- | --- | --- |
 | `mode` * | string | 1. Search mode |
 | `queries` | array | Keywords (optional) |
-| `location` | string | Location code (optional) |
+| `location` | string | Location (optional) |
 | `employmentType` | string | Employment type |
 | `industry` | string | Industry filter (optional) |
 | `occupation` | string | Occupation filter (optional) |
@@ -58,39 +58,39 @@ Full details on the [scraper page](https://apify.com/abotapi/finn-no-jobs-scrape
 | `subtitle` | string |
 | `employer` | string |
 | `employerUrl` | string |
-| `employerHomepage` | null |
+| `employerHomepage` | string |
 | `employerLogo` | string |
 | `streetAddress` | string |
 | `postalCode` | string |
 | `city` | string |
 | `addressCountry` | string |
 | `locationDisplay` | string |
-| `locationLink` | null |
+| `locationLink` | string |
 | `latitude` | float |
 | `longitude` | float |
 | `datePosted` | string |
 | `datePostedEpochMs` | integer |
 | `relativePosted` | string |
-| `applicationDeadline` | string |
-| `applicationDeadlineEpochMs` | integer |
-| `applicationDeadlineRaw` | null |
+| `applicationDeadline` | null |
+| `applicationDeadlineEpochMs` | null |
+| `applicationDeadlineRaw` | string |
 | `lastModified` | string |
 | `lastModifiedEpochMs` | integer |
-| `employmentForm` | null |
+| `employmentForm` | string |
 | `employmentType` | list |
 | `employmentTypeRequested` | string |
-| `sector` | null |
+| `sector` | string |
 | `industries` | list |
 | `jobFunction` | string |
 | `internalJobTitle` | null |
 | `workingLanguages` | list |
 | `contactPersons` | list |
 | `keywords` | list |
-| `applyUrl` | null |
+| `applyUrl` | string |
 | `descriptionHtml` | string |
 | `descriptionText` | string |
 | `breadcrumb` | list |
-| `sponsored` | boolean |
+| `salary` | null |
 
 ---
 

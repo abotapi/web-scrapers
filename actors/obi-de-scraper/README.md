@@ -17,7 +17,7 @@ python example.py
 ```bash
 curl -s -X POST "https://api.apify.com/v2/acts/abotapi~obi-de-scraper/run-sync-get-dataset-items?token=$APIFY_TOKEN" \
   -H 'Content-Type: application/json' \
-  -d '{"mode": "search", "searchTerm": "akku ventilator", "sortBy": "RELEVANCE", "maxReviewsPerProduct": 10, "maxPages": 1, "maxItems": 10, "proxy": {"useApifyProxy": true}}'
+  -d '{"mode": "search", "searchTerm": "akku ventilator", "sortBy": "RELEVANCE", "maxReviewsPerProduct": 10, "maxPages": 1, "maxItems": 10, "proxy": {"useApifyProxy": true}, "changeScope": "all"}'
 ```
 
 ## Inputs
@@ -39,6 +39,9 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~obi-de-scraper/run-sync-g
 | `maxPages` | integer | Max pages per search |
 | `maxItems` | integer | Max products total |
 | `proxy` | object | Proxy configuration |
+| `changeScope` | string | Change scope (incremental mode only) |
+| `compactUpdates` | boolean | Compact UPDATED rows (incremental mode |
+| `expireAfterMissedScans` | integer | Expire after N missed scans (increment |
 
 `*` required
 
@@ -68,11 +71,13 @@ Full details on the [scraper page](https://apify.com/abotapi/obi-de-scraper?utm_
 | `rating` | null |
 | `reviewCount` | null |
 | `onlineAvailable` | boolean |
+| `inStock` | boolean |
 | `onlineAvailabilityStatus` | string |
 | `storeAvailabilityStatus` | string |
 | `image` | string |
 | `images` | list |
 | `reviews` | object |
+| `scrapedAt` | string |
 
 ---
 

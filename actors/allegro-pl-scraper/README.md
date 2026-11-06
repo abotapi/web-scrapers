@@ -55,7 +55,7 @@ Full details on the [scraper page](https://apify.com/abotapi/allegro-pl-scraper?
 | `deliveryInfo` | string |
 | `freeDelivery` | boolean |
 | `freeReturn` | boolean |
-| `lowestDeliveryPrice` | float |
+| `lowestDeliveryPrice` | integer |
 | `sponsored` | boolean |
 | `bestPriceGuarantee` | boolean |
 | `smart` | boolean |
@@ -74,7 +74,7 @@ Full details on the [scraper page](https://apify.com/abotapi/allegro-pl-scraper?
 | `recentBuyersLabel` | string |
 | `purchasesCount` | integer |
 | `sellerInfo` | object |
-| `deliveryCost` | float |
+| `deliveryCost` | integer |
 | `shippingInfo` | string |
 | `isDiscount` | boolean |
 | `isInStock` | boolean |

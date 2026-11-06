@@ -1,20 +1,17 @@
 [
   {
-    "id": "Example id",
+    "id": "id10570263",
     "type": "catalog_listing",
     "name": "Example name",
-    "slug": "Example slug",
+    "slug": "id23763237",
     "url": "https://klekt.com/example/99354",
-    "size": "XS",
+    "size": "Example size",
     "boxCondition": "good",
     "condition": "Example condition",
-    "priceAmount": 585,
     "priceCurrency": "EUR",
     "imageUrl": "https://d18c7ngui3z54j.cloudfront.net/example/43001.jpg",
-    "likesCount": 9,
-    "postedAgo": "Example posted ago",
-    "brand": "Nike",
-    "sku": "fn7503-289",
+    "brand": "Example brand",
+    "sku": "u2003ccb",
     "description": "Example description",
     "availability": "Example availability",
     "seller": "Example seller",
@@ -22,6 +19,7 @@
       "https://d18c7ngui3z54j.cloudfront.net/example/91929.jpg"
     ],
     "model": "Example model",
+    "priceAmount": 586.9,
     "detailScraped": true,
     "reviews": []
   }

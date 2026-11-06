@@ -71,7 +71,7 @@ Full details on the [scraper page](https://apify.com/abotapi/miravia-es-scraper?
 | `sellerName` | string |
 | `officialStore` | boolean |
 | `rating` | integer |
-| `reviewCount` | null |
+| `reviewCount` | integer |
 | `soldCount` | null |
 | `soldText` | null |
 | `inStock` | boolean |

@@ -64,7 +64,7 @@ Full details on the [scraper page](https://apify.com/abotapi/justia-lawyer-scrap
 | `scrapedAt` | string |
 | `jobTitle` | string |
 | `jobTitles` | list |
-| `yearsOfExperience` | null |
+| `yearsOfExperience` | integer |
 | `headerFacts` | list |
 | `primaryPhone` | string |
 | `emailContactUrl` | string |
@@ -78,7 +78,7 @@ Full details on the [scraper page](https://apify.com/abotapi/justia-lawyer-scrap
 | `biography` | string |
 | `practiceAreas` | list |
 | `additionalPracticeAreas` | list |
-| `videoConferencing` | list |
+| `videoConferencing` | null |
 | `fees` | list |
 | `contingentFees` | boolean |
 | `jurisdictions` | list |
@@ -87,7 +87,7 @@ Full details on the [scraper page](https://apify.com/abotapi/justia-lawyer-scrap
 | `education` | list |
 | `awards` | list |
 | `associations` | list |
-| `speakingEngagements` | list |
+| `speakingEngagements` | null |
 
 ---
 

@@ -1,7 +1,7 @@
 [
   {
     "recordId": "Example record id",
-    "styleId": "psc800",
+    "styleId": "sao497",
     "url": "https://www.renttherunway.com/example/83365",
     "designer": "Example designer",
     "title": "Example title",
@@ -18,11 +18,8 @@
     "inStock": true,
     "shortDescription": "Example short description: mock text standing in for the real value. Same field and type, made-up content.",
     "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
-    "sizesAvailable": [
-      "6",
-      "8"
-    ],
-    "sizeRange": "2-67",
+    "sizesAvailable": [],
+    "sizeRange": "Example size range",
     "modelInfo": [
       "Example model info"
     ],

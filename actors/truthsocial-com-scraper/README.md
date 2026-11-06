@@ -59,7 +59,7 @@ Full details on the [scraper page](https://apify.com/abotapi/truthsocial-com-scr
 | `contentHtml` | string |
 | `createdAt` | string |
 | `editedAt` | null |
-| `language` | null |
+| `language` | string |
 | `repliesCount` | integer |
 | `reTruthsCount` | integer |
 | `likesCount` | integer |
@@ -77,9 +77,9 @@ Full details on the [scraper page](https://apify.com/abotapi/truthsocial-com-scr
 | `tags` | list |
 | `mentions` | list |
 | `poll` | null |
-| `card` | object |
-| `cardUrl` | string |
-| `cardTitle` | string |
+| `card` | null |
+| `cardUrl` | null |
+| `cardTitle` | null |
 | `authorId` | string |
 | `authorUsername` | string |
 | `authorAcct` | string |

@@ -66,7 +66,7 @@ Full details on the [scraper page](https://apify.com/abotapi/thewarehouse-co-nz-
 | `image` | string |
 | `images` | list |
 | `imageCount` | integer |
-| `ratingValue` | float |
+| `ratingValue` | integer |
 | `ratingCount` | null |
 | `reviewCount` | null |
 | `categoryPath` | list |

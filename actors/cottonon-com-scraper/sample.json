@@ -8,8 +8,8 @@
     "brand": "Example brand",
     "brandId": "women",
     "color": "White",
-    "price": 18.55,
-    "wasPrice": 24.24,
+    "price": 24.74,
+    "wasPrice": null,
     "discountPercent": null,
     "currency": "AUD",
     "categories": [
@@ -71,7 +71,7 @@
     ],
     "reviews": [
       {
-        "reviewId": "6679994152",
+        "reviewId": "6099963659",
         "reviewRating": 3,
         "reviewTitle": "Example review title",
         "reviewBody": "Example review body",

@@ -74,89 +74,34 @@
     "reviews": [
       {
         "recordType": "review",
-        "id": "004076509507617092",
+        "id": "147889584314772316",
         "reviewType": "post",
         "isReblog": false,
         "rebloggedByAcct": null,
-        "contentText": "Example content text: mock text standing in for the real value. Same field and type, made-up content.",
-        "contentHtml": "Example content html: mock text standing in for the real value. Same field and type, made-up content.",
+        "contentText": "user48@example.com",
+        "contentHtml": "user0@example.com",
         "createdAt": "2026-01-15T10:00:00Z",
         "editedAt": null,
         "language": "en",
         "url": "https://framapiaf.org/example/20154",
-        "repliesCount": 78,
-        "reblogsCount": 530,
-        "favouritesCount": 642,
-        "inReplyToId": null,
-        "inReplyToAccountId": null,
+        "repliesCount": 6,
+        "reblogsCount": 0,
+        "favouritesCount": 3,
+        "inReplyToId": "054194790702081337",
+        "inReplyToAccountId": "208640975501395321",
         "sensitive": false,
         "spoilerText": "",
         "visibility": "public",
-        "mediaAttachments": [
+        "mediaAttachments": [],
+        "tags": [],
+        "mentions": [
           {
-            "id": "639098329379936631",
-            "type": "image",
-            "url": "https://files.mastodon.social/example/20154",
-            "preview_url": "https://files.mastodon.social/example/592",
-            "remote_url": "https://stockage.framapiaf.org/example/20706",
-            "preview_remote_url": null,
-            "text_url": null,
-            "meta": {
-              "focus": {
-                "x": 0,
-                "y": 0
-              },
-              "original": {
-                "width": 9296,
-                "height": 8162,
-                "size": "id37946792",
-                "aspect": 9
-              },
-              "small": {
-                "width": 296,
-                "height": 962,
-                "size": "id37946792",
-                "aspect": 9
-              }
-            },
-            "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
-            "blurhash": "user58@example.com"
-          },
-          {
-            "id": "025298449337085076",
-            "type": "image",
-            "url": "https://files.mastodon.social/example/44102",
-            "preview_url": "https://files.mastodon.social/example/79718",
-            "remote_url": "https://stockage.framapiaf.org/example/32547",
-            "preview_remote_url": null,
-            "text_url": null,
-            "meta": {
-              "focus": {
-                "x": 0,
-                "y": 0
-              },
-              "original": {
-                "width": 1374,
-                "height": 3475,
-                "size": "id96522917",
-                "aspect": 7
-              },
-              "small": {
-                "width": 474,
-                "height": 775,
-                "size": "id96522917",
-                "aspect": 7
-              }
-            },
-            "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
-            "blurhash": "Example blurhash"
+            "id": "664034314520842208",
+            "username": "Example username",
+            "url": "https://mstdn.social/example/20154",
+            "acct": "user33@example.com"
           }
         ],
-        "tags": [
-          "webcomic",
-          "krita"
-        ],
-        "mentions": [],
         "cardUrl": null,
         "cardTitle": null,
         "authorId": "05874",
@@ -208,7 +153,7 @@
           ]
         },
         "uri": "https://framapiaf.org/example/67520",
-        "text": "Example text: mock text standing in for the real value. Same field and type, made-up content.",
+        "text": "user7@example.com",
         "author": {
           "id": "42487",
           "username": "Example username",
@@ -221,31 +166,20 @@
           "url": "https://framapiaf.org/example/20154"
         },
         "engagement": {
-          "replies": 83,
-          "reblogs": 639,
-          "favourites": 577
+          "replies": 2,
+          "reblogs": 0,
+          "favourites": 1
         },
-        "media": [
-          {
-            "type": "image",
-            "url": "https://files.mastodon.social/example/20154",
-            "previewUrl": "https://files.mastodon.social/example/77149"
-          },
-          {
-            "type": "image",
-            "url": "https://files.mastodon.social/example/44102",
-            "previewUrl": "https://files.mastodon.social/example/2157"
-          }
-        ],
+        "media": [],
         "isBoost": false,
-        "isReply": false,
+        "isReply": true,
         "source": "account",
         "instance": "Example instance",
         "crawledAt": "2026-01-15T10:00:00Z"
       },
       {
         "recordType": "review",
-        "id": "553343758853890820",
+        "id": "915917272680678556",
         "reviewType": "post",
         "isReblog": false,
         "rebloggedByAcct": null,
@@ -255,28 +189,22 @@
         "editedAt": null,
         "language": "en",
         "url": "https://framapiaf.org/example/44102",
-        "repliesCount": 0,
+        "repliesCount": 1,
         "reblogsCount": 0,
         "favouritesCount": 6,
-        "inReplyToId": "365271584829681725",
-        "inReplyToAccountId": "4388585",
+        "inReplyToId": "772676698129986799",
+        "inReplyToAccountId": "794605124283530393",
         "sensitive": false,
         "spoilerText": "",
-        "visibility": "unlisted",
+        "visibility": "public",
         "mediaAttachments": [],
         "tags": [],
         "mentions": [
           {
-            "id": "3847138",
+            "id": "616739209013677600",
             "username": "Example username",
-            "url": "https://social.kartoffelcheetah.eu/example/44102",
+            "url": "https://veganism.social/example/44102",
             "acct": "user23@example.com"
-          },
-          {
-            "id": "191246454263700524",
-            "username": "Example username",
-            "url": "https://floss.social/example/64955",
-            "acct": "user74@example.com"
           }
         ],
         "cardUrl": null,
@@ -343,7 +271,7 @@
           "url": "https://framapiaf.org/example/44102"
         },
         "engagement": {
-          "replies": 0,
+          "replies": 4,
           "reblogs": 0,
           "favourites": 5
         },

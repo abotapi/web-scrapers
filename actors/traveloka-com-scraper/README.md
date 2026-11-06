@@ -63,7 +63,7 @@ Full details on the [scraper page](https://apify.com/abotapi/traveloka-com-scrap
 | `locationName` | string |
 | `region` | string |
 | `address` | null |
-| `price` | integer |
+| `price` | float |
 | `priceMinor` | integer |
 | `currency` | string |
 | `starRating` | integer |

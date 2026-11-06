@@ -98,7 +98,7 @@ Full details on the [scraper page](https://apify.com/abotapi/jobstreet-scraper?u
 | `listingDateDisplay` | string |
 | `expiresAt` | string |
 | `isVerified` | boolean |
-| `roleId` | string |
+| `roleId` | null |
 | `tags` | list |
 
 ---

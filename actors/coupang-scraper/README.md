@@ -67,7 +67,7 @@ Full details on the [scraper page](https://apify.com/abotapi/coupang-scraper?utm
 | `savingsAmount` | integer |
 | `unitPrice` | null |
 | `currency` | string |
-| `rating` | integer |
+| `rating` | float |
 | `reviewCount` | integer |
 | `rocketDelivery` | boolean |
 | `rocketFresh` | boolean |
@@ -84,7 +84,7 @@ Full details on the [scraper page](https://apify.com/abotapi/coupang-scraper?utm
 | `isOverseas` | boolean |
 | `isRocketMerchant` | boolean |
 | `usedMinPrice` | null |
-| `usedListingCount` | null |
+| `usedListingCount` | integer |
 | `categoryId` | null |
 | `categoryPath` | null |
 | `description` | null |

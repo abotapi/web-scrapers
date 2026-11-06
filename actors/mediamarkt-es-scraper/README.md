@@ -17,7 +17,7 @@ python example.py
 ```bash
 curl -s -X POST "https://api.apify.com/v2/acts/abotapi~mediamarkt-es-scraper/run-sync-get-dataset-items?token=$APIFY_TOKEN" \
   -H 'Content-Type: application/json' \
-  -d '{"mode": "search", "searchTerm": "portatil", "sortBy": "RELEVANCE", "maxReviewsPerProduct": 10, "maxPages": 1, "maxItems": 10, "proxy": {"useApifyProxy": true, "apifyProxyGroups": ["RESIDENTIAL"], "apifyProxyCountry": "ES"}}'
+  -d '{"mode": "search", "searchTerm": "portatil", "condition": "all", "sellerType": "all", "sortBy": "RELEVANCE", "maxReviewsPerProduct": 10, "maxPages": 1, "maxItems": 10, "proxy": {"useApifyProxy": true, "apifyProxyGroups": ["RESIDENTIAL"], "apifyProxyCountry": "ES"}}'
 ```
 
 ## Inputs
@@ -26,13 +26,17 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~mediamarkt-es-scraper/run
 | --- | --- | --- |
 | `mode` * | string | Mode |
 | `searchTerm` | string | Search keyword |
+| `searchQueries` | array | Search keywords (several) |
 | `categoryId` | string | Category id |
+| `urls` | array | URLs to scrape |
 | `brands` | array | Brands |
 | `minRating` | integer | Minimum rating |
 | `minPrice` | number | Minimum price (EUR) |
 | `maxPrice` | number | Maximum price (EUR) |
+| `condition` | string | Condition |
+| `sellerType` | string | Seller type |
 | `sortBy` | string | Sort order |
-| `urls` | array | URLs to scrape |
+| `sortOrder` | string | Sort order (alias) |
 | `fetchDetails` | boolean | Fetch full product detail |
 | `fetchReviews` | boolean | Fetch reviews |
 | `maxReviewsPerProduct` | integer | Max reviews per product |
@@ -58,9 +62,19 @@ Full details on the [scraper page](https://apify.com/abotapi/mediamarkt-es-scrap
 | `categoryPath` | list |
 | `category` | string |
 | `url` | string |
-| `rating` | integer |
+| `rating` | float |
 | `reviewCount` | integer |
 | `isMarketplace` | boolean |
+| `retailer` | string |
+| `country` | string |
+| `condition` | string |
+| `refurbishedAvailable` | boolean |
+| `deliveryStatus` | string |
+| `deliveryDisplayStatus` | string |
+| `isAvailableForDelivery` | boolean |
+| `fulfillmentEarliest` | string |
+| `fulfillmentLatest` | string |
+| `energyClass` | null |
 | `price` | integer |
 | `currency` | string |
 | `discountAmount` | integer |
@@ -72,9 +86,14 @@ Full details on the [scraper page](https://apify.com/abotapi/mediamarkt-es-scrap
 | `installment` | object |
 | `image` | string |
 | `images` | list |
+| `seller` | string |
+| `title` | string |
+| `imageUrl` | string |
+| `sourceUrl` | string |
+| `sellerRating` | null |
+| `strikePrice` | integer |
+| `discountPercentage` | integer |
 | `onlineAvailable` | boolean |
-| `availabilityStatus` | string |
-| `reviews` | object |
 
 ---
 

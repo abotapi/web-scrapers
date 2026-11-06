@@ -1,5 +1,30 @@
 [
   {
+    "product_id": "056802313",
+    "product_url": "https://mg.gmarket.co.kr/example/4183",
+    "price_krw": 23411,
+    "original_price_krw": 30188,
+    "coupon_price_krw": null,
+    "discount_amount_krw": 8149,
+    "price_usd": 18.41,
+    "discount_percent": 42,
+    "is_free_shipping": false,
+    "is_sponsored": false,
+    "is_oversea_delivery": true,
+    "is_big_smile": true,
+    "is_adult": false,
+    "seller_id": null,
+    "shop_handle": "Example shop_handle",
+    "category_code_l": "830674057",
+    "category_code_m": "886468859",
+    "category_code_s": "370061260",
+    "images_count": 23,
+    "images": [
+      "https://gdimg.gmarket.co.kr/example/36847.jpg",
+      "https://gdimg.gmarket.co.kr/example/39682.jpg"
+    ],
+    "image_url": "https://gdimg.gmarket.co.kr/example/32115.jpg",
+    "scraped_at": "2026-01-15T10:00:00Z",
     "goodsCode": "929507704",
     "title": "Example title: mock text standing in for the real value. Same field and type, made-up content.",
     "linkUrl": "https://mg.gmarket.co.kr/example/50444",
@@ -18,109 +43,8 @@
     "savingsAmountKrw": null,
     "discountRatePercent": 52,
     "isOnSpecial": true,
-    "isBigSmilePromo": false,
-    "bigSmileImageUrl": null,
-    "isSponsored": false,
-    "isFreeShipping": false,
-    "deliveryInfo": null,
-    "deliveryFee": null,
-    "sellerCustNo": null,
-    "miniShopHandle": "Example mini shop handle",
-    "miniShopUrl": "https://mg.gmarket.co.kr/example/92342",
-    "categoryCodeL": "781422230",
-    "categoryCodeM": "271048686",
-    "categoryCodeS": "283748393",
-    "overseaDeliveryAvailable": true,
-    "isBigSmile": false,
-    "isAdult": false,
-    "translation": {
-      "english": false,
-      "chinese": false,
-      "japanese": false
-    },
-    "raw": {
-      "IsAdult": false,
-      "GoodsCode": "849666993",
-      "OriginalPrice": "09,295",
-      "SalePrice": "92,606",
-      "AdCouponPrice": null,
-      "CurrencyPrice": "Example currency price",
-      "SellPrice": 0,
-      "DiscountPrice": 0,
-      "IsFreeFee": false,
-      "GoodsName": "Example goods name: mock text standing in for the real value. Same field and type, made-up content.",
-      "DiscountRate": "92",
-      "Delivery": null,
-      "ImageURL": "Example image u r l",
-      "LargeImageList": [
-        "Example large image list: mock text standing in for the real value. Same field and type, made-up content.",
-        "Example large image list: mock text standing in for the real value. Same field and type, made-up content."
-      ],
-      "LinkURL": "http://mg.gmarket.co.kr/example/99214",
-      "MoreImageCnt": 5,
-      "MoreImageList": [
-        {
-          "BigImageUrl": "Example big image url: mock text standing in for the real value. Same field and type, made-up content.",
-          "ImageUrl": "Example image url: mock text standing in for the real value. Same field and type, made-up content."
-        },
-        {
-          "BigImageUrl": "Example big image url: mock text standing in for the real value. Same field and type, made-up content.",
-          "ImageUrl": "Example image url: mock text standing in for the real value. Same field and type, made-up content."
-        }
-      ],
-      "IsPlusAD": false,
-      "Seller": null,
-      "IsFavoriteSeller": false,
-      "IsPurchasedSeller": false,
-      "SubdivYN": false,
-      "MiniShop": {
-        "Url": "yosoyoso"
-      },
-      "LCode": "503052457",
-      "MCode": "809587137",
-      "SCode": "109885965",
-      "IsFocus": false,
-      "AnotherTypeStart": false,
-      "AnotherTypeEnd": false,
-      "ListingItemGroup": 0,
-      "OverseaTransYN": true,
-      "Global": {
-        "EngDetailDescYN": false,
-        "ZhDetailDescYN": false,
-        "JaDetailDescYN": false,
-        "EngOrderOptYN": false,
-        "ZhOrderOptYN": false,
-        "JaorderOptYN": false,
-        "EngGlobalExposeYN": false,
-        "ZhGlobalExposeYN": false,
-        "JaGlobalExposeYN": false
-      },
-      "IsBigSmileItem": false,
-      "BigSmileImageUrl": ""
-    },
-    "scrapedAt": "2026-01-15T10:00:00Z",
-    "descriptionText": null,
-    "brand": null,
-    "sellerInfo": {
-      "CompanyName": "Example company name",
-      "ManagerName": "Example manager name",
-      "HelpDeskStartDate": "60",
-      "HelpDeskEndDate": "29",
-      "HelpDeskTelNo": "+1 555 0100",
-      "CompanyNo": "823-02-92497",
-      "EcomerceNo": "Example ecomerce no",
-      "CSGrade": null,
-      "SellerGrade": "Example seller grade",
-      "NickName": "Example nick name",
-      "EncodedCustNo": "Example encoded cust no",
-      "QnaItemCount": 5,
-      "DealerSatisGrade": "XX",
-      "CustType": "EC",
-      "IsShopVip": false
-    },
-    "sellerCompanyName": "Example seller company name",
-    "sellerManagerName": "Example seller manager name",
-    "sellerPhone": "+1 555 0100",
-    "sellerBusinessNumber": "642-93-00485"
+    "isBigSmilePromo": true,
+    "bigSmileImageUrl": "https://pics.gmarket.co.kr/example/96922.jpg",
+    "isSponsored": false
   }
 ]

@@ -1,15 +1,15 @@
 [
   {
-    "id": "59625",
+    "id": "63381",
     "slug": "Example slug",
-    "title": "Example title",
+    "title": "Example title: mock text standing in for the real value. Same field and type, made-up content.",
     "cover": "https://cdn.example.com/example/92908.jpg",
     "url": "https://www.shorttv.live/example/66310",
     "episodeUrl": "https://www.shorttv.live/example/53032",
     "viewsDisplay": "Example views display",
     "followsDisplay": "Example follows display",
-    "views": 3787,
-    "follows": 2584,
+    "views": 291787,
+    "follows": 38584,
     "recordType": "title",
     "language": "en",
     "mode": "CATALOG",
@@ -18,19 +18,19 @@
     "genres": [
       {
         "name": "Example name",
-        "slug": "modern",
-        "id": "447020"
+        "slug": "fantasy",
+        "id": "545066"
       },
       {
         "name": "Example name",
         "slug": "Example slug",
-        "id": "714361"
+        "id": "736057"
       }
     ],
     "category": {
       "name": "Example name",
-      "slug": "Example slug",
-      "id": "526906"
+      "slug": "beastfolk",
+      "id": "831846"
     },
     "creator": "Example creator",
     "episodeList": [

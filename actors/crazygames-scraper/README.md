@@ -76,7 +76,7 @@ Full details on the [scraper page](https://apify.com/abotapi/crazygames-scraper?
 | `addedOn` | string |
 | `basicLaunchOn` | string |
 | `releaseYear` | integer |
-| `lastFileUpdatedOn` | null |
+| `lastFileUpdatedOn` | string |
 | `lastSignificantUpdatedOn` | string |
 | `loaderType` | string |
 | `loaderTypeLabel` | string |

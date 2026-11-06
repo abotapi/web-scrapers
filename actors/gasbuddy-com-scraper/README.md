@@ -17,7 +17,7 @@ python example.py
 ```bash
 curl -s -X POST "https://api.apify.com/v2/acts/abotapi~gasbuddy-com-scraper/run-sync-get-dataset-items?token=$APIFY_TOKEN" \
   -H 'Content-Type: application/json' \
-  -d '{"mode": "search", "locations": ["78701"], "fuelType": "regular", "maxPriceAgeHours": "0", "maxReviewsPerStation": 10, "maxPages": 1, "proxy": {"useApifyProxy": true, "apifyProxyCountry": "US"}}'
+  -d '{"mode": "search", "locations": ["78701"], "fuelType": "regular", "maxPriceAgeHours": "0", "maxReviewsPerStation": 10, "maxPages": 1, "proxy": {"useApifyProxy": true, "apifyProxyCountry": "US"}, "changeScope": "all"}'
 ```
 
 ## Inputs
@@ -27,9 +27,16 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~gasbuddy-com-scraper/run-
 | `mode` * | string | What do you want to scrape |
 | `locations` | array | Locations |
 | `urls` | array | Station or search links |
+| `zipCodes` | array | ZIP codes |
+| `cityStates` | array | Cities (City, ST) |
+| `coordinates` | array | Coordinates |
+| `stations` | array | Stations (IDs or links) |
+| `streetAddresses` | array | Street addresses |
 | `brands` | array | Fuel brands |
+| `brandNames` | array | Brand names |
 | `fuelType` | string | Fuel grade |
 | `maxPriceAgeHours` | string | Maximum price age (hours) |
+| `maxReportAgeHours` | integer | Maximum report age (hours, any value) |
 | `minPrice` | integer | Minimum price |
 | `maxPrice` | integer | Maximum price |
 | `minStarRating` | integer | Minimum star rating |
@@ -41,7 +48,10 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~gasbuddy-com-scraper/run-
 | `maxReviewsPerStation` | integer | Max reviews per station |
 | `maxStations` | integer | Max stations |
 | `maxPages` | integer | Max pages per location |
-| `proxy` | object | Connection |
+| `proxy` | object | Proxy & connection |
+| `changeScope` | string | What counts as a change |
+| `compactUpdates` | boolean | Compact updated rows |
+| `expireAfterMissedScans` | integer | Expire after missed scans |
 
 `*` required
 
@@ -68,11 +78,11 @@ Full details on the [scraper page](https://apify.com/abotapi/gasbuddy-com-scrape
 | `country` | string |
 | `latitude` | float |
 | `longitude` | float |
-| `phone` | null |
+| `phone` | string |
 | `distance` | null |
 | `distanceMiles` | null |
 | `openStatus` | string |
-| `openingHours` | null |
+| `openingHours` | string |
 | `nextOpenAt` | null |
 | `nextCloseAt` | null |
 | `amenities` | list |

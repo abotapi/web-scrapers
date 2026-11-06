@@ -86,7 +86,7 @@ Full details on the [scraper page](https://apify.com/abotapi/zoopla-co-uk-scrape
 | `priceDrop` | object |
 | `bedrooms` | integer |
 | `bathrooms` | integer |
-| `receptionRooms` | integer |
+| `receptionRooms` | null |
 | `propertyType` | string |
 | `sizeSqft` | integer |
 | `sizeSource` | string |
@@ -104,7 +104,7 @@ Full details on the [scraper page](https://apify.com/abotapi/zoopla-co-uk-scrape
 | `latitude` | null |
 | `longitude` | null |
 | `imageUrl` | string |
-| `imageCaption` | string |
+| `imageCaption` | null |
 | `images` | list |
 | `imageCount` | integer |
 

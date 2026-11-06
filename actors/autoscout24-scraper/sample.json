@@ -3,13 +3,13 @@
     "listingId": "id72988782",
     "url": "https://www.autoscout24.com/example/51185",
     "title": "Example title",
-    "make": "Volkswagen",
-    "model": "Passat",
-    "modelGroup": "Passat",
+    "make": "Fiat",
+    "model": "Example model",
+    "modelGroup": "Example model group",
     "variant": "Example variant",
     "modelVersion": "Example model version",
     "year": 9581,
-    "firstRegistration": "57/7205",
+    "firstRegistration": "64/2559",
     "bodyType": "",
     "transmission": "Manual",
     "fuel": "Gasoline",
@@ -27,29 +27,24 @@
     "vehicleType": "Car",
     "isDeliverable": null,
     "country": "NL",
-    "city": "ROTTERDAM",
+    "city": "KALLENKOTE",
     "zip": "Example zip",
     "street": "Example street",
     "sellerType": "Example seller type",
-    "sellerId": "44754920",
+    "sellerId": "18391933",
     "companyName": "Example company name",
     "contactName": "Example contact name",
     "phones": [
       {
         "phoneType": "+1 555 0100",
-        "formattedNumber": "+70 (5)255 - 642946",
-        "callTo": "+53600761003"
-      },
-      {
-        "phoneType": "+1 555 0100",
-        "formattedNumber": "+35 (5)0 - 72225995",
-        "callTo": null
+        "formattedNumber": "+49 (0)532 - 650483",
+        "callTo": "+41392832762"
       }
     ],
     "ratingsCount": null,
     "ratingsStars": null,
     "whatsappNumber": "",
-    "dealerLogoUrl": "https://prod.pictures.autoscout24.net/example/92938.jpg",
+    "dealerLogoUrl": "",
     "dealerInfoPageUrl": "https://www.autoscout24.com/example/90138"
   }
 ]

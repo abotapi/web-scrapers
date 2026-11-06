@@ -1,19 +1,29 @@
 [
   {
-    "productId": "3807832",
-    "sku": "9512601",
-    "ean": "7751891931651",
+    "productId": "0386469",
+    "sku": "4019018",
+    "ean": "8922886386626",
     "name": "Example name: mock text standing in for the real value. Same field and type, made-up content.",
-    "brand": "ACER",
+    "brand": "LENOVO",
     "categoryPath": [
       "Example category path",
       "Example category path"
     ],
     "category": "Example category",
     "url": "https://www.mediamarkt.es/example/81437",
-    "rating": 4,
-    "reviewCount": 5,
+    "rating": 5.62,
+    "reviewCount": 41,
     "isMarketplace": false,
+    "retailer": "mediamarkt",
+    "country": "ES",
+    "condition": "new",
+    "refurbishedAvailable": false,
+    "deliveryStatus": "Example delivery status",
+    "deliveryDisplayStatus": "AVAILABLE",
+    "isAvailableForDelivery": true,
+    "fulfillmentEarliest": "2026-01-15T10:00:00Z",
+    "fulfillmentLatest": "2026-01-15T10:00:00Z",
+    "energyClass": null,
     "price": 635,
     "currency": "EUR",
     "discountAmount": 693,
@@ -25,34 +35,24 @@
     "installment": {
       "__typename": "Example __typename",
       "duration": 46,
-      "finalRate": 40.05,
-      "interestEffective": 20.29,
+      "finalRate": 65.61,
+      "interestEffective": 20.26,
       "interestNominal": 18.57,
-      "interestTotal": 26.33,
-      "monthlyRate": 38.1,
-      "totalAmount": 367.93
+      "interestTotal": 60.47,
+      "monthlyRate": 62.41,
+      "totalAmount": 723.29
     },
     "image": "https://assets.mmsrg.com/example/91927.jpg",
     "images": [
       "https://assets.mmsrg.com/example/421.jpg"
     ],
-    "onlineAvailable": true,
-    "availabilityStatus": "AVAILABLE",
-    "reviews": {
-      "averageRating": 6,
-      "totalReviewCount": 5,
-      "items": [
-        {
-          "id": "6119194486",
-          "rating": 4,
-          "title": "Example title",
-          "text": "Example text: mock text standing in for the real value. Same field and type, made-up content.",
-          "date": "2026-01-15T10:00:00Z",
-          "isVerifiedPurchaser": true,
-          "reviewerName": "Example reviewer name",
-          "syndicationSource": null
-        }
-      ]
-    }
+    "seller": "Example seller",
+    "title": "Example title: mock text standing in for the real value. Same field and type, made-up content.",
+    "imageUrl": "https://assets.mmsrg.com/example/70506.jpg",
+    "sourceUrl": "https://www.mediamarkt.es/example/66494",
+    "sellerRating": null,
+    "strikePrice": 566,
+    "discountPercentage": 68,
+    "onlineAvailable": true
   }
 ]

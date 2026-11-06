@@ -63,8 +63,8 @@ Full details on the [scraper page](https://apify.com/abotapi/elcorteingles-es-sc
 | `size` | string |
 | `price` | float |
 | `currency` | string |
-| `originalPrice` | float |
-| `discountPercent` | integer |
+| `originalPrice` | null |
+| `discountPercent` | null |
 | `isOnSale` | boolean |
 | `onlineAvailable` | boolean |
 | `isMarketplace` | boolean |
@@ -78,7 +78,6 @@ Full details on the [scraper page](https://apify.com/abotapi/elcorteingles-es-sc
 | `provider` | list |
 | `is_sold_by` | boolean |
 | `is_gift_card` | boolean |
-| `size_guide` | string |
 | `size_guide_type` | string |
 | `size_guide_details` | object |
 | `status` | string |

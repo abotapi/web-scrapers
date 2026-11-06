@@ -1,7 +1,7 @@
 [
   {
-    "id": "Example id",
-    "reference": "wtkd2mls",
+    "id": "senior-ux-ui-designer-bluebinary-remote-4",
+    "reference": "zi4e56bw",
     "title": "Example title",
     "url": "https://nofluffjobs.com/example/49711",
     "region": "pl",
@@ -9,8 +9,8 @@
       "pl"
     ],
     "companyName": "Example company name",
-    "companyLogo": "Example company logo",
-    "category": "Example category",
+    "companyLogo": "Example company logo: mock text standing in for the real value. Same field and type, made-up content.",
+    "category": "ux",
     "seniority": [
       "Example seniority"
     ],
@@ -19,6 +19,7 @@
     "fullyRemote": false,
     "remotePercent": 2,
     "cities": [
+      "Example cities",
       "Example cities"
     ],
     "locations": [
@@ -31,7 +32,18 @@
         "province": null,
         "latitude": null,
         "longitude": null,
-        "url": "Example url"
+        "url": "id3849711"
+      },
+      {
+        "city": "Example city",
+        "street": "",
+        "postalCode": "",
+        "countryCode": "POL",
+        "country": "Poland",
+        "province": null,
+        "latitude": 43.44,
+        "longitude": 20.45,
+        "url": "id82956092"
       }
     ],
     "salaryFrom": 38124,
@@ -55,18 +67,28 @@
     "onlineInterviewAvailable": true,
     "highlighted": false,
     "topInSearch": false,
-    "companySize": "8608+",
-    "companyVideo": "https://www.youtube.com/example/6647",
-    "companyProfileUrl": "https://www.7n.com/example/11419",
+    "companySize": "88 - 58",
+    "companyVideo": "",
+    "companyProfileUrl": "",
     "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
     "position": "",
     "dailyTasks": [
       "Example daily tasks: mock text standing in for the real value. Same field and type, made-up content.",
       "Example daily tasks: mock text standing in for the real value. Same field and type, made-up content."
     ],
-    "requirementsMust": [],
+    "requirementsMust": [
+      {
+        "name": "Example name",
+        "type": "main"
+      },
+      {
+        "name": "Example name",
+        "type": "main"
+      }
+    ],
     "requirementsNice": [],
     "requirementLanguages": [
+      "pl",
       "en"
     ],
     "requirementsDescription": "Example requirements description: mock text standing in for the real value. Same field and type, made-up content.",
@@ -74,6 +96,8 @@
       "Example benefits",
       "Example benefits"
     ],
-    "officePerks": []
+    "officePerks": [
+      "Example office perks"
+    ]
   }
 ]

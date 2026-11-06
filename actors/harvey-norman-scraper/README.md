@@ -17,7 +17,7 @@ python example.py
 ```bash
 curl -s -X POST "https://api.apify.com/v2/acts/abotapi~harvey-norman-scraper/run-sync-get-dataset-items?token=$APIFY_TOKEN" \
   -H 'Content-Type: application/json' \
-  -d '{"mode": "search", "queries": ["oled tv"], "sortBy": "relevance", "maxReviewsPerProduct": 10, "maxItems": 10, "maxPages": 1, "proxy": {"useApifyProxy": true, "apifyProxyGroups": ["RESIDENTIAL"], "apifyProxyCountry": "AU"}}'
+  -d '{"mode": "search", "queries": ["oled tv"], "sortBy": "relevance", "maxReviewsPerProduct": 10, "maxItems": 10, "maxPages": 1, "proxy": {"useApifyProxy": true, "apifyProxyCountry": "AU"}, "changeScope": "all"}'
 ```
 
 ## Inputs
@@ -38,6 +38,9 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~harvey-norman-scraper/run
 | `maxItems` | integer | Max products |
 | `maxPages` | integer | Max pages per listing |
 | `proxy` | object | Proxy configuration |
+| `changeScope` | string | Change scope (incremental mode only) |
+| `compactUpdates` | boolean | Compact UPDATED rows (incremental mode |
+| `expireAfterMissedScans` | integer | Expire after N missed scans (increment |
 
 `*` required
 
@@ -55,7 +58,7 @@ Full details on the [scraper page](https://apify.com/abotapi/harvey-norman-scrap
 | `name` | string |
 | `brand` | null |
 | `url` | string |
-| `imageUrl` | null |
+| `imageUrl` | string |
 | `rating` | float |
 | `reviewCount` | integer |
 | `promotion` | null |
@@ -66,6 +69,12 @@ Full details on the [scraper page](https://apify.com/abotapi/harvey-norman-scrap
 | `wasPrice` | null |
 | `discountAmount` | integer |
 | `discountPercent` | integer |
+| `urlKey` | string |
+| `urlSuffix` | string |
+| `hidePrice` | integer |
+| `smallImage` | object |
+| `offers` | object |
+| `priceRange` | object |
 | `title` | string |
 | `isOnSpecial` | boolean |
 

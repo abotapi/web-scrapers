@@ -71,7 +71,7 @@ Full details on the [scraper page](https://apify.com/abotapi/lemon8-media-scrape
 | `thumbnailUrl` | string |
 | `hashtags` | list |
 | `topComments` | list |
-| `keyword` | null |
+| `keyword` | string |
 | `category` | null |
 | `region` | string |
 | `sourceMode` | string |

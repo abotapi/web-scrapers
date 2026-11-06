@@ -12,8 +12,8 @@
     "isExclusiveList": false,
     "isUnderOffer": false,
     "daysOnMarket": "Example days on market",
-    "daysOnHomely": 0,
-    "isNew": true,
+    "daysOnHomely": 3,
+    "isNew": false,
     "price": {
       "display": "Example display",
       "short": null
@@ -37,7 +37,7 @@
     "featureTags": [],
     "agents": [
       {
-        "id": 934810,
+        "id": 1834810,
         "name": "Example name",
         "phone": null,
         "mobile": "+1 555 0100",
@@ -47,7 +47,7 @@
         "id": 8622459,
         "name": "Example name",
         "phone": null,
-        "mobile": "+1 555 0100",
+        "mobile": null,
         "email": null
       }
     ],
@@ -59,7 +59,11 @@
       "https://www.homely.com.au/example/23394.jpg",
       "https://www.homely.com.au/example/65761.jpg"
     ],
-    "videos": [],
+    "videos": [
+      {
+        "uri": "https://youtu.be/example/99741"
+      }
+    ],
     "externalLinks": [],
     "inspections": [
       {
