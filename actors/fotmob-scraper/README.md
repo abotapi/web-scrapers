@@ -58,7 +58,7 @@ Full details on the [scraper page](https://apify.com/abotapi/fotmob-scraper?utm_
 | `id` | string |
 | `name` | string |
 | `title` | string |
-| `lead` | string |
+| `lead` | null |
 | `source` | string |
 | `sourceIconUrl` | string |
 | `imageUrl` | string |
@@ -67,8 +67,6 @@ Full details on the [scraper page](https://apify.com/abotapi/fotmob-scraper?utm_
 | `url` | string |
 | `matchUrl` | string |
 | `scrapedAt` | string |
-| `bodyHtml` | string |
-| `bodyText` | string |
 
 ---
 

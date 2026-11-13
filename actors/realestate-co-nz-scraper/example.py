@@ -1,4 +1,4 @@
-"""RealestateCo NZ Scraper: minimal example. Docs: https://apify.com/abotapi/realestate-co-nz-scraper
+"""Realestate.co.nz Scraper: minimal example. Docs: https://apify.com/abotapi/realestate-co-nz-scraper
 
 pip install "apify-client>=3"
 APIFY_TOKEN=<your token> python example.py

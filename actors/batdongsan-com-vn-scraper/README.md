@@ -62,11 +62,11 @@ Full details on the [scraper page](https://apify.com/abotapi/batdongsan-com-vn-s
 | `priceValue` | integer |
 | `priceUnit` | string |
 | `pricePerM2` | integer |
-| `area` | float |
+| `area` | integer |
 | `bedrooms` | integer |
-| `bathrooms` | integer |
+| `bathrooms` | null |
 | `direction` | null |
-| `balconyDirection` | string |
+| `balconyDirection` | null |
 | `furniture` | string |
 | `locationText` | string |
 | `city` | string |

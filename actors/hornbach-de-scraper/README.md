@@ -65,7 +65,7 @@ Full details on the [scraper page](https://apify.com/abotapi/hornbach-de-scraper
 | `currency` | string |
 | `priceUnit` | string |
 | `originalPrice` | float |
-| `discountAmount` | float |
+| `discountAmount` | integer |
 | `discountPercent` | float |
 | `packPrice` | null |
 | `packPriceUnit` | null |

@@ -55,32 +55,17 @@ Full details on the [scraper page](https://apify.com/abotapi/tiktok-shop-scraper
 | `originalPrice` | null |
 | `discountPercent` | null |
 | `soldCount` | integer |
-| `rating` | null |
+| `rating` | integer |
 | `reviewCount` | integer |
 | `ratingHistogram` | null |
 | `images` | list |
 | `shopName` | string |
-| `description` | string |
+| `description` | null |
 | `variations` | list |
 | `reviews` | list |
 | `searchMode` | string |
 | `shopId` | string |
 | `resultSource` | string |
-| `sellerProductCount` | integer |
-| `id` | string |
-| `sold` | integer |
-| `available` | boolean |
-| `final_price` | integer |
-| `final_price_low` | integer |
-| `final_price_high` | integer |
-| `colors` | list |
-| `sizes` | list |
-| `shipping_fee` | float |
-| `specifications` | list |
-| `category` | string |
-| `category_url` | string |
-| `domain` | string |
-| `store_details` | object |
 | `scrapedAt` | string |
 
 ---

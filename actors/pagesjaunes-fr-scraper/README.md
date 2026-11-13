@@ -57,7 +57,6 @@ Full details on the [scraper page](https://apify.com/abotapi/pagesjaunes-fr-scra
 | `reviewCount` | integer |
 | `phone` | string |
 | `description` | string |
-| `paymentAccepted` | string |
 | `businessType` | string |
 | `fullAddress` | object |
 | `openingHours` | list |

@@ -2,15 +2,15 @@
   {
     "kind": "product",
     "uniqueKey": "Example unique key",
-    "productId": "e847756-183",
-    "styleCode": "392090",
+    "productId": "e651771-652",
+    "styleCode": "784084",
     "name": "Example name",
     "url": "https://www.uniqlo.com/example/25479",
     "country": "us",
     "countryName": "Example country name",
     "language": "en",
-    "department": "MEN",
-    "genderCategory": "MEN",
+    "department": "UNISEX",
+    "genderCategory": "UNISEX",
     "sizeGender": "MEN",
     "price": 23.92,
     "basePrice": 32.59,
@@ -25,31 +25,40 @@
     "isDualPrice": false,
     "priceGroup": "62",
     "promotionText": null,
-    "rating": 4.8,
-    "reviewCount": 34,
+    "rating": 0,
+    "reviewCount": 0,
     "ratingBreakdown": null,
     "fitRating": null,
     "colors": [
       {
-        "code": "COL00",
-        "displayCode": "46",
+        "code": "COL14",
+        "displayCode": "97",
         "name": "Example name",
-        "group": "WHITE",
+        "group": "RED",
         "hex": null,
         "imageUrl": "https://image.uniqlo.com/example/34597.jpg",
         "chipUrl": "https://image.uniqlo.com/example/91073.jpg"
+      },
+      {
+        "code": "COL50",
+        "displayCode": "56",
+        "name": "Example name",
+        "group": "GREEN",
+        "hex": null,
+        "imageUrl": "https://image.uniqlo.com/example/23395.jpg",
+        "chipUrl": "https://image.uniqlo.com/example/43188.jpg"
       }
     ],
     "colorCount": 1,
     "sizes": [
       {
-        "code": "sma188",
-        "displayCode": "418",
+        "code": "sma970",
+        "displayCode": "568",
         "name": "Example name"
       },
       {
-        "code": "sma158",
-        "displayCode": "268",
+        "code": "sma861",
+        "displayCode": "595",
         "name": "Example name"
       }
     ],
@@ -60,12 +69,102 @@
     ],
     "mainImage": "https://image.uniqlo.com/example/51895.jpg",
     "subImages": [
-      "https://image.uniqlo.com/example/84785.jpg",
-      "https://image.uniqlo.com/example/90083.jpg"
+      "https://image.uniqlo.com/example/84785.jpg"
     ],
-    "flags": [],
-    "flagCodes": [],
+    "flags": [
+      {
+        "code": "unisex",
+        "name": "Example name",
+        "type": "product_flag",
+        "detail": null,
+        "startsAt": null,
+        "endsAt": null
+      }
+    ],
+    "flagCodes": [
+      "unisex"
+    ],
     "isNew": false,
+    "isNewColor": false
+  },
+  {
+    "kind": "product",
+    "uniqueKey": "Example unique key",
+    "productId": "e420551-460",
+    "styleCode": "677787",
+    "name": "Example name",
+    "url": "https://www.uniqlo.com/example/85773",
+    "country": "us",
+    "countryName": "Example country name",
+    "language": "en",
+    "department": "KIDS",
+    "genderCategory": "KIDS",
+    "sizeGender": "KIDS",
+    "price": 24.68,
+    "basePrice": 23.08,
+    "promoPrice": null,
+    "originalPrice": null,
+    "discountAmount": null,
+    "discountPercent": null,
+    "isOnSale": false,
+    "currency": "USD",
+    "currencySymbol": "Example currency symbol",
+    "taxPolicy": "EXCLUSIVE",
+    "isDualPrice": false,
+    "priceGroup": "14",
+    "promotionText": null,
+    "rating": 0,
+    "reviewCount": 0,
+    "ratingBreakdown": null,
+    "fitRating": null,
+    "colors": [
+      {
+        "code": "COL07",
+        "displayCode": "00",
+        "name": "Example name",
+        "group": "GRAY",
+        "hex": null,
+        "imageUrl": "https://image.uniqlo.com/example/22905.jpg",
+        "chipUrl": "https://image.uniqlo.com/example/25583.jpg"
+      }
+    ],
+    "colorCount": 2,
+    "sizes": [
+      {
+        "code": "kag217",
+        "displayCode": "695",
+        "name": "Example name"
+      },
+      {
+        "code": "kag912",
+        "displayCode": "824",
+        "name": "Example name"
+      }
+    ],
+    "sizeCount": 1,
+    "images": [
+      "https://image.uniqlo.com/example/83057.jpg",
+      "https://image.uniqlo.com/example/40775.jpg"
+    ],
+    "mainImage": "https://image.uniqlo.com/example/82798.jpg",
+    "subImages": [
+      "https://image.uniqlo.com/example/55146.jpg",
+      "https://image.uniqlo.com/example/72156.jpg"
+    ],
+    "flags": [
+      {
+        "code": "Example code",
+        "name": "Example name",
+        "type": "product_flag",
+        "detail": null,
+        "startsAt": "2026-01-15T10:00:00Z",
+        "endsAt": "2026-01-15T10:00:00Z"
+      }
+    ],
+    "flagCodes": [
+      "Example flag codes"
+    ],
+    "isNew": true,
     "isNewColor": false
   }
 ]

@@ -17,7 +17,7 @@ python example.py
 ```bash
 curl -s -X POST "https://api.apify.com/v2/acts/abotapi~flightradar24-live-flight-tracker/run-sync-get-dataset-items?token=$APIFY_TOKEN" \
   -H 'Content-Type: application/json' \
-  -d '{"mode": "live", "bounds": ["55.0,45.0,-6.0,10.0"], "airports": ["LHR"], "boardMode": "departures", "historyQueries": ["G-TUKR"], "fetchBy": "reg", "maxItems": 10, "proxy": {"useApifyProxy": true}}'
+  -d '{"mode": "live", "bounds": ["55.0,45.0,-6.0,10.0"], "airports": ["LHR"], "boardMode": "departures", "historyQueries": ["G-TUKR"], "fetchBy": "reg", "maxItems": 10, "sortOrder": "asc", "proxy": {"useApifyProxy": true}}'
 ```
 
 ## Inputs
@@ -26,6 +26,8 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~flightradar24-live-flight
 | --- | --- | --- |
 | `mode` * | string | Mode |
 | `bounds` | array | Map areas (bounding boxes) |
+| `preset` | string | Region preset |
+| `bboxes` | array | Map areas (alias) |
 | `airports` | array | Airports (IATA codes) |
 | `boardMode` | string | Board type |
 | `historyQueries` | array | Registrations or flight numbers |
@@ -40,10 +42,14 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~flightradar24-live-flight
 | `maxAltitudeFt` | integer | Maximum altitude (feet) |
 | `includeOnGround` | boolean | Include aircraft on the ground |
 | `includeGliders` | boolean | Include gliders |
+| `onlyAirlineIatas` | array | Only these airlines (flight-number pre |
 | `maxItems` | integer | Max flights |
+| `sortBy` | string | Sort results by |
+| `sortOrder` | string | Sort order |
 | `fetchDetails` | boolean | Add full flight detail (billed per enr |
 | `includeTrail` | boolean | Include the recorded position trail |
 | `proxy` | object | Proxy configuration |
+| `proxyConfiguration` | object | Proxy configuration (alias) |
 
 `*` required
 

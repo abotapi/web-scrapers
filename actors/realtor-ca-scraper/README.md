@@ -70,6 +70,7 @@ Full details on the [scraper page](https://apify.com/abotapi/realtor-ca-scraper?
 | `uploadedBy` | string |
 | `urlFr` | string |
 | `photosUpdatedAt` | string |
+| `amenitiesNearby` | list |
 | `address` | object |
 | `coordinates` | object |
 | `price` | object |

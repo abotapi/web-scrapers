@@ -74,8 +74,8 @@ Full details on the [scraper page](https://apify.com/abotapi/zozotown-scraper?ut
 | `shopNameJp` | null |
 | `shopSlug` | string |
 | `price` | integer |
-| `originalPrice` | integer |
-| `discountPercent` | integer |
+| `originalPrice` | null |
+| `discountPercent` | null |
 | `currency` | string |
 | `isOnSale` | boolean |
 | `isTimeSale` | boolean |

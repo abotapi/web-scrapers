@@ -85,6 +85,7 @@ Full details on the [scraper page](https://apify.com/abotapi/jobteaser-scraper?u
 | `media` | list |
 | `platform_metadata` | object |
 | `source_context` | object |
+| `company_details` | null |
 
 ---
 

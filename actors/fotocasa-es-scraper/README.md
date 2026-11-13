@@ -1,8 +1,8 @@
-# Fotocasa.es Scraper
+# Fotocasa Spain Scraper
 
-Scrape Spain property listings from fotocasa.es. Get price, surface, rooms, baths, address, GPS, agency, phone, energy rating, photos and 140+ fields. Buy and rent, all regions, all property types.
+Scrape Fotocasa.es property listings for sale and rent across Spain. Extract 140+ fields including prices, floor areas, bedrooms, bathrooms, addresses, GPS coordinates, agencies, phone numbers, energy ratings and photos. Covers all regions and property types.
 
-**[Open Fotocasa.es Scraper on Apify](https://apify.com/abotapi/fotocasa-es-scraper?utm_source=github&utm_medium=web-scrapers&utm_campaign=monorepo)** to run it without code and export JSON, CSV or Excel.
+**[Open Fotocasa Spain Scraper on Apify](https://apify.com/abotapi/fotocasa-es-scraper?utm_source=github&utm_medium=web-scrapers&utm_campaign=monorepo)** to run it without code and export JSON, CSV or Excel.
 
 ## Run it from code
 

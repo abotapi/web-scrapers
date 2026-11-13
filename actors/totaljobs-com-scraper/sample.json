@@ -34,10 +34,10 @@
       "streetAddress": null
     },
     "salary": {
-      "rawText": "Example raw text",
-      "min": 67453,
-      "max": 10468,
-      "currency": "GBP",
+      "rawText": null,
+      "min": null,
+      "max": null,
+      "currency": null,
       "period": null
     },
     "workFromHome": null,

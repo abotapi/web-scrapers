@@ -86,7 +86,6 @@ Full details on the [scraper page](https://apify.com/abotapi/easyauto123-cars-sc
 | `banner` | string |
 | `status` | string |
 | `updatedAt` | string |
-| `primaryImage` | string |
 | `imageUrls` | list |
 | `imageCount` | integer |
 | `contractPrice` | list |
@@ -100,6 +99,7 @@ Full details on the [scraper page](https://apify.com/abotapi/easyauto123-cars-sc
 | `productCategory` | string |
 | `availableSince` | string |
 | `ancapRating` | string |
+| `co2Emission` | string |
 
 ---
 

@@ -65,17 +65,17 @@ Full details on the [scraper page](https://apify.com/abotapi/olx-scraper?utm_sou
 | `lastRefreshTime` | string |
 | `validToTime` | string |
 | `displayDate` | null |
-| `price` | integer |
-| `priceCurrency` | string |
-| `priceDisplay` | string |
-| `priceNegotiable` | boolean |
+| `price` | null |
+| `priceCurrency` | null |
+| `priceDisplay` | null |
+| `priceNegotiable` | null |
 | `offerType` | string |
 | `categoryId` | string |
 | `categoryName` | string |
 | `categoryPath` | null |
 | `city` | string |
 | `region` | string |
-| `district` | string |
+| `district` | null |
 | `fullLocation` | string |
 | `latitude` | float |
 | `longitude` | float |
@@ -92,7 +92,7 @@ Full details on the [scraper page](https://apify.com/abotapi/olx-scraper?utm_sou
 | `sellerOtherAdsEnabled` | boolean |
 | `kycVerified` | null |
 | `businessFlag` | boolean |
-| `partnerCode` | string |
+| `partnerCode` | null |
 | `shopId` | null |
 | `hasPhone` | boolean |
 

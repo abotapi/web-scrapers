@@ -1,10 +1,10 @@
 [
   {
     "recordType": "news",
-    "id": "31588094",
+    "id": "72669479",
     "title": "Example title: mock text standing in for the real value. Same field and type, made-up content.",
     "url": "https://onefootball.com/example/13330",
-    "publisher": "football048",
+    "publisher": "Example publisher",
     "publisherImageUrl": "https://image-service.onefootball.com/example/72717.jpg",
     "publisherIsVerified": false,
     "publishedAt": "2026-01-15T10:00:00Z",

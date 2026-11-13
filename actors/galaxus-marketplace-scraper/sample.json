@@ -1,10 +1,10 @@
 [
   {
     "recordType": "product",
-    "id": "70802970",
+    "id": "57008301",
     "productId": 85203680,
     "name": "Example name",
-    "brand": "HP",
+    "brand": "Lenovo",
     "productTypeName": "Example product type name",
     "productTypeId": 9,
     "url": "https://www.galaxus.ch/example/47442",
@@ -14,22 +14,24 @@
       "https://www.galaxus.ch/example/24796.jpg"
     ],
     "price": 479,
-    "priceExclVat": 706.74,
+    "priceExclVat": 376.48,
     "currency": "CHF",
-    "oldPrice": null,
-    "discountPercent": null,
-    "ratingAverage": 3.86,
-    "ratingCount": 72,
+    "oldPrice": 807,
+    "discountPercent": 71,
+    "ratingAverage": 4.16,
+    "ratingCount": 702,
     "availability": "TICK",
     "stock": {
       "stockCount": null,
       "stockStatus": null,
       "expectedDelivery": null
     },
-    "soldCount": null,
-    "promotionType": null,
-    "promotionRemainingDays": null,
-    "labels": [],
+    "soldCount": 98,
+    "promotionType": "SELLOUT",
+    "promotionRemainingDays": 85,
+    "labels": [
+      "DISCOUNT"
+    ],
     "nameFull": "Example name full",
     "inStock": true,
     "category": "Notebooks",

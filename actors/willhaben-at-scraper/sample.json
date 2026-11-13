@@ -1,35 +1,34 @@
 [
   {
-    "id": "0528972802",
+    "id": "7107581241",
     "uuid": "id59802884",
     "url": "https://www.willhaben.at/example/99260",
     "seoUrl": "Example seo url: mock text standing in for the real value. Same field and type, made-up content.",
     "verticalId": 6,
     "adTypeId": 60,
     "productId": 52,
-    "advertStatus": "reserved",
+    "advertStatus": "active",
     "category": "Example category",
-    "title": "Example title: mock text standing in for the real value. Same field and type, made-up content.",
+    "title": "Example title",
     "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
-    "price": 517,
+    "price": 67,
     "priceDisplay": "Example price display",
     "country": "Example country",
-    "state": "Wien",
+    "state": "Salzburg",
     "district": "Example district",
-    "postcode": "9996",
+    "postcode": "9623",
     "locationName": "Example location name",
     "address": null,
-    "latitude": 37.61,
-    "longitude": 20.27,
+    "latitude": 37.28,
+    "longitude": 16.13,
     "publishedDate": "2026-01-15T10:00:00Z",
     "changedDate": "2026-01-15T10:00:00Z",
     "endDate": "2026-01-15T10:00:00Z",
     "isPrivate": true,
-    "orgId": "10867758",
+    "orgId": "76250317",
     "advertiserLabel": null,
     "images": [
-      "https://cache.willhaben.at/example/64095.jpg",
-      "https://cache.willhaben.at/example/4438.jpg"
+      "https://cache.willhaben.at/example/64095.jpg"
     ],
     "imageCount": 2,
     "mainImage": "https://cache.willhaben.at/example/77325.jpg",
@@ -43,23 +42,23 @@
       {
         "name": "Example name",
         "values": [
-          "6"
+          "Example values"
         ]
       },
       {
-        "name": "Example name",
+        "name": "id17875657",
         "values": [
-          "Example values"
+          "false"
         ]
       }
     ],
-    "attr_DISPOSED": "7",
     "attr_LOCATION": "Example attr_ l o c a t i o n",
     "attr_p2penabled": "false",
-    "attr_CHANGED": "0762546656841",
+    "attr_CHANGED": "2019552436458",
     "attr_categorytreeattributeids": "Example attr_categorytreeattributeids",
     "attr_CHANGED_String": "2026-01-15T10:00:00Z",
-    "attr_POSTCODE": "7759",
-    "attr_PRICE_REDUCTION_SET_DATE": "5225423244042"
+    "attr_POSTCODE": "6110",
+    "attr_BODY_DYN": "Example attr_ b o d y_ d y n: mock text standing in for the real value. Same field and type, made-up content.",
+    "attr_STATE": "Salzburg"
   }
 ]

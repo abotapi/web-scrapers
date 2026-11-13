@@ -7,56 +7,56 @@
     "street": "Example street",
     "city": "Austin",
     "state": "TX",
-    "zip": "60702",
+    "zip": "93145",
     "rentMin": 3682,
     "rentMax": 4610,
     "bedsLabel": "Example beds label",
     "phone": "+1 555 0100",
-    "amenitiesSummary": "Example amenities summary",
+    "amenitiesSummary": "Example amenities summary: mock text standing in for the real value. Same field and type, made-up content.",
     "photo": "https://images1.apartments.com/example/734.jpg",
     "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
-    "latitude": 26.6,
-    "longitude": -85.02,
+    "latitude": 26.67,
+    "longitude": -84.96,
     "currency": "USD",
     "bedsRange": "Example beds range",
     "bathsRange": "Example baths range",
-    "sqftRange": "057 - 9,309",
+    "sqftRange": "307 - 1,353",
     "yearBuilt": 3476,
     "unitsInBuilding": 443,
     "stories": 3,
-    "leaseOptions": null,
+    "leaseOptions": "Example lease options",
     "neighborhood": "Example neighborhood",
     "managementCompany": "Example management company",
-    "rentSpecial": "Example rent special: mock text standing in for the real value. Same field and type, made-up content.",
+    "rentSpecial": null,
     "verified": true,
     "petsAllowed": true,
-    "rating": 1.63,
-    "reviewCount": 35,
+    "rating": 9,
+    "reviewCount": 8,
     "amenities": [
       "Example amenities",
       "Example amenities"
     ],
     "floorplans": [
       {
-        "name": "Example name",
+        "name": "3a1-hc",
         "rent": "Example rent",
-        "beds": 0,
+        "beds": 3,
         "baths": 9,
         "sqft": 612
       },
       {
         "name": "Example name",
         "rent": "Example rent",
-        "beds": 0,
+        "beds": 6,
         "baths": 3,
         "sqft": 238
       }
     ],
     "units": [
       {
-        "model": "E1",
-        "unit": "7888",
-        "beds": 0,
+        "model": "8a3-hc",
+        "unit": "55-16251",
+        "beds": 3,
         "baths": 9,
         "rent": 3347,
         "sqft": 612,
@@ -64,9 +64,9 @@
         "key": "id59831815"
       },
       {
-        "model": "E1",
-        "unit": "3588",
-        "beds": 0,
+        "model": "A5-HC",
+        "unit": "1-8852",
+        "beds": 6,
         "baths": 3,
         "rent": 4815,
         "sqft": 238,
@@ -84,12 +84,12 @@
     "transit": [
       {
         "name": "Example name",
-        "distanceMiles": 3.53,
+        "distanceMiles": 5.47,
         "driveTimeMin": 3
       },
       {
         "name": "Example name",
-        "distanceMiles": 2.29,
+        "distanceMiles": 3.55,
         "driveTimeMin": 6
       }
     ],
@@ -101,7 +101,7 @@
         "students": 244
       },
       {
-        "name": "Example name",
+        "name": "Example name: mock text standing in for the real value. Same field and type, made-up content.",
         "type": "Example type",
         "grades": "0-3",
         "students": 165

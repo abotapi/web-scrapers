@@ -81,6 +81,7 @@ Full details on the [scraper page](https://apify.com/abotapi/homes-com-scraper?u
 | `agentPhone` | string |
 | `agentEmail` | null |
 | `scrapedAt` | string |
+| `statusLabel` | string |
 
 ---
 

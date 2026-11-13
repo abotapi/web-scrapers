@@ -67,7 +67,7 @@ Full details on the [scraper page](https://apify.com/abotapi/rover-pet-care-scra
 | `latitude` | float |
 | `longitude` | float |
 | `distanceMi` | float |
-| `ratingsAverage` | integer |
+| `ratingsAverage` | float |
 | `ratingsCount` | integer |
 | `testimonialsCount` | integer |
 | `yearsOfExperience` | integer |

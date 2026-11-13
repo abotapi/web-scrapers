@@ -1,6 +1,6 @@
 [
   {
-    "id": "wgdtc7frzuemdsz6kqlt",
+    "id": "olggkqnjvq7xtnmzyf8y",
     "title": "Example title",
     "price": "Example price",
     "price_numeric": 572083,
@@ -10,7 +10,7 @@
     "property_type": "Flat",
     "tags": [
       "Example tags",
-      "Undo"
+      "Example tags"
     ],
     "images": [
       "https://jitty-cdn.com/example/21091.jpg",
@@ -19,33 +19,29 @@
     "image_count": 8,
     "url": "https://jitty.com/example/66643",
     "address": "Example address",
-    "latitude": 45.26,
-    "longitude": 0.05,
+    "latitude": 45.23,
+    "longitude": 0.02,
     "location_source": "detail_page",
     "ownership": "Example ownership",
     "living_spaces": 8,
     "property_type_detail": "Flat",
-    "epc_current_score": 68,
-    "epc_current_rating": "Example epc_current_rating",
-    "epc_potential_score": 18,
-    "epc_potential_rating": "Example epc_potential_rating",
     "estate_agent": "Example estate_agent",
     "features": [
       "Example features"
     ]
   },
   {
-    "id": "gyq4wfk4xvrpzgnj5zpy",
+    "id": "uupke9eafefwgma38aex",
     "title": "Example title",
     "price": "Example price",
-    "price_numeric": 584164,
+    "price_numeric": 9584164,
     "currency": "GBP",
     "bedrooms": 6,
     "bathrooms": 8,
-    "property_type": "Semi-Detached",
+    "property_type": "Detached",
     "tags": [
-      "Example tags",
-      "Undo"
+      "Garage",
+      "Example tags"
     ],
     "images": [
       "https://jitty-cdn.com/example/19213.jpg",
@@ -54,16 +50,12 @@
     "image_count": 22,
     "url": "https://jitty.com/example/61158",
     "address": "Example address",
-    "latitude": 53.42,
-    "longitude": 0.01,
+    "latitude": 53.58,
+    "longitude": -0.34,
     "location_source": "detail_page",
     "ownership": "Example ownership",
     "living_spaces": 8,
-    "property_type_detail": "Semi-Detached",
-    "epc_current_score": 36,
-    "epc_current_rating": "Example epc_current_rating",
-    "epc_potential_score": 95,
-    "epc_potential_rating": "Example epc_potential_rating",
+    "property_type_detail": "Detached",
     "estate_agent": "Example estate_agent",
     "features": [
       "Example features",

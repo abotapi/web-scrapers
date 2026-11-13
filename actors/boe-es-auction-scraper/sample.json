@@ -1,68 +1,58 @@
 [
   {
-    "idSub": "sub-ja-6630-212258",
+    "idSub": "sub-ja-2271-918706",
     "titulo": "Example titulo",
     "estado": "EJ",
     "estadoDetalle": "Example estado detalle",
     "tipoSubasta": "Example tipo subasta",
-    "cuentaExpediente": "3031 2371 52 2070 93",
-    "expediente": "1957/92",
+    "cuentaExpediente": "4957 9602 99 1389 79",
+    "expediente": "7472/75",
     "fechaInicio": "Example fecha inicio",
     "fechaConclusion": "Example fecha conclusion",
     "fechaFin": "Example fecha fin",
     "fechaPublicacion": "",
     "cantidadReclamada": "Example cantidad reclamada",
     "lotes": "9",
-    "anuncioBOE": "boe-b-7750-05343",
+    "anuncioBOE": "boe-b-2452-68378",
     "valorSubasta": "Example valor subasta: mock text standing in for the real value. Same field and type, made-up content.",
     "tasacion": "Example tasacion: mock text standing in for the real value. Same field and type, made-up content.",
     "pujaMinima": "Example puja minima",
     "tramos": "Example tramos",
     "deposito": "Example deposito: mock text standing in for the real value. Same field and type, made-up content.",
     "descripcion": "Example descripcion: mock text standing in for the real value. Same field and type, made-up content.",
-    "autoridadCodigo": "4672906181",
+    "autoridadCodigo": "7470340026",
     "autoridadDescripcion": "Example autoridad descripcion",
     "autoridadDireccion": "Example autoridad direccion",
     "autoridadTelefono": "+1 555 0100",
-    "autoridadFax": "894146350",
+    "autoridadFax": "573166238",
     "autoridadEmail": "user0@example.com",
     "autoridad": {
-      "codigo": "2914957131",
+      "codigo": "4140639312",
       "descripcion": "Example descripcion",
       "direccion": "Example direccion",
       "telefono": "+1 555 0100",
-      "fax": "620642798",
+      "fax": "422135825",
       "email": "user81@example.com"
     },
     "bienes": [
       {
-        "descripcion": "Example descripcion",
+        "descripcion": "Example descripcion: mock text standing in for the real value. Same field and type, made-up content.",
         "direccion": "Example direccion",
-        "codigoPostal": "00325",
-        "localidad": "AVILES",
+        "codigoPostal": "88980",
+        "localidad": "Example localidad",
         "provincia": "Example provincia",
         "situacionPosesoria": "Example situacion posesoria",
-        "visitable": "Example visitable"
+        "visitable": "Example visitable",
+        "inscripcionRegistral": "Example inscripcion registral: mock text standing in for the real value. Same field and type, made-up content."
       }
     ],
-    "documentos": [
-      {
-        "titulo": "Example titulo",
-        "idDoc": "id51431354",
-        "url": "https://subastas.boe.es/example/24216"
-      },
-      {
-        "titulo": "Example titulo",
-        "idDoc": "id24059142",
-        "url": "https://subastas.boe.es/example/12917"
-      }
-    ],
+    "documentos": [],
     "pujasEstado": "",
     "hasBids": false,
     "provincia": "Example provincia",
-    "localidad": "AVILES",
+    "localidad": "Example localidad",
     "direccion": "Example direccion",
-    "codigoPostal": "00325",
+    "codigoPostal": "88980",
     "detailUrl": "https://subastas.boe.es/example/28256"
   }
 ]

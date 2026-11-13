@@ -1,12 +1,12 @@
 [
   {
     "scrapedAt": "2026-01-15T10:00:00Z",
-    "propertyId": "33183178",
-    "mlsNumber": "w60524093",
+    "propertyId": "66909116",
+    "mlsNumber": "w20826788",
     "url": "https://www.realtor.ca/example/2424",
     "listingType": "buy",
-    "propertyType": "house",
-    "buildingType": "House",
+    "propertyType": "condo",
+    "buildingType": "Apartment",
     "ownershipType": "Example ownership type",
     "dateListed": "+1 555 0100",
     "timeOnRealtor": "Example time on realtor",
@@ -15,32 +15,32 @@
     "uploadedBy": "12",
     "urlFr": "https://www.realtor.ca/example/11269",
     "photosUpdatedAt": "Example photos updated at",
+    "amenitiesNearby": [
+      "Example amenities nearby",
+      "Example amenities nearby"
+    ],
     "address": {
       "full": "Example full: mock text standing in for the real value. Same field and type, made-up content.",
       "street": "Example street",
-      "city": "Toronto",
+      "city": "Mississauga",
       "province": "Example province",
-      "postalCode": "m0n5x3"
+      "postalCode": "l3e0e5"
     },
     "coordinates": {
-      "latitude": 54.63,
-      "longitude": -62.03
+      "latitude": 54.49,
+      "longitude": -62.06
     },
     "price": {
       "display": "Example display",
-      "value": 3381736,
+      "value": 681736,
       "shortValue": "Example short value"
     },
     "features": {
       "bedrooms": 6,
       "bathrooms": 9,
       "parkingSpaces": 3,
-      "parkingType": "Garage",
-      "landSize": "Example land size",
-      "buildingSize": "Example building size",
-      "stories": 3,
-      "halfBathrooms": 8,
-      "landFrontage": "Example land frontage"
+      "parkingType": "Example parking type",
+      "buildingSize": "Example building size"
     },
     "propertyFeatures": [
       "Example property features",
@@ -58,7 +58,7 @@
     "agents": [
       {
         "name": "Example name",
-        "id": "2025135",
+        "id": "8560278",
         "firstName": "Example first name",
         "lastName": "Example last name",
         "organizationType": "Firm",
@@ -67,10 +67,8 @@
         "position": "Example position",
         "profileUrl": "https://www.realtor.ca/example/94295",
         "organization": "Example organization",
-        "organizationLogo": "https://cdn.realtor.ca/example/63960.jpg",
-        "organizationId": "81460",
+        "organizationId": "161699",
         "organizationDesignation": "Example organization designation",
-        "organizationWebsite": "http://www.c21parkland.com/example/76786",
         "organizationPhone": "+1 555 0100"
       }
     ]

@@ -9,11 +9,11 @@
       "host": "Example host",
       "lang": "en-US"
     },
-    "jobReqId": "jr1682738",
+    "jobReqId": "jr1927074",
     "postingInternalId": "id79255561",
-    "jobPostingId": "senior-asic-design-engineer---clocks-ip_jr9238870",
+    "jobPostingId": "senior-product-manager---omniverse-sensor-simulation_jr5385833-6",
     "jobPostingSiteId": "Example job posting site id",
-    "questionnaireId": "id82441695",
+    "questionnaireId": null,
     "title": "Example title",
     "jobUrl": "https://nvidia.wd5.myworkdayjobs.com/example/18922",
     "externalPath": "Example external path: mock text standing in for the real value. Same field and type, made-up content.",
@@ -24,7 +24,7 @@
     "canApply": true,
     "includeResumeParsing": true,
     "locationText": "Example location text",
-    "country": "US",
+    "country": "DE",
     "employerName": "Example employer name",
     "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
     "descriptionText": "Example description text: mock text standing in for the real value. Same field and type, made-up content.",
@@ -40,15 +40,13 @@
     "externalUrl": "https://nvidia.wd5.myworkdayjobs.com/example/65719",
     "location": {
       "text": "Example text",
-      "additional": [
-        "Example additional"
-      ],
+      "additional": [],
       "requisitionLocation": {
         "descriptor": "Example descriptor",
         "country": {
           "descriptor": "Example descriptor",
           "id": "id40330963",
-          "alpha2Code": "US"
+          "alpha2Code": "DE"
         }
       }
     },
@@ -64,15 +62,15 @@
     },
     "similarJobs": [],
     "scrapedAt": "2026-01-15T10:00:00Z",
-    "id": "jr6324444",
+    "id": "jr1409153",
     "url": "https://nvidia.wd5.myworkdayjobs.com/example/52524",
     "jobDescription": "Example job description: mock text standing in for the real value. Same field and type, made-up content.",
     "originUrl": "https://nvidia.wd5.myworkdayjobs.com/example/54522",
     "metadata": {
       "postingInternalId": "id79255561",
-      "jobPostingId": "senior-asic-design-engineer---clocks-ip_jr9238870",
+      "jobPostingId": "senior-product-manager---omniverse-sensor-simulation_jr5385833-6",
       "jobPostingSiteId": "Example job posting site id",
-      "questionnaireId": "id82441695",
+      "questionnaireId": null,
       "includeResumeParsing": true,
       "userAuthenticated": false
     },
@@ -90,14 +88,14 @@
       "host": "Example host",
       "lang": "en-US"
     },
-    "jobReqId": "jr4422355",
+    "jobReqId": "jr0909715",
     "postingInternalId": "id52674981",
-    "jobPostingId": "global-trade-compliance-analyst_jr5618300",
+    "jobPostingId": "software-automation-specialist_jr4761249",
     "jobPostingSiteId": "Example job posting site id",
     "questionnaireId": "id61301491",
     "title": "Example title",
     "jobUrl": "https://nvidia.wd5.myworkdayjobs.com/example/80781",
-    "externalPath": "Example external path",
+    "externalPath": "Example external path: mock text standing in for the real value. Same field and type, made-up content.",
     "postedOn": "Example posted on",
     "startDate": "2026-01-15",
     "timeType": "Example time type",
@@ -105,7 +103,7 @@
     "canApply": true,
     "includeResumeParsing": true,
     "locationText": "Example location text",
-    "country": "IN",
+    "country": "IL",
     "employerName": "Example employer name",
     "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
     "descriptionText": "Example description text: mock text standing in for the real value. Same field and type, made-up content.",
@@ -121,13 +119,15 @@
     "externalUrl": "https://nvidia.wd5.myworkdayjobs.com/example/52606",
     "location": {
       "text": "Example text",
-      "additional": [],
+      "additional": [
+        "Example additional"
+      ],
       "requisitionLocation": {
         "descriptor": "Example descriptor",
         "country": {
           "descriptor": "Example descriptor",
           "id": "id47554360",
-          "alpha2Code": "IN"
+          "alpha2Code": "IL"
         }
       }
     },
@@ -143,13 +143,13 @@
     },
     "similarJobs": [],
     "scrapedAt": "2026-01-15T10:00:00Z",
-    "id": "jr8281417",
+    "id": "jr6069585",
     "url": "https://nvidia.wd5.myworkdayjobs.com/example/89476",
     "jobDescription": "Example job description: mock text standing in for the real value. Same field and type, made-up content.",
     "originUrl": "https://nvidia.wd5.myworkdayjobs.com/example/96959",
     "metadata": {
       "postingInternalId": "id52674981",
-      "jobPostingId": "global-trade-compliance-analyst_jr5618300",
+      "jobPostingId": "software-automation-specialist_jr4761249",
       "jobPostingSiteId": "Example job posting site id",
       "questionnaireId": "id61301491",
       "includeResumeParsing": true,

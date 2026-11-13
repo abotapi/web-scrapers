@@ -69,8 +69,8 @@ Full details on the [scraper page](https://apify.com/abotapi/streeteasy-scraper?
 | `bedrooms` | integer |
 | `bathrooms` | integer |
 | `halfBathrooms` | integer |
-| `squareFeet` | null |
-| `pricePerSqft` | null |
+| `squareFeet` | integer |
+| `pricePerSqft` | float |
 | `propertyType` | string |
 | `latitude` | float |
 | `longitude` | float |

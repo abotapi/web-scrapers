@@ -96,8 +96,8 @@ Full details on the [scraper page](https://apify.com/abotapi/trademe-co-nz-scrap
 | `memberId` | string |
 | `scrapedAt` | string |
 | `price` | integer |
-| `oldPrice` | null |
-| `percentageOff` | null |
+| `oldPrice` | float |
+| `percentageOff` | integer |
 | `categoryPath` | string |
 | `location` | string |
 | `primaryImage` | string |

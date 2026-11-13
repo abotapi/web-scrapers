@@ -64,8 +64,8 @@ Full details on the [scraper page](https://apify.com/abotapi/viator-com-scraper?
 | `offerCurrency` | string |
 | `availability` | string |
 | `priceValidUntil` | string |
-| `ratingValue` | float |
-| `exactRating` | float |
+| `ratingValue` | integer |
+| `exactRating` | integer |
 | `bestRating` | integer |
 | `worstRating` | integer |
 | `reviewCount` | integer |

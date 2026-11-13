@@ -1,25 +1,17 @@
 [
   {
-    "recordId": "398458",
+    "recordId": "77178",
     "hotelNo": "+1 555 0100",
     "rowType": "hotel",
     "url": "https://travel.rakuten.co.jp/example/70680",
+    "position": null,
     "name": "Example name",
-    "ratingValue": 6,
-    "reviewCount": 342,
-    "minPriceYen": 5665,
-    "minPriceTaxIncludedYen": 1511,
-    "catchcopy": "Example catchcopy",
-    "access": "Example access",
-    "thumbnailUrl": "https://trvimg.r10s.jp/example/63209.jpg",
-    "position": 3,
-    "plansUrl": "https://hotel.travel.rakuten.co.jp/example/23393",
-    "searchSource": "Example search source",
     "areaMiddle": "tokyo",
     "areaSmall": "tokyo",
     "address": "Example address",
     "phoneNumber": null,
     "faxNumber": null,
+    "access": "Example access",
     "checkInTime": null,
     "checkOutTime": null,
     "parking": "Example parking",
@@ -33,6 +25,176 @@
     "planCancellationPolicy": null,
     "description": null,
     "photoUrls": [],
+    "ratingSummary": {
+      "overallScore": 3.65,
+      "reviewCount": 3042,
+      "categoryAverages": {
+        "ROOM": 4.77,
+        "HOSPITALITY": 3.35,
+        "LOCATION": 2.81,
+        "BREAKFAST": 3.13,
+        "DINNER": 0,
+        "BATH": 4.07,
+        "FACILITY": 4.42,
+        "CLEANLINESS": 3.55
+      },
+      "starHistogram": {
+        "FIVE": 141,
+        "FOUR": 474,
+        "THREE": 758,
+        "TWO": 418,
+        "ONE": 790
+      }
+    },
+    "reviews": [
+      {
+        "reviewId": "13024557",
+        "title": "Example title",
+        "comment": "Example comment: mock text standing in for the real value. Same field and type, made-up content.",
+        "postedAt": "2026-01-15T10:00:00Z",
+        "score": 3,
+        "nickname": "Example nickname",
+        "gender": "MALE",
+        "ageRange": "SIXTY",
+        "travelPurpose": "BUSINESS",
+        "travelCompanion": "SOLO",
+        "stayDate": "2026-01-15",
+        "planName": "Example plan name",
+        "roomName": "Example room name",
+        "helpfulVotes": 0,
+        "replies": [
+          {
+            "replyId": "56289132358438",
+            "authorType": "Example author type",
+            "authorName": "Example author name",
+            "postedAt": "2026-01-15",
+            "content": "Example content: mock text standing in for the real value. Same field and type, made-up content."
+          }
+        ]
+      },
+      {
+        "reviewId": "09339739",
+        "title": "Example title",
+        "comment": "Example comment: mock text standing in for the real value. Same field and type, made-up content.",
+        "postedAt": "2026-01-15T10:00:00Z",
+        "score": 1,
+        "nickname": "Example nickname",
+        "gender": "MALE",
+        "ageRange": "FORTY",
+        "travelPurpose": "BUSINESS",
+        "travelCompanion": "SOLO",
+        "stayDate": "2026-01-15",
+        "planName": "Example plan name",
+        "roomName": "Example room name",
+        "helpfulVotes": 0,
+        "replies": [
+          {
+            "replyId": "56318159074969",
+            "authorType": "Example author type",
+            "authorName": "Example author name",
+            "postedAt": "2026-01-15",
+            "content": "Example content: mock text standing in for the real value. Same field and type, made-up content."
+          }
+        ]
+      }
+    ],
+    "reviewsTotal": 715,
+    "reviewsPageLimit": 55,
+    "scrapedAt": "2026-01-15T10:00:00Z"
+  },
+  {
+    "recordId": "29659",
+    "hotelNo": "+1 555 0100",
+    "rowType": "hotel",
+    "url": "https://travel.rakuten.co.jp/example/68917",
+    "position": null,
+    "name": "Example name",
+    "areaMiddle": "tokyo",
+    "areaSmall": "tokyo",
+    "address": "Example address",
+    "phoneNumber": null,
+    "faxNumber": null,
+    "access": "Example access",
+    "checkInTime": null,
+    "checkOutTime": null,
+    "parking": "Example parking",
+    "totalRooms": null,
+    "facilities": [],
+    "roomAmenities": [],
+    "creditCards": [],
+    "meals": [],
+    "privileges": [],
+    "cancellationPolicy": null,
+    "planCancellationPolicy": null,
+    "description": null,
+    "photoUrls": [],
+    "ratingSummary": {
+      "overallScore": 4.86,
+      "reviewCount": 7415,
+      "categoryAverages": {
+        "ROOM": 4.19,
+        "HOSPITALITY": 4.58,
+        "LOCATION": 4.47,
+        "BREAKFAST": 3.4,
+        "DINNER": 0,
+        "BATH": 4.04,
+        "FACILITY": 2.91,
+        "CLEANLINESS": 4.23
+      },
+      "starHistogram": {
+        "FIVE": 901,
+        "FOUR": 156,
+        "THREE": 211,
+        "TWO": 55,
+        "ONE": 56
+      }
+    },
+    "reviews": [
+      {
+        "reviewId": "83936936",
+        "title": "Example title",
+        "comment": "Example comment: mock text standing in for the real value. Same field and type, made-up content.",
+        "postedAt": "2026-01-15T10:00:00Z",
+        "score": 7,
+        "nickname": "Example nickname",
+        "gender": "FEMALE",
+        "ageRange": "FIFTY",
+        "travelPurpose": "LEISURE",
+        "travelCompanion": "SOLO",
+        "stayDate": "2026-01-15",
+        "planName": "Example plan name",
+        "roomName": "Example room name",
+        "helpfulVotes": 0,
+        "replies": []
+      },
+      {
+        "reviewId": "39230434",
+        "title": "Example title",
+        "comment": "Example comment: mock text standing in for the real value. Same field and type, made-up content.",
+        "postedAt": "2026-01-15T10:00:00Z",
+        "score": 2,
+        "nickname": "Example nickname",
+        "gender": "MALE",
+        "ageRange": "SIXTY",
+        "travelPurpose": "BUSINESS",
+        "travelCompanion": "SOLO",
+        "stayDate": "2026-01-15",
+        "planName": "Example plan name",
+        "roomName": "Example room name",
+        "helpfulVotes": 0,
+        "replies": [
+          {
+            "replyId": "47295715802242",
+            "authorType": "Example author type",
+            "authorName": "Example author name",
+            "postedAt": "2026-01-15",
+            "content": "Example content: mock text standing in for the real value. Same field and type, made-up content."
+          }
+        ]
+      }
+    ],
+    "reviewsTotal": 5827,
+    "reviewsPageLimit": 46,
     "scrapedAt": "2026-01-15T10:00:00Z"
   }
 ]

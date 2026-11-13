@@ -14,7 +14,7 @@
     "publishFromDate": "2026-01-15T10:00:00Z",
     "publishToDate": "2026-01-15T10:00:00Z",
     "employer": {
-      "id": 546438,
+      "id": 96438,
       "name": "Example name",
       "url": "https://www.stepstone.de/example/38998",
       "logoUrl": "https://www.stepstone.de/example/7453.jpg",
@@ -39,7 +39,7 @@
       "currency": null,
       "period": null
     },
-    "companyId": 870114,
+    "companyId": 60114,
     "companyName": "Example company name",
     "companyUrl": "https://www.stepstone.de/example/12315",
     "companyLogoUrl": "https://www.stepstone.de/example/51396.jpg",
@@ -55,7 +55,12 @@
     "hasFuturePosting": null,
     "cvToJobScore": null,
     "workFromHome": "9",
-    "labels": [],
+    "labels": [
+      {
+        "label": "Example label",
+        "type": "NO_COVER_LETTER"
+      }
+    ],
     "skills": [],
     "textSnippet": "Example text snippet: mock text standing in for the real value. Same field and type, made-up content.",
     "crossPostedCount": 0,

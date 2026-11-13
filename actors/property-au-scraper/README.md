@@ -83,6 +83,7 @@ Full details on the [scraper page](https://apify.com/abotapi/property-au-scraper
 | `status` | string |
 | `bedrooms` | integer |
 | `bathrooms` | integer |
+| `carSpaces` | integer |
 | `propertyType` | string |
 | `councilArea` | string |
 | `url` | string |

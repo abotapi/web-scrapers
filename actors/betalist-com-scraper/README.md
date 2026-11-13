@@ -77,9 +77,9 @@ Full details on the [scraper page](https://apify.com/abotapi/betalist-com-scrape
 | `long_description` | string |
 | `website` | string |
 | `featured_date` | string |
-| `maker_name` | string |
-| `maker_link` | string |
-| `maker_identifier` | string |
+| `maker_name` | null |
+| `maker_link` | null |
+| `maker_identifier` | null |
 | `contacts` | null |
 | `contacts_lookup_url` | string |
 | `source` | object |

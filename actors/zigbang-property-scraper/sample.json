@@ -26,6 +26,12 @@
     "neighborhood": "Example neighborhood",
     "lat": 38.24,
     "lng": 142.27,
-    "thumbnailUrl": "https://ic.zigbang.com/example/14684.jpg"
+    "thumbnailUrl": "https://ic.zigbang.com/example/14684.jpg",
+    "deposit_krw": 76934929,
+    "rent_krw": 120476,
+    "currency": "KRW",
+    "rent_per_m2_krw": 98119,
+    "address_region": "Example address_region",
+    "address_jibun": null
   }
 ]

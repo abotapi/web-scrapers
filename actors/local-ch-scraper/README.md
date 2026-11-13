@@ -84,7 +84,7 @@ Full details on the [scraper page](https://apify.com/abotapi/local-ch-scraper?ut
 | `phoneAlt` | null |
 | `mobile` | null |
 | `fax` | null |
-| `email` | null |
+| `email` | string |
 | `emailAlt` | null |
 | `website` | string |
 | `whatsapp` | null |
@@ -98,7 +98,7 @@ Full details on the [scraper page](https://apify.com/abotapi/local-ch-scraper?ut
 | `xing` | null |
 | `foursquare` | null |
 | `phones` | list |
-| `emails` | null |
+| `emails` | list |
 | `socialMediaUrls` | list |
 | `refusesAdvertising` | boolean |
 | `poBoxZipCode` | null |

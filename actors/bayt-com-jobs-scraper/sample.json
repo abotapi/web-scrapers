@@ -1,11 +1,11 @@
 [
   {
-    "jobId": "2315251",
+    "jobId": "5296525",
     "url": "https://www.bayt.com/example/85502",
     "title": "Example title",
     "company": "Example company",
-    "companyUrl": "https://www.bayt.com/example/174",
-    "city": "Sharjah",
+    "companyUrl": null,
+    "city": "Dubai",
     "country": "UAE",
     "location": "Example location",
     "countrySlug": "uae",
@@ -37,12 +37,13 @@
     "gender": "Female",
     "age": null,
     "degree": null,
-    "major": null,
+    "major": "Example major",
     "preferredCandidate": {
       "yearsOfExperience": "Example years of experience",
       "residenceLocation": "Example residence location",
       "gender": "Female",
-      "careerLevel": "Example career level"
+      "careerLevel": "Example career level",
+      "major": "Example major"
     },
     "scrapedAt": "2026-01-15T10:00:00Z"
   }

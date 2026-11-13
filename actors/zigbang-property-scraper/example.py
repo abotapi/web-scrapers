@@ -15,6 +15,7 @@ run = client.actor("abotapi/zigbang-property-scraper").call(
         "mode": "search",
         "query": "강남역",
         "serviceType": "oneroom",
+        "sortBy": "none",
         "maxItems": 10,
         "proxy": {"useApifyProxy": True},
     },

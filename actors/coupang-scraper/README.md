@@ -61,13 +61,13 @@ Full details on the [scraper page](https://apify.com/abotapi/coupang-scraper?utm
 | `image` | string |
 | `images` | null |
 | `price` | integer |
-| `originalPrice` | integer |
+| `originalPrice` | null |
 | `discountPercent` | integer |
 | `isOnSpecial` | boolean |
-| `savingsAmount` | integer |
+| `savingsAmount` | null |
 | `unitPrice` | null |
 | `currency` | string |
-| `rating` | float |
+| `rating` | integer |
 | `reviewCount` | integer |
 | `rocketDelivery` | boolean |
 | `rocketFresh` | boolean |
@@ -84,7 +84,7 @@ Full details on the [scraper page](https://apify.com/abotapi/coupang-scraper?utm
 | `isOverseas` | boolean |
 | `isRocketMerchant` | boolean |
 | `usedMinPrice` | null |
-| `usedListingCount` | integer |
+| `usedListingCount` | null |
 | `categoryId` | null |
 | `categoryPath` | null |
 | `description` | null |

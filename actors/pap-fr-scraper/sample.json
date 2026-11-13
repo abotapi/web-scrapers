@@ -1,6 +1,6 @@
 [
   {
-    "id": "802764539",
+    "id": "499636575",
     "url": "https://www.pap.fr/example/8178",
     "listingType": "Buy",
     "propertyType": "Apartment",
@@ -9,27 +9,27 @@
     "priceCurrency": "EUR",
     "priceDisplay": "Example price display",
     "rooms": 9,
-    "livingSpace": 26.88,
+    "livingSpace": 79,
     "bedrooms": 7,
     "floor": 8,
     "hoaChargesYearly": null,
-    "propertyTaxYearly": 668,
-    "heatingType": "Example heating type: mock text standing in for the real value. Same field and type, made-up content.",
+    "propertyTaxYearly": null,
+    "heatingType": null,
     "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
     "streetAddress": "Example street address",
     "city": "Example city",
-    "postcode": "48021",
+    "postcode": "57694",
     "arrondissement": "Example arrondissement",
     "department": "Example department",
     "region": "Example region",
     "departmentCode": "97",
     "latitude": 60.6,
-    "longitude": 2.55,
+    "longitude": 2.59,
     "energyClass": "Example energy class",
     "ghgClass": "Example ghg class",
     "isActive": true,
     "reference": "Example reference",
-    "sellerPhone": null,
+    "sellerPhone": "+1 555 0100",
     "seller": {
       "@type": "Person",
       "name": "Example name"
@@ -41,7 +41,9 @@
     "isFeatured": false,
     "hasVirtualTour": false,
     "virtualTourUrl": null,
-    "phones": [],
+    "phones": [
+      "+1 555 0100"
+    ],
     "hasEmail": true
   }
 ]

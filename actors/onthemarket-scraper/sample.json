@@ -1,7 +1,7 @@
 [
   {
     "recordType": "property",
-    "id": "82219464",
+    "id": "20255864",
     "url": "https://www.onthemarket.com/example/97228",
     "channel": "FOR-SALE",
     "propertyTitle": "Example property title",
@@ -13,8 +13,8 @@
     "shortPrice": "Example short price",
     "price": 823376,
     "priceQualifier": "Example price qualifier",
-    "latitude": 59.03,
-    "longitude": -0.15,
+    "latitude": 59.34,
+    "longitude": 0.26,
     "mainLabel": "Example main label",
     "daysSinceAddedReduced": "Example days since added reduced",
     "feesLabel": null,

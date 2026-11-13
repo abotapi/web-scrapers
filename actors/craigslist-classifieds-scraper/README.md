@@ -57,8 +57,8 @@ Full details on the [scraper page](https://apify.com/abotapi/craigslist-classifi
 | `postingUuid` | string |
 | `title` | string |
 | `url` | string |
-| `price` | integer |
-| `priceString` | string |
+| `price` | null |
+| `priceString` | null |
 | `currency` | string |
 | `categoryId` | integer |
 | `categoryAbbr` | string |

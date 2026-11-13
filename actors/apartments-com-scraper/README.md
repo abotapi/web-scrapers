@@ -74,13 +74,13 @@ Full details on the [scraper page](https://apify.com/abotapi/apartments-com-scra
 | `yearBuilt` | integer |
 | `unitsInBuilding` | integer |
 | `stories` | integer |
-| `leaseOptions` | null |
+| `leaseOptions` | string |
 | `neighborhood` | string |
 | `managementCompany` | string |
-| `rentSpecial` | string |
+| `rentSpecial` | null |
 | `verified` | boolean |
 | `petsAllowed` | boolean |
-| `rating` | float |
+| `rating` | integer |
 | `reviewCount` | integer |
 | `amenities` | list |
 | `floorplans` | list |

@@ -8,18 +8,22 @@
     "size": "Example size",
     "boxCondition": "good",
     "condition": "Example condition",
+    "priceAmount": 585,
     "priceCurrency": "EUR",
     "imageUrl": "https://d18c7ngui3z54j.cloudfront.net/example/43001.jpg",
-    "brand": "Example brand",
-    "sku": "u2003ccb",
+    "likesCount": 81,
+    "brand": "Nike",
+    "sku": "hq8224-872",
     "description": "Example description",
     "availability": "Example availability",
     "seller": "Example seller",
     "images": [
-      "https://d18c7ngui3z54j.cloudfront.net/example/91929.jpg"
+      "https://d18c7ngui3z54j.cloudfront.net/example/91929.jpg",
+      "https://d18c7ngui3z54j.cloudfront.net/example/62789.jpg"
     ],
     "model": "Example model",
-    "priceAmount": 586.9,
+    "colorway": "Example colorway",
+    "releaseDate": "2026-01-15",
     "detailScraped": true,
     "reviews": []
   }

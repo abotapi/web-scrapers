@@ -3,11 +3,11 @@
     "trackId": "id31027662",
     "url": "https://www.udio.com/example/22752",
     "title": "Example title",
-    "artist": "softcore",
+    "artist": "Example artist",
     "artistImageUrl": "https://lh3.googleusercontent.com/example/35319.jpg",
     "creatorId": "id54484536",
-    "prompt": "Example prompt",
-    "lyrics": "",
+    "prompt": "Example prompt: mock text standing in for the real value. Same field and type, made-up content.",
+    "lyrics": "Example lyrics: mock text standing in for the real value. Same field and type, made-up content.",
     "description": "",
     "tags": [
       "Example tags",
@@ -15,9 +15,9 @@
     ],
     "userTags": [],
     "attribution": null,
-    "likeCount": 0,
-    "playCount": 0,
-    "durationSeconds": 35.76,
+    "likeCount": 7,
+    "playCount": 2,
+    "durationSeconds": 142.92,
     "createdAt": "2026-01-15T10:00:00Z",
     "publishedAt": "2026-01-15T10:00:00Z",
     "audioUrl": "https://storage.googleapis.com/example/82241",
@@ -39,7 +39,7 @@
     "raw": {
       "id": "id9965537",
       "user_id": "id89882734",
-      "artist": "softcore",
+      "artist": "Example artist",
       "artist_image": "https://lh3.googleusercontent.com/example/25081.jpg",
       "title": "Example title",
       "created_at": "2026-01-15T10:00:00Z",
@@ -48,33 +48,18 @@
       "error_code": null,
       "generation_id": "id1451355",
       "image_path": "https://imagedelivery.net/example/62494.jpg",
-      "lyrics": "",
-      "prompt": "Example prompt",
-      "likes": 0,
-      "plays": 0,
+      "lyrics": "Example lyrics: mock text standing in for the real value. Same field and type, made-up content.",
+      "prompt": "Example prompt: mock text standing in for the real value. Same field and type, made-up content.",
+      "likes": 9,
+      "plays": 1,
       "published_at": "2026-01-15T10:00:00Z",
-      "replaced_tags": {
-        "современный, поп, электропоп, душевный, инди поп, мелодичный": {
-          "tags": [
-            "Example tags",
-            "electropop"
-          ],
-          "type": "tags"
-        },
-        "contemporary r&b, electropop, dance-pop, dance, r&b, electronic, synth funk, sexual, romantic, love, male vocalist": {
-          "tags": [
-            "Example tags",
-            "Example tags"
-          ],
-          "type": "tags"
-        }
-      },
+      "replaced_tags": null,
       "song_path": "https://storage.googleapis.com/example/45411",
       "tags": [
         "Example tags",
         "Example tags"
       ],
-      "duration": 29.2,
+      "duration": 116.69,
       "video_path": null,
       "error_detail": null,
       "finished": true,

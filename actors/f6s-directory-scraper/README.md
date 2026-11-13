@@ -66,10 +66,10 @@ Full details on the [scraper page](https://apify.com/abotapi/f6s-directory-scrap
 | `verified` | boolean |
 | `deadline` | string |
 | `investmentRaw` | string |
-| `investmentAmount` | integer |
-| `investmentCurrency` | string |
-| `equityRaw` | string |
-| `equityPercent` | integer |
+| `investmentAmount` | null |
+| `investmentCurrency` | null |
+| `equityRaw` | null |
+| `equityPercent` | null |
 | `entity_type` | string |
 | `program_name` | string |
 | `program_slug` | string |
@@ -81,8 +81,8 @@ Full details on the [scraper page](https://apify.com/abotapi/f6s-directory-scrap
 | `program_city` | string |
 | `program_sector` | list |
 | `program_benefits` | list |
-| `program_investment_amount` | integer |
-| `program_equity_taken` | integer |
+| `program_investment_amount` | null |
+| `program_equity_taken` | null |
 | `program_duration` | null |
 | `program_application_deadline` | string |
 | `program_application_deadline_iso` | string |

@@ -8,9 +8,9 @@
     "subtitle": "Example subtitle: mock text standing in for the real value. Same field and type, made-up content.",
     "brand": null,
     "price": 6691,
-    "priceMax": 4499,
+    "priceMax": null,
     "prettyPrice": "Example pretty price",
-    "listingPrice": null,
+    "listingPrice": 6360,
     "savingPercent": 58,
     "currency": "ZAR",
     "starRating": 4.39,
@@ -30,7 +30,7 @@
       "DBN"
     ],
     "isPreorder": false,
-    "addToCartAvailable": false,
+    "addToCartAvailable": true,
     "isDeal": true,
     "badges": [
       "Example badges"

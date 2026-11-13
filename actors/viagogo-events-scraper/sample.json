@@ -2,7 +2,7 @@
   {
     "kind": "event",
     "recordId": "id18077924",
-    "eventId": "031267589",
+    "eventId": "469321913",
     "url": "https://www.viagogo.com/example/42331",
     "title": "Example title",
     "dayOfWeek": "Example day of week",
@@ -21,14 +21,14 @@
     "isUnderHundred": false,
     "venueId": 3944,
     "venueName": "Example venue name",
-    "venueCity": "Wolverhampton",
+    "venueCity": "Manchester",
     "venueLocation": "Example venue location",
     "countryCode": "GB",
     "countryName": "Example country name",
     "searchKeyword": "Example search keyword",
     "raw": {
       "eventId": 441661088,
-      "indexName": "Example index name",
+      "indexName": "id78649415",
       "name": "Example name",
       "url": "https://www.viagogo.com/example/42331",
       "dayOfWeek": "Example day of week",
@@ -46,7 +46,7 @@
       "formattedVenueLocation": "Example formatted venue location",
       "countryCode": "GB",
       "hasActiveListings": false,
-      "venueCity": "Wolverhampton",
+      "venueCity": "Manchester",
       "isParkingEvent": false,
       "countryName": "Example country name",
       "eventMetadata": {
@@ -78,7 +78,7 @@
     },
     "isFavorite": false,
     "aggregateFavorites": 0,
-    "userDistanceFromVenue": "1415908.6399",
+    "userDistanceFromVenue": "2377447.3991",
     "isRefetchedGlobalEvent": false,
     "eventMetadata": {
       "common": {

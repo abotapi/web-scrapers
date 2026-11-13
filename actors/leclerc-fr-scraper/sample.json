@@ -1,10 +1,10 @@
 [
   {
-    "productId": "5111101015335",
-    "ean": "2022345095332",
+    "productId": "3687538704825",
+    "ean": "9209194562576",
     "title": "Example title",
     "brand": "Physiolac",
-    "unitPrice": 19.07,
+    "unitPrice": 24.43,
     "unitPriceUnit": "kg",
     "unitPriceDisplay": "Example unit price display",
     "rating": 7,
@@ -23,7 +23,7 @@
     ],
     "categoryPath": "Example category path",
     "offersTotal": 9,
-    "price": 12.2,
+    "price": 15.63,
     "currency": "EUR",
     "availabilityStatus": "in-stock",
     "inStock": true,
@@ -32,12 +32,12 @@
     "onPromotion": false,
     "reviews": [
       {
-        "reviewId": "8083016032",
+        "reviewId": "5744151725",
         "reviewer": "Example reviewer",
         "reviewRating": 2,
         "reviewDate": "2026-01-15",
         "reviewTitle": "Example review title",
-        "reviewText": "Example review text",
+        "reviewText": "Example review text: mock text standing in for the real value. Same field and type, made-up content.",
         "reviewVerifiedBuyer": true,
         "reviewRecommended": true,
         "reviewSource": null,

@@ -9,7 +9,7 @@
     "url": "https://www.gap.com/example/81962",
     "currency": "USD",
     "price": 79,
-    "priceMax": 95,
+    "priceMax": 99.99,
     "regularPrice": 95.95,
     "discountPercent": 90,
     "discountAmount": 42.29,
@@ -35,9 +35,9 @@
         ]
       },
       {
-        "colorId": "170316691",
+        "colorId": "173912241",
         "colorName": "Example color name",
-        "colorGroup": "Brown",
+        "colorGroup": "Blue",
         "price": 18,
         "regularPrice": 95.95,
         "discountPercent": 98,
@@ -51,7 +51,7 @@
       }
     ],
     "inStock": true,
-    "totalInventory": 1029,
+    "totalInventory": 46029,
     "freeShipping": false,
     "excludedFromPromotion": false,
     "productType": "Example product type",

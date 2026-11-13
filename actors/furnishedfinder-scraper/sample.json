@@ -1,10 +1,10 @@
 [
   {
     "id": "id72413698",
-    "propertyId": "3062103",
+    "propertyId": "4322921",
     "unitId": "2",
     "url": "https://www.furnishedfinder.com/example/97082",
-    "name": "Example name",
+    "name": "Example name: mock text standing in for the real value. Same field and type, made-up content.",
     "propertyType": "House",
     "propertyTypeClass": "entire_unit",
     "bedroomCount": 9,
@@ -15,8 +15,8 @@
     "priceFormatted": "Example price formatted",
     "priceValue": 1998,
     "priceCurrency": "USD",
-    "latitude": 32.95,
-    "longitude": -99.18,
+    "latitude": 32.92,
+    "longitude": -99.26,
     "city": "Houston",
     "state": "TX",
     "encodedLocationName": "Example encoded location name",
@@ -50,12 +50,12 @@
       }
     ],
     "neighborhoodDescription": "",
-    "spaceDescription": "Example space description: mock text standing in for the real value. Same field and type, made-up content.",
-    "squareFootage": 0,
+    "spaceDescription": "",
+    "squareFootage": 3009,
     "avgRating": 0,
     "totalReviewCount": 0,
     "reviews": null,
-    "utilitiesIncluded": false,
+    "utilitiesIncluded": true,
     "minimumStayDays": 41
   }
 ]

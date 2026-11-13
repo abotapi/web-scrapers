@@ -4,9 +4,9 @@
     "stateName": "Example state name",
     "objectType": "Example object type",
     "propertyType": "Eigentumswohnung",
-    "areaSqm": 109.33,
+    "areaSqm": 139.56,
     "areaBasis": "living",
-    "pricePerSqmEur": 5694.29,
+    "pricePerSqmEur": 3734.35,
     "daysUntilAuction": 4,
     "isNewSinceLastRun": null,
     "recordId": "Example record id",
@@ -26,7 +26,7 @@
     },
     "valueAmount": 348563,
     "valueCurrency": "EUR",
-    "valueText": "370.036,95",
+    "valueText": "970.590,34",
     "status": "scheduled",
     "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
     "parties": [
@@ -42,14 +42,14 @@
       }
     ],
     "raw": {
-      "zvgId": "80361",
+      "zvgId": "25957",
       "landAbk": "be",
       "aktenzeichen": "Example aktenzeichen",
-      "updatedAt": "80-26-2864 50:89",
+      "updatedAt": "68-37-5768 57:16",
       "court": "Example court",
       "objectLage": "Example object lage",
       "address": "Example address",
-      "verkehrswert": "421.853,89",
+      "verkehrswert": "907.566,27",
       "termin": "Example termin",
       "attachments": [
         {
@@ -65,7 +65,7 @@
       "grundbuch": "Example grundbuch",
       "objektLage": "Example objekt lage: mock text standing in for the real value. Same field and type, made-up content.",
       "beschreibung": "Example beschreibung: mock text standing in for the real value. Same field and type, made-up content.",
-      "verkehrswert": "421.853,89",
+      "verkehrswert": "907.566,27",
       "termin": "Example termin",
       "ortDerVersteigerung": "Example ort der versteigerung: mock text standing in for the real value. Same field and type, made-up content.",
       "gericht": null,

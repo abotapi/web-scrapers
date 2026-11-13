@@ -1,6 +1,6 @@
 [
   {
-    "sku": "on370f509-j84",
+    "sku": "an490c6bd-q99",
     "name": "Example name",
     "brand": "Example brand",
     "url": "https://www.zalando.co.uk/example/60791",
@@ -10,7 +10,7 @@
     "shortDescription": null,
     "condition": null,
     "price": 23,
-    "originalPrice": 34.99,
+    "originalPrice": 33.99,
     "promotionalPrice": 73,
     "discountPercentage": 70,
     "currency": "GBP",
@@ -18,11 +18,11 @@
     "dealFlag": "Example deal flag",
     "flags": [
       {
-        "kind": "DEAL",
-        "label": "Example label"
+        "kind": "CAMPAIGN",
+        "label": "SINGLESDAY"
       },
       {
-        "kind": "MATERNITY",
+        "kind": "DEAL",
         "label": "Example label"
       }
     ],
@@ -33,17 +33,17 @@
     "sizeSkus": [
       {
         "size": "XS",
-        "sku": "on793f024-j8209xs492"
+        "sku": "an746c5bd-q0581xs240"
       },
       {
         "size": "S",
-        "sku": "on061f789-j07621s102"
+        "sku": "an516c3bd-q82099s021"
       }
     ],
     "image": "https://img01.ztat.net/example/71618.jpg",
     "images": [
       "https://img01.ztat.net/example/32976.jpg",
-      "https://video01.ztat.net/example/83109.jpg"
+      "https://img01.ztat.net/example/83109.jpg"
     ],
     "rating": null,
     "available": true,
@@ -63,7 +63,7 @@
     "lowerPriceLabel": null,
     "item": {
       "id": "Example id",
-      "sku": "on370f509-j84",
+      "sku": "an490c6bd-q99",
       "name": "Example name",
       "navigationTargetGroup": "WOMEN",
       "silhouette": "DRESS",
@@ -77,40 +77,44 @@
           "gallerySmall": {
             "__typename": "Example __typename",
             "uri": "https://img01.ztat.net/example/51919.jpg",
-            "alternativeText": "Example alternative text"
+            "alternativeText": "Example alternative text: mock text standing in for the real value. Same field and type, made-up content."
           },
           "galleryMedium": {
             "__typename": "Example __typename",
             "uri": "https://img01.ztat.net/example/51919.jpg",
-            "alternativeText": "Example alternative text"
+            "alternativeText": "Example alternative text: mock text standing in for the real value. Same field and type, made-up content."
           },
           "galleryLarge": {
             "__typename": "Example __typename",
             "uri": "https://img01.ztat.net/example/51919.jpg",
-            "alternativeText": "Example alternative text"
+            "alternativeText": "Example alternative text: mock text standing in for the real value. Same field and type, made-up content."
           },
           "galleryExtraLarge": {
             "__typename": "Example __typename",
             "uri": "https://img01.ztat.net/example/51919.jpg",
-            "alternativeText": "Example alternative text"
+            "alternativeText": "Example alternative text: mock text standing in for the real value. Same field and type, made-up content."
           }
         },
         {
           "gallerySmall": {
             "__typename": "Example __typename",
-            "uri": "https://video01.ztat.net/example/44324"
+            "uri": "https://img01.ztat.net/example/44324.jpg",
+            "alternativeText": "Example alternative text: mock text standing in for the real value. Same field and type, made-up content."
           },
           "galleryMedium": {
             "__typename": "Example __typename",
-            "uri": "https://video01.ztat.net/example/44324"
+            "uri": "https://img01.ztat.net/example/44324.jpg",
+            "alternativeText": "Example alternative text: mock text standing in for the real value. Same field and type, made-up content."
           },
           "galleryLarge": {
             "__typename": "Example __typename",
-            "uri": "https://video01.ztat.net/example/44324"
+            "uri": "https://img01.ztat.net/example/44324.jpg",
+            "alternativeText": "Example alternative text: mock text standing in for the real value. Same field and type, made-up content."
           },
           "galleryExtraLarge": {
             "__typename": "Example __typename",
-            "uri": "https://video01.ztat.net/example/44324"
+            "uri": "https://img01.ztat.net/example/44324.jpg",
+            "alternativeText": "Example alternative text: mock text standing in for the real value. Same field and type, made-up content."
           }
         }
       ],
@@ -168,7 +172,7 @@
       },
       "displayPrice": {
         "trackingCurrentAmount": 87,
-        "trackingDiscountAmount": 4.35,
+        "trackingDiscountAmount": 15.25,
         "promotional": {
           "amount": 6414
         },
@@ -181,15 +185,15 @@
       "simples": [
         {
           "size": "XS",
-          "sku": "on793f024-j8209xs492"
+          "sku": "an746c5bd-q0581xs240"
         },
         {
           "size": "S",
-          "sku": "on061f789-j07621s102"
+          "sku": "an516c3bd-q82099s021"
         }
       ],
       "defaultMediaInfo": {
-        "alternativeText": "Example alternative text"
+        "alternativeText": "Example alternative text: mock text standing in for the real value. Same field and type, made-up content."
       },
       "smallDefaultMedia": {
         "uri": "https://img01.ztat.net/example/51919.jpg"
@@ -204,7 +208,7 @@
         "uri": "https://img01.ztat.net/example/51919.jpg"
       },
       "packshotImageInfo": {
-        "alternativeText": "Example alternative text"
+        "alternativeText": "Example alternative text: mock text standing in for the real value. Same field and type, made-up content."
       },
       "smallPackshotImage": {
         "uri": "https://img01.ztat.net/example/51919.jpg"
@@ -219,7 +223,7 @@
         "uri": "https://img01.ztat.net/example/51919.jpg"
       },
       "hoverMediaInfo": {
-        "alternativeText": "Example alternative text"
+        "alternativeText": "Example alternative text: mock text standing in for the real value. Same field and type, made-up content."
       },
       "smallHoverMedia": {
         "uri": "https://img01.ztat.net/example/51919.jpg"
@@ -238,12 +242,12 @@
       "experienceWatermarkSmall": null,
       "productFlags": [
         {
-          "kind": "DEAL",
-          "formatted": "Example formatted"
+          "kind": "CAMPAIGN",
+          "formatted": "SINGLESDAY"
         },
         {
-          "kind": "MATERNITY",
-          "formatted": "Maternity"
+          "kind": "DEAL",
+          "formatted": "Example formatted"
         }
       ],
       "uri": "https://www.zalando.co.uk/example/51919",
@@ -258,6 +262,6 @@
       }
     },
     "title": "Example title",
-    "wasPrice": 41.64
+    "wasPrice": 40.45
   }
 ]

@@ -71,7 +71,7 @@ Full details on the [scraper page](https://apify.com/abotapi/591-com-tw-scraper?
 | `floor` | string |
 | `fitment` | string |
 | `address` | string |
-| `communityName` | string |
+| `communityName` | null |
 | `communityId` | integer |
 | `regionId` | integer |
 | `regionName` | string |

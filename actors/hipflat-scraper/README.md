@@ -61,15 +61,15 @@ Full details on the [scraper page](https://apify.com/abotapi/hipflat-scraper?utm
 | `url` | string |
 | `title` | string |
 | `dealType` | string |
-| `propertyType` | string |
+| `propertyType` | null |
 | `priceText` | string |
 | `price` | integer |
 | `currency` | string |
 | `address` | string |
-| `bedrooms` | integer |
-| `bathrooms` | integer |
-| `areaText` | string |
-| `area` | integer |
+| `bedrooms` | null |
+| `bathrooms` | null |
+| `areaText` | null |
+| `area` | null |
 | `areaUnit` | string |
 | `description` | string |
 | `images` | list |
@@ -88,12 +88,12 @@ Full details on the [scraper page](https://apify.com/abotapi/hipflat-scraper?utm
 | `canonical_url` | string |
 | `name` | string |
 | `deal_type` | string |
-| `property_type` | string |
+| `property_type` | null |
 | `property_types` | list |
 | `price_text` | string |
 | `price_min` | integer |
 | `price_max` | integer |
-| `floor_area` | integer |
+| `floor_area` | null |
 | `image_urls` | list |
 | `video_urls` | list |
 

@@ -65,13 +65,12 @@ Full details on the [scraper page](https://apify.com/abotapi/seloger-france-scra
 | `property_type_label` | string |
 | `rooms` | integer |
 | `bedrooms` | integer |
-| `area_m2` | integer |
+| `area_m2` | float |
 | `floor` | string |
 | `city` | string |
 | `zipcode` | string |
 | `district` | string |
 | `region` | string |
-| `building_state` | string |
 | `key_facts` | list |
 | `agency_legal_info` | list |
 | `agency_website` | string |
@@ -79,9 +78,9 @@ Full details on the [scraper page](https://apify.com/abotapi/seloger-france-scra
 | `transport` | list |
 | `energy_class` | string |
 | `agent_name` | string |
-| `agent_phone` | string |
 | `agent_address` | string |
 | `is_exclusive` | boolean |
+| `has_3d_visit` | boolean |
 | `is_new` | boolean |
 | `publisher_type` | string |
 | `images` | list |
@@ -91,6 +90,7 @@ Full details on the [scraper page](https://apify.com/abotapi/seloger-france-scra
 | `created_at` | string |
 | `updated_at` | string |
 | `source` | string |
+| `latitude` | float |
 
 ---
 

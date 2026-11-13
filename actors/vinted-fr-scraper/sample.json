@@ -1,0 +1,61 @@
+[
+  {
+    "itemId": "80399867243",
+    "title": "Example title",
+    "url": "https://www.vinted.fr/example/91081",
+    "path": "Example path: mock text standing in for the real value. Same field and type, made-up content.",
+    "brandTitle": "Nike",
+    "priceAmount": 3,
+    "currency": "EUR",
+    "isVisible": null,
+    "promoted": true,
+    "photos": [
+      {
+        "id": null,
+        "url": "https://images1.vinted.net/example/91081.jpg",
+        "width": 103,
+        "height": 464,
+        "isMain": true
+      }
+    ],
+    "photoCount": 3,
+    "image": "https://images1.vinted.net/example/84131.jpg",
+    "favouriteCount": 2,
+    "viewCount": null,
+    "isClosed": null,
+    "isHeavyBulky": null,
+    "itemClosingAction": null,
+    "serviceFee": 0.73,
+    "totalPrice": 6.2,
+    "sellerId": "6674036589",
+    "sellerPhoto": "https://images1.vinted.net/example/39602.jpg",
+    "isBusinessSeller": false,
+    "sellerUrl": "https://www.vinted.fr/example/62483",
+    "seller": {
+      "id": 7395218119,
+      "username": "id47111463",
+      "photo": null,
+      "business": false,
+      "feedbackCount": 0,
+      "feedbackRating": 0
+    },
+    "scrapedAt": "2026-01-15T10:00:00Z",
+    "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
+    "mainImage": "https://images1.vinted.net/example/75047.jpg",
+    "conditionSchema": "UsedCondition",
+    "categoryPath": "Example category path",
+    "category": "Example category",
+    "colors": [
+      "Bleu"
+    ],
+    "size": "M",
+    "color": "Bleu",
+    "condition": "Example condition",
+    "catalogId": "4223",
+    "categoryId": "6983",
+    "isReserved": false,
+    "isHidden": false,
+    "instantBuy": true,
+    "canBuy": true
+  }
+]

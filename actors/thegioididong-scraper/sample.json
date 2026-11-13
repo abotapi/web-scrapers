@@ -1,7 +1,7 @@
 [
   {
     "code": "935946",
-    "productCode": "6223420571061",
+    "productCode": "7798111592123",
     "name": "Example name",
     "url": "https://www.thegioididong.com/example/8691",
     "brand": "Apple",
@@ -14,11 +14,11 @@
     "imageUrl": "https://cdn.tgdd.vn/example/21687.jpg",
     "label": null,
     "price": 72729634,
-    "originalPrice": null,
-    "discount": null,
-    "discountPercent": null,
-    "savings": null,
-    "isOnSpecial": false,
+    "originalPrice": 54709660,
+    "discount": "Example discount",
+    "discountPercent": 2,
+    "savings": 556855,
+    "isOnSpecial": true,
     "searchQuery": "Example search query",
     "searchMode": "search",
     "source": "Example source",
@@ -42,9 +42,9 @@
       "Độ sáng": "Example độ sáng",
       "Tốc độ CPU": "Example tốc độ  c p u",
       "SIM": "Example s i m",
+      "Tính năng camera trước": "Example tính năng camera trước: mock text standing in for the real value. Same field and type, made-up content.",
       "Chip xử lý (CPU)": "Example chip xử lý ( c p u)",
       "Dài": "Example dài",
-      "Tính năng camera trước": "Example tính năng camera trước: mock text standing in for the real value. Same field and type, made-up content.",
       "Công nghệ màn hình": "OLED",
       "Tần số quét": "Example tần số quét",
       "Ghi âm": "Example ghi âm",
@@ -75,13 +75,13 @@
     "variants": [
       {
         "name": "Example name",
-        "sku": "1799020651292",
+        "sku": "1311549226908",
         "price": 72729634,
         "availability": "Example availability"
       },
       {
         "name": "Example name",
-        "sku": "5005285012933",
+        "sku": "7825429924200",
         "price": 87575407,
         "availability": "Example availability"
       }

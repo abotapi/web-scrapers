@@ -1,6 +1,6 @@
 [
   {
-    "productId": "78181",
+    "productId": "14777",
     "slug": "id10098902",
     "url": "https://joinswitch.com/example/87858",
     "title": "Example title",
@@ -18,29 +18,28 @@
     "isFeatured": false,
     "selectPiece": "3",
     "favoritesCount": 47,
-    "notifyCount": 33,
+    "notifyCount": 6,
     "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
     "condition": "Example condition: mock text standing in for the real value. Same field and type, made-up content.",
     "authenticity": "Example authenticity: mock text standing in for the real value. Same field and type, made-up content.",
     "categoryId": "13",
     "occasionId": "49",
-    "shopId": "15",
-    "sku": "87990",
+    "shopId": null,
+    "sku": "03176",
     "dateAdded": "2026-01-15T10:00:00Z",
     "updatedAt": "2026-01-15T10:00:00Z",
     "inventoryUpdatedOn": "2026-01-15T10:00:00Z",
     "lowestTierId": 2,
     "imageUrl": "https://d3r0047dgcfhfo.cloudfront.net/example/94206.jpg",
-    "imageUrlHover": "https://d3r0047dgcfhfo.cloudfront.net/example/89182.jpg",
+    "imageUrlHover": null,
     "imageUrls": [
-      "https://d1hrwkefzqmzr.cloudfront.net/example/87301.jpg",
-      "https://d1hrwkefzqmzr.cloudfront.net/example/76984.jpg"
+      "https://d1hrwkefzqmzr.cloudfront.net/example/87301.jpg"
     ],
     "imageCount": 6,
     "recordId": "Example record id",
     "category": "Handbags",
     "occasion": "Example occasion",
-    "shop": "Example shop",
+    "shop": null,
     "scrapedAt": "2026-01-15T10:00:00Z",
     "metaTitle": "Example meta title"
   }

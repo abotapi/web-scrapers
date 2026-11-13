@@ -13,7 +13,7 @@
       "searchDestination": "Example search destination",
       "starRating": 3,
       "description": null,
-      "priceFrom": 617,
+      "priceFrom": 77,
       "priceFormatted": "Example price formatted",
       "priceStrikeout": "Example price strikeout",
       "currency": "USD",
@@ -25,10 +25,7 @@
       "checkOut": "2026-01-15",
       "adults": 6,
       "neighborhood": "Example neighborhood",
-      "highlightedAmenities": [
-        "Example highlighted amenities",
-        "AC"
-      ],
+      "highlightedAmenities": [],
       "offerMessages": [],
       "freeCancellation": false,
       "sponsored": false,
@@ -51,12 +48,12 @@
       ],
       "gallery": [
         {
-          "id": "981571",
+          "id": "492261",
           "url": "https://images.trvl-media.com/example/29937.jpg",
           "description": "Example description: mock text standing in for the real value. Same field and type, made-up content."
         },
         {
-          "id": "52216",
+          "id": "361389",
           "url": "https://images.trvl-media.com/example/50508.jpg",
           "description": "Example description: mock text standing in for the real value. Same field and type, made-up content."
         }

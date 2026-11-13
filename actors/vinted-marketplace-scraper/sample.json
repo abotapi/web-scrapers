@@ -1,19 +1,19 @@
 [
   {
-    "itemId": "17058831828",
+    "itemId": "11062262342",
     "title": "Example title",
     "url": "https://www.vinted.de/example/48352",
     "path": "Example path",
-    "brandTitle": "Nike",
-    "priceAmount": 3,
-    "serviceFee": 0.65,
-    "totalPrice": 2.69,
+    "brandTitle": "Example brand title",
+    "priceAmount": 12,
+    "serviceFee": 2.39,
+    "totalPrice": 36.5,
     "currency": "EUR",
-    "size": "Example size",
+    "size": "66",
     "condition": "Example condition",
     "viewCount": null,
-    "favouriteCount": 9,
-    "promoted": false,
+    "favouriteCount": 81,
+    "promoted": true,
     "photos": [
       {
         "id": 9,
@@ -28,7 +28,7 @@
     "image": "https://images1.vinted.net/example/60314.jpg",
     "sellerUrl": "https://www.vinted.de/example/65962",
     "seller": {
-      "id": 76167783,
+      "id": 616167783,
       "username": "Example username",
       "business": false
     },

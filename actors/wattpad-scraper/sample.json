@@ -41,7 +41,8 @@
         "voteCount": 83080,
         "commentCount": 92667,
         "photoUrl": null,
-        "videoId": "2wqxmj2anjw"
+        "videoId": "2wqxmj2anjw",
+        "position": 7
       },
       {
         "chapterId": "66382926",
@@ -56,11 +57,21 @@
         "voteCount": 86439,
         "commentCount": 57690,
         "photoUrl": null,
-        "videoId": "0wqxmj2anjw"
+        "videoId": "0wqxmj2anjw",
+        "position": 8
       }
     ],
     "chaptersReturned": 63,
     "scanComplete": false,
+    "authorDisplayName": "Example author display name",
+    "accessStatus": "free",
+    "lastPublishedAt": "2026-01-15T10:00:00Z",
+    "discoveryInput": {
+      "mode": "search",
+      "query": "werewolf",
+      "language": "any",
+      "entry": "https://www.wattpad.com/example/81708"
+    },
     "scrapedAt": "2026-01-15T10:00:00Z",
     "sourceUrl": "https://www.wattpad.com/example/45056",
     "enrichmentSkipped": false

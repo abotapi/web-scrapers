@@ -86,7 +86,7 @@ Full details on the [scraper page](https://apify.com/abotapi/zoopla-co-uk-scrape
 | `priceDrop` | object |
 | `bedrooms` | integer |
 | `bathrooms` | integer |
-| `receptionRooms` | null |
+| `receptionRooms` | integer |
 | `propertyType` | string |
 | `sizeSqft` | integer |
 | `sizeSource` | string |

@@ -1,6 +1,6 @@
 [
   {
-    "productId": "a376269518",
+    "productId": "a997509045",
     "name": "Example name: mock text standing in for the real value. Same field and type, made-up content.",
     "brand": "Example brand",
     "category": "Deportes",
@@ -8,15 +8,15 @@
       "Deportes"
     ],
     "url": "https://www.elcorteingles.es/example/21122",
-    "sku": "620196005582234890",
-    "gtin": "6049042281733",
+    "sku": "707073701215330723",
+    "gtin": "9500317250071",
     "color": "Negro",
-    "size": "98,9/5.8",
-    "price": 38.09,
+    "size": "04,3/20.7",
+    "price": 26.66,
     "currency": "EUR",
-    "originalPrice": null,
-    "discountPercent": null,
-    "isOnSale": false,
+    "originalPrice": 35.99,
+    "discountPercent": 14,
+    "isOnSale": true,
     "onlineAvailable": true,
     "isMarketplace": false,
     "seller": null,
@@ -27,35 +27,35 @@
     ],
     "variants": [
       {
-        "sku": "620196005582234890",
-        "gtin": "6049042281733",
+        "sku": "707073701215330723",
+        "gtin": "9500317250071",
         "color": "Negro",
-        "size": "98,9/5.8",
-        "price": 38.09,
+        "size": "04,3/20.7",
+        "price": 26.66,
         "currency": "EUR",
-        "originalPrice": null,
-        "discountPercent": null,
-        "isOnSale": false,
+        "originalPrice": 35.99,
+        "discountPercent": 14,
+        "isOnSale": true,
         "onlineAvailable": true,
         "isMarketplace": false,
         "seller": null
       },
       {
-        "sku": "619476022951683466",
-        "gtin": "0277941551196",
+        "sku": "131161251724149132",
+        "gtin": "9206231599512",
         "color": "Negro",
-        "size": "66/7",
-        "price": 28.19,
+        "size": "35/97",
+        "price": 19.73,
         "currency": "EUR",
-        "originalPrice": null,
-        "discountPercent": null,
-        "isOnSale": false,
+        "originalPrice": 35.69,
+        "discountPercent": 75,
+        "isOnSale": true,
         "onlineAvailable": true,
         "isMarketplace": false,
         "seller": null
       }
     ],
-    "shortDescription": "Example short description",
+    "shortDescription": "Example short description: mock text standing in for the real value. Same field and type, made-up content.",
     "badges": {
       "express": false,
       "new": false,
@@ -96,19 +96,20 @@
     ],
     "promotional_actions": [
       {
-        "id": "035231452554",
+        "id": "096781049290",
+        "start": "2026-01-15T10:00:00Z",
+        "end": "2026-01-15T10:00:00Z",
+        "texts": [
+          "https://www.elcorteingles.es/example/30202",
+          "Example texts: mock text standing in for the real value. Same field and type, made-up content."
+        ]
+      },
+      {
+        "id": "091914929969",
         "start": "2026-01-15T10:00:00Z",
         "end": "2026-01-15T10:00:00Z",
         "texts": [
           "Example texts"
-        ]
-      },
-      {
-        "id": "745745019775",
-        "start": "2026-01-15T10:00:00Z",
-        "end": "2026-01-15T10:00:00Z",
-        "texts": [
-          "descuentos"
         ]
       }
     ],
@@ -130,6 +131,153 @@
       "items": [
         {
           "rating": 1,
+          "title": "Example title",
+          "body": "Example body: mock text standing in for the real value. Same field and type, made-up content.",
+          "author": "Example author",
+          "date": "2026-01-15T10:00:00Z"
+        },
+        {
+          "rating": 9,
+          "title": "Example title",
+          "body": "Example body: mock text standing in for the real value. Same field and type, made-up content.",
+          "author": "Example author",
+          "date": "2026-01-15T10:00:00Z"
+        }
+      ]
+    }
+  },
+  {
+    "productId": "a139799223",
+    "name": "Example name: mock text standing in for the real value. Same field and type, made-up content.",
+    "brand": "Example brand",
+    "category": "Deportes",
+    "categoryPath": [
+      "Deportes"
+    ],
+    "url": "https://www.elcorteingles.es/example/61342",
+    "sku": "788962886232635309",
+    "gtin": "0123834415610",
+    "color": "Negro",
+    "size": "05,5/8.4",
+    "price": 24.77,
+    "currency": "EUR",
+    "originalPrice": 21.89,
+    "discountPercent": 36,
+    "isOnSale": true,
+    "onlineAvailable": true,
+    "isMarketplace": false,
+    "seller": null,
+    "image": "https://dam.elcorteingles.es/example/23443.jpg",
+    "images": [
+      "https://dam.elcorteingles.es/example/82218.jpg",
+      "https://dam.elcorteingles.es/example/64071.jpg"
+    ],
+    "variants": [
+      {
+        "sku": "788962886232635309",
+        "gtin": "0123834415610",
+        "color": "Negro",
+        "size": "05,5/8.4",
+        "price": 24.77,
+        "currency": "EUR",
+        "originalPrice": 21.89,
+        "discountPercent": 36,
+        "isOnSale": true,
+        "onlineAvailable": true,
+        "isMarketplace": false,
+        "seller": null
+      },
+      {
+        "sku": "142821731076346384",
+        "gtin": "5354092325625",
+        "color": "Negro",
+        "size": "28/8",
+        "price": 23.72,
+        "currency": "EUR",
+        "originalPrice": 31.19,
+        "discountPercent": 73,
+        "isOnSale": true,
+        "onlineAvailable": true,
+        "isMarketplace": false,
+        "seller": null
+      }
+    ],
+    "shortDescription": "Example short description",
+    "badges": {
+      "express": false,
+      "new": false,
+      "exclusive": false,
+      "eci_exclusive": false,
+      "coming_soon": false,
+      "express_delivery": false
+    },
+    "hierarchy": [
+      "deportes"
+    ],
+    "provider": [
+      {
+        "name": "Example name",
+        "provider_id": "806",
+        "type": "eci"
+      }
+    ],
+    "is_sold_by": false,
+    "is_gift_card": false,
+    "size_guide_type": "usizy",
+    "size_guide_details": {
+      "scriptUrl": "https://static.usizy.es/example/77159",
+      "alternativeUrl": "",
+      "language": "es",
+      "country": "ES",
+      "weight_system": "metric",
+      "vendor": "usizy",
+      "active": true,
+      "priority": 3
+    },
+    "status": "ADD",
+    "categories": [
+      {
+        "id": "560.20142981",
+        "name": "Example name"
+      }
+    ],
+    "promotional_actions": [
+      {
+        "id": "218774872530",
+        "start": "2026-01-15T10:00:00Z",
+        "end": "2026-01-15T10:00:00Z",
+        "texts": [
+          "https://www.elcorteingles.es/example/78031",
+          "Example texts: mock text standing in for the real value. Same field and type, made-up content."
+        ]
+      },
+      {
+        "id": "649033885594",
+        "start": "2026-01-15T10:00:00Z",
+        "end": "2026-01-15T10:00:00Z",
+        "texts": [
+          "Example texts"
+        ]
+      }
+    ],
+    "default_image": "https://www.elcorteingles.es/example/49325.jpg",
+    "canonical": "https://www.elcorteingles.es/example/456",
+    "media_objects": [
+      {
+        "type": "image",
+        "url": "https://dam.elcorteingles.es/example/61342"
+      },
+      {
+        "type": "image",
+        "url": "https://dam.elcorteingles.es/example/79808"
+      }
+    ],
+    "reviews": {
+      "averageRating": 8,
+      "totalReviewCount": 2,
+      "items": [
+        {
+          "rating": 5,
           "title": "Example title",
           "body": "Example body: mock text standing in for the real value. Same field and type, made-up content.",
           "author": "Example author",

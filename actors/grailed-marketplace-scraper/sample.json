@@ -1,8 +1,8 @@
 [
   {
-    "recordId": "736920924",
+    "recordId": "602022463",
     "rowType": "product",
-    "listingId": "711188333",
+    "listingId": "831391138",
     "url": "https://www.grailed.com/example/62560",
     "title": "Example title",
     "createdAt": "2026-01-15T10:00:00Z",
@@ -11,33 +11,33 @@
     "designers": [
       "Example designers"
     ],
-    "price": 661,
+    "price": 31,
     "originalPrice": null,
     "askHistory": [],
     "sold": false,
     "soldAt": null,
     "soldPrice": 0,
-    "size": "m",
-    "condition": "is_gently_used",
-    "conditionLabel": "Example condition label",
+    "size": "l",
+    "condition": "is_used",
+    "conditionLabel": "Used",
     "category": "outerwear",
     "categoryPath": "Example category path",
     "department": "menswear",
     "color": "black",
     "location": "Example location",
-    "strata": "grailed",
+    "strata": "basic",
     "styles": [
-      "luxury"
+      "vintage"
     ],
     "badges": [],
     "buyNow": true,
     "makeOffer": true,
     "photoCount": 7,
     "coverPhoto": "https://media-assets.grailed.com/example/12037.jpg",
-    "shippingUs": 23.79,
+    "shippingUs": 20.22,
     "shipping": {
       "us": {
-        "amount": 21.19,
+        "amount": 18.01,
         "enabled": true
       },
       "ca": {
@@ -54,7 +54,7 @@
       },
       "asia": {
         "amount": 76,
-        "enabled": true
+        "enabled": false
       },
       "au": {
         "amount": 76,
@@ -62,16 +62,16 @@
       },
       "other": {
         "amount": 76,
-        "enabled": false
+        "enabled": true
       }
     },
-    "heat": 5126.18,
+    "heat": 5086.11,
     "measurementCount": 0,
     "sellerAvatarUrl": "https://media-assets.grailed.com/example/76414.jpg",
-    "followerCount": 2,
-    "sellerId": 7673479,
+    "followerCount": 20,
+    "sellerId": 473479,
     "sellerUsername": "Example seller username",
     "sellerUrl": "https://www.grailed.com/example/36439",
-    "sellerRating": 3
+    "sellerRating": null
   }
 ]

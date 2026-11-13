@@ -54,7 +54,7 @@ Full details on the [scraper page](https://apify.com/abotapi/cottonon-com-scrape
 | `brandId` | string |
 | `color` | string |
 | `price` | float |
-| `wasPrice` | null |
+| `wasPrice` | float |
 | `discountPercent` | null |
 | `currency` | string |
 | `categories` | list |

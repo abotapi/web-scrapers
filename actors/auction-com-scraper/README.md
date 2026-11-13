@@ -82,21 +82,21 @@ Full details on the [scraper page](https://apify.com/abotapi/auction-com-scraper
 | `squareFootage` | integer |
 | `lotSize` | float |
 | `yearBuilt` | integer |
-| `propertyValuation` | null |
+| `propertyValuation` | integer |
 | `startingBid` | integer |
 | `auctionType` | string |
 | `auctionStartDate` | string |
-| `auctionEndDate` | string |
+| `auctionEndDate` | null |
 | `auctionVisibleStartDate` | string |
 | `isOnline` | boolean |
 | `nosAmount` | null |
-| `estimatedValue` | null |
-| `estimatedValueLow` | null |
-| `estimatedValueHigh` | null |
-| `estimatedValueType` | null |
-| `rentalEstimate` | null |
-| `rentalEstimateLow` | null |
-| `rentalEstimateHigh` | null |
+| `estimatedValue` | integer |
+| `estimatedValueLow` | integer |
+| `estimatedValueHigh` | integer |
+| `estimatedValueType` | string |
+| `rentalEstimate` | integer |
+| `rentalEstimateLow` | integer |
+| `rentalEstimateHigh` | integer |
 
 ---
 

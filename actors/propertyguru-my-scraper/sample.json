@@ -2,9 +2,8 @@
   {
     "id": 983384098,
     "title": "Example title",
-    "address": "Example address: mock text standing in for the real value. Same field and type, made-up content.",
+    "address": "Example address",
     "listing_type": "sale",
-    "property_type": "Condo",
     "property_type_group": "N",
     "price": 587374,
     "price_formatted": "Example price_formatted",
@@ -12,19 +11,19 @@
     "price_psf": "Example price_psf",
     "bedrooms": 4,
     "bathrooms": 5,
-    "floor_area": 2776,
+    "floor_area": 976,
     "tenure": "Example tenure",
     "developer": "Example developer",
     "is_developer_listing": false,
     "agent_name": "Example agent_name",
-    "agent_id": 11737528,
-    "agent_license": "ren85876",
-    "state": "Example state",
-    "region": "Example region",
-    "city": "Setapak",
+    "agent_id": 641737528,
+    "state": "Selangor",
+    "region": "Selangor",
+    "city": "Example city",
+    "nearby_mrt": "Example nearby_mrt",
     "badges": [
-      "Condominium",
-      "Leasehold"
+      "Example badges",
+      "Freehold"
     ],
     "posted_date": "Example posted_date",
     "posted_unix": 2767167919,
@@ -38,22 +37,37 @@
     "status": "ACT",
     "agency_name": "Example agency_name",
     "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
-    "headline": "Example headline",
-    "latitude": 2.56,
-    "longitude": 106.8,
+    "headline": "Example headline: mock text standing in for the real value. Same field and type, made-up content.",
+    "latitude": 2.44,
+    "longitude": 106.73,
+    "nearby_mrts": [
+      {
+        "id": "SP22",
+        "name": "Example name",
+        "latitude": 2.44,
+        "longitude": 106.73,
+        "distance_m": 9594,
+        "distance_text": "Example distance_text",
+        "duration_text": "Example duration_text"
+      }
+    ],
     "nearby_schools": [
       {
-        "id": "03397",
+        "id": "00100",
         "name": "Example name"
       },
       {
-        "id": "03624",
+        "id": "88355",
         "name": "Example name"
       }
     ],
     "facilities": [
       "Example facilities",
       "Example facilities"
+    ],
+    "amenities": [
+      "Example amenities",
+      "Example amenities"
     ],
     "images_full": [
       "https://my1-cdn.pgimgs.com/example/66676.jpg",
@@ -78,11 +92,11 @@
     "is_developer_listing": true,
     "agent_name": "Example agent_name",
     "agent_id": 86877222,
-    "state": "Example state",
-    "region": "Example region",
+    "state": "Selangor",
+    "region": "Selangor",
     "city": "Example city",
     "badges": [
-      "Example badges",
+      "Freehold",
       "Example badges"
     ],
     "posted_date": "Example posted_date",
@@ -92,7 +106,7 @@
       "https://my1-cdn.pgimgs.com/example/32853.jpg",
       "https://my1-cdn.pgimgs.com/example/54812.jpg"
     ],
-    "image_count": 3,
+    "image_count": 39,
     "url": "https://www.propertyguru.com.my/example/89596",
     "status": "ACT",
     "highlights": [

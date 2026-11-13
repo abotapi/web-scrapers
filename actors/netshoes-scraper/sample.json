@@ -1,8 +1,8 @@
 [
   {
-    "sku": "fba-874a-493",
+    "sku": "fba-9454-296",
     "variantSku": null,
-    "productCode": "fba-758a",
+    "productCode": "fba-5122",
     "title": "Example title",
     "brand": "Adidas",
     "brandSlug": null,
@@ -10,20 +10,20 @@
     "productType": "Example product type",
     "genders": [],
     "categoryPath": [
-      "Running",
+      "Basquete",
       "Example category path"
     ],
     "breadcrumb": [],
     "url": "https://www.netshoes.com.br/example/70008",
     "currency": "BRL",
-    "price": 1247.34,
-    "originalPrice": 1507.99,
-    "priceBeforePaymentDiscount": 1259.69,
+    "price": 504.99,
+    "originalPrice": 579.99,
+    "priceBeforePaymentDiscount": 509.99,
     "paymentMethod": null,
     "paymentMethodPrice": null,
-    "discountAmount": 55,
-    "discountPercent": 9,
-    "onSale": true,
+    "discountAmount": null,
+    "discountPercent": null,
+    "onSale": false,
     "installments": null,
     "installmentPlans": [],
     "sellerName": null,
@@ -44,6 +44,6 @@
       "https://static.netshoes.com.br/example/312.jpg"
     ],
     "videos": [],
-    "rating": 1
+    "rating": 4.87
   }
 ]

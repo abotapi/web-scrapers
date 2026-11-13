@@ -19,6 +19,7 @@ run = client.actor("abotapi/flightradar24-live-flight-tracker").call(
         "historyQueries": ["G-TUKR"],
         "fetchBy": "reg",
         "maxItems": 10,
+        "sortOrder": "asc",
         "proxy": {"useApifyProxy": True},
     },
     logger=None,  # don't stream the run log to your console

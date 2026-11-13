@@ -3,11 +3,11 @@
     "id": "7561",
     "name": "Example name: mock text standing in for the real value. Same field and type, made-up content.",
     "url": "https://www.kkday.com/example/61733",
-    "minPrice": 17.74,
-    "maxPrice": 54.96,
-    "officialPrice": 30.87,
+    "minPrice": 17.76,
+    "maxPrice": 55.03,
+    "officialPrice": 30.91,
     "currency": "USD",
-    "discountPercent": 46.13,
+    "discountPercent": 46.23,
     "ratingStar": 5.16,
     "ratingCount": 24466,
     "bookedCount": "Example booked count",
@@ -29,12 +29,12 @@
     ],
     "priceTiers": [
       {
-        "price": 17.04,
+        "price": 17.06,
         "currency": "USD",
         "name": "Example name"
       },
       {
-        "price": 22.79,
+        "price": 22.82,
         "currency": "USD",
         "name": "Example name: mock text standing in for the real value. Same field and type, made-up content."
       }

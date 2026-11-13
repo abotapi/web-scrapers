@@ -129,21 +129,21 @@
       "title": "Example title"
     },
     "currentListings": {
-      "forSale": 5,
+      "forSale": 32,
       "forRent": 0,
       "sold": 11,
-      "total": 4
+      "total": 49
     },
     "currentForSaleListings": [
       {
-        "id": "423371847",
+        "id": "583265788",
         "url": "https://www.realestate.com.au/example/68184",
         "status": "Example status",
         "address": {
           "street": "Example street",
           "suburb": "Example suburb",
           "state": "NSW",
-          "postcode": "1160"
+          "postcode": "8059"
         },
         "propertyType": "Apartment",
         "bedrooms": 4,
@@ -153,14 +153,14 @@
         "listedDate": "2026-01-15"
       },
       {
-        "id": "129987987",
+        "id": "065724456",
         "url": "https://www.realestate.com.au/example/83466",
         "status": "Example status",
         "address": {
           "street": "Example street",
           "suburb": "Example suburb",
           "state": "NSW",
-          "postcode": "3828"
+          "postcode": "6038"
         },
         "propertyType": "Apartment",
         "bedrooms": 7,

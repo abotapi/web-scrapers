@@ -17,7 +17,7 @@ python example.py
 ```bash
 curl -s -X POST "https://api.apify.com/v2/acts/abotapi~reddit-scraper/run-sync-get-dataset-items?token=$APIFY_TOKEN" \
   -H 'Content-Type: application/json' \
-  -d '{"target": "python", "limit": 10, "sort": "new", "timeframe": "all", "proxy": {"useApifyProxy": true, "apifyProxyGroups": ["RESIDENTIAL"], "apifyProxyCountry": "US"}}'
+  -d '{"target": "python", "limit": 10, "sort": "new", "timeframe": "all", "proxy": {"useApifyProxy": true, "apifyProxyGroups": ["UNBLOCKER"]}}'
 ```
 
 ## Inputs
@@ -52,16 +52,16 @@ Full details on the [scraper page](https://apify.com/abotapi/reddit-scraper?utm_
 | `created_utc` | string |
 | `permalink` | string |
 | `url` | string |
-| `score` | integer |
-| `upvote_ratio` | float |
-| `num_comments` | integer |
-| `num_crossposts` | integer |
+| `score` | null |
+| `upvote_ratio` | null |
+| `num_comments` | null |
+| `num_crossposts` | null |
 | `selftext` | string |
 | `post_type` | string |
-| `is_nsfw` | boolean |
-| `is_spoiler` | boolean |
-| `flair` | string |
-| `total_awards` | integer |
+| `is_nsfw` | null |
+| `is_spoiler` | null |
+| `flair` | null |
+| `total_awards` | null |
 | `has_media` | boolean |
 | `media_urls` | object |
 | `type` | string |

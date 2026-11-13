@@ -1,29 +1,35 @@
 [
   {
-    "productId": "0386469",
-    "sku": "4019018",
-    "ean": "8922886386626",
+    "productId": "1981537",
+    "sku": "5191180",
+    "ean": "6526580789945",
     "name": "Example name: mock text standing in for the real value. Same field and type, made-up content.",
-    "brand": "LENOVO",
+    "brand": "SAMSUNG",
     "categoryPath": [
       "Example category path",
       "Example category path"
     ],
     "category": "Example category",
     "url": "https://www.mediamarkt.es/example/81437",
-    "rating": 5.62,
+    "rating": 5.89,
     "reviewCount": 41,
     "isMarketplace": false,
     "retailer": "mediamarkt",
     "country": "ES",
     "condition": "new",
-    "refurbishedAvailable": false,
+    "refurbishedAvailable": true,
     "deliveryStatus": "Example delivery status",
     "deliveryDisplayStatus": "AVAILABLE",
     "isAvailableForDelivery": true,
     "fulfillmentEarliest": "2026-01-15T10:00:00Z",
     "fulfillmentLatest": "2026-01-15T10:00:00Z",
     "energyClass": null,
+    "highlights": {
+      "Procesador": "Example procesador",
+      "Tamaño de la memoria RAM": "Example tamaño de la memoria  r a m",
+      "Capacidad del disco duro 1": "Example capacidad del disco duro 1",
+      "Tarjeta gráfica": "Example tarjeta gráfica"
+    },
     "price": 635,
     "currency": "EUR",
     "discountAmount": 693,
@@ -35,12 +41,12 @@
     "installment": {
       "__typename": "Example __typename",
       "duration": 46,
-      "finalRate": 65.61,
+      "finalRate": 73.54,
       "interestEffective": 20.26,
       "interestNominal": 18.57,
-      "interestTotal": 60.47,
-      "monthlyRate": 62.41,
-      "totalAmount": 723.29
+      "interestTotal": 67.8,
+      "monthlyRate": 69.95,
+      "totalAmount": 810.75
     },
     "image": "https://assets.mmsrg.com/example/91927.jpg",
     "images": [
@@ -52,7 +58,67 @@
     "sourceUrl": "https://www.mediamarkt.es/example/66494",
     "sellerRating": null,
     "strikePrice": 566,
-    "discountPercentage": 68,
-    "onlineAvailable": true
+    "discountPercentage": 68
+  },
+  {
+    "productId": "3422972",
+    "sku": "6411352",
+    "ean": "3800061700759",
+    "name": "Example name: mock text standing in for the real value. Same field and type, made-up content.",
+    "brand": "ACER",
+    "categoryPath": [
+      "Example category path",
+      "Example category path"
+    ],
+    "category": "Example category",
+    "url": "https://www.mediamarkt.es/example/35532",
+    "rating": 1,
+    "reviewCount": 5,
+    "isMarketplace": false,
+    "retailer": "mediamarkt",
+    "country": "ES",
+    "condition": "new",
+    "refurbishedAvailable": false,
+    "deliveryStatus": "Example delivery status",
+    "deliveryDisplayStatus": "AVAILABLE",
+    "isAvailableForDelivery": true,
+    "fulfillmentEarliest": "2026-01-15T10:00:00Z",
+    "fulfillmentLatest": "2026-01-15T10:00:00Z",
+    "energyClass": null,
+    "highlights": {
+      "Procesador": "Example procesador",
+      "Tamaño de la memoria RAM": "Example tamaño de la memoria  r a m",
+      "Capacidad del disco duro 1": "Example capacidad del disco duro 1",
+      "Tarjeta gráfica": "Example tarjeta gráfica"
+    },
+    "price": 876,
+    "currency": "EUR",
+    "discountAmount": 786,
+    "discountPercent": 53,
+    "originalPrice": 373,
+    "isOnSpecial": true,
+    "strikePriceType": "XOP",
+    "shippingCost": 0,
+    "installment": {
+      "__typename": "Example __typename",
+      "duration": 83,
+      "finalRate": 32.66,
+      "interestEffective": 22.17,
+      "interestNominal": 19.14,
+      "interestTotal": 28.68,
+      "monthlyRate": 33.0,
+      "totalAmount": 444.67
+    },
+    "image": "https://assets.mmsrg.com/example/22578.jpg",
+    "images": [
+      "https://assets.mmsrg.com/example/38628.jpg"
+    ],
+    "seller": "Example seller",
+    "title": "Example title: mock text standing in for the real value. Same field and type, made-up content.",
+    "imageUrl": "https://assets.mmsrg.com/example/99215.jpg",
+    "sourceUrl": "https://www.mediamarkt.es/example/77931",
+    "sellerRating": null,
+    "strikePrice": 789,
+    "discountPercentage": 27
   }
 ]

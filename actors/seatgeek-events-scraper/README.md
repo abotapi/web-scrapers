@@ -30,6 +30,7 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~seatgeek-events-scraper/r
 | `taxonomy` | string | Category |
 | `performerIds` | array | Performer IDs |
 | `venueId` | string | Venue ID |
+| `city` | string | City |
 | `dateFrom` | string | Date from |
 | `dateTo` | string | Date to |
 | `sort` | string | Sort |
@@ -86,7 +87,8 @@ Full details on the [scraper page](https://apify.com/abotapi/seatgeek-events-scr
 | `ticketCount` | integer |
 | `popularity` | float |
 | `score` | float |
-| `raw` | object |
+| `isOpen` | boolean |
+| `visibleListingCount` | null |
 
 ---
 

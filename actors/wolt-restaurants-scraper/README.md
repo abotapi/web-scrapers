@@ -78,20 +78,20 @@ Full details on the [scraper page](https://apify.com/abotapi/wolt-restaurants-sc
 | `website` | string |
 | `woltUrl` | string |
 | `productLine` | string |
-| `secondaryProductLine` | string |
+| `secondaryProductLine` | null |
 | `deliveryMethods` | list |
-| `deliveryBasePrice` | integer |
+| `deliveryBasePrice` | null |
 | `deliveryBasePriceFormatted` | string |
-| `serviceFeeMin` | integer |
-| `serviceFeeMax` | integer |
-| `serviceFeePercentage` | integer |
+| `serviceFeeMin` | null |
+| `serviceFeeMax` | null |
+| `serviceFeePercentage` | null |
 | `orderMinimum` | integer |
 | `orderMinimumFormatted` | string |
 | `deliveryGeoRange` | object |
 | `isPickupFriendly` | boolean |
 | `ageVerificationMethod` | string |
-| `groupOrderEnabled` | boolean |
-| `isWoltPlus` | boolean |
+| `groupOrderEnabled` | null |
+| `isWoltPlus` | null |
 | `ncdAllowed` | boolean |
 
 ---

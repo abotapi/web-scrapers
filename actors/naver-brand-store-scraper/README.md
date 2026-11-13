@@ -63,7 +63,7 @@ Full details on the [scraper page](https://apify.com/abotapi/naver-brand-store-s
 | `displayStatus` | string |
 | `saleType` | string |
 | `authenticationType` | string |
-| `averageRating` | float |
+| `averageRating` | integer |
 | `totalReviews` | integer |
 | `premiumReviews` | integer |
 | `brand` | string |

@@ -1,24 +1,24 @@
 [
   {
-    "stockcode": "62434",
+    "stockcode": "94588",
     "name": "Example name",
     "displayName": "Example display name",
     "title": "Example title",
-    "brand": "Example brand",
+    "brand": "Pura",
     "url": "https://www.woolworths.com.au/example/8870",
-    "price": 4.58,
-    "wasPrice": 4.46,
+    "price": 4.47,
+    "wasPrice": 4.37,
     "savingsAmount": 0.41,
     "isOnSpecial": true,
     "isHalfPrice": false,
     "isEdrSpecial": false,
-    "cupPrice": 1.83,
+    "cupPrice": 1.78,
     "cupMeasure": "Example cup measure",
     "cupString": "Example cup string",
     "packageSize": "Example package size",
     "unit": "Each",
     "currency": "AUD",
-    "barcode": "19505779812314",
+    "barcode": "18915938997942",
     "gtinFormat": 24,
     "isAvailable": true,
     "isInStock": true,
@@ -27,21 +27,18 @@
     "ageRestricted": false,
     "isTobacco": false,
     "departments": [
-      "Example departments",
       "Example departments"
     ],
     "departmentIds": [
-      "2_8d7fee8",
-      "9_4e8f9e2"
+      "9_8e3f8e4"
     ],
     "departmentNames": [
-      "Example department names",
       "Example department names"
     ],
     "productLimit": 73,
     "isMarketProduct": false,
     "variety": "Example variety",
-    "offerId": "03956706",
+    "offerId": "00542016",
     "sponsored": false,
     "image": "https://cdn0.woolworths.media/example/77464.jpg",
     "thumbnailImage": "https://cdn0.woolworths.media/example/76232.jpg",

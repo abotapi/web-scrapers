@@ -31,5 +31,38 @@
       "ratingDistribution": [],
       "items": []
     }
+  },
+  {
+    "productId": "a5181315505",
+    "title": "Example title",
+    "authors": [],
+    "url": "https://www.thalia.de/example/48752",
+    "image": "https://images.thalia.media/example/37424.jpg",
+    "price": 7.37,
+    "currency": "EUR",
+    "originalPrice": null,
+    "discountAmount": null,
+    "discountPercent": null,
+    "isOnSpecial": false,
+    "badges": [
+      "Example badges"
+    ],
+    "promoLabel": null,
+    "format": "Example format",
+    "hasMoreFormats": false,
+    "categoryPath": [
+      "Ebooks",
+      "eBooks"
+    ],
+    "availabilityText": "Example availability text",
+    "availabilityStatus": null,
+    "rating": 3.6,
+    "reviewCount": 7,
+    "reviews": {
+      "averageRating": 5.08,
+      "totalReviewCount": 9,
+      "ratingDistribution": [],
+      "items": []
+    }
   }
 ]

@@ -1,8 +1,8 @@
 [
   {
     "recordType": "product",
-    "id": "37841439",
-    "skuId": "62196241",
+    "id": "68116917",
+    "skuId": "19918322",
     "name": "Example name",
     "brand": "APPLE",
     "url": "https://www.falabella.com/example/13428",
@@ -12,7 +12,7 @@
     "priceDisplay": "Example price display",
     "oldPrice": null,
     "discountPercent": null,
-    "ratingAverage": 4.86,
+    "ratingAverage": 5.05,
     "ratingCount": 92,
     "sellerId": "Example seller id",
     "sellerName": "Example seller name",
@@ -40,13 +40,14 @@
     "shippingOptions": [],
     "market": "CL",
     "marketHost": "Example market host",
-    "offering_id": "18627132",
+    "offering_id": "40878340",
     "discount_label": null,
     "badges": [],
     "promotions": [],
     "category_id": "g426188",
     "total_reviews": 77,
     "shipping_labels": [
+      "Example shipping_labels",
       "Example shipping_labels"
     ],
     "raw_product": "Example raw_product: mock text standing in for the real value. Same field and type, made-up content.",
@@ -57,7 +58,7 @@
     "sourceUrl": null,
     "position": 4,
     "scrapedAt": "2026-01-15T10:00:00Z",
-    "product_id": "16855758",
-    "sku_id": "65811192"
+    "product_id": "33760329",
+    "sku_id": "10650544"
   }
 ]

@@ -3,37 +3,34 @@
     "listingId": "id72412637",
     "url": "https://easyauto123.com.au/example/16729",
     "title": "Example title",
-    "make": "MITSUBISHI",
-    "model": "LANCER",
-    "variant": "ES",
+    "make": "HOLDEN",
+    "model": "TRAILBLAZER",
+    "variant": "LTZ",
     "year": 2342,
-    "price": 6324,
+    "price": 42324,
     "priceType": "DAP",
-    "state": "SA",
+    "state": "QLD",
     "location": "Example location",
-    "region": "Adelaide",
-    "siteCode": "EM",
+    "region": "Brisbane",
+    "siteCode": "EH",
     "odometer": 742735,
-    "vin": "jmfstcy6aeu926304",
-    "fuelType": "Petrol",
+    "vin": "mmu531mk7jh467590",
+    "fuelType": "Diesel",
     "transmission": "Automatic",
     "driveType": "Example drive type",
-    "engineCapacity": "9",
-    "colour": "White",
+    "engineCapacity": "7.0",
+    "colour": "Silver",
     "vehicleTypes": [
-      "Sedan"
+      "Wagon",
+      "Example vehicle types"
     ],
-    "fuelConsumption": "3.3",
-    "carType": "Budget",
+    "fuelConsumption": "6.2",
+    "carType": "Example car type",
     "banner": "Example banner",
-    "status": "IN-STOCK",
+    "status": "Example status",
     "updatedAt": "2026-01-15T10:00:00Z",
-    "primaryImage": "https://steagprdinventoryaue01.blob.core.windows.net/example/79583.jpg",
-    "imageUrls": [
-      "https://steagprdinventoryaue01.blob.core.windows.net/example/86455.jpg",
-      "https://steagprdinventoryaue01.blob.core.windows.net/example/47074.jpg"
-    ],
-    "imageCount": 32,
+    "imageUrls": [],
+    "imageCount": 0,
     "contractPrice": [
       {
         "component": "LIST_PRICE",
@@ -41,8 +38,8 @@
         "taxIncluded": true,
         "calculationInfo": "Example calculation info",
         "displayText": "Example display text",
-        "dollarValue": 8719,
-        "taxValue": 805.05
+        "dollarValue": 20854.42,
+        "taxValue": 1721.93
       },
       {
         "component": "SD",
@@ -51,23 +48,23 @@
         "calculationInfo": "Example calculation info",
         "displayText": "Example display text",
         "dollarValue": 372,
-        "taxValue": null
+        "taxValue": 6
       }
     ],
     "storeName": "Example store name",
     "storeEmail": "user72@example.com",
     "storePhone": "+1 555 0100",
     "storeAddress": "Example store address",
-    "storeRating": 3.53,
+    "storeRating": 3.3,
     "storeRaw": {
       "salesPersonEmail": "user51@example.com",
-      "siteCode": "EM",
-      "region": "Adelaide",
+      "siteCode": "EH",
+      "region": "Brisbane",
       "friendlyName": "Example friendly name",
       "addressComponents": [
         {
-          "longName": "01",
-          "shortName": "82",
+          "longName": "296",
+          "shortName": "922",
           "types": [
             "street_number"
           ]
@@ -88,7 +85,7 @@
             "close": {
               "date": "2026-01-15",
               "day": 5,
-              "time": "8194"
+              "time": "7793"
             },
             "open": {
               "date": "2026-01-15",
@@ -100,7 +97,7 @@
             "close": {
               "date": "2026-01-15",
               "day": 5,
-              "time": "5529"
+              "time": "3300"
             },
             "open": {
               "date": "2026-01-15",
@@ -119,8 +116,8 @@
       "formattedPhoneNumber": "+1 555 0100",
       "geometry": {
         "location": {
-          "lat": -41.92,
-          "lng": 160.75
+          "lat": -32.89,
+          "lng": 177.57
         }
       },
       "internationalPhoneNumber": "+1 555 0100",
@@ -132,33 +129,34 @@
           "Example weekday text"
         ]
       },
-      "placeId": "chijf1l-jrzjsgor41n3mnxgs10",
-      "rating": 4.65,
+      "placeId": "chijebmbhe9ykwsrgnenxus6nae",
+      "rating": 4.36,
       "url": "https://maps.google.com/example/16729",
       "userRatingsTotal": 3919,
       "website": "https://easyauto123.com.au/example/80374",
       "distanceBySiteCode": {
-        "EN": 890.04,
-        "EB": 646.7,
-        "EK": 1378.55,
-        "EC": 1675.57,
-        "EH": 1755.6,
-        "EM": 0,
-        "EV": 1159.35,
-        "EO": 1441.48,
-        "EJ": 1948.56,
-        "ER": 865.51,
-        "EL": 2134.12,
-        "EQ": 2257.13,
-        "EE": 1303.67,
-        "ED": 757.33,
-        "EY": 1322.54,
-        "EG": 857.52
+        "EB": 1389.07,
+        "EK": 891.62,
+        "EN": 449.43,
+        "EC": 2848.84,
+        "EH": 0,
+        "EM": 2077.73,
+        "EV": 768.76,
+        "EJ": 3294.87,
+        "EO": 2228.52,
+        "ER": 431.5,
+        "EL": 3615.87,
+        "EQ": 3838.82,
+        "EE": 6.81,
+        "ED": 1286.75,
+        "EY": 659.51,
+        "EG": 440.12
       }
     },
     "detailFetched": true,
     "productCategory": "USED",
     "availableSince": "Example available since: mock text standing in for the real value. Same field and type, made-up content.",
-    "ancapRating": "0"
+    "ancapRating": "0",
+    "co2Emission": "753"
   }
 ]

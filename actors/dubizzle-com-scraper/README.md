@@ -84,12 +84,12 @@ Full details on the [scraper page](https://apify.com/abotapi/dubizzle-com-scrape
 | `isPremium` | boolean |
 | `coordinates` | object |
 | `tourUrl` | null |
-| `videoUrl` | null |
+| `videoUrl` | string |
 | `tour360` | null |
 | `featuredListing` | boolean |
 | `promoted` | boolean |
 | `highlightedAd` | boolean |
-| `building` | object |
+| `building` | null |
 | `neighborhoods` | object |
 | `hasWhatsappNumber` | boolean |
 | `agencySlug` | string |

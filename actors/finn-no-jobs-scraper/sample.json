@@ -1,22 +1,22 @@
 [
   {
-    "id": "071714644",
+    "id": "851923429",
     "idInt": 243088811,
     "url": "https://www.finn.no/example/46582",
     "title": "Example title",
-    "subtitle": "Example subtitle",
+    "subtitle": null,
     "employer": "Example employer",
-    "employerUrl": "https://thermakulde.no/example/27778",
-    "employerHomepage": "https://thermakulde.no/example/48978",
+    "employerUrl": "https://www.fossefall.ai/example/27778",
+    "employerHomepage": "https://www.fossefall.ai/example/48978",
     "employerLogo": "https://images.finncdn.no/example/50712.jpg",
     "streetAddress": "Example street address",
-    "postalCode": "4922",
+    "postalCode": "3410",
     "city": "Oslo",
     "addressCountry": "Example address country",
     "locationDisplay": "Example location display",
     "locationLink": "https://www.finn.no/example/48975",
-    "latitude": 64.73,
-    "longitude": 12.18,
+    "latitude": 64.71,
+    "longitude": 12.02,
     "datePosted": "2026-01-15",
     "datePostedEpochMs": 6246549367984,
     "relativePosted": "Example relative posted",
@@ -33,11 +33,12 @@
     "sector": "Example sector",
     "industries": [
       "Example industries",
-      "Example industries"
+      "IT"
     ],
     "jobFunction": "Example job function",
     "internalJobTitle": null,
     "workingLanguages": [
+      "Engelsk",
       "Norsk"
     ],
     "contactPersons": [],

@@ -46,5 +46,53 @@
     "profilePhotoUrl": "https://images.alltrails.com/example/22266.jpg",
     "dogFriendly": false,
     "kidFriendly": false
+  },
+  {
+    "recordType": "trail",
+    "id": "72450537",
+    "name": "Example name",
+    "url": "https://www.alltrails.com/example/52855",
+    "slug": "Example slug",
+    "difficulty": "hard",
+    "difficultyGrade": 6,
+    "rating": 6.14,
+    "ratingCount": 91196,
+    "reviewTextCount": 6027,
+    "lengthMeters": 10998.23,
+    "lengthMiles": 5.03,
+    "elevationGainMeters": 769.82,
+    "durationMinutes": 200,
+    "routeType": "Example route type",
+    "activities": [
+      "camping",
+      "hiking"
+    ],
+    "features": [
+      "forest",
+      "views"
+    ],
+    "areaName": "Example area name",
+    "areaSlug": "Example area slug",
+    "cityName": "Example city name",
+    "stateName": "Example state name",
+    "countryName": "Example country name",
+    "lat": 31.33,
+    "lng": -141.13,
+    "imageUrl": "https://images.alltrails.com/example/27149.jpg",
+    "visitorUsage": 5,
+    "isClosed": false,
+    "sourceType": "grid",
+    "sourceUrl": "https://www.alltrails.com/example/31269",
+    "position": 3,
+    "scrapedAt": "2026-01-15T10:00:00Z",
+    "trailUrl": "https://www.alltrails.com/example/28943",
+    "avgRating": 3.89,
+    "numReviews": 91655,
+    "latitude": 31.33,
+    "longitude": -113.62,
+    "elevationGainFt": 1280,
+    "profilePhotoUrl": "https://images.alltrails.com/example/60163.jpg",
+    "dogFriendly": false,
+    "kidFriendly": false
   }
 ]

@@ -60,7 +60,6 @@ Full details on the [scraper page](https://apify.com/abotapi/realtor-com-scraper
 | `price` | object |
 | `features` | object |
 | `flags` | object |
-| `hasMatterport` | boolean |
 | `streetViewUrl` | string |
 | `countyFips` | string |
 | `agents` | list |

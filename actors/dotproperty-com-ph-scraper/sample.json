@@ -5,15 +5,18 @@
     "url": "https://www.dotproperty.com.ph/example/79200",
     "source": "dotproperty",
     "price": 6919083,
+    "price_per_sqm": 61129,
     "bedrooms": 6,
     "bathrooms": 6,
+    "usable_area_sqm": 612,
     "agent_name": "Example agent_name",
     "agent_verified": true,
-    "latitude": 11.65,
-    "longitude": 128.26,
+    "latitude": 11.73,
+    "longitude": 128.38,
     "agent_phone": "+1 555 0100",
     "title": "Example title: mock text standing in for the real value. Same field and type, made-up content.",
-    "floor": 58,
+    "floor": 4,
+    "land_area_sqm": 18,
     "facilities": [
       "Example facilities",
       "Example facilities"
@@ -22,10 +25,10 @@
       "https://pix.dotproperty.co.th/example/9237.jpg",
       "https://pix.dotproperty.co.th/example/69097.jpg"
     ],
-    "image_count": 7,
+    "image_count": 52,
     "og_image": "https://pix.dotproperty.co.th/example/94830.jpg",
-    "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
-    "listing_id_text": "8brlmr77sqm",
+    "description": "user95@example.com",
+    "listing_id_text": "id68322531",
     "agent_listing_count": 94,
     "agent_url": "https://www.dotproperty.com.ph/example/22347",
     "breadcrumbs": [
@@ -34,16 +37,17 @@
     ],
     "currency": "PHP",
     "price_raw": "Example price_raw",
-    "specs_raw": "Example specs_raw",
+    "specs_raw": "Example specs_raw: mock text standing in for the real value. Same field and type, made-up content.",
     "description_html": "Example description_html: mock text standing in for the real value. Same field and type, made-up content.",
     "agent_info_text": "Example agent_info_text: mock text standing in for the real value. Same field and type, made-up content.",
     "location_text": "Example location_text: mock text standing in for the real value. Same field and type, made-up content.",
-    "property_type": "Condo",
+    "property_type": "House",
     "operation": "sale",
     "region": "Example region",
-    "city": "Manila",
+    "city": "Marikina",
     "area": "Example area",
-    "location_source": "detail_page",
-    "scraped_at": "2026-01-15T10:00:00Z"
+    "floors": 9,
+    "agent_location": "Example agent_location",
+    "location_source": "detail_page"
   }
 ]

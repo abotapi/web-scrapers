@@ -1,6 +1,6 @@
 [
   {
-    "placeId": "chijr5so-lrywokrx8xeja1rcha",
+    "placeId": "chij58krmjjzwokryrf04upachw",
     "title": "Example title",
     "url": "https://www.google.com/example/42345",
     "scrapedAt": "2026-01-15T10:00:00Z",
@@ -12,9 +12,9 @@
     "postalCode": "75931",
     "countryCode": "US",
     "phone": "+1 555 0100",
-    "website": "https://carminesnyc.com/example/16368",
-    "totalScore": 4.41,
-    "reviewsCount": 88737,
+    "website": "http://sicilynyc.com/example/16368",
+    "totalScore": 4.51,
+    "reviewsCount": 7737,
     "plusCode": "Example plus code",
     "imageUrls": [
       "https://lh3.googleusercontent.com/example/70219.jpg",
@@ -32,10 +32,21 @@
     ],
     "searchString": "restaurants",
     "rank": 8,
-    "isAdvertisement": false
+    "isAdvertisement": false,
+    "reviews": [
+      {
+        "rating": 9,
+        "reviewerName": "Example reviewer name",
+        "text": "Example text: mock text standing in for the real value. Same field and type, made-up content.",
+        "publishedAtDate": "2026-01-15T10:00:00Z",
+        "isLocalGuide": false,
+        "responseFromOwnerText": "Example response from owner text: mock text standing in for the real value. Same field and type, made-up content.",
+        "reviewId": "ci8dqulrqunvzenodhljrjlvt9xkbwiyadvhmfi3wkvsu1dyvlpzbuzavdnstlzxyxab"
+      }
+    ]
   },
   {
-    "placeId": "chijt_hatrrbwokrefghs3pnzwq",
+    "placeId": "chijotxwl2dbwokrpka0bjfvsga",
     "title": "Example title",
     "url": "https://www.google.com/example/14370",
     "scrapedAt": "2026-01-15T10:00:00Z",
@@ -44,12 +55,16 @@
     "street": "Example street",
     "city": "Example city",
     "state": "NY",
-    "postalCode": "48584",
+    "postalCode": "57819",
     "countryCode": "US",
     "phone": "+1 555 0100",
-    "website": "https://www.auchevaldiner.com/example/27988",
+    "website": "https://www.manhattarestaurant.com/example/27988",
     "totalScore": 4.18,
     "reviewsCount": 9233,
+    "location": {
+      "lat": 32.97,
+      "lng": -88.07
+    },
     "plusCode": "Example plus code",
     "imageUrls": [
       "https://lh3.googleusercontent.com/example/88529.jpg",
@@ -65,14 +80,19 @@
         "hours": "Example hours"
       }
     ],
-    "orderLinks": [
-      {
-        "platform": "Example platform: mock text standing in for the real value. Same field and type, made-up content.",
-        "url": "https://www.google.com/example/14370"
-      }
-    ],
+    "menuUrl": "https://www.manhattarestaurant.com/example/93956",
     "searchString": "restaurants",
     "rank": 8,
-    "isAdvertisement": false
+    "isAdvertisement": false,
+    "reviews": [
+      {
+        "rating": 1,
+        "reviewerName": "Example reviewer name",
+        "text": "Example text: mock text standing in for the real value. Same field and type, made-up content.",
+        "publishedAtDate": "2026-01-15T10:00:00Z",
+        "isLocalGuide": false,
+        "reviewId": "ci9dqulrqunvzenodhljrjlvt3tjdfmyegpzbgruzg8xegiytnfjr9rpwlvomlmwrrab"
+      }
+    ]
   }
 ]

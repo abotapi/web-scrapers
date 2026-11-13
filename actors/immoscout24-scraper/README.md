@@ -72,8 +72,8 @@ Full details on the [scraper page](https://apify.com/abotapi/immoscout24-scraper
 | `propertyType` | string |
 | `title` | string |
 | `addressFull` | string |
-| `street` | null |
-| `houseNumber` | null |
+| `street` | string |
+| `houseNumber` | string |
 | `postcode` | string |
 | `city` | string |
 | `quarter` | string |
@@ -100,10 +100,10 @@ Full details on the [scraper page](https://apify.com/abotapi/immoscout24-scraper
 | `images` | list |
 | `floorplanUrl` | string |
 | `contactName` | string |
-| `contactPhone` | null |
+| `contactPhone` | string |
 | `contactCompany` | string |
-| `projectName` | null |
-| `projectUrl` | null |
+| `projectName` | string |
+| `projectUrl` | string |
 | `tags` | list |
 | `isNew` | boolean |
 

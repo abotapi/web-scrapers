@@ -68,8 +68,8 @@ Full details on the [scraper page](https://apify.com/abotapi/jbhifi-com-au-produ
 | `collectionHierarchy` | null |
 | `currency` | string |
 | `price` | integer |
-| `priceExGst` | integer |
-| `taxGst` | integer |
+| `priceExGst` | float |
+| `taxGst` | float |
 | `wasPrice` | null |
 | `saveAmount` | integer |
 | `cashbackAmount` | integer |

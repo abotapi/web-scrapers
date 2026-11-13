@@ -16,7 +16,7 @@ run = client.actor("abotapi/reddit-scraper").call(
         "limit": 10,
         "sort": "new",
         "timeframe": "all",
-        "proxy": {"useApifyProxy": True, "apifyProxyGroups": ["RESIDENTIAL"], "apifyProxyCountry": "US"},
+        "proxy": {"useApifyProxy": True, "apifyProxyGroups": ["UNBLOCKER"]},
     },
     logger=None,  # don't stream the run log to your console
 )

@@ -1,6 +1,6 @@
 [
   {
-    "id": "1330715569",
+    "id": "1425308966",
     "url": "https://www.gumtree.com.au/example/92757",
     "title": "Example title",
     "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
@@ -16,7 +16,7 @@
     "suburb": null,
     "state": null,
     "mapAddress": null,
-    "price": 7576,
+    "price": 79576,
     "priceText": "Example price text",
     "priceType": "FIXED",
     "currency": "AUD",
@@ -29,7 +29,7 @@
     "isUrgent": false,
     "isPriceDrop": false,
     "isTopAd": true,
-    "isFeatured": false,
+    "isFeatured": true,
     "isHighlighted": true,
     "isPremium": false,
     "isB2CPlus": false,
@@ -39,6 +39,6 @@
     "adType": "OFFER",
     "categoryId": null,
     "categoryName": "Example category name",
-    "vertical": "Example vertical"
+    "vertical": "motors"
   }
 ]

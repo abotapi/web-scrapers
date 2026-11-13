@@ -28,5 +28,35 @@
     "reviews": [],
     "reviewsTotal": null,
     "scrapedAt": "2026-01-15T10:00:00Z"
+  },
+  {
+    "recordId": "Example record id",
+    "productId": "961704",
+    "skuId": "797934",
+    "url": "https://www.cvs.com/example/98029",
+    "title": "Example title: mock text standing in for the real value. Same field and type, made-up content.",
+    "brand": "Example brand",
+    "price": 9.09,
+    "wasPrice": null,
+    "pricePerUnit": "Example price per unit",
+    "currency": "USD",
+    "imageUrl": "https://www.cvs.com/example/14072.jpg",
+    "imageUrls": [
+      "https://www.cvs.com/example/11064.jpg",
+      "Example image urls: mock text standing in for the real value. Same field and type, made-up content."
+    ],
+    "rating": 5.78,
+    "reviewsCount": 366,
+    "sponsored": false,
+    "badges": [],
+    "position": 0,
+    "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
+    "availability": "Example availability",
+    "reviewsAverage": null,
+    "reviewsRecommended": null,
+    "ratingDistribution": [],
+    "reviews": [],
+    "reviewsTotal": null,
+    "scrapedAt": "2026-01-15T10:00:00Z"
   }
 ]

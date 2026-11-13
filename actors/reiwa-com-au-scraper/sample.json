@@ -1,6 +1,6 @@
 [
   {
-    "id": "0713600",
+    "id": "8434119",
     "type": "for-sale",
     "title": "Example title",
     "address": "Example address",
@@ -8,6 +8,7 @@
     "url": "https://reiwa.com.au/example/14545",
     "sourceUrl": "https://reiwa.com.au/example/5901",
     "price": "Example price",
+    "priceValue": 8316739,
     "bedrooms": 3,
     "bathrooms": 6,
     "parkingSpaces": 2,
@@ -17,7 +18,9 @@
     "agentNames": [
       "Example agent names"
     ],
-    "agentUrls": [],
+    "agentUrls": [
+      "https://reiwa.com.au/example/11529"
+    ],
     "phoneNumbers": [
       "+1 555 0100"
     ],

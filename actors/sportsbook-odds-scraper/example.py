@@ -15,7 +15,7 @@ run = client.actor("abotapi/sportsbook-odds-scraper").call(
         "mode": "bulk",
         "bookmakers": ["linebet"],
         "feeds": ["prematch"],
-        "proxy": {"useApifyProxy": True, "apifyProxyGroups": ["RESIDENTIAL"]},
+        "proxy": {"useApifyProxy": True},
     },
     logger=None,  # don't stream the run log to your console
 )

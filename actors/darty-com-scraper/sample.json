@@ -1,36 +1,36 @@
 [
   {
-    "productId": "1316897",
+    "productId": "6504844",
     "ean": null,
     "url": "https://www.darty.com/example/55081",
     "image": "https://image.darty.com/example/65639.jpg",
     "name": "Example name",
     "brand": "Jvc",
     "category": "Example category",
-    "price": 86.39,
+    "price": 194.39,
     "currency": "EUR",
     "originalPrice": null,
     "discountAmount": null,
     "discountPercent": null,
     "isOnSpecial": false,
     "promoLabel": null,
-    "rating": 4.37,
-    "reviewCount": 459,
+    "rating": 4.27,
+    "reviewCount": 99,
     "inStock": true,
     "condition": "new",
     "seller": "Example seller",
     "reviews": {
-      "averageRating": 3.19,
-      "totalReviewCount": 440,
+      "averageRating": 3.12,
+      "totalReviewCount": 80,
       "recommendPercent": 82,
       "criteria": [
         {
           "name": "Example name",
-          "score": 3.63
+          "score": 3.48
         },
         {
           "name": "Example name",
-          "score": 3.59
+          "score": 3.51
         }
       ],
       "items": [
@@ -40,9 +40,9 @@
           "body": "Example body",
           "author": "Example author",
           "level": "Example level",
-          "postedDate": "47/10/4971",
-          "purchaseDate": "94/38/0981",
-          "purchaseStore": "Example purchase store"
+          "postedDate": "15/93/8103",
+          "purchaseDate": "69/56/3642",
+          "purchaseStore": null
         }
       ]
     }

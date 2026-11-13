@@ -56,7 +56,7 @@ Full details on the [scraper page](https://apify.com/abotapi/kogan-com-scraper?u
 | `brand` | string |
 | `sku` | string |
 | `gtin` | string |
-| `price` | float |
+| `price` | integer |
 | `priceMax` | null |
 | `originalPrice` | null |
 | `originalPriceLabel` | null |

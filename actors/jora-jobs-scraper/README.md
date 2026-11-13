@@ -64,11 +64,11 @@ Full details on the [scraper page](https://apify.com/abotapi/jora-jobs-scraper?u
 | `countryCode` | string |
 | `url` | string |
 | `sourceUrl` | string |
-| `salary` | null |
-| `salaryMin` | null |
-| `salaryMax` | null |
+| `salary` | string |
+| `salaryMin` | integer |
+| `salaryMax` | integer |
 | `workType` | string |
-| `workArrangement` | string |
+| `workArrangement` | null |
 | `postedAtText` | string |
 | `quickApply` | boolean |
 | `isSponsored` | boolean |
@@ -80,9 +80,9 @@ Full details on the [scraper page](https://apify.com/abotapi/jora-jobs-scraper?u
 | `descriptionText` | string |
 | `applyUrl` | string |
 | `sourceName` | string |
-| `searchKeywords` | string |
-| `searchLocation` | string |
-| `searchTotalCount` | integer |
+| `searchKeywords` | null |
+| `searchLocation` | null |
+| `searchTotalCount` | null |
 | `detailFetched` | boolean |
 | `scrapedAt` | string |
 | `job_id` | string |
@@ -93,8 +93,8 @@ Full details on the [scraper page](https://apify.com/abotapi/jora-jobs-scraper?u
 | `source` | string |
 | `sponsored` | boolean |
 | `country` | string |
-| `search_keyword` | string |
-| `search_location` | string |
+| `search_keyword` | null |
+| `search_location` | null |
 | `search_page` | integer |
 
 ---

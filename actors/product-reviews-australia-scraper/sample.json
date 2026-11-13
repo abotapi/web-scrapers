@@ -9,13 +9,13 @@
       "id": "id87274198",
       "name": "Example name",
       "slug": "Example slug",
-      "url": "https://www.koalaliving.com.au/example/31042",
+      "url": "https://www.nickscali.com.au/example/31042",
       "isManaged": true
     },
     "contact": {
-      "email": "user82@example.com",
-      "website": "https://www.koalaliving.com.au/example/52865",
-      "phone": "+1 555 0100"
+      "email": null,
+      "website": "https://www.nickscali.com.au/example/52865",
+      "phone": null
     },
     "categories": [
       {
@@ -33,14 +33,14 @@
     ],
     "locations": [],
     "statistics": {
-      "rating": 4.66,
+      "rating": 4.46,
       "numberOfReviews": 85286,
-      "numberOfQuestions": 21,
+      "numberOfQuestions": 471,
       "ratingDistribution": [
-        265,
-        72
+        2965,
+        252
       ],
-      "numberOfLeaves": 62,
+      "numberOfLeaves": 8,
       "numberOfReviewsLastYear": 7781
     },
     "isDiscontinued": false,
@@ -51,7 +51,7 @@
       "rating": 4,
       "submittedAt": "2026-01-15T10:00:00Z",
       "authorName": "Example author name",
-      "authorLocation": null,
+      "authorLocation": "Example author location",
       "hasVerifiedPurchase": false
     },
     "highlightedReviews": [],
@@ -73,7 +73,10 @@
         "Example pros: mock text standing in for the real value. Same field and type, made-up content.",
         "Example pros: mock text standing in for the real value. Same field and type, made-up content."
       ],
-      "cons": [],
+      "cons": [
+        "Example cons: mock text standing in for the real value. Same field and type, made-up content.",
+        "Example cons: mock text standing in for the real value. Same field and type, made-up content."
+      ],
       "verdict": "Example verdict: mock text standing in for the real value. Same field and type, made-up content."
     },
     "marketAvailability": {
@@ -90,18 +93,14 @@
       3051,
       3448
     ],
-    "officialLink": "https://koalaliving.com.au/example/56592",
+    "officialLink": "https://www.nickscali.com.au/example/56592",
     "specificationValues": {
       "Type of Furniture Offered": [
         "Living",
-        "Dining"
-      ],
-      "dd789968-7d94-480f-98c9-e99fa8115039": false,
-      "e4fc3476-8ed9-423a-ad5f-298c7f28ed49": true
+        "Sofas"
+      ]
     },
-    "universalIds": [
-      "92473227680"
-    ],
+    "universalIds": [],
     "videos": [],
     "specHighlights": [],
     "capacityText": null,
@@ -124,7 +123,17 @@
           "locationName": null,
           "avatarUrl": "https://cdn.productreview.com.au/example/16768.jpg"
         },
-        "comments": [],
+        "comments": [
+          {
+            "id": "id87274198",
+            "body": "Example body: mock text standing in for the real value. Same field and type, made-up content.",
+            "submittedAt": "2026-01-15T10:00:00Z",
+            "author": {
+              "displayName": "Example display name",
+              "isBrandManager": true
+            }
+          }
+        ],
         "numberOfLikes": 0,
         "numberOfDislikes": 0,
         "isVerified": false,
@@ -159,7 +168,17 @@
           "locationName": null,
           "avatarUrl": "https://cdn.productreview.com.au/example/70059.jpg"
         },
-        "comments": [],
+        "comments": [
+          {
+            "id": "id36078153",
+            "body": "Example body: mock text standing in for the real value. Same field and type, made-up content.",
+            "submittedAt": "2026-01-15T10:00:00Z",
+            "author": {
+              "displayName": "Example display name",
+              "isBrandManager": true
+            }
+          }
+        ],
         "numberOfLikes": 0,
         "numberOfDislikes": 0,
         "isVerified": false,
@@ -187,19 +206,19 @@
     "recordType": "listing",
     "id": "id24683951",
     "name": "Example name",
-    "slug": "Example slug",
+    "slug": "freedom",
     "detailsUrl": "https://www.productreview.com.au/example/93119",
     "brand": {
       "id": "id24683951",
       "name": "Example name",
-      "slug": "Example slug",
-      "url": "http://www.cleanandclearwater.com.au/example/46485",
+      "slug": "freedom",
+      "url": "http://www.freedom.com.au/example/46485",
       "isManaged": true
     },
     "contact": {
-      "email": "user30@example.com",
-      "website": "http://www.cleanandclearwater.com.au/example/91501",
-      "phone": "+1 555 0100"
+      "email": null,
+      "website": "http://www.freedom.com.au/example/91501",
+      "phone": null
     },
     "categories": [
       {
@@ -217,15 +236,15 @@
     ],
     "locations": [],
     "statistics": {
-      "rating": 9,
-      "numberOfReviews": 4061,
-      "numberOfQuestions": 4,
+      "rating": 5.93,
+      "numberOfReviews": 13061,
+      "numberOfQuestions": 58,
       "ratingDistribution": [
-        10,
-        1
+        9820,
+        154
       ],
       "numberOfLeaves": 6,
-      "numberOfReviewsLastYear": 991
+      "numberOfReviewsLastYear": 7291
     },
     "isDiscontinued": false,
     "featuredReview": {
@@ -268,15 +287,26 @@
     },
     "tags": [
       "id52253923",
-      "id45106635"
+      "Example tags"
     ],
     "awardYears": [
-      6858,
-      7882
+      6858
     ],
-    "officialLink": "https://www.cleanandclearwater.com.au/example/25065",
-    "specificationValues": {},
-    "universalIds": [],
+    "officialLink": "https://www.freedom.com.au/example/25065",
+    "specificationValues": {
+      "7818699f-ff9f-4383-b434-005b0d511f46": false,
+      "Buy Now, Pay Later Options": [
+        "Example buy  now,  pay  later  options",
+        "Example buy  now,  pay  later  options"
+      ],
+      "Type of Furniture Offered": [
+        "Living",
+        "Dining"
+      ]
+    },
+    "universalIds": [
+      "030485062"
+    ],
     "videos": [],
     "specHighlights": [],
     "capacityText": null,
@@ -287,7 +317,7 @@
       {
         "id": "id24683951",
         "title": null,
-        "body": "Example body: mock text standing in for the real value. Same field and type, made-up content.",
+        "body": "Example body",
         "rating": 9,
         "submittedAt": "2026-01-15T10:00:00Z",
         "hasVerifiedPurchase": false,
@@ -299,7 +329,17 @@
           "locationName": null,
           "avatarUrl": "https://cdn.productreview.com.au/example/30796.jpg"
         },
-        "comments": [],
+        "comments": [
+          {
+            "id": "id24683951",
+            "body": "Example body: mock text standing in for the real value. Same field and type, made-up content.",
+            "submittedAt": "2026-01-15T10:00:00Z",
+            "author": {
+              "displayName": "Example display name",
+              "isBrandManager": true
+            }
+          }
+        ],
         "numberOfLikes": 0,
         "numberOfDislikes": 0,
         "isVerified": false,
@@ -316,13 +356,13 @@
         "subject": {
           "subjectId": "id85867516",
           "name": "Example name",
-          "slug": "Example slug"
+          "slug": "freedom"
         }
       },
       {
         "id": "id62995661",
         "title": null,
-        "body": "Example body: mock text standing in for the real value. Same field and type, made-up content.",
+        "body": "Example body",
         "rating": 2,
         "submittedAt": "2026-01-15T10:00:00Z",
         "hasVerifiedPurchase": false,
@@ -331,10 +371,20 @@
         "author": {
           "id": "id62995661",
           "displayName": "Example display name",
-          "locationName": null,
+          "locationName": "Example location name",
           "avatarUrl": "https://cdn.productreview.com.au/example/79222.jpg"
         },
-        "comments": [],
+        "comments": [
+          {
+            "id": "id62995661",
+            "body": "Example body: mock text standing in for the real value. Same field and type, made-up content.",
+            "submittedAt": "2026-01-15T10:00:00Z",
+            "author": {
+              "displayName": "Example display name",
+              "isBrandManager": true
+            }
+          }
+        ],
         "numberOfLikes": 0,
         "numberOfDislikes": 0,
         "isVerified": false,
@@ -351,11 +401,11 @@
         "subject": {
           "subjectId": "id75422873",
           "name": "Example name",
-          "slug": "Example slug"
+          "slug": "freedom"
         }
       }
     ],
     "reviewsCollected": 46,
-    "totalReviews": 5950
+    "totalReviews": 68950
   }
 ]

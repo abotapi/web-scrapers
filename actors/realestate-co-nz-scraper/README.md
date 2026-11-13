@@ -1,8 +1,8 @@
-# RealestateCo NZ Scraper
+# Realestate.co.nz Scraper
 
-Search and extract all real estate properties for sale, rent, and sold across New Zealand from realestate.co.nz.
+Scrape Realestate.co.nz property listings across New Zealand. Search properties for sale, rent and sold, and extract available property details, prices, locations and listing information. Ideal for real estate research, property market analysis and price monitoring.
 
-**[Open RealestateCo NZ Scraper on Apify](https://apify.com/abotapi/realestate-co-nz-scraper?utm_source=github&utm_medium=web-scrapers&utm_campaign=monorepo)** to run it without code and export JSON, CSV or Excel.
+**[Open Realestate.co.nz Scraper on Apify](https://apify.com/abotapi/realestate-co-nz-scraper?utm_source=github&utm_medium=web-scrapers&utm_campaign=monorepo)** to run it without code and export JSON, CSV or Excel.
 
 ## Run it from code
 
@@ -65,15 +65,11 @@ Full details on the [scraper page](https://apify.com/abotapi/realestate-co-nz-sc
 | `heading` | string |
 | `description` | string |
 | `images` | list |
-| `floorPlans` | list |
 | `agents` | list |
 | `office` | object |
 | `offices` | list |
 | `location` | object |
-| `openHomes` | list |
 | `schools` | list |
-| `auctionDate` | string |
-| `auctionLocation` | string |
 | `publishedDate` | string |
 | `createdDate` | string |
 | `isFeatured` | boolean |

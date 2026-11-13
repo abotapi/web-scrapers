@@ -94,10 +94,6 @@ Full details on the [scraper page](https://apify.com/abotapi/officeworks-scraper
 | `rangedOnline` | boolean |
 | `rangedRetail` | boolean |
 | `published` | boolean |
-| `variants` | list |
-| `variantAxes` | object |
-| `variantCount` | integer |
-| `categoryHierarchy` | list |
 
 ---
 

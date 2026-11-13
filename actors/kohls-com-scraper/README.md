@@ -55,9 +55,9 @@ Full details on the [scraper page](https://apify.com/abotapi/kohls-com-scraper?u
 | `priceLabel` | null |
 | `price` | float |
 | `priceMax` | float |
-| `wasPrice` | null |
+| `wasPrice` | integer |
 | `wasPriceMax` | null |
-| `discountPercent` | null |
+| `discountPercent` | integer |
 | `currency` | string |
 | `imageUrl` | string |
 | `rating` | float |

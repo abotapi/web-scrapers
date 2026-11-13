@@ -16,7 +16,7 @@
     "discountPercent": 15.24,
     "currency": "GBP",
     "isNew": false,
-    "isSellingFast": true,
+    "isSellingFast": false,
     "isRestockingSoon": false,
     "isPromotion": false,
     "hasMultipleColours": false,

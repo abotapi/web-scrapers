@@ -220,7 +220,7 @@
       "time": {
         "firstSale": "2026-01-15",
         "lastSale": "2026-01-15",
-        "activeYears": 0.72,
+        "activeYears": 0.64,
         "perYear": [
           {
             "year": "4762",
@@ -252,7 +252,7 @@
       "rmaSoldListings": 46,
       "rmaForSale": 89,
       "rmaAverageDaysOnMarket": 11,
-      "rmaAveragePrice": 9851691,
+      "rmaAveragePrice": 2152440.0,
       "rmaTotalSalesValue": 98119502,
       "rmaHasEmailAddress": true,
       "rmaPhoto": "https://cdn.ratemyagent.com.au/example/21651.jpg",
@@ -271,7 +271,7 @@
       "domainTotalSold": 23,
       "domainTotalForRent": 0,
       "domainTotalLeased": 0,
-      "domainAverageDaysOnMarket": 25.37,
+      "domainAverageDaysOnMarket": 24.28,
       "domainAverageSoldPrice": 5291623,
       "domainHasEmail": true,
       "reiwaAgentId": "63435",
@@ -281,9 +281,9 @@
       "reiwaForRentTotal": null,
       "reiwaSoldTotal": 66,
       "reiwaLeasedTotal": null,
-      "reiwaListingsSold12m": "78",
+      "reiwaListingsSold12m": "85",
       "reiwaMedianSalePrice": "Example reiwa median sale price",
-      "reiwaMedianDaysOnMarket": "99",
+      "reiwaMedianDaysOnMarket": "11",
       "rmaAgentCode": "Example rma agent code",
       "reiwaPhoto": "https://imagecdn.reiwa.com.au/example/81528.jpg"
     },

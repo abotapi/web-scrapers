@@ -1,19 +1,19 @@
 [
   {
-    "articleId": "5326869904",
-    "gtin": "3184971148928",
-    "ean": "5092594461787",
-    "mpn": "37332984",
+    "articleId": "2665211135",
+    "gtin": "4056390767513",
+    "ean": "1231895711409",
+    "mpn": "12936726",
     "barcodes": [
       {
-        "barcode": "3786302857932",
+        "barcode": "8806374089864",
         "isPrimary": false,
         "type": "EAN"
       }
     ],
     "name": "Example name: mock text standing in for the real value. Same field and type, made-up content.",
     "title": "Example title: mock text standing in for the real value. Same field and type, made-up content.",
-    "brand": "Costway",
+    "brand": "Everfit",
     "sellerType": "Example seller type",
     "sellerName": "Example seller name",
     "productChannel": "IMP",
@@ -21,19 +21,19 @@
     "condition": "New",
     "listingStatus": "LISTEDONLINEONLY",
     "url": "https://www.bigw.com.au/example/47325",
-    "price": 149.94,
+    "price": 1049.81,
     "wasPrice": null,
     "rrp": null,
     "saving": null,
     "savingsPercent": null,
-    "isOnSpecial": false,
+    "isOnSpecial": true,
     "unitPrice": null,
     "pricePerUnitPrice": null,
     "pricePerUnitQuantity": null,
     "pricePerUnitUnit": null,
     "currency": "AUD",
-    "priceLabel": null,
-    "priceLabelType": null,
+    "priceLabel": "Example price label",
+    "priceLabelType": "lowestPriceDays",
     "clearance": false,
     "onlineOnlyPromotion": false,
     "promotions": [],
@@ -42,7 +42,7 @@
       "zip": true,
       "layby": false
     },
-    "rating": null,
+    "rating": 3.92,
     "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
     "imageUrl": "https://www.bigw.com.au/example/37742.jpg",
     "images": [
@@ -54,7 +54,7 @@
       "Example categories",
       "Example categories"
     ],
-    "categoryPath": "Example category path: mock text standing in for the real value. Same field and type, made-up content.",
+    "categoryPath": "Example category path",
     "variants": null
   }
 ]

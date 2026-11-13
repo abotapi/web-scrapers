@@ -103,11 +103,44 @@
         "authorName": "Example author name",
         "authorUrl": "https://www.producthunt.com/example/85409",
         "authorImage": "https://ph-avatars.imgix.net/example/82222.jpg",
-        "scrapedAt": "2026-01-15T10:00:00Z"
+        "scrapedAt": "2026-01-15T10:00:00Z",
+        "easeOfUseRating": 7,
+        "reliabilityRating": 7,
+        "valueForMoneyRating": 3,
+        "customizationRating": 7
+      },
+      {
+        "rowType": "review",
+        "id": "Example id: mock text standing in for the real value. Same field and type, made-up content.",
+        "productSlug": "lovable",
+        "productUrl": "https://www.producthunt.com/example/39877",
+        "reviewId": "https://www.producthunt.com/example/56714",
+        "reviewUrl": "https://www.producthunt.com/example/46066",
+        "rating": 6,
+        "ratingMax": 6,
+        "reviewText": "Example review text: mock text standing in for the real value. Same field and type, made-up content.",
+        "positiveNotes": [
+          "Example positive notes: mock text standing in for the real value. Same field and type, made-up content.",
+          "Example positive notes"
+        ],
+        "negativeNotes": [
+          "Example negative notes: mock text standing in for the real value. Same field and type, made-up content.",
+          "buggy"
+        ],
+        "reviewDate": "2026-01-15T10:00:00Z",
+        "dateModified": "2026-01-15T10:00:00Z",
+        "authorName": "Example author name",
+        "authorUrl": "https://www.producthunt.com/example/49170",
+        "authorImage": "https://ph-avatars.imgix.net/example/31455.jpg",
+        "scrapedAt": "2026-01-15T10:00:00Z",
+        "easeOfUseRating": 8,
+        "reliabilityRating": 9,
+        "valueForMoneyRating": 9,
+        "customizationRating": 7
       }
     ],
-    "reviewsExtracted": 2,
-    "averageRating": 4.92,
+    "reviewsExtracted": 29,
+    "averageRating": 4.76,
     "searchContext": {
       "sourceType": "search",
       "discoveryUrl": "https://www.producthunt.com/example/96863",
@@ -117,5 +150,159 @@
     "shortDescription": "Example short description",
     "upvotes": 869,
     "launchName": "Example launch name"
+  },
+  {
+    "rowType": "product",
+    "id": "Example id",
+    "sourceUrl": "https://www.producthunt.com/example/81912",
+    "canonicalUrl": "https://www.producthunt.com/example/24502",
+    "slug": "id41722274",
+    "name": "Example name",
+    "tagline": "Example tagline: mock text standing in for the real value. Same field and type, made-up content.",
+    "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
+    "logoUrl": "https://ph-files.imgix.net/example/20862.jpg",
+    "websiteUrl": "https://n8n.io/example/34650",
+    "githubUrl": "https://github.com/example/81965",
+    "linkedinUrl": "https://www.linkedin.com/example/51907",
+    "twitterUrl": "https://x.com/example/98409",
+    "votesCount": 478,
+    "commentsCount": 68,
+    "followersCount": 4691,
+    "reviewsCount": 49,
+    "postsCount": 5,
+    "launchesCount": 1,
+    "launchDayScore": 769,
+    "dayRank": 8,
+    "weekRank": 3,
+    "monthRank": 34,
+    "isPromoted": false,
+    "employeeSize": null,
+    "fundingAmount": null,
+    "wasInYCombinator": false,
+    "appStoreUrl": null,
+    "googlePlayUrl": null,
+    "ratingBreakdown": [
+      {
+        "rating": 8,
+        "count": 70
+      },
+      {
+        "rating": 5,
+        "count": 1
+      }
+    ],
+    "badges": [
+      {
+        "period": "weekly",
+        "rank": 1,
+        "date": "2026-01-15"
+      },
+      {
+        "period": "weekly",
+        "rank": 7,
+        "date": "2026-01-15"
+      }
+    ],
+    "media": [
+      {
+        "type": "image",
+        "url": "https://ph-files.imgix.net/example/38855.jpg",
+        "alt": "Example alt",
+        "width": null,
+        "height": null
+      },
+      {
+        "type": "image",
+        "url": "https://ph-files.imgix.net/example/40846.jpg",
+        "alt": "Example alt",
+        "width": null,
+        "height": null
+      }
+    ],
+    "mediaCount": 76,
+    "categories": [
+      {
+        "name": "Example name",
+        "path": "Example path",
+        "slug": "automation"
+      },
+      {
+        "name": "Example name",
+        "path": "Example path",
+        "slug": "platforms"
+      }
+    ],
+    "reviews": [
+      {
+        "rowType": "review",
+        "id": "Example id: mock text standing in for the real value. Same field and type, made-up content.",
+        "productSlug": "id32793980",
+        "productUrl": "https://www.producthunt.com/example/51602",
+        "reviewId": "https://www.producthunt.com/example/143",
+        "reviewUrl": "https://www.producthunt.com/example/66871",
+        "rating": 8,
+        "ratingMax": 7,
+        "reviewText": "Example review text: mock text standing in for the real value. Same field and type, made-up content.",
+        "positiveNotes": [
+          "Example positive notes: mock text standing in for the real value. Same field and type, made-up content.",
+          "Example positive notes"
+        ],
+        "negativeNotes": [
+          "Example negative notes: mock text standing in for the real value. Same field and type, made-up content.",
+          "Example negative notes"
+        ],
+        "reviewDate": "2026-01-15T10:00:00Z",
+        "dateModified": "2026-01-15T10:00:00Z",
+        "authorName": "Example author name",
+        "authorUrl": "https://www.producthunt.com/example/44154",
+        "authorImage": "https://ph-avatars.imgix.net/example/13487.jpg",
+        "scrapedAt": "2026-01-15T10:00:00Z",
+        "easeOfUseRating": 1,
+        "reliabilityRating": 9,
+        "valueForMoneyRating": 9,
+        "customizationRating": 6,
+        "viewsCount": 790
+      },
+      {
+        "rowType": "review",
+        "id": "Example id: mock text standing in for the real value. Same field and type, made-up content.",
+        "productSlug": "id50317170",
+        "productUrl": "https://www.producthunt.com/example/56206",
+        "reviewId": "https://www.producthunt.com/example/81568",
+        "reviewUrl": "https://www.producthunt.com/example/78802",
+        "rating": 5,
+        "ratingMax": 1,
+        "reviewText": "Example review text: mock text standing in for the real value. Same field and type, made-up content.",
+        "positiveNotes": [
+          "Example positive notes: mock text standing in for the real value. Same field and type, made-up content.",
+          "Example positive notes"
+        ],
+        "negativeNotes": [
+          "Example negative notes: mock text standing in for the real value. Same field and type, made-up content.",
+          "Example negative notes"
+        ],
+        "reviewDate": "2026-01-15T10:00:00Z",
+        "dateModified": "2026-01-15T10:00:00Z",
+        "authorName": "Example author name",
+        "authorUrl": "https://www.producthunt.com/example/21331",
+        "authorImage": "https://ph-avatars.imgix.net/example/59290.jpg",
+        "scrapedAt": "2026-01-15T10:00:00Z",
+        "easeOfUseRating": 8,
+        "reliabilityRating": 1,
+        "valueForMoneyRating": 3,
+        "customizationRating": 2,
+        "viewsCount": 765
+      }
+    ],
+    "reviewsExtracted": 65,
+    "averageRating": 5.93,
+    "searchContext": {
+      "sourceType": "search",
+      "discoveryUrl": "https://www.producthunt.com/example/70634",
+      "resultPosition": 6,
+      "keyword": "ai"
+    },
+    "shortDescription": "Example short description: mock text standing in for the real value. Same field and type, made-up content.",
+    "upvotes": 945
   }
 ]

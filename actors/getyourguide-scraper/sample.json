@@ -1,0 +1,55 @@
+[
+  {
+    "type": "activity",
+    "source": "getyourguide.com",
+    "activityId": 4958708,
+    "title": "Example title: mock text standing in for the real value. Same field and type, made-up content.",
+    "url": "https://www.getyourguide.com/example/97101",
+    "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
+    "priceFrom": 19.65,
+    "originalPrice": 22.16,
+    "priceFromFormatted": "Example price from formatted",
+    "discountPercent": 19.99,
+    "priceCurrency": "USD",
+    "priceUnit": "Example price unit",
+    "rating": 3.69,
+    "reviewCount": 6542,
+    "duration": "Example duration",
+    "durationText": "Example duration text",
+    "freeCancellation": false,
+    "skipTheLine": false,
+    "mustBookOnline": false,
+    "badges": [
+      "Example badges"
+    ],
+    "categories": [
+      "entryTicket",
+      "waterActivity"
+    ],
+    "highlights": [
+      "Example highlights: mock text standing in for the real value. Same field and type, made-up content.",
+      "Example highlights: mock text standing in for the real value. Same field and type, made-up content."
+    ],
+    "languages": null,
+    "supplier": "Example supplier",
+    "availability": "Example availability",
+    "nextAvailableAt": "2026-01-15T10:00:00Z",
+    "imageUrl": "https://cdn.getyourguide.com/example/95568.jpg",
+    "images": [
+      "https://cdn.getyourguide.com/example/3028.jpg",
+      "https://cdn.getyourguide.com/example/80181.jpg"
+    ],
+    "city": "Paris",
+    "cityId": 87,
+    "position": 1,
+    "isBestseller": false,
+    "bookedIn24Hours": 657,
+    "bookedYesterdayText": "Example booked yesterday text",
+    "audioGuide": null,
+    "pickupAvailable": false,
+    "wheelchairAccessible": null,
+    "privateGroup": false,
+    "searchQuery": "paris",
+    "scrapedAt": "2026-01-15T10:00:00Z"
+  }
+]

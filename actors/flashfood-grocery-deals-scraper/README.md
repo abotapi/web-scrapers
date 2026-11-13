@@ -63,7 +63,7 @@ Full details on the [scraper page](https://apify.com/abotapi/flashfood-grocery-d
 | `name` | string |
 | `gtin` | string |
 | `price` | float |
-| `originalPrice` | float |
+| `originalPrice` | integer |
 | `discountPercent` | integer |
 | `savings` | float |
 | `daysToExpiry` | integer |

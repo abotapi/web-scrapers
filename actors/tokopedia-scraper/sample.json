@@ -1,44 +1,208 @@
 [
   {
     "productId": "22548131463",
-    "productIdOld": 76345562496,
-    "ttsProductID": "5557224686732427284",
     "productKey": "id77267761",
-    "name": "Example name: mock text standing in for the real value. Same field and type, made-up content.",
+    "shopDomain": "osfrans",
     "url": "https://www.tokopedia.com/example/71277",
-    "applink": "Example applink: mock text standing in for the real value. Same field and type, made-up content.",
-    "condition": null,
-    "categoryId": "160",
+    "sourceUrl": "https://www.tokopedia.com/example/80931",
+    "mode": "detail",
+    "platform": "tokopedia",
+    "searchQuery": null,
+    "shopId": "6022946",
+    "shopName": "Example shop name",
+    "minOrder": 9,
+    "weight": 38,
+    "weightUnit": "KILOGRAM",
     "categoryName": "Example category name",
     "categoryBreadcrumb": "Example category breadcrumb",
-    "categoryGaKey": "Example category ga key",
-    "minOrder": null,
-    "weight": null,
-    "weightUnit": null,
-    "description": null,
-    "etalase": null,
+    "reviewCount": 22,
+    "rating": 4.84,
+    "soldCount": 23,
+    "soldText": "70+",
     "price": 257437,
     "priceText": "Example price text",
-    "originalPrice": null,
-    "discountPercentage": 0,
-    "priceRange": null,
-    "wholesale": [],
-    "isOnSpecial": false,
-    "specialsCategory": null,
-    "specialsCampaignId": null,
-    "specialsDiscountPercentage": null,
-    "specialsOriginalPrice": null,
-    "specialsPrice": null,
-    "specialsStock": null,
-    "specialsOriginalStock": null,
-    "specialsStockSoldPercentage": null,
-    "specialsStartDate": null,
-    "specialsEndDate": null,
-    "specialsThematicName": null,
-    "cashbackPercentage": null,
-    "variantSkus": [],
-    "stock": null,
+    "stock": 0,
     "stockText": null,
-    "isPreorder": null
+    "isPreorder": false,
+    "preorderDays": 0,
+    "isCashOnDelivery": false,
+    "isPowerMerchant": true,
+    "isOfficialStore": false,
+    "isTradeIn": false,
+    "isWishlist": false,
+    "hasVariant": true,
+    "name": "Example name: mock text standing in for the real value. Same field and type, made-up content.",
+    "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
+    "condition": "Baru",
+    "etalase": "Example etalase",
+    "gallery": [
+      {
+        "type": "image",
+        "original": "https://p16-images-sign-sg.tokopedia-static.net/example/39706.jpg",
+        "thumbnail": "https://p16-images-sign-sg.tokopedia-static.net/example/44888.jpg",
+        "maxRes": "https://p16-images-sign-sg.tokopedia-static.net/example/49657.jpg",
+        "videoUrl": null,
+        "description": null
+      },
+      {
+        "type": "image",
+        "original": "https://p16-images-sign-sg.tokopedia-static.net/example/68571.jpg",
+        "thumbnail": "https://p19-images-sign-sg.tokopedia-static.net/example/16390.jpg",
+        "maxRes": "https://p16-images-sign-sg.tokopedia-static.net/example/68202.jpg",
+        "videoUrl": null,
+        "description": null
+      }
+    ],
+    "image": "https://p16-images-sign-sg.tokopedia-static.net/example/93285.jpg",
+    "videos": [],
+    "variants": [
+      {
+        "type": "warna",
+        "options": []
+      },
+      {
+        "type": "ukuran",
+        "options": []
+      }
+    ],
+    "variantSkus": [
+      {
+        "productId": "32303183759",
+        "optionName": [
+          "Example option name",
+          "Example option name"
+        ],
+        "productName": "Example product name: mock text standing in for the real value. Same field and type, made-up content.",
+        "url": "https://www.tokopedia.com/example/71277",
+        "price": 257437,
+        "priceText": "Example price text",
+        "originalPrice": null,
+        "discountPercentage": null,
+        "stock": 40,
+        "isBuyable": true,
+        "isOnSpecial": false,
+        "specialsCategory": "4"
+      },
+      {
+        "productId": "42053888267",
+        "optionName": [
+          "Example option name",
+          "Example option name"
+        ],
+        "productName": "Example product name: mock text standing in for the real value. Same field and type, made-up content.",
+        "url": "https://www.tokopedia.com/example/70361",
+        "price": 455959,
+        "priceText": "Example price text",
+        "originalPrice": null,
+        "discountPercentage": null,
+        "stock": 41,
+        "isBuyable": true,
+        "isOnSpecial": false,
+        "specialsCategory": "2"
+      }
+    ]
+  },
+  {
+    "productId": "80732446474",
+    "productKey": "id69849217",
+    "shopDomain": "alphaman",
+    "url": "https://www.tokopedia.com/example/4199",
+    "sourceUrl": "https://www.tokopedia.com/example/31769",
+    "mode": "detail",
+    "platform": "tokopedia",
+    "searchQuery": null,
+    "shopId": "93701114",
+    "shopName": "Example shop name",
+    "minOrder": 5,
+    "weight": 0.65,
+    "weightUnit": "KILOGRAM",
+    "categoryName": "Example category name",
+    "categoryBreadcrumb": "Example category breadcrumb",
+    "reviewCount": 42,
+    "rating": 5.49,
+    "soldCount": 44,
+    "soldText": "82+",
+    "price": 226543,
+    "priceText": "Example price text",
+    "stock": 67,
+    "stockText": null,
+    "isPreorder": false,
+    "preorderDays": 0,
+    "isCashOnDelivery": false,
+    "isPowerMerchant": true,
+    "isOfficialStore": false,
+    "isTradeIn": false,
+    "isWishlist": false,
+    "hasVariant": true,
+    "name": "Example name: mock text standing in for the real value. Same field and type, made-up content.",
+    "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
+    "condition": "Baru",
+    "etalase": "Example etalase",
+    "gallery": [
+      {
+        "type": "image",
+        "original": "https://p16-images-sign-sg.tokopedia-static.net/example/15804.jpg",
+        "thumbnail": "https://p16-images-sign-sg.tokopedia-static.net/example/81911.jpg",
+        "maxRes": "https://p19-images-sign-sg.tokopedia-static.net/example/56058.jpg",
+        "videoUrl": null,
+        "description": null
+      },
+      {
+        "type": "video",
+        "original": "https://p16-images-sign-sg.tokopedia-static.net/example/90909.jpg",
+        "thumbnail": "https://p16-images-sign-sg.tokopedia-static.net/example/2330.jpg",
+        "maxRes": "https://p16-images-sign-sg.tokopedia-static.net/example/50237.jpg",
+        "videoUrl": "https://v16-tkp-vod.tokopedia-static.net/example/86437",
+        "description": null
+      }
+    ],
+    "image": "https://p16-images-sign-sg.tokopedia-static.net/example/24066.jpg",
+    "videos": [],
+    "variants": [
+      {
+        "type": "warna",
+        "options": []
+      },
+      {
+        "type": "Example type",
+        "options": []
+      }
+    ],
+    "variantSkus": [
+      {
+        "productId": "80448625153",
+        "optionName": [
+          "Example option name",
+          "97"
+        ],
+        "productName": "Example product name: mock text standing in for the real value. Same field and type, made-up content.",
+        "url": "https://www.tokopedia.com/example/4199",
+        "price": 226543,
+        "priceText": "Example price text",
+        "originalPrice": null,
+        "discountPercentage": null,
+        "stock": 337,
+        "isBuyable": true,
+        "isOnSpecial": false,
+        "specialsCategory": "9"
+      },
+      {
+        "productId": "36801613540",
+        "optionName": [
+          "Example option name",
+          "96"
+        ],
+        "productName": "Example product name: mock text standing in for the real value. Same field and type, made-up content.",
+        "url": "https://www.tokopedia.com/example/28312",
+        "price": 138293,
+        "priceText": "Example price text",
+        "originalPrice": null,
+        "discountPercentage": null,
+        "stock": 618,
+        "isBuyable": true,
+        "isOnSpecial": false,
+        "specialsCategory": "6"
+      }
+    ]
   }
 ]

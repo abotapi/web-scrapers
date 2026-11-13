@@ -9,12 +9,13 @@
     "url": "https://www.crexi.com/example/43996",
     "property_url": "https://www.crexi.com/example/95076",
     "detailPageUrl": "https://www.crexi.com/example/89729",
-    "askingPrice": 6938657,
-    "price": 4430015,
+    "askingPrice": null,
+    "price": null,
     "types": [
-      "Retail"
+      "Office",
+      "Industrial"
     ],
-    "property_type": "Retail",
+    "property_type": "Example property_type",
     "status": "Active",
     "description": "Example description",
     "thumbnailUrl": "https://crexi.com/example/36788.jpg",

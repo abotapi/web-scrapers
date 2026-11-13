@@ -70,12 +70,12 @@ Full details on the [scraper page](https://apify.com/abotapi/therealreal-scraper
 | `gender` | string |
 | `primaryMaterial` | string |
 | `attributes` | object |
-| `retailPrice` | null |
+| `retailPrice` | integer |
 | `listPrice` | integer |
 | `originalPrice` | integer |
 | `currency` | string |
 | `discountPct` | integer |
-| `vsRetailPct` | null |
+| `vsRetailPct` | float |
 | `isOnSale` | boolean |
 | `availability` | string |
 | `isSold` | boolean |

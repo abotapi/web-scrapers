@@ -1,0 +1,52 @@
+[
+  {
+    "recordType": "restaurant",
+    "restaurantId": "53905920",
+    "url": "https://tabelog.com/example/65056",
+    "restaurantUrl": "https://tabelog.com/example/85271",
+    "name": "Example name",
+    "restaurantName": "Example restaurant name",
+    "title": "Example title",
+    "rank": 5,
+    "station": "Example station",
+    "nearestStation": "Example nearest station",
+    "stationDistance": "Example station distance",
+    "restaurantArea": "Example restaurant area",
+    "searchArea": "Example search area",
+    "searchKeyword": "ramen",
+    "genre": "Example genre",
+    "restaurantGenre": "Example restaurant genre",
+    "genres": [
+      "Ramen",
+      "Example genres"
+    ],
+    "categories": [
+      "Ramen",
+      "Example categories"
+    ],
+    "rating": 3.44,
+    "restaurantRating": 2.9,
+    "score": 3.55,
+    "ratingLabel": "Example rating label",
+    "reviewCount": 244,
+    "totalReviewCount": 954,
+    "dinnerBudget": "Example dinner budget",
+    "budgetDinner": "Example budget dinner",
+    "priceDinner": "Example price dinner",
+    "dinnerBudgetMin": null,
+    "dinnerBudgetMax": 743,
+    "lunchBudget": "Example lunch budget",
+    "budgetLunch": "Example budget lunch",
+    "priceLunch": "Example price lunch",
+    "lunchBudgetMin": 8513,
+    "lunchBudgetMax": 7753,
+    "closedDays": "Example closed days",
+    "smokingPolicy": "Example smoking policy",
+    "tags": [
+      "Example tags"
+    ],
+    "awards": [],
+    "promotionTitle": null,
+    "imageUrl": "https://tblg.k-img.com/example/8945.jpg"
+  }
+]

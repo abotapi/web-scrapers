@@ -1,18 +1,18 @@
 [
   {
-    "id": "639986102",
+    "id": "341903415",
     "url": "https://auto.drom.ru/example/19131",
     "title": "Example title",
     "make": "Audi",
-    "model": "A4",
-    "year": "6120",
+    "model": "Q8",
+    "year": "3438",
     "price": 8795893,
     "currency": "RUB",
     "engine": "Example engine",
     "fuel": "Example fuel",
     "gearbox": "Example gearbox",
     "drivetrain": "Example drivetrain",
-    "mileageKm": 866506,
+    "mileageKm": 4,
     "city": "Example city",
     "bullId": 273855734,
     "minimalPrice": 0,
@@ -21,22 +21,22 @@
       "total": 33,
       "items": [
         {
-          "src": "https://s12.auto.drom.ru/example/82918.jpg",
-          "src2x": "https://s12.auto.drom.ru/example/5304.jpg",
+          "src": "https://s31.auto.drom.ru/example/82918.jpg",
+          "src2x": "https://s31.auto.drom.ru/example/5304.jpg",
           "width": 930,
           "height": 546,
-          "alt": "Example alt"
+          "alt": "Example alt: mock text standing in for the real value. Same field and type, made-up content."
         },
         {
-          "src": "https://s12.auto.drom.ru/example/14082.jpg",
-          "src2x": "https://s12.auto.drom.ru/example/82133.jpg",
+          "src": "https://s31.auto.drom.ru/example/14082.jpg",
+          "src2x": "https://s31.auto.drom.ru/example/82133.jpg",
           "width": 540,
           "height": 334,
-          "alt": "Example alt"
+          "alt": "Example alt: mock text standing in for the real value. Same field and type, made-up content."
         }
       ]
     },
-    "frameType": 79,
+    "frameType": 7,
     "showPlaceholder": false,
     "dealType": 3,
     "sold": false,
@@ -46,32 +46,35 @@
       }
     ],
     "info": null,
-    "dealerName": null,
-    "hasDealerName": false,
-    "subtitle": "Example subtitle",
+    "dealerName": "Example dealer name",
+    "hasDealerName": true,
     "attributes": [
       {
         "type": "plain",
         "payload": "Example payload"
       },
       {
-        "type": "plain",
-        "payload": "Example payload"
+        "type": "balloon",
+        "payload": {
+          "text": "Example text",
+          "content": "Example content"
+        }
       }
     ],
+    "promotionStatus": 3,
     "date": "Example date",
     "location": "Example location",
     "carState": [],
     "region": "moscow",
     "category": "auto",
-    "engineVolume": 1.33,
+    "engineVolume": 5,
     "powerHp": 664,
     "photos": [
-      "https://s31.auto.drom.ru/example/19516.jpg",
-      "https://s31.auto.drom.ru/example/47880.jpg"
+      "https://s12.auto.drom.ru/example/19516.jpg",
+      "https://s12.auto.drom.ru/example/47880.jpg"
     ],
     "photoCount": 42,
-    "imageUrl": "https://s31.auto.drom.ru/example/22959.jpg",
+    "imageUrl": "https://s12.auto.drom.ru/example/22959.jpg",
     "recordType": "listing",
     "mode": "SEARCH"
   }

@@ -1,27 +1,27 @@
 [
   {
-    "productId": "404591888",
+    "productId": "14418930",
     "sku": "id26056093",
     "spu": "id46186238",
     "title": "Example title: mock text standing in for the real value. Same field and type, made-up content.",
     "url": "https://au.shein.com/example/955",
-    "category": "Example category",
-    "categoryId": "4006",
-    "price": 7.09,
-    "originalPrice": 9.13,
-    "discountPercent": 68,
-    "discountAmount": 1.63,
-    "isOnSale": true,
+    "category": "Cups",
+    "categoryId": "9046",
+    "price": 2.92,
+    "originalPrice": null,
+    "discountPercent": null,
+    "discountAmount": null,
+    "isOnSale": false,
     "currency": "Example currency",
-    "priceUsd": 3.72,
-    "rating": 4.21,
-    "reviewsCount": 158,
+    "priceUsd": 1.5,
+    "rating": 4.25,
+    "reviewsCount": 5558,
     "inStock": true,
     "stock": 856,
     "isFlashSale": false,
     "isClearance": false,
     "hasVideo": false,
-    "storeCode": "7608720862",
+    "storeCode": "9687869435",
     "mallCode": "8",
     "image": "https://img.ltwebstatic.com/example/33446.jpg",
     "images": [
@@ -30,11 +30,11 @@
     ],
     "scrapedAt": "2026-01-15T10:00:00Z",
     "priceFormatted": "Example price formatted",
-    "originalPriceFormatted": "Example original price formatted",
+    "originalPriceFormatted": null,
     "currencyCode": "AUD",
     "country": "AU",
     "estimatedPrice": null,
-    "reviewsCountText": "566+",
+    "reviewsCountText": "2338+",
     "fit": {
       "trueSize": "Example true size",
       "large": "Example large",
@@ -53,18 +53,7 @@
       }
     ],
     "dealEndsAt": null,
-    "promotions": [
-      {
-        "id": "93014636",
-        "typeId": "41",
-        "endTime": "2026-01-15T10:00:00Z",
-        "endTimestamp": 2845108829,
-        "endsAt": "2026-01-15T10:00:00Z",
-        "isReturn": true,
-        "isFullShop": false,
-        "note": "Example note"
-      }
-    ],
+    "promotions": [],
     "quickShip": false,
     "isCustomizable": false
   }

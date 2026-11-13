@@ -1,22 +1,21 @@
 [
   {
-    "clientId": "48874223",
+    "clientId": "10294399",
     "name": "Example name",
     "detailUrl": "https://www.pagesjaunes.fr/example/86621",
     "activities": [
       "plombiers"
     ],
     "address": "Example address",
-    "rating": 5.46,
+    "rating": 4.71,
     "reviewCount": 85,
     "phone": "+1 555 0100",
     "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
-    "paymentAccepted": "Example payment accepted",
-    "businessType": "Example business type",
+    "businessType": "Example business type: mock text standing in for the real value. Same field and type, made-up content.",
     "fullAddress": {
       "street": "Example street",
       "locality": "Example locality",
-      "postalCode": "56604",
+      "postalCode": "63368",
       "country": "FR"
     },
     "openingHours": [
@@ -26,7 +25,7 @@
     "imageUrl": "https://www.pagesjaunes.fr/example/97384.jpg",
     "reviews": [
       {
-        "author": "id60720448",
+        "author": "Example author",
         "rating": 1,
         "text": "Example text: mock text standing in for the real value. Same field and type, made-up content.",
         "date": "2026-01-15"
@@ -41,10 +40,10 @@
       "Example services"
     ],
     "products": [
-      "Example products",
+      "robinetterie",
       "Example products"
     ],
-    "website": "https://www.electricien-paris-15-artisan-bernard-sylvestre.fr/example/96652",
+    "website": "http://www.plombiers-75012.fr/example/96652",
     "photos": [
       "https://www.pagesjaunes.fr/example/82501.jpg",
       "https://www.pagesjaunes.fr/example/6767.jpg"

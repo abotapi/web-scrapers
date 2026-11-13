@@ -37,7 +37,9 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~homely-com-au-scraper/run
 | `bedroomsMin` | integer | Min bedrooms |
 | `bedroomsMax` | integer | Max bedrooms |
 | `bathroomsMin` | integer | Min bathrooms |
+| `bathroomsMax` | integer | Max bathrooms |
 | `carSpacesMin` | integer | Min car spaces |
+| `carSpacesMax` | integer | Max car spaces |
 | `propertyTypes` | array | Property types |
 | `propertyFeatures` | array | Required features |
 | `isUnderOffer` | boolean | Under offer only |
@@ -83,14 +85,14 @@ Full details on the [scraper page](https://apify.com/abotapi/homely-com-au-scrap
 | `videos` | list |
 | `externalLinks` | list |
 | `inspections` | list |
-| `auction` | object |
+| `auction` | null |
 | `landFeatures` | null |
 | `slugs` | object |
 | `nextInspection` | string |
 | `soldOn` | null |
 | `soldPrice` | string |
 | `soldPriceValue` | null |
-| `auctionOn` | string |
+| `auctionOn` | null |
 | `loanPriceEstimate` | integer |
 | `sourceUrl` | string |
 | `scrapedAt` | string |

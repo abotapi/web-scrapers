@@ -15,6 +15,7 @@ run = client.actor("abotapi/bookmyshow-scraper").call(
         "mode": "search",
         "city": "mumbai",
         "category": "movies",
+        "dateMode": "AUTO_DISCOVER",
         "maxItems": 10,
         "maxPages": 1,
         "proxyConfiguration": {"useApifyProxy": True, "apifyProxyGroups": ["RESIDENTIAL"], "apifyProxyCountry": "IN"},

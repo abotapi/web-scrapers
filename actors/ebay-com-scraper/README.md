@@ -17,7 +17,7 @@ python example.py
 ```bash
 curl -s -X POST "https://api.apify.com/v2/acts/abotapi~ebay-com-scraper/run-sync-get-dataset-items?token=$APIFY_TOKEN" \
   -H 'Content-Type: application/json' \
-  -d '{"mode": "search", "queries": ["laptop"], "marketplace": "com", "buyingFormat": "any", "itemLocation": "default", "sortBy": "best_match", "itemCondition": "any", "maxReviewsPerProduct": 10, "maxItems": 10, "maxPages": 1, "proxy": {"useApifyProxy": true, "apifyProxyGroups": ["RESIDENTIAL"]}}'
+  -d '{"mode": "search", "marketplace": "com", "categoryId": "177", "buyingFormat": "any", "itemLocation": "default", "sortBy": "best_match", "itemCondition": "any", "maxReviewsPerProduct": 10, "maxItems": 10, "maxPages": 1, "proxy": {"useApifyProxy": true, "apifyProxyGroups": ["RESIDENTIAL"]}}'
 ```
 
 ## Inputs
@@ -25,7 +25,6 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~ebay-com-scraper/run-sync
 | Input | Type | What it is |
 | --- | --- | --- |
 | `mode` * | string | Mode |
-| `queries` | array | Search keywords |
 | `sellerUsernames` | array | Sellers |
 | `marketplace` | string | Marketplace |
 | `categoryId` | string | Category id |
@@ -39,7 +38,6 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~ebay-com-scraper/run-sync
 | `itemLocation` | string | Item location |
 | `sortBy` | string | Sort by |
 | `sortOrder` | string | Sort order (alias of Sort by) |
-| `keywords` | array | Keywords (alias of Search keywords) |
 | `ebaySite` | string | eBay site (alias of Marketplace) |
 | `subcategoryId` | string | Subcategory ID |
 | `itemCondition` | string | Item condition (any / new / used) |
@@ -51,7 +49,7 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~ebay-com-scraper/run-sync
 | `fetchDetails` | boolean | Read item pages |
 | `maxReviewsPerProduct` | integer | Max seller feedback comments per listi |
 | `maxItems` | integer | Max listings |
-| `maxPages` | integer | Max result pages per keyword, seller o |
+| `maxPages` | integer | Max result pages per category, seller  |
 | `proxy` | object | Proxy configuration |
 
 `*` required
@@ -67,37 +65,37 @@ Full details on the [scraper page](https://apify.com/abotapi/ebay-com-scraper?ut
 | `itemId` | string |
 | `url` | string |
 | `title` | string |
-| `subtitle` | string |
+| `subtitle` | null |
 | `condition` | string |
 | `conditionId` | string |
-| `brand` | null |
+| `brand` | string |
 | `marketplace` | string |
 | `price` | float |
 | `priceMax` | null |
 | `priceText` | string |
 | `currency` | string |
-| `originalPrice` | null |
-| `discountPercent` | null |
+| `originalPrice` | float |
+| `discountPercent` | float |
 | `listingType` | string |
 | `bidCount` | null |
 | `timeLeft` | null |
-| `shippingCost` | null |
+| `shippingCost` | integer |
 | `shippingText` | string |
 | `freeShipping` | boolean |
-| `itemLocation` | string |
-| `returnsText` | string |
-| `freeReturns` | boolean |
-| `soldCount` | null |
-| `sellerName` | string |
-| `sellerUrl` | string |
-| `sellerFeedbackPercent` | float |
-| `sellerFeedbackCount` | integer |
+| `itemLocation` | null |
+| `returnsText` | null |
+| `freeReturns` | null |
+| `soldCount` | integer |
+| `sellerName` | null |
+| `sellerUrl` | null |
+| `sellerFeedbackPercent` | null |
+| `sellerFeedbackCount` | null |
 | `badges` | list |
 | `imageUrl` | string |
 | `attributes` | list |
 | `pageNumber` | integer |
 | `sourceUrl` | string |
-| `sellerUsername` | string |
+| `sellerUsername` | null |
 | `images` | null |
 | `itemSpecifics` | null |
 | `categoryPath` | null |

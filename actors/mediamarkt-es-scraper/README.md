@@ -75,6 +75,7 @@ Full details on the [scraper page](https://apify.com/abotapi/mediamarkt-es-scrap
 | `fulfillmentEarliest` | string |
 | `fulfillmentLatest` | string |
 | `energyClass` | null |
+| `highlights` | object |
 | `price` | integer |
 | `currency` | string |
 | `discountAmount` | integer |
@@ -93,7 +94,6 @@ Full details on the [scraper page](https://apify.com/abotapi/mediamarkt-es-scrap
 | `sellerRating` | null |
 | `strikePrice` | integer |
 | `discountPercentage` | integer |
-| `onlineAvailable` | boolean |
 
 ---
 

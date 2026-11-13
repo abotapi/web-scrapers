@@ -85,7 +85,7 @@ Full details on the [scraper page](https://apify.com/abotapi/daangn-scraper?utm_
 | `category` | object |
 | `user` | object |
 | `tradingLocation` | object |
-| `sellerName` | string |
+| `sellerName` | null |
 | `condition` | string |
 | `chatRoomsCount` | integer |
 | `watchesCount` | integer |
@@ -93,10 +93,10 @@ Full details on the [scraper page](https://apify.com/abotapi/daangn-scraper?utm_
 | `favoriteCount` | integer |
 | `chatCount` | integer |
 | `viewCount` | integer |
-| `sellerScore` | float |
-| `sellerReviewCount` | integer |
-| `sellerProfileUrl` | string |
-| `sellerProfileImage` | string |
+| `sellerScore` | null |
+| `sellerReviewCount` | null |
+| `sellerProfileUrl` | null |
+| `sellerProfileImage` | null |
 
 ---
 

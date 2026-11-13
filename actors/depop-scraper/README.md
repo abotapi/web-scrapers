@@ -74,11 +74,11 @@ Full details on the [scraper page](https://apify.com/abotapi/depop-scraper?utm_s
 | `variants` | list |
 | `sku` | null |
 | `isBoosted` | boolean |
-| `boostedAt` | null |
+| `boostedAt` | string |
 | `isSold` | null |
 | `price` | integer |
-| `totalPrice` | integer |
-| `buyerFee` | integer |
+| `totalPrice` | float |
+| `buyerFee` | float |
 | `tax` | integer |
 | `taxType` | string |
 | `shippingCost` | float |

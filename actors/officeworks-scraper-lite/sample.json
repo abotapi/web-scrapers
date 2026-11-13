@@ -1,23 +1,23 @@
 [
   {
-    "sku": "acd9zsa152",
+    "sku": "hpfc4583au",
     "name": "Example name",
     "title": "Example title",
-    "brand": "Acer",
+    "brand": "HP",
     "url": "https://www.officeworks.com.au/example/56788",
     "seoPath": "Example seo path: mock text standing in for the real value. Same field and type, made-up content.",
     "price": 638,
     "currency": "AUD",
-    "gtin": "9986593119603",
-    "manufacturerPartNumber": "Example manufacturer part number",
+    "gtin": "927229178240",
+    "manufacturerPartNumber": "d10grpa",
     "productType": "STANDARD",
-    "colour": "Silver",
+    "colour": "Black",
     "multipackSize": null,
     "unitsPerPack": 7,
     "category": "Example category",
     "categoryPath": "Example category path",
     "availableStates": [
-      "SA",
+      "NSW",
       "QLD"
     ],
     "isAvailableInStore": true,
@@ -29,52 +29,60 @@
     "wasPrice": null,
     "savingsAmount": null,
     "savingsPercent": null,
-    "rating": 2.64,
-    "reviewCount": 1,
+    "rating": 2.95,
+    "reviewCount": 55,
     "imageUrl": "https://s3-ap-southeast-2.amazonaws.com/example/68553.jpg",
     "images": [
-      "https://s3-ap-southeast-2.amazonaws.com/example/79160.jpg",
-      "https://s3-ap-southeast-2.amazonaws.com/example/13616.jpg"
+      "https://s3-ap-southeast-2.amazonaws.com/example/79160.jpg"
     ],
-    "searchMode": "search",
+    "searchMode": "url",
     "source": "Example source",
     "country": "AU",
     "rangedOnline": true,
     "rangedRetail": true,
-    "published": true,
-    "variants": [
-      {
-        "sku": "acd9zsa152",
-        "url": "https://www.officeworks.com.au/example/56788",
-        "attributes": {
-          "Variation": "Example variation"
-        },
-        "imageUrl": "https://s3-ap-southeast-2.amazonaws.com/example/68553.jpg"
-      },
-      {
-        "sku": "acx2psa498",
-        "url": "https://www.officeworks.com.au/example/83672",
-        "attributes": {
-          "Variation": "Example variation"
-        },
-        "imageUrl": "https://s3-ap-southeast-2.amazonaws.com/example/52104.jpg"
-      }
+    "published": true
+  },
+  {
+    "sku": "hpfd2987tu",
+    "name": "Example name",
+    "title": "Example title",
+    "brand": "HP",
+    "url": "https://www.officeworks.com.au/example/10584",
+    "seoPath": "Example seo path: mock text standing in for the real value. Same field and type, made-up content.",
+    "price": 7998,
+    "currency": "AUD",
+    "gtin": "048077980326",
+    "manufacturerPartNumber": "bw3l1pa",
+    "productType": "STANDARD",
+    "colour": "Silver",
+    "multipackSize": null,
+    "unitsPerPack": 2,
+    "category": "Example category",
+    "categoryPath": "Example category path",
+    "availableStates": [
+      "NSW",
+      "QLD"
     ],
-    "variantAxes": {
-      "Variation": [
-        "Example variation",
-        "Example variation"
-      ]
-    },
-    "variantCount": 4,
-    "categoryHierarchy": [
-      [
-        "Technology",
-        "Example category hierarchy"
-      ],
-      [
-        "Example category hierarchy"
-      ]
-    ]
+    "isAvailableInStore": true,
+    "availableOnline": true,
+    "isClearance": false,
+    "isOnSpecial": false,
+    "isNew": false,
+    "promoLabel": null,
+    "wasPrice": null,
+    "savingsAmount": null,
+    "savingsPercent": null,
+    "rating": 4.87,
+    "reviewCount": 43,
+    "imageUrl": "https://s3-ap-southeast-2.amazonaws.com/example/25631.jpg",
+    "images": [
+      "https://s3-ap-southeast-2.amazonaws.com/example/65615.jpg"
+    ],
+    "searchMode": "url",
+    "source": "Example source",
+    "country": "AU",
+    "rangedOnline": true,
+    "rangedRetail": true,
+    "published": true
   }
 ]

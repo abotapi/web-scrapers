@@ -58,7 +58,7 @@ Full details on the [scraper page](https://apify.com/abotapi/webtoons-com-scrape
 | `genre` | string |
 | `webtoonType` | string |
 | `sourcePage` | string |
-| `badge` | null |
+| `badge` | string |
 | `likeCountRaw` | string |
 | `likeCount` | integer |
 | `author` | string |

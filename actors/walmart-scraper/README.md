@@ -28,6 +28,9 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~walmart-scraper/run-sync-
 | `queries` | array | Search keywords |
 | `searchUrls` | array | Storefront links (search, browse, shop |
 | `productInputs` | array | Product links or item ids |
+| `startUrls` | array | Start URLs (any walmart.com link) |
+| `maxProductsPerStartUrl` | integer | Max products per start URL |
+| `enqueueProductVariants` | boolean | Also read product variants |
 | `sortBy` | string | Sort by |
 | `brands` | array | Brands |
 | `retailerType` | string | Sold by |
@@ -63,10 +66,10 @@ Full details on the [scraper page](https://apify.com/abotapi/walmart-scraper?utm
 | `brand` | null |
 | `shortDescription` | null |
 | `imageUrl` | string |
-| `price` | float |
+| `price` | integer |
 | `wasPrice` | integer |
-| `priceRangeLow` | float |
-| `priceRangeHigh` | integer |
+| `priceRangeLow` | integer |
+| `priceRangeHigh` | null |
 | `currency` | string |
 | `rating` | float |
 | `reviewCount` | integer |
@@ -83,10 +86,18 @@ Full details on the [scraper page](https://apify.com/abotapi/walmart-scraper?utm
 | `categoryPath` | string |
 | `categoryPathId` | string |
 | `itemType` | string |
+| `fulfillmentType` | string |
+| `variantList` | list |
 | `searchQuery` | string |
 | `sourceUrl` | string |
 | `resultPage` | integer |
 | `resultPosition` | integer |
+| `usItemId` | string |
+| `name` | string |
+| `availability` | string |
+| `averageRating` | float |
+| `numberOfReviews` | integer |
+| `priceInfo` | object |
 
 ---
 

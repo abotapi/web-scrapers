@@ -1,80 +1,52 @@
 [
   {
-    "productId": "8432961283606947388",
+    "productId": "4781971623419480833",
     "title": "Example title",
     "url": "https://shop.tiktok.com/example/88621",
-    "categoryPath": [
-      "Example category path",
-      "Example category path"
-    ],
+    "categoryPath": [],
     "price": 56,
     "currency": "USD",
     "originalPrice": null,
     "discountPercent": null,
-    "soldCount": 0,
-    "rating": null,
-    "reviewCount": 0,
+    "soldCount": 2,
+    "rating": 3,
+    "reviewCount": 1,
     "ratingHistogram": null,
     "images": [
-      "https://p16-oec-general-useast5.ttcdn-us.com/example/22144.jpg",
-      "https://p16-oec-general-useast5.ttcdn-us.com/example/91982.jpg"
+      "https://p16-oec-general-useast5.ttcdn-us.com/example/22144.jpg"
     ],
     "shopName": "Example shop name",
-    "description": "Example description",
-    "variations": [
-      {
-        "name": "Example name",
-        "options": [
-          "Example options"
-        ]
-      },
-      {
-        "name": "Example name",
-        "options": [
-          "Example options"
-        ]
-      }
-    ],
+    "description": null,
+    "variations": [],
     "reviews": [],
     "searchMode": "search",
-    "shopId": "3572716331784241810",
+    "shopId": "2468658882976256489",
     "resultSource": "search",
-    "sellerProductCount": 6,
-    "id": "6890829221717380582",
-    "sold": 0,
-    "available": true,
-    "final_price": 48,
-    "final_price_low": 68,
-    "final_price_high": 25,
-    "colors": [
-      "Example colors"
+    "scrapedAt": "2026-01-15T10:00:00Z"
+  },
+  {
+    "productId": "9245506764998174646",
+    "title": "Example title",
+    "url": "https://shop.tiktok.com/example/27704",
+    "categoryPath": [],
+    "price": 66,
+    "currency": "USD",
+    "originalPrice": null,
+    "discountPercent": null,
+    "soldCount": 3,
+    "rating": 6,
+    "reviewCount": 3,
+    "ratingHistogram": null,
+    "images": [
+      "https://p16-oec-general-useast5.ttcdn-us.com/example/38896.jpg"
     ],
-    "sizes": [
-      "Example sizes"
-    ],
-    "shipping_fee": 5.25,
-    "specifications": [
-      {
-        "name": "Example name",
-        "value": "Example value"
-      },
-      {
-        "name": "Example name",
-        "value": "Example value"
-      }
-    ],
-    "category": "Example category",
-    "category_url": "https://shop.tiktok.com/example/24458",
-    "domain": "shop.tiktok.com",
-    "store_details": {
-      "name": "Example name",
-      "id": "9077118552123904540",
-      "url": "https://shop.tiktok.com/example/88621",
-      "soldCount": 2,
-      "productCount": 2,
-      "reviewCount": 0,
-      "region": "US"
-    },
+    "shopName": "cases0all",
+    "description": null,
+    "variations": [],
+    "reviews": [],
+    "searchMode": "search",
+    "shopId": "2900131264112883026",
+    "resultSource": "search",
     "scrapedAt": "2026-01-15T10:00:00Z"
   }
 ]

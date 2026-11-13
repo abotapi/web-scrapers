@@ -32,21 +32,21 @@
     "jobId": 553203426,
     "harmonisedId": "id21427487",
     "jobUrl": "https://www.jobsite.co.uk/example/69394",
-    "sourceSite": "Caterer.com",
+    "sourceSite": "Totaljobs.com",
     "title": "Example title",
     "datePosted": "2026-01-15T10:00:00Z",
     "publishFromDate": "2026-01-15T10:00:00Z",
     "publishToDate": "2026-01-15T10:00:00Z",
     "employer": {
-      "id": 664956,
+      "id": 7864956,
       "name": "Example name",
       "url": "https://www.jobsite.co.uk/example/67856",
-      "logoUrl": "https://www.caterer.com/example/48977.jpg",
+      "logoUrl": "https://www.totaljobs.com/example/48977.jpg",
       "isAnonymous": false
     },
     "location": {
       "text": "Example text",
-      "postalCode": "Example postal code",
+      "postalCode": "",
       "locality": null,
       "region": null,
       "country": null,
@@ -55,11 +55,11 @@
       "streetAddress": null
     },
     "salary": {
-      "rawText": "Example raw text: mock text standing in for the real value. Same field and type, made-up content.",
-      "min": 20.39,
-      "max": 90346,
-      "currency": "GBP",
-      "period": "year"
+      "rawText": "Example raw text",
+      "min": null,
+      "max": null,
+      "currency": null,
+      "period": null
     },
     "workFromHome": null,
     "skills": [],

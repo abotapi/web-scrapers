@@ -66,7 +66,7 @@ Full details on the [scraper page](https://apify.com/abotapi/thewarehouse-co-nz-
 | `image` | string |
 | `images` | list |
 | `imageCount` | integer |
-| `ratingValue` | integer |
+| `ratingValue` | float |
 | `ratingCount` | null |
 | `reviewCount` | null |
 | `categoryPath` | list |
@@ -80,8 +80,8 @@ Full details on the [scraper page](https://apify.com/abotapi/thewarehouse-co-nz-
 | `specialsCategory` | null |
 | `features` | list |
 | `wasPrice` | null |
-| `promotionFlags` | null |
-| `isClearance` | null |
+| `promotionFlags` | list |
+| `isClearance` | boolean |
 | `inStock` | boolean |
 | `sourceUrl` | string |
 | `scrapedAt` | string |

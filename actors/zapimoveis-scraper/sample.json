@@ -1,6 +1,6 @@
 [
   {
-    "id": "0757532160",
+    "id": "5509944954",
     "url": "https://www.zapimoveis.com.br/example/94919",
     "title": "Example title",
     "price": 345659,
@@ -15,31 +15,32 @@
     "bathrooms": 7,
     "suites": 7,
     "parking_spaces": 7,
-    "usable_area": 621,
+    "usable_area": 81,
     "total_area": 408,
     "city": "Example city",
     "state_code": "SP",
     "neighborhood": "Example neighborhood",
     "street": "Example street",
-    "zip_code": "87501368",
-    "latitude": -18.59,
-    "longitude": -33.04,
+    "zip_code": "80195677",
+    "latitude": null,
+    "longitude": null,
     "monthly_condo_fee": 0,
     "iptu": null,
     "seller_name": "Example seller_name",
     "seller_tier": "Example seller_tier",
-    "seller_license_number": null,
-    "seller_legacy_zap_id": 0,
+    "seller_license_number": "35787-j-sp",
+    "seller_legacy_zap_id": 176303,
     "phones": [
+      "+1 555 0100",
       "+1 555 0100"
     ],
-    "whatsapp": null,
+    "whatsapp": "+1 555 0100",
     "lqs": null,
     "created_at": "2026-01-15T10:00:00Z",
-    "updated_at": null,
+    "updated_at": "2026-01-15T10:00:00Z",
     "identity": {
-      "id": "0757532160",
-      "external_id": "so18539",
+      "id": "5509944954",
+      "external_id": "724",
       "source_id": "id95609212",
       "provider_id": null,
       "fingerprint": null,
@@ -66,7 +67,7 @@
     "timestamps": {
       "published_at": "2026-01-15T10:00:00Z",
       "created_at": "2026-01-15T10:00:00Z",
-      "updated_at": null,
+      "updated_at": "2026-01-15T10:00:00Z",
       "delivered_at": null
     },
     "content": {
@@ -86,7 +87,7 @@
           "monthly_condo_fee": 0,
           "iptu": null,
           "iptu_period": null,
-          "yearly_iptu": 874,
+          "yearly_iptu": 0,
           "rental_period": null,
           "rental_warranties": [],
           "monthly_rental_total_price": null
@@ -104,19 +105,19 @@
     "location": {
       "label": "Example label",
       "street": "Example street",
-      "street_number": "311",
+      "street_number": null,
       "neighborhood": "Example neighborhood",
       "city": "Example city",
       "state_code": "SP",
       "state": "Example state",
       "zone": "Example zone",
-      "zip_code": "87501368",
+      "zip_code": "80195677",
       "country": "BR",
       "full_address": null,
       "ibge_city_id": null,
       "coordinates": {
-        "latitude": -18.59,
-        "longitude": -33.04,
+        "latitude": null,
+        "longitude": null,
         "source": "GOOGLE"
       },
       "geocoding": {

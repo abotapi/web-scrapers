@@ -63,10 +63,10 @@ Full details on the [scraper page](https://apify.com/abotapi/otodom-pl-scraper?u
 | `priceTotal` | integer |
 | `priceCurrency` | string |
 | `pricePerSquareMeter` | integer |
-| `rentPrice` | null |
-| `rentAdditional` | null |
+| `rentPrice` | integer |
+| `rentAdditional` | integer |
 | `deposit` | null |
-| `areaInSquareMeters` | float |
+| `areaInSquareMeters` | integer |
 | `rooms` | integer |
 | `floor` | string |
 | `buildingFloors` | integer |
@@ -74,14 +74,14 @@ Full details on the [scraper page](https://apify.com/abotapi/otodom-pl-scraper?u
 | `marketType` | string |
 | `ownership` | string |
 | `buildingType` | string |
-| `buildingMaterial` | null |
+| `buildingMaterial` | string |
 | `heating` | string |
 | `condition` | string |
 | `extras` | list |
 | `images` | list |
 | `dateModified` | string |
 | `agencyUrl` | string |
-| `agencyLicenseNumber` | null |
+| `agencyLicenseNumber` | string |
 | `subdistrict` | null |
 | `windowsType` | null |
 | `city` | string |
@@ -94,7 +94,7 @@ Full details on the [scraper page](https://apify.com/abotapi/otodom-pl-scraper?u
 | `agencyName` | string |
 | `advertiserType` | string |
 | `contactName` | string |
-| `phone` | string |
+| `phone` | null |
 
 ---
 

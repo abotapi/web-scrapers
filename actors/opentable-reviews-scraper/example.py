@@ -1,4 +1,4 @@
-"""OpenTable Reviews Scraper: minimal example. Docs: https://apify.com/abotapi/opentable-reviews-scraper
+"""OpenTable Scraper: minimal example. Docs: https://apify.com/abotapi/opentable-reviews-scraper
 
 pip install "apify-client>=3"
 APIFY_TOKEN=<your token> python example.py

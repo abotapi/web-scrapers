@@ -1,6 +1,6 @@
 [
   {
-    "listingId": "63764421",
+    "listingId": "10503907",
     "listingType": "sale",
     "channel": "for-sale",
     "url": "https://www.zoopla.co.uk/example/59283",
@@ -20,7 +20,7 @@
         "count": 6
       }
     ],
-    "price": 168653,
+    "price": 4668653,
     "priceLabel": "Example price label",
     "priceQualifier": null,
     "currency": "GBP",
@@ -33,9 +33,9 @@
     },
     "bedrooms": 9,
     "bathrooms": 3,
-    "receptionRooms": null,
+    "receptionRooms": 5,
     "propertyType": "flat",
-    "sizeSqft": 990,
+    "sizeSqft": 6390,
     "sizeSource": "structured_data",
     "publishedOn": "Example published on",
     "publishedOnLabel": "Example published on label",
@@ -60,5 +60,66 @@
       "https://lid.zoocdn.com/example/68945.jpg"
     ],
     "imageCount": 87
+  },
+  {
+    "listingId": "55653554",
+    "listingType": "sale",
+    "channel": "for-sale",
+    "url": "https://www.zoopla.co.uk/example/17645",
+    "title": "Example title",
+    "address": "Example address",
+    "summaryDescription": "Example summary description: mock text standing in for the real value. Same field and type, made-up content.",
+    "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
+    "thumbnail": "https://lid.zoocdn.com/example/34502.jpg",
+    "featured": true,
+    "roomsCount": [
+      {
+        "type": "bedrooms",
+        "count": 5
+      },
+      {
+        "type": "bathrooms",
+        "count": 4
+      }
+    ],
+    "price": 335930,
+    "priceLabel": "Example price label",
+    "priceQualifier": null,
+    "currency": "GBP",
+    "rentFrequencyLabel": null,
+    "priceDrop": {
+      "firstPriceDate": "Example first price date",
+      "lastPriceChangeDate": "Example last price change date",
+      "percentageChangeLabel": null,
+      "priceChangeLabel": null
+    },
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "receptionRooms": 4,
+    "propertyType": "detached",
+    "sizeSqft": 7679,
+    "sizeSource": "comparables_epc",
+    "publishedOn": "Example published on",
+    "publishedOnLabel": "Example published on label",
+    "availableFrom": null,
+    "statusFlag": null,
+    "underOffer": null,
+    "isPremium": false,
+    "featuredType": "featured",
+    "displayType": "standard",
+    "tags": [
+      "Freehold"
+    ],
+    "highlights": [],
+    "buyerIncentives": [],
+    "latitude": null,
+    "longitude": null,
+    "imageUrl": "https://lid.zoocdn.com/example/58520.jpg",
+    "imageCaption": null,
+    "images": [
+      "https://lid.zoocdn.com/example/65645.jpg",
+      "https://lid.zoocdn.com/example/95922.jpg"
+    ],
+    "imageCount": 5
   }
 ]

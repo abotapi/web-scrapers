@@ -68,7 +68,7 @@ Full details on the [scraper page](https://apify.com/abotapi/avito-ru-scraper?ut
 | `metro` | string |
 | `metroId` | integer |
 | `metroDistanceMin` | integer |
-| `rooms` | integer |
+| `rooms` | null |
 | `areaSqm` | float |
 | `floor` | integer |
 | `totalFloors` | integer |
@@ -84,12 +84,12 @@ Full details on the [scraper page](https://apify.com/abotapi/avito-ru-scraper?ut
 | `sellerRating` | null |
 | `sellerReviewsCount` | null |
 | `sellerSince` | string |
-| `viewsCount` | null |
-| `todayViews` | null |
+| `viewsCount` | integer |
+| `todayViews` | integer |
 | `postedDateFull` | string |
 | `attributes` | object |
-| `lat` | null |
-| `lng` | null |
+| `lat` | float |
+| `lng` | float |
 
 ---
 

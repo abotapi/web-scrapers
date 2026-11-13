@@ -32,6 +32,12 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~wattpad-scraper/run-sync-
 | `startUrls` | array | Story or chapter links |
 | `tags` | array | Keep only stories carrying these tags |
 | `mature` | boolean | Include mature-flagged stories |
+| `authors` | array | Author names or profile links |
+| `access` | string | Access |
+| `minimumVotes` | integer | Minimum votes |
+| `minimumReads` | integer | Minimum reads |
+| `sortBy` | string | Sort by |
+| `fetchAuthorProfile` | boolean | Add author profile |
 | `fetchChapters` | boolean | Include the chapter list |
 | `fetchChapterText` | boolean | Also download the full chapter text |
 | `fetchComments` | boolean | Also download the comment thread |
@@ -78,6 +84,10 @@ Full details on the [scraper page](https://apify.com/abotapi/wattpad-scraper?utm
 | `chapters` | list |
 | `chaptersReturned` | integer |
 | `scanComplete` | boolean |
+| `authorDisplayName` | string |
+| `accessStatus` | string |
+| `lastPublishedAt` | string |
+| `discoveryInput` | object |
 | `scrapedAt` | string |
 | `sourceUrl` | string |
 | `enrichmentSkipped` | boolean |

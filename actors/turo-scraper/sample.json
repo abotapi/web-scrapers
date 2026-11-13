@@ -41,12 +41,12 @@
       }
     ],
     "averageDailyPrice": {
-      "amount": 47.25,
+      "amount": 44.21,
       "currency": "USD"
     },
-    "tripTotal": 269.22,
+    "tripTotal": 252.25,
     "currency": "USD",
-    "quotedDailyPrice": 68.86,
+    "quotedDailyPrice": 64.53,
     "quote": {
       "discountSavingsText": null,
       "includedLineItems": [
@@ -58,7 +58,7 @@
             "value": "Example value"
           },
           "price": {
-            "amount": 278.38,
+            "amount": 260.8,
             "currencyCode": "USD"
           },
           "title": "Example title",
@@ -73,7 +73,7 @@
             "value": "Example value"
           },
           "price": {
-            "amount": -34,
+            "amount": -12.31,
             "currencyCode": "USD"
           },
           "title": "Example title",
@@ -93,19 +93,19 @@
       ],
       "priceDisplayType": "TOTAL",
       "totalTripPrice": {
-        "amount": 260.88,
+        "amount": 244.42,
         "currencyCode": "USD"
       },
       "totalTripPriceBeforeDiscount": {
-        "amount": 278.38,
+        "amount": 260.8,
         "currencyCode": "USD"
       },
       "vehicleDailyPrice": {
-        "amount": 92.79,
+        "amount": 86.94,
         "currencyCode": "USD"
       },
       "vehicleDailyPriceAfterDiscount": {
-        "amount": 86.95,
+        "amount": 81.48,
         "currencyCode": "USD"
       },
       "pricingDisplay": {
@@ -160,7 +160,7 @@
     "searchVehicle": {
       "availability": null,
       "avgDailyPrice": {
-        "amount": 47.25,
+        "amount": 44.21,
         "currency": "USD"
       },
       "badges": [],
@@ -227,7 +227,7 @@
           "name": "Example name",
           "pickupAndReturn": {
             "customLocationDescription": null,
-            "deliveryInstructions": "",
+            "deliveryInstructions": null,
             "pickupAndReturnDetails": "Example pickup and return details",
             "rideNeeded": null,
             "rideNeededDetails": null,
@@ -248,7 +248,7 @@
           "name": "Example name",
           "pickupAndReturn": {
             "customLocationDescription": null,
-            "deliveryInstructions": "",
+            "deliveryInstructions": null,
             "pickupAndReturnDetails": "Example pickup and return details",
             "rideNeeded": null,
             "rideNeededDetails": null,
@@ -294,6 +294,7 @@
         "fuelUnitLabel": "MPG",
         "highwayFuelEconomy": 44,
         "largeLuggageCapacity": 1,
+        "largeLuggageCapacityLabel": null,
         "luggageCapacity": 9,
         "luggageCapacityLabel": null,
         "numberOfDoors": 1,
@@ -324,9 +325,9 @@
       "dateRangeRate": {
         "appliedDiscountUnit": "DAILY",
         "days": 8,
-        "defaultAverageDailyPrice": 51.34,
+        "defaultAverageDailyPrice": 48.04,
         "defaultAverageDailyPriceWithCurrency": {
-          "amount": 58.34,
+          "amount": 54.59,
           "currencyCode": "USD"
         },
         "interval": {
@@ -341,7 +342,7 @@
             "localTime": "15:10"
           }
         },
-        "rentalPrice": 727,
+        "rentalPrice": 114.36,
         "rentalPriceBeforeDiscount": 171,
         "rentalPriceBeforeDiscountWithCurrency": {
           "amount": 275,
@@ -349,7 +350,7 @@
         },
         "rentalPriceDiscountPercentage": 30,
         "rentalPriceWithCurrency": {
-          "amount": 275,
+          "amount": 147.38,
           "currencyCode": "USD"
         }
       },
@@ -553,7 +554,7 @@
           {
             "currentPickupAndReturn": null,
             "customLocationDescription": null,
-            "deliveryInstructions": "",
+            "deliveryInstructions": null,
             "enabled": true,
             "fee": 481,
             "feeWithCurrency": {
@@ -569,7 +570,7 @@
               "name": "Example name",
               "pickupAndReturn": {
                 "customLocationDescription": null,
-                "deliveryInstructions": "",
+                "deliveryInstructions": null,
                 "pickupAndReturnDetails": "Example pickup and return details",
                 "rideNeeded": null,
                 "rideNeededDetails": null,
@@ -594,7 +595,7 @@
           {
             "currentPickupAndReturn": null,
             "customLocationDescription": null,
-            "deliveryInstructions": "",
+            "deliveryInstructions": null,
             "enabled": true,
             "fee": 212,
             "feeWithCurrency": {
@@ -610,7 +611,7 @@
               "name": "Example name",
               "pickupAndReturn": {
                 "customLocationDescription": null,
-                "deliveryInstructions": "",
+                "deliveryInstructions": null,
                 "pickupAndReturnDetails": "Example pickup and return details",
                 "rideNeeded": null,
                 "rideNeededDetails": null,
@@ -633,15 +634,15 @@
             "validValetCheckInMethods": null
           }
         ],
-        "averageDailyPrice": 80,
+        "averageDailyPrice": 31.44,
         "averageDailyPriceWithCurrency": {
-          "amount": 95,
+          "amount": 49.12,
           "currencyCode": "USD"
         },
         "customDeliveryDistance": null,
         "customDeliveryDistanceWithUnit": null,
         "customDeliveryFee": null,
-        "daily": 19,
+        "daily": 31.05,
         "dailyDistance": {
           "scalar": null,
           "unit": "MI",
@@ -795,7 +796,7 @@
             "amount": 275,
             "currencyCode": "USD"
           },
-          "instructions": "",
+          "instructions": null,
           "locationId": 5138136,
           "promotion": null,
           "promotionalFee": null,
@@ -806,7 +807,7 @@
         },
         {
           "checkInMethod": {
-            "checkInMethod": "MEET_THE_GUEST",
+            "checkInMethod": "REMOTE_UNLOCK",
             "description": "Example description",
             "title": ""
           },
@@ -828,17 +829,17 @@
             },
             "deliveryLocationRestriction": null,
             "formattedAddress": "Example formatted address",
-            "isParkingCreditSupported": false,
-            "isPermitted": false,
-            "latitude": 43.11,
-            "longitude": -99.45,
+            "isParkingCreditSupported": true,
+            "isPermitted": true,
+            "latitude": 43.43,
+            "longitude": -99.42,
             "name": "Example name",
             "operational": true,
             "parkingLocations": null,
             "parkingLocationsSummary": null,
-            "placeId": "chijwqrr4ts0woarhv5lcajcw32",
+            "placeId": "chijeuppou6uwoar8qxy7rsy9w7",
             "promotionOptions": null,
-            "type": "LODGING",
+            "type": "AIRPORT",
             "valetAvailable": false,
             "validNonValetCheckInMethods": [
               {
@@ -859,7 +860,7 @@
             "amount": 124,
             "currencyCode": "USD"
           },
-          "instructions": "",
+          "instructions": null,
           "locationId": 8857126,
           "promotion": null,
           "promotionalFee": null,
@@ -991,7 +992,7 @@
     "reviewsStatus": "complete",
     "availability": null,
     "avgDailyPrice": {
-      "amount": 47.25,
+      "amount": 44.21,
       "currency": "USD"
     },
     "imageUrl": "https://images.turo.com/example/26496.jpg",

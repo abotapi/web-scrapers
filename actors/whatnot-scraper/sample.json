@@ -12,7 +12,7 @@
     "startTime": "2026-01-15T10:00:00Z",
     "endTime": null,
     "activeViewers": 173,
-    "watchlistUsers": 149,
+    "watchlistUsers": 59,
     "isHiddenBySeller": false,
     "categories": [
       "Example categories"
@@ -21,7 +21,7 @@
       "pokemon_cards"
     ],
     "tags": [
-      "Vintage",
+      "Example tags",
       "Example tags"
     ],
     "showLabels": [],
@@ -33,15 +33,15 @@
     "searchMode": "search",
     "searchQuery": "charizard",
     "scrapedAt": "2026-01-15T10:00:00Z",
-    "sellerId": "457573",
+    "sellerId": "31545931",
     "sellerUsername": "Example seller username",
     "sellerUrl": "https://www.whatnot.com/example/13597",
     "sellerIsLive": true,
     "sellerIsVerified": false,
     "sellerIsPremierShop": true,
-    "sellerFollowerCount": 982565,
+    "sellerFollowerCount": 82565,
     "sellerSoldCount": 368050,
-    "sellerRating": 7,
+    "sellerRating": 4.75,
     "sellerReviewCount": 95228,
     "sellerProfileImageUrl": "https://images.whatnot.com/example/93692.jpg"
   }

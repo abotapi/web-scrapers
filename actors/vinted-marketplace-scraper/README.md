@@ -1,8 +1,8 @@
-# Vinted Multi-Country Scraper
+# Vinted Scraper
 
-Scrape Vinted across 27 country marketplaces: keyword search with brand, price and condition filters, item and seller URLs, or a seller's full feedback history. Returns price, currency, condition, size, view and favourite counts, seller rating and profile depth per listing.
+Scrape Vinted across 27 country marketplaces by keyword, filters, item or seller URL. Extract prices, currencies, brands, sizes, conditions, views, favourites, seller ratings and profiles. Supports brand, price and condition filters, plus full seller feedback history.
 
-**[Open Vinted Multi-Country Scraper on Apify](https://apify.com/abotapi/vinted-marketplace-scraper?utm_source=github&utm_medium=web-scrapers&utm_campaign=monorepo)** to run it without code and export JSON, CSV or Excel.
+**[Open Vinted Scraper on Apify](https://apify.com/abotapi/vinted-marketplace-scraper?utm_source=github&utm_medium=web-scrapers&utm_campaign=monorepo)** to run it without code and export JSON, CSV or Excel.
 
 ## Run it from code
 

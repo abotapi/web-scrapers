@@ -1,9 +1,9 @@
 [
   {
     "kind": "event",
-    "recordId": "19204997",
-    "eventId": "36885709",
-    "productGroupId": "6831475",
+    "recordId": "90082000",
+    "eventId": "59963915",
+    "productGroupId": "1288505",
     "url": "https://www.eventim.de/example/78484",
     "title": "Example title",
     "startDate": "2026-01-15T10:00:00Z",
@@ -12,34 +12,28 @@
     "eventType": "Example event type",
     "venueName": "Example venue name",
     "venueStreet": null,
-    "venueCity": "Berlin",
+    "venueCity": null,
     "venueRegion": null,
     "venuePostalCode": null,
     "venueCountry": null,
     "venueUrl": null,
-    "priceFrom": null,
+    "priceFrom": 79,
     "priceHigh": null,
-    "priceCurrency": null,
+    "priceCurrency": "EUR",
     "priceTiers": null,
-    "ticketAvailability": "out_of_stock",
+    "ticketAvailability": "in_stock",
     "promoterName": "Example promoter name",
     "categories": [
-      "Sports",
-      "Football"
+      "Leisure",
+      "Example categories"
     ],
     "tags": [
-      "TICKETDIRECT",
-      "MOBILE_TICKET"
+      "TICKETDIRECT"
     ],
-    "description": "Example description",
-    "imageUrl": "https://www.eventim.de/example/52114.jpg",
+    "description": null,
+    "imageUrl": null,
     "validFrom": null,
     "raw": {
-      "attractions": [
-        {
-          "name": "Example name"
-        }
-      ],
       "categories": [
         {
           "name": "Example name"
@@ -51,35 +45,28 @@
           }
         }
       ],
-      "description": "Example description",
+      "currency": "EUR",
       "hasRecommendation": false,
-      "imageUrl": "https://www.eventim.de/example/52114.jpg",
-      "inStock": false,
+      "inStock": true,
       "link": "https://www.eventim.de/example/169",
       "name": "Example name",
-      "productGroupId": "6831475",
-      "productId": "77072247",
+      "price": 67,
+      "productGroupId": "1288505",
+      "productId": "87920332",
       "promoter": {
-        "id": "4189911",
+        "id": "3149913",
         "name": "Example name"
-      },
-      "rating": {
-        "average": 7,
-        "count": 1
       },
       "status": "Available",
       "tags": [
-        "TICKETDIRECT",
-        "MOBILE_TICKET"
+        "TICKETDIRECT"
       ],
       "type": "Example type",
       "typeAttributes": {
         "liveEntertainment": {
           "endDate": "2026-01-15T10:00:00Z",
           "location": {
-            "city": "Berlin",
-            "name": "Example name",
-            "postalCode": "15994"
+            "name": "Example name"
           },
           "startDate": "2026-01-15T10:00:00Z"
         }
@@ -93,23 +80,129 @@
     "eventUrl": "https://www.eventim.de/example/15826",
     "type": "Example type",
     "status": "Available",
-    "currency": null,
-    "fromPrice": null,
-    "fromPriceDisplay": null,
-    "inStock": false,
+    "currency": "EUR",
+    "fromPrice": 41,
+    "fromPriceDisplay": "Example from price display",
+    "inStock": true,
     "hasRecommendation": false,
-    "attractions": [
-      "Example attractions"
-    ],
+    "attractions": [],
     "venue": {
       "name": "Example name",
-      "city": "Berlin",
+      "city": null,
       "streetAddress": null,
-      "postalCode": "15994",
+      "postalCode": null,
       "country": null,
       "state": null,
       "latitude": null,
       "longitude": null
+    }
+  },
+  {
+    "kind": "event",
+    "recordId": "43226458",
+    "eventId": "43838371",
+    "productGroupId": "9958665",
+    "url": "https://www.eventim.de/example/6212",
+    "title": "Example title",
+    "startDate": "2026-01-15T10:00:00Z",
+    "endDate": "2026-01-15T10:00:00Z",
+    "eventStatus": "Available",
+    "eventType": "Example event type",
+    "venueName": "Example venue name",
+    "venueStreet": null,
+    "venueCity": "Dortmund",
+    "venueRegion": null,
+    "venuePostalCode": null,
+    "venueCountry": null,
+    "venueUrl": null,
+    "priceFrom": 19,
+    "priceHigh": null,
+    "priceCurrency": "EUR",
+    "priceTiers": null,
+    "ticketAvailability": "in_stock",
+    "promoterName": "Example promoter name",
+    "categories": [
+      "Sports",
+      "Football"
+    ],
+    "tags": [
+      "TICKETDIRECT",
+      "FANTICKET"
+    ],
+    "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
+    "imageUrl": "https://www.eventim.de/example/88005.jpg",
+    "validFrom": null,
+    "raw": {
+      "categories": [
+        {
+          "name": "Example name"
+        },
+        {
+          "name": "Example name",
+          "parentCategory": {
+            "name": "Example name"
+          }
+        }
+      ],
+      "currency": "EUR",
+      "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
+      "hasRecommendation": false,
+      "imageUrl": "https://www.eventim.de/example/88005.jpg",
+      "inStock": true,
+      "link": "https://www.eventim.de/example/61430",
+      "name": "Example name",
+      "price": 83,
+      "productGroupId": "9958665",
+      "productId": "82547849",
+      "promoter": {
+        "id": "025857",
+        "name": "Example name"
+      },
+      "status": "Available",
+      "tags": [
+        "TICKETDIRECT",
+        "FANTICKET"
+      ],
+      "type": "Example type",
+      "typeAttributes": {
+        "liveEntertainment": {
+          "endDate": "2026-01-15T10:00:00Z",
+          "location": {
+            "city": "Dortmund",
+            "geoLocation": {
+              "latitude": 58.73,
+              "longitude": 8.81
+            },
+            "name": "Example name",
+            "postalCode": "99687"
+          },
+          "startDate": "2026-01-15T10:00:00Z"
+        }
+      },
+      "url": {
+        "domain": "https://www.eventim.de/example/76570",
+        "path": "Example path: mock text standing in for the real value. Same field and type, made-up content."
+      }
+    },
+    "eventName": "Example event name",
+    "eventUrl": "https://www.eventim.de/example/74701",
+    "type": "Example type",
+    "status": "Available",
+    "currency": "EUR",
+    "fromPrice": 61,
+    "fromPriceDisplay": "Example from price display",
+    "inStock": true,
+    "hasRecommendation": false,
+    "attractions": [],
+    "venue": {
+      "name": "Example name",
+      "city": "Dortmund",
+      "streetAddress": null,
+      "postalCode": "99687",
+      "country": null,
+      "state": null,
+      "latitude": 58.73,
+      "longitude": 8.81
     }
   }
 ]

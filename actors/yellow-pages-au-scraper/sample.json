@@ -16,7 +16,10 @@
       "Mon - Fri": "Example mon -  fri",
       "Sat - Sun": "Example sat -  sun"
     },
-    "openingHoursStructured": [],
+    "openingHoursStructured": [
+      "Example opening hours structured",
+      "Example opening hours structured"
+    ],
     "rating": "5.3",
     "reviewCount": 20,
     "longDescription": "Example long description: mock text standing in for the real value. Same field and type, made-up content.",
@@ -29,7 +32,13 @@
     "servingArea": "",
     "listingType": "sub",
     "claimedStatus": "unclaimed",
-    "addressDetails": {},
+    "addressDetails": {
+      "streetAddress": "Example street address",
+      "locality": "Example locality",
+      "region": "VIC",
+      "postalCode": "3175",
+      "country": "AU"
+    },
     "latitude": -35.18,
     "longitude": 139.17
   },
@@ -44,7 +53,7 @@
     "primaryCategoryName": "Example primary category name",
     "categoryText": "Example category text",
     "detailsPageUrl": "https://www.yellowpages.com.au/example/26022",
-    "logoUrl": "https://i3.ypcdn.com/example/95415.jpg",
+    "logoUrl": "https://i2.ypcdn.com/example/95415.jpg",
     "openingHoursToday": "Example opening hours today: mock text standing in for the real value. Same field and type, made-up content.",
     "openingHoursDetails": {
       "Mon - Fri": "Example mon -  fri",

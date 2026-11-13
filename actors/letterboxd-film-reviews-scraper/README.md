@@ -28,12 +28,14 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~letterboxd-film-reviews-s
 | `queries` | array | Search phrases |
 | `startUrls` | array | Start URLs |
 | `browsePath` | string | Browse path (URL mode fallback) |
+| `filmSort` | string | Film sort (popular mode) |
 | `maxItems` | integer | Max items |
 | `maxPages` | integer | Max pages per source |
 | `fetchReviews` | boolean | Fetch reader reviews |
 | `reviewsOnly` | boolean | Output reviews only |
 | `fetchDetails` | boolean | Fetch film detail pages (search mode) |
 | `maxReviewsPerFilm` | integer | Max reviews per film |
+| `fetchFullText` | boolean | Fetch full review text |
 | `proxy` | object | Proxy configuration |
 
 `*` required
@@ -56,10 +58,24 @@ Full details on the [scraper page](https://apify.com/abotapi/letterboxd-film-rev
 | `averageRating` | float |
 | `ratingsCount` | integer |
 | `datePublished` | null |
+| `cast` | list |
+| `country` | string |
 | `releaseYear` | integer |
 | `runtimeMinutes` | integer |
 | `tagline` | string |
+| `language` | string |
+| `studios` | list |
+| `type` | string |
+| `synopsis` | string |
+| `posterUrl` | string |
+| `filmUrl` | string |
+| `year` | integer |
+| `filmYear` | integer |
+| `director` | list |
+| `genres` | list |
+| `runtime` | string |
 | `scrapedAt` | string |
+| `query` | string |
 
 ---
 

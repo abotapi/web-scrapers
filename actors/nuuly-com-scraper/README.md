@@ -69,7 +69,7 @@ Full details on the [scraper page](https://apify.com/abotapi/nuuly-com-scraper?u
 | `availabilityStatus` | string |
 | `isVintage` | boolean |
 | `previouslyRented` | null |
-| `ratingAverage` | float |
+| `ratingAverage` | integer |
 | `ratingCount` | integer |
 | `ratingHistogram` | object |
 | `fitRatingAverage` | integer |
@@ -77,7 +77,7 @@ Full details on the [scraper page](https://apify.com/abotapi/nuuly-com-scraper?u
 | `description` | string |
 | `additionalDescription` | string |
 | `fabricCare` | string |
-| `modelNotes` | null |
+| `modelNotes` | string |
 | `colors` | list |
 | `sizes` | list |
 | `attributes` | list |

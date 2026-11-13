@@ -1,6 +1,6 @@
 [
   {
-    "vacancyId": "567336870",
+    "vacancyId": "773576113",
     "url": "https://hh.ru/example/94842",
     "name": "Example name",
     "publicationDate": "2026-01-15T10:00:00Z",
@@ -10,14 +10,14 @@
     "searchUrl": "https://hh.ru/example/24790",
     "searchSessionId": "id10441228",
     "company": {
-      "id": 1201970,
+      "id": 55201970,
       "name": "Example name",
       "visibleName": "Example visible name",
       "isAccreditedIT": false,
       "isTrusted": true,
       "category": "COMPANY",
       "state": "APPROVED",
-      "siteUrl": "http://www.elkibar.ru/example/71246",
+      "siteUrl": "https://slidy.ai/example/71246",
       "logoUrl": "https://hh.ru/example/69494.jpg",
       "logos": [
         {
@@ -31,47 +31,59 @@
       ],
       "badges": []
     },
-    "salaryFrom": 569126,
-    "salaryTo": null,
+    "salaryFrom": 29126,
+    "salaryTo": 708096,
     "salaryCurrency": "RUR",
     "salaryGross": false,
     "salaryMode": "MONTH",
     "salaryFrequency": "TWICE_PER_MONTH",
     "compensation": {
-      "from": 339225,
-      "to": null,
+      "from": 69225,
+      "to": 297510,
       "currencyCode": "RUR",
       "gross": false,
       "mode": "MONTH",
       "frequency": "TWICE_PER_MONTH"
     },
     "area": {
-      "id": 20,
+      "id": 2,
       "name": "Example name",
-      "path": ".275.346.2425.93."
+      "path": ".599.302.6."
     },
     "address": {
       "city": "Example city",
-      "street": "Example street",
-      "building": "Example building",
+      "street": null,
+      "building": null,
       "displayName": "Example display name",
-      "lat": 56.27,
-      "lng": 46.49,
-      "metroStations": [],
+      "lat": 57.43,
+      "lng": 44.01,
+      "metroStations": [
+        {
+          "id": 2,
+          "name": "Example name",
+          "lineColor": "Example line color"
+        },
+        {
+          "id": 41,
+          "name": "Example name",
+          "lineColor": "Example line color"
+        }
+      ],
       "district": "Example district"
     },
     "workExperience": "between0and9",
     "employment": "FULL",
     "employmentForm": "FULL",
-    "workSchedule": "Example work schedule",
+    "workSchedule": "remote",
     "workScheduleByDays": [
       "FIVE_ON_TWO_OFF"
     ],
     "workingHours": [
-      "hours_4"
+      "hours_0",
+      "FLEXIBLE"
     ],
     "workFormats": [
-      "ON_SITE"
+      "REMOTE"
     ],
     "workingDays": [],
     "workingTimeIntervals": [],
@@ -80,101 +92,12 @@
     "nightShifts": false,
     "internship": false,
     "acceptHandicapped": null,
-    "acceptTemporary": false,
-    "acceptIncompleteResumes": true,
-    "acceptLaborContract": false,
-    "ageRestriction": null,
-    "responseLetterRequired": false,
-    "showContact": false,
-    "inboxPossibility": true
-  },
-  {
-    "vacancyId": "082911329",
-    "url": "https://hh.ru/example/90828",
-    "name": "Example name",
-    "publicationDate": "2026-01-15T10:00:00Z",
-    "creationDate": "2026-01-15T10:00:00Z",
-    "lastChangeTime": "2026-01-15T10:00:00Z",
-    "isAdv": true,
-    "searchUrl": "https://hh.ru/example/93240",
-    "searchSessionId": "id1319540",
-    "company": {
-      "id": 1571520,
-      "name": "Example name",
-      "visibleName": "Example visible name",
-      "isAccreditedIT": false,
-      "isTrusted": true,
-      "category": "COMPANY",
-      "state": "APPROVED",
-      "siteUrl": "http:// wellness-park@mail.ru/example/80026",
-      "logoUrl": "https://hh.ru/example/87603.jpg",
-      "logos": [
-        {
-          "type": "ORIGINAL",
-          "url": "https://hh.ru/example/90828.jpg"
-        },
-        {
-          "type": "employerPage",
-          "url": "https://hh.ru/example/46080.jpg"
-        }
-      ],
-      "badges": []
-    },
-    "salaryFrom": 91377,
-    "salaryTo": 452914,
-    "salaryCurrency": "RUR",
-    "salaryGross": true,
-    "salaryMode": "MONTH",
-    "salaryFrequency": "TWICE_PER_MONTH",
-    "compensation": {
-      "from": 18472,
-      "to": 527272,
-      "currencyCode": "RUR",
-      "gross": true,
-      "mode": "MONTH",
-      "frequency": "TWICE_PER_MONTH"
-    },
-    "area": {
-      "id": 30,
-      "name": "Example name",
-      "path": ".653.005.1412.55."
-    },
-    "address": {
-      "city": "Example city",
-      "street": "Example street",
-      "building": "Example building",
-      "displayName": "Example display name",
-      "lat": 67.77,
-      "lng": 81.55,
-      "metroStations": [],
-      "district": "Example district"
-    },
-    "workExperience": "between3and8",
-    "employment": "FULL",
-    "employmentForm": "FULL",
-    "workSchedule": "shift",
-    "workScheduleByDays": [
-      "Example work schedule by days"
-    ],
-    "workingHours": [
-      "hours_07"
-    ],
-    "workFormats": [
-      "ON_SITE"
-    ],
-    "workingDays": [],
-    "workingTimeIntervals": [],
-    "workingTimeModes": [],
-    "flyInFlyOutDurations": [],
-    "nightShifts": false,
-    "internship": false,
-    "acceptHandicapped": null,
-    "acceptTemporary": false,
+    "acceptTemporary": true,
     "acceptIncompleteResumes": false,
     "acceptLaborContract": true,
     "ageRestriction": null,
     "responseLetterRequired": false,
-    "showContact": true,
+    "showContact": false,
     "inboxPossibility": true
   }
 ]

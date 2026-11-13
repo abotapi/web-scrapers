@@ -63,7 +63,7 @@ Full details on the [scraper page](https://apify.com/abotapi/myworkdayjobs-scrap
 | `postingInternalId` | string |
 | `jobPostingId` | string |
 | `jobPostingSiteId` | string |
-| `questionnaireId` | string |
+| `questionnaireId` | null |
 | `title` | string |
 | `jobUrl` | string |
 | `externalPath` | string |

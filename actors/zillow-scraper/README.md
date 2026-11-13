@@ -82,6 +82,7 @@ Full details on the [scraper page](https://apify.com/abotapi/zillow-scraper?utm_
 | `rentZestimate` | integer |
 | `taxAssessedValue` | integer |
 | `streetAddress` | string |
+| `unit` | string |
 | `city` | string |
 | `state` | string |
 | `zipCode` | string |
@@ -106,7 +107,6 @@ Full details on the [scraper page](https://apify.com/abotapi/zillow-scraper?utm_
 | `cardType` | string |
 | `isValid` | boolean |
 | `hasImage` | boolean |
-| `marketingTagline` | string |
 
 ---
 

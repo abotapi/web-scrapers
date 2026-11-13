@@ -1,61 +1,70 @@
 [
   {
-    "listingId": "4766542214",
+    "listingId": "7797622380",
     "title": "Example title: mock text standing in for the real value. Same field and type, made-up content.",
     "url": "https://www.etsy.com/example/43631",
-    "shopId": "49620586",
+    "shopId": "97561843",
     "shopName": "Example shop name",
     "shopUrl": "https://www.etsy.com/example/11341",
     "categoryPath": [
-      "Jewelry",
-      "Necklaces"
+      "Example category path",
+      "Collares"
     ],
-    "price": 35.59,
+    "price": 599,
     "currency": "USD",
-    "originalPrice": 41.13,
-    "discountPercentage": 20,
-    "onSale": true,
+    "originalPrice": null,
+    "discountPercentage": null,
+    "onSale": false,
     "availability": "in_stock",
     "quantityAvailable": 255,
     "images": [
       "https://i.etsystatic.com/example/33521.jpg",
       "https://i.etsystatic.com/example/25172.jpg"
     ],
-    "videoUrl": "https://v.etsystatic.com/example/63651",
+    "videoUrl": null,
     "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
     "descriptionHTML": "Example description h t m l: mock text standing in for the real value. Same field and type, made-up content.",
-    "listedOn": "2026-01-15",
-    "favorites": 476,
+    "listedOn": null,
+    "favorites": null,
     "highlights": [
       "Example highlights",
-      "Example highlights: mock text standing in for the real value. Same field and type, made-up content."
+      "Example highlights"
     ],
-    "materials": [
-      "Example materials",
-      "Example materials"
-    ],
+    "materials": [],
     "shippingOrigin": {
       "@type": "DefinedRegion",
       "addressCountry": "Example address country",
       "addressRegion": "Example address region"
     },
-    "rating": 9,
-    "reviewCount": 7,
+    "rating": 6.05,
+    "reviewCount": 16,
     "ratingBreakdown": {
-      "itemQuality": 8,
-      "shipping": 9,
-      "customerService": 2
+      "calidadDelArtCulo": 3.63,
+      "envO": 4.14,
+      "atenciNAlCliente": 3.45,
+      "recomendado": 212
     },
     "reviews": [
       {
-        "reviewId": "2352016355",
-        "reviewAuthor": null,
+        "reviewId": "0918126385",
+        "reviewAuthor": "id50374388",
         "reviewRating": 5,
         "reviewDate": null,
         "reviewBody": "Example review body: mock text standing in for the real value. Same field and type, made-up content.",
         "reviewPhotos": [
-          "https://i.etsystatic.com/example/31649.jpg"
+          "https://i.etsystatic.com/example/31649.jpg",
+          "https://i.etsystatic.com/example/69238.jpg"
         ],
+        "reviewHelpfulCount": null,
+        "reviewVariantContext": null
+      },
+      {
+        "reviewId": "7552578134",
+        "reviewAuthor": "id60438279",
+        "reviewRating": 9,
+        "reviewDate": null,
+        "reviewBody": "Example review body",
+        "reviewPhotos": [],
         "reviewHelpfulCount": null,
         "reviewVariantContext": null
       }
@@ -65,29 +74,49 @@
         "name": "Example name",
         "options": [
           {
-            "variationId": "0888590802",
+            "variationId": "8888135788",
             "label": "Example label"
           },
           {
-            "variationId": "2811901085",
-            "label": "Example label"
-          }
-        ]
-      },
-      {
-        "name": "Example name",
-        "options": [
-          {
-            "variationId": "3656273370",
-            "label": "Example label"
-          },
-          {
-            "variationId": "1148017910",
+            "variationId": "3597646404",
             "label": "Example label"
           }
         ]
       }
     ],
+    "searchMode": "search"
+  },
+  {
+    "listingId": "5665381428",
+    "title": "Example title: mock text standing in for the real value. Same field and type, made-up content.",
+    "url": "https://www.etsy.com/example/48766",
+    "shopId": "99434208",
+    "shopName": "shreejaipursilver595",
+    "shopUrl": "https://www.etsy.com/example/7749",
+    "categoryPath": [],
+    "price": 117.13,
+    "currency": "USD",
+    "originalPrice": 468.54,
+    "discountPercentage": 90,
+    "onSale": true,
+    "availability": null,
+    "quantityAvailable": null,
+    "images": [
+      "https://i.etsystatic.com/example/29110.jpg"
+    ],
+    "videoUrl": "https://v.etsystatic.com/example/34693",
+    "description": null,
+    "descriptionHTML": null,
+    "listedOn": null,
+    "favorites": null,
+    "highlights": [],
+    "materials": [],
+    "shippingOrigin": null,
+    "rating": null,
+    "reviewCount": null,
+    "ratingBreakdown": null,
+    "reviews": [],
+    "variations": [],
     "searchMode": "search"
   }
 ]

@@ -1,19 +1,23 @@
 [
   {
-    "productId": "2798031860456",
-    "ean": "2400037751419",
+    "productId": "7827088942673",
+    "ean": "8294672343132",
     "title": "Example title: mock text standing in for the real value. Same field and type, made-up content.",
-    "brand": "Example brand",
-    "price": 135.92,
+    "brand": "Nemura",
+    "price": 55.99,
     "currency": "EUR",
-    "isOnSpecial": false,
+    "originalPrice": 102.39,
+    "discountAmount": 85,
+    "discountPercentage": 10,
+    "isOnSpecial": true,
     "promotionLabel": "Example promotion label",
+    "sellerId": "6706",
     "sellerName": "Example seller name",
-    "soldByCastorama": true,
+    "soldByCastorama": false,
     "categoryPath": [
       {
         "name": "Example name",
-        "path": "Example path: mock text standing in for the real value. Same field and type, made-up content."
+        "path": "Example path"
       },
       {
         "name": "Example name",
@@ -29,8 +33,8 @@
       "status": "Available",
       "purchasable": true,
       "homeDelivery": "Example home delivery",
-      "clickAndCollect": true,
-      "inStore": true
+      "clickAndCollect": false,
+      "inStore": false
     },
     "images": [
       "https://media.castorama.fr/example/10691.jpg",
@@ -45,54 +49,164 @@
       },
       {
         "name": "Example name",
-        "value": "Example value"
+        "value": "general"
       }
     ],
     "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
-    "manuals": [
-      {
-        "friendlyName": "Example friendly name",
-        "url": "https://media.castorama.fr/example/76136",
-        "type": "Example type"
-      },
-      {
-        "friendlyName": "Example friendly name",
-        "url": "https://media.castorama.fr/example/24929",
-        "type": "Example type"
-      }
-    ],
     "manufacturerRaw": {
       "contactDetails": {
         "gpsrManufacturerName": "Example gpsr manufacturer name",
-        "gpsrContactAddressLine1": "Example gpsr contact address line1",
-        "gpsrContactAddressCity": "Example gpsr contact address city",
-        "gpsrContactAddressPostCode": "d-04741",
-        "gpsrContactAddressCountry": "Example gpsr contact address country",
-        "gpsrContactEmailAddress": "Example gpsr contact email address",
-        "gpsr2023FullyCompliant": false
+        "gpsrEuRepresentativeName": "",
+        "gpsrContactAddressLine1": "",
+        "gpsrContactAddressLine2": "",
+        "gpsrContactAddressCity": "",
+        "gpsrContactAddressCounty": "",
+        "gpsrContactAddressPostCode": "",
+        "gpsrContactAddressCountry": "",
+        "gpsrContactEmailAddress": "",
+        "gpsrContactFormUrl": ""
       },
       "contentUrls": [],
       "safetyManuals": [],
       "warnings": []
     },
+    "offersRaw": [
+      {
+        "availableStartDate": null,
+        "availableEndDate": null,
+        "discountStartDate": "2026-01-15T10:00:00Z",
+        "discountEndDate": "2026-01-15T10:00:00Z",
+        "createdAt": "2026-01-15T10:00:00Z",
+        "updatedAt": "2026-01-15T10:00:00Z",
+        "id": 4589795,
+        "ean": "8294672343132",
+        "price": 55.99,
+        "discountPrice": 58.79,
+        "unitOfMeasurement": null,
+        "unitPrice": null,
+        "originPrice": 71.99,
+        "quantity": 82,
+        "description": "",
+        "stateCode": 70,
+        "sellerId": 9880,
+        "sellerName": "Example seller name",
+        "active": true,
+        "deleted": false,
+        "currencyIsoCode": "EUR",
+        "leadtimeToShip": 8,
+        "additionalShippingPrice": null,
+        "wasPrice": 59.19,
+        "wasWasPrice": null,
+        "wasUnitPrice": null,
+        "tenant": "CAFR",
+        "sortIndex": 0,
+        "deliveryOptions": [
+          {
+            "zone": "FR",
+            "method": "STD",
+            "minDeliveryDays": 1,
+            "maxDeliveryDays": 8,
+            "shippingPrice": 0
+          }
+        ],
+        "ecoContributions": [],
+        "gpsr": {
+          "gpsrManufacturerName": "Example gpsr manufacturer name",
+          "gpsrEuRepresentativeName": "",
+          "gpsrContactAddressLine1": "",
+          "gpsrContactAddressLine2": "",
+          "gpsrContactAddressCity": "",
+          "gpsrContactAddressCounty": "",
+          "gpsrContactAddressPostCode": "",
+          "gpsrContactAddressCountry": "",
+          "gpsrContactEmailAddress": "",
+          "gpsrContactFormUrl": "",
+          "gpsr2023FullyCompliant": true
+        },
+        "manualRoundel": null,
+        "promotions": []
+      },
+      {
+        "availableStartDate": null,
+        "availableEndDate": null,
+        "discountStartDate": null,
+        "discountEndDate": null,
+        "createdAt": "2026-01-15T10:00:00Z",
+        "updatedAt": "2026-01-15T10:00:00Z",
+        "id": 637355278,
+        "ean": "3832601211067",
+        "price": 69.02,
+        "discountPrice": null,
+        "unitOfMeasurement": null,
+        "unitPrice": null,
+        "originPrice": 68.05,
+        "quantity": 4,
+        "description": "",
+        "stateCode": 46,
+        "sellerId": 9818,
+        "sellerName": "segoula17",
+        "active": true,
+        "deleted": false,
+        "currencyIsoCode": "EUR",
+        "leadtimeToShip": 9,
+        "additionalShippingPrice": null,
+        "wasPrice": null,
+        "wasWasPrice": null,
+        "wasUnitPrice": null,
+        "tenant": "CAFR",
+        "sortIndex": 7,
+        "deliveryOptions": [
+          {
+            "zone": "CO",
+            "method": "STD",
+            "minDeliveryDays": 9,
+            "maxDeliveryDays": 36,
+            "shippingPrice": 0
+          },
+          {
+            "zone": "FR",
+            "method": "STD",
+            "minDeliveryDays": 6,
+            "maxDeliveryDays": 8,
+            "shippingPrice": 0
+          }
+        ],
+        "ecoContributions": [],
+        "gpsr": {
+          "gpsrManufacturerName": "Example gpsr manufacturer name",
+          "gpsrEuRepresentativeName": "",
+          "gpsrContactAddressLine1": "",
+          "gpsrContactAddressLine2": "",
+          "gpsrContactAddressCity": "",
+          "gpsrContactAddressCounty": "",
+          "gpsrContactAddressPostCode": "",
+          "gpsrContactAddressCountry": "",
+          "gpsrContactEmailAddress": "",
+          "gpsrContactFormUrl": "",
+          "gpsr2023FullyCompliant": true
+        },
+        "manualRoundel": null,
+        "promotions": []
+      }
+    ],
     "searchMode": "search",
     "name": "Example name: mock text standing in for the real value. Same field and type, made-up content.",
     "scrapedAt": "2026-01-15T10:00:00Z",
     "inStock": true,
-    "rating": 5.62,
+    "rating": 5.94,
     "reviewCount": 5,
     "reviews": [
       {
         "author": "Example author",
         "title": "Example title",
-        "body": "Example body",
+        "body": "Example body: mock text standing in for the real value. Same field and type, made-up content.",
         "rating": 2,
         "date": "2026-01-15T10:00:00Z"
       },
       {
         "author": "Example author",
         "title": "Example title",
-        "body": "Example body",
+        "body": "Example body: mock text standing in for the real value. Same field and type, made-up content.",
         "rating": 9,
         "date": "2026-01-15T10:00:00Z"
       }

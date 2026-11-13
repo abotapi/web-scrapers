@@ -74,9 +74,9 @@ Full details on the [scraper page](https://apify.com/abotapi/casasbahia-com-br-s
 | `listPrice` | float |
 | `currency` | string |
 | `onSale` | boolean |
-| `cashPrice` | integer |
-| `cashPriceLabel` | string |
-| `cashDiscountPercent` | integer |
+| `cashPrice` | null |
+| `cashPriceLabel` | null |
+| `cashDiscountPercent` | null |
 | `hasPixDiscount` | boolean |
 | `hasBoletoDiscount` | boolean |
 | `installmentText` | string |
@@ -93,7 +93,7 @@ Full details on the [scraper page](https://apify.com/abotapi/casasbahia-com-br-s
 | `sellerName` | string |
 | `sellerCount` | integer |
 | `offerCount` | integer |
-| `minOfferPrice` | integer |
+| `minOfferPrice` | float |
 | `maxOfferPrice` | float |
 | `image` | string |
 | `images` | list |

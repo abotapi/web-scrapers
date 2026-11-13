@@ -1,7 +1,7 @@
 [
   {
-    "propertyId": "7598963349",
-    "listingId": "8846081071",
+    "propertyId": "8161856294",
+    "listingId": "3758767873",
     "url": "https://www.realtor.com/example/90310",
     "listingType": "for_sale",
     "status": "for_sale",
@@ -10,16 +10,16 @@
       "city": "Portland",
       "state": "Oregon",
       "stateCode": "OR",
-      "postalCode": "60882",
+      "postalCode": "15475",
       "county": "Example county",
       "full": "Example full"
     },
     "coordinates": {
       "latitude": 33.23,
-      "longitude": -127.42
+      "longitude": -127.65
     },
     "price": {
-      "value": 309602,
+      "value": 1209602,
       "display": "Example display"
     },
     "features": {
@@ -31,9 +31,9 @@
       "garage": 6
     },
     "flags": {
-      "isPending": true
+      "isNewListing": true,
+      "isNewConstruction": true
     },
-    "hasMatterport": true,
     "streetViewUrl": "https://maps.googleapis.com/example/3398",
     "countyFips": "81666",
     "agents": [
@@ -46,7 +46,7 @@
       }
     ],
     "brokerage": "Example brokerage",
-    "mlsId": "757872359",
+    "mlsId": "719015020",
     "mlsName": "Example mls name",
     "mlsType": "mls",
     "mlsSourceId": "PROR",

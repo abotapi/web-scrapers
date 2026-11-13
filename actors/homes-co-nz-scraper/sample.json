@@ -31,11 +31,11 @@
     },
     "bedrooms": 6,
     "bathrooms": 1,
-    "carSpaces": 7,
-    "floorArea": 0,
-    "landArea": 0,
+    "carSpaces": 0,
+    "floorArea": 367,
+    "landArea": 848,
     "latitude": -32.21,
-    "longitude": 122.35,
+    "longitude": 122.34,
     "imageUrl": "https://s3-ap-southeast-2.amazonaws.com/example/25457.jpg",
     "coverImageUrl": "https://s3-ap-southeast-2.amazonaws.com/example/75500.jpg",
     "imageUrls": [
@@ -47,7 +47,7 @@
       {
         "url": "https://s3-ap-southeast-2.amazonaws.com/example/88940.jpg",
         "classifications": [
-          "living_room"
+          "front_house"
         ],
         "quality": "",
         "caption": "",
@@ -63,15 +63,19 @@
         "inspiring": null
       }
     ],
-    "media": [
+    "media": [],
+    "mediaCount": 0,
+    "openHomes": [
       {
-        "url": "http://www.youtube.com/example/88940",
-        "type": "video"
+        "date": "2026-01-15",
+        "start_time": "88:90",
+        "end_time": "18:20"
+      },
+      {
+        "date": "2026-01-15",
+        "start_time": "00:44",
+        "end_time": "48:81"
       }
-    ],
-    "videoUrls": [
-      "http://www.youtube.com/example/66765"
-    ],
-    "mediaCount": 8
+    ]
   }
 ]

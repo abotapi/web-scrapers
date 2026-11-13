@@ -63,8 +63,8 @@ Full details on the [scraper page](https://apify.com/abotapi/elcorteingles-es-sc
 | `size` | string |
 | `price` | float |
 | `currency` | string |
-| `originalPrice` | null |
-| `discountPercent` | null |
+| `originalPrice` | float |
+| `discountPercent` | integer |
 | `isOnSale` | boolean |
 | `onlineAvailable` | boolean |
 | `isMarketplace` | boolean |

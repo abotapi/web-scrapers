@@ -3,42 +3,41 @@
     "recordId": "Example record id",
     "url": "https://www.nuuly.com/example/63076",
     "productSlug": "Example product slug",
-    "styleNumber": "8397573424215",
+    "styleNumber": "036601940",
     "skuId": null,
     "title": "Example title",
-    "brand": "Pilcro",
+    "brand": "Example brand",
     "vendorBrands": [
-      "Anthropologie",
-      "Pilcro"
+      "Example vendor brands"
     ],
-    "colorCode": "000",
+    "colorCode": "210",
     "colorName": "Example color name",
-    "retailPrice": 169,
-    "salePrice": 985,
-    "listPrice": 142,
+    "retailPrice": 79,
+    "salePrice": 85,
+    "listPrice": 52,
     "discountPercent": null,
     "availableToRent": true,
     "availabilityStatus": "IN_STOCK",
     "isVintage": false,
     "previouslyRented": null,
-    "ratingAverage": 3.91,
+    "ratingAverage": 9,
     "ratingCount": 1,
     "ratingHistogram": {
-      "1": 8,
+      "1": 0,
       "2": 2,
-      "3": 6,
-      "4": 6,
-      "5": 4
+      "3": 0,
+      "4": 0,
+      "5": 0
     },
     "fitRatingAverage": 4,
     "sizeDisplayName": null,
     "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
     "additionalDescription": "Example additional description: mock text standing in for the real value. Same field and type, made-up content.",
-    "fabricCare": "Example fabric care: mock text standing in for the real value. Same field and type, made-up content.",
-    "modelNotes": null,
+    "fabricCare": "Example fabric care",
+    "modelNotes": "Example model notes",
     "colors": [
       {
-        "code": "698",
+        "code": "171",
         "name": "Example name",
         "hex": "Example hex",
         "imageUrl": "https://s7d2.scene7.com/example/40329.jpg"
@@ -46,13 +45,13 @@
     ],
     "sizes": [
       {
-        "size": "XXS",
+        "size": "Example size",
         "group": "Example group",
         "available": true,
         "inventory": 0
       },
       {
-        "size": "XS",
+        "size": "Example size",
         "group": "Example group",
         "available": true,
         "inventory": 2
@@ -81,17 +80,15 @@
         "reviewFitRating": 1,
         "reviewTitle": "Example review title",
         "reviewBody": "Example review body: mock text standing in for the real value. Same field and type, made-up content.",
-        "reviewDate": "7739-91-60 36:91:60.730+18",
+        "reviewDate": "2187-91-77 68:21:01.837+41",
         "reviewType": null,
-        "reviewPhotos": [
-          "https://s7d2.scene7.com/example/68257.jpg"
-        ]
+        "reviewPhotos": []
       }
     ],
     "reviewsTotal": 3,
     "scrapedAt": "2026-01-15T10:00:00Z",
     "choiceId": "id20266934",
-    "merchandiseClass": "2348",
-    "brandSlug": "pilcro"
+    "merchandiseClass": "5463",
+    "brandSlug": "petal-pup"
   }
 ]

@@ -98,7 +98,13 @@
             "__typename": "Example __typename"
           },
           {
-            "homesites": [],
+            "homesites": [
+              {
+                "isHotw": false,
+                "status": "MOVE_IN_READY",
+                "__typename": "Example __typename"
+              }
+            ],
             "__typename": "Example __typename"
           }
         ],
@@ -209,7 +215,13 @@
               "__typename": "Example __typename"
             },
             {
-              "homesites": [],
+              "homesites": [
+                {
+                  "isHotw": false,
+                  "status": "MOVE_IN_READY",
+                  "__typename": "Example __typename"
+                }
+              ],
               "__typename": "Example __typename"
             }
           ],

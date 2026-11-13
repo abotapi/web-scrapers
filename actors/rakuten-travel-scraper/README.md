@@ -64,22 +64,14 @@ Full details on the [scraper page](https://apify.com/abotapi/rakuten-travel-scra
 | `hotelNo` | string |
 | `rowType` | string |
 | `url` | string |
+| `position` | null |
 | `name` | string |
-| `ratingValue` | integer |
-| `reviewCount` | integer |
-| `minPriceYen` | integer |
-| `minPriceTaxIncludedYen` | integer |
-| `catchcopy` | string |
-| `access` | string |
-| `thumbnailUrl` | string |
-| `position` | integer |
-| `plansUrl` | string |
-| `searchSource` | string |
 | `areaMiddle` | string |
 | `areaSmall` | string |
 | `address` | string |
 | `phoneNumber` | null |
 | `faxNumber` | null |
+| `access` | string |
 | `checkInTime` | null |
 | `checkOutTime` | null |
 | `parking` | string |
@@ -93,6 +85,10 @@ Full details on the [scraper page](https://apify.com/abotapi/rakuten-travel-scra
 | `planCancellationPolicy` | null |
 | `description` | null |
 | `photoUrls` | list |
+| `ratingSummary` | object |
+| `reviews` | list |
+| `reviewsTotal` | integer |
+| `reviewsPageLimit` | integer |
 | `scrapedAt` | string |
 
 ---

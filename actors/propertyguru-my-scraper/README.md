@@ -59,7 +59,6 @@ Full details on the [scraper page](https://apify.com/abotapi/propertyguru-my-scr
 | `title` | string |
 | `address` | string |
 | `listing_type` | string |
-| `property_type` | string |
 | `property_type_group` | string |
 | `price` | integer |
 | `price_formatted` | string |
@@ -73,10 +72,10 @@ Full details on the [scraper page](https://apify.com/abotapi/propertyguru-my-scr
 | `is_developer_listing` | boolean |
 | `agent_name` | string |
 | `agent_id` | integer |
-| `agent_license` | string |
 | `state` | string |
 | `region` | string |
 | `city` | string |
+| `nearby_mrt` | string |
 | `badges` | list |
 | `posted_date` | string |
 | `posted_unix` | integer |
@@ -90,8 +89,10 @@ Full details on the [scraper page](https://apify.com/abotapi/propertyguru-my-scr
 | `headline` | string |
 | `latitude` | float |
 | `longitude` | float |
+| `nearby_mrts` | list |
 | `nearby_schools` | list |
 | `facilities` | list |
+| `amenities` | list |
 | `images_full` | list |
 | `location_source` | string |
 

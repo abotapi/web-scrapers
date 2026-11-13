@@ -1,15 +1,15 @@
 [
   {
-    "id": "imam63s6brw",
-    "shortSku": "imam61s9brw",
-    "model": "imam19s6",
+    "id": "giv0q9qwbck",
+    "shortSku": "giv4q5qwbck",
+    "model": "giv6q9qw",
     "name": "Example name",
     "title": "Example title",
-    "brand": "Example brand",
-    "color": "Brown",
-    "price": 448,
+    "brand": "GIVENCHY",
+    "color": "Black",
+    "price": 3148,
     "discountPrice": null,
-    "currentPrice": 885,
+    "currentPrice": 2685,
     "discountPercentage": null,
     "currency": "EUR",
     "onSale": false,
@@ -27,18 +27,18 @@
     "sizes": [
       {
         "label": "Example label",
-        "sku": "imam26s7brw7184776",
+        "sku": "giv8q7qwbcki93a948",
         "inStock": true
       },
       {
         "label": "Example label",
-        "sku": "imam80s5brwu4a1a26",
+        "sku": "giv5q7qwbckuza6a08",
         "inStock": true
       }
     ],
     "skus": [
-      "imam72s1brw0e96a82",
-      "imam01s5brw8892542"
+      "giv5q1qwbckja10a09",
+      "giv7q4qwbcki01a732"
     ],
     "otherColors": [],
     "images": [
@@ -54,7 +54,7 @@
       "https://www.24s.com/example/29375.jpg",
       "https://www.24s.com/example/84243.jpg"
     ],
-    "originalPrice": 268,
+    "originalPrice": 2068,
     "discount": null,
     "sku": null,
     "country": "GB",

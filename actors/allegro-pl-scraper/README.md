@@ -1,6 +1,6 @@
 # Allegro Scraper
 
-Scrape Allegro by keyword or URL. Extract offers, prices, delivery, seller details, and product reviews. Includes incremental change monitoring, resume support, and MCP connectors for automated workflows.
+Scrape Allegro marketplace (allegro.pl) by keyword or URL. Extract product offers, prices, delivery options, seller details and customer reviews. Supports incremental change tracking, resume from previous runs and MCP integration for automated workflows.
 
 **[Open Allegro Scraper on Apify](https://apify.com/abotapi/allegro-pl-scraper?utm_source=github&utm_medium=web-scrapers&utm_campaign=monorepo)** to run it without code and export JSON, CSV or Excel.
 
@@ -55,7 +55,7 @@ Full details on the [scraper page](https://apify.com/abotapi/allegro-pl-scraper?
 | `deliveryInfo` | string |
 | `freeDelivery` | boolean |
 | `freeReturn` | boolean |
-| `lowestDeliveryPrice` | integer |
+| `lowestDeliveryPrice` | float |
 | `sponsored` | boolean |
 | `bestPriceGuarantee` | boolean |
 | `smart` | boolean |
@@ -74,7 +74,7 @@ Full details on the [scraper page](https://apify.com/abotapi/allegro-pl-scraper?
 | `recentBuyersLabel` | string |
 | `purchasesCount` | integer |
 | `sellerInfo` | object |
-| `deliveryCost` | integer |
+| `deliveryCost` | float |
 | `shippingInfo` | string |
 | `isDiscount` | boolean |
 | `isInStock` | boolean |

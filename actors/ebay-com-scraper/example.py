@@ -13,8 +13,8 @@ client = ApifyClient(os.environ["APIFY_TOKEN"])
 run = client.actor("abotapi/ebay-com-scraper").call(
     run_input={
         "mode": "search",
-        "queries": ["laptop"],
         "marketplace": "com",
+        "categoryId": "177",
         "buyingFormat": "any",
         "itemLocation": "default",
         "sortBy": "best_match",

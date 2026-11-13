@@ -1,30 +1,29 @@
 [
   {
-    "itemId": "40229559",
-    "sku": "pra1016349",
-    "variantId": "924191221",
+    "itemId": "40650044",
+    "sku": "her004549",
+    "variantId": "634459486",
     "name": "Example name",
     "url": "https://www.therealreal.com/example/56356",
     "designer": "Example designer",
-    "designerId": "8155",
+    "designerId": "764",
     "artist": null,
     "itemClass": [
       "Example item class",
       "Example item class"
     ],
     "category": "Example category",
-    "condition": "Example condition",
+    "condition": "Excellent",
     "conditionNote": null,
-    "color": "Silver",
+    "color": "Brown",
     "gender": "Women",
     "primaryMaterial": "Example primary material",
     "attributes": {
       "Color": [
-        "Silver",
-        "Yellow"
+        "Brown"
       ],
       "Condition": [
-        "Example condition"
+        "Excellent"
       ],
       "Gender": [
         "Women"
@@ -33,17 +32,17 @@
         "Example primary  material"
       ]
     },
-    "retailPrice": null,
+    "retailPrice": 2648,
     "listPrice": 3681,
     "originalPrice": 8752,
     "currency": "USD",
     "discountPct": 0,
-    "vsRetailPct": null,
+    "vsRetailPct": 50.2,
     "isOnSale": false,
-    "availability": "HOLD",
-    "isSold": true,
+    "availability": "AVAILABLE",
+    "isSold": false,
     "quantity": "0",
-    "obsessionCount": 19,
+    "obsessionCount": 1,
     "isEditorsPick": null,
     "badge": null,
     "images": [
@@ -52,7 +51,7 @@
     ],
     "imageCount": 7,
     "sourceUrl": "https://www.therealreal.com/example/53544",
-    "slug": "Example slug",
+    "slug": "id84546633",
     "taxons": null,
     "valuationReportUrl": null,
     "measurementGuide": null,

@@ -66,8 +66,6 @@ Full details on the [scraper page](https://apify.com/abotapi/yandex-serp-scraper
 | `snippet` | string |
 | `searchedAt` | string |
 | `servedDomain` | string |
-| `servedLr` | integer |
-| `totalResultsFound` | string |
 
 ---
 

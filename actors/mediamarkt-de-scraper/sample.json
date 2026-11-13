@@ -11,7 +11,7 @@
     ],
     "category": "Example category",
     "url": "https://www.mediamarkt.de/example/33732",
-    "rating": 5.14,
+    "rating": 5.15,
     "reviewCount": 38,
     "isMarketplace": false,
     "price": 637,
@@ -49,13 +49,13 @@
       "totalReviewCount": 63,
       "items": [
         {
-          "id": "6897298580",
+          "id": "2208042968",
           "rating": 3,
           "title": "Example title",
-          "text": "Example text: mock text standing in for the real value. Same field and type, made-up content.",
+          "text": "Example text",
           "date": "2026-01-15T10:00:00Z",
           "isVerifiedPurchaser": true,
-          "reviewerName": "thomas38",
+          "reviewerName": "Example reviewer name",
           "syndicationSource": null
         }
       ]

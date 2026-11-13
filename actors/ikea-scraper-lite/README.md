@@ -76,7 +76,7 @@ Full details on the [scraper page](https://apify.com/abotapi/ikea-scraper-lite?u
 | `currency` | string |
 | `priceFormatted` | string |
 | `priceDiscount` | null |
-| `priceTag` | null |
+| `priceTag` | string |
 | `onSale` | boolean |
 | `isOnSpecial` | boolean |
 | `wasPrice` | null |

@@ -64,7 +64,7 @@ Full details on the [scraper page](https://apify.com/abotapi/hh-ru-jobs-scraper?
 | `searchSessionId` | string |
 | `company` | object |
 | `salaryFrom` | integer |
-| `salaryTo` | null |
+| `salaryTo` | integer |
 | `salaryCurrency` | string |
 | `salaryGross` | boolean |
 | `salaryMode` | string |

@@ -48,7 +48,7 @@
     "timezone": "Example timezone"
   },
   {
-    "storeId": "34792074",
+    "storeId": "57219397",
     "name": "Example name",
     "url": "https://www.doordash.com/example/27413",
     "description": "Example description",
@@ -56,8 +56,8 @@
     "isConvenience": false,
     "isShippingOnly": false,
     "rating": 4.46,
-    "ratingCount": 494,
-    "ratingCountDisplay": "(926+)",
+    "ratingCount": 44,
+    "ratingCountDisplay": "(35+)",
     "priceTier": "Example price tier",
     "priceRange": 3,
     "cuisines": [
@@ -71,25 +71,23 @@
     "offersCatering": false,
     "offersGroupOrder": true,
     "offersScheduling": true,
-    "additionalImages": [
-      "https://img.cdn4dd.com/example/63133.jpg"
-    ],
+    "additionalImages": [],
     "etaMinutes": 57,
     "pickupEtaMinutes": 33,
     "deliveryFee": "Example delivery fee",
     "coverImageUrl": "https://img.cdn4dd.com/example/65701.jpg",
     "coverSquareImageUrl": "https://img.cdn4dd.com/example/49941.jpg",
     "businessHeaderImageUrl": "https://img.cdn4dd.com/example/98897.jpg",
-    "photoCountText": "Example photo count text",
-    "businessId": "0367",
+    "photoCountText": null,
+    "businessId": "305055",
     "businessName": "Example business name",
     "businessLink": "Example business link",
     "businessTags": [
       "American",
-      "Italian"
+      "Pizzeria"
     ],
     "distance": "mi",
-    "latitude": 36.68,
+    "latitude": 36.67,
     "longitude": -65.11,
     "city": "Example city",
     "state": "NY",

@@ -44,6 +44,7 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~bizquest-scraper/run-sync
 | `expireAfterMissedScans` | integer | Expire after N missed full scans (incr |
 | `changeScope` | string | What counts as a change (incremental m |
 | `compactUpdates` | boolean | Compact update rows (incremental mode  |
+| `sessionJarSeed` | string | Broker session jar seed (operators) |
 
 `*` required
 
@@ -62,11 +63,11 @@ Full details on the [scraper page](https://apify.com/abotapi/bizquest-scraper?ut
 | `description` | string |
 | `image` | string |
 | `images` | list |
-| `askingPrice` | integer |
+| `askingPrice` | null |
 | `cashFlow` | null |
-| `ebitda` | null |
+| `ebitda` | integer |
 | `leaseRateDuration` | integer |
-| `leaseRatePerSquareFoot` | null |
+| `leaseRatePerSquareFoot` | integer |
 | `realEstateIncludedInAskingPrice` | boolean |
 | `financingTypeId` | integer |
 | `initialFee` | null |
@@ -82,12 +83,12 @@ Full details on the [scraper page](https://apify.com/abotapi/bizquest-scraper?ut
 | `isFranchise` | boolean |
 | `categoryDetails` | null |
 | `brokerName` | string |
-| `brokerCompany` | null |
+| `brokerCompany` | string |
 | `brokerPhone` | string |
-| `tpnPhone` | null |
+| `tpnPhone` | string |
 | `tpnPhoneExt` | null |
-| `brokerPhoto` | null |
-| `brokerProfileUrl` | null |
+| `brokerPhoto` | string |
+| `brokerProfileUrl` | string |
 | `brokerCertifications` | null |
 | `contactInfo` | object |
 | `hotProperty` | boolean |

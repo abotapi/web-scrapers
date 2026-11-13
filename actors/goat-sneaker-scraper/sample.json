@@ -41,7 +41,7 @@
     "status": "active",
     "isRaffleProduct": false,
     "isFashionProduct": false,
-    "minimumOffer": 21,
+    "minimumOffer": 3,
     "maximumOffer": 6336,
     "story": "Example story: mock text standing in for the real value. Same field and type, made-up content.",
     "storyHtml": "Example story html: mock text standing in for the real value. Same field and type, made-up content.",

@@ -1,4 +1,4 @@
-"""Vinted Multi-Country Scraper: minimal example. Docs: https://apify.com/abotapi/vinted-marketplace-scraper
+"""Vinted Scraper: minimal example. Docs: https://apify.com/abotapi/vinted-marketplace-scraper
 
 pip install "apify-client>=3"
 APIFY_TOKEN=<your token> python example.py

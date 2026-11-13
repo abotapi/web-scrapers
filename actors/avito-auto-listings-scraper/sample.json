@@ -1,6 +1,6 @@
 [
   {
-    "id": "9222386189",
+    "id": "1708460335",
     "url": "https://www.avito.ru/example/56190",
     "title": "Example title",
     "price": 77158333,
@@ -25,8 +25,8 @@
     "postedDate": "",
     "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
     "photoUrls": [
-      "https://50.img.avito.st/example/23086.jpg",
-      "https://c90.img.avito.st/example/40490.jpg"
+      "https://60.img.avito.st/example/23086.jpg",
+      "https://c70.img.avito.st/example/40490.jpg"
     ],
     "photoCount": 50,
     "badges": [
@@ -39,7 +39,7 @@
     "sellerType": "Example seller type",
     "sellerRating": null,
     "sellerReviewsCount": null,
-    "sellerSince": "",
+    "sellerSince": "Example seller since",
     "viewsCount": null,
     "todayViews": 550,
     "postedDateFull": "Example posted date full",
@@ -47,6 +47,7 @@
       "Год выпуска": "5883",
       "Поколение": "Example поколение",
       "Пробег": "Example пробег",
+      "История пробега": "Example история пробега",
       "ПТС": "Example птс",
       "Владельцев по ПТС": "4",
       "Состояние": "Example состояние",
@@ -61,7 +62,7 @@
       "Руль": "Example руль",
       "VIN или номер кузова": "Example v i n или номер кузова"
     },
-    "lat": 55.79,
-    "lng": 43.58
+    "lat": 55.73,
+    "lng": 43.55
   }
 ]

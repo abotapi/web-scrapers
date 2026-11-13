@@ -1,22 +1,22 @@
 [
   {
     "kind": "listing",
-    "recordId": "779155",
-    "listingId": "013298",
+    "recordId": "59338",
+    "listingId": "50850",
     "maskedId": "id81318159",
     "url": "https://www.hipcamp.com/example/27102",
     "title": "Example title",
-    "pricePerNight": 47,
-    "totalPricePerNight": 56,
+    "pricePerNight": 17.82,
+    "totalPricePerNight": 37.93,
     "currency": "USD",
     "recommendsPercentage": 82,
-    "recommendsCount": 916,
+    "recommendsCount": 9016,
     "bookingsCount": 3599,
-    "favoritesCount": 6,
+    "favoritesCount": 6828,
     "campsitesCount": 27,
-    "landCategory": "ranch",
-    "latitude": 49.25,
-    "longitude": -103.65,
+    "landCategory": "farm",
+    "latitude": 40.11,
+    "longitude": -99.68,
     "cityName": "Example city name",
     "countyName": "Example county name",
     "stateName": "Example state name",
@@ -26,8 +26,8 @@
       "tent",
       "rv"
     ],
-    "isStarHost": true,
-    "summary": "Example summary: mock text standing in for the real value. Same field and type, made-up content.",
+    "isStarHost": false,
+    "summary": "user77@example.com",
     "tileSummary": "Example tile summary",
     "imageUrl": "https://hipcamp-res.cloudinary.com/example/43021.jpg",
     "photoFilenames": [
@@ -39,61 +39,61 @@
       "__typename": "Example __typename",
       "totalCampsitesCount": 99,
       "url": "Example url",
-      "id": "734578",
+      "id": "49347",
       "maskedId": "id81318159",
       "uuid": "id23679361",
       "area": {
         "formatLong": "Example format long"
       },
       "coordinate": {
-        "latitude": 49.25,
-        "longitude": -103.65
+        "latitude": 40.11,
+        "longitude": -99.68
       },
       "minPricePerNight": {
         "format": "Example format",
         "symbol": "Example symbol",
         "minorAmount": 1971,
-        "amount": 86
+        "amount": 26.84
       },
       "totalPricePerNight": {
         "format": "Example format",
         "symbol": "Example symbol",
         "minorAmount": 1971,
-        "amount": 86
+        "amount": 37.93
       },
       "name": "Example name",
       "recommendsPercentage": 82,
-      "recommendsCount": 916,
+      "recommendsCount": 9016,
       "hasEnoughRecommends": true,
       "ukGeoHierarchyWithoutCountry": null,
       "bookingsCount": 3599,
-      "favoritesCount": 6,
+      "favoritesCount": 6828,
       "cityName": "Example city name",
       "contextualPhotoCount": 0,
       "countyName": "Example county name",
       "stateName": "Example state name",
       "stateAbbrvName": "Example state abbrv name",
       "countryCode": "US",
-      "summary": "Example summary: mock text standing in for the real value. Same field and type, made-up content.",
+      "summary": "user77@example.com",
       "tileSummary": "Example tile summary",
       "distance": null,
       "allAccommodationKeys": [
         "tent",
         "rv"
       ],
-      "isStarHost": true,
+      "isStarHost": false,
       "isHipbook": true,
       "isExternal": false,
-      "landCategory": "ranch",
+      "landCategory": "farm",
       "coverPhoto": {
-        "filename": "Example filename",
-        "description": null
+        "filename": "Example filename: mock text standing in for the real value. Same field and type, made-up content.",
+        "description": ""
       },
       "topPhotos": [
         {
           "id": null,
           "uuid": "id23679361",
-          "description": "Example description",
+          "description": null,
           "filename": "Example filename: mock text standing in for the real value. Same field and type, made-up content.",
           "isContextual": false
         },

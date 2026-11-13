@@ -1,20 +1,20 @@
 [
   {
-    "recordId": "13125307",
+    "recordId": "93431087",
     "rowType": "product",
-    "productId": "87194253",
+    "productId": "07800936",
     "url": "https://www.ssense.com/example/68156",
     "title": "Example title",
     "brand": "Example brand",
-    "brandId": "291",
-    "sku": "829157m420293",
+    "brandId": "198",
+    "sku": "306638m281582",
     "gender": "men",
     "categoryIds": [
       "7",
       "882"
     ],
-    "price": 1585,
-    "regularPrice": 4933,
+    "price": 685,
+    "regularPrice": 433,
     "onSale": false,
     "discountPercent": null,
     "currency": "USD",
@@ -29,17 +29,17 @@
     "sizes": [
       {
         "name": "Example name",
-        "sku": "949580m11758066",
+        "sku": "110957m84828178",
         "inStock": false
       },
       {
         "name": "Example name",
-        "sku": "949762m92629165",
-        "inStock": true
+        "sku": "882189m85820408",
+        "inStock": false
       }
     ],
     "composition": "Example composition",
-    "countryOfOrigin": "Italy",
+    "countryOfOrigin": "Portugal",
     "scrapedAt": "2026-01-15T10:00:00Z"
   }
 ]

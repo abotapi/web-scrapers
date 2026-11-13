@@ -75,20 +75,20 @@ Full details on the [scraper page](https://apify.com/abotapi/joinswitch-rental-s
 | `authenticity` | string |
 | `categoryId` | string |
 | `occasionId` | string |
-| `shopId` | string |
+| `shopId` | null |
 | `sku` | string |
 | `dateAdded` | string |
 | `updatedAt` | string |
 | `inventoryUpdatedOn` | string |
 | `lowestTierId` | integer |
 | `imageUrl` | string |
-| `imageUrlHover` | string |
+| `imageUrlHover` | null |
 | `imageUrls` | list |
 | `imageCount` | integer |
 | `recordId` | string |
 | `category` | string |
 | `occasion` | string |
-| `shop` | string |
+| `shop` | null |
 | `scrapedAt` | string |
 | `metaTitle` | string |
 

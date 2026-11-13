@@ -90,13 +90,13 @@ Full details on the [scraper page](https://apify.com/abotapi/seek-scraper?utm_so
 | `companyNameSlug` | string |
 | `companyProfileId` | integer |
 | `companyOverview` | null |
-| `companyIndustry` | string |
+| `companyIndustry` | null |
 | `companySize` | null |
 | `companyWebsite` | null |
 | `companySpecialities` | list |
 | `companyPrimaryLocation` | null |
-| `companyLogo` | string |
-| `companyCoverImage` | string |
+| `companyLogo` | null |
+| `companyCoverImage` | null |
 | `companyRating` | null |
 | `companyReviewCount` | null |
 | `companySalaryRating` | null |

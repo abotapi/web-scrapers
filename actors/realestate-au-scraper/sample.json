@@ -1,6 +1,6 @@
 [
   {
-    "propertyId": "019240418",
+    "propertyId": "829840145",
     "url": "https://www.realestate.com.au/example/41457",
     "listingType": "buy",
     "propertyType": "apartment",
@@ -16,8 +16,8 @@
       "full": "Example full"
     },
     "coordinates": {
-      "latitude": -27.44,
-      "longitude": 164.81
+      "latitude": -27.43,
+      "longitude": 164.82
     },
     "price": {
       "display": "Example display"
@@ -29,21 +29,18 @@
       "hasStudy": false,
       "hasBalcony": false,
       "hasPool": false,
-      "hasGarage": true
+      "hasGarage": false
     },
+    "landSize": 638,
+    "landSizeUnit": "m2",
     "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
     "headline": "Example headline",
     "propertyFeatures": [
-      "Example property features",
       "Example property features"
     ],
     "propertyFeaturesStructured": {
       "outdoorFeatures": [
         "Example outdoor features"
-      ],
-      "indoorFeatures": [
-        "Example indoor features",
-        "Example indoor features"
       ]
     },
     "media": {
@@ -54,14 +51,14 @@
           "isFloorplan": false
         },
         {
-          "url": "https://i3.au.reastatic.net/example/3976.jpg",
+          "url": "https://img.youtube.com/example/3976.jpg",
           "isFloorplan": false
         }
       ],
       "floorplanUrl": "https://i3.au.reastatic.net/example/5859.jpg"
     },
     "agent": {
-      "id": "8917275",
+      "id": "87867",
       "name": "Example name",
       "phone": "+1 555 0100",
       "officePhone": "+1 555 0100",
@@ -70,11 +67,11 @@
       "jobTitle": "Example job title",
       "photoUrl": "https://i3.au.reastatic.net/example/91259.jpg",
       "profileUrl": "https://www.realestate.com.au/example/23143",
-      "powerProfile": false
+      "powerProfile": true
     },
     "agents": [
       {
-        "id": "8917275",
+        "id": "87867",
         "name": "Example name",
         "phone": "+1 555 0100",
         "officePhone": "+1 555 0100",
@@ -83,19 +80,31 @@
         "jobTitle": "Example job title",
         "photoUrl": "https://i3.au.reastatic.net/example/91259.jpg",
         "profileUrl": "https://www.realestate.com.au/example/23143",
+        "powerProfile": true
+      },
+      {
+        "id": "4273441",
+        "name": "Example name",
+        "phone": "+1 555 0100",
+        "officePhone": "+1 555 0100",
+        "mobilePhone": "+1 555 0100",
+        "email": "user32@example.com",
+        "jobTitle": "Example job title",
+        "photoUrl": "https://i3.au.reastatic.net/example/1526.jpg",
+        "profileUrl": "https://www.realestate.com.au/example/56349",
         "powerProfile": false
       }
     ],
     "agency": {
       "name": "Example name",
-      "id": "IXEUCX",
+      "id": "MZLZZU",
       "phone": "+1 555 0100",
       "email": "user75@example.com",
-      "website": "http://www.ghh.rh.com.au/example/37340",
+      "website": "http://www.morton.com.au/example/37340",
       "address": "Example address",
       "addressStructured": {
         "streetAddress": "Example street address",
-        "postcode": "2030",
+        "postcode": "1565",
         "suburb": "Example suburb",
         "state": "NSW"
       },
@@ -119,7 +128,7 @@
     "constructionStatus": "established",
     "productDepth": "signature",
     "featured": false,
-    "agencyListingId": "l68267125",
+    "agencyListingId": "7p01905",
     "channel": "buy",
     "isBuy": true,
     "isRent": false,

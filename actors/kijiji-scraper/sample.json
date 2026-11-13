@@ -1,9 +1,9 @@
 [
   {
-    "id": "5543662873",
+    "id": "1707424761",
     "listingType": "StandardListing",
     "title": "Example title",
-    "description": "user23@example.com",
+    "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
     "url": "https://www.kijiji.ca/example/21350",
     "categoryId": 279,
     "adSource": "TOP_AD",
@@ -13,26 +13,26 @@
     "imageUrls": [
       "https://media.kijiji.ca/example/39618.jpg"
     ],
-    "price": null,
-    "priceRaw": null,
-    "priceType": "CONTACT",
+    "price": 317,
+    "priceRaw": 19227,
+    "priceType": "FIXED",
     "originalPrice": null,
     "currency": "CAD",
     "locationId": 7280147,
     "locationName": "Example location name",
     "address": "Example address",
     "nearestIntersection": null,
-    "latitude": 48.11,
-    "longitude": -68.31,
-    "posterId": "1104548260",
+    "latitude": 48.05,
+    "longitude": -68.19,
+    "posterId": "6424284528",
     "posterRating": null,
     "posterVerified": false,
     "sellerType": "Example seller type",
     "posterInfo": {
       "__typename": "Example __typename",
-      "posterId": "1104548260",
+      "posterId": "6424284528",
       "sellerType": "Example seller type",
-      "websiteUrl": "https://flipafone.ca/example/27270",
+      "websiteUrl": null,
       "phoneNumber": "+1 555 0100",
       "verified": false
     },
@@ -50,32 +50,29 @@
       "isPromotionProvTopAd": null,
       "isPromotionTopAd": true
     },
-    "attr_phonecarrier": "+1 555 0100",
-    "attr_payment": "cashless",
-    "attr_phonebrand": "+1 555 0100",
-    "attr_fulfillment": [
-      "delivery",
-      "shipping"
-    ],
     "attr_forsaleby": "delr",
-    "attr_srpLogoUrl": "https://media.kijiji.ca/example/68429.jpg",
+    "attr_phonecarrier": "+1 555 0100",
+    "attr_phonebrand": "+1 555 0100",
     "attributesRaw": [
       {
         "__typename": "listingattributev9",
         "canonicalName": "Example canonical name",
         "canonicalValues": [
-          "unlck"
+          "delr"
         ]
       },
       {
         "__typename": "listingattributev8",
         "canonicalName": "Example canonical name",
         "canonicalValues": [
-          "cashless"
+          "unlck"
         ]
       }
     ],
     "street_address": "Example street_address",
-    "locality": "Example locality"
+    "locality": "Example locality",
+    "region": null,
+    "country": "CA",
+    "postalCode": "Example postal code"
   }
 ]

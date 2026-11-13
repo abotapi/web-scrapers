@@ -1,0 +1,53 @@
+[
+  {
+    "productId": "443941490",
+    "sku": "734639860",
+    "title": "Example title: mock text standing in for the real value. Same field and type, made-up content.",
+    "brand": "Samsung",
+    "brandSlug": "samsung",
+    "url": "https://www.magazineluiza.com.br/example/25720",
+    "image": "https://a-static.mlcdn.com.br/example/82093.jpg",
+    "price": 1725,
+    "listPrice": 6086,
+    "discountPercent": 29,
+    "currency": "BRL",
+    "cashPrice": 3861.76,
+    "cashPaymentMethod": "Example cash payment method",
+    "cashDiscountPercent": 16,
+    "installmentCount": 22,
+    "installmentAmount": 477.17,
+    "installmentTotal": 8848,
+    "installmentTerms": "Example installment terms",
+    "installmentInterestFree": null,
+    "sellerId": "Example seller id",
+    "sellerName": "Example seller name",
+    "soldByMagalu": true,
+    "available": true,
+    "rating": 4.47,
+    "reviewCount": 89,
+    "categoryId": "IN",
+    "category": "Example category",
+    "subcategoryId": "NSBO",
+    "subcategory": "Example subcategory",
+    "sponsored": true,
+    "isBuyBox": false,
+    "minimumOrderQuantity": 5,
+    "maxCheckoutQuantity": null,
+    "promoStartDate": null,
+    "promoEndDate": null,
+    "coupon": {
+      "discountType": "absolute",
+      "discountValue": 609
+    },
+    "badges": [],
+    "tags": [
+      "is_magalu_indica"
+    ],
+    "magaluRecommends": true,
+    "shippingTag": {
+      "cost": null,
+      "time": null,
+      "note": null
+    }
+  }
+]

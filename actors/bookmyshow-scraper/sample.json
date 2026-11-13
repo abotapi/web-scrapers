@@ -38,6 +38,8 @@
     "priceDisplay": null,
     "availability": null,
     "dateText": null,
-    "timeText": null
+    "timeText": null,
+    "rating": 10.88,
+    "ratingText": "3.9/03"
   }
 ]

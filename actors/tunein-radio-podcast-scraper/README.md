@@ -32,6 +32,7 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~tunein-radio-podcast-scra
 | `urls` | array | Links or ids |
 | `itemTypes` | array | Result types |
 | `minBitrateKbps` | integer | Minimum stream bitrate (kbps) |
+| `maxBitrateKbps` | integer | Maximum stream bitrate (kbps) |
 | `minReliabilityPercent` | integer | Minimum reliability score |
 | `streamFormats` | array | Stream formats |
 | `genreIds` | array | Genre ids |

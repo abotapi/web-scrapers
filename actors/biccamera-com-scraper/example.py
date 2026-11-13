@@ -13,7 +13,7 @@ client = ApifyClient(os.environ["APIFY_TOKEN"])
 run = client.actor("abotapi/biccamera-com-scraper").call(
     run_input={
         "mode": "search",
-        "searchTerms": ["カメラ"],
+        "category": "001/120/001",
         "sortBy": "RELEVANCE",
         "maxReviewsPerProduct": 10,
         "maxPages": 1,

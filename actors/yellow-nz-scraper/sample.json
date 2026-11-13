@@ -26,8 +26,8 @@
       "Example opening hours"
     ],
     "paymentAccepted": "Example payment accepted",
-    "imageUrl": "https://i2.ypcdn.com/example/61110.jpg",
-    "logoUrl": "https://i2.ypcdn.com/example/70670.jpg",
+    "imageUrl": "https://i1.ypcdn.com/example/61110.jpg",
+    "logoUrl": "https://i3.ypcdn.com/example/70670.jpg",
     "reviews": [
       {
         "author": "Example author",
@@ -40,8 +40,8 @@
     "slogan": "Example slogan: mock text standing in for the real value. Same field and type, made-up content.",
     "associations": "Example associations: mock text standing in for the real value. Same field and type, made-up content.",
     "generalInfo": "Example general info: mock text standing in for the real value. Same field and type, made-up content.",
-    "searchTerms": "plumbers",
-    "searchLocation": "auckland",
+    "searchTerms": "Example search terms",
+    "searchLocation": "Example search location",
     "businessId": "874513411",
     "listingUrl": "https://yellow.co.nz/example/96707",
     "category": "Plumbers",
@@ -55,7 +55,7 @@
       "user31@example.com"
     ],
     "emailSource": "Example email source",
-    "searchQuery": "plumbers",
+    "searchQuery": "Example search query",
     "source": "yellow.co.nz",
     "observedAt": "2026-01-15T10:00:00Z"
   }

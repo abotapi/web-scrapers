@@ -64,10 +64,10 @@ Full details on the [scraper page](https://apify.com/abotapi/thegioididong-scrap
 | `imageUrl` | string |
 | `label` | null |
 | `price` | integer |
-| `originalPrice` | null |
-| `discount` | null |
-| `discountPercent` | null |
-| `savings` | null |
+| `originalPrice` | integer |
+| `discount` | string |
+| `discountPercent` | integer |
+| `savings` | integer |
 | `isOnSpecial` | boolean |
 | `searchQuery` | string |
 | `searchMode` | string |

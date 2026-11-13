@@ -54,7 +54,7 @@ Full details on the [scraper page](https://apify.com/abotapi/idealo-de-price-com
 | `currency` | string |
 | `priceFormatted` | string |
 | `offerCount` | integer |
-| `rating` | integer |
+| `rating` | float |
 | `reviewCount` | integer |
 | `reviewBreakdown` | object |
 | `previewImage` | string |

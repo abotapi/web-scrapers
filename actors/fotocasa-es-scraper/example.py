@@ -1,4 +1,4 @@
-"""Fotocasa.es Scraper: minimal example. Docs: https://apify.com/abotapi/fotocasa-es-scraper
+"""Fotocasa Spain Scraper: minimal example. Docs: https://apify.com/abotapi/fotocasa-es-scraper
 
 pip install "apify-client>=3"
 APIFY_TOKEN=<your token> python example.py

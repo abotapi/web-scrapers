@@ -88,6 +88,7 @@ Full details on the [scraper page](https://apify.com/abotapi/housing-com-scraper
 | `coverImageUrl` | string |
 | `pricePerArea` | string |
 | `configurations` | string |
+| `bedrooms` | integer |
 
 ---
 

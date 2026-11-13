@@ -82,11 +82,11 @@ Full details on the [scraper page](https://apify.com/abotapi/hijobs-net-jobs-scr
 | `longitude` | float |
 | `salary` | object |
 | `salaryRaw` | string |
-| `salaryMin` | float |
-| `salaryMax` | float |
+| `salaryMin` | integer |
+| `salaryMax` | integer |
 | `categories` | list |
 | `sector` | string |
-| `specialism` | null |
+| `specialism` | string |
 | `employmentTypes` | list |
 | `contractType` | string |
 | `hours` | string |

@@ -82,8 +82,8 @@ Full details on the [scraper page](https://apify.com/abotapi/rent-com-scraper?ut
 | `phoneText` | string |
 | `phoneSem` | string |
 | `phoneSemText` | string |
-| `specialOffer` | string |
-| `specialOfferCategory` | string |
+| `specialOffer` | null |
+| `specialOfferCategory` | null |
 | `deals` | list |
 | `categoryBadges` | list |
 | `dealTypes` | list |

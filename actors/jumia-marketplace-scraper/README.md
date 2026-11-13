@@ -59,11 +59,11 @@ Full details on the [scraper page](https://apify.com/abotapi/jumia-marketplace-s
 | `url` | string |
 | `imageUrl` | string |
 | `currency` | string |
-| `price` | integer |
+| `price` | float |
 | `priceDisplay` | string |
 | `oldPrice` | integer |
 | `discountPercent` | integer |
-| `ratingAverage` | float |
+| `ratingAverage` | integer |
 | `ratingCount` | integer |
 | `officialStore` | boolean |
 | `badges` | list |
@@ -79,7 +79,7 @@ Full details on the [scraper page](https://apify.com/abotapi/jumia-marketplace-s
 | `countryCode` | string |
 | `priceText` | string |
 | `oldPriceText` | string |
-| `rating` | float |
+| `rating` | integer |
 | `reviewsCount` | integer |
 | `inStock` | boolean |
 | `isOfficialStore` | boolean |

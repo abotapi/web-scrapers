@@ -90,8 +90,8 @@ Full details on the [scraper page](https://apify.com/abotapi/homes-co-nz-scraper
 | `canUseImages` | boolean |
 | `images` | list |
 | `media` | list |
-| `videoUrls` | list |
 | `mediaCount` | integer |
+| `openHomes` | list |
 
 ---
 

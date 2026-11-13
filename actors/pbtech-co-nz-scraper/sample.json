@@ -19,10 +19,107 @@
       "Operating System": "Example operating  system"
     },
     "promotion": "Example promotion",
-    "imageUrl": null,
+    "imageUrl": "https://www.pbtech.co.nz/example/71492.jpg",
     "discountPercent": null,
     "searchMode": "search",
     "specialsCategory": null,
-    "source": "pbtech.co.nz"
+    "source": "pbtech.co.nz",
+    "sku": "nbkacn1643i",
+    "brand": "Acer",
+    "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
+    "images": [
+      "https://www.pbtech.co.nz/example/27369.jpg",
+      "https://www.pbtech.co.nz/example/3491.jpg"
+    ],
+    "basePrice": 9745,
+    "availability": "Example availability",
+    "condition": "New",
+    "priceValidUntil": "2026-01-15",
+    "seller": "Example seller",
+    "categories": [
+      "Example categories",
+      "Laptops"
+    ],
+    "specificationsText": "Example specifications text: mock text standing in for the real value. Same field and type, made-up content.",
+    "storeStock": [
+      {
+        "branch": "Example branch",
+        "stock": 1
+      },
+      {
+        "branch": "Example branch",
+        "stock": 0
+      }
+    ],
+    "totalStoreStock": 41,
+    "ratingBreakdown": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 4
+    }
+  },
+  {
+    "code": "nbkacn63281a",
+    "name": "Example name: mock text standing in for the real value. Same field and type, made-up content.",
+    "url": "https://www.pbtech.co.nz/example/89518",
+    "price": 1309.28,
+    "originalPrice": null,
+    "currency": "NZD",
+    "reviewCount": 1,
+    "rating": 8,
+    "specifications": {
+      "CPU Family": "Example c p u  family",
+      "Memory Size": "Example memory  size",
+      "SSD Capacity": "Example s s d  capacity",
+      "Screen Size": "Example screen  size",
+      "Screen Resolution": "Example screen  resolution",
+      "Refresh Rate": "Example refresh  rate",
+      "GPU Model": "Example g p u  model",
+      "Operating System": "Example operating  system"
+    },
+    "promotion": null,
+    "imageUrl": "https://www.pbtech.co.nz/example/34253.jpg",
+    "discountPercent": null,
+    "searchMode": "search",
+    "specialsCategory": null,
+    "source": "pbtech.co.nz",
+    "sku": "nbkacn56298a",
+    "gtin": "5271681198704",
+    "brand": "Acer",
+    "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
+    "images": [
+      "https://www.pbtech.co.nz/example/97900.jpg",
+      "https://www.pbtech.co.nz/example/64266.jpg"
+    ],
+    "basePrice": 1653.12,
+    "availability": "Example availability",
+    "condition": "New",
+    "priceValidUntil": "2026-01-15",
+    "seller": "Example seller",
+    "categories": [
+      "Example categories",
+      "Laptops"
+    ],
+    "specificationsText": "Example specifications text: mock text standing in for the real value. Same field and type, made-up content.",
+    "storeStock": [
+      {
+        "branch": "Example branch",
+        "stock": 2
+      },
+      {
+        "branch": "Example branch",
+        "stock": 2
+      }
+    ],
+    "totalStoreStock": 96,
+    "ratingBreakdown": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 3
+    }
   }
 ]

@@ -62,9 +62,9 @@ Full details on the [scraper page](https://apify.com/abotapi/kaufland-de-scraper
 | `discountPercent` | null |
 | `isOnSpecial` | boolean |
 | `unitPrice` | object |
-| `promoLabel` | string |
+| `promoLabel` | null |
 | `seller` | string |
-| `rating` | float |
+| `rating` | integer |
 | `reviewCount` | integer |
 
 ---

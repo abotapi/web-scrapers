@@ -1,7 +1,7 @@
 [
   {
     "recordId": "Example record id",
-    "productId": "90015358",
+    "productId": "79236494",
     "kind": "product",
     "url": "https://www.vestiairecollective.com/example/95149",
     "slug": "Example slug",
@@ -12,32 +12,35 @@
     "currency": "AUD",
     "price": 9450,
     "priceCents": 668922,
-    "wasPrice": null,
-    "discountPercent": null,
+    "wasPrice": 4475,
+    "discountPercent": 66,
     "colorName": "Example color name",
     "colorNames": [
       "Example color names"
     ],
     "colors": [
-      2
+      92
     ],
     "model": "Example model",
     "modelId": 5656,
     "size": null,
     "sizeStandard": null,
-    "likes": 8,
+    "likes": 17,
     "sold": false,
     "stock": false,
     "shouldBeGone": false,
     "localEligible": true,
     "directShippingEligible": false,
-    "editorPicks": [],
+    "editorPicks": [
+      "vintage",
+      "Example editor picks"
+    ],
     "pictureUrls": [
       "https://images.vestiairecollective.com/example/16877.jpg",
       "https://images.vestiairecollective.com/example/30939.jpg"
     ],
     "imageUrl": "https://images.vestiairecollective.com/example/85092.jpg",
-    "imageCount": 55,
+    "imageCount": 1,
     "sellerId": 47005888,
     "sellerName": "Example seller name",
     "sellerIsOfficialStore": false,

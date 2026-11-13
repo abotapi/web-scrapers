@@ -1,10 +1,10 @@
 [
   {
     "id": 995346369,
-    "productId": "71636996",
+    "productId": "41372475",
     "name": "Example name",
     "brand": "Zara",
-    "reference": "37409878-i3485",
+    "reference": "08401565-i8173",
     "section": "WOMAN",
     "family": "VESTIDO",
     "subfamily": "Example subfamily",
@@ -12,10 +12,10 @@
     "description": "",
     "url": "https://www.zara.com/example/208",
     "currency": "EUR",
-    "defaultColorId": "541",
+    "defaultColorId": "026",
     "colors": [
       {
-        "id": "105",
+        "id": "560",
         "name": "Example name",
         "hexColor": "Example hex color",
         "discernProductId": 700558918,
@@ -41,6 +41,34 @@
         "originalPrice": null,
         "discountPercent": null,
         "isOnSale": false
+      },
+      {
+        "id": "913",
+        "name": "Example name",
+        "hexColor": "Example hex color",
+        "discernProductId": 498025251,
+        "availability": "in_stock",
+        "images": [
+          {
+            "url": "https://static.zara.net/example/21326",
+            "width": 8756,
+            "height": 8311,
+            "kind": "full"
+          },
+          {
+            "url": "https://static.zara.net/example/27359",
+            "width": 7634,
+            "height": 5822,
+            "kind": "other"
+          }
+        ],
+        "sizes": [],
+        "currency": "EUR",
+        "price": 43.55,
+        "oldPrice": null,
+        "originalPrice": null,
+        "discountPercent": null,
+        "isOnSale": false
       }
     ],
     "compositions": null,
@@ -53,7 +81,7 @@
     "type": "Product",
     "state": null,
     "keyword": "Example keyword",
-    "displayReference": "0139/497",
+    "displayReference": "4844/964",
     "detailedComposition": null,
     "extraInfo": {
       "highlightPrice": false,

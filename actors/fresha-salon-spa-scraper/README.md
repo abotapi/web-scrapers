@@ -78,7 +78,7 @@ Full details on the [scraper page](https://apify.com/abotapi/fresha-salon-spa-sc
 | `imageKeywords` | list |
 | `imageDescriptions` | list |
 | `street` | string |
-| `apartmentSuite` | string |
+| `apartmentSuite` | null |
 | `city` | string |
 | `area` | string |
 | `state` | string |

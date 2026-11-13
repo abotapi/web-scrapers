@@ -72,7 +72,6 @@ Full details on the [scraper page](https://apify.com/abotapi/hipages-business-sc
 | `position` | integer |
 | `distance` | integer |
 | `searchContext` | object |
-| `detailedInfo` | object |
 | `detailFetched` | boolean |
 
 ---

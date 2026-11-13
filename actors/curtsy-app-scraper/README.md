@@ -60,7 +60,7 @@ Full details on the [scraper page](https://apify.com/abotapi/curtsy-app-scraper?
 | `brand` | string |
 | `brandId` | string |
 | `price` | integer |
-| `retailPrice` | null |
+| `retailPrice` | integer |
 | `suggestedPrice` | integer |
 | `priceWithFees` | float |
 | `shippingPrice` | integer |

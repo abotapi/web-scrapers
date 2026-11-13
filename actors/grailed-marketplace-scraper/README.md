@@ -96,7 +96,7 @@ Full details on the [scraper page](https://apify.com/abotapi/grailed-marketplace
 | `sellerId` | integer |
 | `sellerUsername` | string |
 | `sellerUrl` | string |
-| `sellerRating` | integer |
+| `sellerRating` | null |
 
 ---
 

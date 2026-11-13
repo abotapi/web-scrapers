@@ -3,16 +3,16 @@
     "hotelId": "+1 555 0100",
     "name": "Example name",
     "starRating": 7,
-    "reviewScore": 11.19,
+    "reviewScore": 10.7,
     "reviewScoreLabel": "Example review score label",
-    "reviewCount": 839,
+    "reviewCount": 9839,
     "reviewTags": [
       "Example review tags",
       "Example review tags"
     ],
-    "address": "Example address: mock text standing in for the real value. Same field and type, made-up content.",
-    "lat": 43.55,
-    "lng": 152.37,
+    "address": "Example address",
+    "lat": 43.47,
+    "lng": 152.31,
     "priceCurrent": 25,
     "priceOriginal": 856,
     "priceTotalWithTaxes": 753,
@@ -28,7 +28,7 @@
       "Example badges",
       "Example badges"
     ],
-    "medal": null,
+    "medal": "7",
     "propertyTag": "Hotel",
     "detailUrl": "https://www.trip.com/example/60637",
     "amenities": [
@@ -43,7 +43,7 @@
     "nearbyPlaces": [
       {
         "name": "Example name",
-        "type": "scenic",
+        "type": "station",
         "distance": "Example distance"
       },
       {
@@ -58,10 +58,10 @@
     "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
     "rooms": [
       {
-        "roomId": "8010436744",
+        "roomId": "3310379698",
         "roomName": "Example room name",
         "mealInfo": null,
-        "cancelInfo": null,
+        "cancelInfo": "Example cancel info",
         "guestCountInfo": "Example guest count info",
         "roomPrice": {
           "current": 96,
@@ -83,22 +83,23 @@
     "confirmInfo": null,
     "reviews": [
       {
-        "reviewId": "6566884559",
+        "reviewId": "3517798772",
         "reviewRatingOverall": 10.2,
-        "reviewRatingLocation": 3,
-        "reviewRatingFacility": 48,
-        "reviewRatingService": 44,
+        "reviewRatingLocation": 48,
+        "reviewRatingFacility": 3,
+        "reviewRatingService": 8,
         "reviewRatingRoom": 3,
         "reviewCommentLevel": "Example review comment level",
-        "reviewContent": "Example review content",
-        "reviewLanguage": "zh",
-        "reviewTranslatedContent": "Example review translated content: mock text standing in for the real value. Same field and type, made-up content.",
+        "reviewContent": "Example review content: mock text standing in for the real value. Same field and type, made-up content.",
+        "reviewLanguage": "en",
+        "reviewTranslatedContent": null,
         "reviewCreateDate": "2026-01-15T10:00:00Z",
         "reviewCheckinDate": "2026-01-15T10:00:00Z",
-        "reviewTravelType": "Couple",
+        "reviewTravelType": "Example review travel type",
         "reviewRecommend": true,
         "reviewImages": [
-          "https://ak-d.tripcdn.com/example/52246.jpg"
+          "https://ak-d.tripcdn.com/example/52246.jpg",
+          "https://ak-d.tripcdn.com/example/48684.jpg"
         ],
         "reviewVideos": [],
         "reviewerNickname": "Example reviewer nickname",
@@ -114,27 +115,27 @@
         "reviewSubScores": [
           {
             "name": "Example name",
-            "score": 9
+            "score": 18
           },
           {
             "name": "Example name",
-            "score": 76
+            "score": 4
           }
         ],
-        "reviewReplyContent": "Example review reply content: mock text standing in for the real value. Same field and type, made-up content.",
-        "reviewReplyTranslatedContent": "Example review reply translated content: mock text standing in for the real value. Same field and type, made-up content.",
-        "reviewReplyLanguage": "zh",
-        "reviewReplyDate": "2026-01-15T10:00:00Z"
+        "reviewReplyContent": null,
+        "reviewReplyTranslatedContent": null,
+        "reviewReplyLanguage": null,
+        "reviewReplyDate": null
       }
     ],
     "reviewCount_pushed": 5,
-    "aggregateTotalReviewCount": 432,
+    "aggregateTotalReviewCount": 6732,
     "aggregateRatingBreakdown": {
-      "overall": 11.65,
-      "location": 8,
-      "facility": 6.5,
-      "service": 6.99,
-      "room": 7.63
+      "overall": 11.14,
+      "location": 6.81,
+      "facility": 5.99,
+      "service": 6.46,
+      "room": 7.22
     },
     "aggregateCommentTags": [
       "Example aggregate comment tags",

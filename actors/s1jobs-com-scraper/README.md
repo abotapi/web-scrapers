@@ -58,20 +58,20 @@ Full details on the [scraper page](https://apify.com/abotapi/s1jobs-com-scraper?
 | `source` | string |
 | `jobSource` | string |
 | `job_source` | string |
-| `jobSourceCategory` | string |
+| `jobSourceCategory` | null |
 | `this_job_from` | string |
 | `sourceSearchUrl` | string |
 | `scrapedAt` | string |
 | `jobId` | string |
 | `id` | string |
-| `company_id` | integer |
-| `companyId` | integer |
+| `company_id` | string |
+| `companyId` | string |
 | `vacancyId` | string |
 | `vacancy_id` | string |
 | `vacancyUuid` | string |
-| `jobReference` | string |
-| `talentPoolId` | integer |
-| `companyUrn` | string |
+| `jobReference` | null |
+| `talentPoolId` | null |
+| `companyUrn` | null |
 | `url` | string |
 | `jobUrl` | string |
 | `listingUrl` | string |
@@ -90,8 +90,8 @@ Full details on the [scraper page](https://apify.com/abotapi/s1jobs-com-scraper?
 | `company_profile_url` | string |
 | `companyAccreditations` | list |
 | `accreditations` | list |
-| `companyConfidential` | integer |
-| `companyType` | string |
+| `companyConfidential` | null |
+| `companyType` | null |
 | `companyInsights` | list |
 | `isPublicSector` | boolean |
 

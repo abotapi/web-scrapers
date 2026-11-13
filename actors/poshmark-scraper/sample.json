@@ -5,13 +5,13 @@
     "listingId": "id93785512",
     "url": "https://poshmark.com/example/71658",
     "title": "Example title",
-    "brand": "None",
-    "brandPath": "None",
+    "brand": "Example brand",
+    "brandPath": "Juicy_Couture",
     "size": "OS",
     "sizeDisplay": "Example size display",
-    "condition": "ug",
-    "conditionLabel": "Good",
-    "price": 6,
+    "condition": "uln",
+    "conditionLabel": "Example condition label",
+    "price": 51,
     "originalPrice": 0,
     "currency": "USD",
     "availability": "available",
@@ -25,25 +25,22 @@
     "category": "Handbags",
     "subcategory": "Totes",
     "colors": [
-      "Black",
-      "Red"
+      "Pink"
     ],
     "styleTags": [
-      "NY",
-      "Example style tags"
+      "Casual"
     ],
     "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
-    "likeCount": 0,
+    "likeCount": 59,
     "commentCount": 0,
-    "shareCount": 4,
+    "shareCount": 796,
     "offerCount": 0,
     "sellerUsername": "Example seller username",
     "sellerName": "Example seller name",
     "sellerUrl": "https://poshmark.com/example/81838",
     "coverImageUrl": "https://di2ponv0v5otw.cloudfront.net/example/50098.jpg",
     "pictureUrls": [
-      "https://di2ponv0v5otw.cloudfront.net/example/16109",
-      "https://di2ponv0v5otw.cloudfront.net/example/43182"
+      "https://di2ponv0v5otw.cloudfront.net/example/16109"
     ],
     "poshPassEligible": false,
     "soldPrice": null,

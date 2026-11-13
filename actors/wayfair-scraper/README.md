@@ -88,11 +88,11 @@ Full details on the [scraper page](https://apify.com/abotapi/wayfair-scraper?utm
 | `url` | string |
 | `brand` | string |
 | `price` | float |
-| `wasPrice` | float |
+| `wasPrice` | integer |
 | `currency` | string |
 | `discountPercent` | integer |
 | `discountLabel` | string |
-| `priceLabel` | null |
+| `priceLabel` | string |
 | `rating` | float |
 | `reviewCount` | integer |
 | `imageUrl` | string |

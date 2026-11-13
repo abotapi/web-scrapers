@@ -1,11 +1,11 @@
 [
   {
     "recordId": "Example record id",
-    "productId": "73325539081057",
+    "productId": "78202365366869",
     "url": "https://showpo.com/example/37663",
     "title": "Example title: mock text standing in for the real value. Same field and type, made-up content.",
     "brand": "Example brand",
-    "color": "Pink",
+    "color": "Example color",
     "attributes": [
       {
         "name": "Example name",
@@ -16,14 +16,14 @@
         "value": "Example value"
       }
     ],
-    "price": 11,
-    "listPrice": 146.84,
-    "compareAtPrice": 122.15,
-    "onSale": true,
-    "discountPercent": 60,
+    "price": 141.35,
+    "listPrice": 158.14,
+    "compareAtPrice": null,
+    "onSale": false,
+    "discountPercent": 0,
     "currency": "USD",
     "availableForSale": true,
-    "inventoryLevel": 58,
+    "inventoryLevel": 598,
     "gtin": null,
     "condition": null,
     "categories": [
@@ -36,16 +36,13 @@
       "https://cdn.shopify.com/example/17404.jpg",
       "https://cdn.shopify.com/example/34758.jpg"
     ],
-    "ratingValue": 5.64,
-    "reviewCount": 25,
+    "ratingValue": 0,
+    "reviewCount": 0,
     "sizesAvailable": [
-      "7",
-      "7"
+      "Example sizes available",
+      "Example sizes available"
     ],
-    "sizesUnavailable": [
-      "73",
-      "26"
-    ],
+    "sizesUnavailable": [],
     "descriptionHtml": "Example description html: mock text standing in for the real value. Same field and type, made-up content.",
     "subTitle": "Example sub title: mock text standing in for the real value. Same field and type, made-up content.",
     "styleName": "Example style name: mock text standing in for the real value. Same field and type, made-up content.",
@@ -53,7 +50,7 @@
     "seoDescription": null,
     "canonicalUrl": null,
     "collections": [
-      "sale",
+      "dresses",
       "clothes"
     ],
     "options": [
@@ -64,29 +61,29 @@
     ],
     "variants": [
       {
-        "variantId": "45222954535744",
-        "title": "9",
-        "sku": "sd44451184-661",
-        "size": "3",
-        "price": 11,
-        "compareAtPrice": 122.15,
-        "onSale": true,
-        "availableForSale": true,
-        "quantityAvailable": 1,
-        "restockLabel": null,
+        "variantId": "14875185372795",
+        "title": "Example title",
+        "sku": "sd27935742-090",
+        "size": "Example size",
+        "price": 111.05,
+        "compareAtPrice": 103.35,
+        "onSale": false,
+        "availableForSale": false,
+        "quantityAvailable": 0,
+        "restockLabel": "Example restock label: mock text standing in for the real value. Same field and type, made-up content.",
         "imageUrl": "https://cdn.shopify.com/example/81116.jpg"
       },
       {
-        "variantId": "47382365544252",
-        "title": "78",
-        "sku": "sd39847023-407",
-        "size": "69",
-        "price": 29,
-        "compareAtPrice": 97.46,
-        "onSale": true,
-        "availableForSale": true,
-        "quantityAvailable": 71,
-        "restockLabel": null,
+        "variantId": "20985091195119",
+        "title": "Example title",
+        "sku": "sd94627986-050",
+        "size": "Example size",
+        "price": 97.86,
+        "compareAtPrice": 82.46,
+        "onSale": false,
+        "availableForSale": false,
+        "quantityAvailable": 0,
+        "restockLabel": "Example restock label: mock text standing in for the real value. Same field and type, made-up content.",
         "imageUrl": "https://cdn.shopify.com/example/49999.jpg"
       }
     ],
@@ -94,25 +91,25 @@
       {
         "handle": "Example handle: mock text standing in for the real value. Same field and type, made-up content.",
         "image": "https://cdn.shopify.com/example/87340.jpg",
-        "pdpColor": "Lemon",
+        "pdpColor": "Red",
         "plpSwatchColor": "Example plp swatch color"
       },
       {
         "handle": "Example handle: mock text standing in for the real value. Same field and type, made-up content.",
         "image": "https://cdn.shopify.com/example/68273.jpg",
-        "pdpColor": "Pink",
+        "pdpColor": "Example pdp color",
         "plpSwatchColor": "Example plp swatch color"
       }
     ],
     "colorways": [
       {
         "handle": "Example handle: mock text standing in for the real value. Same field and type, made-up content.",
-        "color": "Lemon",
+        "color": "Red",
         "imageUrl": "https://cdn.shopify.com/example/81116.jpg"
       },
       {
         "handle": "Example handle: mock text standing in for the real value. Same field and type, made-up content.",
-        "color": "Pink",
+        "color": "Example color",
         "imageUrl": "https://cdn.shopify.com/example/49999.jpg"
       }
     ],

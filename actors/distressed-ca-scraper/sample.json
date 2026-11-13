@@ -6,15 +6,16 @@
     "title": "Example title",
     "distressType": "tax-sale",
     "url": "https://www.taxsales.ca/example/11493",
+    "caseNumber": "242060678551266282",
     "deadlineAt": "2026-01-15T10:00:00Z",
     "location": {
       "address": "Example address",
-      "city": "Nipigon",
+      "city": "Windsor",
       "region": "ON",
       "country": "ca"
     },
     "valueText": "Example value text",
-    "valueAmount": 9539.35,
+    "valueAmount": 4676.53,
     "valueCurrency": "CAD",
     "attachments": [
       {
@@ -25,15 +26,16 @@
     "details": {
       "saleMethod": "tender",
       "valueKind": "Example value kind",
-      "pin": "77140-8202",
-      "legalDescription": "Example legal description",
-      "submitTenders": "Example submit tenders",
-      "municipalNotice": "user81@example.com",
+      "pin": "46449-4022",
+      "legalDescription": "Example legal description: mock text standing in for the real value. Same field and type, made-up content.",
+      "assessedValue": 8517,
+      "submitTenders": "Example submit tenders: mock text standing in for the real value. Same field and type, made-up content.",
+      "municipalNotice": "Example municipal notice: mock text standing in for the real value. Same field and type, made-up content.",
       "noticeConditions": [
         "Example notice conditions: mock text standing in for the real value. Same field and type, made-up content.",
         "Example notice conditions: mock text standing in for the real value. Same field and type, made-up content."
       ],
-      "geo": "15.0784887,-59.6440338",
+      "geo": "47.34903490529144,-61.1227824714043",
       "locationApproximate": false,
       "officialSourceUrl": "https://www.ontario.ca/example/81383",
       "statusHistory": [

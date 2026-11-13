@@ -6,12 +6,12 @@
     "title": "Example title",
     "distressType": "mortgagee-sale",
     "url": "https://www.realestate.co.nz/example/24635",
-    "portalId": "879866",
+    "portalId": "8975418",
     "publishedAt": "2026-01-15T10:00:00Z",
     "location": {
-      "address": "Example address: mock text standing in for the real value. Same field and type, made-up content.",
-      "city": "Example city",
-      "region": "Auckland",
+      "address": "Example address",
+      "city": "Roseneath",
+      "region": "Wellington",
       "country": "NZ"
     },
     "valueText": "Example value text",
@@ -20,12 +20,12 @@
       {
         "role": "agent",
         "name": "Example name",
-        "url": "https://www.barfoot.co.nz/example/24635"
+        "url": "https://www.bayleys.co.nz/example/24635"
       },
       {
         "role": "agent",
         "name": "Example name",
-        "url": "https://www.barfoot.co.nz/example/61361"
+        "url": "https://www.bayleys.co.nz/example/61361"
       }
     ],
     "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
@@ -43,19 +43,20 @@
       "listingType": "House",
       "bedrooms": 8,
       "bathrooms": 5,
-      "parking": 0,
+      "parking": 7,
       "landArea": "Example land area",
+      "floorArea": "Example floor area",
       "priceCode": 5,
-      "photoCount": 3,
+      "photoCount": 66,
       "isMortgageeSale": true,
-      "openHomeCount": 0,
+      "openHomeCount": 5,
       "schoolCount": 55,
-      "geopoint": "-29.166863412592,346.22817357384",
-      "detailPath": "Example detail path: mock text standing in for the real value. Same field and type, made-up content."
+      "geopoint": "-80.7811168,075.0596155",
+      "detailPath": "Example detail path"
     },
     "raw": {
       "title-type": 4,
-      "parking-garage-count": 0,
+      "parking-garage-count": 2,
       "study-count": 0,
       "videos": [],
       "is-new-construction": false,
@@ -102,34 +103,35 @@
         "carpark-other": 0
       },
       "virtual-walkthroughs": [],
+      "floor-area-unit": "sqm",
       "listing-type": 7,
       "bathrooms-total-count": 3,
       "is-refresh": true,
       "child-cares": [
         {
           "in-zone": false,
-          "school-id": 872,
+          "school-id": 6272,
           "has-zone": false,
           "short-id": "Example short-id",
           "geo-radius": "Example geo-radius",
           "slug": "Example slug",
           "organization-name": "Example organization-name",
           "geo-point": [
-            221.94,
-            -36.16
+            221.97,
+            -40.45
           ]
         },
         {
           "in-zone": false,
-          "school-id": 901,
+          "school-id": 9001,
           "has-zone": false,
-          "short-id": "bbbbbbzr",
+          "short-id": "Example short-id",
           "geo-radius": "Example geo-radius",
           "slug": "Example slug",
           "organization-name": "Example organization-name",
           "geo-point": [
-            171.25,
-            -33.92
+            171.26,
+            -37.98
           ]
         }
       ],
@@ -140,7 +142,7 @@
         {
           "title": "here",
           "type": "Example type",
-          "url": "https://www.barfoot.co.nz/example/24635",
+          "url": "https://www.bayleys.co.nz/example/24635",
           "order": 0
         }
       ],
@@ -151,26 +153,26 @@
           "in-zone": true,
           "school-id": 6272,
           "has-zone": true,
-          "short-id": "f5vmrnwkl9",
+          "short-id": "7hkn0jqstdc",
           "geo-radius": "Example geo-radius",
           "slug": "Example slug",
           "organization-name": "Example organization-name",
           "geo-point": [
-            221.89,
-            -36.16
+            222.0,
+            -40.47
           ]
         },
         {
           "in-zone": true,
-          "school-id": 91,
+          "school-id": 901,
           "has-zone": true,
-          "short-id": "vlgd5lsgwc",
+          "short-id": "gwlm2tqssh",
           "geo-radius": "Example geo-radius",
           "slug": "Example slug",
           "organization-name": "Example organization-name",
           "geo-point": [
-            171.23,
-            -33.93
+            171.29,
+            -38.0
           ]
         }
       ],
@@ -183,14 +185,13 @@
       "website-full-url": "https://www.realestate.co.nz/example/36115",
       "listing-category-code": "res_sale",
       "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
-      "parking-other-count": 0,
+      "parking-other-count": 4,
       "is-showcased": true,
       "published-date": "2026-01-15T10:00:00Z",
       "bedroom-count": 6,
       "deferred-share-url": "https://realestateconz.smart.link/example/77770",
       "listing-sub-type": "House",
-      "listing-no": "607709",
-      "is-coastal-waterfront": false
+      "listing-no": "3012636"
     }
   }
 ]

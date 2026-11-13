@@ -70,7 +70,7 @@ Full details on the [scraper page](https://apify.com/abotapi/ozon-ru-scraper?utm
 | `availability` | string |
 | `coverImage` | string |
 | `images` | list |
-| `description` | null |
+| `description` | string |
 | `specs` | list |
 | `hashtags` | list |
 | `ratingBreakdown` | null |

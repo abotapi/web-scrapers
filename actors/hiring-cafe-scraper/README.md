@@ -71,7 +71,6 @@ Full details on the [scraper page](https://apify.com/abotapi/hiring-cafe-scraper
 | `job_information` | object |
 | `v5_processed_job_data` | object |
 | `v5_processed_company_data` | object |
-| `_geoloc` | list |
 | `job_title` | string |
 | `employment_types` | list |
 | `role_type` | string |
@@ -92,13 +91,14 @@ Full details on the [scraper page](https://apify.com/abotapi/hiring-cafe-scraper
 | `company_employees` | integer |
 | `company_founded` | integer |
 | `company_hq_country` | string |
-| `company_funding` | object |
-| `company_stock` | object |
-| `workplace_cities` | list |
-| `workplace_states` | list |
-| `workplace_countries` | list |
+| `views_on_site` | integer |
+| `applies_on_site` | integer |
 | `workplace_continents` | list |
-| `workplace_counties` | list |
+| `core_job_title` | string |
+| `role_activities` | list |
+| `requirements_summary` | string |
+| `industries` | list |
+| `subsidiaries` | list |
 
 ---
 

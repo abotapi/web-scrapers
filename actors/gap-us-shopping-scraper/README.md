@@ -67,7 +67,7 @@ Full details on the [scraper page](https://apify.com/abotapi/gap-us-shopping-scr
 | `url` | string |
 | `currency` | string |
 | `price` | integer |
-| `priceMax` | integer |
+| `priceMax` | float |
 | `regularPrice` | float |
 | `discountPercent` | integer |
 | `discountAmount` | float |

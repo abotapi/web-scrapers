@@ -1,8 +1,8 @@
-# NHS UK Scraper
+# NHS Jobs Scraper
 
-Scrape nhs.uk Jobs listings into a flat dataset. Extract 50+ fields, including pay band, salary, full description, essential and desirable criteria, PDFs, sponsorship, DBS, employer details, contacts, and apply URL. Search by filters or use any URL.
+Scrape NHS Jobs (nhs.uk) by search filters or URL. Extract 50+ fields including job titles, pay bands, salaries, full descriptions, essential and desirable criteria, PDF attachments, visa sponsorship, DBS requirements, employer details, contacts and application URLs.
 
-**[Open NHS UK Scraper on Apify](https://apify.com/abotapi/jobs-nhs-uk-scraper?utm_source=github&utm_medium=web-scrapers&utm_campaign=monorepo)** to run it without code and export JSON, CSV or Excel.
+**[Open NHS Jobs Scraper on Apify](https://apify.com/abotapi/jobs-nhs-uk-scraper?utm_source=github&utm_medium=web-scrapers&utm_campaign=monorepo)** to run it without code and export JSON, CSV or Excel.
 
 ## Run it from code
 

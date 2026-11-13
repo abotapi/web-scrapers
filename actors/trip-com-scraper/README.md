@@ -75,7 +75,7 @@ Full details on the [scraper page](https://apify.com/abotapi/trip-com-scraper?ut
 | `images` | list |
 | `image` | string |
 | `badges` | list |
-| `medal` | null |
+| `medal` | string |
 | `propertyTag` | string |
 | `detailUrl` | string |
 | `amenities` | list |

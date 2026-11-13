@@ -1,7 +1,7 @@
 [
   {
     "recordType": "title",
-    "id": "2474286696021737659",
+    "id": "9347979786399298679",
     "slug": "Example slug",
     "title": "Example title",
     "titleRaw": "Example title raw",
@@ -13,20 +13,20 @@
     "genres": [
       {
         "name": "Example name",
-        "id": "9694589027208779252"
+        "id": "6707894446016651083"
       },
       {
         "name": "Example name",
-        "id": "0992006452272583360"
+        "id": "7548954224532892915"
       }
     ],
     "genreIds": [
-      "8589588827119437140",
-      "7704960882835032281"
+      "3652257940369027392",
+      "7908398319002834364"
     ],
     "episodes": 46,
     "language": "en",
-    "libraryId": "2063369812019778388",
+    "libraryId": "2064887768454289433",
     "isDelisted": false,
     "releaseDate": null,
     "mode": "CATALOG",

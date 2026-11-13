@@ -77,6 +77,7 @@ Full details on the [scraper page](https://apify.com/abotapi/google-maps-scraper
 | `searchString` | string |
 | `rank` | integer |
 | `isAdvertisement` | boolean |
+| `reviews` | list |
 
 ---
 

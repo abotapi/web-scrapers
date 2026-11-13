@@ -89,13 +89,13 @@ Full details on the [scraper page](https://apify.com/abotapi/bigw-marketplace-sc
 | `pricePerUnitQuantity` | null |
 | `pricePerUnitUnit` | null |
 | `currency` | string |
-| `priceLabel` | null |
-| `priceLabelType` | null |
+| `priceLabel` | string |
+| `priceLabelType` | string |
 | `clearance` | boolean |
 | `onlineOnlyPromotion` | boolean |
 | `promotions` | list |
 | `paymentOptions` | object |
-| `rating` | null |
+| `rating` | float |
 | `description` | string |
 | `imageUrl` | string |
 | `images` | list |

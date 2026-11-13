@@ -61,7 +61,7 @@ Full details on the [scraper page](https://apify.com/abotapi/emag-com-scraper?ut
 | `categoryId` | string |
 | `category` | string |
 | `categoryTrail` | string |
-| `price` | integer |
+| `price` | float |
 | `priceText` | string |
 | `currency` | string |
 | `originalPrice` | null |

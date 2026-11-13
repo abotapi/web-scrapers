@@ -33,11 +33,11 @@
       "languageCode": "en",
       "jsonLd": [],
       "headers": {
-        "age": "7",
+        "age": "8",
         "allow": "Example allow",
         "alt-svc": "Example alt-svc",
         "cf-cache-status": "HIT",
-        "cf-ray": "a4224f335c3112fb-iad",
+        "cf-ray": "a826a8eaae9dd81c-iad",
         "connection": "Example connection",
         "content-encoding": "br",
         "content-type": "Example content-type",

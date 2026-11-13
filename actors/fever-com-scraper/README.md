@@ -63,9 +63,9 @@ Full details on the [scraper page](https://apify.com/abotapi/fever-com-scraper?u
 | `category` | null |
 | `priceFrom` | float |
 | `priceText` | string |
-| `originalPrice` | float |
-| `onSale` | boolean |
-| `discountPercent` | float |
+| `originalPrice` | null |
+| `onSale` | null |
+| `discountPercent` | null |
 | `currency` | string |
 | `priceType` | string |
 | `startDate` | string |

@@ -1,38 +1,40 @@
 [
   {
-    "propertyId": "447821580",
+    "propertyId": "443103782",
     "url": "https://www.realcommercial.com.au/example/13642",
     "listingType": "for-sale",
     "propertyTypes": [
+      "Example property types",
       "Example property types"
     ],
-    "tenureType": "any",
+    "tenureType": "vacant",
+    "title": "Example title",
     "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
+    "highlights": [
+      "Example highlights",
+      "Example highlights"
+    ],
     "status": "New",
-    "daysActive": 0,
+    "daysActive": 6,
     "hasTour": false,
-    "product": "enhanced",
+    "product": "eliteplus",
     "address": {
       "street": "Example street",
       "suburb": "Example suburb",
       "state": "VIC",
-      "postcode": "2854",
+      "postcode": "9461",
       "full": "Example full"
     },
     "price": {
-      "display": "Example display",
-      "value": 7553329,
-      "min": 1368125,
-      "max": 9096756,
-      "isRange": false
+      "display": "Example display"
     },
     "attributes": {
       "area": "Example area",
-      "areaValue": 2,
+      "areaValue": 74,
       "areaUnit": "Example area unit"
     },
     "media": {
-      "imageCount": 5,
+      "imageCount": 95,
       "images": [
         {
           "url": "https://i1.au.reastatic.net/example/13642.jpg",
@@ -46,38 +48,86 @@
     },
     "agents": [
       {
-        "id": "0763078",
+        "id": "7603317",
         "name": "Example name",
         "photoUrl": "https://i1.au.reastatic.net/example/25208.jpg",
         "phone": {
-          "display": "6819844350",
-          "dial": "+67557723473"
+          "display": "9237 628 724",
+          "dial": "+32405150466"
         },
         "email": "user15@example.com",
         "profileUrl": "https://www.realcommercial.com.au/example/32363"
       }
     ],
     "agency": {
-      "id": "UCCNNZ",
+      "id": "SANJUW",
       "name": "Example name",
       "logoUrl": "https://i1.au.reastatic.net/example/36817.jpg",
       "brandingColor": "Example branding color",
       "phone": {
-        "display": "88 8238 0382",
-        "dial": "+51689944679"
+        "display": "9237 628 724",
+        "dial": "+32405150466"
       },
       "address": "Example address",
       "email": "user15@example.com"
     },
+    "tours": [
+      {
+        "type": "AgentPromo",
+        "title": "Example title",
+        "enquireButtonLabel": "Example enquire button label",
+        "templatedBackgroundUrl": "https://i1.au.reastatic.net{options}/example/76885.jpg",
+        "branding": {
+          "agencyId": "SANJUW",
+          "agencyName": "Example agency name",
+          "brandColor": "Example brand color",
+          "templatedLogoUrl": "https://i1.au.reastatic.net{options}/example/39871.jpg"
+        },
+        "agents": [
+          {
+            "id": "7603317",
+            "name": "Example name",
+            "templatedAvatarUrl": "https://i1.au.reastatic.net{options}/example/36276.jpg"
+          }
+        ]
+      }
+    ],
+    "nearbyPlaces": [
+      {
+        "name": "Example name",
+        "items": [
+          {
+            "id": "Example id",
+            "title": "Example title",
+            "description": "Example description",
+            "icon": {
+              "name": "Example name",
+              "backgroundColourToken": "backgroundPink",
+              "fillColourToken": "textPink"
+            }
+          },
+          {
+            "id": "Example id",
+            "title": "Example title",
+            "description": "Example description",
+            "icon": {
+              "name": "Example name",
+              "backgroundColourToken": "backgroundBlue",
+              "fillColourToken": "textBlue"
+            }
+          }
+        ]
+      }
+    ],
     "lastUpdatedAt": "Example last updated at",
     "canonicalPath": "Example canonical path",
-    "tenureTypeDisplay": "Any",
+    "tenureTypeDisplay": "Example tenure type display",
     "map": {
-      "precision": "SUBURB",
+      "precision": "STREET",
       "zoomLevel": 73
     },
-    "latitude": -48.79,
-    "longitude": 156.57,
+    "latitude": -48.83,
+    "longitude": 156.41,
     "detailFetched": true,
     "scrapedAt": "2026-01-15T10:00:00Z"
   }

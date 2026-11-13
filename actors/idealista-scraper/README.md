@@ -65,11 +65,14 @@ Full details on the [scraper page](https://apify.com/abotapi/idealista-scraper?u
 | `propertyType` | string |
 | `price` | integer |
 | `priceText` | string |
+| `previousPrice` | integer |
 | `priceDropped` | boolean |
 | `currency` | string |
 | `size` | integer |
 | `rooms` | integer |
 | `bathrooms` | integer |
+| `floor` | string |
+| `hasLift` | boolean |
 | `description` | string |
 | `thumbnail` | string |
 | `photoCount` | integer |
@@ -79,24 +82,21 @@ Full details on the [scraper page](https://apify.com/abotapi/idealista-scraper?u
 | `has3DTour` | boolean |
 | `hasFloorPlan` | boolean |
 | `hasHomeStaging` | boolean |
-| `tags` | list |
 | `source` | string |
 | `scrapedAt` | string |
 | `address` | string |
 | `neighborhood` | string |
 | `city` | string |
 | `pricePerM2` | integer |
+| `energyConsumptionRating` | string |
+| `energyEmissionsRating` | string |
 | `reference` | string |
-| `lastUpdatedText` | string |
 | `features` | list |
 | `hasTerrace` | boolean |
-| `hasGarage` | boolean |
-| `hasStorage` | boolean |
-| `hasGarden` | boolean |
-| `hasPool` | boolean |
 | `hasAC` | boolean |
 | `condition` | string |
-| `orientation` | string |
+| `constructionYear` | integer |
+| `heating` | string |
 
 ---
 

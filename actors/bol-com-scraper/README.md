@@ -72,7 +72,7 @@ Full details on the [scraper page](https://apify.com/abotapi/bol-com-scraper?utm
 | `category` | string |
 | `categories` | list |
 | `categoryHierarchy` | list |
-| `price` | float |
+| `price` | integer |
 | `list_price` | null |
 | `currency` | string |
 | `price_currency` | string |
@@ -99,7 +99,7 @@ Full details on the [scraper page](https://apify.com/abotapi/bol-com-scraper?utm
 | `isbn13` | null |
 | `image` | null |
 | `images` | null |
-| `rating` | null |
+| `rating` | float |
 
 ---
 

@@ -72,10 +72,10 @@ Full details on the [scraper page](https://apify.com/abotapi/irishjobs-ie?utm_so
 | `locationLat` | null |
 | `locationLng` | null |
 | `salaryRaw` | string |
-| `salaryMin` | integer |
-| `salaryMax` | integer |
+| `salaryMin` | null |
+| `salaryMax` | null |
 | `salaryCurrency` | string |
-| `salaryPeriod` | string |
+| `salaryPeriod` | null |
 | `employmentType` | null |
 | `skills` | list |
 | `datePosted` | string |

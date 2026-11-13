@@ -60,11 +60,11 @@ Full details on the [scraper page](https://apify.com/abotapi/miravia-es-scraper?
 | `brandId` | string |
 | `price` | float |
 | `priceText` | string |
-| `originalPrice` | null |
+| `originalPrice` | float |
 | `originalPriceText` | string |
-| `onSale` | null |
-| `discountPercent` | null |
-| `discountTag` | null |
+| `onSale` | boolean |
+| `discountPercent` | integer |
+| `discountTag` | string |
 | `currency` | string |
 | `imageUrl` | string |
 | `sellerId` | string |

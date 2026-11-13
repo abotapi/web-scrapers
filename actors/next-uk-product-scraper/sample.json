@@ -14,7 +14,7 @@
       "3"
     ],
     "outOfStockMarkers": 2,
-    "lowStock": false,
+    "lowStock": true,
     "images": [
       "https://xcdn.next.co.uk/example/82438.jpg",
       "https://xcdn.next.co.uk/example/50693.jpg"

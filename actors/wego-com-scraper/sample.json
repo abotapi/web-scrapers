@@ -1,22 +1,22 @@
 [
   {
-    "recordId": "131578",
-    "hotelId": 759440,
+    "recordId": "0116957",
+    "hotelId": 9759440,
     "rowType": "hotel",
     "name": "Example name",
     "url": "https://www.wego.com/example/67559",
     "star": 8,
     "propertyTypeId": 5,
-    "brandId": 309,
-    "chainId": 159,
+    "brandId": 0,
+    "chainId": 0,
     "cityCode": "DXB",
     "cityName": "Example city name",
     "countryCode": null,
-    "districtId": 6900,
-    "latitude": 26.35,
-    "longitude": 44.12,
-    "distanceToCityCentreKm": 19.77,
-    "distanceToNearestAirportKm": 18.61,
+    "districtId": 600,
+    "latitude": 26.49,
+    "longitude": 44.23,
+    "distanceToCityCentreKm": 3.68,
+    "distanceToNearestAirportKm": 5.76,
     "reviewScore": 66,
     "reviewCount": 2567,
     "reviewBreakdown": [
@@ -25,15 +25,9 @@
         "score": 71,
         "count": 4265,
         "percentage": 446
-      },
-      {
-        "group": "BUSINESS",
-        "score": 83,
-        "count": 49,
-        "percentage": 1
       }
     ],
-    "latestPositiveComment": "",
+    "latestPositiveComment": "Example latest positive comment",
     "aiReviewHighlights": [
       {
         "text": "Example text",
@@ -61,7 +55,7 @@
       {
         "url": "https://zen.wego.com/example/41947",
         "primary": false,
-        "description": null
+        "description": "Example description"
       }
     ],
     "imagesCount": 37,
@@ -76,10 +70,10 @@
     "bedroomsCount": 0,
     "bedsCount": 0,
     "bathroomsCount": 0,
-    "newHotel": false,
+    "newHotel": true,
     "newlyRenovated": false,
     "priceAmount": 649,
     "priceCurrency": "USD",
-    "priceUsd": 269.84
+    "priceUsd": 652.53
   }
 ]

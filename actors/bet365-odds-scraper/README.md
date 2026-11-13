@@ -50,19 +50,11 @@ Full details on the [scraper page](https://apify.com/abotapi/bet365-odds-scraper
 | `prices` | list |
 | `hasLiveMedia` | boolean |
 | `sport` | string |
-| `resultOdds` | null |
-| `fixtureId` | string |
-| `sportId` | string |
-| `competition` | string |
-| `competitionId` | string |
-| `leagueCode` | string |
-| `round` | null |
-| `homeTeamId` | string |
-| `awayTeamId` | string |
-| `inPlay` | boolean |
-| `startTime` | string |
 | `url` | string |
 | `oddsTimestamp` | string |
+| `competition` | string |
+| `inPlay` | boolean |
+| `resultOdds` | null |
 
 ---
 

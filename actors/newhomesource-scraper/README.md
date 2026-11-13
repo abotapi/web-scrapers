@@ -53,7 +53,7 @@ Full details on the [scraper page](https://apify.com/abotapi/newhomesource-scrap
 | --- | --- |
 | `homeId` | integer |
 | `planId` | integer |
-| `specId` | null |
+| `specId` | integer |
 | `listingId` | integer |
 | `listingNumber` | string |
 | `floorPlan` | string |
@@ -71,7 +71,7 @@ Full details on the [scraper page](https://apify.com/abotapi/newhomesource-scrap
 | `zip` | string |
 | `latitude` | string |
 | `longitude` | string |
-| `moveInDate` | null |
+| `moveInDate` | string |
 | `dateFirstPublished` | string |
 | `status` | string |
 | `homeType` | string |

@@ -1,14 +1,14 @@
 [
   {
-    "productId": "5771346213018212",
-    "product_id": "7100358211066628",
-    "id": "8532213294470247",
+    "productId": "5800245076241023",
+    "product_id": "0775532689722938",
+    "id": "7661009247604818",
     "title": "Example title: mock text standing in for the real value. Same field and type, made-up content.",
     "url": "https://www.bol.com/example/1503",
     "sourceUrl": "https://www.bol.com/example/69845",
     "type": "Product",
     "mode": "search",
-    "brand": "GMR",
+    "brand": "Acer",
     "category": "Example category",
     "categories": [
       "Example categories",
@@ -24,21 +24,21 @@
         "Laptops"
       ]
     ],
-    "price": 331.71,
+    "price": 633,
     "list_price": null,
     "currency": "EUR",
     "price_currency": "EUR",
     "discount_percentage": null,
     "priceRange": {
-      "min": 256.2,
-      "max": 223.83
+      "min": 545,
+      "max": 773
     },
     "buyBoxPriceRange": {
-      "min": 256.2,
-      "max": 223.83
+      "min": 545,
+      "max": 773
     },
     "alternative_prices": [
-      188.78
+      640
     ],
     "isOnSpecial": false,
     "originalPrice": null,
@@ -52,13 +52,13 @@
     "delivery": "Example delivery",
     "delivery_text": "Example delivery_text",
     "has_refurbished": false,
-    "has_select_deal": false,
+    "has_select_deal": true,
     "ean": null,
     "ean13": null,
     "gtin13": null,
     "isbn13": null,
     "image": null,
     "images": null,
-    "rating": null
+    "rating": 3.1
   }
 ]

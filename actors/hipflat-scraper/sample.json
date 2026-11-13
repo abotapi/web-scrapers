@@ -5,15 +5,15 @@
     "url": "https://www.hipflat.co.th/example/44539",
     "title": "Example title",
     "dealType": "buy",
-    "propertyType": "Example property type",
+    "propertyType": null,
     "priceText": "Example price text",
     "price": 7840171,
     "currency": "THB",
     "address": "Example address",
-    "bedrooms": 5,
-    "bathrooms": 8,
-    "areaText": "Example area text",
-    "area": 43,
+    "bedrooms": null,
+    "bathrooms": null,
+    "areaText": null,
+    "area": null,
     "areaUnit": "Example area unit",
     "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
     "images": [
@@ -35,14 +35,12 @@
     "canonical_url": "https://www.hipflat.co.th/example/35924",
     "name": "Example name",
     "deal_type": "buy",
-    "property_type": "Example property_type",
-    "property_types": [
-      "Example property_types"
-    ],
+    "property_type": null,
+    "property_types": [],
     "price_text": "Example price_text",
     "price_min": 8829291,
     "price_max": 1643236,
-    "floor_area": 64,
+    "floor_area": null,
     "image_urls": [
       "https://img.hipcdn.com/example/55875.jpg",
       "https://img.hipcdn.com/example/25257.jpg"

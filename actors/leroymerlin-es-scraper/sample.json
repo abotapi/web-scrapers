@@ -16,7 +16,7 @@
     "sellerName": "Example seller name",
     "sellerType": "Example seller type",
     "offerType": "NEW",
-    "rating": 5.18,
+    "rating": 5.17,
     "totalOfferCount": 6,
     "sellersComposition": "6p_only",
     "sponsored": false,
@@ -31,10 +31,11 @@
     ],
     "category": "Example category",
     "stock": 58,
-    "stockStatus": "ONSITE",
+    "stockStatus": "ONORDER",
     "deliveryTime": "Example delivery time",
     "specs": {
       "Tipo de producto": "Example tipo de producto",
+      "Marca del producto": "PRACTYL",
       "Potencia nominal (en W)": "048",
       "Torque máximo/fuerza de apriete (en Nm)": "42",
       "Función de atornillar y desatornillar": "Example función de atornillar y desatornillar",
@@ -44,7 +45,6 @@
       "Embrague de seguridad": "Example embrague de seguridad",
       "Iluminación integrada": "Example iluminación integrada",
       "Accesorios suministrados": "Example accesorios suministrados",
-      "Marca del producto": "PRACTYL",
       "Producto empaquetado: anchura (en cm)": "2",
       "Producto empaquetado: altura (en cm)": "60",
       "Producto empaquetado: profundidad (en cm)": "15.8",
@@ -54,12 +54,93 @@
     "reviewCount": 474,
     "inStock": true,
     "reviews": {
-      "averageRating": 5.69,
+      "averageRating": 5.68,
       "totalReviewCount": 684,
       "items": [
         {
           "rating": 5,
+          "body": "Example body: mock text standing in for the real value. Same field and type, made-up content.",
+          "author": "Example author",
+          "date": "2026-01-15"
+        },
+        {
+          "rating": 3,
           "body": "Example body",
+          "author": "Example author",
+          "date": "2026-01-15"
+        }
+      ]
+    },
+    "searchMode": "search",
+    "scrapedAt": "2026-01-15T10:00:00Z"
+  },
+  {
+    "productId": "44505107",
+    "sku": "78794330",
+    "name": "Example name: mock text standing in for the real value. Same field and type, made-up content.",
+    "brand": "DEXTER",
+    "url": "https://www.leroymerlin.es/example/94411",
+    "price": 47.19,
+    "priceExclTax": 37.68,
+    "currency": "EUR",
+    "originalPrice": null,
+    "discountPercent": null,
+    "discountAmount": null,
+    "isOnSpecial": false,
+    "sellerId": "610",
+    "sellerName": "Example seller name",
+    "sellerType": "Example seller type",
+    "offerType": "NEW",
+    "rating": 3.68,
+    "totalOfferCount": 9,
+    "sellersComposition": "5p_only",
+    "sponsored": false,
+    "ean": "5962507396433",
+    "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
+    "image": "https://media.adeo.com/example/14219.jpg",
+    "numberOfImages": 3,
+    "numberOfReviews": 581,
+    "categoryPath": [
+      "Home",
+      "Productos"
+    ],
+    "category": "Example category",
+    "stock": 55,
+    "stockStatus": "ONSITE",
+    "deliveryTime": "Example delivery time",
+    "specs": {
+      "Tipo de producto": "Example tipo de producto",
+      "Marca del producto": "DEXTER",
+      "Potencia nominal (en W)": "285",
+      "Torque máximo/fuerza de apriete (en Nm)": "06",
+      "Función de atornillar y desatornillar": "Example función de atornillar y desatornillar",
+      "Función percutor": "Example función percutor",
+      "Número de velocidades": "4",
+      "Longitud del cable (en m)": "9",
+      "Embrague de seguridad": "Example embrague de seguridad",
+      "Iluminación integrada": "Example iluminación integrada",
+      "Accesorios suministrados": "Example accesorios suministrados",
+      "Producto empaquetado: anchura (en cm)": "63",
+      "Producto empaquetado: altura (en cm)": "98",
+      "Producto empaquetado: profundidad (en cm)": "3",
+      "Producto empaquetado: peso (en kg)": "4.88"
+    },
+    "imageUrl": "https://media.adeo.com/example/524.jpg",
+    "reviewCount": 785,
+    "inStock": true,
+    "reviews": {
+      "averageRating": 5.11,
+      "totalReviewCount": 942,
+      "items": [
+        {
+          "rating": 8,
+          "body": "Example body",
+          "author": "Example author",
+          "date": "2026-01-15"
+        },
+        {
+          "rating": 7,
+          "body": "Example body: mock text standing in for the real value. Same field and type, made-up content.",
           "author": "Example author",
           "date": "2026-01-15"
         }

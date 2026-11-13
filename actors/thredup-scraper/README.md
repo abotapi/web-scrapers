@@ -55,7 +55,7 @@ Full details on the [scraper page](https://apify.com/abotapi/thredup-scraper?utm
 | --- | --- |
 | `id` | integer |
 | `itemNumber` | integer |
-| `sku` | integer |
+| `sku` | null |
 | `url` | string |
 | `title` | string |
 | `description` | string |

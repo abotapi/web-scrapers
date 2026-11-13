@@ -71,8 +71,8 @@ Full details on the [scraper page](https://apify.com/abotapi/properstar-scraper?
 | `landAreaSqm` | null |
 | `livingAreaSqft` | null |
 | `landAreaSqft` | null |
-| `rooms` | integer |
-| `bedrooms` | integer |
+| `rooms` | null |
+| `bedrooms` | null |
 | `bathrooms` | integer |
 | `floor` | null |
 | `constructionYear` | null |

@@ -1,27 +1,27 @@
 [
   {
-    "sku": "9097702141",
+    "sku": "3038194983",
     "url": "https://www.ozon.ru/example/90507",
-    "title": "Example title",
+    "title": "Example title: mock text standing in for the real value. Same field and type, made-up content.",
     "brand": "Apple",
     "price": 36346,
-    "originalPrice": 77646,
+    "originalPrice": 887646,
     "discountPercent": 87,
     "currency": "RUB",
     "rating": 2,
-    "reviewCount": 37,
-    "questionCount": 74,
+    "reviewCount": 8767,
+    "questionCount": 2414,
     "availability": "Example availability",
     "coverImage": "https://ir.ozone.ru/example/30364.jpg",
     "images": [
       "https://ir.ozone.ru/example/88137.jpg",
       "https://ir.ozone.ru/example/57577.jpg"
     ],
-    "description": null,
+    "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
     "specs": [
       {
         "name": "Example name",
-        "value": "5695234265"
+        "value": "7540297462"
       },
       {
         "name": "Example name",
@@ -35,8 +35,8 @@
     "ratingBreakdown": null,
     "variants": [
       {
-        "sku": "9917588673",
-        "title": "Example title",
+        "sku": "8630937418",
+        "title": "Example title: mock text standing in for the real value. Same field and type, made-up content.",
         "price": 36346,
         "aspectName": "Example aspect name",
         "value": "Example value",
@@ -44,8 +44,8 @@
         "link": "https://www.ozon.ru/example/95958"
       },
       {
-        "sku": "0457093693",
-        "title": "Example title",
+        "sku": "9890124475",
+        "title": "Example title: mock text standing in for the real value. Same field and type, made-up content.",
         "price": 73448,
         "aspectName": "Example aspect name",
         "value": "Example value",
@@ -55,16 +55,16 @@
     ],
     "categoryPath": "Example category path",
     "sellerName": "Example seller name",
-    "sellerId": "5971134",
+    "sellerId": "8493320",
     "seller": {
-      "sellerId": "5971134",
+      "sellerId": "8493320",
       "name": "Example name",
       "link": "https://www.ozon.ru/example/95958",
       "legalName": null,
       "registryNumber": null,
-      "rating": 5.98,
+      "rating": 2,
       "ordersCount": "Example orders count",
-      "isPremium": false,
+      "isPremium": true,
       "price": null,
       "originalPrice": null,
       "deliveryText": null,
@@ -77,7 +77,7 @@
     "otherSellersMinPrice": 97563,
     "buyboxSellers": [
       {
-        "sellerId": "9208644",
+        "sellerId": "3977158",
         "name": "Example name",
         "link": "https://www.ozon.ru/example/95958",
         "legalName": null,
@@ -91,10 +91,10 @@
         "authorizedSeller": "Example authorized seller",
         "coverImage": "https://ir.ozone.ru/example/30364.jpg",
         "productLink": "https://www.ozon.ru/example/74682",
-        "productSku": "7109457586"
+        "productSku": "4824754026"
       },
       {
-        "sellerId": "7484721",
+        "sellerId": "3024828",
         "name": "Example name",
         "link": "https://www.ozon.ru/example/85295",
         "legalName": null,
@@ -108,7 +108,7 @@
         "authorizedSeller": "Example authorized seller",
         "coverImage": "https://ir.ozone.ru/example/77078.jpg",
         "productLink": "https://www.ozon.ru/example/51109",
-        "productSku": "0723482838"
+        "productSku": "3079310570"
       }
     ],
     "reviews": [],
@@ -116,18 +116,16 @@
     "mainImage": "https://ir.ozone.ru/example/90279.jpg",
     "priceString": "Example price string",
     "originalPriceString": "Example original price string",
-    "videos": [
-      "https://v-1.ozone.ru/example/42162"
-    ],
+    "videos": [],
     "sellerInfo": {
-      "sellerId": "5971134",
+      "sellerId": "8493320",
       "name": "Example name",
       "link": "https://www.ozon.ru/example/95958",
       "legalName": null,
       "registryNumber": null,
-      "rating": 5.98,
+      "rating": 2,
       "ordersCount": "Example orders count",
-      "isPremium": false,
+      "isPremium": true,
       "price": null,
       "originalPrice": null,
       "deliveryText": null,
@@ -139,14 +137,14 @@
     "specifications": [
       {
         "name": "Example name",
-        "value": "5695234265"
+        "value": "7540297462"
       },
       {
         "name": "Example name",
         "value": "Example value"
       }
     ],
-    "reviewsCount": 65,
-    "questionsCount": 46
+    "reviewsCount": 6185,
+    "questionsCount": 7426
   }
 ]

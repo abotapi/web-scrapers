@@ -14,17 +14,17 @@
     "cabins": {
       "economy": {
         "miles": 23509,
-        "taxes": 82,
+        "taxes": 15.42,
         "seats": 6,
         "stops": 0,
         "airlines": [
           "AA",
-          "IB"
+          "BA"
         ]
       },
       "premium": {
         "miles": 23509,
-        "taxes": 82,
+        "taxes": 15.42,
         "seats": 6,
         "stops": 0,
         "airlines": [
@@ -32,8 +32,8 @@
         ]
       },
       "business": {
-        "miles": 473509,
-        "taxes": 9.18,
+        "miles": 23509,
+        "taxes": 4.59,
         "seats": 6,
         "stops": 0,
         "airlines": [
@@ -45,18 +45,18 @@
     "scrapedAt": "2026-01-15T10:00:00Z",
     "economy": {
       "miles": 23509,
-      "tax": 80,
+      "tax": 20.68,
       "seats": 6,
       "stops": 0,
       "airlineCodes": [
         "AA",
-        "IB"
+        "BA"
       ],
       "available": true
     },
     "premiumEconomy": {
       "miles": 23509,
-      "tax": 80,
+      "tax": 20.68,
       "seats": 6,
       "stops": 0,
       "airlineCodes": [
@@ -65,8 +65,8 @@
       "available": true
     },
     "business": {
-      "miles": 473509,
-      "tax": 12.32,
+      "miles": 23509,
+      "tax": 6.16,
       "seats": 6,
       "stops": 0,
       "airlineCodes": [
@@ -97,7 +97,7 @@
         "name": null
       },
       {
-        "code": "IB",
+        "code": "BA",
         "name": null
       }
     ]

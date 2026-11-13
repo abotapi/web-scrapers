@@ -8,8 +8,8 @@
     "brand": "Example brand",
     "brandId": "women",
     "color": "White",
-    "price": 24.74,
-    "wasPrice": null,
+    "price": 17.32,
+    "wasPrice": 24.24,
     "discountPercent": null,
     "currency": "AUD",
     "categories": [
@@ -71,10 +71,10 @@
     ],
     "reviews": [
       {
-        "reviewId": "6099963659",
+        "reviewId": "2695240351",
         "reviewRating": 3,
         "reviewTitle": "Example review title",
-        "reviewBody": "Example review body",
+        "reviewBody": "Example review body: mock text standing in for the real value. Same field and type, made-up content.",
         "reviewAuthor": "Example review author",
         "reviewDate": "2026-01-15T10:00:00Z",
         "verifiedBuyer": true,

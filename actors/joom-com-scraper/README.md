@@ -52,7 +52,7 @@ Full details on the [scraper page](https://apify.com/abotapi/joom-com-scraper?ut
 | `productId` | string |
 | `url` | string |
 | `title` | string |
-| `price` | integer |
+| `price` | float |
 | `currency` | string |
 | `originalPrice` | null |
 | `onSale` | boolean |
@@ -68,25 +68,25 @@ Full details on the [scraper page](https://apify.com/abotapi/joom-com-scraper?ut
 | `searchTerm` | string |
 | `scopeKind` | string |
 | `categoryId` | string |
-| `description` | null |
-| `minPrice` | integer |
-| `maxPrice` | integer |
+| `description` | string |
+| `minPrice` | float |
+| `maxPrice` | float |
 | `shippingMinPrice` | integer |
 | `shippingMaxPrice` | integer |
 | `shippingCurrency` | string |
 | `category` | string |
-| `storeName` | null |
-| `storeRating` | null |
-| `reviewCount` | null |
+| `storeName` | string |
+| `storeRating` | float |
+| `reviewCount` | integer |
 | `ratingDistribution` | object |
 | `variantsCount` | integer |
 | `variantSizes` | list |
 | `variantColors` | list |
-| `variantMinPrice` | null |
-| `variantMaxPrice` | null |
+| `variantMinPrice` | integer |
+| `variantMaxPrice` | integer |
 | `inventoryTotal` | integer |
-| `deliveryMinDays` | null |
-| `deliveryMaxDays` | null |
+| `deliveryMinDays` | integer |
+| `deliveryMaxDays` | integer |
 
 ---
 

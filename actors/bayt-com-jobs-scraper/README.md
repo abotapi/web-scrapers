@@ -50,7 +50,7 @@ Full details on the [scraper page](https://apify.com/abotapi/bayt-com-jobs-scrap
 | `url` | string |
 | `title` | string |
 | `company` | string |
-| `companyUrl` | string |
+| `companyUrl` | null |
 | `city` | string |
 | `country` | string |
 | `location` | string |
@@ -83,7 +83,7 @@ Full details on the [scraper page](https://apify.com/abotapi/bayt-com-jobs-scrap
 | `gender` | string |
 | `age` | null |
 | `degree` | null |
-| `major` | null |
+| `major` | string |
 | `preferredCandidate` | object |
 | `scrapedAt` | string |
 

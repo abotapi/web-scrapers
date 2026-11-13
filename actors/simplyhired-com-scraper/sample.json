@@ -1,34 +1,32 @@
 [
   {
-    "id": "_qfswpob2lirnq37h0kyygd4eqk6mjay3bt6tuz7gmmince4gakixw",
+    "id": "q-yezwezya93ab9jdzj8i6h1a6u18dkufm3bnjhlxmbb3ephlecsdq",
     "url": "https://www.simplyhired.com/example/1985",
     "title": "Example title",
     "displayTitle": "Example display title",
-    "normalizedTitle": "Example normalized title",
+    "normalizedTitle": "nurse",
     "company": "Example company",
-    "companyRating": 3.08,
+    "companyRating": 3.96,
     "companyPageUrl": null,
     "employerLogoUrl": "https://d2q79iu7y748jz.cloudfront.net/example/77690.jpg",
     "employerHomepage": null,
     "location": "Example location",
-    "formattedLocation": "Remote",
-    "city": "Remote",
-    "state": null,
-    "latitude": 95,
-    "longitude": -74,
+    "formattedLocation": "Example formatted location",
+    "city": "Example city",
+    "state": "MO",
+    "latitude": 37.78,
+    "longitude": -98.64,
     "country": "us",
     "jobTypes": [
       "Full-time"
     ],
     "workSettings": [],
-    "remoteAttributes": [
-      "Example remote attributes"
-    ],
-    "salary": "Example salary",
-    "salaryMin": 71682,
-    "salaryMax": 345333,
-    "salaryCurrency": "USD",
-    "salaryPeriod": "year",
+    "remoteAttributes": [],
+    "salary": null,
+    "salaryMin": null,
+    "salaryMax": null,
+    "salaryCurrency": null,
+    "salaryPeriod": null,
     "compensation": null,
     "snippet": "Example snippet: mock text standing in for the real value. Same field and type, made-up content.",
     "descriptionHtml": "Example description html: mock text standing in for the real value. Same field and type, made-up content.",
@@ -38,7 +36,58 @@
       "Example requirements"
     ],
     "qualifications": [
-      "Example qualifications",
+      "Example qualifications"
+    ],
+    "benefits": [],
+    "skillsAll": [
+      "Example skills all",
+      "Example skills all"
+    ],
+    "datePosted": "2026-01-15T10:00:00Z",
+    "datePostedEpochMs": 1969106758960,
+    "dateOnIndeed": 1298711750719,
+    "applyUrl": "https://www.simplyhired.com/example/53111",
+    "mobileApplyUrl": "https://www.simplyhired.com/example/25721",
+    "indeedApply": false,
+    "sponsored": true
+  },
+  {
+    "id": "u5nzxxvd1twtdv4neabcucrkjcj1mg809xjbx6wnuskiuaw7nas_qw",
+    "url": "https://www.simplyhired.com/example/26063",
+    "title": "Example title",
+    "displayTitle": "Example display title",
+    "normalizedTitle": "Example normalized title",
+    "company": "Example company",
+    "companyRating": 3.16,
+    "companyPageUrl": null,
+    "employerLogoUrl": "https://d2q79iu7y748jz.cloudfront.net/example/72644.jpg",
+    "employerHomepage": null,
+    "location": "Example location",
+    "formattedLocation": "Example formatted location",
+    "city": "Weston",
+    "state": "WI",
+    "latitude": 38.61,
+    "longitude": -107.49,
+    "country": "us",
+    "jobTypes": [
+      "Full-time"
+    ],
+    "workSettings": [],
+    "remoteAttributes": [],
+    "salary": "Example salary",
+    "salaryMin": 37,
+    "salaryMax": 62,
+    "salaryCurrency": "USD",
+    "salaryPeriod": "hour",
+    "compensation": null,
+    "snippet": "Example snippet: mock text standing in for the real value. Same field and type, made-up content.",
+    "descriptionHtml": "user89@example.com",
+    "descriptionText": "user94@example.com",
+    "requirements": [
+      "Example requirements",
+      "Example requirements"
+    ],
+    "qualifications": [
       "Example qualifications"
     ],
     "benefits": [
@@ -50,11 +99,11 @@
       "Example skills all"
     ],
     "datePosted": "2026-01-15T10:00:00Z",
-    "datePostedEpochMs": 1969106758960,
-    "dateOnIndeed": 1298711750719,
-    "applyUrl": "https://www.simplyhired.com/example/53111",
-    "mobileApplyUrl": "https://www.simplyhired.com/example/25721",
-    "indeedApply": false,
+    "datePostedEpochMs": 7482936122923,
+    "dateOnIndeed": 7844295045664,
+    "applyUrl": "https://www.simplyhired.com/example/67908",
+    "mobileApplyUrl": "https://www.simplyhired.com/example/3120",
+    "indeedApply": true,
     "sponsored": true
   }
 ]

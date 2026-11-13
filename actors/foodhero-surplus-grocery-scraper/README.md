@@ -80,7 +80,7 @@ Full details on the [scraper page](https://apify.com/abotapi/foodhero-surplus-gr
 | `productBrand` | string |
 | `productDescription` | string |
 | `productSize` | string |
-| `productImageUrl` | null |
+| `productImageUrl` | string |
 | `departmentName` | string |
 | `uniqueProductId` | string |
 | `price` | float |

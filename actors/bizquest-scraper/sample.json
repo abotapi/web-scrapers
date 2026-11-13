@@ -4,19 +4,18 @@
     "listNumber": 1047072,
     "title": "Example title",
     "url": "https://www.bizquest.com/example/41757",
-    "description": "Example description",
+    "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
     "image": "https://images.bizquest.com/example/26716.jpg",
     "images": [
-      "https://images.bizquest.com/example/96136.jpg",
-      "https://images.bizquest.com/example/26680.jpg"
+      "https://images.bizquest.com/example/96136.jpg"
     ],
-    "askingPrice": 99407,
+    "askingPrice": null,
     "cashFlow": null,
-    "ebitda": null,
+    "ebitda": 5240171,
     "leaseRateDuration": 32,
-    "leaseRatePerSquareFoot": null,
+    "leaseRatePerSquareFoot": 5023,
     "realEstateIncludedInAskingPrice": false,
-    "financingTypeId": 3,
+    "financingTypeId": 0,
     "initialFee": null,
     "initialCapital": null,
     "location": "Example location",
@@ -29,12 +28,6 @@
         "titleShort": "Example title short",
         "link": "Example link",
         "linkCount": 0
-      },
-      {
-        "title": "Example title",
-        "titleShort": "FL",
-        "link": "Example link",
-        "linkCount": 0
       }
     ],
     "category": "Example category",
@@ -43,12 +36,12 @@
     "isFranchise": false,
     "categoryDetails": null,
     "brokerName": "Example broker name",
-    "brokerCompany": null,
+    "brokerCompany": "Example broker company",
     "brokerPhone": "+1 555 0100",
-    "tpnPhone": null,
+    "tpnPhone": "+1 555 0100",
     "tpnPhoneExt": null,
-    "brokerPhoto": null,
-    "brokerProfileUrl": null,
+    "brokerPhoto": "https://images.bizquest.com/example/16997.jpg",
+    "brokerProfileUrl": "Example broker profile url: mock text standing in for the real value. Same field and type, made-up content.",
     "brokerCertifications": null,
     "contactInfo": {
       "contactInfoPersonId": 835645,
@@ -56,12 +49,12 @@
       "contactPhoneNumber": {
         "telephone": "+1 555 0100",
         "phoneCountryCode": null,
-        "tpnPhone": null,
-        "tpnPhoneExt": null
+        "tpnPhone": "+1 555 0100",
+        "tpnPhoneExt": ""
       },
-      "contactPhoto": null,
-      "brokerCompany": null,
-      "brokerProfileUrl": null
+      "contactPhoto": "https://images.bizquest.com/example/21529.jpg",
+      "brokerCompany": "Example broker company",
+      "brokerProfileUrl": "Example broker profile url: mock text standing in for the real value. Same field and type, made-up content."
     },
     "hotProperty": false,
     "recentlyAdded": true,

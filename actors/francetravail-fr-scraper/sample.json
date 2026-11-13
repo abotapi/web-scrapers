@@ -1,20 +1,20 @@
 [
   {
     "type": "job",
-    "id": "876bbfj",
+    "id": "4057234",
     "url": "https://candidat.francetravail.fr/example/64208",
     "title": "Example title",
     "seedId": "id36459633",
     "seedType": "query",
     "seedValue": "developpeur",
     "pageIndex": 6,
-    "company": "AUBERON",
+    "company": "Example company",
     "location": "Example location",
     "postalCode": "68",
     "addressLocality": "Example address locality",
     "addressRegion": null,
     "addressCountry": "Example address country",
-    "mapUrl": null,
+    "mapUrl": "https://fr.mappy.com/example/86801",
     "contractType": "CDI",
     "workTime": "Example work time",
     "publishedAt": "Example published at",
@@ -33,16 +33,13 @@
       "Example experience requirements"
     ],
     "experienceYears": 4,
-    "skills": [
-      "Example skills",
-      "Example skills"
-    ],
+    "skills": [],
     "softSkills": [],
     "additionalInformation": [],
     "companySize": null,
     "recruiterName": "Example recruiter name",
-    "recruiterDescription": null,
-    "employerPageUrl": "https://recrute.francetravail.fr/example/25943",
+    "recruiterDescription": "Example recruiter description: mock text standing in for the real value. Same field and type, made-up content.",
+    "employerPageUrl": null,
     "employerLogoUrl": null,
     "employerPhone": null
   }

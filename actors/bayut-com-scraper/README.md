@@ -1,6 +1,6 @@
 # Bayut.com Scraper
 
-Scrape Bayut.com property listings with prices, beds, baths, area, GPS, agent and agency details, phone, WhatsApp, email, RERA/Trakheesi permits, photos, amenities, and TruCheck verification dates.
+Scrape Bayut.com property listings with prices, beds, baths, area, GPS, agent and agency details, phone, WhatsApp, email, photos, amenities, and TruCheck verification dates.
 
 **[Open Bayut.com Scraper on Apify](https://apify.com/abotapi/bayut-com-scraper?utm_source=github&utm_medium=web-scrapers&utm_campaign=monorepo)** to run it without code and export JSON, CSV or Excel.
 
@@ -54,7 +54,7 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~bayut-com-scraper/run-syn
 | `sortBy` | string | Sort order (Search mode) |
 | `urls` | array | Search URLs (URL mode) |
 | `maxPages` | integer | Max result pages per location/URL |
-| `maxListings` | integer | Max total listings (default 20, 0  unl |
+| `maxListings` | integer | Max total listings (default 10, 0  unl |
 | `fetchDetails` | boolean | Enrich each listing with full detail ( |
 | `proxy` | object | Proxy configuration |
 

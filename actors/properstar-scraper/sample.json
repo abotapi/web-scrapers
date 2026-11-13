@@ -1,16 +1,16 @@
 [
   {
-    "id": "914573204",
+    "id": "136525387",
     "url": "https://www.properstar.co.uk/example/34799",
     "class": "Example class",
     "transactionType": "Sell",
     "type": "Apartment",
-    "subType": "Apartment",
-    "title": "Example title: mock text standing in for the real value. Same field and type, made-up content.",
+    "subType": "Example sub type",
+    "title": "Example title",
     "automaticTitle": "Example automatic title: mock text standing in for the real value. Same field and type, made-up content.",
     "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
     "titleByLanguage": {
-      "en": "Example en: mock text standing in for the real value. Same field and type, made-up content."
+      "en": "Example en"
     },
     "descriptionByLanguage": {
       "en": "Example en: mock text standing in for the real value. Same field and type, made-up content."
@@ -20,21 +20,21 @@
     "co2Rating": null,
     "ratings": null,
     "geoPointReliable": true,
-    "price": 8501980,
+    "price": 401980,
     "currency": "GBP",
     "priceValues": [
       {
         "currencyId": "GBP",
         "type": "Original",
-        "value": 7828281
+        "value": 628281
       }
     ],
     "livingAreaSqm": null,
     "landAreaSqm": null,
     "livingAreaSqft": null,
     "landAreaSqft": null,
-    "rooms": 8,
-    "bedrooms": 3,
+    "rooms": null,
+    "bedrooms": null,
     "bathrooms": 3,
     "floor": null,
     "constructionYear": null,
@@ -42,15 +42,14 @@
     "city": "London",
     "postcode": "Example postcode",
     "countryISO": "GB",
-    "latitude": 49.43,
-    "longitude": -0.2,
+    "latitude": 49.39,
+    "longitude": -0.17,
     "showAddress": true,
-    "geocodeLevel": "Street",
+    "geocodeLevel": "Postcode",
     "pictures": [
-      "https://files-api.properstar.com/example/52849",
-      "https://files-api.properstar.com/example/41052"
+      "https://files-api.properstar.com/example/52849"
     ],
-    "picturesCount": 43,
+    "picturesCount": 7,
     "floorPlans": [],
     "floorPlansCount": null
   }

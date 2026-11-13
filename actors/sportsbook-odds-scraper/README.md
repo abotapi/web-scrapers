@@ -17,7 +17,7 @@ python example.py
 ```bash
 curl -s -X POST "https://api.apify.com/v2/acts/abotapi~sportsbook-odds-scraper/run-sync-get-dataset-items?token=$APIFY_TOKEN" \
   -H 'Content-Type: application/json' \
-  -d '{"mode": "bulk", "bookmakers": ["linebet"], "feeds": ["prematch"], "proxy": {"useApifyProxy": true, "apifyProxyGroups": ["RESIDENTIAL"]}}'
+  -d '{"mode": "bulk", "bookmakers": ["linebet"], "feeds": ["prematch"], "proxy": {"useApifyProxy": true}}'
 ```
 
 ## Inputs
@@ -28,9 +28,14 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~sportsbook-odds-scraper/r
 | `bookmakers` | array | Bookmakers |
 | `feeds` | array | Feeds |
 | `eventUrls` | array | Match URLs |
+| `matchUrls` | array | Match URLs (alias) |
 | `sports` | array | Sports (optional filter) |
+| `leagueUrls` | array | League filter (URLs or ids) |
 | `eventsPerRequest` | integer | Events per request |
 | `maxEvents` | integer | Max events |
+| `maxMatches` | integer | Max matches (alias) |
+| `includeOutcomes` | boolean | Include named outcomes |
+| `deepMarkets` | boolean | Deep markets |
 | `proxy` | object | Proxy configuration |
 
 `*` required
@@ -67,6 +72,20 @@ Full details on the [scraper page](https://apify.com/abotapi/sportsbook-odds-scr
 | `markets` | list |
 | `url` | string |
 | `scrapedAt` | string |
+| `matchId` | string |
+| `kickoff` | string |
+| `startTimestamp` | integer |
+| `country` | string |
+| `status` | string |
+| `score` | null |
+| `venue` | string |
+| `tournamentStage` | null |
+| `homeLogo` | string |
+| `awayLogo` | string |
+| `odds` | object |
+| `outcomes` | list |
+| `marketsOnFeed` | integer |
+| `totalMarketsAvailable` | integer |
 
 ---
 

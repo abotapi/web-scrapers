@@ -61,8 +61,8 @@ Full details on the [scraper page](https://apify.com/abotapi/crexi-commercial-li
 | `url` | string |
 | `property_url` | string |
 | `detailPageUrl` | string |
-| `askingPrice` | integer |
-| `price` | integer |
+| `askingPrice` | null |
+| `price` | null |
 | `types` | list |
 | `property_type` | string |
 | `status` | string |

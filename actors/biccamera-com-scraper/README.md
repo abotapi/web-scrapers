@@ -17,7 +17,7 @@ python example.py
 ```bash
 curl -s -X POST "https://api.apify.com/v2/acts/abotapi~biccamera-com-scraper/run-sync-get-dataset-items?token=$APIFY_TOKEN" \
   -H 'Content-Type: application/json' \
-  -d '{"mode": "search", "searchTerms": ["カメラ"], "sortBy": "RELEVANCE", "maxReviewsPerProduct": 10, "maxPages": 1, "maxItems": 10, "proxyConfiguration": {"useApifyProxy": true, "apifyProxyGroups": ["UNBLOCKER"], "apifyProxyCountry": "JP"}}'
+  -d '{"mode": "search", "category": "001/120/001", "sortBy": "RELEVANCE", "maxReviewsPerProduct": 10, "maxPages": 1, "maxItems": 10, "proxyConfiguration": {"useApifyProxy": true, "apifyProxyGroups": ["UNBLOCKER"], "apifyProxyCountry": "JP"}}'
 ```
 
 ## Inputs
@@ -58,11 +58,11 @@ Full details on the [scraper page](https://apify.com/abotapi/biccamera-com-scrap
 | `url` | string |
 | `price` | integer |
 | `currency` | string |
-| `pointAmount` | integer |
-| `pointRate` | integer |
-| `effectivePrice` | integer |
-| `rating` | float |
-| `reviewCount` | integer |
+| `pointAmount` | null |
+| `pointRate` | null |
+| `effectivePrice` | null |
+| `rating` | null |
+| `reviewCount` | null |
 | `thumbnail` | string |
 | `images` | list |
 | `deliveryText` | string |

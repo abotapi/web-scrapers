@@ -1,4 +1,4 @@
-"""NHS UK Scraper: minimal example. Docs: https://apify.com/abotapi/jobs-nhs-uk-scraper
+"""NHS Jobs Scraper: minimal example. Docs: https://apify.com/abotapi/jobs-nhs-uk-scraper
 
 pip install "apify-client>=3"
 APIFY_TOKEN=<your token> python example.py

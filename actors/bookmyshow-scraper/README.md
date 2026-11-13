@@ -17,7 +17,7 @@ python example.py
 ```bash
 curl -s -X POST "https://api.apify.com/v2/acts/abotapi~bookmyshow-scraper/run-sync-get-dataset-items?token=$APIFY_TOKEN" \
   -H 'Content-Type: application/json' \
-  -d '{"mode": "search", "city": "mumbai", "category": "movies", "maxItems": 10, "maxPages": 1, "proxyConfiguration": {"useApifyProxy": true, "apifyProxyGroups": ["RESIDENTIAL"], "apifyProxyCountry": "IN"}}'
+  -d '{"mode": "search", "city": "mumbai", "category": "movies", "dateMode": "AUTO_DISCOVER", "maxItems": 10, "maxPages": 1, "proxyConfiguration": {"useApifyProxy": true, "apifyProxyGroups": ["RESIDENTIAL"], "apifyProxyCountry": "IN"}}'
 ```
 
 ## Inputs
@@ -31,6 +31,14 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~bookmyshow-scraper/run-sy
 | `genres` | string | Genres |
 | `formats` | string | Formats |
 | `urls` | array | BookMyShow links |
+| `eventCodes` | array | Movie codes (showtimes mode) |
+| `maxMovies` | integer | Movies to read (showtimes mode) |
+| `dateMode` | string | Date mode (showtimes mode) |
+| `dates` | array | Dates (explicit dates mode) |
+| `fromDate` | string | From date (date range mode) |
+| `toDate` | string | To date (date range mode) |
+| `maxDaysAhead` | integer | Days ahead (auto discover) |
+| `emptyDateStreakLimit` | integer | Empty-day stop (auto discover) |
 | `maxItems` | integer | Max items |
 | `maxPages` | integer | Max pages per scope |
 | `fetchDetails` | boolean | Fetch details |
@@ -71,6 +79,8 @@ Full details on the [scraper page](https://apify.com/abotapi/bookmyshow-scraper?
 | `availability` | null |
 | `dateText` | null |
 | `timeText` | null |
+| `rating` | float |
+| `ratingText` | string |
 
 ---
 

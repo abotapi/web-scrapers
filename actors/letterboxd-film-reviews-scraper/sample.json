@@ -15,9 +15,33 @@
     "averageRating": 4.82,
     "ratingsCount": 6256045,
     "datePublished": null,
+    "cast": [
+      "Example cast",
+      "Example cast"
+    ],
+    "country": "USA",
     "releaseYear": 6596,
     "runtimeMinutes": 382,
     "tagline": "Example tagline",
-    "scrapedAt": "2026-01-15T10:00:00Z"
+    "language": "English",
+    "studios": [
+      "Example studios"
+    ],
+    "type": "film",
+    "synopsis": "Example synopsis: mock text standing in for the real value. Same field and type, made-up content.",
+    "posterUrl": "https://a.ltrbxd.com/example/31351",
+    "filmUrl": "https://letterboxd.com/example/38936",
+    "year": 1595,
+    "filmYear": 8222,
+    "director": [
+      "Example director"
+    ],
+    "genres": [
+      "Example genres",
+      "Adventure"
+    ],
+    "runtime": "Example runtime",
+    "scrapedAt": "2026-01-15T10:00:00Z",
+    "query": "dune"
   }
 ]

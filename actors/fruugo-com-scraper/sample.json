@@ -18,7 +18,7 @@
     "inStock": true,
     "merchantName": "Example merchant name",
     "sellerCount": null,
-    "shippingPrice": 39.38,
+    "shippingPrice": 39.88,
     "shippingText": "Example shipping text",
     "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
     "ean": null,

@@ -1,7 +1,7 @@
 [
   {
     "record_type": "property_listing",
-    "record_id": "82262141",
+    "record_id": "73016830",
     "source_context": {
       "source_domain": "Example source_domain",
       "source_url": "https://www.fundainbusiness.nl/example/96186",
@@ -14,8 +14,8 @@
       "language": "nl",
       "country": "NL",
       "external_ids": {
-        "listing_id": "03025024",
-        "global_id": "0058174"
+        "listing_id": "77395513",
+        "global_id": "3495994"
       },
       "search": {
         "property_type": "all",
@@ -27,27 +27,25 @@
       "title": "Example title",
       "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
       "url": "https://www.fundainbusiness.nl/example/73857",
-      "category": "Kantoor",
+      "category": "Bedrijfshal",
       "status": "Beschikbaar"
     },
     "listing": {
-      "listing_id": "03025024",
+      "listing_id": "77395513",
       "listing_type": "Example listing_type",
       "deal_type": "both",
       "offer_type": "rent",
-      "source_category": "Example source_category",
+      "source_category": "Bedrijfshal",
       "source_listing_type": "regular",
       "is_featured": false,
-      "labels": [
-        "Example labels"
-      ],
+      "labels": [],
       "available_from": "Example available_from"
     },
     "pricing": {
       "price": 654,
       "currency": "EUR",
       "price_text": "Example price_text",
-      "service_costs": "Example service_costs"
+      "service_costs": null
     },
     "location": {
       "address": "Example address",
@@ -55,37 +53,39 @@
       "city": "Amsterdam",
       "region": "Noord-Holland",
       "country": "Netherlands",
-      "latitude": 46.62,
-      "longitude": 4.84,
+      "latitude": 46.6,
+      "longitude": 4.72,
       "map_marker_title": "Example map_marker_title"
     },
     "property": {
-      "property_id": "1561553",
+      "property_id": "6521051",
       "property_type": "all",
       "usage_types": [
-        "Kantoor",
         "Bedrijfshal"
       ],
-      "floor_area": 575,
+      "floor_area": 4175,
       "energy_label": "Example energy_label",
-      "construction_year": "0272",
+      "construction_year": "4835",
       "construction_type": "Example construction_type",
       "features": {
         "Overdracht": {
           "Huurprijs": "Example huurprijs",
-          "Servicekosten": "Example servicekosten",
           "Aangeboden sinds": "",
           "Status": "Beschikbaar",
           "Aanvaarding": "Example aanvaarding"
         },
         "Bouw": {
           "Hoofdfunctie": "Example hoofdfunctie",
-          "Mogelijke functie(s)": "Example mogelijke functie(s)",
           "Soort bouw": "Example soort bouw",
-          "Bouwjaar": "7553"
+          "Bouwjaar": "0751"
         },
         "Oppervlakten": {
-          "Oppervlakte": "Example oppervlakte"
+          "Oppervlakte": "Example oppervlakte",
+          "Bedrijfshal oppervlak": "Example bedrijfshal oppervlak",
+          "Kantoor oppervlak": "Example kantoor oppervlak",
+          "Vrije hoogte": "Example vrije hoogte",
+          "Vrije overspanning": "Example vrije overspanning",
+          "Draagvermogen": "Example draagvermogen"
         },
         "Indeling": {
           "Aantal bouwlagen": "Example aantal bouwlagen",
@@ -95,8 +95,10 @@
           "Energielabel": "Example energielabel"
         },
         "Omgeving": {
-          "Ligging": "Example ligging",
-          "Bereikbaarheid": "Example bereikbaarheid: mock text standing in for the real value. Same field and type, made-up content."
+          "Ligging": "Example ligging"
+        },
+        "Parkeergelegenheid": {
+          "Parkeerplaatsen": "Example parkeerplaatsen"
         }
       }
     },
@@ -113,7 +115,7 @@
         "name": "Example name",
         "url": "https://www.fundainbusiness.nl/example/73857",
         "phone": "+1 555 0100",
-        "broker_id": "62084"
+        "broker_id": "94307"
       }
     },
     "availability": {

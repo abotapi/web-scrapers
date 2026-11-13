@@ -64,10 +64,10 @@ Full details on the [scraper page](https://apify.com/abotapi/ziprecruiter-com-sc
 | `companyUrl` | string |
 | `companyWebsite` | null |
 | `companyLogo` | string |
-| `location` | string |
-| `city` | string |
-| `state` | string |
-| `county` | string |
+| `location` | null |
+| `city` | null |
+| `state` | null |
+| `county` | null |
 | `postalCode` | null |
 | `streetAddress` | null |
 | `country` | string |
@@ -91,8 +91,8 @@ Full details on the [scraper page](https://apify.com/abotapi/ziprecruiter-com-sc
 | `descriptionText` | null |
 | `emails` | list |
 | `phoneNumbers` | list |
-| `datePosted` | string |
-| `postedAt` | string |
+| `datePosted` | null |
+| `postedAt` | null |
 | `validThrough` | null |
 | `isActive` | boolean |
 

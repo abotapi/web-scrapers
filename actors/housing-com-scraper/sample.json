@@ -1,6 +1,6 @@
 [
   {
-    "listingId": "404692",
+    "listingId": "642971",
     "title": "Example title",
     "subtitle": "Example subtitle",
     "address": "Example address",
@@ -8,25 +8,25 @@
     "price_display": "Example price_display",
     "price_values": [
       45752214,
-      895167512
+      85167512
     ],
     "currency": "INR",
     "area_value": 2946,
     "area_unit": "sq.ft",
     "latitude": 18.95,
-    "longitude": 76.46,
+    "longitude": 76.47,
     "features": [
       "Example features",
       "Example features"
     ],
     "bhk_configs": [
       {
-        "id": "2462211",
+        "id": "8036254",
         "price_display": "Example price_display",
         "label": "Example label"
       },
       {
-        "id": "9417622",
+        "id": "9200755",
         "price_display": "Example price_display",
         "label": "Example label"
       }
@@ -54,7 +54,7 @@
     "updatedAt": "2026-01-15T10:00:00Z",
     "isMostContacted": true,
     "projectName": "Example project name",
-    "projectId": "138162",
+    "projectId": "955126",
     "city": "Mumbai",
     "cityId": "id60910169",
     "locality": "andheri_west",
@@ -62,10 +62,11 @@
     "isReraVerified": true,
     "coverImageUrl": "https://is1-2.housingcdn.com/example/62495.jpg",
     "pricePerArea": "Example price per area",
-    "configurations": "Example configurations"
+    "configurations": "Example configurations",
+    "bedrooms": 9
   },
   {
-    "listingId": "368243",
+    "listingId": "925360",
     "title": "Example title",
     "subtitle": "Example subtitle",
     "address": "Example address",
@@ -73,25 +74,25 @@
     "price_display": "Example price_display",
     "price_values": [
       16790082,
-      99625866
+      639625866
     ],
     "currency": "INR",
-    "area_value": 6921,
+    "area_value": 621,
     "area_unit": "sq.ft",
-    "latitude": 16.46,
-    "longitude": 82.3,
+    "latitude": 16.45,
+    "longitude": 82.28,
     "features": [
       "Example features",
       "Example features"
     ],
     "bhk_configs": [
       {
-        "id": "8592568",
+        "id": "9232039",
         "price_display": "Example price_display",
         "label": "Example label"
       },
       {
-        "id": "5034231",
+        "id": "0451959",
         "price_display": "Example price_display",
         "label": "Example label"
       }
@@ -119,7 +120,7 @@
     "updatedAt": "2026-01-15T10:00:00Z",
     "isMostContacted": true,
     "projectName": "Example project name",
-    "projectId": "174078",
+    "projectId": "063521",
     "city": "Mumbai",
     "cityId": "id36046767",
     "locality": "andheri_west",
@@ -127,7 +128,6 @@
     "isReraVerified": true,
     "coverImageUrl": "https://is1-2.housingcdn.com/example/30086.jpg",
     "pricePerArea": "Example price per area",
-    "configurations": "Example configurations",
-    "bedrooms": 4
+    "configurations": "Example configurations"
   }
 ]

@@ -70,12 +70,12 @@ Full details on the [scraper page](https://apify.com/abotapi/pap-fr-scraper?utm_
 | `priceCurrency` | string |
 | `priceDisplay` | string |
 | `rooms` | integer |
-| `livingSpace` | float |
+| `livingSpace` | integer |
 | `bedrooms` | integer |
 | `floor` | integer |
 | `hoaChargesYearly` | null |
-| `propertyTaxYearly` | integer |
-| `heatingType` | string |
+| `propertyTaxYearly` | null |
+| `heatingType` | null |
 | `description` | string |
 | `streetAddress` | string |
 | `city` | string |
@@ -90,7 +90,7 @@ Full details on the [scraper page](https://apify.com/abotapi/pap-fr-scraper?utm_
 | `ghgClass` | string |
 | `isActive` | boolean |
 | `reference` | string |
-| `sellerPhone` | null |
+| `sellerPhone` | string |
 | `seller` | object |
 | `refusesCommercialSolicitation` | boolean |
 | `propertyCategory` | string |

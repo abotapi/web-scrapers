@@ -1,22 +1,23 @@
 [
   {
-    "id": "82506261",
+    "id": "98065059",
     "url": "https://dubai.dubizzle.com/example/618",
     "title": "Example title",
-    "price": 5692374,
+    "price": 14692374,
     "currency": "AED",
     "section": "Example section",
-    "categorySlug": "apartment",
+    "categorySlug": "villahouse",
     "bedrooms": 9,
     "bathrooms": 6,
     "area": 4204,
     "areaUnit": "sqft",
     "city": "Dubai",
     "neighborhood": [
+      "Example neighborhood",
       "Example neighborhood"
     ],
-    "latitude": 30.88,
-    "longitude": 57.91,
+    "latitude": 30.94,
+    "longitude": 57.96,
     "isVerified": true,
     "agentName": "Example agent name",
     "agencyName": null,
@@ -31,31 +32,28 @@
     "photosCount": 68,
     "isPremium": true,
     "coordinates": {
-      "lat": 30.88,
-      "lng": 41.36
+      "lat": 30.94,
+      "lng": 41.4
     },
     "tourUrl": null,
-    "videoUrl": null,
+    "videoUrl": "https://youtu.be/example/22647",
     "tour360": null,
     "featuredListing": false,
     "promoted": false,
     "highlightedAd": false,
-    "building": {
-      "id": 7846,
-      "name": {
-        "en": "Example en",
-        "ar": "Example ar"
-      }
-    },
+    "building": null,
     "neighborhoods": {
       "ids": [
-        26
+        26,
+        51045
       ],
       "name": {
         "en": [
+          "Example en",
           "Example en"
         ],
         "ar": [
+          "Example ar",
           "Example ar"
         ]
       }

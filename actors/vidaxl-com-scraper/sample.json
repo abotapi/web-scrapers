@@ -1,22 +1,22 @@
 [
   {
-    "recordId": "3926779495171",
-    "productId": "6476577070788",
-    "ean": "6854523406978",
+    "recordId": "4935019404866",
+    "productId": "3789967536070",
+    "ean": "7102069444003",
     "url": "https://www.vidaxl.de/example/57095",
     "title": "Example title",
     "brand": "vidaXL",
-    "sku": "5714861",
-    "masterProductId": "m12316541417",
+    "sku": "98168",
+    "masterProductId": "m304231",
     "categories": [
       "Furniture",
       "Example categories"
     ],
-    "categoryPath": "Example category path",
+    "categoryPath": "Example category path: mock text standing in for the real value. Same field and type, made-up content.",
     "variants": {
-      "color": "Grau"
+      "variationAttribute1": "3"
     },
-    "price": 621.59,
+    "price": 65.61,
     "oldPrice": null,
     "onSale": false,
     "currency": "EUR",
@@ -25,30 +25,16 @@
     "marketHost": "www.vidaxl.de",
     "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
     "specifications": {
-      "Farbe": "Example farbe",
       "Material": "Example material",
-      "Gewicht": "Example gewicht",
-      "Sitztiefe": "Example sitztiefe",
-      "Sitzplatzkapazität": "7",
-      "Rückenhöhe": "Example rückenhöhe",
-      "Verstellbare Min/Max Maße": "+1 555 0100",
-      "Montage erforderlich": "Ja",
-      "1 x Tisch": "Example 1 x  tisch",
-      "5 x Mittelsofa": "+1 555 0100",
-      "2 x Ecksofa": "Example 2 x  ecksofa",
-      "2 x Fußhocker": "Example 2 x  fußhocker",
-      "9 x Sitzkissen": "Example 9 x  sitzkissen",
-      "9 x Rückenkissen": "Example 9 x  rückenkissen",
-      "EAN": "6274768193032",
-      "SKU": "9850086",
-      "Brand": "vidaXL",
-      "Max. Belastbarkeit": "Example max.  belastbarkeit"
+      "Größe": "Example größe",
+      "SKU": "44117",
+      "Brand": "vidaXL"
     },
     "imageUrls": [
       "https://www.vidaxl.de/example/54877.jpg",
       "https://www.vidaxl.de/example/45636.jpg"
     ],
-    "imageCount": 11,
+    "imageCount": 2,
     "availability": "Example availability",
     "stockStatus": "Example stock status",
     "deliveryEstimate": "Example delivery estimate",

@@ -36,13 +36,13 @@
     "highestBidUpdatedAt": "2026-01-15T10:00:00Z",
     "lastSale": 891,
     "bidAskSpread": -607,
-    "salesLast72Hours": 790,
+    "salesLast72Hours": 70,
     "salesLast90Days": 4669,
     "averagePriceLast90Days": 905,
     "salesLast12Months": 66741,
     "averagePriceLast12Months": 419,
-    "priceVolatility": 0.4,
-    "pricePremium": 2.55,
+    "priceVolatility": 0.44,
+    "pricePremium": 1.38,
     "annualRangeHigh": 653,
     "annualRangeLow": 864
   }

@@ -1,6 +1,6 @@
 [
   {
-    "id": "9vvyixsqx-l2hhvw-lqkfg",
+    "id": "yavfe8qykrxhfkspygpqyg",
     "name": "Example name",
     "subtitle": null,
     "language": "de",
@@ -11,19 +11,19 @@
     "professionalTitle": null,
     "address": "Example address",
     "street": "Example street",
-    "zipCode": "5464",
+    "zipCode": "2100",
     "city": "Example city",
     "canton": "ZH",
     "country": "CH",
-    "latitude": 53.56,
-    "longitude": 10.71,
+    "latitude": 53.53,
+    "longitude": 10.76,
     "phone": "+1 555 0100",
     "phoneAlt": null,
     "mobile": null,
     "fax": null,
-    "email": null,
+    "email": "user15@example.com",
     "emailAlt": null,
-    "website": "https://rapido-pizza.ch/example/56312",
+    "website": "https://www.oldfashionbar.ch/example/56312",
     "whatsapp": null,
     "facebook": null,
     "instagram": "https://www.instagram.com/example/95196",
@@ -37,11 +37,13 @@
     "phones": [
       "+1 555 0100"
     ],
-    "emails": null,
+    "emails": [
+      "user34@example.com"
+    ],
     "socialMediaUrls": [
       "https://www.instagram.com/example/56370"
     ],
-    "refusesAdvertising": true,
+    "refusesAdvertising": false,
     "poBoxZipCode": null,
     "poBoxCity": null
   }

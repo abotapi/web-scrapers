@@ -6,20 +6,20 @@
     "url": "https://rent.591.com.tw/example/99392",
     "title": "Example title",
     "price": 86416,
-    "priceText": "93,293",
+    "priceText": "73,173",
     "priceUnit": "Example price unit",
     "unitPrice": null,
     "kind": 4,
     "kindName": "Example kind name",
     "room": "Example room",
-    "layout": "8",
-    "area": 21.19,
+    "layout": "4",
+    "area": 18.6,
     "areaText": "Example area text",
     "floor": "Example floor",
     "fitment": "Example fitment",
     "address": "Example address",
-    "communityName": "Example community name",
-    "communityId": 8668,
+    "communityName": null,
+    "communityId": 0,
     "regionId": 9,
     "regionName": "Example region name",
     "tags": [
@@ -35,27 +35,27 @@
       {
         "type": "bus",
         "name": "Example name",
-        "distance": 211
+        "distance": 31
       }
     ],
     "photos": [
-      "https://img1.591.com.tw/example/56048.jpg",
-      "https://img2.591.com.tw/example/16881.jpg"
+      "https://img2.591.com.tw/example/56048.jpg",
+      "https://img1.591.com.tw/example/16881.jpg"
     ],
-    "coverPhoto": "https://img1.591.com.tw/example/64981.jpg",
+    "coverPhoto": "https://img2.591.com.tw/example/64981.jpg",
     "photoCount": 15,
     "isVideo": false,
-    "browseCount": 281,
+    "browseCount": 11,
     "contactRole": "Example contact role",
     "refreshedAt": "Example refreshed at",
-    "descriptionHtml": "Example description html: mock text standing in for the real value. Same field and type, made-up content.",
-    "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
+    "descriptionHtml": "user53@example.com",
+    "description": "user91@example.com",
     "deposit": "Example deposit",
     "shape": "Example shape",
     "sectionId": 3,
     "sectionName": "Example section name",
-    "latitude": 26.07,
-    "longitude": 130.03,
+    "latitude": 26.05,
+    "longitude": 130.05,
     "leaseMinTerm": "Example lease min term"
   }
 ]

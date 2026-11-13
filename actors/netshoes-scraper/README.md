@@ -78,8 +78,8 @@ Full details on the [scraper page](https://apify.com/abotapi/netshoes-scraper?ut
 | `priceBeforePaymentDiscount` | float |
 | `paymentMethod` | null |
 | `paymentMethodPrice` | null |
-| `discountAmount` | integer |
-| `discountPercent` | integer |
+| `discountAmount` | null |
+| `discountPercent` | null |
 | `onSale` | boolean |
 | `installments` | null |
 | `installmentPlans` | list |
@@ -99,7 +99,7 @@ Full details on the [scraper page](https://apify.com/abotapi/netshoes-scraper?ut
 | `featuredImage` | string |
 | `images` | list |
 | `videos` | list |
-| `rating` | integer |
+| `rating` | float |
 
 ---
 

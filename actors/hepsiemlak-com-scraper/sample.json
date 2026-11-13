@@ -1,12 +1,12 @@
 [
   {
     "recordType": "listing",
-    "listingId": "319877-48",
+    "listingId": "219319-061",
     "url": "https://www.hepsiemlak.com/example/84506",
     "title": "Example title",
     "price": 4028640,
     "currency": "TRY",
-    "grossSqm": 551,
+    "grossSqm": 11,
     "rooms": 4,
     "bedrooms": 1,
     "propertyTypes": [
@@ -36,17 +36,17 @@
       "https://hecdn01.hemlak.com/example/36664.jpg"
     ],
     "imageCount": 79,
-    "latitude": 36.91,
+    "latitude": 36.93,
     "longitude": 28.37,
     "mapLocation": {
-      "lat": 30.76,
+      "lat": 30.78,
       "lon": 36.4
     },
     "roomCount": 7,
     "livingRoomCount": 4,
     "roomPlan": "7+1",
     "sellerType": "Example seller type",
-    "netAreaSqm": 190,
+    "netAreaSqm": 10,
     "owner": {
       "id": 5035965,
       "name": "Example name",

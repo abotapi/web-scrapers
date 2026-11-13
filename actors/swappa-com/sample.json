@@ -13,21 +13,21 @@
       {
         "soldDateLabel": "+1 555 0100",
         "soldDate": "2026-01-15",
-        "condition": "Mint",
+        "condition": "Good",
         "carrier": "Example carrier",
         "storage": "Example storage",
         "soldPrice": 722,
-        "listingId": "lalp42485",
+        "listingId": "lzjs53597",
         "listingUrl": "https://swappa.com/example/75805"
       },
       {
         "soldDateLabel": "+1 555 0100",
         "soldDate": "2026-01-15",
-        "condition": "Good",
+        "condition": "Mint",
         "carrier": "Example carrier",
         "storage": "Example storage",
         "soldPrice": 400,
-        "listingId": "lalp89147",
+        "listingId": "lyap59368",
         "listingUrl": "https://swappa.com/example/79425"
       }
     ],
@@ -36,7 +36,7 @@
     "salesHistoryTo": "2026-01-15",
     "soldPriceMin": 984,
     "soldPriceMax": 188,
-    "soldPriceAvg": 384.95,
+    "soldPriceAvg": 423.52,
     "priceTrend": [
       {
         "storage": "Example storage",
@@ -85,7 +85,7 @@
         "rank": 3,
         "carrier": "Example carrier",
         "storage": "Example storage",
-        "listingCount": 314,
+        "listingCount": 44,
         "avgPrice": 870,
         "tradeInValue": 202
       },

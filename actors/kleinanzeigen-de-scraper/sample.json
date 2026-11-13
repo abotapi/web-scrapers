@@ -1,33 +1,94 @@
 [
   {
-    "adId": "4009905767",
+    "adId": "1713831107",
     "url": "https://www.kleinanzeigen.de/example/78779",
-    "title": "Example title: mock text standing in for the real value. Same field and type, made-up content.",
+    "title": "Example title",
     "descriptionShort": "Example description short: mock text standing in for the real value. Same field and type, made-up content.",
     "descriptionFull": "Example description full: mock text standing in for the real value. Same field and type, made-up content.",
     "price": "Example price",
-    "priceAmount": 1770,
+    "priceAmount": 870,
     "priceType": "NEGOTIABLE",
     "currency": "EUR",
     "locationText": "Example location text",
-    "postalCode": "49534",
+    "postalCode": "54390",
     "regionName": "Example region name",
     "cityName": "Example city name",
-    "latitude": 38.44,
-    "longitude": 6.96,
+    "latitude": 39.6,
+    "longitude": 6.13,
     "categoryId": "840",
     "categoryName": "Example category name",
     "categoryPath": "Example category path",
     "categoryParentId": "056",
-    "locationId": "7381",
+    "locationId": "6987",
     "postedDate": "2026-01-15",
     "postedDateText": null,
     "viewCount": null,
-    "imageCount": 9,
+    "imageCount": 18,
     "thumbnailUrl": "https://img.kleinanzeigen.de/example/83710.jpg",
     "imageUrls": [
       "https://img.kleinanzeigen.de/example/15612.jpg",
       "https://img.kleinanzeigen.de/example/38363.jpg"
+    ],
+    "attributes": {
+      "Art": "Example art",
+      "Typ": "Example typ",
+      "Zustand": "Example zustand"
+    },
+    "attributesRaw": [
+      {
+        "name": "Example name",
+        "value": "Example value"
+      },
+      {
+        "name": "Example name",
+        "value": "Example value"
+      }
+    ],
+    "isPro": false,
+    "isShop": false,
+    "isTopAd": false,
+    "isSold": false,
+    "street": null,
+    "adStatus": "active",
+    "sellerSatisfaction": "Example seller satisfaction",
+    "sellerFriendliness": null,
+    "sellerReliability": "Example seller reliability",
+    "sellerBadges": [
+      "Example seller badges",
+      "Example seller badges"
+    ],
+    "rentCold": null,
+    "purchasePrice": null
+  },
+  {
+    "adId": "8576803999",
+    "url": "https://www.kleinanzeigen.de/example/77586",
+    "title": "Example title: mock text standing in for the real value. Same field and type, made-up content.",
+    "descriptionShort": "Example description short: mock text standing in for the real value. Same field and type, made-up content.",
+    "descriptionFull": "Example description full: mock text standing in for the real value. Same field and type, made-up content.",
+    "price": "Example price",
+    "priceAmount": 228,
+    "priceType": "NEGOTIABLE",
+    "currency": "EUR",
+    "locationText": "Example location text",
+    "postalCode": "65633",
+    "regionName": "Example region name",
+    "cityName": "Example city name",
+    "latitude": 39.42,
+    "longitude": 12.15,
+    "categoryId": "031",
+    "categoryName": "Example category name",
+    "categoryPath": "Example category path: mock text standing in for the real value. Same field and type, made-up content.",
+    "categoryParentId": "583",
+    "locationId": "9411",
+    "postedDate": "2026-01-15",
+    "postedDateText": null,
+    "viewCount": null,
+    "imageCount": 7,
+    "thumbnailUrl": "https://img.kleinanzeigen.de/example/24494.jpg",
+    "imageUrls": [
+      "https://img.kleinanzeigen.de/example/59343.jpg",
+      "https://img.kleinanzeigen.de/example/61630.jpg"
     ],
     "attributes": {
       "Art": "Example art",
@@ -51,7 +112,7 @@
     "street": null,
     "adStatus": "active",
     "sellerSatisfaction": "Example seller satisfaction",
-    "sellerFriendliness": null,
+    "sellerFriendliness": "Example seller friendliness",
     "sellerReliability": "Example seller reliability",
     "sellerBadges": [
       "Example seller badges",

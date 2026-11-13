@@ -2,10 +2,10 @@
   {
     "rowType": "job",
     "jobId": "id1652941",
-    "jobSlug": "Example job slug",
+    "jobSlug": "Example job slug: mock text standing in for the real value. Same field and type, made-up content.",
     "guid": "https://weworkremotely.com/example/17682",
     "source": "Example source",
-    "rawTitle": "Example raw title",
+    "rawTitle": "Example raw title: mock text standing in for the real value. Same field and type, made-up content.",
     "title": "Example title",
     "companyName": "Example company name",
     "url": "https://weworkremotely.com/example/62459",
@@ -16,9 +16,9 @@
     "externalApplyUrl": null,
     "applyUrlIsExternal": false,
     "applyUrlDomain": "Example apply url domain",
-    "companyWebsiteUrl": "https://www.askablelabs.com/example/21375",
-    "companyWebsiteDomain": "askablelabs.com",
-    "companyLogoUrl": "https://wwr-pro.s3.amazonaws.com/example/69572.jpg",
+    "companyWebsiteUrl": "https://e-verify.uscis.gov/example/21375",
+    "companyWebsiteDomain": "Example company website domain",
+    "companyLogoUrl": null,
     "headquarters": "Example headquarters",
     "locationText": "Example location text",
     "region": "Example region",
@@ -40,13 +40,13 @@
     "skillsCount": 0,
     "technologies": [
       "Example technologies",
-      "Example technologies"
+      "AI"
     ],
     "tags": [
       "Example tags",
       "python"
     ],
-    "seniorityLevel": null,
+    "seniorityLevel": "Senior",
     "postedAt": "2026-01-15T10:00:00Z"
   }
 ]

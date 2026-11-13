@@ -58,7 +58,9 @@ Full details on the [scraper page](https://apify.com/abotapi/realcommercial-au-s
 | `listingType` | string |
 | `propertyTypes` | list |
 | `tenureType` | string |
+| `title` | string |
 | `description` | string |
+| `highlights` | list |
 | `status` | string |
 | `daysActive` | integer |
 | `hasTour` | boolean |
@@ -69,6 +71,8 @@ Full details on the [scraper page](https://apify.com/abotapi/realcommercial-au-s
 | `media` | object |
 | `agents` | list |
 | `agency` | object |
+| `tours` | list |
+| `nearbyPlaces` | list |
 | `lastUpdatedAt` | string |
 | `canonicalPath` | string |
 | `tenureTypeDisplay` | string |

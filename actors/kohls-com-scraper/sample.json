@@ -7,11 +7,11 @@
     "title": "Example title",
     "brand": "Example brand",
     "priceLabel": null,
-    "price": 34.11,
-    "priceMax": 33.7,
-    "wasPrice": null,
+    "price": 19.67,
+    "priceMax": 19.43,
+    "wasPrice": 73,
     "wasPriceMax": null,
-    "discountPercent": null,
+    "discountPercent": 93,
     "currency": "USD",
     "imageUrl": "https://media.kohlsimg.com/example/9493.jpg",
     "rating": 3.83,
@@ -25,10 +25,10 @@
     ],
     "position": 0,
     "description": "Example description: mock text standing in for the real value. Same field and type, made-up content.",
-    "sku": "48584172",
+    "sku": "01081752",
     "skus": [
-      "09118589",
-      "50749475"
+      "95948040",
+      "74911008"
     ],
     "availability": "Example availability",
     "sellers": [
@@ -50,8 +50,8 @@
     "category": "Clothing",
     "subcategory": "Bottoms",
     "colorsOutOfStock": [
-      "Olive",
-      "Burgundy"
+      "Navy",
+      "Olive"
     ],
     "sizes": [
       "Example sizes",
@@ -81,20 +81,20 @@
     ],
     "reviews": [
       {
-        "id": "914988267",
-        "productId": "5242170",
+        "id": "482746722",
+        "productId": "7236938",
         "rating": 9,
         "title": "Example title",
-        "text": "Example text",
+        "text": "Example text: mock text standing in for the real value. Same field and type, made-up content.",
         "author": "Example author",
-        "location": "Example location",
+        "location": null,
         "submissionTime": "2026-01-15T10:00:00Z",
         "lastModifiedTime": "2026-01-15T10:00:00Z",
         "verifiedPurchaser": true,
-        "isRecommended": true,
+        "isRecommended": null,
         "helpfulVotes": 0,
         "comments": [],
-        "fit": "3/5",
+        "fit": null,
         "size": null
       }
     ],

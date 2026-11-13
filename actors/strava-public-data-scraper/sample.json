@@ -85,5 +85,86 @@
     ],
     "participantsCount": 330963,
     "goalDescriptionDetail": "Example goal description detail"
+  },
+  {
+    "recordId": "Example record id",
+    "kind": "challenge",
+    "challengeId": "41988",
+    "name": "Example name",
+    "shortName": "Example short name",
+    "url": "https://www.strava.com/example/90489",
+    "slug": "november-9k-challenge-2077",
+    "sport": "run",
+    "goal": 3585,
+    "dimension": "Example dimension",
+    "sponsored": false,
+    "icon": "run",
+    "coverImageUrl": "https://dgalywyr863hv.cloudfront.net/example/35597.jpg",
+    "coverTitleText": null,
+    "logoUrl": "https://dgalywyr863hv.cloudfront.net/example/19734.jpg",
+    "logoTitleText": null,
+    "followersInChallenge": null,
+    "joined": false,
+    "externalJoinUrl": null,
+    "goalDescription": "Example goal description",
+    "rewardDescription": null,
+    "dateStart": "2026-01-15",
+    "dateEnd": "2026-01-15",
+    "raw": {
+      "id": 35213,
+      "url": "https://www.strava.com/example/90489",
+      "name": "Example name",
+      "sponsored": false,
+      "goal": 3585,
+      "dimension": "Example dimension",
+      "displayedIcon": "run",
+      "shortName": "Example short name",
+      "coverImageUrl": "https://dgalywyr863hv.cloudfront.net/example/35597.jpg",
+      "coverTitleText": "",
+      "logoUrl": "https://dgalywyr863hv.cloudfront.net/example/19734.jpg",
+      "logoTitleText": "",
+      "followersInChallenge": null,
+      "joined": false,
+      "externalJoinUrl": "",
+      "summaryBulletEntries": {
+        "goalDescription": {
+          "title": "Example title",
+          "icons": [
+            "Example icons"
+          ]
+        },
+        "duration": {
+          "title": "Example title",
+          "icons": [
+            "blank_xsmall"
+          ]
+        }
+      }
+    },
+    "subtitle": "Example subtitle",
+    "activityType": "streak",
+    "ended": false,
+    "completed": false,
+    "rewardButtonText": "Example reward button text",
+    "locale": "en-US",
+    "organizingClub": {
+      "clubId": "976299",
+      "name": "Example name",
+      "url": "https://www.strava.com/example/90489",
+      "verified": true,
+      "sportType": "workout",
+      "memberCount": 9592751,
+      "logoUrl": "https://dgalywyr863hv.cloudfront.net/example/19734.jpg"
+    },
+    "overviewText": "Example overview text: mock text standing in for the real value. Same field and type, made-up content.",
+    "rewardsText": "Example rewards text: mock text standing in for the real value. Same field and type, made-up content.",
+    "rulesText": "Example rules text: mock text standing in for the real value. Same field and type, made-up content.",
+    "additionalInfoText": "Example additional info text: mock text standing in for the real value. Same field and type, made-up content.",
+    "qualifyingActivities": [
+      "Example qualifying activities",
+      "Example qualifying activities"
+    ],
+    "participantsCount": 232343,
+    "goalDescriptionDetail": "Example goal description detail"
   }
 ]

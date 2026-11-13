@@ -1,8 +1,8 @@
-# OpenTable Reviews Scraper
+# OpenTable Scraper
 
 Scrape full OpenTable.com restaurant reviews by keyword, area, or restaurant profile URLs. Collect every available review with text, ratings, diner profile data, tags, photos, restaurant metadata, cuisines, neighborhood, and profile links in structured rows.
 
-**[Open OpenTable Reviews Scraper on Apify](https://apify.com/abotapi/opentable-reviews-scraper?utm_source=github&utm_medium=web-scrapers&utm_campaign=monorepo)** to run it without code and export JSON, CSV or Excel.
+**[Open OpenTable Scraper on Apify](https://apify.com/abotapi/opentable-reviews-scraper?utm_source=github&utm_medium=web-scrapers&utm_campaign=monorepo)** to run it without code and export JSON, CSV or Excel.
 
 ## Run it from code
 
@@ -43,6 +43,7 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~opentable-reviews-scraper
 | `neighborhoods` | array | Neighborhood filter |
 | `fromDinedDate` | string | Dined from |
 | `toDinedDate` | string | Dined to |
+| `dateTimezone` | string | Dined dates in timezone |
 | `fromReviewDate` | string | Posted from |
 | `toReviewDate` | string | Posted to |
 | `vipOnly` | boolean | VIP reviewers only |

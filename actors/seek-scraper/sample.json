@@ -1,6 +1,6 @@
 [
   {
-    "id": "68638778",
+    "id": "22459494",
     "url": "https://www.seek.com.au/example/2155",
     "jobLink": "https://www.seek.com.au/example/10066",
     "applyLink": "https://www.seek.com.au/example/90096",
@@ -11,29 +11,29 @@
     "content": "Example content: mock text standing in for the real value. Same field and type, made-up content.",
     "contentText": "Example content text: mock text standing in for the real value. Same field and type, made-up content.",
     "contentSections": [
-      "Example content sections: mock text standing in for the real value. Same field and type, made-up content.",
-      "Example content sections"
+      "Example content sections",
+      "Example content sections: mock text standing in for the real value. Same field and type, made-up content."
     ],
     "bulletPoints": [],
     "companyName": "Example company name",
-    "companyId": "520024",
+    "companyId": "631045886665570",
     "companyUrl": "https://au.seek.com/example/89226",
     "companyNameSlug": "id2464305",
     "companyProfileId": 617384,
     "companyOverview": null,
-    "companyIndustry": "Example company industry",
+    "companyIndustry": null,
     "companySize": null,
     "companyWebsite": null,
     "companySpecialities": [],
     "companyPrimaryLocation": null,
-    "companyLogo": "https://image-service-cdn.seek.com.au/example/68877.jpg",
-    "companyCoverImage": "https://image-service-cdn.seek.com.au/example/34700.jpg",
+    "companyLogo": null,
+    "companyCoverImage": null,
     "companyRating": null,
     "companyReviewCount": null,
     "companySalaryRating": null,
     "companyPerks": [],
     "companyAwards": [],
-    "advertiserId": "20662067",
+    "advertiserId": "02841239",
     "advertiserName": "Example advertiser name",
     "locationLabel": "Example location label",
     "locationSeoHierarchy": [
@@ -43,17 +43,17 @@
     "countryCode": "AU",
     "classifications": [
       {
-        "id": "4416",
+        "id": "4914",
         "label": "Example label",
-        "subId": "4114",
+        "subId": "7338",
         "subLabel": "Example sub label"
       }
     ],
     "classificationInfo": {
       "classification": "Example classification",
       "subClassification": "Example sub classification",
-      "classificationId": "3311",
-      "subClassificationId": "8108"
+      "classificationId": "9231",
+      "subClassificationId": "7782"
     },
     "workTypes": [
       "Example work types"

@@ -1,10 +1,10 @@
 [
   {
     "url": "https://www.thewarehouse.co.nz/example/3629",
-    "productId": "r8374797",
-    "sku": "r9986293",
-    "gtin": "9176775415623",
-    "mpn": "ta6235-sa",
+    "productId": "r1569660",
+    "sku": "r7379180",
+    "gtin": "1111557954928",
+    "mpn": "ta1625-sa",
     "title": "Example title",
     "brand": "Example brand",
     "description": "Example description",
@@ -13,8 +13,8 @@
       "homegarden",
       "Example breadcrumbs"
     ],
-    "price": 9.23,
-    "priceMax": 13.85,
+    "price": 58.79,
+    "priceMax": 88.19,
     "priceText": "Example price text",
     "currency": "NZD",
     "availability": "Example availability",
@@ -24,7 +24,7 @@
       "https://www.thewarehouse.co.nz/example/22250.jpg"
     ],
     "imageCount": 2,
-    "ratingValue": 5,
+    "ratingValue": 3.19,
     "ratingCount": null,
     "reviewCount": null,
     "categoryPath": [
@@ -46,12 +46,12 @@
       "@id": "https://www.thewarehouse.co.nz/example/85286",
       "name": "Example name",
       "description": "Example description",
-      "sku": "r9986293",
+      "sku": "r7379180",
       "brand": {
         "@type": "Brand",
         "name": "Example name"
       },
-      "mpn": "ta6235-sa",
+      "mpn": "ta1625-sa",
       "image": [
         "https://www.thewarehouse.co.nz/example/47559.jpg"
       ],
@@ -60,10 +60,10 @@
         "url": "https://www.thewarehouse.co.nz/example/3629",
         "availability": "http://schema.org/example/52799",
         "priceCurrency": "NZD",
-        "price": "90.85"
+        "price": "47.90"
       },
       "gtin13": [
-        "8314479669835"
+        "8727680068732"
       ]
     },
     "isOnSpecial": false,
@@ -74,9 +74,12 @@
       "Example features"
     ],
     "wasPrice": null,
-    "promotionFlags": null,
-    "isClearance": null,
-    "inStock": true,
+    "promotionFlags": [
+      "Example promotion flags",
+      "Example promotion flags: mock text standing in for the real value. Same field and type, made-up content."
+    ],
+    "isClearance": false,
+    "inStock": false,
     "sourceUrl": "https://www.thewarehouse.co.nz/example/65338",
     "scrapedAt": "2026-01-15T10:00:00Z"
   }

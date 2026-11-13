@@ -57,8 +57,10 @@ Full details on the [scraper page](https://apify.com/abotapi/dotproperty-com-ph-
 | `url` | string |
 | `source` | string |
 | `price` | integer |
+| `price_per_sqm` | integer |
 | `bedrooms` | integer |
 | `bathrooms` | integer |
+| `usable_area_sqm` | integer |
 | `agent_name` | string |
 | `agent_verified` | boolean |
 | `latitude` | float |
@@ -66,6 +68,7 @@ Full details on the [scraper page](https://apify.com/abotapi/dotproperty-com-ph-
 | `agent_phone` | string |
 | `title` | string |
 | `floor` | integer |
+| `land_area_sqm` | integer |
 | `facilities` | list |
 | `images` | list |
 | `image_count` | integer |
@@ -86,8 +89,9 @@ Full details on the [scraper page](https://apify.com/abotapi/dotproperty-com-ph-
 | `region` | string |
 | `city` | string |
 | `area` | string |
+| `floors` | integer |
+| `agent_location` | string |
 | `location_source` | string |
-| `scraped_at` | string |
 
 ---
 

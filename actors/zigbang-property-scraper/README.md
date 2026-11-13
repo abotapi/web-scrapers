@@ -17,7 +17,7 @@ python example.py
 ```bash
 curl -s -X POST "https://api.apify.com/v2/acts/abotapi~zigbang-property-scraper/run-sync-get-dataset-items?token=$APIFY_TOKEN" \
   -H 'Content-Type: application/json' \
-  -d '{"mode": "search", "query": "강남역", "serviceType": "oneroom", "maxItems": 10, "proxy": {"useApifyProxy": true}}'
+  -d '{"mode": "search", "query": "강남역", "serviceType": "oneroom", "sortBy": "none", "maxItems": 10, "proxy": {"useApifyProxy": true}}'
 ```
 
 ## Inputs
@@ -30,6 +30,12 @@ curl -s -X POST "https://api.apify.com/v2/acts/abotapi~zigbang-property-scraper/
 | `serviceType` | string | Listing type |
 | `subwayRadiusKm` | integer | Subway radius (km) |
 | `geohash` | string | Geohash cell (advanced) |
+| `lat` | number | Centre latitude |
+| `lng` | number | Centre longitude |
+| `precision` | integer | Geohash precision |
+| `ring` | integer | Neighbour rings |
+| `searchUrls` | array | Search list URLs |
+| `sortBy` | string | Sort results |
 | `salesTypes` | array | Deal types |
 | `depositMin` | integer | Min deposit (만원) |
 | `depositMax` | integer | Max deposit (만원) |
@@ -80,6 +86,12 @@ Full details on the [scraper page](https://apify.com/abotapi/zigbang-property-sc
 | `lat` | float |
 | `lng` | float |
 | `thumbnailUrl` | string |
+| `deposit_krw` | integer |
+| `rent_krw` | integer |
+| `currency` | string |
+| `rent_per_m2_krw` | integer |
+| `address_region` | string |
+| `address_jibun` | null |
 
 ---
 

@@ -69,9 +69,9 @@ Full details on the [scraper page](https://apify.com/abotapi/suumo-jp-scraper?ut
 | `rentDisplay` | string |
 | `mgmtFeeYen` | integer |
 | `depositYen` | integer |
-| `keyMoneyYen` | integer |
+| `keyMoneyYen` | null |
 | `layout` | string |
-| `areaSqm` | integer |
+| `areaSqm` | float |
 | `url` | string |
 | `sourceType` | string |
 | `sourceId` | string |
@@ -88,7 +88,6 @@ Full details on the [scraper page](https://apify.com/abotapi/suumo-jp-scraper?ut
 | `rent` | string |
 | `managementFee` | string |
 | `deposit` | string |
-| `keyMoney` | string |
 | `area` | string |
 | `price` | string |
 | `exclusiveArea` | string |

@@ -1,6 +1,6 @@
 # Subito.it Scraper
 
-Scrape Subito.it listings across cars, real estate, marketplace, jobs, and more. Search by keyword and filters or use Subito URLs. Returns prices, descriptions, photos, specs, seller details, location, 60+ fields, and optional seller reputation.
+Scrape Subito.it classifieds across cars, real estate, jobs, electronics and more. Search by keyword, filters or URL. Extract 60+ fields, including prices, descriptions, photos, specifications, seller details and locations, with optional seller ratings and reputation data.
 
 **[Open Subito.it Scraper on Apify](https://apify.com/abotapi/subito-it-scraper?utm_source=github&utm_medium=web-scrapers&utm_campaign=monorepo)** to run it without code and export JSON, CSV or Excel.
 

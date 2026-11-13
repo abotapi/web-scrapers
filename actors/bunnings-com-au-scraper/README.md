@@ -83,8 +83,8 @@ Full details on the [scraper page](https://apify.com/abotapi/bunnings-com-au-scr
 | `fsc` | string |
 | `productRanges` | list |
 | `offerTypes` | list |
-| `isRedemptionOffer` | null |
-| `promotion` | null |
+| `isRedemptionOffer` | boolean |
+| `promotion` | object |
 | `hasPromotion` | boolean |
 | `wasPrice` | null |
 | `savingsAmount` | null |
